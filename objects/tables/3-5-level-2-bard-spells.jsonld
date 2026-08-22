@@ -1,0 +1,332 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-5-level-2-bard-spells",
+  "@type": "Table",
+  "name": "Level 2 Bard Spells",
+  "slug": "3-5-level-2-bard-spells",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.5",
+    "heading": "Bard Spell List",
+    "lineStart": 2550,
+    "lineEnd": 2550
+  },
+  "columns": [
+    "Spell",
+    "School",
+    "Special"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Aid"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Animal Messenger"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "R"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Blindness/Deafness"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Calm Emotions"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Detect Thoughts"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Enhance Ability"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Enlarge/Reduce"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Enthrall"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Heat Metal"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Hold Person"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "Invisibility"
+        },
+        {
+          "value": "Illusion"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "Knock"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "Lesser Restoration"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "cells": [
+        {
+          "value": "Locate Animals or Plants"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "R"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "cells": [
+        {
+          "value": "Locate Object"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "cells": [
+        {
+          "value": "Magic Mouth"
+        },
+        {
+          "value": "Illusion"
+        },
+        {
+          "value": "R, M"
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "cells": [
+        {
+          "value": "Mirror Image"
+        },
+        {
+          "value": "Illusion"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "cells": [
+        {
+          "value": "See Invisibility"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "cells": [
+        {
+          "value": "Shatter"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "cells": [
+        {
+          "value": "Silence"
+        },
+        {
+          "value": "Illusion"
+        },
+        {
+          "value": "C, R"
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "cells": [
+        {
+          "value": "Suggestion"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "cells": [
+        {
+          "value": "Zone of Truth"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    }
+  ]
+}

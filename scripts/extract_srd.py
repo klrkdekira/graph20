@@ -23,6 +23,7 @@ from pathlib import Path
 from srdlib import (
     BASE,
     CHAPTERS,
+    CLASS_NAMES,
     COLLECTIONS,
     CONTEXT_IRI,
     SOURCE_FILE,
@@ -419,6 +420,169 @@ class Emitter:
         return record
 
 
+    # -- species / backgrounds / conditions ---------------------------------
+
+    def emit_species(self, block: Block):
+        locator = self.locator(block)
+        record = self.new_record(
+            "species", "Species", block.title, slugify(block.title), locator
+        )
+        for label, field in (
+            ("Creature Type", "creatureType"),
+            ("Size", "size"),
+            ("Speed", "speed"),
+        ):
+            found = re.search(rf"^{label}: (.+)$", block.body, re.M)
+            if found:
+                record[field] = found.group(1).strip()
+        traits = []
+        for paragraph in block.body.split("\n\n"):
+            m = re.match(r"^([A-Z][A-Za-z'’ -]{2,40})\. (.+)$", paragraph, re.S)
+            if m and not m.group(1).startswith(("Creature Type", "Size", "Speed")):
+                traits.append(
+                    {"name": m.group(1), "rulesText": m.group(2).strip()}
+                )
+            elif traits and not re.match(r"^(Creature Type|Size|Speed):", paragraph):
+                traits[-1]["rulesText"] += "\n\n" + paragraph.strip()
+        if traits:
+            record["traits"] = traits
+        record["rulesText"] = block.body
+        return record
+
+    def emit_background(self, block: Block):
+        locator = self.locator(block)
+        record = self.new_record(
+            "backgrounds", "Background", block.title, slugify(block.title), locator
+        )
+        for label, field in (
+            ("Ability Scores", "abilityScores"),
+            ("Feat", "feat"),
+            ("Skill Proficiencies", "skillProficiencies"),
+            ("Tool Proficiency", "toolProficiency"),
+            ("Equipment", "startingEquipment"),
+        ):
+            found = re.search(rf"^{label}: (.+)$", block.body, re.M)
+            if found:
+                record[field] = found.group(1).strip()
+        if "abilityScores" in record:
+            record["abilityScoreOptions"] = [
+                s.strip() for s in record["abilityScores"].split(",")
+            ]
+        record["rulesText"] = block.body
+        return record
+
+    def emit_condition(self, block: Block):
+        locator = self.locator(block)
+        name = re.sub(r"\s*\[Condition\]\s*$", "", block.title)
+        record = self.new_record(
+            "conditions", "Condition", name, slugify(name), locator
+        )
+        record["rulesText"] = block.body
+        return record
+
+    # -- classes and subclasses ---------------------------------------------
+
+    LEVEL_FEATURE_RE = re.compile(r"^Level (\d+): (.+)$")
+
+    def emit_class(self, blocks, index):
+        """Consume a class span starting at blocks[index]; returns next index."""
+        block = blocks[index]
+        class_name = block.title
+        locator = self.locator(block)
+        record = self.new_record(
+            "classes", "CharacterClass", class_name, slugify(class_name), locator
+        )
+        core = {}
+        table_match = TABLE_RE.search(block.body)
+        if table_match:
+            columns, rows = parse_html_table(table_match.group(0))
+            pairs = [columns] + [[c["value"] for c in r["cells"]] for r in rows]
+            for pair in pairs:
+                if len(pair) == 2:
+                    core[pair[0]] = pair[1]
+        if core:
+            record["coreTraits"] = core
+        prose_parts = [re.sub(r"^<table>.*</table>$", "", block.body, flags=re.M).strip()]
+        table_ids = []
+        features = []
+        current_subclass = None
+        subclass_records = []
+        index += 1
+        while index < len(blocks):
+            nxt = blocks[index]
+            if nxt.chapter != "Classes" or nxt.title in CLASS_NAMES:
+                break
+            feature = self.LEVEL_FEATURE_RE.match(nxt.title)
+            sub = re.match(rf"^{class_name} Subclass: (.+)$", nxt.title)
+            if sub:
+                sub_locator = self.locator(nxt)
+                current_subclass = self.new_record(
+                    "subclasses",
+                    "Subclass",
+                    sub.group(1),
+                    slugify(sub.group(1)),
+                    sub_locator,
+                )
+                current_subclass["parentClass"] = {"@id": record["@id"]}
+                current_subclass["parentClassName"] = class_name
+                current_subclass["rulesText"] = nxt.body
+                current_subclass["features"] = []
+                subclass_records.append((current_subclass, nxt))
+            elif feature:
+                entry_locator = dict(
+                    locator,
+                    heading=nxt.title,
+                    lineStart=nxt.line_start,
+                    lineEnd=nxt.line_end,
+                )
+                prose, ids = self.extract_tables(nxt, entry_locator)
+                entry = {
+                    "level": int(feature.group(1)),
+                    "name": feature.group(2),
+                    "rulesText": prose,
+                }
+                if ids:
+                    entry["relatedTables"] = [{"@id": t} for t in ids]
+                if current_subclass is not None:
+                    current_subclass["features"].append(entry)
+                else:
+                    features.append(entry)
+            elif nxt.title == f"{class_name} Spell List":
+                # Keep the spell list as its own Rule record and link it.
+                rule = self.emit_rule(nxt)
+                record["spellList"] = {"@id": rule["@id"]}
+            elif current_subclass is not None:
+                # Prose between subclass features folds into the subclass.
+                current_subclass["rulesText"] += (
+                    "\n\n" + f"{nxt.title}\n\n{nxt.body}".strip()
+                )
+            else:
+                entry_locator = dict(
+                    locator,
+                    heading=nxt.title,
+                    lineStart=nxt.line_start,
+                    lineEnd=nxt.line_end,
+                )
+                prose, ids = self.extract_tables(nxt, entry_locator)
+                prose_parts.append(f"{nxt.title}\n\n{prose}".strip())
+                table_ids.extend(ids)
+            index += 1
+        # Class span provenance covers everything consumed above.
+        end_block = blocks[index - 1]
+        locator["lineEnd"] = end_block.line_end
+        for sub_record, sub_block in subclass_records:
+            sub_last = sub_block
+            record.setdefault("subclasses", []).append({"@id": sub_record["@id"]})
+        if features:
+            record["features"] = features
+        if table_ids:
+            record["relatedTables"] = [{"@id": t} for t in table_ids]
+        record["rulesText"] = re.sub(
+            r"\n{3,}", "\n\n", "\n\n".join(p for p in prose_parts if p)
+        )
+        return index
+
+
 def parse_html_table(html: str):
     rows_raw = ROW_RE.findall(html)
     parsed_rows = []
@@ -571,6 +735,27 @@ def run_extraction(root: Path):
             index += 1
             continue
 
+        if chapter == "Classes" and block.title in CLASS_NAMES and first.startswith(
+            "Core "
+        ):
+            index = emitter.emit_class(blocks, index)
+            continue
+
+        if chapter == "Character Origins" and first.startswith("Creature Type:"):
+            emitter.emit_species(block)
+            index += 1
+            continue
+
+        if chapter == "Character Origins" and first.startswith("Ability Scores:"):
+            emitter.emit_background(block)
+            index += 1
+            continue
+
+        if chapter == "Rules Glossary" and block.title.endswith("[Condition]"):
+            emitter.emit_condition(block)
+            index += 1
+            continue
+
         if chapter == "Magic Items" and ITEM_RE.match(first):
             extras = []
             index += 1
@@ -623,6 +808,9 @@ def run_extraction(root: Path):
         emitter.emit_rule(block)
         index += 1
 
+    build_equipment(emitter)
+    enrich(emitter)
+
     # Reset output directories and write records.
     objects_dir = root / "objects"
     for collection in COLLECTIONS:
@@ -658,6 +846,216 @@ def run_extraction(root: Path):
     }
     dump_json(objects_dir / "sources" / "source-coverage.json", coverage)
     return counts
+
+
+COST_RE = re.compile(r"^([\d,/]+) (CP|SP|EP|GP|PP)$")
+DAMAGE_RE = re.compile(r"^(\d+(?:d\d+)?) ([A-Za-z]+)$")
+
+
+def parse_cost(text: str):
+    match = COST_RE.match(text.strip())
+    if not match:
+        return None
+    amount = match.group(1).replace(",", "")
+    value = float(amount) if "/" not in amount else None
+    if "/" in amount:
+        num, den = amount.split("/")
+        value = int(num) / int(den)
+    cost = {"text": text.strip(), "currency": match.group(2)}
+    cost["amount"] = int(value) if value == int(value) else value
+    return cost
+
+
+def split_outside_parens(text: str):
+    parts, depth, current = [], 0, ""
+    for char in text:
+        if char == "(":
+            depth += 1
+        elif char == ")":
+            depth -= 1
+        if char == "," and depth == 0:
+            parts.append(current.strip())
+            current = ""
+        else:
+            current += char
+    if current.strip():
+        parts.append(current.strip())
+    return parts
+
+
+def build_equipment(emitter: Emitter):
+    """Emit typed equipment records from the Weapons, Armor, and Adventuring
+    Gear tables (already preserved verbatim as Table records)."""
+
+    def find_tables(name):
+        return [
+            t
+            for t in emitter.records["tables"]
+            if t["name"] == name and t["sourceLocator"]["chapter"] == "Equipment"
+        ]
+
+    def new_item(name, table, equipment_type):
+        locator = dict(table["sourceLocator"])
+        record = emitter.new_record(
+            "equipment", "Equipment", name, slugify(name), locator
+        )
+        record["equipmentType"] = equipment_type
+        record["fromTable"] = {"@id": table["@id"]}
+        return record
+
+    for table in find_tables("Weapons"):
+        group = None
+        for row in table["rows"]:
+            cells = [c["value"] for c in row["cells"]]
+            if len(cells) == 1:
+                group = cells[0]
+                continue
+            if len(cells) != 6:
+                continue
+            name, damage, properties, mastery, weight, cost = cells
+            record = new_item(name, table, "weapon")
+            if group:
+                words = group.split()  # e.g. "Simple Melee Weapons"
+                record["weaponCategory"] = words[0]
+                record["attackType"] = words[1]
+            record["damage"] = damage
+            dm = DAMAGE_RE.match(damage)
+            if dm:
+                record["damageType"] = dm.group(2)
+                roll = parse_dice(dm.group(1))
+                if roll:
+                    record["damageRoll"] = roll
+            if properties and properties != "—":
+                record["properties"] = split_outside_parens(properties)
+            record["mastery"] = mastery
+            if weight != "—":
+                record["weight"] = weight
+            parsed_cost = parse_cost(cost)
+            if parsed_cost:
+                record["cost"] = parsed_cost
+
+    for table in find_tables("Armor"):
+        group = None
+        note = None
+        for row in table["rows"]:
+            cells = [c["value"] for c in row["cells"]]
+            if len(cells) == 1:
+                m = re.match(r"^(.*?)\s*(?:\((.+)\))?$", cells[0])
+                group, note = m.group(1), m.group(2)
+                continue
+            if len(cells) != 6:
+                continue
+            name, ac, strength, stealth, weight, cost = cells
+            record = new_item(name, table, "armor")
+            if group:
+                record["armorCategory"] = group.replace(" Armor", "")
+            if note:
+                record["donDoffTime"] = note
+            record["armorClass"] = ac
+            if strength != "—":
+                record["strengthRequirement"] = strength
+            if stealth != "—":
+                record["stealthEffect"] = stealth
+            if weight != "—":
+                record["weight"] = weight
+            parsed_cost = parse_cost(cost)
+            if parsed_cost:
+                record["cost"] = parsed_cost
+
+    for table in find_tables("Adventuring Gear"):
+        for row in table["rows"]:
+            cells = [c["value"] for c in row["cells"]]
+            if len(cells) != 3 or cells[0] == "Item":
+                continue
+            name, weight, cost = cells
+            record = new_item(name, table, "gear")
+            if weight != "—":
+                record["weight"] = weight
+            parsed_cost = parse_cost(cost)
+            if parsed_cost:
+                record["cost"] = parsed_cost
+
+
+ATTACK_RE = re.compile(
+    r"([A-Z][A-Za-z' ()-]{1,40})\. (Melee|Ranged|Melee or Ranged) Attack Roll: "
+    r"([+-]\d+), (?:reach (\d+) ft\.?|range (\d+)(?:/(\d+))? ?ft\.?|reach (\d+) ft\. "
+    r"or range (\d+)(?:/(\d+))? ?ft\.?)[.,]? Hit: (\d+) \(([^)]+)\) ([A-Za-z]+) damage",
+)
+SAVE_RE = re.compile(
+    r"(Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma) saving throw"
+)
+SPELL_DAMAGE_RE = re.compile(r"\b(\d+d\d+(?: ?[+-] ?\d+)?) ([A-Z][a-z]+) damage")
+
+
+def enrich(emitter: Emitter):
+    """Cross-link entities and add typed micro-format fields."""
+    class_ids = {r["name"]: r["@id"] for r in emitter.records["classes"]}
+    condition_names = {r["name"]: r["@id"] for r in emitter.records["conditions"]}
+
+    for spell in emitter.records["spells"]:
+        refs = [
+            {"@id": class_ids[name]}
+            for name in spell.get("classAvailability", [])
+            if name in class_ids
+        ]
+        if refs:
+            spell["classes"] = refs
+        save = SAVE_RE.search(spell["rulesText"])
+        if save:
+            spell["savingThrowAbility"] = save.group(1)
+        damages = []
+        for dice, dtype in SPELL_DAMAGE_RE.findall(spell["rulesText"]):
+            entry = {"damageType": dtype}
+            roll = parse_dice(dice.replace(" ", ""))
+            if roll:
+                entry["damageRoll"] = roll
+            else:
+                entry["expression"] = dice
+            if entry not in damages:
+                damages.append(entry)
+        if damages:
+            spell["damage"] = damages
+        spell["scalesWithSlotLevel"] = (
+            "Using a Higher-Level Spell Slot" in spell["rulesText"]
+        )
+        spell["concentration"] = spell.get("duration", "").startswith("Concentration")
+        spell["ritual"] = "Ritual" in spell.get("castingTime", "")
+
+    for monster in emitter.records["monsters"]:
+        linked = []
+        immunities = monster.get("immunities", "")
+        for name, cid in sorted(condition_names.items()):
+            if re.search(rf"\b{re.escape(name)}\b", immunities):
+                linked.append({"@id": cid})
+        if linked:
+            monster["conditionImmunities"] = linked
+        attacks = []
+        for section in monster.get("statSections", []):
+            if section["name"] not in ("Actions", "Bonus Actions", "Legendary Actions", "Reactions"):
+                continue
+            for m in ATTACK_RE.finditer(section["rulesText"].replace("\n", " ")):
+                attack = {
+                    "name": m.group(1).strip(),
+                    "attackType": m.group(2),
+                    "attackBonus": int(m.group(3)),
+                    "averageDamage": int(m.group(10)),
+                    "damageType": m.group(12),
+                }
+                roll = parse_dice(m.group(11).replace(" ", ""))
+                if roll:
+                    attack["damageRoll"] = roll
+                reach = m.group(4) or m.group(7)
+                if reach:
+                    attack["reachFeet"] = int(reach)
+                normal = m.group(5) or m.group(8)
+                if normal:
+                    attack["rangeFeet"] = {"normal": int(normal)}
+                    long = m.group(6) or m.group(9)
+                    if long:
+                        attack["rangeFeet"]["long"] = int(long)
+                attacks.append(attack)
+        if attacks:
+            monster["attacks"] = attacks
 
 
 def main():

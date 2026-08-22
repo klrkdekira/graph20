@@ -23,5 +23,13 @@
   "range": "60 feet",
   "components": "V, S",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Level 2 Evocation (Cleric)\n\nCasting Time: Bonus Action\n\nRange: 60 feet\n\nComponents: V, S\n\nDuration: Concentration, up to 1 minute\n\nYou create a floating, spectral force that resembles a weapon of your choice and lasts for the duration. The force appears within range in a space of your choice, and you can immediately make one melee spell attack against one creature within 5 feet of the force. On a hit, the target takes Force damage equal to 1d8 plus your spellcasting ability modifier.\n\nAs a Bonus Action on your later turns, you can move the force up to 20 feet and repeat the attack against a creature within 5 feet of it.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d8 for every slot level above 2."
+  "rulesText": "Level 2 Evocation (Cleric)\n\nCasting Time: Bonus Action\n\nRange: 60 feet\n\nComponents: V, S\n\nDuration: Concentration, up to 1 minute\n\nYou create a floating, spectral force that resembles a weapon of your choice and lasts for the duration. The force appears within range in a space of your choice, and you can immediately make one melee spell attack against one creature within 5 feet of the force. On a hit, the target takes Force damage equal to 1d8 plus your spellcasting ability modifier.\n\nAs a Bonus Action on your later turns, you can move the force up to 20 feet and repeat the attack against a creature within 5 feet of it.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d8 for every slot level above 2.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
+    }
+  ],
+  "scalesWithSlotLevel": true,
+  "concentration": true,
+  "ritual": false
 }

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.176",
     "heading": "Noble",
-    "lineStart": 23591,
-    "lineEnd": 23623
+    "lineStart": 23593,
+    "lineEnd": 23625
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -78,5 +78,21 @@
       "rulesText": "Parry. Trigger: The noble is hit by a melee attack roll while holding a weapon. Response: The noble adds 2 to its AC against that attack, possibly causing it to miss."
     }
   ],
-  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 15\n\nInitiative +1 (11)\n\nHP 9 (2d8)\n\nSpeed 30 ft.\n\nSkills Deception +5, Insight +4, Persuasion +5\n\nGear Breastplate, Rapier\n\nSenses Passive Perception 12\n\nLanguages Common plus two other languages\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nRapier. Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Piercing damage.\n\nReactions\n\nParry. Trigger: The noble is hit by a melee attack roll while holding a weapon. Response: The noble adds 2 to its AC against that attack, possibly causing it to miss."
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 15\n\nInitiative +1 (11)\n\nHP 9 (2d8)\n\nSpeed 30 ft.\n\nSkills Deception +5, Insight +4, Persuasion +5\n\nGear Breastplate, Rapier\n\nSenses Passive Perception 12\n\nLanguages Common plus two other languages\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nRapier. Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Piercing damage.\n\nReactions\n\nParry. Trigger: The noble is hit by a melee attack roll while holding a weapon. Response: The noble adds 2 to its AC against that attack, possibly causing it to miss.",
+  "attacks": [
+    {
+      "name": "Rapier",
+      "attackType": "Melee",
+      "attackBonus": 3,
+      "averageDamage": 5,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d8+1",
+        "count": 1,
+        "sides": 8,
+        "modifier": 1
+      },
+      "reachFeet": 5
+    }
+  ]
 }

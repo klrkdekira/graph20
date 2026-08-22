@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.12",
     "heading": "Brown Bear",
-    "lineStart": 27405,
-    "lineEnd": 27433
+    "lineStart": 27407,
+    "lineEnd": 27435
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -48,7 +48,9 @@
       "savingThrow": 1
     },
     "con": {
-      "score": 15
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
     },
     "int": {
       "score": 2,
@@ -61,7 +63,9 @@
       "savingThrow": 1
     },
     "cha": {
-      "score": 7
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
     }
   },
   "statSections": [
@@ -70,5 +74,35 @@
       "rulesText": "Multiattack. The bear makes one Bite attack and one Claw attack.\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition."
     }
   ],
-  "rulesText": "Large Beast, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 22 (3d10 + 6)\n\nSpeed 40 ft., Climb 30 ft.\n\nSkills Perception +3\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages None\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The bear makes one Bite attack and one Claw attack.\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition."
+  "rulesText": "Large Beast, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 22 (3d10 + 6)\n\nSpeed 40 ft., Climb 30 ft.\n\nSkills Perception +3\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages None\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The bear makes one Bite attack and one Claw attack.\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 7,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d8+3",
+        "count": 1,
+        "sides": 8,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Claw",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 5,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "1d4+3",
+        "count": 1,
+        "sides": 4,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    }
+  ]
 }

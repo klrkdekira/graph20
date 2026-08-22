@@ -23,5 +23,16 @@
   "castingTime": "Action",
   "range": "Touch",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Divination Cantrip (Cleric, Druid)\n\nCasting Time: Action\n\nRange: Touch\n\nComponent: V, S\n\nDuration: Concentration, up to 1 minute\n\nYou touch a willing creature and choose a skill. Until the spell ends, the creature adds 1d4 to any ability check using the chosen skill."
+  "rulesText": "Divination Cantrip (Cleric, Druid)\n\nCasting Time: Action\n\nRange: Touch\n\nComponent: V, S\n\nDuration: Concentration, up to 1 minute\n\nYou touch a willing creature and choose a skill. Until the spell ends, the creature adds 1d4 to any ability check using the chosen skill.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": true,
+  "ritual": false
 }

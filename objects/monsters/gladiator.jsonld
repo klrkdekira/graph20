@@ -79,5 +79,25 @@
       "rulesText": "Parry. Trigger: The gladiator is hit by a melee attack roll while holding a weapon. Response: The gladiator adds 3 to its AC against that attack, possibly causing it to miss."
     }
   ],
-  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 16\n\nInitiative +5 (15)\n\nHP 112 (15d8 + 45)\n\nSpeed 30 ft.\n\nSkills Athletics +10, Performance +5\n\nGear Shield, Spears (3), Studded Leather Armor\n\nSenses Passive Perception 11\n\nLanguages Common\n\nCR 5 (XP 1,800; PB +3)\n\nActions\n\nMultiattack. The gladiator makes three Spear attacks. It can replace one attack with a use of Shield Bash.\n\nSpear. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft. Hit: 11 (2d6 + 4) Piercing damage.\n\nShield Bash. Strength Saving Throw: DC 15, one creature within 5 feet that the gladiator can see. Failure: 9 (2d4 + 4) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition.\n\nReactions\n\nParry. Trigger: The gladiator is hit by a melee attack roll while holding a weapon. Response: The gladiator adds 3 to its AC against that attack, possibly causing it to miss."
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 16\n\nInitiative +5 (15)\n\nHP 112 (15d8 + 45)\n\nSpeed 30 ft.\n\nSkills Athletics +10, Performance +5\n\nGear Shield, Spears (3), Studded Leather Armor\n\nSenses Passive Perception 11\n\nLanguages Common\n\nCR 5 (XP 1,800; PB +3)\n\nActions\n\nMultiattack. The gladiator makes three Spear attacks. It can replace one attack with a use of Shield Bash.\n\nSpear. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft. Hit: 11 (2d6 + 4) Piercing damage.\n\nShield Bash. Strength Saving Throw: DC 15, one creature within 5 feet that the gladiator can see. Failure: 9 (2d4 + 4) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition.\n\nReactions\n\nParry. Trigger: The gladiator is hit by a melee attack roll while holding a weapon. Response: The gladiator adds 3 to its AC against that attack, possibly causing it to miss.",
+  "attacks": [
+    {
+      "name": "Spear",
+      "attackType": "Melee or Ranged",
+      "attackBonus": 7,
+      "averageDamage": 11,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d6+4",
+        "count": 2,
+        "sides": 6,
+        "modifier": 4
+      },
+      "reachFeet": 5,
+      "rangeFeet": {
+        "normal": 20,
+        "long": 60
+      }
+    }
+  ]
 }

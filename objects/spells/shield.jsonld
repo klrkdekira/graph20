@@ -24,5 +24,16 @@
   "range": "Self",
   "components": "V, S",
   "duration": "I round",
-  "rulesText": "Level 1 Abjuration (Sorcerer, Wizard)\n\nCasting Time: Reaction, which you take when you are hit by an attack roll or targeted by the Magic Missile spell\n\nRange: Self\n\nComponents: V, S\n\nDuration: I round\n\nAn imperceptible barrier of magical force protects you. Until the start of your next turn, you have a +5\n\nbonus to AC, including against the triggering attack, and you take no damage from Magic Missile."
+  "rulesText": "Level 1 Abjuration (Sorcerer, Wizard)\n\nCasting Time: Reaction, which you take when you are hit by an attack roll or targeted by the Magic Missile spell\n\nRange: Self\n\nComponents: V, S\n\nDuration: I round\n\nAn imperceptible barrier of magical force protects you. Until the start of your next turn, you have a +5\n\nbonus to AC, including against the triggering attack, and you take no damage from Magic Missile.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": false
 }

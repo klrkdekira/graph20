@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.22",
     "heading": "Elephant",
-    "lineStart": 27688,
-    "lineEnd": 27716
+    "lineStart": 27690,
+    "lineEnd": 27718
   },
   "sizeTypeAlignment": "Huge Beast, Unaligned",
   "sizeAndType": "Huge Beast",
@@ -77,5 +77,21 @@
       "rulesText": "Trample. Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 17 (2d10 + 6) Bludgeoning damage. Success: Half damage."
     }
   ],
-  "rulesText": "Huge Beast, Unaligned\n\nAC 12\n\nInitiative -1 (9)\n\nHP 76 (8d12 + 24)\n\nSpeed 40 ft.\n\nSenses Passive Perception 10\n\nLanguages None\n\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The elephant makes two Gore attacks.\n\nGore. Melee Attack Roll: +8, reach 5 ft. Hit: 15 (2d8 + 6) Piercing damage. If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.\n\nBonus Actions\n\nTrample. Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 17 (2d10 + 6) Bludgeoning damage. Success: Half damage."
+  "rulesText": "Huge Beast, Unaligned\n\nAC 12\n\nInitiative -1 (9)\n\nHP 76 (8d12 + 24)\n\nSpeed 40 ft.\n\nSenses Passive Perception 10\n\nLanguages None\n\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The elephant makes two Gore attacks.\n\nGore. Melee Attack Roll: +8, reach 5 ft. Hit: 15 (2d8 + 6) Piercing damage. If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.\n\nBonus Actions\n\nTrample. Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 17 (2d10 + 6) Bludgeoning damage. Success: Half damage.",
+  "attacks": [
+    {
+      "name": "Gore",
+      "attackType": "Melee",
+      "attackBonus": 8,
+      "averageDamage": 15,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d8+6",
+        "count": 2,
+        "sides": 8,
+        "modifier": 6
+      },
+      "reachFeet": 5
+    }
+  ]
 }

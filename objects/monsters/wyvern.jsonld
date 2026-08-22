@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.269",
     "heading": "Wyvern",
-    "lineStart": 26981,
-    "lineEnd": 27011
+    "lineStart": 26983,
+    "lineEnd": 27013
   },
   "sizeTypeAlignment": "Large Dragon, Unaligned",
   "sizeAndType": "Large Dragon",
@@ -74,5 +74,35 @@
       "rulesText": "Multiattack. The wyvern makes one Bite attack and one Sting attack.\n\nBite. Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Piercing damage.\n\nSting. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage plus 24 (7d6) Poison damage, and the target has the Poisoned condition until the start of the wyvern's next turn."
     }
   ],
-  "rulesText": "Large Dragon, Unaligned\n\nAC 14\n\nInitiative +0 (10)\n\nHP 127 (15d10 + 45)\n\nSpeed 30 ft., Fly 80 ft.\n\nSkills Perception +4\n\nSenses Darkvision 120 ft.; Passive Perception 14\n\nLanguages None\n\nCR 6 (XP 2,300; PB +3)\n\nActions\n\nMultiattack. The wyvern makes one Bite attack and one Sting attack.\n\nBite. Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Piercing damage.\n\nSting. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage plus 24 (7d6) Poison damage, and the target has the Poisoned condition until the start of the wyvern's next turn."
+  "rulesText": "Large Dragon, Unaligned\n\nAC 14\n\nInitiative +0 (10)\n\nHP 127 (15d10 + 45)\n\nSpeed 30 ft., Fly 80 ft.\n\nSkills Perception +4\n\nSenses Darkvision 120 ft.; Passive Perception 14\n\nLanguages None\n\nCR 6 (XP 2,300; PB +3)\n\nActions\n\nMultiattack. The wyvern makes one Bite attack and one Sting attack.\n\nBite. Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Piercing damage.\n\nSting. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage plus 24 (7d6) Poison damage, and the target has the Poisoned condition until the start of the wyvern's next turn.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "attackBonus": 7,
+      "averageDamage": 13,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d8+4",
+        "count": 2,
+        "sides": 8,
+        "modifier": 4
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Sting",
+      "attackType": "Melee",
+      "attackBonus": 7,
+      "averageDamage": 11,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d6+4",
+        "count": 2,
+        "sides": 6,
+        "modifier": 4
+      },
+      "reachFeet": 10
+    }
+  ]
 }

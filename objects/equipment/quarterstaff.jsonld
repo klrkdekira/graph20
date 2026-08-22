@@ -1,0 +1,40 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/quarterstaff",
+  "@type": "Equipment",
+  "name": "Quarterstaff",
+  "slug": "quarterstaff",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.26",
+    "heading": "Vex",
+    "lineStart": 5391,
+    "lineEnd": 5391
+  },
+  "equipmentType": "weapon",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-26-weapons"
+  },
+  "weaponCategory": "Simple",
+  "attackType": "Melee",
+  "damage": "1d6 Bludgeoning",
+  "damageType": "Bludgeoning",
+  "damageRoll": {
+    "expression": "1d6",
+    "count": 1,
+    "sides": 6
+  },
+  "properties": [
+    "Versatile (1d8)"
+  ],
+  "mastery": "Topple",
+  "weight": "4 lb.",
+  "cost": {
+    "text": "2 SP",
+    "currency": "SP",
+    "amount": 2
+  }
+}

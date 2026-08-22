@@ -23,5 +23,13 @@
   "range": "60 feet",
   "components": "V, S",
   "duration": "Concentration, up to 10 minutes",
-  "rulesText": "Level 8 Conjuration (Wizard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S\n\nDuration: Concentration, up to 10 minutes\n\nYou banish a creature that you can see within range into a labyrinthine demiplane. The target remains there for the duration or until it escapes the maze.\n\nThe target can take a Study action to try to escape. When it does so, it makes a DC 20 Intelligence (Investigation) check. If it succeeds, it escapes, and the spell ends.\n\nWhen the spell ends, the target reappears in the space it left or, if that space is occupied, in the nearest unoccupied space."
+  "rulesText": "Level 8 Conjuration (Wizard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S\n\nDuration: Concentration, up to 10 minutes\n\nYou banish a creature that you can see within range into a labyrinthine demiplane. The target remains there for the duration or until it escapes the maze.\n\nThe target can take a Study action to try to escape. When it does so, it makes a DC 20 Intelligence (Investigation) check. If it succeeds, it escapes, and the spell ends.\n\nWhen the spell ends, the target reappears in the space it left or, if that space is occupied, in the nearest unoccupied space.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": true,
+  "ritual": false
 }

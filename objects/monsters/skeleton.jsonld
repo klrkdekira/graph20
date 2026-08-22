@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.220",
     "heading": "Skeleton",
-    "lineStart": 25129,
-    "lineEnd": 25159
+    "lineStart": 25131,
+    "lineEnd": 25161
   },
   "sizeTypeAlignment": "Medium Undead, Lawful Evil",
   "sizeAndType": "Medium Undead",
@@ -76,5 +76,46 @@
       "rulesText": "Shortsword. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage.\n\nShortbow. Ranged Attack Roll: +5, range 80/320 ft. Hit: 6 (1d6 + 3) Piercing damage."
     }
   ],
-  "rulesText": "Medium Undead, Lawful Evil\n\nAC 14\n\nInitiative +3 (13)\n\nHP 13 (2d8 + 4)\n\nSpeed 30 ft.\n\nVulnerabilities Bludgeoning\n\nImmunities Poison; Exhaustion, Poisoned\n\nGear Shortbow, Shortsword\n\nSenses Darkvision 60 ft.; Passive Perception 9\n\nLanguages Understands Common plus one other language but can't speak\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nShortsword. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage.\n\nShortbow. Ranged Attack Roll: +5, range 80/320 ft. Hit: 6 (1d6 + 3) Piercing damage."
+  "rulesText": "Medium Undead, Lawful Evil\n\nAC 14\n\nInitiative +3 (13)\n\nHP 13 (2d8 + 4)\n\nSpeed 30 ft.\n\nVulnerabilities Bludgeoning\n\nImmunities Poison; Exhaustion, Poisoned\n\nGear Shortbow, Shortsword\n\nSenses Darkvision 60 ft.; Passive Perception 9\n\nLanguages Understands Common plus one other language but can't speak\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nShortsword. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage.\n\nShortbow. Ranged Attack Roll: +5, range 80/320 ft. Hit: 6 (1d6 + 3) Piercing damage.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/exhaustion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Shortsword",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 6,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d6+3",
+        "count": 1,
+        "sides": 6,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Shortbow",
+      "attackType": "Ranged",
+      "attackBonus": 5,
+      "averageDamage": 6,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d6+3",
+        "count": 1,
+        "sides": 6,
+        "modifier": 3
+      },
+      "rangeFeet": {
+        "normal": 80,
+        "long": 320
+      }
+    }
+  ]
 }

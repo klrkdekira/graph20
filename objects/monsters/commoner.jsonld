@@ -77,5 +77,20 @@
       "rulesText": "Club. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage."
     }
   ],
-  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 10\n\nInitiative +0 (10)\n\nHP 4 (1d8)\n\nSpeed 30 ft.\n\nGear Club\n\nSenses Passive Perception 10\n\nLanguages Common\n\nCR 0 (XP 10; PB +2)\n\nTraits\n\nTraining. The commoner has proficiency in one skill of the GM's choice and has Advantage whenever it makes an ability check using that skill.\n\nActions\n\nClub. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage."
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 10\n\nInitiative +0 (10)\n\nHP 4 (1d8)\n\nSpeed 30 ft.\n\nGear Club\n\nSenses Passive Perception 10\n\nLanguages Common\n\nCR 0 (XP 10; PB +2)\n\nTraits\n\nTraining. The commoner has proficiency in one skill of the GM's choice and has Advantage whenever it makes an ability check using that skill.\n\nActions\n\nClub. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage.",
+  "attacks": [
+    {
+      "name": "Club",
+      "attackType": "Melee",
+      "attackBonus": 2,
+      "averageDamage": 2,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "1d4",
+        "count": 1,
+        "sides": 4
+      },
+      "reachFeet": 5
+    }
+  ]
 }

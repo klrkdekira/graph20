@@ -22,5 +22,23 @@
   "castingTime": "Bonus Action, which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike",
   "range": "Self",
   "duration": "Instantaneous",
-  "rulesText": "Level 1 Evocation (Paladin)\n\nCasting Time: Bonus Action, which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike\n\nRange: Self\n\nComponent: V\n\nDuration: Instantaneous\n\nThe target takes an extra 2d8 Radiant damage from the attack. The damage increases by 1d8 if the target is a Fiend or an Undead.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 1."
+  "rulesText": "Level 1 Evocation (Paladin)\n\nCasting Time: Bonus Action, which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike\n\nRange: Self\n\nComponent: V\n\nDuration: Instantaneous\n\nThe target takes an extra 2d8 Radiant damage from the attack. The damage increases by 1d8 if the target is a Fiend or an Undead.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 1.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/paladin"
+    }
+  ],
+  "damage": [
+    {
+      "damageType": "Radiant",
+      "damageRoll": {
+        "expression": "2d8",
+        "count": 2,
+        "sides": 8
+      }
+    }
+  ],
+  "scalesWithSlotLevel": true,
+  "concentration": false,
+  "ritual": false
 }

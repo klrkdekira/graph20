@@ -73,5 +73,44 @@
       "rulesText": "Slash. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage."
     }
   ],
-  "rulesText": "Small Construct, Unaligned\n\nAC 17\n\nInitiative +4 (14)\n\nHP 14 (4d6)\n\nSpeed 5 ft., Fly 50 ft. (hover)\n\nImmunities Poison, Psychic; Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned\n\nSenses Blindsight 60 ft.; Passive Perception 7\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nSlash. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage."
+  "rulesText": "Small Construct, Unaligned\n\nAC 17\n\nInitiative +4 (14)\n\nHP 14 (4d6)\n\nSpeed 5 ft., Fly 50 ft. (hover)\n\nImmunities Poison, Psychic; Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned\n\nSenses Blindsight 60 ft.; Passive Perception 7\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nSlash. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/deafened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/exhaustion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/paralyzed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/petrified"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Slash",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 6,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "1d8+2",
+        "count": 1,
+        "sides": 8,
+        "modifier": 2
+      },
+      "reachFeet": 5
+    }
+  ]
 }

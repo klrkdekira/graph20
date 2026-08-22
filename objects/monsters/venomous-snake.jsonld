@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.92",
     "heading": "Venomous Snake",
-    "lineStart": 29785,
-    "lineEnd": 29807
+    "lineStart": 29787,
+    "lineEnd": 29809
   },
   "sizeTypeAlignment": "Tiny Beast, Unaligned",
   "sizeAndType": "Tiny Beast",
@@ -72,5 +72,21 @@
       "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage plus 3 (1d6) Poison damage."
     }
   ],
-  "rulesText": "Tiny Beast, Unaligned\n\nAC 12\n\nInitiative +2 (12)\n\nHP 5 (2d4)\n\nSpeed 30 ft., Swim 30 ft.\n\nSenses Blindsight 10 ft.; Passive Perception 10\n\nLanguages None\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage plus 3 (1d6) Poison damage."
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 12\n\nInitiative +2 (12)\n\nHP 5 (2d4)\n\nSpeed 30 ft., Swim 30 ft.\n\nSenses Blindsight 10 ft.; Passive Perception 10\n\nLanguages None\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage plus 3 (1d6) Poison damage.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 4,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d4+2",
+        "count": 1,
+        "sides": 4,
+        "modifier": 2
+      },
+      "reachFeet": 5
+    }
+  ]
 }

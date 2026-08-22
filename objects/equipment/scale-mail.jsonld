@@ -1,0 +1,31 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/scale-mail",
+  "@type": "Equipment",
+  "name": "Scale Mail",
+  "slug": "scale-mail",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.31",
+    "heading": "One at a Time",
+    "lineStart": 5423,
+    "lineEnd": 5423
+  },
+  "equipmentType": "armor",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-31-armor"
+  },
+  "armorCategory": "Medium",
+  "donDoffTime": "5 Minutes to Don and 1 Minute to Doff",
+  "armorClass": "14 + Dex modifier (max 2)",
+  "stealthEffect": "Disadvantage",
+  "weight": "45 lb.",
+  "cost": {
+    "text": "50 GP",
+    "currency": "GP",
+    "amount": 50
+  }
+}

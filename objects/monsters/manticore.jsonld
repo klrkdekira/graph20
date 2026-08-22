@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.157",
     "heading": "Manticore",
-    "lineStart": 22937,
-    "lineEnd": 22966
+    "lineStart": 22939,
+    "lineEnd": 22968
   },
   "sizeTypeAlignment": "Large Monstrosity, Lawful Evil",
   "sizeAndType": "Large Monstrosity",
@@ -47,7 +47,9 @@
       "savingThrow": 3
     },
     "con": {
-      "score": 17
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "int": {
       "score": 7,
@@ -60,7 +62,9 @@
       "savingThrow": 1
     },
     "cha": {
-      "score": 8
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
     }
   },
   "statSections": [
@@ -69,5 +73,38 @@
       "rulesText": "Multiattack. The manticore makes three attacks, using Rend or Tail Spike in any combination.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.\n\nTail Spike. Ranged Attack Roll: +5, range 100/200 ft.\nHit: 7 (1d8 + 3) Piercing damage."
     }
   ],
-  "rulesText": "Large Monstrosity, Lawful Evil\n\nAC 14\n\nInitiative +3 (13)\n\nHP 68 (8d10 + 24)\n\nSpeed 30 ft., Fly 50 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 11\n\nLanguages Common\n\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The manticore makes three attacks, using Rend or Tail Spike in any combination.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.\n\nTail Spike. Ranged Attack Roll: +5, range 100/200 ft.\nHit: 7 (1d8 + 3) Piercing damage."
+  "rulesText": "Large Monstrosity, Lawful Evil\n\nAC 14\n\nInitiative +3 (13)\n\nHP 68 (8d10 + 24)\n\nSpeed 30 ft., Fly 50 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 11\n\nLanguages Common\n\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The manticore makes three attacks, using Rend or Tail Spike in any combination.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.\n\nTail Spike. Ranged Attack Roll: +5, range 100/200 ft.\nHit: 7 (1d8 + 3) Piercing damage.",
+  "attacks": [
+    {
+      "name": "Rend",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 7,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "1d8+3",
+        "count": 1,
+        "sides": 8,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Tail Spike",
+      "attackType": "Ranged",
+      "attackBonus": 5,
+      "averageDamage": 7,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d8+3",
+        "count": 1,
+        "sides": 8,
+        "modifier": 3
+      },
+      "rangeFeet": {
+        "normal": 100,
+        "long": 200
+      }
+    }
+  ]
 }

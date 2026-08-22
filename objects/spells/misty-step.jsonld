@@ -25,5 +25,19 @@
   "range": "Self",
   "components": "V",
   "duration": "Instantaneous",
-  "rulesText": "Level 2 Conjuration (Sorcerer, Warlock, Wizard)\n\nCasting Time: Bonus Action\n\nRange: Self\n\nComponents: V\n\nDuration: Instantaneous\n\nBriefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space you can see."
+  "rulesText": "Level 2 Conjuration (Sorcerer, Warlock, Wizard)\n\nCasting Time: Bonus Action\n\nRange: Self\n\nComponents: V\n\nDuration: Instantaneous\n\nBriefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space you can see.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": false
 }

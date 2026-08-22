@@ -55,6 +55,64 @@
       "required": ["position", "cells"],
       "unevaluatedProperties": false
     },
+    "LevelFeature": {
+      "type": "object",
+      "properties": {
+        "level": { "type": "integer", "minimum": 1, "maximum": 20 },
+        "name": { "type": "string", "minLength": 1 },
+        "rulesText": { "type": "string" },
+        "relatedTables": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/NodeReference" }
+        }
+      },
+      "required": ["name", "rulesText"],
+      "unevaluatedProperties": false
+    },
+    "Cost": {
+      "type": "object",
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "amount": { "type": "number", "exclusiveMinimum": 0 },
+        "currency": { "enum": ["CP", "SP", "EP", "GP", "PP"] }
+      },
+      "required": ["text", "amount", "currency"],
+      "unevaluatedProperties": false
+    },
+    "Attack": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "attackType": { "enum": ["Melee", "Ranged", "Melee or Ranged"] },
+        "attackBonus": { "type": "integer" },
+        "reachFeet": { "type": "integer", "minimum": 0 },
+        "rangeFeet": {
+          "type": "object",
+          "properties": {
+            "normal": { "type": "integer", "minimum": 0 },
+            "long": { "type": "integer", "minimum": 0 }
+          },
+          "required": ["normal"],
+          "unevaluatedProperties": false
+        },
+        "averageDamage": { "type": "integer", "minimum": 0 },
+        "damageRoll": { "$ref": "#/$defs/DiceExpression" },
+        "damageType": { "type": "string", "minLength": 1 }
+      },
+      "required": ["name", "attackType", "attackBonus"],
+      "unevaluatedProperties": false
+    },
+    "SpellDamage": {
+      "type": "object",
+      "properties": {
+        "damageType": { "type": "string", "minLength": 1 },
+        "damageRoll": { "$ref": "#/$defs/DiceExpression" },
+        "expression": { "type": "string", "minLength": 1 }
+      },
+      "required": ["damageType"],
+      "unevaluatedProperties": false
+    },
     "AbilityEntry": {
       "type": "object",
       "properties": {

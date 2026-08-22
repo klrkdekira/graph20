@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.146",
     "heading": "Knight",
-    "lineStart": 22531,
-    "lineEnd": 22567
+    "lineStart": 22533,
+    "lineEnd": 22569
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -79,5 +79,42 @@
       "rulesText": "Parry. Trigger: The knight is hit by a melee attack roll while holding a weapon. Response: The knight adds 2 to its AC against that attack, possibly causing it to miss."
     }
   ],
-  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 18\n\nInitiative +0 (10)\n\nHP 52 (8d8 + 16)\n\nSpeed 30 ft.\n\nImmunities Frightened\n\nGear Greatsword, Heavy Crossbow, Plate Armor\n\nSenses Passive Perception 10\n\nLanguages Common plus one other language\n\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The knight makes two attacks, using Greatsword or Heavy Crossbow in any combination.\n\nGreatsword. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage plus 4 (1d8) Radiant damage.\n\nHeavy Crossbow. Ranged Attack Roll: +2, range 100/400 ft. Hit: 11 (2d10) Piercing damage plus 4 (1d8) Radiant damage.\n\nReactions\n\nParry. Trigger: The knight is hit by a melee attack roll while holding a weapon. Response: The knight adds 2 to its AC against that attack, possibly causing it to miss."
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 18\n\nInitiative +0 (10)\n\nHP 52 (8d8 + 16)\n\nSpeed 30 ft.\n\nImmunities Frightened\n\nGear Greatsword, Heavy Crossbow, Plate Armor\n\nSenses Passive Perception 10\n\nLanguages Common plus one other language\n\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The knight makes two attacks, using Greatsword or Heavy Crossbow in any combination.\n\nGreatsword. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage plus 4 (1d8) Radiant damage.\n\nHeavy Crossbow. Ranged Attack Roll: +2, range 100/400 ft. Hit: 11 (2d10) Piercing damage plus 4 (1d8) Radiant damage.\n\nReactions\n\nParry. Trigger: The knight is hit by a melee attack roll while holding a weapon. Response: The knight adds 2 to its AC against that attack, possibly causing it to miss.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Greatsword",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 10,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "2d6+3",
+        "count": 2,
+        "sides": 6,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Heavy Crossbow",
+      "attackType": "Ranged",
+      "attackBonus": 2,
+      "averageDamage": 11,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d10",
+        "count": 2,
+        "sides": 10
+      },
+      "rangeFeet": {
+        "normal": 100,
+        "long": 400
+      }
+    }
+  ]
 }

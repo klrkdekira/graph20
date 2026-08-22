@@ -76,5 +76,55 @@
       "rulesText": "Multiattack. The ettin makes one Battleaxe attack and one Morningstar attack.\n\nBattleaxe. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.\n\nMorningstar. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Piercing damage, and the target has Disadvantage on the next attack roll it makes before the end of its next turn."
     }
   ],
-  "rulesText": "Large Giant, Chaotic Evil\n\nAC 12\n\nInitiative -1 (9)\n\nHP 85 (10d10 + 30)\n\nSpeed 40 ft.\n\nSkills Perception +4\n\nImmunities Blinded, Charmed, Deafened, Frightened, Stunned, Unconscious\n\nGear Battleaxe, Morningstar\n\nSenses Darkvision 60 ft.; Passive Perception 14\n\nLanguages Giant\n\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The ettin makes one Battleaxe attack and one Morningstar attack.\n\nBattleaxe. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.\n\nMorningstar. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Piercing damage, and the target has Disadvantage on the next attack roll it makes before the end of its next turn."
+  "rulesText": "Large Giant, Chaotic Evil\n\nAC 12\n\nInitiative -1 (9)\n\nHP 85 (10d10 + 30)\n\nSpeed 40 ft.\n\nSkills Perception +4\n\nImmunities Blinded, Charmed, Deafened, Frightened, Stunned, Unconscious\n\nGear Battleaxe, Morningstar\n\nSenses Darkvision 60 ft.; Passive Perception 14\n\nLanguages Giant\n\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The ettin makes one Battleaxe attack and one Morningstar attack.\n\nBattleaxe. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.\n\nMorningstar. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Piercing damage, and the target has Disadvantage on the next attack roll it makes before the end of its next turn.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/blinded"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/deafened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/stunned"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Battleaxe",
+      "attackType": "Melee",
+      "attackBonus": 7,
+      "averageDamage": 14,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "2d8+5",
+        "count": 2,
+        "sides": 8,
+        "modifier": 5
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Morningstar",
+      "attackType": "Melee",
+      "attackBonus": 7,
+      "averageDamage": 14,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d8+5",
+        "count": 2,
+        "sides": 8,
+        "modifier": 5
+      },
+      "reachFeet": 5
+    }
+  ]
 }

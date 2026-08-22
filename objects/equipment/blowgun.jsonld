@@ -1,0 +1,36 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/blowgun",
+  "@type": "Equipment",
+  "name": "Blowgun",
+  "slug": "blowgun",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.26",
+    "heading": "Vex",
+    "lineStart": 5391,
+    "lineEnd": 5391
+  },
+  "equipmentType": "weapon",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-26-weapons"
+  },
+  "weaponCategory": "Martial",
+  "attackType": "Ranged",
+  "damage": "1 Piercing",
+  "damageType": "Piercing",
+  "properties": [
+    "Ammunition (Range 25/100; Needle)",
+    "Loading"
+  ],
+  "mastery": "Vex",
+  "weight": "1 lb.",
+  "cost": {
+    "text": "10 GP",
+    "currency": "GP",
+    "amount": 10
+  }
+}

@@ -24,5 +24,16 @@
   "range": "Self",
   "components": "V, S",
   "duration": "Concentration, up to 10 minutes",
-  "rulesText": "Level 1 Divination (Cleric, Paladin)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S\n\nDuration: Concentration, up to 10 minutes\n\nFor the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of yourself. You also sense whether the Hallow spell is active there and, if so, where.\n\nThe spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead."
+  "rulesText": "Level 1 Divination (Cleric, Paladin)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S\n\nDuration: Concentration, up to 10 minutes\n\nFor the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of yourself. You also sense whether the Hallow spell is active there and, if so, where.\n\nThe spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/paladin"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": true,
+  "ritual": false
 }

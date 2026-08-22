@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.151",
     "heading": "Lemure",
-    "lineStart": 22701,
-    "lineEnd": 22733
+    "lineStart": 22703,
+    "lineEnd": 22735
   },
   "sizeTypeAlignment": "Medium Fiend (Devil), Lawful Evil",
   "sizeAndType": "Medium Fiend (Devil)",
@@ -78,5 +78,31 @@
       "rulesText": "Vile Slime. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Poison damage."
     }
   ],
-  "rulesText": "Medium Fiend (Devil), Lawful Evil\n\nAC 9\n\nInitiative -3 (7)\n\nHP 9 (2d8)\n\nSpeed 20 ft.\n\nResistances Cold\nImmunities Fire, Poison; Charmed, Frightened, Poisoned\n\nSenses Darkvision 120 ft. (unimpeded by magical Darkness); Passive Perception 10\n\nLanguages Understands Infernal but can't speak\n\nCR 0 (XP 10; PB +2)\n\nTraits\n\nHellish Restoration. If the lemure dies in the Nine Hells, it revives with all its Hit Points in 1d10 days unless it is killed by a creature under the effects of a Bless spell or its remains are sprinkled with Holy Water.\n\nActions\n\nVile Slime. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Poison damage."
+  "rulesText": "Medium Fiend (Devil), Lawful Evil\n\nAC 9\n\nInitiative -3 (7)\n\nHP 9 (2d8)\n\nSpeed 20 ft.\n\nResistances Cold\nImmunities Fire, Poison; Charmed, Frightened, Poisoned\n\nSenses Darkvision 120 ft. (unimpeded by magical Darkness); Passive Perception 10\n\nLanguages Understands Infernal but can't speak\n\nCR 0 (XP 10; PB +2)\n\nTraits\n\nHellish Restoration. If the lemure dies in the Nine Hells, it revives with all its Hit Points in 1d10 days unless it is killed by a creature under the effects of a Bless spell or its remains are sprinkled with Holy Water.\n\nActions\n\nVile Slime. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Poison damage.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Vile Slime",
+      "attackType": "Melee",
+      "attackBonus": 2,
+      "averageDamage": 2,
+      "damageType": "Poison",
+      "damageRoll": {
+        "expression": "1d4",
+        "count": 1,
+        "sides": 4
+      },
+      "reachFeet": 5
+    }
+  ]
 }

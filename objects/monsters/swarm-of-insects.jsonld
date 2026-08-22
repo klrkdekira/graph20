@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.84",
     "heading": "Swarm of Insects",
-    "lineStart": 29531,
-    "lineEnd": 29563
+    "lineStart": 29533,
+    "lineEnd": 29565
   },
   "sizeTypeAlignment": "Medium Swarm of Tiny Beasts, Unaligned",
   "sizeAndType": "Medium Swarm of Tiny Beasts",
@@ -79,5 +79,47 @@
       "rulesText": "Bites. Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Poison damage, or 3 (1d4 + 1) Poison damage if the swarm is Bloodied."
     }
   ],
-  "rulesText": "Medium Swarm of Tiny Beasts, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 19 (3d8 + 6)\n\nSpeed 20 ft., Climb or Fly 20 ft. (GM's choice)\n\nResistances Bludgeoning, Piercing, Slashing\n\nImmunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned\n\nSenses Blindsight 30 ft.; Passive Perception 8\n\nLanguages None\n\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nSpider Climb. If the swarm has a Climb Speed, the swarm can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nSwarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain Hit Points or gain Temporary Hit Points.\n\nActions\n\nBites. Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Poison damage, or 3 (1d4 + 1) Poison damage if the swarm is Bloodied."
+  "rulesText": "Medium Swarm of Tiny Beasts, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 19 (3d8 + 6)\n\nSpeed 20 ft., Climb or Fly 20 ft. (GM's choice)\n\nResistances Bludgeoning, Piercing, Slashing\n\nImmunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned\n\nSenses Blindsight 30 ft.; Passive Perception 8\n\nLanguages None\n\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nSpider Climb. If the swarm has a Climb Speed, the swarm can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nSwarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain Hit Points or gain Temporary Hit Points.\n\nActions\n\nBites. Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Poison damage, or 3 (1d4 + 1) Poison damage if the swarm is Bloodied.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/paralyzed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/petrified"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/stunned"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Bites",
+      "attackType": "Melee",
+      "attackBonus": 3,
+      "averageDamage": 6,
+      "damageType": "Poison",
+      "damageRoll": {
+        "expression": "2d4+1",
+        "count": 2,
+        "sides": 4,
+        "modifier": 1
+      },
+      "reachFeet": 5
+    }
+  ]
 }

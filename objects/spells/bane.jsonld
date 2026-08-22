@@ -25,5 +25,20 @@
   "range": "30 feet",
   "components": "V, S, M (a drop of blood)",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Level 1 Enchantment (Bard, Cleric, Warlock)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V, S, M (a drop of blood)\n\nDuration: Concentration, up to 1 minute\n\nUp to three creatures of your choice that you can see within range must each make a Charisma saving throw. Whenever a target that fails this save makes an attack roll or a saving throw before the spell ends, the target must subtract 1d4 from the attack roll or save.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1."
+  "rulesText": "Level 1 Enchantment (Bard, Cleric, Warlock)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V, S, M (a drop of blood)\n\nDuration: Concentration, up to 1 minute\n\nUp to three creatures of your choice that you can see within range must each make a Charisma saving throw. Whenever a target that fails this save makes an attack roll or a saving throw before the spell ends, the target must subtract 1d4 from the attack roll or save.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+    }
+  ],
+  "savingThrowAbility": "Charisma",
+  "scalesWithSlotLevel": true,
+  "concentration": true,
+  "ritual": false
 }

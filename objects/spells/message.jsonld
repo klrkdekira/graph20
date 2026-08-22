@@ -26,5 +26,22 @@
   "range": "120 feet",
   "components": "S, M (a copper wire)",
   "duration": "I round",
-  "rulesText": "Transmutation Cantrip (Bard, Druid, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 120 feet\n\nComponents: S, M (a copper wire)\n\nDuration: I round\n\nYou point toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.\n\nYou can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence; 1 foot of stone, metal, or wood; or a thin sheet of lead blocks the spell."
+  "rulesText": "Transmutation Cantrip (Bard, Druid, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 120 feet\n\nComponents: S, M (a copper wire)\n\nDuration: I round\n\nYou point toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.\n\nYou can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence; 1 foot of stone, metal, or wood; or a thin sheet of lead blocks the spell.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": false
 }

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.156",
     "heading": "Magmin",
-    "lineStart": 22901,
-    "lineEnd": 22935
+    "lineStart": 22903,
+    "lineEnd": 22937
   },
   "sizeTypeAlignment": "Small Elemental, Chaotic Neutral",
   "sizeAndType": "Small Elemental",
@@ -82,5 +82,21 @@
       "rulesText": "Ignited Illumination. The magmin sets itself ablaze or extinguishes its flames. While ablaze, the magmin sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet."
     }
   ],
-  "rulesText": "Small Elemental, Chaotic Neutral\n\nAC 14\n\nInitiative +2 (12)\n\nHP 13 (3d6 + 3)\n\nSpeed 30 ft.\n\nImmunities Fire\n\nSenses Darkvision 60 ft.; Passive Perception 10\n\nLanguages Primordial (Ignan)\n\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nDeath Burst. The magmin explodes when it dies. Dexterity Saving Throw: DC 11, each creature in a 10-foot Emanation originating from the magmin. Failure: 7 (2d6) Fire damage. Success: Half damage.\n\nActions\n\nTouch. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Fire damage. If the target is a creature or a flammable object that isn't being worn or carried, it starts burning.\n\nBonus Actions\n\nIgnited Illumination. The magmin sets itself ablaze or extinguishes its flames. While ablaze, the magmin sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet."
+  "rulesText": "Small Elemental, Chaotic Neutral\n\nAC 14\n\nInitiative +2 (12)\n\nHP 13 (3d6 + 3)\n\nSpeed 30 ft.\n\nImmunities Fire\n\nSenses Darkvision 60 ft.; Passive Perception 10\n\nLanguages Primordial (Ignan)\n\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nDeath Burst. The magmin explodes when it dies. Dexterity Saving Throw: DC 11, each creature in a 10-foot Emanation originating from the magmin. Failure: 7 (2d6) Fire damage. Success: Half damage.\n\nActions\n\nTouch. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Fire damage. If the target is a creature or a flammable object that isn't being worn or carried, it starts burning.\n\nBonus Actions\n\nIgnited Illumination. The magmin sets itself ablaze or extinguishes its flames. While ablaze, the magmin sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.",
+  "attacks": [
+    {
+      "name": "Touch",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 7,
+      "damageType": "Fire",
+      "damageRoll": {
+        "expression": "2d4+2",
+        "count": 2,
+        "sides": 4,
+        "modifier": 2
+      },
+      "reachFeet": 5
+    }
+  ]
 }

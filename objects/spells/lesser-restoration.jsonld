@@ -27,5 +27,25 @@
   "range": "Touch",
   "components": "V, S",
   "duration": "Instantaneous",
-  "rulesText": "Level 2 Abjuration (Bard, Cleric, Druid, Paladin, Ranger)\n\nCasting Time: Bonus Action\n\nRange: Touch\n\nComponents: V, S\n\nDuration: Instantaneous\n\nYou touch a creature and end one condition on it: Blinded, Deafened, Paralyzed, or Poisoned."
+  "rulesText": "Level 2 Abjuration (Bard, Cleric, Druid, Paladin, Ranger)\n\nCasting Time: Bonus Action\n\nRange: Touch\n\nComponents: V, S\n\nDuration: Instantaneous\n\nYou touch a creature and end one condition on it: Blinded, Deafened, Paralyzed, or Poisoned.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/paladin"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/ranger"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": false
 }

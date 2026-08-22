@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.93",
     "heading": "Vulture",
-    "lineStart": 29809,
-    "lineEnd": 29837
+    "lineStart": 29811,
+    "lineEnd": 29839
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
@@ -78,5 +78,20 @@
       "rulesText": "Beak. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Piercing damage."
     }
   ],
-  "rulesText": "Medium Beast, Unaligned\n\nAC 10\n\nInitiative +0 (10)\n\nHP 5 (1d8 + 1)\n\nSpeed 10 ft., Fly 50 ft.\n\nSkills Perception +3\n\nSenses Passive Perception 13\n\nLanguages None\n\nCR 0 (XP 10; PB +2)\n\nTraits\n\nPack Tactics. The vulture has Advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBeak. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Piercing damage."
+  "rulesText": "Medium Beast, Unaligned\n\nAC 10\n\nInitiative +0 (10)\n\nHP 5 (1d8 + 1)\n\nSpeed 10 ft., Fly 50 ft.\n\nSkills Perception +3\n\nSenses Passive Perception 13\n\nLanguages None\n\nCR 0 (XP 10; PB +2)\n\nTraits\n\nPack Tactics. The vulture has Advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBeak. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Piercing damage.",
+  "attacks": [
+    {
+      "name": "Beak",
+      "attackType": "Melee",
+      "attackBonus": 2,
+      "averageDamage": 2,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d4",
+        "count": 1,
+        "sides": 4
+      },
+      "reachFeet": 5
+    }
+  ]
 }

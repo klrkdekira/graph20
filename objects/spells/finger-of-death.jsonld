@@ -25,5 +25,31 @@
   "range": "60 feet",
   "components": "V, S",
   "duration": "Instantaneous",
-  "rulesText": "Level 7 Necromancy (Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S\n\nDuration: Instantaneous\n\nYou unleash negative energy toward a creature you can see within range. The target makes a Constitution saving throw, taking 7d8 + 30 Necrotic damage on a failed save or half as much damage on a successful one.\n\nA Humanoid killed by this spell rises at the start of your next turn as a Zombie (see “Monsters”) that follows your verbal orders."
+  "rulesText": "Level 7 Necromancy (Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S\n\nDuration: Instantaneous\n\nYou unleash negative energy toward a creature you can see within range. The target makes a Constitution saving throw, taking 7d8 + 30 Necrotic damage on a failed save or half as much damage on a successful one.\n\nA Humanoid killed by this spell rises at the start of your next turn as a Zombie (see “Monsters”) that follows your verbal orders.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "savingThrowAbility": "Constitution",
+  "damage": [
+    {
+      "damageType": "Necrotic",
+      "damageRoll": {
+        "expression": "7d8+30",
+        "count": 7,
+        "sides": 8,
+        "modifier": 30
+      }
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": false
 }

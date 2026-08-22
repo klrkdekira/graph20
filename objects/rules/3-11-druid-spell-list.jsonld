@@ -1,0 +1,51 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-11-druid-spell-list",
+  "@type": "Rule",
+  "name": "Druid Spell List",
+  "slug": "3-11-druid-spell-list",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.11",
+    "heading": "Druid Spell List",
+    "lineStart": 2942,
+    "lineEnd": 2984
+  },
+  "section": "3.11",
+  "rulesText": "This section presents the Druid spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, $C$ means the spell requires Concentration, $R$ means it's a Ritual, and $M$ means it requires a specific Material component.\n\nCantrips (Level 0 Druid Spells)\n\nLevel 1 Druid Spells\n\nLevel 2 Druid Spells\n\nLevel 3 Druid Spells\n\nLevel 4 Druid Spells\n\nLevel 5 Druid Spells\n\nLevel 6 Druid Spells\n\nLevel 7 Druid Spells\n\nLevel 8 Druid Spells\n\nLevel 9 Druid Spells",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-11-cantrips-level-0-druid-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-11-level-1-druid-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-11-level-2-druid-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-11-level-3-druid-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-11-level-4-druid-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-11-level-5-druid-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-11-level-6-druid-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-11-level-7-druid-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-11-level-8-druid-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-11-level-9-druid-spells"
+    }
+  ]
+}

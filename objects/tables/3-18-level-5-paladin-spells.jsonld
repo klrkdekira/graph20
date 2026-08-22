@@ -1,0 +1,80 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-18-level-5-paladin-spells",
+  "@type": "Table",
+  "name": "Level 5 Paladin Spells",
+  "slug": "3-18-level-5-paladin-spells",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.18",
+    "heading": "Paladin Spell List",
+    "lineStart": 3522,
+    "lineEnd": 3522
+  },
+  "columns": [
+    "Spell",
+    "School",
+    "Special"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Dispel Evil and Good"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Geas"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Greater Restoration"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Raise Dead"
+        },
+        {
+          "value": "Necromancy"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    }
+  ]
+}

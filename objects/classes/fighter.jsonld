@@ -1,0 +1,114 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/classes/fighter",
+  "@type": "CharacterClass",
+  "name": "Fighter",
+  "slug": "fighter",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.13",
+    "heading": "Fighter",
+    "lineStart": 3038,
+    "lineEnd": 3170
+  },
+  "coreTraits": {
+    "Primary Ability": "Strength or Dexterity",
+    "Hit Point Die": "D10 per Fighter level",
+    "Saving Throw Proficiencies": "Strength and Constitution",
+    "Skill Proficiencies": "Choose 2: Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Persuasion, Perception, or Survival",
+    "Weapon Proficiencies": "Simple and Martial weapons",
+    "Armor Training": "Light, Medium, and Heavy armor and Shields",
+    "Starting Equipment": "Choose A, B, or C: (A) Chain Mail, Greatsword, Flail, 8 Javelins, Dungeoneer’s Pack, and 4 GP; (B) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Dungeoneer’s Pack, and II GP; or (C) 155 GP"
+  },
+  "subclasses": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/subclasses/champion"
+    }
+  ],
+  "features": [
+    {
+      "level": 1,
+      "name": "Fighting Style",
+      "rulesText": "You have honed your martial prowess and gain a Fighting Style feat of your choice (see “Feats”). Defense is recommended.\n\nWhenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat.\n\nFighter Features",
+      "relatedTables": [
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/tables/3-13-fighter-features"
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Second Wind",
+      "rulesText": "You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 plus your Fighter level.\n\nYou can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.\n\nWhen you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter Features table."
+    },
+    {
+      "level": 1,
+      "name": "Weapon Mastery",
+      "rulesText": "Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.\n\nWhen you reach certain Fighter levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter Features table."
+    },
+    {
+      "level": 2,
+      "name": "Action Surge",
+      "rulesText": "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the Magic action.\n\nOnce you use this feature, you can't do so again until you finish a Short or Long Rest. Starting at level 17, you can use it twice before a rest but only once on a turn."
+    },
+    {
+      "level": 2,
+      "name": "Tactical Mind",
+      "rulesText": "You have a mind for tactics on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining Hit Points, you roll 1d10 and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind isn't expended."
+    },
+    {
+      "level": 3,
+      "name": "Fighter Subclass",
+      "rulesText": "You gain a Fighter subclass of your choice. The Champion subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Fighter levels. For the rest of your career, you gain each of your subclass's features that are of your Fighter level or lower."
+    },
+    {
+      "level": 4,
+      "name": "Ability Score Improvement",
+      "rulesText": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Fighter levels 6, 8, 12, 14, and 16."
+    },
+    {
+      "level": 5,
+      "name": "Extra Attack",
+      "rulesText": "You can attack twice instead of once whenever you take the Attack action on your turn."
+    },
+    {
+      "level": 5,
+      "name": "Tactical Shift",
+      "rulesText": "Whenever you activate your Second Wind with a Bonus Action, you can move up to half your Speed without provoking Opportunity Attacks."
+    },
+    {
+      "level": 9,
+      "name": "Indomitable",
+      "rulesText": "If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level. You must use the new roll, and you can't use this feature again until you finish a Long Rest.\n\nYou can use this feature twice before a Long Rest starting at level 13 and three times before a Long Rest starting at level 17."
+    },
+    {
+      "level": 9,
+      "name": "Tactical Master",
+      "rulesText": "When you attack with a weapon whose mastery property you can use, you can replace that property with the Push, Sap, or Slow property for that attack."
+    },
+    {
+      "level": 11,
+      "name": "Two Extra Attacks",
+      "rulesText": "You can attack three times instead of once whenever you take the Attack action on your turn."
+    },
+    {
+      "level": 13,
+      "name": "Studied Attacks",
+      "rulesText": "You study your opponents and learn from each attack you make. If you make an attack roll against a creature and miss, you have Advantage on your next attack roll against that creature before the end of your next turn."
+    },
+    {
+      "level": 19,
+      "name": "Epic Boon",
+      "rulesText": "You gain an Epic Boon feat (see “Feats”) or another feat of your choice for which you qualify. Boon of Combat Prowess is recommended."
+    },
+    {
+      "level": 20,
+      "name": "Three Extra Attacks",
+      "rulesText": "You can attack four times instead of once whenever you take the Attack action on your turn."
+    }
+  ],
+  "rulesText": "Core Fighter Traits\n\nBecoming a Fighter ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Fighter Traits table.  \n- Gain the Fighter's level 1 features, which are listed in the Fighter Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Fighter Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.  \n- Gain the Fighter's level 1 features, which are listed in the Fighter Features table.\n\nFighter Class Features\n\nAs a Fighter, you gain the following class features when you reach the specified Fighter levels. These features are listed on the Fighter Features table."
+}

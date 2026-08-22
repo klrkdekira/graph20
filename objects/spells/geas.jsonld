@@ -27,5 +27,36 @@
   "range": "60 feet",
   "components": "V",
   "duration": "30 days",
-  "rulesText": "Level 5 Enchantment (Bard, Cleric, Druid, Paladin, Wizard)\n\nCasting Time: 1 minute\n\nRange: 60 feet\n\nComponents: V\n\nDuration: 30 days\n\nYou give a verbal command to a creature that you can see within range, ordering it to carry out some service or refrain from an action or a course of activity as you decide. The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration. The target automatically succeeds if it can't understand your command.\n\nWhile Charmed, the creature takes 5d10 Psychic damage if it acts in a manner directly counter to your command. It takes this damage no more than once each day.\n\nYou can issue any command you choose, short of an activity that would result in certain death. Should you issue a suicidal command, the spell ends.\n\nA Remove Curse, Greater Restoration, or Wish spell ends this spell.\n\nUsing a Higher-Level Spell Slot. If you use a level 7 or 8 spell slot, the duration is 365 days. If you use a level 9 spell slot, the spell lasts until it is ended by one of the spells mentioned above."
+  "rulesText": "Level 5 Enchantment (Bard, Cleric, Druid, Paladin, Wizard)\n\nCasting Time: 1 minute\n\nRange: 60 feet\n\nComponents: V\n\nDuration: 30 days\n\nYou give a verbal command to a creature that you can see within range, ordering it to carry out some service or refrain from an action or a course of activity as you decide. The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration. The target automatically succeeds if it can't understand your command.\n\nWhile Charmed, the creature takes 5d10 Psychic damage if it acts in a manner directly counter to your command. It takes this damage no more than once each day.\n\nYou can issue any command you choose, short of an activity that would result in certain death. Should you issue a suicidal command, the spell ends.\n\nA Remove Curse, Greater Restoration, or Wish spell ends this spell.\n\nUsing a Higher-Level Spell Slot. If you use a level 7 or 8 spell slot, the duration is 365 days. If you use a level 9 spell slot, the spell lasts until it is ended by one of the spells mentioned above.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/paladin"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "savingThrowAbility": "Wisdom",
+  "damage": [
+    {
+      "damageType": "Psychic",
+      "damageRoll": {
+        "expression": "5d10",
+        "count": 5,
+        "sides": 10
+      }
+    }
+  ],
+  "scalesWithSlotLevel": true,
+  "concentration": false,
+  "ritual": false
 }

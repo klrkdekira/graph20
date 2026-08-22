@@ -25,5 +25,19 @@
   "range": "Self",
   "components": "V, S, M (fur from a bloodhound)",
   "duration": "Instantaneous",
-  "rulesText": "Level 2 Divination (Bard, Druid, Ranger)\n\nCasting Time: Action or Ritual\n\nRange: Self\n\nComponents: V, S, M (fur from a bloodhound)\n\nDuration: Instantaneous\n\nDescribe or name a specific kind of Beast, Plant creature, or nonmagical plant. You learn the direction and distance to the closest creature or plant of that kind within 5 miles, if any are present."
+  "rulesText": "Level 2 Divination (Bard, Druid, Ranger)\n\nCasting Time: Action or Ritual\n\nRange: Self\n\nComponents: V, S, M (fur from a bloodhound)\n\nDuration: Instantaneous\n\nDescribe or name a specific kind of Beast, Plant creature, or nonmagical plant. You learn the direction and distance to the closest creature or plant of that kind within 5 miles, if any are present.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/ranger"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": true
 }

@@ -1,0 +1,234 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-8-level-1-cleric-spells",
+  "@type": "Table",
+  "name": "Level 1 Cleric Spells",
+  "slug": "3-8-level-1-cleric-spells",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.8",
+    "heading": "Cleric Spell List",
+    "lineStart": 2726,
+    "lineEnd": 2726
+  },
+  "columns": [
+    "Spell",
+    "School",
+    "Special"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Bane"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Bless"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "C, M"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Command"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Create or Destroy Water"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Cure Wounds"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Detect Evil and Good"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Detect Magic"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "C, R"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Detect Poison and Disease"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "C, R"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Guiding Bolt"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Healing Word"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "Inflict Wounds"
+        },
+        {
+          "value": "Necromancy"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "Protection from Evil and Good"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "C, M"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "Purify Food and Drink"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "R"
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "cells": [
+        {
+          "value": "Sanctuary"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "cells": [
+        {
+          "value": "Shield of Faith"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    }
+  ]
+}

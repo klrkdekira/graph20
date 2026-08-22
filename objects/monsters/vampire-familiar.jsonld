@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.246",
     "heading": "Vampire Familiar",
-    "lineStart": 26086,
-    "lineEnd": 26126
+    "lineStart": 26088,
+    "lineEnd": 26128
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral Evil",
   "sizeAndType": "Medium or Small Humanoid",
@@ -85,5 +85,30 @@
       "rulesText": "Deathless Agility. The familiar takes the Dash or Disengage action."
     }
   ],
-  "rulesText": "Medium or Small Humanoid, Neutral Evil\n\nAC 15\n\nInitiative +5 (15)\n\nHP 65 (10d8 + 20)\n\nSpeed 30 ft., Climb 30 ft.\n\nSkills Perception +4, Persuasion +4, Stealth +7\n\nResistances Necrotic\n\nImmunities Charmed (except from its vampire master)\n\nGear Daggers (10)\n\nSenses Darkvision 60 ft.; Passive Perception 14\n\nLanguages Common plus one other language\n\nCR 3 (XP 700; PB +2)\n\nTraits\n\nVampiric Connection. While the familiar and its vampire master are on the same plane of existence, the vampire can communicate with the familiar telepathically, and the vampire can perceive through the familiar's senses.\n\nActions\n\nMultiattack. The familiar makes two Umbral Dagger attacks.\n\nUmbral Dagger. Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft. Hit: 5 (1d4 + 3) Piercing damage plus 7 (3d4) Necrotic damage. If the target is reduced to 0 Hit Points by this attack, the target becomes Stable but has the Poisoned condition for 1 hour. While it has the Poisoned condition, the target has the Paralyzed condition.\n\nBonus Actions\n\nDeathless Agility. The familiar takes the Dash or Disengage action."
+  "rulesText": "Medium or Small Humanoid, Neutral Evil\n\nAC 15\n\nInitiative +5 (15)\n\nHP 65 (10d8 + 20)\n\nSpeed 30 ft., Climb 30 ft.\n\nSkills Perception +4, Persuasion +4, Stealth +7\n\nResistances Necrotic\n\nImmunities Charmed (except from its vampire master)\n\nGear Daggers (10)\n\nSenses Darkvision 60 ft.; Passive Perception 14\n\nLanguages Common plus one other language\n\nCR 3 (XP 700; PB +2)\n\nTraits\n\nVampiric Connection. While the familiar and its vampire master are on the same plane of existence, the vampire can communicate with the familiar telepathically, and the vampire can perceive through the familiar's senses.\n\nActions\n\nMultiattack. The familiar makes two Umbral Dagger attacks.\n\nUmbral Dagger. Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft. Hit: 5 (1d4 + 3) Piercing damage plus 7 (3d4) Necrotic damage. If the target is reduced to 0 Hit Points by this attack, the target becomes Stable but has the Poisoned condition for 1 hour. While it has the Poisoned condition, the target has the Paralyzed condition.\n\nBonus Actions\n\nDeathless Agility. The familiar takes the Dash or Disengage action.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Umbral Dagger",
+      "attackType": "Melee or Ranged",
+      "attackBonus": 5,
+      "averageDamage": 5,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d4+3",
+        "count": 1,
+        "sides": 4,
+        "modifier": 3
+      },
+      "reachFeet": 5,
+      "rangeFeet": {
+        "normal": 20,
+        "long": 60
+      }
+    }
+  ]
 }

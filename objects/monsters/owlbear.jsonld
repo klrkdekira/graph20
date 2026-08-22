@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.181",
     "heading": "Owlbear",
-    "lineStart": 23776,
-    "lineEnd": 23804
+    "lineStart": 23778,
+    "lineEnd": 23806
   },
   "sizeTypeAlignment": "Large Monstrosity, Unaligned",
   "sizeAndType": "Large Monstrosity",
@@ -74,5 +74,21 @@
       "rulesText": "Multiattack. The owlbear makes two Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Slashing damage."
     }
   ],
-  "rulesText": "Large Monstrosity, Unaligned\n\nAC 13\n\nInitiative +1 (11)\n\nHP 59 (7d10 + 21)\n\nSpeed 40 ft., Climb 40 ft.\n\nSkills Perception +5\n\nSenses Darkvision 60 ft.; Passive Perception 15\n\nLanguages None\n\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The owlbear makes two Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Slashing damage."
+  "rulesText": "Large Monstrosity, Unaligned\n\nAC 13\n\nInitiative +1 (11)\n\nHP 59 (7d10 + 21)\n\nSpeed 40 ft., Climb 40 ft.\n\nSkills Perception +5\n\nSenses Darkvision 60 ft.; Passive Perception 15\n\nLanguages None\n\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The owlbear makes two Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Slashing damage.",
+  "attacks": [
+    {
+      "name": "Rend",
+      "attackType": "Melee",
+      "attackBonus": 7,
+      "averageDamage": 14,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "2d8+5",
+        "count": 2,
+        "sides": 8,
+        "modifier": 5
+      },
+      "reachFeet": 5
+    }
+  ]
 }

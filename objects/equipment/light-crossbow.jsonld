@@ -1,0 +1,42 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/light-crossbow",
+  "@type": "Equipment",
+  "name": "Light Crossbow",
+  "slug": "light-crossbow",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.26",
+    "heading": "Vex",
+    "lineStart": 5391,
+    "lineEnd": 5391
+  },
+  "equipmentType": "weapon",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-26-weapons"
+  },
+  "weaponCategory": "Simple",
+  "attackType": "Ranged",
+  "damage": "1d8 Piercing",
+  "damageType": "Piercing",
+  "damageRoll": {
+    "expression": "1d8",
+    "count": 1,
+    "sides": 8
+  },
+  "properties": [
+    "Ammunition (Range 80/320; Bolt)",
+    "Loading",
+    "Two-Handed"
+  ],
+  "mastery": "Slow",
+  "weight": "5 lb.",
+  "cost": {
+    "text": "25 GP",
+    "currency": "GP",
+    "amount": 25
+  }
+}

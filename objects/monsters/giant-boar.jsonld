@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.29",
     "heading": "Giant Boar",
-    "lineStart": 27890,
-    "lineEnd": 27916
+    "lineStart": 27892,
+    "lineEnd": 27918
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -47,7 +47,9 @@
       "savingThrow": 0
     },
     "con": {
-      "score": 16
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "int": {
       "score": 2,
@@ -60,7 +62,9 @@
       "savingThrow": -2
     },
     "cha": {
-      "score": 5
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
     }
   },
   "statSections": [
@@ -73,5 +77,21 @@
       "rulesText": "Gore. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Large or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition."
     }
   ],
-  "rulesText": "Large Beast, Unaligned\n\nAC 13\n\nInitiative +0 (10)\n\nHP 42 (5d10 + 15)\n\nSpeed 40 ft.\n\nSenses Passive Perception 8\n\nLanguages None\n\nCR 2 (XP 450; PB +2)\n\nTraits\n\nBloodied Fury. The boar has Advantage on melee attack rolls while it is Bloodied.\n\nActions\n\nGore. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Large or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition."
+  "rulesText": "Large Beast, Unaligned\n\nAC 13\n\nInitiative +0 (10)\n\nHP 42 (5d10 + 15)\n\nSpeed 40 ft.\n\nSenses Passive Perception 8\n\nLanguages None\n\nCR 2 (XP 450; PB +2)\n\nTraits\n\nBloodied Fury. The boar has Advantage on melee attack rolls while it is Bloodied.\n\nActions\n\nGore. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Large or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition.",
+  "attacks": [
+    {
+      "name": "Gore",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 10,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d6+3",
+        "count": 2,
+        "sides": 6,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    }
+  ]
 }

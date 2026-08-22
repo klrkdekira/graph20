@@ -75,5 +75,21 @@
       "rulesText": "Multiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Slowing Breath.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 15 (2d10 + 4) Slashing damage.\n\nAcid Breath (Recharge 5–6). Dexterity Saving Throw: DC 14, each creature in a 40-foot-long, 5-foot-wide Line. Failure: 40 (9d8) Acid damage. Success: Half damage.\n\nSlowing Breath. Constitution Saving Throw: DC 14, each creature in a 30-foot Cone. Failure: The target can't take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both. This effect lasts until the end of its next turn."
     }
   ],
-  "rulesText": "Large Dragon (Metallic), Chaotic Good\n\nAC 17\n\nInitiative +4 (14)\n\nHP 119 (14d10 + 42)\n\nSpeed 40 ft., Climb 40 ft., Fly 80 ft.\n\nSkills Deception +5, Perception +7, Stealth +4\n\nImmunities Acid\n\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 17\n\nLanguages Common, Draconic\n\nCR 7 (XP 2,900; PB +3)\n\nActions\n\nMultiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Slowing Breath.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 15 (2d10 + 4) Slashing damage.\n\nAcid Breath (Recharge 5–6). Dexterity Saving Throw: DC 14, each creature in a 40-foot-long, 5-foot-wide Line. Failure: 40 (9d8) Acid damage. Success: Half damage.\n\nSlowing Breath. Constitution Saving Throw: DC 14, each creature in a 30-foot Cone. Failure: The target can't take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both. This effect lasts until the end of its next turn."
+  "rulesText": "Large Dragon (Metallic), Chaotic Good\n\nAC 17\n\nInitiative +4 (14)\n\nHP 119 (14d10 + 42)\n\nSpeed 40 ft., Climb 40 ft., Fly 80 ft.\n\nSkills Deception +5, Perception +7, Stealth +4\n\nImmunities Acid\n\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 17\n\nLanguages Common, Draconic\n\nCR 7 (XP 2,900; PB +3)\n\nActions\n\nMultiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Slowing Breath.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 15 (2d10 + 4) Slashing damage.\n\nAcid Breath (Recharge 5–6). Dexterity Saving Throw: DC 14, each creature in a 40-foot-long, 5-foot-wide Line. Failure: 40 (9d8) Acid damage. Success: Half damage.\n\nSlowing Breath. Constitution Saving Throw: DC 14, each creature in a 30-foot Cone. Failure: The target can't take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both. This effect lasts until the end of its next turn.",
+  "attacks": [
+    {
+      "name": "Rend",
+      "attackType": "Melee",
+      "attackBonus": 7,
+      "averageDamage": 15,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "2d10+4",
+        "count": 2,
+        "sides": 10,
+        "modifier": 4
+      },
+      "reachFeet": 10
+    }
+  ]
 }

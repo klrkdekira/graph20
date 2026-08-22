@@ -23,5 +23,16 @@
   "castingTime": "Bonus Action",
   "range": "Touch",
   "duration": "1 hour",
-  "rulesText": "Level 2 Transmutation (Druid, Ranger)\n\nCasting Time: Bonus Action\n\nRange: Touch\n\nComponent: V, S, M (a handful of bark)\n\nDuration: 1 hour\n\nYou touch a willing creature. Until the spell ends, the target's skin assumes a bark-like appearance, and the target has an Armor Class of 17 if its AC is lower than that."
+  "rulesText": "Level 2 Transmutation (Druid, Ranger)\n\nCasting Time: Bonus Action\n\nRange: Touch\n\nComponent: V, S, M (a handful of bark)\n\nDuration: 1 hour\n\nYou touch a willing creature. Until the spell ends, the target's skin assumes a bark-like appearance, and the target has an Armor Class of 17 if its AC is lower than that.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/ranger"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": false
 }

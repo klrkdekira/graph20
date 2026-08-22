@@ -78,5 +78,21 @@
       "rulesText": "Greataxe. Melee Attack Roll: +5, reach 5 ft. Hit: 9 (1d12 + 3) Slashing damage."
     }
   ],
-  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 13\n\nInitiative +1 (11)\n\nHP 67 (9d8 + 27)\n\nSpeed 30 ft.\n\nGear Greataxe, Hide Armor\n\nSenses Passive Perception 10\n\nLanguages Common\n\nCR 2 (XP 450; PB +2)\n\nTraits\n\nBloodied Frenzy. While Bloodied, the berserker has Advantage on attack rolls and saving throws.\n\nActions\n\nGreataxe. Melee Attack Roll: +5, reach 5 ft. Hit: 9 (1d12 + 3) Slashing damage."
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 13\n\nInitiative +1 (11)\n\nHP 67 (9d8 + 27)\n\nSpeed 30 ft.\n\nGear Greataxe, Hide Armor\n\nSenses Passive Perception 10\n\nLanguages Common\n\nCR 2 (XP 450; PB +2)\n\nTraits\n\nBloodied Frenzy. While Bloodied, the berserker has Advantage on attack rolls and saving throws.\n\nActions\n\nGreataxe. Melee Attack Roll: +5, reach 5 ft. Hit: 9 (1d12 + 3) Slashing damage.",
+  "attacks": [
+    {
+      "name": "Greataxe",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 9,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "1d12+3",
+        "count": 1,
+        "sides": 12,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    }
+  ]
 }

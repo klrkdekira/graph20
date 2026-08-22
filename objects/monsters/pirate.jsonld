@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.185",
     "heading": "Pirate",
-    "lineStart": 23878,
-    "lineEnd": 23906
+    "lineStart": 23880,
+    "lineEnd": 23908
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -74,5 +74,25 @@
       "rulesText": "Multiattack. The pirate makes two Dagger attacks. It can replace one attack with a use of Enthralling Panache.\n\nDagger. Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft. Hit: 5 (1d4 + 3) Piercing damage.\n\nEnthralling Panache. Wisdom Saving Throw: DC 12, one creature the pirate can see within 30 feet. Failure: The target has the Charmed condition until the start of the pirate's next turn."
     }
   ],
-  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 14\n\nInitiative +5 (15)\n\nHP 33 (6d8 + 6)\n\nSpeed 30 ft.\n\nGear Daggers (6), Leather Armor\n\nSenses Passive Perception 11\n\nLanguages Common plus one other language\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The pirate makes two Dagger attacks. It can replace one attack with a use of Enthralling Panache.\n\nDagger. Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft. Hit: 5 (1d4 + 3) Piercing damage.\n\nEnthralling Panache. Wisdom Saving Throw: DC 12, one creature the pirate can see within 30 feet. Failure: The target has the Charmed condition until the start of the pirate's next turn."
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 14\n\nInitiative +5 (15)\n\nHP 33 (6d8 + 6)\n\nSpeed 30 ft.\n\nGear Daggers (6), Leather Armor\n\nSenses Passive Perception 11\n\nLanguages Common plus one other language\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The pirate makes two Dagger attacks. It can replace one attack with a use of Enthralling Panache.\n\nDagger. Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft. Hit: 5 (1d4 + 3) Piercing damage.\n\nEnthralling Panache. Wisdom Saving Throw: DC 12, one creature the pirate can see within 30 feet. Failure: The target has the Charmed condition until the start of the pirate's next turn.",
+  "attacks": [
+    {
+      "name": "Dagger",
+      "attackType": "Melee or Ranged",
+      "attackBonus": 5,
+      "averageDamage": 5,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d4+3",
+        "count": 1,
+        "sides": 4,
+        "modifier": 3
+      },
+      "reachFeet": 5,
+      "rangeFeet": {
+        "normal": 20,
+        "long": 60
+      }
+    }
+  ]
 }

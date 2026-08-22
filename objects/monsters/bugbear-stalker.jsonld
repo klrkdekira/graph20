@@ -83,5 +83,25 @@
       "rulesText": "Quick Grapple. Dexterity Saving Throw: DC 13, one Medium or smaller creature the bugbear can see within 10 feet. Failure: The target has the Grappled condition (escape DC 13)."
     }
   ],
-  "rulesText": "Medium Fey (Goblinoid), Chaotic Evil\n\nAC 15\n\nInitiative +2 (12)\n\nHP 65 (10d8 + 20)\n\nSpeed 30 ft.\n\nSkills Stealth +6, Survival +3\n\nGear Chain Shirt, Javelins (6), Morningstar\n\nSenses Darkvision 60 ft.; Passive Perception 11\n\nLanguages Common, Goblin\n\nCR 3 (XP 700; PB +2)\n\nTraits\n\nAbduct. The bugbear needn't spend extra movement to move a creature it is grappling.\n\nActions\n\nMultiattack. The bugbear makes two Javelin or Morningstar attacks.\n\nJavelin. Melee or Ranged Attack Roll: +5, reach 10 ft. or range 30/120 ft. Hit: 13 (3d6 + 3) Piercing damage.\n\nMorningstar. Melee Attack Roll: +5 (with Advantage if the target is Grappled by the bugbear), reach 10 ft. Hit: 12 (2d8 + 3) Piercing damage.\n\nBonus Actions\n\nQuick Grapple. Dexterity Saving Throw: DC 13, one Medium or smaller creature the bugbear can see within 10 feet. Failure: The target has the Grappled condition (escape DC 13)."
+  "rulesText": "Medium Fey (Goblinoid), Chaotic Evil\n\nAC 15\n\nInitiative +2 (12)\n\nHP 65 (10d8 + 20)\n\nSpeed 30 ft.\n\nSkills Stealth +6, Survival +3\n\nGear Chain Shirt, Javelins (6), Morningstar\n\nSenses Darkvision 60 ft.; Passive Perception 11\n\nLanguages Common, Goblin\n\nCR 3 (XP 700; PB +2)\n\nTraits\n\nAbduct. The bugbear needn't spend extra movement to move a creature it is grappling.\n\nActions\n\nMultiattack. The bugbear makes two Javelin or Morningstar attacks.\n\nJavelin. Melee or Ranged Attack Roll: +5, reach 10 ft. or range 30/120 ft. Hit: 13 (3d6 + 3) Piercing damage.\n\nMorningstar. Melee Attack Roll: +5 (with Advantage if the target is Grappled by the bugbear), reach 10 ft. Hit: 12 (2d8 + 3) Piercing damage.\n\nBonus Actions\n\nQuick Grapple. Dexterity Saving Throw: DC 13, one Medium or smaller creature the bugbear can see within 10 feet. Failure: The target has the Grappled condition (escape DC 13).",
+  "attacks": [
+    {
+      "name": "Javelin",
+      "attackType": "Melee or Ranged",
+      "attackBonus": 5,
+      "averageDamage": 13,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "3d6+3",
+        "count": 3,
+        "sides": 6,
+        "modifier": 3
+      },
+      "reachFeet": 10,
+      "rangeFeet": {
+        "normal": 30,
+        "long": 120
+      }
+    }
+  ]
 }

@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-290-1d100-effect-17",
+  "@type": "Table",
+  "name": "1d100 Effect",
+  "slug": "10-290-1d100-effect-17",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.290",
+    "heading": "Wand of Wonder",
+    "lineStart": 17279,
+    "lineEnd": 17279
+  },
+  "columns": [
+    "93–97",
+    "You castPolymorph, targeting the creature closest to the chosen point of origin. Roll 1d4 to determine the target’s new form. On a 1, the new form is aBlack Bear; on a 2, the new form is aGiant Wasp; on a 3–4, the new form is aFrog."
+  ],
+  "rows": []
+}

@@ -46,6 +46,11 @@
       "modifier": -1,
       "savingThrow": -1
     },
+    "con": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
     "int": {
       "score": 2,
       "modifier": -4,
@@ -57,7 +62,9 @@
       "savingThrow": -1
     },
     "cha": {
-      "score": 7
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
     }
   },
   "statSections": [
@@ -70,5 +77,21 @@
       "rulesText": "Petrifying Gaze (Recharge 4–6). Constitution Saving Throw: DC 12, each creature in a 30-foot Cone. If the basilisk sees its reflection in the Cone, the basilisk must make this save. First Failure: The target has the Restrained condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. Second Failure: The target has the Petrified condition instead of the Restrained condition."
     }
   ],
-  "rulesText": "Medium Monstrosity, Unaligned\n\nAC 15\n\nInitiative -1 (9)\n\nHP 52 (8d8 + 16)\n\nSpeed 20 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 9\n\nLanguages None\n\nCR 3 (XP 700; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage plus 7 (2d6) Poison damage.\n\nBonus Actions\n\nPetrifying Gaze (Recharge 4–6). Constitution Saving Throw: DC 12, each creature in a 30-foot Cone. If the basilisk sees its reflection in the Cone, the basilisk must make this save. First Failure: The target has the Restrained condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. Second Failure: The target has the Petrified condition instead of the Restrained condition."
+  "rulesText": "Medium Monstrosity, Unaligned\n\nAC 15\n\nInitiative -1 (9)\n\nHP 52 (8d8 + 16)\n\nSpeed 20 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 9\n\nLanguages None\n\nCR 3 (XP 700; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage plus 7 (2d6) Poison damage.\n\nBonus Actions\n\nPetrifying Gaze (Recharge 4–6). Constitution Saving Throw: DC 12, each creature in a 30-foot Cone. If the basilisk sees its reflection in the Cone, the basilisk must make this save. First Failure: The target has the Restrained condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. Second Failure: The target has the Petrified condition instead of the Restrained condition.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 10,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d6+3",
+        "count": 2,
+        "sides": 6,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    }
+  ]
 }

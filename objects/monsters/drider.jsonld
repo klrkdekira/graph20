@@ -82,5 +82,37 @@
       "rulesText": "Magic of the Spider Queen (Recharge 5–6). The drider casts Darkness, Faerie Fire, or Web, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 14)."
     }
   ],
-  "rulesText": "Large Monstrosity, Chaotic Evil\n\nAC 19\n\nInitiative +4 (14)\n\nHP 123 (13d10 + 52)\n\nSpeed 30 ft., Climb 30 ft.\n\nSkills Perception +6, Stealth +10\n\nSenses Darkvision 120 ft.; Passive Perception 16\n\nLanguages Elvish, Undercommon\n\nCR 6 (XP 2,300; PB +3)\n\nTraits\n\nSpider Climb. The drider can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nSunlight Sensitivity. While in sunlight, the drider has Disadvantage on ability checks and attack rolls.\n\nWeb Walker. The drider ignores movement restrictions caused by webs, and the drider knows the location of any other creature in contact with the same web.\n\nActions\n\nMultiattack. The drider makes three attacks, using Foreleg or Poison Burst in any combination.\n\nForeleg. Melee Attack Roll: +7, reach 10 ft. Hit: 13 (2d8 + 4) Piercing damage.\n\nPoison Burst. Ranged Attack Roll: +6, range 120 ft. Hit: 13 (3d6 + 3) Poison damage.\n\nBonus Actions\n\nMagic of the Spider Queen (Recharge 5–6). The drider casts Darkness, Faerie Fire, or Web, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 14)."
+  "rulesText": "Large Monstrosity, Chaotic Evil\n\nAC 19\n\nInitiative +4 (14)\n\nHP 123 (13d10 + 52)\n\nSpeed 30 ft., Climb 30 ft.\n\nSkills Perception +6, Stealth +10\n\nSenses Darkvision 120 ft.; Passive Perception 16\n\nLanguages Elvish, Undercommon\n\nCR 6 (XP 2,300; PB +3)\n\nTraits\n\nSpider Climb. The drider can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nSunlight Sensitivity. While in sunlight, the drider has Disadvantage on ability checks and attack rolls.\n\nWeb Walker. The drider ignores movement restrictions caused by webs, and the drider knows the location of any other creature in contact with the same web.\n\nActions\n\nMultiattack. The drider makes three attacks, using Foreleg or Poison Burst in any combination.\n\nForeleg. Melee Attack Roll: +7, reach 10 ft. Hit: 13 (2d8 + 4) Piercing damage.\n\nPoison Burst. Ranged Attack Roll: +6, range 120 ft. Hit: 13 (3d6 + 3) Poison damage.\n\nBonus Actions\n\nMagic of the Spider Queen (Recharge 5–6). The drider casts Darkness, Faerie Fire, or Web, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 14).",
+  "attacks": [
+    {
+      "name": "Foreleg",
+      "attackType": "Melee",
+      "attackBonus": 7,
+      "averageDamage": 13,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d8+4",
+        "count": 2,
+        "sides": 8,
+        "modifier": 4
+      },
+      "reachFeet": 10
+    },
+    {
+      "name": "Poison Burst",
+      "attackType": "Ranged",
+      "attackBonus": 6,
+      "averageDamage": 13,
+      "damageType": "Poison",
+      "damageRoll": {
+        "expression": "3d6+3",
+        "count": 3,
+        "sides": 6,
+        "modifier": 3
+      },
+      "rangeFeet": {
+        "normal": 120
+      }
+    }
+  ]
 }

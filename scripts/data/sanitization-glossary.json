@@ -1,0 +1,71 @@
+{
+  "description": "Glossary of known PDF/OCR conversion artifacts in SRD_CC_v5.2.1.md and their canonical repairs. Applied in order by scripts/repair_source.py; each entry is a documented, reviewable substitution. Add new artifact classes here, never as ad-hoc code.",
+  "substitutions": [
+    {
+      "id": "dice-Id-to-1d",
+      "pattern": "\\bId(\\d+)\\b",
+      "replacement": "1d\\1",
+      "flags": "",
+      "meaning": "Dice expressions: OCR reads the digit 1 as capital I, e.g. 'Id6' means '1d6', 'Id10' means '1d10'."
+    },
+    {
+      "id": "plus-I-bonus",
+      "pattern": "\\+I\\b",
+      "replacement": "+1",
+      "flags": "",
+      "meaning": "Enhancement bonuses: '+I Longsword' means '+1 Longsword' (Magic Item Categories examples)."
+    },
+    {
+      "id": "lone-I-damage",
+      "pattern": "<td>I Piercing</td>",
+      "replacement": "<td>1 Piercing</td>",
+      "flags": "",
+      "meaning": "Flat weapon damage: the Blowgun deals '1 Piercing', OCR-read as 'I Piercing'."
+    },
+    {
+      "id": "rolling-20-or-1-heading",
+      "pattern": "^# Rolling 20 or I$",
+      "replacement": "# Rolling 20 or 1",
+      "flags": "m",
+      "meaning": "Heading: the d20 rule section is 'Rolling 20 or 1'."
+    },
+    {
+      "id": "cr-line-split",
+      "pattern": "^(Languages .+?) (CR .+)$",
+      "replacement": "\\1\n\n\\2",
+      "flags": "m",
+      "meaning": "Stat-block layout: the CR line was joined onto the Languages line during conversion; they are separate lines in the printed SRD."
+    },
+    {
+      "id": "xp-ordering",
+      "pattern": "\\((\\d[\\d,]*) XP;",
+      "replacement": "(XP \\1;",
+      "flags": "",
+      "meaning": "CR parenthetical: canonical SRD ordering is 'CR n (XP n; PB +n)'; a few blocks print 'n XP'."
+    },
+    {
+      "id": "level-II-to-11",
+      "pattern": "\\bLevel II\\b",
+      "replacement": "Level 11",
+      "flags": "",
+      "meaning": "Class feature levels: 'Level II' is OCR for 'Level 11' (e.g. 'Level 11: Relentless Rage')."
+    },
+    {
+      "id": "level-I-to-1",
+      "pattern": "\\bLevel I\\b",
+      "replacement": "Level 1",
+      "flags": "",
+      "meaning": "Class feature levels: 'Level I' is OCR for 'Level 1' (headings, 'As a Level 1 Character', spell-slot table captions). Applied after level-II-to-11."
+    },
+    {
+      "id": "DI0-to-D10",
+      "pattern": "\\bDI0\\b",
+      "replacement": "D10",
+      "flags": "",
+      "meaning": "Hit Point Die notation: 'DI0' is OCR for 'D10' (Fighter and Ranger core traits)."
+    }
+  ],
+  "ability_table_glossary": {
+    "meaning": "Inside monster ability-score tables only: standalone 'I' means 1, 'II' means 11; labels may be LaTeX-wrapped ('$\\mathbf{S_{TR}}$' means STR) or glued to the score ('CON25' means CON 25). Damaged tables are regenerated from scripts/data/srd-2024-creatures.json (open5e srd-2024, CC-BY-4.0) with cross-validation against every intact cell."
+  }
+}

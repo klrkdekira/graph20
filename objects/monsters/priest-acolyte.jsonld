@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.190",
     "heading": "Priest Acolyte",
-    "lineStart": 24055,
-    "lineEnd": 24092
+    "lineStart": 24057,
+    "lineEnd": 24094
   },
   "sizeTypeAlignment": "Medium or Small Humanoid (Cleric), Neutral",
   "sizeAndType": "Medium or Small Humanoid (Cleric)",
@@ -79,5 +79,36 @@
       "rulesText": "Divine Aid (1/Day). The priest casts Bless, Healing Word, or Sanctuary, using the same spellcasting ability as Spellcasting."
     }
   ],
-  "rulesText": "Medium or Small Humanoid (Cleric), Neutral\n\nAC 13\n\nInitiative +0 (10)\n\nHP 11 (2d8 + 2)\n\nSpeed 30 ft.\n\nSkills Medicine +4, Religion +2\n\nGear Chain Shirt, Holy Symbol, Mace\n\nSenses Passive Perception 12\n\nLanguages Common\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nMace. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage plus 2 (1d4) Radiant damage.\n\nRadiant Flame. Ranged Attack Roll: +4, range 60 ft.\nHit: 7 (2d6) Radiant damage.\n\nSpellcasting. The priest casts one of the following spells, using Wisdom as the spellcasting ability:\n\nAt Will: Light, Thaumaturgy\n\nBonus Actions\n\nDivine Aid (1/Day). The priest casts Bless, Healing Word, or Sanctuary, using the same spellcasting ability as Spellcasting."
+  "rulesText": "Medium or Small Humanoid (Cleric), Neutral\n\nAC 13\n\nInitiative +0 (10)\n\nHP 11 (2d8 + 2)\n\nSpeed 30 ft.\n\nSkills Medicine +4, Religion +2\n\nGear Chain Shirt, Holy Symbol, Mace\n\nSenses Passive Perception 12\n\nLanguages Common\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nMace. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage plus 2 (1d4) Radiant damage.\n\nRadiant Flame. Ranged Attack Roll: +4, range 60 ft.\nHit: 7 (2d6) Radiant damage.\n\nSpellcasting. The priest casts one of the following spells, using Wisdom as the spellcasting ability:\n\nAt Will: Light, Thaumaturgy\n\nBonus Actions\n\nDivine Aid (1/Day). The priest casts Bless, Healing Word, or Sanctuary, using the same spellcasting ability as Spellcasting.",
+  "attacks": [
+    {
+      "name": "Mace",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 5,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "1d6+2",
+        "count": 1,
+        "sides": 6,
+        "modifier": 2
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Radiant Flame",
+      "attackType": "Ranged",
+      "attackBonus": 4,
+      "averageDamage": 7,
+      "damageType": "Radiant",
+      "damageRoll": {
+        "expression": "2d6",
+        "count": 2,
+        "sides": 6
+      },
+      "rangeFeet": {
+        "normal": 60
+      }
+    }
+  ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.255",
     "heading": "Wereboar",
-    "lineStart": 26442,
-    "lineEnd": 26480
+    "lineStart": 26444,
+    "lineEnd": 26482
   },
   "sizeTypeAlignment": "Medium or Small Monstrosity (Lycanthrope), Neutral Evil",
   "sizeAndType": "Medium or Small Monstrosity (Lycanthrope)",
@@ -79,5 +79,53 @@
       "rulesText": "Shape-Shift. The wereboar shape-shifts into a Medium boar-humanoid hybrid or a Small boar, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed."
     }
   ],
-  "rulesText": "Medium or Small Monstrosity (Lycanthrope), Neutral Evil\n\nAC 15\n\nInitiative +2 (12)\n\nHP 97 (15d8 + 30)\n\nSpeed 30 ft., 40 ft. (boar form only)\n\nSkills Perception +2\n\nGear Javelins (6)\n\nSenses Passive Perception 12\n\nLanguages Common (can't speak in boar form)\n\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The wereboar makes two attacks, using Javelin or Tusk in any combination. It can replace one attack with a Gore attack.\n\nGore (Boar or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 12. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Wereboar under the GM's control and has 10 Hit Points. Success: The target is immune to this wereboar's curse for 24 hours.\n\nJavelin (Humanoid or Hybrid Form Only). Melee or Ranged Attack Roll: +5, reach 5 ft. or range 30/120 ft. Hit: 13 (3d6 + 3) Piercing damage.\n\nTusk (Boar or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Medium or smaller creature and the were-boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition.\n\nBonus Actions\n\nShape-Shift. The wereboar shape-shifts into a Medium boar-humanoid hybrid or a Small boar, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed."
+  "rulesText": "Medium or Small Monstrosity (Lycanthrope), Neutral Evil\n\nAC 15\n\nInitiative +2 (12)\n\nHP 97 (15d8 + 30)\n\nSpeed 30 ft., 40 ft. (boar form only)\n\nSkills Perception +2\n\nGear Javelins (6)\n\nSenses Passive Perception 12\n\nLanguages Common (can't speak in boar form)\n\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The wereboar makes two attacks, using Javelin or Tusk in any combination. It can replace one attack with a Gore attack.\n\nGore (Boar or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 12. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Wereboar under the GM's control and has 10 Hit Points. Success: The target is immune to this wereboar's curse for 24 hours.\n\nJavelin (Humanoid or Hybrid Form Only). Melee or Ranged Attack Roll: +5, reach 5 ft. or range 30/120 ft. Hit: 13 (3d6 + 3) Piercing damage.\n\nTusk (Boar or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Medium or smaller creature and the were-boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition.\n\nBonus Actions\n\nShape-Shift. The wereboar shape-shifts into a Medium boar-humanoid hybrid or a Small boar, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed.",
+  "attacks": [
+    {
+      "name": "Gore (Boar or Hybrid Form Only)",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 12,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d8+3",
+        "count": 2,
+        "sides": 8,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Javelin (Humanoid or Hybrid Form Only)",
+      "attackType": "Melee or Ranged",
+      "attackBonus": 5,
+      "averageDamage": 13,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "3d6+3",
+        "count": 3,
+        "sides": 6,
+        "modifier": 3
+      },
+      "reachFeet": 5,
+      "rangeFeet": {
+        "normal": 30,
+        "long": 120
+      }
+    },
+    {
+      "name": "Tusk (Boar or Hybrid Form Only)",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 10,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d6+3",
+        "count": 2,
+        "sides": 6,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    }
+  ]
 }

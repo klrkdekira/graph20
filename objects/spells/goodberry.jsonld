@@ -24,5 +24,16 @@
   "range": "Self",
   "components": "V, S, M (a sprig of mistletoe)",
   "duration": "24 hours",
-  "rulesText": "Level 1 Conjuration (Druid, Ranger)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S, M (a sprig of mistletoe)\n\nDuration: 24 hours\n\nTen berries appear in your hand and are infused with magic for the duration. A creature can take a Bonus Action to eat one berry. Eating a berry restores 1 Hit Point, and the berry provides enough nourishment to sustain a creature for one day.\n\nUneaten berries disappear when the spell ends."
+  "rulesText": "Level 1 Conjuration (Druid, Ranger)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S, M (a sprig of mistletoe)\n\nDuration: 24 hours\n\nTen berries appear in your hand and are infused with magic for the duration. A creature can take a Bonus Action to eat one berry. Eating a berry restores 1 Hit Point, and the berry provides enough nourishment to sustain a creature for one day.\n\nUneaten berries disappear when the spell ends.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/ranger"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": false
 }

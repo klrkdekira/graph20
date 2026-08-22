@@ -1,0 +1,41 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/maul",
+  "@type": "Equipment",
+  "name": "Maul",
+  "slug": "maul",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.26",
+    "heading": "Vex",
+    "lineStart": 5391,
+    "lineEnd": 5391
+  },
+  "equipmentType": "weapon",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-26-weapons"
+  },
+  "weaponCategory": "Martial",
+  "attackType": "Melee",
+  "damage": "2d6 Bludgeoning",
+  "damageType": "Bludgeoning",
+  "damageRoll": {
+    "expression": "2d6",
+    "count": 2,
+    "sides": 6
+  },
+  "properties": [
+    "Heavy",
+    "Two-Handed"
+  ],
+  "mastery": "Topple",
+  "weight": "10 lb.",
+  "cost": {
+    "text": "10 GP",
+    "currency": "GP",
+    "amount": 10
+  }
+}

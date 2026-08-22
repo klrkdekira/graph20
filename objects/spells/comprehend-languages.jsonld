@@ -26,5 +26,22 @@
   "range": "Self",
   "components": "V, S, M (a pinch of soot and salt)",
   "duration": "1 hour",
-  "rulesText": "Level 1 Divination (Bard, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action or Ritual\n\nRange: Self\n\nComponents: V, S, M (a pinch of soot and salt)\n\nDuration: 1 hour\n\nFor the duration, you understand the literal meaning of any language that you hear or see signed. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text. This spell doesn't decode symbols or secret messages."
+  "rulesText": "Level 1 Divination (Bard, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action or Ritual\n\nRange: Self\n\nComponents: V, S, M (a pinch of soot and salt)\n\nDuration: 1 hour\n\nFor the duration, you understand the literal meaning of any language that you hear or see signed. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text. This spell doesn't decode symbols or secret messages.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": true
 }

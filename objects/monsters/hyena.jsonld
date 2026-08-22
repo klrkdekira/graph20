@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.58",
     "heading": "Hyena",
-    "lineStart": 28763,
-    "lineEnd": 28791
+    "lineStart": 28765,
+    "lineEnd": 28793
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
@@ -78,5 +78,20 @@
       "rulesText": "Bite. Melee Attack Roll: +2, reach 5 ft. Hit: 3 (1d6) Piercing damage."
     }
   ],
-  "rulesText": "Medium Beast, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 5 (1d8 + 1)\n\nSpeed 50 ft.\n\nSkills Perception +3\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages None\n\nCR 0 (XP 10; PB +2)\n\nTraits\n\nPack Tactics. The hyena has Advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBite. Melee Attack Roll: +2, reach 5 ft. Hit: 3 (1d6) Piercing damage."
+  "rulesText": "Medium Beast, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 5 (1d8 + 1)\n\nSpeed 50 ft.\n\nSkills Perception +3\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages None\n\nCR 0 (XP 10; PB +2)\n\nTraits\n\nPack Tactics. The hyena has Advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBite. Melee Attack Roll: +2, reach 5 ft. Hit: 3 (1d6) Piercing damage.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "attackBonus": 2,
+      "averageDamage": 3,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d6",
+        "count": 1,
+        "sides": 6
+      },
+      "reachFeet": 5
+    }
+  ]
 }

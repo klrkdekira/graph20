@@ -1,0 +1,365 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-23-rogue-features",
+  "@type": "Table",
+  "name": "Rogue Features",
+  "slug": "3-23-rogue-features",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.23",
+    "heading": "Level 1: Sneak Attack",
+    "lineStart": 3790,
+    "lineEnd": 3790
+  },
+  "columns": [
+    "Level",
+    "Proficiency Bonus",
+    "Class Features",
+    "Sneak Attack"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "+2"
+        },
+        {
+          "value": "Expertise, Sneak Attack, Thieves&#x27; Cant, Weapon Mastery"
+        },
+        {
+          "value": "1d6"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "+2"
+        },
+        {
+          "value": "Cunning Action"
+        },
+        {
+          "value": "1d6"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "+2"
+        },
+        {
+          "value": "Rogue Subclass, Steady Aim"
+        },
+        {
+          "value": "2d6"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "+2"
+        },
+        {
+          "value": "Ability Score Improvement"
+        },
+        {
+          "value": "2d6"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "+3"
+        },
+        {
+          "value": "Cunning Strike, Uncanny Dodge"
+        },
+        {
+          "value": "3d6"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "+3"
+        },
+        {
+          "value": "Expertise"
+        },
+        {
+          "value": "3d6"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "+3"
+        },
+        {
+          "value": "Evasion, Reliable Talent"
+        },
+        {
+          "value": "4d6"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "+3"
+        },
+        {
+          "value": "Ability Score Improvement"
+        },
+        {
+          "value": "4d6"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "+4"
+        },
+        {
+          "value": "Subclass feature"
+        },
+        {
+          "value": "5d6"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "+4"
+        },
+        {
+          "value": "Ability Score Improvement"
+        },
+        {
+          "value": "5d6"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "+4"
+        },
+        {
+          "value": "Improved Cunning Strike"
+        },
+        {
+          "value": "6d6"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "12"
+        },
+        {
+          "value": "+4"
+        },
+        {
+          "value": "Ability Score Improvement"
+        },
+        {
+          "value": "6d6"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "13"
+        },
+        {
+          "value": "+5"
+        },
+        {
+          "value": "Subclass feature"
+        },
+        {
+          "value": "7d6"
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "cells": [
+        {
+          "value": "14"
+        },
+        {
+          "value": "+5"
+        },
+        {
+          "value": "Devious Strikes"
+        },
+        {
+          "value": "7d6"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "cells": [
+        {
+          "value": "15"
+        },
+        {
+          "value": "+5"
+        },
+        {
+          "value": "Slippery Mind"
+        },
+        {
+          "value": "8d6"
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "cells": [
+        {
+          "value": "16"
+        },
+        {
+          "value": "+5"
+        },
+        {
+          "value": "Ability Score Improvement"
+        },
+        {
+          "value": "8d6"
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "cells": [
+        {
+          "value": "17"
+        },
+        {
+          "value": "+6"
+        },
+        {
+          "value": "Subclass feature"
+        },
+        {
+          "value": "9d6"
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "cells": [
+        {
+          "value": "18"
+        },
+        {
+          "value": "+6"
+        },
+        {
+          "value": "Elusive"
+        },
+        {
+          "value": "9d6"
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "cells": [
+        {
+          "value": "19"
+        },
+        {
+          "value": "+6"
+        },
+        {
+          "value": "Epic Boon"
+        },
+        {
+          "value": "10d6"
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "cells": [
+        {
+          "value": "20"
+        },
+        {
+          "value": "+6"
+        },
+        {
+          "value": "Stroke of Luck"
+        },
+        {
+          "value": "10d6"
+        }
+      ]
+    }
+  ]
+}

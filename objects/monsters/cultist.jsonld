@@ -48,7 +48,9 @@
       "savingThrow": 1
     },
     "con": {
-      "score": 10
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
     },
     "int": {
       "score": 10,
@@ -61,7 +63,9 @@
       "savingThrow": 2
     },
     "cha": {
-      "score": 10
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
     }
   },
   "statSections": [
@@ -70,5 +74,21 @@
       "rulesText": "Ritual Sickle. Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Slashing damage plus 1 Necrotic damage."
     }
   ],
-  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 12\n\nInitiative +1 (11)\n\nHP 9 (2d8)\n\nSpeed 30 ft.\n\nSkills Deception +2, Religion +2\n\nGear Leather Armor, Sickle\n\nSenses Passive Perception 10\n\nLanguages Common\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nRitual Sickle. Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Slashing damage plus 1 Necrotic damage."
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 12\n\nInitiative +1 (11)\n\nHP 9 (2d8)\n\nSpeed 30 ft.\n\nSkills Deception +2, Religion +2\n\nGear Leather Armor, Sickle\n\nSenses Passive Perception 10\n\nLanguages Common\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nRitual Sickle. Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Slashing damage plus 1 Necrotic damage.",
+  "attacks": [
+    {
+      "name": "Ritual Sickle",
+      "attackType": "Melee",
+      "attackBonus": 3,
+      "averageDamage": 3,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "1d4+1",
+        "count": 1,
+        "sides": 4,
+        "modifier": 1
+      },
+      "reachFeet": 5
+    }
+  ]
 }

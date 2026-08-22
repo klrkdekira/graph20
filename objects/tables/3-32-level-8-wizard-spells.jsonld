@@ -1,0 +1,192 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-32-level-8-wizard-spells",
+  "@type": "Table",
+  "name": "Level 8 Wizard Spells",
+  "slug": "3-32-level-8-wizard-spells",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.32",
+    "heading": "Wizard Spell List",
+    "lineStart": 4733,
+    "lineEnd": 4733
+  },
+  "columns": [
+    "Spell",
+    "School",
+    "Special"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Antimagic Field"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Antipathy/Sympathy"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Befuddlement"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Clone"
+        },
+        {
+          "value": "Necromancy"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Control Weather"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Demiplane"
+        },
+        {
+          "value": "Conjuration"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Dominate Monster"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Incendiary Cloud"
+        },
+        {
+          "value": "Conjuration"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Maze"
+        },
+        {
+          "value": "Conjuration"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Mind Blank"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "Power Word Stun"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "Sunburst"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    }
+  ]
+}

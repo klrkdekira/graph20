@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.140",
     "heading": "Hydra",
-    "lineStart": 22274,
-    "lineEnd": 22312
+    "lineStart": 22276,
+    "lineEnd": 22314
   },
   "sizeTypeAlignment": "Huge Monstrosity, Unaligned",
   "sizeAndType": "Huge Monstrosity",
@@ -79,5 +79,41 @@
       "rulesText": "Multiattack. The hydra makes as many Bite attacks as it has heads.\n\nBite. Melee Attack Roll: +8, reach 10 ft. Hit: 10 (1d10 + 5) Piercing damage."
     }
   ],
-  "rulesText": "Huge Monstrosity, Unaligned\n\nAC 15\n\nInitiative +4 (14)\n\nHP 184 (16d12 + 80)\n\nSpeed 40 ft., Swim 40 ft.\n\nSkills Perception +6\n\nImmunities Blinded, Charmed, Deafened, Frightened, Stunned, Unconscious\n\nSenses Darkvision 60 ft.; Passive Perception 16\n\nLanguages None\n\nCR 8 (XP 3,900; PB +3)\n\nTraits\n\nHold Breath. The hydra can hold its breath for 1 hour.\n\nMultiple Heads. The hydra has five heads. Whenever the hydra takes 25 damage or more on a single turn, one of its heads dies. The hydra dies if all its heads are dead. At the end of each of its turns when it has at least one living head, the hydra grows two heads for each of its heads that died since its last turn, unless it has taken Fire damage since its last turn. The hydra regains 20 Hit Points when it grows new heads.\n\nReactive Heads. For each head the hydra has beyond one, it gets an extra Reaction that can be used only for Opportunity Attacks.\n\nActions\n\nMultiattack. The hydra makes as many Bite attacks as it has heads.\n\nBite. Melee Attack Roll: +8, reach 10 ft. Hit: 10 (1d10 + 5) Piercing damage."
+  "rulesText": "Huge Monstrosity, Unaligned\n\nAC 15\n\nInitiative +4 (14)\n\nHP 184 (16d12 + 80)\n\nSpeed 40 ft., Swim 40 ft.\n\nSkills Perception +6\n\nImmunities Blinded, Charmed, Deafened, Frightened, Stunned, Unconscious\n\nSenses Darkvision 60 ft.; Passive Perception 16\n\nLanguages None\n\nCR 8 (XP 3,900; PB +3)\n\nTraits\n\nHold Breath. The hydra can hold its breath for 1 hour.\n\nMultiple Heads. The hydra has five heads. Whenever the hydra takes 25 damage or more on a single turn, one of its heads dies. The hydra dies if all its heads are dead. At the end of each of its turns when it has at least one living head, the hydra grows two heads for each of its heads that died since its last turn, unless it has taken Fire damage since its last turn. The hydra regains 20 Hit Points when it grows new heads.\n\nReactive Heads. For each head the hydra has beyond one, it gets an extra Reaction that can be used only for Opportunity Attacks.\n\nActions\n\nMultiattack. The hydra makes as many Bite attacks as it has heads.\n\nBite. Melee Attack Roll: +8, reach 10 ft. Hit: 10 (1d10 + 5) Piercing damage.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/blinded"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/deafened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/stunned"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "attackBonus": 8,
+      "averageDamage": 10,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d10+5",
+        "count": 1,
+        "sides": 10,
+        "modifier": 5
+      },
+      "reachFeet": 10
+    }
+  ]
 }

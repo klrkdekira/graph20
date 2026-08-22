@@ -1,0 +1,122 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-29-level-5-warlock-spells",
+  "@type": "Table",
+  "name": "Level 5 Warlock Spells",
+  "slug": "3-29-level-5-warlock-spells",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.29",
+    "heading": "Warlock Spell List",
+    "lineStart": 4531,
+    "lineEnd": 4531
+  },
+  "columns": [
+    "Spell",
+    "School",
+    "Special"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Contact Other Plane"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "R"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Dream"
+        },
+        {
+          "value": "Illusion"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Hold Monster"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Mislead"
+        },
+        {
+          "value": "Illusion"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Planar Binding"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Scrying"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "C, M"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Teleportation Circle"
+        },
+        {
+          "value": "Conjuration"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    }
+  ]
+}

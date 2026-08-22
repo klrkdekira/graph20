@@ -24,5 +24,16 @@
   "range": "30 feet",
   "components": "V, S",
   "duration": "Instantaneous",
-  "rulesText": "Level 3 Conjuration (Cleric, Paladin)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V, S\n\nDuration: Instantaneous\n\nYou create 45 pounds of food and 30 gallons of fresh water on the ground or in containers within range—both useful in fending off the hazards of malnutrition and dehydration. The food is bland but nourishing and looks like a food of your choice, and the water is clean. The food spoils after 24 hours if uneaten."
+  "rulesText": "Level 3 Conjuration (Cleric, Paladin)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V, S\n\nDuration: Instantaneous\n\nYou create 45 pounds of food and 30 gallons of fresh water on the ground or in containers within range—both useful in fending off the hazards of malnutrition and dehydration. The food is bland but nourishing and looks like a food of your choice, and the water is clean. The food spoils after 24 hours if uneaten.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/paladin"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": false
 }

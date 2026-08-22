@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.144",
     "heading": "Invisible Stalker",
-    "lineStart": 22443,
-    "lineEnd": 22485
+    "lineStart": 22445,
+    "lineEnd": 22487
   },
   "sizeTypeAlignment": "Large Elemental, Neutral",
   "sizeAndType": "Large Elemental",
@@ -80,5 +80,47 @@
       "rulesText": "Multiattack. The stalker makes three Wind Swipe attacks. It can replace one attack with a use of Vortex.\n\nWind Swipe. Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Force damage.\n\nVortex. Constitution Saving Throw: DC 14, one Large or smaller creature in the stalker's space. Failure: 7 (1d8 + 3) Thunder damage, and the target has the Grappled condition (escape DC 13). Until the grapple ends, the target can't cast spells with a Verbal component and\n\ntakes 7 (2d6) Thunder damage at the start of each of the stalker's turns."
     }
   ],
-  "rulesText": "Large Elemental, Neutral\n\nAC 14\n\nInitiative +7 (22)\n\nHP 97 (13d10 + 26)\n\nSpeed 50 ft., Fly 50 ft. (hover)\n\nSkills Perception +8, Stealth +10\n\nResistances Bludgeoning, Piercing, Slashing\n\nImmunities Poison; Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\n\nSenses Darkvision 60 ft.; Passive Perception 18\n\nLanguages Common, Primordial (Auran)\n\nCR 6 (XP 2,300; PB +3)\n\nTraits\n\nAir Form. The stalker can enter an enemy's space and stop there. It can move through a space as narrow as 1 inch without expending extra movement to do so.\n\nInvisibility. The stalker has the Invisible condition.\n\nActions\n\nMultiattack. The stalker makes three Wind Swipe attacks. It can replace one attack with a use of Vortex.\n\nWind Swipe. Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Force damage.\n\nVortex. Constitution Saving Throw: DC 14, one Large or smaller creature in the stalker's space. Failure: 7 (1d8 + 3) Thunder damage, and the target has the Grappled condition (escape DC 13). Until the grapple ends, the target can't cast spells with a Verbal component and\n\ntakes 7 (2d6) Thunder damage at the start of each of the stalker's turns."
+  "rulesText": "Large Elemental, Neutral\n\nAC 14\n\nInitiative +7 (22)\n\nHP 97 (13d10 + 26)\n\nSpeed 50 ft., Fly 50 ft. (hover)\n\nSkills Perception +8, Stealth +10\n\nResistances Bludgeoning, Piercing, Slashing\n\nImmunities Poison; Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\n\nSenses Darkvision 60 ft.; Passive Perception 18\n\nLanguages Common, Primordial (Auran)\n\nCR 6 (XP 2,300; PB +3)\n\nTraits\n\nAir Form. The stalker can enter an enemy's space and stop there. It can move through a space as narrow as 1 inch without expending extra movement to do so.\n\nInvisibility. The stalker has the Invisible condition.\n\nActions\n\nMultiattack. The stalker makes three Wind Swipe attacks. It can replace one attack with a use of Vortex.\n\nWind Swipe. Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Force damage.\n\nVortex. Constitution Saving Throw: DC 14, one Large or smaller creature in the stalker's space. Failure: 7 (1d8 + 3) Thunder damage, and the target has the Grappled condition (escape DC 13). Until the grapple ends, the target can't cast spells with a Verbal component and\n\ntakes 7 (2d6) Thunder damage at the start of each of the stalker's turns.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/exhaustion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/paralyzed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/petrified"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Wind Swipe",
+      "attackType": "Melee",
+      "attackBonus": 7,
+      "averageDamage": 11,
+      "damageType": "Force",
+      "damageRoll": {
+        "expression": "2d6+4",
+        "count": 2,
+        "sides": 6,
+        "modifier": 4
+      },
+      "reachFeet": 5
+    }
+  ]
 }

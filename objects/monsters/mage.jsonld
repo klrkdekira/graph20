@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.154",
     "heading": "Mage",
-    "lineStart": 22803,
-    "lineEnd": 22847
+    "lineStart": 22805,
+    "lineEnd": 22849
   },
   "sizeTypeAlignment": "Medium or Small Humanoid (Wizard), Neutral",
   "sizeAndType": "Medium or Small Humanoid (Wizard)",
@@ -82,5 +82,24 @@
       "rulesText": "Protective Magic (3/Day). The mage casts Counterspell or Shield in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
     }
   ],
-  "rulesText": "Medium or Small Humanoid (Wizard), Neutral\n\nAC 15\n\nInitiative +2 (12)\n\nHP 81 (18d8)\n\nSpeed 30 ft.\n\nSkills Arcana +6, History +6, Perception +4\n\nGear Wand\n\nSenses Passive Perception 14\n\nLanguages Common plus three other languages\n\nCR 6 (XP 2,300; PB +3)\n\nActions\n\nMultiattack. The mage makes three Arcane Burst attacks.\n\nArcane Burst. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 120 ft. Hit: 16 (3d8 + 3) Force damage.\n\nSpellcasting. The mage casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 14):\n\nAt Will: Detect Magic, Light, Mage Armor (included in AC), Mage Hand, Prestidigitation\n\n2/Day Each: Fireball (level 4 version), Invisibility\n\n1/Day Each: Cone of Cold, Fly\n\nBonus Actions\n\nMisty Step (3/Day). The mage casts Misty Step, using the same spellcasting ability as Spellcasting.\n\nReactions\n\nProtective Magic (3/Day). The mage casts Counterspell or Shield in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
+  "rulesText": "Medium or Small Humanoid (Wizard), Neutral\n\nAC 15\n\nInitiative +2 (12)\n\nHP 81 (18d8)\n\nSpeed 30 ft.\n\nSkills Arcana +6, History +6, Perception +4\n\nGear Wand\n\nSenses Passive Perception 14\n\nLanguages Common plus three other languages\n\nCR 6 (XP 2,300; PB +3)\n\nActions\n\nMultiattack. The mage makes three Arcane Burst attacks.\n\nArcane Burst. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 120 ft. Hit: 16 (3d8 + 3) Force damage.\n\nSpellcasting. The mage casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 14):\n\nAt Will: Detect Magic, Light, Mage Armor (included in AC), Mage Hand, Prestidigitation\n\n2/Day Each: Fireball (level 4 version), Invisibility\n\n1/Day Each: Cone of Cold, Fly\n\nBonus Actions\n\nMisty Step (3/Day). The mage casts Misty Step, using the same spellcasting ability as Spellcasting.\n\nReactions\n\nProtective Magic (3/Day). The mage casts Counterspell or Shield in response to the spell's trigger, using the same spellcasting ability as Spellcasting.",
+  "attacks": [
+    {
+      "name": "Arcane Burst",
+      "attackType": "Melee or Ranged",
+      "attackBonus": 6,
+      "averageDamage": 16,
+      "damageType": "Force",
+      "damageRoll": {
+        "expression": "3d8+3",
+        "count": 3,
+        "sides": 8,
+        "modifier": 3
+      },
+      "reachFeet": 5,
+      "rangeFeet": {
+        "normal": 120
+      }
+    }
+  ]
 }

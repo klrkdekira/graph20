@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.113",
     "heading": "Ancient Gold Dragon",
-    "lineStart": 21363,
-    "lineEnd": 21419
+    "lineStart": 21365,
+    "lineEnd": 21421
   },
   "sizeTypeAlignment": "Gargantuan Dragon (Metallic), Lawful Good",
   "sizeAndType": "Gargantuan Dragon (Metallic)",
@@ -49,7 +49,9 @@
       "savingThrow": 9
     },
     "con": {
-      "score": 29
+      "score": 29,
+      "modifier": 9,
+      "savingThrow": 9
     },
     "int": {
       "score": 18,
@@ -62,7 +64,9 @@
       "savingThrow": 10
     },
     "cha": {
-      "score": 28
+      "score": 28,
+      "modifier": 9,
+      "savingThrow": 9
     }
   },
   "statSections": [

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.221",
     "heading": "Warhorse Skeleton",
-    "lineStart": 25161,
-    "lineEnd": 25187
+    "lineStart": 25163,
+    "lineEnd": 25189
   },
   "sizeTypeAlignment": "Large Undead, Lawful Evil",
   "sizeAndType": "Large Undead",
@@ -75,5 +75,29 @@
       "rulesText": "Hooves. Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning damage. If the target is a Large or smaller creature and the skeleton moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition."
     }
   ],
-  "rulesText": "Large Undead, Lawful Evil\n\nAC 13\n\nInitiative +1 (11)\n\nHP 22 (3d10 + 6)\n\nSpeed 60 ft.\n\nVulnerabilities Bludgeoning\n\nImmunities Poison; Exhaustion, Poisoned\n\nSenses Darkvision 60 ft.; Passive Perception 9\n\nLanguages None\n\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nHooves. Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning damage. If the target is a Large or smaller creature and the skeleton moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition."
+  "rulesText": "Large Undead, Lawful Evil\n\nAC 13\n\nInitiative +1 (11)\n\nHP 22 (3d10 + 6)\n\nSpeed 60 ft.\n\nVulnerabilities Bludgeoning\n\nImmunities Poison; Exhaustion, Poisoned\n\nSenses Darkvision 60 ft.; Passive Perception 9\n\nLanguages None\n\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nHooves. Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning damage. If the target is a Large or smaller creature and the skeleton moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/exhaustion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Hooves",
+      "attackType": "Melee",
+      "attackBonus": 6,
+      "averageDamage": 7,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "1d6+4",
+        "count": 1,
+        "sides": 6,
+        "modifier": 4
+      },
+      "reachFeet": 5
+    }
+  ]
 }

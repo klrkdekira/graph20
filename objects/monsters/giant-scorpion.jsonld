@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.44",
     "heading": "Giant Scorpion",
-    "lineStart": 28345,
-    "lineEnd": 28371
+    "lineStart": 28347,
+    "lineEnd": 28373
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -73,5 +73,35 @@
       "rulesText": "Multiattack. The scorpion makes two Claw attacks and one Sting attack.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 13) from one of two claws.\n\nSting. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 11 (2d10) Poison damage."
     }
   ],
-  "rulesText": "Large Beast, Unaligned\n\nAC 15\n\nInitiative +1 (11)\n\nHP 52 (7d10 + 14)\n\nSpeed 40 ft.\n\nSenses Blindsight 60 ft.; Passive Perception 9\n\nLanguages None\n\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The scorpion makes two Claw attacks and one Sting attack.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 13) from one of two claws.\n\nSting. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 11 (2d10) Poison damage."
+  "rulesText": "Large Beast, Unaligned\n\nAC 15\n\nInitiative +1 (11)\n\nHP 52 (7d10 + 14)\n\nSpeed 40 ft.\n\nSenses Blindsight 60 ft.; Passive Perception 9\n\nLanguages None\n\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The scorpion makes two Claw attacks and one Sting attack.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 13) from one of two claws.\n\nSting. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 11 (2d10) Poison damage.",
+  "attacks": [
+    {
+      "name": "Claw",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 6,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "1d6+3",
+        "count": 1,
+        "sides": 6,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Sting",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 7,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d8+3",
+        "count": 1,
+        "sides": 8,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    }
+  ]
 }

@@ -25,5 +25,19 @@
   "range": "Self",
   "components": "V, S, M (a pinch of talc)",
   "duration": "1 hour",
-  "rulesText": "Level 2 Divination (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S, M (a pinch of talc)\n\nDuration: 1 hour\n\nFor the duration, you see creatures and objects that have the Invisible condition as if they were visible, and you can see into the Ethereal Plane. Creatures and objects there appear ghostly."
+  "rulesText": "Level 2 Divination (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S, M (a pinch of talc)\n\nDuration: 1 hour\n\nFor the duration, you see creatures and objects that have the Invisible condition as if they were visible, and you can see into the Ethereal Plane. Creatures and objects there appear ghostly.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": false
 }

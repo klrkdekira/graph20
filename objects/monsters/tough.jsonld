@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.239",
     "heading": "Tough",
-    "lineStart": 25849,
-    "lineEnd": 25879
+    "lineStart": 25851,
+    "lineEnd": 25881
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -78,5 +78,38 @@
       "rulesText": "Mace. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage.\n\nHeavy Crossbow. Ranged Attack Roll: +3, range 100/400 ft. Hit: 6 (1d10 + 1) Piercing damage."
     }
   ],
-  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 12\n\nInitiative +1 (11)\n\nHP 32 (5d8 + 10)\n\nSpeed 30 ft.\n\nGear Heavy Crossbow, Leather Armor, Mace\n\nSenses Passive Perception 10\n\nLanguages Common\n\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nPack Tactics. The tough has Advantage on an attack roll against a creature if at least one of the tough's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nMace. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage.\n\nHeavy Crossbow. Ranged Attack Roll: +3, range 100/400 ft. Hit: 6 (1d10 + 1) Piercing damage."
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 12\n\nInitiative +1 (11)\n\nHP 32 (5d8 + 10)\n\nSpeed 30 ft.\n\nGear Heavy Crossbow, Leather Armor, Mace\n\nSenses Passive Perception 10\n\nLanguages Common\n\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nPack Tactics. The tough has Advantage on an attack roll against a creature if at least one of the tough's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nMace. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage.\n\nHeavy Crossbow. Ranged Attack Roll: +3, range 100/400 ft. Hit: 6 (1d10 + 1) Piercing damage.",
+  "attacks": [
+    {
+      "name": "Mace",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 5,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "1d6+2",
+        "count": 1,
+        "sides": 6,
+        "modifier": 2
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Heavy Crossbow",
+      "attackType": "Ranged",
+      "attackBonus": 3,
+      "averageDamage": 6,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d10+1",
+        "count": 1,
+        "sides": 10,
+        "modifier": 1
+      },
+      "rangeFeet": {
+        "normal": 100,
+        "long": 400
+      }
+    }
+  ]
 }

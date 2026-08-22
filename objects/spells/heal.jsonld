@@ -24,5 +24,16 @@
   "range": "60 feet",
   "components": "V, S",
   "duration": "Instantaneous",
-  "rulesText": "Level 6 Abjuration (Cleric, Druid)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S\n\nDuration: Instantaneous\n\nChoose a creature that you can see within range. Positive energy washes through the target, restoring 70 Hit Points. This spell also ends the Blinded, Deafened, and Poisoned conditions on the target.\n\nUsing a Higher-Level Spell Slot. The healing increases by 10 for each spell slot level above 6."
+  "rulesText": "Level 6 Abjuration (Cleric, Druid)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S\n\nDuration: Instantaneous\n\nChoose a creature that you can see within range. Positive energy washes through the target, restoring 70 Hit Points. This spell also ends the Blinded, Deafened, and Poisoned conditions on the target.\n\nUsing a Higher-Level Spell Slot. The healing increases by 10 for each spell slot level above 6.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
+    }
+  ],
+  "scalesWithSlotLevel": true,
+  "concentration": false,
+  "ritual": false
 }

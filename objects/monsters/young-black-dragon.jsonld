@@ -49,7 +49,9 @@
       "savingThrow": 5
     },
     "con": {
-      "score": 17
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "int": {
       "score": 12,
@@ -62,7 +64,9 @@
       "savingThrow": 3
     },
     "cha": {
-      "score": 15
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
     }
   },
   "statSections": [
@@ -75,5 +79,21 @@
       "rulesText": "Multiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 9 (2d4 + 4) Slashing damage plus 3 (1d6) Acid damage.\n\nAcid Breath (Recharge 5–6). Dexterity Saving Throw: DC 14, each creature in a 30-foot-long, 5-foot-wide Line. Failure: 49 (14d6) Acid damage. Success: Half damage."
     }
   ],
-  "rulesText": "Large Dragon (Chromatic), Chaotic Evil\n\nAC 18\n\nInitiative +5 (15)\n\nHP 127 (15d10 + 45)\n\nSpeed 40 ft., Fly 80 ft., Swim 40 ft.\n\nSkills Perception +6, Stealth +5\n\nImmunities Acid\n\nSenses Blindsight 30 ft., Darkvision 120 ft.;\n\nPassive Perception 16\n\nLanguages Common, Draconic\n\nCR 7 (XP 2,900; PB +3)\n\nTraits\n\nAmphibious. The dragon can breathe air and water.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 9 (2d4 + 4) Slashing damage plus 3 (1d6) Acid damage.\n\nAcid Breath (Recharge 5–6). Dexterity Saving Throw: DC 14, each creature in a 30-foot-long, 5-foot-wide Line. Failure: 49 (14d6) Acid damage. Success: Half damage."
+  "rulesText": "Large Dragon (Chromatic), Chaotic Evil\n\nAC 18\n\nInitiative +5 (15)\n\nHP 127 (15d10 + 45)\n\nSpeed 40 ft., Fly 80 ft., Swim 40 ft.\n\nSkills Perception +6, Stealth +5\n\nImmunities Acid\n\nSenses Blindsight 30 ft., Darkvision 120 ft.;\n\nPassive Perception 16\n\nLanguages Common, Draconic\n\nCR 7 (XP 2,900; PB +3)\n\nTraits\n\nAmphibious. The dragon can breathe air and water.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 9 (2d4 + 4) Slashing damage plus 3 (1d6) Acid damage.\n\nAcid Breath (Recharge 5–6). Dexterity Saving Throw: DC 14, each creature in a 30-foot-long, 5-foot-wide Line. Failure: 49 (14d6) Acid damage. Success: Half damage.",
+  "attacks": [
+    {
+      "name": "Rend",
+      "attackType": "Melee",
+      "attackBonus": 7,
+      "averageDamage": 9,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "2d4+4",
+        "count": 2,
+        "sides": 4,
+        "modifier": 4
+      },
+      "reachFeet": 10
+    }
+  ]
 }

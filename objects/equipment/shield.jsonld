@@ -1,0 +1,30 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/shield",
+  "@type": "Equipment",
+  "name": "Shield",
+  "slug": "shield",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.31",
+    "heading": "One at a Time",
+    "lineStart": 5423,
+    "lineEnd": 5423
+  },
+  "equipmentType": "armor",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-31-armor"
+  },
+  "armorCategory": "Shield",
+  "donDoffTime": "Utilize Action to Don or Doff",
+  "armorClass": "+2",
+  "weight": "6 lb.",
+  "cost": {
+    "text": "10 GP",
+    "currency": "GP",
+    "amount": 10
+  }
+}

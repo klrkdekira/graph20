@@ -1,0 +1,206 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-18-level-1-paladin-spells",
+  "@type": "Table",
+  "name": "Level 1 Paladin Spells",
+  "slug": "3-18-level-1-paladin-spells",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.18",
+    "heading": "Paladin Spell List",
+    "lineStart": 3506,
+    "lineEnd": 3506
+  },
+  "columns": [
+    "Spell",
+    "School",
+    "Special"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Bless"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "C, M"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Command"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Cure Wounds"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Detect Evil and Good"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Detect Magic"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "C, R"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Detect Poison and Disease"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "C, R"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Divine Favor"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Divine Smite"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Heroism"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Protection from Evil and Good"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "C, M"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "Purify Food and Drink"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "R"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "Searing Smite"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "Shield of Faith"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    }
+  ]
+}

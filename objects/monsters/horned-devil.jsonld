@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.139",
     "heading": "Horned Devil",
-    "lineStart": 22232,
-    "lineEnd": 22272
+    "lineStart": 22234,
+    "lineEnd": 22274
   },
   "sizeTypeAlignment": "Large Fiend (Devil), Lawful Evil",
   "sizeAndType": "Large Fiend (Devil)",
@@ -49,7 +49,9 @@
       "savingThrow": 7
     },
     "con": {
-      "score": 21
+      "score": 21,
+      "modifier": 5,
+      "savingThrow": 5
     },
     "int": {
       "score": 12,
@@ -62,7 +64,9 @@
       "savingThrow": 7
     },
     "cha": {
-      "score": 18
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 8
     }
   },
   "statSections": [
@@ -75,5 +79,42 @@
       "rulesText": "Multiattack. The devil makes three attacks, using Searing Fork or Hurl Flame in any combination. It can replace one attack with a use of Infernal Tail.\n\nSearing Fork. Melee Attack Roll: +10, reach 10 ft. Hit: 15 (2d8 + 6) Piercing damage plus 9 (2d8) Fire damage.\n\nHurl Flame. Ranged Attack Roll: +8, range 150 ft. Hit: 26 (5d8 + 4) Fire damage. If the target is a flammable object that isn't being worn or carried, it starts burning.\n\nInfernal Tail. Dexterity Saving Throw: DC 17, one creature the devil can see within 10 feet. Failure: 10 (1d8 + 6) Necrotic damage, and the target receives an infernal wound if it doesn't have one. While wounded, the target loses 10 (3d6) Hit Points at the start of each of its turns. The wound closes after 1 minute, after a spell restores Hit Points to the target, or after the target or a creature within 5 feet of it takes an action to stanch the wound, doing so by succeeding on a DC 17 Wisdom (Medicine) check."
     }
   ],
-  "rulesText": "Large Fiend (Devil), Lawful Evil\n\nAC 18\n\nInitiative +7 (17)\n\nHP 199 (19d10 + 95)\n\nSpeed 30 ft., Fly 60 ft.\n\nResistances Cold\n\nImmunities Fire, Poison; Poisoned\n\nSenses Darkvision 150 ft. (unimpeded by magical Darkness); Passive Perception 13\n\nLanguages Infernal; telepathy 120 ft.\n\nCR 11 (XP 7,200; PB +4)\n\nTraits\n\nDiabolical Restoration. If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nMagic Resistance. The devil has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The devil makes three attacks, using Searing Fork or Hurl Flame in any combination. It can replace one attack with a use of Infernal Tail.\n\nSearing Fork. Melee Attack Roll: +10, reach 10 ft. Hit: 15 (2d8 + 6) Piercing damage plus 9 (2d8) Fire damage.\n\nHurl Flame. Ranged Attack Roll: +8, range 150 ft. Hit: 26 (5d8 + 4) Fire damage. If the target is a flammable object that isn't being worn or carried, it starts burning.\n\nInfernal Tail. Dexterity Saving Throw: DC 17, one creature the devil can see within 10 feet. Failure: 10 (1d8 + 6) Necrotic damage, and the target receives an infernal wound if it doesn't have one. While wounded, the target loses 10 (3d6) Hit Points at the start of each of its turns. The wound closes after 1 minute, after a spell restores Hit Points to the target, or after the target or a creature within 5 feet of it takes an action to stanch the wound, doing so by succeeding on a DC 17 Wisdom (Medicine) check."
+  "rulesText": "Large Fiend (Devil), Lawful Evil\n\nAC 18\n\nInitiative +7 (17)\n\nHP 199 (19d10 + 95)\n\nSpeed 30 ft., Fly 60 ft.\n\nResistances Cold\n\nImmunities Fire, Poison; Poisoned\n\nSenses Darkvision 150 ft. (unimpeded by magical Darkness); Passive Perception 13\n\nLanguages Infernal; telepathy 120 ft.\n\nCR 11 (XP 7,200; PB +4)\n\nTraits\n\nDiabolical Restoration. If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nMagic Resistance. The devil has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The devil makes three attacks, using Searing Fork or Hurl Flame in any combination. It can replace one attack with a use of Infernal Tail.\n\nSearing Fork. Melee Attack Roll: +10, reach 10 ft. Hit: 15 (2d8 + 6) Piercing damage plus 9 (2d8) Fire damage.\n\nHurl Flame. Ranged Attack Roll: +8, range 150 ft. Hit: 26 (5d8 + 4) Fire damage. If the target is a flammable object that isn't being worn or carried, it starts burning.\n\nInfernal Tail. Dexterity Saving Throw: DC 17, one creature the devil can see within 10 feet. Failure: 10 (1d8 + 6) Necrotic damage, and the target receives an infernal wound if it doesn't have one. While wounded, the target loses 10 (3d6) Hit Points at the start of each of its turns. The wound closes after 1 minute, after a spell restores Hit Points to the target, or after the target or a creature within 5 feet of it takes an action to stanch the wound, doing so by succeeding on a DC 17 Wisdom (Medicine) check.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Searing Fork",
+      "attackType": "Melee",
+      "attackBonus": 10,
+      "averageDamage": 15,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d8+6",
+        "count": 2,
+        "sides": 8,
+        "modifier": 6
+      },
+      "reachFeet": 10
+    },
+    {
+      "name": "Hurl Flame",
+      "attackType": "Ranged",
+      "attackBonus": 8,
+      "averageDamage": 26,
+      "damageType": "Fire",
+      "damageRoll": {
+        "expression": "5d8+4",
+        "count": 5,
+        "sides": 8,
+        "modifier": 4
+      },
+      "rangeFeet": {
+        "normal": 150
+      }
+    }
+  ]
 }

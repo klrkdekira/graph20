@@ -38,6 +38,16 @@
       },
       "unevaluatedProperties": false
     },
+    "conditionImmunities": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "common.schema.json#/$defs/NodeReference" }
+    },
+    "attacks": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "common.schema.json#/$defs/Attack" }
+    },
     "statSections": {
       "type": "array",
       "minItems": 1,

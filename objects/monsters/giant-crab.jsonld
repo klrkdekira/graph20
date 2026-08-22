@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.32",
     "heading": "Giant Crab",
-    "lineStart": 27972,
-    "lineEnd": 28000
+    "lineStart": 27974,
+    "lineEnd": 28002
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
@@ -77,5 +77,21 @@
       "rulesText": "Claw. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11) from one of two claws."
     }
   ],
-  "rulesText": "Medium Beast, Unaligned\n\nAC 15\n\nInitiative +1 (11)\n\nHP 13 (3d8)\n\nSpeed 30 ft., Swim 30 ft.\n\nSkills Stealth +3\n\nSenses Blindsight 30 ft.; Passive Perception 9\n\nLanguages None\n\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nAmphibious. The crab can breathe air and water.\n\nActions\n\nClaw. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11) from one of two claws."
+  "rulesText": "Medium Beast, Unaligned\n\nAC 15\n\nInitiative +1 (11)\n\nHP 13 (3d8)\n\nSpeed 30 ft., Swim 30 ft.\n\nSkills Stealth +3\n\nSenses Blindsight 30 ft.; Passive Perception 9\n\nLanguages None\n\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nAmphibious. The crab can breathe air and water.\n\nActions\n\nClaw. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11) from one of two claws.",
+  "attacks": [
+    {
+      "name": "Claw",
+      "attackType": "Melee",
+      "attackBonus": 3,
+      "averageDamage": 4,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "1d6+1",
+        "count": 1,
+        "sides": 6,
+        "modifier": 1
+      },
+      "reachFeet": 5
+    }
+  ]
 }

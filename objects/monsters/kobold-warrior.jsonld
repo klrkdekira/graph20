@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.148",
     "heading": "Kobold Warrior",
-    "lineStart": 22571,
-    "lineEnd": 22601
+    "lineStart": 22573,
+    "lineEnd": 22603
   },
   "sizeTypeAlignment": "Small Dragon, Neutral",
   "sizeAndType": "Small Dragon",
@@ -78,5 +78,25 @@
       "rulesText": "Dagger. Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage."
     }
   ],
-  "rulesText": "Small Dragon, Neutral\n\nAC 14\n\nInitiative +2 (12)\n\nHP 7 (3d6 - 3)\n\nSpeed 30 ft.\n\nGear Daggers (3)\n\nSenses Darkvision 60 ft.; Passive Perception 8\n\nLanguages Common, Draconic\n\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nPack Tactics. The kobold has Advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nSunlight Sensitivity. While in sunlight, the kobold has Disadvantage on ability checks and attack rolls.\n\nActions\n\nDagger. Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage."
+  "rulesText": "Small Dragon, Neutral\n\nAC 14\n\nInitiative +2 (12)\n\nHP 7 (3d6 - 3)\n\nSpeed 30 ft.\n\nGear Daggers (3)\n\nSenses Darkvision 60 ft.; Passive Perception 8\n\nLanguages Common, Draconic\n\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nPack Tactics. The kobold has Advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nSunlight Sensitivity. While in sunlight, the kobold has Disadvantage on ability checks and attack rolls.\n\nActions\n\nDagger. Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage.",
+  "attacks": [
+    {
+      "name": "Dagger",
+      "attackType": "Melee or Ranged",
+      "attackBonus": 4,
+      "averageDamage": 4,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d4+2",
+        "count": 1,
+        "sides": 4,
+        "modifier": 2
+      },
+      "reachFeet": 5,
+      "rangeFeet": {
+        "normal": 20,
+        "long": 60
+      }
+    }
+  ]
 }

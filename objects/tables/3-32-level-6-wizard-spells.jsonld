@@ -1,0 +1,290 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-32-level-6-wizard-spells",
+  "@type": "Table",
+  "name": "Level 6 Wizard Spells",
+  "slug": "3-32-level-6-wizard-spells",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.32",
+    "heading": "Wizard Spell List",
+    "lineStart": 4725,
+    "lineEnd": 4725
+  },
+  "columns": [
+    "Spell",
+    "School",
+    "Special"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Chain Lightning"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Circle of Death"
+        },
+        {
+          "value": "Necromancy"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Contingency"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Create Undead"
+        },
+        {
+          "value": "Necromancy"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Disintegrate"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Eyebite"
+        },
+        {
+          "value": "Necromancy"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Flesh to Stone"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Freezing Sphere"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Globe of Invulnerability"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Guards and Wards"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "Instant Summons"
+        },
+        {
+          "value": "Conjuration"
+        },
+        {
+          "value": "R, M"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "Irresistible Dance"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "Magic Jar"
+        },
+        {
+          "value": "Necromancy"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "cells": [
+        {
+          "value": "Mass Suggestion"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "cells": [
+        {
+          "value": "Move Earth"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "cells": [
+        {
+          "value": "Programmed Illusion"
+        },
+        {
+          "value": "Illusion"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "cells": [
+        {
+          "value": "Sunbeam"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "cells": [
+        {
+          "value": "True Seeing"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "cells": [
+        {
+          "value": "Wall of Ice"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    }
+  ]
+}

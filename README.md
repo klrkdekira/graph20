@@ -9,6 +9,7 @@ Machine-readable reference data for the System Reference Document 5.2.1 (D&D fif
 - `systems/` — JSON-LD 1.1 context and Draft 2020-12 schemas.
 - `scripts/` — deterministic extraction, manifest/bundle/llms/search-index builders, and validators.
 - `tests/` — structural test suite.
+- `index.html` — dependency-free static explorer (browse, search, and inspect records in the browser; works on GitHub Pages as-is).
 - `SPECIFICATION.md` — authoritative architecture, extraction rules, and audit baseline.
 - `CHECKLIST.md` — replication blueprint with live completion status.
 
@@ -19,22 +20,32 @@ make install   # sync dev dependencies with uv
 make check     # full rebuild + tests + structural/schema validation + determinism
 ```
 
-## Corpus inventory (v0.1.0)
+## Corpus inventory (v0.2.0)
 
 | Collection | Records | Schema |
 | --- | --- | --- |
 | sources | 1 | `source.schema.json` |
-| rules | 1,113 | `rule.schema.json` |
-| tables | 258 | `table.schema.json` |
-| spells | 338 | `spell.schema.json` |
+| rules | 738 | `rule.schema.json` |
+| tables | 243 | `table.schema.json` |
+| classes | 12 | `class.schema.json` |
+| subclasses | 12 | `subclass.schema.json` |
+| species | 9 | `species.schema.json` |
+| backgrounds | 4 | `background.schema.json` |
 | feats | 17 | `feat.schema.json` |
+| equipment | 133 | `equipment.schema.json` |
+| spells | 338 | `spell.schema.json` |
+| conditions | 15 | `condition.schema.json` |
 | magic-items | 258 | `magic-item.schema.json` |
 | monsters | 332 | `monster.schema.json` |
-| **total** | **2,317** | |
+| **total** | **2,112** | |
+
+Graph enrichment: spells link to class nodes and carry typed save/damage/scaling fields; monsters carry typed six-ability blocks, parsed attack routines, and condition-immunity links; equipment carries typed damage, properties, and costs. Verbatim SRD prose is always preserved alongside.
 
 ## Conventions
 
-Every entity has an absolute canonical `@id` under the base IRI `https://cheeleong.dev/graph20/`, a JSON-LD `@type`, a slug, a source reference, and a `sourceLocator` (chapter, section, heading, line bounds) tracing it to the SRD markdown. Source wording is preserved verbatim in `rulesText`; structured fields (spell level/school, monster stats, item rarity, ...) are indexes, never replacements. Source OCR anomalies are handled only through the reviewed registry in `objects/sources/extraction-overrides.json`.
+Every entity has an absolute canonical `@id` under the base IRI `https://cheeleong.dev/graph20/`, a JSON-LD `@type`, a slug, a source reference, and a `sourceLocator` (chapter, section, heading, line bounds) tracing it to the SRD markdown. Source wording is preserved verbatim in `rulesText`; structured fields are indexes, never replacements.
+
+The source markdown received a single documented repair pass (`scripts/repair_source.py`) driven by the substitution glossary in `scripts/data/sanitization-glossary.json`: OCR dice (`Id6` → `1d6`), `Level I/II` headings, and 91 damaged monster ability tables regenerated from open5e's CC-BY-4.0 srd-2024 dataset with cell-level cross-validation. All repairs and their rationale live in `objects/sources/extraction-overrides.json`. Coverage (`make coverage`) asserts every content line maps to a record; `make review-stats` shows the semantic review ledger.
 
 ## Source, license, and attribution
 

@@ -1,0 +1,32 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/splint-armor",
+  "@type": "Equipment",
+  "name": "Splint Armor",
+  "slug": "splint-armor",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.31",
+    "heading": "One at a Time",
+    "lineStart": 5423,
+    "lineEnd": 5423
+  },
+  "equipmentType": "armor",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-31-armor"
+  },
+  "armorCategory": "Heavy",
+  "donDoffTime": "10 Minutes to Don and 5 Minutes to Doff",
+  "armorClass": "17",
+  "strengthRequirement": "Str 15",
+  "stealthEffect": "Disadvantage",
+  "weight": "60 lb.",
+  "cost": {
+    "text": "200 GP",
+    "currency": "GP",
+    "amount": 200
+  }
+}

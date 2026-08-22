@@ -26,5 +26,22 @@
   "range": "Self",
   "components": "V, S, M (a yew leaf)",
   "duration": "Concentration, up to 10 minutes",
-  "rulesText": "Level 1 Divination (Cleric, Druid, Paladin, Ranger)\n\nCasting Time: Action or Ritual\n\nRange: Self\n\nComponents: V, S, M (a yew leaf)\n\nDuration: Concentration, up to 10 minutes\n\nFor the duration, you sense the location of poisons, poisonous or venomous creatures, and magical\n\ncontagions within 30 feet of yourself. You sense the kind of poison, creature, or contagion in each case.\n\nThe spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead."
+  "rulesText": "Level 1 Divination (Cleric, Druid, Paladin, Ranger)\n\nCasting Time: Action or Ritual\n\nRange: Self\n\nComponents: V, S, M (a yew leaf)\n\nDuration: Concentration, up to 10 minutes\n\nFor the duration, you sense the location of poisons, poisonous or venomous creatures, and magical\n\ncontagions within 30 feet of yourself. You sense the kind of poison, creature, or contagion in each case.\n\nThe spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/paladin"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/ranger"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": true,
+  "ritual": true
 }

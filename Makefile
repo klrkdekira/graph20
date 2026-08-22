@@ -1,4 +1,4 @@
-.PHONY: help install extract manifest bundle llms-full search-index test validate schema determinism check
+.PHONY: help install extract manifest bundle llms-full search-index collection-index coverage review review-stats vocab sitemap test validate schema determinism check
 
 UV ?= uv
 
@@ -34,6 +34,24 @@ llms-full:
 search-index:
 	$(UV) run python scripts/build_search_index.py --root .
 
+collection-index:
+	$(UV) run python scripts/build_collection_indexes.py --root .
+
+coverage:
+	$(UV) run python scripts/build_coverage.py --root .
+
+review:
+	$(UV) run python scripts/build_review_ledger.py --root .
+
+review-stats:
+	$(UV) run python scripts/manage_review_ledger.py --stats
+
+vocab:
+	$(UV) run python scripts/build_vocab.py --root .
+
+sitemap:
+	$(UV) run python scripts/build_sitemap.py --root .
+
 test:
 	$(UV) run python -m unittest discover -s tests -v
 
@@ -46,4 +64,4 @@ schema:
 determinism:
 	$(UV) run python scripts/check_determinism.py
 
-check: extract manifest bundle llms-full search-index test validate schema determinism
+check: extract manifest bundle llms-full search-index collection-index coverage review vocab sitemap test validate schema determinism

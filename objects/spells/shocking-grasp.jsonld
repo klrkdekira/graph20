@@ -24,5 +24,26 @@
   "range": "Touch",
   "components": "V, S",
   "duration": "Instantaneous",
-  "rulesText": "Evocation Cantrip (Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S\n\nDuration: Instantaneous\n\nLightning springs from you to a creature that you try to touch. Make a melee spell attack against the\n\ntarget. On a hit, the target takes 1d8 Lightning damage, and it can't make Opportunity Attacks until the start of its next turn.\n\nCantrip Upgrade. The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8)."
+  "rulesText": "Evocation Cantrip (Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S\n\nDuration: Instantaneous\n\nLightning springs from you to a creature that you try to touch. Make a melee spell attack against the\n\ntarget. On a hit, the target takes 1d8 Lightning damage, and it can't make Opportunity Attacks until the start of its next turn.\n\nCantrip Upgrade. The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "damage": [
+    {
+      "damageType": "Lightning",
+      "damageRoll": {
+        "expression": "1d8",
+        "count": 1,
+        "sides": 8
+      }
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": false
 }

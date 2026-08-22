@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.23",
     "heading": "Elk",
-    "lineStart": 27718,
-    "lineEnd": 27742
+    "lineStart": 27720,
+    "lineEnd": 27744
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -46,6 +46,11 @@
       "modifier": 0,
       "savingThrow": 0
     },
+    "con": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    },
     "int": {
       "score": 2,
       "modifier": -4,
@@ -57,7 +62,9 @@
       "savingThrow": 0
     },
     "cha": {
-      "score": 6
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
     }
   },
   "statSections": [
@@ -66,5 +73,21 @@
       "rulesText": "Ram. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Bludgeoning damage and has the Prone condition."
     }
   ],
-  "rulesText": "Large Beast, Unaligned\n\nAC 10\n\nInitiative +0 (10)\n\nHP 11 (2d10)\n\nSpeed 50 ft.\n\nSkills Perception +2\n\nSenses Darkvision 60 ft.; Passive Perception 12\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nRam. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Bludgeoning damage and has the Prone condition."
+  "rulesText": "Large Beast, Unaligned\n\nAC 10\n\nInitiative +0 (10)\n\nHP 11 (2d10)\n\nSpeed 50 ft.\n\nSkills Perception +2\n\nSenses Darkvision 60 ft.; Passive Perception 12\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nRam. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Bludgeoning damage and has the Prone condition.",
+  "attacks": [
+    {
+      "name": "Ram",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 6,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "1d6+3",
+        "count": 1,
+        "sides": 6,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    }
+  ]
 }

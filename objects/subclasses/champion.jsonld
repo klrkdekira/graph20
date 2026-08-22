@@ -1,0 +1,54 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/subclasses/champion",
+  "@type": "Subclass",
+  "name": "Champion",
+  "slug": "champion",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.14",
+    "heading": "Fighter Subclass: Champion",
+    "lineStart": 3136,
+    "lineEnd": 3140
+  },
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/fighter"
+  },
+  "parentClassName": "Fighter",
+  "rulesText": "Pursue Physical Excellence in Combat\n\nA Champion focuses on the development of martial prowess in a relentless pursuit of victory. Champions combine rigorous training with physical excellence to deal devastating blows, withstand peril, and garner glory. Whether in athletic contests or bloody battle, Champions strive for the crown of the victor.",
+  "features": [
+    {
+      "level": 3,
+      "name": "Improved Critical",
+      "rulesText": "Your attack rolls with weapons and Unarmed Strikes can score a Critical Hit on a roll of 19 or 20 on the d20."
+    },
+    {
+      "level": 3,
+      "name": "Remarkable Athlete",
+      "rulesText": "Thanks to your athleticism, you have Advantage on Initiative rolls and Strength (Athletics) checks.\n\nIn addition, immediately after you score a Critical Hit, you can move up to half your Speed without provoking Opportunity Attacks."
+    },
+    {
+      "level": 7,
+      "name": "Additional Fighting Style",
+      "rulesText": "You gain another Fighting Style feat of your choice."
+    },
+    {
+      "level": 10,
+      "name": "Heroic Warrior",
+      "rulesText": "The thrill of battle drives you toward victory. During combat, you can give yourself Heroic Inspiration whenever you start your turn without it."
+    },
+    {
+      "level": 15,
+      "name": "Superior Critical",
+      "rulesText": "Your attack rolls with weapons and Unarmed Strikes can now score a Critical Hit on a roll of 18–20 on the d20."
+    },
+    {
+      "level": 18,
+      "name": "Survivor",
+      "rulesText": "You attain the pinnacle of resilience in battle, giving you these benefits.\n\nDefy Death. You have Advantage on Death Saving Throws. Moreover, when you roll 18–20 on a Death Saving Throw, you gain the benefit of rolling a 20 on it.\n\nHeroic Rally. At the start of each of your turns, you regain Hit Points equal to 5 plus your Constitution modifier if you are Bloodied and have at least 1 Hit Point."
+    }
+  ]
+}

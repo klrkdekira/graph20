@@ -26,5 +26,22 @@
   "range": "Touch",
   "components": "V, S, M (an eyelash in gum arabic)",
   "duration": "Concentration, up to 1 hour",
-  "rulesText": "Level 2 Illusion (Bard, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (an eyelash in gum arabic)\n\nDuration: Concentration, up to 1 hour\n\nA creature you touch has the Invisible condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 2."
+  "rulesText": "Level 2 Illusion (Bard, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (an eyelash in gum arabic)\n\nDuration: Concentration, up to 1 hour\n\nA creature you touch has the Invisible condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 2.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "scalesWithSlotLevel": true,
+  "concentration": true,
+  "ritual": false
 }

@@ -26,5 +26,22 @@
   "range": "Touch",
   "components": "V, M (a firefly or phosphorescent moss)",
   "duration": "1 hour",
-  "rulesText": "Evocation Cantrip (Bard, Cleric, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, M (a firefly or phosphorescent moss)\n\nDuration: 1 hour\n\nYou touch one Large or smaller object that isn't being worn or carried by someone else. Until the spell ends, the object sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The light can be colored as you like.\n\nCovering the object with something opaque blocks the light. The spell ends if you cast it again."
+  "rulesText": "Evocation Cantrip (Bard, Cleric, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, M (a firefly or phosphorescent moss)\n\nDuration: 1 hour\n\nYou touch one Large or smaller object that isn't being worn or carried by someone else. Until the spell ends, the object sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The light can be colored as you like.\n\nCovering the object with something opaque blocks the light. The spell ends if you cast it again.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": false
 }

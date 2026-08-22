@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.90",
     "heading": "Triceratops",
-    "lineStart": 29729,
-    "lineEnd": 29753
+    "lineStart": 29731,
+    "lineEnd": 29755
   },
   "sizeTypeAlignment": "Huge Beast (Dinosaur), Unaligned",
   "sizeAndType": "Huge Beast (Dinosaur)",
@@ -73,5 +73,21 @@
       "rulesText": "Multiattack. The triceratops makes two Gore attacks.\n\nGore. Melee Attack Roll: +9, reach 5 ft. Hit: 19 (2d12 + 6) Piercing damage. If the target is Huge or smaller and the triceratops moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition."
     }
   ],
-  "rulesText": "Huge Beast (Dinosaur), Unaligned\n\nAC 14\n\nInitiative -1 (9)\n\nHP 114 (12d12 + 36)\n\nSpeed 50 ft.\n\nSenses Passive Perception 10\n\nLanguages None\n\nCR 5 (XP 1,800; PB +3)\n\nActions\n\nMultiattack. The triceratops makes two Gore attacks.\n\nGore. Melee Attack Roll: +9, reach 5 ft. Hit: 19 (2d12 + 6) Piercing damage. If the target is Huge or smaller and the triceratops moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition."
+  "rulesText": "Huge Beast (Dinosaur), Unaligned\n\nAC 14\n\nInitiative -1 (9)\n\nHP 114 (12d12 + 36)\n\nSpeed 50 ft.\n\nSenses Passive Perception 10\n\nLanguages None\n\nCR 5 (XP 1,800; PB +3)\n\nActions\n\nMultiattack. The triceratops makes two Gore attacks.\n\nGore. Melee Attack Roll: +9, reach 5 ft. Hit: 19 (2d12 + 6) Piercing damage. If the target is Huge or smaller and the triceratops moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition.",
+  "attacks": [
+    {
+      "name": "Gore",
+      "attackType": "Melee",
+      "attackBonus": 9,
+      "averageDamage": 19,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d12+6",
+        "count": 2,
+        "sides": 12,
+        "modifier": 6
+      },
+      "reachFeet": 5
+    }
+  ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.86",
     "heading": "Swarm of Rats",
-    "lineStart": 29599,
-    "lineEnd": 29629
+    "lineStart": 29601,
+    "lineEnd": 29631
   },
   "sizeTypeAlignment": "Medium Swarm of Tiny Beasts, Unaligned",
   "sizeAndType": "Medium Swarm of Tiny Beasts",
@@ -79,5 +79,46 @@
       "rulesText": "Bites. Melee Attack Roll: +2, reach 5 ft. Hit: 5 (2d4) Piercing damage, or 2 (1d4) Piercing damage if the swarm is Bloodied."
     }
   ],
-  "rulesText": "Medium Swarm of Tiny Beasts, Unaligned\n\nAC 10\n\nInitiative +0 (10)\n\nHP 14 (4d8 - 4)\n\nSpeed 30 ft., Climb 30 ft.\n\nResistances Bludgeoning, Piercing, Slashing\n\nImmunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned\n\nSenses Darkvision 30 ft.; Passive Perception 10\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nSwarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain Hit Points or gain Temporary Hit Points.\n\nActions\n\nBites. Melee Attack Roll: +2, reach 5 ft. Hit: 5 (2d4) Piercing damage, or 2 (1d4) Piercing damage if the swarm is Bloodied."
+  "rulesText": "Medium Swarm of Tiny Beasts, Unaligned\n\nAC 10\n\nInitiative +0 (10)\n\nHP 14 (4d8 - 4)\n\nSpeed 30 ft., Climb 30 ft.\n\nResistances Bludgeoning, Piercing, Slashing\n\nImmunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned\n\nSenses Darkvision 30 ft.; Passive Perception 10\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nSwarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain Hit Points or gain Temporary Hit Points.\n\nActions\n\nBites. Melee Attack Roll: +2, reach 5 ft. Hit: 5 (2d4) Piercing damage, or 2 (1d4) Piercing damage if the swarm is Bloodied.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/paralyzed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/petrified"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/stunned"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Bites",
+      "attackType": "Melee",
+      "attackBonus": 2,
+      "averageDamage": 5,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d4",
+        "count": 2,
+        "sides": 4
+      },
+      "reachFeet": 5
+    }
+  ]
 }

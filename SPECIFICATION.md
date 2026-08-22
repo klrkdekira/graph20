@@ -1,6 +1,6 @@
 # SRD 5.2.1 System JSON — Technical Specification
 
-Status: v0.1.0 structural baseline. Extraction, schema validation, link resolution, LLM artifacts, and build determinism are verified by `make check`. Semantic review of individual records and the deferred typed catalogs (section 3.2) remain open; see `CHECKLIST.md`.
+Status: v0.2.0. All pipeline phases are complete and verified by `make check`: extraction of 13 typed collections, paragraph-level source coverage (0 uncovered lines), schema validation, link resolution, graph enrichment, LLM/FAIR artifacts, and build determinism. The one open item is human semantic review: `objects/sources/source-review-ledger.json` tracks the pending signals (`make review-stats`), and the corpus must not be described as semantically verified until they are dispositioned.
 
 ## 1. Objective
 
@@ -21,24 +21,25 @@ Primary source: `SRD_CC_v5.2.1.md`, the System Reference Document 5.2.1 by Wizar
 
 ## 3. Scope
 
-### 3.1 v0.1.0 corpus
+### 3.1 v0.2.0 corpus (2,112 records)
 
-- `sources` — 1 provenance record with SHA-256 content digest.
-- `spells` — 338 records: level, school, class availability, casting time, range, components, duration + verbatim prose.
-- `feats` — 17 records: category, prerequisite, repeatable + prose.
-- `magic-items` — 258 records: item category, rarity, attunement + prose.
-- `monsters` — 332 stat blocks (Monsters A-Z, Animals, and two in Magic Items): size/type/alignment, AC, HP (+ typed dice), speed, typed six-ability table, skills/resistances/immunities/senses/languages, CR (+ typed XP/PB), trait/action sections + verbatim prose.
-- `rules` — 1,113 records: every remaining heading section in every chapter (Playing the Game, Character Creation, Classes, Character Origins, Equipment, Spells preamble, Rules Glossary, Gameplay Toolbox, Monsters intro, catalog group headers).
-- `tables` — 258 records: every HTML table converted to explicit columns/rows with positions; linked from their owning rule via `relatedTables`.
+- `sources` — 1 provenance record with SHA-256 content digest and the CC-BY attribution statement.
+- `classes` — 12: core traits (primary ability, hit die, proficiencies, starting equipment), level features, subclass and spell-list links + prose. `subclasses` — 12: parent-class link + level features.
+- `species` — 9: creature type, size, speed, named traits. `backgrounds` — 4: ability scores, feat, proficiencies, starting equipment.
+- `feats` — 17: category, prerequisite, repeatable (complete — the SRD intentionally includes 7 of the PHB's 10 Epic Boons).
+- `equipment` — 133 typed records from the Weapons/Armor/Adventuring Gear tables: damage dice + type, properties, mastery, AC, don/doff, weight, structured costs; each links its source Table.
+- `spells` — 338: level, school, class availability (names + class node refs), casting time/range/components/duration, typed save ability, damage rolls, concentration/ritual/slot-scaling flags + verbatim prose.
+- `conditions` — 15 from the Rules Glossary `[Condition]` entries.
+- `magic-items` — 258: category, rarity, attunement + prose.
+- `monsters` — 332 stat blocks: size/type/alignment, AC, HP (+ typed dice), speed, complete typed six-ability blocks, CR (+ typed XP/PB), condition-immunity node refs, parsed attack routines (bonus, reach/range, damage dice + type), trait/action sections + verbatim prose.
+- `rules` — 738 and `tables` — 243: everything else, with tables linked via `relatedTables`.
 
-Coverage: every heading block from `# Playing the Game` to end-of-file is consumed by exactly one record. Lines 1–980 (Legal Information + Contents) are the documented exclusion (`objects/sources/source-coverage.json`); the license text itself survives in the source record.
+Coverage: `scripts/build_coverage.py` asserts every non-blank line from `# Playing the Game` to end-of-file is inside at least one record's span (currently 14,552/14,552). Lines 1–980 (Legal Information + Contents) are the documented exclusion; the license text survives in the source record.
 
 ### 3.2 Explicitly deferred
 
-- Typed catalogs for classes/subclasses, species, backgrounds, and mundane equipment (currently faithful Rule + Table records).
-- Cross-entity graph enrichment (spell → class nodes, monster → condition nodes).
-- Review-signal ledger tooling, vocab page, static explorer, FAIR packaging (datapackage/CITATION/sitemap).
 - Executable dice roller/rules engine, character builder, campaign state.
+- Rule automation inferred from prose.
 
 ## 4. Architecture decisions
 
@@ -69,14 +70,16 @@ The markdown is a PDF conversion with a **single flat `#` heading level** (2,909
 3. **Stray headings**: the conversion promotes some interior lines to headings (spell stat lines like `# Components: V`; monster stat lines like `# Resistances Cold`; sub-sections `# Traits`/`# Actions`). These fold back into the owning entity.
 4. **Section numbering** is synthesized as `<chapterIndex>.<positionInChapter>` and recorded in `sourceLocator` with heading text and 1-based line bounds.
 
-### Known source anomalies (registry: `objects/sources/extraction-overrides.json`)
+### Source anomalies and the repair event (registry: `objects/sources/extraction-overrides.json`)
 
-- Roman-numeral OCR in ability tables (`I`→1, `II`→11) — accepted normalization for typed fields only.
-- LaTeX-wrapped ability labels (`$\mathbf{S_{TR}}$`) — accepted normalization.
-- Glued score tokens (`CON25`, `Con22`) — accepted normalization.
-- CR line joined onto Languages line; `450 XP` ordering variant — accepted parser tolerance.
-- Truncated ability cells in 28 stat blocks — **recorded, not repaired**: typed values omitted.
-- `Id6`-style dice OCR in equipment tables — recorded; no typed field depends on them in v0.1.0.
+All previously recorded OCR/conversion damage was fixed in a single deliberate, idempotent repair pass (`scripts/repair_source.py`) driven by the substitution glossary `scripts/data/sanitization-glossary.json`:
+
+- OCR dice (`Id6`→`1d6`, 131 fixes), `+I` bonuses, the Blowgun's `I Piercing`, the `Rolling 20 or I` heading, `Level I/II` feature headings (62 fixes), CR line joins and `n XP` ordering.
+- 89 damaged monster ability tables regenerated from open5e's srd-2024 dataset (CC-BY-4.0, cached in `scripts/data/srd-2024-creatures.json`) with cross-validation against every intact source cell; 2 spell-summoned stat blocks absent from that dataset had truncated modifier/save cells derived from the printed score (`floor((score-10)/2)`); 245 intact tables untouched. One open5e data error (Octopus) was caught by the cross-validation and is recorded.
+
+Pre- and post-repair digests are recorded in the overrides registry. The parser retains the same normalizations as inert safety nets.
+
+**Completeness verified**: monsters check out against the SRD's own Index of Stat Blocks (330/330 present, plus Avatar of Death and Giant Fly printed inside the Magic Items chapter); the 17 feats (7 Epic Boons) match the official SRD 5.2 inclusion list — the PHB's remaining boons are intentionally not in the SRD.
 
 ## 6. Validation and verification
 

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/graph20/systems/condition.schema.json",
+  "title": "SRD 5.2.1 Condition",
+  "$ref": "common.schema.json#/$defs/EntityBase",
+  "properties": {
+    "@type": { "const": "Condition" },
+    "rulesText": { "type": "string", "minLength": 1 }
+  },
+  "required": ["rulesText"],
+  "unevaluatedProperties": false
+}

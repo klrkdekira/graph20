@@ -1116,7 +1116,7 @@ A creature's AC can then be modified by armor, magic items, spells, and more.
 
 Only One Base AC. Some spells and class features give characters a different way to calculate their AC. A character with multiple features that give different ways to calculate AC must choose which one to use; only one base calculation can be in effect for a creature.
 
-# Rolling 20 or I
+# Rolling 20 or 1
 
 If you roll a 20 on the d20 (called a “natural 20”) for an attack roll, the attack hits regardless of any modifiers or the target’s AC. This is called a Critical Hit (see “Combat” later in “Playing the Game”).
 
@@ -1808,7 +1808,7 @@ The Standard Languages table lists languages that are widespread in the setting.
 
 Standard Languages
 
-<table><tr><td>Id12</td><td>Language</td></tr><tr><td>—</td><td>Common</td></tr><tr><td>1</td><td>Common Sign Language</td></tr><tr><td>2</td><td>Draconic</td></tr><tr><td>3-4</td><td>Dwarvish</td></tr><tr><td>5-6</td><td>Elvish</td></tr><tr><td>7</td><td>Giant</td></tr><tr><td>8</td><td>Gnomish</td></tr><tr><td>9</td><td>Goblin</td></tr><tr><td>10-11</td><td>Halfling</td></tr><tr><td>12</td><td>Orc</td></tr></table>
+<table><tr><td>1d12</td><td>Language</td></tr><tr><td>—</td><td>Common</td></tr><tr><td>1</td><td>Common Sign Language</td></tr><tr><td>2</td><td>Draconic</td></tr><tr><td>3-4</td><td>Dwarvish</td></tr><tr><td>5-6</td><td>Elvish</td></tr><tr><td>7</td><td>Giant</td></tr><tr><td>8</td><td>Gnomish</td></tr><tr><td>9</td><td>Goblin</td></tr><tr><td>10-11</td><td>Halfling</td></tr><tr><td>12</td><td>Orc</td></tr></table>
 
 The Rare Languages table lists languages that are either secret or derived from other planes of existence and thus less widespread in the worlds of the Material Plane. Some features let a character learn a rare language.
 
@@ -1924,7 +1924,7 @@ Include all modifiers that apply to your Wisdom (Perception) checks. For example
 
 Hit Points. Your class and Constitution modifier determine your Hit Point maximum at level 1, as shown on the Level 1 Hit Points by Class table.
 
-Level I Hit Points by Class
+Level 1 Hit Points by Class
 
 <table><tr><td>Class</td><td>Hit Point Maximum</td></tr><tr><td>Barbarian</td><td>12 + Con. modifier</td></tr><tr><td>Fighter, Paladin, or Ranger</td><td>10 + Con. modifier</td></tr><tr><td>Bard, Cleric, Druid, Monk, Rogue, or Warlock</td><td>8 + Con. modifier</td></tr><tr><td>Sorcerer or Wizard</td><td>6 + Con. modifier</td></tr></table>
 
@@ -2109,9 +2109,9 @@ When you make your character, you can roll once on the Trinkets table to gain a 
 
 Trinkets
 
-<table><tr><td>Id100</td><td>Trinket</td></tr><tr><td>01</td><td>A mummified goblin hand</td></tr><tr><td>02</td><td>A crystal that faintly glows in moonlight</td></tr><tr><td>03</td><td>A gold coin minted in an unknown land</td></tr><tr><td>04</td><td>A diary written in a language you don’t know</td></tr><tr><td>05</td><td>A brass ring that never tarnishes</td></tr><tr><td>06</td><td>An old chess piece made from glass</td></tr><tr><td>07</td><td>A pair of knucklebone dice, each with a skull symbol on the side that would normally show six pips</td></tr><tr><td>08</td><td>A small idol depicting a nightmarish creature that gives you unsettling dreams when you sleep near it</td></tr><tr><td>09</td><td>A lock of someone’s hair</td></tr><tr><td>10</td><td>The deed for a parcel of land in a realm unknown to you</td></tr><tr><td>11</td><td>A l-ounce block made from an unknown material</td></tr><tr><td>12</td><td>A small cloth doll skewered with needles</td></tr><tr><td>13</td><td>A tooth from an unknown beast</td></tr><tr><td>14</td><td>An enormous scale, perhaps from a dragon</td></tr><tr><td>15</td><td>A bright-green feather</td></tr><tr><td>16</td><td>An old divination card bearing your likeness</td></tr><tr><td>17</td><td>A glass orb filled with moving smoke</td></tr><tr><td>18</td><td>A l-pound egg with a bright-red shell</td></tr><tr><td>19</td><td>A pipe that blows bubbles</td></tr><tr><td>20</td><td>A glass jar containing a bit of flesh floating in pickling fluid</td></tr><tr><td>21</td><td>A gnome-crafted music box that plays a song you dimly remember from your childhood</td></tr><tr><td>22</td><td>A wooden statuette of a smug halfling</td></tr><tr><td>23</td><td>A brass orb etched with strange runes</td></tr><tr><td>24</td><td>A multicolored stone disk</td></tr><tr><td>25</td><td>A silver icon of a raven</td></tr><tr><td>26</td><td>A bag containing forty-seven teeth, one of which is rotten</td></tr><tr><td>27</td><td>A shard of obsidian that always feels warm to the touch</td></tr><tr><td>28</td><td>A dragon’s talon strung on a leather necklace</td></tr><tr><td>29</td><td>A pair of old socks</td></tr><tr><td>30</td><td>A blank book whose pages refuse to hold ink, chalk, graphite, or any other marking</td></tr><tr><td>31</td><td>A silver badge that is a five-pointed star</td></tr><tr><td>32</td><td>A knife that belonged to a relative</td></tr><tr><td>33</td><td>A glass vial filled with nail clippings</td></tr><tr><td>34</td><td>A rectangular metal device with two tiny metal cups on one end that throws sparks when wet</td></tr></table>
+<table><tr><td>1d100</td><td>Trinket</td></tr><tr><td>01</td><td>A mummified goblin hand</td></tr><tr><td>02</td><td>A crystal that faintly glows in moonlight</td></tr><tr><td>03</td><td>A gold coin minted in an unknown land</td></tr><tr><td>04</td><td>A diary written in a language you don’t know</td></tr><tr><td>05</td><td>A brass ring that never tarnishes</td></tr><tr><td>06</td><td>An old chess piece made from glass</td></tr><tr><td>07</td><td>A pair of knucklebone dice, each with a skull symbol on the side that would normally show six pips</td></tr><tr><td>08</td><td>A small idol depicting a nightmarish creature that gives you unsettling dreams when you sleep near it</td></tr><tr><td>09</td><td>A lock of someone’s hair</td></tr><tr><td>10</td><td>The deed for a parcel of land in a realm unknown to you</td></tr><tr><td>11</td><td>A l-ounce block made from an unknown material</td></tr><tr><td>12</td><td>A small cloth doll skewered with needles</td></tr><tr><td>13</td><td>A tooth from an unknown beast</td></tr><tr><td>14</td><td>An enormous scale, perhaps from a dragon</td></tr><tr><td>15</td><td>A bright-green feather</td></tr><tr><td>16</td><td>An old divination card bearing your likeness</td></tr><tr><td>17</td><td>A glass orb filled with moving smoke</td></tr><tr><td>18</td><td>A l-pound egg with a bright-red shell</td></tr><tr><td>19</td><td>A pipe that blows bubbles</td></tr><tr><td>20</td><td>A glass jar containing a bit of flesh floating in pickling fluid</td></tr><tr><td>21</td><td>A gnome-crafted music box that plays a song you dimly remember from your childhood</td></tr><tr><td>22</td><td>A wooden statuette of a smug halfling</td></tr><tr><td>23</td><td>A brass orb etched with strange runes</td></tr><tr><td>24</td><td>A multicolored stone disk</td></tr><tr><td>25</td><td>A silver icon of a raven</td></tr><tr><td>26</td><td>A bag containing forty-seven teeth, one of which is rotten</td></tr><tr><td>27</td><td>A shard of obsidian that always feels warm to the touch</td></tr><tr><td>28</td><td>A dragon’s talon strung on a leather necklace</td></tr><tr><td>29</td><td>A pair of old socks</td></tr><tr><td>30</td><td>A blank book whose pages refuse to hold ink, chalk, graphite, or any other marking</td></tr><tr><td>31</td><td>A silver badge that is a five-pointed star</td></tr><tr><td>32</td><td>A knife that belonged to a relative</td></tr><tr><td>33</td><td>A glass vial filled with nail clippings</td></tr><tr><td>34</td><td>A rectangular metal device with two tiny metal cups on one end that throws sparks when wet</td></tr></table>
 
-# Id100 Trinket
+# 1d100 Trinket
 
 35 A white, sequined glove sized for a human
 
@@ -2189,7 +2189,7 @@ Trinkets
 
 72 A silver teardrop earring containing a real teardrop
 
-# Id100 Trinket
+# 1d100 Trinket
 
 73 An eggshell painted with scenes of misery in disturbing detail
 
@@ -2257,7 +2257,7 @@ Core Barbarian Traits
 
 # Becoming a Barbarian ...
 
-# As a Level I Character
+# As a Level 1 Character
 
 \- Gain all the traits in the Core Barbarian Traits table.
 
@@ -2272,7 +2272,7 @@ Core Barbarian Traits
 
 As a Barbarian, you gain the following class features when you reach the specified Barbarian levels. These features are listed in the Barbarian Features table.
 
-# Level I: Rage
+# Level 1: Rage
 
 You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren't wearing Heavy armor.
 
@@ -2300,11 +2300,11 @@ Duration. The Rage lasts until the end of your next turn, and it ends early if y
 
 Each time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.
 
-# Level I: Unarmored Defense
+# Level 1: Unarmored Defense
 
 While you aren't wearing any armor, your base Armor Class equals 10 plus your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit.
 
-# Level I: Weapon Mastery
+# Level 1: Weapon Mastery
 
 Your training with weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Great-axes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.
 
@@ -2358,7 +2358,7 @@ Forceful Blow. The target is pushed 15 feet straight away from you. You can then
 
 Hamstring Blow. The target's Speed is reduced by 15 feet until the start of your next turn. A target can be affected by only one Hamstring Blow at a time—the most recent one.
 
-# Level II: Relentless Rage
+# Level 11: Relentless Rage
 
 Your Rage can keep you fighting despite grievous wounds. If you drop to 0 Hit Points while your Rage is active and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, your Hit Points instead change to a number equal to twice your Barbarian level.
 
@@ -2426,7 +2426,7 @@ Core Bard Traits
 
 # Becoming a Bard ...
 
-# As a Level I Character
+# As a Level 1 Character
 
 \- Gain all the traits in the Core Bard Traits table.
 
@@ -2441,7 +2441,7 @@ Core Bard Traits
 
 As a Bard, you gain the following class features when you reach the specified Bard levels. These features are listed in the Bard Features table.
 
-# Level I: Bardic Inspiration
+# Level 1: Bardic Inspiration
 
 You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6.
 
@@ -2459,7 +2459,7 @@ Number of Uses. You can confer a Bardic Inspiration die a number of times equal 
 
 At Higher Levels. Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard Features table. The die becomes a d8 at level 5, a d10 at level 10, and a d12 at level 15.
 
-# Level I: Spellcasting
+# Level 1: Spellcasting
 
 You have learned to cast spells through your bardic arts. See “Spells” for the rules on spellcasting. The information below details how you use those rules with Bard spells, which appear in the Bard spell list later in the class’s description.
 
@@ -2541,7 +2541,7 @@ Cantrips (Level 0 Bard Spells)
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Prestidigitation</td><td>Transmutation</td><td>—</td></tr><tr><td>Starry Wisp</td><td>Evocation</td><td>—</td></tr><tr><td>True Strike</td><td>Divination</td><td>—</td></tr><tr><td>Vicious Mockery</td><td>Enchantment</td><td>—</td></tr></table>
 
-Level I Bard Spells
+Level 1 Bard Spells
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Animal Friendship</td><td>Enchantment</td><td>—</td></tr><tr><td>Bane</td><td>Enchantment</td><td>C</td></tr><tr><td>Charm Person</td><td>Enchantment</td><td>—</td></tr><tr><td>Color Spray</td><td>Illusion</td><td>—</td></tr><tr><td>Command</td><td>Enchantment</td><td>—</td></tr><tr><td>Comprehend Languages</td><td>Divination</td><td>R</td></tr><tr><td>Cure Wounds</td><td>Abjuration</td><td>—</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Disguise Self</td><td>Illusion</td><td>—</td></tr><tr><td>Dissonant Whispers</td><td>Enchantment</td><td>—</td></tr><tr><td>Faerie Fire</td><td>Evocation</td><td>C</td></tr><tr><td>Feather Fall</td><td>Transmutation</td><td>—</td></tr><tr><td>Healing Word</td><td>Abjuration</td><td>—</td></tr><tr><td>Heroism</td><td>Enchantment</td><td>C</td></tr><tr><td>Hideous Laughter</td><td>Enchantment</td><td>C</td></tr><tr><td>Identify</td><td>Divination</td><td>R, M</td></tr><tr><td>Illusory Script</td><td>Illusion</td><td>R, M</td></tr><tr><td>Longstrider</td><td>Transmutation</td><td>—</td></tr><tr><td>Silent Image</td><td>Illusion</td><td>C</td></tr><tr><td>Sleep</td><td>Enchantment</td><td>C</td></tr><tr><td>Speak with Animals</td><td>Divination</td><td>R</td></tr><tr><td>Thunderwave</td><td>Evocation</td><td>—</td></tr><tr><td>Unseen Servant</td><td>Conjuration</td><td>R</td></tr></table>
 
@@ -2609,7 +2609,7 @@ Core Cleric Traits
 
 # Becoming a Cleric ...
 
-# As a Level I Character
+# As a Level 1 Character
 
 - Gain all the traits in the Core Cleric Traits table.  
 - Gain the Cleric's level 1 features, which are listed in the Cleric Features table.
@@ -2623,7 +2623,7 @@ Core Cleric Traits
 
 As a Cleric, you gain the following class features when you reach the specified Cleric levels. These features are listed in the Cleric Features table.
 
-# Level I: Spellcasting
+# Level 1: Spellcasting
 
 You have learned to cast spells through prayer and meditation. See “Spells” for the rules on spellcasting. The information below details how you use those rules with Cleric spells, which appear on the Cleric spell list later in the class’s description.
 
@@ -2651,7 +2651,7 @@ Spellcasting Ability. Wisdom is your spellcasting ability for your Cleric spells
 
 Spellcasting Focus. You can use a Holy Symbol as a Spellcasting Focus for your Cleric spells.
 
-# Level I: Divine Order
+# Level 1: Divine Order
 
 You have dedicated yourself to one of the following sacred roles of your choice.
 
@@ -2721,7 +2721,7 @@ Cantrips (Level 0 Cleric Spells)
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Guidance</td><td>Divination</td><td>C</td></tr><tr><td>Light</td><td>Evocation</td><td>—</td></tr><tr><td>Mending</td><td>Transmutation</td><td>—</td></tr><tr><td>Resistance</td><td>Abjuration</td><td>C</td></tr><tr><td>Sacred Flame</td><td>Evocation</td><td>—</td></tr><tr><td>Spare the Dying</td><td>Necromancy</td><td>—</td></tr><tr><td>Thaumaturgy</td><td>Transmutation</td><td>—</td></tr></table>
 
-Level I Cleric Spells
+Level 1 Cleric Spells
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Bane</td><td>Enchantment</td><td>C</td></tr><tr><td>Bless</td><td>Enchantment</td><td>C, M</td></tr><tr><td>Command</td><td>Enchantment</td><td>—</td></tr><tr><td>Create or Destroy Water</td><td>Transmutation</td><td>—</td></tr><tr><td>Cure Wounds</td><td>Abjuration</td><td>—</td></tr><tr><td>Detect Evil and Good</td><td>Divination</td><td>C</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Detect Poison and Disease</td><td>Divination</td><td>C, R</td></tr><tr><td>Guiding Bolt</td><td>Evocation</td><td>—</td></tr><tr><td>Healing Word</td><td>Abjuration</td><td>—</td></tr><tr><td>Inflict Wounds</td><td>Necromancy</td><td>—</td></tr><tr><td>Protection from Evil and Good</td><td>Abjuration</td><td>C, M</td></tr><tr><td>Purify Food and Drink</td><td>Transmutation</td><td>R</td></tr><tr><td>Sanctuary</td><td>Abjuration</td><td>—</td></tr><tr><td>Shield of Faith</td><td>Abjuration</td><td>C</td></tr></table>
 
@@ -2797,7 +2797,7 @@ Core Druid Traits
 
 # Becoming a Druid ...
 
-# As a Level I Character
+# As a Level 1 Character
 
 - Gain all the traits in the Core Druid Traits table.  
 - Gain the Druid's level 1 features, which are listed in the Druid Features table.
@@ -2811,7 +2811,7 @@ Core Druid Traits
 
 As a Druid, you gain the following class features when you reach the specified Druid levels. These features are listed in the Druid Features table.
 
-# Level I: Spellcasting
+# Level 1: Spellcasting
 
 You have learned to cast spells through studying the mystical forces of nature. See “Spells” for the rules on spellcasting. The information below details
 
@@ -2841,7 +2841,7 @@ Spellcasting Ability. Wisdom is your spellcasting ability for your Druid spells.
 
 Spellcasting Focus. You can use a Druidic Focus as a Spellcasting Focus for your Druid spells.
 
-# Level I: Druidic
+# Level 1: Druidic
 
 You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of communicating with animals; you always have the Speak with Animals spell prepared.
 
@@ -2849,7 +2849,7 @@ You can use Druidic to leave hidden messages. You and others who know Druidic au
 
 with a successful DC 15 Intelligence (Investigation) check but can't decipher it without magic.
 
-# Level I: Primal Order
+# Level 1: Primal Order
 
 You have dedicated yourself to one of the following sacred roles of your choice.
 
@@ -2947,7 +2947,7 @@ Cantrips (Level 0 Druid Spells)
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Druidcraft</td><td>Transmutation</td><td>—</td></tr><tr><td>Elementalism</td><td>Transmutation</td><td>—</td></tr><tr><td>Guidance</td><td>Divination</td><td>C</td></tr><tr><td>Mending</td><td>Transmutation</td><td>—</td></tr><tr><td>Message</td><td>Transmutation</td><td>—</td></tr><tr><td>Poison Spray</td><td>Necromancy</td><td>—</td></tr><tr><td>Produce Flame</td><td>Conjuration</td><td>—</td></tr><tr><td>Resistance</td><td>Abjuration</td><td>C</td></tr><tr><td>Shillelagh</td><td>Transmutation</td><td>—</td></tr><tr><td>Spare the Dying</td><td>Necromancy</td><td>—</td></tr><tr><td>Starry Wisp</td><td>Evocation</td><td>—</td></tr></table>
 
-Level I Druid Spells
+Level 1 Druid Spells
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Animal Friendship</td><td>Enchantment</td><td>—</td></tr><tr><td>Charm Person</td><td>Enchantment</td><td>—</td></tr><tr><td>Create or Destroy Water</td><td>Transmutation</td><td>—</td></tr><tr><td>Cure Wounds</td><td>Abjuration</td><td>—</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Detect Poison and Disease</td><td>Divination</td><td>C, R</td></tr><tr><td>Entangle</td><td>Conjuration</td><td>C</td></tr><tr><td>Faerie Fire</td><td>Evocation</td><td>C</td></tr><tr><td>Fog Cloud</td><td>Conjuration</td><td>C</td></tr><tr><td>Goodberry</td><td>Conjuration</td><td>—</td></tr><tr><td>Healing Word</td><td>Abjuration</td><td>—</td></tr><tr><td>Ice Knife</td><td>Conjuration</td><td>—</td></tr><tr><td>Jump</td><td>Transmutation</td><td>—</td></tr><tr><td>Longstrider</td><td>Transmutation</td><td>—</td></tr><tr><td>Protection from Evil and Good</td><td>Abjuration</td><td>C, M</td></tr><tr><td>Purify Food and Drink</td><td>Transmutation</td><td>R</td></tr><tr><td>Speak with Animals</td><td>Divination</td><td>R</td></tr><tr><td>Thunderwave</td><td>Evocation</td><td>—</td></tr></table>
 
@@ -3039,11 +3039,11 @@ As a Bonus Action, you can move the Cube up to 60 feet to ground within 120 feet
 
 Core Fighter Traits
 
-<table><tr><td>Primary Ability</td><td>Strength or Dexterity</td></tr><tr><td>Hit Point Die</td><td>DI0 per Fighter level</td></tr><tr><td>Saving Throw Proficiencies</td><td>Strength and Constitution</td></tr><tr><td>Skill Proficiencies</td><td>Choose 2: Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Persuasion, Perception, or Survival</td></tr><tr><td>Weapon Proficiencies</td><td>Simple and Martial weapons</td></tr><tr><td>Armor Training</td><td>Light, Medium, and Heavy armor and Shields</td></tr><tr><td>Starting Equipment</td><td>Choose A, B, or C: (A) Chain Mail, Greatsword, Flail, 8 Javelins, Dungeoneer’s Pack, and 4 GP; (B) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Dungeoneer’s Pack, and II GP; or (C) 155 GP</td></tr></table>
+<table><tr><td>Primary Ability</td><td>Strength or Dexterity</td></tr><tr><td>Hit Point Die</td><td>D10 per Fighter level</td></tr><tr><td>Saving Throw Proficiencies</td><td>Strength and Constitution</td></tr><tr><td>Skill Proficiencies</td><td>Choose 2: Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Persuasion, Perception, or Survival</td></tr><tr><td>Weapon Proficiencies</td><td>Simple and Martial weapons</td></tr><tr><td>Armor Training</td><td>Light, Medium, and Heavy armor and Shields</td></tr><tr><td>Starting Equipment</td><td>Choose A, B, or C: (A) Chain Mail, Greatsword, Flail, 8 Javelins, Dungeoneer’s Pack, and 4 GP; (B) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Dungeoneer’s Pack, and II GP; or (C) 155 GP</td></tr></table>
 
 # Becoming a Fighter ...
 
-# As a Level I Character
+# As a Level 1 Character
 
 - Gain all the traits in the Core Fighter Traits table.  
 - Gain the Fighter's level 1 features, which are listed in the Fighter Features table.
@@ -3057,7 +3057,7 @@ Core Fighter Traits
 
 As a Fighter, you gain the following class features when you reach the specified Fighter levels. These features are listed on the Fighter Features table.
 
-# Level I: Fighting Style
+# Level 1: Fighting Style
 
 You have honed your martial prowess and gain a Fighting Style feat of your choice (see “Feats”). Defense is recommended.
 
@@ -3067,7 +3067,7 @@ Fighter Features
 
 <table><tr><td>Level</td><td>Proficiency Bonus</td><td>Class Features</td><td>Second Wind</td><td>Weapon Mastery</td></tr><tr><td>1</td><td>+2</td><td>Fighting Style, Second Wind, Weapon Mastery</td><td>2</td><td>3</td></tr><tr><td>2</td><td>+2</td><td>Action Surge (one use), Tactical Mind</td><td>2</td><td>3</td></tr><tr><td>3</td><td>+2</td><td>Fighter Subclass</td><td>2</td><td>3</td></tr><tr><td>4</td><td>+2</td><td>Ability Score Improvement</td><td>3</td><td>4</td></tr><tr><td>5</td><td>+3</td><td>Extra Attack, Tactical Shift</td><td>3</td><td>4</td></tr><tr><td>6</td><td>+3</td><td>Ability Score Improvement</td><td>3</td><td>4</td></tr><tr><td>7</td><td>+3</td><td>Subclass feature</td><td>3</td><td>4</td></tr><tr><td>8</td><td>+3</td><td>Ability Score Improvement</td><td>3</td><td>4</td></tr><tr><td>9</td><td>+4</td><td>Indomitable (one use), Tactical Master</td><td>3</td><td>4</td></tr><tr><td>10</td><td>+4</td><td>Subclass feature</td><td>4</td><td>5</td></tr><tr><td>11</td><td>+4</td><td>Two Extra Attacks</td><td>4</td><td>5</td></tr><tr><td>12</td><td>+4</td><td>Ability Score Improvement</td><td>4</td><td>5</td></tr><tr><td>13</td><td>+5</td><td>Indomitable (two uses), Studied Attacks</td><td>4</td><td>5</td></tr><tr><td>14</td><td>+5</td><td>Ability Score Improvement</td><td>4</td><td>5</td></tr><tr><td>15</td><td>+5</td><td>Subclass feature</td><td>4</td><td>5</td></tr><tr><td>16</td><td>+5</td><td>Ability Score Improvement</td><td>4</td><td>6</td></tr><tr><td>17</td><td>+6</td><td>Action Surge (two uses), Indomitable (three uses)</td><td>4</td><td>6</td></tr><tr><td>18</td><td>+6</td><td>Subclass feature</td><td>4</td><td>6</td></tr><tr><td>19</td><td>+6</td><td>Epic Boon</td><td>4</td><td>6</td></tr><tr><td>20</td><td>+6</td><td>Three Extra Attacks</td><td>4</td><td>6</td></tr></table>
 
-# Level I: Second Wind
+# Level 1: Second Wind
 
 You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 plus your Fighter level.
 
@@ -3075,7 +3075,7 @@ You can use this feature twice. You regain one expended use when you finish a Sh
 
 When you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter Features table.
 
-# Level I: Weapon Mastery
+# Level 1: Weapon Mastery
 
 Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.
 
@@ -3117,7 +3117,7 @@ You can use this feature twice before a Long Rest starting at level 13 and three
 
 When you attack with a weapon whose mastery property you can use, you can replace that property with the Push, Sap, or Slow property for that attack.
 
-# Level II: Two Extra Attacks
+# Level 11: Two Extra Attacks
 
 You can attack three times instead of once whenever you take the Attack action on your turn.
 
@@ -3177,7 +3177,7 @@ Core Monk Traits
 
 # Becoming a Monk ...
 
-# As a Level I Character
+# As a Level 1 Character
 
 - Gain all the traits in the Core Monk Traits table.  
 - Gain the Monk's level 1 features, which are listed in the Monk Features table.
@@ -3193,9 +3193,9 @@ As a Monk, you gain the following class features when you reach the specified Mo
 
 Monk Features
 
-<table><tr><td>Level</td><td>Proficiency Bonus</td><td>Class Features</td><td>Martial Arts</td><td>Focus Points</td><td>Unarmored Movement</td></tr><tr><td>1</td><td>+2</td><td>Martial Arts, Unarmored Defense</td><td>Id6</td><td>—</td><td>—</td></tr><tr><td>2</td><td>+2</td><td>Monk&#x27;s Focus, Unarmored Movement, Uncanny Metabolism</td><td>Id6</td><td>2</td><td>+10 ft.</td></tr><tr><td>3</td><td>+2</td><td>Deflect Attacks, Monk Subclass</td><td>Id6</td><td>3</td><td>+10 ft.</td></tr><tr><td>4</td><td>+2</td><td>Ability Score Improvement, Slow Fall</td><td>Id6</td><td>4</td><td>+10 ft.</td></tr><tr><td>5</td><td>+3</td><td>Extra Attack, Stunning Strike</td><td>Id8</td><td>5</td><td>+10 ft.</td></tr><tr><td>6</td><td>+3</td><td>Empowered Strikes, Subclass feature</td><td>Id8</td><td>6</td><td>+15 ft.</td></tr><tr><td>7</td><td>+3</td><td>Evasion</td><td>Id8</td><td>7</td><td>+15 ft.</td></tr><tr><td>8</td><td>+3</td><td>Ability Score Improvement</td><td>Id8</td><td>8</td><td>+15 ft.</td></tr><tr><td>9</td><td>+4</td><td>Acrobatic Movement</td><td>Id8</td><td>9</td><td>+15 ft.</td></tr><tr><td>10</td><td>+4</td><td>Heightened Focus, Self-Restoration</td><td>Id8</td><td>10</td><td>+20 ft.</td></tr><tr><td>11</td><td>+4</td><td>Subclass feature</td><td>Id10</td><td>11</td><td>+20 ft.</td></tr><tr><td>12</td><td>+4</td><td>Ability Score Improvement</td><td>Id10</td><td>12</td><td>+20 ft.</td></tr><tr><td>13</td><td>+5</td><td>Deflect Energy</td><td>Id10</td><td>13</td><td>+20 ft.</td></tr><tr><td>14</td><td>+5</td><td>Disciplined Survivor</td><td>Id10</td><td>14</td><td>+25 ft.</td></tr><tr><td>15</td><td>+5</td><td>Perfect Focus</td><td>Id10</td><td>15</td><td>+25 ft.</td></tr><tr><td>16</td><td>+5</td><td>Ability Score Improvement</td><td>Id10</td><td>16</td><td>+25 ft.</td></tr><tr><td>17</td><td>+6</td><td>Subclass feature</td><td>Id12</td><td>17</td><td>+25 ft.</td></tr><tr><td>18</td><td>+6</td><td>Superior Defense</td><td>Id12</td><td>18</td><td>+30 ft.</td></tr><tr><td>19</td><td>+6</td><td>Epic Boon</td><td>Id12</td><td>19</td><td>+30 ft.</td></tr><tr><td>20</td><td>+6</td><td>Body and Mind</td><td>Id12</td><td>20</td><td>+30 ft.</td></tr></table>
+<table><tr><td>Level</td><td>Proficiency Bonus</td><td>Class Features</td><td>Martial Arts</td><td>Focus Points</td><td>Unarmored Movement</td></tr><tr><td>1</td><td>+2</td><td>Martial Arts, Unarmored Defense</td><td>1d6</td><td>—</td><td>—</td></tr><tr><td>2</td><td>+2</td><td>Monk&#x27;s Focus, Unarmored Movement, Uncanny Metabolism</td><td>1d6</td><td>2</td><td>+10 ft.</td></tr><tr><td>3</td><td>+2</td><td>Deflect Attacks, Monk Subclass</td><td>1d6</td><td>3</td><td>+10 ft.</td></tr><tr><td>4</td><td>+2</td><td>Ability Score Improvement, Slow Fall</td><td>1d6</td><td>4</td><td>+10 ft.</td></tr><tr><td>5</td><td>+3</td><td>Extra Attack, Stunning Strike</td><td>1d8</td><td>5</td><td>+10 ft.</td></tr><tr><td>6</td><td>+3</td><td>Empowered Strikes, Subclass feature</td><td>1d8</td><td>6</td><td>+15 ft.</td></tr><tr><td>7</td><td>+3</td><td>Evasion</td><td>1d8</td><td>7</td><td>+15 ft.</td></tr><tr><td>8</td><td>+3</td><td>Ability Score Improvement</td><td>1d8</td><td>8</td><td>+15 ft.</td></tr><tr><td>9</td><td>+4</td><td>Acrobatic Movement</td><td>1d8</td><td>9</td><td>+15 ft.</td></tr><tr><td>10</td><td>+4</td><td>Heightened Focus, Self-Restoration</td><td>1d8</td><td>10</td><td>+20 ft.</td></tr><tr><td>11</td><td>+4</td><td>Subclass feature</td><td>1d10</td><td>11</td><td>+20 ft.</td></tr><tr><td>12</td><td>+4</td><td>Ability Score Improvement</td><td>1d10</td><td>12</td><td>+20 ft.</td></tr><tr><td>13</td><td>+5</td><td>Deflect Energy</td><td>1d10</td><td>13</td><td>+20 ft.</td></tr><tr><td>14</td><td>+5</td><td>Disciplined Survivor</td><td>1d10</td><td>14</td><td>+25 ft.</td></tr><tr><td>15</td><td>+5</td><td>Perfect Focus</td><td>1d10</td><td>15</td><td>+25 ft.</td></tr><tr><td>16</td><td>+5</td><td>Ability Score Improvement</td><td>1d10</td><td>16</td><td>+25 ft.</td></tr><tr><td>17</td><td>+6</td><td>Subclass feature</td><td>1d12</td><td>17</td><td>+25 ft.</td></tr><tr><td>18</td><td>+6</td><td>Superior Defense</td><td>1d12</td><td>18</td><td>+30 ft.</td></tr><tr><td>19</td><td>+6</td><td>Epic Boon</td><td>1d12</td><td>19</td><td>+30 ft.</td></tr><tr><td>20</td><td>+6</td><td>Body and Mind</td><td>1d12</td><td>20</td><td>+30 ft.</td></tr></table>
 
-# Level I: Martial Arts
+# Level 1: Martial Arts
 
 Your practice of martial arts gives you mastery of combat styles that use your Unarmed Strike and Monk weapons, which are the following:
 
@@ -3210,7 +3210,7 @@ Martial Arts Die. You can roll 1d6 in place of the normal damage of your Unarmed
 
 Dexterous Attacks. You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.
 
-# Level I: Unarmored Defense
+# Level 1: Unarmored Defense
 
 While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers.
 
@@ -3348,7 +3348,7 @@ You gain the ability to heal yourself. As a Bonus Action, you can roll your Mart
 
 You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
 
-# Level II: Fleet Step
+# Level 11: Fleet Step
 
 When you take a Bonus Action other than Step of the Wind, you can also use Step of the Wind immediately after that Bonus Action.
 
@@ -3366,7 +3366,7 @@ Core Paladin Traits
 
 # Becoming a Paladin ...
 
-# As a Level I Character
+# As a Level 1 Character
 
 \- Gain all the traits in the Core Paladin Traits table.
 
@@ -3381,7 +3381,7 @@ Core Paladin Traits
 
 As a Paladin, you gain the following class features when you reach the specified Paladin levels. These features are listed in the Paladin Features table.
 
-# Level I: Lay On Hands
+# Level 1: Lay On Hands
 
 Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you finish a Long Rest. With that pool, you can restore a total number of Hit Points equal to five times your Paladin level.
 
@@ -3393,7 +3393,7 @@ As a Bonus Action, you can touch a creature (which could be yourself) and draw p
 
 You can also expend 5 Hit Points from the pool of healing power to remove the Poisoned condition from the creature; those points don't also restore Hit Points to the creature.
 
-# Level I: Spellcasting
+# Level 1: Spellcasting
 
 You have learned to cast spells through prayer and meditation. See “Spells” for the rules on spellcasting. The information below details how you use those rules with Paladin spells, which appear in the Paladin spell list later in the class’s description.
 
@@ -3411,7 +3411,7 @@ Spellcasting Ability. Charisma is your spellcasting ability for your Paladin spe
 
 Spellcasting Focus. You can use a Holy Symbol as a Spellcasting Focus for your Paladin spells.
 
-# Level I: Weapon Mastery
+# Level 1: Weapon Mastery
 
 Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longswords and Javelins.
 
@@ -3481,7 +3481,7 @@ Charisma modifier (minimum of one creature) that you can see within 60 feet of y
 
 You and your allies have Immunity to the Frightened condition while in your Aura of Protection. If a Frightened ally enters the aura, that condition has no effect on that ally while there.
 
-# Level II: Radiant Strikes
+# Level 11: Radiant Strikes
 
 Your strikes now carry supernatural power. When you hit a target with an attack roll using a Melee weapon or an Unarmed Strike, the target takes an extra 1d8 Radiant damage.
 
@@ -3501,7 +3501,7 @@ You gain an Epic Boon feat (see “Feats”) or another feat of your choice for 
 
 This section presents the Paladin spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, C means the spell requires Concentration, R means it's a Ritual, and M means it requires a specific Material component.
 
-Level I Paladin Spells
+Level 1 Paladin Spells
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Bless</td><td>Enchantment</td><td>C, M</td></tr><tr><td>Command</td><td>Enchantment</td><td>—</td></tr><tr><td>Cure Wounds</td><td>Abjuration</td><td>—</td></tr><tr><td>Detect Evil and Good</td><td>Divination</td><td>C</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Detect Poison and Disease</td><td>Divination</td><td>C, R</td></tr><tr><td>Divine Favor</td><td>Transmutation</td><td>—</td></tr><tr><td>Divine Smite</td><td>Evocation</td><td>—</td></tr><tr><td>Heroism</td><td>Enchantment</td><td>C</td></tr><tr><td>Protection from Evil and Good</td><td>Abjuration</td><td>C, M</td></tr><tr><td>Purify Food and Drink</td><td>Transmutation</td><td>R</td></tr><tr><td>Searing Smite</td><td>Evocation</td><td>—</td></tr><tr><td>Shield of Faith</td><td>Abjuration</td><td>C</td></tr></table>
 
@@ -3573,11 +3573,11 @@ Sunlight. The aura is filled with Bright Light that is sunlight.
 
 Core Ranger Traits
 
-<table><tr><td>Primary Ability</td><td>Dexterity and Wisdom</td></tr><tr><td>Hit Point Die</td><td>DI0 per Ranger level</td></tr><tr><td>Saving Throw Proficiencies</td><td>Strength and Dexterity</td></tr><tr><td>Skill Proficiencies</td><td>Choose 3: Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, or Survival</td></tr><tr><td>Weapon Proficiencies</td><td>Simple and Martial weapons</td></tr><tr><td>Armor Training</td><td>Light and Medium armor and Shields</td></tr><tr><td>Starting Equipment</td><td>Choose A or B: (A) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Druidic Focus (sprig of mistletoe), Explorer’s Pack, and 7 GP; or (B) 150 GP</td></tr></table>
+<table><tr><td>Primary Ability</td><td>Dexterity and Wisdom</td></tr><tr><td>Hit Point Die</td><td>D10 per Ranger level</td></tr><tr><td>Saving Throw Proficiencies</td><td>Strength and Dexterity</td></tr><tr><td>Skill Proficiencies</td><td>Choose 3: Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, or Survival</td></tr><tr><td>Weapon Proficiencies</td><td>Simple and Martial weapons</td></tr><tr><td>Armor Training</td><td>Light and Medium armor and Shields</td></tr><tr><td>Starting Equipment</td><td>Choose A or B: (A) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Druidic Focus (sprig of mistletoe), Explorer’s Pack, and 7 GP; or (B) 150 GP</td></tr></table>
 
 # Becoming a Ranger ...
 
-# As a Level I Character
+# As a Level 1 Character
 
 - Gain all the traits in the Core Ranger Traits table.  
 - Gain the Ranger's level 1 features, which are listed in the Ranger Features table.
@@ -3591,7 +3591,7 @@ Core Ranger Traits
 
 As a Ranger, you gain the following class features when you reach the specified Ranger levels. These features are listed in the Ranger Features table.
 
-# Level I: Spellcasting
+# Level 1: Spellcasting
 
 You have learned to channel the magical essence of nature to cast spells. See “Spells” for the rules on spellcasting. The information below details how you use those rules with Ranger spells, which appear in the Ranger spell list later in the class’s description.
 
@@ -3613,13 +3613,13 @@ Spellcasting Ability. Wisdom is your spellcasting ability for your Ranger spells
 
 Spellcasting Focus. You can use a Druidic Focus as a Spellcasting Focus for your Ranger spells.
 
-# Level I: Favored Enemy
+# Level 1: Favored Enemy
 
 You always have the Hunter's Mark spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.
 
 The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.
 
-# Level I: Weapon Mastery
+# Level 1: Weapon Mastery
 
 Your training with weapons allows you to use the mastery properties of two kinds of weapons of your
 
@@ -3699,7 +3699,7 @@ The damage die of your Hunter's Mark is a d10 rather than a d6.
 
 This section presents the Ranger spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, C means the spell requires Concentration, R means it's a Ritual, and M means it requires a specific Material component.
 
-Level I Ranger Spells
+Level 1 Ranger Spells
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Alarm</td><td>Abjuration</td><td>R</td></tr><tr><td>Animal Friendship</td><td>Enchantment</td><td>—</td></tr><tr><td>Cure Wounds</td><td>Abjuration</td><td>—</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Detect Poison and Disease</td><td>Divination</td><td>C, R</td></tr><tr><td>Ensnaring Strike</td><td>Conjuration</td><td>C</td></tr><tr><td>Entangle</td><td>Conjuration</td><td>C</td></tr><tr><td>Fog Cloud</td><td>Conjuration</td><td>C</td></tr><tr><td>Goodberry</td><td>Conjuration</td><td>—</td></tr><tr><td>Hunter’s Mark</td><td>Divination</td><td>C</td></tr><tr><td>Jump</td><td>Transmutation</td><td>—</td></tr><tr><td>Longstrider</td><td>Transmutation</td><td>—</td></tr><tr><td>Speak with Animals</td><td>Divination</td><td>R</td></tr></table>
 
@@ -3745,7 +3745,7 @@ Escape the Horde. Opportunity Attacks have Disadvantage against you.
 
 Multiattack Defense. When a creature hits you with an attack roll, that creature has Disadvantage on all other attack rolls against you this turn.
 
-# Level II: Superior Hunter's Prey
+# Level 11: Superior Hunter's Prey
 
 Once per turn when you deal damage to a creature marked by your Hunter's Mark, you can also deal that spell's extra damage to a different creature that you can see within 30 feet of the first creature.
 
@@ -3761,7 +3761,7 @@ Core Rogue Traits
 
 # Becoming a Rogue ...
 
-# As a Level I Character
+# As a Level 1 Character
 
 - Gain all the traits in the Core Rogue Traits table.  
 - Gain the Rogue's level 1 features, which are listed in the Rogue Features table.
@@ -3775,13 +3775,13 @@ Core Rogue Traits
 
 As a Rogue, you gain the following class features when you reach the specified Rogue levels. These features are listed in the Rogue Features table.
 
-# Level I: Expertise
+# Level 1: Expertise
 
 You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them.
 
 At Rogue level 6, you gain Expertise in two more of your skill proficiencies of your choice.
 
-# Level I: Sneak Attack
+# Level 1: Sneak Attack
 
 You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack
 
@@ -3795,11 +3795,11 @@ You don't need Advantage on the attack roll if at least one of your allies is wi
 
 The extra damage increases as you gain Rogue levels, as shown in the Sneak Attack column of the Rogue Features table.
 
-# Level I: Thieves' Cant
+# Level 1: Thieves' Cant
 
 You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the language tables in "Character Creation."
 
-# Level I: Weapon Mastery
+# Level 1: Weapon Mastery
 
 Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Daggers and Shortbows.
 
@@ -3847,7 +3847,7 @@ You can nimbly dodge out of the way of certain dangers. When you're subjected to
 
 Whenever you make an ability check that uses one of your skill or tool proficiencies, you can treat a d20 roll of 9 or lower as a 10.
 
-# Level II: Improved Cunning Strike
+# Level 11: Improved Cunning Strike
 
 You can use up to two Cunning Strike effects when you deal Sneak Attack damage, paying the die cost for each effect.
 
@@ -3929,7 +3929,7 @@ Core Sorcerer Traits
 
 # Becoming a Sorcerer ...
 
-# As a Level I Character
+# As a Level 1 Character
 
 - Gain all the traits in the Core Sorcerer Traits table.  
 - Gain the Sorcerer's level 1 features, which are listed in the Sorcerer Features table.
@@ -3943,7 +3943,7 @@ Core Sorcerer Traits
 
 As a Sorcerer, you gain the following class features when you reach the specified Sorcerer levels. These features are listed in the Sorcerer Features table.
 
-# Level I: Spellcasting
+# Level 1: Spellcasting
 
 Drawing from your innate magic, you can cast spells. See “Spells” for the rules on spellcasting. The information below details how you use those rules with Sorcerer spells, which appear in the Sorcerer spell list later in the class’s description.
 
@@ -3973,7 +3973,7 @@ Spellcasting Ability. Charisma is your spellcasting ability for your Sorcerer sp
 
 Spellcasting Focus. You can use an Arcane Focus as a Spellcasting Focus for your Sorcerer spells.
 
-# Level I: Innate Sorcery
+# Level 1: Innate Sorcery
 
 An event in your past left an indelible mark on you, infusing you with simmering magic. As a Bonus Action, you can unleash that magic for 1 minute, during which you gain the following benefits:
 
@@ -4114,7 +4114,7 @@ Cantrips (Level 0 Sorcerer Spells)
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Acid Splash</td><td>Evocation</td><td>—</td></tr><tr><td>Chill Touch</td><td>Necromancy</td><td>—</td></tr><tr><td>Dancing Lights</td><td>Illusion</td><td>C</td></tr><tr><td>Elementalism</td><td>Transmutation</td><td>—</td></tr><tr><td>Fire Bolt</td><td>Evocation</td><td>—</td></tr><tr><td>Light</td><td>Evocation</td><td>—</td></tr><tr><td>Mage Hand</td><td>Conjuration</td><td>—</td></tr><tr><td>Mending</td><td>Transmutation</td><td>—</td></tr><tr><td>Message</td><td>Transmutation</td><td>—</td></tr><tr><td>Minor Illusion</td><td>Illusion</td><td>—</td></tr><tr><td>Poison Spray</td><td>Necromancy</td><td>—</td></tr><tr><td>Prestidigitation</td><td>Transmutation</td><td>—</td></tr><tr><td>Ray of Frost</td><td>Evocation</td><td>—</td></tr><tr><td>Shocking Grasp</td><td>Evocation</td><td>—</td></tr><tr><td>Sorcerous Burst</td><td>Evocation</td><td>—</td></tr><tr><td>True Strike</td><td>Divination</td><td>—</td></tr></table>
 
-Level I Sorcerer Spells
+Level 1 Sorcerer Spells
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Burning Hands</td><td>Evocation</td><td>—</td></tr><tr><td>Charm Person</td><td>Enchantment</td><td>—</td></tr><tr><td>Chromatic Orb</td><td>Evocation</td><td>M</td></tr><tr><td>Color Spray</td><td>Illusion</td><td>—</td></tr><tr><td>Comprehend Languages</td><td>Divination</td><td>R</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Disguise Self</td><td>Illusion</td><td>—</td></tr><tr><td>Expeditious Retreat</td><td>Transmutation</td><td>C</td></tr><tr><td>False Life</td><td>Necromancy</td><td>—</td></tr><tr><td>Feather Fall</td><td>Transmutation</td><td>—</td></tr><tr><td>Fog Cloud</td><td>Conjuration</td><td>C</td></tr><tr><td>Grease</td><td>Conjuration</td><td>—</td></tr><tr><td>Ice Knife</td><td>Conjuration</td><td>—</td></tr><tr><td>Jump</td><td>Transmutation</td><td>—</td></tr><tr><td>Mage Armor</td><td>Abjuration</td><td>—</td></tr><tr><td>Magic Missile</td><td>Evocation</td><td>—</td></tr><tr><td>Ray of Sickness</td><td>Necromancy</td><td>—</td></tr><tr><td>Shield</td><td>Abjuration</td><td>—</td></tr><tr><td>Silent Image</td><td>Illusion</td><td>C</td></tr><tr><td>Sleep</td><td>Enchantment</td><td>C</td></tr><tr><td>Thunderwave</td><td>Evocation</td><td>—</td></tr></table>
 
@@ -4198,7 +4198,7 @@ Core Warlock Traits
 
 # Becoming a Warlock ...
 
-# As a Level I Character
+# As a Level 1 Character
 
 - Gain all the traits in the Core Warlock Traits table.  
 - Gain the Warlock's level 1 features, which are listed in the Warlock Features table.
@@ -4212,7 +4212,7 @@ Core Warlock Traits
 
 As a Warlock, you gain the following class features when you reach the specified Warlock levels. These features are listed in the Warlock Features table.
 
-# Level I: Eldritch Invocations
+# Level 1: Eldritch Invocations
 
 You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as Pact of the Tome. Invocations are described in the “Eldritch Invocation Options” section later in this class’s description.
 
@@ -4230,7 +4230,7 @@ When you gain certain Warlock levels, you gain more invocations of your choice, 
 
 You can't pick the same invocation more than once unless its description says otherwise.
 
-# Level I: Pact Magic
+# Level 1: Pact Magic
 
 Through occult ceremony, you have formed a pact with a mysterious entity to gain magical powers. The entity is a voice in the shadows—its identity unclear—but its boon to you is concrete: the ability to cast spells. See “Spells” for the rules on spell-casting. The information below details how you use those rules with Warlock spells, which appear in the Warlock spell list later in the class’s description.
 
@@ -4274,7 +4274,7 @@ In the past, you usually contacted your patron through intermediaries. Now you c
 
 Once you cast the spell with this feature, you can't do so in this way again until you finish a Long Rest.
 
-# Level II: Mystic Arcanum
+# Level 11: Mystic Arcanum
 
 Your patron grants you a magical secret called an arcanum. Choose one level 6 Warlock spell as this arcanum.
 
@@ -4508,7 +4508,7 @@ Cantrips (Level 0 Warlock Spells)
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Chill Touch</td><td>Necromancy</td><td>—</td></tr><tr><td>Eldritch Blast</td><td>Evocation</td><td>—</td></tr><tr><td>Mage Hand</td><td>Conjuration</td><td>—</td></tr><tr><td>Minor Illusion</td><td>Illusion</td><td>—</td></tr><tr><td>Poison Spray</td><td>Necromancy</td><td>—</td></tr><tr><td>Prestidigitation</td><td>Transmutation</td><td>—</td></tr><tr><td>True Strike</td><td>Divination</td><td>—</td></tr></table>
 
-Level I Warlock Spells
+Level 1 Warlock Spells
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Bane</td><td>Enchantment</td><td>C</td></tr><tr><td>Charm Person</td><td>Enchantment</td><td>—</td></tr><tr><td>Comprehend Languages</td><td>Divination</td><td>R</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Expeditious Retreat</td><td>Transmutation</td><td>C</td></tr><tr><td>Hellish Rebuke</td><td>Evocation</td><td>—</td></tr><tr><td>Hex</td><td>Enchantment</td><td>C</td></tr><tr><td>Hideous Laughter</td><td>Enchantment</td><td>C</td></tr><tr><td>Illusory Script</td><td>Illusion</td><td>R, M</td></tr><tr><td>Protection from Evil and Good</td><td>Abjuration</td><td>C, M</td></tr><tr><td>Speak with Animals</td><td>Divination</td><td>R</td></tr><tr><td>Unseen Servant</td><td>Conjuration</td><td>R</td></tr></table>
 
@@ -4588,7 +4588,7 @@ Core Wizard Traits
 
 # Becoming a Wizard ...
 
-# As a Level I Character
+# As a Level 1 Character
 
 - Gain all the traits in the Core Wizard Traits table.  
 - Gain the Wizard's level 1 features, which are listed in the Wizard Features table.
@@ -4602,7 +4602,7 @@ Core Wizard Traits
 
 As a Wizard, you gain the following class features when you reach the specified Wizard levels. These features are listed in the Wizard Features table.
 
-# Level I: Spellcasting
+# Level 1: Spellcasting
 
 As a student of arcane magic, you have learned to cast spells. See “Spells” for the rules on spellcasting. The information below details how you use those rules with Wizard spells, which appear in the Wizard spell list later in the class’s description.
 
@@ -4634,13 +4634,13 @@ Spellcasting Ability. Intelligence is your spellcasting ability for your Wizard 
 
 Spellcasting Focus. You can use an Arcane Focus or your spellbook as a Spellcasting Focus for your Wizard spells.
 
-# Level I: Ritual Adept
+# Level 1: Ritual Adept
 
 You can cast any spell as a Ritual if that spell has the Ritual tag and the spell is in your spellbook. You
 
 needn't have the spell prepared, but you must read from the book to cast a spell in this way.
 
-# Level I: Arcane Recovery
+# Level 1: Arcane Recovery
 
 You can regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level equal to no more than half your Wizard level (round up), and none of the slots can be level 6 or higher. For example, if you're a level 4 Wizard, you can recover up to two levels' worth of spell slots, regaining either one level 2 spell slot or two level 1 spell slots.
 
@@ -4698,7 +4698,7 @@ Cantrips (Level 0 Wizard Spells)
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Mage Hand</td><td>Conjuration</td><td>—</td></tr><tr><td>Mending</td><td>Transmutation</td><td>—</td></tr><tr><td>Message</td><td>Transmutation</td><td>—</td></tr><tr><td>Minor Illusion</td><td>Illusion</td><td>—</td></tr><tr><td>Poison Spray</td><td>Necromancy</td><td>—</td></tr><tr><td>Prestidigitation</td><td>Transmutation</td><td>—</td></tr><tr><td>Ray of Frost</td><td>Evocation</td><td>—</td></tr><tr><td>Shocking Grasp</td><td>Evocation</td><td>—</td></tr><tr><td>True Strike</td><td>Divination</td><td>—</td></tr></table>
 
-Level I Wizard Spells
+Level 1 Wizard Spells
 
 <table><tr><td>Spell</td><td>School</td><td>Special</td></tr><tr><td>Alarm</td><td>Abjuration</td><td>R</td></tr><tr><td>Burning Hands</td><td>Evocation</td><td>—</td></tr><tr><td>Charm Person</td><td>Enchantment</td><td>—</td></tr><tr><td>Chromatic Orb</td><td>Evocation</td><td>M</td></tr><tr><td>Color Spray</td><td>Illusion</td><td>—</td></tr><tr><td>Comprehend Languages</td><td>Divination</td><td>R</td></tr><tr><td>Detect Magic</td><td>Divination</td><td>C, R</td></tr><tr><td>Disguise Self</td><td>Illusion</td><td>—</td></tr><tr><td>Expeditious Retreat</td><td>Transmutation</td><td>C</td></tr><tr><td>False Life</td><td>Necromancy</td><td>—</td></tr><tr><td>Feather Fall</td><td>Transmutation</td><td>—</td></tr><tr><td>Find Familiar</td><td>Conjuration</td><td>R, M</td></tr><tr><td>Floating Disk</td><td>Conjuration</td><td>R</td></tr><tr><td>Fog Cloud</td><td>Conjuration</td><td>C</td></tr><tr><td>Grease</td><td>Conjuration</td><td>—</td></tr><tr><td>Hideous Laughter</td><td>Enchantment</td><td>C</td></tr><tr><td>Ice Knife</td><td>Conjuration</td><td>—</td></tr><tr><td>Identify</td><td>Divination</td><td>R, M</td></tr><tr><td>Illusory Script</td><td>Illusion</td><td>R, M</td></tr><tr><td>Jump</td><td>Transmutation</td><td>—</td></tr><tr><td>Longstrider</td><td>Transmutation</td><td>—</td></tr><tr><td>Mage Armor</td><td>Abjuration</td><td>—</td></tr><tr><td>Magic Missile</td><td>Evocation</td><td>—</td></tr><tr><td>Protection from Evil and Good</td><td>Abjuration</td><td>C, M</td></tr><tr><td>Ray of Sickness</td><td>Necromancy</td><td>—</td></tr><tr><td>Shield</td><td>Abjuration</td><td>—</td></tr><tr><td>Silent Image</td><td>Illusion</td><td>C</td></tr><tr><td>Sleep</td><td>Enchantment</td><td>C</td></tr><tr><td>Thunderwave</td><td>Evocation</td><td>—</td></tr><tr><td>Unseen Servant</td><td>Conjuration</td><td>R</td></tr></table>
 
@@ -5388,7 +5388,7 @@ If you hit a creature with this weapon and deal damage to the creature, you have
 
 Weapons
 
-<table><tr><td>Name</td><td>Damage</td><td>Properties</td><td>Mastery</td><td>Weight</td><td>Cost</td></tr><tr><td colspan="6">Simple Melee Weapons</td></tr><tr><td>Club</td><td>Id4 Bludgeoning</td><td>Light</td><td>Slow</td><td>2 lb.</td><td>1 SP</td></tr><tr><td>Dagger</td><td>Id4 Piercing</td><td>Finesse, Light, Thrown (Range 20/60)</td><td>Nick</td><td>1 lb.</td><td>2 GP</td></tr><tr><td>Greatclub</td><td>Id8 Bludgeoning</td><td>Two-Handed</td><td>Push</td><td>10 lb.</td><td>2 SP</td></tr><tr><td>Handaxe</td><td>Id6 Slashing</td><td>Light, Thrown (Range 20/60)</td><td>Vex</td><td>2 lb.</td><td>5 GP</td></tr><tr><td>Javelin</td><td>Id6 Piercing</td><td>Thrown (Range 30/120)</td><td>Slow</td><td>2 lb.</td><td>5 SP</td></tr><tr><td>Light Hammer</td><td>Id4 Bludgeoning</td><td>Light, Thrown (Range 20/60)</td><td>Nick</td><td>2 lb.</td><td>2 GP</td></tr><tr><td>Mace</td><td>Id6 Bludgeoning</td><td>—</td><td>Sap</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>Quarterstaff</td><td>Id6 Bludgeoning</td><td>Versatile (Id8)</td><td>Topple</td><td>4 lb.</td><td>2 SP</td></tr><tr><td>Sickle</td><td>Id4 Slashing</td><td>Light</td><td>Nick</td><td>2 lb.</td><td>1 GP</td></tr><tr><td>Spear</td><td>Id6 Piercing</td><td>Thrown (Range 20/60), Versatile (Id8)</td><td>Sap</td><td>3 lb.</td><td>1 GP</td></tr><tr><td colspan="6">Simple Ranged Weapons</td></tr><tr><td>Dart</td><td>Id4 Piercing</td><td>Finesse, Thrown (Range 20/60)</td><td>Vex</td><td>1/4 lb.</td><td>5 CP</td></tr><tr><td>Light Crossbow</td><td>Id8 Piercing</td><td>Ammunition (Range 80/320; Bolt), Loading, Two-Handed</td><td>Slow</td><td>5 lb.</td><td>25 GP</td></tr><tr><td>Shortbow</td><td>Id6 Piercing</td><td>Ammunition (Range 80/320; Arrow), Two-Handed</td><td>Vex</td><td>2 lb.</td><td>25 GP</td></tr><tr><td>Sling</td><td>Id4 Bludgeoning</td><td>Ammunition (Range 30/120; Bullet)</td><td>Slow</td><td>—</td><td>1 SP</td></tr><tr><td colspan="6">Martial Melee Weapons</td></tr><tr><td>Battleaxe</td><td>Id8 Slashing</td><td>Versatile (Id10)</td><td>Topple</td><td>4 lb.</td><td>10 GP</td></tr><tr><td>Flail</td><td>Id8 Bludgeoning</td><td>—</td><td>Sap</td><td>2 lb.</td><td>10 GP</td></tr><tr><td>Glaive</td><td>Id10 Slashing</td><td>Heavy, Reach, Two-Handed</td><td>Graze</td><td>6 lb.</td><td>20 GP</td></tr><tr><td>Greataxe</td><td>Id12 Slashing</td><td>Heavy, Two-Handed</td><td>Cleave</td><td>7 lb.</td><td>30 GP</td></tr><tr><td>Greatsword</td><td>2d6 Slashing</td><td>Heavy, Two-Handed</td><td>Graze</td><td>6 lb.</td><td>50 GP</td></tr><tr><td>Halberd</td><td>Id10 Slashing</td><td>Heavy, Reach, Two-Handed</td><td>Cleave</td><td>6 lb.</td><td>20 GP</td></tr><tr><td>Lance</td><td>Id10 Piercing</td><td>Heavy, Reach, Two-Handed (unless mounted)</td><td>Topple</td><td>6 lb.</td><td>10 GP</td></tr><tr><td>Longsword</td><td>Id8 Slashing</td><td>Versatile (Id10)</td><td>Sap</td><td>3 lb.</td><td>15 GP</td></tr><tr><td>Maul</td><td>2d6 Bludgeoning</td><td>Heavy, Two-Handed</td><td>Topple</td><td>10 lb.</td><td>10 GP</td></tr><tr><td>Morningstar</td><td>Id8 Piercing</td><td>—</td><td>Sap</td><td>4 lb.</td><td>15 GP</td></tr><tr><td>Pike</td><td>Id10 Piercing</td><td>Heavy, Reach, Two-Handed</td><td>Push</td><td>18 lb.</td><td>5 GP</td></tr><tr><td>Rapier</td><td>Id8 Piercing</td><td>Finesse</td><td>Vex</td><td>2 lb.</td><td>25 GP</td></tr><tr><td>Scimitar</td><td>Id6 Slashing</td><td>Finesse, Light</td><td>Nick</td><td>3 lb.</td><td>25 GP</td></tr><tr><td>Shortsword</td><td>Id6 Piercing</td><td>Finesse, Light</td><td>Vex</td><td>2 lb.</td><td>10 GP</td></tr><tr><td>Trident</td><td>Id8 Piercing</td><td>Thrown (Range 20/60), Versatile (Id10)</td><td>Topple</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>Warhammer</td><td>Id8 Bludgeoning</td><td>Versatile (Id10)</td><td>Push</td><td>5 lb.</td><td>15 GP</td></tr><tr><td>War Pick</td><td>Id8 Piercing</td><td>Versatile (Id10)</td><td>Sap</td><td>2 lb.</td><td>5 GP</td></tr><tr><td>Whip</td><td>Id4 Slashing</td><td>Finesse, Reach</td><td>Slow</td><td>3 lb.</td><td>2 GP</td></tr><tr><td colspan="6">Martial Ranged Weapons</td></tr><tr><td>Blowgun</td><td>I Piercing</td><td>Ammunition (Range 25/100; Needle), Loading</td><td>Vex</td><td>1 lb.</td><td>10 GP</td></tr><tr><td>Hand Crossbow</td><td>Id6 Piercing</td><td>Ammunition (Range 30/120; Bolt), Light, Loading</td><td>Vex</td><td>3 lb.</td><td>75 GP</td></tr><tr><td>Heavy Crossbow</td><td>Id10 Piercing</td><td>Ammunition (Range 100/400; Bolt), Heavy, Loading, Two-Handed</td><td>Push</td><td>18 lb.</td><td>50 GP</td></tr><tr><td>Longbow</td><td>Id8 Piercing</td><td>Ammunition (Range 150/600; Arrow), Heavy, Two-Handed</td><td>Slow</td><td>2 lb.</td><td>50 GP</td></tr><tr><td>Musket</td><td>Id12 Piercing</td><td>Ammunition (Range 40/120; Bullet), Loading, Two-Handed</td><td>Slow</td><td>10 lb.</td><td>500 GP</td></tr><tr><td>Pistol</td><td>Id10 Piercing</td><td>Ammunition (Range 30/90; Bullet), Loading</td><td>Vex</td><td>3 lb.</td><td>250 GP</td></tr></table>
+<table><tr><td>Name</td><td>Damage</td><td>Properties</td><td>Mastery</td><td>Weight</td><td>Cost</td></tr><tr><td colspan="6">Simple Melee Weapons</td></tr><tr><td>Club</td><td>1d4 Bludgeoning</td><td>Light</td><td>Slow</td><td>2 lb.</td><td>1 SP</td></tr><tr><td>Dagger</td><td>1d4 Piercing</td><td>Finesse, Light, Thrown (Range 20/60)</td><td>Nick</td><td>1 lb.</td><td>2 GP</td></tr><tr><td>Greatclub</td><td>1d8 Bludgeoning</td><td>Two-Handed</td><td>Push</td><td>10 lb.</td><td>2 SP</td></tr><tr><td>Handaxe</td><td>1d6 Slashing</td><td>Light, Thrown (Range 20/60)</td><td>Vex</td><td>2 lb.</td><td>5 GP</td></tr><tr><td>Javelin</td><td>1d6 Piercing</td><td>Thrown (Range 30/120)</td><td>Slow</td><td>2 lb.</td><td>5 SP</td></tr><tr><td>Light Hammer</td><td>1d4 Bludgeoning</td><td>Light, Thrown (Range 20/60)</td><td>Nick</td><td>2 lb.</td><td>2 GP</td></tr><tr><td>Mace</td><td>1d6 Bludgeoning</td><td>—</td><td>Sap</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>Quarterstaff</td><td>1d6 Bludgeoning</td><td>Versatile (1d8)</td><td>Topple</td><td>4 lb.</td><td>2 SP</td></tr><tr><td>Sickle</td><td>1d4 Slashing</td><td>Light</td><td>Nick</td><td>2 lb.</td><td>1 GP</td></tr><tr><td>Spear</td><td>1d6 Piercing</td><td>Thrown (Range 20/60), Versatile (1d8)</td><td>Sap</td><td>3 lb.</td><td>1 GP</td></tr><tr><td colspan="6">Simple Ranged Weapons</td></tr><tr><td>Dart</td><td>1d4 Piercing</td><td>Finesse, Thrown (Range 20/60)</td><td>Vex</td><td>1/4 lb.</td><td>5 CP</td></tr><tr><td>Light Crossbow</td><td>1d8 Piercing</td><td>Ammunition (Range 80/320; Bolt), Loading, Two-Handed</td><td>Slow</td><td>5 lb.</td><td>25 GP</td></tr><tr><td>Shortbow</td><td>1d6 Piercing</td><td>Ammunition (Range 80/320; Arrow), Two-Handed</td><td>Vex</td><td>2 lb.</td><td>25 GP</td></tr><tr><td>Sling</td><td>1d4 Bludgeoning</td><td>Ammunition (Range 30/120; Bullet)</td><td>Slow</td><td>—</td><td>1 SP</td></tr><tr><td colspan="6">Martial Melee Weapons</td></tr><tr><td>Battleaxe</td><td>1d8 Slashing</td><td>Versatile (1d10)</td><td>Topple</td><td>4 lb.</td><td>10 GP</td></tr><tr><td>Flail</td><td>1d8 Bludgeoning</td><td>—</td><td>Sap</td><td>2 lb.</td><td>10 GP</td></tr><tr><td>Glaive</td><td>1d10 Slashing</td><td>Heavy, Reach, Two-Handed</td><td>Graze</td><td>6 lb.</td><td>20 GP</td></tr><tr><td>Greataxe</td><td>1d12 Slashing</td><td>Heavy, Two-Handed</td><td>Cleave</td><td>7 lb.</td><td>30 GP</td></tr><tr><td>Greatsword</td><td>2d6 Slashing</td><td>Heavy, Two-Handed</td><td>Graze</td><td>6 lb.</td><td>50 GP</td></tr><tr><td>Halberd</td><td>1d10 Slashing</td><td>Heavy, Reach, Two-Handed</td><td>Cleave</td><td>6 lb.</td><td>20 GP</td></tr><tr><td>Lance</td><td>1d10 Piercing</td><td>Heavy, Reach, Two-Handed (unless mounted)</td><td>Topple</td><td>6 lb.</td><td>10 GP</td></tr><tr><td>Longsword</td><td>1d8 Slashing</td><td>Versatile (1d10)</td><td>Sap</td><td>3 lb.</td><td>15 GP</td></tr><tr><td>Maul</td><td>2d6 Bludgeoning</td><td>Heavy, Two-Handed</td><td>Topple</td><td>10 lb.</td><td>10 GP</td></tr><tr><td>Morningstar</td><td>1d8 Piercing</td><td>—</td><td>Sap</td><td>4 lb.</td><td>15 GP</td></tr><tr><td>Pike</td><td>1d10 Piercing</td><td>Heavy, Reach, Two-Handed</td><td>Push</td><td>18 lb.</td><td>5 GP</td></tr><tr><td>Rapier</td><td>1d8 Piercing</td><td>Finesse</td><td>Vex</td><td>2 lb.</td><td>25 GP</td></tr><tr><td>Scimitar</td><td>1d6 Slashing</td><td>Finesse, Light</td><td>Nick</td><td>3 lb.</td><td>25 GP</td></tr><tr><td>Shortsword</td><td>1d6 Piercing</td><td>Finesse, Light</td><td>Vex</td><td>2 lb.</td><td>10 GP</td></tr><tr><td>Trident</td><td>1d8 Piercing</td><td>Thrown (Range 20/60), Versatile (1d10)</td><td>Topple</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>Warhammer</td><td>1d8 Bludgeoning</td><td>Versatile (1d10)</td><td>Push</td><td>5 lb.</td><td>15 GP</td></tr><tr><td>War Pick</td><td>1d8 Piercing</td><td>Versatile (1d10)</td><td>Sap</td><td>2 lb.</td><td>5 GP</td></tr><tr><td>Whip</td><td>1d4 Slashing</td><td>Finesse, Reach</td><td>Slow</td><td>3 lb.</td><td>2 GP</td></tr><tr><td colspan="6">Martial Ranged Weapons</td></tr><tr><td>Blowgun</td><td>1 Piercing</td><td>Ammunition (Range 25/100; Needle), Loading</td><td>Vex</td><td>1 lb.</td><td>10 GP</td></tr><tr><td>Hand Crossbow</td><td>1d6 Piercing</td><td>Ammunition (Range 30/120; Bolt), Light, Loading</td><td>Vex</td><td>3 lb.</td><td>75 GP</td></tr><tr><td>Heavy Crossbow</td><td>1d10 Piercing</td><td>Ammunition (Range 100/400; Bolt), Heavy, Loading, Two-Handed</td><td>Push</td><td>18 lb.</td><td>50 GP</td></tr><tr><td>Longbow</td><td>1d8 Piercing</td><td>Ammunition (Range 150/600; Arrow), Heavy, Two-Handed</td><td>Slow</td><td>2 lb.</td><td>50 GP</td></tr><tr><td>Musket</td><td>1d12 Piercing</td><td>Ammunition (Range 40/120; Bullet), Loading, Two-Handed</td><td>Slow</td><td>10 lb.</td><td>500 GP</td></tr><tr><td>Pistol</td><td>1d10 Piercing</td><td>Ammunition (Range 30/90; Bullet), Loading</td><td>Vex</td><td>3 lb.</td><td>250 GP</td></tr></table>
 
 # Armor
 
@@ -5684,7 +5684,7 @@ Adventuring Gear
 
 <table><tr><td>Item</td><td>Weight</td><td>Cost</td></tr><tr><td>Acid</td><td>1 lb.</td><td>25 GP</td></tr><tr><td>Alchemist&#x27;s Fire</td><td>1 lb.</td><td>50 GP</td></tr><tr><td>Ammunition</td><td>Varies</td><td>Varies</td></tr><tr><td>Antitoxin</td><td>—</td><td>50 GP</td></tr><tr><td>Arcane Focus</td><td>Varies</td><td>Varies</td></tr><tr><td>Backpack</td><td>5 lb.</td><td>2 GP</td></tr><tr><td>Ball Bearings</td><td>2 lb.</td><td>1 GP</td></tr><tr><td>Barrel</td><td>70 lb.</td><td>2 GP</td></tr><tr><td>Basket</td><td>2 lb.</td><td>4 SP</td></tr><tr><td>Bedroll</td><td>7 lb.</td><td>1 GP</td></tr><tr><td>Bell</td><td>—</td><td>1 GP</td></tr><tr><td>Blanket</td><td>3 lb.</td><td>5 SP</td></tr><tr><td>Block and Tackle</td><td>5 lb.</td><td>1 GP</td></tr><tr><td>Book</td><td>5 lb.</td><td>25 GP</td></tr><tr><td>Bottle, Glass</td><td>2 lb.</td><td>2 GP</td></tr><tr><td>Bucket</td><td>2 lb.</td><td>5 CP</td></tr><tr><td>Burglar&#x27;s Pack</td><td>42 lb.</td><td>16 GP</td></tr><tr><td>Caltrops</td><td>2 lb.</td><td>1 GP</td></tr><tr><td>Candle</td><td>—</td><td>1 CP</td></tr><tr><td>Case, Crossbow Bolt</td><td>1 lb.</td><td>1 GP</td></tr><tr><td>Case, Map or Scroll</td><td>1 lb.</td><td>1 GP</td></tr><tr><td>Chain</td><td>10 lb.</td><td>5 GP</td></tr><tr><td>Chest</td><td>25 lb.</td><td>5 GP</td></tr><tr><td>Climber&#x27;s Kit</td><td>12 lb.</td><td>25 GP</td></tr><tr><td>Clothes, Fine</td><td>6 lb.</td><td>15 GP</td></tr><tr><td>Clothes, Traveler&#x27;s</td><td>4 lb.</td><td>2 GP</td></tr><tr><td>Component Pouch</td><td>2 lb.</td><td>25 GP</td></tr><tr><td>Costume</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>Crowbar</td><td>5 lb.</td><td>2 GP</td></tr><tr><td>Diplomat&#x27;s Pack</td><td>39 lb.</td><td>39 GP</td></tr><tr><td>Druidic Focus</td><td>Varies</td><td>Varies</td></tr><tr><td>Dungeoneer&#x27;s Pack</td><td>55 lb.</td><td>12 GP</td></tr><tr><td>Entertainer&#x27;s Pack</td><td> $58\frac{1}{2}$  lb.</td><td>40 GP</td></tr><tr><td>Explorer&#x27;s Pack</td><td>55 lb.</td><td>10 GP</td></tr><tr><td>Flask</td><td>1 lb.</td><td>2 CP</td></tr><tr><td>Grappling Hook</td><td>4 lb.</td><td>2 GP</td></tr><tr><td>Healer&#x27;s Kit</td><td>3 lb.</td><td>5 GP</td></tr><tr><td>Holy Symbol</td><td>Varies</td><td>Varies</td></tr><tr><td>Holy Water</td><td>1 lb.</td><td>25 GP</td></tr><tr><td>Hunting Trap</td><td>25 lb.</td><td>5 GP</td></tr><tr><td>Ink</td><td>—</td><td>10 GP</td></tr></table>
 
-<table><tr><td>Item</td><td>Weight</td><td>Cost</td></tr><tr><td>Ink Pen</td><td>—</td><td>2 CP</td></tr><tr><td>Jug</td><td>4 lb.</td><td>2 CP</td></tr><tr><td>Ladder</td><td>25 lb.</td><td>1 SP</td></tr><tr><td>Lamp</td><td>1 lb.</td><td>5 SP</td></tr><tr><td>Lantern, Bullseye</td><td>2 lb.</td><td>10 GP</td></tr><tr><td>Lantern, Hooded</td><td>2 lb.</td><td>5 GP</td></tr><tr><td>Lock</td><td>1 lb.</td><td>10 GP</td></tr><tr><td>Magnifying Glass</td><td>—</td><td>100 GP</td></tr><tr><td>Manacles</td><td>6 lb.</td><td>2 GP</td></tr><tr><td>Map</td><td>—</td><td>1 GP</td></tr><tr><td>Mirror</td><td>1/2 lb.</td><td>5 GP</td></tr><tr><td>Net</td><td>3 lb.</td><td>1 GP</td></tr><tr><td>Oil</td><td>1 lb.</td><td>1 SP</td></tr><tr><td>Paper</td><td>—</td><td>2 SP</td></tr><tr><td>Parchment</td><td>—</td><td>1 SP</td></tr><tr><td>Perfume</td><td>—</td><td>5 GP</td></tr><tr><td>Poison, Basic</td><td>—</td><td>100 GP</td></tr><tr><td>Pole</td><td>7 lb.</td><td>5 CP</td></tr><tr><td>Pot, Iron</td><td>10 lb.</td><td>2 GP</td></tr><tr><td>Potion of Healing</td><td>1/2 lb.</td><td>50 GP</td></tr><tr><td>Pouch</td><td>1 lb.</td><td>5 SP</td></tr><tr><td>Priest&#x27;s Pack</td><td>29 lb.</td><td>33 GP</td></tr><tr><td>Quiver</td><td>1 lb.</td><td>1 GP</td></tr><tr><td>Ram, Portable</td><td>35 lb.</td><td>4 GP</td></tr><tr><td>Rations</td><td>2 lb.</td><td>5 SP</td></tr><tr><td>Robe</td><td>4 lb.</td><td>1 GP</td></tr><tr><td>Rope</td><td>5 lb.</td><td>1 GP</td></tr><tr><td>Sack</td><td>1/2 lb.</td><td>1 CP</td></tr><tr><td>Scholar&#x27;s Pack</td><td>22 lb.</td><td>40 GP</td></tr><tr><td>Shovel</td><td>5 lb.</td><td>2 GP</td></tr><tr><td>Signal Whistle</td><td>—</td><td>5 CP</td></tr><tr><td>Spell Scroll (Cantrip)</td><td>—</td><td>30 GP</td></tr><tr><td>Spell Scroll (Level I)</td><td>—</td><td>50 GP</td></tr><tr><td>Spikes, Iron</td><td>5 lb.</td><td>1 GP</td></tr><tr><td>Spyglass</td><td>1 lb.</td><td>1,000 GP</td></tr><tr><td>String</td><td>—</td><td>1 SP</td></tr><tr><td>Tent</td><td>20 lb.</td><td>2 GP</td></tr><tr><td>Tinderbox</td><td>1 lb.</td><td>5 SP</td></tr><tr><td>Torch</td><td>1 lb.</td><td>1 CP</td></tr><tr><td>Vial</td><td>—</td><td>1 GP</td></tr><tr><td>Waterskin</td><td>5 lb. (full)</td><td>2 SP</td></tr></table>
+<table><tr><td>Item</td><td>Weight</td><td>Cost</td></tr><tr><td>Ink Pen</td><td>—</td><td>2 CP</td></tr><tr><td>Jug</td><td>4 lb.</td><td>2 CP</td></tr><tr><td>Ladder</td><td>25 lb.</td><td>1 SP</td></tr><tr><td>Lamp</td><td>1 lb.</td><td>5 SP</td></tr><tr><td>Lantern, Bullseye</td><td>2 lb.</td><td>10 GP</td></tr><tr><td>Lantern, Hooded</td><td>2 lb.</td><td>5 GP</td></tr><tr><td>Lock</td><td>1 lb.</td><td>10 GP</td></tr><tr><td>Magnifying Glass</td><td>—</td><td>100 GP</td></tr><tr><td>Manacles</td><td>6 lb.</td><td>2 GP</td></tr><tr><td>Map</td><td>—</td><td>1 GP</td></tr><tr><td>Mirror</td><td>1/2 lb.</td><td>5 GP</td></tr><tr><td>Net</td><td>3 lb.</td><td>1 GP</td></tr><tr><td>Oil</td><td>1 lb.</td><td>1 SP</td></tr><tr><td>Paper</td><td>—</td><td>2 SP</td></tr><tr><td>Parchment</td><td>—</td><td>1 SP</td></tr><tr><td>Perfume</td><td>—</td><td>5 GP</td></tr><tr><td>Poison, Basic</td><td>—</td><td>100 GP</td></tr><tr><td>Pole</td><td>7 lb.</td><td>5 CP</td></tr><tr><td>Pot, Iron</td><td>10 lb.</td><td>2 GP</td></tr><tr><td>Potion of Healing</td><td>1/2 lb.</td><td>50 GP</td></tr><tr><td>Pouch</td><td>1 lb.</td><td>5 SP</td></tr><tr><td>Priest&#x27;s Pack</td><td>29 lb.</td><td>33 GP</td></tr><tr><td>Quiver</td><td>1 lb.</td><td>1 GP</td></tr><tr><td>Ram, Portable</td><td>35 lb.</td><td>4 GP</td></tr><tr><td>Rations</td><td>2 lb.</td><td>5 SP</td></tr><tr><td>Robe</td><td>4 lb.</td><td>1 GP</td></tr><tr><td>Rope</td><td>5 lb.</td><td>1 GP</td></tr><tr><td>Sack</td><td>1/2 lb.</td><td>1 CP</td></tr><tr><td>Scholar&#x27;s Pack</td><td>22 lb.</td><td>40 GP</td></tr><tr><td>Shovel</td><td>5 lb.</td><td>2 GP</td></tr><tr><td>Signal Whistle</td><td>—</td><td>5 CP</td></tr><tr><td>Spell Scroll (Cantrip)</td><td>—</td><td>30 GP</td></tr><tr><td>Spell Scroll (Level 1)</td><td>—</td><td>50 GP</td></tr><tr><td>Spikes, Iron</td><td>5 lb.</td><td>1 GP</td></tr><tr><td>Spyglass</td><td>1 lb.</td><td>1,000 GP</td></tr><tr><td>String</td><td>—</td><td>1 SP</td></tr><tr><td>Tent</td><td>20 lb.</td><td>2 GP</td></tr><tr><td>Tinderbox</td><td>1 lb.</td><td>5 SP</td></tr><tr><td>Torch</td><td>1 lb.</td><td>1 CP</td></tr><tr><td>Vial</td><td>—</td><td>1 GP</td></tr><tr><td>Waterskin</td><td>5 lb. (full)</td><td>2 SP</td></tr></table>
 
 Ammunition
 
@@ -5998,7 +5998,7 @@ Working for 1 hour, you can use a Shovel to dig a hole that is 5 feet on each si
 
 When blown as a Utilize action, a Signal Whistle produces a sound that can be heard up to 600 feet away.
 
-# Spell Scroll (Cantrip, 30 GP; Level I, 50 GP)
+# Spell Scroll (Cantrip, 30 GP; Level 1, 50 GP)
 
 A Spell Scroll (Cantrip) or Spell Scroll (Level 1) is a magic item that bears the words of a cantrip or level 1 spell, respectively, determined by the scroll's creator. If the spell is on your class's spell list, you can read the scroll and cast the spell using its normal casting time and without providing any Material components.
 
@@ -7441,9 +7441,9 @@ Duration: Concentration, up to 1 minute
 
 Each creature in a 10-foot-radius Sphere centered on a point you choose within range must succeed on a Wisdom saving throw, or that target can't take Bonus Actions or Reactions and must roll 1d10 at the start of each of its turns to determine its behavior for that turn, consulting the table below.
 
-Id10 Behavior for the Turn
+1d10 Behavior for the Turn
 
-<table><tr><td>1</td><td>The target doesn’t take an action, and it uses all its movement to move. Roll Id4 for the direction: 1, north; 2, east; 3, south; or 4, west.</td></tr><tr><td>2–6</td><td>The target doesn’t move or take actions.</td></tr><tr><td>7–8</td><td>The target doesn’t move, and it takes the Attack action to make one melee attack against a random creature within reach. If none are within reach, the target takes no action.</td></tr></table>
+<table><tr><td>1</td><td>The target doesn’t take an action, and it uses all its movement to move. Roll 1d4 for the direction: 1, north; 2, east; 3, south; or 4, west.</td></tr><tr><td>2–6</td><td>The target doesn’t move or take actions.</td></tr><tr><td>7–8</td><td>The target doesn’t move, and it takes the Attack action to make one melee attack against a random creature within reach. If none are within reach, the target takes no action.</td></tr></table>
 
 9–10 The target chooses its behavior.
 
@@ -9127,7 +9127,7 @@ HP 30 + 10 for each spell level above 4
 
 Speed 40 ft., Climb 40 ft., Fly 40 ft. (Wasp only)
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+3</td><td>DEX</td><td>13</td><td>+1</td><td>+1</td><td>CON</td><td>15</td></tr><tr><td>INT</td><td>4</td><td>-3</td><td>-3</td><td>WIS</td><td>14</td><td>+2</td><td>+2</td><td>CHA</td><td>3</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+3</td><td>DEX</td><td>13</td><td>+1</td><td>+1</td><td>CON</td><td>15</td><td>+2</td><td>+2</td></tr><tr><td>INT</td><td>4</td><td>-3</td><td>-3</td><td>WIS</td><td>14</td><td>+2</td><td>+2</td><td>CHA</td><td>3</td><td>-4</td><td>-4</td></tr></table>
 
 Senses Darkvision 60 ft.; Passive Perception 12
 
@@ -10896,11 +10896,11 @@ Eight rays of light flash from you in a 60-foot Cone. Each creature in the Cone 
 
 # Prismatic Rays
 
-Id8 Ray
+1d8 Ray
 
 <table><tr><td>1</td><td>Red. Failed Save: 12d6 Fire damage. Successful Save: Half as much damage.</td></tr><tr><td>2</td><td>Orange. Failed Save: 12d6 Acid damage. Successful Save: Half as much damage.</td></tr><tr><td>3</td><td>Yellow. Failed Save: 12d6 Lightning damage. Successful Save: Half as much damage.</td></tr><tr><td>4</td><td>Green. Failed Save: 12d6 Poison damage. Successful Save: Half as much damage.</td></tr></table>
 
-# Id8 Ray
+# 1d8 Ray
 
 5 Blue. Failed Save: 12d6 Cold damage. Successful Save: Half as much damage.
 
@@ -11177,7 +11177,7 @@ Duration: Instantaneous
 
 You touch a dead Humanoid or a piece of one. If the creature has been dead no longer than 10 days, the spell forms a new body for it and calls the soul to enter that body. Roll 1d10 and consult the table below to determine the body's species, or the GM chooses another playable species.
 
-<table><tr><td>Id10</td><td>Species</td><td>Id10</td><td>Species</td></tr><tr><td>1</td><td>Roll again.</td><td>6</td><td>Goliath</td></tr><tr><td>2</td><td>Dragonborn</td><td>7</td><td>Halfling</td></tr><tr><td>3</td><td>Dwarf</td><td>8</td><td>Human</td></tr><tr><td>4</td><td>Elf</td><td>9</td><td>Orc</td></tr><tr><td>5</td><td>Gnome</td><td>10</td><td>Tiefling</td></tr></table>
+<table><tr><td>1d10</td><td>Species</td><td>1d10</td><td>Species</td></tr><tr><td>1</td><td>Roll again.</td><td>6</td><td>Goliath</td></tr><tr><td>2</td><td>Dragonborn</td><td>7</td><td>Halfling</td></tr><tr><td>3</td><td>Dwarf</td><td>8</td><td>Human</td></tr><tr><td>4</td><td>Elf</td><td>9</td><td>Orc</td></tr><tr><td>5</td><td>Gnome</td><td>10</td><td>Tiefling</td></tr></table>
 
 The reincarnated creature makes any choices that a species' description offers, and the creature recalls its former life. It retains the capabilities it had in its original form, except it loses the traits of its previous species and gains the traits of its new one.
 
@@ -11981,7 +11981,7 @@ HP 50 + 10 for each spell level above 5
 
 Speed 30 ft., Fly 60 ft., Swim 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>17</td></tr><tr><td>INT</td><td>10</td><td>+0</td><td>+0</td><td>WIS</td><td>14</td><td>+2</td><td>+2</td><td>CHA</td><td>14</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>17</td><td>+3</td><td>+3</td></tr><tr><td>INT</td><td>10</td><td>+0</td><td>+0</td><td>WIS</td><td>14</td><td>+2</td><td>+2</td><td>CHA</td><td>14</td><td>+2</td><td>+2</td></tr></table>
 
 Resistances Acid, Cold, Fire, Lightning, Poison
 
@@ -14431,7 +14431,7 @@ Every magic item belongs to a category. The Magic Item Categories table lists th
 
 Magic Item Categories
 
-<table><tr><td>Category</td><td>Examples</td></tr><tr><td>Armor</td><td>+I Leather Armor, +I Shield</td></tr><tr><td>Potions</td><td>Potion of Healing</td></tr><tr><td>Rings</td><td>Ring of Invisibility</td></tr><tr><td>Rods</td><td>Immovable Rod</td></tr><tr><td>Scrolls</td><td>Spell Scroll</td></tr><tr><td>Staffs</td><td>Staff of Striking</td></tr><tr><td>Wands</td><td>Wand of Fireballs</td></tr><tr><td>Weapons</td><td>+I Ammunition, +I Longsword</td></tr><tr><td>Wondrous Items</td><td>Bag of Holding, Boots of Elvenkind</td></tr></table>
+<table><tr><td>Category</td><td>Examples</td></tr><tr><td>Armor</td><td>+1 Leather Armor, +1 Shield</td></tr><tr><td>Potions</td><td>Potion of Healing</td></tr><tr><td>Rings</td><td>Ring of Invisibility</td></tr><tr><td>Rods</td><td>Immovable Rod</td></tr><tr><td>Scrolls</td><td>Spell Scroll</td></tr><tr><td>Staffs</td><td>Staff of Striking</td></tr><tr><td>Wands</td><td>Wand of Fireballs</td></tr><tr><td>Weapons</td><td>+1 Ammunition, +1 Longsword</td></tr><tr><td>Wondrous Items</td><td>Bag of Holding, Boots of Elvenkind</td></tr></table>
 
 # Armor
 
@@ -14451,7 +14451,7 @@ When a character mixes two potions together, roll on the Potion Miscibility tabl
 
 Potion Miscibility
 
-<table><tr><td>Id100</td><td>Result</td></tr><tr><td>01</td><td>Both potions lose their effects, and the mixture creates a magical explosion in a 5-foot-radius Sphere centered on itself. Each creature in that area takes 4d10 Force damage.</td></tr><tr><td>02–08</td><td>Both potions lose their effects, and the mixture becomes an ingested poison of your choice (see “Poison” in “Gameplay Toolbox”).</td></tr><tr><td>09–15</td><td>Both potions lose their effects.</td></tr><tr><td>16–25</td><td>One potion loses its effect.</td></tr><tr><td>26–35</td><td>Both potions work, but with their numerical effects and durations halved. If a potion has no numerical effect and no duration, it instead loses its effect.</td></tr><tr><td>36–90</td><td>Both potions work normally.</td></tr><tr><td>91–99</td><td>Both potions work, but the numerical effects and duration of one potion are doubled. If neither potion has anything to double in this way, they work normally.</td></tr><tr><td>00</td><td>Only one potion works, but its effects are permanent. Choose the simplest effect to make permanent or the one that seems the most fun. For example, a Potion of Healing might increase the drinker’s Hit Point maximum by 2d4 + 2, or a Potion of Invisibility might give the drinker the Invisible condition indefinitely. At your discretion, a Dispel Magic spell or similar magic might end this lasting effect.</td></tr></table>
+<table><tr><td>1d100</td><td>Result</td></tr><tr><td>01</td><td>Both potions lose their effects, and the mixture creates a magical explosion in a 5-foot-radius Sphere centered on itself. Each creature in that area takes 4d10 Force damage.</td></tr><tr><td>02–08</td><td>Both potions lose their effects, and the mixture becomes an ingested poison of your choice (see “Poison” in “Gameplay Toolbox”).</td></tr><tr><td>09–15</td><td>Both potions lose their effects.</td></tr><tr><td>16–25</td><td>One potion loses its effect.</td></tr><tr><td>26–35</td><td>Both potions work, but with their numerical effects and durations halved. If a potion has no numerical effect and no duration, it instead loses its effect.</td></tr><tr><td>36–90</td><td>Both potions work normally.</td></tr><tr><td>91–99</td><td>Both potions work, but the numerical effects and duration of one potion are doubled. If neither potion has anything to double in this way, they work normally.</td></tr><tr><td>00</td><td>Only one potion works, but its effects are permanent. Choose the simplest effect to make permanent or the one that seems the most fun. For example, a Potion of Healing might increase the drinker’s Hit Point maximum by 2d4 + 2, or a Potion of Invisibility might give the drinker the Invisible condition indefinitely. At your discretion, a Dispel Magic spell or similar magic might end this lasting effect.</td></tr></table>
 
 # Rings
 
@@ -14637,21 +14637,21 @@ You can give a sentient item an objective it pursues, perhaps to the exclusion o
 
 Sentient Item's Alignment
 
-<table><tr><td>Id100</td><td>Alignment</td><td>Id100</td><td>Alignment</td></tr><tr><td>01–15</td><td>Lawful Good</td><td>74–85</td><td>Chaotic Neutral</td></tr><tr><td>16–35</td><td>Neutral Good</td><td>86–89</td><td>Lawful Evil</td></tr><tr><td>36–50</td><td>Chaotic Good</td><td>90–96</td><td>Neutral Evil</td></tr><tr><td>51–63</td><td>Lawful Neutral</td><td>97–00</td><td>Chaotic Evil</td></tr><tr><td>64–73</td><td>Neutral</td><td></td><td></td></tr></table>
+<table><tr><td>1d100</td><td>Alignment</td><td>1d100</td><td>Alignment</td></tr><tr><td>01–15</td><td>Lawful Good</td><td>74–85</td><td>Chaotic Neutral</td></tr><tr><td>16–35</td><td>Neutral Good</td><td>86–89</td><td>Lawful Evil</td></tr><tr><td>36–50</td><td>Chaotic Good</td><td>90–96</td><td>Neutral Evil</td></tr><tr><td>51–63</td><td>Lawful Neutral</td><td>97–00</td><td>Chaotic Evil</td></tr><tr><td>64–73</td><td>Neutral</td><td></td><td></td></tr></table>
 
 Sentient Item's Communication
 
-<table><tr><td>Id10</td><td>Communication</td></tr><tr><td>1-6</td><td>The item communicates by transmitting emotion to the creature carrying or wielding it.</td></tr><tr><td>7-9</td><td>The item speaks one or more languages.</td></tr><tr><td>10</td><td>The item speaks one or more languages. In addition, the item can communicate telepathically with any creature that carries or wields it.</td></tr></table>
+<table><tr><td>1d10</td><td>Communication</td></tr><tr><td>1-6</td><td>The item communicates by transmitting emotion to the creature carrying or wielding it.</td></tr><tr><td>7-9</td><td>The item speaks one or more languages.</td></tr><tr><td>10</td><td>The item speaks one or more languages. In addition, the item can communicate telepathically with any creature that carries or wields it.</td></tr></table>
 
 Sentient Item's Senses
 
-<table><tr><td>Id4</td><td>Senses</td></tr><tr><td>1</td><td>Hearing and standard vision out to 30 feet</td></tr><tr><td>2</td><td>Hearing and standard vision out to 60 feet</td></tr><tr><td>3</td><td>Hearing and standard vision out to 120 feet</td></tr><tr><td>4</td><td>Hearing and Darkvision out to 120 feet</td></tr></table>
+<table><tr><td>1d4</td><td>Senses</td></tr><tr><td>1</td><td>Hearing and standard vision out to 30 feet</td></tr><tr><td>2</td><td>Hearing and standard vision out to 60 feet</td></tr><tr><td>3</td><td>Hearing and standard vision out to 120 feet</td></tr><tr><td>4</td><td>Hearing and Darkvision out to 120 feet</td></tr></table>
 
 Sentient Item's Special Purpose
 
-<table><tr><td>Id10</td><td>Special Purpose</td></tr><tr><td>1</td><td>Aligned. The item seeks to defeat or destroy those of a diametrically opposed alignment.Such an item is never Neutral.</td></tr><tr><td>2</td><td>Bane. The item seeks to thwart or destroy creatures of a particular type, such as Constructs, Fiends, or Undead.</td></tr><tr><td>3</td><td>Creator Seeker. The item seeks its creator and wants to understand why it was created.</td></tr><tr><td>4</td><td>Destiny Seeker. The item believes it and its bearer have key roles to play in future events.</td></tr></table>
+<table><tr><td>1d10</td><td>Special Purpose</td></tr><tr><td>1</td><td>Aligned. The item seeks to defeat or destroy those of a diametrically opposed alignment.Such an item is never Neutral.</td></tr><tr><td>2</td><td>Bane. The item seeks to thwart or destroy creatures of a particular type, such as Constructs, Fiends, or Undead.</td></tr><tr><td>3</td><td>Creator Seeker. The item seeks its creator and wants to understand why it was created.</td></tr><tr><td>4</td><td>Destiny Seeker. The item believes it and its bearer have key roles to play in future events.</td></tr></table>
 
-Id10 Special Purpose
+1d10 Special Purpose
 
 <table><tr><td>5</td><td>Destroyer. The item craves destruction and goads its user to fight arbitrarily.</td></tr><tr><td>6</td><td>Glory Seeker. The item seeks renown as the greatest magic item in the world by winning fame or notoriety for its user.</td></tr><tr><td>7</td><td>Lore Seeker. The item craves knowledge or is determined to solve a mystery, learn a secret, or unravel a cryptic prophecy.</td></tr><tr><td>8</td><td>Protector. The item seeks to defend a particular kind of creature, such as elves or werewolves.</td></tr><tr><td>9</td><td>Soulmate Seeker. The item seeks another sentient magic item, perhaps one that is similar to itself.</td></tr><tr><td>10</td><td>Templar. The item seeks to defend the servants and interests of a particular deity.</td></tr></table>
 
@@ -14701,7 +14701,7 @@ This magic ammunition is meant to slay creatures of a particular type, which the
 
 After dealing its extra damage to a creature, the ammunition becomes nonmagical.
 
-<table><tr><td>Id100</td><td>Creature Type</td><td>Id100</td><td>Creature Type</td></tr><tr><td>01–10</td><td>Aberrations</td><td>51–60</td><td>Fey</td></tr><tr><td>11–15</td><td>Beasts</td><td>61–70</td><td>Fiends</td></tr><tr><td>16–20</td><td>Celestials</td><td>71–75</td><td>Giants</td></tr><tr><td>21–25</td><td>Constructs</td><td>76–80</td><td>Monstrosities</td></tr><tr><td>26–35</td><td>Dragons</td><td>81–85</td><td>Oozes</td></tr><tr><td>36–45</td><td>Elementals</td><td>86–90</td><td>Plants</td></tr><tr><td>46–50</td><td>Humanoids</td><td>91–00</td><td>Undead</td></tr></table>
+<table><tr><td>1d100</td><td>Creature Type</td><td>1d100</td><td>Creature Type</td></tr><tr><td>01–10</td><td>Aberrations</td><td>51–60</td><td>Fey</td></tr><tr><td>11–15</td><td>Beasts</td><td>61–70</td><td>Fiends</td></tr><tr><td>16–20</td><td>Celestials</td><td>71–75</td><td>Giants</td></tr><tr><td>21–25</td><td>Constructs</td><td>76–80</td><td>Monstrosities</td></tr><tr><td>26–35</td><td>Dragons</td><td>81–85</td><td>Oozes</td></tr><tr><td>36–45</td><td>Elementals</td><td>86–90</td><td>Plants</td></tr><tr><td>46–50</td><td>Humanoids</td><td>91–00</td><td>Undead</td></tr></table>
 
 # Amulet of Health
 
@@ -14721,9 +14721,9 @@ Wondrous Item, Very Rare (Requires Attunement)
 
 While wearing this amulet, you can take a Magic action to name a location that you are familiar with on another plane of existence. Then make a DC 15 Intelligence (Arcana) check. On a successful check, you cast Plane Shift. On a failed check, you and each creature and object within 15 feet of you travel to a random destination determined by rolling 1d100 and consulting the following table.
 
-Id100 Destination
+1d100 Destination
 
-<table><tr><td>01–60</td><td>Random location on the plane you named</td></tr><tr><td>61–70</td><td>Random location on an Inner Plane determined by rolling Id6: on a 1, the Plane of Air; on a 2, the Plane of Earth; on a 3, the Plane of Fire; on a 4, the Plane of Water; on a 5, the Feywild; on a 6, the Shadowfell</td></tr><tr><td>71–80</td><td>Random location on an Outer Plane determined by rolling Id8: on a 1, Arborea; on a 2, Arcadia; on a 3, the Beastlands; on a 4, Bytopia; on a 5, Elysium; on a 6, Mechanus; on a 7, Mount Celestia; on an 8, Ysgard</td></tr><tr><td>81–90</td><td>Random location on an Outer Plane determined by rolling Id8: on a 1, the Abyss; on a 2, Acheron; on a 3, Carceri; on a 4, Gehenna; on a 5, Hades; on a 6, Limbo; on a 7, the Nine Hells; on an 8, Pandemonium</td></tr><tr><td>91–00</td><td>Random location on the Astral Plane</td></tr></table>
+<table><tr><td>01–60</td><td>Random location on the plane you named</td></tr><tr><td>61–70</td><td>Random location on an Inner Plane determined by rolling 1d6: on a 1, the Plane of Air; on a 2, the Plane of Earth; on a 3, the Plane of Fire; on a 4, the Plane of Water; on a 5, the Feywild; on a 6, the Shadowfell</td></tr><tr><td>71–80</td><td>Random location on an Outer Plane determined by rolling 1d8: on a 1, Arborea; on a 2, Arcadia; on a 3, the Beastlands; on a 4, Bytopia; on a 5, Elysium; on a 6, Mechanus; on a 7, Mount Celestia; on an 8, Ysgard</td></tr><tr><td>81–90</td><td>Random location on an Outer Plane determined by rolling 1d8: on a 1, the Abyss; on a 2, Acheron; on a 3, Carceri; on a 4, Gehenna; on a 5, Hades; on a 6, Limbo; on a 7, the Nine Hells; on an 8, Pandemonium</td></tr><tr><td>91–00</td><td>Random location on the Astral Plane</td></tr></table>
 
 # Animated Shield
 
@@ -14765,7 +14765,7 @@ Armor (Any Light, Medium, or Heavy), Rare (Requires Attunement)
 
 You have Resistance to one type of damage while you wear this armor. The GM chooses the type or determines it randomly by rolling on the following table.
 
-<table><tr><td>Id10</td><td>Damage Type</td><td>Id10</td><td>Damage Type</td></tr><tr><td>1</td><td>Acid</td><td>6</td><td>Necrotic</td></tr><tr><td>2</td><td>Cold</td><td>7</td><td>Poison</td></tr><tr><td>3</td><td>Fire</td><td>8</td><td>Psychic</td></tr><tr><td>4</td><td>Force</td><td>9</td><td>Radiant</td></tr><tr><td>5</td><td>Lightning</td><td>10</td><td>Thunder</td></tr></table>
+<table><tr><td>1d10</td><td>Damage Type</td><td>1d10</td><td>Damage Type</td></tr><tr><td>1</td><td>Acid</td><td>6</td><td>Necrotic</td></tr><tr><td>2</td><td>Cold</td><td>7</td><td>Poison</td></tr><tr><td>3</td><td>Fire</td><td>8</td><td>Psychic</td></tr><tr><td>4</td><td>Force</td><td>9</td><td>Radiant</td></tr><tr><td>5</td><td>Lightning</td><td>10</td><td>Thunder</td></tr></table>
 
 Apparatus of the Crab Levers
 
@@ -14797,15 +14797,15 @@ If you dump one or more beans out of the bag, they explode in a 10-foot-radius S
 
 If you remove a bean from the bag, plant it in dirt or sand, and then water it, the bean disappears as it produces an effect 1 minute later from the ground where it was planted. The GM can choose an effect from the following table or determine it randomly.
 
-Id100 Effect
+1d100 Effect
 
 <table><tr><td>01</td><td>5d4 toadstools sprout. If a creature eats a toadstool, roll any die. On an odd roll, the eater must succeed on a DC 15 Constitution saving throw or take 5d6 Poison damage and have the Poisoned condition for 1 hour. On an even roll, the eater gains 5d6 Temporary Hit Points for 1 hour.</td></tr></table>
 
 02–10 A geyser erupts and spouts water, beer, mayonnaise, tea, vinegar, wine, or oil (GM's choice) 30 feet into the air for 1d4 minutes.
 
-Id100 Effect
+1d100 Effect
 
-<table><tr><td>11-20</td><td>A Treant sprouts. Roll any die. On an odd roll, the treant is Chaotic Evil. On an even roll, the treant is Chaotic Good.</td></tr><tr><td>21-30</td><td>An animate but immobile stone statue in your likeness rises and makes verbal threats against you. If you leave it and others come near, it describes you as the most heinous of villains and directs the newcomers to find and attack you. If you are on the same plane of existence as the statue, it knows where you are. The statue becomes inanimate after 24 hours.</td></tr><tr><td>31-40</td><td>A campfire with green flames springs forth and burns for 24 hours or until it is extinguished.</td></tr><tr><td>41-50</td><td>Three Shrieker Fungi sprout.</td></tr><tr><td>51-60</td><td>Id4 + 4 bright-pink toads crawl forth. Whenever a toad is touched, it transforms into a Large or smaller monster of the GM&#x27;s choice that acts in accordance with its alignment and nature. The monster remains for 1 minute, then disappears in a puff of bright-pink smoke.</td></tr><tr><td>61-70</td><td>A hungry Bulette burrows up and attacks.</td></tr><tr><td>71-80</td><td>A fruit tree grows. It has Id10 + 20 fruit, Id8 of which act as randomly determined po-tions. The tree vanishes after 1 hour. Picked fruit remains, retaining any magic for 30 days.</td></tr><tr><td>81-90</td><td>A nest of Id4 + 3 rainbow-colored eggs springs up. Any creature that eats an egg makes a DC 20 Constitution saving throw. On a successful save, a creature permanently increases its lowest ability score by I, randomly choosing among equally low scores. On a failed save, the creature takes 10d6 Force damage from an internal explosion.</td></tr><tr><td>91-95</td><td>A pyramid with a 60-foot-square base bursts upward. Inside is a burial chamber containing a Mummy, a Mummy Lord, or some other Undead of the GM&#x27;s choice. Its sarcophagus contains treasure of the GM&#x27;s choice.</td></tr><tr><td>96-00</td><td>A giant beanstalk sprouts, growing to a height of the GM&#x27;s choice. The top leads where the GM chooses, such as to a great view, a cloud giant&#x27;s castle, or another plane of existence.</td></tr></table>
+<table><tr><td>11-20</td><td>A Treant sprouts. Roll any die. On an odd roll, the treant is Chaotic Evil. On an even roll, the treant is Chaotic Good.</td></tr><tr><td>21-30</td><td>An animate but immobile stone statue in your likeness rises and makes verbal threats against you. If you leave it and others come near, it describes you as the most heinous of villains and directs the newcomers to find and attack you. If you are on the same plane of existence as the statue, it knows where you are. The statue becomes inanimate after 24 hours.</td></tr><tr><td>31-40</td><td>A campfire with green flames springs forth and burns for 24 hours or until it is extinguished.</td></tr><tr><td>41-50</td><td>Three Shrieker Fungi sprout.</td></tr><tr><td>51-60</td><td>1d4 + 4 bright-pink toads crawl forth. Whenever a toad is touched, it transforms into a Large or smaller monster of the GM&#x27;s choice that acts in accordance with its alignment and nature. The monster remains for 1 minute, then disappears in a puff of bright-pink smoke.</td></tr><tr><td>61-70</td><td>A hungry Bulette burrows up and attacks.</td></tr><tr><td>71-80</td><td>A fruit tree grows. It has 1d10 + 20 fruit, 1d8 of which act as randomly determined po-tions. The tree vanishes after 1 hour. Picked fruit remains, retaining any magic for 30 days.</td></tr><tr><td>81-90</td><td>A nest of 1d4 + 3 rainbow-colored eggs springs up. Any creature that eats an egg makes a DC 20 Constitution saving throw. On a successful save, a creature permanently increases its lowest ability score by I, randomly choosing among equally low scores. On a failed save, the creature takes 10d6 Force damage from an internal explosion.</td></tr><tr><td>91-95</td><td>A pyramid with a 60-foot-square base bursts upward. Inside is a burial chamber containing a Mummy, a Mummy Lord, or some other Undead of the GM&#x27;s choice. Its sarcophagus contains treasure of the GM&#x27;s choice.</td></tr><tr><td>96-00</td><td>A giant beanstalk sprouts, growing to a height of the GM&#x27;s choice. The top leads where the GM chooses, such as to a great view, a cloud giant&#x27;s castle, or another plane of existence.</td></tr></table>
 
 # Bag of Devouring
 
@@ -14843,15 +14843,15 @@ Once three fuzzy objects have been pulled from the bag, the bag can't be used ag
 
 Gray Bag of Tricks
 
-<table><tr><td>Id8</td><td>Creature</td><td>Id8</td><td>Creature</td></tr><tr><td>1</td><td>Weasel</td><td>5</td><td>Panther</td></tr><tr><td>2</td><td>Giant Rat</td><td>6</td><td>Giant Badger</td></tr><tr><td>3</td><td>Badger</td><td>7</td><td>Dire Wolf</td></tr><tr><td>4</td><td>Boar</td><td>8</td><td>Giant Elk</td></tr></table>
+<table><tr><td>1d8</td><td>Creature</td><td>1d8</td><td>Creature</td></tr><tr><td>1</td><td>Weasel</td><td>5</td><td>Panther</td></tr><tr><td>2</td><td>Giant Rat</td><td>6</td><td>Giant Badger</td></tr><tr><td>3</td><td>Badger</td><td>7</td><td>Dire Wolf</td></tr><tr><td>4</td><td>Boar</td><td>8</td><td>Giant Elk</td></tr></table>
 
 Rust Bag of Tricks
 
-<table><tr><td>Id8</td><td>Creature</td><td>Id8</td><td>Creature</td></tr><tr><td>1</td><td>Rat</td><td>5</td><td>Giant Goat</td></tr><tr><td>2</td><td>Owl</td><td>6</td><td>Giant Boar</td></tr><tr><td>3</td><td>Mastiff</td><td>7</td><td>Lion</td></tr><tr><td>4</td><td>Goat</td><td>8</td><td>Brown Bear</td></tr></table>
+<table><tr><td>1d8</td><td>Creature</td><td>1d8</td><td>Creature</td></tr><tr><td>1</td><td>Rat</td><td>5</td><td>Giant Goat</td></tr><tr><td>2</td><td>Owl</td><td>6</td><td>Giant Boar</td></tr><tr><td>3</td><td>Mastiff</td><td>7</td><td>Lion</td></tr><tr><td>4</td><td>Goat</td><td>8</td><td>Brown Bear</td></tr></table>
 
 Tan Bag of Tricks
 
-<table><tr><td>Id8</td><td>Creature</td><td>Id8</td><td>Creature</td></tr><tr><td>1</td><td>Jackal</td><td>5</td><td>Black Bear</td></tr><tr><td>2</td><td>Ape</td><td>6</td><td>Giant Weasel</td></tr><tr><td>3</td><td>Baboon</td><td>7</td><td>Giant Hyena</td></tr><tr><td>4</td><td>Axe Beak</td><td>8</td><td>Tiger</td></tr></table>
+<table><tr><td>1d8</td><td>Creature</td><td>1d8</td><td>Creature</td></tr><tr><td>1</td><td>Jackal</td><td>5</td><td>Black Bear</td></tr><tr><td>2</td><td>Ape</td><td>6</td><td>Giant Weasel</td></tr><tr><td>3</td><td>Baboon</td><td>7</td><td>Giant Hyena</td></tr><tr><td>4</td><td>Axe Beak</td><td>8</td><td>Tiger</td></tr></table>
 
 # Bead of Force
 
@@ -15001,7 +15001,7 @@ Alternatively, when you light the candle for the first time, you can cast Gate w
 
 links to a particular Outer Plane chosen by the GM or determined by rolling on the following table.
 
-<table><tr><td>Id100</td><td>Outer Plane</td><td>Id100</td><td>Outer Plane</td></tr><tr><td>01–05</td><td>Abyss</td><td>55–59</td><td>Gehenna</td></tr><tr><td>06–10</td><td>Acheron</td><td>60–64</td><td>Hades</td></tr><tr><td>11–17</td><td>Arborea</td><td>65–69</td><td>Limbo</td></tr><tr><td>18–25</td><td>Arcadia</td><td>70–77</td><td>Mechanus</td></tr><tr><td>26–33</td><td>Beastlands</td><td>78–85</td><td>Mount Celestia</td></tr><tr><td>34–41</td><td>Bytopia</td><td>86–90</td><td>Nine Hells</td></tr><tr><td>42–46</td><td>Carceri</td><td>91–95</td><td>Pandemonium</td></tr><tr><td>47–54</td><td>Elysium</td><td>96–00</td><td>Ysgard</td></tr></table>
+<table><tr><td>1d100</td><td>Outer Plane</td><td>1d100</td><td>Outer Plane</td></tr><tr><td>01–05</td><td>Abyss</td><td>55–59</td><td>Gehenna</td></tr><tr><td>06–10</td><td>Acheron</td><td>60–64</td><td>Hades</td></tr><tr><td>11–17</td><td>Arborea</td><td>65–69</td><td>Limbo</td></tr><tr><td>18–25</td><td>Arcadia</td><td>70–77</td><td>Mechanus</td></tr><tr><td>26–33</td><td>Beastlands</td><td>78–85</td><td>Mount Celestia</td></tr><tr><td>34–41</td><td>Bytopia</td><td>86–90</td><td>Nine Hells</td></tr><tr><td>42–46</td><td>Carceri</td><td>91–95</td><td>Pandemonium</td></tr><tr><td>47–54</td><td>Elysium</td><td>96–00</td><td>Ysgard</td></tr></table>
 
 # Cape of the Mountebank
 
@@ -15019,7 +15019,7 @@ You can make this carpet hover and fly by taking a Magic action and using the ca
 
 Four sizes of Carpet of Flying exist. The GM chooses the size of a given carpet or determines it randomly by rolling on the following table. A carpet can carry up to twice the weight shown on the table, but its Fly Speed is halved if it carries more than its normal capacity.
 
-<table><tr><td>Id100</td><td>Size</td><td>Capacity</td><td>Fly Speed</td></tr><tr><td>01–20</td><td>3 ft. × 5 ft.</td><td>200 lb.</td><td>80 feet</td></tr><tr><td>21–55</td><td>4 ft. × 6 ft.</td><td>400 lb.</td><td>60 feet</td></tr><tr><td>56–80</td><td>5 ft. × 7 ft.</td><td>600 lb.</td><td>40 feet</td></tr><tr><td>81–00</td><td>6 ft. × 9 ft.</td><td>800 lb.</td><td>30 feet</td></tr></table>
+<table><tr><td>1d100</td><td>Size</td><td>Capacity</td><td>Fly Speed</td></tr><tr><td>01–20</td><td>3 ft. × 5 ft.</td><td>200 lb.</td><td>80 feet</td></tr><tr><td>21–55</td><td>4 ft. × 6 ft.</td><td>400 lb.</td><td>60 feet</td></tr><tr><td>56–80</td><td>5 ft. × 7 ft.</td><td>600 lb.</td><td>40 feet</td></tr><tr><td>81–00</td><td>6 ft. × 9 ft.</td><td>800 lb.</td><td>30 feet</td></tr></table>
 
 # Censer of Controlling Air Elementals
 
@@ -15189,7 +15189,7 @@ Any physical interaction with the illusory creature reveals it to be false, beca
 
 Deck of Illusions
 
-<table><tr><td>Id100</td><td>Illusion*</td></tr><tr><td>01-03</td><td>Adult Red Dragon</td></tr><tr><td>04-06</td><td>Archmage</td></tr><tr><td>07-09</td><td>Assassin</td></tr><tr><td>10-12</td><td>Bandit Captain</td></tr><tr><td>13-15</td><td>Basilisk</td></tr><tr><td>16-18</td><td>Berserker</td></tr><tr><td>19-21</td><td>Bugbear Warrior</td></tr><tr><td>22-24</td><td>Cloud Giant</td></tr><tr><td>25-27</td><td>Druid</td></tr><tr><td>28-30</td><td>Erinyes</td></tr><tr><td>31-33</td><td>Ettin</td></tr><tr><td>34-36</td><td>Fire Giant</td></tr><tr><td>37-39</td><td>Frost Giant</td></tr><tr><td>40-42</td><td>Gnoll Warrior</td></tr><tr><td>43-45</td><td>Goblin Warrior</td></tr><tr><td>46-48</td><td>Guardian Naga</td></tr><tr><td>49-51</td><td>Hill Giant</td></tr><tr><td>52-54</td><td>Hobgoblin Warrior</td></tr><tr><td>55-57</td><td>Incubus</td></tr><tr><td>58-60</td><td>Iron Golem</td></tr><tr><td>61-63</td><td>Knight</td></tr><tr><td>64-66</td><td>Kobold Warrior</td></tr><tr><td>67-69</td><td>Lich</td></tr><tr><td>70-72</td><td>Medusa</td></tr><tr><td>73-75</td><td>Night Hag</td></tr><tr><td>76-78</td><td>Ogre</td></tr><tr><td>79-81</td><td>Oni</td></tr><tr><td>82–84</td><td>Priest</td></tr><tr><td>85–87</td><td>Succubus</td></tr><tr><td>88–90</td><td>Troll</td></tr><tr><td>91–93</td><td>Veteran Warrior</td></tr><tr><td>94–96</td><td>Wyvern</td></tr><tr><td>97–00</td><td>The card drawer</td></tr></table>
+<table><tr><td>1d100</td><td>Illusion*</td></tr><tr><td>01-03</td><td>Adult Red Dragon</td></tr><tr><td>04-06</td><td>Archmage</td></tr><tr><td>07-09</td><td>Assassin</td></tr><tr><td>10-12</td><td>Bandit Captain</td></tr><tr><td>13-15</td><td>Basilisk</td></tr><tr><td>16-18</td><td>Berserker</td></tr><tr><td>19-21</td><td>Bugbear Warrior</td></tr><tr><td>22-24</td><td>Cloud Giant</td></tr><tr><td>25-27</td><td>Druid</td></tr><tr><td>28-30</td><td>Erinyes</td></tr><tr><td>31-33</td><td>Ettin</td></tr><tr><td>34-36</td><td>Fire Giant</td></tr><tr><td>37-39</td><td>Frost Giant</td></tr><tr><td>40-42</td><td>Gnoll Warrior</td></tr><tr><td>43-45</td><td>Goblin Warrior</td></tr><tr><td>46-48</td><td>Guardian Naga</td></tr><tr><td>49-51</td><td>Hill Giant</td></tr><tr><td>52-54</td><td>Hobgoblin Warrior</td></tr><tr><td>55-57</td><td>Incubus</td></tr><tr><td>58-60</td><td>Iron Golem</td></tr><tr><td>61-63</td><td>Knight</td></tr><tr><td>64-66</td><td>Kobold Warrior</td></tr><tr><td>67-69</td><td>Lich</td></tr><tr><td>70-72</td><td>Medusa</td></tr><tr><td>73-75</td><td>Night Hag</td></tr><tr><td>76-78</td><td>Ogre</td></tr><tr><td>79-81</td><td>Oni</td></tr><tr><td>82–84</td><td>Priest</td></tr><tr><td>85–87</td><td>Succubus</td></tr><tr><td>88–90</td><td>Troll</td></tr><tr><td>91–93</td><td>Veteran Warrior</td></tr><tr><td>94–96</td><td>Wyvern</td></tr><tr><td>97–00</td><td>The card drawer</td></tr></table>
 
 \*Stat blocks for these creatures (except the card drawer) appear in "Monsters."
 
@@ -15311,7 +15311,7 @@ When you take a Magic action to remove the stopper of this painted brass bottle,
 
 The first time the bottle is opened, the GM rolls on the following table to determine what happens.
 
-Id10 Effect
+1d10 Effect
 
 <table><tr><td>1</td><td>The efreeti attacks you. After fighting for 5 rounds, the efreeti disappears, and the bottle loses its magic.</td></tr><tr><td>2–9</td><td>The efreeti understands your languages and obeys your commands for 1 hour, after which it returns to the bottle, and a new stopper contains it. The stopper can’t be removed for 24 hours. The next two times the bottle is opened, the same effect occurs. If the bottle is opened a fourth time, the efreeti escapes and disappears, and the bottle loses its magic.</td></tr><tr><td>10</td><td>The efreeti understands your languages and can cast Wish once for you. It disappears when it grants the wish or after 1 hour, and the bottle loses its magic.</td></tr></table>
 
@@ -15403,7 +15403,7 @@ As a Bonus Action, you can direct the whip to fly up to 20 feet and repeat the a
 
 Feather Tokens
 
-<table><tr><td>Id100</td><td>Token</td><td>Rarity</td></tr><tr><td>01–20</td><td>Anchor</td><td>Uncommon</td></tr><tr><td>21–35</td><td>Bird</td><td>Rare</td></tr><tr><td>36–50</td><td>Fan</td><td>Uncommon</td></tr><tr><td>51–65</td><td>Swan boat</td><td>Rare</td></tr><tr><td>66–90</td><td>Tree</td><td>Uncommon</td></tr><tr><td>91–00</td><td>Whip</td><td>Rare</td></tr></table>
+<table><tr><td>1d100</td><td>Token</td><td>Rarity</td></tr><tr><td>01–20</td><td>Anchor</td><td>Uncommon</td></tr><tr><td>21–35</td><td>Bird</td><td>Rare</td></tr><tr><td>36–50</td><td>Fan</td><td>Uncommon</td></tr><tr><td>51–65</td><td>Swan boat</td><td>Rare</td></tr><tr><td>66–90</td><td>Tree</td><td>Uncommon</td></tr><tr><td>91–00</td><td>Whip</td><td>Rare</td></tr></table>
 
 # Figurine of Wondrous Power
 
@@ -15433,7 +15433,7 @@ HP 19 (3d10 + 3)
 
 Speed 30 ft., Fly 60 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>14</td><td>+2</td><td>+2</td><td>DEX</td><td>13</td><td>+1</td><td>+1</td><td>CON</td><td>13</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>3</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>14</td><td>+2</td><td>+2</td><td>DEX</td><td>13</td><td>+1</td><td>+1</td><td>CON</td><td>13</td><td>+1</td><td>+1</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>3</td><td>-4</td><td>-4</td></tr></table>
 
 Senses Darkvision 60 ft., Passive Perception 10
 
@@ -15613,13 +15613,13 @@ Unknown Spell. While holding the hat, you can try to cast a level 1+ spell you d
 
 Any spell you cast from the hat uses your spell save DC and spell attack bonus.
 
-Id100 Effect
+1d100 Effect
 
-<table><tr><td>01-50</td><td>You cast a random spell determined by rolling Id10: on a 1, Enlarge/Reduce (enlarge effect); on a 2, Enlarge/Reduce (reduce effect); on a 3, Faerie Fire; on a 4, Fireball; on a 5, Gust of Wind; on a 6, Invisibility (cast on yourself); on a 7, Lightning Bolt; on an 8, Phantasmal Force; on a 9, Polymorph; on a 10, Stinking Cloud.</td></tr><tr><td>51-55</td><td>You have the Stunned condition until the end of your next turn, believing something awesome just happened.</td></tr><tr><td>56-60</td><td>A harmless swarm of butterflies fills a 10-foot Cube within 30 feet of yourself. The swarm disperses after 1 minute.</td></tr><tr><td>61-65</td><td>You pull a nonmagical object out of the hat. Roll Id4 to determine the object: on a 1, a vial of Acid; on a 2, a flask of Alchemist&#x27;s Fire; on a 3, a Crowbar; on a 4, a lit Torch.</td></tr><tr><td>66-70</td><td>You suffer a bout of “magic sickness” and have the Poisoned condition for 1 hour.</td></tr><tr><td>71-75</td><td>You have the Petrified condition until the end of your next turn.</td></tr><tr><td>76-80</td><td>You pull a nonmagical object out of the hat. Roll Id4 to determine the object: on a 1, a Dagger; on a 2, a Rope with a Grappling Hook tied to one end; on a 3, a bag of Caltrops; on a 4, a gem worth 50 GP.</td></tr><tr><td>81-85</td><td>A creature appears in an unoccupied space as close to you as possible. The creature isn’t under your control and acts as it normally would, and it disappears after 1 hour or when it drops to 0 Hit Points. Roll Id4 to determine the creature: on a 1, a Camel; on a 2, a Constrictor Snake; on a 3, an Elephant; on a 4, a Mule.</td></tr></table>
+<table><tr><td>01-50</td><td>You cast a random spell determined by rolling 1d10: on a 1, Enlarge/Reduce (enlarge effect); on a 2, Enlarge/Reduce (reduce effect); on a 3, Faerie Fire; on a 4, Fireball; on a 5, Gust of Wind; on a 6, Invisibility (cast on yourself); on a 7, Lightning Bolt; on an 8, Phantasmal Force; on a 9, Polymorph; on a 10, Stinking Cloud.</td></tr><tr><td>51-55</td><td>You have the Stunned condition until the end of your next turn, believing something awesome just happened.</td></tr><tr><td>56-60</td><td>A harmless swarm of butterflies fills a 10-foot Cube within 30 feet of yourself. The swarm disperses after 1 minute.</td></tr><tr><td>61-65</td><td>You pull a nonmagical object out of the hat. Roll 1d4 to determine the object: on a 1, a vial of Acid; on a 2, a flask of Alchemist&#x27;s Fire; on a 3, a Crowbar; on a 4, a lit Torch.</td></tr><tr><td>66-70</td><td>You suffer a bout of “magic sickness” and have the Poisoned condition for 1 hour.</td></tr><tr><td>71-75</td><td>You have the Petrified condition until the end of your next turn.</td></tr><tr><td>76-80</td><td>You pull a nonmagical object out of the hat. Roll 1d4 to determine the object: on a 1, a Dagger; on a 2, a Rope with a Grappling Hook tied to one end; on a 3, a bag of Caltrops; on a 4, a gem worth 50 GP.</td></tr><tr><td>81-85</td><td>A creature appears in an unoccupied space as close to you as possible. The creature isn’t under your control and acts as it normally would, and it disappears after 1 hour or when it drops to 0 Hit Points. Roll 1d4 to determine the creature: on a 1, a Camel; on a 2, a Constrictor Snake; on a 3, an Elephant; on a 4, a Mule.</td></tr></table>
 
-Id100 Effect
+1d100 Effect
 
-<table><tr><td>86–90</td><td>A Hostile Swarm of Bats flies out of the hat, occupies your space, and attacks you.</td></tr><tr><td>91–95</td><td>A vertical, 10-foot-diameter, two-way portal to another plane of existence opens in an unoccupied space within 30 feet of you and remains open until the end of your next turn. The GM determines where it leads.</td></tr><tr><td>96–00</td><td>You pull a magic item out of the hat. Roll Id6 to determine the item’s rarity: on a 1–3, Common; on a 4–5, Uncommon; on a 6, Rare. The GM chooses the item, which disappears after 1 hour if it’s not consumed or destroyed before then.</td></tr></table>
+<table><tr><td>86–90</td><td>A Hostile Swarm of Bats flies out of the hat, occupies your space, and attacks you.</td></tr><tr><td>91–95</td><td>A vertical, 10-foot-diameter, two-way portal to another plane of existence opens in an unoccupied space within 30 feet of you and remains open until the end of your next turn. The GM determines where it leads.</td></tr><tr><td>96–00</td><td>You pull a magic item out of the hat. Roll 1d6 to determine the item’s rarity: on a 1–3, Common; on a 4–5, Uncommon; on a 6, Rare. The GM chooses the item, which disappears after 1 hour if it’s not consumed or destroyed before then.</td></tr></table>
 
 # Headband of Intellect
 
@@ -15691,7 +15691,7 @@ Four types of Horn of Valhalla are known to exist, each made of a different meta
 
 If you blow the horn without meeting its requirement, the summoned spirits attack you. If you meet the requirement, they are Friendly to you and your allies and follow your commands.
 
-<table><tr><td>Id100</td><td>Horn Type</td><td>Spirits</td><td>Requirement</td></tr><tr><td>01–40</td><td>Silver</td><td>2</td><td>None</td></tr><tr><td>41–75</td><td>Brass</td><td>3</td><td>Proficiency with all Simple weapons</td></tr><tr><td>76–90</td><td>Bronze</td><td>4</td><td>Training with all Medium armor</td></tr><tr><td>91–00</td><td>Iron</td><td>5</td><td>Proficiency with all Martial weapons</td></tr></table>
+<table><tr><td>1d100</td><td>Horn Type</td><td>Spirits</td><td>Requirement</td></tr><tr><td>01–40</td><td>Silver</td><td>2</td><td>None</td></tr><tr><td>41–75</td><td>Brass</td><td>3</td><td>Proficiency with all Simple weapons</td></tr><tr><td>76–90</td><td>Bronze</td><td>4</td><td>Training with all Medium armor</td></tr><tr><td>91–00</td><td>Iron</td><td>5</td><td>Proficiency with all Martial weapons</td></tr></table>
 
 # Horseshoes of a Zephyr
 
@@ -15871,7 +15871,7 @@ To create a golem, you must spend the time shown on the table, working without i
 
 Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. See “Monsters” for the golem’s stat block. The golem is under your control, and it understands and obeys your commands.
 
-<table><tr><td>Id20</td><td>Golem</td><td>Time</td><td>Cost</td></tr><tr><td>1–5</td><td>Clay Golem</td><td>30 days</td><td>65,000 GP</td></tr><tr><td>6–17</td><td>Flesh Golem</td><td>60 days</td><td>50,000 GP</td></tr><tr><td>18</td><td>Iron Golem</td><td>120 days</td><td>100,000 GP</td></tr><tr><td>19–20</td><td>Stone Golem</td><td>90 days</td><td>80,000 GP</td></tr></table>
+<table><tr><td>1d20</td><td>Golem</td><td>Time</td><td>Cost</td></tr><tr><td>1–5</td><td>Clay Golem</td><td>30 days</td><td>65,000 GP</td></tr><tr><td>6–17</td><td>Flesh Golem</td><td>60 days</td><td>50,000 GP</td></tr><tr><td>18</td><td>Iron Golem</td><td>120 days</td><td>100,000 GP</td></tr><tr><td>19–20</td><td>Stone Golem</td><td>90 days</td><td>80,000 GP</td></tr></table>
 
 # Manual of Quickness of Action
 
@@ -15937,9 +15937,9 @@ Once a card is drawn, it disappears. Unless the card is the Fool or Jester, the 
 
 Mysterious Deck
 
-<table><tr><td>Id100(13-Card Deck)</td><td>Id100(22-Card Deck)</td><td>Card</td></tr><tr><td>—</td><td>01–05</td><td>Balance</td></tr><tr><td>—</td><td>06–10</td><td>Comet</td></tr><tr><td>—</td><td>11–14</td><td>Donjon</td></tr><tr><td>01–08</td><td>15–18</td><td>Euryale</td></tr><tr><td>—</td><td>19–23</td><td>Fates</td></tr><tr><td>09–16</td><td>24–27</td><td>Flames</td></tr><tr><td>—</td><td>28–31</td><td>Fool</td></tr><tr><td>—</td><td>32–36</td><td>Gem</td></tr><tr><td>17–24</td><td>37–41</td><td>Jester</td></tr><tr><td>25–32</td><td>42–46</td><td>Key</td></tr><tr><td>33–40</td><td>47–51</td><td>Knight</td></tr><tr><td>41–48</td><td>52–56</td><td>Moon</td></tr><tr><td>—</td><td>57–60</td><td>Puzzle</td></tr><tr><td>49–56</td><td>61–64</td><td>Rogue</td></tr><tr><td>57–64</td><td>65–68</td><td>Ruin</td></tr><tr><td>—</td><td>69–73</td><td>Sage</td></tr></table>
+<table><tr><td>1d100(13-Card Deck)</td><td>1d100(22-Card Deck)</td><td>Card</td></tr><tr><td>—</td><td>01–05</td><td>Balance</td></tr><tr><td>—</td><td>06–10</td><td>Comet</td></tr><tr><td>—</td><td>11–14</td><td>Donjon</td></tr><tr><td>01–08</td><td>15–18</td><td>Euryale</td></tr><tr><td>—</td><td>19–23</td><td>Fates</td></tr><tr><td>09–16</td><td>24–27</td><td>Flames</td></tr><tr><td>—</td><td>28–31</td><td>Fool</td></tr><tr><td>—</td><td>32–36</td><td>Gem</td></tr><tr><td>17–24</td><td>37–41</td><td>Jester</td></tr><tr><td>25–32</td><td>42–46</td><td>Key</td></tr><tr><td>33–40</td><td>47–51</td><td>Knight</td></tr><tr><td>41–48</td><td>52–56</td><td>Moon</td></tr><tr><td>—</td><td>57–60</td><td>Puzzle</td></tr><tr><td>49–56</td><td>61–64</td><td>Rogue</td></tr><tr><td>57–64</td><td>65–68</td><td>Ruin</td></tr><tr><td>—</td><td>69–73</td><td>Sage</td></tr></table>
 
-<table><tr><td>Id100(13-Card Deck)</td><td>Id100(22-Card Deck)</td><td>Card</td></tr><tr><td>65–72</td><td>74–77</td><td>Skull</td></tr><tr><td>73–80</td><td>78–82</td><td>Star</td></tr><tr><td>81–88</td><td>83–87</td><td>Sun</td></tr><tr><td>—</td><td>88–91</td><td>Talons</td></tr><tr><td>89–96</td><td>92–96</td><td>Throne</td></tr><tr><td>97–00</td><td>97–00</td><td>Void</td></tr></table>
+<table><tr><td>1d100(13-Card Deck)</td><td>1d100(22-Card Deck)</td><td>Card</td></tr><tr><td>65–72</td><td>74–77</td><td>Skull</td></tr><tr><td>73–80</td><td>78–82</td><td>Star</td></tr><tr><td>81–88</td><td>83–87</td><td>Sun</td></tr><tr><td>—</td><td>88–91</td><td>Talons</td></tr><tr><td>89–96</td><td>92–96</td><td>Throne</td></tr><tr><td>97–00</td><td>97–00</td><td>Void</td></tr></table>
 
 Each card's effect is described below.
 
@@ -16043,7 +16043,7 @@ This necklace has 1d4 + 2 magic beads made from aquamarine, black pearl, or topa
 
 Six types of magic beads exist. The GM decides the type of each bead on the necklace or determines it randomly by rolling on the table below. A necklace can have more than one bead of the same type. To use one, you must be wearing the necklace. Each bead contains a spell that you can cast from it as a Bonus Action (using your spell save DC if a save is necessary). Once a magic bead's spell is cast, that bead can't be used again until the next dawn.
 
-<table><tr><td>Id20</td><td>Bead</td><td>Spell</td></tr><tr><td>1-6</td><td>Bead of Blessing</td><td>Bless</td></tr><tr><td>7-12</td><td>Bead of Curing</td><td>Cure Wounds (level 2 version)</td></tr><tr><td>13-16</td><td>Bead of Favor</td><td>Greater Restoration</td></tr><tr><td>17-18</td><td>Bead of Smiting</td><td>Shining Smite</td></tr><tr><td>19</td><td>Bead of Summons</td><td>Guardian of Faith</td></tr><tr><td>20</td><td>Bead of Wind Walking</td><td>Wind Walk</td></tr></table>
+<table><tr><td>1d20</td><td>Bead</td><td>Spell</td></tr><tr><td>1-6</td><td>Bead of Blessing</td><td>Bless</td></tr><tr><td>7-12</td><td>Bead of Curing</td><td>Cure Wounds (level 2 version)</td></tr><tr><td>13-16</td><td>Bead of Favor</td><td>Greater Restoration</td></tr><tr><td>17-18</td><td>Bead of Smiting</td><td>Shining Smite</td></tr><tr><td>19</td><td>Bead of Summons</td><td>Guardian of Faith</td></tr><tr><td>20</td><td>Bead of Wind Walking</td><td>Wind Walk</td></tr></table>
 
 # Nine Lives Stealer
 
@@ -16297,7 +16297,7 @@ Potion, Uncommon
 
 When you drink this potion, you have Resistance to one type of damage for 1 hour. The GM chooses the type or determines it randomly by rolling on the following table.
 
-<table><tr><td>Id10</td><td>Damage Type</td><td>Id10</td><td>Damage Type</td></tr><tr><td>1</td><td>Acid</td><td>6</td><td>Necrotic</td></tr><tr><td>2</td><td>Cold</td><td>7</td><td>Poison</td></tr><tr><td>3</td><td>Fire</td><td>8</td><td>Psychic</td></tr><tr><td>4</td><td>Force</td><td>9</td><td>Radiant</td></tr><tr><td>5</td><td>Lightning</td><td>10</td><td>Thunder</td></tr></table>
+<table><tr><td>1d10</td><td>Damage Type</td><td>1d10</td><td>Damage Type</td></tr><tr><td>1</td><td>Acid</td><td>6</td><td>Necrotic</td></tr><tr><td>2</td><td>Cold</td><td>7</td><td>Poison</td></tr><tr><td>3</td><td>Fire</td><td>8</td><td>Psychic</td></tr><tr><td>4</td><td>Force</td><td>9</td><td>Radiant</td></tr><tr><td>5</td><td>Lightning</td><td>10</td><td>Thunder</td></tr></table>
 
 # Potion of Speed
 
@@ -16451,7 +16451,7 @@ Ring, Rare
 
 You have Resistance to one damage type while wearing this ring. The gemstone in the ring indicates the type, which the GM chooses or determines randomly by rolling on the following table.
 
-<table><tr><td>Id10</td><td>Damage Type</td><td>Gemstone</td></tr><tr><td>1</td><td>Acid</td><td>Pearl</td></tr><tr><td>2</td><td>Cold</td><td>Tourmaline</td></tr><tr><td>3</td><td>Fire</td><td>Garnet</td></tr><tr><td>4</td><td>Force</td><td>Sapphire</td></tr><tr><td>5</td><td>Lightning</td><td>Citrine</td></tr><tr><td>6</td><td>Necrotic</td><td>Jet</td></tr><tr><td>7</td><td>Poison</td><td>Amethyst</td></tr><tr><td>8</td><td>Psychic</td><td>Jade</td></tr><tr><td>9</td><td>Radiant</td><td>Topaz</td></tr><tr><td>10</td><td>Thunder</td><td>Spinel</td></tr></table>
+<table><tr><td>1d10</td><td>Damage Type</td><td>Gemstone</td></tr><tr><td>1</td><td>Acid</td><td>Pearl</td></tr><tr><td>2</td><td>Cold</td><td>Tourmaline</td></tr><tr><td>3</td><td>Fire</td><td>Garnet</td></tr><tr><td>4</td><td>Force</td><td>Sapphire</td></tr><tr><td>5</td><td>Lightning</td><td>Citrine</td></tr><tr><td>6</td><td>Necrotic</td><td>Jet</td></tr><tr><td>7</td><td>Poison</td><td>Amethyst</td></tr><tr><td>8</td><td>Psychic</td><td>Jade</td></tr><tr><td>9</td><td>Radiant</td><td>Topaz</td></tr><tr><td>10</td><td>Thunder</td><td>Spinel</td></tr></table>
 
 # Ring of Shooting Stars
 
@@ -16603,7 +16603,7 @@ The robe has two of each of the following patches:
 
 In addition, the robe has 4d4 other patches. The GM chooses the patches or determines them randomly by rolling on the following table.
 
-Id100 Patch
+1d100 Patch
 
 01-08 Bag of 100 GP
 
@@ -16625,7 +16625,7 @@ Id100 Patch
 
 76–83 Spell Scroll containing one spell of level 1, 2, or 3 (your choice)
 
-Id100 Patch
+1d100 Patch
 
 84–90 2 Mastiffs
 
@@ -16843,7 +16843,7 @@ While in control of the sphere, you can take a Bonus Action to cause it to move 
 
 Sphere Interactions. If the sphere comes into contact with a planar portal (such as that created by the Gate spell) or an extradimensional space (such as that within a Portable Hole), the GM determines randomly what happens using the following table.
 
-Id100 Result
+1d100 Result
 
 01–50 The sphere is destroyed.
 
@@ -17241,15 +17241,15 @@ This wand has 7 charges. While holding it, you can take a Magic action to expend
 Regaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll 1d20. On a 1, the wand crumbles into dust and is destroyed.
 
 Wand of Wonder Effects  
-Id100 Effect
+1d100 Effect
 
-<table><tr><td>01–20</td><td>You cast a spell originating from the chosen point. Roll Id10 to determine the spell: on a 1–2, Darkness; on a 3–4, Faerie Fire; on a 5–6, Fireball; on a 7–8, Slow; on a 9–10, Stinking Cloud.</td></tr></table>
+<table><tr><td>01–20</td><td>You cast a spell originating from the chosen point. Roll 1d10 to determine the spell: on a 1–2, Darkness; on a 3–4, Faerie Fire; on a 5–6, Fireball; on a 7–8, Slow; on a 9–10, Stinking Cloud.</td></tr></table>
 
 <table><tr><td>21–25</td><td>Nothing happens at the chosen point of origin. Instead, you have the Stunned condition until the start of your next turn, believing something awesome just happened.</td></tr></table>
 
 <table><tr><td>26–30</td><td>You cast Gust of Wind. The Line created by the spell extends from you to the chosen point of origin.</td></tr></table>
 
-<table><tr><td>31–35</td><td>Nothing happens at the chosen point of origin. Instead, you take Id6 Psychic damage.</td></tr></table>
+<table><tr><td>31–35</td><td>Nothing happens at the chosen point of origin. Instead, you take 1d6 Psychic damage.</td></tr></table>
 
 <table><tr><td>36–40</td><td>Heavy rain falls for 1 minute in a 120-foot-high, 60-foot-radius Cylinder centered on the chosen point of origin. During that time, the area of effect is Lightly Obscured.</td></tr></table>
 
@@ -17259,11 +17259,11 @@ Id100 Effect
 
 <table><tr><td>51–55</td><td>The creature closest to the chosen point of origin is enlarged as if you had cast Enlarge/Reduce on it. If the target isn’t you and can’t be affected by that spell, you become the target instead.</td></tr></table>
 
-<table><tr><td>56-60</td><td>A magically formed creature appears in an unoccupied space as close to the chosen point of origin as possible. The creature isn’t under your control, acts as it normally would, and disappears after 1 hour or when it drops to 0 Hit Points. Roll Id4 to determine which creature appears. On a 1, a Rhinoceros appears; on a 2, an Elephant appears; and on a 3-4, a Rat appears.</td></tr></table>
+<table><tr><td>56-60</td><td>A magically formed creature appears in an unoccupied space as close to the chosen point of origin as possible. The creature isn’t under your control, acts as it normally would, and disappears after 1 hour or when it drops to 0 Hit Points. Roll 1d4 to determine which creature appears. On a 1, a Rhinoceros appears; on a 2, an Elephant appears; and on a 3-4, a Rat appears.</td></tr></table>
 
 <table><tr><td>61–64</td><td>Grass covers a 60-foot-radius circle of ground, with the center of that circle as close to the chosen point of origin as possible. Grass that&#x27;s already there grows to ten times its normal size and remains overgrown for 1 minute.</td></tr></table>
 
-Id100 Effect
+1d100 Effect
 
 <table><tr><td>65–68</td><td>An object of the GM’s choice disappears into the Ethereal Plane. The object must be neither worn nor carried, within 120 feet of the chosen point of origin, and no larger than 10 feet in any dimension. If there are no such objects in range, nothing happens.</td></tr></table>
 
@@ -17277,7 +17277,7 @@ Id100 Effect
 
 <table><tr><td>88–92</td><td>Nothing happens at the chosen point of origin. Instead, a stream of 1d4 × 10 gems, each worth I GP, shoots from the wand&#x27;s tip in a Line 30 feet long and 5 feet wide toward the chosen point of origin. Each gem deals I Bludgeoning damage, and the total damage of the gems is divided equally among all creatures in the Line.</td></tr></table>
 
-<table><tr><td>93–97</td><td>You castPolymorph, targeting the creature closest to the chosen point of origin. Roll Id4 to determine the target’s new form. On a 1, the new form is aBlack Bear; on a 2, the new form is aGiant Wasp; on a 3–4, the new form is aFrog.</td></tr></table>
+<table><tr><td>93–97</td><td>You castPolymorph, targeting the creature closest to the chosen point of origin. Roll 1d4 to determine the target’s new form. On a 1, the new form is aBlack Bear; on a 2, the new form is aGiant Wasp; on a 3–4, the new form is aFrog.</td></tr></table>
 
 <table><tr><td>98–00</td><td>The creature closest to the chosen point of origin makes a DC 15 Constitution saving throw. On a failed save, the creature has the Restrained condition and begins to turn to stone. While Restrained in this way, the creature repeats the save at the end of its next turn. On a successful save, the effect ends. On a failed save, the creature has the Petrified condition instead of the Restrained condition. The petrification lasts until the creature is freed by the Greater Restoration spell or similar magic.</td></tr></table>
 
@@ -17854,7 +17854,7 @@ HP 10 (3d6)
 
 Speed 20 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>3</td><td>-4</td><td>-4</td><td>DEX</td><td>8</td><td>-1</td><td>-1</td><td>CON</td><td>+0</td></tr><tr><td>INT</td><td>10</td><td>+0</td><td>+0</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>6</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>3</td><td>-4</td><td>-4</td><td>DEX</td><td>8</td><td>-1</td><td>-1</td><td>CON</td><td>11</td><td>+0</td><td>+0</td></tr><tr><td>INT</td><td>10</td><td>+0</td><td>+0</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>6</td><td>-2</td><td>-2</td></tr></table>
 
 # Vulnerabilities Fire
 
@@ -17974,7 +17974,7 @@ HP 287 (23d12 + 138)
 
 Speed 40 ft., Fly 80 ft.
 
-<table><tr><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>26</td><td>+8</td><td>+8</td><td>DEX</td><td>15</td><td>+2</td><td>+2</td><td>CON22</td></tr><tr><td>INT</td><td>20</td><td>+5</td><td>+5</td><td>WIS</td><td>16</td><td>+3</td><td>+9</td><td>CHA22</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>26</td><td>+8</td><td>+8</td><td>DEX</td><td>15</td><td>+2</td><td>+2</td><td>CON</td><td>22</td><td>+6</td><td>+12</td></tr><tr><td>INT</td><td>20</td><td>+5</td><td>+5</td><td>WIS</td><td>16</td><td>+3</td><td>+9</td><td>CHA</td><td>22</td><td>+6</td><td>+6</td></tr></table>
 
 Skills Perception +9
 
@@ -18139,7 +18139,7 @@ HP 52 (8d8 + 16)
 
 Speed 20 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>16</td><td>+3</td><td>+3</td><td>DEX</td><td>8</td><td>-1</td><td>-1</td><td>CON</td><td>+2</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>8</td><td>-1</td><td>-1</td><td>CHA</td><td>7</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>16</td><td>+3</td><td>+3</td><td>DEX</td><td>8</td><td>-1</td><td>-1</td><td>CON</td><td>15</td><td>+2</td><td>+2</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>8</td><td>-1</td><td>-1</td><td>CHA</td><td>7</td><td>-2</td><td>-2</td></tr></table>
 
 Senses Darkvision 60 ft.; Passive Perception 9
 
@@ -18169,7 +18169,7 @@ HP 58 (9d8 + 18)
 
 Speed 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>16</td><td>+3</td><td>+5</td><td>DEX</td><td>15</td><td>+2</td><td>+2</td><td>CON</td><td>15</td></tr><tr><td>INT</td><td>9</td><td>-1</td><td>-1</td><td>WIS</td><td>11</td><td>+0</td><td>+0</td><td>CHA</td><td>14</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>16</td><td>+3</td><td>+5</td><td>DEX</td><td>15</td><td>+2</td><td>+2</td><td>CON</td><td>15</td><td>+2</td><td>+4</td></tr><tr><td>INT</td><td>9</td><td>-1</td><td>-1</td><td>WIS</td><td>11</td><td>+0</td><td>+0</td><td>CHA</td><td>14</td><td>+2</td><td>+4</td></tr></table>
 
 Resistances Cold
 
@@ -18281,7 +18281,7 @@ HP 33 (6d8 + 6)
 
 Speed 30 ft., Fly 60 ft., Swim 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>15</td><td>+2</td><td>+2</td><td>DEX</td><td>14</td><td>+2</td><td>+4</td><td>CON</td><td>+1</td></tr><tr><td>INT</td><td>10</td><td>+0</td><td>+0</td><td>WIS</td><td>11</td><td>+0</td><td>+2</td><td>CHA</td><td>+1</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>15</td><td>+2</td><td>+2</td><td>DEX</td><td>14</td><td>+2</td><td>+4</td><td>CON</td><td>13</td><td>+1</td><td>+1</td></tr><tr><td>INT</td><td>10</td><td>+0</td><td>+0</td><td>WIS</td><td>11</td><td>+0</td><td>+2</td><td>CHA</td><td>13</td><td>+1</td><td>+1</td></tr></table>
 
 Skills Perception +4, Stealth +4
 
@@ -18319,7 +18319,7 @@ HP 127 (15d10 + 45)
 
 Speed 40 ft., Fly 80 ft., Swim 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>14</td><td>+2</td><td>+5</td><td>CON</td><td>17</td></tr><tr><td>INT</td><td>12</td><td>+1</td><td>+1</td><td>WIS</td><td>11</td><td>+0</td><td>+3</td><td>CHA</td><td>15</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>14</td><td>+2</td><td>+5</td><td>CON</td><td>17</td><td>+3</td><td>+3</td></tr><tr><td>INT</td><td>12</td><td>+1</td><td>+1</td><td>WIS</td><td>11</td><td>+0</td><td>+3</td><td>CHA</td><td>15</td><td>+2</td><td>+2</td></tr></table>
 
 Skills Perception +6, Stealth +5
 
@@ -18357,7 +18357,7 @@ HP 195 (17d12 + 85)
 
 Speed 40 ft., Fly 80 ft., Swim 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>23</td><td>+6</td><td>+6</td><td>DEX</td><td>14</td><td>+2</td><td>+7</td><td>CON</td><td>+5</td></tr><tr><td>INT</td><td>14</td><td>+2</td><td>+2</td><td>WIS</td><td>13</td><td>+1</td><td>+6</td><td>CHA</td><td>+4</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>23</td><td>+6</td><td>+6</td><td>DEX</td><td>14</td><td>+2</td><td>+7</td><td>CON</td><td>21</td><td>+5</td><td>+5</td></tr><tr><td>INT</td><td>14</td><td>+2</td><td>+2</td><td>WIS</td><td>13</td><td>+1</td><td>+6</td><td>CHA</td><td>19</td><td>+4</td><td>+4</td></tr></table>
 
 Skills Perception +11, Stealth +7
 
@@ -18409,7 +18409,7 @@ HP 367 (21d20 + 147)
 
 Speed 40 ft., Fly 80 ft., Swim 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>27</td><td>+8</td><td>+8</td><td>DEX</td><td>14</td><td>+2</td><td>+9</td><td>CON</td><td>+7</td></tr><tr><td>INT</td><td>16</td><td>+3</td><td>+3</td><td>WIS</td><td>15</td><td>+2</td><td>+9</td><td>CHA</td><td>+6</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>27</td><td>+8</td><td>+8</td><td>DEX</td><td>14</td><td>+2</td><td>+9</td><td>CON</td><td>25</td><td>+7</td><td>+7</td></tr><tr><td>INT</td><td>16</td><td>+3</td><td>+3</td><td>WIS</td><td>15</td><td>+2</td><td>+9</td><td>CHA</td><td>22</td><td>+6</td><td>+6</td></tr></table>
 
 Skills Perception +16, Stealth +9
 
@@ -18789,7 +18789,7 @@ HP 110 (13d10 + 39)
 
 Speed 40 ft., Burrow 20 ft., Fly 80 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>10</td><td>+0</td><td>+3</td><td>CON</td><td>17</td></tr><tr><td>INT</td><td>12</td><td>+1</td><td>+1</td><td>WIS</td><td>11</td><td>+0</td><td>+3</td><td>CHA</td><td>15</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>10</td><td>+0</td><td>+3</td><td>CON</td><td>17</td><td>+3</td><td>+3</td></tr><tr><td>INT</td><td>12</td><td>+1</td><td>+1</td><td>WIS</td><td>11</td><td>+0</td><td>+3</td><td>CHA</td><td>15</td><td>+2</td><td>+2</td></tr></table>
 
 Skills Perception +6, Persuasion +5, Stealth +3
 
@@ -18823,7 +18823,7 @@ HP 172 (15d12 + 75)
 
 Speed 40 ft., Burrow 30 ft., Fly 80 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>23</td><td>+6</td><td>+6</td><td>DEX</td><td>10</td><td>+0</td><td>+5</td><td>CON</td><td>21</td></tr><tr><td>INT</td><td>14</td><td>+2</td><td>+2</td><td>WIS</td><td>13</td><td>+1</td><td>+6</td><td>CHA</td><td>17</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>23</td><td>+6</td><td>+6</td><td>DEX</td><td>10</td><td>+0</td><td>+5</td><td>CON</td><td>21</td><td>+5</td><td>+5</td></tr><tr><td>INT</td><td>14</td><td>+2</td><td>+2</td><td>WIS</td><td>13</td><td>+1</td><td>+6</td><td>CHA</td><td>17</td><td>+3</td><td>+3</td></tr></table>
 
 Skills History +7, Perception +11, Persuasion +8, Stealth +5
 Immunities Fire
@@ -19065,7 +19065,7 @@ HP 444 (24d20 + 192)
 
 Speed 40 ft., Fly 80 ft., Swim 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>29</td><td>+9</td><td>+9</td><td>DEX</td><td>10</td><td>+0</td><td>+7</td><td>CON</td><td>+8</td></tr><tr><td>INT</td><td>18</td><td>+4</td><td>+4</td><td>WIS</td><td>17</td><td>+3</td><td>+10</td><td>CHA</td><td>+7</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>29</td><td>+9</td><td>+9</td><td>DEX</td><td>10</td><td>+0</td><td>+7</td><td>CON</td><td>27</td><td>+8</td><td>+8</td></tr><tr><td>INT</td><td>18</td><td>+4</td><td>+4</td><td>WIS</td><td>17</td><td>+3</td><td>+10</td><td>CHA</td><td>25</td><td>+7</td><td>+7</td></tr></table>
 
 Skills Insight +10, Perception +17, Stealth +7
 
@@ -19165,7 +19165,7 @@ HP 33 (6d8 + 6)
 
 Speed 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>15</td><td>+2</td><td>+2</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>+1</td></tr><tr><td>INT</td><td>8</td><td>-1</td><td>-1</td><td>WIS</td><td>11</td><td>+0</td><td>+0</td><td>CHA</td><td>9</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>15</td><td>+2</td><td>+2</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>13</td><td>+1</td><td>+1</td></tr><tr><td>INT</td><td>8</td><td>-1</td><td>-1</td><td>WIS</td><td>11</td><td>+0</td><td>+0</td><td>CHA</td><td>9</td><td>-1</td><td>-1</td></tr></table>
 
 Skills Stealth +6, Survival +2
 
@@ -19239,7 +19239,7 @@ HP 45 (6d10 + 12)
 
 Speed 50 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>14</td></tr><tr><td>INT</td><td>9</td><td>-1</td><td>-1</td><td>WIS</td><td>13</td><td>+1</td><td>+1</td><td>CHA</td><td>11</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>14</td><td>+2</td><td>+2</td></tr><tr><td>INT</td><td>9</td><td>-1</td><td>-1</td><td>WIS</td><td>13</td><td>+1</td><td>+1</td><td>CHA</td><td>11</td><td>+0</td><td>+0</td></tr></table>
 
 Skills Athletics +6, Perception +3
 
@@ -19360,7 +19360,7 @@ HP 76 (9d10 + 27)
 
 Speed 30 ft., Swim 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>10</td><td>+0</td><td>+0</td><td>CON</td><td>16</td></tr><tr><td>INT</td><td>5</td><td>-3</td><td>-3</td><td>WIS</td><td>11</td><td>+0</td><td>+0</td><td>CHA</td><td>5</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>10</td><td>+0</td><td>+0</td><td>CON</td><td>16</td><td>+3</td><td>+3</td></tr><tr><td>INT</td><td>5</td><td>-3</td><td>-3</td><td>WIS</td><td>11</td><td>+0</td><td>+0</td><td>CHA</td><td>5</td><td>-3</td><td>-3</td></tr></table>
 
 Skills Perception +4
 
@@ -19446,7 +19446,7 @@ HP 91 (14d10 + 14)
 
 Speed 10 ft., Fly 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+3</td><td>DEX</td><td>15</td><td>+2</td><td>+2</td><td>CON</td><td>+1</td></tr><tr><td>INT</td><td>13</td><td>+1</td><td>+1</td><td>WIS</td><td>14</td><td>+2</td><td>+2</td><td>CHA</td><td>-2</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+3</td><td>DEX</td><td>15</td><td>+2</td><td>+2</td><td>CON</td><td>12</td><td>+1</td><td>+1</td></tr><tr><td>INT</td><td>13</td><td>+1</td><td>+1</td><td>WIS</td><td>14</td><td>+2</td><td>+2</td><td>CHA</td><td>7</td><td>-2</td><td>-2</td></tr></table>
 
 Skills Stealth +5
 
@@ -19660,7 +19660,7 @@ HP 184 (16d12 + 80)
 
 Speed 40 ft., Climb 40 ft., Fly 80 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>23</td><td>+6</td><td>+6</td><td>DEX</td><td>12</td><td>+1</td><td>+6</td><td>CON</td><td>+5</td></tr><tr><td>INT</td><td>18</td><td>+4</td><td>+4</td><td>WIS</td><td>15</td><td>+2</td><td>+7</td><td>CHA</td><td>+4</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>23</td><td>+6</td><td>+6</td><td>DEX</td><td>12</td><td>+1</td><td>+6</td><td>CON</td><td>21</td><td>+5</td><td>+5</td></tr><tr><td>INT</td><td>18</td><td>+4</td><td>+4</td><td>WIS</td><td>15</td><td>+2</td><td>+7</td><td>CHA</td><td>18</td><td>+4</td><td>+4</td></tr></table>
 
 Skills Deception +9, Perception +12, Stealth +6
 Immunities Acid
@@ -19713,7 +19713,7 @@ HP 367 (21d20 + 147)
 
 Speed 40 ft., Climb 40 ft., Fly 80 ft.
 
-<table><tr><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>27</td><td>+8</td><td>+8</td><td>DEX</td><td>12</td><td>+1</td><td>+8</td><td>CON 25</td></tr><tr><td>INT</td><td>20</td><td>+5</td><td>+5</td><td>WIS</td><td>17</td><td>+3</td><td>+10</td><td>CHA 22</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>27</td><td>+8</td><td>+8</td><td>DEX</td><td>12</td><td>+1</td><td>+8</td><td>CON</td><td>25</td><td>+7</td><td>+7</td></tr><tr><td>INT</td><td>20</td><td>+5</td><td>+5</td><td>WIS</td><td>17</td><td>+3</td><td>+10</td><td>CHA</td><td>22</td><td>+6</td><td>+6</td></tr></table>
 
 Skills Deception +13, Perception +17, Stealth +8
 
@@ -19854,7 +19854,7 @@ HP 9 (2d8)
 
 Speed 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>II</td><td>+0</td><td>+0</td><td>DEX</td><td>12</td><td>+1</td><td>+1</td><td>CON</td><td>10</td></tr><tr><td>INT</td><td>10</td><td>+0</td><td>+0</td><td>WIS</td><td>II</td><td>+0</td><td>+2</td><td>CHA</td><td>10</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>11</td><td>+0</td><td>+0</td><td>DEX</td><td>12</td><td>+1</td><td>+1</td><td>CON</td><td>10</td><td>+0</td><td>+0</td></tr><tr><td>INT</td><td>10</td><td>+0</td><td>+0</td><td>WIS</td><td>11</td><td>+0</td><td>+2</td><td>CHA</td><td>10</td><td>+0</td><td>+0</td></tr></table>
 
 Skills Deception +2, Religion +2
 
@@ -19960,7 +19960,7 @@ HP 39 (6d8 + 12)
 
 Speed 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>15</td><td>+2</td><td>+2</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>14</td></tr><tr><td>INT</td><td>3</td><td>-4</td><td>-4</td><td>WIS</td><td>13</td><td>+1</td><td>+1</td><td>CHA</td><td>6</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>15</td><td>+2</td><td>+2</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>14</td><td>+2</td><td>+2</td></tr><tr><td>INT</td><td>3</td><td>-4</td><td>-4</td><td>WIS</td><td>13</td><td>+1</td><td>+1</td><td>CHA</td><td>6</td><td>-2</td><td>-2</td></tr></table>
 
 Skills Perception +5, Stealth +4
 
@@ -20100,7 +20100,7 @@ HP 52 (8d8 + 16)
 
 Speed 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>II</td><td>+0</td><td>+0</td><td>DEX</td><td>18</td><td>+4</td><td>+4</td><td>CON</td><td>14</td></tr><tr><td>INT</td><td>II</td><td>+0</td><td>+0</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>14</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>11</td><td>+0</td><td>+0</td><td>DEX</td><td>18</td><td>+4</td><td>+4</td><td>CON</td><td>14</td><td>+2</td><td>+2</td></tr><tr><td>INT</td><td>11</td><td>+0</td><td>+0</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>14</td><td>+2</td><td>+2</td></tr></table>
 
 Skills Deception +6, Insight +3
 
@@ -20344,7 +20344,7 @@ HP 147 (14d10 + 70)
 
 Speed 30 ft., Burrow 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>20</td><td>+5</td><td>+5</td><td>DEX</td><td>8</td><td>-1</td><td>-1</td><td>CON</td><td>+5</td></tr><tr><td>INT</td><td>5</td><td>-3</td><td>-3</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>5</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>20</td><td>+5</td><td>+5</td><td>DEX</td><td>8</td><td>-1</td><td>-1</td><td>CON</td><td>20</td><td>+5</td><td>+5</td></tr><tr><td>INT</td><td>5</td><td>-3</td><td>-3</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>5</td><td>-3</td><td>-3</td></tr></table>
 
 Vulnerabilities Thunder
 
@@ -21243,7 +21243,7 @@ HP 60 (8d8 + 24)
 
 Speed 30 ft., Fly 60 ft., Swim 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>14</td><td>+2</td><td>+4</td><td>CON</td><td>17</td></tr><tr><td>INT</td><td>14</td><td>+2</td><td>+2</td><td>WIS</td><td>11</td><td>+0</td><td>+2</td><td>CHA</td><td>16</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>14</td><td>+2</td><td>+4</td><td>CON</td><td>17</td><td>+3</td><td>+3</td></tr><tr><td>INT</td><td>14</td><td>+2</td><td>+2</td><td>WIS</td><td>11</td><td>+0</td><td>+2</td><td>CHA</td><td>16</td><td>+3</td><td>+3</td></tr></table>
 
 Skills Perception +4, Stealth +4
 
@@ -21253,7 +21253,7 @@ Senses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14
 
 Languages Draconic
 
-CR 3 (700 XP; PB +2)
+CR 3 (XP 700; PB +2)
 
 # Traits
 
@@ -21288,7 +21288,9 @@ Immunities Fire
 
 Senses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 19
 
-Languages Common, Draconic CR 10 (XP 5,900; PB +4)
+Languages Common, Draconic
+
+CR 10 (XP 5,900; PB +4)
 
 # Traits
 
@@ -21316,7 +21318,7 @@ HP 243 (18d12 + 126)
 
 Speed 40 ft., Fly 80 ft., Swim 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>27</td><td>+8</td><td>+8</td><td>DEX</td><td>14</td><td>+2</td><td>+8</td><td>CON</td><td>+7</td></tr><tr><td>INT</td><td>16</td><td>+3</td><td>+3</td><td>WIS</td><td>15</td><td>+2</td><td>+8</td><td>CHA</td><td>+7</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>27</td><td>+8</td><td>+8</td><td>DEX</td><td>14</td><td>+2</td><td>+8</td><td>CON</td><td>25</td><td>+7</td><td>+7</td></tr><tr><td>INT</td><td>16</td><td>+3</td><td>+3</td><td>WIS</td><td>15</td><td>+2</td><td>+8</td><td>CHA</td><td>24</td><td>+7</td><td>+7</td></tr></table>
 
 Skills Insight +8, Perception +14, Persuasion +13, Stealth +8
 
@@ -21372,7 +21374,7 @@ HP 546 (28d20 + 252)
 
 Speed 40 ft., Fly 80 ft., Swim 40 ft.
 
-<table><tr><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>30</td><td>+10</td><td>+10</td><td>DEX</td><td>14</td><td>+2</td><td>+9</td><td>CON 29</td></tr><tr><td>INT</td><td>18</td><td>+4</td><td>+4</td><td>WIS</td><td>17</td><td>+3</td><td>+10</td><td>CHA 28</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>30</td><td>+10</td><td>+10</td><td>DEX</td><td>14</td><td>+2</td><td>+9</td><td>CON</td><td>29</td><td>+9</td><td>+9</td></tr><tr><td>INT</td><td>18</td><td>+4</td><td>+4</td><td>WIS</td><td>17</td><td>+3</td><td>+10</td><td>CHA</td><td>28</td><td>+9</td><td>+9</td></tr></table>
 
 Skills Insight +10, Perception +17, Persuasion +16, Stealth +9
 
@@ -21544,7 +21546,7 @@ HP 136 (16d10 + 48)
 
 Speed 40 ft., Fly 80 ft., Swim 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>12</td><td>+1</td><td>+4</td><td>CON</td><td>17</td></tr><tr><td>INT</td><td>16</td><td>+3</td><td>+3</td><td>WIS</td><td>13</td><td>+1</td><td>+4</td><td>CHA</td><td>15</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>12</td><td>+1</td><td>+4</td><td>CON</td><td>17</td><td>+3</td><td>+3</td></tr><tr><td>INT</td><td>16</td><td>+3</td><td>+3</td><td>WIS</td><td>13</td><td>+1</td><td>+4</td><td>CHA</td><td>15</td><td>+2</td><td>+2</td></tr></table>
 
 Skills Deception +5, Perception +7, Stealth +4
 
@@ -21582,7 +21584,7 @@ HP 207 (18d12 + 90)
 
 Speed 40 ft., Fly 80 ft., Swim 40 ft.
 
-<table><tr><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>23</td><td>+6</td><td>+6</td><td>DEX</td><td>12</td><td>+1</td><td>+6</td><td>CON 21</td></tr><tr><td>INT</td><td>18</td><td>+4</td><td>+4</td><td>WIS</td><td>15</td><td>+2</td><td>+7</td><td>CHA 18</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>23</td><td>+6</td><td>+6</td><td>DEX</td><td>12</td><td>+1</td><td>+6</td><td>CON</td><td>21</td><td>+5</td><td>+5</td></tr><tr><td>INT</td><td>18</td><td>+4</td><td>+4</td><td>WIS</td><td>15</td><td>+2</td><td>+7</td><td>CHA</td><td>18</td><td>+4</td><td>+4</td></tr></table>
 
 Skills Deception +9, Perception +12, Persuasion +9, Stealth +6
 
@@ -21730,7 +21732,7 @@ HP 54 (12d8)
 
 Speed 30 ft., Climb 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>14</td><td>+2</td><td>+2</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>+0</td></tr><tr><td>INT</td><td>3</td><td>-4</td><td>-4</td><td>WIS</td><td>14</td><td>+2</td><td>+2</td><td>CHA</td><td>5</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>14</td><td>+2</td><td>+2</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>11</td><td>+0</td><td>+0</td></tr><tr><td>INT</td><td>3</td><td>-4</td><td>-4</td><td>WIS</td><td>14</td><td>+2</td><td>+2</td><td>CHA</td><td>5</td><td>-3</td><td>-3</td></tr></table>
 
 Skills Stealth +4
 
@@ -21760,7 +21762,7 @@ HP 59 (7d10 + 21)
 
 Speed 30 ft., Fly 80 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>15</td><td>+2</td><td>+2</td><td>CON</td><td>16</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>13</td><td>+1</td><td>+1</td><td>CHA</td><td>8</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>15</td><td>+2</td><td>+2</td><td>CON</td><td>16</td><td>+3</td><td>+3</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>13</td><td>+1</td><td>+1</td><td>CHA</td><td>8</td><td>-1</td><td>-1</td></tr></table>
 
 Skills Perception +5
 
@@ -21818,7 +21820,7 @@ HP 136 (16d10 + 48)
 
 Speed 40 ft., Climb 40 ft., Swim 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>18</td><td>+4</td><td>+8</td><td>CON</td><td>16</td></tr><tr><td>INT</td><td>16</td><td>+3</td><td>+7</td><td>WIS</td><td>19</td><td>+4</td><td>+8</td><td>CHA</td><td>18</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>18</td><td>+4</td><td>+8</td><td>CON</td><td>16</td><td>+3</td><td>+7</td></tr><tr><td>INT</td><td>16</td><td>+3</td><td>+7</td><td>WIS</td><td>19</td><td>+4</td><td>+8</td><td>CHA</td><td>18</td><td>+4</td><td>+8</td></tr></table>
 
 Skills Arcana +11, History +11, Religion +11
 
@@ -21966,7 +21968,7 @@ HP 38 (7d8 + 7)
 
 Speed 20 ft., Fly 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>12</td><td>+1</td><td>+1</td><td>DEX</td><td>13</td><td>+1</td><td>+1</td><td>CON</td><td>+1</td></tr><tr><td>INT</td><td>7</td><td>-2</td><td>-2</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>+1</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>12</td><td>+1</td><td>+1</td><td>DEX</td><td>13</td><td>+1</td><td>+1</td><td>CON</td><td>12</td><td>+1</td><td>+1</td></tr><tr><td>INT</td><td>7</td><td>-2</td><td>-2</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>13</td><td>+1</td><td>+1</td></tr></table>
 
 Senses Passive Perception 10
 
@@ -21994,7 +21996,7 @@ HP 58 (9d8 + 18)
 
 Speed 50 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+3</td><td>DEX</td><td>12</td><td>+1</td><td>+1</td><td>CON</td><td>14</td></tr><tr><td>INT</td><td>6</td><td>-2</td><td>-2</td><td>WIS</td><td>13</td><td>+1</td><td>+1</td><td>CHA</td><td>6</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+3</td><td>DEX</td><td>12</td><td>+1</td><td>+1</td><td>CON</td><td>14</td><td>+2</td><td>+2</td></tr><tr><td>INT</td><td>6</td><td>-2</td><td>-2</td><td>WIS</td><td>13</td><td>+1</td><td>+1</td><td>CHA</td><td>6</td><td>-2</td><td>-2</td></tr></table>
 
 Skills Perception +5
 
@@ -22108,7 +22110,7 @@ HP 26 (4d10 + 4)
 
 Speed 40 ft., Fly 60 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+3</td><td>DEX</td><td>13</td><td>+1</td><td>+1</td><td>CON</td><td>13</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>8</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+3</td><td>DEX</td><td>13</td><td>+1</td><td>+1</td><td>CON</td><td>13</td><td>+1</td><td>+1</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>8</td><td>-1</td><td>-1</td></tr></table>
 
 Skills Perception +5
 
@@ -22142,7 +22144,7 @@ HP 11 (2d8 + 2)
 
 Speed 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>13</td><td>+1</td><td>+1</td><td>DEX</td><td>12</td><td>+1</td><td>+1</td><td>CON</td><td>+1</td></tr><tr><td>INT</td><td>10</td><td>+0</td><td>+0</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>9</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>13</td><td>+1</td><td>+1</td><td>DEX</td><td>12</td><td>+1</td><td>+1</td><td>CON</td><td>12</td><td>+1</td><td>+1</td></tr><tr><td>INT</td><td>10</td><td>+0</td><td>+0</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>9</td><td>-1</td><td>-1</td></tr></table>
 
 Gear Half Plate Armor, Longbow, Longsword, Shield
 
@@ -22175,7 +22177,7 @@ HP 58 (9d8 + 18)
 
 Speed 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>15</td><td>+2</td><td>+2</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>14</td></tr><tr><td>INT</td><td>12</td><td>+1</td><td>+1</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>13</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>15</td><td>+2</td><td>+2</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>14</td><td>+2</td><td>+2</td></tr><tr><td>INT</td><td>12</td><td>+1</td><td>+1</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>13</td><td>+1</td><td>+1</td></tr></table>
 
 Gear Greatsword, Half Plate Armor, Longbow
 
@@ -22243,7 +22245,7 @@ HP 199 (19d10 + 95)
 
 Speed 30 ft., Fly 60 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>22</td><td>+6</td><td>+10</td><td>DEX</td><td>17</td><td>+3</td><td>+7</td><td>CON</td><td>21</td></tr><tr><td>INT</td><td>12</td><td>+1</td><td>+1</td><td>WIS</td><td>16</td><td>+3</td><td>+7</td><td>CHA</td><td>18</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>22</td><td>+6</td><td>+10</td><td>DEX</td><td>17</td><td>+3</td><td>+7</td><td>CON</td><td>21</td><td>+5</td><td>+5</td></tr><tr><td>INT</td><td>12</td><td>+1</td><td>+1</td><td>WIS</td><td>16</td><td>+3</td><td>+7</td><td>CHA</td><td>18</td><td>+4</td><td>+8</td></tr></table>
 
 Resistances Cold
 
@@ -22670,7 +22672,7 @@ HP 97 (13d10 + 26)
 
 Speed 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>16</td><td>+3</td><td>+3</td><td>DEX</td><td>13</td><td>+1</td><td>+1</td><td>CON</td><td>15</td></tr><tr><td>INT</td><td>14</td><td>+2</td><td>+2</td><td>WIS</td><td>15</td><td>+2</td><td>+2</td><td>CHA</td><td>16</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>16</td><td>+3</td><td>+3</td><td>DEX</td><td>13</td><td>+1</td><td>+1</td><td>CON</td><td>15</td><td>+2</td><td>+2</td></tr><tr><td>INT</td><td>14</td><td>+2</td><td>+2</td><td>WIS</td><td>15</td><td>+2</td><td>+2</td><td>CHA</td><td>16</td><td>+3</td><td>+3</td></tr></table>
 
 Skills Deception +7, Insight +4, Stealth +5
 
@@ -22948,7 +22950,7 @@ HP 68 (8d10 + 24)
 
 Speed 30 ft., Fly 50 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+3</td><td>DEX</td><td>16</td><td>+3</td><td>+3</td><td>CON</td><td>17</td></tr><tr><td>INT</td><td>7</td><td>-2</td><td>-2</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>8</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+3</td><td>DEX</td><td>16</td><td>+3</td><td>+3</td><td>CON</td><td>17</td><td>+3</td><td>+3</td></tr><tr><td>INT</td><td>7</td><td>-2</td><td>-2</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>8</td><td>-1</td><td>-1</td></tr></table>
 
 Senses Darkvision 60 ft.; Passive Perception 11
 
@@ -22979,7 +22981,7 @@ HP 220 (21d10 + 105)
 
 Speed 40 ft., Climb 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+9</td><td>DEX</td><td>20</td><td>+5</td><td>+5</td><td>CON</td><td>+5</td></tr><tr><td>INT</td><td>18</td><td>+4</td><td>+4</td><td>WIS</td><td>16</td><td>+3</td><td>+8</td><td>CHA</td><td>+5</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+9</td><td>DEX</td><td>20</td><td>+5</td><td>+5</td><td>CON</td><td>20</td><td>+5</td><td>+10</td></tr><tr><td>INT</td><td>18</td><td>+4</td><td>+4</td><td>WIS</td><td>16</td><td>+3</td><td>+8</td><td>CHA</td><td>20</td><td>+5</td><td>+10</td></tr></table>
 
 Skills Perception +8
 
@@ -23249,7 +23251,7 @@ HP 45 (6d10 + 12)
 
 Speed 10 ft., Swim 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>15</td><td>+2</td><td>+2</td><td>CON</td><td>15</td></tr><tr><td>INT</td><td>8</td><td>-1</td><td>-1</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>9</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>15</td><td>+2</td><td>+2</td><td>CON</td><td>15</td><td>+2</td><td>+2</td></tr><tr><td>INT</td><td>8</td><td>-1</td><td>-1</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>9</td><td>-1</td><td>-1</td></tr></table>
 
 Senses Darkvision 60 ft.; Passive Perception 10
 
@@ -23285,7 +23287,7 @@ HP 58 (9d8 + 18)
 
 Speed 20 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+3</td><td>DEX</td><td>12</td><td>+1</td><td>+1</td><td>CON</td><td>15</td></tr><tr><td>INT</td><td>5</td><td>-3</td><td>-3</td><td>WIS</td><td>13</td><td>+1</td><td>+1</td><td>CHA</td><td>8</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+3</td><td>DEX</td><td>12</td><td>+1</td><td>+1</td><td>CON</td><td>15</td><td>+2</td><td>+2</td></tr><tr><td>INT</td><td>5</td><td>-3</td><td>-3</td><td>WIS</td><td>13</td><td>+1</td><td>+1</td><td>CHA</td><td>8</td><td>-1</td><td>-1</td></tr></table>
 
 Skills Stealth +5
 
@@ -23388,7 +23390,7 @@ HP 187 (25d8 + 75)
 
 Speed 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>10</td><td>+0</td><td>+0</td><td>CON</td><td>17</td></tr><tr><td>INT</td><td>11</td><td>+0</td><td>+5</td><td>WIS</td><td>19</td><td>+4</td><td>+9</td><td>CHA</td><td>16</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>10</td><td>+0</td><td>+0</td><td>CON</td><td>17</td><td>+3</td><td>+3</td></tr><tr><td>INT</td><td>11</td><td>+0</td><td>+5</td><td>WIS</td><td>19</td><td>+4</td><td>+9</td><td>CHA</td><td>16</td><td>+3</td><td>+3</td></tr></table>
 
 Skills History +5, Perception +9, Religion +5
 
@@ -23454,7 +23456,7 @@ HP 184 (16d10 + 96)
 
 Speed 20 ft., Fly 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>21</td><td>+5</td><td>+5</td><td>DEX</td><td>10</td><td>+0</td><td>+0</td><td>CON22</td><td>+6</td></tr><tr><td>INT</td><td>19</td><td>+4</td><td>+9</td><td>WIS</td><td>12</td><td>+1</td><td>+6</td><td>CHA15</td><td>+2</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>21</td><td>+5</td><td>+5</td><td>DEX</td><td>10</td><td>+0</td><td>+0</td><td>CON</td><td>22</td><td>+6</td><td>+11</td></tr><tr><td>INT</td><td>19</td><td>+4</td><td>+9</td><td>WIS</td><td>12</td><td>+1</td><td>+6</td><td>CHA</td><td>15</td><td>+2</td><td>+7</td></tr></table>
 
 Resistances Cold, Fire, Lightning
 
@@ -23566,7 +23568,7 @@ HP 68 (8d10 + 24)
 
 Speed 60 ft., Fly 90 ft. (hover)
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>15</td><td>+2</td><td>+2</td><td>CON</td><td>16</td></tr><tr><td>INT</td><td>10</td><td>+0</td><td>+0</td><td>WIS</td><td>13</td><td>+1</td><td>+1</td><td>CHA</td><td>15</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>15</td><td>+2</td><td>+2</td><td>CON</td><td>16</td><td>+3</td><td>+3</td></tr><tr><td>INT</td><td>10</td><td>+0</td><td>+0</td><td>WIS</td><td>13</td><td>+1</td><td>+1</td><td>CHA</td><td>15</td><td>+2</td><td>+2</td></tr></table>
 
 Immunities Fire
 
@@ -23817,7 +23819,7 @@ HP 59 (7d10 + 21)
 
 Speed 60 ft., Fly 90 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>15</td><td>+2</td><td>+4</td><td>CON</td><td>16</td></tr><tr><td>INT</td><td>10</td><td>+0</td><td>+0</td><td>WIS</td><td>15</td><td>+2</td><td>+4</td><td>CHA</td><td>13</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>15</td><td>+2</td><td>+4</td><td>CON</td><td>16</td><td>+3</td><td>+5</td></tr><tr><td>INT</td><td>10</td><td>+0</td><td>+0</td><td>WIS</td><td>15</td><td>+2</td><td>+4</td><td>CHA</td><td>13</td><td>+1</td><td>+3</td></tr></table>
 
 Skills Perception +6
 
@@ -23845,7 +23847,7 @@ HP 45 (7d10 + 7)
 
 Speed 30 ft., Climb 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>15</td><td>+2</td><td>+2</td><td>DEX</td><td>16</td><td>+3</td><td>+3</td><td>CON</td><td>+1</td></tr><tr><td>INT</td><td>6</td><td>-2</td><td>-2</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>-2</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>15</td><td>+2</td><td>+2</td><td>DEX</td><td>16</td><td>+3</td><td>+3</td><td>CON</td><td>12</td><td>+1</td><td>+1</td></tr><tr><td>INT</td><td>6</td><td>-2</td><td>-2</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>6</td><td>-2</td><td>-2</td></tr></table>
 
 Skills Stealth +7
 
@@ -24009,7 +24011,7 @@ HP 262 (21d10 + 147)
 
 Speed 40 ft., Fly 120 ft. (hover)
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>24</td><td>+7</td><td>+12</td><td>DEX</td><td>20</td><td>+5</td><td>+5</td><td>CON</td><td>+7</td></tr><tr><td>INT</td><td>19</td><td>+4</td><td>+4</td><td>WIS</td><td>22</td><td>+6</td><td>+11</td><td>CHA</td><td>+7</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>24</td><td>+7</td><td>+12</td><td>DEX</td><td>20</td><td>+5</td><td>+5</td><td>CON</td><td>24</td><td>+7</td><td>+12</td></tr><tr><td>INT</td><td>19</td><td>+4</td><td>+4</td><td>WIS</td><td>22</td><td>+6</td><td>+11</td><td>CHA</td><td>25</td><td>+7</td><td>+12</td></tr></table>
 
 Skills Perception +11
 
@@ -24314,7 +24316,7 @@ HP 75 (10d8 + 30)
 
 Speed 30 ft., Climb 30 ft., Fly 60 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>10</td><td>+0</td><td>+2</td><td>CON</td><td>17</td></tr><tr><td>INT</td><td>12</td><td>+1</td><td>+1</td><td>WIS</td><td>11</td><td>+0</td><td>+2</td><td>CHA</td><td>15</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>10</td><td>+0</td><td>+2</td><td>CON</td><td>17</td><td>+3</td><td>+3</td></tr><tr><td>INT</td><td>12</td><td>+1</td><td>+1</td><td>WIS</td><td>11</td><td>+0</td><td>+2</td><td>CHA</td><td>15</td><td>+2</td><td>+2</td></tr></table>
 
 Skills Perception +4, Stealth +2
 
@@ -24378,7 +24380,7 @@ HP 256 (19d12 + 133)
 
 Speed 40 ft., Climb 40 ft., Fly 80 ft.
 
-<table><tr><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>27</td><td>+8</td><td>+8</td><td>DEX</td><td>10</td><td>+0</td><td>+6</td><td>CON25</td></tr><tr><td>INT</td><td>16</td><td>+3</td><td>+3</td><td>WIS</td><td>13</td><td>+1</td><td>+7</td><td>CHA23</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>27</td><td>+8</td><td>+8</td><td>DEX</td><td>10</td><td>+0</td><td>+6</td><td>CON</td><td>25</td><td>+7</td><td>+7</td></tr><tr><td>INT</td><td>16</td><td>+3</td><td>+3</td><td>WIS</td><td>13</td><td>+1</td><td>+7</td><td>CHA</td><td>23</td><td>+6</td><td>+6</td></tr></table>
 
 Skills Perception +13, Stealth +6
 
@@ -24560,7 +24562,7 @@ HP 93 (11d10 + 33)
 
 Speed 10 ft., Climb 20 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>8</td><td>-1</td><td>-1</td><td>CON</td><td>17</td></tr><tr><td>INT</td><td>7</td><td>-2</td><td>-2</td><td>WIS</td><td>16</td><td>+3</td><td>+3</td><td>CHA</td><td>6</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>8</td><td>-1</td><td>-1</td><td>CON</td><td>17</td><td>+3</td><td>+3</td></tr><tr><td>INT</td><td>7</td><td>-2</td><td>-2</td><td>WIS</td><td>16</td><td>+3</td><td>+3</td><td>CHA</td><td>6</td><td>-2</td><td>-2</td></tr></table>
 
 Skills Perception +6, Stealth +5
 
@@ -24600,7 +24602,7 @@ HP 33 (6d8 + 6)
 
 Speed 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>13</td><td>+1</td><td>+1</td><td>DEX</td><td>12</td><td>+1</td><td>+1</td><td>CON</td><td>13</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>13</td><td>+1</td><td>+1</td><td>CHA</td><td>6</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>13</td><td>+1</td><td>+1</td><td>DEX</td><td>12</td><td>+1</td><td>+1</td><td>CON</td><td>13</td><td>+1</td><td>+1</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>13</td><td>+1</td><td>+1</td><td>CHA</td><td>6</td><td>-2</td><td>-2</td></tr></table>
 
 Senses Darkvision 60 ft.; Passive Perception 11
 
@@ -24684,7 +24686,7 @@ HP 90 (12d10 + 24)
 
 Speed 30 ft., Climb 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>15</td></tr><tr><td>INT</td><td>11</td><td>+0</td><td>+0</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>12</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>15</td><td>+2</td><td>+2</td></tr><tr><td>INT</td><td>11</td><td>+0</td><td>+0</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>12</td><td>+1</td><td>+1</td></tr></table>
 
 # Vulnerabilities Cold
 
@@ -24722,7 +24724,7 @@ HP 31 (7d8)
 
 Speed 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>12</td><td>+1</td><td>+1</td><td>DEX</td><td>16</td><td>+3</td><td>+3</td><td>CON</td><td>+0</td></tr><tr><td>INT</td><td>12</td><td>+1</td><td>+1</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>+2</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>12</td><td>+1</td><td>+1</td><td>DEX</td><td>16</td><td>+3</td><td>+3</td><td>CON</td><td>11</td><td>+0</td><td>+0</td></tr><tr><td>INT</td><td>12</td><td>+1</td><td>+1</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>14</td><td>+2</td><td>+2</td></tr></table>
 
 Skills Perception +2, Performance +6, Stealth +5
 
@@ -24829,7 +24831,7 @@ HP 27 (5d8 + 5)
 
 Speed 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>6</td><td>-2</td><td>-2</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>13</td></tr><tr><td>INT</td><td>6</td><td>-2</td><td>-2</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>8</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>6</td><td>-2</td><td>-2</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>13</td><td>+1</td><td>+1</td></tr><tr><td>INT</td><td>6</td><td>-2</td><td>-2</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>8</td><td>-1</td><td>-1</td></tr></table>
 
 Skills Stealth +6
 
@@ -24873,7 +24875,7 @@ HP 110 (13d10 + 39)
 
 Speed 30 ft., Swim 20 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>8</td><td>-1</td><td>-1</td><td>CON</td><td>16</td></tr><tr><td>INT</td><td>5</td><td>-3</td><td>-3</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>5</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>8</td><td>-1</td><td>-1</td><td>CON</td><td>16</td><td>+3</td><td>+3</td></tr><tr><td>INT</td><td>5</td><td>-3</td><td>-3</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>5</td><td>-3</td><td>-3</td></tr></table>
 
 Skills Stealth +3
 
@@ -24957,7 +24959,7 @@ HP 45 (6d8 + 18)
 
 Speed 30 ft., Fly 60 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>10</td><td>+0</td><td>+2</td><td>CON</td><td>17</td></tr><tr><td>INT</td><td>12</td><td>+1</td><td>+1</td><td>WIS</td><td>11</td><td>+0</td><td>+2</td><td>CHA</td><td>15</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>10</td><td>+0</td><td>+2</td><td>CON</td><td>17</td><td>+3</td><td>+3</td></tr><tr><td>INT</td><td>12</td><td>+1</td><td>+1</td><td>WIS</td><td>11</td><td>+0</td><td>+2</td><td>CHA</td><td>15</td><td>+2</td><td>+2</td></tr></table>
 
 Skills Perception +4, Stealth +2
 
@@ -24967,7 +24969,7 @@ Senses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14
 
 Languages Draconic
 
-CR 2 (450 XP; PB +2)
+CR 2 (XP 450; PB +2)
 
 # Actions
 
@@ -25890,7 +25892,7 @@ HP 82 (11d8 + 33)
 
 Speed 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+5</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>16</td></tr><tr><td>INT</td><td>11</td><td>+0</td><td>+0</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>11</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+5</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>16</td><td>+3</td><td>+5</td></tr><tr><td>INT</td><td>11</td><td>+0</td><td>+0</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>11</td><td>+0</td><td>+2</td></tr></table>
 
 Gear Chain Mail, Heavy Crossbow, Warhammer
 
@@ -26005,7 +26007,7 @@ HP 14 (4d6)
 
 Speed 20 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>12</td><td>+1</td><td>+1</td><td>CON</td><td>10</td></tr><tr><td>INT</td><td>1</td><td>-5</td><td>-5</td><td>WIS</td><td>9</td><td>-1</td><td>-1</td><td>CHA</td><td>1</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>12</td><td>+1</td><td>+1</td><td>CON</td><td>10</td><td>+0</td><td>+0</td></tr><tr><td>INT</td><td>1</td><td>-5</td><td>-5</td><td>WIS</td><td>9</td><td>-1</td><td>-1</td><td>CHA</td><td>1</td><td>-5</td><td>-5</td></tr></table>
 
 Senses Darkvision 60 ft.; Passive Perception 9
 
@@ -26261,7 +26263,7 @@ HP 152 (16d10 + 64)
 
 Speed 40 ft., Fly 60 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+3</td><td>DEX</td><td>15</td><td>+2</td><td>+5</td><td>CON</td><td>18</td></tr><tr><td>INT</td><td>8</td><td>-1</td><td>-1</td><td>WIS</td><td>13</td><td>+1</td><td>+4</td><td>CHA</td><td>8</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+3</td><td>DEX</td><td>15</td><td>+2</td><td>+5</td><td>CON</td><td>18</td><td>+4</td><td>+4</td></tr><tr><td>INT</td><td>8</td><td>-1</td><td>-1</td><td>WIS</td><td>13</td><td>+1</td><td>+4</td><td>CHA</td><td>8</td><td>-1</td><td>+2</td></tr></table>
 
 Resistances Cold, Fire, Lightning
 
@@ -26411,7 +26413,7 @@ HP 135 (18d8 + 54)
 
 Speed 30 ft., 40 ft. (bear form only), Climb 30 ft. (bear form only)
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>10</td><td>+0</td><td>+0</td><td>CON</td><td>17</td></tr><tr><td>INT</td><td>11</td><td>+0</td><td>+0</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>12</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>10</td><td>+0</td><td>+0</td><td>CON</td><td>17</td><td>+3</td><td>+3</td></tr><tr><td>INT</td><td>11</td><td>+0</td><td>+0</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>12</td><td>+1</td><td>+1</td></tr></table>
 
 Skills Perception +7
 
@@ -26633,7 +26635,7 @@ Passive Perception 14
 
 Languages Draconic
 
-CR 2 (450 XP; PB +2)
+CR 2 (XP 450; PB +2)
 
 # Traits
 
@@ -26660,7 +26662,7 @@ HP 123 (13d10 + 52)
 
 Speed 40 ft., Burrow 20 ft., Fly 80 ft., Swim 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>10</td><td>+0</td><td>+3</td><td>CON</td><td>18</td></tr><tr><td>INT</td><td>6</td><td>-2</td><td>2</td><td>WIS</td><td>11</td><td>+0</td><td>+3</td><td>CHA</td><td>12</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>10</td><td>+0</td><td>+3</td><td>CON</td><td>18</td><td>+4</td><td>+4</td></tr><tr><td>INT</td><td>6</td><td>-2</td><td>-2</td><td>WIS</td><td>11</td><td>+0</td><td>+3</td><td>CHA</td><td>12</td><td>+1</td><td>+1</td></tr></table>
 
 Skills Perception +6, Stealth +3
 
@@ -26670,7 +26672,7 @@ Senses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 16
 
 Languages Common, Draconic
 
-CR 6 (2,300 XP; PB +3)
+CR 6 (XP 2,300; PB +3)
 
 # Traits
 
@@ -26798,7 +26800,7 @@ HP 82 (11d8 + 33)
 
 Speed 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>15</td><td>+2</td><td>+2</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>16</td></tr><tr><td>INT</td><td>10</td><td>+0</td><td>+0</td><td>WIS</td><td>13</td><td>+1</td><td>+1</td><td>CHA</td><td>15</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>15</td><td>+2</td><td>+2</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>16</td><td>+3</td><td>+3</td></tr><tr><td>INT</td><td>10</td><td>+0</td><td>+0</td><td>WIS</td><td>13</td><td>+1</td><td>+1</td><td>CHA</td><td>15</td><td>+2</td><td>+2</td></tr></table>
 
 Skills Perception +3, Stealth +4
 
@@ -27130,7 +27132,7 @@ HP 51 (6d10 + 18)
 
 Speed 60 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>13</td><td>+1</td><td>+1</td><td>CON</td><td>17</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>5</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>13</td><td>+1</td><td>+1</td><td>CON</td><td>17</td><td>+3</td><td>+3</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>5</td><td>-3</td><td>-3</td></tr></table>
 
 Skills Perception +5
 
@@ -27216,7 +27218,7 @@ HP 90 (12d12 + 12)
 
 Speed 20 ft., Swim 80 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>16</td><td>+3</td><td>+3</td><td>CON</td><td>+1</td></tr><tr><td>INT</td><td>4</td><td>-3</td><td>-3</td><td>WIS</td><td>14</td><td>+2</td><td>+2</td><td>CHA</td><td>-2</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>16</td><td>+3</td><td>+3</td><td>CON</td><td>13</td><td>+1</td><td>+1</td></tr><tr><td>INT</td><td>4</td><td>-3</td><td>-3</td><td>WIS</td><td>14</td><td>+2</td><td>+2</td><td>CHA</td><td>6</td><td>-2</td><td>-2</td></tr></table>
 
 Skills Stealth +5
 
@@ -27304,7 +27306,7 @@ HP 1 (1d4 - 1)
 
 Speed 5 ft., Fly 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>2</td><td>-4</td><td>-4</td><td>DEX</td><td>15</td><td>+2</td><td>+2</td><td>CON</td><td>8</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>4</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>2</td><td>-4</td><td>-4</td><td>DEX</td><td>15</td><td>+2</td><td>+2</td><td>CON</td><td>8</td><td>-1</td><td>-1</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>4</td><td>-3</td><td>-3</td></tr></table>
 
 Senses Blindsight 60 ft.; Passive Perception 11
 
@@ -27414,7 +27416,7 @@ HP 22 (3d10 + 6)
 
 Speed 40 ft., Climb 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+3</td><td>DEX</td><td>12</td><td>+1</td><td>+1</td><td>CON</td><td>15</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>13</td><td>+1</td><td>+1</td><td>CHA</td><td>7</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+3</td><td>DEX</td><td>12</td><td>+1</td><td>+1</td><td>CON</td><td>15</td><td>+2</td><td>+2</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>13</td><td>+1</td><td>+1</td><td>CHA</td><td>7</td><td>-2</td><td>-2</td></tr></table>
 
 Skills Perception +3
 
@@ -27498,7 +27500,7 @@ HP 13 (2d10 + 2)
 
 Speed 30 ft., Swim 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>15</td><td>+2</td><td>+2</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>+1</td></tr><tr><td>INT</td><td>1</td><td>-5</td><td>-5</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>3</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>15</td><td>+2</td><td>+2</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>12</td><td>+1</td><td>+1</td></tr><tr><td>INT</td><td>1</td><td>-5</td><td>-5</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>3</td><td>-4</td><td>-4</td></tr></table>
 
 Skills Perception +2, Stealth +4
 
@@ -27617,7 +27619,7 @@ HP 22 (3d10 + 6)
 
 Speed 50 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+3</td><td>DEX</td><td>15</td><td>+2</td><td>+2</td><td>CON</td><td>15</td></tr><tr><td>INT</td><td>3</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>7</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+3</td><td>DEX</td><td>15</td><td>+2</td><td>+2</td><td>CON</td><td>15</td><td>+2</td><td>+2</td></tr><tr><td>INT</td><td>3</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>7</td><td>-2</td><td>-2</td></tr></table>
 
 Skills Perception +5, Stealth +4
 
@@ -27727,7 +27729,7 @@ HP 11 (2d10)
 
 Speed 50 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>16</td><td>+3</td><td>+3</td><td>DEX</td><td>10</td><td>+0</td><td>+0</td><td>CON</td><td>+0</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>6</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>16</td><td>+3</td><td>+3</td><td>DEX</td><td>10</td><td>+0</td><td>+0</td><td>CON</td><td>11</td><td>+0</td><td>+0</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>6</td><td>-2</td><td>-2</td></tr></table>
 
 Skills Perception +2
 
@@ -27875,7 +27877,7 @@ HP 22 (4d10)
 
 Speed 10 ft., Fly 60 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>15</td><td>+2</td><td>+2</td><td>DEX</td><td>16</td><td>+3</td><td>+3</td><td>CON</td><td>+0</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>6</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>15</td><td>+2</td><td>+2</td><td>DEX</td><td>16</td><td>+3</td><td>+3</td><td>CON</td><td>11</td><td>+0</td><td>+0</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>6</td><td>-2</td><td>-2</td></tr></table>
 
 Senses Blindsight 120 ft.; Passive Perception 11
 
@@ -27899,7 +27901,7 @@ HP 42 (5d10 + 15)
 
 Speed 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+5</td><td>DEX</td><td>10</td><td>+0</td><td>+0</td><td>CON</td><td>16</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>7</td><td>-2</td><td>-2</td><td>CHA</td><td>5</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+5</td><td>DEX</td><td>10</td><td>+0</td><td>+0</td><td>CON</td><td>16</td><td>+3</td><td>+3</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>7</td><td>-2</td><td>-2</td><td>CHA</td><td>5</td><td>-3</td><td>-3</td></tr></table>
 
 Senses Passive Perception 8
 
@@ -28045,7 +28047,7 @@ HP 26 (4d10 + 4)
 
 Speed 10 ft., Fly 80 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>16</td><td>+3</td><td>+3</td><td>DEX</td><td>17</td><td>+3</td><td>+3</td><td>CON</td><td>13</td></tr><tr><td>INT</td><td>8</td><td>-1</td><td>-1</td><td>WIS</td><td>14</td><td>+2</td><td>+2</td><td>CHA</td><td>10</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>16</td><td>+3</td><td>+3</td><td>DEX</td><td>17</td><td>+3</td><td>+3</td><td>CON</td><td>13</td><td>+1</td><td>+1</td></tr><tr><td>INT</td><td>8</td><td>-1</td><td>-1</td><td>WIS</td><td>14</td><td>+2</td><td>+2</td><td>CHA</td><td>10</td><td>+0</td><td>+0</td></tr></table>
 
 Skills Perception +6
 
@@ -28075,7 +28077,7 @@ HP 42 (5d12 + 10)
 
 Speed 60 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+6</td><td>DEX</td><td>18</td><td>+4</td><td>+6</td><td>CON</td><td>14</td></tr><tr><td>INT</td><td>7</td><td>-2</td><td>-2</td><td>WIS</td><td>14</td><td>+2</td><td>+2</td><td>CHA</td><td>10</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+6</td><td>DEX</td><td>18</td><td>+4</td><td>+6</td><td>CON</td><td>14</td><td>+2</td><td>+2</td></tr><tr><td>INT</td><td>7</td><td>-2</td><td>-2</td><td>WIS</td><td>14</td><td>+2</td><td>+2</td><td>CHA</td><td>10</td><td>+0</td><td>+0</td></tr></table>
 
 Skills Perception +4
 
@@ -28133,7 +28135,7 @@ HP 18 (4d8)
 
 Speed 30 ft., Swim 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>12</td><td>+1</td><td>+1</td><td>DEX</td><td>13</td><td>+1</td><td>+1</td><td>CON</td><td>+0</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>3</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>12</td><td>+1</td><td>+1</td><td>DEX</td><td>13</td><td>+1</td><td>+1</td><td>CON</td><td>11</td><td>+0</td><td>+0</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>3</td><td>-4</td><td>-4</td></tr></table>
 
 Skills Perception +2, Stealth +4
 
@@ -28169,7 +28171,7 @@ HP 19 (3d10 + 3)
 
 Speed 40 ft., Climb 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+5</td><td>DEX</td><td>13</td><td>+1</td><td>+1</td><td>CON</td><td>+1</td></tr><tr><td>INT</td><td>3</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>6</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+5</td><td>DEX</td><td>13</td><td>+1</td><td>+1</td><td>CON</td><td>12</td><td>+1</td><td>+1</td></tr><tr><td>INT</td><td>3</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>6</td><td>-2</td><td>-2</td></tr></table>
 
 Skills Perception +3
 
@@ -28195,7 +28197,7 @@ HP 45 (6d10 + 12)
 
 Speed 50 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>16</td><td>+3</td><td>+3</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>14</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>7</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>16</td><td>+3</td><td>+3</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>14</td><td>+2</td><td>+2</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>7</td><td>-2</td><td>-2</td></tr></table>
 
 Skills Perception +3
 
@@ -28253,7 +28255,7 @@ HP 45 (7d10 + 7)
 
 Speed 10 ft., Swim 60 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+3</td><td>DEX</td><td>13</td><td>+1</td><td>+1</td><td>CON</td><td>+1</td></tr><tr><td>INT</td><td>5</td><td>-3</td><td>-3</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>4</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>17</td><td>+3</td><td>+3</td><td>DEX</td><td>13</td><td>+1</td><td>+1</td><td>CON</td><td>13</td><td>+1</td><td>+1</td></tr><tr><td>INT</td><td>5</td><td>-3</td><td>-3</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>4</td><td>-3</td><td>-3</td></tr></table>
 
 Skills Perception +4, Stealth +5
 
@@ -28514,7 +28516,7 @@ HP 11 (2d8 + 2)
 
 Speed 40 ft., Swim 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>10</td><td>+0</td><td>+0</td><td>DEX</td><td>18</td><td>+4</td><td>+4</td><td>CON</td><td>13</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>3</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>10</td><td>+0</td><td>+0</td><td>DEX</td><td>18</td><td>+4</td><td>+4</td><td>CON</td><td>13</td><td>+1</td><td>+1</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>3</td><td>-4</td><td>-4</td></tr></table>
 
 Skills Perception +2
 
@@ -28658,7 +28660,7 @@ HP 4 (1d8)
 
 Speed 40 ft., Climb 30 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>II</td><td>+0</td><td>+2</td><td>DEX</td><td>10</td><td>+0</td><td>+0</td><td>CON</td><td>+0</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>5</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>11</td><td>+0</td><td>+2</td><td>DEX</td><td>10</td><td>+0</td><td>+0</td><td>CON</td><td>11</td><td>+0</td><td>+0</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>5</td><td>-3</td><td>-3</td></tr></table>
 
 Skills Perception +2
 
@@ -28742,7 +28744,7 @@ HP 45 (6d10 + 12)
 
 Speed 5 ft., Swim 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>15</td></tr><tr><td>INT</td><td>1</td><td>-5</td><td>-5</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>4</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>15</td><td>+2</td><td>+2</td></tr><tr><td>INT</td><td>1</td><td>-5</td><td>-5</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>4</td><td>-3</td><td>-3</td></tr></table>
 
 Skills Perception +2
 
@@ -28830,7 +28832,7 @@ HP 90 (12d12 + 12)
 
 Speed 5 ft., Swim 60 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>13</td></tr><tr><td>INT</td><td>3</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>7</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>19</td><td>+4</td><td>+4</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>13</td><td>+1</td><td>+1</td></tr><tr><td>INT</td><td>3</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>7</td><td>-2</td><td>-2</td></tr></table>
 
 Skills Perception +3, Stealth +4
 
@@ -28980,7 +28982,7 @@ HP 11 (2d8 + 2)
 
 Speed 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>14</td><td>+2</td><td>+4</td><td>DEX</td><td>10</td><td>+0</td><td>+0</td><td>CON</td><td>13</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>5</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>14</td><td>+2</td><td>+4</td><td>DEX</td><td>10</td><td>+0</td><td>+0</td><td>CON</td><td>13</td><td>+1</td><td>+1</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>5</td><td>-3</td><td>-3</td></tr></table>
 
 Senses Passive Perception 10
 
@@ -29104,7 +29106,7 @@ HP 1 (1d4 - 1)
 
 Speed 5 ft., Swim 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>2</td><td>-4</td><td>-4</td><td>DEX</td><td>16</td><td>+3</td><td>+3</td><td>CON</td><td>9</td></tr><tr><td>INT</td><td>1</td><td>-5</td><td>-5</td><td>WIS</td><td>7</td><td>-2</td><td>-2</td><td>CHA</td><td>2</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>2</td><td>-4</td><td>-4</td><td>DEX</td><td>16</td><td>+3</td><td>+3</td><td>CON</td><td>9</td><td>-1</td><td>-1</td></tr><tr><td>INT</td><td>1</td><td>-5</td><td>-5</td><td>WIS</td><td>7</td><td>-2</td><td>-2</td><td>CHA</td><td>2</td><td>-4</td><td>-4</td></tr></table>
 
 Senses Darkvision 60 ft.; Passive Perception 8
 
@@ -29132,7 +29134,7 @@ HP 68 (8d10 + 24)
 
 Speed 20 ft., Swim 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>15</td><td>+2</td><td>+2</td><td>CON</td><td>16</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>5</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+4</td><td>DEX</td><td>15</td><td>+2</td><td>+2</td><td>CON</td><td>16</td><td>+3</td><td>+3</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>5</td><td>-3</td><td>-3</td></tr></table>
 
 Skills Perception +3, Stealth +4
 
@@ -29362,7 +29364,7 @@ HP 13 (2d10 + 2)
 
 Speed 60 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>16</td><td>+3</td><td>+3</td><td>DEX</td><td>13</td><td>+1</td><td>+1</td><td>CON</td><td>+1</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>11</td><td>+0</td><td>+0</td><td>CHA</td><td>7</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>16</td><td>+3</td><td>+3</td><td>DEX</td><td>13</td><td>+1</td><td>+1</td><td>CON</td><td>12</td><td>+1</td><td>+1</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>11</td><td>+0</td><td>+0</td><td>CHA</td><td>7</td><td>-2</td><td>-2</td></tr></table>
 
 Senses Passive Perception 10
 
@@ -29386,7 +29388,7 @@ HP 52 (7d10 + 14)
 
 Speed 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+6</td><td>DEX</td><td>17</td><td>+3</td><td>+5</td><td>CON</td><td>15</td></tr><tr><td>INT</td><td>3</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>8</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>18</td><td>+4</td><td>+6</td><td>DEX</td><td>17</td><td>+3</td><td>+5</td><td>CON</td><td>15</td><td>+2</td><td>+2</td></tr><tr><td>INT</td><td>3</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>8</td><td>-1</td><td>-1</td></tr></table>
 
 Skills Perception +5, Stealth +7
 
@@ -29476,7 +29478,7 @@ HP 1 (1d4 - 1)
 
 Speed 20 ft., Climb 20 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>2</td><td>-4</td><td>-4</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>8</td></tr><tr><td>INT</td><td>1</td><td>-5</td><td>-5</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>2</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>2</td><td>-4</td><td>-4</td><td>DEX</td><td>14</td><td>+2</td><td>+2</td><td>CON</td><td>8</td><td>-1</td><td>-1</td></tr><tr><td>INT</td><td>1</td><td>-5</td><td>-5</td><td>WIS</td><td>10</td><td>+0</td><td>+0</td><td>CHA</td><td>2</td><td>-4</td><td>-4</td></tr></table>
 
 Skills Stealth +4
 
@@ -29764,7 +29766,7 @@ HP 136 (13d12 + 52)
 
 Speed 50 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>25</td><td>+7</td><td>+10</td><td>DEX</td><td>10</td><td>+0</td><td>+0</td><td>CON</td><td>19</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+4</td><td>CHA</td><td>9</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>25</td><td>+7</td><td>+10</td><td>DEX</td><td>10</td><td>+0</td><td>+0</td><td>CON</td><td>19</td><td>+4</td><td>+4</td></tr><tr><td>INT</td><td>2</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+4</td><td>CHA</td><td>9</td><td>-1</td><td>-1</td></tr></table>
 
 Skills Perception +4
 
@@ -29898,7 +29900,7 @@ HP 11 (2d8 + 2)
 
 Speed 40 ft.
 
-<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td><td></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>14</td><td>+2</td><td>+2</td><td>DEX</td><td>15</td><td>+2</td><td>+2</td><td>CON</td><td>+1</td></tr><tr><td>INT</td><td>3</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>6</td></tr></table>
+<table><tr><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td><td colspan="2"></td><td>MOD</td><td>SAVE</td></tr><tr><td>STR</td><td>14</td><td>+2</td><td>+2</td><td>DEX</td><td>15</td><td>+2</td><td>+2</td><td>CON</td><td>12</td><td>+1</td><td>+1</td></tr><tr><td>INT</td><td>3</td><td>-4</td><td>-4</td><td>WIS</td><td>12</td><td>+1</td><td>+1</td><td>CHA</td><td>6</td><td>-2</td><td>-2</td></tr></table>
 
 Skills Perception +5, Stealth +4
 

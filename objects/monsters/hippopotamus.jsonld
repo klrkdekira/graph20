@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.56",
     "heading": "Hippopotamus",
-    "lineStart": 28701,
-    "lineEnd": 28731
+    "lineStart": 28703,
+    "lineEnd": 28733
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -78,5 +78,21 @@
       "rulesText": "Multiattack. The hippopotamus makes two Bite attacks.\n\nBite. Melee Attack Roll: +7, reach 5 ft. Hit: 16 (2d10 + 5) Piercing damage."
     }
   ],
-  "rulesText": "Large Beast, Unaligned\n\nAC 14\n\nInitiative -2 (8)\n\nHP 82 (11d10 + 22)\n\nSpeed 30 ft., Swim 30 ft.\n\nSkills Perception +3\n\nSenses Passive Perception 13\n\nLanguages None\n\nCR 4 (XP 1,100; PB +2)\n\nTraits\n\nHold Breath. The hippopotamus can hold its breath for 10 minutes.\n\nActions\n\nMultiattack. The hippopotamus makes two Bite attacks.\n\nBite. Melee Attack Roll: +7, reach 5 ft. Hit: 16 (2d10 + 5) Piercing damage."
+  "rulesText": "Large Beast, Unaligned\n\nAC 14\n\nInitiative -2 (8)\n\nHP 82 (11d10 + 22)\n\nSpeed 30 ft., Swim 30 ft.\n\nSkills Perception +3\n\nSenses Passive Perception 13\n\nLanguages None\n\nCR 4 (XP 1,100; PB +2)\n\nTraits\n\nHold Breath. The hippopotamus can hold its breath for 10 minutes.\n\nActions\n\nMultiattack. The hippopotamus makes two Bite attacks.\n\nBite. Melee Attack Roll: +7, reach 5 ft. Hit: 16 (2d10 + 5) Piercing damage.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "attackBonus": 7,
+      "averageDamage": 16,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d10+5",
+        "count": 2,
+        "sides": 10,
+        "modifier": 5
+      },
+      "reachFeet": 5
+    }
+  ]
 }

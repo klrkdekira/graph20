@@ -25,5 +25,19 @@
   "range": "10 feet",
   "components": "V, S",
   "duration": "Instantaneous",
-  "rulesText": "Level 1 Transmutation (Cleric, Druid, Paladin)\n\nCasting Time: Action or Ritual\n\nRange: 10 feet\n\nComponents: V, S\n\nDuration: Instantaneous\n\nYou remove poison and rot from nonmagical food and drink in a 5-foot-radius Sphere centered on a point within range."
+  "rulesText": "Level 1 Transmutation (Cleric, Druid, Paladin)\n\nCasting Time: Action or Ritual\n\nRange: 10 feet\n\nComponents: V, S\n\nDuration: Instantaneous\n\nYou remove poison and rot from nonmagical food and drink in a 5-foot-radius Sphere centered on a point within range.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/paladin"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": true
 }

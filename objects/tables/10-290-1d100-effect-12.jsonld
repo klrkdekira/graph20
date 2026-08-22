@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-290-1d100-effect-12",
+  "@type": "Table",
+  "name": "1d100 Effect",
+  "slug": "10-290-1d100-effect-12",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.290",
+    "heading": "Wand of Wonder",
+    "lineStart": 17269,
+    "lineEnd": 17269
+  },
+  "columns": [
+    "69–72",
+    "Nothing happens at the chosen point of origin. Instead, you shrink as if you had cast Enlarge/Reduce on yourself and remain in that state for 1 minute."
+  ],
+  "rows": []
+}

@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/conditions/deafened",
+  "@type": "Condition",
+  "name": "Deafened",
+  "slug": "deafened",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.54",
+    "heading": "Deafened [Condition]",
+    "lineStart": 13078,
+    "lineEnd": 13082
+  },
+  "rulesText": "While you have the Deafened condition, you experience the following effect.\n\nCan't Hear. You can't hear and automatically fail any ability check that requires hearing."
+}

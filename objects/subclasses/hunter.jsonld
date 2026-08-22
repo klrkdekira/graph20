@@ -1,0 +1,49 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/subclasses/hunter",
+  "@type": "Subclass",
+  "name": "Hunter",
+  "slug": "hunter",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.22",
+    "heading": "Ranger Subclass: Hunter",
+    "lineStart": 3722,
+    "lineEnd": 3726
+  },
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/ranger"
+  },
+  "parentClassName": "Ranger",
+  "rulesText": "Protect Nature and People from Destruction\n\nYou stalk prey in the wilds and elsewhere, using your abilities as a Hunter to protect nature and people everywhere from forces that would destroy them.",
+  "features": [
+    {
+      "level": 3,
+      "name": "Hunter's Lore",
+      "rulesText": "You can call on the forces of nature to reveal certain strengths and weaknesses of your prey. While a creature is marked by your Hunter's Mark, you know whether that creature has any Immunities, Resistances, or Vulnerabilities, and if the creature has any, you know what they are."
+    },
+    {
+      "level": 3,
+      "name": "Hunter's Prey",
+      "rulesText": "You gain one of the following feature options of your choice. Whenever you finish a Short or Long Rest, you can replace the chosen option with the other one.\n\nColossus Slayer: Your tenacity can wear down even the most resilient foes. When you hit a creature with a weapon, the weapon deals an extra 1d8 damage to the target if it's missing any of its Hit Points. You can deal this extra damage only once per turn.\n\nHorde Breaker. Once on each of your turns when you make an attack with a weapon, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target, that is within the weapon's range, and that you haven't attacked this turn."
+    },
+    {
+      "level": 7,
+      "name": "Defensive Tactics",
+      "rulesText": "You gain one of the following feature options of your choice. Whenever you finish a Short or Long Rest, you can replace the chosen option with the other one.\n\nEscape the Horde. Opportunity Attacks have Disadvantage against you.\n\nMultiattack Defense. When a creature hits you with an attack roll, that creature has Disadvantage on all other attack rolls against you this turn."
+    },
+    {
+      "level": 11,
+      "name": "Superior Hunter's Prey",
+      "rulesText": "Once per turn when you deal damage to a creature marked by your Hunter's Mark, you can also deal that spell's extra damage to a different creature that you can see within 30 feet of the first creature."
+    },
+    {
+      "level": 15,
+      "name": "Superior Hunter's Defense",
+      "rulesText": "When you take damage, you can take a Reaction to give yourself Resistance to that damage and any other damage of the same type until the end of the current turn."
+    }
+  ]
+}

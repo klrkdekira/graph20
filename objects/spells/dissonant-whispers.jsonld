@@ -23,5 +23,24 @@
   "range": "60 feet",
   "components": "V",
   "duration": "Instantaneous",
-  "rulesText": "Level 1 Enchantment (Bard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V\n\nDuration: Instantaneous\n\nOne creature of your choice that you can see within range hears a discordant melody in its mind. The target makes a Wisdom saving throw. On a failed save, it takes 3d6 Psychic damage and must immediately use its Reaction, if available, to move as far away from you as it can, using the safest route. On a successful save, the target takes half as much damage only.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 1."
+  "rulesText": "Level 1 Enchantment (Bard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V\n\nDuration: Instantaneous\n\nOne creature of your choice that you can see within range hears a discordant melody in its mind. The target makes a Wisdom saving throw. On a failed save, it takes 3d6 Psychic damage and must immediately use its Reaction, if available, to move as far away from you as it can, using the safest route. On a successful save, the target takes half as much damage only.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 1.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    }
+  ],
+  "savingThrowAbility": "Wisdom",
+  "damage": [
+    {
+      "damageType": "Psychic",
+      "damageRoll": {
+        "expression": "3d6",
+        "count": 3,
+        "sides": 6
+      }
+    }
+  ],
+  "scalesWithSlotLevel": true,
+  "concentration": false,
+  "ritual": false
 }

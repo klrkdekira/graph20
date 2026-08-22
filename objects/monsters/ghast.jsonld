@@ -78,5 +78,46 @@
       "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 9 (2d8) Necrotic damage.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage. If the target is a non-Undead creature, it is subjected to the following effect. Constitution Saving Throw: DC 10. Failure: The target has the Paralyzed condition until the end of its next turn."
     }
   ],
-  "rulesText": "Medium Undead, Chaotic Evil\n\nAC 13\n\nInitiative +3 (13)\n\nHP 36 (8d8)\n\nSpeed 30 ft.\n\nResistances Necrotic\n\nImmunities Poison; Charmed, Exhaustion, Poisoned\n\nSenses Darkvision 60 ft.; Passive Perception 10\n\nLanguages Common\n\nCR 2 (XP 450; PB +2)\n\nTraits\n\nStench. Constitution Saving Throw: DC 10, any creature that starts its turn in a 5-foot Emanation originating from the ghast. Failure: The target has the Poisoned condition until the start of its next turn. Success: The target is immune to this ghast's Stench for 24 hours.\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 9 (2d8) Necrotic damage.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage. If the target is a non-Undead creature, it is subjected to the following effect. Constitution Saving Throw: DC 10. Failure: The target has the Paralyzed condition until the end of its next turn."
+  "rulesText": "Medium Undead, Chaotic Evil\n\nAC 13\n\nInitiative +3 (13)\n\nHP 36 (8d8)\n\nSpeed 30 ft.\n\nResistances Necrotic\n\nImmunities Poison; Charmed, Exhaustion, Poisoned\n\nSenses Darkvision 60 ft.; Passive Perception 10\n\nLanguages Common\n\nCR 2 (XP 450; PB +2)\n\nTraits\n\nStench. Constitution Saving Throw: DC 10, any creature that starts its turn in a 5-foot Emanation originating from the ghast. Failure: The target has the Poisoned condition until the start of its next turn. Success: The target is immune to this ghast's Stench for 24 hours.\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 9 (2d8) Necrotic damage.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage. If the target is a non-Undead creature, it is subjected to the following effect. Constitution Saving Throw: DC 10. Failure: The target has the Paralyzed condition until the end of its next turn.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/exhaustion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 7,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d8+3",
+        "count": 1,
+        "sides": 8,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Claw",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 10,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "2d6+3",
+        "count": 2,
+        "sides": 6,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    }
+  ]
 }

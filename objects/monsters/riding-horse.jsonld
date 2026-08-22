@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.78",
     "heading": "Riding Horse",
-    "lineStart": 29353,
-    "lineEnd": 29375
+    "lineStart": 29355,
+    "lineEnd": 29377
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -46,6 +46,11 @@
       "modifier": 1,
       "savingThrow": 1
     },
+    "con": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
     "int": {
       "score": 2,
       "modifier": -4,
@@ -57,7 +62,9 @@
       "savingThrow": 0
     },
     "cha": {
-      "score": 7
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
     }
   },
   "statSections": [
@@ -66,5 +73,21 @@
       "rulesText": "Hooves. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning damage."
     }
   ],
-  "rulesText": "Large Beast, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 13 (2d10 + 2)\n\nSpeed 60 ft.\n\nSenses Passive Perception 10\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nHooves. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning damage."
+  "rulesText": "Large Beast, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 13 (2d10 + 2)\n\nSpeed 60 ft.\n\nSenses Passive Perception 10\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nHooves. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning damage.",
+  "attacks": [
+    {
+      "name": "Hooves",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 7,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "1d8+3",
+        "count": 1,
+        "sides": 8,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    }
+  ]
 }

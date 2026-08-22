@@ -1,0 +1,318 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-11-level-2-druid-spells",
+  "@type": "Table",
+  "name": "Level 2 Druid Spells",
+  "slug": "3-11-level-2-druid-spells",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.11",
+    "heading": "Druid Spell List",
+    "lineStart": 2956,
+    "lineEnd": 2956
+  },
+  "columns": [
+    "Spell",
+    "School",
+    "Special"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Aid"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Animal Messenger"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "R"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Augury"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "R, M"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Barkskin"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Continual Flame"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Darkvision"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Enhance Ability"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Enlarge/Reduce"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Find Traps"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Flame Blade"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "Flaming Sphere"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "Gust of Wind"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "Heat Metal"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "cells": [
+        {
+          "value": "Hold Person"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "cells": [
+        {
+          "value": "Lesser Restoration"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "cells": [
+        {
+          "value": "Locate Animals or Plants"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "R"
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "cells": [
+        {
+          "value": "Locate Object"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "cells": [
+        {
+          "value": "Moonbeam"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "cells": [
+        {
+          "value": "Pass without Trace"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "cells": [
+        {
+          "value": "Protection from Poison"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "cells": [
+        {
+          "value": "Spike Growth"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    }
+  ]
+}

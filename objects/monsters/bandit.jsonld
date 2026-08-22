@@ -74,5 +74,38 @@
       "rulesText": "Scimitar. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage.\n\nLight Crossbow. Ranged Attack Roll: +3, range 80/320 ft. Hit: 5 (1d8 + 1) Piercing damage."
     }
   ],
-  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 12\n\nInitiative +1 (11)\n\nHP 11 (2d8 + 2)\n\nSpeed 30 ft.\n\nGear Leather Armor, Light Crossbow, Scimitar\n\nSenses Passive Perception 10\n\nLanguages Common, Thieves' Cant\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nScimitar. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage.\n\nLight Crossbow. Ranged Attack Roll: +3, range 80/320 ft. Hit: 5 (1d8 + 1) Piercing damage."
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 12\n\nInitiative +1 (11)\n\nHP 11 (2d8 + 2)\n\nSpeed 30 ft.\n\nGear Leather Armor, Light Crossbow, Scimitar\n\nSenses Passive Perception 10\n\nLanguages Common, Thieves' Cant\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nScimitar. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage.\n\nLight Crossbow. Ranged Attack Roll: +3, range 80/320 ft. Hit: 5 (1d8 + 1) Piercing damage.",
+  "attacks": [
+    {
+      "name": "Scimitar",
+      "attackType": "Melee",
+      "attackBonus": 3,
+      "averageDamage": 4,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "1d6+1",
+        "count": 1,
+        "sides": 6,
+        "modifier": 1
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Light Crossbow",
+      "attackType": "Ranged",
+      "attackBonus": 3,
+      "averageDamage": 5,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d8+1",
+        "count": 1,
+        "sides": 8,
+        "modifier": 1
+      },
+      "rangeFeet": {
+        "normal": 80,
+        "long": 320
+      }
+    }
+  ]
 }

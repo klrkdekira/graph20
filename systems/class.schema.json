@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/graph20/systems/class.schema.json",
+  "title": "SRD 5.2.1 Character Class",
+  "$ref": "common.schema.json#/$defs/EntityBase",
+  "properties": {
+    "@type": { "const": "CharacterClass" },
+    "coreTraits": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "features": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "common.schema.json#/$defs/LevelFeature" }
+    },
+    "subclasses": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "common.schema.json#/$defs/NodeReference" }
+    },
+    "spellList": { "$ref": "common.schema.json#/$defs/NodeReference" },
+    "relatedTables": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "common.schema.json#/$defs/NodeReference" }
+    },
+    "rulesText": { "type": "string", "minLength": 1 }
+  },
+  "required": ["coreTraits", "features", "subclasses", "rulesText"],
+  "unevaluatedProperties": false
+}

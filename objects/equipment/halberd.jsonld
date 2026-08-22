@@ -1,0 +1,42 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/halberd",
+  "@type": "Equipment",
+  "name": "Halberd",
+  "slug": "halberd",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.26",
+    "heading": "Vex",
+    "lineStart": 5391,
+    "lineEnd": 5391
+  },
+  "equipmentType": "weapon",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-26-weapons"
+  },
+  "weaponCategory": "Martial",
+  "attackType": "Melee",
+  "damage": "1d10 Slashing",
+  "damageType": "Slashing",
+  "damageRoll": {
+    "expression": "1d10",
+    "count": 1,
+    "sides": 10
+  },
+  "properties": [
+    "Heavy",
+    "Reach",
+    "Two-Handed"
+  ],
+  "mastery": "Cleave",
+  "weight": "6 lb.",
+  "cost": {
+    "text": "20 GP",
+    "currency": "GP",
+    "amount": 20
+  }
+}

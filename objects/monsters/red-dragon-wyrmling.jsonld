@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.197",
     "heading": "Red Dragon Wyrmling",
-    "lineStart": 24305,
-    "lineEnd": 24335
+    "lineStart": 24307,
+    "lineEnd": 24337
   },
   "sizeTypeAlignment": "Medium Dragon (Chromatic), Chaotic Evil",
   "sizeAndType": "Medium Dragon (Chromatic)",
@@ -49,7 +49,9 @@
       "savingThrow": 2
     },
     "con": {
-      "score": 17
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "int": {
       "score": 12,
@@ -62,7 +64,9 @@
       "savingThrow": 2
     },
     "cha": {
-      "score": 15
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
     }
   },
   "statSections": [
@@ -71,5 +75,21 @@
       "rulesText": "Multiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Slashing damage plus 3 (1d6) Fire damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 13, each creature in a 15-foot Cone. Failure: 24 (7d6) Fire damage. Success: Half damage."
     }
   ],
-  "rulesText": "Medium Dragon (Chromatic), Chaotic Evil\n\nAC 17\n\nInitiative +2 (12)\n\nHP 75 (10d8 + 30)\n\nSpeed 30 ft., Climb 30 ft., Fly 60 ft.\n\nSkills Perception +4, Stealth +2\n\nImmunities Fire\n\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14\n\nLanguages Draconic\n\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Slashing damage plus 3 (1d6) Fire damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 13, each creature in a 15-foot Cone. Failure: 24 (7d6) Fire damage. Success: Half damage."
+  "rulesText": "Medium Dragon (Chromatic), Chaotic Evil\n\nAC 17\n\nInitiative +2 (12)\n\nHP 75 (10d8 + 30)\n\nSpeed 30 ft., Climb 30 ft., Fly 60 ft.\n\nSkills Perception +4, Stealth +2\n\nImmunities Fire\n\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14\n\nLanguages Draconic\n\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Slashing damage plus 3 (1d6) Fire damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 13, each creature in a 15-foot Cone. Failure: 24 (7d6) Fire damage. Success: Half damage.",
+  "attacks": [
+    {
+      "name": "Rend",
+      "attackType": "Melee",
+      "attackBonus": 6,
+      "averageDamage": 9,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "1d10+4",
+        "count": 1,
+        "sides": 10,
+        "modifier": 4
+      },
+      "reachFeet": 5
+    }
+  ]
 }

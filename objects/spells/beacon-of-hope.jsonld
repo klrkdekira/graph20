@@ -23,5 +23,14 @@
   "range": "30 feet",
   "components": "V, S",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Level 3 Abjuration (Cleric)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V, S\n\nDuration: Concentration, up to 1 minute\n\nChoose any number of creatures within range. For the duration, each target has Advantage on Wisdom saving throws and Death Saving Throws and regains the maximum number of Hit Points possible from any healing."
+  "rulesText": "Level 3 Abjuration (Cleric)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V, S\n\nDuration: Concentration, up to 1 minute\n\nChoose any number of creatures within range. For the duration, each target has Advantage on Wisdom saving throws and Death Saving Throws and regains the maximum number of Hit Points possible from any healing.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
+    }
+  ],
+  "savingThrowAbility": "Wisdom",
+  "scalesWithSlotLevel": false,
+  "concentration": true,
+  "ritual": false
 }

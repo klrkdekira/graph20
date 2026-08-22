@@ -26,5 +26,22 @@
   "range": "Touch",
   "components": "V, S",
   "duration": "Instantaneous",
-  "rulesText": "Level 3 Abjuration (Cleric, Paladin, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S\n\nDuration: Instantaneous\n\nAt your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner's Attunement to the object so it can be removed or discarded."
+  "rulesText": "Level 3 Abjuration (Cleric, Paladin, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S\n\nDuration: Instantaneous\n\nAt your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner's Attunement to the object so it can be removed or discarded.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/paladin"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": false
 }

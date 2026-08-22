@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.79",
     "heading": "Saber-Toothed Tiger",
-    "lineStart": 29377,
-    "lineEnd": 29411
+    "lineStart": 29379,
+    "lineEnd": 29413
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -48,7 +48,9 @@
       "savingThrow": 5
     },
     "con": {
-      "score": 15
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
     },
     "int": {
       "score": 3,
@@ -61,7 +63,9 @@
       "savingThrow": 1
     },
     "cha": {
-      "score": 8
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
     }
   },
   "statSections": [
@@ -78,5 +82,21 @@
       "rulesText": "Nimble Escape. The tiger takes the Disengage or Hide action."
     }
   ],
-  "rulesText": "Large Beast, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 52 (7d10 + 14)\n\nSpeed 40 ft.\n\nSkills Perception +5, Stealth +7\n\nSenses Darkvision 60 ft.; Passive Perception 15\n\nLanguages None\n\nCR 2 (XP 450; PB +2)\n\nTraits\n\nRunning Leap. With a 10-foot running start, the tiger can Long Jump up to 25 feet.\n\nActions\n\nMultiattack. The tiger makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 11 (2d6 + 4) Slashing damage.\n\nBonus Actions\n\nNimble Escape. The tiger takes the Disengage or Hide action."
+  "rulesText": "Large Beast, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 52 (7d10 + 14)\n\nSpeed 40 ft.\n\nSkills Perception +5, Stealth +7\n\nSenses Darkvision 60 ft.; Passive Perception 15\n\nLanguages None\n\nCR 2 (XP 450; PB +2)\n\nTraits\n\nRunning Leap. With a 10-foot running start, the tiger can Long Jump up to 25 feet.\n\nActions\n\nMultiattack. The tiger makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 11 (2d6 + 4) Slashing damage.\n\nBonus Actions\n\nNimble Escape. The tiger takes the Disengage or Hide action.",
+  "attacks": [
+    {
+      "name": "Rend",
+      "attackType": "Melee",
+      "attackBonus": 6,
+      "averageDamage": 11,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "2d6+4",
+        "count": 2,
+        "sides": 6,
+        "modifier": 4
+      },
+      "reachFeet": 5
+    }
+  ]
 }

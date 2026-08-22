@@ -25,5 +25,62 @@
   "range": "Self",
   "components": "V, S",
   "duration": "Instantaneous",
-  "rulesText": "Level 7 Evocation (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S\n\nDuration: Instantaneous\n\nEight rays of light flash from you in a 60-foot Cone. Each creature in the Cone makes a Dexterity saving throw. For each target, roll 1d8 to determine which color ray affects it, consulting the Prismatic Rays table.\n\nPrismatic Rays\n\nId8 Ray\n\n<table><tr><td>1</td><td>Red. Failed Save: 12d6 Fire damage. Successful Save: Half as much damage.</td></tr><tr><td>2</td><td>Orange. Failed Save: 12d6 Acid damage. Successful Save: Half as much damage.</td></tr><tr><td>3</td><td>Yellow. Failed Save: 12d6 Lightning damage. Successful Save: Half as much damage.</td></tr><tr><td>4</td><td>Green. Failed Save: 12d6 Poison damage. Successful Save: Half as much damage.</td></tr></table>\n\nId8 Ray\n\n5 Blue. Failed Save: 12d6 Cold damage. Successful Save: Half as much damage.\n\n6 Indigo. Failed Save: The target has the Restrained condition and makes a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the Petrified condition until it is freed by an effect like the Greater Restoration spell. The successes and failures needn't be consecutive; keep track of both until the target collects three of a kind.\n\n7 Violet. Failed Save: The target has the Blinded condition and makes a Wisdom saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (GM's choice).\n\n8 Special. The target is struck by two rays. Roll twice, rerolling any 8."
+  "rulesText": "Level 7 Evocation (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S\n\nDuration: Instantaneous\n\nEight rays of light flash from you in a 60-foot Cone. Each creature in the Cone makes a Dexterity saving throw. For each target, roll 1d8 to determine which color ray affects it, consulting the Prismatic Rays table.\n\nPrismatic Rays\n\n1d8 Ray\n\n<table><tr><td>1</td><td>Red. Failed Save: 12d6 Fire damage. Successful Save: Half as much damage.</td></tr><tr><td>2</td><td>Orange. Failed Save: 12d6 Acid damage. Successful Save: Half as much damage.</td></tr><tr><td>3</td><td>Yellow. Failed Save: 12d6 Lightning damage. Successful Save: Half as much damage.</td></tr><tr><td>4</td><td>Green. Failed Save: 12d6 Poison damage. Successful Save: Half as much damage.</td></tr></table>\n\n1d8 Ray\n\n5 Blue. Failed Save: 12d6 Cold damage. Successful Save: Half as much damage.\n\n6 Indigo. Failed Save: The target has the Restrained condition and makes a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the Petrified condition until it is freed by an effect like the Greater Restoration spell. The successes and failures needn't be consecutive; keep track of both until the target collects three of a kind.\n\n7 Violet. Failed Save: The target has the Blinded condition and makes a Wisdom saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (GM's choice).\n\n8 Special. The target is struck by two rays. Roll twice, rerolling any 8.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "savingThrowAbility": "Dexterity",
+  "damage": [
+    {
+      "damageType": "Fire",
+      "damageRoll": {
+        "expression": "12d6",
+        "count": 12,
+        "sides": 6
+      }
+    },
+    {
+      "damageType": "Acid",
+      "damageRoll": {
+        "expression": "12d6",
+        "count": 12,
+        "sides": 6
+      }
+    },
+    {
+      "damageType": "Lightning",
+      "damageRoll": {
+        "expression": "12d6",
+        "count": 12,
+        "sides": 6
+      }
+    },
+    {
+      "damageType": "Poison",
+      "damageRoll": {
+        "expression": "12d6",
+        "count": 12,
+        "sides": 6
+      }
+    },
+    {
+      "damageType": "Cold",
+      "damageRoll": {
+        "expression": "12d6",
+        "count": 12,
+        "sides": 6
+      }
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": false
 }

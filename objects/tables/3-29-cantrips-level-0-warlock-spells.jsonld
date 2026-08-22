@@ -1,0 +1,122 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-29-cantrips-level-0-warlock-spells",
+  "@type": "Table",
+  "name": "Cantrips (Level 0 Warlock Spells)",
+  "slug": "3-29-cantrips-level-0-warlock-spells",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.29",
+    "heading": "Warlock Spell List",
+    "lineStart": 4509,
+    "lineEnd": 4509
+  },
+  "columns": [
+    "Spell",
+    "School",
+    "Special"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Chill Touch"
+        },
+        {
+          "value": "Necromancy"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Eldritch Blast"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Mage Hand"
+        },
+        {
+          "value": "Conjuration"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Minor Illusion"
+        },
+        {
+          "value": "Illusion"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Poison Spray"
+        },
+        {
+          "value": "Necromancy"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Prestidigitation"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "True Strike"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    }
+  ]
+}

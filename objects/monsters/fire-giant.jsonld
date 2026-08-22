@@ -75,5 +75,38 @@
       "rulesText": "Multiattack. The giant makes two attacks, using Flame Sword or Hammer Throw in any combination.\n\nFlame Sword. Melee Attack Roll: +11, reach 10 ft.\nHit: 21 (4d6 + 7) Slashing damage plus 10 (3d6)\nFire damage.\n\nHammer Throw. Ranged Attack Roll: +11, range 60/240 ft. Hit: 23 (3d10 + 7) Bludgeoning damage plus 4 (1d8) Fire damage, and the target is pushed up to 15 feet straight away from the giant and has Disadvantage on the next attack roll it makes before the end of its next turn."
     }
   ],
-  "rulesText": "Huge Giant, Lawful Evil\n\nAC 18\n\nInitiative +3 (13)\n\nHP 162 (13d12 + 78)\n\nSpeed 30 ft.\n\nSkills Athletics +11, Perception +6\n\nImmunities Fire\n\nSenses Passive Perception 16\n\nLanguages Giant\n\nCR 9 (XP 5,000; PB +4)\n\nActions\n\nMultiattack. The giant makes two attacks, using Flame Sword or Hammer Throw in any combination.\n\nFlame Sword. Melee Attack Roll: +11, reach 10 ft.\nHit: 21 (4d6 + 7) Slashing damage plus 10 (3d6)\nFire damage.\n\nHammer Throw. Ranged Attack Roll: +11, range 60/240 ft. Hit: 23 (3d10 + 7) Bludgeoning damage plus 4 (1d8) Fire damage, and the target is pushed up to 15 feet straight away from the giant and has Disadvantage on the next attack roll it makes before the end of its next turn."
+  "rulesText": "Huge Giant, Lawful Evil\n\nAC 18\n\nInitiative +3 (13)\n\nHP 162 (13d12 + 78)\n\nSpeed 30 ft.\n\nSkills Athletics +11, Perception +6\n\nImmunities Fire\n\nSenses Passive Perception 16\n\nLanguages Giant\n\nCR 9 (XP 5,000; PB +4)\n\nActions\n\nMultiattack. The giant makes two attacks, using Flame Sword or Hammer Throw in any combination.\n\nFlame Sword. Melee Attack Roll: +11, reach 10 ft.\nHit: 21 (4d6 + 7) Slashing damage plus 10 (3d6)\nFire damage.\n\nHammer Throw. Ranged Attack Roll: +11, range 60/240 ft. Hit: 23 (3d10 + 7) Bludgeoning damage plus 4 (1d8) Fire damage, and the target is pushed up to 15 feet straight away from the giant and has Disadvantage on the next attack roll it makes before the end of its next turn.",
+  "attacks": [
+    {
+      "name": "Flame Sword",
+      "attackType": "Melee",
+      "attackBonus": 11,
+      "averageDamage": 21,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "4d6+7",
+        "count": 4,
+        "sides": 6,
+        "modifier": 7
+      },
+      "reachFeet": 10
+    },
+    {
+      "name": "Hammer Throw",
+      "attackType": "Ranged",
+      "attackBonus": 11,
+      "averageDamage": 23,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "3d10+7",
+        "count": 3,
+        "sides": 10,
+        "modifier": 7
+      },
+      "rangeFeet": {
+        "normal": 60,
+        "long": 240
+      }
+    }
+  ]
 }

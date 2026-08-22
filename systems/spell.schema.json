@@ -27,8 +27,24 @@
     "range": { "type": "string", "minLength": 1 },
     "components": { "type": "string", "minLength": 1 },
     "duration": { "type": "string", "minLength": 1 },
+    "classes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "common.schema.json#/$defs/NodeReference" }
+    },
+    "savingThrowAbility": {
+      "enum": ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"]
+    },
+    "damage": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "common.schema.json#/$defs/SpellDamage" }
+    },
+    "scalesWithSlotLevel": { "type": "boolean" },
+    "concentration": { "type": "boolean" },
+    "ritual": { "type": "boolean" },
     "rulesText": { "type": "string", "minLength": 1 }
   },
-  "required": ["level", "school", "classAvailability", "rulesText"],
+  "required": ["level", "school", "classAvailability", "rulesText", "scalesWithSlotLevel", "concentration", "ritual"],
   "unevaluatedProperties": false
 }

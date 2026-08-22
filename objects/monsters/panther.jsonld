@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.68",
     "heading": "Panther",
-    "lineStart": 29065,
-    "lineEnd": 29093
+    "lineStart": 29067,
+    "lineEnd": 29095
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
@@ -77,5 +77,21 @@
       "rulesText": "Nimble Escape. The panther takes the Disengage or Hide action."
     }
   ],
-  "rulesText": "Medium Beast, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 13 (3d8)\n\nSpeed 50 ft., Climb 40 ft.\n\nSkills Perception +4, Stealth +7\n\nSenses Darkvision 60 ft.; Passive Perception 14\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing damage.\n\nBonus Actions\n\nNimble Escape. The panther takes the Disengage or Hide action."
+  "rulesText": "Medium Beast, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 13 (3d8)\n\nSpeed 50 ft., Climb 40 ft.\n\nSkills Perception +4, Stealth +7\n\nSenses Darkvision 60 ft.; Passive Perception 14\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing damage.\n\nBonus Actions\n\nNimble Escape. The panther takes the Disengage or Hide action.",
+  "attacks": [
+    {
+      "name": "Rend",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 6,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "1d6+3",
+        "count": 1,
+        "sides": 6,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    }
+  ]
 }

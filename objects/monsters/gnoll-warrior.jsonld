@@ -76,5 +76,21 @@
       "rulesText": "Rampage (1/Day). Immediately after dealing damage to a creature that is already Bloodied, the gnoll moves up to half its Speed, and it makes one Rend attack."
     }
   ],
-  "rulesText": "Medium Fiend, Chaotic Evil\n\nAC 15\n\nInitiative +1 (11)\n\nHP 27 (6d8)\n\nSpeed 30 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 10\n\nLanguages Gnoll\n\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nRend. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage.\n\nBone Bow. Ranged Attack Roll: +3, range 150/600 ft.\n\nHit: 6 (1d10 + 1) Piercing damage.\n\nBonus Actions\n\nRampage (1/Day). Immediately after dealing damage to a creature that is already Bloodied, the gnoll moves up to half its Speed, and it makes one Rend attack."
+  "rulesText": "Medium Fiend, Chaotic Evil\n\nAC 15\n\nInitiative +1 (11)\n\nHP 27 (6d8)\n\nSpeed 30 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 10\n\nLanguages Gnoll\n\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nRend. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage.\n\nBone Bow. Ranged Attack Roll: +3, range 150/600 ft.\n\nHit: 6 (1d10 + 1) Piercing damage.\n\nBonus Actions\n\nRampage (1/Day). Immediately after dealing damage to a creature that is already Bloodied, the gnoll moves up to half its Speed, and it makes one Rend attack.",
+  "attacks": [
+    {
+      "name": "Rend",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 5,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d6+2",
+        "count": 1,
+        "sides": 6,
+        "modifier": 2
+      },
+      "reachFeet": 5
+    }
+  ]
 }

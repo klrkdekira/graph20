@@ -83,5 +83,21 @@
       "rulesText": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nCloaked Flight. The dragon uses Spellcasting to cast Invisibility on itself, and it can fly up to half its Fly Speed. The dragon can't take this action again until the start of its next turn.\n\nSonic Boom. The dragon uses Spellcasting to cast Shatter. The dragon can't take this action again until the start of its next turn.\n\nTail Swipe. The dragon makes one Rend attack."
     }
   ],
-  "rulesText": "Huge Dragon (Chromatic), Lawful Evil\n\nAC 19\n\nInitiative +10 (20)\n\nHP 212 (17d12 + 102)\n\nSpeed 40 ft., Burrow 30 ft., Fly 80 ft.\n\nSkills Perception +12, Stealth +5\n\nImmunities Lightning\n\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 22\n\nLanguages Common, Draconic\n\nCR 16 (XP 15,000, or 18,000 in lair; PB +5)\n\nTraits\n\nLegendary Resistance (3/Day, or 4/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast Shatter.\n\nRend. Melee Attack Roll: +12, reach 10 ft. Hit: 16 (2d8 + 7) Slashing damage plus 5 (1d10) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 19, each creature in a 90-foot-long, 5-foot-\n\nwide Line. Failure: 60 (11d10) Lightning damage. Success: Half damage.\n\nSpellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 18):\n\nAt Will: Detect Magic, Invisibility, Mage Hand, Shatter\n\n1/Day Each: Scrying, Sending\n\nLegendary Actions\n\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nCloaked Flight. The dragon uses Spellcasting to cast Invisibility on itself, and it can fly up to half its Fly Speed. The dragon can't take this action again until the start of its next turn.\n\nSonic Boom. The dragon uses Spellcasting to cast Shatter. The dragon can't take this action again until the start of its next turn.\n\nTail Swipe. The dragon makes one Rend attack."
+  "rulesText": "Huge Dragon (Chromatic), Lawful Evil\n\nAC 19\n\nInitiative +10 (20)\n\nHP 212 (17d12 + 102)\n\nSpeed 40 ft., Burrow 30 ft., Fly 80 ft.\n\nSkills Perception +12, Stealth +5\n\nImmunities Lightning\n\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 22\n\nLanguages Common, Draconic\n\nCR 16 (XP 15,000, or 18,000 in lair; PB +5)\n\nTraits\n\nLegendary Resistance (3/Day, or 4/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast Shatter.\n\nRend. Melee Attack Roll: +12, reach 10 ft. Hit: 16 (2d8 + 7) Slashing damage plus 5 (1d10) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 19, each creature in a 90-foot-long, 5-foot-\n\nwide Line. Failure: 60 (11d10) Lightning damage. Success: Half damage.\n\nSpellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 18):\n\nAt Will: Detect Magic, Invisibility, Mage Hand, Shatter\n\n1/Day Each: Scrying, Sending\n\nLegendary Actions\n\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nCloaked Flight. The dragon uses Spellcasting to cast Invisibility on itself, and it can fly up to half its Fly Speed. The dragon can't take this action again until the start of its next turn.\n\nSonic Boom. The dragon uses Spellcasting to cast Shatter. The dragon can't take this action again until the start of its next turn.\n\nTail Swipe. The dragon makes one Rend attack.",
+  "attacks": [
+    {
+      "name": "Rend",
+      "attackType": "Melee",
+      "attackBonus": 12,
+      "averageDamage": 16,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "2d8+7",
+        "count": 2,
+        "sides": 8,
+        "modifier": 7
+      },
+      "reachFeet": 10
+    }
+  ]
 }

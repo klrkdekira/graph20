@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/alchemist-x27-s-fire",
+  "@type": "Equipment",
+  "name": "Alchemist&#x27;s Fire",
+  "slug": "alchemist-x27-s-fire",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.64",
+    "heading": "Ammunition (Varies)",
+    "lineStart": 5685,
+    "lineEnd": 5685
+  },
+  "equipmentType": "gear",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-64-adventuring-gear"
+  },
+  "weight": "1 lb.",
+  "cost": {
+    "text": "50 GP",
+    "currency": "GP",
+    "amount": 50
+  }
+}

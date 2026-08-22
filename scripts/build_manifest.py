@@ -13,20 +13,11 @@ from srdlib import (
     CONTEXT_IRI,
     MANIFEST_NAME,
     SOURCE_ID,
+    SCHEMA_FOR_COLLECTION,
     dump_json,
     iter_object_files,
     load_json,
 )
-
-SCHEMA_FOR_COLLECTION = {
-    "sources": "source.schema.json",
-    "rules": "rule.schema.json",
-    "tables": "table.schema.json",
-    "spells": "spell.schema.json",
-    "feats": "feat.schema.json",
-    "magic-items": "magic-item.schema.json",
-    "monsters": "monster.schema.json",
-}
 
 
 def build(root: Path) -> None:
@@ -48,7 +39,7 @@ def build(root: Path) -> None:
         "@context": CONTEXT_IRI,
         "@id": f"{BASE}objects/{MANIFEST_NAME.removesuffix('.jsonld')}",
         "@type": "SRDSystemData",
-        "version": "0.1.0",
+        "version": "0.2.0",
         "metadata": {
             "title": "SRD 5.2.1 System JSON",
             "author": source_record["author"],

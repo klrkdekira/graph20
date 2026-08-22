@@ -78,5 +78,36 @@
       "rulesText": "Multiattack. The efreeti makes three attacks, using Heated Blade or Hurl Flame in any combination.\n\nHeated Blade. Melee Attack Roll: +10, reach 5 ft.\nHit: 13 (2d6 + 6) Slashing damage plus 13 (2d12) Fire damage.\n\nHurl Flame. Ranged Attack Roll: +8, range 120 ft. Hit: 24 (7d6) Fire damage.\n\nSpellcasting. The efreeti casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 16):\n\nAt Will: Detect Magic, Elementalism\n\n1/Day Each: Gaseous Form, Invisibility, Major Image, Plane Shift, Tongues, Wall of Fire (level 7 version)"
     }
   ],
-  "rulesText": "Large Elemental (Genie), Neutral\n\nAC 17\n\nInitiative +1 (11)\n\nHP 212 (17d10 + 119)\n\nSpeed 40 ft., Fly 60 ft. (hover)\n\nImmunities Fire\n\nSenses Darkvision 120 ft.; Passive Perception 12\n\nLanguages Primordial (Ignan)\n\nCR 11 (XP 7,200; PB +4)\n\nTraits\n\nElemental Restoration. If the efreeti dies outside the Elemental Plane of Fire, its body dissolves into ash, and it gains a new body in 1d4 days, reviving with all its Hit Points somewhere on the Plane of Fire.\n\nMagic Resistance. The efreeti has Advantage on saving throws against spells and other magical effects.\n\nWishes. The efreeti has a 30 percent chance of knowing the Wish spell. If the efreeti knows it, the efreeti can cast it only on behalf of a non-genie creature who communicates a wish in a way the efreeti can understand. If the efreeti casts the spell for the creature, the efreeti suffers none of the spell's stress. Once the efreeti has cast it three times, the efreeti can't do so again for 365 days.\n\nActions\n\nMultiattack. The efreeti makes three attacks, using Heated Blade or Hurl Flame in any combination.\n\nHeated Blade. Melee Attack Roll: +10, reach 5 ft.\nHit: 13 (2d6 + 6) Slashing damage plus 13 (2d12) Fire damage.\n\nHurl Flame. Ranged Attack Roll: +8, range 120 ft. Hit: 24 (7d6) Fire damage.\n\nSpellcasting. The efreeti casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 16):\n\nAt Will: Detect Magic, Elementalism\n\n1/Day Each: Gaseous Form, Invisibility, Major Image, Plane Shift, Tongues, Wall of Fire (level 7 version)"
+  "rulesText": "Large Elemental (Genie), Neutral\n\nAC 17\n\nInitiative +1 (11)\n\nHP 212 (17d10 + 119)\n\nSpeed 40 ft., Fly 60 ft. (hover)\n\nImmunities Fire\n\nSenses Darkvision 120 ft.; Passive Perception 12\n\nLanguages Primordial (Ignan)\n\nCR 11 (XP 7,200; PB +4)\n\nTraits\n\nElemental Restoration. If the efreeti dies outside the Elemental Plane of Fire, its body dissolves into ash, and it gains a new body in 1d4 days, reviving with all its Hit Points somewhere on the Plane of Fire.\n\nMagic Resistance. The efreeti has Advantage on saving throws against spells and other magical effects.\n\nWishes. The efreeti has a 30 percent chance of knowing the Wish spell. If the efreeti knows it, the efreeti can cast it only on behalf of a non-genie creature who communicates a wish in a way the efreeti can understand. If the efreeti casts the spell for the creature, the efreeti suffers none of the spell's stress. Once the efreeti has cast it three times, the efreeti can't do so again for 365 days.\n\nActions\n\nMultiattack. The efreeti makes three attacks, using Heated Blade or Hurl Flame in any combination.\n\nHeated Blade. Melee Attack Roll: +10, reach 5 ft.\nHit: 13 (2d6 + 6) Slashing damage plus 13 (2d12) Fire damage.\n\nHurl Flame. Ranged Attack Roll: +8, range 120 ft. Hit: 24 (7d6) Fire damage.\n\nSpellcasting. The efreeti casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 16):\n\nAt Will: Detect Magic, Elementalism\n\n1/Day Each: Gaseous Form, Invisibility, Major Image, Plane Shift, Tongues, Wall of Fire (level 7 version)",
+  "attacks": [
+    {
+      "name": "Heated Blade",
+      "attackType": "Melee",
+      "attackBonus": 10,
+      "averageDamage": 13,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "2d6+6",
+        "count": 2,
+        "sides": 6,
+        "modifier": 6
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Hurl Flame",
+      "attackType": "Ranged",
+      "attackBonus": 8,
+      "averageDamage": 24,
+      "damageType": "Fire",
+      "damageRoll": {
+        "expression": "7d6",
+        "count": 7,
+        "sides": 6
+      },
+      "rangeFeet": {
+        "normal": 120
+      }
+    }
+  ]
 }

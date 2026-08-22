@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.18",
     "heading": "Deer",
-    "lineStart": 27578,
-    "lineEnd": 27606
+    "lineStart": 27580,
+    "lineEnd": 27608
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
@@ -77,5 +77,20 @@
       "rulesText": "Ram. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage."
     }
   ],
-  "rulesText": "Medium Beast, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 4 (1d8)\n\nSpeed 50 ft.\n\nSkills Perception +4\n\nSenses Darkvision 60 ft.; Passive Perception 14\n\nLanguages None\n\nCR 0 (XP 10; PB +2)\n\nTraits\n\nAgile. The deer doesn't provoke an Opportunity Attack when it moves out of an enemy's reach.\n\nActions\n\nRam. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage."
+  "rulesText": "Medium Beast, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 4 (1d8)\n\nSpeed 50 ft.\n\nSkills Perception +4\n\nSenses Darkvision 60 ft.; Passive Perception 14\n\nLanguages None\n\nCR 0 (XP 10; PB +2)\n\nTraits\n\nAgile. The deer doesn't provoke an Opportunity Attack when it moves out of an enemy's reach.\n\nActions\n\nRam. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage.",
+  "attacks": [
+    {
+      "name": "Ram",
+      "attackType": "Melee",
+      "attackBonus": 2,
+      "averageDamage": 2,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "1d4",
+        "count": 1,
+        "sides": 4
+      },
+      "reachFeet": 5
+    }
+  ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.202",
     "heading": "Roc",
-    "lineStart": 24513,
-    "lineEnd": 24547
+    "lineStart": 24515,
+    "lineEnd": 24549
   },
   "sizeTypeAlignment": "Gargantuan Monstrosity, Unaligned",
   "sizeAndType": "Gargantuan Monstrosity",
@@ -78,5 +78,35 @@
       "rulesText": "Swoop (Recharge 5–6). If the roc has a creature Grappled, the roc flies up to half its Fly Speed without provoking Opportunity Attacks and drops that creature."
     }
   ],
-  "rulesText": "Gargantuan Monstrosity, Unaligned\n\nAC 15\n\nInitiative +8 (18)\n\nHP 248 (16d20 + 80)\n\nSpeed 20 ft., Fly 120 ft.\n\nSkills Perception +8\n\nSenses Passive Perception 18\n\nLanguages None\n\nCR 11 (XP 7,200; PB +4)\n\nActions\n\nMultiattack. The roc makes two Beak attacks. It can replace one attack with a Talons attack.\n\nBeak. Melee Attack Roll: +13, reach 10 ft. Hit: 28 (3d12 + 9) Piercing damage.\n\nTalons. Melee Attack Roll: +13, reach 5 ft. Hit: 23 (4d6 + 9) Slashing damage. If the target is a Huge or smaller creature, it has the Grappled condition (escape DC 19) from both talons, and it has the Restrained condition until the grapple ends.\n\nBonus Actions\n\nSwoop (Recharge 5–6). If the roc has a creature Grappled, the roc flies up to half its Fly Speed without provoking Opportunity Attacks and drops that creature."
+  "rulesText": "Gargantuan Monstrosity, Unaligned\n\nAC 15\n\nInitiative +8 (18)\n\nHP 248 (16d20 + 80)\n\nSpeed 20 ft., Fly 120 ft.\n\nSkills Perception +8\n\nSenses Passive Perception 18\n\nLanguages None\n\nCR 11 (XP 7,200; PB +4)\n\nActions\n\nMultiattack. The roc makes two Beak attacks. It can replace one attack with a Talons attack.\n\nBeak. Melee Attack Roll: +13, reach 10 ft. Hit: 28 (3d12 + 9) Piercing damage.\n\nTalons. Melee Attack Roll: +13, reach 5 ft. Hit: 23 (4d6 + 9) Slashing damage. If the target is a Huge or smaller creature, it has the Grappled condition (escape DC 19) from both talons, and it has the Restrained condition until the grapple ends.\n\nBonus Actions\n\nSwoop (Recharge 5–6). If the roc has a creature Grappled, the roc flies up to half its Fly Speed without provoking Opportunity Attacks and drops that creature.",
+  "attacks": [
+    {
+      "name": "Beak",
+      "attackType": "Melee",
+      "attackBonus": 13,
+      "averageDamage": 28,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "3d12+9",
+        "count": 3,
+        "sides": 12,
+        "modifier": 9
+      },
+      "reachFeet": 10
+    },
+    {
+      "name": "Talons",
+      "attackType": "Melee",
+      "attackBonus": 13,
+      "averageDamage": 23,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "4d6+9",
+        "count": 4,
+        "sides": 6,
+        "modifier": 9
+      },
+      "reachFeet": 5
+    }
+  ]
 }

@@ -73,5 +73,34 @@
       "rulesText": "Multiattack. The fungus makes two Rotting Touch attacks.\n\nRotting Touch. Melee Attack Roll: +2, reach 10 ft. Hit: 4 (1d8) Necrotic damage."
     }
   ],
-  "rulesText": "Medium Plant, Unaligned\n\nAC 5\n\nInitiative -5 (5)\n\nHP 18 (4d8)\n\nSpeed 5 ft.\n\nImmunities Blinded, Charmed, Deafened, Frightened\n\nSenses Blindsight 30 ft.; Passive Perception 6\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nMultiattack. The fungus makes two Rotting Touch attacks.\n\nRotting Touch. Melee Attack Roll: +2, reach 10 ft. Hit: 4 (1d8) Necrotic damage."
+  "rulesText": "Medium Plant, Unaligned\n\nAC 5\n\nInitiative -5 (5)\n\nHP 18 (4d8)\n\nSpeed 5 ft.\n\nImmunities Blinded, Charmed, Deafened, Frightened\n\nSenses Blindsight 30 ft.; Passive Perception 6\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nMultiattack. The fungus makes two Rotting Touch attacks.\n\nRotting Touch. Melee Attack Roll: +2, reach 10 ft. Hit: 4 (1d8) Necrotic damage.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/blinded"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/deafened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Rotting Touch",
+      "attackType": "Melee",
+      "attackBonus": 2,
+      "averageDamage": 4,
+      "damageType": "Necrotic",
+      "damageRoll": {
+        "expression": "1d8",
+        "count": 1,
+        "sides": 8
+      },
+      "reachFeet": 10
+    }
+  ]
 }

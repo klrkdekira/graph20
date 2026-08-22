@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.41",
     "heading": "Giant Octopus",
-    "lineStart": 28244,
-    "lineEnd": 28276
+    "lineStart": 28246,
+    "lineEnd": 28278
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -47,6 +47,11 @@
       "modifier": 1,
       "savingThrow": 1
     },
+    "con": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
     "int": {
       "score": 5,
       "modifier": -3,
@@ -58,7 +63,9 @@
       "savingThrow": 0
     },
     "cha": {
-      "score": 4
+      "score": 4,
+      "modifier": -3,
+      "savingThrow": -3
     }
   },
   "statSections": [
@@ -75,5 +82,21 @@
       "rulesText": "Ink Cloud (1/Day). Trigger: The octopus takes damage while underwater. Response: The octopus releases ink that fills a 10-foot Cube centered on itself, and the octopus moves up to its Swim Speed. The Cube is Heavily Obscured for 1 minute or until a strong current or similar effect disperses the ink."
     }
   ],
-  "rulesText": "Large Beast, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 45 (7d10 + 7)\n\nSpeed 10 ft., Swim 60 ft.\n\nSkills Perception +4, Stealth +5\n\nSenses Darkvision 60 ft.; Passive Perception 14\n\nLanguages None\n\nCR 1 (XP 200; PB +2)\n\nTraits\n\nWater Breathing. The octopus can breathe only underwater. It can hold its breath for 1 hour outside water.\n\nActions\n\nTentacles. Melee Attack Roll: +5, reach 10 ft. Hit: 10 (2d6 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from all eight tentacles. While Grappled, the target has the Restrained condition.\n\nReactions\n\nInk Cloud (1/Day). Trigger: The octopus takes damage while underwater. Response: The octopus releases ink that fills a 10-foot Cube centered on itself, and the octopus moves up to its Swim Speed. The Cube is Heavily Obscured for 1 minute or until a strong current or similar effect disperses the ink."
+  "rulesText": "Large Beast, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 45 (7d10 + 7)\n\nSpeed 10 ft., Swim 60 ft.\n\nSkills Perception +4, Stealth +5\n\nSenses Darkvision 60 ft.; Passive Perception 14\n\nLanguages None\n\nCR 1 (XP 200; PB +2)\n\nTraits\n\nWater Breathing. The octopus can breathe only underwater. It can hold its breath for 1 hour outside water.\n\nActions\n\nTentacles. Melee Attack Roll: +5, reach 10 ft. Hit: 10 (2d6 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from all eight tentacles. While Grappled, the target has the Restrained condition.\n\nReactions\n\nInk Cloud (1/Day). Trigger: The octopus takes damage while underwater. Response: The octopus releases ink that fills a 10-foot Cube centered on itself, and the octopus moves up to its Swim Speed. The Cube is Heavily Obscured for 1 minute or until a strong current or similar effect disperses the ink.",
+  "attacks": [
+    {
+      "name": "Tentacles",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 10,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "2d6+3",
+        "count": 2,
+        "sides": 6,
+        "modifier": 3
+      },
+      "reachFeet": 10
+    }
+  ]
 }

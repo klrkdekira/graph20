@@ -1,0 +1,51 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-8-cleric-spell-list",
+  "@type": "Rule",
+  "name": "Cleric Spell List",
+  "slug": "3-8-cleric-spell-list",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.8",
+    "heading": "Cleric Spell List",
+    "lineStart": 2716,
+    "lineEnd": 2758
+  },
+  "section": "3.8",
+  "rulesText": "This section presents the Cleric spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, C means the spell requires Concentration, R means it's a Ritual, and M means it requires a specific Material component.\n\nCantrips (Level 0 Cleric Spells)\n\nLevel 1 Cleric Spells\n\nLevel 2 Cleric Spells\n\nLevel 3 Cleric Spells\n\nLevel 4 Cleric Spells\n\nLevel 5 Cleric Spells\n\nLevel 6 Cleric Spells\n\nLevel 7 Cleric Spells\n\nLevel 8 Cleric Spells\n\nLevel 9 Cleric Spells",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-8-cantrips-level-0-cleric-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-8-level-1-cleric-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-8-level-2-cleric-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-8-level-3-cleric-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-8-level-4-cleric-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-8-level-5-cleric-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-8-level-6-cleric-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-8-level-7-cleric-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-8-level-8-cleric-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-8-level-9-cleric-spells"
+    }
+  ]
+}

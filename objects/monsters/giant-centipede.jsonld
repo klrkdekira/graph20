@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.30",
     "heading": "Giant Centipede",
-    "lineStart": 27918,
-    "lineEnd": 27940
+    "lineStart": 27920,
+    "lineEnd": 27942
   },
   "sizeTypeAlignment": "Small Beast, Unaligned",
   "sizeAndType": "Small Beast",
@@ -73,5 +73,21 @@
       "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage, and the target has the Poisoned condition until the start of the centipede's next turn."
     }
   ],
-  "rulesText": "Small Beast, Unaligned\n\nAC 14\n\nInitiative +2 (12)\n\nHP 9 (2d6 + 2)\n\nSpeed 30 ft., Climb 30 ft.\n\nSenses Blindsight 30 ft.; Passive Perception 8\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage, and the target has the Poisoned condition until the start of the centipede's next turn."
+  "rulesText": "Small Beast, Unaligned\n\nAC 14\n\nInitiative +2 (12)\n\nHP 9 (2d6 + 2)\n\nSpeed 30 ft., Climb 30 ft.\n\nSenses Blindsight 30 ft.; Passive Perception 8\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage, and the target has the Poisoned condition until the start of the centipede's next turn.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 4,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d4+2",
+        "count": 1,
+        "sides": 4,
+        "modifier": 2
+      },
+      "reachFeet": 5
+    }
+  ]
 }

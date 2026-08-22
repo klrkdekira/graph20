@@ -25,5 +25,22 @@
   "castingTime": "Bonus Action",
   "range": "Touch",
   "duration": "1 minute",
-  "rulesText": "Level 1 Transmutation (Druid, Ranger, Sorcerer, Wizard)\n\nCasting Time: Bonus Action\n\nRange: Touch\n\nComponent: V, S, M (a grasshopper's hind leg)\n\nDuration: 1 minute\n\nYou touch a willing creature. Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending 10 feet of movement.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1."
+  "rulesText": "Level 1 Transmutation (Druid, Ranger, Sorcerer, Wizard)\n\nCasting Time: Bonus Action\n\nRange: Touch\n\nComponent: V, S, M (a grasshopper's hind leg)\n\nDuration: 1 minute\n\nYou touch a willing creature. Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending 10 feet of movement.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/ranger"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "scalesWithSlotLevel": true,
+  "concentration": false,
+  "ritual": false
 }

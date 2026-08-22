@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-21-rolling-20-or-1",
+  "@type": "Rule",
+  "name": "Rolling 20 or 1",
+  "slug": "1-21-rolling-20-or-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.21",
+    "heading": "Rolling 20 or 1",
+    "lineStart": 1119,
+    "lineEnd": 1123
+  },
+  "section": "1.21",
+  "rulesText": "If you roll a 20 on the d20 (called a “natural 20”) for an attack roll, the attack hits regardless of any modifiers or the target’s AC. This is called a Critical Hit (see “Combat” later in “Playing the Game”).\n\nIf you roll a 1 on the d20 (a “natural 1”) for an attack roll, the attack misses regardless of any modifiers or the target’s AC."
+}

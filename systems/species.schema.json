@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/graph20/systems/species.schema.json",
+  "title": "SRD 5.2.1 Species",
+  "$ref": "common.schema.json#/$defs/EntityBase",
+  "properties": {
+    "@type": { "const": "Species" },
+    "creatureType": { "type": "string", "minLength": 1 },
+    "size": { "type": "string", "minLength": 1 },
+    "speed": { "type": "string", "minLength": 1 },
+    "traits": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "rulesText": { "type": "string", "minLength": 1 }
+        },
+        "required": ["name", "rulesText"],
+        "unevaluatedProperties": false
+      }
+    },
+    "rulesText": { "type": "string", "minLength": 1 }
+  },
+  "required": ["creatureType", "size", "speed", "rulesText"],
+  "unevaluatedProperties": false
+}

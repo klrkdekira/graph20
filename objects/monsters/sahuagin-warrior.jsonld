@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.206",
     "heading": "Sahuagin Warrior",
-    "lineStart": 24631,
-    "lineEnd": 24671
+    "lineStart": 24633,
+    "lineEnd": 24673
   },
   "sizeTypeAlignment": "Medium Fiend, Lawful Evil",
   "sizeAndType": "Medium Fiend",
@@ -83,5 +83,21 @@
       "rulesText": "Aquatic Charge. The sahuagin swims up to its Swim Speed straight toward an enemy it can see."
     }
   ],
-  "rulesText": "Medium Fiend, Lawful Evil\n\nAC 12\n\nInitiative +0 (10)\n\nHP 22 (4d8 + 4)\n\nSpeed 30 ft., Swim 40 ft.\n\nSkills Perception +5\n\nResistances Acid, Cold\n\nSenses Darkvision 120 ft.; Passive Perception 15\n\nLanguages Sahuagin\n\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nBlood Frenzy. The sahuagin has Advantage on attack rolls against any creature that doesn't have all its Hit Points.\n\nLimited Amphibiousness. The sahuagin can breathe air and water, but it must be submerged at least once every 4 hours to avoid suffocating outside water.\n\nShark Telepathy. The sahuagin can magically control sharks within 120 feet of itself, using a special telepathy.\n\nActions\n\nMultiattack. The sahuagin makes two Claw attacks.\n\nClaw. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage.\n\nBonus Actions\n\nAquatic Charge. The sahuagin swims up to its Swim Speed straight toward an enemy it can see."
+  "rulesText": "Medium Fiend, Lawful Evil\n\nAC 12\n\nInitiative +0 (10)\n\nHP 22 (4d8 + 4)\n\nSpeed 30 ft., Swim 40 ft.\n\nSkills Perception +5\n\nResistances Acid, Cold\n\nSenses Darkvision 120 ft.; Passive Perception 15\n\nLanguages Sahuagin\n\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nBlood Frenzy. The sahuagin has Advantage on attack rolls against any creature that doesn't have all its Hit Points.\n\nLimited Amphibiousness. The sahuagin can breathe air and water, but it must be submerged at least once every 4 hours to avoid suffocating outside water.\n\nShark Telepathy. The sahuagin can magically control sharks within 120 feet of itself, using a special telepathy.\n\nActions\n\nMultiattack. The sahuagin makes two Claw attacks.\n\nClaw. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage.\n\nBonus Actions\n\nAquatic Charge. The sahuagin swims up to its Swim Speed straight toward an enemy it can see.",
+  "attacks": [
+    {
+      "name": "Claw",
+      "attackType": "Melee",
+      "attackBonus": 3,
+      "averageDamage": 4,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "1d6+1",
+        "count": 1,
+        "sides": 6,
+        "modifier": 1
+      },
+      "reachFeet": 5
+    }
+  ]
 }

@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-7-life-domain-spells",
+  "@type": "Table",
+  "name": "Life Domain Spells",
+  "slug": "3-7-life-domain-spells",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.7",
+    "heading": "Level 3: Life Domain Spells",
+    "lineStart": 2778,
+    "lineEnd": 2778
+  },
+  "columns": [
+    "Cleric Level",
+    "Prepared Spells"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "Aid, Bless, Cure Wounds, Lesser Restoration"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "Mass Healing Word, Revivify"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "Aura of Life, Death Ward"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "Greater Restoration, Mass Cure Wounds"
+        }
+      ]
+    }
+  ]
+}

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.240",
     "heading": "Tough Boss",
-    "lineStart": 25881,
-    "lineEnd": 25913
+    "lineStart": 25883,
+    "lineEnd": 25915
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -48,7 +48,9 @@
       "savingThrow": 2
     },
     "con": {
-      "score": 16
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 5
     },
     "int": {
       "score": 11,
@@ -61,7 +63,9 @@
       "savingThrow": 0
     },
     "cha": {
-      "score": 11
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 2
     }
   },
   "statSections": [
@@ -74,5 +78,38 @@
       "rulesText": "Multiattack. The tough makes two attacks, using Warhammer or Heavy Crossbow in any combination.\n\nWarhammer. Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Bludgeoning damage. If the target is a Large or smaller creature, the tough pushes the target up to 10 feet straight away from itself.\n\nHeavy Crossbow. Ranged Attack Roll: +4, range 100/400 ft. Hit: 13 (2d10 + 2) Piercing damage."
     }
   ],
-  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 16\n\nInitiative +2 (12)\n\nHP 82 (11d8 + 33)\n\nSpeed 30 ft.\n\nGear Chain Mail, Heavy Crossbow, Warhammer\n\nSenses Passive Perception 10\n\nLanguages Common plus one other language\n\nCR 4 (XP 1,100; PB +2)\n\nTraits\n\nPack Tactics. The tough has Advantage on an attack roll against a creature if at least one of the tough's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nMultiattack. The tough makes two attacks, using Warhammer or Heavy Crossbow in any combination.\n\nWarhammer. Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Bludgeoning damage. If the target is a Large or smaller creature, the tough pushes the target up to 10 feet straight away from itself.\n\nHeavy Crossbow. Ranged Attack Roll: +4, range 100/400 ft. Hit: 13 (2d10 + 2) Piercing damage."
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 16\n\nInitiative +2 (12)\n\nHP 82 (11d8 + 33)\n\nSpeed 30 ft.\n\nGear Chain Mail, Heavy Crossbow, Warhammer\n\nSenses Passive Perception 10\n\nLanguages Common plus one other language\n\nCR 4 (XP 1,100; PB +2)\n\nTraits\n\nPack Tactics. The tough has Advantage on an attack roll against a creature if at least one of the tough's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nMultiattack. The tough makes two attacks, using Warhammer or Heavy Crossbow in any combination.\n\nWarhammer. Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Bludgeoning damage. If the target is a Large or smaller creature, the tough pushes the target up to 10 feet straight away from itself.\n\nHeavy Crossbow. Ranged Attack Roll: +4, range 100/400 ft. Hit: 13 (2d10 + 2) Piercing damage.",
+  "attacks": [
+    {
+      "name": "Warhammer",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 12,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "2d8+3",
+        "count": 2,
+        "sides": 8,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Heavy Crossbow",
+      "attackType": "Ranged",
+      "attackBonus": 4,
+      "averageDamage": 13,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d10+2",
+        "count": 2,
+        "sides": 10,
+        "modifier": 2
+      },
+      "rangeFeet": {
+        "normal": 100,
+        "long": 400
+      }
+    }
+  ]
 }

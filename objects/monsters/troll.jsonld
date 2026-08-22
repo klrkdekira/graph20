@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.242",
     "heading": "Troll",
-    "lineStart": 25956,
-    "lineEnd": 25994
+    "lineStart": 25958,
+    "lineEnd": 25996
   },
   "sizeTypeAlignment": "Large Giant, Chaotic Evil",
   "sizeAndType": "Large Giant",
@@ -82,5 +82,21 @@
       "rulesText": "Charge. The troll moves up to half its Speed straight toward an enemy it can see."
     }
   ],
-  "rulesText": "Large Giant, Chaotic Evil\n\nAC 15\n\nInitiative +1 (11)\n\nHP 94 (9d10 + 45)\n\nSpeed 30 ft.\n\nSkills Perception +5\n\nSenses Darkvision 60 ft.; Passive Perception 15\n\nLanguages Giant\n\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nLoathsome Limbs (4/Day). If the troll ends any turn Bloodied and took 15+ Slashing damage during that turn, one of the troll's limbs is severed, falls into the troll's space, and becomes a Troll Limb. The limb acts immediately after the troll's turn. The troll has 1 Exhaustion level for each missing limb, and it grows replacement limbs the next time it regains Hit Points.\n\nRegeneration. The troll regains 15 Hit Points at the start of each of its turns. If the troll takes Acid or Fire damage, this trait doesn't function on the troll's next turn. The troll dies only if it starts its turn with 0 Hit Points and doesn't regenerate.\n\nActions\n\nMultiattack. The troll makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Slashing damage.\n\nBonus Actions\n\nCharge. The troll moves up to half its Speed straight toward an enemy it can see."
+  "rulesText": "Large Giant, Chaotic Evil\n\nAC 15\n\nInitiative +1 (11)\n\nHP 94 (9d10 + 45)\n\nSpeed 30 ft.\n\nSkills Perception +5\n\nSenses Darkvision 60 ft.; Passive Perception 15\n\nLanguages Giant\n\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nLoathsome Limbs (4/Day). If the troll ends any turn Bloodied and took 15+ Slashing damage during that turn, one of the troll's limbs is severed, falls into the troll's space, and becomes a Troll Limb. The limb acts immediately after the troll's turn. The troll has 1 Exhaustion level for each missing limb, and it grows replacement limbs the next time it regains Hit Points.\n\nRegeneration. The troll regains 15 Hit Points at the start of each of its turns. If the troll takes Acid or Fire damage, this trait doesn't function on the troll's next turn. The troll dies only if it starts its turn with 0 Hit Points and doesn't regenerate.\n\nActions\n\nMultiattack. The troll makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Slashing damage.\n\nBonus Actions\n\nCharge. The troll moves up to half its Speed straight toward an enemy it can see.",
+  "attacks": [
+    {
+      "name": "Rend",
+      "attackType": "Melee",
+      "attackBonus": 7,
+      "averageDamage": 11,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "2d6+4",
+        "count": 2,
+        "sides": 6,
+        "modifier": 4
+      },
+      "reachFeet": 10
+    }
+  ]
 }

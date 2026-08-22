@@ -73,5 +73,46 @@
       "rulesText": "Multiattack. The ghoul makes two Bite attacks.\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 3 (1d6) Necrotic damage.\n\nClaw. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing damage. If the target is a creature that isn't an Undead or elf, it is subjected to the following effect. Constitution Saving Throw: DC 10. Failure: The target has the Paralyzed condition until the end of its next turn."
     }
   ],
-  "rulesText": "Medium Undead, Chaotic Evil\n\nAC 12\n\nInitiative +2 (12)\n\nHP 22 (5d8)\n\nSpeed 30 ft.\n\nImmunities Poison; Charmed, Exhaustion, Poisoned\n\nSenses Darkvision 60 ft.; Passive Perception 10\n\nLanguages Common\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The ghoul makes two Bite attacks.\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 3 (1d6) Necrotic damage.\n\nClaw. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing damage. If the target is a creature that isn't an Undead or elf, it is subjected to the following effect. Constitution Saving Throw: DC 10. Failure: The target has the Paralyzed condition until the end of its next turn."
+  "rulesText": "Medium Undead, Chaotic Evil\n\nAC 12\n\nInitiative +2 (12)\n\nHP 22 (5d8)\n\nSpeed 30 ft.\n\nImmunities Poison; Charmed, Exhaustion, Poisoned\n\nSenses Darkvision 60 ft.; Passive Perception 10\n\nLanguages Common\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The ghoul makes two Bite attacks.\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 3 (1d6) Necrotic damage.\n\nClaw. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing damage. If the target is a creature that isn't an Undead or elf, it is subjected to the following effect. Constitution Saving Throw: DC 10. Failure: The target has the Paralyzed condition until the end of its next turn.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/exhaustion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 5,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d6+2",
+        "count": 1,
+        "sides": 6,
+        "modifier": 2
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Claw",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 4,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "1d4+2",
+        "count": 1,
+        "sides": 4,
+        "modifier": 2
+      },
+      "reachFeet": 5
+    }
+  ]
 }

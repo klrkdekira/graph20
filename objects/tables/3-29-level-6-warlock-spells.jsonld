@@ -1,0 +1,80 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-29-level-6-warlock-spells",
+  "@type": "Table",
+  "name": "Level 6 Warlock Spells",
+  "slug": "3-29-level-6-warlock-spells",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.29",
+    "heading": "Warlock Spell List",
+    "lineStart": 4535,
+    "lineEnd": 4535
+  },
+  "columns": [
+    "Spell",
+    "School",
+    "Special"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Circle of Death"
+        },
+        {
+          "value": "Necromancy"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Create Undead"
+        },
+        {
+          "value": "Necromancy"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Eyebite"
+        },
+        {
+          "value": "Necromancy"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "True Seeing"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    }
+  ]
+}

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.258",
     "heading": "Werewolf",
-    "lineStart": 26566,
-    "lineEnd": 26608
+    "lineStart": 26568,
+    "lineEnd": 26610
   },
   "sizeTypeAlignment": "Medium or Small Monstrosity (Lycanthrope), Chaotic Evil",
   "sizeAndType": "Medium or Small Monstrosity (Lycanthrope)",
@@ -83,5 +83,52 @@
       "rulesText": "Shape-Shift. The werewolf shape-shifts into a Large wolf-humanoid hybrid or a Medium wolf, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed."
     }
   ],
-  "rulesText": "Medium or Small Monstrosity (Lycanthrope), Chaotic Evil\n\nAC 15\n\nInitiative +4 (14)\n\nHP 71 (11d8 + 22)\n\nSpeed 30 ft., 40 ft. (wolf form only)\n\nSkills Perception +4, Stealth +4\n\nGear Longbow\n\nSenses Darkvision 60 ft.; Passive Perception 14\n\nLanguages Common (can't speak in wolf form)\n\nCR 3 (XP 700; PB +2)\n\nTraits\n\nPack Tactics. The werewolf has Advantage on an attack roll against a creature if at least one of the werewolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nMultiattack. The werewolf makes two attacks, using Scratch or Longbow in any combination. It can replace one attack with a Bite attack.\n\nBite (Wolf or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 12. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Werewolf under the GM's control and has 10 Hit Points. Success: The target is immune to this werewolf's curse for 24 hours.\n\nScratch. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.\n\nLongbow (Humanoid or Hybrid Form Only). Ranged Attack Roll: +4, range 150/600 ft. Hit: 11 (2d8 + 2) Piercing damage.\n\nBonus Actions\n\nShape-Shift. The werewolf shape-shifts into a Large wolf-humanoid hybrid or a Medium wolf, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed."
+  "rulesText": "Medium or Small Monstrosity (Lycanthrope), Chaotic Evil\n\nAC 15\n\nInitiative +4 (14)\n\nHP 71 (11d8 + 22)\n\nSpeed 30 ft., 40 ft. (wolf form only)\n\nSkills Perception +4, Stealth +4\n\nGear Longbow\n\nSenses Darkvision 60 ft.; Passive Perception 14\n\nLanguages Common (can't speak in wolf form)\n\nCR 3 (XP 700; PB +2)\n\nTraits\n\nPack Tactics. The werewolf has Advantage on an attack roll against a creature if at least one of the werewolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nMultiattack. The werewolf makes two attacks, using Scratch or Longbow in any combination. It can replace one attack with a Bite attack.\n\nBite (Wolf or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 12. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Werewolf under the GM's control and has 10 Hit Points. Success: The target is immune to this werewolf's curse for 24 hours.\n\nScratch. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.\n\nLongbow (Humanoid or Hybrid Form Only). Ranged Attack Roll: +4, range 150/600 ft. Hit: 11 (2d8 + 2) Piercing damage.\n\nBonus Actions\n\nShape-Shift. The werewolf shape-shifts into a Large wolf-humanoid hybrid or a Medium wolf, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed.",
+  "attacks": [
+    {
+      "name": "Bite (Wolf or Hybrid Form Only)",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 12,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d8+3",
+        "count": 2,
+        "sides": 8,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Scratch",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 10,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "2d6+3",
+        "count": 2,
+        "sides": 6,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Longbow (Humanoid or Hybrid Form Only)",
+      "attackType": "Ranged",
+      "attackBonus": 4,
+      "averageDamage": 11,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d8+2",
+        "count": 2,
+        "sides": 8,
+        "modifier": 2
+      },
+      "rangeFeet": {
+        "normal": 150,
+        "long": 600
+      }
+    }
+  ]
 }

@@ -26,5 +26,22 @@
   "range": "Touch",
   "components": "V, S",
   "duration": "1 hour",
-  "rulesText": "Level 2 Abjuration (Cleric, Druid, Paladin, Ranger)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S\n\nDuration: 1 hour\n\nYou touch a creature and end the Poisoned condition on it. For the duration, the target has Advantage on saving throws to avoid or end the Poisoned condition, and it has Resistance to Poison damage."
+  "rulesText": "Level 2 Abjuration (Cleric, Druid, Paladin, Ranger)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S\n\nDuration: 1 hour\n\nYou touch a creature and end the Poisoned condition on it. For the duration, the target has Advantage on saving throws to avoid or end the Poisoned condition, and it has Resistance to Poison damage.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/paladin"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/ranger"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": false
 }

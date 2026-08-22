@@ -23,5 +23,14 @@
   "range": "Self",
   "components": "V, S, M (a reliquary worth 1,000+ GP)",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Level 8 Abjuration (Cleric)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S, M (a reliquary worth 1,000+ GP)\n\nDuration: Concentration, up to 1 minute\n\nFor the duration, you emit an aura in a 30-foot Emanation. While in the aura, creatures of your choice have Advantage on all saving throws, and other creatures have Disadvantage on attack rolls against them. In addition, when a Fiend or an Undead hits an affected creature with a melee attack roll, the attacker must succeed on a Constitution saving throw or have the Blinded condition until the end of its next turn."
+  "rulesText": "Level 8 Abjuration (Cleric)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S, M (a reliquary worth 1,000+ GP)\n\nDuration: Concentration, up to 1 minute\n\nFor the duration, you emit an aura in a 30-foot Emanation. While in the aura, creatures of your choice have Advantage on all saving throws, and other creatures have Disadvantage on attack rolls against them. In addition, when a Fiend or an Undead hits an affected creature with a melee attack roll, the attacker must succeed on a Constitution saving throw or have the Blinded condition until the end of its next turn.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
+    }
+  ],
+  "savingThrowAbility": "Constitution",
+  "scalesWithSlotLevel": false,
+  "concentration": true,
+  "ritual": false
 }

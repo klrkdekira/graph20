@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.52",
     "heading": "Giant Weasel",
-    "lineStart": 28591,
-    "lineEnd": 28615
+    "lineStart": 28593,
+    "lineEnd": 28617
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
@@ -73,5 +73,21 @@
       "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage."
     }
   ],
-  "rulesText": "Medium Beast, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 9 (2d8)\n\nSpeed 40 ft., Climb 30 ft.\n\nSkills Acrobatics +5, Perception +3, Stealth +5\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages None\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage."
+  "rulesText": "Medium Beast, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 9 (2d8)\n\nSpeed 40 ft., Climb 30 ft.\n\nSkills Acrobatics +5, Perception +3, Stealth +5\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages None\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 5,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d4+3",
+        "count": 1,
+        "sides": 4,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    }
+  ]
 }

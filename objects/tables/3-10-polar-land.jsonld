@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-10-polar-land",
+  "@type": "Table",
+  "name": "Polar Land",
+  "slug": "3-10-polar-land",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.10",
+    "heading": "Level 3: Circle of the Land Spells",
+    "lineStart": 3002,
+    "lineEnd": 3002
+  },
+  "columns": [
+    "Druid Level",
+    "Circle Spells"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "Fog Cloud, Hold Person, Ray of Frost"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "Sleet Storm"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "Ice Storm"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "Cone of Cold"
+        }
+      ]
+    }
+  ]
+}

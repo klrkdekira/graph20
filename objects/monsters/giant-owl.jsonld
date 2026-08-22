@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.42",
     "heading": "Giant Owl",
-    "lineStart": 28278,
-    "lineEnd": 28313
+    "lineStart": 28280,
+    "lineEnd": 28315
   },
   "sizeTypeAlignment": "Large Celestial, Neutral",
   "sizeAndType": "Large Celestial",
@@ -79,5 +79,21 @@
       "rulesText": "Talons. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (1d10 + 2) Slashing damage.\n\nSpellcasting. The owl casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability:\n\nAt Will: Detect Evil and Good, Detect Magic\n1/Day: Clairvoyance"
     }
   ],
-  "rulesText": "Large Celestial, Neutral\n\nAC 12\n\nInitiative +2 (12)\n\nHP 19 (3d10 + 3)\n\nSpeed 5 ft., Fly 60 ft.\n\nSkills Perception +6, Stealth +6\n\nResistances Necrotic, Radiant\n\nSenses Darkvision 120 ft.; Passive Perception 16\n\nLanguages Celestial; understands Common, Elvish, and Sylvan but can't speak them\n\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nFlyby. The owl doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nTalons. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (1d10 + 2) Slashing damage.\n\nSpellcasting. The owl casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability:\n\nAt Will: Detect Evil and Good, Detect Magic\n1/Day: Clairvoyance"
+  "rulesText": "Large Celestial, Neutral\n\nAC 12\n\nInitiative +2 (12)\n\nHP 19 (3d10 + 3)\n\nSpeed 5 ft., Fly 60 ft.\n\nSkills Perception +6, Stealth +6\n\nResistances Necrotic, Radiant\n\nSenses Darkvision 120 ft.; Passive Perception 16\n\nLanguages Celestial; understands Common, Elvish, and Sylvan but can't speak them\n\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nFlyby. The owl doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nTalons. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (1d10 + 2) Slashing damage.\n\nSpellcasting. The owl casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability:\n\nAt Will: Detect Evil and Good, Detect Magic\n1/Day: Clairvoyance",
+  "attacks": [
+    {
+      "name": "Talons",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 7,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "1d10+2",
+        "count": 1,
+        "sides": 10,
+        "modifier": 2
+      },
+      "reachFeet": 5
+    }
+  ]
 }

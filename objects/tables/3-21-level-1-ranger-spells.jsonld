@@ -1,0 +1,206 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-21-level-1-ranger-spells",
+  "@type": "Table",
+  "name": "Level 1 Ranger Spells",
+  "slug": "3-21-level-1-ranger-spells",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.21",
+    "heading": "Ranger Spell List",
+    "lineStart": 3704,
+    "lineEnd": 3704
+  },
+  "columns": [
+    "Spell",
+    "School",
+    "Special"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Alarm"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "R"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Animal Friendship"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Cure Wounds"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Detect Magic"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "C, R"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Detect Poison and Disease"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "C, R"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Ensnaring Strike"
+        },
+        {
+          "value": "Conjuration"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Entangle"
+        },
+        {
+          "value": "Conjuration"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Fog Cloud"
+        },
+        {
+          "value": "Conjuration"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Goodberry"
+        },
+        {
+          "value": "Conjuration"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Hunter’s Mark"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "Jump"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "Longstrider"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "Speak with Animals"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "R"
+        }
+      ]
+    }
+  ]
+}

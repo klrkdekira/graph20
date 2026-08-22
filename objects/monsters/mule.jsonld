@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.65",
     "heading": "Mule",
-    "lineStart": 28971,
-    "lineEnd": 28997
+    "lineStart": 28973,
+    "lineEnd": 28999
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
@@ -47,7 +47,9 @@
       "savingThrow": 0
     },
     "con": {
-      "score": 13
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
     },
     "int": {
       "score": 2,
@@ -60,7 +62,9 @@
       "savingThrow": 0
     },
     "cha": {
-      "score": 5
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
     }
   },
   "statSections": [
@@ -73,5 +77,21 @@
       "rulesText": "Hooves. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning damage."
     }
   ],
-  "rulesText": "Medium Beast, Unaligned\n\nAC 10\n\nInitiative +0 (10)\n\nHP 11 (2d8 + 2)\n\nSpeed 40 ft.\n\nSenses Passive Perception 10\n\nLanguages None\n\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nBeast of Burden. The mule counts as one size larger for the purpose of determining its carrying capacity.\n\nActions\n\nHooves. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning damage."
+  "rulesText": "Medium Beast, Unaligned\n\nAC 10\n\nInitiative +0 (10)\n\nHP 11 (2d8 + 2)\n\nSpeed 40 ft.\n\nSenses Passive Perception 10\n\nLanguages None\n\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nBeast of Burden. The mule counts as one size larger for the purpose of determining its carrying capacity.\n\nActions\n\nHooves. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning damage.",
+  "attacks": [
+    {
+      "name": "Hooves",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 4,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "1d4+2",
+        "count": 1,
+        "sides": 4,
+        "modifier": 2
+      },
+      "reachFeet": 5
+    }
+  ]
 }

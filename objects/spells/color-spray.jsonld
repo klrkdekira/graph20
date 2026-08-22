@@ -25,5 +25,20 @@
   "range": "Self",
   "components": "V, S, M (a pinch of colorful sand)",
   "duration": "Instantaneous",
-  "rulesText": "Level 1 Illusion (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S, M (a pinch of colorful sand)\n\nDuration: Instantaneous\n\nYou launch a dazzling array of flashing, colorful light. Each creature in a 15-foot Cone originating from you must succeed on a Constitution saving throw or have the Blinded condition until the end of your next turn."
+  "rulesText": "Level 1 Illusion (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S, M (a pinch of colorful sand)\n\nDuration: Instantaneous\n\nYou launch a dazzling array of flashing, colorful light. Each creature in a 15-foot Cone originating from you must succeed on a Constitution saving throw or have the Blinded condition until the end of your next turn.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "savingThrowAbility": "Constitution",
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": false
 }

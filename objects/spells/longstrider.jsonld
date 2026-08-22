@@ -26,5 +26,22 @@
   "range": "Touch",
   "components": "V, S, M (a pinch of dirt)",
   "duration": "1 hour",
-  "rulesText": "Level 1 Transmutation (Bard, Druid, Ranger, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (a pinch of dirt)\n\nDuration: 1 hour\n\nYou touch a creature. The target's Speed increases by 10 feet until the spell ends.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1."
+  "rulesText": "Level 1 Transmutation (Bard, Druid, Ranger, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (a pinch of dirt)\n\nDuration: 1 hour\n\nYou touch a creature. The target's Speed increases by 10 feet until the spell ends.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/ranger"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "scalesWithSlotLevel": true,
+  "concentration": false,
+  "ritual": false
 }

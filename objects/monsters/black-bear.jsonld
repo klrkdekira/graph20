@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.9",
     "heading": "Black Bear",
-    "lineStart": 27319,
-    "lineEnd": 27345
+    "lineStart": 27321,
+    "lineEnd": 27347
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
@@ -74,5 +74,21 @@
       "rulesText": "Multiattack. The bear makes two Rend attacks.\n\nRend. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing damage."
     }
   ],
-  "rulesText": "Medium Beast, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 19 (3d8 + 6)\n\nSpeed 30 ft., Climb 30 ft., Swim 30 ft.\n\nSkills Perception +5\n\nSenses Darkvision 60 ft.; Passive Perception 15\n\nLanguages None\n\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nMultiattack. The bear makes two Rend attacks.\n\nRend. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing damage."
+  "rulesText": "Medium Beast, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 19 (3d8 + 6)\n\nSpeed 30 ft., Climb 30 ft., Swim 30 ft.\n\nSkills Perception +5\n\nSenses Darkvision 60 ft.; Passive Perception 15\n\nLanguages None\n\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nMultiattack. The bear makes two Rend attacks.\n\nRend. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing damage.",
+  "attacks": [
+    {
+      "name": "Rend",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 5,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "1d6+2",
+        "count": 1,
+        "sides": 6,
+        "modifier": 2
+      },
+      "reachFeet": 5
+    }
+  ]
 }

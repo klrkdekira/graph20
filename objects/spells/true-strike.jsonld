@@ -26,5 +26,22 @@
   "range": "Self",
   "components": "S, M (a weapon with which you have proficiency and that is worth I+ CP)",
   "duration": "Instantaneous",
-  "rulesText": "Divination Cantrip (Bard, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: S, M (a weapon with which you have proficiency and that is worth I+ CP)\n\nDuration: Instantaneous\n\nGuided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The attack uses your spellcasting ability for the attack and damage rolls instead of using Strength or Dexterity. If the attack deals damage, it can be Radiant damage or the weapon's normal damage type (your choice).\n\nCantrip Upgrade. Whether you deal Radiant damage or the weapon's normal damage type, the attack deals extra Radiant damage when you reach levels 5 (1d6), 11 (2d6), and 17 (3d6)."
+  "rulesText": "Divination Cantrip (Bard, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: S, M (a weapon with which you have proficiency and that is worth I+ CP)\n\nDuration: Instantaneous\n\nGuided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The attack uses your spellcasting ability for the attack and damage rolls instead of using Strength or Dexterity. If the attack deals damage, it can be Radiant damage or the weapon's normal damage type (your choice).\n\nCantrip Upgrade. Whether you deal Radiant damage or the weapon's normal damage type, the attack deals extra Radiant damage when you reach levels 5 (1d6), 11 (2d6), and 17 (3d6).",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": false
 }

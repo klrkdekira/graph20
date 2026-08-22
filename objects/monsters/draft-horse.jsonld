@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.20",
     "heading": "Draft Horse",
-    "lineStart": 27638,
-    "lineEnd": 27660
+    "lineStart": 27640,
+    "lineEnd": 27662
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -73,5 +73,21 @@
       "rulesText": "Hooves. Melee Attack Roll: +6, reach 5 ft. Hit: 6 (1d4 + 4) Bludgeoning damage."
     }
   ],
-  "rulesText": "Large Beast, Unaligned\n\nAC 10\n\nInitiative +0 (10)\n\nHP 15 (2d10 + 4)\n\nSpeed 40 ft.\n\nSenses Passive Perception 10\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nHooves. Melee Attack Roll: +6, reach 5 ft. Hit: 6 (1d4 + 4) Bludgeoning damage."
+  "rulesText": "Large Beast, Unaligned\n\nAC 10\n\nInitiative +0 (10)\n\nHP 15 (2d10 + 4)\n\nSpeed 40 ft.\n\nSenses Passive Perception 10\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nHooves. Melee Attack Roll: +6, reach 5 ft. Hit: 6 (1d4 + 4) Bludgeoning damage.",
+  "attacks": [
+    {
+      "name": "Hooves",
+      "attackType": "Melee",
+      "attackBonus": 6,
+      "averageDamage": 6,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "1d4+4",
+        "count": 1,
+        "sides": 4,
+        "modifier": 4
+      },
+      "reachFeet": 5
+    }
+  ]
 }

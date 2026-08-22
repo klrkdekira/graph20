@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.232",
     "heading": "Stirge",
-    "lineStart": 25581,
-    "lineEnd": 25607
+    "lineStart": 25583,
+    "lineEnd": 25609
   },
   "sizeTypeAlignment": "Tiny Monstrosity, Unaligned",
   "sizeAndType": "Tiny Monstrosity",
@@ -72,5 +72,21 @@
       "rulesText": "Proboscis. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage, and the stirge attaches to the target. While attached, the stirge can't make Proboscis attacks, and the target takes 5 (2d4) Necrotic damage at the start of each of the stirge's turns.\n\nThe stirge can detach itself by spending 5 feet of its movement. The target or a creature within 5 feet of it can detach the stirge as an action."
     }
   ],
-  "rulesText": "Tiny Monstrosity, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 5 (2d4)\n\nSpeed 10 ft., Fly 40 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 9\n\nLanguages None\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nProboscis. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage, and the stirge attaches to the target. While attached, the stirge can't make Proboscis attacks, and the target takes 5 (2d4) Necrotic damage at the start of each of the stirge's turns.\n\nThe stirge can detach itself by spending 5 feet of its movement. The target or a creature within 5 feet of it can detach the stirge as an action."
+  "rulesText": "Tiny Monstrosity, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 5 (2d4)\n\nSpeed 10 ft., Fly 40 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 9\n\nLanguages None\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nProboscis. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage, and the stirge attaches to the target. While attached, the stirge can't make Proboscis attacks, and the target takes 5 (2d4) Necrotic damage at the start of each of the stirge's turns.\n\nThe stirge can detach itself by spending 5 feet of its movement. The target or a creature within 5 feet of it can detach the stirge as an action.",
+  "attacks": [
+    {
+      "name": "Proboscis",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 6,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d6+3",
+        "count": 1,
+        "sides": 6,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    }
+  ]
 }

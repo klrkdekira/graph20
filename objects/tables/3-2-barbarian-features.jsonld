@@ -1,0 +1,487 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-2-barbarian-features",
+  "@type": "Table",
+  "name": "Barbarian Features",
+  "slug": "3-2-barbarian-features",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.2",
+    "heading": "Level 1: Rage",
+    "lineStart": 2283,
+    "lineEnd": 2283
+  },
+  "columns": [
+    "Level",
+    "Proficiency Bonus",
+    "Class Features",
+    "Rages",
+    "Rage Damage",
+    "Weapon Mastery"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "+2"
+        },
+        {
+          "value": "Rage, Unarmored Defense, Weapon Mastery"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "+2"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "+2"
+        },
+        {
+          "value": "Danger Sense, Reckless Attack"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "+2"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "+2"
+        },
+        {
+          "value": "Barbarian Subclass, Primal Knowledge"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "+2"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "+2"
+        },
+        {
+          "value": "Ability Score Improvement"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "+2"
+        },
+        {
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "+3"
+        },
+        {
+          "value": "Extra Attack, Fast Movement"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "+2"
+        },
+        {
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "+3"
+        },
+        {
+          "value": "Subclass feature"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "+2"
+        },
+        {
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "+3"
+        },
+        {
+          "value": "Feral Instinct, Instinctive Pounce"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "+2"
+        },
+        {
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "+3"
+        },
+        {
+          "value": "Ability Score Improvement"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "+2"
+        },
+        {
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "+4"
+        },
+        {
+          "value": "Brutal Strike"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "+3"
+        },
+        {
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "+4"
+        },
+        {
+          "value": "Subclass feature"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "+3"
+        },
+        {
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "+4"
+        },
+        {
+          "value": "Relentless Rage"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "+3"
+        },
+        {
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "12"
+        },
+        {
+          "value": "+4"
+        },
+        {
+          "value": "Ability Score Improvement"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "+3"
+        },
+        {
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "13"
+        },
+        {
+          "value": "+5"
+        },
+        {
+          "value": "Improved Brutal Strike"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "+3"
+        },
+        {
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "cells": [
+        {
+          "value": "14"
+        },
+        {
+          "value": "+5"
+        },
+        {
+          "value": "Subclass feature"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "+3"
+        },
+        {
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "cells": [
+        {
+          "value": "15"
+        },
+        {
+          "value": "+5"
+        },
+        {
+          "value": "Persistent Rage"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "+3"
+        },
+        {
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "cells": [
+        {
+          "value": "16"
+        },
+        {
+          "value": "+5"
+        },
+        {
+          "value": "Ability Score Improvement"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "+4"
+        },
+        {
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "cells": [
+        {
+          "value": "17"
+        },
+        {
+          "value": "+6"
+        },
+        {
+          "value": "Improved Brutal Strike"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "+4"
+        },
+        {
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "cells": [
+        {
+          "value": "18"
+        },
+        {
+          "value": "+6"
+        },
+        {
+          "value": "Indomitable Might"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "+4"
+        },
+        {
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "cells": [
+        {
+          "value": "19"
+        },
+        {
+          "value": "+6"
+        },
+        {
+          "value": "Epic Boon"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "+4"
+        },
+        {
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "cells": [
+        {
+          "value": "20"
+        },
+        {
+          "value": "+6"
+        },
+        {
+          "value": "Primal Champion"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "+4"
+        },
+        {
+          "value": "4"
+        }
+      ]
+    }
+  ]
+}

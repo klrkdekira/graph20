@@ -23,5 +23,56 @@
   "range": "1 mile",
   "components": "V, S",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Level 9 Conjuration (Druid)\n\nCasting Time: Action\n\nRange: 1 mile\n\nComponents: V, S\n\nDuration: Concentration, up to 1 minute\n\nA churning storm cloud forms for the duration, centered on a point within range and spreading to a radius of 300 feet. Each creature under the cloud when it appears must succeed on a Constitution saving throw or take 2d6 Thunder damage and have the Deafened condition for the duration.\n\nAt the start of each of your later turns, the storm produces different effects, as detailed below.\n\nTurn 2. Acidic rain falls. Each creature and object under the cloud takes 4d6 Acid damage.\n\nTurn 3. You call six bolts of lightning from the cloud to strike six different creatures or objects beneath it. Each target makes a Dexterity saving throw, taking 10d6 Lightning damage on a failed save or half as much damage on a successful one.\n\nTurn 4. Hailstones rain down. Each creature under the cloud takes 2d6 Bludgeoning damage.\n\nTurns 5-10. Gusts and freezing rain assail the area under the cloud. Each creature there takes 1d6 Cold damage. Until the spell ends, the area is Difficult Terrain and Heavily Obscured, ranged attacks with weapons are impossible there, and strong wind blows through the area."
+  "rulesText": "Level 9 Conjuration (Druid)\n\nCasting Time: Action\n\nRange: 1 mile\n\nComponents: V, S\n\nDuration: Concentration, up to 1 minute\n\nA churning storm cloud forms for the duration, centered on a point within range and spreading to a radius of 300 feet. Each creature under the cloud when it appears must succeed on a Constitution saving throw or take 2d6 Thunder damage and have the Deafened condition for the duration.\n\nAt the start of each of your later turns, the storm produces different effects, as detailed below.\n\nTurn 2. Acidic rain falls. Each creature and object under the cloud takes 4d6 Acid damage.\n\nTurn 3. You call six bolts of lightning from the cloud to strike six different creatures or objects beneath it. Each target makes a Dexterity saving throw, taking 10d6 Lightning damage on a failed save or half as much damage on a successful one.\n\nTurn 4. Hailstones rain down. Each creature under the cloud takes 2d6 Bludgeoning damage.\n\nTurns 5-10. Gusts and freezing rain assail the area under the cloud. Each creature there takes 1d6 Cold damage. Until the spell ends, the area is Difficult Terrain and Heavily Obscured, ranged attacks with weapons are impossible there, and strong wind blows through the area.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
+    }
+  ],
+  "savingThrowAbility": "Constitution",
+  "damage": [
+    {
+      "damageType": "Thunder",
+      "damageRoll": {
+        "expression": "2d6",
+        "count": 2,
+        "sides": 6
+      }
+    },
+    {
+      "damageType": "Acid",
+      "damageRoll": {
+        "expression": "4d6",
+        "count": 4,
+        "sides": 6
+      }
+    },
+    {
+      "damageType": "Lightning",
+      "damageRoll": {
+        "expression": "10d6",
+        "count": 10,
+        "sides": 6
+      }
+    },
+    {
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "2d6",
+        "count": 2,
+        "sides": 6
+      }
+    },
+    {
+      "damageType": "Cold",
+      "damageRoll": {
+        "expression": "1d6",
+        "count": 1,
+        "sides": 6
+      }
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": true,
+  "ritual": false
 }

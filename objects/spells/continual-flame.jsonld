@@ -25,5 +25,19 @@
   "range": "Touch",
   "components": "V, S, M (ruby dust worth 50+ GP, which the spell consumes)",
   "duration": "Until dispelled",
-  "rulesText": "Level 2 Evocation (Cleric, Druid, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (ruby dust worth 50+ GP, which the spell consumes)\n\nDuration: Until dispelled\n\nA flame springs from an object that you touch. The effect casts Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. It looks like a regular flame, but it creates no heat and consumes no fuel. The flame can be covered or hidden but not smothered or quenched."
+  "rulesText": "Level 2 Evocation (Cleric, Druid, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (ruby dust worth 50+ GP, which the spell consumes)\n\nDuration: Until dispelled\n\nA flame springs from an object that you touch. The effect casts Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. It looks like a regular flame, but it creates no heat and consumes no fuel. The flame can be covered or hidden but not smothered or quenched.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": false
 }

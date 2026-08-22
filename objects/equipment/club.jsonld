@@ -1,0 +1,40 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/club",
+  "@type": "Equipment",
+  "name": "Club",
+  "slug": "club",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.26",
+    "heading": "Vex",
+    "lineStart": 5391,
+    "lineEnd": 5391
+  },
+  "equipmentType": "weapon",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-26-weapons"
+  },
+  "weaponCategory": "Simple",
+  "attackType": "Melee",
+  "damage": "1d4 Bludgeoning",
+  "damageType": "Bludgeoning",
+  "damageRoll": {
+    "expression": "1d4",
+    "count": 1,
+    "sides": 4
+  },
+  "properties": [
+    "Light"
+  ],
+  "mastery": "Slow",
+  "weight": "2 lb.",
+  "cost": {
+    "text": "1 SP",
+    "currency": "SP",
+    "amount": 1
+  }
+}

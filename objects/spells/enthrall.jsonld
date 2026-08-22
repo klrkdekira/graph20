@@ -24,5 +24,17 @@
   "range": "60 feet",
   "components": "V, S",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Level 2 Enchantment (Bard, Warlock)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S\n\nDuration: Concentration, up to 1 minute\n\nYou weave a distracting string of words, causing creatures of your choice that you can see within range to make a Wisdom saving throw. Any creature you or your companions are fighting automatically succeeds on this save. On a failed save, a target has a -10 penalty to Wisdom (Perception) checks and Passive Perception until the spell ends."
+  "rulesText": "Level 2 Enchantment (Bard, Warlock)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S\n\nDuration: Concentration, up to 1 minute\n\nYou weave a distracting string of words, causing creatures of your choice that you can see within range to make a Wisdom saving throw. Any creature you or your companions are fighting automatically succeeds on this save. On a failed save, a target has a -10 penalty to Wisdom (Perception) checks and Passive Perception until the spell ends.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+    }
+  ],
+  "savingThrowAbility": "Wisdom",
+  "scalesWithSlotLevel": false,
+  "concentration": true,
+  "ritual": false
 }

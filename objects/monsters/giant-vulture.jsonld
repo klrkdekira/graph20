@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.50",
     "heading": "Giant Vulture",
-    "lineStart": 28531,
-    "lineEnd": 28561
+    "lineStart": 28533,
+    "lineEnd": 28563
   },
   "sizeTypeAlignment": "Large Monstrosity, Neutral Evil",
   "sizeAndType": "Large Monstrosity",
@@ -79,5 +79,21 @@
       "rulesText": "Gouge. Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Piercing damage, and the target has the Poisoned condition until the end of its next turn."
     }
   ],
-  "rulesText": "Large Monstrosity, Neutral Evil\n\nAC 10\n\nInitiative +0 (10)\n\nHP 25 (3d10 + 9)\n\nSpeed 10 ft., Fly 60 ft.\n\nSkills Perception +3\n\nResistances Necrotic\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages Understands Common but can't speak\n\nCR 1 (XP 200; PB +2)\n\nTraits\n\nPack Tactics. The vulture has Advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nGouge. Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Piercing damage, and the target has the Poisoned condition until the end of its next turn."
+  "rulesText": "Large Monstrosity, Neutral Evil\n\nAC 10\n\nInitiative +0 (10)\n\nHP 25 (3d10 + 9)\n\nSpeed 10 ft., Fly 60 ft.\n\nSkills Perception +3\n\nResistances Necrotic\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages Understands Common but can't speak\n\nCR 1 (XP 200; PB +2)\n\nTraits\n\nPack Tactics. The vulture has Advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nGouge. Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Piercing damage, and the target has the Poisoned condition until the end of its next turn.",
+  "attacks": [
+    {
+      "name": "Gouge",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 9,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d6+2",
+        "count": 2,
+        "sides": 6,
+        "modifier": 2
+      },
+      "reachFeet": 5
+    }
+  ]
 }

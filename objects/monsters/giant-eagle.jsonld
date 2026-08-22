@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.34",
     "heading": "Giant Eagle",
-    "lineStart": 28036,
-    "lineEnd": 28064
+    "lineStart": 28038,
+    "lineEnd": 28066
   },
   "sizeTypeAlignment": "Large Celestial, Neutral Good",
   "sizeAndType": "Large Celestial",
@@ -49,7 +49,9 @@
       "savingThrow": 3
     },
     "con": {
-      "score": 13
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
     },
     "int": {
       "score": 8,
@@ -62,7 +64,9 @@
       "savingThrow": 2
     },
     "cha": {
-      "score": 10
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
     }
   },
   "statSections": [
@@ -71,5 +75,21 @@
       "rulesText": "Multiattack. The eagle makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage plus 3 (1d6) Radiant damage."
     }
   ],
-  "rulesText": "Large Celestial, Neutral Good\n\nAC 13\n\nInitiative +3 (13)\n\nHP 26 (4d10 + 4)\n\nSpeed 10 ft., Fly 80 ft.\n\nSkills Perception +6\n\nResistances Necrotic, Radiant\n\nSenses Passive Perception 16\n\nLanguages Celestial; understands Common and Primordial (Auran) but can't speak them\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The eagle makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage plus 3 (1d6) Radiant damage."
+  "rulesText": "Large Celestial, Neutral Good\n\nAC 13\n\nInitiative +3 (13)\n\nHP 26 (4d10 + 4)\n\nSpeed 10 ft., Fly 80 ft.\n\nSkills Perception +6\n\nResistances Necrotic, Radiant\n\nSenses Passive Perception 16\n\nLanguages Celestial; understands Common and Primordial (Auran) but can't speak them\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The eagle makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage plus 3 (1d6) Radiant damage.",
+  "attacks": [
+    {
+      "name": "Rend",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 5,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "1d4+3",
+        "count": 1,
+        "sides": 4,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    }
+  ]
 }

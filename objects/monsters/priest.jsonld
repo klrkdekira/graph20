@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.191",
     "heading": "Priest",
-    "lineStart": 24094,
-    "lineEnd": 24135
+    "lineStart": 24096,
+    "lineEnd": 24137
   },
   "sizeTypeAlignment": "Medium or Small Humanoid (Cleric), Neutral",
   "sizeAndType": "Medium or Small Humanoid (Cleric)",
@@ -79,5 +79,36 @@
       "rulesText": "Divine Aid (3/Day). The priest casts Bless, Dispel Magic, Healing Word, or Lesser Restoration, using the same spellcasting ability as Spellcasting."
     }
   ],
-  "rulesText": "Medium or Small Humanoid (Cleric), Neutral\n\nAC 13\n\nInitiative +0 (10)\n\nHP 38 (7d8 + 7)\n\nSpeed 30 ft.\n\nSkills Medicine +7, Perception +5, Religion +5\n\nGear Chain Shirt, Holy Symbol, Mace\n\nSenses Passive Perception 15\n\nLanguages Common plus one other language\n\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The priest makes two attacks, using Mace or Radiant Flame in any combination.\n\nMace. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage plus 5 (2d4) Radiant damage.\n\nRadiant Flame. Ranged Attack Roll: +5, range 60 ft.\nHit: 11 (2d10) Radiant damage.\n\nSpellcasting. The priest casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 13):\n\nAt Will: Light, Thaumaturgy\n\n1/Day: Spirit Guardians\n\nBonus Actions\n\nDivine Aid (3/Day). The priest casts Bless, Dispel Magic, Healing Word, or Lesser Restoration, using the same spellcasting ability as Spellcasting."
+  "rulesText": "Medium or Small Humanoid (Cleric), Neutral\n\nAC 13\n\nInitiative +0 (10)\n\nHP 38 (7d8 + 7)\n\nSpeed 30 ft.\n\nSkills Medicine +7, Perception +5, Religion +5\n\nGear Chain Shirt, Holy Symbol, Mace\n\nSenses Passive Perception 15\n\nLanguages Common plus one other language\n\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The priest makes two attacks, using Mace or Radiant Flame in any combination.\n\nMace. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage plus 5 (2d4) Radiant damage.\n\nRadiant Flame. Ranged Attack Roll: +5, range 60 ft.\nHit: 11 (2d10) Radiant damage.\n\nSpellcasting. The priest casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 13):\n\nAt Will: Light, Thaumaturgy\n\n1/Day: Spirit Guardians\n\nBonus Actions\n\nDivine Aid (3/Day). The priest casts Bless, Dispel Magic, Healing Word, or Lesser Restoration, using the same spellcasting ability as Spellcasting.",
+  "attacks": [
+    {
+      "name": "Mace",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 6,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "1d6+3",
+        "count": 1,
+        "sides": 6,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Radiant Flame",
+      "attackType": "Ranged",
+      "attackBonus": 5,
+      "averageDamage": 11,
+      "damageType": "Radiant",
+      "damageRoll": {
+        "expression": "2d10",
+        "count": 2,
+        "sides": 10
+      },
+      "rangeFeet": {
+        "normal": 60
+      }
+    }
+  ]
 }

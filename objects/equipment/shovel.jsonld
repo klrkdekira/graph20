@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/shovel",
+  "@type": "Equipment",
+  "name": "Shovel",
+  "slug": "shovel",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.64",
+    "heading": "Ammunition (Varies)",
+    "lineStart": 5687,
+    "lineEnd": 5687
+  },
+  "equipmentType": "gear",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-64-adventuring-gear-2"
+  },
+  "weight": "5 lb.",
+  "cost": {
+    "text": "2 GP",
+    "currency": "GP",
+    "amount": 2
+  }
+}

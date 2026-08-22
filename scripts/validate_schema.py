@@ -9,17 +9,12 @@ from pathlib import Path
 from jsonschema import Draft202012Validator
 from referencing import Registry, Resource
 
-from srdlib import MANIFEST_NAME, iter_object_files, load_json
-
-SCHEMA_FOR_COLLECTION = {
-    "sources": "source.schema.json",
-    "rules": "rule.schema.json",
-    "tables": "table.schema.json",
-    "spells": "spell.schema.json",
-    "feats": "feat.schema.json",
-    "magic-items": "magic-item.schema.json",
-    "monsters": "monster.schema.json",
-}
+from srdlib import (
+    MANIFEST_NAME,
+    SCHEMA_FOR_COLLECTION,
+    iter_object_files,
+    load_json,
+)
 
 
 def main():

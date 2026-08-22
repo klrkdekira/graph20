@@ -74,5 +74,44 @@
       "rulesText": "Multiattack. The armor makes two Slam attacks.\n\nSlam. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage."
     }
   ],
-  "rulesText": "Medium Construct, Unaligned\n\nAC 18\n\nInitiative +2 (12)\n\nHP 33 (6d8 + 6)\n\nSpeed 25 ft.\n\nImmunities Poison, Psychic; Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned\n\nSenses Blindsight 60 ft.; Passive Perception 6\n\nLanguages None\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The armor makes two Slam attacks.\n\nSlam. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage."
+  "rulesText": "Medium Construct, Unaligned\n\nAC 18\n\nInitiative +2 (12)\n\nHP 33 (6d8 + 6)\n\nSpeed 25 ft.\n\nImmunities Poison, Psychic; Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned\n\nSenses Blindsight 60 ft.; Passive Perception 6\n\nLanguages None\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The armor makes two Slam attacks.\n\nSlam. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/deafened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/exhaustion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/paralyzed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/petrified"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Slam",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 5,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "1d6+2",
+        "count": 1,
+        "sides": 6,
+        "modifier": 2
+      },
+      "reachFeet": 5
+    }
+  ]
 }

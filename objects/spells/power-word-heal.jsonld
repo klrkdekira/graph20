@@ -23,5 +23,16 @@
   "castingTime": "Action",
   "range": "60 feet",
   "duration": "Instantaneous",
-  "rulesText": "Level 9 Enchantment (Bard, Cleric)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponent: V\n\nDuration: Instantaneous\n\nA wave of healing energy washes over one creature you can see within range. The target regains all its Hit Points. If the creature has the Charmed, Frightened, Paralyzed, Poisoned, or Stunned condition, the condition ends. If the creature has the Prone condition, it can use its Reaction to stand up."
+  "rulesText": "Level 9 Enchantment (Bard, Cleric)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponent: V\n\nDuration: Instantaneous\n\nA wave of healing energy washes over one creature you can see within range. The target regains all its Hit Points. If the creature has the Charmed, Frightened, Paralyzed, Poisoned, or Stunned condition, the condition ends. If the creature has the Prone condition, it can use its Reaction to stand up.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": false
 }

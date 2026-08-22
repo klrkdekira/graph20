@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "SRD 5.2.1 System JSON"
+type: dataset
+authors:
+  - family-names: "Leong"
+    given-names: "Chee"
+version: "0.2.0"
+license: "CC-BY-4.0"
+url: "https://cheeleong.dev/graph20/"
+abstract: >-
+  A source-faithful JSON-LD 1.1 reference corpus and JSON Schema Draft
+  2020-12 specifications for the System Reference Document 5.2.1 by
+  Wizards of the Coast LLC (CC-BY-4.0). Includes rules, tables, classes,
+  subclasses, species, backgrounds, feats, equipment, spells, conditions,
+  magic items, and monster stat blocks with line-level source provenance.
+references:
+  - type: manual
+    title: "System Reference Document 5.2.1"
+    authors:
+      - name: "Wizards of the Coast LLC"
+    url: "https://www.dndbeyond.com/srd"
+    license: "CC-BY-4.0"

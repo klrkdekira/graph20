@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.252",
     "heading": "Warrior Veteran",
-    "lineStart": 26324,
-    "lineEnd": 26358
+    "lineStart": 26326,
+    "lineEnd": 26360
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -79,5 +79,38 @@
       "rulesText": "Parry. Trigger: The warrior is hit by a melee attack roll while holding a weapon. Response: The warrior adds 2 to its AC against that attack, possibly causing it to miss."
     }
   ],
-  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 17\n\nInitiative +3 (13)\n\nHP 65 (10d8 + 20)\n\nSpeed 30 ft.\n\nSkills Athletics +5, Perception +2\n\nGear Greatsword, Heavy Crossbow, Splint Armor\n\nSenses Passive Perception 12\n\nLanguages Common plus one other language\n\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The warrior makes two Greatsword or Heavy Crossbow attacks.\n\nGreatsword. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.\n\nHeavy Crossbow. Ranged Attack Roll: +3, range 100/400 ft. Hit: 12 (2d10 + 1) Piercing damage.\n\nReactions\n\nParry. Trigger: The warrior is hit by a melee attack roll while holding a weapon. Response: The warrior adds 2 to its AC against that attack, possibly causing it to miss."
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 17\n\nInitiative +3 (13)\n\nHP 65 (10d8 + 20)\n\nSpeed 30 ft.\n\nSkills Athletics +5, Perception +2\n\nGear Greatsword, Heavy Crossbow, Splint Armor\n\nSenses Passive Perception 12\n\nLanguages Common plus one other language\n\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The warrior makes two Greatsword or Heavy Crossbow attacks.\n\nGreatsword. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.\n\nHeavy Crossbow. Ranged Attack Roll: +3, range 100/400 ft. Hit: 12 (2d10 + 1) Piercing damage.\n\nReactions\n\nParry. Trigger: The warrior is hit by a melee attack roll while holding a weapon. Response: The warrior adds 2 to its AC against that attack, possibly causing it to miss.",
+  "attacks": [
+    {
+      "name": "Greatsword",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 10,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "2d6+3",
+        "count": 2,
+        "sides": 6,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Heavy Crossbow",
+      "attackType": "Ranged",
+      "attackBonus": 3,
+      "averageDamage": 12,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d10+1",
+        "count": 2,
+        "sides": 10,
+        "modifier": 1
+      },
+      "rangeFeet": {
+        "normal": 100,
+        "long": 400
+      }
+    }
+  ]
 }

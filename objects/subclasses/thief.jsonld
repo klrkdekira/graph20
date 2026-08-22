@@ -1,0 +1,49 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/subclasses/thief",
+  "@type": "Subclass",
+  "name": "Thief",
+  "slug": "thief",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.24",
+    "heading": "Rogue Subclass: Thief",
+    "lineStart": 3882,
+    "lineEnd": 3886
+  },
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/rogue"
+  },
+  "parentClassName": "Rogue",
+  "rulesText": "Hunt for Treasure as a Classic Adventurer\n\nA mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer. In addition to improving your agility and stealth, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.",
+  "features": [
+    {
+      "level": 3,
+      "name": "Fast Hands",
+      "rulesText": "As a Bonus Action, you can do one of the following.\n\nSleight of Hand. Make a Dexterity (Sleight of Hand) check to pick a lock or disarm a trap with Thieves' Tools or to pick a pocket.\n\nUse an Object. Take the Utilize action, or take the Magic action to use a magic item that requires that action."
+    },
+    {
+      "level": 3,
+      "name": "Second-Story Work",
+      "rulesText": "You've trained to get into especially hard-to-reach places, granting you these benefits.\n\nClimber. You gain a Climb Speed equal to your Speed.\n\nJumper. You can determine your jump distance using your Dexterity rather than your Strength."
+    },
+    {
+      "level": 9,
+      "name": "Supreme Sneak",
+      "rulesText": "You gain the following Cunning Strike option.\n\nStealth Attack (Cost: 1d6). If you have the Hide action's Invisible condition, this attack doesn't end that condition on you if you end the turn behind Three-Quarters Cover or Total Cover."
+    },
+    {
+      "level": 13,
+      "name": "Use Magic Device",
+      "rulesText": "You've learned how to maximize use of magic items, granting you the following benefits.\n\nAttunement. You can attune to up to four magic items at once.\n\nCharges. Whenever you use a magic item property that expends charges, roll 1d6. On a roll of 6, you use the property without expending the charges.\n\nScrolls. You can use any Spell Scroll, using Intelligence as your spellcasting ability for the spell. If the spell is a cantrip or a level 1 spell, you can cast it reliably. If the scroll contains a higher-level spell, you must first succeed on an Intelligence (Arcana) check (DC 10 plus the spell's level). On a successful check, you cast the spell from the scroll. On a failed check, the scroll disintegrates."
+    },
+    {
+      "level": 17,
+      "name": "Thief's Reflexes",
+      "rulesText": "You are adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal Initiative and your second turn at your Initiative minus 10."
+    }
+  ]
+}

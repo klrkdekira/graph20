@@ -1,0 +1,35 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/species/human",
+  "@type": "Species",
+  "name": "Human",
+  "slug": "human",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Origins",
+    "section": "4.27",
+    "heading": "Human",
+    "lineStart": 5027,
+    "lineEnd": 5045
+  },
+  "creatureType": "Humanoid",
+  "size": "Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species",
+  "speed": "30 feet",
+  "traits": [
+    {
+      "name": "Resourceful",
+      "rulesText": "You gain Heroic Inspiration whenever you finish a Long Rest."
+    },
+    {
+      "name": "Skillful",
+      "rulesText": "You gain proficiency in one skill of your choice."
+    },
+    {
+      "name": "Versatile",
+      "rulesText": "You gain an Origin feat of your choice (see \"Feats\"). Skilled is recommended.\n\nFiendish Legacies\n\n<table><tr><td>Legacy</td><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr><tr><td>Abyssal</td><td>You have Resistance to Poison damage.You also know the Poison Spray cantrip.</td><td>Ray of Sickness</td><td>Hold Person</td></tr><tr><td>Chthonic</td><td>You have Resistance to Necrotic damage.You also know the Chill Touch cantrip.</td><td>False Life</td><td>Ray of Enfeeblement</td></tr><tr><td>Infernal</td><td>You have Resistance to Fire damage.You also know the Fire Bolt cantrip.</td><td>Hellish Rebuke</td><td>Darkness</td></tr></table>"
+    }
+  ],
+  "rulesText": "Creature Type: Humanoid\n\nSize: Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species\n\nSpeed: 30 feet\n\nAs a Human, you have these special traits.\n\nResourceful. You gain Heroic Inspiration whenever you finish a Long Rest.\n\nSkillful. You gain proficiency in one skill of your choice.\n\nVersatile. You gain an Origin feat of your choice (see \"Feats\"). Skilled is recommended.\n\nFiendish Legacies\n\n<table><tr><td>Legacy</td><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr><tr><td>Abyssal</td><td>You have Resistance to Poison damage.You also know the Poison Spray cantrip.</td><td>Ray of Sickness</td><td>Hold Person</td></tr><tr><td>Chthonic</td><td>You have Resistance to Necrotic damage.You also know the Chill Touch cantrip.</td><td>False Life</td><td>Ray of Enfeeblement</td></tr><tr><td>Infernal</td><td>You have Resistance to Fire damage.You also know the Fire Bolt cantrip.</td><td>Hellish Rebuke</td><td>Darkness</td></tr></table>"
+}

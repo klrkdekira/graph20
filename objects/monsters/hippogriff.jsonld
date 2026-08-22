@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.134",
     "heading": "Hippogriff",
-    "lineStart": 22097,
-    "lineEnd": 22129
+    "lineStart": 22099,
+    "lineEnd": 22131
   },
   "sizeTypeAlignment": "Large Monstrosity, Unaligned",
   "sizeAndType": "Large Monstrosity",
@@ -48,7 +48,9 @@
       "savingThrow": 1
     },
     "con": {
-      "score": 13
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
     },
     "int": {
       "score": 2,
@@ -61,7 +63,9 @@
       "savingThrow": 1
     },
     "cha": {
-      "score": 8
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
     }
   },
   "statSections": [
@@ -74,5 +78,21 @@
       "rulesText": "Multiattack. The hippogriff makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage."
     }
   ],
-  "rulesText": "Large Monstrosity, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 26 (4d10 + 4)\n\nSpeed 40 ft., Fly 60 ft.\n\nSkills Perception +5\n\nSenses Passive Perception 15\n\nLanguages None\n\nCR 1 (XP 200; PB +2)\n\nTraits\n\nFlyby. The hippogriff doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nMultiattack. The hippogriff makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage."
+  "rulesText": "Large Monstrosity, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 26 (4d10 + 4)\n\nSpeed 40 ft., Fly 60 ft.\n\nSkills Perception +5\n\nSenses Passive Perception 15\n\nLanguages None\n\nCR 1 (XP 200; PB +2)\n\nTraits\n\nFlyby. The hippogriff doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nMultiattack. The hippogriff makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.",
+  "attacks": [
+    {
+      "name": "Rend",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 7,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "1d8+3",
+        "count": 1,
+        "sides": 8,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    }
+  ]
 }

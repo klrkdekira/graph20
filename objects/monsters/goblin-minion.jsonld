@@ -78,5 +78,25 @@
       "rulesText": "Nimble Escape. The goblin takes the Disengage or Hide action."
     }
   ],
-  "rulesText": "Small Fey (Goblinoid), Chaotic Neutral\n\nAC 12\n\nInitiative +2 (12)\n\nHP 7 (2d6)\n\nSpeed 30 ft.\n\nSkills Stealth +6\n\nGear Daggers (3)\n\nSenses Darkvision 60 ft.; Passive Perception 9\n\nLanguages Common, Goblin\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nDagger. Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage.\n\nBonus Actions\n\nNimble Escape. The goblin takes the Disengage or Hide action."
+  "rulesText": "Small Fey (Goblinoid), Chaotic Neutral\n\nAC 12\n\nInitiative +2 (12)\n\nHP 7 (2d6)\n\nSpeed 30 ft.\n\nSkills Stealth +6\n\nGear Daggers (3)\n\nSenses Darkvision 60 ft.; Passive Perception 9\n\nLanguages Common, Goblin\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nDagger. Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage.\n\nBonus Actions\n\nNimble Escape. The goblin takes the Disengage or Hide action.",
+  "attacks": [
+    {
+      "name": "Dagger",
+      "attackType": "Melee or Ranged",
+      "attackBonus": 4,
+      "averageDamage": 4,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d4+2",
+        "count": 1,
+        "sides": 4,
+        "modifier": 2
+      },
+      "reachFeet": 5,
+      "rangeFeet": {
+        "normal": 20,
+        "long": 60
+      }
+    }
+  ]
 }

@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-290-1d100-effect-4",
+  "@type": "Table",
+  "name": "1d100 Effect",
+  "slug": "10-290-1d100-effect-4",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.290",
+    "heading": "Wand of Wonder",
+    "lineStart": 17251,
+    "lineEnd": 17251
+  },
+  "columns": [
+    "31–35",
+    "Nothing happens at the chosen point of origin. Instead, you take 1d6 Psychic damage."
+  ],
+  "rows": []
+}

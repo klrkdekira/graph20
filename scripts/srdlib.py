@@ -32,8 +32,14 @@ COLLECTIONS = [
     "sources",
     "rules",
     "tables",
-    "spells",
+    "classes",
+    "subclasses",
+    "species",
+    "backgrounds",
     "feats",
+    "equipment",
+    "spells",
+    "conditions",
     "magic-items",
     "monsters",
 ]
@@ -42,11 +48,38 @@ COLLECTION_TYPES = {
     "sources": "Source",
     "rules": "Rule",
     "tables": "Table",
-    "spells": "Spell",
+    "classes": "CharacterClass",
+    "subclasses": "Subclass",
+    "species": "Species",
+    "backgrounds": "Background",
     "feats": "Feat",
+    "equipment": "Equipment",
+    "spells": "Spell",
+    "conditions": "Condition",
     "magic-items": "MagicItem",
     "monsters": "Monster",
 }
+
+SCHEMA_FOR_COLLECTION = {
+    "sources": "source.schema.json",
+    "rules": "rule.schema.json",
+    "tables": "table.schema.json",
+    "classes": "class.schema.json",
+    "subclasses": "subclass.schema.json",
+    "species": "species.schema.json",
+    "backgrounds": "background.schema.json",
+    "feats": "feat.schema.json",
+    "equipment": "equipment.schema.json",
+    "spells": "spell.schema.json",
+    "conditions": "condition.schema.json",
+    "magic-items": "magic-item.schema.json",
+    "monsters": "monster.schema.json",
+}
+
+CLASS_NAMES = [
+    "Barbarian", "Bard", "Cleric", "Druid", "Fighter", "Monk",
+    "Paladin", "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard",
+]
 
 # Ordered chapter titles as printed in the SRD body (not the Contents list).
 # Chapters are located sequentially: first exact `# <title>` heading after the

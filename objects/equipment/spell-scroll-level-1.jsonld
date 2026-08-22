@@ -1,0 +1,26 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/spell-scroll-level-1",
+  "@type": "Equipment",
+  "name": "Spell Scroll (Level 1)",
+  "slug": "spell-scroll-level-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.64",
+    "heading": "Ammunition (Varies)",
+    "lineStart": 5687,
+    "lineEnd": 5687
+  },
+  "equipmentType": "gear",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-64-adventuring-gear-2"
+  },
+  "cost": {
+    "text": "50 GP",
+    "currency": "GP",
+    "amount": 50
+  }
+}

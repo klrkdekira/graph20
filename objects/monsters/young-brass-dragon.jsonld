@@ -49,7 +49,9 @@
       "savingThrow": 3
     },
     "con": {
-      "score": 17
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "int": {
       "score": 12,
@@ -62,7 +64,9 @@
       "savingThrow": 3
     },
     "cha": {
-      "score": 15
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
     }
   },
   "statSections": [
@@ -71,5 +75,21 @@
       "rulesText": "Multiattack. The dragon makes three Rend attacks. It can replace two attacks with a use of Sleep Breath.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 15 (2d10 + 4) Slashing damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 14, each creature in a 40-foot-long, 5-foot-wide Line. Failure: 38 (11d6) Fire damage. Success: Half damage.\n\nSleep Breath. Constitution Saving Throw: DC 14, each creature in a 30-foot Cone. Failure: The target has the Incapacitated condition until the end of its next turn, at which point it repeats the save. Second Failure: The target has the Unconscious condition for 1 minute. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it."
     }
   ],
-  "rulesText": "Large Dragon (Metallic), Chaotic Good\n\nAC 17\n\nInitiative +3 (13)\n\nHP 110 (13d10 + 39)\n\nSpeed 40 ft., Burrow 20 ft., Fly 80 ft.\n\nSkills Perception +6, Persuasion +5, Stealth +3\n\nImmunities Fire\n\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 16\n\nLanguages Common, Draconic\n\nCR 6 (XP 2,300; PB +3)\n\nActions\n\nMultiattack. The dragon makes three Rend attacks. It can replace two attacks with a use of Sleep Breath.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 15 (2d10 + 4) Slashing damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 14, each creature in a 40-foot-long, 5-foot-wide Line. Failure: 38 (11d6) Fire damage. Success: Half damage.\n\nSleep Breath. Constitution Saving Throw: DC 14, each creature in a 30-foot Cone. Failure: The target has the Incapacitated condition until the end of its next turn, at which point it repeats the save. Second Failure: The target has the Unconscious condition for 1 minute. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it."
+  "rulesText": "Large Dragon (Metallic), Chaotic Good\n\nAC 17\n\nInitiative +3 (13)\n\nHP 110 (13d10 + 39)\n\nSpeed 40 ft., Burrow 20 ft., Fly 80 ft.\n\nSkills Perception +6, Persuasion +5, Stealth +3\n\nImmunities Fire\n\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 16\n\nLanguages Common, Draconic\n\nCR 6 (XP 2,300; PB +3)\n\nActions\n\nMultiattack. The dragon makes three Rend attacks. It can replace two attacks with a use of Sleep Breath.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 15 (2d10 + 4) Slashing damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 14, each creature in a 40-foot-long, 5-foot-wide Line. Failure: 38 (11d6) Fire damage. Success: Half damage.\n\nSleep Breath. Constitution Saving Throw: DC 14, each creature in a 30-foot Cone. Failure: The target has the Incapacitated condition until the end of its next turn, at which point it repeats the save. Second Failure: The target has the Unconscious condition for 1 minute. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.",
+  "attacks": [
+    {
+      "name": "Rend",
+      "attackType": "Melee",
+      "attackBonus": 7,
+      "averageDamage": 15,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "2d10+4",
+        "count": 2,
+        "sides": 10,
+        "modifier": 4
+      },
+      "reachFeet": 10
+    }
+  ]
 }

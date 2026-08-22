@@ -1,0 +1,40 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/longsword",
+  "@type": "Equipment",
+  "name": "Longsword",
+  "slug": "longsword",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.26",
+    "heading": "Vex",
+    "lineStart": 5391,
+    "lineEnd": 5391
+  },
+  "equipmentType": "weapon",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-26-weapons"
+  },
+  "weaponCategory": "Martial",
+  "attackType": "Melee",
+  "damage": "1d8 Slashing",
+  "damageType": "Slashing",
+  "damageRoll": {
+    "expression": "1d8",
+    "count": 1,
+    "sides": 8
+  },
+  "properties": [
+    "Versatile (1d10)"
+  ],
+  "mastery": "Sap",
+  "weight": "3 lb.",
+  "cost": {
+    "text": "15 GP",
+    "currency": "GP",
+    "amount": 15
+  }
+}

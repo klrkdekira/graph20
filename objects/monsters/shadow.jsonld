@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.211",
     "heading": "Shadow",
-    "lineStart": 24818,
-    "lineEnd": 24860
+    "lineStart": 24820,
+    "lineEnd": 24862
   },
   "sizeTypeAlignment": "Medium Undead, Chaotic Evil",
   "sizeAndType": "Medium Undead",
@@ -51,7 +51,9 @@
       "savingThrow": 2
     },
     "con": {
-      "score": 13
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
     },
     "int": {
       "score": 6,
@@ -64,7 +66,9 @@
       "savingThrow": 0
     },
     "cha": {
-      "score": 8
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
     }
   },
   "statSections": [
@@ -81,5 +85,50 @@
       "rulesText": "Shadow Stealth. While in Dim Light or Darkness, the shadow takes the Hide action."
     }
   ],
-  "rulesText": "Medium Undead, Chaotic Evil\n\nAC 12\n\nInitiative +2 (12)\n\nHP 27 (5d8 + 5)\n\nSpeed 40 ft.\n\nSkills Stealth +6\n\nVulnerabilities Radiant\n\nResistances Acid, Cold, Fire, Lightning, Thunder\n\nImmunities Necrotic, Poison; Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\n\nSenses Darkvision 60 ft.; Passive Perception 10\n\nLanguages None\n\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nAmorphous. The shadow can move through a space as narrow as 1 inch without expending extra movement to do so.\n\nSunlight Weakness. While in sunlight, the shadow has Disadvantage on D20 Tests.\n\nActions\n\nDraining Swipe. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Necrotic damage, and the target's Strength score decreases by 1d4. The target dies if this reduces that score to 0. If a Humanoid is slain by this attack, a Shadow rises from the corpse 1d4 hours later.\n\nBonus Actions\n\nShadow Stealth. While in Dim Light or Darkness, the shadow takes the Hide action."
+  "rulesText": "Medium Undead, Chaotic Evil\n\nAC 12\n\nInitiative +2 (12)\n\nHP 27 (5d8 + 5)\n\nSpeed 40 ft.\n\nSkills Stealth +6\n\nVulnerabilities Radiant\n\nResistances Acid, Cold, Fire, Lightning, Thunder\n\nImmunities Necrotic, Poison; Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\n\nSenses Darkvision 60 ft.; Passive Perception 10\n\nLanguages None\n\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nAmorphous. The shadow can move through a space as narrow as 1 inch without expending extra movement to do so.\n\nSunlight Weakness. While in sunlight, the shadow has Disadvantage on D20 Tests.\n\nActions\n\nDraining Swipe. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Necrotic damage, and the target's Strength score decreases by 1d4. The target dies if this reduces that score to 0. If a Humanoid is slain by this attack, a Shadow rises from the corpse 1d4 hours later.\n\nBonus Actions\n\nShadow Stealth. While in Dim Light or Darkness, the shadow takes the Hide action.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/exhaustion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/paralyzed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/petrified"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Draining Swipe",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 5,
+      "damageType": "Necrotic",
+      "damageRoll": {
+        "expression": "1d6+2",
+        "count": 1,
+        "sides": 6,
+        "modifier": 2
+      },
+      "reachFeet": 5
+    }
+  ]
 }

@@ -1,0 +1,39 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/sling",
+  "@type": "Equipment",
+  "name": "Sling",
+  "slug": "sling",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.26",
+    "heading": "Vex",
+    "lineStart": 5391,
+    "lineEnd": 5391
+  },
+  "equipmentType": "weapon",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-26-weapons"
+  },
+  "weaponCategory": "Simple",
+  "attackType": "Ranged",
+  "damage": "1d4 Bludgeoning",
+  "damageType": "Bludgeoning",
+  "damageRoll": {
+    "expression": "1d4",
+    "count": 1,
+    "sides": 4
+  },
+  "properties": [
+    "Ammunition (Range 30/120; Bullet)"
+  ],
+  "mastery": "Slow",
+  "cost": {
+    "text": "1 SP",
+    "currency": "SP",
+    "amount": 1
+  }
+}

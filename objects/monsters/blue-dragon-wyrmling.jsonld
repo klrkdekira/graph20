@@ -75,5 +75,21 @@
       "rulesText": "Multiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Slashing damage plus 3 (1d6) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 12, each creature in a 30-foot-long, 5-foot-wide Line. Failure: 21 (6d6) Lightning damage. Success: Half damage."
     }
   ],
-  "rulesText": "Medium Dragon (Chromatic), Lawful Evil\n\nAC 17\n\nInitiative +2 (12)\n\nHP 65 (10d8 + 20)\n\nSpeed 30 ft., Burrow 15 ft., Fly 60 ft.\n\nSkills Perception +4, Stealth +2\n\nImmunities Lightning\n\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14\n\nLanguages Draconic\n\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Slashing damage plus 3 (1d6) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 12, each creature in a 30-foot-long, 5-foot-wide Line. Failure: 21 (6d6) Lightning damage. Success: Half damage."
+  "rulesText": "Medium Dragon (Chromatic), Lawful Evil\n\nAC 17\n\nInitiative +2 (12)\n\nHP 65 (10d8 + 20)\n\nSpeed 30 ft., Burrow 15 ft., Fly 60 ft.\n\nSkills Perception +4, Stealth +2\n\nImmunities Lightning\n\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14\n\nLanguages Draconic\n\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Slashing damage plus 3 (1d6) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 12, each creature in a 30-foot-long, 5-foot-wide Line. Failure: 21 (6d6) Lightning damage. Success: Half damage.",
+  "attacks": [
+    {
+      "name": "Rend",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 8,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "1d10+3",
+        "count": 1,
+        "sides": 10,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    }
+  ]
 }

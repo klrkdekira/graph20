@@ -39,7 +39,7 @@
           "value": "Club"
         },
         {
-          "value": "Id4 Bludgeoning"
+          "value": "1d4 Bludgeoning"
         },
         {
           "value": "Light"
@@ -62,7 +62,7 @@
           "value": "Dagger"
         },
         {
-          "value": "Id4 Piercing"
+          "value": "1d4 Piercing"
         },
         {
           "value": "Finesse, Light, Thrown (Range 20/60)"
@@ -85,7 +85,7 @@
           "value": "Greatclub"
         },
         {
-          "value": "Id8 Bludgeoning"
+          "value": "1d8 Bludgeoning"
         },
         {
           "value": "Two-Handed"
@@ -108,7 +108,7 @@
           "value": "Handaxe"
         },
         {
-          "value": "Id6 Slashing"
+          "value": "1d6 Slashing"
         },
         {
           "value": "Light, Thrown (Range 20/60)"
@@ -131,7 +131,7 @@
           "value": "Javelin"
         },
         {
-          "value": "Id6 Piercing"
+          "value": "1d6 Piercing"
         },
         {
           "value": "Thrown (Range 30/120)"
@@ -154,7 +154,7 @@
           "value": "Light Hammer"
         },
         {
-          "value": "Id4 Bludgeoning"
+          "value": "1d4 Bludgeoning"
         },
         {
           "value": "Light, Thrown (Range 20/60)"
@@ -177,7 +177,7 @@
           "value": "Mace"
         },
         {
-          "value": "Id6 Bludgeoning"
+          "value": "1d6 Bludgeoning"
         },
         {
           "value": "—"
@@ -200,10 +200,10 @@
           "value": "Quarterstaff"
         },
         {
-          "value": "Id6 Bludgeoning"
+          "value": "1d6 Bludgeoning"
         },
         {
-          "value": "Versatile (Id8)"
+          "value": "Versatile (1d8)"
         },
         {
           "value": "Topple"
@@ -223,7 +223,7 @@
           "value": "Sickle"
         },
         {
-          "value": "Id4 Slashing"
+          "value": "1d4 Slashing"
         },
         {
           "value": "Light"
@@ -246,10 +246,10 @@
           "value": "Spear"
         },
         {
-          "value": "Id6 Piercing"
+          "value": "1d6 Piercing"
         },
         {
-          "value": "Thrown (Range 20/60), Versatile (Id8)"
+          "value": "Thrown (Range 20/60), Versatile (1d8)"
         },
         {
           "value": "Sap"
@@ -278,7 +278,7 @@
           "value": "Dart"
         },
         {
-          "value": "Id4 Piercing"
+          "value": "1d4 Piercing"
         },
         {
           "value": "Finesse, Thrown (Range 20/60)"
@@ -301,7 +301,7 @@
           "value": "Light Crossbow"
         },
         {
-          "value": "Id8 Piercing"
+          "value": "1d8 Piercing"
         },
         {
           "value": "Ammunition (Range 80/320; Bolt), Loading, Two-Handed"
@@ -324,7 +324,7 @@
           "value": "Shortbow"
         },
         {
-          "value": "Id6 Piercing"
+          "value": "1d6 Piercing"
         },
         {
           "value": "Ammunition (Range 80/320; Arrow), Two-Handed"
@@ -347,7 +347,7 @@
           "value": "Sling"
         },
         {
-          "value": "Id4 Bludgeoning"
+          "value": "1d4 Bludgeoning"
         },
         {
           "value": "Ammunition (Range 30/120; Bullet)"
@@ -379,10 +379,10 @@
           "value": "Battleaxe"
         },
         {
-          "value": "Id8 Slashing"
+          "value": "1d8 Slashing"
         },
         {
-          "value": "Versatile (Id10)"
+          "value": "Versatile (1d10)"
         },
         {
           "value": "Topple"
@@ -402,7 +402,7 @@
           "value": "Flail"
         },
         {
-          "value": "Id8 Bludgeoning"
+          "value": "1d8 Bludgeoning"
         },
         {
           "value": "—"
@@ -425,7 +425,7 @@
           "value": "Glaive"
         },
         {
-          "value": "Id10 Slashing"
+          "value": "1d10 Slashing"
         },
         {
           "value": "Heavy, Reach, Two-Handed"
@@ -448,7 +448,7 @@
           "value": "Greataxe"
         },
         {
-          "value": "Id12 Slashing"
+          "value": "1d12 Slashing"
         },
         {
           "value": "Heavy, Two-Handed"
@@ -494,7 +494,7 @@
           "value": "Halberd"
         },
         {
-          "value": "Id10 Slashing"
+          "value": "1d10 Slashing"
         },
         {
           "value": "Heavy, Reach, Two-Handed"
@@ -517,7 +517,7 @@
           "value": "Lance"
         },
         {
-          "value": "Id10 Piercing"
+          "value": "1d10 Piercing"
         },
         {
           "value": "Heavy, Reach, Two-Handed (unless mounted)"
@@ -540,10 +540,10 @@
           "value": "Longsword"
         },
         {
-          "value": "Id8 Slashing"
+          "value": "1d8 Slashing"
         },
         {
-          "value": "Versatile (Id10)"
+          "value": "Versatile (1d10)"
         },
         {
           "value": "Sap"
@@ -586,7 +586,7 @@
           "value": "Morningstar"
         },
         {
-          "value": "Id8 Piercing"
+          "value": "1d8 Piercing"
         },
         {
           "value": "—"
@@ -609,7 +609,7 @@
           "value": "Pike"
         },
         {
-          "value": "Id10 Piercing"
+          "value": "1d10 Piercing"
         },
         {
           "value": "Heavy, Reach, Two-Handed"
@@ -632,7 +632,7 @@
           "value": "Rapier"
         },
         {
-          "value": "Id8 Piercing"
+          "value": "1d8 Piercing"
         },
         {
           "value": "Finesse"
@@ -655,7 +655,7 @@
           "value": "Scimitar"
         },
         {
-          "value": "Id6 Slashing"
+          "value": "1d6 Slashing"
         },
         {
           "value": "Finesse, Light"
@@ -678,7 +678,7 @@
           "value": "Shortsword"
         },
         {
-          "value": "Id6 Piercing"
+          "value": "1d6 Piercing"
         },
         {
           "value": "Finesse, Light"
@@ -701,10 +701,10 @@
           "value": "Trident"
         },
         {
-          "value": "Id8 Piercing"
+          "value": "1d8 Piercing"
         },
         {
-          "value": "Thrown (Range 20/60), Versatile (Id10)"
+          "value": "Thrown (Range 20/60), Versatile (1d10)"
         },
         {
           "value": "Topple"
@@ -724,10 +724,10 @@
           "value": "Warhammer"
         },
         {
-          "value": "Id8 Bludgeoning"
+          "value": "1d8 Bludgeoning"
         },
         {
-          "value": "Versatile (Id10)"
+          "value": "Versatile (1d10)"
         },
         {
           "value": "Push"
@@ -747,10 +747,10 @@
           "value": "War Pick"
         },
         {
-          "value": "Id8 Piercing"
+          "value": "1d8 Piercing"
         },
         {
-          "value": "Versatile (Id10)"
+          "value": "Versatile (1d10)"
         },
         {
           "value": "Sap"
@@ -770,7 +770,7 @@
           "value": "Whip"
         },
         {
-          "value": "Id4 Slashing"
+          "value": "1d4 Slashing"
         },
         {
           "value": "Finesse, Reach"
@@ -802,7 +802,7 @@
           "value": "Blowgun"
         },
         {
-          "value": "I Piercing"
+          "value": "1 Piercing"
         },
         {
           "value": "Ammunition (Range 25/100; Needle), Loading"
@@ -825,7 +825,7 @@
           "value": "Hand Crossbow"
         },
         {
-          "value": "Id6 Piercing"
+          "value": "1d6 Piercing"
         },
         {
           "value": "Ammunition (Range 30/120; Bolt), Light, Loading"
@@ -848,7 +848,7 @@
           "value": "Heavy Crossbow"
         },
         {
-          "value": "Id10 Piercing"
+          "value": "1d10 Piercing"
         },
         {
           "value": "Ammunition (Range 100/400; Bolt), Heavy, Loading, Two-Handed"
@@ -871,7 +871,7 @@
           "value": "Longbow"
         },
         {
-          "value": "Id8 Piercing"
+          "value": "1d8 Piercing"
         },
         {
           "value": "Ammunition (Range 150/600; Arrow), Heavy, Two-Handed"
@@ -894,7 +894,7 @@
           "value": "Musket"
         },
         {
-          "value": "Id12 Piercing"
+          "value": "1d12 Piercing"
         },
         {
           "value": "Ammunition (Range 40/120; Bullet), Loading, Two-Handed"
@@ -917,7 +917,7 @@
           "value": "Pistol"
         },
         {
-          "value": "Id10 Piercing"
+          "value": "1d10 Piercing"
         },
         {
           "value": "Ammunition (Range 30/90; Bullet), Loading"

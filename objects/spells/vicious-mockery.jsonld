@@ -23,5 +23,24 @@
   "range": "60 feet",
   "components": "V",
   "duration": "Instantaneous",
-  "rulesText": "Enchantment Cantrip (Bard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V\n\nDuration: Instantaneous\n\nYou unleash a string of insults laced with subtle enchantments at one creature you can see or hear within range. The target must succeed on a Wisdom saving throw or take 1d6 Psychic damage and have Disadvantage on the next attack roll it makes before the end of its next turn.\n\nCantrip Upgrade. The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6)."
+  "rulesText": "Enchantment Cantrip (Bard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V\n\nDuration: Instantaneous\n\nYou unleash a string of insults laced with subtle enchantments at one creature you can see or hear within range. The target must succeed on a Wisdom saving throw or take 1d6 Psychic damage and have Disadvantage on the next attack roll it makes before the end of its next turn.\n\nCantrip Upgrade. The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    }
+  ],
+  "savingThrowAbility": "Wisdom",
+  "damage": [
+    {
+      "damageType": "Psychic",
+      "damageRoll": {
+        "expression": "1d6",
+        "count": 1,
+        "sides": 6
+      }
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": false
 }

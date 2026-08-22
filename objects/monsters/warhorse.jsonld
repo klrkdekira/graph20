@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.94",
     "heading": "Warhorse",
-    "lineStart": 29839,
-    "lineEnd": 29861
+    "lineStart": 29841,
+    "lineEnd": 29863
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -73,5 +73,21 @@
       "rulesText": "Hooves. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (2d4 + 4) Bludgeoning damage. If the target is a Large or smaller creature and the horse moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition."
     }
   ],
-  "rulesText": "Large Beast, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 19 (3d10 + 3)\n\nSpeed 60 ft.\n\nSenses Passive Perception 11\n\nLanguages None\n\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nHooves. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (2d4 + 4) Bludgeoning damage. If the target is a Large or smaller creature and the horse moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition."
+  "rulesText": "Large Beast, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 19 (3d10 + 3)\n\nSpeed 60 ft.\n\nSenses Passive Perception 11\n\nLanguages None\n\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nHooves. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (2d4 + 4) Bludgeoning damage. If the target is a Large or smaller creature and the horse moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition.",
+  "attacks": [
+    {
+      "name": "Hooves",
+      "attackType": "Melee",
+      "attackBonus": 6,
+      "averageDamage": 9,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "2d4+4",
+        "count": 2,
+        "sides": 4,
+        "modifier": 4
+      },
+      "reachFeet": 5
+    }
+  ]
 }

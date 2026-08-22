@@ -19,8 +19,8 @@
   "requiresAttunement": false,
   "relatedTables": [
     {
-      "@id": "https://cheeleong.dev/graph20/objects/tables/10-105-id10-effect"
+      "@id": "https://cheeleong.dev/graph20/objects/tables/10-105-1d10-effect"
     }
   ],
-  "rulesText": "Wondrous Item, Very Rare\n\nWhen you take a Magic action to remove the stopper of this painted brass bottle, a cloud of thick smoke flows out of it. At the end of your turn, the smoke disappears with a flash of harmless fire, and an Efreeti appears in an unoccupied space within 30 feet of you.\n\nThe first time the bottle is opened, the GM rolls on the following table to determine what happens.\n\nId10 Effect"
+  "rulesText": "Wondrous Item, Very Rare\n\nWhen you take a Magic action to remove the stopper of this painted brass bottle, a cloud of thick smoke flows out of it. At the end of your turn, the smoke disappears with a flash of harmless fire, and an Efreeti appears in an unoccupied space within 30 feet of you.\n\nThe first time the bottle is opened, the GM rolls on the following table to determine what happens.\n\n1d10 Effect"
 }

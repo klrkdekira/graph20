@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.173",
     "heading": "Nalfeshnee",
-    "lineStart": 23443,
-    "lineEnd": 23491
+    "lineStart": 23445,
+    "lineEnd": 23493
   },
   "sizeTypeAlignment": "Large Fiend (Demon), Chaotic Evil",
   "sizeAndType": "Large Fiend (Demon)",
@@ -50,7 +50,8 @@
     },
     "con": {
       "score": 22,
-      "modifier": 6
+      "modifier": 6,
+      "savingThrow": 11
     },
     "int": {
       "score": 19,
@@ -64,7 +65,8 @@
     },
     "cha": {
       "score": 15,
-      "modifier": 2
+      "modifier": 2,
+      "savingThrow": 7
     }
   },
   "statSections": [
@@ -85,5 +87,29 @@
       "rulesText": "Pursuit. Trigger: Another creature the nalfeshnee can see ends its move within 120 feet of the nalfeshnee. Response: The nalfeshnee uses Teleport, but its destination space must be within 10 feet of the triggering creature."
     }
   ],
-  "rulesText": "Large Fiend (Demon), Chaotic Evil\n\nAC 18\n\nInitiative +5 (15)\n\nHP 184 (16d10 + 96)\n\nSpeed 20 ft., Fly 30 ft.\n\nResistances Cold, Fire, Lightning\n\nImmunities Poison; Frightened, Poisoned\n\nSenses Truesight 120 ft.; Passive Perception 11\n\nLanguages Abyssal; telepathy 120 ft.\n\nCR 13 (XP 10,000; PB +5)\n\nTraits\n\nDemonic Restoration. If the nalfeshnee dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.\n\nMagic Resistance. The nalfeshnee has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The nalfeshnee makes three Rend attacks.\n\nRend. Melee Attack Roll: +10, reach 10 ft. Hit: 16 (2d10 + 5) Slashing damage plus 11 (2d10) Force damage.\n\nTeleport. The nalfeshnee teleports up to 120 feet to an unoccupied space it can see.\n\nBonus Actions\n\nHorror Nimbus (Recharge 5–6). Wisdom Saving Throw: DC 15, each creature in a 15-foot Emanation originating from the nalfeshnee. Failure: 28 (8d6) Psychic damage, and the target has the Frightened condition for 1 minute, until it takes damage, or until it ends its turn with the nalfeshnee out of line of sight. Success:\n\nThe target is immune to this nalfeshnee's Horror Nimbus for 24 hours.\n\nReactions\n\nPursuit. Trigger: Another creature the nalfeshnee can see ends its move within 120 feet of the nalfeshnee. Response: The nalfeshnee uses Teleport, but its destination space must be within 10 feet of the triggering creature."
+  "rulesText": "Large Fiend (Demon), Chaotic Evil\n\nAC 18\n\nInitiative +5 (15)\n\nHP 184 (16d10 + 96)\n\nSpeed 20 ft., Fly 30 ft.\n\nResistances Cold, Fire, Lightning\n\nImmunities Poison; Frightened, Poisoned\n\nSenses Truesight 120 ft.; Passive Perception 11\n\nLanguages Abyssal; telepathy 120 ft.\n\nCR 13 (XP 10,000; PB +5)\n\nTraits\n\nDemonic Restoration. If the nalfeshnee dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.\n\nMagic Resistance. The nalfeshnee has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The nalfeshnee makes three Rend attacks.\n\nRend. Melee Attack Roll: +10, reach 10 ft. Hit: 16 (2d10 + 5) Slashing damage plus 11 (2d10) Force damage.\n\nTeleport. The nalfeshnee teleports up to 120 feet to an unoccupied space it can see.\n\nBonus Actions\n\nHorror Nimbus (Recharge 5–6). Wisdom Saving Throw: DC 15, each creature in a 15-foot Emanation originating from the nalfeshnee. Failure: 28 (8d6) Psychic damage, and the target has the Frightened condition for 1 minute, until it takes damage, or until it ends its turn with the nalfeshnee out of line of sight. Success:\n\nThe target is immune to this nalfeshnee's Horror Nimbus for 24 hours.\n\nReactions\n\nPursuit. Trigger: Another creature the nalfeshnee can see ends its move within 120 feet of the nalfeshnee. Response: The nalfeshnee uses Teleport, but its destination space must be within 10 feet of the triggering creature.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Rend",
+      "attackType": "Melee",
+      "attackBonus": 10,
+      "averageDamage": 16,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "2d10+5",
+        "count": 2,
+        "sides": 10,
+        "modifier": 5
+      },
+      "reachFeet": 10
+    }
+  ]
 }

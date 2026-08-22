@@ -73,5 +73,29 @@
       "rulesText": "Smother. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, the rug can give it the Grappled condition (escape DC 13) instead of dealing damage. Until the grapple ends, the target has the Blinded and Restrained conditions, is suffocating, and takes 10 (2d6 + 3) Bludgeoning damage at the start of each of its turns. The rug can smother only one creature at a time.\n\nWhile grappling the target, the rug can't take this action, the rug halves the damage it takes (round down), and the target takes the same amount of damage."
     }
   ],
-  "rulesText": "Large Construct, Unaligned\n\nAC 12\n\nInitiative +4 (14)\n\nHP 27 (5d10)\n\nSpeed 10 ft.\n\nImmunities Poison, Psychic; Charmed, Deafened,\n\nExhaustion, Frightened, Paralyzed, Petrified, Poisoned\n\nSenses Blindsight 60 ft.; Passive Perception 6\n\nLanguages None\n\nCR 2 (XP 450; PB +2)\n\nActions\n\nSmother. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, the rug can give it the Grappled condition (escape DC 13) instead of dealing damage. Until the grapple ends, the target has the Blinded and Restrained conditions, is suffocating, and takes 10 (2d6 + 3) Bludgeoning damage at the start of each of its turns. The rug can smother only one creature at a time.\n\nWhile grappling the target, the rug can't take this action, the rug halves the damage it takes (round down), and the target takes the same amount of damage."
+  "rulesText": "Large Construct, Unaligned\n\nAC 12\n\nInitiative +4 (14)\n\nHP 27 (5d10)\n\nSpeed 10 ft.\n\nImmunities Poison, Psychic; Charmed, Deafened,\n\nExhaustion, Frightened, Paralyzed, Petrified, Poisoned\n\nSenses Blindsight 60 ft.; Passive Perception 6\n\nLanguages None\n\nCR 2 (XP 450; PB +2)\n\nActions\n\nSmother. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, the rug can give it the Grappled condition (escape DC 13) instead of dealing damage. Until the grapple ends, the target has the Blinded and Restrained conditions, is suffocating, and takes 10 (2d6 + 3) Bludgeoning damage at the start of each of its turns. The rug can smother only one creature at a time.\n\nWhile grappling the target, the rug can't take this action, the rug halves the damage it takes (round down), and the target takes the same amount of damage.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/deafened"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Smother",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 10,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "2d6+3",
+        "count": 2,
+        "sides": 6,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    }
+  ]
 }

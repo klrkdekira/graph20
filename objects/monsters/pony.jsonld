@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.72",
     "heading": "Pony",
-    "lineStart": 29183,
-    "lineEnd": 29205
+    "lineStart": 29185,
+    "lineEnd": 29207
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
@@ -73,5 +73,21 @@
       "rulesText": "Hooves. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning damage."
     }
   ],
-  "rulesText": "Medium Beast, Unaligned\n\nAC 10\n\nInitiative +0 (10)\n\nHP 11 (2d8 + 2)\n\nSpeed 40 ft.\n\nSenses Passive Perception 10\n\nLanguages None\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nHooves. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning damage."
+  "rulesText": "Medium Beast, Unaligned\n\nAC 10\n\nInitiative +0 (10)\n\nHP 11 (2d8 + 2)\n\nSpeed 40 ft.\n\nSenses Passive Perception 10\n\nLanguages None\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nHooves. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning damage.",
+  "attacks": [
+    {
+      "name": "Hooves",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 4,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "1d4+2",
+        "count": 1,
+        "sides": 4,
+        "modifier": 2
+      },
+      "reachFeet": 5
+    }
+  ]
 }

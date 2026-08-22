@@ -1,0 +1,61 @@
+{
+  "name": "srd52-system-json",
+  "title": "SRD 5.2.1 System JSON",
+  "description": "A source-faithful JSON-LD 1.1 reference corpus and JSON Schema Draft 2020-12 specifications for the System Reference Document 5.2.1.",
+  "homepage": "https://cheeleong.dev/graph20/",
+  "version": "0.2.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    {
+      "name": "MIT",
+      "title": "MIT License (repository code, schemas, documentation)",
+      "path": "https://opensource.org/license/mit/"
+    }
+  ],
+  "contributors": [
+    { "title": "Chee Leong", "role": "author" },
+    { "title": "Wizards of the Coast LLC", "role": "wrangler", "path": "https://www.dndbeyond.com/srd" }
+  ],
+  "resources": [
+    {
+      "name": "manifest",
+      "path": "objects/srd52-system-data.jsonld",
+      "format": "jsonld",
+      "mediatype": "application/ld+json"
+    },
+    {
+      "name": "bundle",
+      "path": "objects/srd52-system-data.bundle.jsonld",
+      "format": "jsonld",
+      "mediatype": "application/ld+json"
+    },
+    {
+      "name": "llms-full",
+      "path": "llms-full.txt",
+      "format": "txt",
+      "mediatype": "text/plain"
+    },
+    {
+      "name": "search-index",
+      "path": "objects/search-index.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "collection-index",
+      "path": "objects/collection-index.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "source",
+      "path": "SRD_CC_v5.2.1.md",
+      "format": "md",
+      "mediatype": "text/markdown"
+    }
+  ]
+}

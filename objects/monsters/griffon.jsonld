@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.123",
     "heading": "Griffon",
-    "lineStart": 21751,
-    "lineEnd": 21777
+    "lineStart": 21753,
+    "lineEnd": 21779
   },
   "sizeTypeAlignment": "Large Monstrosity, Unaligned",
   "sizeAndType": "Large Monstrosity",
@@ -47,7 +47,9 @@
       "savingThrow": 2
     },
     "con": {
-      "score": 16
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "int": {
       "score": 2,
@@ -60,7 +62,9 @@
       "savingThrow": 1
     },
     "cha": {
-      "score": 8
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
     }
   },
   "statSections": [
@@ -69,5 +73,21 @@
       "rulesText": "Multiattack. The griffon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 14) from both of the griffon's front claws."
     }
   ],
-  "rulesText": "Large Monstrosity, Unaligned\n\nAC 12 Initiative +2 (12)\n\nHP 59 (7d10 + 21)\n\nSpeed 30 ft., Fly 80 ft.\n\nSkills Perception +5\n\nSenses Darkvision 60 ft.; Passive Perception 15\n\nLanguages None\n\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The griffon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 14) from both of the griffon's front claws."
+  "rulesText": "Large Monstrosity, Unaligned\n\nAC 12 Initiative +2 (12)\n\nHP 59 (7d10 + 21)\n\nSpeed 30 ft., Fly 80 ft.\n\nSkills Perception +5\n\nSenses Darkvision 60 ft.; Passive Perception 15\n\nLanguages None\n\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The griffon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 14) from both of the griffon's front claws.",
+  "attacks": [
+    {
+      "name": "Rend",
+      "attackType": "Melee",
+      "attackBonus": 6,
+      "averageDamage": 8,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d8+4",
+        "count": 1,
+        "sides": 8,
+        "modifier": 4
+      },
+      "reachFeet": 5
+    }
+  ]
 }

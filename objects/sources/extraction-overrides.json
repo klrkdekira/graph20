@@ -1,52 +1,28 @@
 {
   "overrides": [
     {
-      "id": "ability-table-roman-numeral-ocr",
-      "scope": "monster ability score tables (HTML <table> cells inside stat blocks)",
-      "observed": "OCR artifact: numeral 1 rendered as 'I' (9 cells) and 11 rendered as 'II' (23 cells), e.g. Lemure CON/INT/WIS.",
-      "proposed": "When parsing typed ability values only, map a standalone token 'I' -> 1 and 'II' -> 11 (optionally signed for modifier/save cells). Verbatim table cells and rulesText are NOT altered.",
-      "status": "accepted",
-      "rationale": "The tokens appear exclusively where an integer ability score, modifier, or save bonus is required; no roman numerals are otherwise used in SRD stat tables. Without the mapping, 23 of 332 monsters would lack typed ability fields."
+      "id": "source-repair-2026-08-22",
+      "scope": "SRD_CC_v5.2.1.md (deliberate Phase-1 source cleanup event)",
+      "observed": "PDF-to-markdown conversion damage across the file: 131 dice expressions with OCR 'I' for '1' ('Id6'), 4 '+I' enhancement bonuses, the Blowgun's lone 'I Piercing' damage, the 'Rolling 20 or I' heading, 1 CR line joined onto a Languages line, 4 'n XP' orderings, and 91 damaged monster ability tables (roman-numeral scores, LaTeX-wrapped labels, glued label-score cells, and systematically truncated CON/CHA modifier and save columns).",
+      "proposed": "Applied by scripts/repair_source.py using the substitution glossary in scripts/data/sanitization-glossary.json. 89 ability tables were regenerated from open5e's srd-2024 dataset (CC-BY-4.0, scripts/data/srd-2024-creatures.json) with cross-validation against every intact source cell; 2 spell-summoned stat blocks absent from that dataset (Giant Insect, Draconic Spirit) had their truncated modifier/save cells derived from the printed score via floor((score-10)/2), matching every intact column in those tables. The repair is idempotent; re-running reports zero changes.",
+      "status": "applied-to-source",
+      "rationale": "The user directed repair of all known source damage. The pre-repair file digest was sha256-651440c82e5f30ff76469e5a9e589bfca91b17945e581126547a61261a79e042; the final post-repair digest (after the follow-up level-I/level-II and DI0 glossary passes) is sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12, carried by the source record."
     },
     {
-      "id": "ability-table-latex-labels",
-      "scope": "monster ability score tables",
-      "observed": "PDF conversion renders some ability labels as LaTeX markup, e.g. '$\\mathbf{S_{TR}}$' (Bandit, Commoner) and '$\\mathbf{STR}$' (Brass Dragon Wyrmling).",
-      "proposed": "Strip the LaTeX wrapper to the plain three-letter ability label before typed parsing.",
-      "status": "accepted",
-      "rationale": "Pure formatting artifact; the underlying labels are unambiguous."
+      "id": "feat-catalog-completeness-verified",
+      "scope": "Feats chapter",
+      "observed": "The markdown contains 17 feats including 7 Epic Boons. An earlier audit flagged 3 boons as possibly dropped by the PDF conversion; cross-checking against the official SRD 5.2 coverage and open5e's srd-2024 dataset (identical 17 feats) confirmed the SRD intentionally includes only 7 of the Player's Handbook's 10 Epic Boons.",
+      "proposed": "No change: the catalog is complete relative to the source.",
+      "status": "verified",
+      "rationale": "Retracts the withdrawn `missing-epic-boon-feats` suspicion; kept as an audit record."
     },
     {
-      "id": "ability-table-glued-score",
-      "scope": "monster ability score tables",
-      "observed": "Some cells glue label and score without a space or with wrong case, e.g. 'CON25', 'CHA23' (Adult Red Dragon), 'Con22' (Adult White Dragon).",
-      "proposed": "Split into label + integer score for typed parsing; the mod/save cells lost in the same table rows stay omitted rather than invented.",
-      "status": "accepted",
-      "rationale": "Row truncation in the PDF conversion; scores are unambiguous, missing values must not be fabricated."
-    },
-    {
-      "id": "cr-line-join",
-      "scope": "monster stat blocks",
-      "observed": "A few stat blocks join the CR line onto the Languages line (e.g. Young Gold Dragon: 'Languages Common, Draconic CR 10 (XP 5,900; PB +4)'), and White Dragon Wyrmling prints '450 XP' instead of 'XP 450'.",
-      "proposed": "Match the CR expression at a word boundary anywhere in the stat text and accept both XP orderings for typed fields.",
-      "status": "accepted",
-      "rationale": "Line-join artifacts; the CR grammar is otherwise unambiguous."
-    },
-    {
-      "id": "ability-table-truncated-cells",
-      "scope": "monster ability score tables",
-      "observed": "28 stat blocks have truncated rows where a score, modifier, or save cell is absent from the source entirely (e.g. Goat CON row reads 'CON', '+0'; several dragons lose the CON and CHA columns).",
-      "proposed": "No repair: typed ability entries are omitted where the source value is missing. Verbatim table text is preserved in the corresponding Table/rulesText content.",
+      "id": "open5e-octopus-data-error",
+      "scope": "cross-validation input data",
+      "observed": "open5e srd-2024 lists the Octopus with CON 0 and CHA -3 (its modifiers duplicated into the score fields). The SRD source prints CON 11, CHA 4 and its table is intact.",
+      "proposed": "Trust the source; the repair script only regenerates damaged tables, so the intact Octopus table was left verbatim.",
       "status": "recorded",
-      "rationale": "Never invent missing values; the printed SRD is the only authority for what the value should be."
-    },
-    {
-      "id": "dice-expression-ocr-id",
-      "scope": "equipment and item tables ('Id6' for '1d6', etc.)",
-      "observed": "OCR artifact: leading '1' in dice expressions rendered as capital 'I' in several HTML tables (e.g. the Weapons table) and in magic item category examples ('+I Longsword').",
-      "proposed": "No typed dice fields are derived from these cells in v1; values are preserved verbatim. Revisit when equipment gains a typed catalog.",
-      "status": "accepted",
-      "rationale": "Prose fidelity: no structured field currently depends on these cells, so no normalization is performed."
+      "rationale": "Documents why cross-validation is scoped to damaged tables only."
     }
   ]
 }

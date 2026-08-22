@@ -25,5 +25,19 @@
   "range": "Self",
   "components": "V, S",
   "duration": "Concentration, up to 10 minutes",
-  "rulesText": "Level 1 Transmutation (Sorcerer, Warlock, Wizard)\n\nCasting Time: Bonus Action\n\nRange: Self\n\nComponents: V, S\n\nDuration: Concentration, up to 10 minutes\n\nYou take the Dash action, and until the spell ends, you can take that action again as a Bonus Action."
+  "rulesText": "Level 1 Transmutation (Sorcerer, Warlock, Wizard)\n\nCasting Time: Bonus Action\n\nRange: Self\n\nComponents: V, S\n\nDuration: Concentration, up to 10 minutes\n\nYou take the Dash action, and until the spell ends, you can take that action again as a Bonus Action.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": true,
+  "ritual": false
 }

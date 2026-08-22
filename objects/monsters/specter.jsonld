@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.224",
     "heading": "Specter",
-    "lineStart": 25281,
-    "lineEnd": 25315
+    "lineStart": 25283,
+    "lineEnd": 25317
   },
   "sizeTypeAlignment": "Medium Undead, Chaotic Evil",
   "sizeAndType": "Medium Undead",
@@ -78,5 +78,49 @@
       "rulesText": "Life Drain. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d6) Necrotic damage. If the target is a creature, its Hit Point maximum decreases by an amount equal to the damage taken."
     }
   ],
-  "rulesText": "Medium Undead, Chaotic Evil\n\nAC 12\n\nInitiative +2 (12)\n\nHP 22 (5d8)\n\nSpeed 30 ft., Fly 50 ft. (hover)\n\nResistances Acid, Bludgeoning, Cold, Fire, Lightning, Piercing, Slashing, Thunder\n\nImmunities Necrotic, Poison; Charmed, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\n\nSenses Darkvision 60 ft.; Passive Perception 10\n\nLanguages Understands Common plus one other language but can't speak\n\nCR 1 (XP 200; PB +2)\n\nTraits\n\nIncorporeal Movement. The specter can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.\n\nSunlight Sensitivity. While in sunlight, the specter has Disadvantage on ability checks and attack rolls.\n\nActions\n\nLife Drain. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d6) Necrotic damage. If the target is a creature, its Hit Point maximum decreases by an amount equal to the damage taken."
+  "rulesText": "Medium Undead, Chaotic Evil\n\nAC 12\n\nInitiative +2 (12)\n\nHP 22 (5d8)\n\nSpeed 30 ft., Fly 50 ft. (hover)\n\nResistances Acid, Bludgeoning, Cold, Fire, Lightning, Piercing, Slashing, Thunder\n\nImmunities Necrotic, Poison; Charmed, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\n\nSenses Darkvision 60 ft.; Passive Perception 10\n\nLanguages Understands Common plus one other language but can't speak\n\nCR 1 (XP 200; PB +2)\n\nTraits\n\nIncorporeal Movement. The specter can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.\n\nSunlight Sensitivity. While in sunlight, the specter has Disadvantage on ability checks and attack rolls.\n\nActions\n\nLife Drain. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d6) Necrotic damage. If the target is a creature, its Hit Point maximum decreases by an amount equal to the damage taken.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/exhaustion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/paralyzed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/petrified"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Life Drain",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 7,
+      "damageType": "Necrotic",
+      "damageRoll": {
+        "expression": "2d6",
+        "count": 2,
+        "sides": 6
+      },
+      "reachFeet": 5
+    }
+  ]
 }

@@ -25,5 +25,32 @@
   "castingTime": "Action",
   "range": "60 feet",
   "duration": "Instantaneous",
-  "rulesText": "Level 9 Enchantment (Bard, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponent: V\n\nDuration: Instantaneous\n\nYou compel one creature you can see within range to die. If the target has 100 Hit Points or fewer, it dies. Otherwise, it takes 12d12 Psychic damage."
+  "rulesText": "Level 9 Enchantment (Bard, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponent: V\n\nDuration: Instantaneous\n\nYou compel one creature you can see within range to die. If the target has 100 Hit Points or fewer, it dies. Otherwise, it takes 12d12 Psychic damage.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "damage": [
+    {
+      "damageType": "Psychic",
+      "damageRoll": {
+        "expression": "12d12",
+        "count": 12,
+        "sides": 12
+      }
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": false
 }

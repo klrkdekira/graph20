@@ -18,6 +18,9 @@ PIPELINE = [
     "build_bundle.py",
     "build_llms_full.py",
     "build_search_index.py",
+    "build_collection_indexes.py",
+    "build_coverage.py",
+    "build_review_ledger.py",
 ]
 
 

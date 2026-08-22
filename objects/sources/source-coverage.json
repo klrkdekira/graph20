@@ -1,20 +1,26 @@
 {
   "sourceFile": "SRD_CC_v5.2.1.md",
-  "contentDigest": "sha256-651440c82e5f30ff76469e5a9e589bfca91b17945e581126547a61261a79e042",
   "contentFirstLine": 981,
   "excludedPreamble": {
     "lineStart": 1,
     "lineEnd": 980,
     "reason": "Legal Information and Contents navigation preamble; license and attribution preserved in the source record."
   },
-  "blockCount": 2893,
+  "contentLines": 14552,
+  "uncoveredLines": [],
   "recordCounts": {
-    "sources": 1,
-    "rules": 1113,
-    "tables": 258,
-    "spells": 338,
+    "rules": 738,
+    "tables": 243,
+    "classes": 12,
+    "subclasses": 12,
+    "species": 9,
+    "backgrounds": 4,
     "feats": 17,
+    "equipment": 133,
+    "spells": 338,
+    "conditions": 15,
     "magic-items": 258,
     "monsters": 332
-  }
+  },
+  "recordsWithLocators": 2111
 }

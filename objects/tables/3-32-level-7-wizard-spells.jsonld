@@ -1,0 +1,234 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-32-level-7-wizard-spells",
+  "@type": "Table",
+  "name": "Level 7 Wizard Spells",
+  "slug": "3-32-level-7-wizard-spells",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.32",
+    "heading": "Wizard Spell List",
+    "lineStart": 4729,
+    "lineEnd": 4729
+  },
+  "columns": [
+    "Spell",
+    "School",
+    "Special"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Arcane Sword"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "C, M"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Delayed Blast Fireball"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Etherealness"
+        },
+        {
+          "value": "Conjuration"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Finger of Death"
+        },
+        {
+          "value": "Necromancy"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Forcecage"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "C, M"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Magnificent Mansion"
+        },
+        {
+          "value": "Conjuration"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Mirage Arcane"
+        },
+        {
+          "value": "Illusion"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Plane Shift"
+        },
+        {
+          "value": "Conjuration"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Prismatic Spray"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Project Image"
+        },
+        {
+          "value": "Illusion"
+        },
+        {
+          "value": "C, M"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "Reverse Gravity"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "Sequester"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "Simulacrum"
+        },
+        {
+          "value": "Illusion"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "cells": [
+        {
+          "value": "Symbol"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "cells": [
+        {
+          "value": "Teleport"
+        },
+        {
+          "value": "Conjuration"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    }
+  ]
+}

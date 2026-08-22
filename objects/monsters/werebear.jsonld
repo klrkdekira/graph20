@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.254",
     "heading": "Werebear",
-    "lineStart": 26400,
-    "lineEnd": 26440
+    "lineStart": 26402,
+    "lineEnd": 26442
   },
   "sizeTypeAlignment": "Medium or Small Monstrosity (Lycanthrope), Neutral Good",
   "sizeAndType": "Medium or Small Monstrosity (Lycanthrope)",
@@ -49,7 +49,9 @@
       "savingThrow": 0
     },
     "con": {
-      "score": 17
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "int": {
       "score": 11,
@@ -62,7 +64,9 @@
       "savingThrow": 1
     },
     "cha": {
-      "score": 12
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
     }
   },
   "statSections": [
@@ -75,5 +79,35 @@
       "rulesText": "Shape-Shift. The werebear shape-shifts into a Large bear-humanoid hybrid form or a Large bear, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed."
     }
   ],
-  "rulesText": "Medium or Small Monstrosity (Lycanthrope), Neutral Good\n\nAC 15\n\nInitiative +3 (13)\n\nHP 135 (18d8 + 54)\n\nSpeed 30 ft., 40 ft. (bear form only), Climb 30 ft. (bear form only)\n\nSkills Perception +7\n\nGear Handaxes (4)\n\nSenses Darkvision 60 ft.; Passive Perception 17\n\nLanguages Common (can't speak in bear form)\n\nCR 5 (XP 1,800; PB +3)\n\nActions\n\nMultiattack. The werebear makes two attacks, using Handaxe or Rend in any combination. It can replace one attack with a Bite attack.\n\nBite (Bear or Hybrid Form Only). Melee Attack Roll: +7, reach 5 ft. Hit: 17 (2d12 + 4) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 14. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Werebear under the GM's\n\ncontrol and has 10 Hit Points. Success: The target is immune to this werebear's curse for 24 hours.\n\nHandaxe (Humanoid or Hybrid Form Only). Melee or Ranged Attack Roll: +7, reach 5 ft or range 20/60 ft. Hit: 14 (3d6 + 4) Slashing damage.\n\nRend (Bear or Hybrid Form Only). Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Slashing damage.\n\nBonus Actions\n\nShape-Shift. The werebear shape-shifts into a Large bear-humanoid hybrid form or a Large bear, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed."
+  "rulesText": "Medium or Small Monstrosity (Lycanthrope), Neutral Good\n\nAC 15\n\nInitiative +3 (13)\n\nHP 135 (18d8 + 54)\n\nSpeed 30 ft., 40 ft. (bear form only), Climb 30 ft. (bear form only)\n\nSkills Perception +7\n\nGear Handaxes (4)\n\nSenses Darkvision 60 ft.; Passive Perception 17\n\nLanguages Common (can't speak in bear form)\n\nCR 5 (XP 1,800; PB +3)\n\nActions\n\nMultiattack. The werebear makes two attacks, using Handaxe or Rend in any combination. It can replace one attack with a Bite attack.\n\nBite (Bear or Hybrid Form Only). Melee Attack Roll: +7, reach 5 ft. Hit: 17 (2d12 + 4) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 14. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Werebear under the GM's\n\ncontrol and has 10 Hit Points. Success: The target is immune to this werebear's curse for 24 hours.\n\nHandaxe (Humanoid or Hybrid Form Only). Melee or Ranged Attack Roll: +7, reach 5 ft or range 20/60 ft. Hit: 14 (3d6 + 4) Slashing damage.\n\nRend (Bear or Hybrid Form Only). Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Slashing damage.\n\nBonus Actions\n\nShape-Shift. The werebear shape-shifts into a Large bear-humanoid hybrid form or a Large bear, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed.",
+  "attacks": [
+    {
+      "name": "Bite (Bear or Hybrid Form Only)",
+      "attackType": "Melee",
+      "attackBonus": 7,
+      "averageDamage": 17,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d12+4",
+        "count": 2,
+        "sides": 12,
+        "modifier": 4
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Rend (Bear or Hybrid Form Only)",
+      "attackType": "Melee",
+      "attackBonus": 7,
+      "averageDamage": 13,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "2d8+4",
+        "count": 2,
+        "sides": 8,
+        "modifier": 4
+      },
+      "reachFeet": 5
+    }
+  ]
 }

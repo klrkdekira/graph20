@@ -23,5 +23,24 @@
   "range": "60 feet",
   "components": "V, S",
   "duration": "Instantaneous",
-  "rulesText": "Level 1 Evocation (Warlock)\n\nCasting Time: Reaction, which you take in response to taking damage from a creature that you can see within 60 feet of yourself\n\nRange: 60 feet\n\nComponents: V, S\n\nDuration: Instantaneous\n\nThe creature that damaged you is momentarily surrounded by green flames. It makes a Dexterity saving throw, taking 2d10 Fire damage on a failed save or half as much damage on a successful one.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d10 for each spell slot level above 1."
+  "rulesText": "Level 1 Evocation (Warlock)\n\nCasting Time: Reaction, which you take in response to taking damage from a creature that you can see within 60 feet of yourself\n\nRange: 60 feet\n\nComponents: V, S\n\nDuration: Instantaneous\n\nThe creature that damaged you is momentarily surrounded by green flames. It makes a Dexterity saving throw, taking 2d10 Fire damage on a failed save or half as much damage on a successful one.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d10 for each spell slot level above 1.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+    }
+  ],
+  "savingThrowAbility": "Dexterity",
+  "damage": [
+    {
+      "damageType": "Fire",
+      "damageRoll": {
+        "expression": "2d10",
+        "count": 2,
+        "sides": 10
+      }
+    }
+  ],
+  "scalesWithSlotLevel": true,
+  "concentration": false,
+  "ritual": false
 }

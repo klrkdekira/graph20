@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.5",
     "heading": "Archelon",
-    "lineStart": 27207,
-    "lineEnd": 27237
+    "lineStart": 27209,
+    "lineEnd": 27239
   },
   "sizeTypeAlignment": "Huge Beast (Dinosaur), Unaligned",
   "sizeAndType": "Huge Beast (Dinosaur)",
@@ -47,6 +47,11 @@
       "modifier": 3,
       "savingThrow": 3
     },
+    "con": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
     "int": {
       "score": 4,
       "modifier": -3,
@@ -56,6 +61,11 @@
       "score": 14,
       "modifier": 2,
       "savingThrow": 2
+    },
+    "cha": {
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
     }
   },
   "statSections": [
@@ -68,5 +78,21 @@
       "rulesText": "Multiattack. The archelon makes two Bite attacks.\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 14 (3d6 + 4) Piercing damage."
     }
   ],
-  "rulesText": "Huge Beast (Dinosaur), Unaligned\n\nAC 17\n\nInitiative +3 (13)\n\nHP 90 (12d12 + 12)\n\nSpeed 20 ft., Swim 80 ft.\n\nSkills Stealth +5\n\nSenses Passive Perception 12\n\nLanguages None\n\nCR 4 (XP 1,100; PB +2)\n\nTraits\n\nAmphibious. The archelon can breathe air and water.\n\nActions\n\nMultiattack. The archelon makes two Bite attacks.\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 14 (3d6 + 4) Piercing damage."
+  "rulesText": "Huge Beast (Dinosaur), Unaligned\n\nAC 17\n\nInitiative +3 (13)\n\nHP 90 (12d12 + 12)\n\nSpeed 20 ft., Swim 80 ft.\n\nSkills Stealth +5\n\nSenses Passive Perception 12\n\nLanguages None\n\nCR 4 (XP 1,100; PB +2)\n\nTraits\n\nAmphibious. The archelon can breathe air and water.\n\nActions\n\nMultiattack. The archelon makes two Bite attacks.\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 14 (3d6 + 4) Piercing damage.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "attackBonus": 6,
+      "averageDamage": 14,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "3d6+4",
+        "count": 3,
+        "sides": 6,
+        "modifier": 4
+      },
+      "reachFeet": 5
+    }
+  ]
 }

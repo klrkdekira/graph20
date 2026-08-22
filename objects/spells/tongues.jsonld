@@ -27,5 +27,25 @@
   "range": "Touch",
   "components": "V, M (a miniature ziggurat)",
   "duration": "1 hour",
-  "rulesText": "Level 3 Divination (Bard, Cleric, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, M (a miniature ziggurat)\n\nDuration: 1 hour\n\nThis spell grants the creature you touch the ability to understand any spoken or signed language that it hears or sees. Moreover, when the target communicates by speaking or signing, any creature that\n\nknows at least one language can understand it if that creature can hear the speech or see the signing."
+  "rulesText": "Level 3 Divination (Bard, Cleric, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, M (a miniature ziggurat)\n\nDuration: 1 hour\n\nThis spell grants the creature you touch the ability to understand any spoken or signed language that it hears or sees. Moreover, when the target communicates by speaking or signing, any creature that\n\nknows at least one language can understand it if that creature can hear the speech or see the signing.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": false
 }

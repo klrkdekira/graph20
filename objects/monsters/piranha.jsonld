@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.69",
     "heading": "Piranha",
-    "lineStart": 29095,
-    "lineEnd": 29121
+    "lineStart": 29097,
+    "lineEnd": 29123
   },
   "sizeTypeAlignment": "Tiny Beast, Unaligned",
   "sizeAndType": "Tiny Beast",
@@ -47,7 +47,9 @@
       "savingThrow": 3
     },
     "con": {
-      "score": 9
+      "score": 9,
+      "modifier": -1,
+      "savingThrow": -1
     },
     "int": {
       "score": 1,
@@ -60,7 +62,9 @@
       "savingThrow": -2
     },
     "cha": {
-      "score": 2
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
     }
   },
   "statSections": [

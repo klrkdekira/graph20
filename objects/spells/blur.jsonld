@@ -24,5 +24,16 @@
   "range": "Self",
   "components": "V",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Level 2 Illusion (Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V\n\nDuration: Concentration, up to 1 minute\n\nYour body becomes blurred. For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with Blindsight or Truesight."
+  "rulesText": "Level 2 Illusion (Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V\n\nDuration: Concentration, up to 1 minute\n\nYour body becomes blurred. For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with Blindsight or Truesight.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": true,
+  "ritual": false
 }

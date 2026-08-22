@@ -57,8 +57,52 @@ class TestCatalogs(unittest.TestCase):
         self.assertEqual(counts["feats"], 17)
         self.assertEqual(counts["magic-items"], 258)
         self.assertEqual(counts["monsters"], 332)
-        self.assertGreater(counts["rules"], 1000)
+        self.assertEqual(counts["classes"], 12)
+        self.assertEqual(counts["subclasses"], 12)
+        self.assertEqual(counts["species"], 9)
+        self.assertEqual(counts["backgrounds"], 4)
+        self.assertEqual(counts["conditions"], 15)
+        self.assertGreater(counts["equipment"], 120)
+        self.assertGreater(counts["rules"], 700)
         self.assertGreater(counts["tables"], 200)
+
+    def test_class_fixture_barbarian(self):
+        cls = load_json(ROOT / "objects/classes/barbarian.jsonld")
+        self.assertEqual(cls["coreTraits"]["Primary Ability"], "Strength")
+        self.assertIn("D12", cls["coreTraits"]["Hit Point Die"])
+        rage = [f for f in cls["features"] if f["name"] == "Rage"][0]
+        self.assertEqual(rage["level"], 1)
+        sub = load_json(ROOT / "objects/subclasses/path-of-the-berserker.jsonld")
+        self.assertEqual(sub["parentClass"]["@id"], cls["@id"])
+        self.assertEqual(
+            [f["name"] for f in sub["features"]][:2], ["Frenzy", "Mindless Rage"]
+        )
+
+    def test_equipment_fixture_longsword(self):
+        weapon = load_json(ROOT / "objects/equipment/longsword.jsonld")
+        self.assertEqual(weapon["equipmentType"], "weapon")
+        self.assertEqual(weapon["damageType"], "Slashing")
+        self.assertEqual(weapon["damageRoll"]["sides"], 8)
+        self.assertEqual(weapon["cost"], {"text": "15 GP", "currency": "GP", "amount": 15})
+
+    def test_monster_ability_tables_complete(self):
+        for monster in records_of("monsters"):
+            abilities = monster.get("abilities", {})
+            self.assertEqual(len(abilities), 6, monster["name"])
+            for entry in abilities.values():
+                self.assertEqual(
+                    set(entry), {"score", "modifier", "savingThrow"}, monster["name"]
+                )
+
+    def test_enrichment_links_resolve_types(self):
+        spell = load_json(ROOT / "objects/spells/fireball.jsonld")
+        self.assertEqual(spell["savingThrowAbility"], "Dexterity")
+        self.assertTrue(spell["scalesWithSlotLevel"])
+        self.assertEqual(len(spell["classes"]), 2)
+        giant = load_json(ROOT / "objects/monsters/fire-giant.jsonld")
+        attack = giant["attacks"][0]
+        self.assertEqual(attack["attackBonus"], 11)
+        self.assertEqual(attack["damageRoll"]["expression"], "4d6+7")
 
     def test_spell_fixture_bless(self):
         spell = load_json(ROOT / "objects/spells/bless.jsonld")

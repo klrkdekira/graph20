@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/graph20/systems/equipment.schema.json",
+  "title": "SRD 5.2.1 Equipment (weapons, armor, adventuring gear)",
+  "$ref": "common.schema.json#/$defs/EntityBase",
+  "properties": {
+    "@type": { "const": "Equipment" },
+    "equipmentType": { "enum": ["weapon", "armor", "gear"] },
+    "fromTable": { "$ref": "common.schema.json#/$defs/NodeReference" },
+    "weight": { "type": "string", "minLength": 1 },
+    "cost": { "$ref": "common.schema.json#/$defs/Cost" },
+    "weaponCategory": { "enum": ["Simple", "Martial"] },
+    "attackType": { "enum": ["Melee", "Ranged"] },
+    "damage": { "type": "string", "minLength": 1 },
+    "damageType": { "type": "string", "minLength": 1 },
+    "damageRoll": { "$ref": "common.schema.json#/$defs/DiceExpression" },
+    "properties": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" }
+    },
+    "mastery": { "type": "string", "minLength": 1 },
+    "armorCategory": { "enum": ["Light", "Medium", "Heavy", "Shield"] },
+    "donDoffTime": { "type": "string", "minLength": 1 },
+    "armorClass": { "type": "string", "minLength": 1 },
+    "strengthRequirement": { "type": "string", "minLength": 1 },
+    "stealthEffect": { "type": "string", "minLength": 1 }
+  },
+  "required": ["equipmentType", "fromTable"],
+  "allOf": [
+    {
+      "if": { "properties": { "equipmentType": { "const": "weapon" } } },
+      "then": { "required": ["damage", "mastery"] }
+    },
+    {
+      "if": { "properties": { "equipmentType": { "const": "armor" } } },
+      "then": { "required": ["armorClass"] }
+    },
+    {
+      "if": { "properties": { "equipmentType": { "const": "gear" } } },
+      "then": {
+        "properties": {
+          "damage": false,
+          "armorClass": false
+        }
+      }
+    }
+  ],
+  "unevaluatedProperties": false
+}

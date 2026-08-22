@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.164",
     "heading": "Steam Mephit",
-    "lineStart": 23172,
-    "lineEnd": 23206
+    "lineStart": 23174,
+    "lineEnd": 23208
   },
   "sizeTypeAlignment": "Small Elemental, Neutral Evil",
   "sizeAndType": "Small Elemental",
@@ -78,5 +78,28 @@
       "rulesText": "Claw. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Slashing damage plus 2 (1d4) Fire damage.\n\nSteam Breath (Recharge 6). Constitution Saving Throw: DC 10, each creature in a 15-foot Cone. Failure: 5 (2d4) Fire damage, and the target's Speed decreases by 10 feet until the end of the mephit's next turn. Success: Half damage only. Failure or Success: Being underwater doesn't grant Resistance to this Fire damage."
     }
   ],
-  "rulesText": "Small Elemental, Neutral Evil\n\nAC 10\n\nInitiative +0 (10)\n\nHP 17 (5d6)\n\nSpeed 30 ft., Fly 30 ft.\n\nSkills Stealth +2\n\nImmunities Fire, Poison; Exhaustion, Poisoned\n\nSenses Darkvision 60 ft.; Passive Perception 10\n\nLanguages Primordial (Aquan, Ignan)\n\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nBlurred Form. Attack rolls against the mephit are made with Disadvantage unless the mephit has the Incapacitated condition.\n\nDeath Burst. The mephit explodes when it dies. Dexterity Saving Throw: DC 10, each creature in a 5-foot Emanation originating from the mephit. Failure: 5 (2d4) Fire damage. Success: Half damage.\n\nActions\n\nClaw. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Slashing damage plus 2 (1d4) Fire damage.\n\nSteam Breath (Recharge 6). Constitution Saving Throw: DC 10, each creature in a 15-foot Cone. Failure: 5 (2d4) Fire damage, and the target's Speed decreases by 10 feet until the end of the mephit's next turn. Success: Half damage only. Failure or Success: Being underwater doesn't grant Resistance to this Fire damage."
+  "rulesText": "Small Elemental, Neutral Evil\n\nAC 10\n\nInitiative +0 (10)\n\nHP 17 (5d6)\n\nSpeed 30 ft., Fly 30 ft.\n\nSkills Stealth +2\n\nImmunities Fire, Poison; Exhaustion, Poisoned\n\nSenses Darkvision 60 ft.; Passive Perception 10\n\nLanguages Primordial (Aquan, Ignan)\n\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nBlurred Form. Attack rolls against the mephit are made with Disadvantage unless the mephit has the Incapacitated condition.\n\nDeath Burst. The mephit explodes when it dies. Dexterity Saving Throw: DC 10, each creature in a 5-foot Emanation originating from the mephit. Failure: 5 (2d4) Fire damage. Success: Half damage.\n\nActions\n\nClaw. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Slashing damage plus 2 (1d4) Fire damage.\n\nSteam Breath (Recharge 6). Constitution Saving Throw: DC 10, each creature in a 15-foot Cone. Failure: 5 (2d4) Fire damage, and the target's Speed decreases by 10 feet until the end of the mephit's next turn. Success: Half damage only. Failure or Success: Being underwater doesn't grant Resistance to this Fire damage.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/exhaustion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Claw",
+      "attackType": "Melee",
+      "attackBonus": 2,
+      "averageDamage": 2,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "1d4",
+        "count": 1,
+        "sides": 4
+      },
+      "reachFeet": 5
+    }
+  ]
 }

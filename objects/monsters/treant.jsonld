@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.241",
     "heading": "Treant",
-    "lineStart": 25915,
-    "lineEnd": 25954
+    "lineStart": 25917,
+    "lineEnd": 25956
   },
   "sizeTypeAlignment": "Huge Plant, Chaotic Good",
   "sizeAndType": "Huge Plant",
@@ -79,5 +79,37 @@
       "rulesText": "Multiattack. The treant makes two Slam attacks.\n\nSlam. Melee Attack Roll: +10, reach 5 ft. Hit: 16 (3d6 + 6) Bludgeoning damage.\n\nHail of Bark. Ranged Attack Roll: +10, range 180 ft.\nHit: 28 (4d10 + 6) Piercing damage.\n\nAnimate Trees (1/Day). The treant magically animates up to two trees it can see within 60 feet of itself. Each tree uses the Treant stat block, except it has Intelligence and Charisma scores of 1, it can't speak, and it lacks this action. The tree takes its turn immediately after the treant on the same Initiative count, and it obeys the treant. A tree remains animate for 1 day or until it dies, the treant dies, or it is more than 120 feet from the treant. The tree then takes root if possible."
     }
   ],
-  "rulesText": "Huge Plant, Chaotic Good\n\nAC 16\n\nInitiative +3 (13)\n\nHP 138 (12d12 + 60)\n\nSpeed 30 ft.\n\nVulnerabilities Fire\n\nResistances Bludgeoning, Piercing\n\nSenses Passive Perception 13\n\nLanguages Common, Druidic, Elvish, Sylvan\n\nCR 9 (XP 5,000; PB +4)\n\nTraits\n\nSiege Monster. The treant deals double damage to objects and structures.\n\nActions\n\nMultiattack. The treant makes two Slam attacks.\n\nSlam. Melee Attack Roll: +10, reach 5 ft. Hit: 16 (3d6 + 6) Bludgeoning damage.\n\nHail of Bark. Ranged Attack Roll: +10, range 180 ft.\nHit: 28 (4d10 + 6) Piercing damage.\n\nAnimate Trees (1/Day). The treant magically animates up to two trees it can see within 60 feet of itself. Each tree uses the Treant stat block, except it has Intelligence and Charisma scores of 1, it can't speak, and it lacks this action. The tree takes its turn immediately after the treant on the same Initiative count, and it obeys the treant. A tree remains animate for 1 day or until it dies, the treant dies, or it is more than 120 feet from the treant. The tree then takes root if possible."
+  "rulesText": "Huge Plant, Chaotic Good\n\nAC 16\n\nInitiative +3 (13)\n\nHP 138 (12d12 + 60)\n\nSpeed 30 ft.\n\nVulnerabilities Fire\n\nResistances Bludgeoning, Piercing\n\nSenses Passive Perception 13\n\nLanguages Common, Druidic, Elvish, Sylvan\n\nCR 9 (XP 5,000; PB +4)\n\nTraits\n\nSiege Monster. The treant deals double damage to objects and structures.\n\nActions\n\nMultiattack. The treant makes two Slam attacks.\n\nSlam. Melee Attack Roll: +10, reach 5 ft. Hit: 16 (3d6 + 6) Bludgeoning damage.\n\nHail of Bark. Ranged Attack Roll: +10, range 180 ft.\nHit: 28 (4d10 + 6) Piercing damage.\n\nAnimate Trees (1/Day). The treant magically animates up to two trees it can see within 60 feet of itself. Each tree uses the Treant stat block, except it has Intelligence and Charisma scores of 1, it can't speak, and it lacks this action. The tree takes its turn immediately after the treant on the same Initiative count, and it obeys the treant. A tree remains animate for 1 day or until it dies, the treant dies, or it is more than 120 feet from the treant. The tree then takes root if possible.",
+  "attacks": [
+    {
+      "name": "Slam",
+      "attackType": "Melee",
+      "attackBonus": 10,
+      "averageDamage": 16,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "3d6+6",
+        "count": 3,
+        "sides": 6,
+        "modifier": 6
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Hail of Bark",
+      "attackType": "Ranged",
+      "attackBonus": 10,
+      "averageDamage": 28,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "4d10+6",
+        "count": 4,
+        "sides": 10,
+        "modifier": 6
+      },
+      "rangeFeet": {
+        "normal": 180
+      }
+    }
+  ]
 }

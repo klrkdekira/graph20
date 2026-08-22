@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.10",
     "heading": "Blood Hawk",
-    "lineStart": 27347,
-    "lineEnd": 27375
+    "lineStart": 27349,
+    "lineEnd": 27377
   },
   "sizeTypeAlignment": "Small Beast, Unaligned",
   "sizeAndType": "Small Beast",
@@ -77,5 +77,21 @@
       "rulesText": "Beak. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage, or 6 (1d8 + 2) Piercing damage if the target is Bloodied."
     }
   ],
-  "rulesText": "Small Beast, Unaligned\n\nAC 12\n\nInitiative +2 (12)\n\nHP 7 (2d6)\n\nSpeed 10 ft., Fly 60 ft.\n\nSkills Perception +6\n\nSenses Passive Perception 16\n\nLanguages None\n\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nPack Tactics. The hawk has Advantage on an attack roll against a creature if at least one of the hawk's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBeak. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage, or 6 (1d8 + 2) Piercing damage if the target is Bloodied."
+  "rulesText": "Small Beast, Unaligned\n\nAC 12\n\nInitiative +2 (12)\n\nHP 7 (2d6)\n\nSpeed 10 ft., Fly 60 ft.\n\nSkills Perception +6\n\nSenses Passive Perception 16\n\nLanguages None\n\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nPack Tactics. The hawk has Advantage on an attack roll against a creature if at least one of the hawk's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBeak. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage, or 6 (1d8 + 2) Piercing damage if the target is Bloodied.",
+  "attacks": [
+    {
+      "name": "Beak",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 4,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d4+2",
+        "count": 1,
+        "sides": 4,
+        "modifier": 2
+      },
+      "reachFeet": 5
+    }
+  ]
 }

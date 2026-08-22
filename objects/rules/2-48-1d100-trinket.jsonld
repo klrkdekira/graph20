@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/2-48-1d100-trinket",
+  "@type": "Rule",
+  "name": "1d100 Trinket",
+  "slug": "2-48-1d100-trinket",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.48",
+    "heading": "1d100 Trinket",
+    "lineStart": 2192,
+    "lineEnd": 2248
+  },
+  "section": "2.48",
+  "rulesText": "73 An eggshell painted with scenes of misery in disturbing detail\n\n74 A fan that, when unfolded, shows a sleepy cat\n\n75 A set of bone pipes\n\n76 A four-leaf clover pressed inside a book discussing manners and etiquette\n\n77 A sheet of parchment upon which is drawn a mechanical contraption\n\n78 An ornate scabbard that fits no blade you have found\n\n79 An invitation to a party where a murder happened\n\n80 A bronze pentacle with an etching of a rat's head in its center\n\n81 A purple handkerchief embroidered with the name of an archmage\n\n82 Half a floor plan for a temple, a castle, or another structure\n\n83 A bit of folded cloth that, when unfolded, turns into a stylish cap\n\n84 A receipt of deposit at a bank in a far-off city\n\n85 A diary with seven missing pages\n\n86 An empty silver snuffbox bearing the inscription “dreams” on its lid\n\n87 An iron holy symbol devoted to an unknown god\n\n88 A book about a legendary hero's rise and fall, with the last chapter missing\n\n89 A vial of dragon blood\n\n90 An ancient arrow of elven design\n\n91 A needle that never bends\n\n92 An ornate brooch of dwarven design\n\n93 An empty wine bottle bearing a pretty label that says, \"The Wizard of Wines Winery, Red Dragon Crush, 331422-W\"\n\n94 A mosaic tile with a multicolored, glazed surface\n\n95 A petrified mouse\n\n96 A black pirate flag adorned with a dragon's skull and crossbones\n\n97 A tiny mechanical crab or spider that moves about when it's not being observed\n\n98 A glass jar containing lard with a label that reads, \"Griffon Grease\"\n\n99 A wooden box with a ceramic bottom that holds a living worm with a head on each end of its body\n\n00 A metal urn containing the ashes of a hero"
+}

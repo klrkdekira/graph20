@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-290-1d100-effect-10",
+  "@type": "Table",
+  "name": "1d100 Effect",
+  "slug": "10-290-1d100-effect-10",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.290",
+    "heading": "Wand of Wonder",
+    "lineStart": 17263,
+    "lineEnd": 17263
+  },
+  "columns": [
+    "61–64",
+    "Grass covers a 60-foot-radius circle of ground, with the center of that circle as close to the chosen point of origin as possible. Grass that&#x27;s already there grows to ten times its normal size and remains overgrown for 1 minute."
+  ],
+  "rows": []
+}

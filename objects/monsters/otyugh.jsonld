@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.180",
     "heading": "Otyugh",
-    "lineStart": 23744,
-    "lineEnd": 23774
+    "lineStart": 23746,
+    "lineEnd": 23776
   },
   "sizeTypeAlignment": "Large Aberration, Neutral",
   "sizeAndType": "Large Aberration",
@@ -73,5 +73,35 @@
       "rulesText": "Multiattack. The otyugh makes one Bite attack and two Tentacle attacks.\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage, and the target has the Poisoned condition. Whenever the Poisoned target finishes a Long Rest, it is subjected to the following effect. Constitution Saving Throw: DC 15. Failure: The target's Hit Point maximum decreases by 5 (1d10) and doesn't return to normal until the Poisoned condition ends on the target. Success: The Poisoned condition ends.\n\nTentacle. Melee Attack Roll: +6, reach 10 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from one of two tentacles.\n\nTentacle Slam. Constitution Saving Throw: DC 14, each creature Grappled by the otyugh. Failure: 16 (3d8 + 3) Bludgeoning damage, and the target has the Stunned condition until the start of the otyugh's next turn. Success: Half damage only."
     }
   ],
-  "rulesText": "Large Aberration, Neutral\n\nAC 14\n\nInitiative +0 (10)\n\nHP 104 (11d10 + 44)\n\nSpeed 30 ft.\n\nSenses Darkvision 120 ft.; Passive Perception 11\n\nLanguages Otyugh; telepathy 120 ft. (doesn't allow the receiving creature to respond telepathically)\n\nCR 5 (XP 1,800; PB +3)\n\nActions\n\nMultiattack. The otyugh makes one Bite attack and two Tentacle attacks.\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage, and the target has the Poisoned condition. Whenever the Poisoned target finishes a Long Rest, it is subjected to the following effect. Constitution Saving Throw: DC 15. Failure: The target's Hit Point maximum decreases by 5 (1d10) and doesn't return to normal until the Poisoned condition ends on the target. Success: The Poisoned condition ends.\n\nTentacle. Melee Attack Roll: +6, reach 10 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from one of two tentacles.\n\nTentacle Slam. Constitution Saving Throw: DC 14, each creature Grappled by the otyugh. Failure: 16 (3d8 + 3) Bludgeoning damage, and the target has the Stunned condition until the start of the otyugh's next turn. Success: Half damage only."
+  "rulesText": "Large Aberration, Neutral\n\nAC 14\n\nInitiative +0 (10)\n\nHP 104 (11d10 + 44)\n\nSpeed 30 ft.\n\nSenses Darkvision 120 ft.; Passive Perception 11\n\nLanguages Otyugh; telepathy 120 ft. (doesn't allow the receiving creature to respond telepathically)\n\nCR 5 (XP 1,800; PB +3)\n\nActions\n\nMultiattack. The otyugh makes one Bite attack and two Tentacle attacks.\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage, and the target has the Poisoned condition. Whenever the Poisoned target finishes a Long Rest, it is subjected to the following effect. Constitution Saving Throw: DC 15. Failure: The target's Hit Point maximum decreases by 5 (1d10) and doesn't return to normal until the Poisoned condition ends on the target. Success: The Poisoned condition ends.\n\nTentacle. Melee Attack Roll: +6, reach 10 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from one of two tentacles.\n\nTentacle Slam. Constitution Saving Throw: DC 14, each creature Grappled by the otyugh. Failure: 16 (3d8 + 3) Bludgeoning damage, and the target has the Stunned condition until the start of the otyugh's next turn. Success: Half damage only.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "attackBonus": 6,
+      "averageDamage": 12,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d8+3",
+        "count": 2,
+        "sides": 8,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Tentacle",
+      "attackType": "Melee",
+      "attackBonus": 6,
+      "averageDamage": 12,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d8+3",
+        "count": 2,
+        "sides": 8,
+        "modifier": 3
+      },
+      "reachFeet": 10
+    }
+  ]
 }

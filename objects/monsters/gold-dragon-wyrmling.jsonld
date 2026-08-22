@@ -25,7 +25,7 @@
   "immunities": "Fire",
   "senses": "Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14",
   "languages": "Draconic",
-  "challenge": "3 (700 XP; PB +2)",
+  "challenge": "3 (XP 700; PB +2)",
   "armorClassValue": 17,
   "hitPointsValue": 60,
   "hitPointsRoll": {
@@ -49,7 +49,9 @@
       "savingThrow": 4
     },
     "con": {
-      "score": 17
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "int": {
       "score": 14,
@@ -62,7 +64,9 @@
       "savingThrow": 2
     },
     "cha": {
-      "score": 16
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
     }
   },
   "statSections": [
@@ -75,5 +79,21 @@
       "rulesText": "Multiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Slashing damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 13, each creature in a 15-foot Cone. Failure: 22 (4d10) Fire damage. Success: Half damage.\n\nWeakening Breath. Strength Saving Throw: DC 13, each creature that isn't currently affected by this breath in a 15-foot Cone. Failure: The target has Disadvantage on Strength-based D20 Tests and subtracts 2 (1d4) from its damage rolls. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
     }
   ],
-  "rulesText": "Medium Dragon (Metallic), Lawful Good\n\nAC 17\n\nInitiative +4 (14)\n\nHP 60 (8d8 + 24)\n\nSpeed 30 ft., Fly 60 ft., Swim 30 ft.\n\nSkills Perception +4, Stealth +4\n\nImmunities Fire\n\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14\n\nLanguages Draconic\n\nCR 3 (700 XP; PB +2)\n\nTraits\n\nAmphibious. The dragon can breathe air and water.\n\nActions\n\nMultiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Slashing damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 13, each creature in a 15-foot Cone. Failure: 22 (4d10) Fire damage. Success: Half damage.\n\nWeakening Breath. Strength Saving Throw: DC 13, each creature that isn't currently affected by this breath in a 15-foot Cone. Failure: The target has Disadvantage on Strength-based D20 Tests and subtracts 2 (1d4) from its damage rolls. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+  "rulesText": "Medium Dragon (Metallic), Lawful Good\n\nAC 17\n\nInitiative +4 (14)\n\nHP 60 (8d8 + 24)\n\nSpeed 30 ft., Fly 60 ft., Swim 30 ft.\n\nSkills Perception +4, Stealth +4\n\nImmunities Fire\n\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14\n\nLanguages Draconic\n\nCR 3 (XP 700; PB +2)\n\nTraits\n\nAmphibious. The dragon can breathe air and water.\n\nActions\n\nMultiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Slashing damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 13, each creature in a 15-foot Cone. Failure: 22 (4d10) Fire damage. Success: Half damage.\n\nWeakening Breath. Strength Saving Throw: DC 13, each creature that isn't currently affected by this breath in a 15-foot Cone. Failure: The target has Disadvantage on Strength-based D20 Tests and subtracts 2 (1d4) from its damage rolls. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.",
+  "attacks": [
+    {
+      "name": "Rend",
+      "attackType": "Melee",
+      "attackBonus": 6,
+      "averageDamage": 9,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "1d10+4",
+        "count": 1,
+        "sides": 10,
+        "modifier": 4
+      },
+      "reachFeet": 5
+    }
+  ]
 }

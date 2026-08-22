@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.128",
     "heading": "Guard Captain",
-    "lineStart": 21881,
-    "lineEnd": 21911
+    "lineStart": 21883,
+    "lineEnd": 21913
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -75,5 +75,39 @@
       "rulesText": "Multiattack. The guard makes two attacks, using Javelin or Longsword in any combination.\n\nJavelin. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 30/120 ft. Hit: 14 (3d6 + 4) Piercing damage.\n\nLongsword. Melee Attack Roll: +6, reach 5 ft. Hit: 15 (2d10 + 4) Slashing damage."
     }
   ],
-  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 18\n\nInitiative +4 (14)\n\nHP 75 (10d8 + 30)\n\nSpeed 30 ft.\n\nSkills Athletics +6, Perception +4\n\nGear Breastplate, Javelins (6), Longsword, Shield\n\nSenses Passive Perception 14\n\nLanguages Common\n\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The guard makes two attacks, using Javelin or Longsword in any combination.\n\nJavelin. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 30/120 ft. Hit: 14 (3d6 + 4) Piercing damage.\n\nLongsword. Melee Attack Roll: +6, reach 5 ft. Hit: 15 (2d10 + 4) Slashing damage."
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 18\n\nInitiative +4 (14)\n\nHP 75 (10d8 + 30)\n\nSpeed 30 ft.\n\nSkills Athletics +6, Perception +4\n\nGear Breastplate, Javelins (6), Longsword, Shield\n\nSenses Passive Perception 14\n\nLanguages Common\n\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The guard makes two attacks, using Javelin or Longsword in any combination.\n\nJavelin. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 30/120 ft. Hit: 14 (3d6 + 4) Piercing damage.\n\nLongsword. Melee Attack Roll: +6, reach 5 ft. Hit: 15 (2d10 + 4) Slashing damage.",
+  "attacks": [
+    {
+      "name": "Javelin",
+      "attackType": "Melee or Ranged",
+      "attackBonus": 6,
+      "averageDamage": 14,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "3d6+4",
+        "count": 3,
+        "sides": 6,
+        "modifier": 4
+      },
+      "reachFeet": 5,
+      "rangeFeet": {
+        "normal": 30,
+        "long": 120
+      }
+    },
+    {
+      "name": "Longsword",
+      "attackType": "Melee",
+      "attackBonus": 6,
+      "averageDamage": 15,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "2d10+4",
+        "count": 2,
+        "sides": 10,
+        "modifier": 4
+      },
+      "reachFeet": 5
+    }
+  ]
 }

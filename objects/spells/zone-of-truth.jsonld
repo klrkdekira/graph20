@@ -25,5 +25,20 @@
   "range": "60 feet",
   "components": "V, S",
   "duration": "10 minutes",
-  "rulesText": "Level 2 Enchantment (Bard, Cleric, Paladin)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S\n\nDuration: 10 minutes\n\nYou create a magical zone that guards against deception in a 15-foot-radius Sphere centered on a point within range. Until the spell ends, a creature that enters the spell's area for the first time on a turn or starts its turn there makes a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie while in the radius. You know whether a creature succeeds or fails on this save.\n\nAn affected creature is aware of the spell and can avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive yet must be truthful."
+  "rulesText": "Level 2 Enchantment (Bard, Cleric, Paladin)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S\n\nDuration: 10 minutes\n\nYou create a magical zone that guards against deception in a 15-foot-radius Sphere centered on a point within range. Until the spell ends, a creature that enters the spell's area for the first time on a turn or starts its turn there makes a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie while in the radius. You know whether a creature succeeds or fails on this save.\n\nAn affected creature is aware of the spell and can avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive yet must be truthful.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/paladin"
+    }
+  ],
+  "savingThrowAbility": "Charisma",
+  "scalesWithSlotLevel": false,
+  "concentration": false,
+  "ritual": false
 }

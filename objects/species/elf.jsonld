@@ -1,0 +1,43 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/species/elf",
+  "@type": "Species",
+  "name": "Elf",
+  "slug": "elf",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Origins",
+    "section": "4.23",
+    "heading": "Elf",
+    "lineStart": 4931,
+    "lineEnd": 4957
+  },
+  "creatureType": "Humanoid",
+  "size": "Medium (about 5–6 feet tall)",
+  "speed": "30 feet",
+  "traits": [
+    {
+      "name": "Darkvision",
+      "rulesText": "You have Darkvision with a range of 60 feet."
+    },
+    {
+      "name": "Elven Lineage",
+      "rulesText": "You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage.\n\nWhen you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nElven Lineages\n\n<table><tr><td>Lineage</td><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr><tr><td>Drow</td><td>The range of your Darkvision increases to 120 feet.You also know the Dancing Lights cantrip.</td><td>Faerie Fire</td><td>Darkness</td></tr><tr><td>High Elf</td><td>You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.</td><td>Detect Magic</td><td>Misty Step</td></tr><tr><td>Wood Elf</td><td>Your Speed increases to 35 feet. You also know the Druidcraft cantrip.</td><td>Longstrider</td><td>Pass without Trace</td></tr></table>\n\nIntelligence, Wisdom, or Charisma is your spell-casting ability for the spells you cast with this trait (choose the ability when you select the lineage)."
+    },
+    {
+      "name": "Fey Ancestry",
+      "rulesText": "You have Advantage on saving throws you make to avoid or end the Charmed condition."
+    },
+    {
+      "name": "Keen Senses",
+      "rulesText": "You have proficiency in the Insight, Perception, or Survival skill."
+    },
+    {
+      "name": "Trance",
+      "rulesText": "You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness."
+    }
+  ],
+  "rulesText": "Creature Type: Humanoid\n\nSize: Medium (about 5–6 feet tall)\n\nSpeed: 30 feet\n\nAs an Elf, you have these special traits.\n\nDarkvision. You have Darkvision with a range of 60 feet.\n\nElven Lineage. You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage.\n\nWhen you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nElven Lineages\n\n<table><tr><td>Lineage</td><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr><tr><td>Drow</td><td>The range of your Darkvision increases to 120 feet.You also know the Dancing Lights cantrip.</td><td>Faerie Fire</td><td>Darkness</td></tr><tr><td>High Elf</td><td>You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.</td><td>Detect Magic</td><td>Misty Step</td></tr><tr><td>Wood Elf</td><td>Your Speed increases to 35 feet. You also know the Druidcraft cantrip.</td><td>Longstrider</td><td>Pass without Trace</td></tr></table>\n\nIntelligence, Wisdom, or Charisma is your spell-casting ability for the spells you cast with this trait (choose the ability when you select the lineage).\n\nFey Ancestry. You have Advantage on saving throws you make to avoid or end the Charmed condition.\n\nKeen Senses. You have proficiency in the Insight, Perception, or Survival skill.\n\nTrance. You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness."
+}

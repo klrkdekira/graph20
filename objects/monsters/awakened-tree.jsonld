@@ -75,5 +75,21 @@
       "rulesText": "Slam. Melee Attack Roll: +6, reach 10 ft. Hit: 14 (3d6 + 4) Bludgeoning damage."
     }
   ],
-  "rulesText": "Huge Plant, Neutral\n\nAC 13\n\nInitiative -2 (8)\n\nHP 59 (7d12 + 14)\n\nSpeed 20 ft.\n\nVulnerabilities Fire\nResistances Bludgeoning, Piercing\n\nSenses Passive Perception 10\n\nLanguages Common plus one other language\n\nCR 2 (XP 450; PB +2)\n\nActions\n\nSlam. Melee Attack Roll: +6, reach 10 ft. Hit: 14 (3d6 + 4) Bludgeoning damage."
+  "rulesText": "Huge Plant, Neutral\n\nAC 13\n\nInitiative -2 (8)\n\nHP 59 (7d12 + 14)\n\nSpeed 20 ft.\n\nVulnerabilities Fire\nResistances Bludgeoning, Piercing\n\nSenses Passive Perception 10\n\nLanguages Common plus one other language\n\nCR 2 (XP 450; PB +2)\n\nActions\n\nSlam. Melee Attack Roll: +6, reach 10 ft. Hit: 14 (3d6 + 4) Bludgeoning damage.",
+  "attacks": [
+    {
+      "name": "Slam",
+      "attackType": "Melee",
+      "attackBonus": 6,
+      "averageDamage": 14,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "3d6+4",
+        "count": 3,
+        "sides": 6,
+        "modifier": 4
+      },
+      "reachFeet": 10
+    }
+  ]
 }

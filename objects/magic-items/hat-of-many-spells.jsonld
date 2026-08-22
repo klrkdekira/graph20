@@ -20,11 +20,11 @@
   "attunementNote": "Requires Attunement by a Wizard",
   "relatedTables": [
     {
-      "@id": "https://cheeleong.dev/graph20/objects/tables/10-132-id100-effect"
+      "@id": "https://cheeleong.dev/graph20/objects/tables/10-132-1d100-effect"
     },
     {
-      "@id": "https://cheeleong.dev/graph20/objects/tables/10-132-id100-effect-2"
+      "@id": "https://cheeleong.dev/graph20/objects/tables/10-132-1d100-effect-2"
     }
   ],
-  "rulesText": "Wondrous Item, Very Rare (Requires Attunement by a Wizard)\n\nThis pointed hat has the following properties.\n\nSpellcasting Focus. While holding the hat, you can use it as a Spellcasting Focus for your Wizard spells. Any spell you cast using the hat gains a special Somatic component: you must reach into the hat and “pull” the spell out of it.\n\nUnknown Spell. While holding the hat, you can try to cast a level 1+ spell you don't know. The spell must be on the Wizard spell list, it must be of a level you can cast, and it can't have Material components costing more than 1,000 GP. Once you decide on the spell, you must expend a spell slot of the spell's level. Then, to determine whether you cast the spell, make an Intelligence (Arcana) check (DC 10 plus the spell's level). On a successful check, you cast the spell using its normal casting time, and you can't use this property again until you finish a Short or Long Rest. On a failed check, you fail to cast the spell and a random effect occurs instead, determined by rolling on the following table.\n\nAny spell you cast from the hat uses your spell save DC and spell attack bonus.\n\nId100 Effect\n\nId100 Effect"
+  "rulesText": "Wondrous Item, Very Rare (Requires Attunement by a Wizard)\n\nThis pointed hat has the following properties.\n\nSpellcasting Focus. While holding the hat, you can use it as a Spellcasting Focus for your Wizard spells. Any spell you cast using the hat gains a special Somatic component: you must reach into the hat and “pull” the spell out of it.\n\nUnknown Spell. While holding the hat, you can try to cast a level 1+ spell you don't know. The spell must be on the Wizard spell list, it must be of a level you can cast, and it can't have Material components costing more than 1,000 GP. Once you decide on the spell, you must expend a spell slot of the spell's level. Then, to determine whether you cast the spell, make an Intelligence (Arcana) check (DC 10 plus the spell's level). On a successful check, you cast the spell using its normal casting time, and you can't use this property again until you finish a Short or Long Rest. On a failed check, you fail to cast the spell and a random effect occurs instead, determined by rolling on the following table.\n\nAny spell you cast from the hat uses your spell save DC and spell attack bonus.\n\n1d100 Effect\n\n1d100 Effect"
 }

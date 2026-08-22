@@ -26,5 +26,22 @@
   "range": "Touch",
   "components": "V, S, M (diamond dust worth 100+ GP, which the spell consumes)",
   "duration": "Concentration, up to 1 hour",
-  "rulesText": "Level 4 Transmutation (Druid, Ranger, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (diamond dust worth 100+ GP, which the spell consumes)\n\nDuration: Concentration, up to 1 hour\n\nUntil the spell ends, one willing creature you touch has Resistance to Bludgeoning, Piercing, and Slashing damage."
+  "rulesText": "Level 4 Transmutation (Druid, Ranger, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (diamond dust worth 100+ GP, which the spell consumes)\n\nDuration: Concentration, up to 1 hour\n\nUntil the spell ends, one willing creature you touch has Resistance to Bludgeoning, Piercing, and Slashing damage.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/ranger"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": true,
+  "ritual": false
 }

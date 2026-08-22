@@ -1,0 +1,1064 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-7-cleric-features",
+  "@type": "Table",
+  "name": "Cleric Features",
+  "slug": "3-7-cleric-features",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.7",
+    "heading": "Level 1: Spellcasting",
+    "lineStart": 2636,
+    "lineEnd": 2636
+  },
+  "columns": [
+    "Proficiency",
+    "—Spell Slots per Spell Level—"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Level"
+        },
+        {
+          "value": "Bonus"
+        },
+        {
+          "value": "Class Features"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "7"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "+2"
+        },
+        {
+          "value": "Spellcasting, Divine Order"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "+2"
+        },
+        {
+          "value": "Channel Divinity"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "+2"
+        },
+        {
+          "value": "Cleric Subclass"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "+2"
+        },
+        {
+          "value": "Ability Score Improvement"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "7"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "+3"
+        },
+        {
+          "value": "Sear Undead"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "9"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "+3"
+        },
+        {
+          "value": "Subclass feature"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "+3"
+        },
+        {
+          "value": "Blessed Strikes"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "11"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "+3"
+        },
+        {
+          "value": "Ability Score Improvement"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "12"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "+4"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "14"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "+4"
+        },
+        {
+          "value": "Divine Intervention"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "+4"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "16"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "12"
+        },
+        {
+          "value": "+4"
+        },
+        {
+          "value": "Ability Score Improvement"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "16"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "cells": [
+        {
+          "value": "13"
+        },
+        {
+          "value": "+5"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "17"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "cells": [
+        {
+          "value": "14"
+        },
+        {
+          "value": "+5"
+        },
+        {
+          "value": "Improved Blessed Strikes"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "17"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "cells": [
+        {
+          "value": "15"
+        },
+        {
+          "value": "+5"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "18"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "cells": [
+        {
+          "value": "16"
+        },
+        {
+          "value": "+5"
+        },
+        {
+          "value": "Ability Score Improvement"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "18"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "cells": [
+        {
+          "value": "17"
+        },
+        {
+          "value": "+6"
+        },
+        {
+          "value": "Subclass feature"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "19"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "cells": [
+        {
+          "value": "18"
+        },
+        {
+          "value": "+6"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "20"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "cells": [
+        {
+          "value": "19"
+        },
+        {
+          "value": "+6"
+        },
+        {
+          "value": "Epic Boon"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "21"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "cells": [
+        {
+          "value": "20"
+        },
+        {
+          "value": "+6"
+        },
+        {
+          "value": "Greater Divine Intervention"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "22"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

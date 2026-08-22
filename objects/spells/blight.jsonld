@@ -26,5 +26,33 @@
   "range": "30 feet",
   "components": "V, S",
   "duration": "Instantaneous",
-  "rulesText": "Level 4 Necromancy (Druid, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V, S\n\nDuration: Instantaneous\n\nA creature that you can see within range makes a Constitution saving throw, taking 8d8 Necrotic damage on a failed save or half as much damage on a successful one. A Plant creature automatically fails the save.\n\nAlternatively, target a nonmagical plant that isn't a creature, such as a tree or shrub. It doesn't make a save; it simply withers and dies.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 4."
+  "rulesText": "Level 4 Necromancy (Druid, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V, S\n\nDuration: Instantaneous\n\nA creature that you can see within range makes a Constitution saving throw, taking 8d8 Necrotic damage on a failed save or half as much damage on a successful one. A Plant creature automatically fails the save.\n\nAlternatively, target a nonmagical plant that isn't a creature, such as a tree or shrub. It doesn't make a save; it simply withers and dies.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 4.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "savingThrowAbility": "Constitution",
+  "damage": [
+    {
+      "damageType": "Necrotic",
+      "damageRoll": {
+        "expression": "8d8",
+        "count": 8,
+        "sides": 8
+      }
+    }
+  ],
+  "scalesWithSlotLevel": true,
+  "concentration": false,
+  "ritual": false
 }

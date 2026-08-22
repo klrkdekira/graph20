@@ -25,5 +25,38 @@
   "range": "60 feet",
   "components": "S, M (a drop of water or a piece of ice)",
   "duration": "Instantaneous",
-  "rulesText": "Level 1 Conjuration (Druid, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: S, M (a drop of water or a piece of ice)\n\nDuration: Instantaneous\n\nYou create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 Cold damage.\n\nUsing a Higher-Level Spell Slot. The Cold damage increases by 1d6 for each spell slot level above 1."
+  "rulesText": "Level 1 Conjuration (Druid, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: S, M (a drop of water or a piece of ice)\n\nDuration: Instantaneous\n\nYou create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 Cold damage.\n\nUsing a Higher-Level Spell Slot. The Cold damage increases by 1d6 for each spell slot level above 1.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "savingThrowAbility": "Dexterity",
+  "damage": [
+    {
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d10",
+        "count": 1,
+        "sides": 10
+      }
+    },
+    {
+      "damageType": "Cold",
+      "damageRoll": {
+        "expression": "2d6",
+        "count": 2,
+        "sides": 6
+      }
+    }
+  ],
+  "scalesWithSlotLevel": true,
+  "concentration": false,
+  "ritual": false
 }

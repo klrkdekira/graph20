@@ -25,5 +25,19 @@
   "range": "Touch",
   "components": "V, S",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Level 4 Illusion (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S\n\nDuration: Concentration, up to 1 minute\n\nA creature you touch has the Invisible condition until the spell ends."
+  "rulesText": "Level 4 Illusion (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S\n\nDuration: Concentration, up to 1 minute\n\nA creature you touch has the Invisible condition until the spell ends.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "scalesWithSlotLevel": false,
+  "concentration": true,
+  "ritual": false
 }

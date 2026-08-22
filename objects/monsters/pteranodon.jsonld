@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.73",
     "heading": "Pteranodon",
-    "lineStart": 29207,
-    "lineEnd": 29235
+    "lineStart": 29209,
+    "lineEnd": 29237
   },
   "sizeTypeAlignment": "Medium Beast (Dinosaur), Unaligned",
   "sizeAndType": "Medium Beast (Dinosaur)",
@@ -77,5 +77,21 @@
       "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage."
     }
   ],
-  "rulesText": "Medium Beast (Dinosaur), Unaligned\n\nAC 13\n\nInitiative +2 (12)\n\nHP 13 (3d8)\n\nSpeed 10 ft., Fly 60 ft.\n\nSkills Perception +1\n\nSenses Passive Perception 11\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nFlyby. The pteranodon doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage."
+  "rulesText": "Medium Beast (Dinosaur), Unaligned\n\nAC 13\n\nInitiative +2 (12)\n\nHP 13 (3d8)\n\nSpeed 10 ft., Fly 60 ft.\n\nSkills Perception +1\n\nSenses Passive Perception 11\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nFlyby. The pteranodon doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 6,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d8+2",
+        "count": 1,
+        "sides": 8,
+        "modifier": 2
+      },
+      "reachFeet": 5
+    }
+  ]
 }

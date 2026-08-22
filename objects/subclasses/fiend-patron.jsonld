@@ -1,0 +1,54 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/subclasses/fiend-patron",
+  "@type": "Subclass",
+  "name": "Fiend Patron",
+  "slug": "fiend-patron",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.30",
+    "heading": "Warlock Subclass: Fiend Patron",
+    "lineStart": 4549,
+    "lineEnd": 4553
+  },
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+  },
+  "parentClassName": "Warlock",
+  "rulesText": "Make a Deal with the Lower Planes\n\nYour pact draws on the Lower Planes, the realms of perdition. You might forge a bargain with a demon lord, an archdevil, or another fiend that is especially mighty. That patron's aims are evil—the corruption or destruction of all things, ultimately including you—and your path is defined by the extent to which you strive against those aims.",
+  "features": [
+    {
+      "level": 3,
+      "name": "Dark One's Blessing",
+      "rulesText": "When you reduce an enemy to 0 Hit Points, you gain Temporary Hit Points equal to your Charisma modifier plus your Warlock level (minimum of 1 Temporary Hit Point). You also gain this benefit if someone else reduces an enemy within 10 feet of you to 0 Hit Points."
+    },
+    {
+      "level": 3,
+      "name": "Fiend Spells",
+      "rulesText": "The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Fiend Spells table, you thereafter always have the listed spells prepared.\n\nFiend Spells",
+      "relatedTables": [
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/tables/3-28-fiend-spells"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "name": "Dark One's Own Luck",
+      "rulesText": "You can call on your fiendish patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add 1d10 to your roll. You can do so after seeing the roll but before any of the roll's effects occur.\n\nYou can use this feature a number of times equal to your Charisma modifier (minimum of once), but you can use it no more than once per roll. You regain all expended uses when you finish a Long Rest."
+    },
+    {
+      "level": 10,
+      "name": "Fiendish Resilience",
+      "rulesText": "Choose one damage type, other than Force, whenever you finish a Short or Long Rest. You have Resistance to that damage type until you choose a different one with this feature."
+    },
+    {
+      "level": 14,
+      "name": "Hurl Through Hell",
+      "rulesText": "Once per turn when you hit a creature with an attack roll, you can try to instantly transport the target through the Lower Planes. The target must succeed on a Charisma saving throw against your spell save DC, or the target disappears and hurtles through a nightmare landscape. The target takes 8d10 Psychic damage if it isn't a Fiend, and it has the Incapacitated condition until the end of your next turn, when it returns to the space it previously occupied or the nearest unoccupied space.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest unless you expend a Pact Magic spell slot (no action required) to restore your use of it."
+    }
+  ]
+}

@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.70",
     "heading": "Plesiosaurus",
-    "lineStart": 29123,
-    "lineEnd": 29151
+    "lineStart": 29125,
+    "lineEnd": 29153
   },
   "sizeTypeAlignment": "Large Beast (Dinosaur), Unaligned",
   "sizeAndType": "Large Beast (Dinosaur)",
@@ -48,7 +48,9 @@
       "savingThrow": 2
     },
     "con": {
-      "score": 16
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "int": {
       "score": 2,
@@ -61,7 +63,9 @@
       "savingThrow": 1
     },
     "cha": {
-      "score": 5
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
     }
   },
   "statSections": [
@@ -74,5 +78,21 @@
       "rulesText": "Bite. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage."
     }
   ],
-  "rulesText": "Large Beast (Dinosaur), Unaligned\n\nAC 13\n\nInitiative +2 (12)\n\nHP 68 (8d10 + 24)\n\nSpeed 20 ft., Swim 40 ft.\n\nSkills Perception +3, Stealth +4\n\nSenses Passive Perception 13\n\nLanguages None\n\nCR 2 (XP 450; PB +2)\n\nTraits\n\nHold Breath. The plesiosaurus can hold its breath for 1 hour.\n\nActions\n\nBite. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage."
+  "rulesText": "Large Beast (Dinosaur), Unaligned\n\nAC 13\n\nInitiative +2 (12)\n\nHP 68 (8d10 + 24)\n\nSpeed 20 ft., Swim 40 ft.\n\nSkills Perception +3, Stealth +4\n\nSenses Passive Perception 13\n\nLanguages None\n\nCR 2 (XP 450; PB +2)\n\nTraits\n\nHold Breath. The plesiosaurus can hold its breath for 1 hour.\n\nActions\n\nBite. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "attackBonus": 6,
+      "averageDamage": 11,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d6+4",
+        "count": 2,
+        "sides": 6,
+        "modifier": 4
+      },
+      "reachFeet": 10
+    }
+  ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.39",
     "heading": "Giant Hyena",
-    "lineStart": 28186,
-    "lineEnd": 28214
+    "lineStart": 28188,
+    "lineEnd": 28216
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -48,7 +48,9 @@
       "savingThrow": 2
     },
     "con": {
-      "score": 14
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
     },
     "int": {
       "score": 2,
@@ -61,7 +63,9 @@
       "savingThrow": 1
     },
     "cha": {
-      "score": 7
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
     }
   },
   "statSections": [
@@ -74,5 +78,21 @@
       "rulesText": "Rampage (1/Day). Immediately after dealing damage to a creature that was already Bloodied, the hyena can move up to half its Speed, and it makes one Bite attack."
     }
   ],
-  "rulesText": "Large Beast, Unaligned\n\nAC 12\n\nInitiative +2 (12)\n\nHP 45 (6d10 + 12)\n\nSpeed 50 ft.\n\nSkills Perception +3\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages None\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage.\n\nBonus Actions\n\nRampage (1/Day). Immediately after dealing damage to a creature that was already Bloodied, the hyena can move up to half its Speed, and it makes one Bite attack."
+  "rulesText": "Large Beast, Unaligned\n\nAC 12\n\nInitiative +2 (12)\n\nHP 45 (6d10 + 12)\n\nSpeed 50 ft.\n\nSkills Perception +3\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages None\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage.\n\nBonus Actions\n\nRampage (1/Day). Immediately after dealing damage to a creature that was already Bloodied, the hyena can move up to half its Speed, and it makes one Bite attack.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 10,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d6+3",
+        "count": 2,
+        "sides": 6,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    }
+  ]
 }

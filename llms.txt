@@ -1,6 +1,6 @@
 # SRD 5.2.1 System JSON
 
-> Machine-readable JSON-LD 1.1 reference corpus for the System Reference Document 5.2.1 (D&D fifth edition rules, CC-BY-4.0), with JSON Schema Draft 2020-12 validation. 2,317 records: rules, tables, spells, feats, magic items, and monster stat blocks, each with verbatim source prose and line-level provenance.
+> Machine-readable JSON-LD 1.1 reference corpus for the System Reference Document 5.2.1 (D&D fifth edition rules, CC-BY-4.0), with JSON Schema Draft 2020-12 validation. 2,112 records: rules, tables, classes, subclasses, species, backgrounds, feats, equipment, spells, conditions, magic items, and monster stat blocks — each with verbatim source prose, typed sibling fields, graph links, and line-level provenance.
 
 Attribution: This work includes material from the System Reference Document 5.2.1 ("SRD 5.2.1") by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd, licensed CC-BY-4.0.
 
@@ -14,12 +14,14 @@ Attribution: This work includes material from the System Reference Document 5.2.
 
 ## Collections
 
-- [Spells](https://cheeleong.dev/graph20/objects/spells/): 338 records, e.g. objects/spells/fireball.jsonld
-- [Monsters](https://cheeleong.dev/graph20/objects/monsters/): 332 stat blocks
-- [Magic items](https://cheeleong.dev/graph20/objects/magic-items/): 258 records
-- [Feats](https://cheeleong.dev/graph20/objects/feats/): 17 records
-- [Rules](https://cheeleong.dev/graph20/objects/rules/): 1,113 records
-- [Tables](https://cheeleong.dev/graph20/objects/tables/): 258 records
+Record URLs follow `objects/<collection>/<slug>.jsonld`; the full per-collection @id lists are in the manifest, and display metadata (name, level/CR/rarity, grouping) is in [collection-index.json](https://cheeleong.dev/graph20/objects/collection-index.json).
+
+- Spells: 338, e.g. [fireball](https://cheeleong.dev/graph20/objects/spells/fireball.jsonld)
+- Monsters: 332 stat blocks, e.g. [fire-giant](https://cheeleong.dev/graph20/objects/monsters/fire-giant.jsonld)
+- Magic items: 258, e.g. [animated-shield](https://cheeleong.dev/graph20/objects/magic-items/animated-shield.jsonld)
+- Classes: 12 · Subclasses: 12 · Species: 9 · Backgrounds: 4 · Feats: 17 · Conditions: 15
+- Equipment: 133 typed weapons/armor/gear, e.g. [longsword](https://cheeleong.dev/graph20/objects/equipment/longsword.jsonld)
+- Rules: 738 · Tables: 243
 
 ## Documentation
 

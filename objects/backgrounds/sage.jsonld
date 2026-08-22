@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/backgrounds/sage",
+  "@type": "Background",
+  "name": "Sage",
+  "slug": "sage",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Origins",
+    "section": "4.12",
+    "heading": "Sage",
+    "lineStart": 4827,
+    "lineEnd": 4837
+  },
+  "abilityScores": "Constitution, Intelligence, Wisdom",
+  "feat": "Magic Initiate (Wizard) (see “Feats”)",
+  "skillProficiencies": "Arcana and History",
+  "toolProficiency": "Calligrapher's Supplies",
+  "startingEquipment": "Choose A or B: (A) Quarterstaff, Calligrapher's Supplies, Book (history), Parchment (8 sheets), Robe, 8 GP; or (B) 50 GP",
+  "abilityScoreOptions": [
+    "Constitution",
+    "Intelligence",
+    "Wisdom"
+  ],
+  "rulesText": "Ability Scores: Constitution, Intelligence, Wisdom\n\nFeat: Magic Initiate (Wizard) (see “Feats”)\n\nSkill Proficiencies: Arcana and History\n\nTool Proficiency: Calligrapher's Supplies\n\nEquipment: Choose A or B: (A) Quarterstaff, Calligrapher's Supplies, Book (history), Parchment (8 sheets), Robe, 8 GP; or (B) 50 GP"
+}

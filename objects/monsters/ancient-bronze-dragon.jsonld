@@ -48,6 +48,11 @@
       "modifier": 0,
       "savingThrow": 7
     },
+    "con": {
+      "score": 27,
+      "modifier": 8,
+      "savingThrow": 8
+    },
     "int": {
       "score": 18,
       "modifier": 4,
@@ -57,6 +62,11 @@
       "score": 17,
       "modifier": 3,
       "savingThrow": 10
+    },
+    "cha": {
+      "score": 25,
+      "modifier": 7,
+      "savingThrow": 7
     }
   },
   "statSections": [
@@ -73,5 +83,21 @@
       "rulesText": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nGuiding Light. The dragon uses Spellcasting to cast Guiding Bolt (level 2 version).\n\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.\n\nThunderclap. Constitution Saving Throw: DC 22, each creature in a 20-foot-radius Sphere centered on a point the dragon can see within 120 feet. Failure: 13 (3d8) Thunder damage, and the target has the Deafened condition until the end of its next turn."
     }
   ],
-  "rulesText": "Gargantuan Dragon (Metallic), Lawful Good\n\nAC 22\n\nInitiative +14 (24)\n\nHP 444 (24d20 + 192)\n\nSpeed 40 ft., Fly 80 ft., Swim 40 ft.\n\nSkills Insight +10, Perception +17, Stealth +7\n\nImmunities Lightning\n\nSenses Blindsight 60 ft., Darkvision 120 ft.;\n\nPassive Perception 27\n\nLanguages Common, Draconic\n\nCR 22 (XP 41,000, or 50,000 in lair; PB +7)\n\nTraits\n\nAmphibious. The dragon can breathe air and water.\n\nLegendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks. It can replace one attack with a use of (A) Repulsion Breath or (B) Spellcasting to cast Guiding Bolt (level 2 version).\n\nRend. Melee Attack Roll: +16, reach 15 ft. Hit: 18 (2d8 + 9) Slashing damage plus 9 (2d8) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 23, each creature in a 120-foot-long, 10-foot-wide Line. Failure: 82 (15d10) Lightning damage. Success: Half damage.\n\nRepulsion Breath. Strength Saving Throw: DC 23, each creature in a 30-foot Cone. Failure: The target is pushed up to 60 feet straight away from the dragon and has the Prone condition.\n\nSpellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 22, +14 to hit with spell attacks):\n\nAt Will: Detect Magic, Guiding Bolt (level 2 version), Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell), Speak with Animals, Thaumaturgy\n\n1/Day Each: Detect Thoughts, Control Water, Scrying, Water Breathing\n\nLegendary Actions\n\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nGuiding Light. The dragon uses Spellcasting to cast Guiding Bolt (level 2 version).\n\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.\n\nThunderclap. Constitution Saving Throw: DC 22, each creature in a 20-foot-radius Sphere centered on a point the dragon can see within 120 feet. Failure: 13 (3d8) Thunder damage, and the target has the Deafened condition until the end of its next turn."
+  "rulesText": "Gargantuan Dragon (Metallic), Lawful Good\n\nAC 22\n\nInitiative +14 (24)\n\nHP 444 (24d20 + 192)\n\nSpeed 40 ft., Fly 80 ft., Swim 40 ft.\n\nSkills Insight +10, Perception +17, Stealth +7\n\nImmunities Lightning\n\nSenses Blindsight 60 ft., Darkvision 120 ft.;\n\nPassive Perception 27\n\nLanguages Common, Draconic\n\nCR 22 (XP 41,000, or 50,000 in lair; PB +7)\n\nTraits\n\nAmphibious. The dragon can breathe air and water.\n\nLegendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks. It can replace one attack with a use of (A) Repulsion Breath or (B) Spellcasting to cast Guiding Bolt (level 2 version).\n\nRend. Melee Attack Roll: +16, reach 15 ft. Hit: 18 (2d8 + 9) Slashing damage plus 9 (2d8) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 23, each creature in a 120-foot-long, 10-foot-wide Line. Failure: 82 (15d10) Lightning damage. Success: Half damage.\n\nRepulsion Breath. Strength Saving Throw: DC 23, each creature in a 30-foot Cone. Failure: The target is pushed up to 60 feet straight away from the dragon and has the Prone condition.\n\nSpellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 22, +14 to hit with spell attacks):\n\nAt Will: Detect Magic, Guiding Bolt (level 2 version), Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell), Speak with Animals, Thaumaturgy\n\n1/Day Each: Detect Thoughts, Control Water, Scrying, Water Breathing\n\nLegendary Actions\n\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nGuiding Light. The dragon uses Spellcasting to cast Guiding Bolt (level 2 version).\n\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.\n\nThunderclap. Constitution Saving Throw: DC 22, each creature in a 20-foot-radius Sphere centered on a point the dragon can see within 120 feet. Failure: 13 (3d8) Thunder damage, and the target has the Deafened condition until the end of its next turn.",
+  "attacks": [
+    {
+      "name": "Rend",
+      "attackType": "Melee",
+      "attackBonus": 16,
+      "averageDamage": 18,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "2d8+9",
+        "count": 2,
+        "sides": 8,
+        "modifier": 9
+      },
+      "reachFeet": 15
+    }
+  ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.125",
     "heading": "Guardian Naga",
-    "lineStart": 21807,
-    "lineEnd": 21849
+    "lineStart": 21809,
+    "lineEnd": 21851
   },
   "sizeTypeAlignment": "Large Celestial, Lawful Good",
   "sizeAndType": "Large Celestial",
@@ -49,7 +49,9 @@
       "savingThrow": 8
     },
     "con": {
-      "score": 16
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 7
     },
     "int": {
       "score": 16,
@@ -62,7 +64,9 @@
       "savingThrow": 8
     },
     "cha": {
-      "score": 18
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 8
     }
   },
   "statSections": [
@@ -75,5 +79,35 @@
       "rulesText": "Multiattack. The naga makes two Bite attacks. It can replace any attack with a use of Poisonous Spittle.\n\nBite. Melee Attack Roll: +8, reach 10 ft. Hit: 17 (2d12 + 4) Piercing damage plus 22 (4d10) Poison damage.\n\nPoisonous Spittle. Constitution Saving Throw: DC 16, one creature the naga can see within 60 feet. Failure: 31 (7d8) Poison damage, and the target has the Blinded condition until the start of the naga's next turn. Success: Half damage only.\n\nSpellcasting. The naga casts one of the following spells, requiring no Somatic or Material components and using Wisdom as the spellcasting ability (spell save DC 16):\n\nAt Will: Thaumaturgy\n\n1/Day Each: Clairvoyance, Cure Wounds (level 6 version), Flame Strike (level 6 version), Geas, True Seeing"
     }
   ],
-  "rulesText": "Large Celestial, Lawful Good\n\nAC 18\n\nInitiative +4 (14)\n\nHP 136 (16d10 + 48)\n\nSpeed 40 ft., Climb 40 ft., Swim 40 ft.\n\nSkills Arcana +11, History +11, Religion +11\n\nImmunities Poison; Charmed, Paralyzed, Poisoned, Restrained\n\nSenses Darkvision 60 ft.; Passive Perception 14\n\nLanguages Celestial, Common\n\nCR 10 (XP 5,900; PB +4)\n\nTraits\n\nCelestial Restoration. If the naga dies, it returns to life in 1d6 days and regains all its Hit Points unless Dispel Evil and Good is cast on its remains.\n\nActions\n\nMultiattack. The naga makes two Bite attacks. It can replace any attack with a use of Poisonous Spittle.\n\nBite. Melee Attack Roll: +8, reach 10 ft. Hit: 17 (2d12 + 4) Piercing damage plus 22 (4d10) Poison damage.\n\nPoisonous Spittle. Constitution Saving Throw: DC 16, one creature the naga can see within 60 feet. Failure: 31 (7d8) Poison damage, and the target has the Blinded condition until the start of the naga's next turn. Success: Half damage only.\n\nSpellcasting. The naga casts one of the following spells, requiring no Somatic or Material components and using Wisdom as the spellcasting ability (spell save DC 16):\n\nAt Will: Thaumaturgy\n\n1/Day Each: Clairvoyance, Cure Wounds (level 6 version), Flame Strike (level 6 version), Geas, True Seeing"
+  "rulesText": "Large Celestial, Lawful Good\n\nAC 18\n\nInitiative +4 (14)\n\nHP 136 (16d10 + 48)\n\nSpeed 40 ft., Climb 40 ft., Swim 40 ft.\n\nSkills Arcana +11, History +11, Religion +11\n\nImmunities Poison; Charmed, Paralyzed, Poisoned, Restrained\n\nSenses Darkvision 60 ft.; Passive Perception 14\n\nLanguages Celestial, Common\n\nCR 10 (XP 5,900; PB +4)\n\nTraits\n\nCelestial Restoration. If the naga dies, it returns to life in 1d6 days and regains all its Hit Points unless Dispel Evil and Good is cast on its remains.\n\nActions\n\nMultiattack. The naga makes two Bite attacks. It can replace any attack with a use of Poisonous Spittle.\n\nBite. Melee Attack Roll: +8, reach 10 ft. Hit: 17 (2d12 + 4) Piercing damage plus 22 (4d10) Poison damage.\n\nPoisonous Spittle. Constitution Saving Throw: DC 16, one creature the naga can see within 60 feet. Failure: 31 (7d8) Poison damage, and the target has the Blinded condition until the start of the naga's next turn. Success: Half damage only.\n\nSpellcasting. The naga casts one of the following spells, requiring no Somatic or Material components and using Wisdom as the spellcasting ability (spell save DC 16):\n\nAt Will: Thaumaturgy\n\n1/Day Each: Clairvoyance, Cure Wounds (level 6 version), Flame Strike (level 6 version), Geas, True Seeing",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/paralyzed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "attackBonus": 8,
+      "averageDamage": 17,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d12+4",
+        "count": 2,
+        "sides": 12,
+        "modifier": 4
+      },
+      "reachFeet": 10
+    }
+  ]
 }

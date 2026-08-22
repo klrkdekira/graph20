@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.76",
     "heading": "Reef Shark",
-    "lineStart": 29297,
-    "lineEnd": 29327
+    "lineStart": 29299,
+    "lineEnd": 29329
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
@@ -78,5 +78,21 @@
       "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Piercing damage."
     }
   ],
-  "rulesText": "Medium Beast, Unaligned\n\nAC 12\n\nInitiative +2 (12)\n\nHP 22 (4d8 + 4)\n\nSpeed 5 ft., Swim 30 ft.\n\nSkills Perception +2\n\nSenses Blindsight 30 ft.; Passive Perception 12\n\nLanguages None\n\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nPack Tactics. The shark has Advantage on an attack roll against a creature if at least one of the shark's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nWater Breathing. The shark can breathe only underwater.\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Piercing damage."
+  "rulesText": "Medium Beast, Unaligned\n\nAC 12\n\nInitiative +2 (12)\n\nHP 22 (4d8 + 4)\n\nSpeed 5 ft., Swim 30 ft.\n\nSkills Perception +2\n\nSenses Blindsight 30 ft.; Passive Perception 12\n\nLanguages None\n\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nPack Tactics. The shark has Advantage on an attack roll against a creature if at least one of the shark's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nWater Breathing. The shark can breathe only underwater.\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Piercing damage.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 7,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "2d4+2",
+        "count": 2,
+        "sides": 4,
+        "modifier": 2
+      },
+      "reachFeet": 5
+    }
+  ]
 }

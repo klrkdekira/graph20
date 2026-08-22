@@ -1,0 +1,42 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/hand-crossbow",
+  "@type": "Equipment",
+  "name": "Hand Crossbow",
+  "slug": "hand-crossbow",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.26",
+    "heading": "Vex",
+    "lineStart": 5391,
+    "lineEnd": 5391
+  },
+  "equipmentType": "weapon",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-26-weapons"
+  },
+  "weaponCategory": "Martial",
+  "attackType": "Ranged",
+  "damage": "1d6 Piercing",
+  "damageType": "Piercing",
+  "damageRoll": {
+    "expression": "1d6",
+    "count": 1,
+    "sides": 6
+  },
+  "properties": [
+    "Ammunition (Range 30/120; Bolt)",
+    "Light",
+    "Loading"
+  ],
+  "mastery": "Vex",
+  "weight": "3 lb.",
+  "cost": {
+    "text": "75 GP",
+    "currency": "GP",
+    "amount": 75
+  }
+}

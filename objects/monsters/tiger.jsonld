@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.89",
     "heading": "Tiger",
-    "lineStart": 29699,
-    "lineEnd": 29727
+    "lineStart": 29701,
+    "lineEnd": 29729
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -78,5 +78,21 @@
       "rulesText": "Nimble Escape. The tiger takes the Disengage or Hide action."
     }
   ],
-  "rulesText": "Large Beast, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 30 (4d10 + 8)\n\nSpeed 40 ft.\n\nSkills Perception +3, Stealth +7\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages None\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.\n\nBonus Actions\n\nNimble Escape. The tiger takes the Disengage or Hide action."
+  "rulesText": "Large Beast, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 30 (4d10 + 8)\n\nSpeed 40 ft.\n\nSkills Perception +3, Stealth +7\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages None\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.\n\nBonus Actions\n\nNimble Escape. The tiger takes the Disengage or Hide action.",
+  "attacks": [
+    {
+      "name": "Rend",
+      "attackType": "Melee",
+      "attackBonus": 5,
+      "averageDamage": 10,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "2d6+3",
+        "count": 2,
+        "sides": 6,
+        "modifier": 3
+      },
+      "reachFeet": 5
+    }
+  ]
 }

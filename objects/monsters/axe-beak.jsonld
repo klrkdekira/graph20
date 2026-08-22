@@ -73,5 +73,21 @@
       "rulesText": "Beak. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage."
     }
   ],
-  "rulesText": "Large Monstrosity, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 19 (3d10 + 3)\n\nSpeed 50 ft.\n\nSenses Passive Perception 10\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBeak. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage."
+  "rulesText": "Large Monstrosity, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 19 (3d10 + 3)\n\nSpeed 50 ft.\n\nSenses Passive Perception 10\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBeak. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage.",
+  "attacks": [
+    {
+      "name": "Beak",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 6,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "1d8+2",
+        "count": 1,
+        "sides": 8,
+        "modifier": 2
+      },
+      "reachFeet": 5
+    }
+  ]
 }

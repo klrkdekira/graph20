@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.54",
     "heading": "Goat",
-    "lineStart": 28649,
-    "lineEnd": 28673
+    "lineStart": 28651,
+    "lineEnd": 28675
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
@@ -46,6 +46,11 @@
       "modifier": 0,
       "savingThrow": 0
     },
+    "con": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    },
     "int": {
       "score": 2,
       "modifier": -4,
@@ -57,7 +62,9 @@
       "savingThrow": 0
     },
     "cha": {
-      "score": 5
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
     }
   },
   "statSections": [

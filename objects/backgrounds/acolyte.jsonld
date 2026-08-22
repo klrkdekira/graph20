@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/backgrounds/acolyte",
+  "@type": "Background",
+  "name": "Acolyte",
+  "slug": "acolyte",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Origins",
+    "section": "4.10",
+    "heading": "Acolyte",
+    "lineStart": 4803,
+    "lineEnd": 4813
+  },
+  "abilityScores": "Intelligence, Wisdom, Charisma",
+  "feat": "Magic Initiate (Cleric) (see “Feats”)",
+  "skillProficiencies": "Insight and Religion",
+  "toolProficiency": "Calligrapher's Supplies",
+  "startingEquipment": "Choose A or B: (A) Calligrapher's Supplies, Book (prayers), Holy Symbol, Parchment (10 sheets), Robe, 8 GP; or (B) 50 GP",
+  "abilityScoreOptions": [
+    "Intelligence",
+    "Wisdom",
+    "Charisma"
+  ],
+  "rulesText": "Ability Scores: Intelligence, Wisdom, Charisma\n\nFeat: Magic Initiate (Cleric) (see “Feats”)\n\nSkill Proficiencies: Insight and Religion\n\nTool Proficiency: Calligrapher's Supplies\n\nEquipment: Choose A or B: (A) Calligrapher's Supplies, Book (prayers), Holy Symbol, Parchment (10 sheets), Robe, 8 GP; or (B) 50 GP"
+}

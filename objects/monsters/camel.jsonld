@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.13",
     "heading": "Camel",
-    "lineStart": 27435,
-    "lineEnd": 27457
+    "lineStart": 27437,
+    "lineEnd": 27459
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -73,5 +73,21 @@
       "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning damage."
     }
   ],
-  "rulesText": "Large Beast, Unaligned\n\nAC 10\n\nInitiative -1 (9)\n\nHP 17 (2d10 + 6)\n\nSpeed 50 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 10\n\nLanguages None\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning damage."
+  "rulesText": "Large Beast, Unaligned\n\nAC 10\n\nInitiative -1 (9)\n\nHP 17 (2d10 + 6)\n\nSpeed 50 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 10\n\nLanguages None\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning damage.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 4,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "1d4+2",
+        "count": 1,
+        "sides": 4,
+        "modifier": 2
+      },
+      "reachFeet": 5
+    }
+  ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.231",
     "heading": "Spy",
-    "lineStart": 25545,
-    "lineEnd": 25579
+    "lineStart": 25547,
+    "lineEnd": 25581
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -78,5 +78,38 @@
       "rulesText": "Cunning Action. The spy takes the Dash, Disengage, or Hide action."
     }
   ],
-  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 12\n\nInitiative +4 (14)\n\nHP 27 (6d8)\n\nSpeed 30 ft., Climb 30 ft.\n\nSkills Deception +5, Insight +4, Investigation +5, Perception +6, Sleight of Hand +4, Stealth +6\n\nGear Hand Crossbow, Shortsword, Thieves' Tools\n\nSenses Passive Perception 16\n\nLanguages Common plus one other language\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nShortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage.\n\nHand Crossbow. Ranged Attack Roll: +4, range 30/120 ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage.\n\nBonus Actions\n\nCunning Action. The spy takes the Dash, Disengage, or Hide action."
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 12\n\nInitiative +4 (14)\n\nHP 27 (6d8)\n\nSpeed 30 ft., Climb 30 ft.\n\nSkills Deception +5, Insight +4, Investigation +5, Perception +6, Sleight of Hand +4, Stealth +6\n\nGear Hand Crossbow, Shortsword, Thieves' Tools\n\nSenses Passive Perception 16\n\nLanguages Common plus one other language\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nShortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage.\n\nHand Crossbow. Ranged Attack Roll: +4, range 30/120 ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage.\n\nBonus Actions\n\nCunning Action. The spy takes the Dash, Disengage, or Hide action.",
+  "attacks": [
+    {
+      "name": "Shortsword",
+      "attackType": "Melee",
+      "attackBonus": 4,
+      "averageDamage": 5,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d6+2",
+        "count": 1,
+        "sides": 6,
+        "modifier": 2
+      },
+      "reachFeet": 5
+    },
+    {
+      "name": "Hand Crossbow",
+      "attackType": "Ranged",
+      "attackBonus": 4,
+      "averageDamage": 5,
+      "damageType": "Piercing",
+      "damageRoll": {
+        "expression": "1d6+2",
+        "count": 1,
+        "sides": 6,
+        "modifier": 2
+      },
+      "rangeFeet": {
+        "normal": 30,
+        "long": 120
+      }
+    }
+  ]
 }

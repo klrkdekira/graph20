@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.118",
     "heading": "Young Green Dragon",
-    "lineStart": 21535,
-    "lineEnd": 21571
+    "lineStart": 21537,
+    "lineEnd": 21573
   },
   "sizeTypeAlignment": "Large Dragon (Chromatic), Lawful Evil",
   "sizeAndType": "Large Dragon (Chromatic)",
@@ -49,7 +49,9 @@
       "savingThrow": 4
     },
     "con": {
-      "score": 17
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "int": {
       "score": 16,
@@ -62,7 +64,9 @@
       "savingThrow": 4
     },
     "cha": {
-      "score": 15
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
     }
   },
   "statSections": [
@@ -75,5 +79,26 @@
       "rulesText": "Multiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Slashing damage plus 7 (2d6) Poison damage.\n\nPoison Breath (Recharge 5–6). Constitution Saving\nThrow: DC 14, each creature in a 30-foot Cone. Failure:\n42 (12d6) Poison damage. Success: Half damage."
     }
   ],
-  "rulesText": "Large Dragon (Chromatic), Lawful Evil\n\nAC 18\n\nInitiative +4 (14)\n\nHP 136 (16d10 + 48)\n\nSpeed 40 ft., Fly 80 ft., Swim 40 ft.\n\nSkills Deception +5, Perception +7, Stealth +4\n\nImmunities Poison; Poisoned\n\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 17\n\nLanguages Common, Draconic\n\nCR 8 (XP 3,900; PB +3)\n\nTraits\n\nAmphibious. The dragon can breathe air and water.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Slashing damage plus 7 (2d6) Poison damage.\n\nPoison Breath (Recharge 5–6). Constitution Saving\nThrow: DC 14, each creature in a 30-foot Cone. Failure:\n42 (12d6) Poison damage. Success: Half damage."
+  "rulesText": "Large Dragon (Chromatic), Lawful Evil\n\nAC 18\n\nInitiative +4 (14)\n\nHP 136 (16d10 + 48)\n\nSpeed 40 ft., Fly 80 ft., Swim 40 ft.\n\nSkills Deception +5, Perception +7, Stealth +4\n\nImmunities Poison; Poisoned\n\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 17\n\nLanguages Common, Draconic\n\nCR 8 (XP 3,900; PB +3)\n\nTraits\n\nAmphibious. The dragon can breathe air and water.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Slashing damage plus 7 (2d6) Poison damage.\n\nPoison Breath (Recharge 5–6). Constitution Saving\nThrow: DC 14, each creature in a 30-foot Cone. Failure:\n42 (12d6) Poison damage. Success: Half damage.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Rend",
+      "attackType": "Melee",
+      "attackBonus": 7,
+      "averageDamage": 11,
+      "damageType": "Slashing",
+      "damageRoll": {
+        "expression": "2d6+4",
+        "count": 2,
+        "sides": 6,
+        "modifier": 4
+      },
+      "reachFeet": 10
+    }
+  ]
 }

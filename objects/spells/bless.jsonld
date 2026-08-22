@@ -24,5 +24,16 @@
   "range": "30 feet",
   "components": "V, S, M (a Holy Symbol worth 5+ GP)",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Level 1 Enchantment (Cleric, Paladin)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V, S, M (a Holy Symbol worth 5+ GP)\n\nDuration: Concentration, up to 1 minute\n\nYou bless up to three creatures within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target adds 1d4 to the attack roll or save.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1."
+  "rulesText": "Level 1 Enchantment (Cleric, Paladin)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V, S, M (a Holy Symbol worth 5+ GP)\n\nDuration: Concentration, up to 1 minute\n\nYou bless up to three creatures within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target adds 1d4 to the attack roll or save.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/paladin"
+    }
+  ],
+  "scalesWithSlotLevel": true,
+  "concentration": true,
+  "ritual": false
 }

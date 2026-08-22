@@ -27,5 +27,26 @@
   "range": "30 feet",
   "components": "V, S",
   "duration": "1 hour",
-  "rulesText": "Level 4 Enchantment (Bard, Druid, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V, S\n\nDuration: 1 hour\n\nOne creature you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the Charmed condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 4."
+  "rulesText": "Level 4 Enchantment (Bard, Druid, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V, S\n\nDuration: 1 hour\n\nOne creature you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the Charmed condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 4.",
+  "classes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "savingThrowAbility": "Wisdom",
+  "scalesWithSlotLevel": true,
+  "concentration": false,
+  "ritual": false
 }

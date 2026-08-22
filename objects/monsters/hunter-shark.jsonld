@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.57",
     "heading": "Hunter Shark",
-    "lineStart": 28733,
-    "lineEnd": 28761
+    "lineStart": 28735,
+    "lineEnd": 28763
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -48,7 +48,9 @@
       "savingThrow": 2
     },
     "con": {
-      "score": 15
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
     },
     "int": {
       "score": 1,
@@ -61,7 +63,9 @@
       "savingThrow": 0
     },
     "cha": {
-      "score": 4
+      "score": 4,
+      "modifier": -3,
+      "savingThrow": -3
     }
   },
   "statSections": [

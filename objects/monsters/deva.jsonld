@@ -84,5 +84,32 @@
       "rulesText": "Divine Aid (2/Day). The deva casts Cure Wounds, Lesser Restoration, or Remove Curse, using the same spellcasting ability as Spellcasting."
     }
   ],
-  "rulesText": "Medium Celestial (Angel), Lawful Good\n\nAC 17\n\nInitiative +4 (14)\n\nHP 229 (27d8 + 108)\n\nSpeed 30 ft., Fly 90 ft. (hover)\n\nSkills Insight +9, Perception +9\n\nResistances Radiant\n\nImmunities Charmed, Exhaustion, Frightened\n\nSenses Darkvision 120 ft.; Passive Perception 19\n\nLanguages All; telepathy 120 ft.\n\nCR 10 (XP 5,900; PB +4)\n\nTraits\n\nExalted Restoration. If the deva dies outside Mount Celestia, its body disappears, and it gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia.\n\nMagic Resistance. The deva has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The deva makes two Holy Mace attacks.\n\nHoly Mace. Melee Attack Roll: +8, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning damage plus 18 (4d8) Radiant damage.\n\nSpellcasting. The deva casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 17):\n\nAt Will: Detect Evil and Good, Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell)\n\n1/Day Each: Commune, Raise Dead\n\nBonus Actions\n\nDivine Aid (2/Day). The deva casts Cure Wounds, Lesser Restoration, or Remove Curse, using the same spellcasting ability as Spellcasting."
+  "rulesText": "Medium Celestial (Angel), Lawful Good\n\nAC 17\n\nInitiative +4 (14)\n\nHP 229 (27d8 + 108)\n\nSpeed 30 ft., Fly 90 ft. (hover)\n\nSkills Insight +9, Perception +9\n\nResistances Radiant\n\nImmunities Charmed, Exhaustion, Frightened\n\nSenses Darkvision 120 ft.; Passive Perception 19\n\nLanguages All; telepathy 120 ft.\n\nCR 10 (XP 5,900; PB +4)\n\nTraits\n\nExalted Restoration. If the deva dies outside Mount Celestia, its body disappears, and it gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia.\n\nMagic Resistance. The deva has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The deva makes two Holy Mace attacks.\n\nHoly Mace. Melee Attack Roll: +8, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning damage plus 18 (4d8) Radiant damage.\n\nSpellcasting. The deva casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 17):\n\nAt Will: Detect Evil and Good, Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell)\n\n1/Day Each: Commune, Raise Dead\n\nBonus Actions\n\nDivine Aid (2/Day). The deva casts Cure Wounds, Lesser Restoration, or Remove Curse, using the same spellcasting ability as Spellcasting.",
+  "conditionImmunities": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/exhaustion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Holy Mace",
+      "attackType": "Melee",
+      "attackBonus": 8,
+      "averageDamage": 7,
+      "damageType": "Bludgeoning",
+      "damageRoll": {
+        "expression": "1d6+4",
+        "count": 1,
+        "sides": 6,
+        "modifier": 4
+      },
+      "reachFeet": 5
+    }
+  ]
 }
