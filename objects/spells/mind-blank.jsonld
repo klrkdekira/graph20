@@ -24,7 +24,7 @@
   "range": "Touch",
   "components": "V, S",
   "duration": "24 hours",
-  "rulesText": "Level 8 Abjuration (Bard, Wizard)\n\nCasting Time: Action\nRange: Touch\nComponents: V, S\nDuration: 24 hours\n\nUntil the spell ends, one willing creature you touch has Immunity to Psychic damage and the Charmed condition. The target is also unaffected by anything that would sense its emotions or alignment, read its thoughts, or magically detect its location, and no spell—not even Wish—can gather information about the target, observe it remotely, or control its mind.",
+  "rulesText": "Level 8 Abjuration (Bard, Wizard)\n\nCasting Time: Action\nRange: Touch\nComponents: V, S\nDuration: 24 hours\n\nUntil the spell ends, one willing creature you touch has Immunity to Psychic damage and the Charmed condition. The target is also unaffected by anything that would sense its emotions or alignment, read its thoughts, or magically detect its location, and no spell - not even Wish - can gather information about the target, observe it remotely, or control its mind.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

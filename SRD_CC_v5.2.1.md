@@ -44,13 +44,13 @@ This pattern holds during every game session (each time you sit down to play D&D
 
 General rules govern each part of the game. For example, the combat rules tell you that melee attacks use Strength and ranged attacks use Dexterity. That's a general rule, and a general rule is in effect as long as something in the game doesn't explicitly say otherwise.
 
-The game also includes elements—class features, feats, weapon properties, spells, magic items, monster abilities, and the like—that sometimes contradict a general rule. When an exception and a general rule disagree, the exception wins. For example, if a feature says you can make melee attacks using your Charisma, you can do so, even though that statement disagrees with the general rule.
+The game also includes elements - class features, feats, weapon properties, spells, magic items, monster abilities, and the like - that sometimes contradict a general rule. When an exception and a general rule disagree, the exception wins. For example, if a feature says you can make melee attacks using your Charisma, you can do so, even though that statement disagrees with the general rule.
 
-adventurers are talking to a noble, exploring a ruin, or fighting a dragon. In certain situations—particularly combat—the action is more structured, and everyone takes turns.
+adventurers are talking to a noble, exploring a ruin, or fighting a dragon. In certain situations - particularly combat - the action is more structured, and everyone takes turns.
 
 # The Six Abilities
 
-All creatures—characters and monsters—have six abilities that measure physical and mental characteristics, as shown on the Ability Descriptions table.
+All creatures - characters and monsters - have six abilities that measure physical and mental characteristics, as shown on the Ability Descriptions table.
 
 Ability Descriptions
 
@@ -104,7 +104,7 @@ Ability Modifiers
 
 When the outcome of an action is uncertain, the game uses a d20 roll to determine success or failure. These rolls are called D20 Tests, and they come in three kinds: ability checks, saving throws, and attack rolls. They follow these steps:
 
-4: Roll 1d20. You always want to roll high. If the roll has Advantage or Disadvantage (described later in "Playing the Game"), you roll two d20s, but you use the number from only one of them—the higher one if you have Advantage or the lower one if you have Disadvantage.
+4: Roll 1d20. You always want to roll high. If the roll has Advantage or Disadvantage (described later in "Playing the Game"), you roll two d20s, but you use the number from only one of them - the higher one if you have Advantage or the lower one if you have Disadvantage.
 5: Add Modifiers. Add these modifiers to the number rolled on the d20:
 
 - The Relevant Ability Modifier. “Playing the Game” and “Rules Glossary” explain which ability modifiers to use for various D20 Tests.
@@ -150,7 +150,7 @@ Typical Difficulty Classes
 
 # Saving Throws
 
-A saving throw—also called a save—represents an attempt to evade or resist a threat, such as a fiery explosion, a blast of poisonous gas, or a spell trying to invade your mind. You don’t normally choose to make a save; you must make one because your character or a monster (if you’re the GM) is at risk. A save’s result is detailed in the effect that caused it.
+A saving throw - also called a save - represents an attempt to evade or resist a threat, such as a fiery explosion, a blast of poisonous gas, or a spell trying to invade your mind. You don’t normally choose to make a save; you must make one because your character or a monster (if you’re the GM) is at risk. A save’s result is detailed in the effect that caused it.
 
 If you don't want to resist the effect, you can choose to fail the save without rolling.
 
@@ -412,13 +412,13 @@ See “Equipment” for rules on many items that are useful on adventures. The i
 
 # Vision and Light
 
-Some adventuring tasks—such as noticing danger, hitting an enemy, and targeting certain spells—are affected by sight, so effects that obscure vision can hinder you, as explained below.
+Some adventuring tasks - such as noticing danger, hitting an enemy, and targeting certain spells - are affected by sight, so effects that obscure vision can hinder you, as explained below.
 
 # Obscured Areas
 
-An area might be Lightly or Heavily Obscured. In a Lightly Obscured area—such as an area with Dim Light, patchy fog, or moderate foliage—you have Disadvantage on Wisdom (Perception) checks that rely on sight.
+An area might be Lightly or Heavily Obscured. In a Lightly Obscured area - such as an area with Dim Light, patchy fog, or moderate foliage - you have Disadvantage on Wisdom (Perception) checks that rely on sight.
 
-A Heavily Obscured area—such as an area with Darkness, heavy fog, or dense foliage—is opaque. You have the Blinded condition (see “Rules Glossary”) when trying to see something there.
+A Heavily Obscured area - such as an area with Darkness, heavy fog, or dense foliage - is opaque. You have the Blinded condition (see “Rules Glossary”) when trying to see something there.
 
 # Light
 
@@ -529,7 +529,7 @@ A typical combat encounter is a clash between two sides: a flurry of weapon swin
 
 Combat unfolds in these steps:
 
-1: Establish Positions. The Game Master determines where all the characters and monsters are located. Given the adventurers' marching order or their stated positions in the room or other location, the GM figures out where the adversaries are—how far away and in what direction.
+1: Establish Positions. The Game Master determines where all the characters and monsters are located. Given the adventurers' marching order or their stated positions in the room or other location, the GM figures out where the adversaries are - how far away and in what direction.
 2: Roll Initiative. Everyone involved in the combat encounter rolls Initiative, determining the order of combatants' turns.
 3: Take Turns. Each participant in the battle takes a turn in Initiative order. When everyone involved in the combat has had a turn, the round ends. Repeat this step until the fighting stops.
 
@@ -551,7 +551,7 @@ On your turn, you can move a distance up to your Speed and take one action. You 
 
 The main actions you can take are listed in “Actions” earlier in “Playing the Game.” A character’s features and a monster’s stat block also provide action options. “Movement and Position” later in “Playing the Game” gives the rules for movement.
 
-Communicating. You can communicate however you are able—through brief utterances and gestures—as you take your turn. Doing so uses neither your action nor your move.
+Communicating. You can communicate however you are able - through brief utterances and gestures - as you take your turn. Doing so uses neither your action nor your move.
 
 Extended communication, such as a detailed explanation of something or an attempt to persuade a foe, requires an action. The Influence action is the main way you try to influence a monster.
 
@@ -571,7 +571,7 @@ Entering a Square. To enter a square, you must have enough movement left to pay 
 
 Corners. Diagonal movement can't cross the corner of a wall, a large tree, or another terrain feature that fills its space.
 
-Ranges. To determine the range on a grid between two things—whether creatures or objects—count squares from a square adjacent to one of them and stop counting in the space of the other one. Count by the shortest route.
+Ranges. To determine the range on a grid between two things - whether creatures or objects - count squares from a square adjacent to one of them and stop counting in the space of the other one. Count by the shortest route.
 
 The GM might require you to use an action for any of these activities when it needs special care or when it presents an unusual obstacle. For instance, the GM might require you to take the Utilize action to open a stuck door or turn a crank to lower a drawbridge.
 
@@ -706,7 +706,7 @@ You can control a mount only if it has been trained to accept a rider. Domestica
 
 The Initiative of a controlled mount changes to match yours when you mount it. It moves on your turn as you direct it, and it has only three action options during that turn: Dash, Disengage, and Dodge. A controlled mount can move and act even on the turn that you mount it.
 
-In contrast, an independent mount—one that lets you ride but ignores your control—retains its place in the Initiative order and moves and acts as it likes.
+In contrast, an independent mount - one that lets you ride but ignores your control - retains its place in the Initiative order and moves and acts as it likes.
 
 # Falling Off
 
@@ -750,7 +750,7 @@ If you have half your Hit Points or fewer, you're Bloodied, which has no game ef
 
 Each weapon, spell, and damaging monster ability specifies the damage it deals. You roll the damage dice, add any modifiers, and deal the damage to your target. If there's a penalty to the damage, it's possible to deal 0 damage but not negative damage.
 
-When attacking with a weapon, you add your ability modifier—the same modifier used for the attack roll—to the damage roll. A spell tells you which dice to roll for damage and whether to add any modifiers. Unless a rule says otherwise, you don't add your ability modifier to a fixed damage amount that doesn't use a roll, such as the damage of a Blowgun. See “Equipment” for weapons' damage dice and “Spells” for spells' damage dice.
+When attacking with a weapon, you add your ability modifier - the same modifier used for the attack roll - to the damage roll. A spell tells you which dice to roll for damage and whether to add any modifiers. Unless a rule says otherwise, you don't add your ability modifier to a fixed damage amount that doesn't use a roll, such as the damage of a Blowgun. See “Equipment” for weapons' damage dice and “Spells” for spells' damage dice.
 
 # Critical Hits
 
@@ -982,7 +982,7 @@ Standard Languages
 
 | 1d12  | Language             |
 | :---- | :------------------- |
-| —     | Common               |
+|   -   | Common               |
 | 1     | Common Sign Language |
 | 2     | Draconic             |
 | 3-4   | Dwarvish             |
@@ -1093,7 +1093,7 @@ Neutral Good (NG). Neutral Good creatures do the best they can, working within r
 
 Chaotic Good (CG). Chaotic Good creatures act as their conscience directs with little regard for what others expect. A rebel who waylays a cruel baron's tax collectors and uses the stolen money to help the poor is probably Chaotic Good.
 
-Lawful Neutral (LN). Lawful Neutral individuals act in accordance with law, tradition, or personal codes. Someone who follows a disciplined rule of life—and isn’t swayed either by the demands of those in need or by the temptations of evil—is probably Lawful Neutral.
+Lawful Neutral (LN). Lawful Neutral individuals act in accordance with law, tradition, or personal codes. Someone who follows a disciplined rule of life - and isn’t swayed either by the demands of those in need or by the temptations of evil - is probably Lawful Neutral.
 
 Neutral (N). Neutral is the alignment of those who prefer to avoid moral questions and don't take sides,
 
@@ -1170,7 +1170,7 @@ Spell attack bonus = spellcasting ability modifier + Proficiency Bonus
 
 Your spellcasting ability modifier for a spell is determined by whatever feature gives you the ability to cast the spell.
 
-Spell Slots, Cantrips, and Prepared Spells. If your class gives you the Spellcasting or Pact Magic feature, your class features table shows the number of spell slots you have available, how many cantrips you know, and how many spells you can prepare. Choose your cantrips and prepared spells, and note them—along with your number of spell slots—on your character sheet.
+Spell Slots, Cantrips, and Prepared Spells. If your class gives you the Spellcasting or Pact Magic feature, your class features table shows the number of spell slots you have available, how many cantrips you know, and how many spells you can prepare. Choose your cantrips and prepared spells, and note them - along with your number of spell slots - on your character sheet.
 
 # Level Advancement
 
@@ -1343,7 +1343,7 @@ This table might give you spell slots of a higher level than the spells you prep
 
 For example, if you are a level 4 Ranger / level 3 Sorcerer, you count as a level 5 character when determining your spell slots, counting all your levels as a Sorcerer and half your Ranger levels. As shown
 
-in the Multiclass Spellcaster table, you have four level 1 spell slots, three level 2 slots, and two level 3 slots. However, you can't prepare any level 3 spells, nor can you prepare any level 2 Ranger spells. You can use the spell slots of those levels to cast the spells you do prepare—and potentially enhance their effects.
+in the Multiclass Spellcaster table, you have four level 1 spell slots, three level 2 slots, and two level 3 slots. However, you can't prepare any level 3 spells, nor can you prepare any level 2 Ranger spells. You can use the spell slots of those levels to cast the spells you do prepare - and potentially enhance their effects.
 
 Pact Magic. If you have the Pact Magic feature from the Warlock class and the Spellcasting feature, you can use the spell slots you gain from Pact Magic to cast spells you have prepared from classes with the Spellcasting feature, and you can use the spell slots you gain from the Spellcasting feature to cast Warlock spells you have prepared.
 
@@ -1352,22 +1352,22 @@ Spell Slots per Spell Level
 
 | Level | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   |
 | :---- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1     | 2   | —   | —   | —   | —   | —   | —   | —   | —   |
-| 2     | 3   | —   | —   | —   | —   | —   | —   | —   | —   |
-| 3     | 4   | 2   | —   | —   | —   | —   | —   | —   | —   |
-| 4     | 4   | 3   | —   | —   | —   | —   | —   | —   | —   |
-| 5     | 4   | 3   | 2   | —   | —   | —   | —   | —   | —   |
-| 6     | 4   | 3   | 3   | —   | —   | —   | —   | —   | —   |
-| 7     | 4   | 3   | 3   | 1   | —   | —   | —   | —   | —   |
-| 8     | 4   | 3   | 3   | 2   | —   | —   | —   | —   | —   |
-| 9     | 4   | 3   | 3   | 3   | 1   | —   | —   | —   | —   |
-| 10    | 4   | 3   | 3   | 3   | 2   | —   | —   | —   | —   |
-| 11    | 4   | 3   | 3   | 3   | 2   | 1   | —   | —   | —   |
-| 12    | 4   | 3   | 3   | 3   | 2   | 1   | —   | —   | —   |
-| 13    | 4   | 3   | 3   | 3   | 2   | 1   | 1   | —   | —   |
-| 14    | 4   | 3   | 3   | 3   | 2   | 1   | 1   | —   | —   |
-| 15    | 4   | 3   | 3   | 3   | 2   | 1   | 1   | 1   | —   |
-| 16    | 4   | 3   | 3   | 3   | 2   | 1   | 1   | 1   | —   |
+| 1     | 2   |  -  |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 2     | 3   |  -  |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 3     | 4   | 2   |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 4     | 4   | 3   |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 5     | 4   | 3   | 2   |  -  |  -  |  -  |  -  |  -  |  -  |
+| 6     | 4   | 3   | 3   |  -  |  -  |  -  |  -  |  -  |  -  |
+| 7     | 4   | 3   | 3   | 1   |  -  |  -  |  -  |  -  |  -  |
+| 8     | 4   | 3   | 3   | 2   |  -  |  -  |  -  |  -  |  -  |
+| 9     | 4   | 3   | 3   | 3   | 1   |  -  |  -  |  -  |  -  |
+| 10    | 4   | 3   | 3   | 3   | 2   |  -  |  -  |  -  |  -  |
+| 11    | 4   | 3   | 3   | 3   | 2   | 1   |  -  |  -  |  -  |
+| 12    | 4   | 3   | 3   | 3   | 2   | 1   |  -  |  -  |  -  |
+| 13    | 4   | 3   | 3   | 3   | 2   | 1   | 1   |  -  |  -  |
+| 14    | 4   | 3   | 3   | 3   | 2   | 1   | 1   |  -  |  -  |
+| 15    | 4   | 3   | 3   | 3   | 2   | 1   | 1   | 1   |  -  |
+| 16    | 4   | 3   | 3   | 3   | 2   | 1   | 1   | 1   |  -  |
 | 17    | 4   | 3   | 3   | 3   | 2   | 1   | 1   | 1   | 1   |
 | 18    | 4   | 3   | 3   | 3   | 3   | 1   | 1   | 1   | 1   |
 | 19    | 4   | 3   | 3   | 3   | 3   | 2   | 1   | 1   | 1   |
@@ -1621,7 +1621,7 @@ While active, your Rage follows the rules below.
 
 Damage Resistance. You have Resistance to Bludgeoning, Piercing, and Slashing damage.
 
-Rage Damage. When you make an attack using Strength—with either a weapon or an Unarmed Strike—and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian Features table.
+Rage Damage. When you make an attack using Strength - with either a weapon or an Unarmed Strike - and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian Features table.
 
 Strength Advantage. You have Advantage on Strength checks and Strength saving throws.
 
@@ -1691,7 +1691,7 @@ If you use Reckless Attack, you can forgo any Advantage on one Strength-based at
 
 Forceful Blow. The target is pushed 15 feet straight away from you. You can then move up to half your Speed straight toward the target without provoking Opportunity Attacks.
 
-Hamstring Blow. The target's Speed is reduced by 15 feet until the start of your next turn. A target can be affected by only one Hamstring Blow at a time—the most recent one.
+Hamstring Blow. The target's Speed is reduced by 15 feet until the start of your next turn. A target can be affected by only one Hamstring Blow at a time - the most recent one.
 
 # Level 11: Relentless Rage
 
@@ -1792,26 +1792,26 @@ Using Bardic Inspiration. As a Bonus Action, you can inspire another creature wi
 
 Bard Features
 
-| Level | Proficiency Bonus | Class Features                   | Bardic Die | Cantrips | Prepared Spells | ——Spell Slots per Spell Level—— |     |     |     |     |     |     |     |     |
+| Level | Proficiency Bonus | Class Features                   | Bardic Die | Cantrips | Prepared Spells | --Spell Slots per Spell Level-- |     |     |     |     |     |     |     |     |
 | :---- | :---------------- | :------------------------------- | :--------- | :------- | :-------------- | :------------------------------ | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1     | 2                 | 3                                | 4          | 5        | 6               | 7                               | 8   | 9   |     |     |     |     |     |     |
-| 1     | +2                | Bardic Inspiration, Spellcasting | D6         | 2        | 4               | 2                               | —   | —   | —   | —   | —   | —   | —   | —   |
-| 2     | +2                | Expertise, Jack of All Trades    | D6         | 2        | 5               | 3                               | —   | —   | —   | —   | —   | —   | —   | —   |
-| 3     | +2                | Bard Subclass                    | D6         | 2        | 6               | 4                               | 2   | —   | —   | —   | —   | —   | —   | —   |
-| 4     | +2                | Ability Score Improvement        | D6         | 3        | 7               | 4                               | 3   | —   | —   | —   | —   | —   | —   | —   |
-| 5     | +3                | Font of Inspiration              | D8         | 3        | 9               | 4                               | 3   | 2   | —   | —   | —   | —   | —   | —   |
-| 6     | +3                | Subclass feature                 | D8         | 3        | 10              | 4                               | 3   | 3   | —   | —   | —   | —   | —   | —   |
-| 7     | +3                | Countercharm                     | D8         | 3        | 11              | 4                               | 3   | 3   | 1   | —   | —   | —   | —   | —   |
-| 8     | +3                | Ability Score Improvement        | D8         | 3        | 12              | 4                               | 3   | 3   | 2   | —   | —   | —   | —   | —   |
-| 9     | +4                | Expertise                        | D8         | 3        | 14              | 4                               | 3   | 3   | 3   | 1   | —   | —   | —   | —   |
-| 10    | +4                | Magical Secrets                  | D10        | 4        | 15              | 4                               | 3   | 3   | 3   | 2   | —   | —   | —   | —   |
-| 11    | +4                | —                                | D10        | 4        | 16              | 4                               | 3   | 3   | 3   | 2   | 1   | —   | —   | —   |
-| 12    | +4                | Ability Score Improvement        | D10        | 4        | 16              | 4                               | 3   | 3   | 3   | 2   | 1   | —   | —   | —   |
-| 13    | +5                | —                                | D10        | 4        | 17              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | —   | —   |
-| 14    | +5                | Subclass feature                 | D10        | 4        | 17              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | —   | —   |
-| 15    | +5                | —                                | D12        | 4        | 18              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | 1   | —   |
-| 16    | +5                | Ability Score Improvement        | D12        | 4        | 18              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | 1   | —   |
-| 17    | +6                | —                                | D12        | 4        | 19              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | 1   | 1   |
+| 1     | +2                | Bardic Inspiration, Spellcasting | D6         | 2        | 4               | 2                               |  -  |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 2     | +2                | Expertise, Jack of All Trades    | D6         | 2        | 5               | 3                               |  -  |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 3     | +2                | Bard Subclass                    | D6         | 2        | 6               | 4                               | 2   |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 4     | +2                | Ability Score Improvement        | D6         | 3        | 7               | 4                               | 3   |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 5     | +3                | Font of Inspiration              | D8         | 3        | 9               | 4                               | 3   | 2   |  -  |  -  |  -  |  -  |  -  |  -  |
+| 6     | +3                | Subclass feature                 | D8         | 3        | 10              | 4                               | 3   | 3   |  -  |  -  |  -  |  -  |  -  |  -  |
+| 7     | +3                | Countercharm                     | D8         | 3        | 11              | 4                               | 3   | 3   | 1   |  -  |  -  |  -  |  -  |  -  |
+| 8     | +3                | Ability Score Improvement        | D8         | 3        | 12              | 4                               | 3   | 3   | 2   |  -  |  -  |  -  |  -  |  -  |
+| 9     | +4                | Expertise                        | D8         | 3        | 14              | 4                               | 3   | 3   | 3   | 1   |  -  |  -  |  -  |  -  |
+| 10    | +4                | Magical Secrets                  | D10        | 4        | 15              | 4                               | 3   | 3   | 3   | 2   |  -  |  -  |  -  |  -  |
+| 11    | +4                |                -                 | D10        | 4        | 16              | 4                               | 3   | 3   | 3   | 2   | 1   |  -  |  -  |  -  |
+| 12    | +4                | Ability Score Improvement        | D10        | 4        | 16              | 4                               | 3   | 3   | 3   | 2   | 1   |  -  |  -  |  -  |
+| 13    | +5                |                -                 | D10        | 4        | 17              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   |  -  |  -  |
+| 14    | +5                | Subclass feature                 | D10        | 4        | 17              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   |  -  |  -  |
+| 15    | +5                |                -                 | D12        | 4        | 18              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | 1   |  -  |
+| 16    | +5                | Ability Score Improvement        | D12        | 4        | 18              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | 1   |  -  |
+| 17    | +6                |                -                 | D12        | 4        | 19              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | 1   | 1   |
 | 18    | +6                | Superior Inspiration             | D12        | 4        | 20              | 4                               | 3   | 3   | 3   | 3   | 1   | 1   | 1   | 1   |
 | 19    | +6                | Epic Boon                        | D12        | 4        | 21              | 4                               | 3   | 3   | 3   | 3   | 2   | 1   | 1   | 1   |
 | 20    | +6                | Words of Creation                | D12        | 4        | 22              | 4                               | 3   | 3   | 3   | 3   | 2   | 2   | 1   | 1   |
@@ -1905,54 +1905,54 @@ Cantrips (Level 0 Bard Spells)
 | Spell          | School        | Special |
 | :------------- | :------------ | :------ |
 | Dancing Lights | Illusion      | C       |
-| Light          | Evocation     | —       |
-| Mage Hand      | Conjuration   | —       |
-| Mending        | Transmutation | —       |
-| Message        | Transmutation | —       |
-| Minor Illusion | Illusion      | —       |
+| Light          | Evocation     |    -    |
+| Mage Hand      | Conjuration   |    -    |
+| Mending        | Transmutation |    -    |
+| Message        | Transmutation |    -    |
+| Minor Illusion | Illusion      |    -    |
 
 | Spell            | School        | Special |
 | :--------------- | :------------ | :------ |
-| Prestidigitation | Transmutation | —       |
-| Starry Wisp      | Evocation     | —       |
-| True Strike      | Divination    | —       |
-| Vicious Mockery  | Enchantment   | —       |
+| Prestidigitation | Transmutation |    -    |
+| Starry Wisp      | Evocation     |    -    |
+| True Strike      | Divination    |    -    |
+| Vicious Mockery  | Enchantment   |    -    |
 
 Level 1 Bard Spells
 
 | Spell                | School        | Special |
 | :------------------- | :------------ | :------ |
-| Animal Friendship    | Enchantment   | —       |
+| Animal Friendship    | Enchantment   |    -    |
 | Bane                 | Enchantment   | C       |
-| Charm Person         | Enchantment   | —       |
-| Color Spray          | Illusion      | —       |
-| Command              | Enchantment   | —       |
+| Charm Person         | Enchantment   |    -    |
+| Color Spray          | Illusion      |    -    |
+| Command              | Enchantment   |    -    |
 | Comprehend Languages | Divination    | R       |
-| Cure Wounds          | Abjuration    | —       |
+| Cure Wounds          | Abjuration    |    -    |
 | Detect Magic         | Divination    | C, R    |
-| Disguise Self        | Illusion      | —       |
-| Dissonant Whispers   | Enchantment   | —       |
+| Disguise Self        | Illusion      |    -    |
+| Dissonant Whispers   | Enchantment   |    -    |
 | Faerie Fire          | Evocation     | C       |
-| Feather Fall         | Transmutation | —       |
-| Healing Word         | Abjuration    | —       |
+| Feather Fall         | Transmutation |    -    |
+| Healing Word         | Abjuration    |    -    |
 | Heroism              | Enchantment   | C       |
 | Hideous Laughter     | Enchantment   | C       |
 | Identify             | Divination    | R, M    |
 | Illusory Script      | Illusion      | R, M    |
-| Longstrider          | Transmutation | —       |
+| Longstrider          | Transmutation |    -    |
 | Silent Image         | Illusion      | C       |
 | Sleep                | Enchantment   | C       |
 | Speak with Animals   | Divination    | R       |
-| Thunderwave          | Evocation     | —       |
+| Thunderwave          | Evocation     |    -    |
 | Unseen Servant       | Conjuration   | R       |
 
 Level 2 Bard Spells
 
 | Spell                    | School        | Special |
 | :----------------------- | :------------ | :------ |
-| Aid                      | Abjuration    | —       |
+| Aid                      | Abjuration    |    -    |
 | Animal Messenger         | Enchantment   | R       |
-| Blindness/Deafness       | Transmutation | —       |
+| Blindness/Deafness       | Transmutation |    -    |
 | Calm Emotions            | Enchantment   | C       |
 | Detect Thoughts          | Divination    | C       |
 | Enhance Ability          | Transmutation | C       |
@@ -1961,17 +1961,17 @@ Level 2 Bard Spells
 | Heat Metal               | Transmutation | C       |
 | Hold Person              | Enchantment   | C       |
 | Invisibility             | Illusion      | C       |
-| Knock                    | Transmutation | —       |
-| Lesser Restoration       | Abjuration    | —       |
+| Knock                    | Transmutation |    -    |
+| Lesser Restoration       | Abjuration    |    -    |
 | Locate Animals or Plants | Divination    | R       |
 | Locate Object            | Divination    | C       |
 | Magic Mouth              | Illusion      | R, M    |
-| Mirror Image             | Illusion      | —       |
-| See Invisibility         | Divination    | —       |
-| Shatter                  | Evocation     | —       |
+| Mirror Image             | Illusion      |    -    |
+| See Invisibility         | Divination    |    -    |
+| Shatter                  | Evocation     |    -    |
 | Silence                  | Illusion      | C, R    |
 | Suggestion               | Enchantment   | C       |
-| Zone of Truth            | Enchantment   | —       |
+| Zone of Truth            | Enchantment   |    -    |
 
 Level 3 Bard Spells
 
@@ -1979,33 +1979,33 @@ Level 3 Bard Spells
 | :---------------- | :------------ | :------ |
 | Bestow Curse      | Necromancy    | C       |
 | Clairvoyance      | Divination    | C, M    |
-| Dispel Magic      | Abjuration    | —       |
+| Dispel Magic      | Abjuration    |    -    |
 | Fear              | Illusion      | C       |
 | Glyph of Warding  | Abjuration    | M       |
 | Hypnotic Pattern  | Illusion      | C       |
 | Major Image       | Illusion      | C       |
-| Mass Healing Word | Abjuration    | —       |
+| Mass Healing Word | Abjuration    |    -    |
 | Nondetection      | Abjuration    | M       |
-| Plant Growth      | Transmutation | —       |
-| Sending           | Divination    | —       |
+| Plant Growth      | Transmutation |    -    |
+| Sending           | Divination    |    -    |
 | Slow              | Transmutation | C       |
-| Speak with Dead   | Necromancy    | —       |
-| Speak with Plants | Transmutation | —       |
+| Speak with Dead   | Necromancy    |    -    |
+| Speak with Plants | Transmutation |    -    |
 | Stinking Cloud    | Conjuration   | C       |
 | Tiny Hut          | Evocation     | R       |
-| Tongues           | Divination    | —       |
+| Tongues           | Divination    |    -    |
 
 Level 4 Bard Spells
 
 | Spell                 | School        | Special |
 | :-------------------- | :------------ | :------ |
-| Charm Monster         | Enchantment   | —       |
+| Charm Monster         | Enchantment   |    -    |
 | Compulsion            | Enchantment   | C       |
 | Confusion             | Enchantment   | C       |
-| Dimension Door        | Conjuration   | —       |
-| Freedom of Movement   | Abjuration    | —       |
+| Dimension Door        | Conjuration   |    -    |
+| Freedom of Movement   | Abjuration    |    -    |
 | Greater Invisibility  | Illusion      | C       |
-| Hallucinatory Terrain | Illusion      | —       |
+| Hallucinatory Terrain | Illusion      |    -    |
 | Locate Creature       | Divination    | C       |
 | Phantasmal Killer     | Illusion      | C       |
 | Polymorph             | Transmutation | C       |
@@ -2017,18 +2017,18 @@ Level 5 Bard Spells
 | Animate Objects      | Transmutation | C       |
 | Awaken               | Transmutation | M       |
 | Dominate Person      | Enchantment   | C       |
-| Dream                | Illusion      | —       |
-| Geas                 | Enchantment   | —       |
+| Dream                | Illusion      |    -    |
+| Geas                 | Enchantment   |    -    |
 | Greater Restoration  | Abjuration    | M       |
 | Hold Monster         | Enchantment   | C       |
 | Legend Lore          | Divination    | M       |
-| Mass Cure Wounds     | Abjuration    | —       |
+| Mass Cure Wounds     | Abjuration    |    -    |
 | Mislead              | Illusion      | C       |
 | Modify Memory        | Enchantment   | C       |
 | Planar Binding       | Abjuration    | M       |
 | Raise Dead           | Necromancy    | M       |
 | Scrying              | Divination    | C, M    |
-| Seeming              | Illusion      | —       |
+| Seeming              | Illusion      |    -    |
 | Telepathic Bond      | Divination    | R       |
 | Teleportation Circle | Conjuration   | M       |
 
@@ -2041,7 +2041,7 @@ Level 6 Bard Spells
 | Guards and Wards    | Abjuration  | M       |
 | Heroes’ Feast       | Conjuration | M       |
 | Irresistible Dance  | Enchantment | C       |
-| Mass Suggestion     | Enchantment | —       |
+| Mass Suggestion     | Enchantment |    -    |
 | Programmed Illusion | Illusion    | M       |
 | True Seeing         | Divination  | M       |
 
@@ -2050,36 +2050,36 @@ Level 7 Bard Spells
 | Spell               | School        | Special |
 | :------------------ | :------------ | :------ |
 | Arcane Sword        | Evocation     | C, M    |
-| Etherealness        | Conjuration   | —       |
+| Etherealness        | Conjuration   |    -    |
 | Forcecage           | Evocation     | C, M    |
 | Magnificent Mansion | Conjuration   | M       |
-| Mirage Arcane       | Illusion      | —       |
-| Prismatic Spray     | Evocation     | —       |
+| Mirage Arcane       | Illusion      |    -    |
+| Prismatic Spray     | Evocation     |    -    |
 | Project Image       | Illusion      | C, M    |
-| Regenerate          | Transmutation | —       |
+| Regenerate          | Transmutation |    -    |
 | Resurrection        | Necromancy    | M       |
 | Symbol              | Abjuration    | M       |
-| Teleport            | Conjuration   | —       |
+| Teleport            | Conjuration   |    -    |
 
 Level 8 Bard Spells
 
 | Spell              | School      | Special |
 | :----------------- | :---------- | :------ |
-| Antipathy/Sympathy | Enchantment | —       |
-| Befuddlement       | Enchantment | —       |
+| Antipathy/Sympathy | Enchantment |    -    |
+| Befuddlement       | Enchantment |    -    |
 | Dominate Monster   | Enchantment | C       |
-| Glibness           | Enchantment | —       |
-| Mind Blank         | Abjuration  | —       |
-| Power Word Stun    | Enchantment | —       |
+| Glibness           | Enchantment |    -    |
+| Mind Blank         | Abjuration  |    -    |
+| Power Word Stun    | Enchantment |    -    |
 
 Level 9 Bard Spells
 
 | Spell           | School        | Special |
 | :-------------- | :------------ | :------ |
-| Foresight       | Divination    | —       |
-| Power Word Heal | Enchantment   | —       |
-| Power Word Kill | Enchantment   | —       |
-| Prismatic Wall  | Abjuration    | —       |
+| Foresight       | Divination    |    -    |
+| Power Word Heal | Enchantment   |    -    |
+| Power Word Kill | Enchantment   |    -    |
+| Prismatic Wall  | Abjuration    |    -    |
 | True Polymorph  | Transmutation | C       |
 
 # Bard Subclass: College of Lore
@@ -2145,27 +2145,27 @@ Whenever you gain a Cleric level, you can replace one of your cantrips with anot
 
 Cleric Features
 
-| Proficiency |       |                             | Channel Divinity | Cantrips | Prepared Spells | —Spell Slots per Spell Level— |     |     |     |     |     |     |     |     |
+| Proficiency |       |                             | Channel Divinity | Cantrips | Prepared Spells | -Spell Slots per Spell Level- |     |     |     |     |     |     |     |     |
 | :---------- | :---- | :-------------------------- | :--------------- | :------- | :-------------- | :---------------------------- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Level       | Bonus | Class Features              | 1                | 2        | 3               | 4                             | 5   | 6   | 7   | 8   | 9   |     |     |     |
-| 1           | +2    | Spellcasting, Divine Order  | —                | 3        | 4               | 2                             | —   | —   | —   | —   | —   | —   | —   | —   |
-| 2           | +2    | Channel Divinity            | 2                | 3        | 5               | 3                             | —   | —   | —   | —   | —   | —   | —   | —   |
-| 3           | +2    | Cleric Subclass             | 2                | 3        | 6               | 4                             | 2   | —   | —   | —   | —   | —   | —   | —   |
-| 4           | +2    | Ability Score Improvement   | 2                | 4        | 7               | 4                             | 3   | —   | —   | —   | —   | —   | —   | —   |
-| 5           | +3    | Sear Undead                 | 2                | 4        | 9               | 4                             | 3   | 2   | —   | —   | —   | —   | —   | —   |
-| 6           | +3    | Subclass feature            | 3                | 4        | 10              | 4                             | 3   | 3   | —   | —   | —   | —   | —   | —   |
-| 7           | +3    | Blessed Strikes             | 3                | 4        | 11              | 4                             | 3   | 3   | 1   | —   | —   | —   | —   | —   |
-| 8           | +3    | Ability Score Improvement   | 3                | 4        | 12              | 4                             | 3   | 3   | 2   | —   | —   | —   | —   | —   |
-| 9           | +4    | —                           | 3                | 4        | 14              | 4                             | 3   | 3   | 3   | 1   | —   | —   | —   | —   |
-| 10          | +4    | Divine Intervention         | 3                | 5        | 15              | 4                             | 3   | 3   | 3   | 2   | —   | —   | —   | —   |
-| 11          | +4    | —                           | 3                | 5        | 16              | 4                             | 3   | 3   | 3   | 2   | 1   | —   | —   | —   |
-| 12          | +4    | Ability Score Improvement   | 3                | 5        | 16              | 4                             | 3   | 3   | 3   | 2   | 1   | —   | —   | —   |
-| 13          | +5    | —                           | 3                | 5        | 17              | 4                             | 3   | 3   | 3   | 2   | 1   | 1   | —   | —   |
-| 14          | +5    | Improved Blessed Strikes    | 3                | 5        | 17              | 4                             | 3   | 3   | 3   | 2   | 1   | 1   | —   | —   |
-| 15          | +5    | —                           | 3                | 5        | 18              | 4                             | 3   | 3   | 3   | 2   | 1   | 1   | 1   | —   |
-| 16          | +5    | Ability Score Improvement   | 3                | 5        | 18              | 4                             | 3   | 3   | 3   | 2   | 1   | 1   | 1   | —   |
+| 1           | +2    | Spellcasting, Divine Order  |        -         | 3        | 4               | 2                             |  -  |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 2           | +2    | Channel Divinity            | 2                | 3        | 5               | 3                             |  -  |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 3           | +2    | Cleric Subclass             | 2                | 3        | 6               | 4                             | 2   |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 4           | +2    | Ability Score Improvement   | 2                | 4        | 7               | 4                             | 3   |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 5           | +3    | Sear Undead                 | 2                | 4        | 9               | 4                             | 3   | 2   |  -  |  -  |  -  |  -  |  -  |  -  |
+| 6           | +3    | Subclass feature            | 3                | 4        | 10              | 4                             | 3   | 3   |  -  |  -  |  -  |  -  |  -  |  -  |
+| 7           | +3    | Blessed Strikes             | 3                | 4        | 11              | 4                             | 3   | 3   | 1   |  -  |  -  |  -  |  -  |  -  |
+| 8           | +3    | Ability Score Improvement   | 3                | 4        | 12              | 4                             | 3   | 3   | 2   |  -  |  -  |  -  |  -  |  -  |
+| 9           | +4    |              -              | 3                | 4        | 14              | 4                             | 3   | 3   | 3   | 1   |  -  |  -  |  -  |  -  |
+| 10          | +4    | Divine Intervention         | 3                | 5        | 15              | 4                             | 3   | 3   | 3   | 2   |  -  |  -  |  -  |  -  |
+| 11          | +4    |              -              | 3                | 5        | 16              | 4                             | 3   | 3   | 3   | 2   | 1   |  -  |  -  |  -  |
+| 12          | +4    | Ability Score Improvement   | 3                | 5        | 16              | 4                             | 3   | 3   | 3   | 2   | 1   |  -  |  -  |  -  |
+| 13          | +5    |              -              | 3                | 5        | 17              | 4                             | 3   | 3   | 3   | 2   | 1   | 1   |  -  |  -  |
+| 14          | +5    | Improved Blessed Strikes    | 3                | 5        | 17              | 4                             | 3   | 3   | 3   | 2   | 1   | 1   |  -  |  -  |
+| 15          | +5    |              -              | 3                | 5        | 18              | 4                             | 3   | 3   | 3   | 2   | 1   | 1   | 1   |  -  |
+| 16          | +5    | Ability Score Improvement   | 3                | 5        | 18              | 4                             | 3   | 3   | 3   | 2   | 1   | 1   | 1   |  -  |
 | 17          | +6    | Subclass feature            | 3                | 5        | 19              | 4                             | 3   | 3   | 3   | 2   | 1   | 1   | 1   | 1   |
-| 18          | +6    | —                           | 4                | 5        | 20              | 4                             | 3   | 3   | 3   | 3   | 1   | 1   | 1   | 1   |
+| 18          | +6    |              -              | 4                | 5        | 20              | 4                             | 3   | 3   | 3   | 3   | 1   | 1   | 1   | 1   |
 | 19          | +6    | Epic Boon                   | 4                | 5        | 21              | 4                             | 3   | 3   | 3   | 3   | 2   | 1   | 1   | 1   |
 | 20          | +6    | Greater Divine Intervention | 4                | 5        | 22              | 4                             | 3   | 3   | 3   | 3   | 2   | 2   | 1   | 1   |
 
@@ -2256,12 +2256,12 @@ Cantrips (Level 0 Cleric Spells)
 | Spell           | School        | Special |
 | :-------------- | :------------ | :------ |
 | Guidance        | Divination    | C       |
-| Light           | Evocation     | —       |
-| Mending         | Transmutation | —       |
+| Light           | Evocation     |    -    |
+| Mending         | Transmutation |    -    |
 | Resistance      | Abjuration    | C       |
-| Sacred Flame    | Evocation     | —       |
-| Spare the Dying | Necromancy    | —       |
-| Thaumaturgy     | Transmutation | —       |
+| Sacred Flame    | Evocation     |    -    |
+| Spare the Dying | Necromancy    |    -    |
+| Thaumaturgy     | Transmutation |    -    |
 
 Level 1 Cleric Spells
 
@@ -2269,64 +2269,64 @@ Level 1 Cleric Spells
 | :---------------------------- | :------------ | :------ |
 | Bane                          | Enchantment   | C       |
 | Bless                         | Enchantment   | C, M    |
-| Command                       | Enchantment   | —       |
-| Create or Destroy Water       | Transmutation | —       |
-| Cure Wounds                   | Abjuration    | —       |
+| Command                       | Enchantment   |    -    |
+| Create or Destroy Water       | Transmutation |    -    |
+| Cure Wounds                   | Abjuration    |    -    |
 | Detect Evil and Good          | Divination    | C       |
 | Detect Magic                  | Divination    | C, R    |
 | Detect Poison and Disease     | Divination    | C, R    |
-| Guiding Bolt                  | Evocation     | —       |
-| Healing Word                  | Abjuration    | —       |
-| Inflict Wounds                | Necromancy    | —       |
+| Guiding Bolt                  | Evocation     |    -    |
+| Healing Word                  | Abjuration    |    -    |
+| Inflict Wounds                | Necromancy    |    -    |
 | Protection from Evil and Good | Abjuration    | C, M    |
 | Purify Food and Drink         | Transmutation | R       |
-| Sanctuary                     | Abjuration    | —       |
+| Sanctuary                     | Abjuration    |    -    |
 | Shield of Faith               | Abjuration    | C       |
 
 Level 2 Cleric Spells
 
 | Spell                  | School        | Special |
 | :--------------------- | :------------ | :------ |
-| Aid                    | Abjuration    | —       |
+| Aid                    | Abjuration    |    -    |
 | Augury                 | Divination    | R, M    |
-| Blindness/Deafness     | Transmutation | —       |
+| Blindness/Deafness     | Transmutation |    -    |
 | Calm Emotions          | Enchantment   | C       |
 | Continual Flame        | Evocation     | M       |
 | Enhance Ability        | Transmutation | C       |
-| Find Traps             | Divination    | —       |
+| Find Traps             | Divination    |    -    |
 | Gentle Repose          | Necromancy    | R, M    |
 | Hold Person            | Enchantment   | C       |
-| Lesser Restoration     | Abjuration    | —       |
+| Lesser Restoration     | Abjuration    |    -    |
 | Locate Object          | Divination    | C       |
-| Prayer of Healing      | Abjuration    | —       |
-| Protection from Poison | Abjuration    | —       |
+| Prayer of Healing      | Abjuration    |    -    |
+| Protection from Poison | Abjuration    |    -    |
 | Silence                | Illusion      | C, R    |
 | Spiritual Weapon       | Evocation     | C       |
 | Warding Bond           | Abjuration    | M       |
-| Zone of Truth          | Enchantment   | —       |
+| Zone of Truth          | Enchantment   |    -    |
 
 Level 3 Cleric Spells
 
 | Spell                  | School        | Special |
 | :--------------------- | :------------ | :------ |
-| Animate Dead           | Necromancy    | —       |
+| Animate Dead           | Necromancy    |    -    |
 | Beacon of Hope         | Abjuration    | C       |
 | Bestow Curse           | Necromancy    | C       |
 | Clairvoyance           | Divination    | C, M    |
-| Create Food and Water  | Conjuration   | —       |
-| Daylight               | Evocation     | —       |
-| Dispel Magic           | Abjuration    | —       |
+| Create Food and Water  | Conjuration   |    -    |
+| Daylight               | Evocation     |    -    |
+| Dispel Magic           | Abjuration    |    -    |
 | Glyph of Warding       | Abjuration    | M       |
 | Magic Circle           | Abjuration    | M       |
-| Mass Healing Word      | Abjuration    | —       |
+| Mass Healing Word      | Abjuration    |    -    |
 | Meld into Stone        | Transmutation | R       |
 | Protection from Energy | Abjuration    | C       |
-| Remove Curse           | Abjuration    | —       |
+| Remove Curse           | Abjuration    |    -    |
 | Revivify               | Necromancy    | M       |
-| Sending                | Divination    | —       |
-| Speak with Dead        | Necromancy    | —       |
+| Sending                | Divination    |    -    |
+| Speak with Dead        | Necromancy    |    -    |
 | Spirit Guardians       | Conjuration   | C       |
-| Tongues                | Divination    | —       |
+| Tongues                | Divination    |    -    |
 | Water Walk             | Transmutation | R       |
 
 Level 4 Cleric Spells
@@ -2336,27 +2336,27 @@ Level 4 Cleric Spells
 | Aura of Life        | Abjuration    | C       |
 | Banishment          | Abjuration    | C       |
 | Control Water       | Transmutation | C       |
-| Death Ward          | Abjuration    | —       |
+| Death Ward          | Abjuration    |    -    |
 | Divination          | Divination    | R, M    |
-| Freedom of Movement | Abjuration    | —       |
-| Guardian of Faith   | Conjuration   | —       |
+| Freedom of Movement | Abjuration    |    -    |
+| Guardian of Faith   | Conjuration   |    -    |
 | Locate Creature     | Divination    | C       |
-| Stone Shape         | Transmutation | —       |
+| Stone Shape         | Transmutation |    -    |
 
 Level 5 Cleric Spells
 
 | Spell                | School      | Special |
 | :------------------- | :---------- | :------ |
 | Commune              | Divination  | R       |
-| Contagion            | Necromancy  | —       |
+| Contagion            | Necromancy  |    -    |
 | Dispel Evil and Good | Abjuration  | C       |
-| Flame Strike         | Evocation   | —       |
-| Geas                 | Enchantment | —       |
+| Flame Strike         | Evocation   |    -    |
+| Geas                 | Enchantment |    -    |
 | Greater Restoration  | Abjuration  | M       |
 | Hallow               | Abjuration  | M       |
 | Insect Plague        | Conjuration | C       |
 | Legend Lore          | Divination  | M       |
-| Mass Cure Wounds     | Abjuration  | —       |
+| Mass Cure Wounds     | Abjuration  |    -    |
 | Planar Binding       | Abjuration  | M       |
 | Raise Dead           | Necromancy  | M       |
 | Scrying              | Divination  | C, M    |
@@ -2369,24 +2369,24 @@ Level 6 Cleric Spells
 | Create Undead  | Necromancy  | M       |
 | Find the Path  | Divination  | C, M    |
 | Forbiddance    | Abjuration  | R, M    |
-| Harm           | Necromancy  | —       |
-| Heal           | Abjuration  | —       |
+| Harm           | Necromancy  |    -    |
+| Heal           | Abjuration  |    -    |
 | Heroes’ Feast  | Conjuration | M       |
-| Planar Ally    | Conjuration | —       |
+| Planar Ally    | Conjuration |    -    |
 | Sunbeam        | Evocation   | C       |
 | True Seeing    | Divination  | M       |
-| Word of Recall | Conjuration | —       |
+| Word of Recall | Conjuration |    -    |
 
 Level 7 Cleric Spells
 
 | Spell             | School        | Special |
 | :---------------- | :------------ | :------ |
 | Conjure Celestial | Conjuration   | C       |
-| Divine Word       | Evocation     | —       |
-| Etherealness      | Conjuration   | —       |
-| Fire Storm        | Evocation     | —       |
+| Divine Word       | Evocation     |    -    |
+| Etherealness      | Conjuration   |    -    |
+| Fire Storm        | Evocation     |    -    |
 | Plane Shift       | Conjuration   | M       |
-| Regenerate        | Transmutation | —       |
+| Regenerate        | Transmutation |    -    |
 | Resurrection      | Necromancy    | M       |
 | Symbol            | Abjuration    | M       |
 
@@ -2398,7 +2398,7 @@ Level 8 Cleric Spells
 | Control Weather | Transmutation | C       |
 | Earthquake      | Transmutation | C       |
 | Holy Aura       | Abjuration    | C, M    |
-| Sunburst        | Evocation     | —       |
+| Sunburst        | Evocation     |    -    |
 
 Level 9 Cleric Spells
 
@@ -2406,8 +2406,8 @@ Level 9 Cleric Spells
 | :---------------- | :---------- | :------ |
 | Astral Projection | Necromancy  | M       |
 | Gate              | Conjuration | C, M    |
-| Mass Heal         | Abjuration  | —       |
-| Power Word Heal   | Enchantment | —       |
+| Mass Heal         | Abjuration  |    -    |
+| Power Word Heal   | Enchantment |    -    |
 | True Resurrection | Necromancy  | M       |
 
 # Cleric Subclass: Life Domain
@@ -2483,26 +2483,26 @@ You have learned to cast spells through studying the mystical forces of nature. 
 
 Druid Features
 
-| Proficiency Level | Bonus | Class Features                      | Wild Shape | Cantrips | Prepared Spells | —Spell Slots per Spell Level— |     |     |     |     |     |     |     |     |
+| Proficiency Level | Bonus | Class Features                      | Wild Shape | Cantrips | Prepared Spells | -Spell Slots per Spell Level- |     |     |     |     |     |     |     |     |
 | :---------------- | :---- | :---------------------------------- | :--------- | :------- | :-------------- | :---------------------------- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1                 | 2     | 3                                   | 4          | 5        | 6               | 7                             | 8   | 9   |     |     |     |     |     |     |
-| 1                 | +2    | Spellcasting, Druidic, Primal Order | —          | 2        | 4               | 2                             | —   | —   | —   | —   | —   | —   | —   | —   |
-| 2                 | +2    | Wild Shape, Wild Companion          | 2          | 2        | 5               | 3                             | —   | —   | —   | —   | —   | —   | —   | —   |
-| 3                 | +2    | Druid Subclass                      | 2          | 2        | 6               | 4                             | 2   | —   | —   | —   | —   | —   | —   | —   |
-| 4                 | +2    | Ability Score Improvement           | 2          | 3        | 7               | 4                             | 3   | —   | —   | —   | —   | —   | —   | —   |
-| 5                 | +3    | Wild Resurgence                     | 2          | 3        | 9               | 4                             | 3   | 2   | —   | —   | —   | —   | —   | —   |
-| 6                 | +3    | Subclass feature                    | 3          | 3        | 10              | 4                             | 3   | 3   | —   | —   | —   | —   | —   | —   |
-| 7                 | +3    | Elemental Fury                      | 3          | 3        | 11              | 4                             | 3   | 3   | 1   | —   | —   | —   | —   | —   |
-| 8                 | +3    | Ability Score Improvement           | 3          | 3        | 12              | 4                             | 3   | 3   | 2   | —   | —   | —   | —   | —   |
-| 9                 | +4    | —                                   | 3          | 3        | 14              | 4                             | 3   | 3   | 3   | 1   | —   | —   | —   | —   |
-| 10                | +4    | Subclass feature                    | 3          | 4        | 15              | 4                             | 3   | 3   | 3   | 2   | —   | —   | —   | —   |
-| 11                | +4    | —                                   | 3          | 4        | 16              | 4                             | 3   | 3   | 3   | 2   | 1   | —   | —   | —   |
-| 12                | +4    | Ability Score Improvement           | 3          | 4        | 16              | 4                             | 3   | 3   | 3   | 2   | 1   | —   | —   | —   |
-| 13                | +5    | —                                   | 3          | 4        | 17              | 4                             | 3   | 3   | 3   | 2   | 1   | 1   | —   | —   |
-| 14                | +5    | Subclass feature                    | 3          | 4        | 17              | 4                             | 3   | 3   | 3   | 2   | 1   | 1   | —   | —   |
-| 15                | +5    | Improved Elemental Fury             | 3          | 4        | 18              | 4                             | 3   | 3   | 3   | 2   | 1   | 1   | 1   | —   |
-| 16                | +5    | Ability Score Improvement           | 3          | 4        | 18              | 4                             | 3   | 3   | 3   | 2   | 1   | 1   | 1   | —   |
-| 17                | +6    | —                                   | 4          | 4        | 19              | 4                             | 3   | 3   | 3   | 2   | 1   | 1   | 1   | 1   |
+| 1                 | +2    | Spellcasting, Druidic, Primal Order |     -      | 2        | 4               | 2                             |  -  |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 2                 | +2    | Wild Shape, Wild Companion          | 2          | 2        | 5               | 3                             |  -  |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 3                 | +2    | Druid Subclass                      | 2          | 2        | 6               | 4                             | 2   |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 4                 | +2    | Ability Score Improvement           | 2          | 3        | 7               | 4                             | 3   |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 5                 | +3    | Wild Resurgence                     | 2          | 3        | 9               | 4                             | 3   | 2   |  -  |  -  |  -  |  -  |  -  |  -  |
+| 6                 | +3    | Subclass feature                    | 3          | 3        | 10              | 4                             | 3   | 3   |  -  |  -  |  -  |  -  |  -  |  -  |
+| 7                 | +3    | Elemental Fury                      | 3          | 3        | 11              | 4                             | 3   | 3   | 1   |  -  |  -  |  -  |  -  |  -  |
+| 8                 | +3    | Ability Score Improvement           | 3          | 3        | 12              | 4                             | 3   | 3   | 2   |  -  |  -  |  -  |  -  |  -  |
+| 9                 | +4    |                  -                  | 3          | 3        | 14              | 4                             | 3   | 3   | 3   | 1   |  -  |  -  |  -  |  -  |
+| 10                | +4    | Subclass feature                    | 3          | 4        | 15              | 4                             | 3   | 3   | 3   | 2   |  -  |  -  |  -  |  -  |
+| 11                | +4    |                  -                  | 3          | 4        | 16              | 4                             | 3   | 3   | 3   | 2   | 1   |  -  |  -  |  -  |
+| 12                | +4    | Ability Score Improvement           | 3          | 4        | 16              | 4                             | 3   | 3   | 3   | 2   | 1   |  -  |  -  |  -  |
+| 13                | +5    |                  -                  | 3          | 4        | 17              | 4                             | 3   | 3   | 3   | 2   | 1   | 1   |  -  |  -  |
+| 14                | +5    | Subclass feature                    | 3          | 4        | 17              | 4                             | 3   | 3   | 3   | 2   | 1   | 1   |  -  |  -  |
+| 15                | +5    | Improved Elemental Fury             | 3          | 4        | 18              | 4                             | 3   | 3   | 3   | 2   | 1   | 1   | 1   |  -  |
+| 16                | +5    | Ability Score Improvement           | 3          | 4        | 18              | 4                             | 3   | 3   | 3   | 2   | 1   | 1   | 1   |  -  |
+| 17                | +6    |                  -                  | 4          | 4        | 19              | 4                             | 3   | 3   | 3   | 2   | 1   | 1   | 1   | 1   |
 | 18                | +6    | Beast Spells                        | 4          | 4        | 20              | 4                             | 3   | 3   | 3   | 3   | 1   | 1   | 1   | 1   |
 | 19                | +6    | Epic Boon                           | 4          | 4        | 21              | 4                             | 3   | 3   | 3   | 3   | 2   | 1   | 1   | 1   |
 | 20                | +6    | Archdruid                           | 4          | 4        | 22              | 4                             | 3   | 3   | 3   | 3   | 2   | 2   | 1   | 1   |
@@ -2639,65 +2639,65 @@ Cantrips (Level 0 Druid Spells)
 
 | Spell           | School        | Special |
 | :-------------- | :------------ | :------ |
-| Druidcraft      | Transmutation | —       |
-| Elementalism    | Transmutation | —       |
+| Druidcraft      | Transmutation |    -    |
+| Elementalism    | Transmutation |    -    |
 | Guidance        | Divination    | C       |
-| Mending         | Transmutation | —       |
-| Message         | Transmutation | —       |
-| Poison Spray    | Necromancy    | —       |
-| Produce Flame   | Conjuration   | —       |
+| Mending         | Transmutation |    -    |
+| Message         | Transmutation |    -    |
+| Poison Spray    | Necromancy    |    -    |
+| Produce Flame   | Conjuration   |    -    |
 | Resistance      | Abjuration    | C       |
-| Shillelagh      | Transmutation | —       |
-| Spare the Dying | Necromancy    | —       |
-| Starry Wisp     | Evocation     | —       |
+| Shillelagh      | Transmutation |    -    |
+| Spare the Dying | Necromancy    |    -    |
+| Starry Wisp     | Evocation     |    -    |
 
 Level 1 Druid Spells
 
 | Spell                         | School        | Special |
 | :---------------------------- | :------------ | :------ |
-| Animal Friendship             | Enchantment   | —       |
-| Charm Person                  | Enchantment   | —       |
-| Create or Destroy Water       | Transmutation | —       |
-| Cure Wounds                   | Abjuration    | —       |
+| Animal Friendship             | Enchantment   |    -    |
+| Charm Person                  | Enchantment   |    -    |
+| Create or Destroy Water       | Transmutation |    -    |
+| Cure Wounds                   | Abjuration    |    -    |
 | Detect Magic                  | Divination    | C, R    |
 | Detect Poison and Disease     | Divination    | C, R    |
 | Entangle                      | Conjuration   | C       |
 | Faerie Fire                   | Evocation     | C       |
 | Fog Cloud                     | Conjuration   | C       |
-| Goodberry                     | Conjuration   | —       |
-| Healing Word                  | Abjuration    | —       |
-| Ice Knife                     | Conjuration   | —       |
-| Jump                          | Transmutation | —       |
-| Longstrider                   | Transmutation | —       |
+| Goodberry                     | Conjuration   |    -    |
+| Healing Word                  | Abjuration    |    -    |
+| Ice Knife                     | Conjuration   |    -    |
+| Jump                          | Transmutation |    -    |
+| Longstrider                   | Transmutation |    -    |
 | Protection from Evil and Good | Abjuration    | C, M    |
 | Purify Food and Drink         | Transmutation | R       |
 | Speak with Animals            | Divination    | R       |
-| Thunderwave                   | Evocation     | —       |
+| Thunderwave                   | Evocation     |    -    |
 
 Level 2 Druid Spells
 
 | Spell                    | School        | Special |
 | :----------------------- | :------------ | :------ |
-| Aid                      | Abjuration    | —       |
+| Aid                      | Abjuration    |    -    |
 | Animal Messenger         | Enchantment   | R       |
 | Augury                   | Divination    | R, M    |
-| Barkskin                 | Transmutation | —       |
+| Barkskin                 | Transmutation |    -    |
 | Continual Flame          | Evocation     | M       |
-| Darkvision               | Transmutation | —       |
+| Darkvision               | Transmutation |    -    |
 | Enhance Ability          | Transmutation | C       |
 | Enlarge/Reduce           | Transmutation | C       |
-| Find Traps               | Divination    | —       |
+| Find Traps               | Divination    |    -    |
 | Flame Blade              | Evocation     | C       |
 | Flaming Sphere           | Evocation     | C       |
 | Gust of Wind             | Evocation     | C       |
 | Heat Metal               | Transmutation | C       |
 | Hold Person              | Enchantment   | C       |
-| Lesser Restoration       | Abjuration    | —       |
+| Lesser Restoration       | Abjuration    |    -    |
 | Locate Animals or Plants | Divination    | R       |
 | Locate Object            | Divination    | C       |
 | Moonbeam                 | Evocation     | C       |
 | Pass without Trace       | Abjuration    | C       |
-| Protection from Poison   | Abjuration    | —       |
+| Protection from Poison   | Abjuration    |    -    |
 | Spike Growth             | Transmutation | C       |
 
 Level 3 Druid Spells
@@ -2706,14 +2706,14 @@ Level 3 Druid Spells
 | :--------------------- | :------------ | :------ |
 | Call Lightning         | Conjuration   | C       |
 | Conjure Animals        | Conjuration   | C       |
-| Daylight               | Evocation     | —       |
-| Dispel Magic           | Abjuration    | —       |
+| Daylight               | Evocation     |    -    |
+| Dispel Magic           | Abjuration    |    -    |
 | Meld into Stone        | Transmutation | R       |
-| Plant Growth           | Transmutation | —       |
+| Plant Growth           | Transmutation |    -    |
 | Protection from Energy | Abjuration    | C       |
 | Revivify               | Necromancy    | M       |
 | Sleet Storm            | Conjuration   | C       |
-| Speak with Plants      | Transmutation | —       |
+| Speak with Plants      | Transmutation |    -    |
 | Water Breathing        | Transmutation | R       |
 | Water Walk             | Transmutation | R       |
 | Wind Wall              | Evocation     | C       |
@@ -2722,22 +2722,22 @@ Level 4 Druid Spells
 
 | Spell                    | School        | Special |
 | :----------------------- | :------------ | :------ |
-| Blight                   | Necromancy    | —       |
-| Charm Monster            | Enchantment   | —       |
+| Blight                   | Necromancy    |    -    |
+| Charm Monster            | Enchantment   |    -    |
 | Confusion                | Enchantment   | C       |
 | Conjure Minor Elementals | Conjuration   | C       |
 | Conjure Woodland Beings  | Conjuration   | C       |
 | Control Water            | Transmutation | C       |
 | Divination               | Divination    | R, M    |
 | Dominate Beast           | Enchantment   | C       |
-| Fire Shield              | Evocation     | —       |
-| Freedom of Movement      | Abjuration    | —       |
+| Fire Shield              | Evocation     |    -    |
+| Freedom of Movement      | Abjuration    |    -    |
 | Giant Insect             | Conjuration   | C       |
-| Hallucinatory Terrain    | Illusion      | —       |
-| Ice Storm                | Evocation     | —       |
+| Hallucinatory Terrain    | Illusion      |    -    |
+| Ice Storm                | Evocation     |    -    |
 | Locate Creature          | Divination    | C       |
 | Polymorph                | Transmutation | C       |
-| Stone Shape              | Transmutation | —       |
+| Stone Shape              | Transmutation |    -    |
 | Stoneskin                | Transmutation | C, M    |
 | Wall of Fire             | Evocation     | C       |
 
@@ -2748,13 +2748,13 @@ Level 5 Druid Spells
 | Antilife Shell      | Abjuration    | C       |
 | Awaken              | Transmutation | M       |
 | Commune with Nature | Divination    | R       |
-| Cone of Cold        | Evocation     | —       |
+| Cone of Cold        | Evocation     |    -    |
 | Conjure Elemental   | Conjuration   | C       |
-| Contagion           | Necromancy    | —       |
-| Geas                | Enchantment   | —       |
+| Contagion           | Necromancy    |    -    |
+| Geas                | Enchantment   |    -    |
 | Greater Restoration | Abjuration    | M       |
 | Insect Plague       | Conjuration   | C       |
-| Mass Cure Wounds    | Abjuration    | —       |
+| Mass Cure Wounds    | Abjuration    |    -    |
 | Planar Binding      | Abjuration    | M       |
 | Reincarnate         | Necromancy    | M       |
 | Scrying             | Divination    | C, M    |
@@ -2768,22 +2768,22 @@ Level 6 Druid Spells
 | Conjure Fey          | Conjuration   | C       |
 | Find the Path        | Divination    | C, M    |
 | Flesh to Stone       | Transmutation | C       |
-| Heal                 | Abjuration    | —       |
+| Heal                 | Abjuration    |    -    |
 | Heroes’ Feast        | Conjuration   | M       |
 | Move Earth           | Transmutation | C       |
 | Sunbeam              | Evocation     | C       |
-| Transport via Plants | Conjuration   | —       |
+| Transport via Plants | Conjuration   |    -    |
 | Wall of Thorns       | Conjuration   | C       |
-| Wind Walk            | Transmutation | —       |
+| Wind Walk            | Transmutation |    -    |
 
 Level 7 Druid Spells
 
 | Spell           | School        | Special |
 | :-------------- | :------------ | :------ |
-| Fire Storm      | Evocation     | —       |
-| Mirage Arcane   | Illusion      | —       |
+| Fire Storm      | Evocation     |    -    |
+| Mirage Arcane   | Illusion      |    -    |
 | Plane Shift     | Conjuration   | M       |
-| Regenerate      | Transmutation | —       |
+| Regenerate      | Transmutation |    -    |
 | Reverse Gravity | Transmutation | C       |
 | Symbol          | Abjuration    | M       |
 
@@ -2791,20 +2791,20 @@ Level 8 Druid Spells
 
 | Spell              | School        | Special |
 | :----------------- | :------------ | :------ |
-| Animal Shapes      | Transmutation | —       |
-| Antipathy/Sympathy | Enchantment   | —       |
-| Befuddlement       | Enchantment   | —       |
+| Animal Shapes      | Transmutation |    -    |
+| Antipathy/Sympathy | Enchantment   |    -    |
+| Befuddlement       | Enchantment   |    -    |
 | Control Weather    | Transmutation | C       |
 | Earthquake         | Transmutation | C       |
 | Incendiary Cloud   | Conjuration   | C       |
-| Sunburst           | Evocation     | —       |
+| Sunburst           | Evocation     |    -    |
 | Tsunami            | Conjuration   | C       |
 
 Level 9 Druid Spells
 
 | Spell              | School        | Special |
 | :----------------- | :------------ | :------ |
-| Foresight          | Divination    | —       |
+| Foresight          | Divination    |    -    |
 | Shapechange        | Transmutation | C, M    |
 | Storm of Vengeance | Conjuration   | C       |
 | True Resurrection  | Necromancy    | M       |
@@ -3080,7 +3080,7 @@ Monk Features
 
 | Level | Proficiency Bonus | Class Features                                       | Martial Arts | Focus Points | Unarmored Movement |
 | :---- | :---------------- | :--------------------------------------------------- | :----------- | :----------- | :----------------- |
-| 1     | +2                | Martial Arts, Unarmored Defense                      | 1d6          | —            | —                  |
+| 1     | +2                | Martial Arts, Unarmored Defense                      | 1d6          |      -       |         -          |
 | 2     | +2                | Monk’s Focus, Unarmored Movement, Uncanny Metabolism | 1d6          | 2            | +10 ft.            |
 | 3     | +2                | Deflect Attacks, Monk Subclass                       | 1d6          | 3            | +10 ft.            |
 | 4     | +2                | Ability Score Improvement, Slow Fall                 | 1d6          | 4            | +10 ft.            |
@@ -3300,26 +3300,26 @@ Your blessed touch can heal wounds. You have a pool of healing power that replen
 
 Paladin Features
 
-| Level | Proficiency Bonus | Class Features                             | Channel Divinity | Prepared Spells | —Spell Slots per Spell Level— |     |     |     |     |
+| Level | Proficiency Bonus | Class Features                             | Channel Divinity | Prepared Spells | -Spell Slots per Spell Level- |     |     |     |     |
 | :---- | :---------------- | :----------------------------------------- | :--------------- | :-------------- | :---------------------------- | :--- | :--- | :--- | :--- |
 | 1     | 2                 | 3                                          | 4                | 5               |                               |     |     |     |     |
-| 1     | +2                | Lay On Hands, Spellcasting, Weapon Mastery | —                | 2               | 2                             | —   | —   | —   | —   |
-| 2     | +2                | Fighting Style, Paladin’s Smite            | —                | 3               | 2                             | —   | —   | —   | —   |
-| 3     | +2                | Channel Divinity, Paladin Subclass         | 2                | 4               | 3                             | —   | —   | —   | —   |
-| 4     | +2                | Ability Score Improvement                  | 2                | 5               | 3                             | —   | —   | —   | —   |
-| 5     | +3                | Extra Attack, Faithful Steed               | 2                | 6               | 4                             | 2   | —   | —   | —   |
-| 6     | +3                | Aura of Protection                         | 2                | 6               | 4                             | 2   | —   | —   | —   |
-| 7     | +3                | Subclass feature                           | 2                | 7               | 4                             | 3   | —   | —   | —   |
-| 8     | +3                | Ability Score Improvement                  | 2                | 7               | 4                             | 3   | —   | —   | —   |
-| 9     | +4                | Abjure Foes                                | 2                | 9               | 4                             | 3   | 2   | —   | —   |
-| 10    | +4                | Aura of Courage                            | 2                | 9               | 4                             | 3   | 2   | —   | —   |
-| 11    | +4                | Radiant Strikes                            | 3                | 10              | 4                             | 3   | 3   | —   | —   |
-| 12    | +4                | Ability Score Improvement                  | 3                | 10              | 4                             | 3   | 3   | —   | —   |
-| 13    | +5                | —                                          | 3                | 11              | 4                             | 3   | 3   | 1   | —   |
-| 14    | +5                | Restoring Touch                            | 3                | 11              | 4                             | 3   | 3   | 1   | —   |
-| 15    | +5                | Subclass feature                           | 3                | 12              | 4                             | 3   | 3   | 2   | —   |
-| 16    | +5                | Ability Score Improvement                  | 3                | 12              | 4                             | 3   | 3   | 2   | —   |
-| 17    | +6                | —                                          | 3                | 14              | 4                             | 3   | 3   | 3   | 1   |
+| 1     | +2                | Lay On Hands, Spellcasting, Weapon Mastery |        -         | 2               | 2                             |  -  |  -  |  -  |  -  |
+| 2     | +2                | Fighting Style, Paladin’s Smite            |        -         | 3               | 2                             |  -  |  -  |  -  |  -  |
+| 3     | +2                | Channel Divinity, Paladin Subclass         | 2                | 4               | 3                             |  -  |  -  |  -  |  -  |
+| 4     | +2                | Ability Score Improvement                  | 2                | 5               | 3                             |  -  |  -  |  -  |  -  |
+| 5     | +3                | Extra Attack, Faithful Steed               | 2                | 6               | 4                             | 2   |  -  |  -  |  -  |
+| 6     | +3                | Aura of Protection                         | 2                | 6               | 4                             | 2   |  -  |  -  |  -  |
+| 7     | +3                | Subclass feature                           | 2                | 7               | 4                             | 3   |  -  |  -  |  -  |
+| 8     | +3                | Ability Score Improvement                  | 2                | 7               | 4                             | 3   |  -  |  -  |  -  |
+| 9     | +4                | Abjure Foes                                | 2                | 9               | 4                             | 3   | 2   |  -  |  -  |
+| 10    | +4                | Aura of Courage                            | 2                | 9               | 4                             | 3   | 2   |  -  |  -  |
+| 11    | +4                | Radiant Strikes                            | 3                | 10              | 4                             | 3   | 3   |  -  |  -  |
+| 12    | +4                | Ability Score Improvement                  | 3                | 10              | 4                             | 3   | 3   |  -  |  -  |
+| 13    | +5                |                     -                      | 3                | 11              | 4                             | 3   | 3   | 1   |  -  |
+| 14    | +5                | Restoring Touch                            | 3                | 11              | 4                             | 3   | 3   | 1   |  -  |
+| 15    | +5                | Subclass feature                           | 3                | 12              | 4                             | 3   | 3   | 2   |  -  |
+| 16    | +5                | Ability Score Improvement                  | 3                | 12              | 4                             | 3   | 3   | 2   |  -  |
+| 17    | +6                |                     -                      | 3                | 14              | 4                             | 3   | 3   | 3   | 1   |
 | 18    | +6                | Aura Expansion                             | 3                | 14              | 4                             | 3   | 3   | 3   | 1   |
 | 19    | +6                | Epic Boon                                  | 3                | 15              | 4                             | 3   | 3   | 3   | 2   |
 | 20    | +6                | Subclass feature                           | 3                | 15              | 4                             | 3   | 3   | 3   | 2   |
@@ -3441,44 +3441,44 @@ Level 1 Paladin Spells
 | Spell                         | School        | Special |
 | :---------------------------- | :------------ | :------ |
 | Bless                         | Enchantment   | C, M    |
-| Command                       | Enchantment   | —       |
-| Cure Wounds                   | Abjuration    | —       |
+| Command                       | Enchantment   |    -    |
+| Cure Wounds                   | Abjuration    |    -    |
 | Detect Evil and Good          | Divination    | C       |
 | Detect Magic                  | Divination    | C, R    |
 | Detect Poison and Disease     | Divination    | C, R    |
-| Divine Favor                  | Transmutation | —       |
-| Divine Smite                  | Evocation     | —       |
+| Divine Favor                  | Transmutation |    -    |
+| Divine Smite                  | Evocation     |    -    |
 | Heroism                       | Enchantment   | C       |
 | Protection from Evil and Good | Abjuration    | C, M    |
 | Purify Food and Drink         | Transmutation | R       |
-| Searing Smite                 | Evocation     | —       |
+| Searing Smite                 | Evocation     |    -    |
 | Shield of Faith               | Abjuration    | C       |
 
 Level 2 Paladin Spells
 
 | Spell                  | School        | Special |
 | :--------------------- | :------------ | :------ |
-| Aid                    | Abjuration    | —       |
-| Find Steed             | Conjuration   | —       |
+| Aid                    | Abjuration    |    -    |
+| Find Steed             | Conjuration   |    -    |
 | Gentle Repose          | Necromancy    | R, M    |
-| Lesser Restoration     | Abjuration    | —       |
+| Lesser Restoration     | Abjuration    |    -    |
 | Locate Object          | Divination    | C       |
-| Magic Weapon           | Transmutation | —       |
-| Prayer of Healing      | Abjuration    | —       |
-| Protection from Poison | Abjuration    | —       |
+| Magic Weapon           | Transmutation |    -    |
+| Prayer of Healing      | Abjuration    |    -    |
+| Protection from Poison | Abjuration    |    -    |
 | Shining Smite          | Transmutation | C       |
 | Warding Bond           | Abjuration    | M       |
-| Zone of Truth          | Enchantment   | —       |
+| Zone of Truth          | Enchantment   |    -    |
 
 Level 3 Paladin Spells
 
 | Spell                 | School      | Special |
 | :-------------------- | :---------- | :------ |
-| Create Food and Water | Conjuration | —       |
-| Daylight              | Evocation   | —       |
-| Dispel Magic          | Abjuration  | —       |
+| Create Food and Water | Conjuration |    -    |
+| Daylight              | Evocation   |    -    |
+| Dispel Magic          | Abjuration  |    -    |
 | Magic Circle          | Abjuration  | M       |
-| Remove Curse          | Abjuration  | —       |
+| Remove Curse          | Abjuration  |    -    |
 | Revivify              | Necromancy  | M       |
 
 Level 4 Paladin Spells
@@ -3487,7 +3487,7 @@ Level 4 Paladin Spells
 | :-------------- | :--------- | :------ |
 | Aura of Life    | Abjuration | C       |
 | Banishment      | Abjuration | C       |
-| Death Ward      | Abjuration | —       |
+| Death Ward      | Abjuration |    -    |
 | Locate Creature | Divination | C       |
 
 Level 5 Paladin Spells
@@ -3495,7 +3495,7 @@ Level 5 Paladin Spells
 | Spell                | School      | Special |
 | :------------------- | :---------- | :------ |
 | Dispel Evil and Good | Abjuration  | C       |
-| Geas                 | Enchantment | —       |
+| Geas                 | Enchantment |    -    |
 | Greater Restoration  | Abjuration  | M       |
 | Raise Dead           | Necromancy  | M       |
 
@@ -3503,7 +3503,7 @@ Level 5 Paladin Spells
 
 # Uphold the Ideals of Justice and Order
 
-The Oath of Devotion binds Paladins to the ideals of justice and order. These Paladins meet the archetype of the knight in shining armor. They hold themselves to the highest standards of conduct, and some—for better or worse—hold the rest of the world to the same standards.
+The Oath of Devotion binds Paladins to the ideals of justice and order. These Paladins meet the archetype of the knight in shining armor. They hold themselves to the highest standards of conduct, and some - for better or worse - hold the rest of the world to the same standards.
 
 Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of personal devotion. Others hold angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.
 
@@ -3590,25 +3590,25 @@ Spell Slots. The Ranger Features table shows how many spell slots you have to ca
 
 Ranger Features
 
-| Level | Proficiency Bonus | Class Features                              | Favored Enemy | Prepared Spells | —Spell Slots per Spell Level— |     |     |     |     |
+| Level | Proficiency Bonus | Class Features                              | Favored Enemy | Prepared Spells | -Spell Slots per Spell Level- |     |     |     |     |
 | :---- | :---------------- | :------------------------------------------ | :------------ | :-------------- | :---------------------------- | :--- | :--- | :--- | :--- |
 | 1     | 2                 | 3                                           | 4             | 5               |                               |     |     |     |     |
-| 1     | +2                | Spellcasting, Favored Enemy, Weapon Mastery | 2             | 2               | 2                             | —   | —   | —   | —   |
-| 2     | +2                | Deft Explorer, Fighting Style               | 2             | 3               | 2                             | —   | —   | —   | —   |
-| 3     | +2                | Ranger Subclass                             | 2             | 4               | 3                             | —   | —   | —   | —   |
-| 4     | +2                | Ability Score Improvement                   | 2             | 5               | 3                             | —   | —   | —   | —   |
-| 5     | +3                | Extra Attack                                | 3             | 6               | 4                             | 2   | —   | —   | —   |
-| 6     | +3                | Roving                                      | 3             | 6               | 4                             | 2   | —   | —   | —   |
-| 7     | +3                | Subclass feature                            | 3             | 7               | 4                             | 3   | —   | —   | —   |
-| 8     | +3                | Ability Score Improvement                   | 3             | 7               | 4                             | 3   | —   | —   | —   |
-| 9     | +4                | Expertise                                   | 4             | 9               | 4                             | 3   | 2   | —   | —   |
-| 10    | +4                | Tireless                                    | 4             | 9               | 4                             | 3   | 2   | —   | —   |
-| 11    | +4                | Subclass feature                            | 4             | 10              | 4                             | 3   | 3   | —   | —   |
-| 12    | +4                | Ability Score Improvement                   | 4             | 10              | 4                             | 3   | 3   | —   | —   |
-| 13    | +5                | Relentless Hunter                           | 5             | 11              | 4                             | 3   | 3   | 1   | —   |
-| 14    | +5                | Nature’s Veil                               | 5             | 11              | 4                             | 3   | 3   | 1   | —   |
-| 15    | +5                | Subclass feature                            | 5             | 12              | 4                             | 3   | 3   | 2   | —   |
-| 16    | +5                | Ability Score Improvement                   | 5             | 12              | 4                             | 3   | 3   | 2   | —   |
+| 1     | +2                | Spellcasting, Favored Enemy, Weapon Mastery | 2             | 2               | 2                             |  -  |  -  |  -  |  -  |
+| 2     | +2                | Deft Explorer, Fighting Style               | 2             | 3               | 2                             |  -  |  -  |  -  |  -  |
+| 3     | +2                | Ranger Subclass                             | 2             | 4               | 3                             |  -  |  -  |  -  |  -  |
+| 4     | +2                | Ability Score Improvement                   | 2             | 5               | 3                             |  -  |  -  |  -  |  -  |
+| 5     | +3                | Extra Attack                                | 3             | 6               | 4                             | 2   |  -  |  -  |  -  |
+| 6     | +3                | Roving                                      | 3             | 6               | 4                             | 2   |  -  |  -  |  -  |
+| 7     | +3                | Subclass feature                            | 3             | 7               | 4                             | 3   |  -  |  -  |  -  |
+| 8     | +3                | Ability Score Improvement                   | 3             | 7               | 4                             | 3   |  -  |  -  |  -  |
+| 9     | +4                | Expertise                                   | 4             | 9               | 4                             | 3   | 2   |  -  |  -  |
+| 10    | +4                | Tireless                                    | 4             | 9               | 4                             | 3   | 2   |  -  |  -  |
+| 11    | +4                | Subclass feature                            | 4             | 10              | 4                             | 3   | 3   |  -  |  -  |
+| 12    | +4                | Ability Score Improvement                   | 4             | 10              | 4                             | 3   | 3   |  -  |  -  |
+| 13    | +5                | Relentless Hunter                           | 5             | 11              | 4                             | 3   | 3   | 1   |  -  |
+| 14    | +5                | Nature’s Veil                               | 5             | 11              | 4                             | 3   | 3   | 1   |  -  |
+| 15    | +5                | Subclass feature                            | 5             | 12              | 4                             | 3   | 3   | 2   |  -  |
+| 16    | +5                | Ability Score Improvement                   | 5             | 12              | 4                             | 3   | 3   | 2   |  -  |
 | 17    | +6                | Precise Hunter                              | 6             | 14              | 4                             | 3   | 3   | 3   | 1   |
 | 18    | +6                | Feral Senses                                | 6             | 14              | 4                             | 3   | 3   | 3   | 1   |
 | 19    | +6                | Epic Boon                                   | 6             | 15              | 4                             | 3   | 3   | 3   | 2   |
@@ -3717,36 +3717,36 @@ Level 1 Ranger Spells
 | Spell                     | School        | Special |
 | :------------------------ | :------------ | :------ |
 | Alarm                     | Abjuration    | R       |
-| Animal Friendship         | Enchantment   | —       |
-| Cure Wounds               | Abjuration    | —       |
+| Animal Friendship         | Enchantment   |    -    |
+| Cure Wounds               | Abjuration    |    -    |
 | Detect Magic              | Divination    | C, R    |
 | Detect Poison and Disease | Divination    | C, R    |
 | Ensnaring Strike          | Conjuration   | C       |
 | Entangle                  | Conjuration   | C       |
 | Fog Cloud                 | Conjuration   | C       |
-| Goodberry                 | Conjuration   | —       |
+| Goodberry                 | Conjuration   |    -    |
 | Hunter’s Mark             | Divination    | C       |
-| Jump                      | Transmutation | —       |
-| Longstrider               | Transmutation | —       |
+| Jump                      | Transmutation |    -    |
+| Longstrider               | Transmutation |    -    |
 | Speak with Animals        | Divination    | R       |
 
 Level 2 Ranger Spells
 
 | Spell                    | School        | Special |
 | :----------------------- | :------------ | :------ |
-| Aid                      | Abjuration    | —       |
+| Aid                      | Abjuration    |    -    |
 | Animal Messenger         | Enchantment   | R       |
-| Barkskin                 | Transmutation | —       |
-| Darkvision               | Transmutation | —       |
+| Barkskin                 | Transmutation |    -    |
+| Darkvision               | Transmutation |    -    |
 | Enhance Ability          | Transmutation | C       |
-| Find Traps               | Divination    | —       |
+| Find Traps               | Divination    |    -    |
 | Gust of Wind             | Evocation     | C       |
-| Lesser Restoration       | Abjuration    | —       |
+| Lesser Restoration       | Abjuration    |    -    |
 | Locate Animals or Plants | Divination    | R       |
 | Locate Object            | Divination    | C       |
-| Magic Weapon             | Transmutation | —       |
+| Magic Weapon             | Transmutation |    -    |
 | Pass without Trace       | Abjuration    | C       |
-| Protection from Poison   | Abjuration    | —       |
+| Protection from Poison   | Abjuration    |    -    |
 | Silence                  | Illusion      | C, R    |
 | Spike Growth             | Transmutation | C       |
 
@@ -3755,14 +3755,14 @@ Level 3 Ranger Spells
 | Spell                  | School        | Special |
 | :--------------------- | :------------ | :------ |
 | Conjure Animals        | Conjuration   | C       |
-| Daylight               | Evocation     | —       |
-| Dispel Magic           | Abjuration    | —       |
+| Daylight               | Evocation     |    -    |
+| Dispel Magic           | Abjuration    |    -    |
 | Meld into Stone        | Transmutation | R       |
 | Nondetection           | Abjuration    | M       |
-| Plant Growth           | Transmutation | —       |
+| Plant Growth           | Transmutation |    -    |
 | Protection from Energy | Abjuration    | C       |
 | Revivify               | Necromancy    | M       |
-| Speak with Plants      | Transmutation | —       |
+| Speak with Plants      | Transmutation |    -    |
 | Water Breathing        | Transmutation | R       |
 | Water Walk             | Transmutation | R       |
 | Wind Wall              | Evocation     | C       |
@@ -3773,7 +3773,7 @@ Level 4 Ranger Spells
 | :---------------------- | :------------ | :------ |
 | Conjure Woodland Beings | Conjuration   | C       |
 | Dominate Beast          | Enchantment   | C       |
-| Freedom of Movement     | Abjuration    | —       |
+| Freedom of Movement     | Abjuration    |    -    |
 | Locate Creature         | Divination    | C       |
 | Stoneskin               | Transmutation | C, M    |
 
@@ -4057,25 +4057,25 @@ Spell Slots. The Sorcerer Features table shows how many spell slots you have to 
 
 Sorcerer Features
 
-| Level | Proficiency Bonus | Class Features               | Sorcery Points | Cantrips | Prepared Spells | ——Spell Slots per Spell Level—— |     |     |     |     |     |     |     |     |
+| Level | Proficiency Bonus | Class Features               | Sorcery Points | Cantrips | Prepared Spells | --Spell Slots per Spell Level-- |     |     |     |     |     |     |     |     |
 | :---- | :---------------- | :--------------------------- | :------------- | :------- | :-------------- | :------------------------------ | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1     | 2                 | 3                            | 4              | 5        | 6               | 7                               | 8   | 9   |     |     |     |     |     |     |
-| 1     | +2                | Spellcasting, Innate Sorcery | —              | 4        | 2               | 2                               | —   | —   | —   | —   | —   | —   | —   | —   |
-| 2     | +2                | Font of Magic, Metamagic     | 2              | 4        | 4               | 3                               | —   | —   | —   | —   | —   | —   | —   | —   |
-| 3     | +2                | Sorcerer Subclass            | 3              | 4        | 6               | 4                               | 2   | —   | —   | —   | —   | —   | —   | —   |
-| 4     | +2                | Ability Score Improvement    | 4              | 5        | 7               | 4                               | 3   | —   | —   | —   | —   | —   | —   | —   |
-| 5     | +3                | Sorcerous Restoration        | 5              | 5        | 9               | 4                               | 3   | 2   | —   | —   | —   | —   | —   | —   |
-| 6     | +3                | Subclass feature             | 6              | 5        | 10              | 4                               | 3   | 3   | —   | —   | —   | —   | —   | —   |
-| 7     | +3                | Sorcery Incarnate            | 7              | 5        | 11              | 4                               | 3   | 3   | 1   | —   | —   | —   | —   | —   |
-| 8     | +3                | Ability Score Improvement    | 8              | 5        | 12              | 4                               | 3   | 3   | 2   | —   | —   | —   | —   | —   |
-| 9     | +4                | —                            | 9              | 5        | 14              | 4                               | 3   | 3   | 3   | 1   | —   | —   | —   | —   |
-| 10    | +4                | Metamagic                    | 10             | 6        | 15              | 4                               | 3   | 3   | 3   | 2   | —   | —   | —   | —   |
-| 11    | +4                | —                            | 11             | 6        | 16              | 4                               | 3   | 3   | 3   | 2   | 1   | —   | —   | —   |
-| 12    | +4                | Ability Score Improvement    | 12             | 6        | 16              | 4                               | 3   | 3   | 3   | 2   | 1   | —   | —   | —   |
-| 13    | +5                | —                            | 13             | 6        | 17              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | —   | —   |
-| 14    | +5                | Subclass feature             | 14             | 6        | 17              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | —   | —   |
-| 15    | +5                | —                            | 15             | 6        | 18              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | 1   | —   |
-| 16    | +5                | Ability Score Improvement    | 16             | 6        | 18              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | 1   | —   |
+| 1     | +2                | Spellcasting, Innate Sorcery |       -        | 4        | 2               | 2                               |  -  |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 2     | +2                | Font of Magic, Metamagic     | 2              | 4        | 4               | 3                               |  -  |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 3     | +2                | Sorcerer Subclass            | 3              | 4        | 6               | 4                               | 2   |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 4     | +2                | Ability Score Improvement    | 4              | 5        | 7               | 4                               | 3   |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 5     | +3                | Sorcerous Restoration        | 5              | 5        | 9               | 4                               | 3   | 2   |  -  |  -  |  -  |  -  |  -  |  -  |
+| 6     | +3                | Subclass feature             | 6              | 5        | 10              | 4                               | 3   | 3   |  -  |  -  |  -  |  -  |  -  |  -  |
+| 7     | +3                | Sorcery Incarnate            | 7              | 5        | 11              | 4                               | 3   | 3   | 1   |  -  |  -  |  -  |  -  |  -  |
+| 8     | +3                | Ability Score Improvement    | 8              | 5        | 12              | 4                               | 3   | 3   | 2   |  -  |  -  |  -  |  -  |  -  |
+| 9     | +4                |              -               | 9              | 5        | 14              | 4                               | 3   | 3   | 3   | 1   |  -  |  -  |  -  |  -  |
+| 10    | +4                | Metamagic                    | 10             | 6        | 15              | 4                               | 3   | 3   | 3   | 2   |  -  |  -  |  -  |  -  |
+| 11    | +4                |              -               | 11             | 6        | 16              | 4                               | 3   | 3   | 3   | 2   | 1   |  -  |  -  |  -  |
+| 12    | +4                | Ability Score Improvement    | 12             | 6        | 16              | 4                               | 3   | 3   | 3   | 2   | 1   |  -  |  -  |  -  |
+| 13    | +5                |              -               | 13             | 6        | 17              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   |  -  |  -  |
+| 14    | +5                | Subclass feature             | 14             | 6        | 17              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   |  -  |  -  |
+| 15    | +5                |              -               | 15             | 6        | 18              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | 1   |  -  |
+| 16    | +5                | Ability Score Improvement    | 16             | 6        | 18              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | 1   |  -  |
 | 17    | +6                | Metamagic                    | 17             | 6        | 19              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | 1   | 1   |
 | 18    | +6                | Subclass feature             | 18             | 6        | 20              | 4                               | 3   | 3   | 3   | 3   | 1   | 1   | 1   | 1   |
 | 19    | +6                | Epic Boon                    | 19             | 6        | 21              | 4                               | 3   | 3   | 3   | 3   | 2   | 1   | 1   | 1   |
@@ -4244,58 +4244,58 @@ Cantrips (Level 0 Sorcerer Spells)
 
 | Spell            | School        | Special |
 | :--------------- | :------------ | :------ |
-| Acid Splash      | Evocation     | —       |
-| Chill Touch      | Necromancy    | —       |
+| Acid Splash      | Evocation     |    -    |
+| Chill Touch      | Necromancy    |    -    |
 | Dancing Lights   | Illusion      | C       |
-| Elementalism     | Transmutation | —       |
-| Fire Bolt        | Evocation     | —       |
-| Light            | Evocation     | —       |
-| Mage Hand        | Conjuration   | —       |
-| Mending          | Transmutation | —       |
-| Message          | Transmutation | —       |
-| Minor Illusion   | Illusion      | —       |
-| Poison Spray     | Necromancy    | —       |
-| Prestidigitation | Transmutation | —       |
-| Ray of Frost     | Evocation     | —       |
-| Shocking Grasp   | Evocation     | —       |
-| Sorcerous Burst  | Evocation     | —       |
-| True Strike      | Divination    | —       |
+| Elementalism     | Transmutation |    -    |
+| Fire Bolt        | Evocation     |    -    |
+| Light            | Evocation     |    -    |
+| Mage Hand        | Conjuration   |    -    |
+| Mending          | Transmutation |    -    |
+| Message          | Transmutation |    -    |
+| Minor Illusion   | Illusion      |    -    |
+| Poison Spray     | Necromancy    |    -    |
+| Prestidigitation | Transmutation |    -    |
+| Ray of Frost     | Evocation     |    -    |
+| Shocking Grasp   | Evocation     |    -    |
+| Sorcerous Burst  | Evocation     |    -    |
+| True Strike      | Divination    |    -    |
 
 Level 1 Sorcerer Spells
 
 | Spell                | School        | Special |
 | :------------------- | :------------ | :------ |
-| Burning Hands        | Evocation     | —       |
-| Charm Person         | Enchantment   | —       |
+| Burning Hands        | Evocation     |    -    |
+| Charm Person         | Enchantment   |    -    |
 | Chromatic Orb        | Evocation     | M       |
-| Color Spray          | Illusion      | —       |
+| Color Spray          | Illusion      |    -    |
 | Comprehend Languages | Divination    | R       |
 | Detect Magic         | Divination    | C, R    |
-| Disguise Self        | Illusion      | —       |
+| Disguise Self        | Illusion      |    -    |
 | Expeditious Retreat  | Transmutation | C       |
-| False Life           | Necromancy    | —       |
-| Feather Fall         | Transmutation | —       |
+| False Life           | Necromancy    |    -    |
+| Feather Fall         | Transmutation |    -    |
 | Fog Cloud            | Conjuration   | C       |
-| Grease               | Conjuration   | —       |
-| Ice Knife            | Conjuration   | —       |
-| Jump                 | Transmutation | —       |
-| Mage Armor           | Abjuration    | —       |
-| Magic Missile        | Evocation     | —       |
-| Ray of Sickness      | Necromancy    | —       |
-| Shield               | Abjuration    | —       |
+| Grease               | Conjuration   |    -    |
+| Ice Knife            | Conjuration   |    -    |
+| Jump                 | Transmutation |    -    |
+| Mage Armor           | Abjuration    |    -    |
+| Magic Missile        | Evocation     |    -    |
+| Ray of Sickness      | Necromancy    |    -    |
+| Shield               | Abjuration    |    -    |
 | Silent Image         | Illusion      | C       |
 | Sleep                | Enchantment   | C       |
-| Thunderwave          | Evocation     | —       |
+| Thunderwave          | Evocation     |    -    |
 
 Level 2 Sorcerer Spells
 
 | Spell              | School        | Special |
 | :----------------- | :------------ | :------ |
 | Alter Self         | Transmutation | C       |
-| Blindness/Deafness | Transmutation | —       |
+| Blindness/Deafness | Transmutation |    -    |
 | Blur               | Illusion      | C       |
 | Darkness           | Evocation     | C       |
-| Darkvision         | Transmutation | —       |
+| Darkvision         | Transmutation |    -    |
 | Detect Thoughts    | Divination    | C       |
 | Dragon’s Breath    | Transmutation | C       |
 | Enhance Ability    | Transmutation | C       |
@@ -4308,14 +4308,14 @@ Level 2 Sorcerer Spells
 | :--------------- | :------------ | :------ |
 | Hold Person      | Enchantment   | C       |
 | Invisibility     | Illusion      | C       |
-| Knock            | Transmutation | —       |
+| Knock            | Transmutation |    -    |
 | Levitate         | Transmutation | C       |
-| Magic Weapon     | Transmutation | —       |
-| Mirror Image     | Illusion      | —       |
-| Misty Step       | Conjuration   | —       |
-| Scorching Ray    | Evocation     | —       |
-| See Invisibility | Divination    | —       |
-| Shatter          | Evocation     | —       |
+| Magic Weapon     | Transmutation |    -    |
+| Mirror Image     | Illusion      |    -    |
+| Misty Step       | Conjuration   |    -    |
+| Scorching Ray    | Evocation     |    -    |
+| See Invisibility | Divination    |    -    |
+| Shatter          | Evocation     |    -    |
 | Spider Climb     | Transmutation | C       |
 | Suggestion       | Enchantment   | C       |
 | Web              | Conjuration   | C       |
@@ -4324,24 +4324,24 @@ Level 3 Sorcerer Spells
 
 | Spell                  | School        | Special |
 | :--------------------- | :------------ | :------ |
-| Blink                  | Transmutation | —       |
+| Blink                  | Transmutation |    -    |
 | Clairvoyance           | Divination    | C, M    |
-| Counterspell           | Abjuration    | —       |
-| Daylight               | Evocation     | —       |
-| Dispel Magic           | Abjuration    | —       |
+| Counterspell           | Abjuration    |    -    |
+| Daylight               | Evocation     |    -    |
+| Dispel Magic           | Abjuration    |    -    |
 | Fear                   | Illusion      | C       |
-| Fireball               | Evocation     | —       |
+| Fireball               | Evocation     |    -    |
 | Fly                    | Transmutation | C       |
 | Gaseous Form           | Transmutation | C       |
 | Haste                  | Transmutation | C       |
 | Hypnotic Pattern       | Illusion      | C       |
-| Lightning Bolt         | Evocation     | —       |
+| Lightning Bolt         | Evocation     |    -    |
 | Major Image            | Illusion      | C       |
 | Protection from Energy | Abjuration    | C       |
 | Sleet Storm            | Conjuration   | C       |
 | Slow                   | Transmutation | C       |
 | Stinking Cloud         | Conjuration   | C       |
-| Tongues                | Divination    | —       |
+| Tongues                | Divination    |    -    |
 | Vampiric Touch         | Necromancy    | C       |
 | Water Breathing        | Transmutation | R       |
 | Water Walk             | Transmutation | R       |
@@ -4351,17 +4351,17 @@ Level 4 Sorcerer Spells
 | Spell                | School        | Special |
 | :------------------- | :------------ | :------ |
 | Banishment           | Abjuration    | C       |
-| Blight               | Necromancy    | —       |
-| Charm Monster        | Enchantment   | —       |
+| Blight               | Necromancy    |    -    |
+| Charm Monster        | Enchantment   |    -    |
 | Confusion            | Enchantment   | C       |
-| Dimension Door       | Conjuration   | —       |
+| Dimension Door       | Conjuration   |    -    |
 | Dominate Beast       | Enchantment   | C       |
-| Fire Shield          | Evocation     | —       |
+| Fire Shield          | Evocation     |    -    |
 | Greater Invisibility | Illusion      | C       |
-| Ice Storm            | Evocation     | —       |
+| Ice Storm            | Evocation     |    -    |
 | Polymorph            | Transmutation | C       |
 | Stoneskin            | Transmutation | C, M    |
-| Vitriolic Sphere     | Evocation     | —       |
+| Vitriolic Sphere     | Evocation     |    -    |
 | Wall of Fire         | Evocation     | C       |
 
 Level 5 Sorcerer Spells
@@ -4371,12 +4371,12 @@ Level 5 Sorcerer Spells
 | Animate Objects      | Transmutation | C       |
 | Arcane Hand          | Evocation     | C       |
 | Cloudkill            | Conjuration   | C       |
-| Cone of Cold         | Evocation     | —       |
-| Creation             | Illusion      | —       |
+| Cone of Cold         | Evocation     |    -    |
+| Creation             | Illusion      |    -    |
 | Dominate Person      | Enchantment   | C       |
 | Hold Monster         | Enchantment   | C       |
 | Insect Plague        | Conjuration   | C       |
-| Seeming              | Illusion      | —       |
+| Seeming              | Illusion      |    -    |
 | Telekinesis          | Transmutation | C       |
 | Teleportation Circle | Conjuration   | M       |
 | Wall of Stone        | Evocation     | C       |
@@ -4385,14 +4385,14 @@ Level 6 Sorcerer Spells
 
 | Spell                    | School        | Special |
 | :----------------------- | :------------ | :------ |
-| Chain Lightning          | Evocation     | —       |
+| Chain Lightning          | Evocation     |    -    |
 | Circle of Death          | Necromancy    | M       |
-| Disintegrate             | Transmutation | —       |
+| Disintegrate             | Transmutation |    -    |
 | Eyebite                  | Necromancy    | C       |
 | Flesh to Stone           | Transmutation | C       |
-| Freezing Sphere          | Evocation     | —       |
+| Freezing Sphere          | Evocation     |    -    |
 | Globe of Invulnerability | Abjuration    | C       |
-| Mass Suggestion          | Enchantment   | —       |
+| Mass Suggestion          | Enchantment   |    -    |
 | Move Earth               | Transmutation | C       |
 | Sunbeam                  | Evocation     | C       |
 | True Seeing              | Divination    | M       |
@@ -4402,34 +4402,34 @@ Level 7 Sorcerer Spells
 | Spell                  | School        | Special |
 | :--------------------- | :------------ | :------ |
 | Delayed Blast Fireball | Evocation     | C       |
-| Etherealness           | Conjuration   | —       |
-| Finger of Death        | Necromancy    | —       |
-| Fire Storm             | Evocation     | —       |
+| Etherealness           | Conjuration   |    -    |
+| Finger of Death        | Necromancy    |    -    |
+| Fire Storm             | Evocation     |    -    |
 | Plane Shift            | Conjuration   | M       |
-| Prismatic Spray        | Evocation     | —       |
+| Prismatic Spray        | Evocation     |    -    |
 | Reverse Gravity        | Transmutation | C       |
-| Teleport               | Conjuration   | —       |
+| Teleport               | Conjuration   |    -    |
 
 Level 8 Sorcerer Spells
 
 | Spell            | School        | Special |
 | :--------------- | :------------ | :------ |
-| Demiplane        | Conjuration   | —       |
+| Demiplane        | Conjuration   |    -    |
 | Dominate Monster | Enchantment   | C       |
 | Earthquake       | Transmutation | C       |
 | Incendiary Cloud | Conjuration   | C       |
-| Power Word Stun  | Enchantment   | —       |
-| Sunburst         | Evocation     | —       |
+| Power Word Stun  | Enchantment   |    -    |
+| Sunburst         | Evocation     |    -    |
 
 Level 9 Sorcerer Spells
 
 | Spell           | School        | Special |
 | :-------------- | :------------ | :------ |
 | Gate            | Conjuration   | C, M    |
-| Meteor Swarm    | Evocation     | —       |
-| Power Word Kill | Enchantment   | —       |
-| Time Stop       | Transmutation | —       |
-| Wish            | Conjuration   | —       |
+| Meteor Swarm    | Evocation     |    -    |
+| Power Word Kill | Enchantment   |    -    |
+| Time Stop       | Transmutation |    -    |
+| Wish            | Conjuration   |    -    |
 
 # Sorcerer Subclass: Draconic Sorcery
 
@@ -4519,9 +4519,9 @@ Warlock Features
 | 2     | +2                | Magical Cunning                  | 3                    | 2        | 3               | 2           | 1          |
 | 3     | +2                | Warlock Subclass                 | 3                    | 2        | 4               | 2           | 2          |
 | 4     | +2                | Ability Score Improvement        | 3                    | 3        | 5               | 2           | 2          |
-| 5     | +3                | —                                | 5                    | 3        | 6               | 2           | 3          |
+| 5     | +3                |                -                 | 5                    | 3        | 6               | 2           | 3          |
 | 6     | +3                | Subclass feature                 | 5                    | 3        | 7               | 2           | 3          |
-| 7     | +3                | —                                | 6                    | 3        | 8               | 2           | 4          |
+| 7     | +3                |                -                 | 6                    | 3        | 8               | 2           | 4          |
 | 8     | +3                | Ability Score Improvement        | 6                    | 3        | 9               | 2           | 4          |
 | 9     | +4                | Contact Patron                   | 7                    | 3        | 10              | 2           | 5          |
 | 10    | +4                | Subclass feature                 | 7                    | 4        | 10              | 2           | 5          |
@@ -4532,7 +4532,7 @@ Warlock Features
 | 15    | +5                | Mystic Arcanum (level 8 spell)   | 9                    | 4        | 13              | 3           | 5          |
 | 16    | +5                | Ability Score Improvement        | 9                    | 4        | 13              | 3           | 5          |
 | 17    | +6                | Mystic Arcanum (level 9 spell)   | 9                    | 4        | 14              | 4           | 5          |
-| 18    | +6                | —                                | 10                   | 4        | 14              | 4           | 5          |
+| 18    | +6                |                -                 | 10                   | 4        | 14              | 4           | 5          |
 | 19    | +6                | Epic Boon                        | 10                   | 4        | 15              | 4           | 5          |
 | 20    | +6                | Eldritch Master                  | 10                   | 4        | 15              | 4           | 5          |
 
@@ -4544,7 +4544,7 @@ You can't pick the same invocation more than once unless its description says ot
 
 # Level 1: Pact Magic
 
-Through occult ceremony, you have formed a pact with a mysterious entity to gain magical powers. The entity is a voice in the shadows—its identity unclear—but its boon to you is concrete: the ability to cast spells. See “Spells” for the rules on spellcasting. The information below details how you use those rules with Warlock spells, which appear in the Warlock spell list later in the class’s description.
+Through occult ceremony, you have formed a pact with a mysterious entity to gain magical powers. The entity is a voice in the shadows - its identity unclear - but its boon to you is concrete: the ability to cast spells. See “Spells” for the rules on spellcasting. The information below details how you use those rules with Warlock spells, which appear in the Warlock spell list later in the class’s description.
 
 Cantrips. You know two Warlock cantrips of your choice. Eldritch Blast and Prestidigitation are recommended. Whenever you gain a Warlock level, you can replace one of your cantrips from this feature with another Warlock cantrip of your choice.
 
@@ -4630,7 +4630,7 @@ You can cast Levitate on yourself without expending a spell slot.
 
 Prerequisite: Level 2+ Warlock
 
-You can see normally in Dim Light and Darkness—both magical and nonmagical—within 120 feet of yourself.
+You can see normally in Dim Light and Darkness - both magical and nonmagical - within 120 feet of yourself.
 
 # Devouring Blade
 
@@ -4756,7 +4756,7 @@ You can cast Jump on yourself without expending a spell slot.
 
 # Pact of the Blade
 
-As a Bonus Action, you can conjure a pact weapon in your hand—a Simple or Martial Melee weapon of your choice with which you bond—or create a bond with a magic weapon you touch; you can't bond with a magic weapon if someone else is attuned to it or another Warlock is bonded with it. Until the bond ends, you have proficiency with the weapon, and you can use it as a Spellcasting Focus.
+As a Bonus Action, you can conjure a pact weapon in your hand - a Simple or Martial Melee weapon of your choice with which you bond - or create a bond with a magic weapon you touch; you can't bond with a magic weapon if someone else is attuned to it or another Warlock is bonded with it. Until the bond ends, you have proficiency with the weapon, and you can use it as a Spellcasting Focus.
 
 Whenever you attack with the bonded weapon, you can use your Charisma modifier for the attack and damage rolls instead of using Strength or Dexterity; and you can cause the weapon to deal Necrotic, Psychic, or Radiant damage or its normal damage type.
 
@@ -4820,24 +4820,24 @@ Cantrips (Level 0 Warlock Spells)
 
 | Spell            | School        | Special |
 | :--------------- | :------------ | :------ |
-| Chill Touch      | Necromancy    | —       |
-| Eldritch Blast   | Evocation     | —       |
-| Mage Hand        | Conjuration   | —       |
-| Minor Illusion   | Illusion      | —       |
-| Poison Spray     | Necromancy    | —       |
-| Prestidigitation | Transmutation | —       |
-| True Strike      | Divination    | —       |
+| Chill Touch      | Necromancy    |    -    |
+| Eldritch Blast   | Evocation     |    -    |
+| Mage Hand        | Conjuration   |    -    |
+| Minor Illusion   | Illusion      |    -    |
+| Poison Spray     | Necromancy    |    -    |
+| Prestidigitation | Transmutation |    -    |
+| True Strike      | Divination    |    -    |
 
 Level 1 Warlock Spells
 
 | Spell                         | School        | Special |
 | :---------------------------- | :------------ | :------ |
 | Bane                          | Enchantment   | C       |
-| Charm Person                  | Enchantment   | —       |
+| Charm Person                  | Enchantment   |    -    |
 | Comprehend Languages          | Divination    | R       |
 | Detect Magic                  | Divination    | C, R    |
 | Expeditious Retreat           | Transmutation | C       |
-| Hellish Rebuke                | Evocation     | —       |
+| Hellish Rebuke                | Evocation     |    -    |
 | Hex                           | Enchantment   | C       |
 | Hideous Laughter              | Enchantment   | C       |
 | Illusory Script               | Illusion      | R, M    |
@@ -4854,8 +4854,8 @@ Level 2 Warlock Spells
 | Hold Person         | Enchantment   | C       |
 | Invisibility        | Illusion      | C       |
 | Mind Spike          | Divination    | C       |
-| Mirror Image        | Illusion      | —       |
-| Misty Step          | Conjuration   | —       |
+| Mirror Image        | Illusion      |    -    |
+| Misty Step          | Conjuration   |    -    |
 | Ray of Enfeeblement | Necromancy    | C       |
 | Spider Climb        | Transmutation | C       |
 | Suggestion          | Enchantment   | C       |
@@ -4864,8 +4864,8 @@ Level 3 Warlock Spells
 
 | Spell        | School        | Special |
 | :----------- | :------------ | :------ |
-| Counterspell | Abjuration    | —       |
-| Dispel Magic | Abjuration    | —       |
+| Counterspell | Abjuration    |    -    |
+| Dispel Magic | Abjuration    |    -    |
 | Fear         | Illusion      | C       |
 | Fly          | Transmutation | C       |
 
@@ -4875,8 +4875,8 @@ Level 3 Warlock Spells
 | Hypnotic Pattern | Illusion      | C       |
 | Magic Circle     | Abjuration    | M       |
 | Major Image      | Illusion      | C       |
-| Remove Curse     | Abjuration    | —       |
-| Tongues          | Divination    | —       |
+| Remove Curse     | Abjuration    |    -    |
+| Tongues          | Divination    |    -    |
 | Vampiric Touch   | Necromancy    | C       |
 
 Level 4 Warlock Spells
@@ -4884,17 +4884,17 @@ Level 4 Warlock Spells
 | Spell                 | School      | Special |
 | :-------------------- | :---------- | :------ |
 | Banishment            | Abjuration  | C       |
-| Blight                | Necromancy  | —       |
-| Charm Monster         | Enchantment | —       |
-| Dimension Door        | Conjuration | —       |
-| Hallucinatory Terrain | Illusion    | —       |
+| Blight                | Necromancy  |    -    |
+| Charm Monster         | Enchantment |    -    |
+| Dimension Door        | Conjuration |    -    |
+| Hallucinatory Terrain | Illusion    |    -    |
 
 Level 5 Warlock Spells
 
 | Spell                | School      | Special |
 | :------------------- | :---------- | :------ |
 | Contact Other Plane  | Divination  | R       |
-| Dream                | Illusion    | —       |
+| Dream                | Illusion    |    -    |
 | Hold Monster         | Enchantment | C       |
 | Mislead              | Illusion    | C       |
 | Planar Binding       | Abjuration  | M       |
@@ -4914,8 +4914,8 @@ Level 7 Warlock Spells
 
 | Spell           | School      | Special |
 | :-------------- | :---------- | :------ |
-| Etherealness    | Conjuration | —       |
-| Finger of Death | Necromancy  | —       |
+| Etherealness    | Conjuration |    -    |
+| Finger of Death | Necromancy  |    -    |
 | Forcecage       | Evocation   | C, M    |
 | Plane Shift     | Conjuration | M       |
 
@@ -4923,21 +4923,21 @@ Level 8 Warlock Spells
 
 | Spell            | School      | Special |
 | :--------------- | :---------- | :------ |
-| Befuddlement     | Enchantment | —       |
-| Demiplane        | Conjuration | —       |
+| Befuddlement     | Enchantment |    -    |
+| Demiplane        | Conjuration |    -    |
 | Dominate Monster | Enchantment | C       |
-| Glibness         | Enchantment | —       |
-| Power Word Stun  | Enchantment | —       |
+| Glibness         | Enchantment |    -    |
+| Power Word Stun  | Enchantment |    -    |
 
 Level 9 Warlock Spells
 
 | Spell             | School        | Special |
 | :---------------- | :------------ | :------ |
 | Astral Projection | Necromancy    | M       |
-| Foresight         | Divination    | —       |
+| Foresight         | Divination    |    -    |
 | Gate              | Conjuration   | C, M    |
 | Imprisonment      | Abjuration    | M       |
-| Power Word Kill   | Enchantment   | —       |
+| Power Word Kill   | Enchantment   |    -    |
 | True Polymorph    | Transmutation | C       |
 | Weird             | Illusion      | C       |
 
@@ -4945,7 +4945,7 @@ Level 9 Warlock Spells
 
 Make a Deal with the Lower Planes
 
-Your pact draws on the Lower Planes, the realms of perdition. You might forge a bargain with a demon lord, an archdevil, or another fiend that is especially mighty. That patron's aims are evil—the corruption or destruction of all things, ultimately including you—and your path is defined by the extent to which you strive against those aims.
+Your pact draws on the Lower Planes, the realms of perdition. You might forge a bargain with a demon lord, an archdevil, or another fiend that is especially mighty. That patron's aims are evil - the corruption or destruction of all things, ultimately including you - and your path is defined by the extent to which you strive against those aims.
 
 # Level 3: Dark One's Blessing
 
@@ -5017,26 +5017,26 @@ Cantrips. You know three Wizard cantrips of your choice. Light, Mage Hand, and R
 
 Wizard Features
 
-| Level | Proficiency Bonus | Class Features                              | Cantrips | Prepared Spells | ——Spell Slots per Spell Level—— |     |     |     |     |     |     |     |     |
+| Level | Proficiency Bonus | Class Features                              | Cantrips | Prepared Spells | --Spell Slots per Spell Level-- |     |     |     |     |     |     |     |     |
 | :---- | :---------------- | :------------------------------------------ | :------- | :-------------- | :------------------------------ | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1     | 2                 | 3                                           | 4        | 5               | 6                               | 7   | 8   | 9   |     |     |     |     |     |
-| 1     | +2                | Spellcasting, Ritual Adept, Arcane Recovery | 3        | 4               | 2                               | —   | —   | —   | —   | —   | —   | —   | —   |
-| 2     | +2                | Scholar                                     | 3        | 5               | 3                               | —   | —   | —   | —   | —   | —   | —   | —   |
-| 3     | +2                | Wizard Subclass                             | 3        | 6               | 4                               | 2   | —   | —   | —   | —   | —   | —   | —   |
-| 4     | +2                | Ability Score Improvement                   | 4        | 7               | 4                               | 3   | —   | —   | —   | —   | —   | —   | —   |
-| 5     | +3                | Memorize Spell                              | 4        | 9               | 4                               | 3   | 2   | —   | —   | —   | —   | —   | —   |
-| 6     | +3                | Subclass feature                            | 4        | 10              | 4                               | 3   | 3   | —   | —   | —   | —   | —   | —   |
-| 7     | +3                | —                                           | 4        | 11              | 4                               | 3   | 3   | 1   | —   | —   | —   | —   | —   |
-| 8     | +3                | Ability Score Improvement                   | 4        | 12              | 4                               | 3   | 3   | 2   | —   | —   | —   | —   | —   |
-| 9     | +4                | —                                           | 4        | 14              | 4                               | 3   | 3   | 3   | 1   | —   | —   | —   | —   |
-| 10    | +4                | Subclass feature                            | 5        | 15              | 4                               | 3   | 3   | 3   | 2   | —   | —   | —   | —   |
-| 11    | +4                | —                                           | 5        | 16              | 4                               | 3   | 3   | 3   | 2   | 1   | —   | —   | —   |
-| 12    | +4                | Ability Score Improvement                   | 5        | 16              | 4                               | 3   | 3   | 3   | 2   | 1   | —   | —   | —   |
-| 13    | +5                | —                                           | 5        | 17              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | —   | —   |
-| 14    | +5                | Subclass feature                            | 5        | 18              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | —   | —   |
-| 15    | +5                | —                                           | 5        | 19              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | 1   | —   |
-| 16    | +5                | Ability Score Improvement                   | 5        | 21              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | 1   | —   |
-| 17    | +6                | —                                           | 5        | 22              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | 1   | 1   |
+| 1     | +2                | Spellcasting, Ritual Adept, Arcane Recovery | 3        | 4               | 2                               |  -  |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 2     | +2                | Scholar                                     | 3        | 5               | 3                               |  -  |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 3     | +2                | Wizard Subclass                             | 3        | 6               | 4                               | 2   |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 4     | +2                | Ability Score Improvement                   | 4        | 7               | 4                               | 3   |  -  |  -  |  -  |  -  |  -  |  -  |  -  |
+| 5     | +3                | Memorize Spell                              | 4        | 9               | 4                               | 3   | 2   |  -  |  -  |  -  |  -  |  -  |  -  |
+| 6     | +3                | Subclass feature                            | 4        | 10              | 4                               | 3   | 3   |  -  |  -  |  -  |  -  |  -  |  -  |
+| 7     | +3                |                      -                      | 4        | 11              | 4                               | 3   | 3   | 1   |  -  |  -  |  -  |  -  |  -  |
+| 8     | +3                | Ability Score Improvement                   | 4        | 12              | 4                               | 3   | 3   | 2   |  -  |  -  |  -  |  -  |  -  |
+| 9     | +4                |                      -                      | 4        | 14              | 4                               | 3   | 3   | 3   | 1   |  -  |  -  |  -  |  -  |
+| 10    | +4                | Subclass feature                            | 5        | 15              | 4                               | 3   | 3   | 3   | 2   |  -  |  -  |  -  |  -  |
+| 11    | +4                |                      -                      | 5        | 16              | 4                               | 3   | 3   | 3   | 2   | 1   |  -  |  -  |  -  |
+| 12    | +4                | Ability Score Improvement                   | 5        | 16              | 4                               | 3   | 3   | 3   | 2   | 1   |  -  |  -  |  -  |
+| 13    | +5                |                      -                      | 5        | 17              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   |  -  |  -  |
+| 14    | +5                | Subclass feature                            | 5        | 18              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   |  -  |  -  |
+| 15    | +5                |                      -                      | 5        | 19              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | 1   |  -  |
+| 16    | +5                | Ability Score Improvement                   | 5        | 21              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | 1   |  -  |
+| 17    | +6                |                      -                      | 5        | 22              | 4                               | 3   | 3   | 3   | 2   | 1   | 1   | 1   | 1   |
 | 18    | +6                | Spell Mastery                               | 5        | 23              | 4                               | 3   | 3   | 3   | 3   | 1   | 1   | 1   | 1   |
 | 19    | +6                | Epic Boon                                   | 5        | 24              | 4                               | 3   | 3   | 3   | 3   | 2   | 1   | 1   | 1   |
 | 20    | +6                | Signature Spells                            | 5        | 25              | 4                               | 3   | 3   | 3   | 3   | 2   | 2   | 1   | 1   |
@@ -5125,74 +5125,74 @@ Cantrips (Level 0 Wizard Spells)
 
 | Spell          | School        | Special |
 | :------------- | :------------ | :------ |
-| Acid Splash    | Evocation     | —       |
-| Chill Touch    | Necromancy    | —       |
+| Acid Splash    | Evocation     |    -    |
+| Chill Touch    | Necromancy    |    -    |
 | Dancing Lights | Illusion      | C       |
-| Elementalism   | Transmutation | —       |
-| Fire Bolt      | Evocation     | —       |
-| Light          | Evocation     | —       |
+| Elementalism   | Transmutation |    -    |
+| Fire Bolt      | Evocation     |    -    |
+| Light          | Evocation     |    -    |
 
 | Spell            | School        | Special |
 | :--------------- | :------------ | :------ |
-| Mage Hand        | Conjuration   | —       |
-| Mending          | Transmutation | —       |
-| Message          | Transmutation | —       |
-| Minor Illusion   | Illusion      | —       |
-| Poison Spray     | Necromancy    | —       |
-| Prestidigitation | Transmutation | —       |
-| Ray of Frost     | Evocation     | —       |
-| Shocking Grasp   | Evocation     | —       |
-| True Strike      | Divination    | —       |
+| Mage Hand        | Conjuration   |    -    |
+| Mending          | Transmutation |    -    |
+| Message          | Transmutation |    -    |
+| Minor Illusion   | Illusion      |    -    |
+| Poison Spray     | Necromancy    |    -    |
+| Prestidigitation | Transmutation |    -    |
+| Ray of Frost     | Evocation     |    -    |
+| Shocking Grasp   | Evocation     |    -    |
+| True Strike      | Divination    |    -    |
 
 Level 1 Wizard Spells
 
 | Spell                         | School        | Special |
 | :---------------------------- | :------------ | :------ |
 | Alarm                         | Abjuration    | R       |
-| Burning Hands                 | Evocation     | —       |
-| Charm Person                  | Enchantment   | —       |
+| Burning Hands                 | Evocation     |    -    |
+| Charm Person                  | Enchantment   |    -    |
 | Chromatic Orb                 | Evocation     | M       |
-| Color Spray                   | Illusion      | —       |
+| Color Spray                   | Illusion      |    -    |
 | Comprehend Languages          | Divination    | R       |
 | Detect Magic                  | Divination    | C, R    |
-| Disguise Self                 | Illusion      | —       |
+| Disguise Self                 | Illusion      |    -    |
 | Expeditious Retreat           | Transmutation | C       |
-| False Life                    | Necromancy    | —       |
-| Feather Fall                  | Transmutation | —       |
+| False Life                    | Necromancy    |    -    |
+| Feather Fall                  | Transmutation |    -    |
 | Find Familiar                 | Conjuration   | R, M    |
 | Floating Disk                 | Conjuration   | R       |
 | Fog Cloud                     | Conjuration   | C       |
-| Grease                        | Conjuration   | —       |
+| Grease                        | Conjuration   |    -    |
 | Hideous Laughter              | Enchantment   | C       |
-| Ice Knife                     | Conjuration   | —       |
+| Ice Knife                     | Conjuration   |    -    |
 | Identify                      | Divination    | R, M    |
 | Illusory Script               | Illusion      | R, M    |
-| Jump                          | Transmutation | —       |
-| Longstrider                   | Transmutation | —       |
-| Mage Armor                    | Abjuration    | —       |
-| Magic Missile                 | Evocation     | —       |
+| Jump                          | Transmutation |    -    |
+| Longstrider                   | Transmutation |    -    |
+| Mage Armor                    | Abjuration    |    -    |
+| Magic Missile                 | Evocation     |    -    |
 | Protection from Evil and Good | Abjuration    | C, M    |
-| Ray of Sickness               | Necromancy    | —       |
-| Shield                        | Abjuration    | —       |
+| Ray of Sickness               | Necromancy    |    -    |
+| Shield                        | Abjuration    |    -    |
 | Silent Image                  | Illusion      | C       |
 | Sleep                         | Enchantment   | C       |
-| Thunderwave                   | Evocation     | —       |
+| Thunderwave                   | Evocation     |    -    |
 | Unseen Servant                | Conjuration   | R       |
 
 Level 2 Wizard Spells
 
 | Spell                 | School        | Special |
 | :-------------------- | :------------ | :------ |
-| Acid Arrow            | Evocation     | —       |
+| Acid Arrow            | Evocation     |    -    |
 | Alter Self            | Transmutation | C       |
 | Arcane Lock           | Abjuration    | M       |
-| Arcanist’s Magic Aura | Illusion      | —       |
+| Arcanist’s Magic Aura | Illusion      |    -    |
 | Augury                | Divination    | R, M    |
-| Blindness/Deafness    | Transmutation | —       |
+| Blindness/Deafness    | Transmutation |    -    |
 | Blur                  | Illusion      | C       |
 | Continual Flame       | Evocation     | M       |
 | Darkness              | Evocation     | C       |
-| Darkvision            | Transmutation | —       |
+| Darkvision            | Transmutation |    -    |
 | Detect Thoughts       | Divination    | C       |
 | Dragon’s Breath       | Transmutation | C       |
 | Enhance Ability       | Transmutation | C       |
@@ -5202,19 +5202,19 @@ Level 2 Wizard Spells
 | Gust of Wind          | Evocation     | C       |
 | Hold Person           | Enchantment   | C       |
 | Invisibility          | Illusion      | C       |
-| Knock                 | Transmutation | —       |
+| Knock                 | Transmutation |    -    |
 | Levitate              | Transmutation | C       |
 | Locate Object         | Divination    | C       |
 | Magic Mouth           | Illusion      | R, M    |
-| Magic Weapon          | Transmutation | —       |
+| Magic Weapon          | Transmutation |    -    |
 | Mind Spike            | Divination    | C       |
-| Mirror Image          | Illusion      | —       |
-| Misty Step            | Conjuration   | —       |
+| Mirror Image          | Illusion      |    -    |
+| Misty Step            | Conjuration   |    -    |
 | Ray of Enfeeblement   | Necromancy    | C       |
-| Rope Trick            | Transmutation | —       |
-| Scorching Ray         | Evocation     | —       |
-| See Invisibility      | Divination    | —       |
-| Shatter               | Evocation     | —       |
+| Rope Trick            | Transmutation |    -    |
+| Scorching Ray         | Evocation     |    -    |
+| See Invisibility      | Divination    |    -    |
+| Shatter               | Evocation     |    -    |
 | Spider Climb          | Transmutation | C       |
 | Suggestion            | Enchantment   | C       |
 | Web                   | Conjuration   | C       |
@@ -5223,36 +5223,36 @@ Level 3 Wizard Spells
 
 | Spell        | School        | Special |
 | :----------- | :------------ | :------ |
-| Animate Dead | Necromancy    | —       |
+| Animate Dead | Necromancy    |    -    |
 | Bestow Curse | Necromancy    | C       |
-| Blink        | Transmutation | —       |
+| Blink        | Transmutation |    -    |
 | Clairvoyance | Divination    | C, M    |
-| Counterspell | Abjuration    | —       |
-| Dispel Magic | Abjuration    | —       |
+| Counterspell | Abjuration    |    -    |
+| Dispel Magic | Abjuration    |    -    |
 
 | Spell                  | School        | Special |
 | :--------------------- | :------------ | :------ |
 | Fear                   | Illusion      | C       |
-| Fireball               | Evocation     | —       |
+| Fireball               | Evocation     |    -    |
 | Fly                    | Transmutation | C       |
 | Gaseous Form           | Transmutation | C       |
 | Glyph of Warding       | Abjuration    | M       |
 | Haste                  | Transmutation | C       |
 | Hypnotic Pattern       | Illusion      | C       |
-| Lightning Bolt         | Evocation     | —       |
+| Lightning Bolt         | Evocation     |    -    |
 | Magic Circle           | Abjuration    | M       |
 | Major Image            | Illusion      | C       |
 | Nondetection           | Abjuration    | M       |
 | Phantom Steed          | Illusion      | R       |
 | Protection from Energy | Abjuration    | C       |
-| Remove Curse           | Abjuration    | —       |
-| Sending                | Divination    | —       |
+| Remove Curse           | Abjuration    |    -    |
+| Sending                | Divination    |    -    |
 | Sleet Storm            | Conjuration   | C       |
 | Slow                   | Transmutation | C       |
-| Speak with Dead        | Necromancy    | —       |
+| Speak with Dead        | Necromancy    |    -    |
 | Stinking Cloud         | Conjuration   | C       |
 | Tiny Hut               | Evocation     | R       |
-| Tongues                | Divination    | —       |
+| Tongues                | Divination    |    -    |
 | Vampiric Touch         | Necromancy    | C       |
 | Water Breathing        | Transmutation | R       |
 
@@ -5263,28 +5263,28 @@ Level 4 Wizard Spells
 | Arcane Eye               | Divination    | C       |
 | Banishment               | Abjuration    | C       |
 | Black Tentacles          | Conjuration   | C       |
-| Blight                   | Necromancy    | —       |
-| Charm Monster            | Enchantment   | —       |
+| Blight                   | Necromancy    |    -    |
+| Charm Monster            | Enchantment   |    -    |
 | Confusion                | Enchantment   | C       |
 | Conjure Minor Elementals | Conjuration   | C       |
 | Control Water            | Transmutation | C       |
-| Dimension Door           | Conjuration   | —       |
+| Dimension Door           | Conjuration   |    -    |
 | Divination               | Divination    | R, M    |
-| Fabricate                | Transmutation | —       |
-| Faithful Hound           | Conjuration   | —       |
-| Fire Shield              | Evocation     | —       |
+| Fabricate                | Transmutation |    -    |
+| Faithful Hound           | Conjuration   |    -    |
+| Fire Shield              | Evocation     |    -    |
 | Greater Invisibility     | Illusion      | C       |
-| Hallucinatory Terrain    | Illusion      | —       |
-| Ice Storm                | Evocation     | —       |
+| Hallucinatory Terrain    | Illusion      |    -    |
+| Ice Storm                | Evocation     |    -    |
 | Locate Creature          | Divination    | C       |
 | Phantasmal Killer        | Illusion      | C       |
 | Polymorph                | Transmutation | C       |
-| Private Sanctum          | Abjuration    | —       |
+| Private Sanctum          | Abjuration    |    -    |
 | Resilient Sphere         | Abjuration    | C       |
 | Secret Chest             | Conjuration   | M       |
-| Stone Shape              | Transmutation | —       |
+| Stone Shape              | Transmutation |    -    |
 | Stoneskin                | Transmutation | C, M    |
-| Vitriolic Sphere         | Evocation     | —       |
+| Vitriolic Sphere         | Evocation     |    -    |
 | Wall of Fire             | Evocation     | C       |
 
 Level 5 Wizard Spells
@@ -5294,21 +5294,21 @@ Level 5 Wizard Spells
 | Animate Objects      | Transmutation | C       |
 | Arcane Hand          | Evocation     | C       |
 | Cloudkill            | Conjuration   | C       |
-| Cone of Cold         | Evocation     | —       |
+| Cone of Cold         | Evocation     |    -    |
 | Conjure Elemental    | Conjuration   | C       |
 | Contact Other Plane  | Divination    | R       |
-| Creation             | Illusion      | —       |
+| Creation             | Illusion      |    -    |
 | Dominate Person      | Enchantment   | C       |
-| Dream                | Illusion      | —       |
-| Geas                 | Enchantment   | —       |
+| Dream                | Illusion      |    -    |
+| Geas                 | Enchantment   |    -    |
 | Hold Monster         | Enchantment   | C       |
 | Legend Lore          | Divination    | M       |
 | Mislead              | Illusion      | C       |
 | Modify Memory        | Enchantment   | C       |
-| Passwall             | Transmutation | —       |
+| Passwall             | Transmutation |    -    |
 | Planar Binding       | Abjuration    | M       |
 | Scrying              | Divination    | C, M    |
-| Seeming              | Illusion      | —       |
+| Seeming              | Illusion      |    -    |
 | Summon Dragon        | Conjuration   | C, M    |
 | Telekinesis          | Transmutation | C       |
 | Telepathic Bond      | Divination    | R       |
@@ -5320,20 +5320,20 @@ Level 6 Wizard Spells
 
 | Spell                    | School        | Special |
 | :----------------------- | :------------ | :------ |
-| Chain Lightning          | Evocation     | —       |
+| Chain Lightning          | Evocation     |    -    |
 | Circle of Death          | Necromancy    | M       |
 | Contingency              | Abjuration    | M       |
 | Create Undead            | Necromancy    | M       |
-| Disintegrate             | Transmutation | —       |
+| Disintegrate             | Transmutation |    -    |
 | Eyebite                  | Necromancy    | C       |
 | Flesh to Stone           | Transmutation | C       |
-| Freezing Sphere          | Evocation     | —       |
+| Freezing Sphere          | Evocation     |    -    |
 | Globe of Invulnerability | Abjuration    | C       |
 | Guards and Wards         | Abjuration    | M       |
 | Instant Summons          | Conjuration   | R, M    |
 | Irresistible Dance       | Enchantment   | C       |
 | Magic Jar                | Necromancy    | M       |
-| Mass Suggestion          | Enchantment   | —       |
+| Mass Suggestion          | Enchantment   |    -    |
 | Move Earth               | Transmutation | C       |
 | Programmed Illusion      | Illusion      | M       |
 | Sunbeam                  | Evocation     | C       |
@@ -5346,53 +5346,53 @@ Level 7 Wizard Spells
 | :--------------------- | :------------ | :------ |
 | Arcane Sword           | Evocation     | C, M    |
 | Delayed Blast Fireball | Evocation     | C       |
-| Etherealness           | Conjuration   | —       |
-| Finger of Death        | Necromancy    | —       |
+| Etherealness           | Conjuration   |    -    |
+| Finger of Death        | Necromancy    |    -    |
 | Forcecage              | Evocation     | C, M    |
 | Magnificent Mansion    | Conjuration   | M       |
-| Mirage Arcane          | Illusion      | —       |
+| Mirage Arcane          | Illusion      |    -    |
 | Plane Shift            | Conjuration   | M       |
-| Prismatic Spray        | Evocation     | —       |
+| Prismatic Spray        | Evocation     |    -    |
 | Project Image          | Illusion      | C, M    |
 | Reverse Gravity        | Transmutation | C       |
 | Sequester              | Transmutation | M       |
 | Simulacrum             | Illusion      | M       |
 | Symbol                 | Abjuration    | M       |
-| Teleport               | Conjuration   | —       |
+| Teleport               | Conjuration   |    -    |
 
 Level 8 Wizard Spells
 
 | Spell              | School        | Special |
 | :----------------- | :------------ | :------ |
 | Antimagic Field    | Abjuration    | C       |
-| Antipathy/Sympathy | Enchantment   | —       |
-| Befuddlement       | Enchantment   | —       |
+| Antipathy/Sympathy | Enchantment   |    -    |
+| Befuddlement       | Enchantment   |    -    |
 | Clone              | Necromancy    | M       |
 | Control Weather    | Transmutation | C       |
-| Demiplane          | Conjuration   | —       |
+| Demiplane          | Conjuration   |    -    |
 | Dominate Monster   | Enchantment   | C       |
 | Incendiary Cloud   | Conjuration   | C       |
 | Maze               | Conjuration   | C       |
-| Mind Blank         | Abjuration    | —       |
-| Power Word Stun    | Enchantment   | —       |
-| Sunburst           | Evocation     | —       |
+| Mind Blank         | Abjuration    |    -    |
+| Power Word Stun    | Enchantment   |    -    |
+| Sunburst           | Evocation     |    -    |
 
 Level 9 Wizard Spells
 
 | Spell             | School        | Special |
 | :---------------- | :------------ | :------ |
 | Astral Projection | Necromancy    | M       |
-| Foresight         | Divination    | —       |
+| Foresight         | Divination    |    -    |
 | Gate              | Conjuration   | C, M    |
 | Imprisonment      | Abjuration    | M       |
-| Meteor Swarm      | Evocation     | —       |
-| Power Word Kill   | Enchantment   | —       |
-| Prismatic Wall    | Abjuration    | —       |
+| Meteor Swarm      | Evocation     |    -    |
+| Power Word Kill   | Enchantment   |    -    |
+| Prismatic Wall    | Abjuration    |    -    |
 | Shapechange       | Transmutation | C, M    |
-| Time Stop         | Transmutation | —       |
+| Time Stop         | Transmutation |    -    |
 | True Polymorph    | Transmutation | C       |
 | Weird             | Illusion      | C       |
-| Wish              | Conjuration   | —       |
+| Wish              | Conjuration   |    -    |
 
 # Wizard Subclass: Evoker
 
@@ -5452,7 +5452,7 @@ A background gives your character proficiency in two specified skills.
 
 # Tool Proficiency
 
-Each background gives a character proficiency with one tool—either a specific tool or one chosen from the Artisan's Tools category. Tools are detailed in "Equipment."
+Each background gives a character proficiency with one tool - either a specific tool or one chosen from the Artisan's Tools category. Tools are detailed in "Equipment."
 
 ---
 
@@ -5540,7 +5540,7 @@ Your character's species determines the character's Speed.
 
 # Special Traits
 
-Each species gives a character special traits—unique characteristics based on the species' physiology or magical nature. When you choose a species, your character gets all the special traits listed for it. Some traits involve making a choice from a handful of options.
+Each species gives a character special traits - unique characteristics based on the species' physiology or magical nature. When you choose a species, your character gets all the special traits listed for it. Some traits involve making a choice from a handful of options.
 
 # Species Descriptions
 
@@ -5660,7 +5660,7 @@ Speed: 35 feet
 
 As a Goliath, you have these special traits.
 
-Giant Ancestry. You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:
+Giant Ancestry. You are descended from Giants. Choose one of the following benefits - a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:
 
 Cloud's Jaunt (Cloud Giant). As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.
 
@@ -5764,7 +5764,7 @@ Otherworldly Presence. You know the Thaumaturgy cantrip. When you cast it with t
 
 # Feat Descriptions
 
-The feats that follow are organized by category—Origin, General, Fighting Style, or Epic Boon—and alphabetized in each category.
+The feats that follow are organized by category - Origin, General, Fighting Style, or Epic Boon - and alphabetized in each category.
 
 # Parts of a Feat
 
@@ -5982,7 +5982,7 @@ Mastery. Each weapon has a mastery property, which is defined in the “Mastery 
 
 # SELLING EQUIPMENT
 
-Equipment fetches half its cost when sold. In contrast, trade goods and valuables—like gems and art objects—retain their full value in the marketplace. "Magic Items" has prices for magic items.
+Equipment fetches half its cost when sold. In contrast, trade goods and valuables - like gems and art objects - retain their full value in the marketplace. "Magic Items" has prices for magic items.
 
 # Weapon Proficiency
 
@@ -6038,7 +6038,7 @@ Each weapon has a mastery property, which is usable only by a character who has 
 
 # IMPROVISED WEAPONS
 
-If you use an object—such as a table leg, frying pan, or bottle—as a makeshift weapon, see “Improvised Weapons” in “Rules Glossary.” Also see those rules if you wield a weapon in an unusual way, such as using a Ranged weapon to make a melee attack.
+If you use an object - such as a table leg, frying pan, or bottle - as a makeshift weapon, see “Improvised Weapons” in “Rules Glossary.” Also see those rules if you wield a weapon in an unusual way, such as using a Ranged weapon to make a melee attack.
 
 # Cleave
 
@@ -6083,7 +6083,7 @@ Weapons
 | Handaxe                | 1d6 Slashing    | Light, Thrown (Range 20/60)                                  | Vex     | 2 lb.   | 5 GP   |
 | Javelin                | 1d6 Piercing    | Thrown (Range 30/120)                                        | Slow    | 2 lb.   | 5 SP   |
 | Light Hammer           | 1d4 Bludgeoning | Light, Thrown (Range 20/60)                                  | Nick    | 2 lb.   | 2 GP   |
-| Mace                   | 1d6 Bludgeoning | —                                                            | Sap     | 4 lb.   | 5 GP   |
+| Mace                   | 1d6 Bludgeoning |                              -                               | Sap     | 4 lb.   | 5 GP   |
 | Quarterstaff           | 1d6 Bludgeoning | Versatile (1d8)                                              | Topple  | 4 lb.   | 2 SP   |
 | Sickle                 | 1d4 Slashing    | Light                                                        | Nick    | 2 lb.   | 1 GP   |
 | Spear                  | 1d6 Piercing    | Thrown (Range 20/60), Versatile (1d8)                        | Sap     | 3 lb.   | 1 GP   |
@@ -6091,10 +6091,10 @@ Weapons
 | Dart                   | 1d4 Piercing    | Finesse, Thrown (Range 20/60)                                | Vex     | 1/4 lb. | 5 CP   |
 | Light Crossbow         | 1d8 Piercing    | Ammunition (Range 80/320; Bolt), Loading, Two-Handed         | Slow    | 5 lb.   | 25 GP  |
 | Shortbow               | 1d6 Piercing    | Ammunition (Range 80/320; Arrow), Two-Handed                 | Vex     | 2 lb.   | 25 GP  |
-| Sling                  | 1d4 Bludgeoning | Ammunition (Range 30/120; Bullet)                            | Slow    | —       | 1 SP   |
+| Sling                  | 1d4 Bludgeoning | Ammunition (Range 30/120; Bullet)                            | Slow    |    -    | 1 SP   |
 | Martial Melee Weapons  |                 |                                                              |         |         |        |
 | Battleaxe              | 1d8 Slashing    | Versatile (1d10)                                             | Topple  | 4 lb.   | 10 GP  |
-| Flail                  | 1d8 Bludgeoning | —                                                            | Sap     | 2 lb.   | 10 GP  |
+| Flail                  | 1d8 Bludgeoning |                              -                               | Sap     | 2 lb.   | 10 GP  |
 | Glaive                 | 1d10 Slashing   | Heavy, Reach, Two-Handed                                     | Graze   | 6 lb.   | 20 GP  |
 | Greataxe               | 1d12 Slashing   | Heavy, Two-Handed                                            | Cleave  | 7 lb.   | 30 GP  |
 | Greatsword             | 2d6 Slashing    | Heavy, Two-Handed                                            | Graze   | 6 lb.   | 50 GP  |
@@ -6102,7 +6102,7 @@ Weapons
 | Lance                  | 1d10 Piercing   | Heavy, Reach, Two-Handed (unless mounted)                    | Topple  | 6 lb.   | 10 GP  |
 | Longsword              | 1d8 Slashing    | Versatile (1d10)                                             | Sap     | 3 lb.   | 15 GP  |
 | Maul                   | 2d6 Bludgeoning | Heavy, Two-Handed                                            | Topple  | 10 lb.  | 10 GP  |
-| Morningstar            | 1d8 Piercing    | —                                                            | Sap     | 4 lb.   | 15 GP  |
+| Morningstar            | 1d8 Piercing    |                              -                               | Sap     | 4 lb.   | 15 GP  |
 | Pike                   | 1d10 Piercing   | Heavy, Reach, Two-Handed                                     | Push    | 18 lb.  | 5 GP   |
 | Rapier                 | 1d8 Piercing    | Finesse                                                      | Vex     | 2 lb.   | 25 GP  |
 | Scimitar               | 1d6 Slashing    | Finesse, Light                                               | Nick    | 3 lb.   | 25 GP  |
@@ -6152,22 +6152,22 @@ Armor
 | Armor                                                 | Armor Class (AC)          | Strength | Stealth      | Weight | Cost     |
 | :---------------------------------------------------- | :------------------------ | :------- | :----------- | :----- | :------- |
 | Light Armor (1 Minute to Don or Doff)                 |                           |          |              |        |          |
-| Padded Armor                                          | 11 + Dex modifier         | —        | Disadvantage | 8 lb.  | 5 GP     |
-| Leather Armor                                         | 11 + Dex modifier         | —        | —            | 10 lb. | 10 GP    |
-| Studded Leather Armor                                 | 12 + Dex modifier         | —        | —            | 13 lb. | 45 GP    |
+| Padded Armor                                          | 11 + Dex modifier         |    -     | Disadvantage | 8 lb.  | 5 GP     |
+| Leather Armor                                         | 11 + Dex modifier         |    -     |      -       | 10 lb. | 10 GP    |
+| Studded Leather Armor                                 | 12 + Dex modifier         |    -     |      -       | 13 lb. | 45 GP    |
 | Medium Armor (5 Minutes to Don and 1 Minute to Doff)  |                           |          |              |        |          |
-| Hide Armor                                            | 12 + Dex modifier (max 2) | —        | —            | 12 lb. | 10 GP    |
-| Chain Shirt                                           | 13 + Dex modifier (max 2) | —        | —            | 20 lb. | 50 GP    |
-| Scale Mail                                            | 14 + Dex modifier (max 2) | —        | Disadvantage | 45 lb. | 50 GP    |
-| Breastplate                                           | 14 + Dex modifier (max 2) | —        | —            | 20 lb. | 400 GP   |
-| Half Plate Armor                                      | 15 + Dex modifier (max 2) | —        | Disadvantage | 40 lb. | 750 GP   |
+| Hide Armor                                            | 12 + Dex modifier (max 2) |    -     |      -       | 12 lb. | 10 GP    |
+| Chain Shirt                                           | 13 + Dex modifier (max 2) |    -     |      -       | 20 lb. | 50 GP    |
+| Scale Mail                                            | 14 + Dex modifier (max 2) |    -     | Disadvantage | 45 lb. | 50 GP    |
+| Breastplate                                           | 14 + Dex modifier (max 2) |    -     |      -       | 20 lb. | 400 GP   |
+| Half Plate Armor                                      | 15 + Dex modifier (max 2) |    -     | Disadvantage | 40 lb. | 750 GP   |
 | Heavy Armor (10 Minutes to Don and 5 Minutes to Doff) |                           |          |              |        |          |
-| Ring Mail                                             | 14                        | —        | Disadvantage | 40 lb. | 30 GP    |
+| Ring Mail                                             | 14                        |    -     | Disadvantage | 40 lb. | 30 GP    |
 | Chain Mail                                            | 16                        | Str 13   | Disadvantage | 55 lb. | 75 GP    |
 | Splint Armor                                          | 17                        | Str 15   | Disadvantage | 60 lb. | 200 GP   |
 | Plate Armor                                           | 18                        | Str 15   | Disadvantage | 65 lb. | 1,500 GP |
 | Shield (Utilize Action to Don or Doff)                |                           |          |              |        |          |
-| Shield                                                | +2                        | —        | —            | 6 lb.  | 10 GP    |
+| Shield                                                | +2                        |    -     |      -       | 6 lb.  | 10 GP    |
 
 # Tools
 
@@ -6357,7 +6357,7 @@ Utilize: Mimic 10 or fewer words of someone else's handwriting (DC 15), or dupli
 
 Ability: Wisdom
 
-Weight: —
+Weight: -
 
 Utilize: Discern whether someone is cheating (DC 10), or win the game (DC 20)
 
@@ -6432,14 +6432,14 @@ Adventuring Gear
 | Acid                | 1 lb.      | 25 GP  |
 | Alchemist’s Fire    | 1 lb.      | 50 GP  |
 | Ammunition          | Varies     | Varies |
-| Antitoxin           | —          | 50 GP  |
+| Antitoxin           |     -      | 50 GP  |
 | Arcane Focus        | Varies     | Varies |
 | Backpack            | 5 lb.      | 2 GP   |
 | Ball Bearings       | 2 lb.      | 1 GP   |
 | Barrel              | 70 lb.     | 2 GP   |
 | Basket              | 2 lb.      | 4 SP   |
 | Bedroll             | 7 lb.      | 1 GP   |
-| Bell                | —          | 1 GP   |
+| Bell                |     -      | 1 GP   |
 | Blanket             | 3 lb.      | 5 SP   |
 | Block and Tackle    | 5 lb.      | 1 GP   |
 | Book                | 5 lb.      | 25 GP  |
@@ -6447,7 +6447,7 @@ Adventuring Gear
 | Bucket              | 2 lb.      | 5 CP   |
 | Burglar’s Pack      | 42 lb.     | 16 GP  |
 | Caltrops            | 2 lb.      | 1 GP   |
-| Candle              | —          | 1 CP   |
+| Candle              |     -      | 1 CP   |
 | Case, Crossbow Bolt | 1 lb.      | 1 GP   |
 | Case, Map or Scroll | 1 lb.      | 1 GP   |
 | Chain               | 10 lb.     | 5 GP   |
@@ -6469,27 +6469,27 @@ Adventuring Gear
 | Holy Symbol         | Varies     | Varies |
 | Holy Water          | 1 lb.      | 25 GP  |
 | Hunting Trap        | 25 lb.     | 5 GP   |
-| Ink                 | —          | 10 GP  |
+| Ink                 |     -      | 10 GP  |
 
 | Item                   | Weight       | Cost     |
 | :--------------------- | :----------- | :------- |
-| Ink Pen                | —            | 2 CP     |
+| Ink Pen                |      -       | 2 CP     |
 | Jug                    | 4 lb.        | 2 CP     |
 | Ladder                 | 25 lb.       | 1 SP     |
 | Lamp                   | 1 lb.        | 5 SP     |
 | Lantern, Bullseye      | 2 lb.        | 10 GP    |
 | Lantern, Hooded        | 2 lb.        | 5 GP     |
 | Lock                   | 1 lb.        | 10 GP    |
-| Magnifying Glass       | —            | 100 GP   |
+| Magnifying Glass       |      -       | 100 GP   |
 | Manacles               | 6 lb.        | 2 GP     |
-| Map                    | —            | 1 GP     |
+| Map                    |      -       | 1 GP     |
 | Mirror                 | 1/2 lb.      | 5 GP     |
 | Net                    | 3 lb.        | 1 GP     |
 | Oil                    | 1 lb.        | 1 SP     |
-| Paper                  | —            | 2 SP     |
-| Parchment              | —            | 1 SP     |
-| Perfume                | —            | 5 GP     |
-| Poison, Basic          | —            | 100 GP   |
+| Paper                  |      -       | 2 SP     |
+| Parchment              |      -       | 1 SP     |
+| Perfume                |      -       | 5 GP     |
+| Poison, Basic          |      -       | 100 GP   |
 | Pole                   | 7 lb.        | 5 CP     |
 | Pot, Iron              | 10 lb.       | 2 GP     |
 | Potion of Healing      | 1/2 lb.      | 50 GP    |
@@ -6503,16 +6503,16 @@ Adventuring Gear
 | Sack                   | 1/2 lb.      | 1 CP     |
 | Scholar’s Pack         | 22 lb.       | 40 GP    |
 | Shovel                 | 5 lb.        | 2 GP     |
-| Signal Whistle         | —            | 5 CP     |
-| Spell Scroll (Cantrip) | —            | 30 GP    |
-| Spell Scroll (Level 1) | —            | 50 GP    |
+| Signal Whistle         |      -       | 5 CP     |
+| Spell Scroll (Cantrip) |      -       | 30 GP    |
+| Spell Scroll (Level 1) |      -       | 50 GP    |
 | Spikes, Iron           | 5 lb.        | 1 GP     |
 | Spyglass               | 1 lb.        | 1,000 GP |
-| String                 | —            | 1 SP     |
+| String                 |      -       | 1 SP     |
 | Tent                   | 20 lb.       | 2 GP     |
 | Tinderbox              | 1 lb.        | 5 SP     |
 | Torch                  | 1 lb.        | 1 CP     |
-| Vial                   | —            | 1 GP     |
+| Vial                   |      -       | 1 GP     |
 | Waterskin              | 5 lb. (full) | 2 SP     |
 
 Ammunition
@@ -6651,7 +6651,7 @@ Druidic Focuses
 
 | Focus                              | Weight | Cost  |
 | :--------------------------------- | :----- | :---- |
-| Sprig of mistletoe                 | —      | 1 GP  |
+| Sprig of mistletoe                 |   -    | 1 GP  |
 | Wooden staff (also a Quarterstaff) | 4 lb.  | 5 GP  |
 | Yew wand                           | 1 lb.  | 10 GP |
 
@@ -6692,7 +6692,7 @@ Holy Symbols
 | Symbol                               | Weight | Cost |
 | :----------------------------------- | :----- | :--- |
 | Amulet (worn or held)                | 1 lb.  | 5 GP |
-| Emblem (borne on fabric or a Shield) | —      | 5 GP |
+| Emblem (borne on fabric or a Shield) |   -    | 5 GP |
 | Reliquary (held)                     | 2 lb.  | 5 GP |
 
 # Holy Water (25 GP)
@@ -6871,7 +6871,7 @@ A Tent sleeps up to two Small or Medium creatures.
 
 # Tinderbox (5 SP)
 
-A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute.
+A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch - or anything else with exposed fuel - takes a Bonus Action. Lighting any other fire takes 1 minute.
 
 # Torch (1 CP)
 
@@ -6929,7 +6929,7 @@ Tack, Harness, and Drawn Vehicles
 | Military         | 30 lb.  | 20 GP  |
 | Riding           | 25 lb.  | 10 GP  |
 | Sled             | 300 lb. | 20 GP  |
-| Stabling per day | —       | 5 SP   |
+| Stabling per day |    -    | 5 SP   |
 | Wagon            | 400 lb. | 35 GP  |
 
 # Large Vehicles
@@ -6944,11 +6944,11 @@ Airborne and Waterborne Vehicles
 
 | Ship         | Speed    | Crew | Passengers | Cargo (Tons) | AC  | HP  | Damage Threshold | Cost      |
 | :----------- | :------- | :--- | :--------- | :----------- | :--- | :--- | :--------------- | :-------- |
-| Airship      | 8 mph    | 10   | 20         | 1            | 13  | 300 | —                | 40,000 GP |
-| Galley       | 4 mph    | 80   | —          | 150          | 15  | 500 | 20               | 30,000 GP |
+| Airship      | 8 mph    | 10   | 20         | 1            | 13  | 300 |        -         | 40,000 GP |
+| Galley       | 4 mph    | 80   |     -      | 150          | 15  | 500 | 20               | 30,000 GP |
 | Keelboat     | 1 mph    | 1    | 6          | 1/2          | 15  | 100 | 10               | 3,000 GP  |
 | Longship     | 3 mph    | 40   | 150        | 10           | 15  | 300 | 15               | 10,000 GP |
-| Rowboat      | 1 1/2 mph | 1    | 3          | —            | 11  | 50  | —                | 50 GP     |
+| Rowboat      | 1 1/2 mph | 1    | 3          |      -       | 11  | 50  |        -         | 50 GP     |
 | Sailing Ship | 2 mph    | 20   | 20         | 100          | 15  | 300 | 15               | 10,000 GP |
 | Warship      | 2 1/2 mph | 60   | 60         | 200          | 15  | 500 | 20               | 25,000 GP |
 
@@ -6972,7 +6972,7 @@ Repairs to a damaged ship can be made while the vessel is berthed. Repairing 1 H
 
 Lifestyle expenses summarize the cost of living in a fantasy world. They cover lodging, food, equipment maintenance, and other necessities.
 
-At the start of each week or month (GM's choice), choose a lifestyle below—Wretched, Squalid, Poor, Modest, Comfortable, Wealthy, or Aristocratic—and pay the price to sustain that lifestyle.
+At the start of each week or month (GM's choice), choose a lifestyle below - Wretched, Squalid, Poor, Modest, Comfortable, Wealthy, or Aristocratic - and pay the price to sustain that lifestyle.
 
 Lifestyles have no inherent consequences, but the GM might take them into account when determining risks or how others perceive your character.
 
@@ -7055,7 +7055,7 @@ Spellcasting Services
 
 # Magic Items
 
-Adventures hold the promise—but not a guarantee—of finding magic items. Hundreds of magic items are detailed in “Magic Items” later in this document. Here’s what you need to know about using magic items.
+Adventures hold the promise - but not a guarantee - of finding magic items. Hundreds of magic items are detailed in “Magic Items” later in this document. Here’s what you need to know about using magic items.
 
 # Identifying a Magic Item
 
@@ -7071,7 +7071,7 @@ Wearing or experimenting with an item can also offer hints about its properties.
 
 # Attunement
 
-Some magic items require a creature to form a bond—called Attunement—with them before the creature can use an item's magical properties. Without becoming attuned to an item that requires Attunement, you gain only its nonmagical benefits unless its description states otherwise. For example, a magic Shield that requires Attunement provides the benefits of a normal Shield if you aren't attuned to it, but none of its magical properties.
+Some magic items require a creature to form a bond - called Attunement - with them before the creature can use an item's magical properties. Without becoming attuned to an item that requires Attunement, you gain only its nonmagical benefits unless its description states otherwise. For example, a magic Shield that requires Attunement provides the benefits of a normal Shield if you aren't attuned to it, but none of its magical properties.
 
 # Attune during a Short Rest
 
@@ -7099,7 +7099,7 @@ You can't wear more than one of certain magic items. You can't normally wear mor
 
 # Paired Items
 
-Items that come in pairs—such as boots, bracers, gauntlets, and gloves—impart their benefits only if both items of the pair are worn. For example, a character wearing a Boot of Striding and Springing on one foot and a Boot of Elvenkind on the other foot gains no benefit from either.
+Items that come in pairs - such as boots, bracers, gauntlets, and gloves - impart their benefits only if both items of the pair are worn. For example, a character wearing a Boot of Striding and Springing on one foot and a Boot of Elvenkind on the other foot gains no benefit from either.
 
 # Crafting Nonmagical Items
 
@@ -7201,13 +7201,13 @@ You must have training with any armor you are wearing to cast spells while weari
 
 # Spell Level
 
-Every spell has a level from 0 to 9, which is indicated in a spell's description. A spell's level is an indicator of how powerful it is. Cantrips—simple spells that can be cast almost by rote—are level 0. The rules for each spellcasting class say when its members gain access to spells of certain levels.
+Every spell has a level from 0 to 9, which is indicated in a spell's description. A spell's level is an indicator of how powerful it is. Cantrips - simple spells that can be cast almost by rote - are level 0. The rules for each spellcasting class say when its members gain access to spells of certain levels.
 
 # Spell Slots
 
 Spellcasting is taxing, so a spellcaster can cast only a limited number of level 1+ spells before resting. Spell slots are the main way a spellcaster's magical potential is represented. Each spellcasting class gives its members a limited number of spell slots of certain spell levels. For example, a level 3 Wizard has four level 1 spell slots and two level 2 slots.
 
-When you cast a spell, you expend a slot of that spell's level or higher, effectively "filling" a slot with the spell. Imagine a spell slot is a groove of a certain size—small for a level 1 slot and larger for a higher-level spell. A level 1 spell fits into a slot of any size, but a level 2 spell fits only into a slot that's at least level 2. So when a level 3 Wizard casts Magic Missile, a level 1 spell, that Wizard spends one of four level 1 slots and has three remaining.
+When you cast a spell, you expend a slot of that spell's level or higher, effectively "filling" a slot with the spell. Imagine a spell slot is a groove of a certain size - small for a level 1 slot and larger for a higher-level spell. A level 1 spell fits into a slot of any size, but a level 2 spell fits only into a slot that's at least level 2. So when a level 3 Wizard casts Magic Missile, a level 1 spell, that Wizard spends one of four level 1 slots and has three remaining.
 
 Finishing a Long Rest restores any expended spell slots.
 
@@ -7264,7 +7264,7 @@ A spell that has a casting time of a Reaction is cast in response to a trigger t
 
 # Longer Casting Times
 
-Certain spells—including a spell cast as a Ritual—require more time to cast: minutes or even hours. While you cast a spell with a casting time of 1 minute or more, you must take the Magic action on each of your turns, and you must maintain Concentration (see “Rules Glossary”) while you do so. If
+Certain spells - including a spell cast as a Ritual - require more time to cast: minutes or even hours. While you cast a spell with a casting time of 1 minute or more, you must take the Magic action on each of your turns, and you must maintain Concentration (see “Rules Glossary”) while you do so. If
 
 your Concentration is broken, the spell fails, but you don't expend a spell slot. To cast the spell again, you must start over.
 
@@ -7346,7 +7346,7 @@ Spell attack modifier = your spellcasting ability modifier + your Proficiency Bo
 
 # Combining Spell Effects
 
-The effects of different spells add together while their durations overlap. In contrast, the effects of the same spell cast multiple times don't combine. Instead, the most potent effect—such as the highest bonus—from those castings applies while their durations overlap. The most recent effect applies if the castings are equally potent and their durations overlap. For example, if two Clerics cast Bless on the same target, that target gains the spell's benefit only once; the target doesn't receive two bonus dice. But if the durations of the spells overlap, the effect continues until the duration of the second Bless ends.
+The effects of different spells add together while their durations overlap. In contrast, the effects of the same spell cast multiple times don't combine. Instead, the most potent effect - such as the highest bonus - from those castings applies while their durations overlap. The most recent effect applies if the castings are equally potent and their durations overlap. For example, if two Clerics cast Bless on the same target, that target gains the spell's benefit only once; the target doesn't receive two bonus dice. But if the durations of the spells overlap, the effect continues until the duration of the second Bless ends.
 
 # IDENTIFYING AN ONGOING SPELL
 
@@ -7676,7 +7676,7 @@ Duration: Until dispelled
 
 You and up to eight willing creatures within range project your astral bodies into the Astral Plane (the spell ends instantly if you are already on that plane). Each target's body is left behind in a state of suspended animation; it has the Unconscious condition, doesn't need food or air, and doesn't age.
 
-A target's astral form resembles its body in almost every way, replicating its game statistics and possessions. The principal difference is the addition of a silvery cord that trails from between the shoulder blades of the astral form. The cord fades from view after 1 foot. If the cord is cut—which happens only when an effect states that it does so—the target's body and astral form both die.
+A target's astral form resembles its body in almost every way, replicating its game statistics and possessions. The principal difference is the addition of a silvery cord that trails from between the shoulder blades of the astral form. The cord fades from view after 1 foot. If the cord is cut - which happens only when an effect states that it does so - the target's body and astral form both die.
 
 A target's astral form can travel through the Astral Plane. The moment an astral form leaves that plane, the target's body and possessions travel along the silver cord, causing the target to re-enter its body on the new plane.
 
@@ -8367,7 +8367,7 @@ Range: Self
 Components: V, S, M (a gem-encrusted statuette of yourself worth 1,500+ GP)
 Duration: 10 days
 
-Choose a spell of level 5 or lower that you can cast, that has a casting time of an action, and that can target you. You cast that spell—called the contingent spell—as part of casting Contingency, expending spell slots for both, but the contingent spell doesn’t come into effect. Instead, it takes effect when a certain trigger occurs. You describe that trigger when you cast the two spells. For example, a Contingency cast with Water Breathing might stipulate that Water Breathing comes into effect when you are engulfed in water or a similar liquid.
+Choose a spell of level 5 or lower that you can cast, that has a casting time of an action, and that can target you. You cast that spell - called the contingent spell - as part of casting Contingency, expending spell slots for both, but the contingent spell doesn’t come into effect. Instead, it takes effect when a certain trigger occurs. You describe that trigger when you cast the two spells. For example, a Contingency cast with Water Breathing might stipulate that Water Breathing comes into effect when you are engulfed in water or a similar liquid.
 
 The contingent spell takes effect immediately after the trigger occurs for the first time, whether or not you want it to, and then Contingency ends.
 
@@ -8464,7 +8464,7 @@ Range: 30 feet
 Components: V, S
 Duration: Instantaneous
 
-You create 45 pounds of food and 30 gallons of fresh water on the ground or in containers within range—both useful in fending off the hazards of malnutrition and dehydration. The food is bland but nourishing and looks like a food of your choice, and the water is clean. The food spoils after 24 hours if uneaten.
+You create 45 pounds of food and 30 gallons of fresh water on the ground or in containers within range - both useful in fending off the hazards of malnutrition and dehydration. The food is bland but nourishing and looks like a food of your choice, and the water is clean. The food spoils after 24 hours if uneaten.
 
 # Create or Destroy Water
 
@@ -8727,7 +8727,7 @@ Range: Self
 Components: V, S
 Duration: 1 hour
 
-You make yourself—including your clothing, armor, weapons, and other belongings on your person—look different until the spell ends. You can seem 1 foot shorter or taller and can appear heavier or lighter. You must adopt a form that has the same basic arrangement of limbs as you have. Otherwise, the extent of the illusion is up to you.
+You make yourself - including your clothing, armor, weapons, and other belongings on your person - look different until the spell ends. You can seem 1 foot shorter or taller and can appear heavier or lighter. You must adopt a form that has the same basic arrangement of limbs as you have. Otherwise, the extent of the illusion is up to you.
 
 The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing.
 
@@ -9035,9 +9035,9 @@ the chosen effect below). A targeted object must be neither worn nor carried. If
 
 Everything that a targeted creature is wearing and carrying changes size with it. Any item it drops returns to normal size at once. A thrown weapon or piece of ammunition returns to normal size immediately after it hits or misses a target.
 
-Enlarge. The target's size increases by one category—from Medium to Large, for example. The target also has Advantage on Strength checks and Strength saving throws. The target's attacks with its enlarged weapons or Unarmed Strikes deal an extra 1d4 damage on a hit.
+Enlarge. The target's size increases by one category - from Medium to Large, for example. The target also has Advantage on Strength checks and Strength saving throws. The target's attacks with its enlarged weapons or Unarmed Strikes deal an extra 1d4 damage on a hit.
 
-Reduce. The target's size decreases by one category—from Medium to Small, for example. The target also has Disadvantage on Strength checks and Strength saving throws. The target's attacks with its reduced weapons or Unarmed Strikes deal 1d4 less damage on a hit (this can't reduce the damage below 1).
+Reduce. The target's size decreases by one category - from Medium to Small, for example. The target also has Disadvantage on Strength checks and Strength saving throws. The target's attacks with its reduced weapons or Unarmed Strikes deal 1d4 less damage on a hit (this can't reduce the damage below 1).
 
 # Ensnaring Strike
 
@@ -9142,7 +9142,7 @@ You convert raw materials into products of the same material. For example, you c
 
 Choose raw materials that you can see within range. You can fabricate a Large or smaller object (contained within a 10-foot Cube or eight connected 5-foot Cubes) given a sufficient quantity of material. If you're working with metal, stone, or another mineral substance, however, the fabricated object can be no larger than Medium (contained within a 5-foot Cube). The quality of any fabricated objects is based on the quality of the raw materials.
 
-Creatures and magic items can't be created by this spell. You also can't use it to create items that require a high degree of skill—such as weapons and armor—unless you have proficiency with the type of Artisan's Tools used to craft such objects.
+Creatures and magic items can't be created by this spell. You also can't use it to create items that require a high degree of skill - such as weapons and armor - unless you have proficiency with the type of Artisan's Tools used to craft such objects.
 
 # Faerie Fire
 
@@ -9245,7 +9245,7 @@ Duration: Instantaneous
 
 You summon an otherworldly being that appears as a loyal steed in an unoccupied space of your choice within range. This creature uses the Otherworldly Steed stat block. If you already have a steed from this spell, the steed is replaced by the new one.
 
-The steed resembles a Large, rideable animal of your choice, such as a horse, a camel, a dire wolf, or an elk. Whenever you cast the spell, choose the steed's creature type—Celestial, Fey, or Fiend—which determines certain traits in the stat block.
+The steed resembles a Large, rideable animal of your choice, such as a horse, a camel, a dire wolf, or an elk. Whenever you cast the spell, choose the steed's creature type - Celestial, Fey, or Fiend - which determines certain traits in the stat block.
 
 Combat. The steed is an ally to you and your allies. In combat, it shares your Initiative count, and it functions as a controlled mount while you ride it (as defined in the rules on mounted combat). If you have the Incapacitated condition, the steed takes its turn immediately after yours and acts independently, focusing on protecting you.
 
@@ -9297,7 +9297,7 @@ Level 6 Divination (Bard, Cleric, Druid)
 
 Casting Time: 1 minute
 Range: Self
-Components: V, S, M (a set of divination tools—such as cards or runes—worth 100+ GP)
+Components: V, S, M (a set of divination tools - such as cards or runes - worth 100+ GP)
 Duration: Concentration, up to 1 day
 
 You magically sense the most direct physical route to a location you name. You must be familiar with the location, and the spell fails if you name a destination on another plane of existence, a moving destination (such as a mobile fortress), or an unspecific destination (such as “a green dragon’s lair”).
@@ -10420,7 +10420,7 @@ Duration: Concentration, up to 1 hour
 
 Describe or name a creature that is familiar to you. You sense the direction to the creature's location if that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its movement.
 
-The spell can locate a specific creature known to you or the nearest creature of a specific kind (such as a human or a unicorn) if you have seen such a creature up close—within 30 feet—at least once. If the creature you described or named is in a different form, such as under the effects of a Flesh to Stone or Polymorph spell, this spell doesn't locate the creature.
+The spell can locate a specific creature known to you or the nearest creature of a specific kind (such as a human or a unicorn) if you have seen such a creature up close - within 30 feet - at least once. If the creature you described or named is in a different form, such as under the effects of a Flesh to Stone or Polymorph spell, this spell doesn't locate the creature.
 
 This spell can't locate a creature if any thickness of lead blocks a direct path between you and the creature.
 
@@ -10435,7 +10435,7 @@ Duration: Concentration, up to 10 minutes
 
 Describe or name an object that is familiar to you. You sense the direction to the object's location if that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement.
 
-The spell can locate a specific object known to you if you have seen it up close—within 30 feet—at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.
+The spell can locate a specific object known to you if you have seen it up close - within 30 feet - at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.
 
 This spell can't locate an object if any thickness of lead blocks a direct path between you and the object.
 
@@ -10549,7 +10549,7 @@ Range: 30 feet
 Components: V, S, M (jade dust worth 10+ GP, which the spell consumes)
 Duration: Until dispelled
 
-You implant a message within an object in range—a message that is uttered when a trigger condition is met. Choose an object that you can see and that isn't being worn or carried by another creature. Then speak the message, which must be 25 words or fewer, though it can be delivered over as long as 10 minutes. Finally, determine the circumstance that will trigger the spell to deliver your message.
+You implant a message within an object in range - a message that is uttered when a trigger condition is met. Choose an object that you can see and that isn't being worn or carried by another creature. Then speak the message, which must be 25 words or fewer, though it can be delivered over as long as 10 minutes. Finally, determine the circumstance that will trigger the spell to deliver your message.
 
 When that trigger occurs, a magical mouth appears on the object and recites the message in your voice and at the same volume you spoke. If the object you chose has a mouth or something that looks like a mouth (for example, the mouth of a statue), the magical mouth appears there, so the words appear to come from the object's mouth. When you cast this spell, you can have the spell end after it delivers its message, or it can remain and repeat its message whenever the trigger occurs.
 
@@ -10652,7 +10652,7 @@ Range: 60 feet
 Components: V, M (a snake's tongue)
 Duration: 24 hours
 
-You suggest a course of activity—described in no more than 25 words—to twelve or fewer creatures you can see within range that can hear and understand you. The suggestion must sound achievable and not involve anything that would obviously deal damage to any of the targets or their allies. For example, you could say, “Walk to the village down that road, and help the villagers there harvest crops until sunset.” Or you could say, “Now is not the time for violence. Drop your weapons, and dance! Stop in an hour.”
+You suggest a course of activity - described in no more than 25 words - to twelve or fewer creatures you can see within range that can hear and understand you. The suggestion must sound achievable and not involve anything that would obviously deal damage to any of the targets or their allies. For example, you could say, “Walk to the village down that road, and help the villagers there harvest crops until sunset.” Or you could say, “Now is not the time for violence. Drop your weapons, and dance! Stop in an hour.”
 
 Each target must succeed on a Wisdom saving throw or have the Charmed condition for the duration or until you or your allies deal damage to the target. Each Charmed target pursues the suggestion to the best of its ability. The suggested activity can continue for the entire duration, but if the suggested activity can be completed in a shorter time, the spell ends for a target upon completing it.
 
@@ -10736,7 +10736,7 @@ Range: Touch
 Components: V, S
 Duration: 24 hours
 
-Until the spell ends, one willing creature you touch has Immunity to Psychic damage and the Charmed condition. The target is also unaffected by anything that would sense its emotions or alignment, read its thoughts, or magically detect its location, and no spell—not even Wish—can gather information about the target, observe it remotely, or control its mind.
+Until the spell ends, one willing creature you touch has Immunity to Psychic damage and the Charmed condition. The target is also unaffected by anything that would sense its emotions or alignment, read its thoughts, or magically detect its location, and no spell - not even Wish - can gather information about the target, observe it remotely, or control its mind.
 
 # Mind Spike
 
@@ -10768,7 +10768,7 @@ If a creature takes a Study action to examine the sound or image, the creature c
 
 Sound. If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.
 
-Image. If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot Cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, since things can pass through it.
+Image. If you create an image of an object - such as a chair, muddy footprints, or a small chest - it must be no larger than a 5-foot Cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, since things can pass through it.
 
 # Mirage Arcane
 
@@ -11167,7 +11167,7 @@ Range: 60 feet
 Components: V, S
 Duration: 10 minutes
 
-A shimmering, multicolored plane of light forms a vertical opaque wall—up to 90 feet long, 30 feet high, and 1 inch thick—centered on a point within range. Alternatively, you shape the wall into a globe up to 30 feet in diameter centered on a point within range. The wall lasts for the duration. If you position the wall in a space occupied by a creature, the spell ends instantly without effect.
+A shimmering, multicolored plane of light forms a vertical opaque wall - up to 90 feet long, 30 feet high, and 1 inch thick - centered on a point within range. Alternatively, you shape the wall into a globe up to 30 feet in diameter centered on a point within range. The wall lasts for the duration. If you position the wall in a space occupied by a creature, the spell ends instantly without effect.
 
 The wall sheds Bright Light within 100 feet and Dim Light for an additional 100 feet. You and creatures you designate when you cast the spell can pass through and be near the wall without harm. If another creature that can see the wall moves within 20 feet of it or starts its turn there, the creature must succeed on a Constitution saving throw or have the Blinded condition for 1 minute.
 
@@ -11321,7 +11321,7 @@ With a touch, you revive a dead creature if it has been dead no longer than 10 d
 
 The creature returns to life with 1 Hit Point. This spell also neutralizes any poisons that affected the creature at the time of death.
 
-This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival—its head, for instance—the spell automatically fails.
+This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival - its head, for instance - the spell automatically fails.
 
 Coming back from the dead is an ordeal. The target takes a -4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.
 
@@ -11418,7 +11418,7 @@ Duration: Concentration, up to 1 minute
 
 A shimmering sphere encloses a Large or smaller creature or object within range. An unwilling creature must succeed on a Dexterity saving throw or be enclosed for the duration.
 
-Nothing—not physical objects, energy, or other spell effects—can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.
+Nothing - not physical objects, energy, or other spell effects - can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.
 
 The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can take an action to push against the sphere's walls and thus roll the sphere at up to half the creature's Speed. Similarly, the globe can be picked up and moved by other creatures.
 
@@ -12037,7 +12037,7 @@ Range: 30 feet
 Components: V, M (a drop of honey)
 Duration: Concentration, up to 8 hours
 
-You suggest a course of activity—described in no more than 25 words—to one creature you can see within range that can hear and understand you. The suggestion must sound achievable and not involve anything that would obviously deal damage to the target or its allies. For example, you could say, “Fetch the key to the cult’s treasure vault, and give the key to me.” Or you could say, “Stop fighting, leave this library peacefully, and don’t return.”
+You suggest a course of activity - described in no more than 25 words - to one creature you can see within range that can hear and understand you. The suggestion must sound achievable and not involve anything that would obviously deal damage to the target or its allies. For example, you could say, “Fetch the key to the cult’s treasure vault, and give the key to me.” Or you could say, “Stop fighting, leave this library peacefully, and don’t return.”
 
 The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration or until you or your allies deal damage to the target. The Charmed target pursues the suggestion to the best of its ability. The suggested activity can continue for the entire duration, but if the suggested activity can be completed in a shorter time, the spell ends for the target upon completing it.
 
@@ -12202,12 +12202,12 @@ Teleportation Outcome
 
 | Familiarity              | Mishap | Similar Area | Off Target | On Target |
 | :----------------------- | :----- | :----------- | :--------- | :-------- |
-| Permanent circle         | —      | —            | —          | 01–00     |
-| Linked object            | —      | —            | —          | 01–00     |
+| Permanent circle         |   -    |      -       |     -      | 01–00     |
+| Linked object            |   -    |      -       |     -      | 01–00     |
 | Very familiar            | 01–05  | 06–13        | 14–24      | 25–00     |
 | Seen casually            | 01–33  | 34–43        | 44–53      | 54–00     |
 | Viewed once or described | 01–43  | 44–53        | 54–73      | 74–00     |
-| False destination        | 01–50  | 51–00        | —          | —         |
+| False destination        | 01–50  | 51–00        |     -      |     -     |
 
 Familiarity. Here are the meanings of the terms in the table's Familiarity column:
 
@@ -12237,7 +12237,7 @@ Duration: 1 round
 
 As you cast the spell, you draw a 5-foot-radius circle on the ground inscribed with sigils that link your location to a permanent teleportation circle of your choice whose sigil sequence you know and that is on the same plane of existence as you. A shimmering portal opens within the circle you drew and remains open until the end of your next turn. Any creature that enters the portal instantly appears within 5 feet of the destination circle or in the nearest unoccupied space if that space is occupied.
 
-Many major temples, guildhalls, and other important places have permanent teleportation circles. Each circle includes a unique sigil sequence—a string of runes arranged in a particular pattern.
+Many major temples, guildhalls, and other important places have permanent teleportation circles. Each circle includes a unique sigil sequence - a string of runes arranged in a particular pattern.
 
 When you first gain the ability to cast this spell, you learn the sigil sequences for two destinations on the Material Plane, determined by the GM. You might learn additional sigil sequences during your adventures. You can commit a new sigil sequence to memory after studying it for 1 minute.
 
@@ -12619,7 +12619,7 @@ Range: 30 feet
 Components: V, S, M (a piece of cork)
 Duration: 1 hour
 
-This spell grants the ability to move across any liquid surface—such as water, acid, mud, snow, quicksand, or lava—as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heat). Up to ten willing creatures of your choice within range gain this ability for the duration.
+This spell grants the ability to move across any liquid surface - such as water, acid, mud, snow, quicksand, or lava - as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heat). Up to ten willing creatures of your choice within range gain this ability for the duration.
 
 An affected target must take a Bonus Action to pass from the liquid's surface into the liquid itself and vice versa, but if the target falls into the liquid, the target passes through the surface into the liquid below.
 
@@ -12750,9 +12750,9 @@ An affected creature is aware of the spell and can avoid answering questions to 
 
 The glossary uses the following conventions:
 
-Tags in Brackets. Some entries have a tag in brackets after the entry's name, as in "Attack [Action]." A tag—Action, Area of Effect, Attitude, Condition, or Hazard—indicates that a rule is part of a family of rules. The tags also have glossary entries.
+Tags in Brackets. Some entries have a tag in brackets after the entry's name, as in "Attack [Action]." A tag - Action, Area of Effect, Attitude, Condition, or Hazard - indicates that a rule is part of a family of rules. The tags also have glossary entries.
 
-"You." The game's rules—in this glossary and elsewhere—often talk about something happening to you in the game world. That "you" refers to the creature or object that the rule applies to in a particular moment of play. For example, the "you" in the Prone condition is a creature that currently has that condition.
+"You." The game's rules - in this glossary and elsewhere - often talk about something happening to you in the game world. That "you" refers to the creature or object that the rule applies to in a particular moment of play. For example, the "you" in the Prone condition is a creature that currently has that condition.
 
 "See Also." Some glossary entries include a See also section that points to other entries in the glossary, to other parts of this document, or both.
 
@@ -12803,11 +12803,11 @@ Here are definitions of various rules.
 
 # Ability Check
 
-An ability check is a D20 Test that represents using one of the six abilities—or a specific skill associated with an ability—to overcome a challenge. See also “Playing the Game” (“D20 Tests” and “Proficiency”).
+An ability check is a D20 Test that represents using one of the six abilities - or a specific skill associated with an ability - to overcome a challenge. See also “Playing the Game” (“D20 Tests” and “Proficiency”).
 
 # Ability Score and Modifier
 
-A creature has six ability scores—Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma—each of which has a corresponding modifier. Add the modifier when you make a D20 Test with the corresponding ability or when a rule asks you to do so. See also “Playing the Game” (“The Six Abilities”).
+A creature has six ability scores - Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma - each of which has a corresponding modifier. Add the modifier when you make a D20 Test with the corresponding ability or when a rule asks you to do so. See also “Playing the Game” (“The Six Abilities”).
 
 # Action
 
@@ -12852,7 +12852,7 @@ Sphere
 
 An area of effect has a point of origin, a location from which the effect's energy erupts. The rules for each shape specify how to position its point of origin. If all straight lines extending from the point of origin to a location in the area of effect are blocked, that location isn't included in the area of effect. To block a line, an obstruction must provide Total Cover. See also "Cover."
 
-If the creator of an area of effect places it at an unseen point and an obstruction—such as a wall—is between the creator and that point, the point of origin comes into being on the near side of the obstruction.
+If the creator of an area of effect places it at an unseen point and an obstruction - such as a wall - is between the creator and that point, the point of origin comes into being on the near side of the obstruction.
 
 # Armor Class
 
@@ -12882,7 +12882,7 @@ A monster has a starting attitude toward a player character: Friendly, Hostile, 
 
 # Attunement
 
-Some magic items require a creature to form a bond—called Attunement—with them before the creature can use an item's magical properties. A creature can have Attunement with no more than three magic items at a time. See also “Equipment” (“Magic Items”).
+Some magic items require a creature to form a bond - called Attunement - with them before the creature can use an item's magical properties. A creature can have Attunement with no more than three magic items at a time. See also “Equipment” (“Magic Items”).
 
 # Blinded [Condition]
 
@@ -13440,7 +13440,7 @@ This Long Jump rule assumes that the height of the jump doesn't matter, such as 
 
 # Long Rest
 
-A Long Rest is a period of extended downtime—at least 8 hours—available to any creature. During a Long Rest, you sleep for at least 6 hours and perform no more than 2 hours of light activity, such as reading, talking, eating, or standing watch.
+A Long Rest is a period of extended downtime - at least 8 hours - available to any creature. During a Long Rest, you sleep for at least 6 hours and perform no more than 2 hours of light activity, such as reading, talking, eating, or standing watch.
 
 During sleep, you have the Unconscious condition. After you finish a Long Rest, you must wait at least 16 hours before starting another one.
 
@@ -13625,7 +13625,7 @@ Save is another name for a saving throw. See also "Saving Throw."
 
 # Saving Throw
 
-A saving throw—also called a save—represents an attempt to avoid or resist a threat. You normally make a saving throw only when a rule requires you to do so, but you can decide to fail the save without rolling. The result of a save is detailed in the effect that allowed it. If a target is forced to make a save and lacks the ability score used by it, the target automatically fails. See also “Playing the Game” (“D20 Tests”).
+A saving throw - also called a save - represents an attempt to avoid or resist a threat. You normally make a saving throw only when a rule requires you to do so, but you can decide to fail the save without rolling. The result of a save is detailed in the effect that allowed it. If a target is forced to make a save and lacks the ability score used by it, the target automatically fails. See also “Playing the Game” (“D20 Tests”).
 
 # Search [Action]
 
@@ -13642,7 +13642,7 @@ Search
 
 # Shape-Shifting
 
-If an effect, such as Wild Shape or the Polymorph spell, lets you shape-shift, its description specifies what happens to you. Unless that description says otherwise, any ongoing effects on you—conditions, spells, curses, and the like—carry over from one form to the other. You revert to your true form if you die.
+If an effect, such as Wild Shape or the Polymorph spell, lets you shape-shift, its description specifies what happens to you. Unless that description says otherwise, any ongoing effects on you - conditions, spells, curses, and the like - carry over from one form to the other. You revert to your true form if you die.
 
 # Short Rest
 
@@ -13664,7 +13664,7 @@ An interrupted Short Rest confers no benefits.
 
 # Simultaneous Effects
 
-If two or more things happen at the same time on a turn, the person at the game table—player or GM—whose turn it is decides the order in which those things happen. For example, if two effects occur at the start of a player character's turn, the player decides which of the effects happens first.
+If two or more things happen at the same time on a turn, the person at the game table - player or GM - whose turn it is decides the order in which those things happen. For example, if two effects occur at the start of a player character's turn, the player decides which of the effects happens first.
 
 # Size
 
@@ -13838,7 +13838,7 @@ Ethereal Plane. You see into the Ethereal Plane.
 
 # Unarmed Strike
 
-Instead of using a weapon to make a melee attack, you can use a punch, kick, headbutt, or similar forceful blow. In game terms, this is an Unarmed Strike—a melee attack that involves you using your body to damage, grapple, or shove a target within 5 feet of you.
+Instead of using a weapon to make a melee attack, you can use a punch, kick, headbutt, or similar forceful blow. In game terms, this is an Unarmed Strike - a melee attack that involves you using your body to damage, grapple, or shove a target within 5 feet of you.
 
 Whenever you use your Unarmed Strike, choose one of the following options for its effect.
 
@@ -13995,7 +13995,7 @@ Bestow Curse provides useful benchmarks for gauging the potency of other curses.
 
 # Cursed Creatures
 
-Some monsters are associated with curses, whether as part of their origins or due to their ability to spread curses—werewolves being a prime example.
+Some monsters are associated with curses, whether as part of their origins or due to their ability to spread curses - werewolves being a prime example.
 
 You decide how a spell like Remove Curse affects a creature with accursed origins. For example, you might decide that a mummy was created through a curse and it can be destroyed permanently only by casting Remove Curse on its corpse.
 
@@ -14007,7 +14007,7 @@ Cursed magic items are created deliberately or originate as the result of supern
 
 A curse might manifest during an adventure when a creature's violation of a taboo warrants supernatural punishment, such as breaking a vow, defiling a tomb, or murdering an innocent. Such a curse can have any effects you design, or it might be a customized version of another type of curse discussed in this section.
 
-A creature affected by such a curse should know why they're being punished and be able to learn how to end their curse, likely by symbolically righting the wrong they committed. How a spell like Remove Curse affects a curse that's part of your adventure is up to you—the spell might merely suppress the effects of the curse for a time. Regardless, narrative curses should feel like rare, potent magic rooted in the lore of your campaign.
+A creature affected by such a curse should know why they're being punished and be able to learn how to end their curse, likely by symbolically righting the wrong they committed. How a spell like Remove Curse affects a curse that's part of your adventure is up to you - the spell might merely suppress the effects of the curse for a time. Regardless, narrative curses should feel like rare, potent magic rooted in the lore of your campaign.
 
 # Environmental Curses
 
@@ -14025,7 +14025,7 @@ Alchemists, potion brewers, and areas of wild magic are credited with creating t
 
 # Rest and Recuperation
 
-If a creature infected with a magical contagion spends 3 days recuperating—engaging in no activities that would interrupt a Long Rest—the creature makes a DC 15 Constitution saving throw at the end of the recuperation period. On a successful save, the creature has Advantage on saving throws to fight off the magical contagion for the next 24 hours.
+If a creature infected with a magical contagion spends 3 days recuperating - engaging in no activities that would interrupt a Long Rest - the creature makes a DC 15 Constitution saving throw at the end of the recuperation period. On a successful save, the creature has Advantage on saving throws to fight off the magical contagion for the next 24 hours.
 
 # Example Contagions
 
@@ -14473,7 +14473,7 @@ Changes in Elevation. Terrain features that provide a change of elevation (such 
 
 Defensive Positions. Enemies in hard-to-reach locations or defensive positions force characters who normally attack at range to move around.
 
-Mixed Monster Groups. When different types of monsters work together, they can combine their abilities—just like characters with different classes and origins. A diverse force is more powerful.
+Mixed Monster Groups. When different types of monsters work together, they can combine their abilities - just like characters with different classes and origins. A diverse force is more powerful.
 
 Reasons to Move. Use features that encourage characters and their enemies to move around, such as chandeliers, kegs of gunpowder or oil, and rolling stone traps.
 
@@ -14707,7 +14707,7 @@ A command word is a word or short phrase that must be spoken or signed for an it
 
 # Consumable Items
 
-Some items are consumed—used up, in other words—when they are activated. A Potion of Healing must be swallowed, for example, while the writing vanishes from a scroll when it is read. Once used, a consumable item loses its magic.
+Some items are consumed - used up, in other words - when they are activated. A Potion of Healing must be swallowed, for example, while the writing vanishes from a scroll when it is read. Once used, a consumable item loses its magic.
 
 # Spells Cast from Items
 
@@ -15069,7 +15069,7 @@ If the bag is pierced or torn, it is destroyed, and anything contained within it
 
 Wondrous Item, Uncommon
 
-This bag has an interior space considerably larger than its outside dimensions—roughly 2 feet square and 4 feet deep on the inside. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 5 pounds, regardless of its contents. Retrieving an item from the bag requires a Utilize action.
+This bag has an interior space considerably larger than its outside dimensions - roughly 2 feet square and 4 feet deep on the inside. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 5 pounds, regardless of its contents. Retrieving an item from the bag requires a Utilize action.
 
 If the bag is overloaded, pierced, or torn, it is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth unharmed, but the bag must be put right before it can be used again. The bag holds enough air for 10 minutes of breathing, divided by the number of breathing creatures inside.
 
@@ -15887,7 +15887,7 @@ Armor (Studded Leather Armor), Rare
 
 While wearing this armor, you gain a +1 bonus to Armor Class. You can also take a Bonus Action to
 
-cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like—including color, style, and accessories—but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or doff the armor.
+cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like - including color, style, and accessories - but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or doff the armor.
 
 # Gloves of Missile Snaring
 
@@ -16306,29 +16306,29 @@ Mysterious Deck
 
 | 1d100(13-Card Deck) | 1d100(22-Card Deck) | Card    |
 | :------------------ | :------------------ | :------ |
-| —                   | 01–05               | Balance |
-| —                   | 06–10               | Comet   |
-| —                   | 11–14               | Donjon  |
+|          -          | 01–05               | Balance |
+|          -          | 06–10               | Comet   |
+|          -          | 11–14               | Donjon  |
 | 01–08               | 15–18               | Euryale |
-| —                   | 19–23               | Fates   |
+|          -          | 19–23               | Fates   |
 | 09–16               | 24–27               | Flames  |
-| —                   | 28–31               | Fool    |
-| —                   | 32–36               | Gem     |
+|          -          | 28–31               | Fool    |
+|          -          | 32–36               | Gem     |
 | 17–24               | 37–41               | Jester  |
 | 25–32               | 42–46               | Key     |
 | 33–40               | 47–51               | Knight  |
 | 41–48               | 52–56               | Moon    |
-| —                   | 57–60               | Puzzle  |
+|          -          | 57–60               | Puzzle  |
 | 49–56               | 61–64               | Rogue   |
 | 57–64               | 65–68               | Ruin    |
-| —                   | 69–73               | Sage    |
+|          -          | 69–73               | Sage    |
 
 | 1d100(13-Card Deck) | 1d100(22-Card Deck) | Card   |
 | :------------------ | :------------------ | :----- |
 | 65–72               | 74–77               | Skull  |
 | 73–80               | 78–82               | Star   |
 | 81–88               | 83–87               | Sun    |
-| —                   | 88–91               | Talons |
+|          -          | 88–91               | Talons |
 | 89–96               | 92–96               | Throne |
 | 97–00               | 97–00               | Void   |
 
@@ -17069,7 +17069,7 @@ In addition, the robe has 4d4 other patches. The GM chooses the patches or deter
 
 Rod, Very Rare (Requires Attunement)
 
-While holding this rod, you can take a Reaction to absorb a spell that is targeting only you and doesn't create an area of effect. The absorbed spell's effect is canceled, and the spell's energy—not the spell itself—is stored in the rod. The energy has the same level as the spell when it was cast. A canceled spell dissipates with no effect, and any resources used to cast it are wasted. The rod can absorb and store up to 50 levels of energy over the course of its existence. Once the rod absorbs 50 levels of energy, it can't absorb more. If you are targeted by a spell that the rod can't store, the rod has no effect on that spell.
+While holding this rod, you can take a Reaction to absorb a spell that is targeting only you and doesn't create an area of effect. The absorbed spell's effect is canceled, and the spell's energy - not the spell itself - is stored in the rod. The energy has the same level as the spell when it was cast. A canceled spell dissipates with no effect, and any resources used to cast it are wasted. The rod can absorb and store up to 50 levels of energy over the course of its existence. Once the rod absorbs 50 levels of energy, it can't absorb more. If you are targeted by a spell that the rod can't store, the rod has no effect on that spell.
 
 When you become attuned to the rod, you know how many levels of energy the rod has absorbed over the course of its existence and how many levels of spell energy it currently has stored.
 
@@ -19681,7 +19681,7 @@ Conjure Infernal Chain. The devil conjures a fiery chain to bind a creature. Dex
 
 # Reactions
 
-Unnerving Gaze. Trigger: A creature the devil can see starts its turn within 30 feet of the devil and can see the devil. Response—Wisdom Saving Throw: DC 15, the triggering creature. Failure: The target has the Frightened condition until the end of its turn. Success: The target is immune to this devil's Unnerving Gaze for 24 hours.
+Unnerving Gaze. Trigger: A creature the devil can see starts its turn within 30 feet of the devil and can see the devil. Response - Wisdom Saving Throw: DC 15, the triggering creature. Failure: The target has the Frightened condition until the end of its turn. Success: The target is immune to this devil's Unnerving Gaze for 24 hours.
 
 # Chimera
 
@@ -23312,7 +23312,7 @@ Adhesive (Object Form Only). The mimic adheres to anything that touches it. A Hu
 
 # Actions
 
-Bite. Melee Attack Roll: +5 (with Advantage if the target is Grappled by the mimic), reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage—or 12 (2d8 + 3) Piercing damage if the target is Grappled by the mimic—plus 4 (1d8) Acid damage.
+Bite. Melee Attack Roll: +5 (with Advantage if the target is Grappled by the mimic), reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage - or 12 (2d8 + 3) Piercing damage if the target is Grappled by the mimic - plus 4 (1d8) Acid damage.
 
 Pseudopod. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning damage plus 4 (1d8) Acid damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 13). Ability checks made to escape this grapple have Disadvantage.
 
@@ -24509,7 +24509,7 @@ Multiattack. The rust monster makes one Bite attack and uses Antennae twice.
 
 Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Piercing damage.
 
-Antennae. The rust monster targets one nonmagical metal object—armor or a weapon—worn or carried by a creature within 5 feet of itself. Dexterity Saving Throw: DC 11, the creature with the object. Failure: The object takes a -1 penalty to the AC it offers (armor) or to its attack rolls (weapon). Armor is destroyed if the penalty reduces its AC to 10, and a weapon is destroyed if its penalty reaches -5. The penalty can be removed by casting the Mending spell on the armor or weapon.
+Antennae. The rust monster targets one nonmagical metal object - armor or a weapon - worn or carried by a creature within 5 feet of itself. Dexterity Saving Throw: DC 11, the creature with the object. Failure: The object takes a -1 penalty to the AC it offers (armor) or to its attack rolls (weapon). Armor is destroyed if the penalty reduces its AC to 10, and a weapon is destroyed if its penalty reaches -5. The penalty can be removed by casting the Mending spell on the armor or weapon.
 
 Destroy Metal. The rust monster touches a nonmagical metal object within 5 feet of itself that isn't being worn or carried. The touch destroys a 1-foot Cube of the object.
 
@@ -29109,7 +29109,7 @@ Swarm. The swarm can occupy another creature's space and vice versa, and the swa
 
 # Actions
 
-Bites. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage—or 6 (1d4 + 4) Piercing damage if the swarm is Bloodied—plus 10 (3d6) Poison damage.
+Bites. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage - or 6 (1d4 + 4) Piercing damage if the swarm is Bloodied - plus 10 (3d6) Poison damage.
 
 # Tiger
 

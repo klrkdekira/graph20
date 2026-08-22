@@ -1003,10 +1003,10 @@ def build_equipment(emitter: Emitter):
                 roll = parse_dice(dm.group(1))
                 if roll:
                     record["damageRoll"] = roll
-            if properties and properties != "—":
+            if properties and properties not in ("—", "-"):
                 record["properties"] = split_outside_parens(properties)
             record["mastery"] = mastery
-            if weight != "—":
+            if weight not in ("—", "-"):
                 record["weight"] = weight
             parsed_cost = parse_cost(cost)
             if parsed_cost:
@@ -1030,11 +1030,11 @@ def build_equipment(emitter: Emitter):
             if note:
                 record["donDoffTime"] = note
             record["armorClass"] = ac
-            if strength != "—":
+            if strength not in ("—", "-"):
                 record["strengthRequirement"] = strength
-            if stealth != "—":
+            if stealth not in ("—", "-"):
                 record["stealthEffect"] = stealth
-            if weight != "—":
+            if weight not in ("—", "-"):
                 record["weight"] = weight
             parsed_cost = parse_cost(cost)
             if parsed_cost:
@@ -1047,7 +1047,7 @@ def build_equipment(emitter: Emitter):
                 continue
             name, weight, cost = cells
             record = new_item(name, table, "gear")
-            if weight != "—":
+            if weight not in ("—", "-"):
                 record["weight"] = weight
             parsed_cost = parse_cost(cost)
             if parsed_cost:

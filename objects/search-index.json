@@ -119,7 +119,7 @@
       "id": "objects/rules/1-13-saving-throws",
       "type": "Rule",
       "name": "Saving Throws",
-      "excerpt": "A saving throw—also called a save—represents an attempt to evade or resist a threat, such as a fiery explosion, a blast of poisonous gas, or a spell trying to i"
+      "excerpt": "A saving throw - also called a save - represents an attempt to evade or resist a threat, such as a fiery explosion, a blast of poisonous gas, or a spell trying "
     },
     {
       "id": "objects/rules/1-14-ability-modifier",
@@ -293,7 +293,7 @@
       "id": "objects/rules/1-4-the-six-abilities",
       "type": "Rule",
       "name": "The Six Abilities",
-      "excerpt": "All creatures—characters and monsters—have six abilities that measure physical and mental characteristics, as shown on the Ability Descriptions table.\n\nAbility "
+      "excerpt": "All creatures - characters and monsters - have six abilities that measure physical and mental characteristics, as shown on the Ability Descriptions table.\n\nAbil"
     },
     {
       "id": "objects/rules/1-40-ability-checks",
@@ -317,13 +317,13 @@
       "id": "objects/rules/1-43-vision-and-light",
       "type": "Rule",
       "name": "Vision and Light",
-      "excerpt": "Some adventuring tasks—such as noticing danger, hitting an enemy, and targeting certain spells—are affected by sight, so effects that obscure vision can hinder "
+      "excerpt": "Some adventuring tasks - such as noticing danger, hitting an enemy, and targeting certain spells - are affected by sight, so effects that obscure vision can hin"
     },
     {
       "id": "objects/rules/1-44-obscured-areas",
       "type": "Rule",
       "name": "Obscured Areas",
-      "excerpt": "An area might be Lightly or Heavily Obscured. In a Lightly Obscured area—such as an area with Dim Light, patchy fog, or moderate foliage—you have Disadvantage o"
+      "excerpt": "An area might be Lightly or Heavily Obscured. In a Lightly Obscured area - such as an area with Dim Light, patchy fog, or moderate foliage - you have Disadvanta"
     },
     {
       "id": "objects/rules/1-45-light",
@@ -737,7 +737,7 @@
       "id": "objects/rules/10-17-consumable-items",
       "type": "Rule",
       "name": "Consumable Items",
-      "excerpt": "Some items are consumed—used up, in other words—when they are activated. A Potion of Healing must be swallowed, for example, while the writing vanishes from a s"
+      "excerpt": "Some items are consumed - used up, in other words - when they are activated. A Potion of Healing must be swallowed, for example, while the writing vanishes from"
     },
     {
       "id": "objects/rules/10-18-spells-cast-from-items",
@@ -1733,7 +1733,7 @@
       "id": "objects/rules/4-19-special-traits",
       "type": "Rule",
       "name": "Special Traits",
-      "excerpt": "Each species gives a character special traits—unique characteristics based on the species' physiology or magical nature. When you choose a species, your charact"
+      "excerpt": "Each species gives a character special traits - unique characteristics based on the species' physiology or magical nature. When you choose a species, your chara"
     },
     {
       "id": "objects/rules/4-2-character-backgrounds",
@@ -1775,7 +1775,7 @@
       "id": "objects/rules/4-7-tool-proficiency",
       "type": "Rule",
       "name": "Tool Proficiency",
-      "excerpt": "Each background gives a character proficiency with one tool—either a specific tool or one chosen from the Artisan's Tools category. Tools are detailed in \"Equip"
+      "excerpt": "Each background gives a character proficiency with one tool - either a specific tool or one chosen from the Artisan's Tools category. Tools are detailed in \"Equ"
     },
     {
       "id": "objects/rules/4-8-equipment",
@@ -1811,7 +1811,7 @@
       "id": "objects/rules/5-2-feat-descriptions",
       "type": "Rule",
       "name": "Feat Descriptions",
-      "excerpt": "The feats that follow are organized by category—Origin, General, Fighting Style, or Epic Boon—and alphabetized in each category."
+      "excerpt": "The feats that follow are organized by category - Origin, General, Fighting Style, or Epic Boon - and alphabetized in each category."
     },
     {
       "id": "objects/rules/5-3-parts-of-a-feat",
@@ -2267,7 +2267,7 @@
       "id": "objects/rules/6-164-magic-items",
       "type": "Rule",
       "name": "Magic Items",
-      "excerpt": "Adventures hold the promise—but not a guarantee—of finding magic items. Hundreds of magic items are detailed in “Magic Items” later in this document. Here’s wha"
+      "excerpt": "Adventures hold the promise - but not a guarantee - of finding magic items. Hundreds of magic items are detailed in “Magic Items” later in this document. Here’s"
     },
     {
       "id": "objects/rules/6-165-identifying-a-magic-item",
@@ -2279,7 +2279,7 @@
       "id": "objects/rules/6-166-attunement",
       "type": "Rule",
       "name": "Attunement",
-      "excerpt": "Some magic items require a creature to form a bond—called Attunement—with them before the creature can use an item's magical properties. Without becoming attune"
+      "excerpt": "Some magic items require a creature to form a bond - called Attunement - with them before the creature can use an item's magical properties. Without becoming at"
     },
     {
       "id": "objects/rules/6-167-attune-during-a-short-rest",
@@ -2321,7 +2321,7 @@
       "id": "objects/rules/6-172-paired-items",
       "type": "Rule",
       "name": "Paired Items",
-      "excerpt": "Items that come in pairs—such as boots, bracers, gauntlets, and gloves—impart their benefits only if both items of the pair are worn. For example, a character w"
+      "excerpt": "Items that come in pairs - such as boots, bracers, gauntlets, and gloves - impart their benefits only if both items of the pair are worn. For example, a charact"
     },
     {
       "id": "objects/rules/6-173-crafting-nonmagical-items",
@@ -2369,7 +2369,7 @@
       "id": "objects/rules/6-18-improvised-weapons",
       "type": "Rule",
       "name": "IMPROVISED WEAPONS",
-      "excerpt": "If you use an object—such as a table leg, frying pan, or bottle—as a makeshift weapon, see “Improvised Weapons” in “Rules Glossary.” Also see those rules if you"
+      "excerpt": "If you use an object - such as a table leg, frying pan, or bottle - as a makeshift weapon, see “Improvised Weapons” in “Rules Glossary.” Also see those rules if"
     },
     {
       "id": "objects/rules/6-180-prerequisites-for-the-scribe",
@@ -2525,7 +2525,7 @@
       "id": "objects/rules/6-4-selling-equipment",
       "type": "Rule",
       "name": "SELLING EQUIPMENT",
-      "excerpt": "Equipment fetches half its cost when sold. In contrast, trade goods and valuables—like gems and art objects—retain their full value in the marketplace. \"Magic I"
+      "excerpt": "Equipment fetches half its cost when sold. In contrast, trade goods and valuables - like gems and art objects - retain their full value in the marketplace. \"Mag"
     },
     {
       "id": "objects/rules/6-40-cobblers-tools-5-gp",
@@ -2627,7 +2627,7 @@
       "id": "objects/rules/6-55-gaming-set-varies",
       "type": "Rule",
       "name": "Gaming Set (Varies)",
-      "excerpt": "Ability: Wisdom\n\nWeight: —\n\nUtilize: Discern whether someone is cheating (DC 10), or win the game (DC 20)\n\nVariants: Dice (1 SP), dragonchess (1 GP), playing ca"
+      "excerpt": "Ability: Wisdom\n\nWeight: -\n\nUtilize: Discern whether someone is cheating (DC 10), or win the game (DC 20)\n\nVariants: Dice (1 SP), dragonchess (1 GP), playing ca"
     },
     {
       "id": "objects/rules/6-56-herbalism-kit-5-gp",
@@ -2963,7 +2963,7 @@
       "id": "objects/rules/7-16-longer-casting-times",
       "type": "Rule",
       "name": "Longer Casting Times",
-      "excerpt": "Certain spells—including a spell cast as a Ritual—require more time to cast: minutes or even hours. While you cast a spell with a casting time of 1 minute or mo"
+      "excerpt": "Certain spells - including a spell cast as a Ritual - require more time to cast: minutes or even hours. While you cast a spell with a casting time of 1 minute o"
     },
     {
       "id": "objects/rules/7-17-range",
@@ -3077,7 +3077,7 @@
       "id": "objects/rules/7-7-spell-level",
       "type": "Rule",
       "name": "Spell Level",
-      "excerpt": "Every spell has a level from 0 to 9, which is indicated in a spell's description. A spell's level is an indicator of how powerful it is. Cantrips—simple spells "
+      "excerpt": "Every spell has a level from 0 to 9, which is indicated in a spell's description. A spell's level is an indicator of how powerful it is. Cantrips - simple spell"
     },
     {
       "id": "objects/rules/7-8-spell-slots",
@@ -3107,7 +3107,7 @@
       "id": "objects/rules/8-100-long-rest",
       "type": "Rule",
       "name": "Long Rest",
-      "excerpt": "A Long Rest is a period of extended downtime—at least 8 hours—available to any creature. During a Long Rest, you sleep for at least 6 hours and perform no more "
+      "excerpt": "A Long Rest is a period of extended downtime - at least 8 hours - available to any creature. During a Long Rest, you sleep for at least 6 hours and perform no m"
     },
     {
       "id": "objects/rules/8-101-magic-action",
@@ -3245,7 +3245,7 @@
       "id": "objects/rules/8-126-saving-throw",
       "type": "Rule",
       "name": "Saving Throw",
-      "excerpt": "A saving throw—also called a save—represents an attempt to avoid or resist a threat. You normally make a saving throw only when a rule requires you to do so, bu"
+      "excerpt": "A saving throw - also called a save - represents an attempt to avoid or resist a threat. You normally make a saving throw only when a rule requires you to do so"
     },
     {
       "id": "objects/rules/8-127-search-action",
@@ -3275,7 +3275,7 @@
       "id": "objects/rules/8-130-simultaneous-effects",
       "type": "Rule",
       "name": "Simultaneous Effects",
-      "excerpt": "If two or more things happen at the same time on a turn, the person at the game table—player or GM—whose turn it is decides the order in which those things happ"
+      "excerpt": "If two or more things happen at the same time on a turn, the person at the game table - player or GM - whose turn it is decides the order in which those things "
     },
     {
       "id": "objects/rules/8-131-size",
@@ -3413,7 +3413,7 @@
       "id": "objects/rules/8-152-unarmed-strike",
       "type": "Rule",
       "name": "Unarmed Strike",
-      "excerpt": "Instead of using a weapon to make a melee attack, you can use a punch, kick, headbutt, or similar forceful blow. In game terms, this is an Unarmed Strike—a mele"
+      "excerpt": "Instead of using a weapon to make a melee attack, you can use a punch, kick, headbutt, or similar forceful blow. In game terms, this is an Unarmed Strike - a me"
     },
     {
       "id": "objects/rules/8-154-unoccupied-space",
@@ -3455,7 +3455,7 @@
       "id": "objects/rules/8-17-attunement",
       "type": "Rule",
       "name": "Attunement",
-      "excerpt": "Some magic items require a creature to form a bond—called Attunement—with them before the creature can use an item's magical properties. A creature can have Att"
+      "excerpt": "Some magic items require a creature to form a bond - called Attunement - with them before the creature can use an item's magical properties. A creature can have"
     },
     {
       "id": "objects/rules/8-19-blindsight",
@@ -3467,7 +3467,7 @@
       "id": "objects/rules/8-2-glossary-conventions",
       "type": "Rule",
       "name": "Glossary Conventions",
-      "excerpt": "The glossary uses the following conventions:\n\nTags in Brackets. Some entries have a tag in brackets after the entry's name, as in \"Attack [Action].\" A tag—Actio"
+      "excerpt": "The glossary uses the following conventions:\n\nTags in Brackets. Some entries have a tag in brackets after the entry's name, as in \"Attack [Action].\" A tag - Act"
     },
     {
       "id": "objects/rules/8-20-bloodied",
@@ -3593,7 +3593,7 @@
       "id": "objects/rules/8-4-ability-check",
       "type": "Rule",
       "name": "Ability Check",
-      "excerpt": "An ability check is a D20 Test that represents using one of the six abilities—or a specific skill associated with an ability—to overcome a challenge. See also “"
+      "excerpt": "An ability check is a D20 Test that represents using one of the six abilities - or a specific skill associated with an ability - to overcome a challenge. See al"
     },
     {
       "id": "objects/rules/8-40-creature-type",
@@ -3659,7 +3659,7 @@
       "id": "objects/rules/8-5-ability-score-and-modifier",
       "type": "Rule",
       "name": "Ability Score and Modifier",
-      "excerpt": "A creature has six ability scores—Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma—each of which has a corresponding modifier. Add the modi"
+      "excerpt": "A creature has six ability scores - Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma - each of which has a corresponding modifier. Add the "
     },
     {
       "id": "objects/rules/8-50-darkness",
@@ -4007,7 +4007,7 @@
       "id": "objects/rules/9-18-cursed-creatures",
       "type": "Rule",
       "name": "Cursed Creatures",
-      "excerpt": "Some monsters are associated with curses, whether as part of their origins or due to their ability to spread curses—werewolves being a prime example.\n\nYou decid"
+      "excerpt": "Some monsters are associated with curses, whether as part of their origins or due to their ability to spread curses - werewolves being a prime example.\n\nYou dec"
     },
     {
       "id": "objects/rules/9-19-cursed-magic-items",
@@ -4043,7 +4043,7 @@
       "id": "objects/rules/9-23-rest-and-recuperation",
       "type": "Rule",
       "name": "Rest and Recuperation",
-      "excerpt": "If a creature infected with a magical contagion spends 3 days recuperating—engaging in no activities that would interrupt a Long Rest—the creature makes a DC 15"
+      "excerpt": "If a creature infected with a magical contagion spends 3 days recuperating - engaging in no activities that would interrupt a Long Rest - the creature makes a D"
     },
     {
       "id": "objects/rules/9-24-example-contagions",
@@ -7409,7 +7409,7 @@
       "id": "objects/spells/disguise-self",
       "type": "Spell",
       "name": "Disguise Self",
-      "excerpt": "Level 1 Illusion (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\nRange: Self\nComponents: V, S\nDuration: 1 hour\n\nYou make yourself—including your clothing, armor,"
+      "excerpt": "Level 1 Illusion (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\nRange: Self\nComponents: V, S\nDuration: 1 hour\n\nYou make yourself - including your clothing, armo"
     },
     {
       "id": "objects/spells/disintegrate",
@@ -7607,7 +7607,7 @@
       "id": "objects/spells/find-the-path",
       "type": "Spell",
       "name": "Find the Path",
-      "excerpt": "Level 6 Divination (Bard, Cleric, Druid)\n\nCasting Time: 1 minute\nRange: Self\nComponents: V, S, M (a set of divination tools—such as cards or runes—worth 100+ GP"
+      "excerpt": "Level 6 Divination (Bard, Cleric, Druid)\n\nCasting Time: 1 minute\nRange: Self\nComponents: V, S, M (a set of divination tools - such as cards or runes - worth 100"
     },
     {
       "id": "objects/spells/find-traps",
@@ -9107,7 +9107,7 @@
       "id": "objects/magic-items/bag-of-holding",
       "type": "MagicItem",
       "name": "Bag of Holding",
-      "excerpt": "Wondrous Item, Uncommon\n\nThis bag has an interior space considerably larger than its outside dimensions—roughly 2 feet square and 4 feet deep on the inside. The"
+      "excerpt": "Wondrous Item, Uncommon\n\nThis bag has an interior space considerably larger than its outside dimensions - roughly 2 feet square and 4 feet deep on the inside. T"
     },
     {
       "id": "objects/magic-items/bag-of-tricks",

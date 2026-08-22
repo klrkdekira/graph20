@@ -75,10 +75,10 @@
     },
     {
       "name": "Actions",
-      "rulesText": "Bites. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage—or 6 (1d4 + 4) Piercing damage if the swarm is Bloodied—plus 10 (3d6) Poison damage."
+      "rulesText": "Bites. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage - or 6 (1d4 + 4) Piercing damage if the swarm is Bloodied - plus 10 (3d6) Poison damage."
     }
   ],
-  "rulesText": "Medium Swarm of Tiny Beasts, Unaligned\n\nAC 14\nInitiative +4 (14)\nHP 36 (8d8)\nSpeed 30 ft., Swim 30 ft.\n\nResistances Bludgeoning, Piercing, Slashing\nImmunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned\nSenses Blindsight 10 ft.; Passive Perception 10\nLanguages None\nCR 2 (XP 450; PB +2)\n\nTraits\n\nSwarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can't regain Hit Points or gain Temporary Hit Points.\n\nActions\n\nBites. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage—or 6 (1d4 + 4) Piercing damage if the swarm is Bloodied—plus 10 (3d6) Poison damage.",
+  "rulesText": "Medium Swarm of Tiny Beasts, Unaligned\n\nAC 14\nInitiative +4 (14)\nHP 36 (8d8)\nSpeed 30 ft., Swim 30 ft.\n\nResistances Bludgeoning, Piercing, Slashing\nImmunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned\nSenses Blindsight 10 ft.; Passive Perception 10\nLanguages None\nCR 2 (XP 450; PB +2)\n\nTraits\n\nSwarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can't regain Hit Points or gain Temporary Hit Points.\n\nActions\n\nBites. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage - or 6 (1d4 + 4) Piercing damage if the swarm is Bloodied - plus 10 (3d6) Poison damage.",
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"

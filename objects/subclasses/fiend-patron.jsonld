@@ -18,7 +18,7 @@
     "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
   },
   "parentClassName": "Warlock",
-  "rulesText": "Make a Deal with the Lower Planes\n\nYour pact draws on the Lower Planes, the realms of perdition. You might forge a bargain with a demon lord, an archdevil, or another fiend that is especially mighty. That patron's aims are evil—the corruption or destruction of all things, ultimately including you—and your path is defined by the extent to which you strive against those aims.",
+  "rulesText": "Make a Deal with the Lower Planes\n\nYour pact draws on the Lower Planes, the realms of perdition. You might forge a bargain with a demon lord, an archdevil, or another fiend that is especially mighty. That patron's aims are evil - the corruption or destruction of all things, ultimately including you - and your path is defined by the extent to which you strive against those aims.",
   "features": [
     {
       "level": 3,

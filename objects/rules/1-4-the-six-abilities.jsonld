@@ -15,7 +15,7 @@
     "lineEnd": 64
   },
   "section": "1.4",
-  "rulesText": "All creatures—characters and monsters—have six abilities that measure physical and mental characteristics, as shown on the Ability Descriptions table.\n\nAbility Descriptions",
+  "rulesText": "All creatures - characters and monsters - have six abilities that measure physical and mental characteristics, as shown on the Ability Descriptions table.\n\nAbility Descriptions",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/1-4-ability-descriptions"

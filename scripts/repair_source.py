@@ -429,7 +429,33 @@ def repair_source_text(md_content: str, txt_content: str) -> str:
     res = re.sub(r"(?m)^(Range: [^\n]+)\n\n(Components: [^\n]+)", r"\1\n\2", res)
     res = re.sub(r"(?m)^(Components: [^\n]+)\n\n(Duration: [^\n]+)", r"\1\n\2", res)
 
-    # 18. Strip trailing whitespaces from every line
+    # 18. Replace all em-dashes context-sensitively
+    res_lines_em = []
+    for line in res.splitlines():
+        if "—" not in line:
+            res_lines_em.append(line)
+            continue
+        if line.strip().startswith("|"):
+            cells = line.split("|")
+            new_cells = []
+            for c in cells:
+                c_strip = c.strip()
+                if c_strip == "—":
+                    pad_len = len(c)
+                    new_cell = " - ".center(pad_len) if pad_len > 3 else " - "
+                    new_cells.append(new_cell)
+                elif "—" in c:
+                    c_rep = c.replace("——", "--").replace("—", "-")
+                    new_cells.append(c_rep)
+                else:
+                    new_cells.append(c)
+            res_lines_em.append("|".join(new_cells))
+        else:
+            line_rep = re.sub(r"\s*—\s*", " - ", line)
+            res_lines_em.append(line_rep)
+    res = "\n".join(res_lines_em) + "\n"
+
+    # 19. Strip trailing whitespaces from every line
     res_lines = [l.rstrip() for l in res.splitlines()]
     res = "\n".join(res_lines) + "\n"
 
@@ -440,7 +466,7 @@ def repair_source_text(md_content: str, txt_content: str) -> str:
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Repair, format tables, and normalize layout in SRD_CC_v5.2.1.md against ground truth in SRD_CC_v5.2.1.txt"
+        description="Repair, format tables, and normalize layout in SRD_CC_v5.2.1.md"
     )
     parser.add_argument("--source-md", default="SRD_CC_v5.2.1.md")
     parser.add_argument("--source-txt", default="SRD_CC_v5.2.1.txt")
@@ -450,11 +476,11 @@ def main() -> None:
     md_path = Path(args.source_md)
     txt_path = Path(args.source_txt)
 
-    if not md_path.exists() or not txt_path.exists():
-        sys.exit("Source markdown or text file not found.")
+    if not md_path.exists():
+        sys.exit(f"Source markdown {md_path} not found.")
 
     md_content = md_path.read_text(encoding="utf-8")
-    txt_content = txt_path.read_text(encoding="utf-8")
+    txt_content = txt_path.read_text(encoding="utf-8") if txt_path.exists() else ""
 
     repaired = repair_source_text(md_content, txt_content)
 
