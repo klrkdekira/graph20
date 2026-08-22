@@ -3,8 +3,8 @@ message: "If you use this dataset, please cite it as below."
 title: "SRD 5.2.1 System JSON"
 type: dataset
 authors:
-  - family-names: "Leong"
-    given-names: "Chee"
+  - family-names: "Chow"
+    given-names: "Chee Leong"
 version: "0.2.0"
 license: "CC-BY-4.0"
 url: "https://cheeleong.dev/graph20/"
