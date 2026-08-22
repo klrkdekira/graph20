@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.156",
     "heading": "Flame Strike",
-    "lineStart": 8824,
-    "lineEnd": 8838
+    "lineStart": 9408,
+    "lineEnd": 9419
   },
   "level": 5,
   "school": "Evocation",
@@ -23,7 +23,7 @@
   "range": "60 feet",
   "components": "V, S, M (a pinch of sulfur)",
   "duration": "Instantaneous",
-  "rulesText": "Level 5 Evocation (Cleric)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S, M (a pinch of sulfur)\n\nDuration: Instantaneous\n\nA vertical column of brilliant fire roars down from above. Each creature in a 10-foot-radius, 40-foot-high Cylinder centered on a point within range makes a Dexterity saving throw, taking 5d6 Fire damage and 5d6 Radiant damage on a failed save or half as much damage on a successful one.\n\nUsing a Higher-Level Spell Slot. The Fire damage and the Radiant damage increase by 1d6 for each spell slot level above 5.",
+  "rulesText": "Level 5 Evocation (Cleric)\n\nCasting Time: Action\nRange: 60 feet\nComponents: V, S, M (a pinch of sulfur)\nDuration: Instantaneous\n\nA vertical column of brilliant fire roars down from above. Each creature in a 10-foot-radius, 40-foot-high Cylinder centered on a point within range makes a Dexterity saving throw, taking 5d6 Fire damage and 5d6 Radiant damage on a failed save or half as much damage on a successful one.\n\nUsing a Higher-Level Spell Slot. The Fire damage and the Radiant damage increase by 1d6 for each spell slot level above 5.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"

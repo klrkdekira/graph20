@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.51",
     "heading": "Giant Wasp",
-    "lineStart": 28565,
-    "lineEnd": 28591
+    "lineStart": 28090,
+    "lineEnd": 28114
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
@@ -76,7 +76,7 @@
       "rulesText": "Sting. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 5 (2d4) Poison damage."
     }
   ],
-  "rulesText": "Medium Beast, Unaligned\n\nAC 13\n\nInitiative +2 (12)\n\nHP 22 (5d8)\n\nSpeed 10 ft., Fly 50 ft.\n\nSenses Passive Perception 10\n\nLanguages None\n\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nFlyby. The wasp doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nSting. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 5 (2d4) Poison damage.",
+  "rulesText": "Medium Beast, Unaligned\n\nAC 13\nInitiative +2 (12)\nHP 22 (5d8)\nSpeed 10 ft., Fly 50 ft.\n\nSenses Passive Perception 10\nLanguages None\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nFlyby. The wasp doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nSting. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 5 (2d4) Poison damage.",
   "attacks": [
     {
       "name": "Sting",

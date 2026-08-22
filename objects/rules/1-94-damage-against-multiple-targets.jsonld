@@ -11,8 +11,8 @@
     "chapter": "Playing the Game",
     "section": "1.94",
     "heading": "Damage against Multiple Targets",
-    "lineStart": 1614,
-    "lineEnd": 1616
+    "lineStart": 763,
+    "lineEnd": 765
   },
   "section": "1.94",
   "rulesText": "When you create a damaging effect that forces two or more targets to make saving throws against it at the same time, roll the damage once for all the targets. For example, when a wizard casts Fireball, the spell's damage is rolled once for all creatures caught in the blast."

@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.295",
     "heading": "Searing Smite",
-    "lineStart": 11368,
-    "lineEnd": 11382
+    "lineStart": 11558,
+    "lineEnd": 11569
   },
   "level": 1,
   "school": "Evocation",
@@ -21,8 +21,9 @@
   ],
   "castingTime": "Bonus Action, which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike",
   "range": "Self",
+  "components": "V",
   "duration": "1 minute",
-  "rulesText": "Level 1 Evocation (Paladin)\n\nCasting Time: Bonus Action, which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike\n\nRange: Self\n\nComponent: V\n\nDuration: 1 minute\n\nAs you hit the target, it takes an extra 1d6 Fire damage from the attack. At the start of each of its turns until the spell ends, the target takes 1d6 Fire damage and then makes a Constitution saving throw. On a failed save, the spell continues. On a successful save, the spell ends.\n\nUsing a Higher-Level Spell Slot. All the damage increases by 1d6 for each spell slot level above 1.",
+  "rulesText": "Level 1 Evocation (Paladin)\n\nCasting Time: Bonus Action, which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike\nRange: Self\nComponents: V\nDuration: 1 minute\n\nAs you hit the target, it takes an extra 1d6 Fire damage from the attack. At the start of each of its turns until the spell ends, the target takes 1d6 Fire damage and then makes a Constitution saving throw. On a failed save, the spell continues. On a successful save, the spell ends.\n\nUsing a Higher-Level Spell Slot. All the damage increases by 1d6 for each spell slot level above 1.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/paladin"

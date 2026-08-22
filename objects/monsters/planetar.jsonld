@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.188",
     "heading": "Planetar",
-    "lineStart": 24000,
-    "lineEnd": 24053
+    "lineStart": 23944,
+    "lineEnd": 23992
   },
   "sizeTypeAlignment": "Large Celestial (Angel), Lawful Good",
   "sizeAndType": "Large Celestial (Angel)",
@@ -40,34 +40,34 @@
   "proficiencyBonus": 5,
   "abilities": {
     "str": {
-      "score": 24,
-      "modifier": 7,
-      "savingThrow": 12
+      "score": 26,
+      "modifier": 8,
+      "savingThrow": 8
     },
     "dex": {
-      "score": 20,
-      "modifier": 5,
-      "savingThrow": 5
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 8
     },
     "con": {
       "score": 24,
       "modifier": 7,
-      "savingThrow": 12
+      "savingThrow": 7
     },
     "int": {
-      "score": 19,
-      "modifier": 4,
-      "savingThrow": 4
-    },
-    "wis": {
       "score": 22,
       "modifier": 6,
-      "savingThrow": 11
+      "savingThrow": 6
+    },
+    "wis": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 10
     },
     "cha": {
-      "score": 25,
+      "score": 24,
       "modifier": 7,
-      "savingThrow": 12
+      "savingThrow": 7
     }
   },
   "statSections": [
@@ -84,7 +84,7 @@
       "rulesText": "Divine Aid (2/Day). The planetar casts Cure Wounds, Invisibility, Lesser Restoration, or Remove Curse, using the same spellcasting ability as Spellcasting."
     }
   ],
-  "rulesText": "Large Celestial (Angel), Lawful Good\n\nAC 19\n\nInitiative +10 (20)\n\nHP 262 (21d10 + 147)\n\nSpeed 40 ft., Fly 120 ft. (hover)\n\nSkills Perception +11\n\nResistances Radiant\n\nImmunities Charmed, Exhaustion, Frightened\n\nSenses Truesight 120 ft.; Passive Perception 21\n\nLanguages All; telepathy 120 ft.\n\nCR 16 (XP 15,000; PB +5)\n\nTraits\n\nDivine Awareness. The planetar knows if it hears a lie.\n\nExalted Restoration. If the planetar dies outside Mount Celestia, its body disappears, and it gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia.\n\nMagic Resistance. The planetar has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The planetar makes three Radiant Sword attacks or uses Holy Burst twice.\n\nRadiant Sword. Melee Attack Roll: +12, reach 10 ft.\nHit: 14 (2d6 + 7) Slashing damage plus 18 (4d8) Radiant damage.\n\nHoly Burst. Dexterity Saving Throw: DC 20, each enemy in a 20-foot-radius Sphere centered on a point the planetar can see within 120 feet. Failure: 24 (7d6) Radiant damage. Success: Half damage.\n\nSpellcasting. The planetar casts one of the following spells, requiring no Material components and using Charisma as spellcasting ability (spell save DC 20):\n\nAt Will: Detect Evil and Good\n\n1/Day Each: Commune, Control Weather, Dispel Evil and Good, Raise Dead\n\nBonus Actions\n\nDivine Aid (2/Day). The planetar casts Cure Wounds, Invisibility, Lesser Restoration, or Remove Curse, using the same spellcasting ability as Spellcasting.",
+  "rulesText": "Large Celestial (Angel), Lawful Good\n\nAC 19\nInitiative +10 (20)\nHP 262 (21d10 + 147)\nSpeed 40 ft., Fly 120 ft. (hover)\n\nSkills Perception +11\nResistances Radiant\nImmunities Charmed, Exhaustion, Frightened\nSenses Truesight 120 ft.; Passive Perception 21\nLanguages All; telepathy 120 ft.\nCR 16 (XP 15,000; PB +5)\n\nTraits\n\nDivine Awareness. The planetar knows if it hears a lie.\n\nExalted Restoration. If the planetar dies outside Mount Celestia, its body disappears, and it gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia.\n\nMagic Resistance. The planetar has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The planetar makes three Radiant Sword attacks or uses Holy Burst twice.\n\nRadiant Sword. Melee Attack Roll: +12, reach 10 ft.\nHit: 14 (2d6 + 7) Slashing damage plus 18 (4d8) Radiant damage.\n\nHoly Burst. Dexterity Saving Throw: DC 20, each enemy in a 20-foot-radius Sphere centered on a point the planetar can see within 120 feet. Failure: 24 (7d6) Radiant damage. Success: Half damage.\n\nSpellcasting. The planetar casts one of the following spells, requiring no Material components and using Charisma as spellcasting ability (spell save DC 20):\n\nAt Will: Detect Evil and Good\n\n1/Day Each: Commune, Control Weather, Dispel Evil and Good, Raise Dead\n\nBonus Actions\n\nDivine Aid (2/Day). The planetar casts Cure Wounds, Invisibility, Lesser Restoration, or Remove Curse, using the same spellcasting ability as Spellcasting.",
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"

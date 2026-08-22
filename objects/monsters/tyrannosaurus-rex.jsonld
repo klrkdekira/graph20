@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.91",
     "heading": "Tyrannosaurus Rex",
-    "lineStart": 29757,
-    "lineEnd": 29785
+    "lineStart": 29165,
+    "lineEnd": 29190
   },
   "sizeTypeAlignment": "Huge Beast (Dinosaur), Unaligned",
   "sizeAndType": "Huge Beast (Dinosaur)",
@@ -74,7 +74,7 @@
       "rulesText": "Multiattack. The tyrannosaurus makes one Bite attack and one Tail attack.\n\nBite. Melee Attack Roll: +10, reach 10 ft. Hit: 33 (4d12 + 7) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 17). While Grappled, the target has the Restrained condition and can't be targeted by the tyrannosaurus's Tail.\n\nTail. Melee Attack Roll: +10, reach 15 ft. Hit: 25 (4d8 + 7) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition."
     }
   ],
-  "rulesText": "Huge Beast (Dinosaur), Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 136 (13d12 + 52)\n\nSpeed 50 ft.\n\nSkills Perception +4\n\nSenses Passive Perception 14\n\nLanguages None\n\nCR 8 (XP 3,900; PB +3)\n\nActions\n\nMultiattack. The tyrannosaurus makes one Bite attack and one Tail attack.\n\nBite. Melee Attack Roll: +10, reach 10 ft. Hit: 33 (4d12 + 7) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 17). While Grappled, the target has the Restrained condition and can't be targeted by the tyrannosaurus's Tail.\n\nTail. Melee Attack Roll: +10, reach 15 ft. Hit: 25 (4d8 + 7) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.",
+  "rulesText": "Huge Beast (Dinosaur), Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 136 (13d12 + 52)\nSpeed 50 ft.\n\nSkills Perception +4\nSenses Passive Perception 14\nLanguages None\nCR 8 (XP 3,900; PB +3)\n\nActions\n\nMultiattack. The tyrannosaurus makes one Bite attack and one Tail attack.\n\nBite. Melee Attack Roll: +10, reach 10 ft. Hit: 33 (4d12 + 7) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 17). While Grappled, the target has the Restrained condition and can't be targeted by the tyrannosaurus's Tail.\n\nTail. Melee Attack Roll: +10, reach 15 ft. Hit: 25 (4d8 + 7) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.",
   "attacks": [
     {
       "name": "Bite",

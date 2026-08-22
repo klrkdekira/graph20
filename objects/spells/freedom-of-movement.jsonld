@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.165",
     "heading": "Freedom of Movement",
-    "lineStart": 8984,
-    "lineEnd": 9002
+    "lineStart": 9541,
+    "lineEnd": 9556
   },
   "level": 4,
   "school": "Abjuration",
@@ -26,7 +26,7 @@
   "range": "Touch",
   "components": "V, S, M (a leather strap)",
   "duration": "1 hour",
-  "rulesText": "Level 4 Abjuration (Bard, Cleric, Druid, Ranger)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (a leather strap)\n\nDuration: 1 hour\n\nYou touch a willing creature. For the duration, the target's movement is unaffected by Difficult Terrain, and spells and other magical effects can\n\nneither reduce the target's Speed nor cause the target to have the Paralyzed or Restrained conditions. The target also has a Swim Speed equal to its Speed.\n\nIn addition, the target can spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature imposing the Grappled condition on it.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 4.",
+  "rulesText": "Level 4 Abjuration (Bard, Cleric, Druid, Ranger)\n\nCasting Time: Action\nRange: Touch\nComponents: V, S, M (a leather strap)\nDuration: 1 hour\n\nYou touch a willing creature. For the duration, the target's movement is unaffected by Difficult Terrain, and spells and other magical effects can\n\nneither reduce the target's Speed nor cause the target to have the Paralyzed or Restrained conditions. The target also has a Swim Speed equal to its Speed.\n\nIn addition, the target can spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature imposing the Grappled condition on it.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 4.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

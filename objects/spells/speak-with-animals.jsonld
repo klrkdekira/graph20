@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.316",
     "heading": "Speak with Animals",
-    "lineStart": 11732,
-    "lineEnd": 11746
+    "lineStart": 11859,
+    "lineEnd": 11870
   },
   "level": 1,
   "school": "Divination",
@@ -26,7 +26,7 @@
   "range": "Self",
   "components": "V, S",
   "duration": "10 minutes",
-  "rulesText": "Level 1 Divination (Bard, Druid, Ranger, Warlock)\n\nCasting Time: Action or Ritual\n\nRange: Self\n\nComponents: V, S\n\nDuration: 10 minutes\n\nFor the duration, you can comprehend and verbally communicate with Beasts, and you can use any of the Influence action's skill options with them.\n\nMost Beasts have little to say about topics that don't pertain to survival or companionship, but at minimum, a Beast can give you information about nearby locations and monsters, including whatever it has perceived within the past day.",
+  "rulesText": "Level 1 Divination (Bard, Druid, Ranger, Warlock)\n\nCasting Time: Action or Ritual\nRange: Self\nComponents: V, S\nDuration: 10 minutes\n\nFor the duration, you can comprehend and verbally communicate with Beasts, and you can use any of the Influence action's skill options with them.\n\nMost Beasts have little to say about topics that don't pertain to survival or companionship, but at minimum, a Beast can give you information about nearby locations and monsters, including whatever it has perceived within the past day.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

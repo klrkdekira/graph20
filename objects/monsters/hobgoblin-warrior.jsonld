@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.136",
     "heading": "Hobgoblin Warrior",
-    "lineStart": 22135,
-    "lineEnd": 22166
+    "lineStart": 22253,
+    "lineEnd": 22281
   },
   "sizeTypeAlignment": "Medium Fey (Goblinoid), Lawful Evil",
   "sizeAndType": "Medium Fey (Goblinoid)",
@@ -78,7 +78,7 @@
       "rulesText": "Longsword. Melee Attack Roll: +3, reach 5 ft. Hit: 12 (2d10 + 1) Slashing damage.\n\nLongbow. Ranged Attack Roll: +3, range 150/600 ft.\nHit: 5 (1d8 + 1) Piercing damage plus 7 (3d4) Poison damage."
     }
   ],
-  "rulesText": "Medium Fey (Goblinoid), Lawful Evil\n\nAC 18\n\nInitiative +3 (13)\n\nHP 11 (2d8 + 2)\n\nSpeed 30 ft.\n\nGear Half Plate Armor, Longbow, Longsword, Shield\n\nSenses Darkvision 60 ft.; Passive Perception 10\n\nLanguages Common, Goblin\n\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nPack Tactics. The hobgoblin has Advantage on an attack roll against a creature if at least one of the hobgoblin's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nLongsword. Melee Attack Roll: +3, reach 5 ft. Hit: 12 (2d10 + 1) Slashing damage.\n\nLongbow. Ranged Attack Roll: +3, range 150/600 ft.\nHit: 5 (1d8 + 1) Piercing damage plus 7 (3d4) Poison damage.",
+  "rulesText": "Medium Fey (Goblinoid), Lawful Evil\n\nAC 18\nInitiative +3 (13)\nHP 11 (2d8 + 2)\nSpeed 30 ft.\n\nGear Half Plate Armor, Longbow, Longsword, Shield\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Common, Goblin\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nPack Tactics. The hobgoblin has Advantage on an attack roll against a creature if at least one of the hobgoblin's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nLongsword. Melee Attack Roll: +3, reach 5 ft. Hit: 12 (2d10 + 1) Slashing damage.\n\nLongbow. Ranged Attack Roll: +3, range 150/600 ft.\nHit: 5 (1d8 + 1) Piercing damage plus 7 (3d4) Poison damage.",
   "attacks": [
     {
       "name": "Longsword",

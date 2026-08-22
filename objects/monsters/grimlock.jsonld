@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.124",
     "heading": "Grimlock",
-    "lineStart": 21781,
-    "lineEnd": 21807
+    "lineStart": 21934,
+    "lineEnd": 21957
   },
   "sizeTypeAlignment": "Medium Aberration, Neutral Evil",
   "sizeAndType": "Medium Aberration",
@@ -74,7 +74,7 @@
       "rulesText": "Bone Cudgel. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage plus 2 (1d4) Psychic damage."
     }
   ],
-  "rulesText": "Medium Aberration, Neutral Evil\n\nAC 11\n\nInitiative +1 (11)\n\nHP 11 (2d8 + 2)\n\nSpeed 30 ft., Climb 30 ft.\n\nSkills Athletics +5, Perception +3, Stealth +5\n\nSenses Blindsight 30 ft.; Passive Perception 13\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBone Cudgel. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage plus 2 (1d4) Psychic damage.",
+  "rulesText": "Medium Aberration, Neutral Evil\n\nAC 11\nInitiative +1 (11)\nHP 11 (2d8 + 2)\nSpeed 30 ft., Climb 30 ft.\n\nSkills Athletics +5, Perception +3, Stealth +5\nSenses Blindsight 30 ft.; Passive Perception 13\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBone Cudgel. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage plus 2 (1d4) Psychic damage.",
   "attacks": [
     {
       "name": "Bone Cudgel",

@@ -11,8 +11,8 @@
     "chapter": "Equipment",
     "section": "6.26",
     "heading": "Vex",
-    "lineStart": 5391,
-    "lineEnd": 5391
+    "lineStart": 6077,
+    "lineEnd": 6120
   },
   "columns": [
     "Name",
@@ -27,8 +27,22 @@
       "position": 1,
       "cells": [
         {
-          "value": "Simple Melee Weapons",
-          "colspan": 6
+          "value": "Simple Melee Weapons"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
         }
       ]
     },
@@ -266,8 +280,22 @@
       "position": 12,
       "cells": [
         {
-          "value": "Simple Ranged Weapons",
-          "colspan": 6
+          "value": "Simple Ranged Weapons"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
         }
       ]
     },
@@ -367,8 +395,22 @@
       "position": 17,
       "cells": [
         {
-          "value": "Martial Melee Weapons",
-          "colspan": 6
+          "value": "Martial Melee Weapons"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
         }
       ]
     },
@@ -790,8 +832,22 @@
       "position": 36,
       "cells": [
         {
-          "value": "Martial Ranged Weapons",
-          "colspan": 6
+          "value": "Martial Ranged Weapons"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
         }
       ]
     },

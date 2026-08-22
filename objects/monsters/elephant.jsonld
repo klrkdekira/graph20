@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.22",
     "heading": "Elephant",
-    "lineStart": 27690,
-    "lineEnd": 27718
+    "lineStart": 27298,
+    "lineEnd": 27324
   },
   "sizeTypeAlignment": "Huge Beast, Unaligned",
   "sizeAndType": "Huge Beast",
@@ -52,19 +52,19 @@
       "savingThrow": 3
     },
     "int": {
-      "score": 3,
+      "score": 2,
       "modifier": -4,
       "savingThrow": -4
     },
     "wis": {
-      "score": 11,
-      "modifier": 0,
-      "savingThrow": 0
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
     },
     "cha": {
-      "score": 6,
-      "modifier": -2,
-      "savingThrow": -2
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
     }
   },
   "statSections": [
@@ -77,7 +77,7 @@
       "rulesText": "Trample. Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 17 (2d10 + 6) Bludgeoning damage. Success: Half damage."
     }
   ],
-  "rulesText": "Huge Beast, Unaligned\n\nAC 12\n\nInitiative -1 (9)\n\nHP 76 (8d12 + 24)\n\nSpeed 40 ft.\n\nSenses Passive Perception 10\n\nLanguages None\n\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The elephant makes two Gore attacks.\n\nGore. Melee Attack Roll: +8, reach 5 ft. Hit: 15 (2d8 + 6) Piercing damage. If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.\n\nBonus Actions\n\nTrample. Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 17 (2d10 + 6) Bludgeoning damage. Success: Half damage.",
+  "rulesText": "Huge Beast, Unaligned\n\nAC 12\nInitiative -1 (9)\nHP 76 (8d12 + 24)\nSpeed 40 ft.\n\nSenses Passive Perception 10\nLanguages None\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The elephant makes two Gore attacks.\n\nGore. Melee Attack Roll: +8, reach 5 ft. Hit: 15 (2d8 + 6) Piercing damage. If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.\n\nBonus Actions\n\nTrample. Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 17 (2d10 + 6) Bludgeoning damage. Success: Half damage.",
   "attacks": [
     {
       "name": "Gore",

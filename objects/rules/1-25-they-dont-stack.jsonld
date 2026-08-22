@@ -11,8 +11,8 @@
     "chapter": "Playing the Game",
     "section": "1.25",
     "heading": "They Don't Stack",
-    "lineStart": 1147,
-    "lineEnd": 1151
+    "lineStart": 242,
+    "lineEnd": 246
   },
   "section": "1.25",
   "rulesText": "If multiple situations affect a roll and they all grant Advantage on it, you still roll only two d20s. Similarly, if multiple situations impose Disadvantage on a roll, you roll only two d20s.\n\nIf circumstances cause a roll to have both Advantage and Disadvantage, the roll has neither of them, and you roll one d20. This is true even if multiple circumstances impose Disadvantage and only one grants Advantage or vice versa. In such a situation, you have neither Advantage nor Disadvantage."

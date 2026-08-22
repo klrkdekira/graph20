@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.36",
     "heading": "Giant Fire Beetle",
-    "lineStart": 28096,
-    "lineEnd": 28124
+    "lineStart": 27664,
+    "lineEnd": 27689
   },
   "sizeTypeAlignment": "Small Beast, Unaligned",
   "sizeAndType": "Small Beast",
@@ -78,5 +78,5 @@
       "rulesText": "Bite. Melee Attack Roll: +1, reach 5 ft. Hit: 1 Fire damage."
     }
   ],
-  "rulesText": "Small Beast, Unaligned\n\nAC 13\n\nInitiative +0 (10)\n\nHP 4 (1d6 + 1)\n\nSpeed 30 ft., Climb 30 ft.\n\nResistances Fire\n\nSenses Blindsight 30 ft.; Passive Perception 8\n\nLanguages None\n\nCR 0 (XP 10; PB +2)\n\nTraits\n\nIllumination. The beetle sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.\n\nActions\n\nBite. Melee Attack Roll: +1, reach 5 ft. Hit: 1 Fire damage."
+  "rulesText": "Small Beast, Unaligned\n\nAC 13\nInitiative +0 (10)\nHP 4 (1d6 + 1)\nSpeed 30 ft., Climb 30 ft.\n\nResistances Fire\nSenses Blindsight 30 ft.; Passive Perception 8\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nIllumination. The beetle sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.\n\nActions\n\nBite. Melee Attack Roll: +1, reach 5 ft. Hit: 1 Fire damage."
 }

@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.238",
     "heading": "Mending",
-    "lineStart": 10353,
-    "lineEnd": 10367
+    "lineStart": 10691,
+    "lineEnd": 10702
   },
   "level": 0,
   "school": "Transmutation",
@@ -27,7 +27,7 @@
   "range": "Touch",
   "components": "V, S, M (two lodestones)",
   "duration": "Instantaneous",
-  "rulesText": "Transmutation Cantrip (Bard, Cleric, Druid, Sorcerer, Wizard)\n\nCasting Time: 1 minute\n\nRange: Touch\n\nComponents: V, S, M (two lodestones)\n\nDuration: Instantaneous\n\nThis spell repairs a single break or tear in an object you touch, such as a broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.\n\nThis spell can physically repair a magic item, but it can't restore magic to such an object.",
+  "rulesText": "Transmutation Cantrip (Bard, Cleric, Druid, Sorcerer, Wizard)\n\nCasting Time: 1 minute\nRange: Touch\nComponents: V, S, M (two lodestones)\nDuration: Instantaneous\n\nThis spell repairs a single break or tear in an object you touch, such as a broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.\n\nThis spell can physically repair a magic item, but it can't restore magic to such an object.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

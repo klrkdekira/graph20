@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.7",
     "heading": "Cleric",
-    "lineStart": 2604,
-    "lineEnd": 2790
+    "lineStart": 2109,
+    "lineEnd": 2448
   },
   "coreTraits": {
     "Primary Ability": "Wisdom",
@@ -93,5 +93,5 @@
       "rulesText": "You can call on even more powerful divine intervention. When you use your Divine Intervention feature, you can choose Wish when you select a spell. If you do so, you can't use Divine Intervention again until you finish 2d4 Long Rests."
     }
   ],
-  "rulesText": "Core Cleric Traits\n\nBecoming a Cleric ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Cleric Traits table.  \n- Gain the Cleric's level 1 features, which are listed in the Cleric Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Cleric Traits table: Hit Point Die and training with Light and Medium armor and Shields.  \n- Gain the Cleric's level 1 features, which are listed in the Cleric Features table. See the multiclassing rules in “Character Creation” to determine your available spell slots.\n\nCleric Class Features\n\nAs a Cleric, you gain the following class features when you reach the specified Cleric levels. These features are listed in the Cleric Features table."
+  "rulesText": "Core Cleric Traits\n\nBecoming a Cleric ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Cleric Traits table.\n- Gain the Cleric's level 1 features, which are listed in the Cleric Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Cleric Traits table: Hit Point Die and training with Light and Medium armor and Shields.\n- Gain the Cleric's level 1 features, which are listed in the Cleric Features table. See the multiclassing rules in “Character Creation” to determine your available spell slots.\n\nCleric Class Features\n\nAs a Cleric, you gain the following class features when you reach the specified Cleric levels. These features are listed in the Cleric Features table."
 }

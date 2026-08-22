@@ -11,8 +11,8 @@
     "chapter": "Equipment",
     "section": "6.64",
     "heading": "Ammunition (Varies)",
-    "lineStart": 5691,
-    "lineEnd": 5691
+    "lineStart": 6520,
+    "lineEnd": 6526
   },
   "columns": [
     "Type",
@@ -55,7 +55,7 @@
           "value": "Case"
         },
         {
-          "value": "$1\\frac{1}{2}$ lb."
+          "value": "1 1/2 lb."
         },
         {
           "value": "1 GP"
@@ -95,7 +95,7 @@
           "value": "Pouch"
         },
         {
-          "value": "$1\\frac{1}{2}$ lb."
+          "value": "1 1/2 lb."
         },
         {
           "value": "4 CP"

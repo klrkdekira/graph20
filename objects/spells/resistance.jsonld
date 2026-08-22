@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.286",
     "heading": "Resistance",
-    "lineStart": 11218,
-    "lineEnd": 11230
+    "lineStart": 11427,
+    "lineEnd": 11436
   },
   "level": 0,
   "school": "Abjuration",
@@ -22,8 +22,9 @@
   ],
   "castingTime": "Action",
   "range": "Touch",
+  "components": "V, S",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Abjuration Cantrip (Cleric, Druid)\n\nCasting Time: Action\n\nRange: Touch\n\nComponent: V, S\n\nDuration: Concentration, up to 1 minute\n\nYou touch a willing creature and choose a damage type: Acid, Bludgeoning, Cold, Fire, Lightning, Necrotic, Piercing, Poison, Radiant, Slashing, or Thunder. When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by 1d4. A creature can benefit from this spell only once per turn.",
+  "rulesText": "Abjuration Cantrip (Cleric, Druid)\n\nCasting Time: Action\nRange: Touch\nComponents: V, S\nDuration: Concentration, up to 1 minute\n\nYou touch a willing creature and choose a damage type: Acid, Bludgeoning, Cold, Fire, Lightning, Necrotic, Piercing, Poison, Radiant, Slashing, or Thunder. When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by 1d4. A creature can benefit from this spell only once per turn.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.74",
     "heading": "Death Dog",
-    "lineStart": 19949,
-    "lineEnd": 19981
+    "lineStart": 20265,
+    "lineEnd": 20291
   },
   "sizeTypeAlignment": "Medium Monstrosity, Neutral Evil",
   "sizeAndType": "Medium Monstrosity",
@@ -72,10 +72,10 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The death dog makes two Bite attacks.\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage. If the target is a creature, it is subjected to the following effect. Constitution Saving Throw: DC 12. First Failure: The target has the Poisoned condition. While Poisoned, the target's Hit Point max-\n\nimum doesn't return to normal when finishing a Long Rest, and it repeats the save every 24 hours that elapse, ending the effect on itself on a success. Subsequent Failures: The Poisoned target's Hit Point maximum decreases by 5 (1d10)."
+      "rulesText": "Multiattack. The death dog makes two Bite attacks.\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage. If the target is a creature, it is subjected to the following effect. Constitution Saving Throw: DC 12. First Failure: The target has the Poisoned condition. While Poisoned, the target's Hit Point maximum doesn't return to normal when finishing a Long Rest, and it repeats the save every 24 hours that elapse, ending the effect on itself on a success. Subsequent Failures: The Poisoned target's Hit Point maximum decreases by 5 (1d10)."
     }
   ],
-  "rulesText": "Medium Monstrosity, Neutral Evil\n\nAC 12\n\nInitiative +2 (12)\n\nHP 39 (6d8 + 12)\n\nSpeed 40 ft.\n\nSkills Perception +5, Stealth +4\n\nImmunities Blinded, Charmed, Deafened, Frightened, Stunned, Unconscious\n\nSenses Darkvision 120 ft.; Passive Perception 15\n\nLanguages None\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The death dog makes two Bite attacks.\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage. If the target is a creature, it is subjected to the following effect. Constitution Saving Throw: DC 12. First Failure: The target has the Poisoned condition. While Poisoned, the target's Hit Point max-\n\nimum doesn't return to normal when finishing a Long Rest, and it repeats the save every 24 hours that elapse, ending the effect on itself on a success. Subsequent Failures: The Poisoned target's Hit Point maximum decreases by 5 (1d10).",
+  "rulesText": "Medium Monstrosity, Neutral Evil\n\nAC 12\nInitiative +2 (12)\nHP 39 (6d8 + 12)\nSpeed 40 ft.\n\nSkills Perception +5, Stealth +4\nImmunities Blinded, Charmed, Deafened, Frightened, Stunned, Unconscious\nSenses Darkvision 120 ft.; Passive Perception 15\nLanguages None\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The death dog makes two Bite attacks.\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage. If the target is a creature, it is subjected to the following effect. Constitution Saving Throw: DC 12. First Failure: The target has the Poisoned condition. While Poisoned, the target's Hit Point maximum doesn't return to normal when finishing a Long Rest, and it repeats the save every 24 hours that elapse, ending the effect on itself on a success. Subsequent Failures: The Poisoned target's Hit Point maximum decreases by 5 (1d10).",
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/blinded"

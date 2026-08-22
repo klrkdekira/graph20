@@ -1,16 +1,16 @@
 {
   "sourceFile": "SRD_CC_v5.2.1.md",
-  "contentFirstLine": 981,
+  "contentFirstLine": 29,
   "excludedPreamble": {
     "lineStart": 1,
-    "lineEnd": 980,
+    "lineEnd": 28,
     "reason": "Legal Information and Contents navigation preamble; license and attribution preserved in the source record."
   },
-  "contentLines": 14552,
+  "contentLines": 18072,
   "uncoveredLines": [],
   "recordCounts": {
     "rules": 738,
-    "tables": 243,
+    "tables": 223,
     "classes": 12,
     "subclasses": 12,
     "species": 9,
@@ -22,5 +22,5 @@
     "magic-items": 258,
     "monsters": 332
   },
-  "recordsWithLocators": 2111
+  "recordsWithLocators": 2091
 }

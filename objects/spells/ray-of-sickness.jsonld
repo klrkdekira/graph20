@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.282",
     "heading": "Ray of Sickness",
-    "lineStart": 11150,
-    "lineEnd": 11164
+    "lineStart": 11365,
+    "lineEnd": 11376
   },
   "level": 1,
   "school": "Necromancy",
@@ -24,7 +24,7 @@
   "range": "60 feet",
   "components": "V, S",
   "duration": "Instantaneous",
-  "rulesText": "Level 1 Necromancy (Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S\n\nDuration: Instantaneous\n\nYou shoot a greenish ray at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 Poison damage and has the Poisoned condition until the end of your next turn.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 1.",
+  "rulesText": "Level 1 Necromancy (Sorcerer, Wizard)\n\nCasting Time: Action\nRange: 60 feet\nComponents: V, S\nDuration: Instantaneous\n\nYou shoot a greenish ray at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 Poison damage and has the Poisoned condition until the end of your next turn.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 1.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"

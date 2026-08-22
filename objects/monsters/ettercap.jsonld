@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.86",
     "heading": "Ettercap",
-    "lineStart": 20469,
-    "lineEnd": 20511
+    "lineStart": 20738,
+    "lineEnd": 20777
   },
   "sizeTypeAlignment": "Medium Monstrosity, Neutral Evil",
   "sizeAndType": "Medium Monstrosity",
@@ -38,29 +38,29 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 14,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 21,
+      "modifier": 5,
+      "savingThrow": 5
     },
     "dex": {
-      "score": 15,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
     },
     "con": {
-      "score": 13,
-      "modifier": 1,
-      "savingThrow": 1
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "int": {
-      "score": 7,
+      "score": 6,
       "modifier": -2,
       "savingThrow": -2
     },
     "wis": {
-      "score": 12,
-      "modifier": 1,
-      "savingThrow": 1
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
     },
     "cha": {
       "score": 8,
@@ -82,7 +82,7 @@
       "rulesText": "Reel. The ettercap pulls one creature within 30 feet of itself that is Restrained by its Web Strand up to 25 feet straight toward itself."
     }
   ],
-  "rulesText": "Medium Monstrosity, Neutral Evil\n\nAC 13\n\nInitiative +2 (12)\n\nHP 44 (8d8 + 8)\n\nSpeed 30 ft., Climb 30 ft.\n\nSkills Perception +3, Stealth +4, Survival +3\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages None\n\nCR 2 (XP 450; PB +2)\n\nTraits\n\nSpider Climb. The ettercap can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nWeb Walker. The ettercap ignores movement restrictions caused by webs, and the ettercap knows the location of any other creature in contact with the same web.\n\nActions\n\nMultiattack. The ettercap makes one Bite attack and one Claw attack.\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 2 (1d4) Poison damage, and the target has the Poisoned condition until the start of the ettercap's next turn.\n\nClaw. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Slashing damage.\n\nWeb Strand (Recharge 5–6). Dexterity Saving Throw: DC 12, one Large or smaller creature the ettercap can see within 30 feet. Failure: The target has the Restrained condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Bludgeoning, Poison, and Psychic damage).\n\nBonus Actions\n\nReel. The ettercap pulls one creature within 30 feet of itself that is Restrained by its Web Strand up to 25 feet straight toward itself.",
+  "rulesText": "Medium Monstrosity, Neutral Evil\n\nAC 13\nInitiative +2 (12)\nHP 44 (8d8 + 8)\nSpeed 30 ft., Climb 30 ft.\n\nSkills Perception +3, Stealth +4, Survival +3\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages None\nCR 2 (XP 450; PB +2)\n\nTraits\n\nSpider Climb. The ettercap can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nWeb Walker. The ettercap ignores movement restrictions caused by webs, and the ettercap knows the location of any other creature in contact with the same web.\n\nActions\n\nMultiattack. The ettercap makes one Bite attack and one Claw attack.\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 2 (1d4) Poison damage, and the target has the Poisoned condition until the start of the ettercap's next turn.\n\nClaw. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Slashing damage.\n\nWeb Strand (Recharge 5–6). Dexterity Saving Throw: DC 12, one Large or smaller creature the ettercap can see within 30 feet. Failure: The target has the Restrained condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Bludgeoning, Poison, and Psychic damage).\n\nBonus Actions\n\nReel. The ettercap pulls one creature within 30 feet of itself that is Restrained by its Web Strand up to 25 feet straight toward itself.",
   "attacks": [
     {
       "name": "Bite",

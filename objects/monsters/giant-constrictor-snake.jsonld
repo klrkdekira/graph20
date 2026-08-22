@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.31",
     "heading": "Giant Constrictor Snake",
-    "lineStart": 27944,
-    "lineEnd": 27972
+    "lineStart": 27529,
+    "lineEnd": 27554
   },
   "sizeTypeAlignment": "Huge Beast, Unaligned",
   "sizeAndType": "Huge Beast",
@@ -38,24 +38,24 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 19,
-      "modifier": 4,
-      "savingThrow": 4
+      "score": 21,
+      "modifier": 5,
+      "savingThrow": 5
     },
     "dex": {
-      "score": 14,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 9,
+      "modifier": -1,
+      "savingThrow": -1
     },
     "con": {
-      "score": 12,
-      "modifier": 1,
-      "savingThrow": 1
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "int": {
-      "score": 1,
-      "modifier": -5,
-      "savingThrow": -5
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
     },
     "wis": {
       "score": 10,
@@ -63,9 +63,9 @@
       "savingThrow": 0
     },
     "cha": {
-      "score": 3,
-      "modifier": -4,
-      "savingThrow": -4
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
     }
   },
   "statSections": [
@@ -74,7 +74,7 @@
       "rulesText": "Multiattack. The snake makes one Bite attack and uses Constrict.\n\nBite. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage.\n\nConstrict. Strength Saving Throw: DC 14, one Large or smaller creature the snake can see within 10 feet. Failure: 13 (2d8 + 4) Bludgeoning damage, and the target has the Grappled condition (escape DC 14)."
     }
   ],
-  "rulesText": "Huge Beast, Unaligned\n\nAC 12\n\nInitiative +2 (12)\n\nHP 60 (8d12 + 8)\n\nSpeed 30 ft., Swim 30 ft.\n\nSkills Perception +2\n\nSenses Blindsight 10 ft.; Passive Perception 12\n\nLanguages None\n\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The snake makes one Bite attack and uses Constrict.\n\nBite. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage.\n\nConstrict. Strength Saving Throw: DC 14, one Large or smaller creature the snake can see within 10 feet. Failure: 13 (2d8 + 4) Bludgeoning damage, and the target has the Grappled condition (escape DC 14).",
+  "rulesText": "Huge Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 60 (8d12 + 8)\nSpeed 30 ft., Swim 30 ft.\n\nSkills Perception +2\nSenses Blindsight 10 ft.; Passive Perception 12\nLanguages None\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The snake makes one Bite attack and uses Constrict.\n\nBite. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage.\n\nConstrict. Strength Saving Throw: DC 14, one Large or smaller creature the snake can see within 10 feet. Failure: 13 (2d8 + 4) Bludgeoning damage, and the target has the Grappled condition (escape DC 14).",
   "attacks": [
     {
       "name": "Bite",

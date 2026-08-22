@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-80-candle-1-cp",
+  "@type": "Rule",
+  "name": "Candle (1 CP)",
+  "slug": "6-80-candle-1-cp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.80",
+    "heading": "Candle (1 CP)",
+    "lineStart": 6598,
+    "lineEnd": 6600
+  },
+  "section": "6.80",
+  "rulesText": "For 1 hour, a lit Candle sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet."
+}

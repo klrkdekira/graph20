@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.226",
     "heading": "Sphinx of Wonder",
-    "lineStart": 25321,
-    "lineEnd": 25355
+    "lineStart": 25143,
+    "lineEnd": 25173
   },
   "sizeTypeAlignment": "Tiny Celestial, Lawful Good",
   "sizeAndType": "Tiny Celestial",
@@ -83,7 +83,7 @@
       "rulesText": "Burst of Ingenuity (2/Day). Trigger: The sphinx or another creature within 30 feet makes an ability check or a saving throw. Response: The sphinx adds 2 to the roll."
     }
   ],
-  "rulesText": "Tiny Celestial, Lawful Good\n\nAC 13\n\nInitiative +3 (13)\n\nHP 24 (7d4 + 7)\n\nSpeed 20 ft., Fly 40 ft.\n\nSkills Arcana +4, Religion +4, Stealth +5\n\nResistances Necrotic, Psychic, Radiant\n\nSenses Darkvision 60 ft.; Passive Perception 11\n\nLanguages Celestial, Common\n\nCR 1 (XP 200; PB +2)\n\nTraits\n\nMagic Resistance. The sphinx has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage plus 7 (2d6) Radiant damage.\n\nReactions\n\nBurst of Ingenuity (2/Day). Trigger: The sphinx or another creature within 30 feet makes an ability check or a saving throw. Response: The sphinx adds 2 to the roll.",
+  "rulesText": "Tiny Celestial, Lawful Good\n\nAC 13\nInitiative +3 (13)\nHP 24 (7d4 + 7)\nSpeed 20 ft., Fly 40 ft.\n\nSkills Arcana +4, Religion +4, Stealth +5\nResistances Necrotic, Psychic, Radiant\nSenses Darkvision 60 ft.; Passive Perception 11\nLanguages Celestial, Common\nCR 1 (XP 200; PB +2)\n\nTraits\n\nMagic Resistance. The sphinx has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage plus 7 (2d6) Radiant damage.\n\nReactions\n\nBurst of Ingenuity (2/Day). Trigger: The sphinx or another creature within 30 feet makes an ability check or a saving throw. Response: The sphinx adds 2 to the roll.",
   "attacks": [
     {
       "name": "Rend",

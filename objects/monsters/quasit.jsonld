@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.194",
     "heading": "Quasit",
-    "lineStart": 24215,
-    "lineEnd": 24255
+    "lineStart": 24141,
+    "lineEnd": 24176
   },
   "sizeTypeAlignment": "Tiny Fiend (Demon), Chaotic Evil",
   "sizeAndType": "Tiny Fiend (Demon)",
@@ -79,7 +79,7 @@
       "rulesText": "Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage, and the target has the Poisoned condition until the start of the quasit's next turn.\n\nInvisibility. The quasit casts Invisibility on itself, requiring no spell components and using Charisma as the spellcasting ability.\n\nScare (1/Day). Wisdom Saving Throw: DC 10, one creature within 20 feet. Failure: The target has the Frightened condition. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically.\n\nShape-Shift. The quasit shape-shifts to resemble a bat (Speed 10 ft., Fly 40 ft.), a centipede (40 ft., Climb 40 ft.), or a toad (40 ft., Swim 40 ft.), or it returns to its true form. Its game statistics are the same in each form, except for its Speed. Any equipment it is wearing or carrying isn't transformed."
     }
   ],
-  "rulesText": "Tiny Fiend (Demon), Chaotic Evil\n\nAC 13\n\nInitiative +3 (13)\n\nHP 25 (10d4)\n\nSpeed 40 ft.\n\nSkills Stealth +5\n\nResistances Cold, Fire, Lightning\n\nImmunities Poison; Poisoned\n\nSenses Darkvision 120 ft.; Passive Perception 10\n\nLanguages Abyssal, Common\n\nCR 1 (XP 200; PB +2)\n\nTraits\n\nMagic Resistance. The quasit has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage, and the target has the Poisoned condition until the start of the quasit's next turn.\n\nInvisibility. The quasit casts Invisibility on itself, requiring no spell components and using Charisma as the spellcasting ability.\n\nScare (1/Day). Wisdom Saving Throw: DC 10, one creature within 20 feet. Failure: The target has the Frightened condition. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically.\n\nShape-Shift. The quasit shape-shifts to resemble a bat (Speed 10 ft., Fly 40 ft.), a centipede (40 ft., Climb 40 ft.), or a toad (40 ft., Swim 40 ft.), or it returns to its true form. Its game statistics are the same in each form, except for its Speed. Any equipment it is wearing or carrying isn't transformed.",
+  "rulesText": "Tiny Fiend (Demon), Chaotic Evil\n\nAC 13\nInitiative +3 (13)\nHP 25 (10d4)\nSpeed 40 ft.\n\nSkills Stealth +5\nResistances Cold, Fire, Lightning\nImmunities Poison; Poisoned\nSenses Darkvision 120 ft.; Passive Perception 10\nLanguages Abyssal, Common\nCR 1 (XP 200; PB +2)\n\nTraits\n\nMagic Resistance. The quasit has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage, and the target has the Poisoned condition until the start of the quasit's next turn.\n\nInvisibility. The quasit casts Invisibility on itself, requiring no spell components and using Charisma as the spellcasting ability.\n\nScare (1/Day). Wisdom Saving Throw: DC 10, one creature within 20 feet. Failure: The target has the Frightened condition. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically.\n\nShape-Shift. The quasit shape-shifts to resemble a bat (Speed 10 ft., Fly 40 ft.), a centipede (40 ft., Climb 40 ft.), or a toad (40 ft., Swim 40 ft.), or it returns to its true form. Its game statistics are the same in each form, except for its Speed. Any equipment it is wearing or carrying isn't transformed.",
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"

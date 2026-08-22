@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.169",
     "heading": "Minotaur of Baphomet",
-    "lineStart": 23316,
-    "lineEnd": 23345
+    "lineStart": 23323,
+    "lineEnd": 23349
   },
   "sizeTypeAlignment": "Large Monstrosity, Chaotic Evil",
   "sizeAndType": "Large Monstrosity",
@@ -74,7 +74,7 @@
       "rulesText": "Abyssal Glaive. Melee Attack Roll: +6, reach 10 ft.\nHit: 10 (1d12 + 4) Slashing damage plus 10 (3d6) Necrotic damage.\n\nGore (Recharge 5–6). Melee Attack Roll: +6, reach 5 ft. Hit: 18 (4d6 + 4) Piercing damage. If the target is a Large or smaller creature and the minotaur moved 10+ feet straight toward it immediately before the hit, the target takes an extra 10 (3d6) Piercing damage and has the Prone condition."
     }
   ],
-  "rulesText": "Large Monstrosity, Chaotic Evil\n\nAC 14\n\nInitiative +0 (10)\n\nHP 85 (10d10 + 30)\n\nSpeed 40 ft.\n\nSkills Perception +7, Survival +7\n\nSenses Darkvision 60 ft.; Passive Perception 17\n\nLanguages Abyssal\n\nCR 3 (XP 700; PB +2)\n\nActions\n\nAbyssal Glaive. Melee Attack Roll: +6, reach 10 ft.\nHit: 10 (1d12 + 4) Slashing damage plus 10 (3d6) Necrotic damage.\n\nGore (Recharge 5–6). Melee Attack Roll: +6, reach 5 ft. Hit: 18 (4d6 + 4) Piercing damage. If the target is a Large or smaller creature and the minotaur moved 10+ feet straight toward it immediately before the hit, the target takes an extra 10 (3d6) Piercing damage and has the Prone condition.",
+  "rulesText": "Large Monstrosity, Chaotic Evil\n\nAC 14\nInitiative +0 (10)\nHP 85 (10d10 + 30)\nSpeed 40 ft.\n\nSkills Perception +7, Survival +7\nSenses Darkvision 60 ft.; Passive Perception 17\nLanguages Abyssal\nCR 3 (XP 700; PB +2)\n\nActions\n\nAbyssal Glaive. Melee Attack Roll: +6, reach 10 ft.\nHit: 10 (1d12 + 4) Slashing damage plus 10 (3d6) Necrotic damage.\n\nGore (Recharge 5–6). Melee Attack Roll: +6, reach 5 ft. Hit: 18 (4d6 + 4) Piercing damage. If the target is a Large or smaller creature and the minotaur moved 10+ feet straight toward it immediately before the hit, the target takes an extra 10 (3d6) Piercing damage and has the Prone condition.",
   "attacks": [
     {
       "name": "Abyssal Glaive",

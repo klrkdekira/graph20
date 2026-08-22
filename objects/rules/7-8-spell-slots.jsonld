@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.8",
     "heading": "Spell Slots",
-    "lineStart": 6281,
-    "lineEnd": 6287
+    "lineStart": 7206,
+    "lineEnd": 7212
   },
   "section": "7.8",
   "rulesText": "Spellcasting is taxing, so a spellcaster can cast only a limited number of level 1+ spells before resting. Spell slots are the main way a spellcaster's magical potential is represented. Each spellcasting class gives its members a limited number of spell slots of certain spell levels. For example, a level 3 Wizard has four level 1 spell slots and two level 2 slots.\n\nWhen you cast a spell, you expend a slot of that spell's level or higher, effectively \"filling\" a slot with the spell. Imagine a spell slot is a groove of a certain size—small for a level 1 slot and larger for a higher-level spell. A level 1 spell fits into a slot of any size, but a level 2 spell fits only into a slot that's at least level 2. So when a level 3 Wizard casts Magic Missile, a level 1 spell, that Wizard spends one of four level 1 slots and has three remaining.\n\nFinishing a Long Rest restores any expended spell slots."

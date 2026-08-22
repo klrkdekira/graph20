@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.6",
     "heading": "Baboon",
-    "lineStart": 27241,
-    "lineEnd": 27267
+    "lineStart": 26893,
+    "lineEnd": 26917
   },
   "sizeTypeAlignment": "Small Beast, Unaligned",
   "sizeAndType": "Small Beast",
@@ -76,7 +76,7 @@
       "rulesText": "Bite. Melee Attack Roll: +1, reach 5 ft. Hit: 1 (1d4 - 1) Piercing damage."
     }
   ],
-  "rulesText": "Small Beast, Unaligned\n\nAC 12\n\nInitiative +2 (12)\n\nHP 3 (1d6)\n\nSpeed 30 ft., Climb 30 ft.\n\nSenses Passive Perception 11\n\nLanguages None\n\nCR 0 (XP 10; PB +2)\n\nTraits\n\nPack Tactics. The baboon has Advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBite. Melee Attack Roll: +1, reach 5 ft. Hit: 1 (1d4 - 1) Piercing damage.",
+  "rulesText": "Small Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 3 (1d6)\nSpeed 30 ft., Climb 30 ft.\n\nSenses Passive Perception 11\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nPack Tactics. The baboon has Advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBite. Melee Attack Roll: +1, reach 5 ft. Hit: 1 (1d4 - 1) Piercing damage.",
   "attacks": [
     {
       "name": "Bite",

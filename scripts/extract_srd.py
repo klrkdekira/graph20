@@ -191,7 +191,7 @@ class Emitter:
     # -- tables ------------------------------------------------------------
 
     def extract_tables(self, block: Block, locator):
-        """Emit Table records for HTML tables in a block body.
+        """Emit Table records for Markdown and HTML tables in a block body.
 
         Returns (prose_without_table_markup, [table @ids]).
         """
@@ -199,9 +199,18 @@ class Emitter:
         prose_lines = []
         pending_caption = None
         table_index = 0
-        for offset, raw in enumerate(block.body_lines):
+        idx = 0
+        lines = block.body_lines
+        while idx < len(lines):
+            raw = lines[idx]
             line = raw.strip()
-            if line.startswith("<table>"):
+            if line.startswith("|") and line.endswith("|"):
+                tbl_lines = [line]
+                start_offset = idx
+                idx += 1
+                while idx < len(lines) and lines[idx].strip().startswith("|") and lines[idx].strip().endswith("|"):
+                    tbl_lines.append(lines[idx].strip())
+                    idx += 1
                 table_index += 1
                 caption = pending_caption
                 name = caption or f"{block.title} Table {table_index}"
@@ -212,16 +221,36 @@ class Emitter:
                     f"{locator['section'].replace('.', '-')}-{slugify(name)}",
                     dict(
                         locator,
-                        lineStart=block.line_start + offset + 1,
-                        lineEnd=block.line_start + offset + 1,
+                        lineStart=block.line_start + start_offset + 1,
+                        lineEnd=block.line_start + idx,
+                    ),
+                )
+                columns, rows = parse_markdown_table(tbl_lines)
+                table["columns"] = columns
+                table["rows"] = rows
+                table_ids.append(table["@id"])
+            elif line.startswith("<table>"):
+                table_index += 1
+                caption = pending_caption
+                name = caption or f"{block.title} Table {table_index}"
+                table = self.new_record(
+                    "tables",
+                    "Table",
+                    name,
+                    f"{locator['section'].replace('.', '-')}-{slugify(name)}",
+                    dict(
+                        locator,
+                        lineStart=block.line_start + idx + 1,
+                        lineEnd=block.line_start + idx + 1,
                     ),
                 )
                 columns, rows = parse_html_table(line)
                 table["columns"] = columns
                 table["rows"] = rows
                 table_ids.append(table["@id"])
+                idx += 1
             else:
-                if line and not line.startswith("<table>"):
+                if line and not line.startswith("<table>") and not (line.startswith("|") and line.endswith("|")):
                     stripped = line
                     pending_caption = (
                         stripped
@@ -229,6 +258,7 @@ class Emitter:
                         else None
                     )
                 prose_lines.append(raw)
+                idx += 1
         prose = "\n".join(prose_lines).strip("\n")
         prose = re.sub(r"\n{3,}", "\n\n", prose)
         return prose.strip(), table_ids
@@ -319,7 +349,7 @@ class Emitter:
             text_parts.append(f"{extra.title}\n\n{extra.body}".strip())
         # tables inside item bodies are rare; preserve them structurally
         combined = "\n\n".join(part for part in text_parts if part)
-        if "<table>" in combined:
+        if "<table>" in combined or re.search(r"(?m)^\|.*?\|$", combined):
             synthetic = Block(
                 block.title, block.line_start, line_end, combined.split("\n"), block.chapter
             )
@@ -411,7 +441,7 @@ class Emitter:
         ]
         if sections:
             record["statSections"] = sections
-        text_parts = [re.sub(r"^<table>.*</table>$", "", stat_text, flags=re.M).strip()]
+        text_parts = [re.sub(r"(?m)^\|.*?\|\s*$", "", re.sub(r"^<table>.*</table>$", "", stat_text, flags=re.M)).strip()]
         for extra in section_extras:
             text_parts.append(f"{extra.title}\n\n{extra.body}".strip())
         record["rulesText"] = re.sub(
@@ -493,16 +523,23 @@ class Emitter:
             "classes", "CharacterClass", class_name, slugify(class_name), locator
         )
         core = {}
-        table_match = TABLE_RE.search(block.body)
-        if table_match:
-            columns, rows = parse_html_table(table_match.group(0))
+        tbl_lines = [l.strip() for l in block.body_lines if l.strip().startswith("|") and l.strip().endswith("|")]
+        html_table_match = TABLE_RE.search(block.body)
+        if tbl_lines:
+            columns, rows = parse_markdown_table(tbl_lines)
+            pairs = [columns] + [[c["value"] for c in r["cells"]] for r in rows]
+            for pair in pairs:
+                if len(pair) >= 2 and pair[0] and pair[1]:
+                    core[pair[0]] = pair[1]
+        elif html_table_match:
+            columns, rows = parse_html_table(html_table_match.group(0))
             pairs = [columns] + [[c["value"] for c in r["cells"]] for r in rows]
             for pair in pairs:
                 if len(pair) == 2:
                     core[pair[0]] = pair[1]
         if core:
             record["coreTraits"] = core
-        prose_parts = [re.sub(r"^<table>.*</table>$", "", block.body, flags=re.M).strip()]
+        prose_parts = [re.sub(r"(?m)^\|.*?\|\s*$", "", re.sub(r"^<table>.*</table>$", "", block.body, flags=re.M)).strip()]
         table_ids = []
         features = []
         current_subclass = None
@@ -583,6 +620,22 @@ class Emitter:
         return index
 
 
+def parse_markdown_table(table_lines: list[str]):
+    if not table_lines:
+        return [], []
+    hdr_cells = [c.strip() for c in table_lines[0].strip().strip("|").split("|")]
+    rows = []
+    for idx, line in enumerate(table_lines[2:], start=1):
+        cells = [c.strip() for c in line.strip().strip("|").split("|")]
+        while len(cells) < len(hdr_cells):
+            cells.append("")
+        rows.append({
+            "position": idx,
+            "cells": [{"value": c} for c in cells[:len(hdr_cells)]]
+        })
+    return hdr_cells, rows
+
+
 def parse_html_table(html: str):
     rows_raw = ROW_RE.findall(html)
     parsed_rows = []
@@ -618,6 +671,31 @@ def normalize_ability_cell(token: str) -> str:
 
 
 def parse_ability_table(stat_text: str):
+    # Match markdown table first
+    m = re.search(
+        r"\|\s*STR\s*\|\s*DEX\s*\|\s*CON\s*\|\s*INT\s*\|\s*WIS\s*\|\s*CHA\s*\|[^\n]*\n\|[^\n]+\n\|([^\n]+)\n\|([^\n]+)",
+        stat_text,
+        re.I,
+    )
+    if m:
+        row1_cells = [c.strip() for c in m.group(1).strip().strip("|").split("|")]
+        row2_cells = [c.strip() for c in m.group(2).strip().strip("|").split("|")]
+        abilities_tuple = ("str", "dex", "con", "int", "wis", "cha")
+        result = {}
+        for i, ab in enumerate(abilities_tuple):
+            if i < len(row1_cells) and i < len(row2_cells):
+                cell1 = row1_cells[i]
+                cell2 = row2_cells[i]
+                m1 = re.search(r"(\d+)\s*\(([+-]?\d+)\)", cell1)
+                m2 = re.search(r"([+-]?\d+)", cell2)
+                if m1 and m2:
+                    score = int(m1.group(1))
+                    mod = int(m1.group(2))
+                    save = int(m2.group(1))
+                    result[ab] = {"score": score, "modifier": mod, "savingThrow": save}
+        if len(result) == 6:
+            return result
+
     match = TABLE_RE.search(stat_text)
     if not match:
         return None
@@ -907,7 +985,7 @@ def build_equipment(emitter: Emitter):
         group = None
         for row in table["rows"]:
             cells = [c["value"] for c in row["cells"]]
-            if len(cells) == 1:
+            if len(cells) == 1 or (len(cells) == 6 and not any(cells[1:])):
                 group = cells[0]
                 continue
             if len(cells) != 6:
@@ -939,9 +1017,9 @@ def build_equipment(emitter: Emitter):
         note = None
         for row in table["rows"]:
             cells = [c["value"] for c in row["cells"]]
-            if len(cells) == 1:
+            if len(cells) == 1 or (len(cells) == 6 and not any(cells[1:])):
                 m = re.match(r"^(.*?)\s*(?:\((.+)\))?$", cells[0])
-                group, note = m.group(1), m.group(2)
+                group, note = (m.group(1), m.group(2)) if m else (cells[0], None)
                 continue
             if len(cells) != 6:
                 continue

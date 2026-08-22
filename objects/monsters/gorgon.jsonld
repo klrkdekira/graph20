@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.114",
     "heading": "Gorgon",
-    "lineStart": 21423,
-    "lineEnd": 21457
+    "lineStart": 21604,
+    "lineEnd": 21634
   },
   "sizeTypeAlignment": "Large Construct, Unaligned",
   "sizeAndType": "Large Construct",
@@ -79,7 +79,7 @@
       "rulesText": "Trample. Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 16 (2d10 + 5) Bludgeoning damage. Success: Half damage."
     }
   ],
-  "rulesText": "Large Construct, Unaligned\n\nAC 19\n\nInitiative +0 (10)\n\nHP 114 (12d10 + 48)\n\nSpeed 40 ft.\n\nSkills Perception +7\n\nImmunities Exhaustion, Petrified\n\nSenses Darkvision 60 ft.; Passive Perception 17\n\nLanguages None\n\nCR 5 (XP 1,800; PB +3)\n\nActions\n\nGore. Melee Attack Roll: +8, reach 5 ft. Hit: 18 (2d12 + 5) Piercing damage. If the target is a Large or smaller creature and the gorgon moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.\n\nPetrifying Breath (Recharge 5–6). Constitution Saving Throw: DC 15, each creature in a 30-foot Cone. First Failure: The target has the Restrained condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. Second Failure: The target has the Petrified condition instead of the Restrained condition.\n\nBonus Actions\n\nTrample. Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 16 (2d10 + 5) Bludgeoning damage. Success: Half damage.",
+  "rulesText": "Large Construct, Unaligned\n\nAC 19\nInitiative +0 (10)\nHP 114 (12d10 + 48)\nSpeed 40 ft.\n\nSkills Perception +7\nImmunities Exhaustion, Petrified\nSenses Darkvision 60 ft.; Passive Perception 17\nLanguages None\nCR 5 (XP 1,800; PB +3)\n\nActions\n\nGore. Melee Attack Roll: +8, reach 5 ft. Hit: 18 (2d12 + 5) Piercing damage. If the target is a Large or smaller creature and the gorgon moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.\n\nPetrifying Breath (Recharge 5–6). Constitution Saving Throw: DC 15, each creature in a 30-foot Cone. First Failure: The target has the Restrained condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. Second Failure: The target has the Petrified condition instead of the Restrained condition.\n\nBonus Actions\n\nTrample. Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 16 (2d10 + 5) Bludgeoning damage. Success: Half damage.",
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/exhaustion"

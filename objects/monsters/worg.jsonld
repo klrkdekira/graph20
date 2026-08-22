@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.267",
     "heading": "Worg",
-    "lineStart": 26917,
-    "lineEnd": 26943
+    "lineStart": 26598,
+    "lineEnd": 26621
   },
   "sizeTypeAlignment": "Large Fey, Neutral Evil",
   "sizeAndType": "Large Fey",
@@ -74,7 +74,7 @@
       "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage, and the next attack roll made against the target before the start of the worg's next turn has Advantage."
     }
   ],
-  "rulesText": "Large Fey, Neutral Evil\n\nAC 13\n\nInitiative +1 (11)\n\nHP 26 (4d10 + 4)\n\nSpeed 50 ft.\n\nSkills Perception +4\n\nSenses Darkvision 60 ft.; Passive Perception 14\n\nLanguages Goblin, Worg\n\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage, and the next attack roll made against the target before the start of the worg's next turn has Advantage.",
+  "rulesText": "Large Fey, Neutral Evil\n\nAC 13\nInitiative +1 (11)\nHP 26 (4d10 + 4)\nSpeed 50 ft.\n\nSkills Perception +4\nSenses Darkvision 60 ft.; Passive Perception 14\nLanguages Goblin, Worg\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage, and the next attack roll made against the target before the start of the worg's next turn has Advantage.",
   "attacks": [
     {
       "name": "Bite",

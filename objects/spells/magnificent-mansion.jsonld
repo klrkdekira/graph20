@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.230",
     "heading": "Magnificent Mansion",
-    "lineStart": 10209,
-    "lineEnd": 10229
+    "lineStart": 10571,
+    "lineEnd": 10588
   },
   "level": 7,
   "school": "Conjuration",
@@ -24,7 +24,7 @@
   "range": "300 feet",
   "components": "V, S, M (a miniature door worth 15+ GP)",
   "duration": "24 hours",
-  "rulesText": "Level 7 Conjuration (Bard, Wizard)\n\nCasting Time: 1 minute\n\nRange: 300 feet\n\nComponents: V, S, M (a miniature door worth 15+ GP)\n\nDuration: 24 hours\n\nYou conjure a shimmering door in range that lasts for the duration. The door leads to an extradimensional dwelling and is 5 feet wide and 10 feet tall. You and any creature you designate when you cast the spell can enter the extradimensional dwelling as long as the door remains open. You can open or close it (no action required) if you are within 30 feet of it. While closed, the door is imperceptible.\n\nBeyond the door is a magnificent foyer with numerous chambers beyond. The dwelling's atmosphere is clean, fresh, and warm.\n\nYou can create any floor plan you like for the dwelling, but it can't exceed 50 contiguous 10-foot Cubes. The place is furnished and decorated as you choose. It contains sufficient food to serve a nine-course banquet for up to 100 people. Furnishings and other objects created by this spell dissipate into smoke if removed from it.\n\nA staff of 100 near-transparent servants attends all who enter. You determine the appearance of these servants and their attire. They are invulnerable and obey your commands. Each servant can perform tasks that a human could perform, but they can't attack or take any action that would directly harm another creature. Thus the servants can fetch things, clean, mend, fold clothes, light fires, serve food, pour wine, and so on. The servants can't leave the dwelling.\n\nWhen the spell ends, any creatures or objects left inside the extradimensional space are expelled into the unoccupied spaces nearest to the entrance.",
+  "rulesText": "Level 7 Conjuration (Bard, Wizard)\n\nCasting Time: 1 minute\nRange: 300 feet\nComponents: V, S, M (a miniature door worth 15+ GP)\nDuration: 24 hours\n\nYou conjure a shimmering door in range that lasts for the duration. The door leads to an extradimensional dwelling and is 5 feet wide and 10 feet tall. You and any creature you designate when you cast the spell can enter the extradimensional dwelling as long as the door remains open. You can open or close it (no action required) if you are within 30 feet of it. While closed, the door is imperceptible.\n\nBeyond the door is a magnificent foyer with numerous chambers beyond. The dwelling's atmosphere is clean, fresh, and warm.\n\nYou can create any floor plan you like for the dwelling, but it can't exceed 50 contiguous 10-foot Cubes. The place is furnished and decorated as you choose. It contains sufficient food to serve a nine-course banquet for up to 100 people. Furnishings and other objects created by this spell dissipate into smoke if removed from it.\n\nA staff of 100 near-transparent servants attends all who enter. You determine the appearance of these servants and their attire. They are invulnerable and obey your commands. Each servant can perform tasks that a human could perform, but they can't attack or take any action that would directly harm another creature. Thus the servants can fetch things, clean, mend, fold clothes, light fires, serve food, pour wine, and so on. The servants can't leave the dwelling.\n\nWhen the spell ends, any creatures or objects left inside the extradimensional space are expelled into the unoccupied spaces nearest to the entrance.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

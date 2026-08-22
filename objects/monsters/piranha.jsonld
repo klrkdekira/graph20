@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.69",
     "heading": "Piranha",
-    "lineStart": 29097,
-    "lineEnd": 29123
+    "lineStart": 28573,
+    "lineEnd": 28597
   },
   "sizeTypeAlignment": "Tiny Beast, Unaligned",
   "sizeAndType": "Tiny Beast",
@@ -77,5 +77,5 @@
       "rulesText": "Bite. Melee Attack Roll: +5 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 1 Piercing damage."
     }
   ],
-  "rulesText": "Tiny Beast, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 1 (1d4 - 1)\n\nSpeed 5 ft., Swim 40 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 8\n\nLanguages None\n\nCR 0 (XP 10; PB +2)\n\nTraits\n\nWater Breathing. The piranha can breathe only underwater.\n\nActions\n\nBite. Melee Attack Roll: +5 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 1 Piercing damage."
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 1 (1d4 - 1)\nSpeed 5 ft., Swim 40 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 8\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nWater Breathing. The piranha can breathe only underwater.\n\nActions\n\nBite. Melee Attack Roll: +5 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 1 Piercing damage."
 }

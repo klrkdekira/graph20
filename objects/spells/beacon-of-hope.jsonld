@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.55",
     "heading": "Beacon of Hope",
-    "lineStart": 6915,
-    "lineEnd": 6927
+    "lineStart": 7778,
+    "lineEnd": 7787
   },
   "level": 3,
   "school": "Abjuration",
@@ -23,7 +23,7 @@
   "range": "30 feet",
   "components": "V, S",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Level 3 Abjuration (Cleric)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V, S\n\nDuration: Concentration, up to 1 minute\n\nChoose any number of creatures within range. For the duration, each target has Advantage on Wisdom saving throws and Death Saving Throws and regains the maximum number of Hit Points possible from any healing.",
+  "rulesText": "Level 3 Abjuration (Cleric)\n\nCasting Time: Action\nRange: 30 feet\nComponents: V, S\nDuration: Concentration, up to 1 minute\n\nChoose any number of creatures within range. For the duration, each target has Advantage on Wisdom saving throws and Death Saving Throws and regains the maximum number of Hit Points possible from any healing.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"

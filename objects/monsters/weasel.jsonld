@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.95",
     "heading": "Weasel",
-    "lineStart": 29865,
-    "lineEnd": 29889
+    "lineStart": 29263,
+    "lineEnd": 29284
   },
   "sizeTypeAlignment": "Tiny Beast, Unaligned",
   "sizeAndType": "Tiny Beast",
@@ -38,24 +38,24 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 3,
-      "modifier": -4,
-      "savingThrow": -4
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
     },
     "dex": {
-      "score": 16,
+      "score": 17,
       "modifier": 3,
       "savingThrow": 3
     },
     "con": {
-      "score": 8,
-      "modifier": -1,
-      "savingThrow": -1
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
     },
     "int": {
-      "score": 2,
-      "modifier": -4,
-      "savingThrow": -4
+      "score": 4,
+      "modifier": -3,
+      "savingThrow": -3
     },
     "wis": {
       "score": 12,
@@ -63,9 +63,9 @@
       "savingThrow": 1
     },
     "cha": {
-      "score": 3,
-      "modifier": -4,
-      "savingThrow": -4
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
     }
   },
   "statSections": [
@@ -74,5 +74,5 @@
       "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 1 Piercing damage."
     }
   ],
-  "rulesText": "Tiny Beast, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 1 (1d4 - 1)\n\nSpeed 30 ft., Climb 30 ft.\n\nSkills Acrobatics +5, Perception +3, Stealth +5\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages None\n\nCR 0 (XP 10; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 1 Piercing damage."
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 1 (1d4 - 1)\nSpeed 30 ft., Climb 30 ft.\n\nSkills Acrobatics +5, Perception +3, Stealth +5\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages None\nCR 0 (XP 10; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 1 Piercing damage."
 }

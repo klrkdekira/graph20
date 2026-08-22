@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.13",
     "heading": "Fighter",
-    "lineStart": 3038,
-    "lineEnd": 3170
+    "lineStart": 2887,
+    "lineEnd": 3047
   },
   "coreTraits": {
     "Primary Ability": "Strength or Dexterity",
@@ -21,7 +21,7 @@
     "Skill Proficiencies": "Choose 2: Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Persuasion, Perception, or Survival",
     "Weapon Proficiencies": "Simple and Martial weapons",
     "Armor Training": "Light, Medium, and Heavy armor and Shields",
-    "Starting Equipment": "Choose A, B, or C: (A) Chain Mail, Greatsword, Flail, 8 Javelins, Dungeoneer’s Pack, and 4 GP; (B) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Dungeoneer’s Pack, and II GP; or (C) 155 GP"
+    "Starting Equipment": "Choose A, B, or C: (A) Chain Mail, Greatsword, Flail, 8 Javelins, Dungeoneer’s Pack, and 4 GP; (B) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Dungeoneer’s Pack, and 11 GP; or (C) 155 GP"
   },
   "subclasses": [
     {
@@ -110,5 +110,5 @@
       "rulesText": "You can attack four times instead of once whenever you take the Attack action on your turn."
     }
   ],
-  "rulesText": "Core Fighter Traits\n\nBecoming a Fighter ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Fighter Traits table.  \n- Gain the Fighter's level 1 features, which are listed in the Fighter Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Fighter Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.  \n- Gain the Fighter's level 1 features, which are listed in the Fighter Features table.\n\nFighter Class Features\n\nAs a Fighter, you gain the following class features when you reach the specified Fighter levels. These features are listed on the Fighter Features table."
+  "rulesText": "Core Fighter Traits\n\nBecoming a Fighter ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Fighter Traits table.\n- Gain the Fighter's level 1 features, which are listed in the Fighter Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Fighter Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.\n- Gain the Fighter's level 1 features, which are listed in the Fighter Features table.\n\nFighter Class Features\n\nAs a Fighter, you gain the following class features when you reach the specified Fighter levels. These features are listed on the Fighter Features table."
 }

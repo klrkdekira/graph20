@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.311",
     "heading": "Sleep",
-    "lineStart": 11646,
-    "lineEnd": 11660
+    "lineStart": 11788,
+    "lineEnd": 11799
   },
   "level": 1,
   "school": "Enchantment",
@@ -25,7 +25,7 @@
   "range": "60 feet",
   "components": "V, S, M (a pinch of sand or rose petals)",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Level 1 Enchantment (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S, M (a pinch of sand or rose petals)\n\nDuration: Concentration, up to 1 minute\n\nEach creature of your choice in a 5-foot-radius Sphere centered on a point within range must succeed on a Wisdom saving throw or have the Incapacitated condition until the end of its next turn, at which point it must repeat the save. If the target fails the second save, the target has the Unconscious condition for the duration. The spell ends on a target if it takes damage or someone within 5 feet of it takes an action to shake it out of the spell's effect.\n\nCreatures that don't sleep, such as elves, or that have Immunity to the Exhaustion condition automatically succeed on saves against this spell.",
+  "rulesText": "Level 1 Enchantment (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\nRange: 60 feet\nComponents: V, S, M (a pinch of sand or rose petals)\nDuration: Concentration, up to 1 minute\n\nEach creature of your choice in a 5-foot-radius Sphere centered on a point within range must succeed on a Wisdom saving throw or have the Incapacitated condition until the end of its next turn, at which point it must repeat the save. If the target fails the second save, the target has the Unconscious condition for the duration. The spell ends on a target if it takes damage or someone within 5 feet of it takes an action to shake it out of the spell's effect.\n\nCreatures that don't sleep, such as elves, or that have Immunity to the Exhaustion condition automatically succeed on saves against this spell.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

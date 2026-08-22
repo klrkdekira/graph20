@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.70",
     "heading": "Charm Person",
-    "lineStart": 7176,
-    "lineEnd": 7190
+    "lineStart": 7994,
+    "lineEnd": 8005
   },
   "level": 1,
   "school": "Enchantment",
@@ -27,7 +27,7 @@
   "range": "30 feet",
   "components": "V, S",
   "duration": "1 hour",
-  "rulesText": "Level 1 Enchantment (Bard, Druid, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V, S\n\nDuration: 1 hour\n\nOne Humanoid you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the Charmed condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1.",
+  "rulesText": "Level 1 Enchantment (Bard, Druid, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\nRange: 30 feet\nComponents: V, S\nDuration: 1 hour\n\nOne Humanoid you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the Charmed condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

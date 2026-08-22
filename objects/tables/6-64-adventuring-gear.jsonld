@@ -11,8 +11,8 @@
     "chapter": "Equipment",
     "section": "6.64",
     "heading": "Ammunition (Varies)",
-    "lineStart": 5685,
-    "lineEnd": 5685
+    "lineStart": 6430,
+    "lineEnd": 6472
   },
   "columns": [
     "Item",
@@ -38,7 +38,7 @@
       "position": 2,
       "cells": [
         {
-          "value": "Alchemist&#x27;s Fire"
+          "value": "Alchemist’s Fire"
         },
         {
           "value": "1 lb."
@@ -248,7 +248,7 @@
       "position": 17,
       "cells": [
         {
-          "value": "Burglar&#x27;s Pack"
+          "value": "Burglar’s Pack"
         },
         {
           "value": "42 lb."
@@ -346,7 +346,7 @@
       "position": 24,
       "cells": [
         {
-          "value": "Climber&#x27;s Kit"
+          "value": "Climber’s Kit"
         },
         {
           "value": "12 lb."
@@ -374,7 +374,7 @@
       "position": 26,
       "cells": [
         {
-          "value": "Clothes, Traveler&#x27;s"
+          "value": "Clothes, Traveler’s"
         },
         {
           "value": "4 lb."
@@ -430,7 +430,7 @@
       "position": 30,
       "cells": [
         {
-          "value": "Diplomat&#x27;s Pack"
+          "value": "Diplomat’s Pack"
         },
         {
           "value": "39 lb."
@@ -458,7 +458,7 @@
       "position": 32,
       "cells": [
         {
-          "value": "Dungeoneer&#x27;s Pack"
+          "value": "Dungeoneer’s Pack"
         },
         {
           "value": "55 lb."
@@ -472,10 +472,10 @@
       "position": 33,
       "cells": [
         {
-          "value": "Entertainer&#x27;s Pack"
+          "value": "Entertainer’s Pack"
         },
         {
-          "value": "$58\\frac{1}{2}$ lb."
+          "value": "58 1/2 lb."
         },
         {
           "value": "40 GP"
@@ -486,7 +486,7 @@
       "position": 34,
       "cells": [
         {
-          "value": "Explorer&#x27;s Pack"
+          "value": "Explorer’s Pack"
         },
         {
           "value": "55 lb."
@@ -528,7 +528,7 @@
       "position": 37,
       "cells": [
         {
-          "value": "Healer&#x27;s Kit"
+          "value": "Healer’s Kit"
         },
         {
           "value": "3 lb."

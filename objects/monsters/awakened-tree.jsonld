@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.12",
     "heading": "Awakened Tree",
-    "lineStart": 17873,
-    "lineEnd": 17899
+    "lineStart": 18373,
+    "lineEnd": 18396
   },
   "sizeTypeAlignment": "Huge Plant, Neutral",
   "sizeAndType": "Huge Plant",
@@ -75,7 +75,7 @@
       "rulesText": "Slam. Melee Attack Roll: +6, reach 10 ft. Hit: 14 (3d6 + 4) Bludgeoning damage."
     }
   ],
-  "rulesText": "Huge Plant, Neutral\n\nAC 13\n\nInitiative -2 (8)\n\nHP 59 (7d12 + 14)\n\nSpeed 20 ft.\n\nVulnerabilities Fire\nResistances Bludgeoning, Piercing\n\nSenses Passive Perception 10\n\nLanguages Common plus one other language\n\nCR 2 (XP 450; PB +2)\n\nActions\n\nSlam. Melee Attack Roll: +6, reach 10 ft. Hit: 14 (3d6 + 4) Bludgeoning damage.",
+  "rulesText": "Huge Plant, Neutral\n\nAC 13\nInitiative -2 (8)\nHP 59 (7d12 + 14)\nSpeed 20 ft.\n\nVulnerabilities Fire\nResistances Bludgeoning, Piercing\nSenses Passive Perception 10\nLanguages Common plus one other language\nCR 2 (XP 450; PB +2)\n\nActions\n\nSlam. Melee Attack Roll: +6, reach 10 ft. Hit: 14 (3d6 + 4) Bludgeoning damage.",
   "attacks": [
     {
       "name": "Slam",

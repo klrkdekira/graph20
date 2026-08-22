@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.137",
     "heading": "Etherealness",
-    "lineStart": 8442,
-    "lineEnd": 8462
+    "lineStart": 9083,
+    "lineEnd": 9100
   },
   "level": 7,
   "school": "Conjuration",
@@ -27,7 +27,7 @@
   "range": "Self",
   "components": "V, S",
   "duration": "Up to 8 hours",
-  "rulesText": "Level 7 Conjuration (Bard, Cleric, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S\n\nDuration: Up to 8 hours\n\nYou step into the border regions of the Ethereal Plane, where it overlaps with your current plane. You remain in the Border Ethereal for the duration. During this time, you can move in any direction. If you move up or down, every foot of movement costs an extra foot. You can perceive the plane you left, which looks gray, and you can't see anything there more than 60 feet away.\n\nWhile on the Ethereal Plane, you can affect and be affected only by creatures, objects, and effects on that plane. Creatures that aren't on the Ethereal Plane can't perceive or interact with you unless a feature gives them the ability to do so.\n\nWhen the spell ends, you return to the plane you left in the spot that corresponds to your space in the Border Ethereal. If you appear in an occupied space, you are shunted to the nearest unoccupied space and take Force damage equal to twice the number of feet you are moved.\n\nThis spell ends instantly if you cast it while you are on the Ethereal Plane or a plane that doesn't border it, such as one of the Outer Planes.\n\nUsing a Higher-Level Spell Slot. You can target up to three willing creatures (including yourself) for each spell slot level above 7. The creatures must be within 10 feet of you when you cast the spell.",
+  "rulesText": "Level 7 Conjuration (Bard, Cleric, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\nRange: Self\nComponents: V, S\nDuration: Up to 8 hours\n\nYou step into the border regions of the Ethereal Plane, where it overlaps with your current plane. You remain in the Border Ethereal for the duration. During this time, you can move in any direction. If you move up or down, every foot of movement costs an extra foot. You can perceive the plane you left, which looks gray, and you can't see anything there more than 60 feet away.\n\nWhile on the Ethereal Plane, you can affect and be affected only by creatures, objects, and effects on that plane. Creatures that aren't on the Ethereal Plane can't perceive or interact with you unless a feature gives them the ability to do so.\n\nWhen the spell ends, you return to the plane you left in the spot that corresponds to your space in the Border Ethereal. If you appear in an occupied space, you are shunted to the nearest unoccupied space and take Force damage equal to twice the number of feet you are moved.\n\nThis spell ends instantly if you cast it while you are on the Ethereal Plane or a plane that doesn't border it, such as one of the Outer Planes.\n\nUsing a Higher-Level Spell Slot. You can target up to three willing creatures (including yourself) for each spell slot level above 7. The creatures must be within 10 feet of you when you cast the spell.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

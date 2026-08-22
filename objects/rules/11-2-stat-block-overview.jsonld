@@ -11,8 +11,8 @@
     "chapter": "Monsters",
     "section": "11.2",
     "heading": "Stat Block Overview",
-    "lineStart": 17330,
-    "lineEnd": 17348
+    "lineStart": 17821,
+    "lineEnd": 17839
   },
   "section": "11.2",
   "rulesText": "A monster has a stat block that contains the rules necessary to use it in the game. Stat blocks are divided into the following parts:\n\nName and General Details. The name of the monster is followed by its size, creature type (along with any descriptive tags), and alignment.\n\nCombat Highlights. Armor Class, Hit Points, Speed, and Initiative are provided here.\n\nAbility Scores. A monster's ability scores, ability modifiers, and saving throws are listed here.\n\nOther Details. The monster's Senses, Languages, and CR entries appear here. Additional details appear in some monsters, such as skill proficiencies, Resistances, Immunities, and Gear. If a monster lacks those details, entries for them don't appear.\n\nTraits. Monster characteristics that are active at all times or during certain situations appear here.\n\nActions. The monster can take the actions here in addition to those in “Playing the Game.”\n\nBonus Actions. This section provides a monster's Bonus Actions, if any.\n\nReactions and Legendary Actions. These sections provide Reactions and Legendary Actions, if any."

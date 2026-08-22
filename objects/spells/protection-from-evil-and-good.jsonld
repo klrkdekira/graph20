@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.275",
     "heading": "Protection from Evil and Good",
-    "lineStart": 11042,
-    "lineEnd": 11054
+    "lineStart": 11278,
+    "lineEnd": 11287
   },
   "level": 1,
   "school": "Abjuration",
@@ -27,7 +27,7 @@
   "range": "Touch",
   "components": "V, S, M (a flask of Holy Water worth 25+ GP, which the spell consumes)",
   "duration": "Concentration up to 10 minutes",
-  "rulesText": "Level 1 Abjuration (Cleric, Druid, Paladin, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (a flask of Holy Water worth 25+ GP, which the spell consumes)\n\nDuration: Concentration up to 10 minutes\n\nUntil the spell ends, one willing creature you touch is protected against creatures that are Aberrations, Celestials, Elementals, Fey, Fiends, or Undead. The protection grants several benefits. Creatures of those types have Disadvantage on attack rolls against the target. The target also can't be possessed by or gain the Charmed or Frightened conditions from them. If the target is already possessed, Charmed, or Frightened by such a creature, the target has Advantage on any new saving throw against the relevant effect.",
+  "rulesText": "Level 1 Abjuration (Cleric, Druid, Paladin, Warlock, Wizard)\n\nCasting Time: Action\nRange: Touch\nComponents: V, S, M (a flask of Holy Water worth 25+ GP, which the spell consumes)\nDuration: Concentration up to 10 minutes\n\nUntil the spell ends, one willing creature you touch is protected against creatures that are Aberrations, Celestials, Elementals, Fey, Fiends, or Undead. The protection grants several benefits. Creatures of those types have Disadvantage on attack rolls against the target. The target also can't be possessed by or gain the Charmed or Frightened conditions from them. If the target is already possessed, Charmed, or Frightened by such a creature, the target has Advantage on any new saving throw against the relevant effect.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.186",
     "heading": "Pirate Captain",
-    "lineStart": 23910,
-    "lineEnd": 23948
+    "lineStart": 23863,
+    "lineEnd": 23897
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -83,7 +83,7 @@
       "rulesText": "Riposte. Trigger: The pirate is hit by a melee attack roll while holding a weapon. Response: The pirate adds 3 to its AC against that attack, possibly causing it to miss. On a miss, the pirate makes one Rapier attack against the triggering creature if within range."
     }
   ],
-  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 17\n\nInitiative +7 (17)\n\nHP 84 (13d8 + 26)\n\nSpeed 30 ft.\n\nSkills Acrobatics +7, Perception +5\n\nGear Pistol, Rapier\n\nSenses Passive Perception 15\n\nLanguages Common plus one other language\n\nCR 6 (XP 2,300; PB +3)\n\nActions\n\nMultiattack. The pirate makes three attacks, using Rapier or Pistol in any combination.\n\nRapier. Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Piercing damage, and the pirate has Advantage on the next attack roll it makes before the end of this turn.\n\nPistol. Ranged Attack Roll: +7, range 30/90 ft. Hit: 15 (2d10 + 4) Piercing damage.\n\nBonus Actions\n\nCaptain's Charm. Wisdom Saving Throw: DC 14, one creature the pirate can see within 30 feet. Failure: The target has the Charmed condition until the start of the pirate's next turn.\n\nReactions\n\nRiposte. Trigger: The pirate is hit by a melee attack roll while holding a weapon. Response: The pirate adds 3 to its AC against that attack, possibly causing it to miss. On a miss, the pirate makes one Rapier attack against the triggering creature if within range.",
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 17\nInitiative +7 (17)\nHP 84 (13d8 + 26)\nSpeed 30 ft.\n\nSkills Acrobatics +7, Perception +5\nGear Pistol, Rapier\nSenses Passive Perception 15\nLanguages Common plus one other language\nCR 6 (XP 2,300; PB +3)\n\nActions\n\nMultiattack. The pirate makes three attacks, using Rapier or Pistol in any combination.\n\nRapier. Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Piercing damage, and the pirate has Advantage on the next attack roll it makes before the end of this turn.\n\nPistol. Ranged Attack Roll: +7, range 30/90 ft. Hit: 15 (2d10 + 4) Piercing damage.\n\nBonus Actions\n\nCaptain's Charm. Wisdom Saving Throw: DC 14, one creature the pirate can see within 30 feet. Failure: The target has the Charmed condition until the start of the pirate's next turn.\n\nReactions\n\nRiposte. Trigger: The pirate is hit by a melee attack roll while holding a weapon. Response: The pirate adds 3 to its AC against that attack, possibly causing it to miss. On a miss, the pirate makes one Rapier attack against the triggering creature if within range.",
   "attacks": [
     {
       "name": "Rapier",

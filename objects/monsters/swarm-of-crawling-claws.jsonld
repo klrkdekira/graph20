@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.69",
     "heading": "Swarm of Crawling Claws",
-    "lineStart": 19811,
-    "lineEnd": 19841
+    "lineStart": 20142,
+    "lineEnd": 20168
   },
   "sizeTypeAlignment": "Medium Swarm of Tiny Undead, Neutral Evil",
   "sizeAndType": "Medium Swarm of Tiny Undead",
@@ -78,7 +78,7 @@
       "rulesText": "Swarm of Grasping Hands. Melee Attack Roll: +4, reach 5 ft. Hit: 20 (4d8 + 2) Necrotic damage, or 11 (2d8 + 2) Necrotic damage if the swarm is Bloodied. If the target is a Medium or smaller creature, it has the Prone condition."
     }
   ],
-  "rulesText": "Medium Swarm of Tiny Undead, Neutral Evil\n\nAC 12\n\nInitiative +2 (12)\n\nHP 49 (11d8)\n\nSpeed 30 ft., Climb 30 ft.\n\nResistances Bludgeoning, Piercing, Slashing\n\nImmunities Necrotic, Poison; Charmed, Exhaustion, Frightened, Grappled, Incapacitated, Paralyzed, Petrified, Poisoned, Prone, Restrained, Stunned\n\nSenses Blindsight 30 ft.; Passive Perception 10\n\nLanguages Understands Common but can't speak\n\nCR 3 (XP 700; PB +2)\n\nTraits\n\nSwarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny creature. The swarm can't regain Hit Points or gain Temporary Hit Points.\n\nActions\n\nSwarm of Grasping Hands. Melee Attack Roll: +4, reach 5 ft. Hit: 20 (4d8 + 2) Necrotic damage, or 11 (2d8 + 2) Necrotic damage if the swarm is Bloodied. If the target is a Medium or smaller creature, it has the Prone condition.",
+  "rulesText": "Medium Swarm of Tiny Undead, Neutral Evil\n\nAC 12\nInitiative +2 (12)\nHP 49 (11d8)\nSpeed 30 ft., Climb 30 ft.\n\nResistances Bludgeoning, Piercing, Slashing\nImmunities Necrotic, Poison; Charmed, Exhaustion, Frightened, Grappled, Incapacitated, Paralyzed, Petrified, Poisoned, Prone, Restrained, Stunned\nSenses Blindsight 30 ft.; Passive Perception 10\nLanguages Understands Common but can't speak\nCR 3 (XP 700; PB +2)\n\nTraits\n\nSwarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny creature. The swarm can't regain Hit Points or gain Temporary Hit Points.\n\nActions\n\nSwarm of Grasping Hands. Melee Attack Roll: +4, reach 5 ft. Hit: 20 (4d8 + 2) Necrotic damage, or 11 (2d8 + 2) Necrotic damage if the swarm is Bloodied. If the target is a Medium or smaller creature, it has the Prone condition.",
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"

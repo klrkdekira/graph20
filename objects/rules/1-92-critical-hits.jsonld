@@ -11,8 +11,8 @@
     "chapter": "Playing the Game",
     "section": "1.92",
     "heading": "Critical Hits",
-    "lineStart": 1606,
-    "lineEnd": 1608
+    "lineStart": 755,
+    "lineEnd": 757
   },
   "section": "1.92",
   "rulesText": "When you score a Critical Hit, you deal extra damage. Roll the attack's damage dice twice, add them together, and add any relevant modifiers as normal. For example, if you score a Critical Hit with a Dagger, roll 2d4 for the damage rather than 1d4, and add your relevant ability modifier. If the attack involves other damage dice, such as from the Rogue's Sneak Attack feature, you also roll those dice twice."

@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.265",
     "heading": "Power Word Stun",
-    "lineStart": 10825,
-    "lineEnd": 10839
+    "lineStart": 11082,
+    "lineEnd": 11093
   },
   "level": 8,
   "school": "Enchantment",
@@ -26,7 +26,7 @@
   "range": "60 feet",
   "components": "V",
   "duration": "Instantaneous",
-  "rulesText": "Level 8 Enchantment (Bard, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V\n\nDuration: Instantaneous\n\nYou overwhelm the mind of one creature you can see within range. If the target has 150 Hit Points or fewer, it has the Stunned condition. Otherwise, its Speed is 0 until the start of your next turn.\n\nThe Stunned target makes a Constitution saving throw at the end of each of its turns, ending the condition on itself on a success.",
+  "rulesText": "Level 8 Enchantment (Bard, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\nRange: 60 feet\nComponents: V\nDuration: Instantaneous\n\nYou overwhelm the mind of one creature you can see within range. If the target has 150 Hit Points or fewer, it has the Stunned condition. Otherwise, its Speed is 0 until the start of your next turn.\n\nThe Stunned target makes a Constitution saving throw at the end of each of its turns, ending the condition on itself on a success.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

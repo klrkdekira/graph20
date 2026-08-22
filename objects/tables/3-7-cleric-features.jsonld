@@ -11,12 +11,25 @@
     "chapter": "Classes",
     "section": "3.7",
     "heading": "Level 1: Spellcasting",
-    "lineStart": 2636,
-    "lineEnd": 2636
+    "lineStart": 2148,
+    "lineEnd": 2170
   },
   "columns": [
     "Proficiency",
-    "—Spell Slots per Spell Level—"
+    "",
+    "",
+    "Channel Divinity",
+    "Cantrips",
+    "Prepared Spells",
+    "—Spell Slots per Spell Level—",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
   ],
   "rows": [
     {
@@ -57,6 +70,15 @@
         },
         {
           "value": "9"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
         }
       ]
     },

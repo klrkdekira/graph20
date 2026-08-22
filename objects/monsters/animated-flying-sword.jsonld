@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.6",
     "heading": "Animated Flying Sword",
-    "lineStart": 17709,
-    "lineEnd": 17733
+    "lineStart": 18223,
+    "lineEnd": 18244
   },
   "sizeTypeAlignment": "Small Construct, Unaligned",
   "sizeAndType": "Small Construct",
@@ -37,19 +37,19 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 12,
-      "modifier": 1,
-      "savingThrow": 1
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "dex": {
-      "score": 15,
-      "modifier": 2,
-      "savingThrow": 4
-    },
-    "con": {
       "score": 11,
       "modifier": 0,
       "savingThrow": 0
+    },
+    "con": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
     },
     "int": {
       "score": 1,
@@ -57,14 +57,14 @@
       "savingThrow": -5
     },
     "wis": {
-      "score": 5,
-      "modifier": -3,
-      "savingThrow": -3
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
     },
     "cha": {
-      "score": 1,
-      "modifier": -5,
-      "savingThrow": -5
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
     }
   },
   "statSections": [
@@ -73,7 +73,7 @@
       "rulesText": "Slash. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage."
     }
   ],
-  "rulesText": "Small Construct, Unaligned\n\nAC 17\n\nInitiative +4 (14)\n\nHP 14 (4d6)\n\nSpeed 5 ft., Fly 50 ft. (hover)\n\nImmunities Poison, Psychic; Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned\n\nSenses Blindsight 60 ft.; Passive Perception 7\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nSlash. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage.",
+  "rulesText": "Small Construct, Unaligned\n\nAC 17\nInitiative +4 (14)\nHP 14 (4d6)\nSpeed 5 ft., Fly 50 ft. (hover)\n\nImmunities Poison, Psychic; Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned\nSenses Blindsight 60 ft.; Passive Perception 7\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nSlash. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage.",
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"

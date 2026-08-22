@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.263",
     "heading": "Power Word Heal",
-    "lineStart": 10797,
-    "lineEnd": 10809
+    "lineStart": 11060,
+    "lineEnd": 11069
   },
   "level": 9,
   "school": "Enchantment",
@@ -22,8 +22,9 @@
   ],
   "castingTime": "Action",
   "range": "60 feet",
+  "components": "V",
   "duration": "Instantaneous",
-  "rulesText": "Level 9 Enchantment (Bard, Cleric)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponent: V\n\nDuration: Instantaneous\n\nA wave of healing energy washes over one creature you can see within range. The target regains all its Hit Points. If the creature has the Charmed, Frightened, Paralyzed, Poisoned, or Stunned condition, the condition ends. If the creature has the Prone condition, it can use its Reaction to stand up.",
+  "rulesText": "Level 9 Enchantment (Bard, Cleric)\n\nCasting Time: Action\nRange: 60 feet\nComponents: V\nDuration: Instantaneous\n\nA wave of healing energy washes over one creature you can see within range. The target regains all its Hit Points. If the creature has the Charmed, Frightened, Paralyzed, Poisoned, or Stunned condition, the condition ends. If the creature has the Prone condition, it can use its Reaction to stand up.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

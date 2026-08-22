@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.302",
     "heading": "Shatter",
-    "lineStart": 11494,
-    "lineEnd": 11510
+    "lineStart": 11663,
+    "lineEnd": 11676
   },
   "level": 2,
   "school": "Evocation",
@@ -25,7 +25,7 @@
   "range": "60 feet",
   "components": "V, S, M (a chip of mica)",
   "duration": "Instantaneous",
-  "rulesText": "Level 2 Evocation (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S, M (a chip of mica)\n\nDuration: Instantaneous\n\nA loud noise erupts from a point of your choice within range. Each creature in a 10-foot-radius Sphere centered there makes a Constitution saving throw, taking 3d8 Thunder damage on a failed save or half as much damage on a successful one. A Construct has Disadvantage on the save.\n\nA nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 2.",
+  "rulesText": "Level 2 Evocation (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\nRange: 60 feet\nComponents: V, S, M (a chip of mica)\nDuration: Instantaneous\n\nA loud noise erupts from a point of your choice within range. Each creature in a 10-foot-radius Sphere centered there makes a Constitution saving throw, taking 3d8 Thunder damage on a failed save or half as much damage on a successful one. A Construct has Disadvantage on the save.\n\nA nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 2.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

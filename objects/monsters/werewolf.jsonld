@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.258",
     "heading": "Werewolf",
-    "lineStart": 26568,
-    "lineEnd": 26610
+    "lineStart": 26281,
+    "lineEnd": 26319
   },
   "sizeTypeAlignment": "Medium or Small Monstrosity (Lycanthrope), Chaotic Evil",
   "sizeAndType": "Medium or Small Monstrosity (Lycanthrope)",
@@ -39,13 +39,13 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 16,
-      "modifier": 3,
-      "savingThrow": 3
-    },
-    "dex": {
       "score": 14,
       "modifier": 2,
+      "savingThrow": 2
+    },
+    "dex": {
+      "score": 10,
+      "modifier": 0,
       "savingThrow": 2
     },
     "con": {
@@ -54,17 +54,17 @@
       "savingThrow": 2
     },
     "int": {
-      "score": 10,
-      "modifier": 0,
-      "savingThrow": 0
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
     },
     "wis": {
-      "score": 11,
+      "score": 10,
       "modifier": 0,
-      "savingThrow": 0
+      "savingThrow": 2
     },
     "cha": {
-      "score": 10,
+      "score": 11,
       "modifier": 0,
       "savingThrow": 0
     }
@@ -83,7 +83,7 @@
       "rulesText": "Shape-Shift. The werewolf shape-shifts into a Large wolf-humanoid hybrid or a Medium wolf, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed."
     }
   ],
-  "rulesText": "Medium or Small Monstrosity (Lycanthrope), Chaotic Evil\n\nAC 15\n\nInitiative +4 (14)\n\nHP 71 (11d8 + 22)\n\nSpeed 30 ft., 40 ft. (wolf form only)\n\nSkills Perception +4, Stealth +4\n\nGear Longbow\n\nSenses Darkvision 60 ft.; Passive Perception 14\n\nLanguages Common (can't speak in wolf form)\n\nCR 3 (XP 700; PB +2)\n\nTraits\n\nPack Tactics. The werewolf has Advantage on an attack roll against a creature if at least one of the werewolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nMultiattack. The werewolf makes two attacks, using Scratch or Longbow in any combination. It can replace one attack with a Bite attack.\n\nBite (Wolf or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 12. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Werewolf under the GM's control and has 10 Hit Points. Success: The target is immune to this werewolf's curse for 24 hours.\n\nScratch. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.\n\nLongbow (Humanoid or Hybrid Form Only). Ranged Attack Roll: +4, range 150/600 ft. Hit: 11 (2d8 + 2) Piercing damage.\n\nBonus Actions\n\nShape-Shift. The werewolf shape-shifts into a Large wolf-humanoid hybrid or a Medium wolf, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed.",
+  "rulesText": "Medium or Small Monstrosity (Lycanthrope), Chaotic Evil\n\nAC 15\nInitiative +4 (14)\nHP 71 (11d8 + 22)\nSpeed 30 ft., 40 ft. (wolf form only)\n\nSkills Perception +4, Stealth +4\nGear Longbow\nSenses Darkvision 60 ft.; Passive Perception 14\nLanguages Common (can't speak in wolf form)\nCR 3 (XP 700; PB +2)\n\nTraits\n\nPack Tactics. The werewolf has Advantage on an attack roll against a creature if at least one of the werewolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nMultiattack. The werewolf makes two attacks, using Scratch or Longbow in any combination. It can replace one attack with a Bite attack.\n\nBite (Wolf or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 12. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Werewolf under the GM's control and has 10 Hit Points. Success: The target is immune to this werewolf's curse for 24 hours.\n\nScratch. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.\n\nLongbow (Humanoid or Hybrid Form Only). Ranged Attack Roll: +4, range 150/600 ft. Hit: 11 (2d8 + 2) Piercing damage.\n\nBonus Actions\n\nShape-Shift. The werewolf shape-shifts into a Large wolf-humanoid hybrid or a Medium wolf, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed.",
   "attacks": [
     {
       "name": "Bite (Wolf or Hybrid Form Only)",

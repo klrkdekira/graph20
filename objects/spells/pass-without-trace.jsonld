@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.253",
     "heading": "Pass without Trace",
-    "lineStart": 10617,
-    "lineEnd": 10629
+    "lineStart": 10910,
+    "lineEnd": 10919
   },
   "level": 2,
   "school": "Abjuration",
@@ -24,7 +24,7 @@
   "range": "Self",
   "components": "V, S, M (ashes from burned mistletoe)",
   "duration": "Concentration, up to 1 hour",
-  "rulesText": "Level 2 Abjuration (Druid, Ranger)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S, M (ashes from burned mistletoe)\n\nDuration: Concentration, up to 1 hour\n\nYou radiate a concealing aura in a 30-foot Emanation for the duration. While in the aura, you and each creature you choose have a +10 bonus to Dexterity (Stealth) checks and leave no tracks.",
+  "rulesText": "Level 2 Abjuration (Druid, Ranger)\n\nCasting Time: Action\nRange: Self\nComponents: V, S, M (ashes from burned mistletoe)\nDuration: Concentration, up to 1 hour\n\nYou radiate a concealing aura in a 30-foot Emanation for the duration. While in the aura, you and each creature you choose have a +10 bonus to Dexterity (Stealth) checks and leave no tracks.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/druid"

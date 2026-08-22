@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.14",
     "heading": "Cat",
-    "lineStart": 27461,
-    "lineEnd": 27489
+    "lineStart": 27092,
+    "lineEnd": 27117
   },
   "sizeTypeAlignment": "Tiny Beast, Unaligned",
   "sizeAndType": "Tiny Beast",
@@ -77,5 +77,5 @@
       "rulesText": "Scratch. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Slashing damage."
     }
   ],
-  "rulesText": "Tiny Beast, Unaligned\n\nAC 12\n\nInitiative +2 (12)\n\nHP 2 (1d4)\n\nSpeed 40 ft., Climb 40 ft.\n\nSkills Perception +3, Stealth +4\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages None\n\nCR 0 (XP 10; PB +2)\n\nTraits\n\nJumper. The cat's jump distance is determined using its Dexterity rather than its Strength.\n\nActions\n\nScratch. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Slashing damage."
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 2 (1d4)\nSpeed 40 ft., Climb 40 ft.\n\nSkills Perception +3, Stealth +4\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nJumper. The cat's jump distance is determined using its Dexterity rather than its Strength.\n\nActions\n\nScratch. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Slashing damage."
 }

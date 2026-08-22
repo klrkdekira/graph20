@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.207",
     "heading": "Salamander",
-    "lineStart": 24675,
-    "lineEnd": 24711
+    "lineStart": 24560,
+    "lineEnd": 24593
   },
   "sizeTypeAlignment": "Large Elemental, Neutral Evil",
   "sizeAndType": "Large Elemental",
@@ -79,7 +79,7 @@
       "rulesText": "Multiattack. The salamander makes two Flame Spear attacks. It can replace one attack with a use of Constrict.\n\nFlame Spear. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft. Hit: 13 (2d8 + 4) Piercing damage plus 7 (2d6) Fire damage. Hit or Miss: The spear magically returns to the salamander's hand immediately after a ranged attack.\n\nConstrict. Strength Saving Throw: DC 15, one Large or smaller creature the salamander can see within 10 feet. Failure: 11 (2d6 + 4) Bludgeoning damage plus 7 (2d6) Fire damage. The target has the Grappled condition (escape DC 14), and it has the Restrained condition until the grapple ends."
     }
   ],
-  "rulesText": "Large Elemental, Neutral Evil\n\nAC 15\n\nInitiative +2 (12)\n\nHP 90 (12d10 + 24)\n\nSpeed 30 ft., Climb 30 ft.\n\nVulnerabilities Cold\nImmunities Fire\n\nSenses Darkvision 60 ft.; Passive Perception 10\n\nLanguages Primordial (Ignan)\n\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nFire Aura. At the end of each of the salamander's turns, each creature of the salamander's choice in a 5-foot Emanation originating from the salamander takes 7 (2d6) Fire damage.\n\nActions\n\nMultiattack. The salamander makes two Flame Spear attacks. It can replace one attack with a use of Constrict.\n\nFlame Spear. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft. Hit: 13 (2d8 + 4) Piercing damage plus 7 (2d6) Fire damage. Hit or Miss: The spear magically returns to the salamander's hand immediately after a ranged attack.\n\nConstrict. Strength Saving Throw: DC 15, one Large or smaller creature the salamander can see within 10 feet. Failure: 11 (2d6 + 4) Bludgeoning damage plus 7 (2d6) Fire damage. The target has the Grappled condition (escape DC 14), and it has the Restrained condition until the grapple ends.",
+  "rulesText": "Large Elemental, Neutral Evil\n\nAC 15\nInitiative +2 (12)\nHP 90 (12d10 + 24)\nSpeed 30 ft., Climb 30 ft.\n\nVulnerabilities Cold\nImmunities Fire\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Primordial (Ignan)\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nFire Aura. At the end of each of the salamander's turns, each creature of the salamander's choice in a 5-foot Emanation originating from the salamander takes 7 (2d6) Fire damage.\n\nActions\n\nMultiattack. The salamander makes two Flame Spear attacks. It can replace one attack with a use of Constrict.\n\nFlame Spear. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft. Hit: 13 (2d8 + 4) Piercing damage plus 7 (2d6) Fire damage. Hit or Miss: The spear magically returns to the salamander's hand immediately after a ranged attack.\n\nConstrict. Strength Saving Throw: DC 15, one Large or smaller creature the salamander can see within 10 feet. Failure: 11 (2d6 + 4) Bludgeoning damage plus 7 (2d6) Fire damage. The target has the Grappled condition (escape DC 14), and it has the Restrained condition until the grapple ends.",
   "attacks": [
     {
       "name": "Flame Spear",

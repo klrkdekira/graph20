@@ -11,12 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.174",
     "heading": "Periapt of Health",
-    "lineStart": 16100,
-    "lineEnd": 16106
+    "lineStart": 16496,
+    "lineEnd": 16502
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile wearing this pendant, you can take a Magic action to regain $2d4 + 2$ Hit Points. Once used, this property can't be used again until the next dawn.\n\nIn addition, you have Advantage on saving throws to avoid or end the Poisoned condition while you wear this pendant."
+  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile wearing this pendant, you can take a Magic action to regain 2d4 + 2 Hit Points. Once used, this property can't be used again until the next dawn.\n\nIn addition, you have Advantage on saving throws to avoid or end the Poisoned condition while you wear this pendant."
 }

@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.139",
     "heading": "Eyebite",
-    "lineStart": 8478,
-    "lineEnd": 8498
+    "lineStart": 9113,
+    "lineEnd": 9130
   },
   "level": 6,
   "school": "Necromancy",
@@ -26,7 +26,7 @@
   "range": "Self",
   "components": "V, S",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Level 6 Necromancy (Bard, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S\n\nDuration: Concentration, up to 1 minute\n\nFor the duration, your eyes become an inky void. One creature of your choice within 60 feet of you that you can see must succeed on a Wisdom saving throw or be affected by one of the following effects of your choice for the duration.\n\nOn each of your turns until the spell ends, you can take a Magic action to target another creature but can't target a creature again if it has succeeded on a save against this casting of the spell.\n\nAsleep. The target has the Unconscious condition. It wakes up if it takes any damage or if another creature takes an action to shake it awake.\n\nPanicked. The target has the Frightened condition. On each of its turns, the Frightened target must take the Dash action and move away from you by the safest and shortest route available. If the target moves to a space at least 60 feet away from you where it can't see you, this effect ends.\n\nSickened. The target has the Poisoned condition.",
+  "rulesText": "Level 6 Necromancy (Bard, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\nRange: Self\nComponents: V, S\nDuration: Concentration, up to 1 minute\n\nFor the duration, your eyes become an inky void. One creature of your choice within 60 feet of you that you can see must succeed on a Wisdom saving throw or be affected by one of the following effects of your choice for the duration.\n\nOn each of your turns until the spell ends, you can take a Magic action to target another creature but can't target a creature again if it has succeeded on a save against this casting of the spell.\n\nAsleep. The target has the Unconscious condition. It wakes up if it takes any damage or if another creature takes an action to shake it awake.\n\nPanicked. The target has the Frightened condition. On each of its turns, the Frightened target must take the Dash action and move away from you by the safest and shortest route available. If the target moves to a space at least 60 feet away from you where it can't see you, this effect ends.\n\nSickened. The target has the Poisoned condition.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

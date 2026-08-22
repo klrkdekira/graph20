@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.61",
     "heading": "Commoner",
-    "lineStart": 19551,
-    "lineEnd": 19581
+    "lineStart": 19903,
+    "lineEnd": 19930
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -77,7 +77,7 @@
       "rulesText": "Club. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage."
     }
   ],
-  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 10\n\nInitiative +0 (10)\n\nHP 4 (1d8)\n\nSpeed 30 ft.\n\nGear Club\n\nSenses Passive Perception 10\n\nLanguages Common\n\nCR 0 (XP 10; PB +2)\n\nTraits\n\nTraining. The commoner has proficiency in one skill of the GM's choice and has Advantage whenever it makes an ability check using that skill.\n\nActions\n\nClub. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage.",
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 10\nInitiative +0 (10)\nHP 4 (1d8)\nSpeed 30 ft.\n\nGear Club\nSenses Passive Perception 10\nLanguages Common\nCR 0 (XP 10; PB +2)\n\nTraits\n\nTraining. The commoner has proficiency in one skill of the GM's choice and has Advantage whenever it makes an ability check using that skill.\n\nActions\n\nClub. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage.",
   "attacks": [
     {
       "name": "Club",

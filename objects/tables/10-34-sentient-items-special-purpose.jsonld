@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.34",
     "heading": "Special Purpose",
-    "lineStart": 14652,
-    "lineEnd": 14652
+    "lineStart": 14857,
+    "lineEnd": 14868
   },
   "columns": [
     "1d10",
@@ -60,6 +60,72 @@
         },
         {
           "value": "Destiny Seeker. The item believes it and its bearer have key roles to play in future events."
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "Destroyer. The item craves destruction and goads its user to fight arbitrarily."
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "Glory Seeker. The item seeks renown as the greatest magic item in the world by winning fame or notoriety for its user."
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "Lore Seeker. The item craves knowledge or is determined to solve a mystery, learn a secret, or unravel a cryptic prophecy."
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "Protector. The item seeks to defend a particular kind of creature, such as elves or werewolves."
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "Soulmate Seeker. The item seeks another sentient magic item, perhaps one that is similar to itself."
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "Templar. The item seeks to defend the servants and interests of a particular deity."
         }
       ]
     }

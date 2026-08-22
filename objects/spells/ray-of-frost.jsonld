@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.280",
     "heading": "Ray of Frost",
-    "lineStart": 11120,
-    "lineEnd": 11134
+    "lineStart": 11341,
+    "lineEnd": 11352
   },
   "level": 0,
   "school": "Evocation",
@@ -24,7 +24,7 @@
   "range": "60 feet",
   "components": "V, S",
   "duration": "Instantaneous",
-  "rulesText": "Evocation Cantrip (Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S\n\nDuration: Instantaneous\n\nA frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 Cold damage, and its Speed is reduced by 10 feet until the start of your next turn.\n\nCantrip Upgrade. The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).",
+  "rulesText": "Evocation Cantrip (Sorcerer, Wizard)\n\nCasting Time: Action\nRange: 60 feet\nComponents: V, S\nDuration: Instantaneous\n\nA frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 Cold damage, and its Speed is reduced by 10 feet until the start of your next turn.\n\nCantrip Upgrade. The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"

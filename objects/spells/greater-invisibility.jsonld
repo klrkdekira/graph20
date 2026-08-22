@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.177",
     "heading": "Greater Invisibility",
-    "lineStart": 9250,
-    "lineEnd": 9262
+    "lineStart": 9771,
+    "lineEnd": 9780
   },
   "level": 4,
   "school": "Illusion",
@@ -25,7 +25,7 @@
   "range": "Touch",
   "components": "V, S",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Level 4 Illusion (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S\n\nDuration: Concentration, up to 1 minute\n\nA creature you touch has the Invisible condition until the spell ends.",
+  "rulesText": "Level 4 Illusion (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\nRange: Touch\nComponents: V, S\nDuration: Concentration, up to 1 minute\n\nA creature you touch has the Invisible condition until the spell ends.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

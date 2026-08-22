@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.55",
     "heading": "Hawk",
-    "lineStart": 28677,
-    "lineEnd": 28701
+    "lineStart": 28192,
+    "lineEnd": 28213
   },
   "sizeTypeAlignment": "Tiny Beast, Unaligned",
   "sizeAndType": "Tiny Beast",
@@ -38,19 +38,19 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 5,
-      "modifier": -3,
-      "savingThrow": -3
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
     },
     "dex": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "con": {
       "score": 16,
       "modifier": 3,
       "savingThrow": 3
-    },
-    "con": {
-      "score": 8,
-      "modifier": -1,
-      "savingThrow": -1
     },
     "int": {
       "score": 2,
@@ -58,14 +58,14 @@
       "savingThrow": -4
     },
     "wis": {
-      "score": 14,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
     },
     "cha": {
-      "score": 6,
-      "modifier": -2,
-      "savingThrow": -2
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
     }
   },
   "statSections": [
@@ -74,5 +74,5 @@
       "rulesText": "Talons. Melee Attack Roll: +5, reach 5 ft. Hit: 1 Slashing damage."
     }
   ],
-  "rulesText": "Tiny Beast, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 1 (1d4 - 1)\n\nSpeed 10 ft., Fly 60 ft.\n\nSkills Perception +6\n\nSenses Passive Perception 16\n\nLanguages None\n\nCR 0 (XP 10; PB +2)\n\nActions\n\nTalons. Melee Attack Roll: +5, reach 5 ft. Hit: 1 Slashing damage."
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 1 (1d4 - 1)\nSpeed 10 ft., Fly 60 ft.\n\nSkills Perception +6\nSenses Passive Perception 16\nLanguages None\nCR 0 (XP 10; PB +2)\n\nActions\n\nTalons. Melee Attack Roll: +5, reach 5 ft. Hit: 1 Slashing damage."
 }

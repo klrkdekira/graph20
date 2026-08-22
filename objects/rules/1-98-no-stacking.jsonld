@@ -11,8 +11,8 @@
     "chapter": "Playing the Game",
     "section": "1.98",
     "heading": "No Stacking",
-    "lineStart": 1632,
-    "lineEnd": 1634
+    "lineStart": 781,
+    "lineEnd": 783
   },
   "section": "1.98",
   "rulesText": "Multiple instances of Resistance or Vulnerability that affect the same damage type count as only one instance. For example, if you have Resistance to Necrotic damage as well as Resistance to all damage, Necrotic damage is reduced by half against you."

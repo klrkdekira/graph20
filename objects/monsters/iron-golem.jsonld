@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.145",
     "heading": "Iron Golem",
-    "lineStart": 22489,
-    "lineEnd": 22531
+    "lineStart": 22572,
+    "lineEnd": 22611
   },
   "sizeTypeAlignment": "Large Construct, Unaligned",
   "sizeAndType": "Large Construct",
@@ -78,7 +78,7 @@
       "rulesText": "Multiattack. The golem makes two attacks, using Bladed Arm or Fiery Bolt in any combination.\n\nBladed Arm. Melee Attack Roll: +12, reach 10 ft.\nHit: 20 (3d8 + 7) Slashing damage plus 10 (3d6) Fire damage.\n\nFiery Bolt. Ranged Attack Roll: +10, range 120 ft. Hit: 36 (8d8) Fire damage.\n\nPoison Breath (Recharge 6). Constitution Saving\nThrow: DC 18, each creature in a 60-foot Cone. Failure: 55 (10d10) Poison damage. Success: Half damage."
     }
   ],
-  "rulesText": "Large Construct, Unaligned\n\nAC 20\n\nInitiative +9 (19)\n\nHP 252 (24d10 + 120)\n\nSpeed 30 ft.\n\nImmunities Fire, Poison, Psychic; Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned\n\nSenses Darkvision 120 ft.; Passive Perception 10\n\nLanguages Understands Common plus two other languages but can't speak\n\nCR 16 (XP 15,000; PB +5)\n\nTraits\n\nFire Absorption. Whenever the golem is subjected to Fire damage, it regains a number of Hit Points equal to the Fire damage dealt.\n\nImmutable Form. The golem can't shape-shift.\n\nMagic Resistance. The golem has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The golem makes two attacks, using Bladed Arm or Fiery Bolt in any combination.\n\nBladed Arm. Melee Attack Roll: +12, reach 10 ft.\nHit: 20 (3d8 + 7) Slashing damage plus 10 (3d6) Fire damage.\n\nFiery Bolt. Ranged Attack Roll: +10, range 120 ft. Hit: 36 (8d8) Fire damage.\n\nPoison Breath (Recharge 6). Constitution Saving\nThrow: DC 18, each creature in a 60-foot Cone. Failure: 55 (10d10) Poison damage. Success: Half damage.",
+  "rulesText": "Large Construct, Unaligned\n\nAC 20\nInitiative +9 (19)\nHP 252 (24d10 + 120)\nSpeed 30 ft.\n\nImmunities Fire, Poison, Psychic; Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned\nSenses Darkvision 120 ft.; Passive Perception 10\nLanguages Understands Common plus two other languages but can't speak\nCR 16 (XP 15,000; PB +5)\n\nTraits\n\nFire Absorption. Whenever the golem is subjected to Fire damage, it regains a number of Hit Points equal to the Fire damage dealt.\n\nImmutable Form. The golem can't shape-shift.\n\nMagic Resistance. The golem has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The golem makes two attacks, using Bladed Arm or Fiery Bolt in any combination.\n\nBladed Arm. Melee Attack Roll: +12, reach 10 ft.\nHit: 20 (3d8 + 7) Slashing damage plus 10 (3d6) Fire damage.\n\nFiery Bolt. Ranged Attack Roll: +10, range 120 ft. Hit: 36 (8d8) Fire damage.\n\nPoison Breath (Recharge 6). Constitution Saving\nThrow: DC 18, each creature in a 60-foot Cone. Failure: 55 (10d10) Poison damage. Success: Half damage.",
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"

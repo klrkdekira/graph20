@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.83",
     "heading": "Earth Elemental",
-    "lineStart": 20333,
-    "lineEnd": 20371
+    "lineStart": 20614,
+    "lineEnd": 20648
   },
   "sizeTypeAlignment": "Large Elemental, Neutral",
   "sizeAndType": "Large Elemental",
@@ -79,7 +79,7 @@
       "rulesText": "Multiattack. The elemental makes two attacks, using Slam or Rock Launch in any combination.\n\nSlam. Melee Attack Roll: +8, reach 10 ft. Hit: 14 (2d8 + 5) Bludgeoning damage.\n\nRock Launch. Ranged Attack Roll: +8, range 60 ft. Hit: 8 (1d6 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition."
     }
   ],
-  "rulesText": "Large Elemental, Neutral\n\nAC 17\n\nInitiative -1 (9)\n\nHP 147 (14d10 + 70)\n\nSpeed 30 ft., Burrow 30 ft.\n\nVulnerabilities Thunder\n\nImmunities Poison; Exhaustion, Paralyzed, Petrified, Poisoned, Unconscious\n\nSenses Darkvision 60 ft., Tremorsense 60 ft.; Passive Perception 10\n\nLanguages Primordial (Terran)\n\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nEarth Glide. The elemental can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn't disturb the material it moves through.\n\nSiege Monster. The elemental deals double damage to objects and structures.\n\nActions\n\nMultiattack. The elemental makes two attacks, using Slam or Rock Launch in any combination.\n\nSlam. Melee Attack Roll: +8, reach 10 ft. Hit: 14 (2d8 + 5) Bludgeoning damage.\n\nRock Launch. Ranged Attack Roll: +8, range 60 ft. Hit: 8 (1d6 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition.",
+  "rulesText": "Large Elemental, Neutral\n\nAC 17\nInitiative -1 (9)\nHP 147 (14d10 + 70)\nSpeed 30 ft., Burrow 30 ft.\n\nVulnerabilities Thunder\nImmunities Poison; Exhaustion, Paralyzed, Petrified, Poisoned, Unconscious\nSenses Darkvision 60 ft., Tremorsense 60 ft.; Passive Perception 10\nLanguages Primordial (Terran)\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nEarth Glide. The elemental can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn't disturb the material it moves through.\n\nSiege Monster. The elemental deals double damage to objects and structures.\n\nActions\n\nMultiattack. The elemental makes two attacks, using Slam or Rock Launch in any combination.\n\nSlam. Melee Attack Roll: +8, reach 10 ft. Hit: 14 (2d8 + 5) Bludgeoning damage.\n\nRock Launch. Ranged Attack Roll: +8, range 60 ft. Hit: 8 (1d6 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition.",
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/exhaustion"

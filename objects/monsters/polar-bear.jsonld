@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.71",
     "heading": "Polar Bear",
-    "lineStart": 29155,
-    "lineEnd": 29183
+    "lineStart": 28626,
+    "lineEnd": 28650
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -75,7 +75,7 @@
       "rulesText": "Multiattack. The bear makes two Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 5 ft. Hit: 9 (1d8 + 5) Slashing damage."
     }
   ],
-  "rulesText": "Large Beast, Unaligned\n\nAC 12\n\nInitiative +2 (12)\n\nHP 42 (5d10 + 15)\n\nSpeed 40 ft., Swim 40 ft.\n\nSkills Perception +5, Stealth +4\n\nResistances Cold\n\nSenses Darkvision 60 ft.; Passive Perception 15\n\nLanguages None\n\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The bear makes two Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 5 ft. Hit: 9 (1d8 + 5) Slashing damage.",
+  "rulesText": "Large Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 42 (5d10 + 15)\nSpeed 40 ft., Swim 40 ft.\n\nSkills Perception +5, Stealth +4\nResistances Cold\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages None\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The bear makes two Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 5 ft. Hit: 9 (1d8 + 5) Slashing damage.",
   "attacks": [
     {
       "name": "Rend",

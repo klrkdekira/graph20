@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-72-step-1-choose-a-difficulty",
+  "@type": "Rule",
+  "name": "Step 1: Choose a Difficulty",
+  "slug": "9-72-step-1-choose-a-difficulty",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.72",
+    "heading": "Step 1: Choose a Difficulty",
+    "lineStart": 14484,
+    "lineEnd": 14492
+  },
+  "section": "9.72",
+  "rulesText": "Three categories describe the range of encounter difficulty:\n\nLow Difficulty. An encounter of low difficulty is likely to have one or two scary moments for the players, but their characters should emerge victorious with no casualties. One or more of them might need to use healing resources, however. As a rough guideline, a single monster generally presents a low-difficulty challenge for a party of four characters whose level equals the monster's Challenge Rating.\n\nModerate Difficulty. Absent healing and other resources, an encounter of moderate difficulty could go badly for the adventurers. Weaker characters might get taken out of the fight, and there's a slim chance that one or more characters might die.\n\nHigh Difficulty. A high-difficulty encounter could be lethal for one or more characters. To survive it, the characters will need smart tactics, quick thinking, and maybe even a little luck."
+}

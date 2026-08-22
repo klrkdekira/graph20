@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.18",
     "heading": "Bandit",
-    "lineStart": 18016,
-    "lineEnd": 18042
+    "lineStart": 18503,
+    "lineEnd": 18526
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -74,7 +74,7 @@
       "rulesText": "Scimitar. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage.\n\nLight Crossbow. Ranged Attack Roll: +3, range 80/320 ft. Hit: 5 (1d8 + 1) Piercing damage."
     }
   ],
-  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 12\n\nInitiative +1 (11)\n\nHP 11 (2d8 + 2)\n\nSpeed 30 ft.\n\nGear Leather Armor, Light Crossbow, Scimitar\n\nSenses Passive Perception 10\n\nLanguages Common, Thieves' Cant\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nScimitar. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage.\n\nLight Crossbow. Ranged Attack Roll: +3, range 80/320 ft. Hit: 5 (1d8 + 1) Piercing damage.",
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 12\nInitiative +1 (11)\nHP 11 (2d8 + 2)\nSpeed 30 ft.\n\nGear Leather Armor, Light Crossbow, Scimitar\nSenses Passive Perception 10\nLanguages Common, Thieves' Cant\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nScimitar. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage.\n\nLight Crossbow. Ranged Attack Roll: +3, range 80/320 ft. Hit: 5 (1d8 + 1) Piercing damage.",
   "attacks": [
     {
       "name": "Scimitar",

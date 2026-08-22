@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.53",
     "heading": "Giant Wolf Spider",
-    "lineStart": 28619,
-    "lineEnd": 28649
+    "lineStart": 28139,
+    "lineEnd": 28167
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
@@ -78,7 +78,7 @@
       "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage plus 5 (2d4) Poison damage."
     }
   ],
-  "rulesText": "Medium Beast, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 11 (2d8 + 2)\n\nSpeed 40 ft., Climb 40 ft.\n\nSkills Perception +3, Stealth +7\n\nSenses Blindsight 10 ft., Darkvision 60 ft.;\n\nPassive Perception 13\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nSpider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage plus 5 (2d4) Poison damage.",
+  "rulesText": "Medium Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 11 (2d8 + 2)\nSpeed 40 ft., Climb 40 ft.\n\nSkills Perception +3, Stealth +7\nSenses Blindsight 10 ft., Darkvision 60 ft.;\n\nPassive Perception 13\n\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nSpider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage plus 5 (2d4) Poison damage.",
   "attacks": [
     {
       "name": "Bite",

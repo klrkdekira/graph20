@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.34",
     "heading": "Young Blue Dragon",
-    "lineStart": 18564,
-    "lineEnd": 18594
+    "lineStart": 19003,
+    "lineEnd": 19029
   },
   "sizeTypeAlignment": "Large Dragon (Chromatic), Lawful Evil",
   "sizeAndType": "Large Dragon (Chromatic)",
@@ -75,7 +75,7 @@
       "rulesText": "Multiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +9, reach 10 ft. Hit: 12 (2d6 + 5) Slashing damage plus 5 (1d10) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 16, each creature in a 60-foot-long, 5-foot-wide Line. Failure: 55 (10d10) Lightning damage. Success: Half damage."
     }
   ],
-  "rulesText": "Large Dragon (Chromatic), Lawful Evil\n\nAC 18\n\nInitiative +4 (14)\n\nHP 152 (16d10 + 64)\n\nSpeed 40 ft., Burrow 20 ft., Fly 80 ft.\n\nSkills Perception +9, Stealth +4\n\nImmunities Lightning\n\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 19\n\nLanguages Common, Draconic\n\nCR 9 (XP 5,000; PB +4)\n\nActions\n\nMultiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +9, reach 10 ft. Hit: 12 (2d6 + 5) Slashing damage plus 5 (1d10) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 16, each creature in a 60-foot-long, 5-foot-wide Line. Failure: 55 (10d10) Lightning damage. Success: Half damage.",
+  "rulesText": "Large Dragon (Chromatic), Lawful Evil\n\nAC 18\nInitiative +4 (14)\nHP 152 (16d10 + 64)\nSpeed 40 ft., Burrow 20 ft., Fly 80 ft.\n\nSkills Perception +9, Stealth +4\nImmunities Lightning\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 19\nLanguages Common, Draconic\nCR 9 (XP 5,000; PB +4)\n\nActions\n\nMultiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +9, reach 10 ft. Hit: 12 (2d6 + 5) Slashing damage plus 5 (1d10) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 16, each creature in a 60-foot-long, 5-foot-wide Line. Failure: 55 (10d10) Lightning damage. Success: Half damage.",
   "attacks": [
     {
       "name": "Rend",

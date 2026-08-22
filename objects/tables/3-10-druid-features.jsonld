@@ -11,11 +11,25 @@
     "chapter": "Classes",
     "section": "3.10",
     "heading": "Level 1: Spellcasting",
-    "lineStart": 2820,
-    "lineEnd": 2820
+    "lineStart": 2486,
+    "lineEnd": 2508
   },
   "columns": [
-    "—Spell Slots per Spell Level—"
+    "Proficiency Level",
+    "Bonus",
+    "Class Features",
+    "Wild Shape",
+    "Cantrips",
+    "Prepared Spells",
+    "—Spell Slots per Spell Level—",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
   ],
   "rows": [
     {
@@ -47,6 +61,24 @@
         },
         {
           "value": "9"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
         }
       ]
     },

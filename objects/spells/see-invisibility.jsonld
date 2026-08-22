@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.297",
     "heading": "See Invisibility",
-    "lineStart": 11402,
-    "lineEnd": 11414
+    "lineStart": 11586,
+    "lineEnd": 11595
   },
   "level": 2,
   "school": "Divination",
@@ -25,7 +25,7 @@
   "range": "Self",
   "components": "V, S, M (a pinch of talc)",
   "duration": "1 hour",
-  "rulesText": "Level 2 Divination (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S, M (a pinch of talc)\n\nDuration: 1 hour\n\nFor the duration, you see creatures and objects that have the Invisible condition as if they were visible, and you can see into the Ethereal Plane. Creatures and objects there appear ghostly.",
+  "rulesText": "Level 2 Divination (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\nRange: Self\nComponents: V, S, M (a pinch of talc)\nDuration: 1 hour\n\nFor the duration, you see creatures and objects that have the Invisible condition as if they were visible, and you can see into the Ethereal Plane. Creatures and objects there appear ghostly.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

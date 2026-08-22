@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.21",
     "heading": "Eagle",
-    "lineStart": 27664,
-    "lineEnd": 27688
+    "lineStart": 27275,
+    "lineEnd": 27296
   },
   "sizeTypeAlignment": "Small Beast, Unaligned",
   "sizeAndType": "Small Beast",
@@ -74,5 +74,5 @@
       "rulesText": "Talons. Melee Attack Roll: +4, reach 5 feet. Hit: 4 (1d4 + 2) Slashing damage."
     }
   ],
-  "rulesText": "Small Beast, Unaligned\n\nAC 12\n\nInitiative +2 (12)\n\nHP 4 (1d6 + 1)\n\nSpeed 10 ft., Fly 60 ft.\n\nSkills Perception +6\n\nSenses Passive Perception 16\n\nLanguages None\n\nCR 0 (XP 10; PB +2)\n\nActions\n\nTalons. Melee Attack Roll: +4, reach 5 feet. Hit: 4 (1d4 + 2) Slashing damage."
+  "rulesText": "Small Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 4 (1d6 + 1)\nSpeed 10 ft., Fly 60 ft.\n\nSkills Perception +6\nSenses Passive Perception 16\nLanguages None\nCR 0 (XP 10; PB +2)\n\nActions\n\nTalons. Melee Attack Roll: +4, reach 5 feet. Hit: 4 (1d4 + 2) Slashing damage."
 }

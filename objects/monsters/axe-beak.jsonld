@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.13",
     "heading": "Axe Beak",
-    "lineStart": 17901,
-    "lineEnd": 17925
+    "lineStart": 18398,
+    "lineEnd": 18420
   },
   "sizeTypeAlignment": "Large Monstrosity, Unaligned",
   "sizeAndType": "Large Monstrosity",
@@ -73,7 +73,7 @@
       "rulesText": "Beak. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage."
     }
   ],
-  "rulesText": "Large Monstrosity, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 19 (3d10 + 3)\n\nSpeed 50 ft.\n\nSenses Passive Perception 10\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBeak. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage.",
+  "rulesText": "Large Monstrosity, Unaligned\n\nAC 11\nInitiative +1 (11)\nHP 19 (3d10 + 3)\nSpeed 50 ft.\n\nSenses Passive Perception 10\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBeak. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage.",
   "attacks": [
     {
       "name": "Beak",

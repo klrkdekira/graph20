@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.21",
     "heading": "Material (M)",
-    "lineStart": 6363,
-    "lineEnd": 6369
+    "lineStart": 7297,
+    "lineEnd": 7303
   },
   "section": "7.21",
   "rulesText": "A Material component is a particular material used in a spell's casting, as specified in parentheses in the Components entry. These materials aren't consumed by the spell unless the spell's description states otherwise. The spellcaster must have a hand free to access them, but it can be the same hand used to perform Somatic components, if any.\n\nIf a spell doesn't consume its materials and doesn't specify a cost for them, a spellcaster can use a Component Pouch (see \"Equipment\") instead of providing the materials specified in the spell, or the\n\nspellcaster can substitute a Spellcasting Focus if the caster has a feature that allows that substitution. To use a Component Pouch, you must have a hand free to reach into it, and to use a Spellcasting Focus, you must hold it unless its description says otherwise (see “Equipment” for descriptions)."

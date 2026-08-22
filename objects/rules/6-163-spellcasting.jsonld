@@ -11,11 +11,11 @@
     "chapter": "Equipment",
     "section": "6.163",
     "heading": "Spellcasting",
-    "lineStart": 6145,
-    "lineEnd": 6151
+    "lineStart": 7038,
+    "lineEnd": 7054
   },
   "section": "6.163",
-  "rulesText": "Most settlements contain individuals who are willing to cast spells in exchange for payment. If a spell has expensive components, add the cost of those components to the cost listed in the Spellcasting Services table. The higher the level of a desired spell, the harder it is to find someone to cast it.\n\nSpellcasting Services",
+  "rulesText": "Most settlements contain individuals who are willing to cast spells in exchange for payment. If a spell has expensive components, add the cost of those components to the cost listed in the Spellcasting Services table. The higher the level of a desired spell, the harder it is to find someone to cast it.\n\nSpellcasting Services\n\n---",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/6-163-spellcasting-services"

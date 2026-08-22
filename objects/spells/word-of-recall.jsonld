@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.366",
     "heading": "Word of Recall",
-    "lineStart": 12734,
-    "lineEnd": 12748
+    "lineStart": 12719,
+    "lineEnd": 12730
   },
   "level": 6,
   "school": "Conjuration",
@@ -23,7 +23,7 @@
   "range": "5 feet",
   "components": "V",
   "duration": "Instantaneous",
-  "rulesText": "Level 6 Conjuration (Cleric)\n\nCasting Time: Action\n\nRange: 5 feet\n\nComponents: V\n\nDuration: Instantaneous\n\nYou and up to five willing creatures within 5 feet of you instantly teleport to a previously designated sanctuary. You and any creatures that teleport with you appear in the nearest unoccupied space to the spot you designated when you prepared your sanctuary (see below). If you cast this spell without first preparing a sanctuary, the spell has no effect.\n\nYou must designate a location, such as a temple, as a sanctuary by casting this spell there.",
+  "rulesText": "Level 6 Conjuration (Cleric)\n\nCasting Time: Action\nRange: 5 feet\nComponents: V\nDuration: Instantaneous\n\nYou and up to five willing creatures within 5 feet of you instantly teleport to a previously designated sanctuary. You and any creatures that teleport with you appear in the nearest unoccupied space to the spot you designated when you prepared your sanctuary (see below). If you cast this spell without first preparing a sanctuary, the spell has no effect.\n\nYou must designate a location, such as a temple, as a sanctuary by casting this spell there.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"

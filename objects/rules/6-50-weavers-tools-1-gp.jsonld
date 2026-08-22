@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-50-weavers-tools-1-gp",
+  "@type": "Rule",
+  "name": "Weaver's Tools (1 GP)",
+  "slug": "6-50-weavers-tools-1-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.50",
+    "heading": "Weaver's Tools (1 GP)",
+    "lineStart": 6316,
+    "lineEnd": 6324
+  },
+  "section": "6.50",
+  "rulesText": "Ability: Dexterity\n\nWeight: 5 lb.\n\nUtilize: Mend a tear in clothing (DC 10), or sew a Tiny design (DC 10)\n\nCraft: Padded Armor, Basket, Bedroll, Blanket, Fine Clothes, Net, Robe, Rope, Sack, String, Tent, Traveler's Clothes"
+}

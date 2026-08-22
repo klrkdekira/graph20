@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.102",
     "heading": "Cure Wounds",
-    "lineStart": 7786,
-    "lineEnd": 7800
+    "lineStart": 8530,
+    "lineEnd": 8541
   },
   "level": 1,
   "school": "Abjuration",
@@ -27,7 +27,7 @@
   "range": "Touch",
   "components": "V, S",
   "duration": "Instantaneous",
-  "rulesText": "Level 1 Abjuration (Bard, Cleric, Druid, Paladin, Ranger)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S\n\nDuration: Instantaneous\n\nA creature you touch regains a number of Hit Points equal to 2d8 plus your spellcasting ability modifier.\n\nUsing a Higher-Level Spell Slot. The healing increases by 2d8 for each spell slot level above 1.",
+  "rulesText": "Level 1 Abjuration (Bard, Cleric, Druid, Paladin, Ranger)\n\nCasting Time: Action\nRange: Touch\nComponents: V, S\nDuration: Instantaneous\n\nA creature you touch regains a number of Hit Points equal to 2d8 plus your spellcasting ability modifier.\n\nUsing a Higher-Level Spell Slot. The healing increases by 2d8 for each spell slot level above 1.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

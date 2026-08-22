@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.64",
     "heading": "Blur",
-    "lineStart": 7071,
-    "lineEnd": 7083
+    "lineStart": 7907,
+    "lineEnd": 7916
   },
   "level": 2,
   "school": "Illusion",
@@ -24,7 +24,7 @@
   "range": "Self",
   "components": "V",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Level 2 Illusion (Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V\n\nDuration: Concentration, up to 1 minute\n\nYour body becomes blurred. For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with Blindsight or Truesight.",
+  "rulesText": "Level 2 Illusion (Sorcerer, Wizard)\n\nCasting Time: Action\nRange: Self\nComponents: V\nDuration: Concentration, up to 1 minute\n\nYour body becomes blurred. For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with Blindsight or Truesight.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"

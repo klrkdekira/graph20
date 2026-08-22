@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/scholars-pack",
+  "@type": "Equipment",
+  "name": "Scholar’s Pack",
+  "slug": "scholars-pack",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.64",
+    "heading": "Ammunition (Varies)",
+    "lineStart": 6474,
+    "lineEnd": 6516
+  },
+  "equipmentType": "gear",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-64-adventuring-gear-2"
+  },
+  "weight": "22 lb.",
+  "cost": {
+    "text": "40 GP",
+    "currency": "GP",
+    "amount": 40
+  }
+}

@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.192",
     "heading": "Heroes' Feast",
-    "lineStart": 9536,
-    "lineEnd": 9550
+    "lineStart": 10012,
+    "lineEnd": 10023
   },
   "level": 6,
   "school": "Conjuration",
@@ -25,7 +25,7 @@
   "range": "Self",
   "components": "V, S, M (a gem-encrusted bowl worth 1,000+ GP, which the spell consumes)",
   "duration": "Instantaneous",
-  "rulesText": "Level 6 Conjuration (Bard, Cleric, Druid)\n\nCasting Time: 10 minutes\n\nRange: Self\n\nComponents: V, S, M (a gem-encrusted bowl worth 1,000+ GP, which the spell consumes)\n\nDuration: Instantaneous\n\nYou conjure a feast that appears on a surface in an unoccupied 10-foot Cube next to you. The feast takes 1 hour to consume and disappears at the end of that time, and the beneficial effects don't set in until this hour is over. Up to twelve creatures can partake of the feast.\n\nA creature that partakes gains several benefits, which last for 24 hours. The creature has Resistance to Poison damage, and it has Immunity to the Frightened and Poisoned conditions. Its Hit Point maximum also increases by 2d10, and it gains the same number of Hit Points.",
+  "rulesText": "Level 6 Conjuration (Bard, Cleric, Druid)\n\nCasting Time: 10 minutes\nRange: Self\nComponents: V, S, M (a gem-encrusted bowl worth 1,000+ GP, which the spell consumes)\nDuration: Instantaneous\n\nYou conjure a feast that appears on a surface in an unoccupied 10-foot Cube next to you. The feast takes 1 hour to consume and disappears at the end of that time, and the beneficial effects don't set in until this hour is over. Up to twelve creatures can partake of the feast.\n\nA creature that partakes gains several benefits, which last for 24 hours. The creature has Resistance to Poison damage, and it has Immunity to the Frightened and Poisoned conditions. Its Hit Point maximum also increases by 2d10, and it gains the same number of Hit Points.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

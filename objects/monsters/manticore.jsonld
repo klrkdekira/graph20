@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.157",
     "heading": "Manticore",
-    "lineStart": 22939,
-    "lineEnd": 22968
+    "lineStart": 22983,
+    "lineEnd": 23010
   },
   "sizeTypeAlignment": "Large Monstrosity, Lawful Evil",
   "sizeAndType": "Large Monstrosity",
@@ -73,7 +73,7 @@
       "rulesText": "Multiattack. The manticore makes three attacks, using Rend or Tail Spike in any combination.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.\n\nTail Spike. Ranged Attack Roll: +5, range 100/200 ft.\nHit: 7 (1d8 + 3) Piercing damage."
     }
   ],
-  "rulesText": "Large Monstrosity, Lawful Evil\n\nAC 14\n\nInitiative +3 (13)\n\nHP 68 (8d10 + 24)\n\nSpeed 30 ft., Fly 50 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 11\n\nLanguages Common\n\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The manticore makes three attacks, using Rend or Tail Spike in any combination.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.\n\nTail Spike. Ranged Attack Roll: +5, range 100/200 ft.\nHit: 7 (1d8 + 3) Piercing damage.",
+  "rulesText": "Large Monstrosity, Lawful Evil\n\nAC 14\nInitiative +3 (13)\nHP 68 (8d10 + 24)\nSpeed 30 ft., Fly 50 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 11\nLanguages Common\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The manticore makes three attacks, using Rend or Tail Spike in any combination.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.\n\nTail Spike. Ranged Attack Roll: +5, range 100/200 ft.\nHit: 7 (1d8 + 3) Piercing damage.",
   "attacks": [
     {
       "name": "Rend",

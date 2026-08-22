@@ -11,8 +11,8 @@
     "chapter": "Monsters",
     "section": "11.11",
     "heading": "Speed",
-    "lineStart": 17426,
-    "lineEnd": 17428
+    "lineStart": 17924,
+    "lineEnd": 17926
   },
   "section": "11.11",
   "rulesText": "The Speed entry specifies a monster's Speed. Some monsters have one or more of the following speeds: Burrow, Climb, Fly, Swim. Rules for Speed and these specials speeds appear in “Rules Glossary.”"

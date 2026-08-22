@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.15",
     "heading": "Monk",
-    "lineStart": 3172,
-    "lineEnd": 3359
+    "lineStart": 3049,
+    "lineEnd": 3265
   },
   "coreTraits": {
     "Primary Ability": "Dexterity and Wisdom",
@@ -22,7 +22,7 @@
     "Weapon Proficiencies": "Simple weapons and Martial weapons that have the Light property",
     "Tool Proficiencies": "Choose one type of Artisan’s Tools or Musical Instrument (see “Equipment”)",
     "Armor Training": "None",
-    "Starting Equipment": "Choose A or B: (A) Spear, 5 Daggers, Artisan’s Tools or Musical Instrument chosen for the tool proficiency above, Explorer’s Pack, and II GP; or (B) 50 GP"
+    "Starting Equipment": "Choose A or B: (A) Spear, 5 Daggers, Artisan’s Tools or Musical Instrument chosen for the tool proficiency above, Explorer’s Pack, and 11 GP; or (B) 50 GP"
   },
   "subclasses": [
     {
@@ -33,7 +33,7 @@
     {
       "level": 1,
       "name": "Martial Arts",
-      "rulesText": "Your practice of martial arts gives you mastery of combat styles that use your Unarmed Strike and Monk weapons, which are the following:\n\n- Simple Melee weapons  \n- Martial Melee weapons that have the Light property\n\nYou gain the following benefits while you are unarmed or wielding only Monk weapons and you aren't wearing armor or wielding a Shield.\n\nBonus Unarmed Strike. You can make an Unarmed Strike as a Bonus Action.\n\nMartial Arts Die. You can roll 1d6 in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.\n\nDexterous Attacks. You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC."
+      "rulesText": "Your practice of martial arts gives you mastery of combat styles that use your Unarmed Strike and Monk weapons, which are the following:\n\n- Simple Melee weapons\n- Martial Melee weapons that have the Light property\n\nYou gain the following benefits while you are unarmed or wielding only Monk weapons and you aren't wearing armor or wielding a Shield.\n\nBonus Unarmed Strike. You can make an Unarmed Strike as a Bonus Action.\n\nMartial Arts Die. You can roll 1d6 in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.\n\nDexterous Attacks. You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC."
     },
     {
       "level": 1,
@@ -146,5 +146,5 @@
       "@id": "https://cheeleong.dev/graph20/objects/tables/3-15-monk-features"
     }
   ],
-  "rulesText": "Core Monk Traits\n\nBecoming a Monk ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Monk Traits table.  \n- Gain the Monk's level 1 features, which are listed in the Monk Features table.\n\nAs a Multiclass Character\n\n- Gain the Hit Point Die trait from the Core Monk Traits table.  \n- Gain the Monk's level 1 features, which are listed in the Monk Features table.\n\nMonk Class Features\n\nAs a Monk, you gain the following class features when you reach the specified Monk levels. These features are listed in the Monk Features table.\n\nMonk Features"
+  "rulesText": "Core Monk Traits\n\nBecoming a Monk ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Monk Traits table.\n- Gain the Monk's level 1 features, which are listed in the Monk Features table.\n\nAs a Multiclass Character\n\n- Gain the Hit Point Die trait from the Core Monk Traits table.\n- Gain the Monk's level 1 features, which are listed in the Monk Features table.\n\nMonk Class Features\n\nAs a Monk, you gain the following class features when you reach the specified Monk levels. These features are listed in the Monk Features table.\n\nMonk Features"
 }

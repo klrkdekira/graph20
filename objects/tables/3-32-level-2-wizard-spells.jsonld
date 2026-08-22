@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.32",
     "heading": "Wizard Spell List",
-    "lineStart": 4707,
-    "lineEnd": 4707
+    "lineStart": 5184,
+    "lineEnd": 5220
   },
   "columns": [
     "Spell",
@@ -66,7 +66,7 @@
       "position": 4,
       "cells": [
         {
-          "value": "Arcanist&#x27;s Magic Aura"
+          "value": "Arcanist’s Magic Aura"
         },
         {
           "value": "Illusion"
@@ -178,7 +178,7 @@
       "position": 12,
       "cells": [
         {
-          "value": "Dragon&#x27;s Breath"
+          "value": "Dragon’s Breath"
         },
         {
           "value": "Transmutation"

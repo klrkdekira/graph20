@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.7",
     "heading": "Badger",
-    "lineStart": 27269,
-    "lineEnd": 27295
+    "lineStart": 26919,
+    "lineEnd": 26941
   },
   "sizeTypeAlignment": "Tiny Beast, Unaligned",
   "sizeAndType": "Tiny Beast",
@@ -75,5 +75,5 @@
       "rulesText": "Bite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage."
     }
   ],
-  "rulesText": "Tiny Beast, Unaligned\n\nAC 11\n\nInitiative +0 (10)\n\nHP 5 (1d4 + 3)\n\nSpeed 20 ft., Burrow 5 ft.\n\nSkills Perception +3\n\nResistances Poison\n\nSenses Darkvision 30 ft.; Passive Perception 13\n\nLanguages None\n\nCR 0 (XP 10; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage."
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 11\nInitiative +0 (10)\nHP 5 (1d4 + 3)\nSpeed 20 ft., Burrow 5 ft.\n\nSkills Perception +3\nResistances Poison\nSenses Darkvision 30 ft.; Passive Perception 13\nLanguages None\nCR 0 (XP 10; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage."
 }

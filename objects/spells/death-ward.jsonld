@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.107",
     "heading": "Death Ward",
-    "lineStart": 7870,
-    "lineEnd": 7884
+    "lineStart": 8599,
+    "lineEnd": 8610
   },
   "level": 4,
   "school": "Abjuration",
@@ -24,7 +24,7 @@
   "range": "Touch",
   "components": "V, S",
   "duration": "8 hours",
-  "rulesText": "Level 4 Abjuration (Cleric, Paladin)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S\n\nDuration: 8 hours\n\nYou touch a creature and grant it a measure of protection from death. The first time the target would drop to 0 Hit Points before the spell ends, the target instead drops to 1 Hit Point, and the spell ends.\n\nIf the spell is still in effect when the target is subjected to an effect that would kill it instantly without dealing damage, that effect is negated against the target, and the spell ends.",
+  "rulesText": "Level 4 Abjuration (Cleric, Paladin)\n\nCasting Time: Action\nRange: Touch\nComponents: V, S\nDuration: 8 hours\n\nYou touch a creature and grant it a measure of protection from death. The first time the target would drop to 0 Hit Points before the spell ends, the target instead drops to 1 Hit Point, and the spell ends.\n\nIf the spell is still in effect when the target is subjected to an effect that would kill it instantly without dealing damage, that effect is negated against the target, and the spell ends.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"

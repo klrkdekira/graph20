@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.306",
     "heading": "Shining Smite",
-    "lineStart": 11560,
-    "lineEnd": 11574
+    "lineStart": 11717,
+    "lineEnd": 11728
   },
   "level": 2,
   "school": "Transmutation",
@@ -21,8 +21,9 @@
   ],
   "castingTime": "Bonus Action, which you take immediately after hitting a creature with a Melee weapon or an Unarmed Strike",
   "range": "Self",
+  "components": "V",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Level 2 Transmutation (Paladin)\n\nCasting Time: Bonus Action, which you take immediately after hitting a creature with a Melee weapon or an Unarmed Strike\n\nRange: Self\n\nComponent: V\n\nDuration: Concentration, up to 1 minute\n\nThe target hit by the strike takes an extra 2d6 Radiant damage from the attack. Until the spell ends, the target sheds Bright Light in a 5-foot radius, attack rolls against it have Advantage, and it can't benefit from the Invisible condition.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 2.",
+  "rulesText": "Level 2 Transmutation (Paladin)\n\nCasting Time: Bonus Action, which you take immediately after hitting a creature with a Melee weapon or an Unarmed Strike\nRange: Self\nComponents: V\nDuration: Concentration, up to 1 minute\n\nThe target hit by the strike takes an extra 2d6 Radiant damage from the attack. Until the spell ends, the target sheds Bright Light in a 5-foot radius, attack rolls against it have Advantage, and it can't benefit from the Invisible condition.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 2.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/paladin"

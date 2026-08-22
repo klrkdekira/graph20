@@ -11,8 +11,8 @@
     "chapter": "Monsters",
     "section": "11.13",
     "heading": "Skills",
-    "lineStart": 17434,
-    "lineEnd": 17436
+    "lineStart": 17932,
+    "lineEnd": 17934
   },
   "section": "11.13",
   "rulesText": "The Skills entry specifies a monster's skill proficiencies, if any. For example, a monster that is very perceptive and stealthy might have bonuses to Wisdom (Perception) and Dexterity (Stealth) checks. A skill bonus is the sum of a monster's relevant ability modifier and its Proficiency Bonus. Other modifiers might apply."

@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.94",
     "heading": "Continual Flame",
-    "lineStart": 7628,
-    "lineEnd": 7640
+    "lineStart": 8376,
+    "lineEnd": 8385
   },
   "level": 2,
   "school": "Evocation",
@@ -25,7 +25,7 @@
   "range": "Touch",
   "components": "V, S, M (ruby dust worth 50+ GP, which the spell consumes)",
   "duration": "Until dispelled",
-  "rulesText": "Level 2 Evocation (Cleric, Druid, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (ruby dust worth 50+ GP, which the spell consumes)\n\nDuration: Until dispelled\n\nA flame springs from an object that you touch. The effect casts Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. It looks like a regular flame, but it creates no heat and consumes no fuel. The flame can be covered or hidden but not smothered or quenched.",
+  "rulesText": "Level 2 Evocation (Cleric, Druid, Wizard)\n\nCasting Time: Action\nRange: Touch\nComponents: V, S, M (ruby dust worth 50+ GP, which the spell consumes)\nDuration: Until dispelled\n\nA flame springs from an object that you touch. The effect casts Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. It looks like a regular flame, but it creates no heat and consumes no fuel. The flame can be covered or hidden but not smothered or quenched.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"

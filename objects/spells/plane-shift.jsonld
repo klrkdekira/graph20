@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.259",
     "heading": "Plane Shift",
-    "lineStart": 10727,
-    "lineEnd": 10741
+    "lineStart": 11002,
+    "lineEnd": 11013
   },
   "level": 7,
   "school": "Conjuration",
@@ -27,7 +27,7 @@
   "range": "Touch",
   "components": "V, S, M (a forked, metal rod worth 250+ GP and attuned to a plane of existence)",
   "duration": "Instantaneous",
-  "rulesText": "Level 7 Conjuration (Cleric, Druid, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (a forked, metal rod worth 250+ GP and attuned to a plane of existence)\n\nDuration: Instantaneous\n\nYou and up to eight willing creatures who link hands in a circle are transported to a different plane of existence. You can specify a target destination in general terms, such as a specific city on the Elemental Plane of Fire or palace on the second level of the Nine Hells, and you appear in or near that destination, as determined by the GM.\n\nAlternatively, if you know the sigil sequence of a teleportation circle on another plane of existence, this spell can take you to that circle. If the teleportation circle is too small to hold all the creatures you transported, they appear in the closest unoccupied spaces next to the circle.",
+  "rulesText": "Level 7 Conjuration (Cleric, Druid, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\nRange: Touch\nComponents: V, S, M (a forked, metal rod worth 250+ GP and attuned to a plane of existence)\nDuration: Instantaneous\n\nYou and up to eight willing creatures who link hands in a circle are transported to a different plane of existence. You can specify a target destination in general terms, such as a specific city on the Elemental Plane of Fire or palace on the second level of the Nine Hells, and you appear in or near that destination, as determined by the GM.\n\nAlternatively, if you know the sigil sequence of a teleportation circle on another plane of existence, this spell can take you to that circle. If the teleportation circle is too small to hold all the creatures you transported, they appear in the closest unoccupied spaces next to the circle.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"

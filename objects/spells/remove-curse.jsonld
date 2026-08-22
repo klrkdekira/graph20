@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.284",
     "heading": "Remove Curse",
-    "lineStart": 11184,
-    "lineEnd": 11196
+    "lineStart": 11399,
+    "lineEnd": 11408
   },
   "level": 3,
   "school": "Abjuration",
@@ -26,7 +26,7 @@
   "range": "Touch",
   "components": "V, S",
   "duration": "Instantaneous",
-  "rulesText": "Level 3 Abjuration (Cleric, Paladin, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S\n\nDuration: Instantaneous\n\nAt your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner's Attunement to the object so it can be removed or discarded.",
+  "rulesText": "Level 3 Abjuration (Cleric, Paladin, Warlock, Wizard)\n\nCasting Time: Action\nRange: Touch\nComponents: V, S\nDuration: Instantaneous\n\nAt your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner's Attunement to the object so it can be removed or discarded.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"

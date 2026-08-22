@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.218",
     "heading": "Lightning Bolt",
-    "lineStart": 9990,
-    "lineEnd": 10004
+    "lineStart": 10388,
+    "lineEnd": 10399
   },
   "level": 3,
   "school": "Evocation",
@@ -24,7 +24,7 @@
   "range": "Self",
   "components": "V, S, M (a bit of fur and a crystal rod)",
   "duration": "Instantaneous",
-  "rulesText": "Level 3 Evocation (Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S, M (a bit of fur and a crystal rod)\n\nDuration: Instantaneous\n\nA stroke of lightning forming a 100-foot-long, 5-foot-wide Line blasts out from you in a direction you choose. Each creature in the Line makes a Dexterity saving throw, taking 8d6 Lightning damage on a failed save or half as much damage on a successful one.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 3.",
+  "rulesText": "Level 3 Evocation (Sorcerer, Wizard)\n\nCasting Time: Action\nRange: Self\nComponents: V, S, M (a bit of fur and a crystal rod)\nDuration: Instantaneous\n\nA stroke of lightning forming a 100-foot-long, 5-foot-wide Line blasts out from you in a direction you choose. Each creature in the Line makes a Dexterity saving throw, taking 8d6 Lightning damage on a failed save or half as much damage on a successful one.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 3.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"

@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.105",
     "heading": "Darkvision",
-    "lineStart": 7836,
-    "lineEnd": 7848
+    "lineStart": 8571,
+    "lineEnd": 8580
   },
   "level": 2,
   "school": "Transmutation",
@@ -26,7 +26,7 @@
   "range": "Touch",
   "components": "V, S, M (a dried carrot)",
   "duration": "8 hours",
-  "rulesText": "Level 2 Transmutation (Druid, Ranger, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (a dried carrot)\n\nDuration: 8 hours\n\nFor the duration, a willing creature you touch has Darkvision with a range of 150 feet.",
+  "rulesText": "Level 2 Transmutation (Druid, Ranger, Sorcerer, Wizard)\n\nCasting Time: Action\nRange: Touch\nComponents: V, S, M (a dried carrot)\nDuration: 8 hours\n\nFor the duration, a willing creature you touch has Darkvision with a range of 150 feet.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/druid"

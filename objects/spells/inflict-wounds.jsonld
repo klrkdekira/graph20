@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.207",
     "heading": "Inflict Wounds",
-    "lineStart": 9802,
-    "lineEnd": 9816
+    "lineStart": 10233,
+    "lineEnd": 10244
   },
   "level": 1,
   "school": "Necromancy",
@@ -23,7 +23,7 @@
   "range": "Touch",
   "components": "V, S",
   "duration": "Instantaneous",
-  "rulesText": "Level 1 Necromancy (Cleric)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S\n\nDuration: Instantaneous\n\nA creature you touch makes a Constitution saving throw, taking 2d10 Necrotic damage on a failed save or half as much damage on a successful one.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d10 for each spell slot level above 1.",
+  "rulesText": "Level 1 Necromancy (Cleric)\n\nCasting Time: Action\nRange: Touch\nComponents: V, S\nDuration: Instantaneous\n\nA creature you touch makes a Constitution saving throw, taking 2d10 Necrotic damage on a failed save or half as much damage on a successful one.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d10 for each spell slot level above 1.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"

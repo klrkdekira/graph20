@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.29",
     "heading": "Giant Boar",
-    "lineStart": 27892,
-    "lineEnd": 27918
+    "lineStart": 27481,
+    "lineEnd": 27505
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -77,7 +77,7 @@
       "rulesText": "Gore. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Large or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition."
     }
   ],
-  "rulesText": "Large Beast, Unaligned\n\nAC 13\n\nInitiative +0 (10)\n\nHP 42 (5d10 + 15)\n\nSpeed 40 ft.\n\nSenses Passive Perception 8\n\nLanguages None\n\nCR 2 (XP 450; PB +2)\n\nTraits\n\nBloodied Fury. The boar has Advantage on melee attack rolls while it is Bloodied.\n\nActions\n\nGore. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Large or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition.",
+  "rulesText": "Large Beast, Unaligned\n\nAC 13\nInitiative +0 (10)\nHP 42 (5d10 + 15)\nSpeed 40 ft.\n\nSenses Passive Perception 8\nLanguages None\nCR 2 (XP 450; PB +2)\n\nTraits\n\nBloodied Fury. The boar has Advantage on melee attack rolls while it is Bloodied.\n\nActions\n\nGore. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Large or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition.",
   "attacks": [
     {
       "name": "Gore",

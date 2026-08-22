@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.325",
     "heading": "Stone Shape",
-    "lineStart": 11888,
-    "lineEnd": 11900
+    "lineStart": 11988,
+    "lineEnd": 11997
   },
   "level": 4,
   "school": "Transmutation",
@@ -25,7 +25,7 @@
   "range": "Touch",
   "components": "V, S, M (soft clay)",
   "duration": "Instantaneous",
-  "rulesText": "Level 4 Transmutation (Cleric, Druid, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (soft clay)\n\nDuration: Instantaneous\n\nYou touch a stone object of Medium size or smaller or a section of stone no more than 5 feet in any dimension and form it into any shape you like. For example, you could shape a large rock into a weapon, statue, or coffer, or you could make a small passage through a wall that is 5 feet thick. You could also shape a stone door or its frame to seal the door shut. The object you create can have up to two hinges and a latch, but finer mechanical detail isn't possible.",
+  "rulesText": "Level 4 Transmutation (Cleric, Druid, Wizard)\n\nCasting Time: Action\nRange: Touch\nComponents: V, S, M (soft clay)\nDuration: Instantaneous\n\nYou touch a stone object of Medium size or smaller or a section of stone no more than 5 feet in any dimension and form it into any shape you like. For example, you could shape a large rock into a weapon, statue, or coffer, or you could make a small passage through a wall that is 5 feet thick. You could also shape a stone door or its frame to seal the door shut. The object you create can have up to two hinges and a latch, but finer mechanical detail isn't possible.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"

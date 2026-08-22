@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.172",
     "heading": "Glibness",
-    "lineStart": 9154,
-    "lineEnd": 9166
+    "lineStart": 9690,
+    "lineEnd": 9699
   },
   "level": 8,
   "school": "Enchantment",
@@ -24,7 +24,7 @@
   "range": "Self",
   "components": "V",
   "duration": "1 hour",
-  "rulesText": "Level 8 Enchantment (Bard, Warlock)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V\n\nDuration: 1 hour\n\nUntil the spell ends, when you make a Charisma check, you can replace the number you roll with a 15. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful.",
+  "rulesText": "Level 8 Enchantment (Bard, Warlock)\n\nCasting Time: Action\nRange: Self\nComponents: V\nDuration: 1 hour\n\nUntil the spell ends, when you make a Charisma check, you can replace the number you roll with a 15. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

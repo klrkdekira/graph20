@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.234",
     "heading": "Stone Golem",
-    "lineStart": 25647,
-    "lineEnd": 25687
+    "lineStart": 25440,
+    "lineEnd": 25477
   },
   "sizeTypeAlignment": "Large Construct, Unaligned",
   "sizeAndType": "Large Construct",
@@ -38,34 +38,34 @@
   "proficiencyBonus": 4,
   "abilities": {
     "str": {
-      "score": 22,
-      "modifier": 6,
-      "savingThrow": 6
+      "score": 4,
+      "modifier": -3,
+      "savingThrow": -3
     },
     "dex": {
-      "score": 9,
-      "modifier": -1,
-      "savingThrow": -1
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "con": {
-      "score": 20,
-      "modifier": 5,
-      "savingThrow": 5
-    },
-    "int": {
-      "score": 3,
-      "modifier": -4,
-      "savingThrow": -4
-    },
-    "wis": {
       "score": 11,
       "modifier": 0,
       "savingThrow": 0
     },
+    "int": {
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    },
     "cha": {
-      "score": 1,
-      "modifier": -5,
-      "savingThrow": -5
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
     }
   },
   "statSections": [
@@ -82,7 +82,7 @@
       "rulesText": "Slow (Recharge 5–6). The golem casts the Slow spell, requiring no spell components and using Constitution as the spellcasting ability (spell save DC 17)."
     }
   ],
-  "rulesText": "Large Construct, Unaligned\n\nAC 18\n\nInitiative +3 (13)\n\nHP 220 (21d10 + 105)\n\nSpeed 30 ft.\n\nImmunities Poison, Psychic; Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned\n\nSenses Darkvision 120 ft.; Passive Perception 10\n\nLanguages Understands Common plus two other languages but can't speak\n\nCR 10 (XP 5,900; PB +4)\n\nTraits\n\nImmutable Form. The golem can't shape-shift.\n\nMagic Resistance. The golem has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The golem makes two attacks, using Slam or Force Bolt in any combination.\n\nSlam. Melee Attack Roll: +10, reach 5 ft. Hit: 15 (2d8 + 6) Bludgeoning damage plus 9 (2d8) Force damage.\n\nForce Bolt. Ranged Attack Roll: +9, range 120 ft. Hit: 22 (4d10) Force damage.\n\nBonus Actions\n\nSlow (Recharge 5–6). The golem casts the Slow spell, requiring no spell components and using Constitution as the spellcasting ability (spell save DC 17).",
+  "rulesText": "Large Construct, Unaligned\n\nAC 18\nInitiative +3 (13)\nHP 220 (21d10 + 105)\nSpeed 30 ft.\n\nImmunities Poison, Psychic; Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned\nSenses Darkvision 120 ft.; Passive Perception 10\nLanguages Understands Common plus two other languages but can't speak\nCR 10 (XP 5,900; PB +4)\n\nTraits\n\nImmutable Form. The golem can't shape-shift.\n\nMagic Resistance. The golem has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The golem makes two attacks, using Slam or Force Bolt in any combination.\n\nSlam. Melee Attack Roll: +10, reach 5 ft. Hit: 15 (2d8 + 6) Bludgeoning damage plus 9 (2d8) Force damage.\n\nForce Bolt. Ranged Attack Roll: +9, range 120 ft. Hit: 22 (4d10) Force damage.\n\nBonus Actions\n\nSlow (Recharge 5–6). The golem casts the Slow spell, requiring no spell components and using Constitution as the spellcasting ability (spell save DC 17).",
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"

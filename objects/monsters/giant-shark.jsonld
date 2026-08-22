@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.46",
     "heading": "Giant Shark",
-    "lineStart": 28407,
-    "lineEnd": 28437
+    "lineStart": 27947,
+    "lineEnd": 27974
   },
   "sizeTypeAlignment": "Huge Beast, Unaligned",
   "sizeAndType": "Huge Beast",
@@ -78,5 +78,5 @@
       "rulesText": "Multiattack. The shark makes two Bite attacks.\n\nBite. Melee Attack Roll: +9 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 22 (3d10 + 6) Piercing damage."
     }
   ],
-  "rulesText": "Huge Beast, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 92 (8d12 + 40)\n\nSpeed 5 ft., Swim 60 ft.\n\nSkills Perception +3\n\nSenses Blindsight 60 ft.; Passive Perception 13\n\nLanguages None\n\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nWater Breathing. The shark can breathe only underwater.\n\nActions\n\nMultiattack. The shark makes two Bite attacks.\n\nBite. Melee Attack Roll: +9 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 22 (3d10 + 6) Piercing damage."
+  "rulesText": "Huge Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 92 (8d12 + 40)\nSpeed 5 ft., Swim 60 ft.\n\nSkills Perception +3\nSenses Blindsight 60 ft.; Passive Perception 13\nLanguages None\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nWater Breathing. The shark can breathe only underwater.\n\nActions\n\nMultiattack. The shark makes two Bite attacks.\n\nBite. Melee Attack Roll: +9 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 22 (3d10 + 6) Piercing damage."
 }

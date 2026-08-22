@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-137-string-1-sp",
+  "@type": "Rule",
+  "name": "String (1 SP)",
+  "slug": "6-137-string-1-sp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.137",
+    "heading": "String (1 SP)",
+    "lineStart": 6864,
+    "lineEnd": 6866
+  },
+  "section": "6.137",
+  "rulesText": "String is 10 feet long. You can tie a knot in it as a Utilize action."
+}

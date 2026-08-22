@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.42",
     "heading": "Amulet of the Planes",
-    "lineStart": 14718,
-    "lineEnd": 14726
+    "lineStart": 14938,
+    "lineEnd": 14950
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Very Rare",
@@ -20,8 +20,8 @@
   "attunementNote": "Requires Attunement",
   "relatedTables": [
     {
-      "@id": "https://cheeleong.dev/graph20/objects/tables/10-42-1d100-destination"
+      "@id": "https://cheeleong.dev/graph20/objects/tables/10-42-amulet-of-the-planes-table-1"
     }
   ],
-  "rulesText": "Wondrous Item, Very Rare (Requires Attunement)\n\nWhile wearing this amulet, you can take a Magic action to name a location that you are familiar with on another plane of existence. Then make a DC 15 Intelligence (Arcana) check. On a successful check, you cast Plane Shift. On a failed check, you and each creature and object within 15 feet of you travel to a random destination determined by rolling 1d100 and consulting the following table.\n\n1d100 Destination"
+  "rulesText": "Wondrous Item, Very Rare (Requires Attunement)\n\nWhile wearing this amulet, you can take a Magic action to name a location that you are familiar with on another plane of existence. Then make a DC 15 Intelligence (Arcana) check. On a successful check, you cast Plane Shift. On a failed check, you and each creature and object within 15 feet of you travel to a random destination determined by rolling 1d100 and consulting the following table."
 }

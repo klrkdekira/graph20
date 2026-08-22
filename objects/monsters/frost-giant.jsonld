@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.91",
     "heading": "Frost Giant",
-    "lineStart": 20671,
-    "lineEnd": 20707
+    "lineStart": 20921,
+    "lineEnd": 20953
   },
   "sizeTypeAlignment": "Huge Giant, Neutral Evil",
   "sizeAndType": "Huge Giant",
@@ -79,7 +79,7 @@
       "rulesText": "War Cry (Recharge 5–6). The giant or one creature of its choice that can see or hear it gains 16 (2d10 + 5) Temporary Hit Points and has Advantage on attack rolls until the start of the giant's next turn."
     }
   ],
-  "rulesText": "Huge Giant, Neutral Evil\n\nAC 15\n\nInitiative +2 (12)\n\nHP 149 (13d12 + 65)\n\nSpeed 40 ft.\n\nSkills Athletics +9, Perception +3\n\nImmunities Cold\n\nSenses Passive Perception 13\n\nLanguages Giant\n\nCR 8 (XP 3,900; PB +3)\n\nActions\n\nMultiattack. The giant makes two attacks, using Frost Axe or Great Bow in any combination.\n\nFrost Axe. Melee Attack Roll: +9, reach 10 ft. Hit: 19 (2d12 + 6) Slashing damage plus 9 (2d8) Cold damage.\n\nGreat Bow. Ranged Attack Roll: +9, range 150/600 ft. Hit: 17 (2d10 + 6) Piercing damage plus 7 (2d6) Cold damage, and the target's Speed decreases by 10 feet until the end of its next turn.\n\nBonus Actions\n\nWar Cry (Recharge 5–6). The giant or one creature of its choice that can see or hear it gains 16 (2d10 + 5) Temporary Hit Points and has Advantage on attack rolls until the start of the giant's next turn.",
+  "rulesText": "Huge Giant, Neutral Evil\n\nAC 15\nInitiative +2 (12)\nHP 149 (13d12 + 65)\nSpeed 40 ft.\n\nSkills Athletics +9, Perception +3\nImmunities Cold\nSenses Passive Perception 13\nLanguages Giant\nCR 8 (XP 3,900; PB +3)\n\nActions\n\nMultiattack. The giant makes two attacks, using Frost Axe or Great Bow in any combination.\n\nFrost Axe. Melee Attack Roll: +9, reach 10 ft. Hit: 19 (2d12 + 6) Slashing damage plus 9 (2d8) Cold damage.\n\nGreat Bow. Ranged Attack Roll: +9, range 150/600 ft. Hit: 17 (2d10 + 6) Piercing damage plus 7 (2d6) Cold damage, and the target's Speed decreases by 10 feet until the end of its next turn.\n\nBonus Actions\n\nWar Cry (Recharge 5–6). The giant or one creature of its choice that can see or hear it gains 16 (2d10 + 5) Temporary Hit Points and has Advantage on attack rolls until the start of the giant's next turn.",
   "attacks": [
     {
       "name": "Frost Axe",

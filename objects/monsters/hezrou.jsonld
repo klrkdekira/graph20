@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.132",
     "heading": "Hezrou",
-    "lineStart": 22023,
-    "lineEnd": 22065
+    "lineStart": 22151,
+    "lineEnd": 22189
   },
   "sizeTypeAlignment": "Large Fiend (Demon), Chaotic Evil",
   "sizeAndType": "Large Fiend (Demon)",
@@ -83,7 +83,7 @@
       "rulesText": "Leap. The hezrou jumps up to 30 feet by spending 10 feet of movement."
     }
   ],
-  "rulesText": "Large Fiend (Demon), Chaotic Evil\n\nAC 18\n\nInitiative +6 (16)\n\nHP 157 (15d10 + 75)\n\nSpeed 30 ft.\n\nResistances Cold, Fire, Lightning\n\nImmunities Poison; Poisoned\n\nSenses Darkvision 120 ft.; Passive Perception 11\n\nLanguages Abyssal; telepathy 120 ft.\n\nCR 8 (XP 3,900; PB +3)\n\nTraits\n\nDemonic Restoration. If the hezrou dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.\n\nMagic Resistance. The hezrou has Advantage on saving throws against spells and other magical effects.\n\nStench. Constitution Saving Throw: DC 16, any creature that starts its turn in a 10-foot Emanation originating from the hezrou. Failure: The target has the Poisoned condition until the start of its next turn.\n\nActions\n\nMultiattack. The hezrou makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 5 ft. Hit: 6 (1d4 + 4) Slashing damage plus 9 (2d8) Poison damage.\n\nBonus Actions\n\nLeap. The hezrou jumps up to 30 feet by spending 10 feet of movement.",
+  "rulesText": "Large Fiend (Demon), Chaotic Evil\n\nAC 18\nInitiative +6 (16)\nHP 157 (15d10 + 75)\nSpeed 30 ft.\n\nResistances Cold, Fire, Lightning\nImmunities Poison; Poisoned\nSenses Darkvision 120 ft.; Passive Perception 11\nLanguages Abyssal; telepathy 120 ft.\nCR 8 (XP 3,900; PB +3)\n\nTraits\n\nDemonic Restoration. If the hezrou dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.\n\nMagic Resistance. The hezrou has Advantage on saving throws against spells and other magical effects.\n\nStench. Constitution Saving Throw: DC 16, any creature that starts its turn in a 10-foot Emanation originating from the hezrou. Failure: The target has the Poisoned condition until the start of its next turn.\n\nActions\n\nMultiattack. The hezrou makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 5 ft. Hit: 6 (1d4 + 4) Slashing damage plus 9 (2d8) Poison damage.\n\nBonus Actions\n\nLeap. The hezrou jumps up to 30 feet by spending 10 feet of movement.",
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"

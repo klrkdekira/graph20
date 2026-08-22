@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.155",
     "heading": "Flame Blade",
-    "lineStart": 8804,
-    "lineEnd": 8822
+    "lineStart": 9391,
+    "lineEnd": 9406
   },
   "level": 2,
   "school": "Evocation",
@@ -24,7 +24,7 @@
   "range": "Self",
   "components": "V, S, M (a sumac leaf)",
   "duration": "Concentration, up to 10 minutes",
-  "rulesText": "Level 2 Evocation (Druid, Sorcerer)\n\nCasting Time: Bonus Action\n\nRange: Self\n\nComponents: V, S, M (a sumac leaf)\n\nDuration: Concentration, up to 10 minutes\n\nYou evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke it again as a Bonus Action.\n\nAs a Magic action, you can make a melee spell attack with the fiery blade. On a hit, the target takes Fire damage equal to 3d6 plus your spellcasting ability modifier.\n\nThe flaming blade sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 2.",
+  "rulesText": "Level 2 Evocation (Druid, Sorcerer)\n\nCasting Time: Bonus Action\nRange: Self\nComponents: V, S, M (a sumac leaf)\nDuration: Concentration, up to 10 minutes\n\nYou evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke it again as a Bonus Action.\n\nAs a Magic action, you can make a melee spell attack with the fiery blade. On a hit, the target takes Fire damage equal to 3d6 plus your spellcasting ability modifier.\n\nThe flaming blade sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 2.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/druid"

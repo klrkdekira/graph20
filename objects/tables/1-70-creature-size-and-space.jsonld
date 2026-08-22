@@ -11,8 +11,8 @@
     "chapter": "Playing the Game",
     "section": "1.70",
     "heading": "Creature Size",
-    "lineStart": 1478,
-    "lineEnd": 1478
+    "lineStart": 616,
+    "lineEnd": 623
   },
   "columns": [
     "Size",
@@ -27,7 +27,7 @@
           "value": "Tiny"
         },
         {
-          "value": "2 $\\frac{1}{2}$ by 2 $\\frac{1}{2}$ feet"
+          "value": "2 1/2 by 2 1/2 feet"
         },
         {
           "value": "4 per square"

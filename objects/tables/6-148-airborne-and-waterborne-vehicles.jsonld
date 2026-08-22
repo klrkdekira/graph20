@@ -11,8 +11,8 @@
     "chapter": "Equipment",
     "section": "6.148",
     "heading": "Speed",
-    "lineStart": 6075,
-    "lineEnd": 6075
+    "lineStart": 6945,
+    "lineEnd": 6953
   },
   "columns": [
     "Ship",
@@ -161,7 +161,7 @@
           "value": "Rowboat"
         },
         {
-          "value": "11⁄2 mph"
+          "value": "1 1/2 mph"
         },
         {
           "value": "1"
@@ -225,7 +225,7 @@
           "value": "Warship"
         },
         {
-          "value": "21⁄2 mph"
+          "value": "2 1/2 mph"
         },
         {
           "value": "60"

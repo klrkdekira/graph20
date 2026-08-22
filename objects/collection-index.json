@@ -706,8 +706,8 @@
         "group": "Character Creation"
       },
       {
-        "slug": "2-4-step-i-choose-class",
-        "name": "Step I: Choose Class",
+        "slug": "2-4-step-1-choose-class",
+        "name": "Step 1: Choose Class",
         "sub": "§2.4",
         "group": "Character Creation"
       },
@@ -850,8 +850,8 @@
         "group": "Character Creation"
       },
       {
-        "slug": "2-28-tier-i-levels-i-4",
-        "name": "Tier I (Levels I–4)",
+        "slug": "2-28-tier-1-levels-1-4",
+        "name": "Tier 1 (Levels 1–4)",
         "sub": "§2.28",
         "group": "Character Creation"
       },
@@ -1396,8 +1396,8 @@
         "group": "Equipment"
       },
       {
-        "slug": "6-39-cartographers-tools-i5-gp",
-        "name": "Cartographer's Tools (I5 GP)",
+        "slug": "6-39-cartographers-tools-15-gp",
+        "name": "Cartographer's Tools (15 GP)",
         "sub": "§6.39",
         "group": "Equipment"
       },
@@ -1408,8 +1408,8 @@
         "group": "Equipment"
       },
       {
-        "slug": "6-41-cooks-utensils-i-gp",
-        "name": "Cook's Utensils (I GP)",
+        "slug": "6-41-cooks-utensils-1-gp",
+        "name": "Cook's Utensils (1 GP)",
         "sub": "§6.41",
         "group": "Equipment"
       },
@@ -1462,14 +1462,14 @@
         "group": "Equipment"
       },
       {
-        "slug": "6-50-weavers-tools-i-gp",
-        "name": "Weaver's Tools (I GP)",
+        "slug": "6-50-weavers-tools-1-gp",
+        "name": "Weaver's Tools (1 GP)",
         "sub": "§6.50",
         "group": "Equipment"
       },
       {
-        "slug": "6-51-woodcarvers-tools-i-gp",
-        "name": "Woodcarver's Tools (I GP)",
+        "slug": "6-51-woodcarvers-tools-1-gp",
+        "name": "Woodcarver's Tools (1 GP)",
         "sub": "§6.51",
         "group": "Equipment"
       },
@@ -1486,8 +1486,8 @@
         "group": "Equipment"
       },
       {
-        "slug": "6-54-forgery-kit-i5-gp",
-        "name": "Forgery Kit (I5 GP)",
+        "slug": "6-54-forgery-kit-15-gp",
+        "name": "Forgery Kit (15 GP)",
         "sub": "§6.54",
         "group": "Equipment"
       },
@@ -1570,8 +1570,8 @@
         "group": "Equipment"
       },
       {
-        "slug": "6-68-ball-bearings-i-gp",
-        "name": "Ball Bearings (I GP)",
+        "slug": "6-68-ball-bearings-1-gp",
+        "name": "Ball Bearings (1 GP)",
         "sub": "§6.68",
         "group": "Equipment"
       },
@@ -1588,14 +1588,14 @@
         "group": "Equipment"
       },
       {
-        "slug": "6-71-bedroll-i-gp",
-        "name": "Bedroll (I GP)",
+        "slug": "6-71-bedroll-1-gp",
+        "name": "Bedroll (1 GP)",
         "sub": "§6.71",
         "group": "Equipment"
       },
       {
-        "slug": "6-72-bell-i-gp",
-        "name": "Bell (I GP)",
+        "slug": "6-72-bell-1-gp",
+        "name": "Bell (1 GP)",
         "sub": "§6.72",
         "group": "Equipment"
       },
@@ -1606,8 +1606,8 @@
         "group": "Equipment"
       },
       {
-        "slug": "6-74-block-and-tackle-i-gp",
-        "name": "Block and Tackle (I GP)",
+        "slug": "6-74-block-and-tackle-1-gp",
+        "name": "Block and Tackle (1 GP)",
         "sub": "§6.74",
         "group": "Equipment"
       },
@@ -1636,26 +1636,26 @@
         "group": "Equipment"
       },
       {
-        "slug": "6-79-caltrops-i-gp",
-        "name": "Caltrops (I GP)",
+        "slug": "6-79-caltrops-1-gp",
+        "name": "Caltrops (1 GP)",
         "sub": "§6.79",
         "group": "Equipment"
       },
       {
-        "slug": "6-80-candle-i-cp",
-        "name": "Candle (I CP)",
+        "slug": "6-80-candle-1-cp",
+        "name": "Candle (1 CP)",
         "sub": "§6.80",
         "group": "Equipment"
       },
       {
-        "slug": "6-81-case-crossbow-bolt-i-gp",
-        "name": "Case, Crossbow Bolt (I GP)",
+        "slug": "6-81-case-crossbow-bolt-1-gp",
+        "name": "Case, Crossbow Bolt (1 GP)",
         "sub": "§6.81",
         "group": "Equipment"
       },
       {
-        "slug": "6-82-case-map-or-scroll-i-gp",
-        "name": "Case, Map or Scroll (I GP)",
+        "slug": "6-82-case-map-or-scroll-1-gp",
+        "name": "Case, Map or Scroll (1 GP)",
         "sub": "§6.82",
         "group": "Equipment"
       },
@@ -1720,8 +1720,8 @@
         "group": "Equipment"
       },
       {
-        "slug": "6-93-dungeoneers-pack-i2-gp",
-        "name": "Dungeoneer's Pack (I2 GP)",
+        "slug": "6-93-dungeoneers-pack-12-gp",
+        "name": "Dungeoneer's Pack (12 GP)",
         "sub": "§6.93",
         "group": "Equipment"
       },
@@ -1792,8 +1792,8 @@
         "group": "Equipment"
       },
       {
-        "slug": "6-105-ladder-i-sp",
-        "name": "Ladder (I SP)",
+        "slug": "6-105-ladder-1-sp",
+        "name": "Ladder (1 SP)",
         "sub": "§6.105",
         "group": "Equipment"
       },
@@ -1834,8 +1834,8 @@
         "group": "Equipment"
       },
       {
-        "slug": "6-112-map-i-gp",
-        "name": "Map (I GP)",
+        "slug": "6-112-map-1-gp",
+        "name": "Map (1 GP)",
         "sub": "§6.112",
         "group": "Equipment"
       },
@@ -1846,14 +1846,14 @@
         "group": "Equipment"
       },
       {
-        "slug": "6-114-net-i-gp",
-        "name": "Net (I GP)",
+        "slug": "6-114-net-1-gp",
+        "name": "Net (1 GP)",
         "sub": "§6.114",
         "group": "Equipment"
       },
       {
-        "slug": "6-115-oil-i-sp",
-        "name": "Oil (I SP)",
+        "slug": "6-115-oil-1-sp",
+        "name": "Oil (1 SP)",
         "sub": "§6.115",
         "group": "Equipment"
       },
@@ -1864,8 +1864,8 @@
         "group": "Equipment"
       },
       {
-        "slug": "6-117-parchment-i-sp",
-        "name": "Parchment (I SP)",
+        "slug": "6-117-parchment-1-sp",
+        "name": "Parchment (1 SP)",
         "sub": "§6.117",
         "group": "Equipment"
       },
@@ -1912,8 +1912,8 @@
         "group": "Equipment"
       },
       {
-        "slug": "6-125-quiver-i-gp",
-        "name": "Quiver (I GP)",
+        "slug": "6-125-quiver-1-gp",
+        "name": "Quiver (1 GP)",
         "sub": "§6.125",
         "group": "Equipment"
       },
@@ -1930,20 +1930,20 @@
         "group": "Equipment"
       },
       {
-        "slug": "6-128-robe-i-gp",
-        "name": "Robe (I GP)",
+        "slug": "6-128-robe-1-gp",
+        "name": "Robe (1 GP)",
         "sub": "§6.128",
         "group": "Equipment"
       },
       {
-        "slug": "6-129-rope-i-gp",
-        "name": "Rope (I GP)",
+        "slug": "6-129-rope-1-gp",
+        "name": "Rope (1 GP)",
         "sub": "§6.129",
         "group": "Equipment"
       },
       {
-        "slug": "6-130-sack-i-cp",
-        "name": "Sack (I CP)",
+        "slug": "6-130-sack-1-cp",
+        "name": "Sack (1 CP)",
         "sub": "§6.130",
         "group": "Equipment"
       },
@@ -1972,8 +1972,8 @@
         "group": "Equipment"
       },
       {
-        "slug": "6-135-spikes-iron-i-gp",
-        "name": "Spikes, Iron (I GP)",
+        "slug": "6-135-spikes-iron-1-gp",
+        "name": "Spikes, Iron (1 GP)",
         "sub": "§6.135",
         "group": "Equipment"
       },
@@ -1984,8 +1984,8 @@
         "group": "Equipment"
       },
       {
-        "slug": "6-137-string-i-sp",
-        "name": "String (I SP)",
+        "slug": "6-137-string-1-sp",
+        "name": "String (1 SP)",
         "sub": "§6.137",
         "group": "Equipment"
       },
@@ -2002,14 +2002,14 @@
         "group": "Equipment"
       },
       {
-        "slug": "6-140-torch-i-cp",
-        "name": "Torch (I CP)",
+        "slug": "6-140-torch-1-cp",
+        "name": "Torch (1 CP)",
         "sub": "§6.140",
         "group": "Equipment"
       },
       {
-        "slug": "6-141-vial-i-gp",
-        "name": "Vial (I GP)",
+        "slug": "6-141-vial-1-gp",
+        "name": "Vial (1 GP)",
         "sub": "§6.141",
         "group": "Equipment"
       },
@@ -2092,8 +2092,8 @@
         "group": "Equipment"
       },
       {
-        "slug": "6-155-squalid-i-sp-per-day",
-        "name": "Squalid (I SP per Day)",
+        "slug": "6-155-squalid-1-sp-per-day",
+        "name": "Squalid (1 SP per Day)",
         "sub": "§6.155",
         "group": "Equipment"
       },
@@ -2104,8 +2104,8 @@
         "group": "Equipment"
       },
       {
-        "slug": "6-157-modest-i-gp-per-day",
-        "name": "Modest (I GP per Day)",
+        "slug": "6-157-modest-1-gp-per-day",
+        "name": "Modest (1 GP per Day)",
         "sub": "§6.157",
         "group": "Equipment"
       },
@@ -3334,8 +3334,8 @@
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-9-i-choose-abilities",
-        "name": "I: Choose Abilities",
+        "slug": "9-9-1-choose-abilities",
+        "name": "1: Choose Abilities",
         "sub": "§9.9",
         "group": "Gameplay Toolbox"
       },
@@ -3628,8 +3628,8 @@
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-58-wyvern-poison-i-200-gp",
-        "name": "Wyvern Poison (I,200 GP)",
+        "slug": "9-58-wyvern-poison-1-200-gp",
+        "name": "Wyvern Poison (1,200 GP)",
         "sub": "§9.58",
         "group": "Gameplay Toolbox"
       },
@@ -3712,8 +3712,8 @@
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-72-step-i-choose-a-difficulty",
-        "name": "Step I: Choose a Difficulty",
+        "slug": "9-72-step-1-choose-a-difficulty",
+        "name": "Step 1: Choose a Difficulty",
         "sub": "§9.72",
         "group": "Gameplay Toolbox"
       },
@@ -5502,21 +5502,21 @@
         "group": "Magic Items"
       },
       {
-        "slug": "10-34-1d10-special-purpose",
-        "name": "1d10 Special Purpose",
-        "sub": "§10.34",
-        "group": "Magic Items"
-      },
-      {
         "slug": "10-39-ammunition-of-slaying-table-1",
         "name": "Ammunition of Slaying Table 1",
         "sub": "§10.39",
         "group": "Magic Items"
       },
       {
-        "slug": "10-42-1d100-destination",
-        "name": "1d100 Destination",
+        "slug": "10-42-amulet-of-the-planes-table-1",
+        "name": "Amulet of the Planes Table 1",
         "sub": "§10.42",
+        "group": "Magic Items"
+      },
+      {
+        "slug": "10-44-apparatus-of-the-crab-levers",
+        "name": "Apparatus of the Crab Levers",
+        "sub": "§10.44",
         "group": "Magic Items"
       },
       {
@@ -5526,20 +5526,8 @@
         "group": "Magic Items"
       },
       {
-        "slug": "10-47-apparatus-of-the-crab-levers",
-        "name": "Apparatus of the Crab Levers",
-        "sub": "§10.47",
-        "group": "Magic Items"
-      },
-      {
-        "slug": "10-50-1d100-effect",
-        "name": "1d100 Effect",
-        "sub": "§10.50",
-        "group": "Magic Items"
-      },
-      {
-        "slug": "10-50-1d100-effect-2",
-        "name": "1d100 Effect",
+        "slug": "10-50-bag-of-beans-table-1",
+        "name": "Bag of Beans Table 1",
         "sub": "§10.50",
         "group": "Magic Items"
       },
@@ -5604,8 +5592,8 @@
         "group": "Magic Items"
       },
       {
-        "slug": "10-105-1d10-effect",
-        "name": "1d10 Effect",
+        "slug": "10-105-efreeti-bottle-table-1",
+        "name": "Efreeti Bottle Table 1",
         "sub": "§10.105",
         "group": "Magic Items"
       },
@@ -5622,14 +5610,8 @@
         "group": "Magic Items"
       },
       {
-        "slug": "10-132-1d100-effect",
-        "name": "1d100 Effect",
-        "sub": "§10.132",
-        "group": "Magic Items"
-      },
-      {
-        "slug": "10-132-1d100-effect-2",
-        "name": "1d100 Effect",
+        "slug": "10-132-hat-of-many-spells-table-1",
+        "name": "Hat of Many Spells Table 1",
         "sub": "§10.132",
         "group": "Magic Items"
       },
@@ -5766,110 +5748,8 @@
         "group": "Magic Items"
       },
       {
-        "slug": "10-290-1d100-effect",
-        "name": "1d100 Effect",
-        "sub": "§10.290",
-        "group": "Magic Items"
-      },
-      {
-        "slug": "10-290-1d100-effect-2",
-        "name": "1d100 Effect",
-        "sub": "§10.290",
-        "group": "Magic Items"
-      },
-      {
-        "slug": "10-290-1d100-effect-3",
-        "name": "1d100 Effect",
-        "sub": "§10.290",
-        "group": "Magic Items"
-      },
-      {
-        "slug": "10-290-1d100-effect-4",
-        "name": "1d100 Effect",
-        "sub": "§10.290",
-        "group": "Magic Items"
-      },
-      {
-        "slug": "10-290-1d100-effect-5",
-        "name": "1d100 Effect",
-        "sub": "§10.290",
-        "group": "Magic Items"
-      },
-      {
-        "slug": "10-290-1d100-effect-6",
-        "name": "1d100 Effect",
-        "sub": "§10.290",
-        "group": "Magic Items"
-      },
-      {
-        "slug": "10-290-1d100-effect-7",
-        "name": "1d100 Effect",
-        "sub": "§10.290",
-        "group": "Magic Items"
-      },
-      {
-        "slug": "10-290-1d100-effect-8",
-        "name": "1d100 Effect",
-        "sub": "§10.290",
-        "group": "Magic Items"
-      },
-      {
-        "slug": "10-290-1d100-effect-9",
-        "name": "1d100 Effect",
-        "sub": "§10.290",
-        "group": "Magic Items"
-      },
-      {
-        "slug": "10-290-1d100-effect-10",
-        "name": "1d100 Effect",
-        "sub": "§10.290",
-        "group": "Magic Items"
-      },
-      {
-        "slug": "10-290-1d100-effect-11",
-        "name": "1d100 Effect",
-        "sub": "§10.290",
-        "group": "Magic Items"
-      },
-      {
-        "slug": "10-290-1d100-effect-12",
-        "name": "1d100 Effect",
-        "sub": "§10.290",
-        "group": "Magic Items"
-      },
-      {
-        "slug": "10-290-1d100-effect-13",
-        "name": "1d100 Effect",
-        "sub": "§10.290",
-        "group": "Magic Items"
-      },
-      {
-        "slug": "10-290-1d100-effect-14",
-        "name": "1d100 Effect",
-        "sub": "§10.290",
-        "group": "Magic Items"
-      },
-      {
-        "slug": "10-290-1d100-effect-15",
-        "name": "1d100 Effect",
-        "sub": "§10.290",
-        "group": "Magic Items"
-      },
-      {
-        "slug": "10-290-1d100-effect-16",
-        "name": "1d100 Effect",
-        "sub": "§10.290",
-        "group": "Magic Items"
-      },
-      {
-        "slug": "10-290-1d100-effect-17",
-        "name": "1d100 Effect",
-        "sub": "§10.290",
-        "group": "Magic Items"
-      },
-      {
-        "slug": "10-290-1d100-effect-18",
-        "name": "1d100 Effect",
+        "slug": "10-290-wand-of-wonder-effects",
+        "name": "Wand of Wonder Effects",
         "sub": "§10.290",
         "group": "Magic Items"
       },
@@ -6546,8 +6426,8 @@
         "group": "Adventuring Gear"
       },
       {
-        "slug": "alchemist-x27-s-fire",
-        "name": "Alchemist&#x27;s Fire",
+        "slug": "alchemists-fire",
+        "name": "Alchemist’s Fire",
         "sub": "50 GP",
         "group": "Adventuring Gear"
       },
@@ -6636,8 +6516,8 @@
         "group": "Adventuring Gear"
       },
       {
-        "slug": "burglar-x27-s-pack",
-        "name": "Burglar&#x27;s Pack",
+        "slug": "burglars-pack",
+        "name": "Burglar’s Pack",
         "sub": "16 GP",
         "group": "Adventuring Gear"
       },
@@ -6678,8 +6558,8 @@
         "group": "Adventuring Gear"
       },
       {
-        "slug": "climber-x27-s-kit",
-        "name": "Climber&#x27;s Kit",
+        "slug": "climbers-kit",
+        "name": "Climber’s Kit",
         "sub": "25 GP",
         "group": "Adventuring Gear"
       },
@@ -6690,8 +6570,8 @@
         "group": "Adventuring Gear"
       },
       {
-        "slug": "clothes-traveler-x27-s",
-        "name": "Clothes, Traveler&#x27;s",
+        "slug": "clothes-travelers",
+        "name": "Clothes, Traveler’s",
         "sub": "2 GP",
         "group": "Adventuring Gear"
       },
@@ -6714,8 +6594,8 @@
         "group": "Adventuring Gear"
       },
       {
-        "slug": "diplomat-x27-s-pack",
-        "name": "Diplomat&#x27;s Pack",
+        "slug": "diplomats-pack",
+        "name": "Diplomat’s Pack",
         "sub": "39 GP",
         "group": "Adventuring Gear"
       },
@@ -6726,20 +6606,20 @@
         "group": "Adventuring Gear"
       },
       {
-        "slug": "dungeoneer-x27-s-pack",
-        "name": "Dungeoneer&#x27;s Pack",
+        "slug": "dungeoneers-pack",
+        "name": "Dungeoneer’s Pack",
         "sub": "12 GP",
         "group": "Adventuring Gear"
       },
       {
-        "slug": "entertainer-x27-s-pack",
-        "name": "Entertainer&#x27;s Pack",
+        "slug": "entertainers-pack",
+        "name": "Entertainer’s Pack",
         "sub": "40 GP",
         "group": "Adventuring Gear"
       },
       {
-        "slug": "explorer-x27-s-pack",
-        "name": "Explorer&#x27;s Pack",
+        "slug": "explorers-pack",
+        "name": "Explorer’s Pack",
         "sub": "10 GP",
         "group": "Adventuring Gear"
       },
@@ -6756,8 +6636,8 @@
         "group": "Adventuring Gear"
       },
       {
-        "slug": "healer-x27-s-kit",
-        "name": "Healer&#x27;s Kit",
+        "slug": "healers-kit",
+        "name": "Healer’s Kit",
         "sub": "5 GP",
         "group": "Adventuring Gear"
       },
@@ -6912,8 +6792,8 @@
         "group": "Adventuring Gear"
       },
       {
-        "slug": "priest-x27-s-pack",
-        "name": "Priest&#x27;s Pack",
+        "slug": "priests-pack",
+        "name": "Priest’s Pack",
         "sub": "33 GP",
         "group": "Adventuring Gear"
       },
@@ -6954,8 +6834,8 @@
         "group": "Adventuring Gear"
       },
       {
-        "slug": "scholar-x27-s-pack",
-        "name": "Scholar&#x27;s Pack",
+        "slug": "scholars-pack",
+        "name": "Scholar’s Pack",
         "sub": "40 GP",
         "group": "Adventuring Gear"
       },

@@ -11,11 +11,14 @@
     "chapter": "Gameplay Toolbox",
     "section": "9.73",
     "heading": "Step 2: Determine Your XP Budget",
-    "lineStart": 14375,
-    "lineEnd": 14375
+    "lineStart": 14500,
+    "lineEnd": 14522
   },
   "columns": [
-    "Encounter Difficulty"
+    "Party’s Level",
+    "Encounter Difficulty",
+    "",
+    ""
   ],
   "rows": [
     {
@@ -29,6 +32,9 @@
         },
         {
           "value": "High"
+        },
+        {
+          "value": ""
         }
       ]
     },

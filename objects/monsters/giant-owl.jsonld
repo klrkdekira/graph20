@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.42",
     "heading": "Giant Owl",
-    "lineStart": 28280,
-    "lineEnd": 28315
+    "lineStart": 27831,
+    "lineEnd": 27862
   },
   "sizeTypeAlignment": "Large Celestial, Neutral",
   "sizeAndType": "Large Celestial",
@@ -39,34 +39,34 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 13,
-      "modifier": 1,
-      "savingThrow": 1
-    },
-    "dex": {
       "score": 15,
       "modifier": 2,
       "savingThrow": 2
     },
-    "con": {
+    "dex": {
       "score": 12,
+      "modifier": 1,
+      "savingThrow": 3
+    },
+    "con": {
+      "score": 13,
       "modifier": 1,
       "savingThrow": 1
     },
     "int": {
-      "score": 10,
-      "modifier": 0,
-      "savingThrow": 0
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
     },
     "wis": {
-      "score": 14,
-      "modifier": 2,
-      "savingThrow": 4
-    },
-    "cha": {
       "score": 10,
       "modifier": 0,
       "savingThrow": 0
+    },
+    "cha": {
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
     }
   },
   "statSections": [
@@ -79,7 +79,7 @@
       "rulesText": "Talons. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (1d10 + 2) Slashing damage.\n\nSpellcasting. The owl casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability:\n\nAt Will: Detect Evil and Good, Detect Magic\n1/Day: Clairvoyance"
     }
   ],
-  "rulesText": "Large Celestial, Neutral\n\nAC 12\n\nInitiative +2 (12)\n\nHP 19 (3d10 + 3)\n\nSpeed 5 ft., Fly 60 ft.\n\nSkills Perception +6, Stealth +6\n\nResistances Necrotic, Radiant\n\nSenses Darkvision 120 ft.; Passive Perception 16\n\nLanguages Celestial; understands Common, Elvish, and Sylvan but can't speak them\n\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nFlyby. The owl doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nTalons. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (1d10 + 2) Slashing damage.\n\nSpellcasting. The owl casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability:\n\nAt Will: Detect Evil and Good, Detect Magic\n1/Day: Clairvoyance",
+  "rulesText": "Large Celestial, Neutral\n\nAC 12\nInitiative +2 (12)\nHP 19 (3d10 + 3)\nSpeed 5 ft., Fly 60 ft.\n\nSkills Perception +6, Stealth +6\nResistances Necrotic, Radiant\nSenses Darkvision 120 ft.; Passive Perception 16\nLanguages Celestial; understands Common, Elvish, and Sylvan but can't speak them\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nFlyby. The owl doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nTalons. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (1d10 + 2) Slashing damage.\n\nSpellcasting. The owl casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability:\n\nAt Will: Detect Evil and Good, Detect Magic\n1/Day: Clairvoyance",
   "attacks": [
     {
       "name": "Talons",

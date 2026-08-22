@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.277",
     "heading": "Purify Food and Drink",
-    "lineStart": 11070,
-    "lineEnd": 11082
+    "lineStart": 11300,
+    "lineEnd": 11309
   },
   "level": 1,
   "school": "Transmutation",
@@ -25,7 +25,7 @@
   "range": "10 feet",
   "components": "V, S",
   "duration": "Instantaneous",
-  "rulesText": "Level 1 Transmutation (Cleric, Druid, Paladin)\n\nCasting Time: Action or Ritual\n\nRange: 10 feet\n\nComponents: V, S\n\nDuration: Instantaneous\n\nYou remove poison and rot from nonmagical food and drink in a 5-foot-radius Sphere centered on a point within range.",
+  "rulesText": "Level 1 Transmutation (Cleric, Druid, Paladin)\n\nCasting Time: Action or Ritual\nRange: 10 feet\nComponents: V, S\nDuration: Instantaneous\n\nYou remove poison and rot from nonmagical food and drink in a 5-foot-radius Sphere centered on a point within range.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.264",
     "heading": "Wight",
-    "lineStart": 26789,
-    "lineEnd": 26834
+    "lineStart": 26484,
+    "lineEnd": 26523
   },
   "sizeTypeAlignment": "Medium Undead, Neutral Evil",
   "sizeAndType": "Medium Undead",
@@ -41,19 +41,19 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 15,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 26,
+      "modifier": 8,
+      "savingThrow": 8
     },
     "dex": {
-      "score": 14,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 6
     },
     "con": {
-      "score": 16,
-      "modifier": 3,
-      "savingThrow": 3
+      "score": 26,
+      "modifier": 8,
+      "savingThrow": 8
     },
     "int": {
       "score": 10,
@@ -63,12 +63,12 @@
     "wis": {
       "score": 13,
       "modifier": 1,
-      "savingThrow": 1
+      "savingThrow": 7
     },
     "cha": {
-      "score": 15,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
     }
   },
   "statSections": [
@@ -81,7 +81,7 @@
       "rulesText": "Multiattack. The wight makes two attacks, using Necrotic Sword or Necrotic Bow in any combination. It can replace one attack with a use of Life Drain.\n\nNecrotic Sword. Melee Attack Roll: +4, reach 5 ft.\nHit: 6 (1d8 + 2) Slashing damage plus 4 (1d8) Necrotic damage.\n\nNecrotic Bow. Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing damage plus 4 (1d8) Necrotic damage.\n\nLife Drain. Constitution Saving Throw: DC 13, one creature within 5 feet. Failure: 6 (1d8 + 2) Necrotic damage, and the target's Hit Point maximum decreases by an amount equal to the damage taken.\n\nA Humanoid slain by this attack rises 24 hours later as a Zombie under the wight's control, unless the Humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at a time."
     }
   ],
-  "rulesText": "Medium Undead, Neutral Evil\n\nAC 14\n\nInitiative +4 (14)\n\nHP 82 (11d8 + 33)\n\nSpeed 30 ft.\n\nSkills Perception +3, Stealth +4\n\nResistances Necrotic\n\nImmunities Poison; Exhaustion, Poisoned\n\nGear Studded Leather Armor\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages Common plus one other language\n\nCR 3 (XP 700; PB +2)\n\nTraits\n\nSunlight Sensitivity. While in sunlight, the wight has Disadvantage on ability checks and attack rolls.\n\nActions\n\nMultiattack. The wight makes two attacks, using Necrotic Sword or Necrotic Bow in any combination. It can replace one attack with a use of Life Drain.\n\nNecrotic Sword. Melee Attack Roll: +4, reach 5 ft.\nHit: 6 (1d8 + 2) Slashing damage plus 4 (1d8) Necrotic damage.\n\nNecrotic Bow. Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing damage plus 4 (1d8) Necrotic damage.\n\nLife Drain. Constitution Saving Throw: DC 13, one creature within 5 feet. Failure: 6 (1d8 + 2) Necrotic damage, and the target's Hit Point maximum decreases by an amount equal to the damage taken.\n\nA Humanoid slain by this attack rises 24 hours later as a Zombie under the wight's control, unless the Humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at a time.",
+  "rulesText": "Medium Undead, Neutral Evil\n\nAC 14\nInitiative +4 (14)\nHP 82 (11d8 + 33)\nSpeed 30 ft.\n\nSkills Perception +3, Stealth +4\nResistances Necrotic\nImmunities Poison; Exhaustion, Poisoned\nGear Studded Leather Armor\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages Common plus one other language\nCR 3 (XP 700; PB +2)\n\nTraits\n\nSunlight Sensitivity. While in sunlight, the wight has Disadvantage on ability checks and attack rolls.\n\nActions\n\nMultiattack. The wight makes two attacks, using Necrotic Sword or Necrotic Bow in any combination. It can replace one attack with a use of Life Drain.\n\nNecrotic Sword. Melee Attack Roll: +4, reach 5 ft.\nHit: 6 (1d8 + 2) Slashing damage plus 4 (1d8) Necrotic damage.\n\nNecrotic Bow. Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing damage plus 4 (1d8) Necrotic damage.\n\nLife Drain. Constitution Saving Throw: DC 13, one creature within 5 feet. Failure: 6 (1d8 + 2) Necrotic damage, and the target's Hit Point maximum decreases by an amount equal to the damage taken.\n\nA Humanoid slain by this attack rises 24 hours later as a Zombie under the wight's control, unless the Humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at a time.",
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/exhaustion"

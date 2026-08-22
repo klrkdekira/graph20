@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.247",
     "heading": "Misty Step",
-    "lineStart": 10511,
-    "lineEnd": 10523
+    "lineStart": 10822,
+    "lineEnd": 10831
   },
   "level": 2,
   "school": "Conjuration",
@@ -25,7 +25,7 @@
   "range": "Self",
   "components": "V",
   "duration": "Instantaneous",
-  "rulesText": "Level 2 Conjuration (Sorcerer, Warlock, Wizard)\n\nCasting Time: Bonus Action\n\nRange: Self\n\nComponents: V\n\nDuration: Instantaneous\n\nBriefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space you can see.",
+  "rulesText": "Level 2 Conjuration (Sorcerer, Warlock, Wizard)\n\nCasting Time: Bonus Action\nRange: Self\nComponents: V\nDuration: Instantaneous\n\nBriefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space you can see.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.247",
     "heading": "Vampire Spawn",
-    "lineStart": 26130,
-    "lineEnd": 26178
+    "lineStart": 25882,
+    "lineEnd": 25926
   },
   "sizeTypeAlignment": "Medium or Small Undead, Neutral Evil",
   "sizeAndType": "Medium or Small Undead",
@@ -83,7 +83,7 @@
       "rulesText": "Deathless Agility. The vampire takes the Dash or Disengage action."
     }
   ],
-  "rulesText": "Medium or Small Undead, Neutral Evil\n\nAC 16\n\nInitiative +3 (13)\n\nHP 90 (12d8 + 36)\n\nSpeed 30 ft.\n\nSkills Perception +3, Stealth +6\n\nResistances Necrotic\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages Common plus one other language\n\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nSpider Climb. The vampire can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nVampire Weakness. The vampire has these weaknesses:\n\nForbiddance. The vampire can't enter a residence without an invitation from an occupant.\n\nRunning Water. The vampire takes 20 Acid damage if it ends its turn in running water.\n\nStake to the Heart. The vampire is destroyed if a weapon that deals Piercing damage is driven into the vampire's heart while the vampire has the Incapacitated condition.\n\nSunlight. The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks.\n\nActions\n\nMultiattack. The vampire makes two Claw attacks and uses Bite.\n\nClaw. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (2d4 + 3) Slashing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from one of two claws.\n\nBite. Constitution Saving Throw: DC 14, one creature within 5 feet that is willing or that has the Grappled, Incapacitated, or Restrained condition. Failure: 5 (1d4 + 3) Piercing damage plus 10 (3d6) Necrotic damage. The target's Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount.\n\nBonus Actions\n\nDeathless Agility. The vampire takes the Dash or Disengage action.",
+  "rulesText": "Medium or Small Undead, Neutral Evil\n\nAC 16\nInitiative +3 (13)\nHP 90 (12d8 + 36)\nSpeed 30 ft.\n\nSkills Perception +3, Stealth +6\nResistances Necrotic\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages Common plus one other language\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nSpider Climb. The vampire can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nVampire Weakness. The vampire has these weaknesses:\n\nForbiddance. The vampire can't enter a residence without an invitation from an occupant.\n\nRunning Water. The vampire takes 20 Acid damage if it ends its turn in running water.\n\nStake to the Heart. The vampire is destroyed if a weapon that deals Piercing damage is driven into the vampire's heart while the vampire has the Incapacitated condition.\n\nSunlight. The vampire takes 20 Radiant damage if it starts its turn in sunlight. While in sunlight, it has Disadvantage on attack rolls and ability checks.\n\nActions\n\nMultiattack. The vampire makes two Claw attacks and uses Bite.\n\nClaw. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (2d4 + 3) Slashing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from one of two claws.\n\nBite. Constitution Saving Throw: DC 14, one creature within 5 feet that is willing or that has the Grappled, Incapacitated, or Restrained condition. Failure: 5 (1d4 + 3) Piercing damage plus 10 (3d6) Necrotic damage. The target's Hit Point maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount.\n\nBonus Actions\n\nDeathless Agility. The vampire takes the Dash or Disengage action.",
   "attacks": [
     {
       "name": "Claw",

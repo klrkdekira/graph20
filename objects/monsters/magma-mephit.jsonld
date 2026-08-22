@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.163",
     "heading": "Magma Mephit",
-    "lineStart": 23138,
-    "lineEnd": 23172
+    "lineStart": 23162,
+    "lineEnd": 23191
   },
   "sizeTypeAlignment": "Small Elemental, Neutral Evil",
   "sizeAndType": "Small Elemental",
@@ -80,7 +80,7 @@
       "rulesText": "Claw. Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Slashing damage plus 3 (1d6) Fire damage.\n\nFire Breath (Recharge 6). Dexterity Saving Throw: DC 11, each creature in a 15-foot Cone. Failure: 7 (2d6) Fire damage. Success: Half damage."
     }
   ],
-  "rulesText": "Small Elemental, Neutral Evil\n\nAC 11\n\nInitiative +1 (11)\n\nHP 18 (4d6 + 4)\n\nSpeed 30 ft., Fly 30 ft.\n\nSkills Stealth +3\n\nVulnerabilities Cold\n\nImmunities Fire, Poison; Exhaustion, Poisoned\n\nSenses Darkvision 60 ft.; Passive Perception 10\n\nLanguages Primordial (Ignan, Terran)\n\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nDeath Burst. The mephit explodes when it dies. Dexterity Saving Throw: DC 11, each creature in a 5-foot Emanation originating from the mephit. Failure: 7 (2d6) Fire damage. Success: Half damage.\n\nActions\n\nClaw. Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Slashing damage plus 3 (1d6) Fire damage.\n\nFire Breath (Recharge 6). Dexterity Saving Throw: DC 11, each creature in a 15-foot Cone. Failure: 7 (2d6) Fire damage. Success: Half damage.",
+  "rulesText": "Small Elemental, Neutral Evil\n\nAC 11\nInitiative +1 (11)\nHP 18 (4d6 + 4)\nSpeed 30 ft., Fly 30 ft.\n\nSkills Stealth +3\nVulnerabilities Cold\nImmunities Fire, Poison; Exhaustion, Poisoned\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Primordial (Ignan, Terran)\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nDeath Burst. The mephit explodes when it dies. Dexterity Saving Throw: DC 11, each creature in a 5-foot Emanation originating from the mephit. Failure: 7 (2d6) Fire damage. Success: Half damage.\n\nActions\n\nClaw. Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Slashing damage plus 3 (1d6) Fire damage.\n\nFire Breath (Recharge 6). Dexterity Saving Throw: DC 11, each creature in a 15-foot Cone. Failure: 7 (2d6) Fire damage. Success: Half damage.",
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/exhaustion"

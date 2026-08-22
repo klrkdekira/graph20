@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.34",
     "heading": "Giant Eagle",
-    "lineStart": 28038,
-    "lineEnd": 28066
+    "lineStart": 27614,
+    "lineEnd": 27638
   },
   "sizeTypeAlignment": "Large Celestial, Neutral Good",
   "sizeAndType": "Large Celestial",
@@ -75,7 +75,7 @@
       "rulesText": "Multiattack. The eagle makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage plus 3 (1d6) Radiant damage."
     }
   ],
-  "rulesText": "Large Celestial, Neutral Good\n\nAC 13\n\nInitiative +3 (13)\n\nHP 26 (4d10 + 4)\n\nSpeed 10 ft., Fly 80 ft.\n\nSkills Perception +6\n\nResistances Necrotic, Radiant\n\nSenses Passive Perception 16\n\nLanguages Celestial; understands Common and Primordial (Auran) but can't speak them\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The eagle makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage plus 3 (1d6) Radiant damage.",
+  "rulesText": "Large Celestial, Neutral Good\n\nAC 13\nInitiative +3 (13)\nHP 26 (4d10 + 4)\nSpeed 10 ft., Fly 80 ft.\n\nSkills Perception +6\nResistances Necrotic, Radiant\nSenses Passive Perception 16\nLanguages Celestial; understands Common and Primordial (Auran) but can't speak them\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The eagle makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage plus 3 (1d6) Radiant damage.",
   "attacks": [
     {
       "name": "Rend",

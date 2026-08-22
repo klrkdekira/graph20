@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-130-sack-1-cp",
+  "@type": "Rule",
+  "name": "Sack (1 CP)",
+  "slug": "6-130-sack-1-cp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.130",
+    "heading": "Sack (1 CP)",
+    "lineStart": 6834,
+    "lineEnd": 6836
+  },
+  "section": "6.130",
+  "rulesText": "A Sack holds up to 30 pounds within 1 cubic foot."
+}

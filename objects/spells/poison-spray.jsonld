@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.261",
     "heading": "Poison Spray",
-    "lineStart": 10761,
-    "lineEnd": 10775
+    "lineStart": 11030,
+    "lineEnd": 11041
   },
   "level": 0,
   "school": "Necromancy",
@@ -26,7 +26,7 @@
   "range": "30 feet",
   "components": "V, S",
   "duration": "Instantaneous",
-  "rulesText": "Necromancy Cantrip (Druid, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V, S\n\nDuration: Instantaneous\n\nYou spray toxic mist at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d12 Poison damage.\n\nCantrip Upgrade. The damage increases by 1d12 when you reach levels 5 (2d12), 11 (3d12), and 17 (4d12).",
+  "rulesText": "Necromancy Cantrip (Druid, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\nRange: 30 feet\nComponents: V, S\nDuration: Instantaneous\n\nYou spray toxic mist at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d12 Poison damage.\n\nCantrip Upgrade. The damage increases by 1d12 when you reach levels 5 (2d12), 11 (3d12), and 17 (4d12).",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/druid"

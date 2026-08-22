@@ -11,8 +11,8 @@
     "chapter": "Playing the Game",
     "section": "1.95",
     "heading": "Half Damage",
-    "lineStart": 1618,
-    "lineEnd": 1620
+    "lineStart": 767,
+    "lineEnd": 769
   },
   "section": "1.95",
   "rulesText": "Many saving throw effects deal half damage (round down) to a target when the target succeeds on the saving throw. The halved damage is equal to half the damage that would be dealt on a failed save."

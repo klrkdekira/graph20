@@ -11,11 +11,11 @@
     "chapter": "Classes",
     "section": "3.11",
     "heading": "Druid Spell List",
-    "lineStart": 2942,
-    "lineEnd": 2984
+    "lineStart": 2634,
+    "lineEnd": 2810
   },
   "section": "3.11",
-  "rulesText": "This section presents the Druid spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, $C$ means the spell requires Concentration, $R$ means it's a Ritual, and $M$ means it requires a specific Material component.\n\nCantrips (Level 0 Druid Spells)\n\nLevel 1 Druid Spells\n\nLevel 2 Druid Spells\n\nLevel 3 Druid Spells\n\nLevel 4 Druid Spells\n\nLevel 5 Druid Spells\n\nLevel 6 Druid Spells\n\nLevel 7 Druid Spells\n\nLevel 8 Druid Spells\n\nLevel 9 Druid Spells",
+  "rulesText": "This section presents the Druid spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, C means the spell requires Concentration, R means it's a Ritual, and M means it requires a specific Material component.\n\nCantrips (Level 0 Druid Spells)\n\nLevel 1 Druid Spells\n\nLevel 2 Druid Spells\n\nLevel 3 Druid Spells\n\nLevel 4 Druid Spells\n\nLevel 5 Druid Spells\n\nLevel 6 Druid Spells\n\nLevel 7 Druid Spells\n\nLevel 8 Druid Spells\n\nLevel 9 Druid Spells",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/3-11-cantrips-level-0-druid-spells"

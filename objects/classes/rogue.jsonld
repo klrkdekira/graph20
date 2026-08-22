@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.23",
     "heading": "Rogue",
-    "lineStart": 3756,
-    "lineEnd": 3922
+    "lineStart": 3822,
+    "lineEnd": 4017
   },
   "coreTraits": {
     "Primary Ability": "Dexterity",
@@ -126,5 +126,5 @@
       "rulesText": "You have a marvelous knack for succeeding when you need to. If you fail a D20 Test, you can turn the roll into a 20.\n\nOnce you use this feature, you can't use it again until you finish a Short or Long Rest."
     }
   ],
-  "rulesText": "Core Rogue Traits\n\nBecoming a Rogue ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Rogue Traits table.  \n- Gain the Rogue's level 1 features, which are listed in the Rogue Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Rogue Traits table: Hit Point Die, proficiency in one skill of your choice from the Rogue's skill list, proficiency with Thieves' Tools, and training with Light armor.  \n- Gain the Rogue's level 1 features, which are listed in the Rogue Features table.\n\nRogue Class Features\n\nAs a Rogue, you gain the following class features when you reach the specified Rogue levels. These features are listed in the Rogue Features table."
+  "rulesText": "Core Rogue Traits\n\nBecoming a Rogue ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Rogue Traits table.\n- Gain the Rogue's level 1 features, which are listed in the Rogue Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Rogue Traits table: Hit Point Die, proficiency in one skill of your choice from the Rogue's skill list, proficiency with Thieves' Tools, and training with Light armor.\n- Gain the Rogue's level 1 features, which are listed in the Rogue Features table.\n\nRogue Class Features\n\nAs a Rogue, you gain the following class features when you reach the specified Rogue levels. These features are listed in the Rogue Features table."
 }

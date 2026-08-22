@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.33",
     "heading": "Giant Crocodile",
-    "lineStart": 28004,
-    "lineEnd": 28036
+    "lineStart": 27583,
+    "lineEnd": 27612
   },
   "sizeTypeAlignment": "Huge Beast, Unaligned",
   "sizeAndType": "Huge Beast",
@@ -78,7 +78,7 @@
       "rulesText": "Multiattack. The crocodile makes one Bite attack and one Tail attack.\n\nBite. Melee Attack Roll: +8, reach 5 ft. Hit: 21 (3d10 + 5) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 15). While Grappled, the target has the Restrained condition and can't be targeted by the crocodile's Tail.\n\nTail. Melee Attack Roll: +8, reach 10 ft. Hit: 18 (3d8 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition."
     }
   ],
-  "rulesText": "Huge Beast, Unaligned\n\nAC 14\n\nInitiative -1 (9)\n\nHP 85 (9d12 + 27)\n\nSpeed 30 ft., Swim 50 ft.\n\nSkills Stealth +5\n\nSenses Passive Perception 10\n\nLanguages None\n\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nHold Breath. The crocodile can hold its breath for 1 hour.\n\nActions\n\nMultiattack. The crocodile makes one Bite attack and one Tail attack.\n\nBite. Melee Attack Roll: +8, reach 5 ft. Hit: 21 (3d10 + 5) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 15). While Grappled, the target has the Restrained condition and can't be targeted by the crocodile's Tail.\n\nTail. Melee Attack Roll: +8, reach 10 ft. Hit: 18 (3d8 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition.",
+  "rulesText": "Huge Beast, Unaligned\n\nAC 14\nInitiative -1 (9)\nHP 85 (9d12 + 27)\nSpeed 30 ft., Swim 50 ft.\n\nSkills Stealth +5\nSenses Passive Perception 10\nLanguages None\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nHold Breath. The crocodile can hold its breath for 1 hour.\n\nActions\n\nMultiattack. The crocodile makes one Bite attack and one Tail attack.\n\nBite. Melee Attack Roll: +8, reach 5 ft. Hit: 21 (3d10 + 5) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 15). While Grappled, the target has the Restrained condition and can't be targeted by the crocodile's Tail.\n\nTail. Melee Attack Roll: +8, reach 10 ft. Hit: 18 (3d8 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition.",
   "attacks": [
     {
       "name": "Bite",

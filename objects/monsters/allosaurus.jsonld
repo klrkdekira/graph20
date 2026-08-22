@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.2",
     "heading": "Allosaurus",
-    "lineStart": 27123,
-    "lineEnd": 27151
+    "lineStart": 26786,
+    "lineEnd": 26811
   },
   "sizeTypeAlignment": "Large Beast (Dinosaur), Unaligned",
   "sizeAndType": "Large Beast (Dinosaur)",
@@ -74,7 +74,7 @@
       "rulesText": "Bite. Melee Attack Roll: +6, reach 5 ft. Hit: 15 (2d10 + 4) Piercing damage.\n\nClaws. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing damage. If the target is a Large or smaller creature and the allosaurus moved 30+ feet straight toward it immediately before the hit, the target has the\n\nProne condition, and the allosaurus can make one Bite attack against it."
     }
   ],
-  "rulesText": "Large Beast (Dinosaur), Unaligned\n\nAC 13\n\nInitiative +1 (11)\n\nHP 51 (6d10 + 18)\n\nSpeed 60 ft.\n\nSkills Perception +5\n\nSenses Passive Perception 15\n\nLanguages None\n\nCR 2 (XP 450; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 15 (2d10 + 4) Piercing damage.\n\nClaws. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing damage. If the target is a Large or smaller creature and the allosaurus moved 30+ feet straight toward it immediately before the hit, the target has the\n\nProne condition, and the allosaurus can make one Bite attack against it.",
+  "rulesText": "Large Beast (Dinosaur), Unaligned\n\nAC 13\nInitiative +1 (11)\nHP 51 (6d10 + 18)\nSpeed 60 ft.\n\nSkills Perception +5\nSenses Passive Perception 15\nLanguages None\nCR 2 (XP 450; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 15 (2d10 + 4) Piercing damage.\n\nClaws. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing damage. If the target is a Large or smaller creature and the allosaurus moved 30+ feet straight toward it immediately before the hit, the target has the\n\nProne condition, and the allosaurus can make one Bite attack against it.",
   "attacks": [
     {
       "name": "Bite",

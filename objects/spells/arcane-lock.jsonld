@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.45",
     "heading": "Arcane Lock",
-    "lineStart": 6737,
-    "lineEnd": 6751
+    "lineStart": 7625,
+    "lineEnd": 7636
   },
   "level": 2,
   "school": "Abjuration",
@@ -23,7 +23,7 @@
   "range": "Touch",
   "components": "V, S, M (gold dust worth 25+ GP, which the spell consumes)",
   "duration": "Until dispelled",
-  "rulesText": "Level 2 Abjuration (Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (gold dust worth 25+ GP, which the spell consumes)\n\nDuration: Until dispelled\n\nYou touch a closed door, window, gate, container, or hatch and magically lock it for the duration. This lock can't be unlocked by any nonmagical means.\n\nYou and any creatures you designate when you cast the spell can open and close the object despite the lock. You can also set a password that, when spoken within 5 feet of the object, unlocks it for 1 minute.",
+  "rulesText": "Level 2 Abjuration (Wizard)\n\nCasting Time: Action\nRange: Touch\nComponents: V, S, M (gold dust worth 25+ GP, which the spell consumes)\nDuration: Until dispelled\n\nYou touch a closed door, window, gate, container, or hatch and magically lock it for the duration. This lock can't be unlocked by any nonmagical means.\n\nYou and any creatures you designate when you cast the spell can open and close the object despite the lock. You can also set a password that, when spoken within 5 feet of the object, unlocks it for 1 minute.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"

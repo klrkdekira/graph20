@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.101",
     "heading": "Creation",
-    "lineStart": 7764,
-    "lineEnd": 7784
+    "lineStart": 8505,
+    "lineEnd": 8528
   },
   "level": 5,
   "school": "Illusion",
@@ -24,7 +24,7 @@
   "range": "30 feet",
   "components": "V, S, M (a paintbrush)",
   "duration": "Special",
-  "rulesText": "Level 5 Illusion (Sorcerer, Wizard)\n\nCasting Time: 1 minute\n\nRange: 30 feet\n\nComponents: V, S, M (a paintbrush)\n\nDuration: Special\n\nYou pull wisps of shadow material from the Shadowfell to create an object within range. It is either an object of vegetable matter (soft goods, rope, wood, and the like) or mineral matter (stone, crystal, metal, and the like). The object must be no larger than a 5-foot Cube, and the object must be of a form and material that you have seen.\n\nThe spell's duration depends on the object's material, as shown in the Materials table. If the object is composed of multiple materials, use the shortest duration. Using any object created by this spell as another spell's Material component causes the other spell to fail.\n\nMaterials\n\n<table><tr><td>Material</td><td>Duration</td></tr><tr><td>Vegetable matter</td><td>24 hours</td></tr><tr><td>Stone or crystal</td><td>12 hours</td></tr><tr><td>Precious metals</td><td>1 hour</td></tr><tr><td>Gems</td><td>10 minutes</td></tr><tr><td>Adamantine or mithral</td><td>1 minute</td></tr></table>\n\nUsing a Higher-Level Spell Slot. The Cube increases by 5 feet for each spell slot level above 5.",
+  "rulesText": "Level 5 Illusion (Sorcerer, Wizard)\n\nCasting Time: 1 minute\nRange: 30 feet\nComponents: V, S, M (a paintbrush)\nDuration: Special\n\nYou pull wisps of shadow material from the Shadowfell to create an object within range. It is either an object of vegetable matter (soft goods, rope, wood, and the like) or mineral matter (stone, crystal, metal, and the like). The object must be no larger than a 5-foot Cube, and the object must be of a form and material that you have seen.\n\nThe spell's duration depends on the object's material, as shown in the Materials table. If the object is composed of multiple materials, use the shortest duration. Using any object created by this spell as another spell's Material component causes the other spell to fail.\n\nMaterials\n\n| Material              | Duration   |\n| :-------------------- | :--------- |\n| Vegetable matter      | 24 hours   |\n| Stone or crystal      | 12 hours   |\n| Precious metals       | 1 hour     |\n| Gems                  | 10 minutes |\n| Adamantine or mithral | 1 minute   |\n\nUsing a Higher-Level Spell Slot. The Cube increases by 5 feet for each spell slot level above 5.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"

@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.202",
     "heading": "Ice Storm",
-    "lineStart": 9700,
-    "lineEnd": 9716
+    "lineStart": 10146,
+    "lineEnd": 10159
   },
   "level": 4,
   "school": "Evocation",
@@ -25,7 +25,7 @@
   "range": "300 feet",
   "components": "V, S, M (a mitten)",
   "duration": "Instantaneous",
-  "rulesText": "Level 4 Evocation (Druid, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 300 feet\n\nComponents: V, S, M (a mitten)\n\nDuration: Instantaneous\n\nHail falls in a 20-foot-radius, 40-foot-high Cylinder centered on a point within range. Each creature in the Cylinder makes a Dexterity saving throw. A creature takes 2d10 Bludgeoning damage and 4d6 Cold damage on a failed save or half as much damage on a successful one.\n\nHailstones turn ground in the Cylinder into Difficult Terrain until the end of your next turn.\n\nUsing a Higher-Level Spell Slot. The Bludgeoning damage increases by 1d10 for each spell slot level above 4.",
+  "rulesText": "Level 4 Evocation (Druid, Sorcerer, Wizard)\n\nCasting Time: Action\nRange: 300 feet\nComponents: V, S, M (a mitten)\nDuration: Instantaneous\n\nHail falls in a 20-foot-radius, 40-foot-high Cylinder centered on a point within range. Each creature in the Cylinder makes a Dexterity saving throw. A creature takes 2d10 Bludgeoning damage and 4d6 Cold damage on a failed save or half as much damage on a successful one.\n\nHailstones turn ground in the Cylinder into Difficult Terrain until the end of your next turn.\n\nUsing a Higher-Level Spell Slot. The Bludgeoning damage increases by 1d10 for each spell slot level above 4.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/druid"

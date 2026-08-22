@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.90",
     "heading": "Conjure Woodland Beings",
-    "lineStart": 7556,
-    "lineEnd": 7574
+    "lineStart": 8316,
+    "lineEnd": 8331
   },
   "level": 4,
   "school": "Conjuration",
@@ -24,7 +24,7 @@
   "range": "Self",
   "components": "V, S",
   "duration": "Concentration, up to 10 minutes",
-  "rulesText": "Level 4 Conjuration (Druid, Ranger)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S\n\nDuration: Concentration, up to 10 minutes\n\nYou conjure nature spirits that flit around you in a 10-foot Emanation for the duration. Whenever the Emanation enters the space of a creature you can\n\nsee and whenever a creature you can see enters the Emanation or ends its turn there, you can force that creature to make a Wisdom saving throw. The creature takes 5d8 Force damage on a failed save or half as much damage on a successful one. A creature makes this save only once per turn.\n\nIn addition, you can take the Disengage action as a Bonus Action for the spell's duration.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 4.",
+  "rulesText": "Level 4 Conjuration (Druid, Ranger)\n\nCasting Time: Action\nRange: Self\nComponents: V, S\nDuration: Concentration, up to 10 minutes\n\nYou conjure nature spirits that flit around you in a 10-foot Emanation for the duration. Whenever the Emanation enters the space of a creature you can\n\nsee and whenever a creature you can see enters the Emanation or ends its turn there, you can force that creature to make a Wisdom saving throw. The creature takes 5d8 Force damage on a failed save or half as much damage on a successful one. A creature makes this save only once per turn.\n\nIn addition, you can take the Disengage action as a Bonus Action for the spell's duration.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 4.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/druid"

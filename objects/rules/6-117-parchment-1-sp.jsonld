@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-117-parchment-1-sp",
+  "@type": "Rule",
+  "name": "Parchment (1 SP)",
+  "slug": "6-117-parchment-1-sp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.117",
+    "heading": "Parchment (1 SP)",
+    "lineStart": 6780,
+    "lineEnd": 6782
+  },
+  "section": "6.117",
+  "rulesText": "One sheet of Parchment can hold about 250 handwritten words."
+}

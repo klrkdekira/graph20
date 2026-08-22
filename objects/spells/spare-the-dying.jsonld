@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.315",
     "heading": "Spare the Dying",
-    "lineStart": 11716,
-    "lineEnd": 11730
+    "lineStart": 11846,
+    "lineEnd": 11857
   },
   "level": 0,
   "school": "Necromancy",
@@ -24,7 +24,7 @@
   "range": "15 feet",
   "components": "V, S",
   "duration": "Instantaneous",
-  "rulesText": "Necromancy Cantrip (Cleric, Druid)\n\nCasting Time: Action\n\nRange: 15 feet\n\nComponents: V, S\n\nDuration: Instantaneous\n\nChoose a creature within range that has 0 Hit Points and isn't dead. The creature becomes Stable.\n\nCantrip Upgrade. The range doubles when you reach levels 5 (30 feet), 11 (60 feet), and 17 (120 feet).",
+  "rulesText": "Necromancy Cantrip (Cleric, Druid)\n\nCasting Time: Action\nRange: 15 feet\nComponents: V, S\nDuration: Instantaneous\n\nChoose a creature within range that has 0 Hit Points and isn't dead. The creature becomes Stable.\n\nCantrip Upgrade. The range doubles when you reach levels 5 (30 feet), 11 (60 feet), and 17 (120 feet).",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"

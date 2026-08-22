@@ -11,11 +11,11 @@
     "chapter": "Playing the Game",
     "section": "1.57",
     "heading": "Travel Pace",
-    "lineStart": 1361,
-    "lineEnd": 1376
+    "lineStart": 495,
+    "lineEnd": 514
   },
   "section": "1.57",
-  "rulesText": "While traveling outside combat, a group can move at a Fast, Normal, or Slow pace, as shown on the Travel Pace table. The table states how far the party can move in a period of time; if riding horses or other mounts, the group can move twice that distance for 1 hour, after which the mounts need a Short or Long Rest before they can move at that increased pace again (see “Equipment” for a selection of mounts for sale). “Gameplay Toolbox” has rules that affect which pace you can choose in certain types of terrain.\n\nTravel Pace  \nDistance Traveled Per ...\n\nEach travel pace has a game effect, as defined below.\n\nFast. Traveling at a Fast pace imposes Disadvantage on a traveler's Wisdom (Perception or Survival) and Dexterity (Stealth) checks.\n\nNormal. Traveling at a Normal pace imposes Disadvantage on Dexterity (Stealth) checks.\n\nSlow. Traveling at a Slow pace grants Advantage on Wisdom (Perception or Survival) checks.",
+  "rulesText": "While traveling outside combat, a group can move at a Fast, Normal, or Slow pace, as shown on the Travel Pace table. The table states how far the party can move in a period of time; if riding horses or other mounts, the group can move twice that distance for 1 hour, after which the mounts need a Short or Long Rest before they can move at that increased pace again (see “Equipment” for a selection of mounts for sale). “Gameplay Toolbox” has rules that affect which pace you can choose in certain types of terrain.\n\nTravel Pace\nDistance Traveled Per ...\n\nEach travel pace has a game effect, as defined below.\n\nFast. Traveling at a Fast pace imposes Disadvantage on a traveler's Wisdom (Perception or Survival) and Dexterity (Stealth) checks.\n\nNormal. Traveling at a Normal pace imposes Disadvantage on Dexterity (Stealth) checks.\n\nSlow. Traveling at a Slow pace grants Advantage on Wisdom (Perception or Survival) checks.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/1-57-travel-pace-table-1"

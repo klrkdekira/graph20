@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-51-woodcarvers-tools-1-gp",
+  "@type": "Rule",
+  "name": "Woodcarver's Tools (1 GP)",
+  "slug": "6-51-woodcarvers-tools-1-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.51",
+    "heading": "Woodcarver's Tools (1 GP)",
+    "lineStart": 6326,
+    "lineEnd": 6334
+  },
+  "section": "6.51",
+  "rulesText": "Ability: Dexterity\n\nWeight: 5 lb.\n\nUtilize: Carve a pattern in wood (DC 10)\n\nCraft: Club, Greatclub, Quarterstaff, Ranged weapons (except Pistol, Musket, and Sling), Arcane Focus, Arrows, Bolts, Druidic Focus, Ink Pen, Needles"
+}

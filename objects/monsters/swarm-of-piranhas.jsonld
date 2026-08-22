@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.85",
     "heading": "Swarm of Piranhas",
-    "lineStart": 29567,
-    "lineEnd": 29599
+    "lineStart": 28997,
+    "lineEnd": 29025
   },
   "sizeTypeAlignment": "Medium Swarm of Tiny Beasts, Unaligned",
   "sizeAndType": "Medium Swarm of Tiny Beasts",
@@ -79,7 +79,7 @@
       "rulesText": "Bites. Melee Attack Roll: +5 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 8 (2d4 + 3) Piercing damage, or 5 (1d4 + 3) Piercing damage if the swarm is Bloodied."
     }
   ],
-  "rulesText": "Medium Swarm of Tiny Beasts, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 28 (8d8 - 8)\n\nSpeed 5 ft., Swim 40 ft.\n\nResistances Bludgeoning, Piercing, Slashing\n\nImmunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned\n\nSenses Darkvision 60 ft.; Passive Perception 8\n\nLanguages None\n\nCR 1 (XP 200; PB +2)\n\nTraits\n\nSwarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny piranha. The swarm can't regain Hit Points or gain Temporary Hit Points.\n\nWater Breathing. The swarm can breathe only underwater.\n\nActions\n\nBites. Melee Attack Roll: +5 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 8 (2d4 + 3) Piercing damage, or 5 (1d4 + 3) Piercing damage if the swarm is Bloodied.",
+  "rulesText": "Medium Swarm of Tiny Beasts, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 28 (8d8 - 8)\nSpeed 5 ft., Swim 40 ft.\n\nResistances Bludgeoning, Piercing, Slashing\nImmunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned\nSenses Darkvision 60 ft.; Passive Perception 8\nLanguages None\nCR 1 (XP 200; PB +2)\n\nTraits\n\nSwarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny piranha. The swarm can't regain Hit Points or gain Temporary Hit Points.\n\nWater Breathing. The swarm can breathe only underwater.\n\nActions\n\nBites. Melee Attack Roll: +5 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 8 (2d4 + 3) Piercing damage, or 5 (1d4 + 3) Piercing damage if the swarm is Bloodied.",
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"

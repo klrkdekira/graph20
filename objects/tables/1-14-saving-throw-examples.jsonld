@@ -11,8 +11,8 @@
     "chapter": "Playing the Game",
     "section": "1.14",
     "heading": "Ability Modifier",
-    "lineStart": 1079,
-    "lineEnd": 1079
+    "lineStart": 163,
+    "lineEnd": 170
   },
   "columns": [
     "Ability",
@@ -37,7 +37,7 @@
           "value": "Dexterity"
         },
         {
-          "value": "Dodge out of harm&#x27;s way"
+          "value": "Dodge out of harm’s way"
         }
       ]
     },

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.249",
     "heading": "Vrock",
-    "lineStart": 26252,
-    "lineEnd": 26292
+    "lineStart": 25996,
+    "lineEnd": 26032
   },
   "sizeTypeAlignment": "Large Fiend (Demon), Chaotic Evil",
   "sizeAndType": "Large Fiend (Demon)",
@@ -39,19 +39,19 @@
   "proficiencyBonus": 3,
   "abilities": {
     "str": {
-      "score": 17,
-      "modifier": 3,
-      "savingThrow": 3
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
     },
     "dex": {
-      "score": 15,
-      "modifier": 2,
-      "savingThrow": 5
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
     },
     "con": {
-      "score": 18,
-      "modifier": 4,
-      "savingThrow": 4
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
     },
     "int": {
       "score": 8,
@@ -59,14 +59,14 @@
       "savingThrow": -1
     },
     "wis": {
-      "score": 13,
-      "modifier": 1,
-      "savingThrow": 4
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
     },
     "cha": {
       "score": 8,
       "modifier": -1,
-      "savingThrow": 2
+      "savingThrow": -1
     }
   },
   "statSections": [
@@ -79,7 +79,7 @@
       "rulesText": "Multiattack. The vrock makes two Shred attacks.\n\nShred. Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage plus 10 (3d6) Poison damage.\n\nSpores (Recharge 6). Constitution Saving Throw: DC 15, each creature in a 20-foot Emanation originating from the vrock. Failure: The target has the Poisoned condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. While Poisoned, the target takes 5 (1d10) Poison damage at the start of each of its turns. Emptying a flask of Holy Water on the target ends the effect early.\n\nStunning Screech (1/Day). Constitution Saving Throw: DC 15, each creature in a 20-foot Emanation originating from the vrock (demons succeed automatically). Failure: 10 (3d6) Thunder damage, and the target has the Stunned condition until the end of the vrock's next turn."
     }
   ],
-  "rulesText": "Large Fiend (Demon), Chaotic Evil\n\nAC 15\n\nInitiative +2 (12)\n\nHP 152 (16d10 + 64)\n\nSpeed 40 ft., Fly 60 ft.\n\nResistances Cold, Fire, Lightning\n\nImmunities Poison; Poisoned\n\nSenses Darkvision 120 ft.; Passive Perception 11\n\nLanguages Abyssal; telepathy 120 ft.\n\nCR 6 (XP 2,300; PB +3)\n\nTraits\n\nDemonic Restoration. If the vrock dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.\n\nMagic Resistance. The vrock has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The vrock makes two Shred attacks.\n\nShred. Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage plus 10 (3d6) Poison damage.\n\nSpores (Recharge 6). Constitution Saving Throw: DC 15, each creature in a 20-foot Emanation originating from the vrock. Failure: The target has the Poisoned condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. While Poisoned, the target takes 5 (1d10) Poison damage at the start of each of its turns. Emptying a flask of Holy Water on the target ends the effect early.\n\nStunning Screech (1/Day). Constitution Saving Throw: DC 15, each creature in a 20-foot Emanation originating from the vrock (demons succeed automatically). Failure: 10 (3d6) Thunder damage, and the target has the Stunned condition until the end of the vrock's next turn.",
+  "rulesText": "Large Fiend (Demon), Chaotic Evil\n\nAC 15\nInitiative +2 (12)\nHP 152 (16d10 + 64)\nSpeed 40 ft., Fly 60 ft.\n\nResistances Cold, Fire, Lightning\nImmunities Poison; Poisoned\nSenses Darkvision 120 ft.; Passive Perception 11\nLanguages Abyssal; telepathy 120 ft.\nCR 6 (XP 2,300; PB +3)\n\nTraits\n\nDemonic Restoration. If the vrock dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.\n\nMagic Resistance. The vrock has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The vrock makes two Shred attacks.\n\nShred. Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage plus 10 (3d6) Poison damage.\n\nSpores (Recharge 6). Constitution Saving Throw: DC 15, each creature in a 20-foot Emanation originating from the vrock. Failure: The target has the Poisoned condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. While Poisoned, the target takes 5 (1d10) Poison damage at the start of each of its turns. Emptying a flask of Holy Water on the target ends the effect early.\n\nStunning Screech (1/Day). Constitution Saving Throw: DC 15, each creature in a 20-foot Emanation originating from the vrock (demons succeed automatically). Failure: 10 (3d6) Thunder damage, and the target has the Stunned condition until the end of the vrock's next turn.",
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"

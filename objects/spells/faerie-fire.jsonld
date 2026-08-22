@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.141",
     "heading": "Faerie Fire",
-    "lineStart": 8518,
-    "lineEnd": 8532
+    "lineStart": 9147,
+    "lineEnd": 9158
   },
   "level": 1,
   "school": "Evocation",
@@ -24,7 +24,7 @@
   "range": "60 feet",
   "components": "V",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Level 1 Evocation (Bard, Druid)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V\n\nDuration: Concentration, up to 1 minute\n\nObjects in a 20-foot Cube within range are outlined in blue, green, or violet light (your choice). Each creature in the Cube is also outlined if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed Dim Light in a 10-foot radius and can't benefit from the Invisible condition.\n\nAttack rolls against an affected creature or object have Advantage if the attacker can see it.",
+  "rulesText": "Level 1 Evocation (Bard, Druid)\n\nCasting Time: Action\nRange: 60 feet\nComponents: V\nDuration: Concentration, up to 1 minute\n\nObjects in a 20-foot Cube within range are outlined in blue, green, or violet light (your choice). Each creature in the Cube is also outlined if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed Dim Light in a 10-foot radius and can't benefit from the Invisible condition.\n\nAttack rolls against an affected creature or object have Advantage if the attacker can see it.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

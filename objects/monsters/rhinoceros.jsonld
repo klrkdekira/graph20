@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.77",
     "heading": "Rhinoceros",
-    "lineStart": 29331,
-    "lineEnd": 29353
+    "lineStart": 28784,
+    "lineEnd": 28804
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -73,7 +73,7 @@
       "rulesText": "Gore. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Piercing damage. If target is a Large or smaller creature and the rhinoceros moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition."
     }
   ],
-  "rulesText": "Large Beast, Unaligned\n\nAC 13\n\nInitiative -1 (9)\n\nHP 45 (6d10 + 12)\n\nSpeed 40 ft.\n\nSenses Passive Perception 11\n\nLanguages None\n\nCR 2 (XP 450; PB +2)\n\nActions\n\nGore. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Piercing damage. If target is a Large or smaller creature and the rhinoceros moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition.",
+  "rulesText": "Large Beast, Unaligned\n\nAC 13\nInitiative -1 (9)\nHP 45 (6d10 + 12)\nSpeed 40 ft.\n\nSenses Passive Perception 11\nLanguages None\nCR 2 (XP 450; PB +2)\n\nActions\n\nGore. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Piercing damage. If target is a Large or smaller creature and the rhinoceros moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition.",
   "attacks": [
     {
       "name": "Gore",

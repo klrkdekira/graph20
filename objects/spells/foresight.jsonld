@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.164",
     "heading": "Foresight",
-    "lineStart": 8970,
-    "lineEnd": 8982
+    "lineStart": 9530,
+    "lineEnd": 9539
   },
   "level": 9,
   "school": "Divination",
@@ -26,7 +26,7 @@
   "range": "Touch",
   "components": "V, S, M (a hummingbird feather)",
   "duration": "8 hours",
-  "rulesText": "Level 9 Divination (Bard, Druid, Warlock, Wizard)\n\nCasting Time: 1 minute\n\nRange: Touch\n\nComponents: V, S, M (a hummingbird feather)\n\nDuration: 8 hours\n\nYou touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target has Advantage on D20 Tests, and other creatures have Disadvantage on attack rolls against it. The spell ends early if you cast it again.",
+  "rulesText": "Level 9 Divination (Bard, Druid, Warlock, Wizard)\n\nCasting Time: 1 minute\nRange: Touch\nComponents: V, S, M (a hummingbird feather)\nDuration: 8 hours\n\nYou touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target has Advantage on D20 Tests, and other creatures have Disadvantage on attack rolls against it. The spell ends early if you cast it again.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

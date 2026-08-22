@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.68",
     "heading": "Chain Lightning",
-    "lineStart": 7142,
-    "lineEnd": 7158
+    "lineStart": 7966,
+    "lineEnd": 7979
   },
   "level": 6,
   "school": "Evocation",
@@ -24,7 +24,7 @@
   "range": "150 feet",
   "components": "V, S, M (three silver pins)",
   "duration": "Instantaneous",
-  "rulesText": "Level 6 Evocation (Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 150 feet\n\nComponents: V, S, M (three silver pins)\n\nDuration: Instantaneous\n\nYou launch a lightning bolt toward a target you can see within range. Three bolts then leap from that target to as many as three other targets of your choice, each of which must be within 30 feet of the first target. A target can be a creature or an object and can be targeted by only one of the bolts.\n\nEach target makes a Dexterity saving throw, taking 10d8 Lightning damage on a failed save or half as much damage on a successful one.\n\nUsing a Higher-Level Spell Slot. One additional bolt leaps from the first target to another target for each spell slot level above 6.",
+  "rulesText": "Level 6 Evocation (Sorcerer, Wizard)\n\nCasting Time: Action\nRange: 150 feet\nComponents: V, S, M (three silver pins)\nDuration: Instantaneous\n\nYou launch a lightning bolt toward a target you can see within range. Three bolts then leap from that target to as many as three other targets of your choice, each of which must be within 30 feet of the first target. A target can be a creature or an object and can be targeted by only one of the bolts.\n\nEach target makes a Dexterity saving throw, taking 10d8 Lightning damage on a failed save or half as much damage on a successful one.\n\nUsing a Higher-Level Spell Slot. One additional bolt leaps from the first target to another target for each spell slot level above 6.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"

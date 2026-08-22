@@ -11,8 +11,8 @@
     "chapter": "Equipment",
     "section": "6.64",
     "heading": "Ammunition (Varies)",
-    "lineStart": 5687,
-    "lineEnd": 5687
+    "lineStart": 6474,
+    "lineEnd": 6516
   },
   "columns": [
     "Item",
@@ -318,7 +318,7 @@
       "position": 22,
       "cells": [
         {
-          "value": "Priest&#x27;s Pack"
+          "value": "Priest’s Pack"
         },
         {
           "value": "29 lb."
@@ -416,7 +416,7 @@
       "position": 29,
       "cells": [
         {
-          "value": "Scholar&#x27;s Pack"
+          "value": "Scholar’s Pack"
         },
         {
           "value": "22 lb."

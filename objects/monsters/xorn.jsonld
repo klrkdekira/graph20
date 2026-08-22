@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.270",
     "heading": "Xorn",
-    "lineStart": 27015,
-    "lineEnd": 27057
+    "lineStart": 26686,
+    "lineEnd": 26724
   },
   "sizeTypeAlignment": "Medium Elemental, Neutral",
   "sizeAndType": "Medium Elemental",
@@ -39,34 +39,34 @@
   "proficiencyBonus": 3,
   "abilities": {
     "str": {
-      "score": 17,
-      "modifier": 3,
-      "savingThrow": 3
+      "score": 19,
+      "modifier": 4,
+      "savingThrow": 6
     },
     "dex": {
-      "score": 10,
+      "score": 11,
       "modifier": 0,
       "savingThrow": 0
     },
     "con": {
-      "score": 22,
-      "modifier": 6,
-      "savingThrow": 6
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
     },
     "int": {
-      "score": 11,
-      "modifier": 0,
-      "savingThrow": 0
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
     },
     "wis": {
-      "score": 10,
-      "modifier": 0,
-      "savingThrow": 0
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
     },
     "cha": {
-      "score": 11,
-      "modifier": 0,
-      "savingThrow": 0
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
     }
   },
   "statSections": [
@@ -83,7 +83,7 @@
       "rulesText": "Charge. The xorn moves up to its Speed or Burrow Speed straight toward an enemy it can sense."
     }
   ],
-  "rulesText": "Medium Elemental, Neutral\n\nAC 19\n\nInitiative +0 (10)\n\nHP 84 (8d8 + 48)\n\nSpeed 20 ft., Burrow 20 ft.\n\nSkills Perception +6, Stealth +6\n\nImmunities Poison; Paralyzed, Petrified, Poisoned\n\nSenses Darkvision 60 ft., Tremorsense 60 ft.; Passive Perception 16\n\nLanguages Primordial (Terran)\n\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nEarth Glide. The xorn can burrow through nonmagical, unworked earth and stone. While doing so, the xorn doesn't disturb the material it moves through.\n\nTreasure Sense. The xorn can pinpoint the location of precious metals and stones within 60 feet of itself.\n\nActions\n\nMultiattack. The xorn makes one Bite attack and three Claw attacks.\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 17 (4d6 + 3) Piercing damage.\n\nClaw. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d10 + 3) Slashing damage.\n\nBonus Actions\n\nCharge. The xorn moves up to its Speed or Burrow Speed straight toward an enemy it can sense.",
+  "rulesText": "Medium Elemental, Neutral\n\nAC 19\nInitiative +0 (10)\nHP 84 (8d8 + 48)\nSpeed 20 ft., Burrow 20 ft.\n\nSkills Perception +6, Stealth +6\nImmunities Poison; Paralyzed, Petrified, Poisoned\nSenses Darkvision 60 ft., Tremorsense 60 ft.; Passive Perception 16\nLanguages Primordial (Terran)\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nEarth Glide. The xorn can burrow through nonmagical, unworked earth and stone. While doing so, the xorn doesn't disturb the material it moves through.\n\nTreasure Sense. The xorn can pinpoint the location of precious metals and stones within 60 feet of itself.\n\nActions\n\nMultiattack. The xorn makes one Bite attack and three Claw attacks.\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 17 (4d6 + 3) Piercing damage.\n\nClaw. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d10 + 3) Slashing damage.\n\nBonus Actions\n\nCharge. The xorn moves up to its Speed or Burrow Speed straight toward an enemy it can sense.",
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/paralyzed"

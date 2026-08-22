@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.279",
     "heading": "Ray of Enfeeblement",
-    "lineStart": 11104,
-    "lineEnd": 11118
+    "lineStart": 11328,
+    "lineEnd": 11339
   },
   "level": 2,
   "school": "Necromancy",
@@ -24,7 +24,7 @@
   "range": "60 feet",
   "components": "V, S",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Level 2 Necromancy (Warlock, Wizard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S\n\nDuration: Concentration, up to 1 minute\n\nA beam of enervating energy shoots from you toward a creature within range. The target must make a Constitution saving throw. On a successful save, the target has Disadvantage on the next attack roll it makes until the start of your next turn.\n\nOn a failed save, the target has Disadvantage on Strength-based D20 Tests for the duration. During that time, it also subtracts 1d8 from all its damage rolls. The target repeats the save at the end of each of its turns, ending the spell on a success.",
+  "rulesText": "Level 2 Necromancy (Warlock, Wizard)\n\nCasting Time: Action\nRange: 60 feet\nComponents: V, S\nDuration: Concentration, up to 1 minute\n\nA beam of enervating energy shoots from you toward a creature within range. The target must make a Constitution saving throw. On a successful save, the target has Disadvantage on the next attack roll it makes until the start of your next turn.\n\nOn a failed save, the target has Disadvantage on Strength-based D20 Tests for the duration. During that time, it also subtracts 1d8 from all its damage rolls. The target repeats the save at the end of each of its turns, ending the spell on a success.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"

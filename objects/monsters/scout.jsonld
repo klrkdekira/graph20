@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.209",
     "heading": "Scout",
-    "lineStart": 24747,
-    "lineEnd": 24780
+    "lineStart": 24626,
+    "lineEnd": 24655
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -75,7 +75,7 @@
       "rulesText": "Multiattack. The scout makes two attacks, using Short-word and Longbow in any combination.\n\nShortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage.\n\nLongbow. Ranged Attack Roll: +4, range 150/600 ft.\nHit: 6 (1d8 + 2) Piercing damage."
     }
   ],
-  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 13\n\nInitiative +2 (12)\n\nHP 16 (3d8 + 3)\n\nSpeed 30 ft.\n\nSkills Nature +4, Perception +5, Stealth +6, Survival +5\n\nGear Leather Armor, Longbow, Shortsword\n\nSenses Passive Perception 15\n\nLanguages Common plus one other language\n\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nMultiattack. The scout makes two attacks, using Short-word and Longbow in any combination.\n\nShortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage.\n\nLongbow. Ranged Attack Roll: +4, range 150/600 ft.\nHit: 6 (1d8 + 2) Piercing damage.",
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 13\nInitiative +2 (12)\nHP 16 (3d8 + 3)\nSpeed 30 ft.\n\nSkills Nature +4, Perception +5, Stealth +6, Survival +5\nGear Leather Armor, Longbow, Shortsword\nSenses Passive Perception 15\nLanguages Common plus one other language\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nMultiattack. The scout makes two attacks, using Short-word and Longbow in any combination.\n\nShortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage.\n\nLongbow. Ranged Attack Roll: +4, range 150/600 ft.\nHit: 6 (1d8 + 2) Piercing damage.",
   "attacks": [
     {
       "name": "Shortsword",

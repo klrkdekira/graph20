@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.87",
     "heading": "Swarm of Ravens",
-    "lineStart": 29633,
-    "lineEnd": 29667
+    "lineStart": 29055,
+    "lineEnd": 29084
   },
   "sizeTypeAlignment": "Medium Swarm of Tiny Beasts, Unaligned",
   "sizeAndType": "Medium Swarm of Tiny Beasts",
@@ -40,34 +40,34 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 6,
-      "modifier": -2,
-      "savingThrow": -2
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
     },
     "dex": {
-      "score": 14,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "con": {
-      "score": 12,
-      "modifier": 1,
-      "savingThrow": 1
+      "score": 9,
+      "modifier": -1,
+      "savingThrow": -1
     },
     "int": {
-      "score": 5,
-      "modifier": -3,
-      "savingThrow": -3
+      "score": 1,
+      "modifier": -5,
+      "savingThrow": -5
     },
     "wis": {
-      "score": 12,
-      "modifier": 1,
-      "savingThrow": 1
-    },
-    "cha": {
-      "score": 6,
+      "score": 7,
       "modifier": -2,
       "savingThrow": -2
+    },
+    "cha": {
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
     }
   },
   "statSections": [
@@ -80,7 +80,7 @@
       "rulesText": "Beaks. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage, or 2 (1d4) Piercing damage if the swarm is Bloodied.\n\nCacophony (Recharge 6). Wisdom Saving Throw: DC 10, one creature in the swarm's space. Failure: The target has the Deafened condition until the start of the swarm's next turn. While Deafened, the target also has Disadvantage on ability checks and attack rolls."
     }
   ],
-  "rulesText": "Medium Swarm of Tiny Beasts, Unaligned\n\nAC 12\n\nInitiative +2 (12)\n\nHP 11 (2d8 + 2)\n\nSpeed 10 ft., Fly 50 ft.\n\nSkills Perception +5\n\nResistances Bludgeoning, Piercing, Slashing\n\nImmunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned\n\nSenses Passive Perception 15\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nSwarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny raven. The swarm can't regain Hit Points or gain Temporary Hit Points.\n\nActions\n\nBeaks. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage, or 2 (1d4) Piercing damage if the swarm is Bloodied.\n\nCacophony (Recharge 6). Wisdom Saving Throw: DC 10, one creature in the swarm's space. Failure: The target has the Deafened condition until the start of the swarm's next turn. While Deafened, the target also has Disadvantage on ability checks and attack rolls.",
+  "rulesText": "Medium Swarm of Tiny Beasts, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 11 (2d8 + 2)\nSpeed 10 ft., Fly 50 ft.\n\nSkills Perception +5\nResistances Bludgeoning, Piercing, Slashing\nImmunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned\nSenses Passive Perception 15\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nSwarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny raven. The swarm can't regain Hit Points or gain Temporary Hit Points.\n\nActions\n\nBeaks. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage, or 2 (1d4) Piercing damage if the swarm is Bloodied.\n\nCacophony (Recharge 6). Wisdom Saving Throw: DC 10, one creature in the swarm's space. Failure: The target has the Deafened condition until the start of the swarm's next turn. While Deafened, the target also has Disadvantage on ability checks and attack rolls.",
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"

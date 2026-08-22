@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.129",
     "heading": "Half-Dragon",
-    "lineStart": 21915,
-    "lineEnd": 21955
+    "lineStart": 22053,
+    "lineEnd": 22089
   },
   "sizeTypeAlignment": "Medium Dragon, Neutral",
   "sizeAndType": "Medium Dragon",
@@ -83,7 +83,7 @@
       "rulesText": "Leap. The half-dragon jumps up to 30 feet by spending 10 feet of movement."
     }
   ],
-  "rulesText": "Medium Dragon, Neutral\n\nAC 18\n\nInitiative +5 (15)\n\nHP 105 (14d8 + 42)\n\nSpeed 40 ft.\n\nSkills Athletics +7, Perception +5, Stealth +5\n\nResistances Damage type chosen for the Draconic Origin trait below\n\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 15\n\nLanguages Common, Draconic\n\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nDraconic Origin. The half-dragon is related to a type of dragon associated with one of the following damage types (GM's choice): Acid, Cold, Fire, Lightning, or Poison. This choice affects other aspects of the stat block.\n\nActions\n\nMultiattack. The half-dragon makes two Claw attacks.\n\nClaw. Melee Attack Roll: +7, reach 10 ft. Hit: 6 (1d4 + 4) Slashing damage plus 7 (2d6) damage of the type chosen for the Draconic Origin trait.\n\nDragon's Breath (Recharge 5–6). Dexterity Saving Throw: DC 14, each creature in a 30-foot Cone. Failure: 28 (8d6) damage of the type chosen for the Draconic Origin trait. Success: Half damage.\n\nBonus Actions\n\nLeap. The half-dragon jumps up to 30 feet by spending 10 feet of movement.",
+  "rulesText": "Medium Dragon, Neutral\n\nAC 18\nInitiative +5 (15)\nHP 105 (14d8 + 42)\nSpeed 40 ft.\n\nSkills Athletics +7, Perception +5, Stealth +5\nResistances Damage type chosen for the Draconic Origin trait below\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 15\nLanguages Common, Draconic\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nDraconic Origin. The half-dragon is related to a type of dragon associated with one of the following damage types (GM's choice): Acid, Cold, Fire, Lightning, or Poison. This choice affects other aspects of the stat block.\n\nActions\n\nMultiattack. The half-dragon makes two Claw attacks.\n\nClaw. Melee Attack Roll: +7, reach 10 ft. Hit: 6 (1d4 + 4) Slashing damage plus 7 (2d6) damage of the type chosen for the Draconic Origin trait.\n\nDragon's Breath (Recharge 5–6). Dexterity Saving Throw: DC 14, each creature in a 30-foot Cone. Failure: 28 (8d6) damage of the type chosen for the Draconic Origin trait. Success: Half damage.\n\nBonus Actions\n\nLeap. The half-dragon jumps up to 30 feet by spending 10 feet of movement.",
   "attacks": [
     {
       "name": "Claw",

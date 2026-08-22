@@ -1,0 +1,276 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-290-wand-of-wonder-effects",
+  "@type": "Table",
+  "name": "Wand of Wonder Effects",
+  "slug": "10-290-wand-of-wonder-effects",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.290",
+    "heading": "Wand of Wonder",
+    "lineStart": 17746,
+    "lineEnd": 17770
+  },
+  "columns": [
+    "d100",
+    "Effect"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "d100"
+        },
+        {
+          "value": "Effect"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "d100"
+        },
+        {
+          "value": "Effect"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "d100"
+        },
+        {
+          "value": "Effect"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "d100"
+        },
+        {
+          "value": "Effect"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "d100"
+        },
+        {
+          "value": "Effect"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "01–20"
+        },
+        {
+          "value": "You cast a spell originating from the chosen point. Roll 1d10 to determine the spell: on a 1–2, Darkness; on a 3–4, Faerie Fire; on a 5–6, Fireball; on a 7–8, Slow; on a 9–10, Stinking Cloud."
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "21–25"
+        },
+        {
+          "value": "Nothing happens at the chosen point of origin. Instead, you have the Stunned condition until the start of your next turn, believing something awesome just happened."
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "26–30"
+        },
+        {
+          "value": "You cast Gust of Wind. The Line created by the spell extends from you to the chosen point of origin."
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "31–35"
+        },
+        {
+          "value": "Nothing happens at the chosen point of origin. Instead, you take 1d6 Psychic damage."
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "36–40"
+        },
+        {
+          "value": "Heavy rain falls for 1 minute in a 120-foot-high, 60-foot-radius Cylinder centered on the chosen point of origin. During that time, the area of effect is Lightly Obscured."
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "41–45"
+        },
+        {
+          "value": "A cloud of 600 oversized butterflies fills a 60-foot-high, 30-foot-radius Cylinder centered on the chosen point of origin. The butterflies remain for 10 minutes, during which time the area of effect is Heavily Obscured."
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "46–50"
+        },
+        {
+          "value": "You cast Lightning Bolt. The Line created by the spell extends from you to the chosen point of origin."
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "51–55"
+        },
+        {
+          "value": "The creature closest to the chosen point of origin is enlarged as if you had cast Enlarge/Reduce on it. If the target isn’t you and can’t be affected by that spell, you become the target instead."
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "cells": [
+        {
+          "value": "56-60"
+        },
+        {
+          "value": "A magically formed creature appears in an unoccupied space as close to the chosen point of origin as possible. The creature isn’t under your control, acts as it normally would, and disappears after 1 hour or when it drops to 0 Hit Points. Roll 1d4 to determine which creature appears. On a 1, a Rhinoceros appears; on a 2, an Elephant appears; and on a 3-4, a Rat appears."
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "cells": [
+        {
+          "value": "61–64"
+        },
+        {
+          "value": "Grass covers a 60-foot-radius circle of ground, with the center of that circle as close to the chosen point of origin as possible. Grass that’s already there grows to ten times its normal size and remains overgrown for 1 minute."
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "cells": [
+        {
+          "value": "65–68"
+        },
+        {
+          "value": "An object of the GM’s choice disappears into the Ethereal Plane. The object must be neither worn nor carried, within 120 feet of the chosen point of origin, and no larger than 10 feet in any dimension. If there are no such objects in range, nothing happens."
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "cells": [
+        {
+          "value": "69–72"
+        },
+        {
+          "value": "Nothing happens at the chosen point of origin. Instead, you shrink as if you had cast Enlarge/Reduce on yourself and remain in that state for 1 minute."
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "cells": [
+        {
+          "value": "73–77"
+        },
+        {
+          "value": "Leaves grow from the creature nearest to the chosen point of origin. Unless they are picked off, the leaves turn brown and fall off after 24 hours."
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "cells": [
+        {
+          "value": "78–82"
+        },
+        {
+          "value": "Nothing happens at the chosen point of origin. Instead, a burst of colorful, shimmering light extends from you in a 30-foot Emanation. Each creature in the area must succeed on a DC 15 Constitution saving throw or have the Blinded condition for 1 minute. A creature repeats the save at the end of each of its turns, ending the effect on itself on a success."
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "cells": [
+        {
+          "value": "83–87"
+        },
+        {
+          "value": "Nothing happens at the chosen point of origin. Instead, you cast Invisibility on yourself."
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "cells": [
+        {
+          "value": "88–92"
+        },
+        {
+          "value": "Nothing happens at the chosen point of origin. Instead, a stream of 1d4 × 10 gems, each worth 1 GP, shoots from the wand’s tip in a Line 30 feet long and 5 feet wide toward the chosen point of origin. Each gem deals 1 Bludgeoning damage, and the total damage of the gems is divided equally among all creatures in the Line."
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "cells": [
+        {
+          "value": "93–97"
+        },
+        {
+          "value": "You cast Polymorph, targeting the creature closest to the chosen point of origin. Roll 1d4 to determine the target’s new form. On a 1, the new form is a Black Bear; on a 2, the new form is a Giant Wasp; on a 3–4, the new form is a Frog."
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "cells": [
+        {
+          "value": "98–00"
+        },
+        {
+          "value": "The creature closest to the chosen point of origin makes a DC 15 Constitution saving throw. On a failed save, the creature has the Restrained condition and begins to turn to stone. While Restrained in this way, the creature repeats the save at the end of its next turn. On a successful save, the effect ends. On a failed save, the creature has the Petrified condition instead of the Restrained condition. The petrification lasts until the creature is freed by the Greater Restoration spell or similar magic."
+        }
+      ]
+    }
+  ]
+}

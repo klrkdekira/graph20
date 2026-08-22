@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.46",
     "heading": "Arcane Sword",
-    "lineStart": 6753,
-    "lineEnd": 6769
+    "lineStart": 7638,
+    "lineEnd": 7651
   },
   "level": 7,
   "school": "Evocation",
@@ -24,7 +24,7 @@
   "range": "90 feet",
   "components": "V, S, M (a miniature sword worth 250+ GP)",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Level 7 Evocation (Bard, Wizard)\n\nCasting Time: Action\n\nRange: 90 feet\n\nComponents: V, S, M (a miniature sword worth 250+ GP)\n\nDuration: Concentration, up to 1 minute\n\nYou create a spectral sword that hovers within range. It lasts for the duration.\n\nWhen the sword appears, you make a melee spell attack against a target within 5 feet of the sword. On a hit, the target takes Force damage equal to 4d12 plus your spellcasting ability modifier.\n\nOn your later turns, you can take a Bonus Action to move the sword up to 30 feet to a spot you can see and repeat the attack against the same target or a different one.",
+  "rulesText": "Level 7 Evocation (Bard, Wizard)\n\nCasting Time: Action\nRange: 90 feet\nComponents: V, S, M (a miniature sword worth 250+ GP)\nDuration: Concentration, up to 1 minute\n\nYou create a spectral sword that hovers within range. It lasts for the duration.\n\nWhen the sword appears, you make a melee spell attack against a target within 5 feet of the sword. On a hit, the target takes Force damage equal to 4d12 plus your spellcasting ability modifier.\n\nOn your later turns, you can take a Bonus Action to move the sword up to 30 feet to a spot you can see and repeat the attack against the same target or a different one.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

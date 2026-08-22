@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.359",
     "heading": "Water Breathing",
-    "lineStart": 12596,
-    "lineEnd": 12608
+    "lineStart": 12602,
+    "lineEnd": 12611
   },
   "level": 3,
   "school": "Transmutation",
@@ -26,7 +26,7 @@
   "range": "30 feet",
   "components": "V, S, M (a short reed)",
   "duration": "24 hours",
-  "rulesText": "Level 3 Transmutation (Druid, Ranger, Sorcerer, Wizard)\n\nCasting Time: Action or Ritual\n\nRange: 30 feet\n\nComponents: V, S, M (a short reed)\n\nDuration: 24 hours\n\nThis spell grants up to ten willing creatures of your choice within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.",
+  "rulesText": "Level 3 Transmutation (Druid, Ranger, Sorcerer, Wizard)\n\nCasting Time: Action or Ritual\nRange: 30 feet\nComponents: V, S, M (a short reed)\nDuration: 24 hours\n\nThis spell grants up to ten willing creatures of your choice within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/druid"

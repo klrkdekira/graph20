@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.25",
     "heading": "Frog",
-    "lineStart": 27774,
-    "lineEnd": 27804
+    "lineStart": 27375,
+    "lineEnd": 27402
   },
   "sizeTypeAlignment": "Tiny Beast, Unaligned",
   "sizeAndType": "Tiny Beast",
@@ -78,5 +78,5 @@
       "rulesText": "Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 1 Piercing damage."
     }
   ],
-  "rulesText": "Tiny Beast, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 1 (1d4 - 1)\n\nSpeed 20 ft., Swim 20 ft.\n\nSkills Perception +1, Stealth +3\n\nSenses Darkvision 30 ft.; Passive Perception 11\n\nLanguages None\n\nCR 0 (XP 10; PB +2)\n\nTraits\n\nAmphibious. The frog can breathe air and water.\n\nStanding Leap. The frog's Long Jump is up to 10 feet and its High Jump is up to 5 feet with or without a running start.\n\nActions\n\nBite. Melee Attack Roll: +3, reach 5 ft. Hit: 1 Piercing damage."
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 11\nInitiative +1 (11)\nHP 1 (1d4 - 1)\nSpeed 20 ft., Swim 20 ft.\n\nSkills Perception +1, Stealth +3\nSenses Darkvision 30 ft.; Passive Perception 11\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nAmphibious. The frog can breathe air and water.\n\nStanding Leap. The frog's Long Jump is up to 10 feet and its High Jump is up to 5 feet with or without a running start.\n\nActions\n\nBite. Melee Attack Roll: +3, reach 5 ft. Hit: 1 Piercing damage."
 }

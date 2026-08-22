@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-72-bell-1-gp",
+  "@type": "Rule",
+  "name": "Bell (1 GP)",
+  "slug": "6-72-bell-1-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.72",
+    "heading": "Bell (1 GP)",
+    "lineStart": 6566,
+    "lineEnd": 6568
+  },
+  "section": "6.72",
+  "rulesText": "When rung as a Utilize action, a Bell produces a sound that can be heard up to 60 feet away."
+}

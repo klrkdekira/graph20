@@ -11,11 +11,25 @@
     "chapter": "Classes",
     "section": "3.25",
     "heading": "Level 1: Spellcasting",
-    "lineStart": 3958,
-    "lineEnd": 3958
+    "lineStart": 4060,
+    "lineEnd": 4082
   },
   "columns": [
-    "——Spell Slots per Spell Level——"
+    "Level",
+    "Proficiency Bonus",
+    "Class Features",
+    "Sorcery Points",
+    "Cantrips",
+    "Prepared Spells",
+    "——Spell Slots per Spell Level——",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
   ],
   "rows": [
     {
@@ -47,6 +61,24 @@
         },
         {
           "value": "9"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
         }
       ]
     },

@@ -11,11 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.202",
     "heading": "Ring of Animal Influence",
-    "lineStart": 16346,
-    "lineEnd": 16354
+    "lineStart": 16759,
+    "lineEnd": 16767
   },
   "itemCategory": "Ring",
   "rarity": "Rare",
   "requiresAttunement": false,
-  "rulesText": "Ring, Rare\n\nThis ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, you can expend 1 charge to cast one of the following spells (save DC 13) from it:\n\n- Animal Friendship  \n- Fear (affects Beasts only)  \n- Speak with Animals"
+  "rulesText": "Ring, Rare\n\nThis ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, you can expend 1 charge to cast one of the following spells (save DC 13) from it:\n\n- Animal Friendship\n- Fear (affects Beasts only)\n- Speak with Animals"
 }

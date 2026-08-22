@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.265",
     "heading": "Will-o'-Wisp",
-    "lineStart": 26836,
-    "lineEnd": 26878
+    "lineStart": 26525,
+    "lineEnd": 26563
   },
   "sizeTypeAlignment": "Tiny Undead, Chaotic Evil",
   "sizeAndType": "Tiny Undead",
@@ -82,7 +82,7 @@
       "rulesText": "Consume Life. Constitution Saving Throw: DC 10, one living creature the wisp can see within 5 feet that has 0 Hit Points. Failure: The target dies, and the wisp regains 10 (3d6) Hit Points.\n\nVanish. The wisp and its light have the Invisible condition until the wisp's Concentration ends on this effect, which ends early immediately after the wisp makes an attack roll or uses Consume Life."
     }
   ],
-  "rulesText": "Tiny Undead, Chaotic Evil\n\nAC 19\n\nInitiative +9 (19)\n\nHP 27 (11d4)\n\nSpeed 5 ft., Fly 50 ft. (hover)\n\nResistances Acid, Bludgeoning, Cold, Fire, Necrotic, Piercing, Slashing\n\nImmunities Lightning, Poison; Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\n\nSenses Darkvision 120 ft.; Passive Perception 12\n\nLanguages Common plus one other language\n\nCR 2 (XP 450; PB +2)\n\nTraits\n\nEphemeral. The wisp can't wear or carry anything.\n\nIllumination. The wisp sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet.\n\nIncorporeal Movement. The wisp can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.\n\nActions\n\nShock. Melee Attack Roll: +4, reach 5 ft. Hit: 11 (2d8 + 2) Lightning damage.\n\nBonus Actions\n\nConsume Life. Constitution Saving Throw: DC 10, one living creature the wisp can see within 5 feet that has 0 Hit Points. Failure: The target dies, and the wisp regains 10 (3d6) Hit Points.\n\nVanish. The wisp and its light have the Invisible condition until the wisp's Concentration ends on this effect, which ends early immediately after the wisp makes an attack roll or uses Consume Life.",
+  "rulesText": "Tiny Undead, Chaotic Evil\n\nAC 19\nInitiative +9 (19)\nHP 27 (11d4)\nSpeed 5 ft., Fly 50 ft. (hover)\n\nResistances Acid, Bludgeoning, Cold, Fire, Necrotic, Piercing, Slashing\nImmunities Lightning, Poison; Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\nSenses Darkvision 120 ft.; Passive Perception 12\nLanguages Common plus one other language\nCR 2 (XP 450; PB +2)\n\nTraits\n\nEphemeral. The wisp can't wear or carry anything.\n\nIllumination. The wisp sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet.\n\nIncorporeal Movement. The wisp can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.\n\nActions\n\nShock. Melee Attack Roll: +4, reach 5 ft. Hit: 11 (2d8 + 2) Lightning damage.\n\nBonus Actions\n\nConsume Life. Constitution Saving Throw: DC 10, one living creature the wisp can see within 5 feet that has 0 Hit Points. Failure: The target dies, and the wisp regains 10 (3d6) Hit Points.\n\nVanish. The wisp and its light have the Invisible condition until the wisp's Concentration ends on this effect, which ends early immediately after the wisp makes an attack roll or uses Consume Life.",
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/exhaustion"

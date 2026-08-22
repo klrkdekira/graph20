@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.276",
     "heading": "Protection from Poison",
-    "lineStart": 11056,
-    "lineEnd": 11068
+    "lineStart": 11289,
+    "lineEnd": 11298
   },
   "level": 2,
   "school": "Abjuration",
@@ -26,7 +26,7 @@
   "range": "Touch",
   "components": "V, S",
   "duration": "1 hour",
-  "rulesText": "Level 2 Abjuration (Cleric, Druid, Paladin, Ranger)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S\n\nDuration: 1 hour\n\nYou touch a creature and end the Poisoned condition on it. For the duration, the target has Advantage on saving throws to avoid or end the Poisoned condition, and it has Resistance to Poison damage.",
+  "rulesText": "Level 2 Abjuration (Cleric, Druid, Paladin, Ranger)\n\nCasting Time: Action\nRange: Touch\nComponents: V, S\nDuration: 1 hour\n\nYou touch a creature and end the Poisoned condition on it. For the duration, the target has Advantage on saving throws to avoid or end the Poisoned condition, and it has Resistance to Poison damage.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"

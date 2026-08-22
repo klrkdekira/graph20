@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.111",
     "heading": "Detect Magic",
-    "lineStart": 7942,
-    "lineEnd": 7956
+    "lineStart": 8659,
+    "lineEnd": 8670
   },
   "level": 1,
   "school": "Divination",
@@ -30,7 +30,7 @@
   "range": "Self",
   "components": "V, S",
   "duration": "Concentration, up to 10 minutes",
-  "rulesText": "Level 1 Divination (Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action or Ritual\n\nRange: Self\n\nComponents: V, S\n\nDuration: Concentration, up to 10 minutes\n\nFor the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such effects, you can take the Magic action to see a faint aura around any visible creature or object in the area that bears the magic, and if an effect was created by a spell, you learn the spell's school of magic.\n\nThe spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.",
+  "rulesText": "Level 1 Divination (Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action or Ritual\nRange: Self\nComponents: V, S\nDuration: Concentration, up to 10 minutes\n\nFor the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such effects, you can take the Magic action to see a faint aura around any visible creature or object in the area that bears the magic, and if an effect was created by a spell, you learn the spell's school of magic.\n\nThe spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

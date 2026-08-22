@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.318",
     "heading": "Speak with Plants",
-    "lineStart": 11764,
-    "lineEnd": 11784
+    "lineStart": 11885,
+    "lineEnd": 11902
   },
   "level": 3,
   "school": "Transmutation",
@@ -25,7 +25,7 @@
   "range": "Self",
   "components": "V, S",
   "duration": "10 minutes",
-  "rulesText": "Level 3 Transmutation (Bard, Druid, Ranger)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S\n\nDuration: 10 minutes\n\nYou imbue plants in an immobile 30-foot Emanation with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can question plants about events in the spell's area within the past day, gaining information about creatures that have passed, weather, and other circumstances.\n\nYou can also turn Difficult Terrain caused by plant growth (such as thickets and undergrowth) into ordinary terrain that lasts for the duration. Or you\n\ncan turn ordinary terrain where plants are present into Difficult Terrain that lasts for the duration.\n\nThe spell doesn't enable plants to uproot themselves and move about, but they can move their branches, tendrils, and stalks for you.\n\nIf a Plant creature is in the area, you can communicate with it as if you shared a common language.",
+  "rulesText": "Level 3 Transmutation (Bard, Druid, Ranger)\n\nCasting Time: Action\nRange: Self\nComponents: V, S\nDuration: 10 minutes\n\nYou imbue plants in an immobile 30-foot Emanation with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can question plants about events in the spell's area within the past day, gaining information about creatures that have passed, weather, and other circumstances.\n\nYou can also turn Difficult Terrain caused by plant growth (such as thickets and undergrowth) into ordinary terrain that lasts for the duration. Or you\n\ncan turn ordinary terrain where plants are present into Difficult Terrain that lasts for the duration.\n\nThe spell doesn't enable plants to uproot themselves and move about, but they can move their branches, tendrils, and stalks for you.\n\nIf a Plant creature is in the area, you can communicate with it as if you shared a common language.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

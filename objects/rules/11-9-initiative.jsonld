@@ -11,8 +11,8 @@
     "chapter": "Monsters",
     "section": "11.9",
     "heading": "Initiative",
-    "lineStart": 17406,
-    "lineEnd": 17410
+    "lineStart": 17897,
+    "lineEnd": 17901
   },
   "section": "11.9",
   "rulesText": "The Initiative entry specifies the monster's Initiative modifier followed by the monster's Initiative score in parentheses. Use the modifier when you roll to determine a monster's Initiative. A monster's Initiative modifier is typically equal to its Dexterity modifier, but some monsters have additional modifiers, such as Proficiency Bonus, applied to that number.\n\nIf you don't want to roll a monster's Initiative, use the Initiative score as the monster's Initiative in combat. Initiative is further detailed in “Playing the Game.”"

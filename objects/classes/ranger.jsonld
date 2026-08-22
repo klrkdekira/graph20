@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.20",
     "heading": "Ranger",
-    "lineStart": 3572,
-    "lineEnd": 3754
+    "lineStart": 3556,
+    "lineEnd": 3820
   },
   "coreTraits": {
     "Primary Ability": "Dexterity and Wisdom",
@@ -123,5 +123,5 @@
       "rulesText": "The damage die of your Hunter's Mark is a d10 rather than a d6."
     }
   ],
-  "rulesText": "Core Ranger Traits\n\nBecoming a Ranger ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Ranger Traits table.  \n- Gain the Ranger's level 1 features, which are listed in the Ranger Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Ranger Traits table: Hit Point Die, proficiency with Martial weapons, proficiency in one skill of your choice from the Ranger's skill list, and training with Light and Medium armor and Shields.  \n- Gain the Ranger's level 1 features, which are listed in the Ranger Features table. See the multiclassing rules in “Character Creation” to determine your available spell slots.\n\nRanger Class Features\n\nAs a Ranger, you gain the following class features when you reach the specified Ranger levels. These features are listed in the Ranger Features table."
+  "rulesText": "Core Ranger Traits\n\nBecoming a Ranger ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Ranger Traits table.\n- Gain the Ranger's level 1 features, which are listed in the Ranger Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Ranger Traits table: Hit Point Die, proficiency with Martial weapons, proficiency in one skill of your choice from the Ranger's skill list, and training with Light and Medium armor and Shields.\n- Gain the Ranger's level 1 features, which are listed in the Ranger Features table. See the multiclassing rules in “Character Creation” to determine your available spell slots.\n\nRanger Class Features\n\nAs a Ranger, you gain the following class features when you reach the specified Ranger levels. These features are listed in the Ranger Features table."
 }

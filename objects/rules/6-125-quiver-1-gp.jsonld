@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-125-quiver-1-gp",
+  "@type": "Rule",
+  "name": "Quiver (1 GP)",
+  "slug": "6-125-quiver-1-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.125",
+    "heading": "Quiver (1 GP)",
+    "lineStart": 6812,
+    "lineEnd": 6814
+  },
+  "section": "6.125",
+  "rulesText": "A Quiver holds up to 20 Arrows."
+}

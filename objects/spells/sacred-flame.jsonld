@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.291",
     "heading": "Sacred Flame",
-    "lineStart": 11298,
-    "lineEnd": 11312
+    "lineStart": 11492,
+    "lineEnd": 11503
   },
   "level": 0,
   "school": "Evocation",
@@ -23,7 +23,7 @@
   "range": "60 feet",
   "components": "V, S",
   "duration": "Instantaneous",
-  "rulesText": "Evocation Cantrip (Cleric)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S\n\nDuration: Instantaneous\n\nFlame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 Radiant damage. The target gains no benefit from Half Cover or Three-Quarters Cover for this save.\n\nCantrip Upgrade. The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).",
+  "rulesText": "Evocation Cantrip (Cleric)\n\nCasting Time: Action\nRange: 60 feet\nComponents: V, S\nDuration: Instantaneous\n\nFlame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 Radiant damage. The target gains no benefit from Half Cover or Three-Quarters Cover for this save.\n\nCantrip Upgrade. The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"

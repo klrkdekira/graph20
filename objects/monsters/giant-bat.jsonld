@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.28",
     "heading": "Giant Bat",
-    "lineStart": 27868,
-    "lineEnd": 27890
+    "lineStart": 27459,
+    "lineEnd": 27479
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -72,7 +72,7 @@
       "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage."
     }
   ],
-  "rulesText": "Large Beast, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 22 (4d10)\n\nSpeed 10 ft., Fly 60 ft.\n\nSenses Blindsight 120 ft.; Passive Perception 11\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage.",
+  "rulesText": "Large Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 22 (4d10)\nSpeed 10 ft., Fly 60 ft.\n\nSenses Blindsight 120 ft.; Passive Perception 11\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage.",
   "attacks": [
     {
       "name": "Bite",

@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.341",
     "heading": "Tongues",
-    "lineStart": 12257,
-    "lineEnd": 12271
+    "lineStart": 12314,
+    "lineEnd": 12325
   },
   "level": 3,
   "school": "Divination",
@@ -27,7 +27,7 @@
   "range": "Touch",
   "components": "V, M (a miniature ziggurat)",
   "duration": "1 hour",
-  "rulesText": "Level 3 Divination (Bard, Cleric, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, M (a miniature ziggurat)\n\nDuration: 1 hour\n\nThis spell grants the creature you touch the ability to understand any spoken or signed language that it hears or sees. Moreover, when the target communicates by speaking or signing, any creature that\n\nknows at least one language can understand it if that creature can hear the speech or see the signing.",
+  "rulesText": "Level 3 Divination (Bard, Cleric, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\nRange: Touch\nComponents: V, M (a miniature ziggurat)\nDuration: 1 hour\n\nThis spell grants the creature you touch the ability to understand any spoken or signed language that it hears or sees. Moreover, when the target communicates by speaking or signing, any creature that\n\nknows at least one language can understand it if that creature can hear the speech or see the signing.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

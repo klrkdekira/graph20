@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.10",
     "heading": "Druid",
-    "lineStart": 2792,
-    "lineEnd": 3036
+    "lineStart": 2450,
+    "lineEnd": 2885
   },
   "coreTraits": {
     "Primary Ability": "Wisdom",
@@ -22,7 +22,7 @@
     "Weapon Proficiencies": "Simple weapons",
     "Tool Proficiencies": "Herbalism Kit",
     "Armor Training": "Light armor and Shields",
-    "Starting Equipment": "Choose A or B: (A) Leather Armor, Shield, Sickle, Druidic Focus (Quarterstaff), Explorer&#x27;s Pack, Herbalism Kit, and 9 GP; or (B) 50 GP"
+    "Starting Equipment": "Choose A or B: (A) Leather Armor, Shield, Sickle, Druidic Focus (Quarterstaff), Explorer’s Pack, Herbalism Kit, and 9 GP; or (B) 50 GP"
   },
   "spellList": {
     "@id": "https://cheeleong.dev/graph20/objects/rules/3-11-druid-spell-list"
@@ -109,5 +109,5 @@
       "rulesText": "The vitality of nature constantly blooms within you, granting you the following benefits.\n\nEvergreen Wild Shape. Whenever you roll Initiative and have no uses of Wild Shape left, you regain one expended use of it.\n\nNature Magician. You can convert uses of Wild Shape into a spell slot (no action required). Choose a number of your unexpended uses of Wild Shape and convert them into a single spell slot, with each use contributing 2 spell levels. For example, if you convert two uses of Wild Shape, you produce a level 4 spell slot. Once you use this benefit, you can't do so again until you finish a Long Rest.\n\nLongevity. The primal magic that you wield causes you to age more slowly. For every ten years that pass, your body ages only one year."
     }
   ],
-  "rulesText": "Core Druid Traits\n\nBecoming a Druid ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Druid Traits table.  \n- Gain the Druid's level 1 features, which are listed in the Druid Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Druid Traits table: Hit Point Die and training with Light armor and Shields.  \n- Gain the Druid's level 1 features, which are listed in the Druid Features table. See the multiclassing rules in “Character Creation” to determine your available spell slots.\n\nDruid Class Features\n\nAs a Druid, you gain the following class features when you reach the specified Druid levels. These features are listed in the Druid Features table."
+  "rulesText": "Core Druid Traits\n\nBecoming a Druid ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Druid Traits table.\n- Gain the Druid's level 1 features, which are listed in the Druid Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Druid Traits table: Hit Point Die and training with Light armor and Shields.\n- Gain the Druid's level 1 features, which are listed in the Druid Features table. See the multiclassing rules in “Character Creation” to determine your available spell slots.\n\nDruid Class Features\n\nAs a Druid, you gain the following class features when you reach the specified Druid levels. These features are listed in the Druid Features table."
 }

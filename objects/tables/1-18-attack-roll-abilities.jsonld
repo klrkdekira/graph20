@@ -11,8 +11,8 @@
     "chapter": "Playing the Game",
     "section": "1.18",
     "heading": "Ability Modifier",
-    "lineStart": 1099,
-    "lineEnd": 1099
+    "lineStart": 190,
+    "lineEnd": 194
   },
   "columns": [
     "Ability",
@@ -26,7 +26,7 @@
           "value": "Strength"
         },
         {
-          "value": "Melee attack with a weapon or an Un-armed Strike (see “Rules Glossary”)"
+          "value": "Melee attack with a weapon or an Unarmed Strike (see “Rules Glossary”)"
         }
       ]
     },

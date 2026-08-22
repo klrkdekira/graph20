@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.192",
     "heading": "Pseudodragon",
-    "lineStart": 24139,
-    "lineEnd": 24173
+    "lineStart": 24070,
+    "lineEnd": 24101
   },
   "sizeTypeAlignment": "Tiny Dragon, Neutral Good",
   "sizeAndType": "Tiny Dragon",
@@ -78,7 +78,7 @@
       "rulesText": "Multiattack. The pseudodragon makes two Bite attacks.\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage.\n\nSting. Constitution Saving Throw: DC 12, one creature the pseudodragon can see within 5 feet. Failure: 5 (2d4) Poison damage, and the target has the Poisoned condition for 1 hour. Failure by 5 or More: While Poisoned, the target also has the Unconscious condition, which ends early if the target takes damage or a creature within 5 feet of it takes an action to wake it."
     }
   ],
-  "rulesText": "Tiny Dragon, Neutral Good\n\nAC 14\n\nInitiative +2 (12)\n\nHP 10 (3d4 + 3)\n\nSpeed 15 ft., Fly 60 ft.\n\nSkills Perception +5, Stealth +4\n\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 15\n\nLanguages Understands Common and Draconic but can't speak\n\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nMagic Resistance. The pseudodragon has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The pseudodragon makes two Bite attacks.\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage.\n\nSting. Constitution Saving Throw: DC 12, one creature the pseudodragon can see within 5 feet. Failure: 5 (2d4) Poison damage, and the target has the Poisoned condition for 1 hour. Failure by 5 or More: While Poisoned, the target also has the Unconscious condition, which ends early if the target takes damage or a creature within 5 feet of it takes an action to wake it.",
+  "rulesText": "Tiny Dragon, Neutral Good\n\nAC 14\nInitiative +2 (12)\nHP 10 (3d4 + 3)\nSpeed 15 ft., Fly 60 ft.\n\nSkills Perception +5, Stealth +4\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 15\nLanguages Understands Common and Draconic but can't speak\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nMagic Resistance. The pseudodragon has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The pseudodragon makes two Bite attacks.\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage.\n\nSting. Constitution Saving Throw: DC 12, one creature the pseudodragon can see within 5 feet. Failure: 5 (2d4) Poison damage, and the target has the Poisoned condition for 1 hour. Failure by 5 or More: While Poisoned, the target also has the Unconscious condition, which ends early if the target takes damage or a creature within 5 feet of it takes an action to wake it.",
   "attacks": [
     {
       "name": "Bite",

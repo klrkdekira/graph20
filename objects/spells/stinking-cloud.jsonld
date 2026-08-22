@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.324",
     "heading": "Stinking Cloud",
-    "lineStart": 11872,
-    "lineEnd": 11886
+    "lineStart": 11975,
+    "lineEnd": 11986
   },
   "level": 3,
   "school": "Conjuration",
@@ -25,7 +25,7 @@
   "range": "90 feet",
   "components": "V, S, M (a rotten egg)",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Level 3 Conjuration (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 90 feet\n\nComponents: V, S, M (a rotten egg)\n\nDuration: Concentration, up to 1 minute\n\nYou create a 20-foot-radius Sphere of yellow, nauseating gas centered on a point within range. The cloud is Heavily Obscured. The cloud lingers in the air for the duration or until a strong wind (such as the one created by Gust of Wind) disperses it.\n\nEach creature that starts its turn in the Sphere must succeed on a Constitution saving throw or have the Poisoned condition until the end of the current turn. While Poisoned in this way, the creature can't take an action or a Bonus Action.",
+  "rulesText": "Level 3 Conjuration (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\nRange: 90 feet\nComponents: V, S, M (a rotten egg)\nDuration: Concentration, up to 1 minute\n\nYou create a 20-foot-radius Sphere of yellow, nauseating gas centered on a point within range. The cloud is Heavily Obscured. The cloud lingers in the air for the duration or until a strong wind (such as the one created by Gust of Wind) disperses it.\n\nEach creature that starts its turn in the Sphere must succeed on a Constitution saving throw or have the Poisoned condition until the end of the current turn. While Poisoned in this way, the creature can't take an action or a Bonus Action.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

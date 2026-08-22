@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.358",
     "heading": "Warding Bond",
-    "lineStart": 12580,
-    "lineEnd": 12594
+    "lineStart": 12589,
+    "lineEnd": 12600
   },
   "level": 2,
   "school": "Abjuration",
@@ -24,7 +24,7 @@
   "range": "Touch",
   "components": "V, S, M (a pair of platinum rings worth 50+ GP each, which you and the target must wear for the duration)",
   "duration": "1 hour",
-  "rulesText": "Level 2 Abjuration (Cleric, Paladin)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (a pair of platinum rings worth 50+ GP each, which you and the target must wear for the duration)\n\nDuration: 1 hour\n\nYou touch another creature that is willing and create a mystic connection between you and the target until the spell ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has Resistance to all damage. Also, each time it takes damage, you take the same amount of damage.\n\nThe spell ends if you drop to 0 Hit Points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures.",
+  "rulesText": "Level 2 Abjuration (Cleric, Paladin)\n\nCasting Time: Action\nRange: Touch\nComponents: V, S, M (a pair of platinum rings worth 50+ GP each, which you and the target must wear for the duration)\nDuration: 1 hour\n\nYou touch another creature that is willing and create a mystic connection between you and the target until the spell ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has Resistance to all damage. Also, each time it takes damage, you take the same amount of damage.\n\nThe spell ends if you drop to 0 Hit Points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"

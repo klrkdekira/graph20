@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.357",
     "heading": "Wall of Thorns",
-    "lineStart": 12558,
-    "lineEnd": 12578
+    "lineStart": 12570,
+    "lineEnd": 12587
   },
   "level": 6,
   "school": "Conjuration",
@@ -23,7 +23,7 @@
   "range": "120 feet",
   "components": "V, S, M (a handful of thorns)",
   "duration": "Concentration, up to 10 minutes",
-  "rulesText": "Level 6 Conjuration (Druid)\n\nCasting Time: Action\n\nRange: 120 feet\n\nComponents: V, S, M (a handful of thorns)\n\nDuration: Concentration, up to 10 minutes\n\nYou create a wall of tangled brush bristling with needle-sharp thorns. The wall appears within range on a solid surface and lasts for the duration. You choose to make the wall up to 60 feet long, 10 feet\n\nhigh, and 5 feet thick or a circle that has a 20-foot diameter and is up to 20 feet high and 5 feet thick. The wall blocks line of sight.\n\nWhen the wall appears, each creature in its area makes a Dexterity saving throw, taking 7d8 Piercing damage on a failed save or half as much damage on a successful one.\n\nA creature can move through the wall, albeit slowly and painfully. For every 1 foot a creature moves through the wall, it must spend 4 feet of movement. Furthermore, the first time a creature enters a space in the wall on a turn or ends its turn there, the creature makes a Dexterity saving throw, taking 7d8 Slashing damage on a failed save or half as much damage on a successful one. A creature makes this save only once per turn.\n\nUsing a Higher-Level Spell Slot. Both types of damage increase by 1d8 for each spell slot level above 6.",
+  "rulesText": "Level 6 Conjuration (Druid)\n\nCasting Time: Action\nRange: 120 feet\nComponents: V, S, M (a handful of thorns)\nDuration: Concentration, up to 10 minutes\n\nYou create a wall of tangled brush bristling with needle-sharp thorns. The wall appears within range on a solid surface and lasts for the duration. You choose to make the wall up to 60 feet long, 10 feet\n\nhigh, and 5 feet thick or a circle that has a 20-foot diameter and is up to 20 feet high and 5 feet thick. The wall blocks line of sight.\n\nWhen the wall appears, each creature in its area makes a Dexterity saving throw, taking 7d8 Piercing damage on a failed save or half as much damage on a successful one.\n\nA creature can move through the wall, albeit slowly and painfully. For every 1 foot a creature moves through the wall, it must spend 4 feet of movement. Furthermore, the first time a creature enters a space in the wall on a turn or ends its turn there, the creature makes a Dexterity saving throw, taking 7d8 Slashing damage on a failed save or half as much damage on a successful one. A creature makes this save only once per turn.\n\nUsing a Higher-Level Spell Slot. Both types of damage increase by 1d8 for each spell slot level above 6.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/druid"

@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.80",
     "heading": "Commune with Nature",
-    "lineStart": 7356,
-    "lineEnd": 7380
+    "lineStart": 8144,
+    "lineEnd": 8165
   },
   "level": 5,
   "school": "Divination",
@@ -20,11 +20,11 @@
     "Druid",
     "Ranger"
   ],
-  "castingTime": "I minute or Ritual",
+  "castingTime": "1 minute or Ritual",
   "range": "Self",
   "components": "V, S",
   "duration": "Instantaneous",
-  "rulesText": "Level 5 Divination (Druid, Ranger)\n\nCasting Time: I minute or Ritual\n\nRange: Self\n\nComponents: V, S\n\nDuration: Instantaneous\n\nYou commune with nature spirits and gain knowledge of the surrounding area. In the outdoors, the spell gives you knowledge of the area within 3 miles of you. In caves and other natural underground settings, the radius is limited to 300 feet. The spell\n\ndoesn't function where nature has been replaced by construction, such as in castles and settlements.\n\nChoose three of the following facts; you learn those facts as they pertain to the spell's area:\n\n- Locations of settlements  \n- Locations of portals to other planes of existence  \n- Location of one Challenge Rating 10+ creature (GM's choice) that is a Celestial, an Elemental, a Fey, a Fiend, or an Undead  \n- The most prevalent kind of plant, mineral, or Beast (you choose which to learn)  \n- Locations of bodies of water\n\nFor example, you could determine the location of a powerful monster in the area, the locations of bodies of water, and the locations of any towns.",
+  "rulesText": "Level 5 Divination (Druid, Ranger)\n\nCasting Time: 1 minute or Ritual\nRange: Self\nComponents: V, S\nDuration: Instantaneous\n\nYou commune with nature spirits and gain knowledge of the surrounding area. In the outdoors, the spell gives you knowledge of the area within 3 miles of you. In caves and other natural underground settings, the radius is limited to 300 feet. The spell\n\ndoesn't function where nature has been replaced by construction, such as in castles and settlements.\n\nChoose three of the following facts; you learn those facts as they pertain to the spell's area:\n\n- Locations of settlements\n- Locations of portals to other planes of existence\n- Location of one Challenge Rating 10+ creature (GM's choice) that is a Celestial, an Elemental, a Fey, a Fiend, or an Undead\n- The most prevalent kind of plant, mineral, or Beast (you choose which to learn)\n- Locations of bodies of water\n\nFor example, you could determine the location of a powerful monster in the area, the locations of bodies of water, and the locations of any towns.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/druid"

@@ -11,9 +11,9 @@
     "chapter": "Playing the Game",
     "section": "1.113",
     "heading": "They're Not Hit Points or Healing",
-    "lineStart": 1712,
-    "lineEnd": 1716
+    "lineStart": 861,
+    "lineEnd": 867
   },
   "section": "1.113",
-  "rulesText": "Temporary Hit Points can't be added to your Hit Points, healing can't restore them, and receiving Temporary Hit Points doesn't count as healing. Because Temporary Hit Points aren't Hit Points, a creature can be at full Hit Points and receive Temporary Hit Points.\n\nIf you have 0 Hit Points, receiving Temporary Hit Points doesn't restore you to consciousness. Only true healing can save you."
+  "rulesText": "Temporary Hit Points can't be added to your Hit Points, healing can't restore them, and receiving Temporary Hit Points doesn't count as healing. Because Temporary Hit Points aren't Hit Points, a creature can be at full Hit Points and receive Temporary Hit Points.\n\nIf you have 0 Hit Points, receiving Temporary Hit Points doesn't restore you to consciousness. Only true healing can save you.\n\n---"
 }

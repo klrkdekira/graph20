@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.216",
     "heading": "Young Silver Dragon",
-    "lineStart": 24985,
-    "lineEnd": 25019
+    "lineStart": 24840,
+    "lineEnd": 24870
   },
   "sizeTypeAlignment": "Large Dragon (Metallic), Lawful Good",
   "sizeAndType": "Large Dragon (Metallic)",
@@ -75,7 +75,7 @@
       "rulesText": "Multiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Paralyzing Breath.\n\nRend. Melee Attack Roll: +10, reach 10 ft. Hit: 15 (2d8 + 6) Slashing damage.\n\nCold Breath (Recharge 5–6). Constitution Saving\nThrow: DC 17, each creature in a 30-foot Cone. Failure:\n49 (11d8) Cold damage. Success: Half damage.\n\nParalyzing Breath. Constitution Saving Throw: DC 17, each creature in a 30-foot Cone. First Failure: The target has the Incapacitated condition until the end of its next turn, when it repeats the save. Second Failure: The target has the Paralyzed condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
     }
   ],
-  "rulesText": "Large Dragon (Metallic), Lawful Good\n\nAC 18\n\nInitiative +4 (14)\n\nHP 168 (16d10 + 80)\n\nSpeed 40 ft., Fly 80 ft.\n\nSkills History +6, Perception +8, Stealth +4\n\nImmunities Cold\n\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 18\n\nLanguages Common, Draconic\n\nCR 9 (XP 5,000; PB +4)\n\nActions\n\nMultiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Paralyzing Breath.\n\nRend. Melee Attack Roll: +10, reach 10 ft. Hit: 15 (2d8 + 6) Slashing damage.\n\nCold Breath (Recharge 5–6). Constitution Saving\nThrow: DC 17, each creature in a 30-foot Cone. Failure:\n49 (11d8) Cold damage. Success: Half damage.\n\nParalyzing Breath. Constitution Saving Throw: DC 17, each creature in a 30-foot Cone. First Failure: The target has the Incapacitated condition until the end of its next turn, when it repeats the save. Second Failure: The target has the Paralyzed condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.",
+  "rulesText": "Large Dragon (Metallic), Lawful Good\n\nAC 18\nInitiative +4 (14)\nHP 168 (16d10 + 80)\nSpeed 40 ft., Fly 80 ft.\n\nSkills History +6, Perception +8, Stealth +4\nImmunities Cold\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 18\nLanguages Common, Draconic\nCR 9 (XP 5,000; PB +4)\n\nActions\n\nMultiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Paralyzing Breath.\n\nRend. Melee Attack Roll: +10, reach 10 ft. Hit: 15 (2d8 + 6) Slashing damage.\n\nCold Breath (Recharge 5–6). Constitution Saving\nThrow: DC 17, each creature in a 30-foot Cone. Failure:\n49 (11d8) Cold damage. Success: Half damage.\n\nParalyzing Breath. Constitution Saving Throw: DC 17, each creature in a 30-foot Cone. First Failure: The target has the Incapacitated condition until the end of its next turn, when it repeats the save. Second Failure: The target has the Paralyzed condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.",
   "attacks": [
     {
       "name": "Rend",

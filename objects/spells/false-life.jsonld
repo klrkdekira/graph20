@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.143",
     "heading": "False Life",
-    "lineStart": 8554,
-    "lineEnd": 8568
+    "lineStart": 9177,
+    "lineEnd": 9188
   },
   "level": 1,
   "school": "Necromancy",
@@ -24,7 +24,7 @@
   "range": "Self",
   "components": "V, S, M (a drop of alcohol)",
   "duration": "Instantaneous",
-  "rulesText": "Level 1 Necromancy (Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S, M (a drop of alcohol)\n\nDuration: Instantaneous\n\nYou gain 2d4 + 4 Temporary Hit Points.\n\nUsing a Higher-Level Spell Slot. You gain 5 additional Temporary Hit Points for each spell slot level above 1.",
+  "rulesText": "Level 1 Necromancy (Sorcerer, Wizard)\n\nCasting Time: Action\nRange: Self\nComponents: V, S, M (a drop of alcohol)\nDuration: Instantaneous\n\nYou gain 2d4 + 4 Temporary Hit Points.\n\nUsing a Higher-Level Spell Slot. You gain 5 additional Temporary Hit Points for each spell slot level above 1.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"

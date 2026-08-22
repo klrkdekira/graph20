@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.60",
     "heading": "Killer Whale",
-    "lineStart": 28823,
-    "lineEnd": 28851
+    "lineStart": 28323,
+    "lineEnd": 28348
   },
   "sizeTypeAlignment": "Huge Beast, Unaligned",
   "sizeAndType": "Huge Beast",
@@ -78,7 +78,7 @@
       "rulesText": "Bite. Melee Attack Roll: +6, reach 5 ft. Hit: 21 (5d6 + 4) Piercing damage."
     }
   ],
-  "rulesText": "Huge Beast, Unaligned\n\nAC 12\n\nInitiative +2 (12)\n\nHP 90 (12d12 + 12)\n\nSpeed 5 ft., Swim 60 ft.\n\nSkills Perception +3, Stealth +4\n\nSenses Blindsight 120 ft.; Passive Perception 13\n\nLanguages None\n\nCR 3 (XP 700; PB +2)\n\nTraits\n\nHold Breath. The whale can hold its breath for 30 minutes.\n\nActions\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 21 (5d6 + 4) Piercing damage.",
+  "rulesText": "Huge Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 90 (12d12 + 12)\nSpeed 5 ft., Swim 60 ft.\n\nSkills Perception +3, Stealth +4\nSenses Blindsight 120 ft.; Passive Perception 13\nLanguages None\nCR 3 (XP 700; PB +2)\n\nTraits\n\nHold Breath. The whale can hold its breath for 30 minutes.\n\nActions\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 21 (5d6 + 4) Piercing damage.",
   "attacks": [
     {
       "name": "Bite",

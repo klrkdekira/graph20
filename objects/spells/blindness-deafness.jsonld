@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.62",
     "heading": "Blindness/Deafness",
-    "lineStart": 7037,
-    "lineEnd": 7051
+    "lineStart": 7879,
+    "lineEnd": 7890
   },
   "level": 2,
   "school": "Transmutation",
@@ -26,7 +26,7 @@
   "range": "120 feet",
   "components": "V",
   "duration": "1 minute",
-  "rulesText": "Level 2 Transmutation (Bard, Cleric, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 120 feet\n\nComponents: V\n\nDuration: 1 minute\n\nOne creature that you can see within range must succeed on a Constitution saving throw, or it has the Blinded or Deafened condition (your choice) for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 2.",
+  "rulesText": "Level 2 Transmutation (Bard, Cleric, Sorcerer, Wizard)\n\nCasting Time: Action\nRange: 120 feet\nComponents: V\nDuration: 1 minute\n\nOne creature that you can see within range must succeed on a Constitution saving throw, or it has the Blinded or Deafened condition (your choice) for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 2.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

@@ -11,8 +11,8 @@
     "chapter": "Gameplay Toolbox",
     "section": "9.39",
     "heading": "Mental Stress Effects",
-    "lineStart": 14045,
-    "lineEnd": 14045
+    "lineStart": 14146,
+    "lineEnd": 14150
   },
   "columns": [
     "Example",
@@ -24,7 +24,7 @@
       "position": 1,
       "cells": [
         {
-          "value": "A character ingests a hallucinogenic substance that distorts the character&#x27;s perception of reality."
+          "value": "A character ingests a hallucinogenic substance that distorts the character’s perception of reality."
         },
         {
           "value": "10"
@@ -38,7 +38,7 @@
       "position": 2,
       "cells": [
         {
-          "value": "A character touches a fiendish idol that tears at the character&#x27;s mind, threatening to shatter it."
+          "value": "A character touches a fiendish idol that tears at the character’s mind, threatening to shatter it."
         },
         {
           "value": "15"
@@ -52,7 +52,7 @@
       "position": 3,
       "cells": [
         {
-          "value": "A magical trap flings a character into the Far Realm until the end of that character&#x27;s next turn."
+          "value": "A magical trap flings a character into the Far Realm until the end of that character’s next turn."
         },
         {
           "value": "20"

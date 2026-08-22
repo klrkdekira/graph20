@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.176",
     "heading": "Grease",
-    "lineStart": 9234,
-    "lineEnd": 9248
+    "lineStart": 9758,
+    "lineEnd": 9769
   },
   "level": 1,
   "school": "Conjuration",
@@ -24,7 +24,7 @@
   "range": "60 feet",
   "components": "V, S, M (a bit of pork rind or butter)",
   "duration": "1 minute",
-  "rulesText": "Level 1 Conjuration (Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S, M (a bit of pork rind or butter)\n\nDuration: 1 minute\n\nNonflammable grease covers the ground in a 10-foot square centered on a point within range and turns it into Difficult Terrain for the duration.\n\nWhen the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or have the Prone condition. A creature that enters the area or ends its turn there must also succeed on that save or fall Prone.",
+  "rulesText": "Level 1 Conjuration (Sorcerer, Wizard)\n\nCasting Time: Action\nRange: 60 feet\nComponents: V, S, M (a bit of pork rind or butter)\nDuration: 1 minute\n\nNonflammable grease covers the ground in a 10-foot square centered on a point within range and turns it into Difficult Terrain for the duration.\n\nWhen the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or have the Prone condition. A creature that enters the area or ends its turn there must also succeed on that save or fall Prone.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"

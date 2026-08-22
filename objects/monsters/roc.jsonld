@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.202",
     "heading": "Roc",
-    "lineStart": 24515,
-    "lineEnd": 24549
+    "lineStart": 24412,
+    "lineEnd": 24443
   },
   "sizeTypeAlignment": "Gargantuan Monstrosity, Unaligned",
   "sizeAndType": "Gargantuan Monstrosity",
@@ -38,34 +38,34 @@
   "proficiencyBonus": 4,
   "abilities": {
     "str": {
-      "score": 28,
-      "modifier": 9,
-      "savingThrow": 9
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
     },
     "dex": {
-      "score": 10,
-      "modifier": 0,
-      "savingThrow": 4
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 7
     },
     "con": {
-      "score": 20,
-      "modifier": 5,
-      "savingThrow": 5
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 8
     },
     "int": {
-      "score": 3,
-      "modifier": -4,
-      "savingThrow": -4
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
     },
     "wis": {
-      "score": 10,
-      "modifier": 0,
-      "savingThrow": 4
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
     },
     "cha": {
-      "score": 9,
-      "modifier": -1,
-      "savingThrow": -1
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 8
     }
   },
   "statSections": [
@@ -78,7 +78,7 @@
       "rulesText": "Swoop (Recharge 5–6). If the roc has a creature Grappled, the roc flies up to half its Fly Speed without provoking Opportunity Attacks and drops that creature."
     }
   ],
-  "rulesText": "Gargantuan Monstrosity, Unaligned\n\nAC 15\n\nInitiative +8 (18)\n\nHP 248 (16d20 + 80)\n\nSpeed 20 ft., Fly 120 ft.\n\nSkills Perception +8\n\nSenses Passive Perception 18\n\nLanguages None\n\nCR 11 (XP 7,200; PB +4)\n\nActions\n\nMultiattack. The roc makes two Beak attacks. It can replace one attack with a Talons attack.\n\nBeak. Melee Attack Roll: +13, reach 10 ft. Hit: 28 (3d12 + 9) Piercing damage.\n\nTalons. Melee Attack Roll: +13, reach 5 ft. Hit: 23 (4d6 + 9) Slashing damage. If the target is a Huge or smaller creature, it has the Grappled condition (escape DC 19) from both talons, and it has the Restrained condition until the grapple ends.\n\nBonus Actions\n\nSwoop (Recharge 5–6). If the roc has a creature Grappled, the roc flies up to half its Fly Speed without provoking Opportunity Attacks and drops that creature.",
+  "rulesText": "Gargantuan Monstrosity, Unaligned\n\nAC 15\nInitiative +8 (18)\nHP 248 (16d20 + 80)\nSpeed 20 ft., Fly 120 ft.\n\nSkills Perception +8\nSenses Passive Perception 18\nLanguages None\nCR 11 (XP 7,200; PB +4)\n\nActions\n\nMultiattack. The roc makes two Beak attacks. It can replace one attack with a Talons attack.\n\nBeak. Melee Attack Roll: +13, reach 10 ft. Hit: 28 (3d12 + 9) Piercing damage.\n\nTalons. Melee Attack Roll: +13, reach 5 ft. Hit: 23 (4d6 + 9) Slashing damage. If the target is a Huge or smaller creature, it has the Grappled condition (escape DC 19) from both talons, and it has the Restrained condition until the grapple ends.\n\nBonus Actions\n\nSwoop (Recharge 5–6). If the roc has a creature Grappled, the roc flies up to half its Fly Speed without provoking Opportunity Attacks and drops that creature.",
   "attacks": [
     {
       "name": "Beak",

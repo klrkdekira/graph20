@@ -11,11 +11,25 @@
     "chapter": "Classes",
     "section": "3.4",
     "heading": "Level 1: Bardic Inspiration",
-    "lineStart": 2452,
-    "lineEnd": 2452
+    "lineStart": 1795,
+    "lineEnd": 1817
   },
   "columns": [
-    "——Spell Slots per Spell Level——"
+    "Level",
+    "Proficiency Bonus",
+    "Class Features",
+    "Bardic Die",
+    "Cantrips",
+    "Prepared Spells",
+    "——Spell Slots per Spell Level——",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
   ],
   "rows": [
     {
@@ -47,6 +61,24 @@
         },
         {
           "value": "9"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
         }
       ]
     },

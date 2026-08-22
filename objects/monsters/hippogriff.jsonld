@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.134",
     "heading": "Hippogriff",
-    "lineStart": 22099,
-    "lineEnd": 22131
+    "lineStart": 22220,
+    "lineEnd": 22249
   },
   "sizeTypeAlignment": "Large Monstrosity, Unaligned",
   "sizeAndType": "Large Monstrosity",
@@ -78,7 +78,7 @@
       "rulesText": "Multiattack. The hippogriff makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage."
     }
   ],
-  "rulesText": "Large Monstrosity, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 26 (4d10 + 4)\n\nSpeed 40 ft., Fly 60 ft.\n\nSkills Perception +5\n\nSenses Passive Perception 15\n\nLanguages None\n\nCR 1 (XP 200; PB +2)\n\nTraits\n\nFlyby. The hippogriff doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nMultiattack. The hippogriff makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.",
+  "rulesText": "Large Monstrosity, Unaligned\n\nAC 11\nInitiative +1 (11)\nHP 26 (4d10 + 4)\nSpeed 40 ft., Fly 60 ft.\n\nSkills Perception +5\nSenses Passive Perception 15\nLanguages None\nCR 1 (XP 200; PB +2)\n\nTraits\n\nFlyby. The hippogriff doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nMultiattack. The hippogriff makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.",
   "attacks": [
     {
       "name": "Rend",

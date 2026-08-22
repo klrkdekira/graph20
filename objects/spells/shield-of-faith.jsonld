@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.304",
     "heading": "Shield of Faith",
-    "lineStart": 11528,
-    "lineEnd": 11540
+    "lineStart": 11691,
+    "lineEnd": 11700
   },
   "level": 1,
   "school": "Abjuration",
@@ -24,7 +24,7 @@
   "range": "60 feet",
   "components": "V, S, M (a prayer scroll)",
   "duration": "Concentration, up to 10 minutes",
-  "rulesText": "Level 1 Abjuration (Cleric, Paladin)\n\nCasting Time: Bonus Action\n\nRange: 60 feet\n\nComponents: V, S, M (a prayer scroll)\n\nDuration: Concentration, up to 10 minutes\n\nA shimmering field surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.",
+  "rulesText": "Level 1 Abjuration (Cleric, Paladin)\n\nCasting Time: Bonus Action\nRange: 60 feet\nComponents: V, S, M (a prayer scroll)\nDuration: Concentration, up to 10 minutes\n\nA shimmering field surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"

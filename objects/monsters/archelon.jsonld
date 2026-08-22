@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.5",
     "heading": "Archelon",
-    "lineStart": 27209,
-    "lineEnd": 27239
+    "lineStart": 26864,
+    "lineEnd": 26891
   },
   "sizeTypeAlignment": "Huge Beast (Dinosaur), Unaligned",
   "sizeAndType": "Huge Beast (Dinosaur)",
@@ -78,7 +78,7 @@
       "rulesText": "Multiattack. The archelon makes two Bite attacks.\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 14 (3d6 + 4) Piercing damage."
     }
   ],
-  "rulesText": "Huge Beast (Dinosaur), Unaligned\n\nAC 17\n\nInitiative +3 (13)\n\nHP 90 (12d12 + 12)\n\nSpeed 20 ft., Swim 80 ft.\n\nSkills Stealth +5\n\nSenses Passive Perception 12\n\nLanguages None\n\nCR 4 (XP 1,100; PB +2)\n\nTraits\n\nAmphibious. The archelon can breathe air and water.\n\nActions\n\nMultiattack. The archelon makes two Bite attacks.\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 14 (3d6 + 4) Piercing damage.",
+  "rulesText": "Huge Beast (Dinosaur), Unaligned\n\nAC 17\nInitiative +3 (13)\nHP 90 (12d12 + 12)\nSpeed 20 ft., Swim 80 ft.\n\nSkills Stealth +5\nSenses Passive Perception 12\nLanguages None\nCR 4 (XP 1,100; PB +2)\n\nTraits\n\nAmphibious. The archelon can breathe air and water.\n\nActions\n\nMultiattack. The archelon makes two Bite attacks.\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 14 (3d6 + 4) Piercing damage.",
   "attacks": [
     {
       "name": "Bite",

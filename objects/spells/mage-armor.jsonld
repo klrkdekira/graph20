@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.223",
     "heading": "Mage Armor",
-    "lineStart": 10072,
-    "lineEnd": 10084
+    "lineStart": 10455,
+    "lineEnd": 10464
   },
   "level": 1,
   "school": "Abjuration",
@@ -24,7 +24,7 @@
   "range": "Touch",
   "components": "V, S, M (a piece of cured leather)",
   "duration": "8 hours",
-  "rulesText": "Level 1 Abjuration (Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (a piece of cured leather)\n\nDuration: 8 hours\n\nYou touch a willing creature who isn't wearing armor. Until the spell ends, the target's base AC becomes 13 plus its Dexterity modifier. The spell ends early if the target dons armor.",
+  "rulesText": "Level 1 Abjuration (Sorcerer, Wizard)\n\nCasting Time: Action\nRange: Touch\nComponents: V, S, M (a piece of cured leather)\nDuration: 8 hours\n\nYou touch a willing creature who isn't wearing armor. Until the spell ends, the target's base AC becomes 13 plus its Dexterity modifier. The spell ends early if the target dons armor.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"

@@ -11,19 +11,19 @@
     "chapter": "Spells",
     "section": "7.209",
     "heading": "Instant Summons",
-    "lineStart": 9836,
-    "lineEnd": 9852
+    "lineStart": 10261,
+    "lineEnd": 10274
   },
   "level": 6,
   "school": "Conjuration",
   "classAvailability": [
     "Wizard"
   ],
-  "castingTime": "I minute or Ritual",
+  "castingTime": "1 minute or Ritual",
   "range": "Touch",
   "components": "V, S, M (a sapphire worth 1,000+ GP)",
   "duration": "Until dispelled",
-  "rulesText": "Level 6 Conjuration (Wizard)\n\nCasting Time: I minute or Ritual\n\nRange: Touch\n\nComponents: V, S, M (a sapphire worth 1,000+ GP)\n\nDuration: Until dispelled\n\nYou touch the sapphire used in the casting and an object weighing 10 pounds or less whose longest dimension is 6 feet or less. The spell leaves an Invisible mark on that object and invisibly inscribes the object's name on the sapphire. Each time you cast this spell, you must use a different sapphire.\n\nThereafter, you can take a Magic action to speak the object's name and crush the sapphire. The object instantly appears in your hand regardless of physical or planar distances, and the spell ends.\n\nIf another creature is holding or carrying the object, crushing the sapphire doesn't transport it, but instead you learn who that creature is and where that creature is currently located.",
+  "rulesText": "Level 6 Conjuration (Wizard)\n\nCasting Time: 1 minute or Ritual\nRange: Touch\nComponents: V, S, M (a sapphire worth 1,000+ GP)\nDuration: Until dispelled\n\nYou touch the sapphire used in the casting and an object weighing 10 pounds or less whose longest dimension is 6 feet or less. The spell leaves an Invisible mark on that object and invisibly inscribes the object's name on the sapphire. Each time you cast this spell, you must use a different sapphire.\n\nThereafter, you can take a Magic action to speak the object's name and crush the sapphire. The object instantly appears in your hand regardless of physical or planar distances, and the spell ends.\n\nIf another creature is holding or carrying the object, crushing the sapphire doesn't transport it, but instead you learn who that creature is and where that creature is currently located.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"

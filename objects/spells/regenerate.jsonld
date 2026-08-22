@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.281",
     "heading": "Regenerate",
-    "lineStart": 11136,
-    "lineEnd": 11148
+    "lineStart": 11354,
+    "lineEnd": 11363
   },
   "level": 7,
   "school": "Transmutation",
@@ -25,7 +25,7 @@
   "range": "Touch",
   "components": "V, S, M (a prayer wheel)",
   "duration": "1 hour",
-  "rulesText": "Level 7 Transmutation (Bard, Cleric, Druid)\n\nCasting Time: 1 minute\n\nRange: Touch\n\nComponents: V, S, M (a prayer wheel)\n\nDuration: 1 hour\n\nA creature you touch regains 4d8 + 15 Hit Points. For the duration, the target regains 1 Hit Point at the start of each of its turns, and any severed body parts regrow after 2 minutes.",
+  "rulesText": "Level 7 Transmutation (Bard, Cleric, Druid)\n\nCasting Time: 1 minute\nRange: Touch\nComponents: V, S, M (a prayer wheel)\nDuration: 1 hour\n\nA creature you touch regains 4d8 + 15 Hit Points. For the duration, the target regains 1 Hit Point at the start of each of its turns, and any severed body parts regrow after 2 minutes.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

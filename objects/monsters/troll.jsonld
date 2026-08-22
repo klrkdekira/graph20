@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.242",
     "heading": "Troll",
-    "lineStart": 25958,
-    "lineEnd": 25996
+    "lineStart": 25724,
+    "lineEnd": 25759
   },
   "sizeTypeAlignment": "Large Giant, Chaotic Evil",
   "sizeAndType": "Large Giant",
@@ -38,34 +38,34 @@
   "proficiencyBonus": 3,
   "abilities": {
     "str": {
-      "score": 18,
-      "modifier": 4,
-      "savingThrow": 4
+      "score": 23,
+      "modifier": 6,
+      "savingThrow": 6
     },
     "dex": {
-      "score": 13,
-      "modifier": 1,
-      "savingThrow": 1
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
     },
     "con": {
-      "score": 20,
+      "score": 21,
       "modifier": 5,
       "savingThrow": 5
     },
     "int": {
-      "score": 7,
-      "modifier": -2,
-      "savingThrow": -2
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
     },
     "wis": {
-      "score": 9,
-      "modifier": -1,
-      "savingThrow": -1
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "cha": {
-      "score": 7,
-      "modifier": -2,
-      "savingThrow": -2
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
     }
   },
   "statSections": [
@@ -82,7 +82,7 @@
       "rulesText": "Charge. The troll moves up to half its Speed straight toward an enemy it can see."
     }
   ],
-  "rulesText": "Large Giant, Chaotic Evil\n\nAC 15\n\nInitiative +1 (11)\n\nHP 94 (9d10 + 45)\n\nSpeed 30 ft.\n\nSkills Perception +5\n\nSenses Darkvision 60 ft.; Passive Perception 15\n\nLanguages Giant\n\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nLoathsome Limbs (4/Day). If the troll ends any turn Bloodied and took 15+ Slashing damage during that turn, one of the troll's limbs is severed, falls into the troll's space, and becomes a Troll Limb. The limb acts immediately after the troll's turn. The troll has 1 Exhaustion level for each missing limb, and it grows replacement limbs the next time it regains Hit Points.\n\nRegeneration. The troll regains 15 Hit Points at the start of each of its turns. If the troll takes Acid or Fire damage, this trait doesn't function on the troll's next turn. The troll dies only if it starts its turn with 0 Hit Points and doesn't regenerate.\n\nActions\n\nMultiattack. The troll makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Slashing damage.\n\nBonus Actions\n\nCharge. The troll moves up to half its Speed straight toward an enemy it can see.",
+  "rulesText": "Large Giant, Chaotic Evil\n\nAC 15\nInitiative +1 (11)\nHP 94 (9d10 + 45)\nSpeed 30 ft.\n\nSkills Perception +5\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages Giant\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nLoathsome Limbs (4/Day). If the troll ends any turn Bloodied and took 15+ Slashing damage during that turn, one of the troll's limbs is severed, falls into the troll's space, and becomes a Troll Limb. The limb acts immediately after the troll's turn. The troll has 1 Exhaustion level for each missing limb, and it grows replacement limbs the next time it regains Hit Points.\n\nRegeneration. The troll regains 15 Hit Points at the start of each of its turns. If the troll takes Acid or Fire damage, this trait doesn't function on the troll's next turn. The troll dies only if it starts its turn with 0 Hit Points and doesn't regenerate.\n\nActions\n\nMultiattack. The troll makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Slashing damage.\n\nBonus Actions\n\nCharge. The troll moves up to half its Speed straight toward an enemy it can see.",
   "attacks": [
     {
       "name": "Rend",

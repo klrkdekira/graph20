@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.234",
     "heading": "Mass Healing Word",
-    "lineStart": 10283,
-    "lineEnd": 10297
+    "lineStart": 10633,
+    "lineEnd": 10644
   },
   "level": 3,
   "school": "Abjuration",
@@ -24,7 +24,7 @@
   "range": "60 feet",
   "components": "V",
   "duration": "Instantaneous",
-  "rulesText": "Level 3 Abjuration (Bard, Cleric)\n\nCasting Time: Bonus Action\n\nRange: 60 feet\n\nComponents: V\n\nDuration: Instantaneous\n\nUp to six creatures of your choice that you can see within range regain Hit Points equal to 2d4 plus your spellcasting ability modifier.\n\nUsing a Higher-Level Spell Slot. The healing increases by 1d4 for each spell slot level above 3.",
+  "rulesText": "Level 3 Abjuration (Bard, Cleric)\n\nCasting Time: Bonus Action\nRange: 60 feet\nComponents: V\nDuration: Instantaneous\n\nUp to six creatures of your choice that you can see within range regain Hit Points equal to 2d4 plus your spellcasting ability modifier.\n\nUsing a Higher-Level Spell Slot. The healing increases by 1d4 for each spell slot level above 3.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

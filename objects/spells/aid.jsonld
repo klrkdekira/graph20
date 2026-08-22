@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.32",
     "heading": "Aid",
-    "lineStart": 6455,
-    "lineEnd": 6469
+    "lineStart": 7383,
+    "lineEnd": 7394
   },
   "level": 2,
   "school": "Abjuration",
@@ -27,7 +27,7 @@
   "range": "30 feet",
   "components": "V, S, M (a strip of white cloth)",
   "duration": "8 hours",
-  "rulesText": "Level 2 Abjuration (Bard, Cleric, Druid, Paladin, Ranger)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V, S, M (a strip of white cloth)\n\nDuration: 8 hours\n\nChoose up to three creatures within range. Each target's Hit Point maximum and current Hit Points increase by 5 for the duration.\n\nUsing a Higher-Level Spell Slot. Each target's Hit Points increase by 5 for each spell slot level above 2.",
+  "rulesText": "Level 2 Abjuration (Bard, Cleric, Druid, Paladin, Ranger)\n\nCasting Time: Action\nRange: 30 feet\nComponents: V, S, M (a strip of white cloth)\nDuration: 8 hours\n\nChoose up to three creatures within range. Each target's Hit Point maximum and current Hit Points increase by 5 for the duration.\n\nUsing a Higher-Level Spell Slot. Each target's Hit Points increase by 5 for each spell slot level above 2.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

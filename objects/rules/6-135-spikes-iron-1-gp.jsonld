@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-135-spikes-iron-1-gp",
+  "@type": "Rule",
+  "name": "Spikes, Iron (1 GP)",
+  "slug": "6-135-spikes-iron-1-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.135",
+    "heading": "Spikes, Iron (1 GP)",
+    "lineStart": 6856,
+    "lineEnd": 6858
+  },
+  "section": "6.135",
+  "rulesText": "Iron Spikes come in bundles of ten. As a Utilize action, you can use a blunt object, such as a Light Hammer, to hammer a spike into wood, earth, or a similar material. You can do so to jam a door shut or to then tie a Rope or Chain to the Spike."
+}

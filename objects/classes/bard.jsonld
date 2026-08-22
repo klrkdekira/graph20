@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.4",
     "heading": "Bard",
-    "lineStart": 2421,
-    "lineEnd": 2602
+    "lineStart": 1756,
+    "lineEnd": 2107
   },
   "coreTraits": {
     "Primary Ability": "Charisma",
@@ -99,5 +99,5 @@
       "rulesText": "You have mastered two of the Words of Creation: the words of life and death. You therefore always have the Power Word Heal and Power Word Kill spells prepared. When you cast either spell, you can target a second creature with it if that creature is within 10 feet of the first target."
     }
   ],
-  "rulesText": "Core Bard Traits\n\nBecoming a Bard ...\n\nAs a Level 1 Character\n\n\\- Gain all the traits in the Core Bard Traits table.\n\n\\- Gain the Bard's level 1 features, which are listed in the Bard Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Bard Traits table: Hit Point Die, proficiency in one skill of your choice, proficiency with one Musical Instrument of your choice, and training with Light armor.  \n- Gain the Bard's level 1 features, which are listed in the Bard Features table. See the multiclassing rules in “Character Creation” to determine your available spell slots.\n\nBard Class Features\n\nAs a Bard, you gain the following class features when you reach the specified Bard levels. These features are listed in the Bard Features table."
+  "rulesText": "Core Bard Traits\n\nBecoming a Bard ...\n\nAs a Level 1 Character\n\n\\- Gain all the traits in the Core Bard Traits table.\n\n\\- Gain the Bard's level 1 features, which are listed in the Bard Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Bard Traits table: Hit Point Die, proficiency in one skill of your choice, proficiency with one Musical Instrument of your choice, and training with Light armor.\n- Gain the Bard's level 1 features, which are listed in the Bard Features table. See the multiclassing rules in “Character Creation” to determine your available spell slots.\n\nBard Class Features\n\nAs a Bard, you gain the following class features when you reach the specified Bard levels. These features are listed in the Bard Features table."
 }

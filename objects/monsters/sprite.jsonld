@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.230",
     "heading": "Sprite",
-    "lineStart": 25513,
-    "lineEnd": 25545
+    "lineStart": 25318,
+    "lineEnd": 25347
   },
   "sizeTypeAlignment": "Tiny Fey, Neutral Good",
   "sizeAndType": "Tiny Fey",
@@ -73,7 +73,7 @@
       "rulesText": "Needle Sword. Melee Attack Roll: +6, reach 5 ft. Hit: 6 (1d4 + 4) Piercing damage.\n\nEnchanting Bow. Ranged Attack Roll: +6, range 40/160 ft. Hit: 1 Piercing damage, and the target has the Charmed condition until the start of the sprite's next turn.\n\nHeart Sight. Charisma Saving Throw: DC 10, one creature within 5 feet the sprite can see (Celestials, Fiends, and Undead automatically fail the save). Failure: The sprite knows the target's emotions and alignment.\n\nInvisibility. The sprite casts Invisibility on itself, requiring no spell components and using Charisma as the spellcasting ability."
     }
   ],
-  "rulesText": "Tiny Fey, Neutral Good\n\nAC 15\n\nInitiative +4 (14)\n\nHP 10 (4d4)\n\nSpeed 10 ft., Fly 40 ft.\n\nSkills Perception +3, Stealth +8\n\nSenses Passive Perception 13\n\nLanguages Common, Elvish, Sylvan\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nNeedle Sword. Melee Attack Roll: +6, reach 5 ft. Hit: 6 (1d4 + 4) Piercing damage.\n\nEnchanting Bow. Ranged Attack Roll: +6, range 40/160 ft. Hit: 1 Piercing damage, and the target has the Charmed condition until the start of the sprite's next turn.\n\nHeart Sight. Charisma Saving Throw: DC 10, one creature within 5 feet the sprite can see (Celestials, Fiends, and Undead automatically fail the save). Failure: The sprite knows the target's emotions and alignment.\n\nInvisibility. The sprite casts Invisibility on itself, requiring no spell components and using Charisma as the spellcasting ability.",
+  "rulesText": "Tiny Fey, Neutral Good\n\nAC 15\nInitiative +4 (14)\nHP 10 (4d4)\nSpeed 10 ft., Fly 40 ft.\n\nSkills Perception +3, Stealth +8\nSenses Passive Perception 13\nLanguages Common, Elvish, Sylvan\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nNeedle Sword. Melee Attack Roll: +6, reach 5 ft. Hit: 6 (1d4 + 4) Piercing damage.\n\nEnchanting Bow. Ranged Attack Roll: +6, range 40/160 ft. Hit: 1 Piercing damage, and the target has the Charmed condition until the start of the sprite's next turn.\n\nHeart Sight. Charisma Saving Throw: DC 10, one creature within 5 feet the sprite can see (Celestials, Fiends, and Undead automatically fail the save). Failure: The sprite knows the target's emotions and alignment.\n\nInvisibility. The sprite casts Invisibility on itself, requiring no spell components and using Charisma as the spellcasting ability.",
   "attacks": [
     {
       "name": "Needle Sword",

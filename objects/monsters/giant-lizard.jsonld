@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.40",
     "heading": "Giant Lizard",
-    "lineStart": 28218,
-    "lineEnd": 28244
+    "lineStart": 27774,
+    "lineEnd": 27798
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -77,7 +77,7 @@
       "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage."
     }
   ],
-  "rulesText": "Large Beast, Unaligned\n\nAC 12\n\nInitiative +1 (11)\n\nHP 19 (3d10 + 3)\n\nSpeed 40 ft., Climb 40 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 10\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nSpider Climb. The lizard can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage.",
+  "rulesText": "Large Beast, Unaligned\n\nAC 12\nInitiative +1 (11)\nHP 19 (3d10 + 3)\nSpeed 40 ft., Climb 40 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nSpider Climb. The lizard can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage.",
   "attacks": [
     {
       "name": "Bite",

@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.264",
     "heading": "Power Word Kill",
-    "lineStart": 10811,
-    "lineEnd": 10823
+    "lineStart": 11071,
+    "lineEnd": 11080
   },
   "level": 9,
   "school": "Enchantment",
@@ -24,8 +24,9 @@
   ],
   "castingTime": "Action",
   "range": "60 feet",
+  "components": "V",
   "duration": "Instantaneous",
-  "rulesText": "Level 9 Enchantment (Bard, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponent: V\n\nDuration: Instantaneous\n\nYou compel one creature you can see within range to die. If the target has 100 Hit Points or fewer, it dies. Otherwise, it takes 12d12 Psychic damage.",
+  "rulesText": "Level 9 Enchantment (Bard, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\nRange: 60 feet\nComponents: V\nDuration: Instantaneous\n\nYou compel one creature you can see within range to die. If the target has 100 Hit Points or fewer, it dies. Otherwise, it takes 12d12 Psychic damage.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

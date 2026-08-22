@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.212",
     "heading": "Jump",
-    "lineStart": 9886,
-    "lineEnd": 9900
+    "lineStart": 10302,
+    "lineEnd": 10313
   },
   "level": 1,
   "school": "Transmutation",
@@ -24,8 +24,9 @@
   ],
   "castingTime": "Bonus Action",
   "range": "Touch",
+  "components": "V, S, M (a grasshopper's hind leg)",
   "duration": "1 minute",
-  "rulesText": "Level 1 Transmutation (Druid, Ranger, Sorcerer, Wizard)\n\nCasting Time: Bonus Action\n\nRange: Touch\n\nComponent: V, S, M (a grasshopper's hind leg)\n\nDuration: 1 minute\n\nYou touch a willing creature. Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending 10 feet of movement.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1.",
+  "rulesText": "Level 1 Transmutation (Druid, Ranger, Sorcerer, Wizard)\n\nCasting Time: Bonus Action\nRange: Touch\nComponents: V, S, M (a grasshopper's hind leg)\nDuration: 1 minute\n\nYou touch a willing creature. Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending 10 feet of movement.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/druid"

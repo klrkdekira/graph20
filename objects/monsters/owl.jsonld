@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.67",
     "heading": "Owl",
-    "lineStart": 29037,
-    "lineEnd": 29065
+    "lineStart": 28519,
+    "lineEnd": 28544
   },
   "sizeTypeAlignment": "Tiny Beast, Unaligned",
   "sizeAndType": "Tiny Beast",
@@ -38,22 +38,22 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 3,
-      "modifier": -4,
-      "savingThrow": -4
+      "score": 20,
+      "modifier": 5,
+      "savingThrow": 5
     },
     "dex": {
-      "score": 13,
+      "score": 12,
       "modifier": 1,
       "savingThrow": 1
     },
     "con": {
-      "score": 8,
-      "modifier": -1,
-      "savingThrow": -1
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "int": {
-      "score": 2,
+      "score": 3,
       "modifier": -4,
       "savingThrow": -4
     },
@@ -78,5 +78,5 @@
       "rulesText": "Talons. Melee Attack Roll: +3, reach 5 ft. Hit: 1 Slashing damage."
     }
   ],
-  "rulesText": "Tiny Beast, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 1 (1d4 - 1)\n\nSpeed 5 ft., Fly 60 ft.\n\nSkills Perception +5, Stealth +5\n\nSenses Darkvision 120 ft.; Passive Perception 15\n\nLanguages None\n\nCR 0 (XP 10; PB +2)\n\nTraits\n\nFlyby. The owl doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nTalons. Melee Attack Roll: +3, reach 5 ft. Hit: 1 Slashing damage."
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 11\nInitiative +1 (11)\nHP 1 (1d4 - 1)\nSpeed 5 ft., Fly 60 ft.\n\nSkills Perception +5, Stealth +5\nSenses Darkvision 120 ft.; Passive Perception 15\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nFlyby. The owl doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nTalons. Melee Attack Roll: +3, reach 5 ft. Hit: 1 Slashing damage."
 }

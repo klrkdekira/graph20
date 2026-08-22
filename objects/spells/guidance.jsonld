@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.181",
     "heading": "Guidance",
-    "lineStart": 9332,
-    "lineEnd": 9344
+    "lineStart": 9841,
+    "lineEnd": 9850
   },
   "level": 0,
   "school": "Divination",
@@ -22,8 +22,9 @@
   ],
   "castingTime": "Action",
   "range": "Touch",
+  "components": "V, S",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Divination Cantrip (Cleric, Druid)\n\nCasting Time: Action\n\nRange: Touch\n\nComponent: V, S\n\nDuration: Concentration, up to 1 minute\n\nYou touch a willing creature and choose a skill. Until the spell ends, the creature adds 1d4 to any ability check using the chosen skill.",
+  "rulesText": "Divination Cantrip (Cleric, Druid)\n\nCasting Time: Action\nRange: Touch\nComponents: V, S\nDuration: Concentration, up to 1 minute\n\nYou touch a willing creature and choose a skill. Until the spell ends, the creature adds 1d4 to any ability check using the chosen skill.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"

@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.229",
     "heading": "Magic Weapon",
-    "lineStart": 10193,
-    "lineEnd": 10207
+    "lineStart": 10558,
+    "lineEnd": 10569
   },
   "level": 2,
   "school": "Transmutation",
@@ -26,7 +26,7 @@
   "range": "Touch",
   "components": "V, S",
   "duration": "1 hour",
-  "rulesText": "Level 2 Transmutation (Paladin, Ranger, Sorcerer, Wizard)\n\nCasting Time: Bonus Action\n\nRange: Touch\n\nComponents: V, S\n\nDuration: 1 hour\n\nYou touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls. The spell ends early if you cast it again.\n\nUsing a Higher-Level Spell Slot. The bonus increases to +2 with a level 3–5 spell slot. The bonus increases to +3 with a level 6+ spell slot.",
+  "rulesText": "Level 2 Transmutation (Paladin, Ranger, Sorcerer, Wizard)\n\nCasting Time: Bonus Action\nRange: Touch\nComponents: V, S\nDuration: 1 hour\n\nYou touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls. The spell ends early if you cast it again.\n\nUsing a Higher-Level Spell Slot. The bonus increases to +2 with a level 3–5 spell slot. The bonus increases to +3 with a level 6+ spell slot.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/paladin"

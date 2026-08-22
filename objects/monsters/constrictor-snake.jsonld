@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.15",
     "heading": "Constrictor Snake",
-    "lineStart": 27491,
-    "lineEnd": 27518
+    "lineStart": 27119,
+    "lineEnd": 27143
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -74,7 +74,7 @@
       "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage.\n\nConstrict. Strength Saving Throw: DC 12, one Medium or smaller creature the snake can see within 5 feet.\nFailure: 7 (3d4) Bludgeoning damage, and the target has the Grappled condition (escape DC 12)."
     }
   ],
-  "rulesText": "Large Beast, Unaligned\n\nAC 13\n\nInitiative +2 (12)\n\nHP 13 (2d10 + 2)\n\nSpeed 30 ft., Swim 30 ft.\n\nSkills Perception +2, Stealth +4\n\nSenses Blindsight 10 ft.; Passive Perception 12\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage.\n\nConstrict. Strength Saving Throw: DC 12, one Medium or smaller creature the snake can see within 5 feet.\nFailure: 7 (3d4) Bludgeoning damage, and the target has the Grappled condition (escape DC 12).",
+  "rulesText": "Large Beast, Unaligned\n\nAC 13\nInitiative +2 (12)\nHP 13 (2d10 + 2)\nSpeed 30 ft., Swim 30 ft.\n\nSkills Perception +2, Stealth +4\nSenses Blindsight 10 ft.; Passive Perception 12\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage.\n\nConstrict. Strength Saving Throw: DC 12, one Medium or smaller creature the snake can see within 5 feet.\nFailure: 7 (3d4) Bludgeoning damage, and the target has the Grappled condition (escape DC 12).",
   "attacks": [
     {
       "name": "Bite",

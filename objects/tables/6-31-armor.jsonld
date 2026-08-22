@@ -11,8 +11,8 @@
     "chapter": "Equipment",
     "section": "6.31",
     "heading": "One at a Time",
-    "lineStart": 5423,
-    "lineEnd": 5423
+    "lineStart": 6152,
+    "lineEnd": 6170
   },
   "columns": [
     "Armor",
@@ -27,8 +27,22 @@
       "position": 1,
       "cells": [
         {
-          "value": "Light Armor (1 Minute to Don or Doff)",
-          "colspan": 6
+          "value": "Light Armor (1 Minute to Don or Doff)"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
         }
       ]
     },
@@ -105,8 +119,22 @@
       "position": 5,
       "cells": [
         {
-          "value": "Medium Armor (5 Minutes to Don and 1 Minute to Doff)",
-          "colspan": 6
+          "value": "Medium Armor (5 Minutes to Don and 1 Minute to Doff)"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
         }
       ]
     },
@@ -229,8 +257,22 @@
       "position": 11,
       "cells": [
         {
-          "value": "Heavy Armor (10 Minutes to Don and 5 Minutes to Doff)",
-          "colspan": 6
+          "value": "Heavy Armor (10 Minutes to Don and 5 Minutes to Doff)"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
         }
       ]
     },
@@ -330,8 +372,22 @@
       "position": 16,
       "cells": [
         {
-          "value": "Shield (Utilize Action to Don or Doff)",
-          "colspan": 6
+          "value": "Shield (Utilize Action to Don or Doff)"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
         }
       ]
     },

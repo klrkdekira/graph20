@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.45",
     "heading": "Giant Seahorse",
-    "lineStart": 28375,
-    "lineEnd": 28405
+    "lineStart": 27917,
+    "lineEnd": 27945
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -36,19 +36,19 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 15,
+      "score": 14,
       "modifier": 2,
       "savingThrow": 2
     },
     "dex": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "con": {
       "score": 12,
       "modifier": 1,
       "savingThrow": 1
-    },
-    "con": {
-      "score": 11,
-      "modifier": 0,
-      "savingThrow": 0
     },
     "int": {
       "score": 2,
@@ -56,12 +56,12 @@
       "savingThrow": -4
     },
     "wis": {
-      "score": 12,
-      "modifier": 1,
-      "savingThrow": 1
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
     },
     "cha": {
-      "score": 5,
+      "score": 4,
       "modifier": -3,
       "savingThrow": -3
     }
@@ -80,7 +80,7 @@
       "rulesText": "Bubble Dash. While underwater, the seahorse moves up to half its Swim Speed without provoking Opportunity Attacks."
     }
   ],
-  "rulesText": "Large Beast, Unaligned\n\nAC 14\n\nInitiative +1 (11)\n\nHP 16 (3d10)\n\nSpeed 5 ft., Swim 40 ft.\n\nSenses Passive Perception 11\n\nLanguages None\n\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nWater Breathing. The seahorse can breathe only underwater.\n\nActions\n\nRam. Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Bludgeoning damage, or 11 (2d8 + 2) Bludgeoning damage if the seahorse moved 20+ feet straight toward the target immediately before the hit.\n\nBonus Actions\n\nBubble Dash. While underwater, the seahorse moves up to half its Swim Speed without provoking Opportunity Attacks.",
+  "rulesText": "Large Beast, Unaligned\n\nAC 14\nInitiative +1 (11)\nHP 16 (3d10)\nSpeed 5 ft., Swim 40 ft.\n\nSenses Passive Perception 11\nLanguages None\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nWater Breathing. The seahorse can breathe only underwater.\n\nActions\n\nRam. Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Bludgeoning damage, or 11 (2d8 + 2) Bludgeoning damage if the seahorse moved 20+ feet straight toward the target immediately before the hit.\n\nBonus Actions\n\nBubble Dash. While underwater, the seahorse moves up to half its Swim Speed without provoking Opportunity Attacks.",
   "attacks": [
     {
       "name": "Ram",

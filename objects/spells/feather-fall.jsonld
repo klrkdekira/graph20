@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.145",
     "heading": "Feather Fall",
-    "lineStart": 8586,
-    "lineEnd": 8598
+    "lineStart": 9203,
+    "lineEnd": 9212
   },
   "level": 1,
   "school": "Transmutation",
@@ -25,7 +25,7 @@
   "range": "60 feet",
   "components": "V, M (a small feather or piece of down)",
   "duration": "1 minute",
-  "rulesText": "Level 1 Transmutation (Bard, Sorcerer, Wizard)\n\nCasting Time: Reaction, which you take when you or a creature you can see within 60 feet of you falls\n\nRange: 60 feet\n\nComponents: V, M (a small feather or piece of down)\n\nDuration: 1 minute\n\nChoose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If a creature lands before the spell ends, the creature takes no damage from the fall, and the spell ends for that creature.",
+  "rulesText": "Level 1 Transmutation (Bard, Sorcerer, Wizard)\n\nCasting Time: Reaction, which you take when you or a creature you can see within 60 feet of you falls\nRange: 60 feet\nComponents: V, M (a small feather or piece of down)\nDuration: 1 minute\n\nChoose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If a creature lands before the spell ends, the creature takes no damage from the fall, and the spell ends for that creature.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.298",
     "heading": "Seeming",
-    "lineStart": 11416,
-    "lineEnd": 11436
+    "lineStart": 11597,
+    "lineEnd": 11614
   },
   "level": 5,
   "school": "Illusion",
@@ -25,7 +25,7 @@
   "range": "30 feet",
   "components": "V, S",
   "duration": "8 hours",
-  "rulesText": "Level 5 Illusion (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V, S\n\nDuration: 8 hours\n\nYou give an illusory appearance to each creature of your choice that you can see within range. An unwilling target can make a Charisma saving throw, and if it succeeds, it is unaffected by this spell.\n\nYou can give the same appearance or different ones to the targets. The spell can change the appearance of the targets' bodies and equipment. You can make each creature seem 1 foot shorter or taller and appear heavier or lighter. A target's new appearance must have the same basic arrangement of limbs as the target, but the extent of the illusion\n\nis otherwise up to you. The spell lasts for the duration.\n\nThe changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to a creature's outfit, objects pass through the hat.\n\nA creature that takes the Study action to examine a target can make an Intelligence (Investigation) check against your spell save DC. If it succeeds, it becomes aware that the target is disguised.",
+  "rulesText": "Level 5 Illusion (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\nRange: 30 feet\nComponents: V, S\nDuration: 8 hours\n\nYou give an illusory appearance to each creature of your choice that you can see within range. An unwilling target can make a Charisma saving throw, and if it succeeds, it is unaffected by this spell.\n\nYou can give the same appearance or different ones to the targets. The spell can change the appearance of the targets' bodies and equipment. You can make each creature seem 1 foot shorter or taller and appear heavier or lighter. A target's new appearance must have the same basic arrangement of limbs as the target, but the extent of the illusion\n\nis otherwise up to you. The spell lasts for the duration.\n\nThe changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to a creature's outfit, objects pass through the hat.\n\nA creature that takes the Study action to examine a target can make an Intelligence (Investigation) check against your spell save DC. If it succeeds, it becomes aware that the target is disguised.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

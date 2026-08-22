@@ -253,7 +253,7 @@
   <url><loc>https://cheeleong.dev/graph20/objects/rules/2-25-level-advancement.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/2-26-gaining-a-level.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/2-27-tiers-of-play.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/2-28-tier-i-levels-i-4.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/2-28-tier-1-levels-1-4.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/2-29-tier-2-levels-5-10.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/2-3-create-your-character.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/2-30-tier-3-levels-11-16.jsonld</loc></url>
@@ -266,7 +266,7 @@
   <url><loc>https://cheeleong.dev/graph20/objects/rules/2-37-prerequisites.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/2-38-experience-points.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/2-39-hit-points-and-hit-point-dice.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/2-4-step-i-choose-class.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/2-4-step-1-choose-class.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/2-40-proficiency-bonus.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/2-41-proficiencies.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/2-42-class-features.jsonld</loc></url>
@@ -320,7 +320,7 @@
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-102-ink-10-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-103-ink-pen-2-cp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-104-jug-2-cp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-105-ladder-i-sp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-105-ladder-1-sp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-106-lamp-5-sp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-107-lantern-bullseye-10-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-108-lantern-hooded-5-gp.jsonld</loc></url>
@@ -328,12 +328,12 @@
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-11-loading.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-110-magnifying-glass-100-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-111-manacles-2-gp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-112-map-i-gp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-112-map-1-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-113-mirror-5-gp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-114-net-i-gp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-115-oil-i-sp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-114-net-1-gp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-115-oil-1-sp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-116-paper-2-sp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-117-parchment-i-sp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-117-parchment-1-sp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-118-perfume-5-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-119-poison-basic-100-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-12-range.jsonld</loc></url>
@@ -342,25 +342,25 @@
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-122-potion-of-healing-50-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-123-pouch-5-sp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-124-priests-pack-33-gp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-125-quiver-i-gp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-125-quiver-1-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-126-ram-portable-4-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-127-rations-5-sp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-128-robe-i-gp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-129-rope-i-gp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-128-robe-1-gp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-129-rope-1-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-13-reach.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-130-sack-i-cp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-130-sack-1-cp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-131-scholars-pack-40-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-132-shovel-2-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-133-signal-whistle-5-cp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-134-spell-scroll-cantrip-30-gp-level-1-50-gp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-135-spikes-iron-i-gp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-135-spikes-iron-1-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-136-spyglass-1-000-gp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-137-string-i-sp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-137-string-1-sp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-138-tent-2-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-139-tinderbox-5-sp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-14-thrown.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-140-torch-i-cp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-141-vial-i-gp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-140-torch-1-cp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-141-vial-1-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-142-waterskin-2-sp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-143-mounts-and-vehicles.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-144-mounts-and-cargo.jsonld</loc></url>
@@ -375,9 +375,9 @@
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-152-ship-repair.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-153-lifestyle-expenses.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-154-wretched-free.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-155-squalid-i-sp-per-day.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-155-squalid-1-sp-per-day.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-156-poor-2-sp-per-day.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-157-modest-i-gp-per-day.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-157-modest-1-gp-per-day.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-158-comfortable-2-gp-per-day.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-159-wealthy-4-gp-per-day.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-16-versatile.jsonld</loc></url>
@@ -427,10 +427,10 @@
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-36-brewers-supplies-20-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-37-calligraphers-supplies-10-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-38-carpenters-tools-8-gp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-39-cartographers-tools-i5-gp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-39-cartographers-tools-15-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-4-selling-equipment.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-40-cobblers-tools-5-gp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-41-cooks-utensils-i-gp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-41-cooks-utensils-1-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-42-glassblowers-tools-30-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-43-jewelers-tools-25-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-44-leatherworkers-tools-5-gp.jsonld</loc></url>
@@ -440,11 +440,11 @@
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-48-smiths-tools-20-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-49-tinkers-tools-50-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-5-weapon-proficiency.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-50-weavers-tools-i-gp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-51-woodcarvers-tools-i-gp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-50-weavers-tools-1-gp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-51-woodcarvers-tools-1-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-52-other-tools.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-53-disguise-kit-25-gp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-54-forgery-kit-i5-gp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-54-forgery-kit-15-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-55-gaming-set-varies.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-56-herbalism-kit-5-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-57-musical-instrument-varies.jsonld</loc></url>
@@ -459,23 +459,23 @@
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-65-antitoxin-50-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-66-arcane-focus-varies.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-67-backpack-2-gp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-68-ball-bearings-i-gp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-68-ball-bearings-1-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-69-barrel-2-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-7-ammunition.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-70-basket-4-sp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-71-bedroll-i-gp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-72-bell-i-gp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-71-bedroll-1-gp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-72-bell-1-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-73-blanket-5-sp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-74-block-and-tackle-i-gp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-74-block-and-tackle-1-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-75-book-25-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-76-bottle-glass-2-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-77-bucket-5-cp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-78-burglars-pack-16-gp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-79-caltrops-i-gp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-79-caltrops-1-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-8-finesse.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-80-candle-i-cp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-81-case-crossbow-bolt-i-gp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-82-case-map-or-scroll-i-gp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-80-candle-1-cp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-81-case-crossbow-bolt-1-gp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-82-case-map-or-scroll-1-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-83-chain-5-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-84-chest-5-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-85-climbers-kit-25-gp.jsonld</loc></url>
@@ -487,7 +487,7 @@
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-90-crowbar-2-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-91-diplomats-pack-39-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-92-druidic-focus-varies.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-93-dungeoneers-pack-i2-gp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/6-93-dungeoneers-pack-12-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-94-entertainers-pack-40-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-95-explorers-pack-10-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/6-96-flask-2-cp.jsonld</loc></url>
@@ -719,7 +719,7 @@
   <url><loc>https://cheeleong.dev/graph20/objects/rules/9-55-spiders-sting-200-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/9-56-torpor-600-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/9-57-truth-serum-150-gp.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/9-58-wyvern-poison-i-200-gp.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/9-58-wyvern-poison-1-200-gp.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/9-59-traps.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/9-6-special-movement.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/9-60-parts-of-a-trap.jsonld</loc></url>
@@ -735,7 +735,7 @@
   <url><loc>https://cheeleong.dev/graph20/objects/rules/9-7-vehicles.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/9-70-combat-encounters.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/9-71-combat-encounter-difficulty.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/9-72-step-i-choose-a-difficulty.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/9-72-step-1-choose-a-difficulty.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/9-73-step-2-determine-your-xp-budget.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/9-74-step-3-spend-your-budget.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/9-75-troubleshooting.jsonld</loc></url>
@@ -746,7 +746,7 @@
   <url><loc>https://cheeleong.dev/graph20/objects/rules/9-8-creating-a-background.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/9-80-powerful-creatures.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/rules/9-81-unusual-features.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/rules/9-9-i-choose-abilities.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/rules/9-9-1-choose-abilities.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/1-10-ability-check-examples.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/1-12-typical-difficulty-classes.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/1-14-saving-throw-examples.jsonld</loc></url>
@@ -761,11 +761,10 @@
   <url><loc>https://cheeleong.dev/graph20/objects/tables/1-7-ability-modifiers.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/1-70-creature-size-and-space.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/1-74-cover.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-105-1d10-effect.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-105-efreeti-bottle-table-1.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/10-106-elemental-gem-table-1.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/10-114-feather-tokens.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-132-1d100-effect-2.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-132-1d100-effect.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-132-hat-of-many-spells-table-1.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/10-14-magic-item-rarities-and-values.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/10-140-horn-of-valhalla-table-1.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/10-157-manual-of-golems-table-1.jsonld</loc></url>
@@ -792,36 +791,17 @@
   <url><loc>https://cheeleong.dev/graph20/objects/tables/10-27-magic-item-crafting-time-and-cost.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/10-278-wand-of-binding-table-1.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/10-280-wand-of-fear-table-1.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-290-1d100-effect-10.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-290-1d100-effect-11.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-290-1d100-effect-12.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-290-1d100-effect-13.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-290-1d100-effect-14.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-290-1d100-effect-15.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-290-1d100-effect-16.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-290-1d100-effect-17.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-290-1d100-effect-18.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-290-1d100-effect-2.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-290-1d100-effect-3.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-290-1d100-effect-4.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-290-1d100-effect-5.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-290-1d100-effect-6.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-290-1d100-effect-7.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-290-1d100-effect-8.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-290-1d100-effect-9.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-290-1d100-effect.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-34-1d10-special-purpose.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-290-wand-of-wonder-effects.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/10-34-sentient-items-alignment.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/10-34-sentient-items-communication.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/10-34-sentient-items-senses.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/10-34-sentient-items-special-purpose.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/10-39-ammunition-of-slaying-table-1.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/10-4-potion-miscibility.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-42-1d100-destination.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-47-apparatus-of-the-crab-levers.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-42-amulet-of-the-planes-table-1.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-44-apparatus-of-the-crab-levers.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/10-47-armor-of-resistance-table-1.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-50-1d100-effect-2.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-50-1d100-effect.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/tables/10-50-bag-of-beans-table-1.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/10-53-gray-bag-of-tricks.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/10-53-rust-bag-of-tricks.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/10-53-tan-bag-of-tricks.jsonld</loc></url>
@@ -1045,7 +1025,7 @@
   <url><loc>https://cheeleong.dev/graph20/objects/feats/skilled.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/feats/two-weapon-fighting.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/acid.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/equipment/alchemist-x27-s-fire.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/equipment/alchemists-fire.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/ammunition.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/antitoxin.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/arcane-focus.jsonld</loc></url>
@@ -1063,7 +1043,7 @@
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/bottle-glass.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/breastplate.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/bucket.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/equipment/burglar-x27-s-pack.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/equipment/burglars-pack.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/caltrops.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/candle.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/case-crossbow-bolt.jsonld</loc></url>
@@ -1072,20 +1052,20 @@
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/chain-shirt.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/chain.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/chest.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/equipment/climber-x27-s-kit.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/equipment/climbers-kit.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/clothes-fine.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/equipment/clothes-traveler-x27-s.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/equipment/clothes-travelers.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/club.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/component-pouch.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/costume.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/crowbar.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/dagger.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/dart.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/equipment/diplomat-x27-s-pack.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/equipment/diplomats-pack.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/druidic-focus.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/equipment/dungeoneer-x27-s-pack.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/equipment/entertainer-x27-s-pack.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/equipment/explorer-x27-s-pack.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/equipment/dungeoneers-pack.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/equipment/entertainers-pack.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/equipment/explorers-pack.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/flail.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/flask.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/glaive.jsonld</loc></url>
@@ -1097,7 +1077,7 @@
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/half-plate-armor.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/hand-crossbow.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/handaxe.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/equipment/healer-x27-s-kit.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/equipment/healers-kit.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/heavy-crossbow.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/hide-armor.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/holy-symbol.jsonld</loc></url>
@@ -1140,7 +1120,7 @@
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/pot-iron.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/potion-of-healing.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/pouch.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/equipment/priest-x27-s-pack.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/equipment/priests-pack.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/quarterstaff.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/quiver.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/ram-portable.jsonld</loc></url>
@@ -1151,7 +1131,7 @@
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/rope.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/sack.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/scale-mail.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/equipment/scholar-x27-s-pack.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/equipment/scholars-pack.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/scimitar.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/shield.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/equipment/shortbow.jsonld</loc></url>

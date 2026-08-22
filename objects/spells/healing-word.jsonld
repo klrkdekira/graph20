@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.189",
     "heading": "Healing Word",
-    "lineStart": 9486,
-    "lineEnd": 9500
+    "lineStart": 9971,
+    "lineEnd": 9982
   },
   "level": 1,
   "school": "Abjuration",
@@ -25,7 +25,7 @@
   "range": "60 feet",
   "components": "V",
   "duration": "Instantaneous",
-  "rulesText": "Level 1 Abjuration (Bard, Cleric, Druid)\n\nCasting Time: Bonus Action\n\nRange: 60 feet\n\nComponents: V\n\nDuration: Instantaneous\n\nA creature of your choice that you can see within range regains Hit Points equal to 2d4 plus your spellcasting ability modifier.\n\nUsing a Higher-Level Spell Slot. The healing increases by 2d4 for each spell slot level above 1.",
+  "rulesText": "Level 1 Abjuration (Bard, Cleric, Druid)\n\nCasting Time: Bonus Action\nRange: 60 feet\nComponents: V\nDuration: Instantaneous\n\nA creature of your choice that you can see within range regains Hit Points equal to 2d4 plus your spellcasting ability modifier.\n\nUsing a Higher-Level Spell Slot. The healing increases by 2d4 for each spell slot level above 1.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

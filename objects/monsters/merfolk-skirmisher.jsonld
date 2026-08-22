@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.166",
     "heading": "Merfolk Skirmisher",
-    "lineStart": 23212,
-    "lineEnd": 23238
+    "lineStart": 23227,
+    "lineEnd": 23251
   },
   "sizeTypeAlignment": "Medium Elemental, Neutral",
   "sizeAndType": "Medium Elemental",
@@ -77,7 +77,7 @@
       "rulesText": "Ocean Spear. Melee or Ranged Attack Roll: +2, reach 5 ft. or range 20/60 ft. Hit: 3 (1d6) Piercing damage plus 2 (1d4) Cold damage. If the target is a creature, its Speed decreases by 10 feet until the end of its next turn. Hit or Miss: The spear magically returns to the merfolk's hand immediately after a ranged attack."
     }
   ],
-  "rulesText": "Medium Elemental, Neutral\n\nAC 11\n\nInitiative +1 (11)\n\nHP 11 (2d8 + 2)\n\nSpeed 10 ft., Swim 40 ft.\n\nSenses Passive Perception 12\n\nLanguages Common, Primordial (Aquan)\n\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nAmphibious. The merfolk can breathe air and water.\n\nActions\n\nOcean Spear. Melee or Ranged Attack Roll: +2, reach 5 ft. or range 20/60 ft. Hit: 3 (1d6) Piercing damage plus 2 (1d4) Cold damage. If the target is a creature, its Speed decreases by 10 feet until the end of its next turn. Hit or Miss: The spear magically returns to the merfolk's hand immediately after a ranged attack.",
+  "rulesText": "Medium Elemental, Neutral\n\nAC 11\nInitiative +1 (11)\nHP 11 (2d8 + 2)\nSpeed 10 ft., Swim 40 ft.\n\nSenses Passive Perception 12\nLanguages Common, Primordial (Aquan)\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nAmphibious. The merfolk can breathe air and water.\n\nActions\n\nOcean Spear. Melee or Ranged Attack Roll: +2, reach 5 ft. or range 20/60 ft. Hit: 3 (1d6) Piercing damage plus 2 (1d4) Cold damage. If the target is a creature, its Speed decreases by 10 feet until the end of its next turn. Hit or Miss: The spear magically returns to the merfolk's hand immediately after a ranged attack.",
   "attacks": [
     {
       "name": "Ocean Spear",

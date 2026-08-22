@@ -1,6 +1,6 @@
 {
   "statusCounts": {
-    "pending": 1704
+    "pending": 1700
   },
   "signals": [
     {
@@ -151,20 +151,6 @@
       "status": "pending"
     },
     {
-      "key": "63fd90b8486ee40a",
-      "record": "https://cheeleong.dev/graph20/objects/magic-items/bag-of-beans",
-      "category": "formula",
-      "match": "1d100",
-      "status": "pending"
-    },
-    {
-      "key": "84ca08cbd5f3fbc5",
-      "record": "https://cheeleong.dev/graph20/objects/magic-items/bag-of-beans",
-      "category": "formula",
-      "match": "1d4",
-      "status": "pending"
-    },
-    {
       "key": "864a0460246d8eca",
       "record": "https://cheeleong.dev/graph20/objects/magic-items/bag-of-beans",
       "category": "formula",
@@ -298,13 +284,6 @@
       "status": "pending"
     },
     {
-      "key": "5aaa49981400fe1c",
-      "record": "https://cheeleong.dev/graph20/objects/magic-items/efreeti-bottle",
-      "category": "formula",
-      "match": "1d10",
-      "status": "pending"
-    },
-    {
       "key": "a8816308c64ee3e0",
       "record": "https://cheeleong.dev/graph20/objects/magic-items/feather-token",
       "category": "formula",
@@ -351,13 +330,6 @@
       "record": "https://cheeleong.dev/graph20/objects/magic-items/hammer-of-thunderbolts",
       "category": "formula",
       "match": "1d4 + 1",
-      "status": "pending"
-    },
-    {
-      "key": "16b6961e049468ad",
-      "record": "https://cheeleong.dev/graph20/objects/magic-items/hat-of-many-spells",
-      "category": "formula",
-      "match": "1d100",
       "status": "pending"
     },
     {
@@ -1163,13 +1135,6 @@
       "record": "https://cheeleong.dev/graph20/objects/magic-items/wand-of-web",
       "category": "formula",
       "match": "1d6 + 1",
-      "status": "pending"
-    },
-    {
-      "key": "d8a04935a386b8eb",
-      "record": "https://cheeleong.dev/graph20/objects/magic-items/wand-of-wonder",
-      "category": "formula",
-      "match": "1d100",
       "status": "pending"
     },
     {
@@ -8565,13 +8530,6 @@
       "status": "pending"
     },
     {
-      "key": "57658f5d73924c75",
-      "record": "https://cheeleong.dev/graph20/objects/rules/10-34-special-purpose",
-      "category": "formula",
-      "match": "1d10",
-      "status": "pending"
-    },
-    {
       "key": "addb33acfd211117",
       "record": "https://cheeleong.dev/graph20/objects/rules/10-35-conflict",
       "category": "formula",
@@ -8583,6 +8541,13 @@
       "record": "https://cheeleong.dev/graph20/objects/rules/11-10-hit-points",
       "category": "formula",
       "match": "2d8",
+      "status": "pending"
+    },
+    {
+      "key": "8a172be333eba831",
+      "record": "https://cheeleong.dev/graph20/objects/rules/11-10-hit-points",
+      "category": "formula",
+      "match": "2d8 + 2",
       "status": "pending"
     },
     {
@@ -8621,8 +8586,8 @@
       "status": "pending"
     },
     {
-      "key": "df4726d015602410",
-      "record": "https://cheeleong.dev/graph20/objects/rules/2-28-tier-i-levels-i-4",
+      "key": "a897079c21092c73",
+      "record": "https://cheeleong.dev/graph20/objects/rules/2-28-tier-1-levels-1-4",
       "category": "choice",
       "match": "choose a",
       "status": "pending"
@@ -8649,8 +8614,8 @@
       "status": "pending"
     },
     {
-      "key": "b2a4eec7bfeac972",
-      "record": "https://cheeleong.dev/graph20/objects/rules/2-4-step-i-choose-class",
+      "key": "05732c55dfbc40bc",
+      "record": "https://cheeleong.dev/graph20/objects/rules/2-4-step-1-choose-class",
       "category": "choice",
       "match": "Choose a",
       "status": "pending"
@@ -8922,8 +8887,8 @@
       "status": "pending"
     },
     {
-      "key": "b3a55c9dbb5c17ad",
-      "record": "https://cheeleong.dev/graph20/objects/rules/9-58-wyvern-poison-i-200-gp",
+      "key": "0ab18a0fffad1be1",
+      "record": "https://cheeleong.dev/graph20/objects/rules/9-58-wyvern-poison-1-200-gp",
       "category": "formula",
       "match": "7d6",
       "status": "pending"
@@ -9020,8 +8985,8 @@
       "status": "pending"
     },
     {
-      "key": "cc7ae0c0643c5753",
-      "record": "https://cheeleong.dev/graph20/objects/rules/9-9-i-choose-abilities",
+      "key": "93152bde9af52811",
+      "record": "https://cheeleong.dev/graph20/objects/rules/9-9-1-choose-abilities",
       "category": "choice",
       "match": "Choose three",
       "status": "pending"
@@ -10109,6 +10074,13 @@
       "record": "https://cheeleong.dev/graph20/objects/spells/earthquake",
       "category": "formula",
       "match": "12d6",
+      "status": "pending"
+    },
+    {
+      "key": "4f04c9df3371ce7a",
+      "record": "https://cheeleong.dev/graph20/objects/spells/earthquake",
+      "category": "formula",
+      "match": "1d10",
       "status": "pending"
     },
     {

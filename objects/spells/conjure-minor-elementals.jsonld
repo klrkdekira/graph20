@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.89",
     "heading": "Conjure Minor Elementals",
-    "lineStart": 7538,
-    "lineEnd": 7554
+    "lineStart": 8301,
+    "lineEnd": 8314
   },
   "level": 4,
   "school": "Conjuration",
@@ -24,7 +24,7 @@
   "range": "Self",
   "components": "V, S",
   "duration": "Concentration, up to 10 minutes",
-  "rulesText": "Level 4 Conjuration (Druid, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S\n\nDuration: Concentration, up to 10 minutes\n\nYou conjure spirits from the Elemental Planes that flit around you in a 15-foot Emanation for the duration. Until the spell ends, any attack you make deals an extra 2d8 damage when you hit a creature in the Emanation. This damage is Acid, Cold, Fire, or Lightning (your choice when you make the attack).\n\nIn addition, the ground in the Emanation is Difficult Terrain for your enemies.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 4.",
+  "rulesText": "Level 4 Conjuration (Druid, Wizard)\n\nCasting Time: Action\nRange: Self\nComponents: V, S\nDuration: Concentration, up to 10 minutes\n\nYou conjure spirits from the Elemental Planes that flit around you in a 15-foot Emanation for the duration. Until the spell ends, any attack you make deals an extra 2d8 damage when you hit a creature in the Emanation. This damage is Acid, Cold, Fire, or Lightning (your choice when you make the attack).\n\nIn addition, the ground in the Emanation is Difficult Terrain for your enemies.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 4.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/druid"

@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.12",
     "heading": "Brown Bear",
-    "lineStart": 27407,
-    "lineEnd": 27435
+    "lineStart": 27043,
+    "lineEnd": 27068
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -74,7 +74,7 @@
       "rulesText": "Multiattack. The bear makes one Bite attack and one Claw attack.\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition."
     }
   ],
-  "rulesText": "Large Beast, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 22 (3d10 + 6)\n\nSpeed 40 ft., Climb 30 ft.\n\nSkills Perception +3\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages None\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The bear makes one Bite attack and one Claw attack.\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.",
+  "rulesText": "Large Beast, Unaligned\n\nAC 11\nInitiative +1 (11)\nHP 22 (3d10 + 6)\nSpeed 40 ft., Climb 30 ft.\n\nSkills Perception +3\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages None\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The bear makes one Bite attack and one Claw attack.\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.",
   "attacks": [
     {
       "name": "Bite",

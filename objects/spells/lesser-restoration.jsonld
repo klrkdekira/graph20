@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.215",
     "heading": "Lesser Restoration",
-    "lineStart": 9940,
-    "lineEnd": 9952
+    "lineStart": 10347,
+    "lineEnd": 10356
   },
   "level": 2,
   "school": "Abjuration",
@@ -27,7 +27,7 @@
   "range": "Touch",
   "components": "V, S",
   "duration": "Instantaneous",
-  "rulesText": "Level 2 Abjuration (Bard, Cleric, Druid, Paladin, Ranger)\n\nCasting Time: Bonus Action\n\nRange: Touch\n\nComponents: V, S\n\nDuration: Instantaneous\n\nYou touch a creature and end one condition on it: Blinded, Deafened, Paralyzed, or Poisoned.",
+  "rulesText": "Level 2 Abjuration (Bard, Cleric, Druid, Paladin, Ranger)\n\nCasting Time: Bonus Action\nRange: Touch\nComponents: V, S\nDuration: Instantaneous\n\nYou touch a creature and end one condition on it: Blinded, Deafened, Paralyzed, or Poisoned.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"

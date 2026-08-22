@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.16",
     "heading": "Crab",
-    "lineStart": 27520,
-    "lineEnd": 27548
+    "lineStart": 27145,
+    "lineEnd": 27170
   },
   "sizeTypeAlignment": "Tiny Beast, Unaligned",
   "sizeAndType": "Tiny Beast",
@@ -78,5 +78,5 @@
       "rulesText": "Claw. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Bludgeoning damage."
     }
   ],
-  "rulesText": "Tiny Beast, Unaligned\n\nAC 11\n\nInitiative +0 (10)\n\nHP 3 (1d4 + 1)\n\nSpeed 20 ft., Swim 20 ft.\n\nSkills Stealth +2\n\nSenses Blindsight 30 ft.; Passive Perception 9\n\nLanguages None\n\nCR 0 (XP 10; PB +2)\n\nTraits\n\nAmphibious. The crab can breathe air and water.\n\nActions\n\nClaw. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Bludgeoning damage."
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 11\nInitiative +0 (10)\nHP 3 (1d4 + 1)\nSpeed 20 ft., Swim 20 ft.\n\nSkills Stealth +2\nSenses Blindsight 30 ft.; Passive Perception 9\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nAmphibious. The crab can breathe air and water.\n\nActions\n\nClaw. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Bludgeoning damage."
 }

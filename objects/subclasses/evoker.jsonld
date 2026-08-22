@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.33",
     "heading": "Wizard Subclass: Evoker",
-    "lineStart": 4739,
-    "lineEnd": 4743
+    "lineStart": 5397,
+    "lineEnd": 5401
   },
   "parentClass": {
     "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
@@ -43,7 +43,7 @@
     {
       "level": 14,
       "name": "Overchannel",
-      "rulesText": "You can increase the power of your spells. When you cast a Wizard spell with a spell slot of levels 1–5 that deals damage, you can deal maximum damage with that spell on the turn you cast it.\n\nThe first time you do so, you suffer no adverse effect. If you use this feature again before you finish a Long Rest, you take 2d12 Necrotic damage for each level of the spell slot immediately after you cast it. This damage ignores Resistance and Immunity.\n\nEach time you use this feature again before finishing a Long Rest, the Necrotic damage per spell level increases by 1d12."
+      "rulesText": "You can increase the power of your spells. When you cast a Wizard spell with a spell slot of levels 1–5 that deals damage, you can deal maximum damage with that spell on the turn you cast it.\n\nThe first time you do so, you suffer no adverse effect. If you use this feature again before you finish a Long Rest, you take 2d12 Necrotic damage for each level of the spell slot immediately after you cast it. This damage ignores Resistance and Immunity.\n\nEach time you use this feature again before finishing a Long Rest, the Necrotic damage per spell level increases by 1d12.\n\n---"
     }
   ]
 }
