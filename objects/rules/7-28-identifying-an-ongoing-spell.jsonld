@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/7-28-identifying-an-ongoing-spell",
+  "@type": "Rule",
+  "name": "IDENTIFYING AN ONGOING SPELL",
+  "slug": "7-28-identifying-an-ongoing-spell",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.28",
+    "heading": "IDENTIFYING AN ONGOING SPELL",
+    "lineStart": 6417,
+    "lineEnd": 6419
+  },
+  "section": "7.28",
+  "rulesText": "You can try to identify a non-instantaneous spell by its observable effects if its duration is ongoing. To identify it, you must take the Study action and succeed on a DC 15 Intelligence (Arcana) check."
+}

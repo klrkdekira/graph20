@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/feats/boon-of-dimensional-travel",
+  "@type": "Feat",
+  "name": "Boon of Dimensional Travel",
+  "slug": "boon-of-dimensional-travel",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Feats",
+    "section": "5.19",
+    "heading": "Boon of Dimensional Travel",
+    "lineStart": 5205,
+    "lineEnd": 5213
+  },
+  "category": "Epic Boon",
+  "prerequisite": "Level 19+",
+  "repeatable": false,
+  "rulesText": "Epic Boon Feat (Prerequisite: Level 19+)\n\nYou gain the following benefits.\n\nAbility Score Increase. Increase one ability score of your choice by 1, to a maximum of 30.\n\nBlink Steps. Immediately after you take the Attack action or the Magic action, you can teleport up to 30 feet to an unoccupied space you can see."
+}

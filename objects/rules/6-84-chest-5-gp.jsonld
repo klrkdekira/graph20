@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-84-chest-5-gp",
+  "@type": "Rule",
+  "name": "Chest (5 GP)",
+  "slug": "6-84-chest-5-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.84",
+    "heading": "Chest (5 GP)",
+    "lineStart": 5773,
+    "lineEnd": 5775
+  },
+  "section": "6.84",
+  "rulesText": "A Chest holds up to 12 cubic feet of contents."
+}

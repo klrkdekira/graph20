@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/12-116-green-dragons",
+  "@type": "Rule",
+  "name": "Green Dragons",
+  "slug": "12-116-green-dragons",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.116",
+    "heading": "Green Dragons",
+    "lineStart": 21497,
+    "lineEnd": 21497
+  },
+  "section": "12.116"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-87-clothes-travelers-2-gp",
+  "@type": "Rule",
+  "name": "Clothes, Traveler's (2 GP)",
+  "slug": "6-87-clothes-travelers-2-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.87",
+    "heading": "Clothes, Traveler's (2 GP)",
+    "lineStart": 5785,
+    "lineEnd": 5787
+  },
+  "section": "6.87",
+  "rulesText": "Traveler's Clothes are resilient garments designed for travel in various environments."
+}

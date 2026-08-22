@@ -1,0 +1,93 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-140-horn-of-valhalla-table-1",
+  "@type": "Table",
+  "name": "Horn of Valhalla Table 1",
+  "slug": "10-140-horn-of-valhalla-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.140",
+    "heading": "Horn of Valhalla",
+    "lineStart": 15693,
+    "lineEnd": 15693
+  },
+  "columns": [
+    "Id100",
+    "Horn Type",
+    "Spirits",
+    "Requirement"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "01–40"
+        },
+        {
+          "value": "Silver"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "None"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "41–75"
+        },
+        {
+          "value": "Brass"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "Proficiency with all Simple weapons"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "76–90"
+        },
+        {
+          "value": "Bronze"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "Training with all Medium armor"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "91–00"
+        },
+        {
+          "value": "Iron"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "Proficiency with all Martial weapons"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-194-becoming-a-ranger",
+  "@type": "Rule",
+  "name": "Becoming a Ranger ...",
+  "slug": "3-194-becoming-a-ranger",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.194",
+    "heading": "Becoming a Ranger ...",
+    "lineStart": 3578,
+    "lineEnd": 3578
+  },
+  "section": "3.194"
+}

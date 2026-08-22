@@ -1,0 +1,161 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-70-candle-of-invocation-table-1",
+  "@type": "Table",
+  "name": "Candle of Invocation Table 1",
+  "slug": "10-70-candle-of-invocation-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.70",
+    "heading": "Candle of Invocation",
+    "lineStart": 15003,
+    "lineEnd": 15003
+  },
+  "columns": [
+    "Id100",
+    "Outer Plane",
+    "Id100",
+    "Outer Plane"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "01–05"
+        },
+        {
+          "value": "Abyss"
+        },
+        {
+          "value": "55–59"
+        },
+        {
+          "value": "Gehenna"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "06–10"
+        },
+        {
+          "value": "Acheron"
+        },
+        {
+          "value": "60–64"
+        },
+        {
+          "value": "Hades"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "11–17"
+        },
+        {
+          "value": "Arborea"
+        },
+        {
+          "value": "65–69"
+        },
+        {
+          "value": "Limbo"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "18–25"
+        },
+        {
+          "value": "Arcadia"
+        },
+        {
+          "value": "70–77"
+        },
+        {
+          "value": "Mechanus"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "26–33"
+        },
+        {
+          "value": "Beastlands"
+        },
+        {
+          "value": "78–85"
+        },
+        {
+          "value": "Mount Celestia"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "34–41"
+        },
+        {
+          "value": "Bytopia"
+        },
+        {
+          "value": "86–90"
+        },
+        {
+          "value": "Nine Hells"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "42–46"
+        },
+        {
+          "value": "Carceri"
+        },
+        {
+          "value": "91–95"
+        },
+        {
+          "value": "Pandemonium"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "47–54"
+        },
+        {
+          "value": "Elysium"
+        },
+        {
+          "value": "96–00"
+        },
+        {
+          "value": "Ysgard"
+        }
+      ]
+    }
+  ]
+}

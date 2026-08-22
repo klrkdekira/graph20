@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/12-165-merfolk",
+  "@type": "Rule",
+  "name": "Merfolk",
+  "slug": "12-165-merfolk",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.165",
+    "heading": "Merfolk",
+    "lineStart": 23208,
+    "lineEnd": 23208
+  },
+  "section": "12.165"
+}

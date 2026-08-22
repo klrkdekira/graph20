@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-310-gift-of-the-protectors",
+  "@type": "Rule",
+  "name": "Gift of the Protectors",
+  "slug": "3-310-gift-of-the-protectors",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.310",
+    "heading": "Gift of the Protectors",
+    "lineStart": 4371,
+    "lineEnd": 4383
+  },
+  "section": "3.310",
+  "rulesText": "Prerequisite: Level 9+ Warlock, Pact of the Tome Invocation\n\nA new page appears in your Book of Shadows when you conjure it. With your permission, a creature can take an action to write its name on that page, which can contain a number of names equal to your Charisma modifier (minimum of one name).\n\nWhen any creature whose name is on the page is reduced to 0 Hit Points but not killed outright, the\n\ncreature magically drops to 1 Hit Point instead.\n\nOnce this magic is triggered, no creature can benefit from it until you finish a Long Rest.\n\nAs a Magic action, you can erase a name on the page by touching it."
+}

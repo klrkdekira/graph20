@@ -1,0 +1,83 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/dust-mephit",
+  "@type": "Monster",
+  "name": "Dust Mephit",
+  "slug": "dust-mephit",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.161",
+    "heading": "Dust Mephit",
+    "lineStart": 23060,
+    "lineEnd": 23096
+  },
+  "sizeTypeAlignment": "Small Elemental, Neutral Evil",
+  "sizeAndType": "Small Elemental",
+  "alignment": "Neutral Evil",
+  "armorClass": "12",
+  "initiative": "+2 (12)",
+  "hitPoints": "17 (5d6)",
+  "speed": "30 ft., Fly 30 ft.",
+  "skills": "Perception +2, Stealth +4",
+  "vulnerabilities": "Fire",
+  "immunities": "Poison; Exhaustion, Poisoned",
+  "senses": "Darkvision 60 ft.; Passive Perception 12",
+  "languages": "Primordial (Auran, Terran)",
+  "challenge": "1/2 (XP 100; PB +2)",
+  "armorClassValue": 12,
+  "hitPointsValue": 17,
+  "hitPointsRoll": {
+    "expression": "5d6",
+    "count": 5,
+    "sides": 6
+  },
+  "challengeRating": "1/2",
+  "experiencePoints": 100,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
+    },
+    "dex": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "int": {
+      "score": 9,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "wis": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "cha": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Death Burst. The mephit explodes when it dies. Dexterity Saving Throw: DC 10, each creature in a 5-foot Emanation originating from the mephit. Failure: 5 (2d4) Bludgeoning damage. Success: Half damage."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Claw. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing damage.\n\nBlinding Breath (Recharge 6). Dexterity Saving Throw: DC 10, each creature in a 15-foot Cone. Failure: The target has the Blinded condition until the end of the mephit's next turn.\n\nSleep (1/Day). The mephit casts the Sleep spell, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 10)."
+    }
+  ],
+  "rulesText": "Small Elemental, Neutral Evil\n\nAC 12\n\nInitiative +2 (12)\n\nHP 17 (5d6)\n\nSpeed 30 ft., Fly 30 ft.\n\nSkills Perception +2, Stealth +4\n\nVulnerabilities Fire\n\nImmunities Poison; Exhaustion, Poisoned\n\nSenses Darkvision 60 ft.; Passive Perception 12\n\nLanguages Primordial (Auran, Terran)\n\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nDeath Burst. The mephit explodes when it dies. Dexterity Saving Throw: DC 10, each creature in a 5-foot Emanation originating from the mephit. Failure: 5 (2d4) Bludgeoning damage. Success: Half damage.\n\nActions\n\nClaw. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing damage.\n\nBlinding Breath (Recharge 6). Dexterity Saving Throw: DC 10, each creature in a 15-foot Cone. Failure: The target has the Blinded condition until the end of the mephit's next turn.\n\nSleep (1/Day). The mephit casts the Sleep spell, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 10)."
+}

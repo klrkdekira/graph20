@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-110-lose-temporary-hit-points-first",
+  "@type": "Rule",
+  "name": "Lose Temporary Hit Points First",
+  "slug": "1-110-lose-temporary-hit-points-first",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.110",
+    "heading": "Lose Temporary Hit Points First",
+    "lineStart": 1700,
+    "lineEnd": 1702
+  },
+  "section": "1.110",
+  "rulesText": "If you have Temporary Hit Points and take damage, those points are lost first, and any leftover damage carries over to your Hit Points. For example, if you have 5 Temporary Hit Points and take 7 damage, you lose those points and then lose 2 Hit Points."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-46-painters-supplies-10-gp",
+  "@type": "Rule",
+  "name": "Painter's Supplies (10 GP)",
+  "slug": "6-46-painters-supplies-10-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.46",
+    "heading": "Painter's Supplies (10 GP)",
+    "lineStart": 5535,
+    "lineEnd": 5541
+  },
+  "section": "6.46",
+  "rulesText": "Ability: Wisdom Weight: 5 lb.\n\nUtilize: Paint a recognizable image of something you've seen (DC 10)\n\nCraft: Druidic Focus, Holy Symbol"
+}

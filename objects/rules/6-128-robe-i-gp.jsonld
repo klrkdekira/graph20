@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-128-robe-i-gp",
+  "@type": "Rule",
+  "name": "Robe (I GP)",
+  "slug": "6-128-robe-i-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.128",
+    "heading": "Robe (I GP)",
+    "lineStart": 5975,
+    "lineEnd": 5977
+  },
+  "section": "6.128",
+  "rulesText": "A Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols."
+}

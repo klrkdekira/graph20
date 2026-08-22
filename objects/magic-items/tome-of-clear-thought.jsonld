@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/tome-of-clear-thought",
+  "@type": "MagicItem",
+  "name": "Tome of Clear Thought",
+  "slug": "tome-of-clear-thought",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.271",
+    "heading": "Tome of Clear Thought",
+    "lineStart": 17089,
+    "lineEnd": 17093
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Very Rare",
+  "requiresAttunement": false,
+  "rulesText": "Wondrous Item, Very Rare\n\nThis book contains memory and logic exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Intelligence increases by 2, to a maximum of 30. The manual then loses its magic but regains it in a century."
+}

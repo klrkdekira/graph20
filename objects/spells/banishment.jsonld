@@ -1,0 +1,31 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/banishment",
+  "@type": "Spell",
+  "name": "Banishment",
+  "slug": "banishment",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.53",
+    "heading": "Banishment",
+    "lineStart": 6883,
+    "lineEnd": 6899
+  },
+  "level": 4,
+  "school": "Abjuration",
+  "classAvailability": [
+    "Cleric",
+    "Paladin",
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "30 feet",
+  "components": "V, S, M (a pentacle)",
+  "duration": "Concentration, up to 1 minute",
+  "rulesText": "Level 4 Abjuration (Cleric, Paladin, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V, S, M (a pentacle)\n\nDuration: Concentration, up to 1 minute\n\nOne creature that you can see within range must succeed on a Charisma saving throw or be transported to a harmless demiplane for the duration. While there, the target has the Incapacitated condition. When the spell ends, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.\n\nIf the target is an Aberration, a Celestial, an Elemental, a Fey, or a Fiend, the target doesn't return if the spell lasts for 1 minute. The target is instead transported to a random location on a plane (GM's choice) associated with its creature type.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 4."
+}

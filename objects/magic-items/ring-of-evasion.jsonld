@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/ring-of-evasion",
+  "@type": "MagicItem",
+  "name": "Ring of Evasion",
+  "slug": "ring-of-evasion",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.205",
+    "heading": "Ring of Evasion",
+    "lineStart": 16394,
+    "lineEnd": 16398
+  },
+  "itemCategory": "Ring",
+  "rarity": "Rare",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "rulesText": "Ring, Rare (Requires Attunement)\n\nThis ring has 3 charges, and it regains 1d3 expended charges daily at dawn. When you fail a Dexterity saving throw while wearing the ring, you can take a Reaction to expend 1 charge to succeed on that save instead."
+}

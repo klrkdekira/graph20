@@ -1,0 +1,82 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/spirit-naga",
+  "@type": "Monster",
+  "name": "Spirit Naga",
+  "slug": "spirit-naga",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.229",
+    "heading": "Spirit Naga",
+    "lineStart": 25469,
+    "lineEnd": 25509
+  },
+  "sizeTypeAlignment": "Large Fiend, Chaotic Evil",
+  "sizeAndType": "Large Fiend",
+  "alignment": "Chaotic Evil",
+  "armorClass": "17",
+  "initiative": "+3 (13)",
+  "hitPoints": "135 (18d10 + 36)",
+  "speed": "40 ft.",
+  "immunities": "Poison; Charmed, Poisoned",
+  "senses": "Darkvision 60 ft.; Passive Perception 12",
+  "languages": "Abyssal, Common",
+  "challenge": "8 (XP 3,900; PB +3)",
+  "armorClassValue": 17,
+  "hitPointsValue": 135,
+  "hitPointsRoll": {
+    "expression": "18d10+36",
+    "count": 18,
+    "sides": 10,
+    "modifier": 36
+  },
+  "challengeRating": "8",
+  "experiencePoints": 3900,
+  "proficiencyBonus": 3,
+  "abilities": {
+    "str": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "dex": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 6
+    },
+    "con": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 5
+    },
+    "int": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "wis": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 5
+    },
+    "cha": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 6
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Fiendish Restoration. If it dies, the naga returns to life in 1d6 days and regains all its Hit Points. Only a Wish spell can prevent this trait from functioning."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The naga makes three attacks, using Bite or Necrotic Ray in any combination.\n\nBite. Melee Attack Roll: +7, reach 10 ft. Hit: 7 (1d6 + 4) Piercing damage plus 14 (4d6) Poison damage.\n\nNecrotic Ray. Ranged Attack Roll: +6, range 60 ft. Hit: 21 (6d6) Necrotic damage.\n\nSpellcasting. The naga casts one of the following spells, requiring no Somatic or Material components and using Intelligence as the spellcasting ability (spell save DC 14):\n\nAt Will: Detect Magic, Mage Hand, Minor Illusion, Water Breathing\n\n2/Day Each: Detect Thoughts, Dimension Door, Hold Person (level 3 version), Lightning Bolt (level 4 version)"
+    }
+  ],
+  "rulesText": "Large Fiend, Chaotic Evil\n\nAC 17\n\nInitiative +3 (13)\n\nHP 135 (18d10 + 36)\n\nSpeed 40 ft.\n\nImmunities Poison; Charmed, Poisoned\n\nSenses Darkvision 60 ft.; Passive Perception 12\n\nLanguages Abyssal, Common\n\nCR 8 (XP 3,900; PB +3)\n\nTraits\n\nFiendish Restoration. If it dies, the naga returns to life in 1d6 days and regains all its Hit Points. Only a Wish spell can prevent this trait from functioning.\n\nActions\n\nMultiattack. The naga makes three attacks, using Bite or Necrotic Ray in any combination.\n\nBite. Melee Attack Roll: +7, reach 10 ft. Hit: 7 (1d6 + 4) Piercing damage plus 14 (4d6) Poison damage.\n\nNecrotic Ray. Ranged Attack Roll: +6, range 60 ft. Hit: 21 (6d6) Necrotic damage.\n\nSpellcasting. The naga casts one of the following spells, requiring no Somatic or Material components and using Intelligence as the spellcasting ability (spell save DC 14):\n\nAt Will: Detect Magic, Mage Hand, Minor Illusion, Water Breathing\n\n2/Day Each: Detect Thoughts, Dimension Door, Hold Person (level 3 version), Lightning Bolt (level 4 version)"
+}

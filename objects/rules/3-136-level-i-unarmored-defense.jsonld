@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-136-level-i-unarmored-defense",
+  "@type": "Rule",
+  "name": "Level I: Unarmored Defense",
+  "slug": "3-136-level-i-unarmored-defense",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.136",
+    "heading": "Level I: Unarmored Defense",
+    "lineStart": 3213,
+    "lineEnd": 3215
+  },
+  "section": "3.136",
+  "rulesText": "While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers."
+}

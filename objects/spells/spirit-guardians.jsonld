@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/spirit-guardians",
+  "@type": "Spell",
+  "name": "Spirit Guardians",
+  "slug": "spirit-guardians",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.321",
+    "heading": "Spirit Guardians",
+    "lineStart": 11818,
+    "lineEnd": 11836
+  },
+  "level": 3,
+  "school": "Conjuration",
+  "classAvailability": [
+    "Cleric"
+  ],
+  "castingTime": "Action",
+  "range": "Self",
+  "components": "V, S, M (a prayer scroll)",
+  "duration": "Concentration, up to 10 minutes",
+  "rulesText": "Level 3 Conjuration (Cleric)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S, M (a prayer scroll)\n\nDuration: Concentration, up to 10 minutes\n\nProtective spirits flit around you in a 15-foot Emanation for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish.\n\nWhen you cast this spell, you can designate creatures to be unaffected by it. Any other creature's Speed is halved in the Emanation, and whenever the Emanation enters a creature's space and whenever\n\na creature enters the Emanation or ends its turn there, the creature must make a Wisdom saving throw. On a failed save, the creature takes 3d8 Radiant damage (if you are good or neutral) or 3d8 Necrotic damage (if you are evil). On a successful save, the creature takes half as much damage. A creature makes this save only once per turn.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 3."
+}

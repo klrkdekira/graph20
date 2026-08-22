@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-78-melee-attacks",
+  "@type": "Rule",
+  "name": "Melee Attacks",
+  "slug": "1-78-melee-attacks",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.78",
+    "heading": "Melee Attacks",
+    "lineStart": 1530,
+    "lineEnd": 1532
+  },
+  "section": "1.78",
+  "rulesText": "A melee attack allows you to attack a target within your reach. A melee attack typically uses a hand-held weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee attacks."
+}

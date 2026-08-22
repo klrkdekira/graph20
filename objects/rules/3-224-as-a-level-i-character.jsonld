@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-224-as-a-level-i-character",
+  "@type": "Rule",
+  "name": "As a Level I Character",
+  "slug": "3-224-as-a-level-i-character",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.224",
+    "heading": "As a Level I Character",
+    "lineStart": 3764,
+    "lineEnd": 3767
+  },
+  "section": "3.224",
+  "rulesText": "- Gain all the traits in the Core Rogue Traits table.  \n- Gain the Rogue's level 1 features, which are listed in the Rogue Features table."
+}

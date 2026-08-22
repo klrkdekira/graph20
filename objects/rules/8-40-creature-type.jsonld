@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-40-creature-type",
+  "@type": "Rule",
+  "name": "Creature Type",
+  "slug": "8-40-creature-type",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.40",
+    "heading": "Creature Type",
+    "lineStart": 13004,
+    "lineEnd": 13010
+  },
+  "section": "8.40",
+  "rulesText": "Every creature, including every player character, has a tag in the rules that identifies the type of creature it is. Most player characters are of the Humanoid type. These are the game's creature types:\n\nThe types don't have rules themselves, but some rules in the game affect creatures of certain types in different ways.",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/8-40-creature-type-table-1"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-142-waterskin-2-sp",
+  "@type": "Rule",
+  "name": "Waterskin (2 SP)",
+  "slug": "6-142-waterskin-2-sp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.142",
+    "heading": "Waterskin (2 SP)",
+    "lineStart": 6035,
+    "lineEnd": 6037
+  },
+  "section": "6.142",
+  "rulesText": "A Waterskin holds up to 4 pints. If you don't drink sufficient water, you risk dehydration (see “Rules Glossary”)."
+}

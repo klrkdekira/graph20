@@ -1,0 +1,89 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-193-core-ranger-traits",
+  "@type": "Table",
+  "name": "Core Ranger Traits",
+  "slug": "3-193-core-ranger-traits",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.193",
+    "heading": "Ranger",
+    "lineStart": 3576,
+    "lineEnd": 3576
+  },
+  "columns": [
+    "Primary Ability",
+    "Dexterity and Wisdom"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Hit Point Die"
+        },
+        {
+          "value": "DI0 per Ranger level"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Saving Throw Proficiencies"
+        },
+        {
+          "value": "Strength and Dexterity"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Skill Proficiencies"
+        },
+        {
+          "value": "Choose 3: Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, or Survival"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Weapon Proficiencies"
+        },
+        {
+          "value": "Simple and Martial weapons"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Armor Training"
+        },
+        {
+          "value": "Light and Medium armor and Shields"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Starting Equipment"
+        },
+        {
+          "value": "Choose A or B: (A) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Druidic Focus (sprig of mistletoe), Explorer’s Pack, and 7 GP; or (B) 150 GP"
+        }
+      ]
+    }
+  ]
+}

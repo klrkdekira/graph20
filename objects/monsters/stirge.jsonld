@@ -1,0 +1,76 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/stirge",
+  "@type": "Monster",
+  "name": "Stirge",
+  "slug": "stirge",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.232",
+    "heading": "Stirge",
+    "lineStart": 25581,
+    "lineEnd": 25607
+  },
+  "sizeTypeAlignment": "Tiny Monstrosity, Unaligned",
+  "sizeAndType": "Tiny Monstrosity",
+  "alignment": "Unaligned",
+  "armorClass": "13",
+  "initiative": "+3 (13)",
+  "hitPoints": "5 (2d4)",
+  "speed": "10 ft., Fly 40 ft.",
+  "senses": "Darkvision 60 ft.; Passive Perception 9",
+  "languages": "None",
+  "challenge": "1/8 (XP 25; PB +2)",
+  "armorClassValue": 13,
+  "hitPointsValue": 5,
+  "hitPointsRoll": {
+    "expression": "2d4",
+    "count": 2,
+    "sides": 4
+  },
+  "challengeRating": "1/8",
+  "experiencePoints": 25,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 4,
+      "modifier": -3,
+      "savingThrow": -3
+    },
+    "dex": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "con": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "int": {
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "cha": {
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Proboscis. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage, and the stirge attaches to the target. While attached, the stirge can't make Proboscis attacks, and the target takes 5 (2d4) Necrotic damage at the start of each of the stirge's turns.\n\nThe stirge can detach itself by spending 5 feet of its movement. The target or a creature within 5 feet of it can detach the stirge as an action."
+    }
+  ],
+  "rulesText": "Tiny Monstrosity, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 5 (2d4)\n\nSpeed 10 ft., Fly 40 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 9\n\nLanguages None\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nProboscis. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage, and the stirge attaches to the target. While attached, the stirge can't make Proboscis attacks, and the target takes 5 (2d4) Necrotic damage at the start of each of the stirge's turns.\n\nThe stirge can detach itself by spending 5 feet of its movement. The target or a creature within 5 feet of it can detach the stirge as an action."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-287-as-a-multiclass-character",
+  "@type": "Rule",
+  "name": "As a Multiclass Character",
+  "slug": "3-287-as-a-multiclass-character",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.287",
+    "heading": "As a Multiclass Character",
+    "lineStart": 4206,
+    "lineEnd": 4209
+  },
+  "section": "3.287",
+  "rulesText": "- Gain the following traits from the Core Warlock Traits table: Hit Point Die and training with Light armor.  \n- Gain the Warlock's level 1 features, which are listed in the Warlock Features table. See the multiclassing rules in “Character Creation” to determine your available spell slots."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-150-tremorsense",
+  "@type": "Rule",
+  "name": "Tremorsense",
+  "slug": "8-150-tremorsense",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.150",
+    "heading": "Tremorsense",
+    "lineStart": 13736,
+    "lineEnd": 13740
+  },
+  "section": "8.150",
+  "rulesText": "A creature with Tremorsense can pinpoint the location of creatures and moving objects within a specific range, provided that the creature with Tremorsense and anything it is detecting are both in contact with the same surface (such as the ground, a wall, or a ceiling) or the same liquid.\n\nTremorsense can't detect creatures or objects in the air, and it doesn't count as a form of sight."
+}

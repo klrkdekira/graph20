@@ -1,0 +1,76 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/1-57-travel-pace-table-1",
+  "@type": "Table",
+  "name": "Travel Pace Table 1",
+  "slug": "1-57-travel-pace-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.57",
+    "heading": "Travel Pace",
+    "lineStart": 1368,
+    "lineEnd": 1368
+  },
+  "columns": [
+    "Pace",
+    "Minute",
+    "Hour",
+    "Day"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Fast"
+        },
+        {
+          "value": "400 feet"
+        },
+        {
+          "value": "4 miles"
+        },
+        {
+          "value": "30 miles"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Normal"
+        },
+        {
+          "value": "300 feet"
+        },
+        {
+          "value": "3 miles"
+        },
+        {
+          "value": "24 miles"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Slow"
+        },
+        {
+          "value": "200 feet"
+        },
+        {
+          "value": "2 miles"
+        },
+        {
+          "value": "18 miles"
+        }
+      ]
+    }
+  ]
+}

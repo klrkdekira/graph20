@@ -1,0 +1,23 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/arrow-catching-shield",
+  "@type": "MagicItem",
+  "name": "Arrow-Catching Shield",
+  "slug": "arrow-catching-shield",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.49",
+    "heading": "Arrow-Catching Shield",
+    "lineStart": 14782,
+    "lineEnd": 14788
+  },
+  "itemCategory": "Armor",
+  "categoryDetail": "Shield",
+  "rarity": "Rare",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "rulesText": "Armor (Shield), Rare (Requires Attunement)\n\nYou gain a +2 bonus to Armor Class against ranged attack rolls while you wield this Shield. This bonus is in addition to the Shield's normal bonus to AC.\n\nWhenever an attacker makes a ranged attack roll against a target within 5 feet of you, you can take a Reaction to become the target of the attack instead."
+}

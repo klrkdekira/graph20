@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/necklace-of-prayer-beads",
+  "@type": "MagicItem",
+  "name": "Necklace of Prayer Beads",
+  "slug": "necklace-of-prayer-beads",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.167",
+    "heading": "Necklace of Prayer Beads",
+    "lineStart": 16038,
+    "lineEnd": 16046
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Rare",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement by a Cleric, Druid, or Paladin",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/10-167-necklace-of-prayer-beads-table-1"
+    }
+  ],
+  "rulesText": "Wondrous Item, Rare (Requires Attunement by a Cleric, Druid, or Paladin)\n\nThis necklace has 1d4 + 2 magic beads made from aquamarine, black pearl, or topaz. It also has many nonmagical beads made from stones such as amber, bloodstone, citrine, coral, jade, pearl, or quartz. If a magic bead is removed from the necklace, that bead loses its magic.\n\nSix types of magic beads exist. The GM decides the type of each bead on the necklace or determines it randomly by rolling on the table below. A necklace can have more than one bead of the same type. To use one, you must be wearing the necklace. Each bead contains a spell that you can cast from it as a Bonus Action (using your spell save DC if a save is necessary). Once a magic bead's spell is cast, that bead can't be used again until the next dawn."
+}

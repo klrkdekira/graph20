@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-9-i-choose-abilities",
+  "@type": "Rule",
+  "name": "I: Choose Abilities",
+  "slug": "9-9-i-choose-abilities",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.9",
+    "heading": "I: Choose Abilities",
+    "lineStart": 13846,
+    "lineEnd": 13863
+  },
+  "section": "9.9",
+  "rulesText": "Choose three abilities that seem appropriate for the background:\n\nStrength or Dexterity. These abilities are ideal for a background involving physical exertion.\n\nConstitution. This ability is ideal for a background that involves endurance or long hours of activity.\n\nTravel Terrain\n\n\\*Appropriate equipment (such as skis) is necessary to keep up a Fast pace in Arctic terrain.  \n$^{†}$ Characters' rate of travel while waterborne depends on the vehicle carrying them; see “Vehicles.”\n\nIntelligence or Wisdom. One or both abilities are ideal for a background that focuses on cerebral or spiritual matters.\n\nCharisma. This ability is ideal for a background that involves performance or social interaction.",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/9-9-travel-terrain"
+    }
+  ]
+}

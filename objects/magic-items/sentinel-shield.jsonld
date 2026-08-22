@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/sentinel-shield",
+  "@type": "MagicItem",
+  "name": "Sentinel Shield",
+  "slug": "sentinel-shield",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.240",
+    "heading": "Sentinel Shield",
+    "lineStart": 16764,
+    "lineEnd": 16768
+  },
+  "itemCategory": "Armor",
+  "categoryDetail": "Shield",
+  "rarity": "Uncommon",
+  "requiresAttunement": false,
+  "rulesText": "Armor (Shield), Uncommon\n\nWhile holding this Shield, you have Advantage on Initiative rolls and Wisdom (Perception) checks. The Shield is emblazoned with a symbol of an eye."
+}

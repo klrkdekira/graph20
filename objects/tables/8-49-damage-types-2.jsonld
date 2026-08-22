@@ -1,0 +1,100 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/8-49-damage-types-2",
+  "@type": "Table",
+  "name": "Damage Types",
+  "slug": "8-49-damage-types-2",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.49",
+    "heading": "Damage Types",
+    "lineStart": 13056,
+    "lineEnd": 13056
+  },
+  "columns": [
+    "Type",
+    "Examples"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Necrotic"
+        },
+        {
+          "value": "Life-draining energy"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Piercing"
+        },
+        {
+          "value": "Fangs, puncturing objects"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Poison"
+        },
+        {
+          "value": "Toxic gas, venom"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Psychic"
+        },
+        {
+          "value": "Mind-rending energy"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Radiant"
+        },
+        {
+          "value": "Holy energy, searing radiation"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Slashing"
+        },
+        {
+          "value": "Claws, cutting objects"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Thunder"
+        },
+        {
+          "value": "Concussive sound"
+        }
+      ]
+    }
+  ]
+}

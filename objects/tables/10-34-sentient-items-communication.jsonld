@@ -1,0 +1,56 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-34-sentient-items-communication",
+  "@type": "Table",
+  "name": "Sentient Item's Communication",
+  "slug": "10-34-sentient-items-communication",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.34",
+    "heading": "Special Purpose",
+    "lineStart": 14644,
+    "lineEnd": 14644
+  },
+  "columns": [
+    "Id10",
+    "Communication"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "1-6"
+        },
+        {
+          "value": "The item communicates by transmitting emotion to the creature carrying or wielding it."
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "7-9"
+        },
+        {
+          "value": "The item speaks one or more languages."
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "The item speaks one or more languages. In addition, the item can communicate telepathically with any creature that carries or wields it."
+        }
+      ]
+    }
+  ]
+}

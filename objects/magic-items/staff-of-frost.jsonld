@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/staff-of-frost",
+  "@type": "MagicItem",
+  "name": "Staff of Frost",
+  "slug": "staff-of-frost",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.251",
+    "heading": "Staff of Frost",
+    "lineStart": 16880,
+    "lineEnd": 16890
+  },
+  "itemCategory": "Staff",
+  "rarity": "Very Rare",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement by a Druid, Sorcerer, Warlock, or Wizard",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/10-251-staff-of-frost-table-1"
+    }
+  ],
+  "rulesText": "Staff, Very Rare (Requires Attunement by a Druid, Sorcerer, Warlock, or Wizard)\n\nYou have Resistance to Cold damage while you hold this staff.\n\nSpells. The staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.\n\nRegaining Charges. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff turns to water and is destroyed."
+}

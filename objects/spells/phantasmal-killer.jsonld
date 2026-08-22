@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/phantasmal-killer",
+  "@type": "Spell",
+  "name": "Phantasmal Killer",
+  "slug": "phantasmal-killer",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.255",
+    "heading": "Phantasmal Killer",
+    "lineStart": 10653,
+    "lineEnd": 10669
+  },
+  "level": 4,
+  "school": "Illusion",
+  "classAvailability": [
+    "Bard",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "120 feet",
+  "components": "V, S",
+  "duration": "Concentration, up to 1 minute",
+  "rulesText": "Level 4 Illusion (Bard, Wizard)\n\nCasting Time: Action\n\nRange: 120 feet\n\nComponents: V, S\n\nDuration: Concentration, up to 1 minute\n\nYou tap into the nightmares of a creature you can see within range and create an illusion of its deepest fears, visible only to that creature. The target makes a Wisdom saving throw. On a failed save, the target takes 4d10 Psychic damage and has Disadvantage on ability checks and attack rolls for the duration. On a successful save, the target takes half as much damage, and the spell ends.\n\nFor the duration, the target makes a Wisdom saving throw at the end of each of its turns. On a failed save, it takes the Psychic damage again. On a successful save, the spell ends.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d10 for each spell slot level above 4."
+}

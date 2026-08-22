@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/animal-friendship",
+  "@type": "Spell",
+  "name": "Animal Friendship",
+  "slug": "animal-friendship",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.35",
+    "heading": "Animal Friendship",
+    "lineStart": 6511,
+    "lineEnd": 6527
+  },
+  "level": 1,
+  "school": "Enchantment",
+  "classAvailability": [
+    "Bard",
+    "Druid",
+    "Ranger"
+  ],
+  "castingTime": "Action",
+  "range": "30 feet",
+  "components": "V, S, M (a morsel of food)",
+  "duration": "24 hours",
+  "rulesText": "Level 1 Enchantment (Bard, Druid, Ranger)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V, S, M (a morsel of food)\n\nDuration: 24 hours\n\nTarget a Beast that you can see within range. The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration. If you\n\nor one of your allies deals damage to the target, the spells ends.\n\nUsing a Higher-Level Spell Slot. You can target one additional Beast for each spell slot level above 1."
+}

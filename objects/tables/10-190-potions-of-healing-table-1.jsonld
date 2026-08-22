@@ -1,0 +1,80 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-190-potions-of-healing-table-1",
+  "@type": "Table",
+  "name": "Potions of Healing Table 1",
+  "slug": "10-190-potions-of-healing-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.190",
+    "heading": "Potions of Healing",
+    "lineStart": 16245,
+    "lineEnd": 16245
+  },
+  "columns": [
+    "Potion",
+    "HP Regained",
+    "Rarity"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Potion of Healing"
+        },
+        {
+          "value": "2d4 + 2"
+        },
+        {
+          "value": "Common"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Potion of Healing (greater)"
+        },
+        {
+          "value": "4d4 + 4"
+        },
+        {
+          "value": "Uncommon"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Potion of Healing (superior)"
+        },
+        {
+          "value": "8d4 + 8"
+        },
+        {
+          "value": "Rare"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Potion of Healing (supreme)"
+        },
+        {
+          "value": "10d4 + 20"
+        },
+        {
+          "value": "Very Rare"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/censer-of-controlling-air-elementals",
+  "@type": "MagicItem",
+  "name": "Censer of Controlling Air Elementals",
+  "slug": "censer-of-controlling-air-elementals",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.73",
+    "heading": "Censer of Controlling Air Elementals",
+    "lineStart": 15024,
+    "lineEnd": 15028
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Rare",
+  "requiresAttunement": false,
+  "rulesText": "Wondrous Item, Rare\n\nWhile gently swinging this censer, you can take a Magic action to summon an Air Elemental. The elemental appears in an unoccupied space as close to the censer as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action. The censer can't be used this way again until the next dawn."
+}

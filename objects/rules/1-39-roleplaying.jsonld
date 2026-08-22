@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-39-roleplaying",
+  "@type": "Rule",
+  "name": "Roleplaying",
+  "slug": "1-39-roleplaying",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.39",
+    "heading": "Roleplaying",
+    "lineStart": 1251,
+    "lineEnd": 1263
+  },
+  "section": "1.39",
+  "rulesText": "Roleplaying is, literally, the act of playing out a role. In this case, it's you as a player determining how your character thinks, acts, and talks. Roleplaying is part of every aspect of the game, and it comes to the fore during social interactions.\n\nAs you roleplay, consider whether you prefer an active approach or a descriptive approach.\n\nThe GM uses an NPC's personality and your character's actions and attitudes to determine how an\n\nNPC reacts. A cowardly bandit might buckle under threats of imprisonment. A stubborn merchant refuses to help if the characters badger her. A vain dragon laps up flattery.\n\nWhen interacting with an NPC, pay attention to the GM's portrayal of the NPC's personality. You might be able to learn an NPC's goals and then use that information to influence the NPC.\n\nIf you offer NPCs something they want or play on their sympathies, fears, or goals, you can form friendships, ward off violence, or learn a key piece of information. On the other hand, if you insult a proud warrior or speak ill of a noble's allies, your efforts to convince or deceive will likely fail."
+}

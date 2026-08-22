@@ -1,0 +1,88 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/sphinx-of-lore",
+  "@type": "Monster",
+  "name": "Sphinx of Lore",
+  "slug": "sphinx-of-lore",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.227",
+    "heading": "Sphinx of Lore",
+    "lineStart": 25355,
+    "lineEnd": 25407
+  },
+  "sizeTypeAlignment": "Large Celestial, Lawful Neutral",
+  "sizeAndType": "Large Celestial",
+  "alignment": "Lawful Neutral",
+  "armorClass": "17",
+  "initiative": "+10 (20)",
+  "hitPoints": "170 (20d10 + 60)",
+  "speed": "40 ft., Fly 60 ft.",
+  "skills": "Arcana +12, History +12, Perception +8, Religion +12",
+  "resistances": "Necrotic, Radiant",
+  "immunities": "Psychic; Charmed, Frightened",
+  "senses": "Truesight 120 ft.; Passive Perception 18",
+  "languages": "Celestial, Common",
+  "challenge": "11 (XP 7,200, or 8,400 in lair; PB +4)",
+  "armorClassValue": 17,
+  "hitPointsValue": 170,
+  "hitPointsRoll": {
+    "expression": "20d10+60",
+    "count": 20,
+    "sides": 10,
+    "modifier": 60
+  },
+  "challengeRating": "11",
+  "experiencePoints": 7200,
+  "proficiencyBonus": 4,
+  "abilities": {
+    "str": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "dex": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "int": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "wis": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "cha": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Inscrutable. No magic can observe the sphinx remotely or detect its thoughts without its permission. Wisdom (Insight) checks made to ascertain its intentions or sincerity are made with Disadvantage.\n\nLegendary Resistance (3/Day, or 4/Day in Lair). If the sphinx fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The sphinx makes three Claw attacks.\n\nClaw. Melee Attack Roll: +8, reach 5 ft. Hit: 14 (3d6 + 4) Slashing damage.\n\nMind-Rending Roar (Recharge 5–6). Wisdom Saving Throw: DC 16, each enemy in a 300-foot Emanation originating from the sphinx. Failure: 35 (10d6) Psychic damage, and the target has the Incapacitated condition until the start of the sphinx's next turn.\n\nSpellcasting. The sphinx casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save DC 16):\n\nAt Will: Detect Magic, Identify, Mage Hand, Minor Illusion, Prestidigitation\n\n1/Day Each: Dispel Magic, Legend Lore, Locate Object, Plane Shift, Remove Curse, Tongues"
+    },
+    {
+      "name": "Legendary Actions",
+      "rulesText": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the sphinx can expend a use to take one of the following actions. The sphinx regains all expended uses at the start of each of its turns.\n\nArcane Prowl. The sphinx can teleport up to 30 feet to an unoccupied space it can see, and it makes one Claw attack.\n\nWeight of Years. Constitution Saving Throw: DC 16, one creature the sphinx can see within 120 feet. Failure: The target gains 1 Exhaustion level. While the target has any Exhaustion levels, it appears 3d10 years older. Failure or Success: The sphinx can't take this action again until the start of its next turn."
+    }
+  ],
+  "rulesText": "Large Celestial, Lawful Neutral\n\nAC 17\n\nInitiative +10 (20)\n\nHP 170 (20d10 + 60)\n\nSpeed 40 ft., Fly 60 ft.\n\nSkills Arcana +12, History +12, Perception +8, Religion +12\n\nResistances Necrotic, Radiant\n\nImmunities Psychic; Charmed, Frightened\n\nSenses Truesight 120 ft.; Passive Perception 18\n\nLanguages Celestial, Common\n\nCR 11 (XP 7,200, or 8,400 in lair; PB +4)\n\nTraits\n\nInscrutable. No magic can observe the sphinx remotely or detect its thoughts without its permission. Wisdom (Insight) checks made to ascertain its intentions or sincerity are made with Disadvantage.\n\nLegendary Resistance (3/Day, or 4/Day in Lair). If the sphinx fails a saving throw, it can choose to succeed instead.\n\nActions\n\nMultiattack. The sphinx makes three Claw attacks.\n\nClaw. Melee Attack Roll: +8, reach 5 ft. Hit: 14 (3d6 + 4) Slashing damage.\n\nMind-Rending Roar (Recharge 5–6). Wisdom Saving Throw: DC 16, each enemy in a 300-foot Emanation originating from the sphinx. Failure: 35 (10d6) Psychic damage, and the target has the Incapacitated condition until the start of the sphinx's next turn.\n\nSpellcasting. The sphinx casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save DC 16):\n\nAt Will: Detect Magic, Identify, Mage Hand, Minor Illusion, Prestidigitation\n\n1/Day Each: Dispel Magic, Legend Lore, Locate Object, Plane Shift, Remove Curse, Tongues\n\nLegendary Actions\n\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the sphinx can expend a use to take one of the following actions. The sphinx regains all expended uses at the start of each of its turns.\n\nArcane Prowl. The sphinx can teleport up to 30 feet to an unoccupied space it can see, and it makes one Claw attack.\n\nWeight of Years. Constitution Saving Throw: DC 16, one creature the sphinx can see within 120 feet. Failure: The target gains 1 Exhaustion level. While the target has any Exhaustion levels, it appears 3d10 years older. Failure or Success: The sphinx can't take this action again until the start of its next turn."
+}

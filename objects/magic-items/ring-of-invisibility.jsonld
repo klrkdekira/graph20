@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/ring-of-invisibility",
+  "@type": "MagicItem",
+  "name": "Ring of Invisibility",
+  "slug": "ring-of-invisibility",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.208",
+    "heading": "Ring of Invisibility",
+    "lineStart": 16412,
+    "lineEnd": 16416
+  },
+  "itemCategory": "Ring",
+  "rarity": "Legendary",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "rulesText": "Ring, Legendary (Requires Attunement)\n\nWhile wearing this ring, you can take a Magic action to give yourself the Invisible condition. You remain Invisible until the ring is removed or until you take a Bonus Action to become visible again."
+}

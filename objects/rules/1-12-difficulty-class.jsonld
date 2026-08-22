@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-12-difficulty-class",
+  "@type": "Rule",
+  "name": "Difficulty Class",
+  "slug": "1-12-difficulty-class",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.12",
+    "heading": "Difficulty Class",
+    "lineStart": 1059,
+    "lineEnd": 1065
+  },
+  "section": "1.12",
+  "rulesText": "The Difficulty Class of an ability check represents the task's difficulty. The more difficult the task, the higher its DC. The rules provide DCs for certain checks, but the GM ultimately sets them. The Typical Difficulty Classes table presents a range of possible DCs for ability checks.\n\nTypical Difficulty Classes",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/1-12-typical-difficulty-classes"
+    }
+  ]
+}

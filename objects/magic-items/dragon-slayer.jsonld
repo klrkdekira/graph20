@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/dragon-slayer",
+  "@type": "MagicItem",
+  "name": "Dragon Slayer",
+  "slug": "dragon-slayer",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.98",
+    "heading": "Dragon Slayer",
+    "lineStart": 15254,
+    "lineEnd": 15260
+  },
+  "itemCategory": "Weapon",
+  "categoryDetail": "Any Simple or Martial",
+  "rarity": "Rare",
+  "requiresAttunement": false,
+  "rulesText": "Weapon (Any Simple or Martial), Rare\n\nYou gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.\n\nThe weapon deals an extra 3d6 damage of the weapon's type if the target is a Dragon."
+}

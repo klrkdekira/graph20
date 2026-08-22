@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-21-bonus-action",
+  "@type": "Rule",
+  "name": "Bonus Action",
+  "slug": "8-21-bonus-action",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.21",
+    "heading": "Bonus Action",
+    "lineStart": 12886,
+    "lineEnd": 12888
+  },
+  "section": "8.21",
+  "rulesText": "A Bonus Action is a special action that you can take on the same turn that you take an action. You can't take more than one Bonus Action on a turn, and you have a Bonus Action to take only if a rule explicitly says so. See also \"Playing the Game\" (\"Actions\")."
+}

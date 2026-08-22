@@ -1,0 +1,78 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/worg",
+  "@type": "Monster",
+  "name": "Worg",
+  "slug": "worg",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.267",
+    "heading": "Worg",
+    "lineStart": 26915,
+    "lineEnd": 26941
+  },
+  "sizeTypeAlignment": "Large Fey, Neutral Evil",
+  "sizeAndType": "Large Fey",
+  "alignment": "Neutral Evil",
+  "armorClass": "13",
+  "initiative": "+1 (11)",
+  "hitPoints": "26 (4d10 + 4)",
+  "speed": "50 ft.",
+  "skills": "Perception +4",
+  "senses": "Darkvision 60 ft.; Passive Perception 14",
+  "languages": "Goblin, Worg",
+  "challenge": "1/2 (XP 100; PB +2)",
+  "armorClassValue": 13,
+  "hitPointsValue": 26,
+  "hitPointsRoll": {
+    "expression": "4d10+4",
+    "count": 4,
+    "sides": 10,
+    "modifier": 4
+  },
+  "challengeRating": "1/2",
+  "experiencePoints": 100,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "dex": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "con": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "int": {
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
+    },
+    "wis": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "cha": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage, and the next attack roll made against the target before the start of the worg's next turn has Advantage."
+    }
+  ],
+  "rulesText": "Large Fey, Neutral Evil\n\nAC 13\n\nInitiative +1 (11)\n\nHP 26 (4d10 + 4)\n\nSpeed 50 ft.\n\nSkills Perception +4\n\nSenses Darkvision 60 ft.; Passive Perception 14\n\nLanguages Goblin, Worg\n\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage, and the next attack roll made against the target before the start of the worg's next turn has Advantage."
+}

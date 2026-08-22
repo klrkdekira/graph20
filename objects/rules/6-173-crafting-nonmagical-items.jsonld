@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-173-crafting-nonmagical-items",
+  "@type": "Rule",
+  "name": "Crafting Nonmagical Items",
+  "slug": "6-173-crafting-nonmagical-items",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.173",
+    "heading": "Crafting Nonmagical Items",
+    "lineStart": 6201,
+    "lineEnd": 6203
+  },
+  "section": "6.173",
+  "rulesText": "To craft a nonmagical item, you need tools, raw materials, and time, each of which is detailed below. If you meet the requirements, you make the item, and you can use it or sell it at its normal price."
+}

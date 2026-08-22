@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-152-ship-repair",
+  "@type": "Rule",
+  "name": "Ship Repair",
+  "slug": "6-152-ship-repair",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.152",
+    "heading": "Ship Repair",
+    "lineStart": 6089,
+    "lineEnd": 6091
+  },
+  "section": "6.152",
+  "rulesText": "Repairs to a damaged ship can be made while the vessel is berthed. Repairing 1 Hit Point of damage requires 1 day and costs 20 GP for materials and labor. If the repairs are made in a location where supplies and skilled labor are abundant, such as a city shipyard, the repair time and cost are halved."
+}

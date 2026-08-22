@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-282-level-14-dragon-wings",
+  "@type": "Rule",
+  "name": "Level 14: Dragon Wings",
+  "slug": "3-282-level-14-dragon-wings",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.282",
+    "heading": "Level 14: Dragon Wings",
+    "lineStart": 4181,
+    "lineEnd": 4185
+  },
+  "section": "3.282",
+  "rulesText": "As a Bonus Action, you can cause draconic wings to appear on your back. The wings last for 1 hour or until you dismiss them (no action required). For the duration, you have a Fly Speed of 60 feet.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest unless you spend 3 Sorcery Points (no action required) to restore your use of it."
+}

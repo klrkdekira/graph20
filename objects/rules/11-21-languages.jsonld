@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/11-21-languages",
+  "@type": "Rule",
+  "name": "Languages",
+  "slug": "11-21-languages",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters",
+    "section": "11.21",
+    "heading": "Languages",
+    "lineStart": 17480,
+    "lineEnd": 17482
+  },
+  "section": "11.21",
+  "rulesText": "This entry lists languages that the monster can use to communicate. Sometimes a monster can understand a language but can't communicate with it, which is noted in its entry. \"None\" indicates that a creature doesn't comprehend any language."
+}

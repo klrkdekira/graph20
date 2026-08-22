@@ -1,0 +1,20 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/feats/alert",
+  "@type": "Feat",
+  "name": "Alert",
+  "slug": "alert",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Feats",
+    "section": "5.5",
+    "heading": "Alert",
+    "lineStart": 5105,
+    "lineEnd": 5113
+  },
+  "category": "Origin",
+  "repeatable": false,
+  "rulesText": "Origin Feat\n\nYou gain the following benefits.\n\nInitiative Proficiency. When you roll Initiative, you can add your Proficiency Bonus to the roll.\n\nInitiative Swap. Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can't make this swap if you or the ally has the Incapacitated condition."
+}

@@ -1,0 +1,79 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/guardian-naga",
+  "@type": "Monster",
+  "name": "Guardian Naga",
+  "slug": "guardian-naga",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.125",
+    "heading": "Guardian Naga",
+    "lineStart": 21807,
+    "lineEnd": 21849
+  },
+  "sizeTypeAlignment": "Large Celestial, Lawful Good",
+  "sizeAndType": "Large Celestial",
+  "alignment": "Lawful Good",
+  "armorClass": "18",
+  "initiative": "+4 (14)",
+  "hitPoints": "136 (16d10 + 48)",
+  "speed": "40 ft., Climb 40 ft., Swim 40 ft.",
+  "skills": "Arcana +11, History +11, Religion +11",
+  "immunities": "Poison; Charmed, Paralyzed, Poisoned, Restrained",
+  "senses": "Darkvision 60 ft.; Passive Perception 14",
+  "languages": "Celestial, Common",
+  "challenge": "10 (XP 5,900; PB +4)",
+  "armorClassValue": 18,
+  "hitPointsValue": 136,
+  "hitPointsRoll": {
+    "expression": "16d10+48",
+    "count": 16,
+    "sides": 10,
+    "modifier": 48
+  },
+  "challengeRating": "10",
+  "experiencePoints": 5900,
+  "proficiencyBonus": 4,
+  "abilities": {
+    "str": {
+      "score": 19,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "dex": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 8
+    },
+    "con": {
+      "score": 16
+    },
+    "int": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 7
+    },
+    "wis": {
+      "score": 19,
+      "modifier": 4,
+      "savingThrow": 8
+    },
+    "cha": {
+      "score": 18
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Celestial Restoration. If the naga dies, it returns to life in 1d6 days and regains all its Hit Points unless Dispel Evil and Good is cast on its remains."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The naga makes two Bite attacks. It can replace any attack with a use of Poisonous Spittle.\n\nBite. Melee Attack Roll: +8, reach 10 ft. Hit: 17 (2d12 + 4) Piercing damage plus 22 (4d10) Poison damage.\n\nPoisonous Spittle. Constitution Saving Throw: DC 16, one creature the naga can see within 60 feet. Failure: 31 (7d8) Poison damage, and the target has the Blinded condition until the start of the naga's next turn. Success: Half damage only.\n\nSpellcasting. The naga casts one of the following spells, requiring no Somatic or Material components and using Wisdom as the spellcasting ability (spell save DC 16):\n\nAt Will: Thaumaturgy\n\n1/Day Each: Clairvoyance, Cure Wounds (level 6 version), Flame Strike (level 6 version), Geas, True Seeing"
+    }
+  ],
+  "rulesText": "Large Celestial, Lawful Good\n\nAC 18\n\nInitiative +4 (14)\n\nHP 136 (16d10 + 48)\n\nSpeed 40 ft., Climb 40 ft., Swim 40 ft.\n\nSkills Arcana +11, History +11, Religion +11\n\nImmunities Poison; Charmed, Paralyzed, Poisoned, Restrained\n\nSenses Darkvision 60 ft.; Passive Perception 14\n\nLanguages Celestial, Common\n\nCR 10 (XP 5,900; PB +4)\n\nTraits\n\nCelestial Restoration. If the naga dies, it returns to life in 1d6 days and regains all its Hit Points unless Dispel Evil and Good is cast on its remains.\n\nActions\n\nMultiattack. The naga makes two Bite attacks. It can replace any attack with a use of Poisonous Spittle.\n\nBite. Melee Attack Roll: +8, reach 10 ft. Hit: 17 (2d12 + 4) Piercing damage plus 22 (4d10) Poison damage.\n\nPoisonous Spittle. Constitution Saving Throw: DC 16, one creature the naga can see within 60 feet. Failure: 31 (7d8) Poison damage, and the target has the Blinded condition until the start of the naga's next turn. Success: Half damage only.\n\nSpellcasting. The naga casts one of the following spells, requiring no Somatic or Material components and using Wisdom as the spellcasting ability (spell save DC 16):\n\nAt Will: Thaumaturgy\n\n1/Day Each: Clairvoyance, Cure Wounds (level 6 version), Flame Strike (level 6 version), Geas, True Seeing"
+}

@@ -1,0 +1,89 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/1-14-saving-throw-examples",
+  "@type": "Table",
+  "name": "Saving Throw Examples",
+  "slug": "1-14-saving-throw-examples",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.14",
+    "heading": "Ability Modifier",
+    "lineStart": 1079,
+    "lineEnd": 1079
+  },
+  "columns": [
+    "Ability",
+    "Make a Save To ..."
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Strength"
+        },
+        {
+          "value": "Physically resist direct force"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Dexterity"
+        },
+        {
+          "value": "Dodge out of harm&#x27;s way"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Constitution"
+        },
+        {
+          "value": "Endure a toxic hazard"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Intelligence"
+        },
+        {
+          "value": "Recognize an illusion as fake"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Wisdom"
+        },
+        {
+          "value": "Resist a mental assault"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Charisma"
+        },
+        {
+          "value": "Assert your identity"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-267-careful-spell",
+  "@type": "Rule",
+  "name": "Careful Spell",
+  "slug": "3-267-careful-spell",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.267",
+    "heading": "Careful Spell",
+    "lineStart": 4041,
+    "lineEnd": 4047
+  },
+  "section": "3.267",
+  "rulesText": "Cost: 1 Sorcery Point\n\nWhen you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, spend 1 Sorcery Point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell, and\n\nit takes no damage if it would normally take half damage on a successful save."
+}

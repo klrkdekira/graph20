@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-195-as-a-level-i-character",
+  "@type": "Rule",
+  "name": "As a Level I Character",
+  "slug": "3-195-as-a-level-i-character",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.195",
+    "heading": "As a Level I Character",
+    "lineStart": 3580,
+    "lineEnd": 3583
+  },
+  "section": "3.195",
+  "rulesText": "- Gain all the traits in the Core Ranger Traits table.  \n- Gain the Ranger's level 1 features, which are listed in the Ranger Features table."
+}

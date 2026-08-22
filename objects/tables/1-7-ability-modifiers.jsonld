@@ -1,0 +1,161 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/1-7-ability-modifiers",
+  "@type": "Table",
+  "name": "Ability Modifiers",
+  "slug": "1-7-ability-modifiers",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.7",
+    "heading": "Round Down",
+    "lineStart": 1029,
+    "lineEnd": 1029
+  },
+  "columns": [
+    "Score",
+    "Modifier",
+    "Score",
+    "Modifier"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "-5"
+        },
+        {
+          "value": "16–17"
+        },
+        {
+          "value": "+3"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "2–3"
+        },
+        {
+          "value": "-4"
+        },
+        {
+          "value": "18–19"
+        },
+        {
+          "value": "+4"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "4–5"
+        },
+        {
+          "value": "-3"
+        },
+        {
+          "value": "20–21"
+        },
+        {
+          "value": "+5"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "6–7"
+        },
+        {
+          "value": "-2"
+        },
+        {
+          "value": "22–23"
+        },
+        {
+          "value": "+6"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "8–9"
+        },
+        {
+          "value": "-1"
+        },
+        {
+          "value": "24–25"
+        },
+        {
+          "value": "+7"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "10–11"
+        },
+        {
+          "value": "+0"
+        },
+        {
+          "value": "26–27"
+        },
+        {
+          "value": "+8"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "12–13"
+        },
+        {
+          "value": "+1"
+        },
+        {
+          "value": "28–29"
+        },
+        {
+          "value": "+9"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "14–15"
+        },
+        {
+          "value": "+2"
+        },
+        {
+          "value": "30"
+        },
+        {
+          "value": "+10"
+        }
+      ]
+    }
+  ]
+}

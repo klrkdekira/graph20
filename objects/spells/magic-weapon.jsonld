@@ -1,0 +1,30 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/magic-weapon",
+  "@type": "Spell",
+  "name": "Magic Weapon",
+  "slug": "magic-weapon",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.229",
+    "heading": "Magic Weapon",
+    "lineStart": 10193,
+    "lineEnd": 10207
+  },
+  "level": 2,
+  "school": "Transmutation",
+  "classAvailability": [
+    "Paladin",
+    "Ranger",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "castingTime": "Bonus Action",
+  "range": "Touch",
+  "components": "V, S",
+  "duration": "1 hour",
+  "rulesText": "Level 2 Transmutation (Paladin, Ranger, Sorcerer, Wizard)\n\nCasting Time: Bonus Action\n\nRange: Touch\n\nComponents: V, S\n\nDuration: 1 hour\n\nYou touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls. The spell ends early if you cast it again.\n\nUsing a Higher-Level Spell Slot. The bonus increases to +2 with a level 3–5 spell slot. The bonus increases to +3 with a level 6+ spell slot."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-17-bestow-curse",
+  "@type": "Rule",
+  "name": "Bestow Curse",
+  "slug": "9-17-bestow-curse",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.17",
+    "heading": "Bestow Curse",
+    "lineStart": 13893,
+    "lineEnd": 13897
+  },
+  "section": "9.17",
+  "rulesText": "The simplest curses are created by the Bestow Curse spell. The effects of such curses are limited and can be ended by the Remove Curse spell.\n\nBestow Curse provides useful benchmarks for gauging the potency of other curses. A curse that lasts for 1 minute equates to a level 3 spell, while one that lasts until dispelled equates to a level 9 spell."
+}

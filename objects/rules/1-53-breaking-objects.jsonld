@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-53-breaking-objects",
+  "@type": "Rule",
+  "name": "Breaking Objects",
+  "slug": "1-53-breaking-objects",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.53",
+    "heading": "Breaking Objects",
+    "lineStart": 1341,
+    "lineEnd": 1343
+  },
+  "section": "1.53",
+  "rulesText": "As an action, you can automatically break or otherwise destroy a fragile, nonmagical object, such as a glass container or a piece of paper. If you try to damage something more resilient, the GM might use the rules on breaking objects in “Rules Glossary.”"
+}

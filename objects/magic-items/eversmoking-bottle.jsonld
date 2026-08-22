@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/eversmoking-bottle",
+  "@type": "MagicItem",
+  "name": "Eversmoking Bottle",
+  "slug": "eversmoking-bottle",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.110",
+    "heading": "Eversmoking Bottle",
+    "lineStart": 15354,
+    "lineEnd": 15364
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Uncommon",
+  "requiresAttunement": false,
+  "rulesText": "Wondrous Item, Uncommon\n\nAs a Magic action, you can open or close this bottle.\n\nOpening the bottle causes thick smoke to billow out, forming a cloud that fills a 60-foot Emanation originating from the bottle. The area within the smoke is Heavily Obscured.\n\nEach minute the bottle remains open, the size of the Emanation increases by 10 feet until it reaches its maximum size of 120 feet.\n\nClosing the bottle causes the cloud to become fixed in place until it disperses after 10 minutes. A strong wind (such as that created by the Gust of Wind spell) disperses the cloud after 1 minute."
+}

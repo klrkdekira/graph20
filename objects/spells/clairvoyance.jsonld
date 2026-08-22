@@ -1,0 +1,30 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/clairvoyance",
+  "@type": "Spell",
+  "name": "Clairvoyance",
+  "slug": "clairvoyance",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.74",
+    "heading": "Clairvoyance",
+    "lineStart": 7244,
+    "lineEnd": 7260
+  },
+  "level": 3,
+  "school": "Divination",
+  "classAvailability": [
+    "Bard",
+    "Cleric",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "castingTime": "10 minutes",
+  "range": "1 mile",
+  "components": "V, S, M (a focus worth 100+ GP, either a jeweled horn for hearing or a glass eye for seeing)",
+  "duration": "Concentration, up to 10 minutes",
+  "rulesText": "Level 3 Divination (Bard, Cleric, Sorcerer, Wizard)\n\nCasting Time: 10 minutes\n\nRange: 1 mile\n\nComponents: V, S, M (a focus worth 100+ GP, either a jeweled horn for hearing or a glass eye for seeing)\n\nDuration: Concentration, up to 10 minutes\n\nYou create an Invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The intangible, invulnerable sensor remains in place for the duration.\n\nWhen you cast the spell, choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As a Bonus Action, you can switch between seeing and hearing.\n\nA creature that sees the sensor (such as a creature benefiting from See Invisibility or Truesight) sees a luminous orb about the size of your fist."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-138-tent-2-gp",
+  "@type": "Rule",
+  "name": "Tent (2 GP)",
+  "slug": "6-138-tent-2-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.138",
+    "heading": "Tent (2 GP)",
+    "lineStart": 6019,
+    "lineEnd": 6021
+  },
+  "section": "6.138",
+  "rulesText": "A Tent sleeps up to two Small or Medium creatures."
+}

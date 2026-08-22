@@ -1,0 +1,136 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/7-3-spell-preparation-by-class",
+  "@type": "Table",
+  "name": "Spell Preparation by Class",
+  "slug": "7-3-spell-preparation-by-class",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.3",
+    "heading": "Preparing Spells",
+    "lineStart": 6261,
+    "lineEnd": 6261
+  },
+  "columns": [
+    "Class",
+    "Change When You ...",
+    "Number of Spells"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Bard"
+        },
+        {
+          "value": "Gain a level"
+        },
+        {
+          "value": "One"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Cleric"
+        },
+        {
+          "value": "Finish a Long Rest"
+        },
+        {
+          "value": "Any"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Druid"
+        },
+        {
+          "value": "Finish a Long Rest"
+        },
+        {
+          "value": "Any"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Paladin"
+        },
+        {
+          "value": "Finish a Long Rest"
+        },
+        {
+          "value": "One"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Ranger"
+        },
+        {
+          "value": "Finish a Long Rest"
+        },
+        {
+          "value": "One"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Sorcerer"
+        },
+        {
+          "value": "Gain a level"
+        },
+        {
+          "value": "One"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Warlock"
+        },
+        {
+          "value": "Gain a level"
+        },
+        {
+          "value": "One"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Wizard"
+        },
+        {
+          "value": "Finish a Long Rest"
+        },
+        {
+          "value": "Any"
+        }
+      ]
+    }
+  ]
+}

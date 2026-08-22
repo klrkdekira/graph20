@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/feats/grappler",
+  "@type": "Feat",
+  "name": "Grappler",
+  "slug": "grappler",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Feats",
+    "section": "5.11",
+    "heading": "Grappler",
+    "lineStart": 5153,
+    "lineEnd": 5165
+  },
+  "category": "General",
+  "prerequisite": "Level 4+, Strength or Dexterity 13+",
+  "repeatable": false,
+  "rulesText": "General Feat (Prerequisite: Level 4+, Strength or Dexterity 13+)\n\nYou gain the following benefits.\n\nAbility Score Increase. Increase your Strength or Dexterity score by 1, to a maximum of 20.\n\nPunch and Grab. When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can use both the Damage and the Grapple option. You can use this benefit only once per turn.\n\nAttack Advantage. You have Advantage on attack rolls against a creature Grappled by you.\n\nFast Wrestler. You don't have to spend extra movement to move a creature Grappled by you if the creature is your size or smaller."
+}

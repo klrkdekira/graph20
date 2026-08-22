@@ -1,0 +1,94 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-27-magic-item-crafting-time-and-cost",
+  "@type": "Table",
+  "name": "Magic Item Crafting Time and Cost",
+  "slug": "10-27-magic-item-crafting-time-and-cost",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.27",
+    "heading": "Time and Cost",
+    "lineStart": 14602,
+    "lineEnd": 14602
+  },
+  "columns": [
+    "Item Rarity",
+    "Time*",
+    "Cost*"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Common"
+        },
+        {
+          "value": "5 days"
+        },
+        {
+          "value": "50 GP"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Uncommon"
+        },
+        {
+          "value": "10 days"
+        },
+        {
+          "value": "200 GP"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Rare"
+        },
+        {
+          "value": "50 days"
+        },
+        {
+          "value": "2,000 GP"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Very Rare"
+        },
+        {
+          "value": "125 days"
+        },
+        {
+          "value": "20,000 GP"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Legendary"
+        },
+        {
+          "value": "250 days"
+        },
+        {
+          "value": "100,000 GP"
+        }
+      ]
+    }
+  ]
+}

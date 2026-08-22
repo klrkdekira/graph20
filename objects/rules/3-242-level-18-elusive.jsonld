@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-242-level-18-elusive",
+  "@type": "Rule",
+  "name": "Level 18: Elusive",
+  "slug": "3-242-level-18-elusive",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.242",
+    "heading": "Level 18: Elusive",
+    "lineStart": 3868,
+    "lineEnd": 3870
+  },
+  "section": "3.242",
+  "rulesText": "You're so evasive that attackers rarely gain the upper hand against you. No attack roll can have Advantage against you unless you have the Incapacitated condition."
+}

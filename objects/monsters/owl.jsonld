@@ -1,0 +1,82 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/owl",
+  "@type": "Monster",
+  "name": "Owl",
+  "slug": "owl",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.67",
+    "heading": "Owl",
+    "lineStart": 29035,
+    "lineEnd": 29063
+  },
+  "sizeTypeAlignment": "Tiny Beast, Unaligned",
+  "sizeAndType": "Tiny Beast",
+  "alignment": "Unaligned",
+  "armorClass": "11",
+  "initiative": "+1 (11)",
+  "hitPoints": "1 (1d4 - 1)",
+  "speed": "5 ft., Fly 60 ft.",
+  "skills": "Perception +5, Stealth +5",
+  "senses": "Darkvision 120 ft.; Passive Perception 15",
+  "languages": "None",
+  "challenge": "0 (XP 10; PB +2)",
+  "armorClassValue": 11,
+  "hitPointsValue": 1,
+  "hitPointsRoll": {
+    "expression": "1d4-1",
+    "count": 1,
+    "sides": 4,
+    "modifier": -1
+  },
+  "challengeRating": "0",
+  "experiencePoints": 10,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 3,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "dex": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "con": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "int": {
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Flyby. The owl doesn't provoke an Opportunity Attack when it flies out of an enemy's reach."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Talons. Melee Attack Roll: +3, reach 5 ft. Hit: 1 Slashing damage."
+    }
+  ],
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 1 (1d4 - 1)\n\nSpeed 5 ft., Fly 60 ft.\n\nSkills Perception +5, Stealth +5\n\nSenses Darkvision 120 ft.; Passive Perception 15\n\nLanguages None\n\nCR 0 (XP 10; PB +2)\n\nTraits\n\nFlyby. The owl doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nTalons. Melee Attack Roll: +3, reach 5 ft. Hit: 1 Slashing damage."
+}

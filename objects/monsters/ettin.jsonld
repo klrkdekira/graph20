@@ -1,0 +1,80 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/ettin",
+  "@type": "Monster",
+  "name": "Ettin",
+  "slug": "ettin",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.87",
+    "heading": "Ettin",
+    "lineStart": 20513,
+    "lineEnd": 20547
+  },
+  "sizeTypeAlignment": "Large Giant, Chaotic Evil",
+  "sizeAndType": "Large Giant",
+  "alignment": "Chaotic Evil",
+  "armorClass": "12",
+  "initiative": "-1 (9)",
+  "hitPoints": "85 (10d10 + 30)",
+  "speed": "40 ft.",
+  "skills": "Perception +4",
+  "immunities": "Blinded, Charmed, Deafened, Frightened, Stunned, Unconscious",
+  "senses": "Darkvision 60 ft.; Passive Perception 14",
+  "languages": "Giant",
+  "gear": "Battleaxe, Morningstar",
+  "challenge": "4 (XP 1,100; PB +2)",
+  "armorClassValue": 12,
+  "hitPointsValue": 85,
+  "hitPointsRoll": {
+    "expression": "10d10+30",
+    "count": 10,
+    "sides": 10,
+    "modifier": 30
+  },
+  "challengeRating": "4",
+  "experiencePoints": 1100,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 21,
+      "modifier": 5,
+      "savingThrow": 5
+    },
+    "dex": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "con": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "int": {
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
+    },
+    "wis": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "cha": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The ettin makes one Battleaxe attack and one Morningstar attack.\n\nBattleaxe. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.\n\nMorningstar. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Piercing damage, and the target has Disadvantage on the next attack roll it makes before the end of its next turn."
+    }
+  ],
+  "rulesText": "Large Giant, Chaotic Evil\n\nAC 12\n\nInitiative -1 (9)\n\nHP 85 (10d10 + 30)\n\nSpeed 40 ft.\n\nSkills Perception +4\n\nImmunities Blinded, Charmed, Deafened, Frightened, Stunned, Unconscious\n\nGear Battleaxe, Morningstar\n\nSenses Darkvision 60 ft.; Passive Perception 14\n\nLanguages Giant\n\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The ettin makes one Battleaxe attack and one Morningstar attack.\n\nBattleaxe. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.\n\nMorningstar. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Piercing damage, and the target has Disadvantage on the next attack roll it makes before the end of its next turn."
+}

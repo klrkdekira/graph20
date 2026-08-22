@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/2-21-step-5-character-creation-details",
+  "@type": "Rule",
+  "name": "Step 5: Character Creation Details",
+  "slug": "2-21-step-5-character-creation-details",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.21",
+    "heading": "Step 5: Character Creation Details",
+    "lineStart": 1901,
+    "lineEnd": 1903
+  },
+  "section": "2.21",
+  "rulesText": "Now fill in the rest of your character sheet."
+}

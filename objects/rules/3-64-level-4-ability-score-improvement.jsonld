@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-64-level-4-ability-score-improvement",
+  "@type": "Rule",
+  "name": "Level 4: Ability Score Improvement",
+  "slug": "3-64-level-4-ability-score-improvement",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.64",
+    "heading": "Level 4: Ability Score Improvement",
+    "lineStart": 2680,
+    "lineEnd": 2682
+  },
+  "section": "3.64",
+  "rulesText": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Cleric levels 8, 12, and 16."
+}

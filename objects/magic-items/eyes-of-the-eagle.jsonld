@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/eyes-of-the-eagle",
+  "@type": "MagicItem",
+  "name": "Eyes of the Eagle",
+  "slug": "eyes-of-the-eagle",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.113",
+    "heading": "Eyes of the Eagle",
+    "lineStart": 15378,
+    "lineEnd": 15382
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Uncommon",
+  "requiresAttunement": false,
+  "rulesText": "Wondrous Item, Uncommon\n\nThese crystal lenses fit over the eyes. While wearing them, you have Advantage on Wisdom (Perception) checks that rely on sight. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/11-34-reactions",
+  "@type": "Rule",
+  "name": "Reactions",
+  "slug": "11-34-reactions",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters",
+    "section": "11.34",
+    "heading": "Reactions",
+    "lineStart": 17558,
+    "lineEnd": 17560
+  },
+  "section": "11.34",
+  "rulesText": "If the monster has Reaction options, those are listed in this section along with their triggers. See “Playing the Game” for details on Reactions."
+}

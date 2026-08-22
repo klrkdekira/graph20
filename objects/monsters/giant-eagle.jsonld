@@ -1,0 +1,75 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/giant-eagle",
+  "@type": "Monster",
+  "name": "Giant Eagle",
+  "slug": "giant-eagle",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.34",
+    "heading": "Giant Eagle",
+    "lineStart": 28036,
+    "lineEnd": 28064
+  },
+  "sizeTypeAlignment": "Large Celestial, Neutral Good",
+  "sizeAndType": "Large Celestial",
+  "alignment": "Neutral Good",
+  "armorClass": "13",
+  "initiative": "+3 (13)",
+  "hitPoints": "26 (4d10 + 4)",
+  "speed": "10 ft., Fly 80 ft.",
+  "skills": "Perception +6",
+  "resistances": "Necrotic, Radiant",
+  "senses": "Passive Perception 16",
+  "languages": "Celestial; understands Common and Primordial (Auran) but can't speak them",
+  "challenge": "1 (XP 200; PB +2)",
+  "armorClassValue": 13,
+  "hitPointsValue": 26,
+  "hitPointsRoll": {
+    "expression": "4d10+4",
+    "count": 4,
+    "sides": 10,
+    "modifier": 4
+  },
+  "challengeRating": "1",
+  "experiencePoints": 200,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "dex": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "con": {
+      "score": 13
+    },
+    "int": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "wis": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "cha": {
+      "score": 10
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The eagle makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage plus 3 (1d6) Radiant damage."
+    }
+  ],
+  "rulesText": "Large Celestial, Neutral Good\n\nAC 13\n\nInitiative +3 (13)\n\nHP 26 (4d10 + 4)\n\nSpeed 10 ft., Fly 80 ft.\n\nSkills Perception +6\n\nResistances Necrotic, Radiant\n\nSenses Passive Perception 16\n\nLanguages Celestial; understands Common and Primordial (Auran) but can't speak them\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The eagle makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage plus 3 (1d6) Radiant damage."
+}

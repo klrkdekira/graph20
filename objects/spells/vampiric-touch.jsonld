@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/vampiric-touch",
+  "@type": "Spell",
+  "name": "Vampiric Touch",
+  "slug": "vampiric-touch",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.350",
+    "heading": "Vampiric Touch",
+    "lineStart": 12423,
+    "lineEnd": 12442
+  },
+  "level": 3,
+  "school": "Necromancy",
+  "classAvailability": [
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "Self",
+  "components": "V, S",
+  "duration": "Concentration, up to 1 minute",
+  "rulesText": "Level 3 Necromancy (Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S\n\nDuration: Concentration, up to 1 minute\n\nThe touch of your shadow-wreathed hand can si-\nphon life force from others to heal your wounds.\n\nMake a melee spell attack against one creature within reach. On a hit, the target takes 3d6 Necrotic damage, and you regain Hit Points equal to half the amount of Necrotic damage dealt.\n\nUntil the spell ends, you can make the attack again on each of your turns as a Magic action, targeting the same creature or a different one.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 3."
+}

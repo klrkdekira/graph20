@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-169-ending-attunement",
+  "@type": "Rule",
+  "name": "Ending Attunement",
+  "slug": "6-169-ending-attunement",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.169",
+    "heading": "Ending Attunement",
+    "lineStart": 6181,
+    "lineEnd": 6185
+  },
+  "section": "6.169",
+  "rulesText": "Your Attunement to an item ends if you no longer satisfy the prerequisites for Attunement, if the item has been more than 100 feet away for at least 24 hours, if you die, or if another creature attunes to\n\nthe item. You can also voluntarily end Attunement by spending another Short Rest focused on the item unless the item is cursed."
+}

@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-188-level-3-oath-of-devotion-spells",
+  "@type": "Rule",
+  "name": "Level 3: Oath of Devotion Spells",
+  "slug": "3-188-level-3-oath-of-devotion-spells",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.188",
+    "heading": "Level 3: Oath of Devotion Spells",
+    "lineStart": 3538,
+    "lineEnd": 3544
+  },
+  "section": "3.188",
+  "rulesText": "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Devotion Spells table, you thereafter always have the listed spells prepared.\n\nOath of Devotion Spells",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-188-oath-of-devotion-spells"
+    }
+  ]
+}

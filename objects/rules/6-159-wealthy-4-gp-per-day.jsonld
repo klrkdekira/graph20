@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-159-wealthy-4-gp-per-day",
+  "@type": "Rule",
+  "name": "Wealthy (4 GP per Day)",
+  "slug": "6-159-wealthy-4-gp-per-day",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.159",
+    "heading": "Wealthy (4 GP per Day)",
+    "lineStart": 6121,
+    "lineEnd": 6123
+  },
+  "section": "6.159",
+  "rulesText": "You're accustomed to the finer things in life and might have servants."
+}

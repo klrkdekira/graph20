@@ -1,0 +1,83 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/ancient-copper-dragon",
+  "@type": "Monster",
+  "name": "Ancient Copper Dragon",
+  "slug": "ancient-copper-dragon",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.66",
+    "heading": "Ancient Copper Dragon",
+    "lineStart": 19704,
+    "lineEnd": 19758
+  },
+  "sizeTypeAlignment": "Gargantuan Dragon (Metallic), Chaotic Good",
+  "sizeAndType": "Gargantuan Dragon (Metallic)",
+  "alignment": "Chaotic Good",
+  "armorClass": "21",
+  "initiative": "+15 (25)",
+  "hitPoints": "367 (21d20 + 147)",
+  "speed": "40 ft., Climb 40 ft., Fly 80 ft.",
+  "skills": "Deception +13, Perception +17, Stealth +8",
+  "immunities": "Acid",
+  "senses": "Blindsight 60 ft., Darkvision 120 ft.;",
+  "languages": "Common, Draconic",
+  "challenge": "21 (XP 33,000, or 41,000 in lair; PB +7)",
+  "armorClassValue": 21,
+  "hitPointsValue": 367,
+  "hitPointsRoll": {
+    "expression": "21d20+147",
+    "count": 21,
+    "sides": 20,
+    "modifier": 147
+  },
+  "challengeRating": "21",
+  "experiencePoints": 33000,
+  "proficiencyBonus": 7,
+  "abilities": {
+    "str": {
+      "score": 27,
+      "modifier": 8,
+      "savingThrow": 8
+    },
+    "dex": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 8
+    },
+    "con": {
+      "score": 25
+    },
+    "int": {
+      "score": 20,
+      "modifier": 5,
+      "savingThrow": 5
+    },
+    "wis": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 10
+    },
+    "cha": {
+      "score": 22
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Legendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The dragon makes three Rend attacks. It can replace one attack with a use of (A) Slowing Breath or (B) Spellcasting to cast Mind Spike (level 5 version).\n\nRend. Melee Attack Roll: +15, reach 15 ft. Hit: 19 (2d10 + 8) Slashing damage plus 9 (2d8) Acid damage.\n\nAcid Breath (Recharge 5–6). Dexterity Saving Throw: DC 22, each creature in an 90-foot-long, 10-foot-wide Line. Failure: 63 (14d8) Acid damage. Success: Half damage.\n\nSlowing Breath. Constitution Saving Throw: DC 22, each creature in a 90-foot Cone. Failure: The target can't take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both. This effect lasts until the end of its next turn.\n\nSpellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 21):\n\nAt Will: Detect Magic, Mind Spike (level 5 version), Minor Illusion, Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell)\n\n1/Day Each: Greater Restoration, Major Image, Project Image"
+    },
+    {
+      "name": "Legendary Actions",
+      "rulesText": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nGiggling Magic. Charisma Saving Throw: DC 21, one creature the dragon can see within 120 feet. Failure: 31 (9d6) Psychic damage. Until the end of its next turn, the target rolls 1d8 whenever it makes an ability check or attack roll and subtracts the number rolled from the D20 Test. Failure or Success: The dragon can't take this action again until the start of its next turn.\n\nMind Jolt. The dragon uses Spellcasting to cast Mind Spike (level 5 version). The dragon can't take this action again until the start of its next turn.\n\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack."
+    }
+  ],
+  "rulesText": "Gargantuan Dragon (Metallic), Chaotic Good\n\nAC 21\n\nInitiative +15 (25)\n\nHP 367 (21d20 + 147)\n\nSpeed 40 ft., Climb 40 ft., Fly 80 ft.\n\nSkills Deception +13, Perception +17, Stealth +8\n\nImmunities Acid\n\nSenses Blindsight 60 ft., Darkvision 120 ft.;\n\nPassive Perception 27\n\nLanguages Common, Draconic\n\nCR 21 (XP 33,000, or 41,000 in lair; PB +7)\n\nTraits\n\nLegendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks. It can replace one attack with a use of (A) Slowing Breath or (B) Spellcasting to cast Mind Spike (level 5 version).\n\nRend. Melee Attack Roll: +15, reach 15 ft. Hit: 19 (2d10 + 8) Slashing damage plus 9 (2d8) Acid damage.\n\nAcid Breath (Recharge 5–6). Dexterity Saving Throw: DC 22, each creature in an 90-foot-long, 10-foot-wide Line. Failure: 63 (14d8) Acid damage. Success: Half damage.\n\nSlowing Breath. Constitution Saving Throw: DC 22, each creature in a 90-foot Cone. Failure: The target can't take Reactions; its Speed is halved; and it can take either an action or a Bonus Action on its turn, not both. This effect lasts until the end of its next turn.\n\nSpellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 21):\n\nAt Will: Detect Magic, Mind Spike (level 5 version), Minor Illusion, Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell)\n\n1/Day Each: Greater Restoration, Major Image, Project Image\n\nLegendary Actions\n\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nGiggling Magic. Charisma Saving Throw: DC 21, one creature the dragon can see within 120 feet. Failure: 31 (9d6) Psychic damage. Until the end of its next turn, the target rolls 1d8 whenever it makes an ability check or attack roll and subtracts the number rolled from the D20 Test. Failure or Success: The dragon can't take this action again until the start of its next turn.\n\nMind Jolt. The dragon uses Spellcasting to cast Mind Spike (level 5 version). The dragon can't take this action again until the start of its next turn.\n\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack."
+}

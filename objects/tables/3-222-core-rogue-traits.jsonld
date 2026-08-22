@@ -1,0 +1,100 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-222-core-rogue-traits",
+  "@type": "Table",
+  "name": "Core Rogue Traits",
+  "slug": "3-222-core-rogue-traits",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.222",
+    "heading": "Rogue",
+    "lineStart": 3760,
+    "lineEnd": 3760
+  },
+  "columns": [
+    "Primary Ability",
+    "Dexterity"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Hit Point Die"
+        },
+        {
+          "value": "D8 per Rogue level"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Saving Throw Proficiencies"
+        },
+        {
+          "value": "Dexterity and Intelligence"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Skill Proficiencies"
+        },
+        {
+          "value": "Choose 4: Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Persuasion, Sleight of Hand, or Stealth"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Weapon Proficiencies"
+        },
+        {
+          "value": "Simple weapons and Martial weapons that have the Finesse or Light property"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Tool Proficiencies"
+        },
+        {
+          "value": "Thieves’ Tools"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Armor Training"
+        },
+        {
+          "value": "Light armor"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Starting Equipment"
+        },
+        {
+          "value": "Choose A or B: (A) Leather Armor, 2 Daggers, Shortsword, Shortbow, 20 Arrows, Quiver, Thieves’ Tools, Burglar’s Pack, and 8 GP; or (B) 100 GP"
+        }
+      ]
+    }
+  ]
+}

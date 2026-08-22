@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-30-skill-list",
+  "@type": "Rule",
+  "name": "Skill List",
+  "slug": "1-30-skill-list",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.30",
+    "heading": "Skill List",
+    "lineStart": 1187,
+    "lineEnd": 1189
+  },
+  "section": "1.30",
+  "rulesText": "The skills are shown on the Skills table, which notes example uses for each skill proficiency as well as the ability check the skill most often applies to."
+}

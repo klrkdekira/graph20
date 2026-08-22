@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/7-2-gaining-spells",
+  "@type": "Rule",
+  "name": "Gaining Spells",
+  "slug": "7-2-gaining-spells",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.2",
+    "heading": "Gaining Spells",
+    "lineStart": 6251,
+    "lineEnd": 6253
+  },
+  "section": "7.2",
+  "rulesText": "Before you can cast a spell, you must have the spell prepared in your mind or have access to the spell from a magic item, such as a Spell Scroll. Your features specify which spells you have access to, if any; whether you always have certain spells prepared; and whether you can change the list of spells you have prepared."
+}

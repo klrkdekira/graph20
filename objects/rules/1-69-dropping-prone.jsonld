@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-69-dropping-prone",
+  "@type": "Rule",
+  "name": "Dropping Prone",
+  "slug": "1-69-dropping-prone",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.69",
+    "heading": "Dropping Prone",
+    "lineStart": 1466,
+    "lineEnd": 1468
+  },
+  "section": "1.69",
+  "rulesText": "On your turn, you can give yourself the Prone condition (see “Rules Glossary”) without using an action or any of your Speed, but you can’t do so if your Speed is 0."
+}

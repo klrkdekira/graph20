@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-164-magic-items",
+  "@type": "Rule",
+  "name": "Magic Items",
+  "slug": "6-164-magic-items",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.164",
+    "heading": "Magic Items",
+    "lineStart": 6153,
+    "lineEnd": 6155
+  },
+  "section": "6.164",
+  "rulesText": "Adventures hold the promise—but not a guarantee—of finding magic items. Hundreds of magic items are detailed in “Magic Items” later in this document. Here’s what you need to know about using magic items."
+}

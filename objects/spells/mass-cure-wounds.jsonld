@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/mass-cure-wounds",
+  "@type": "Spell",
+  "name": "Mass Cure Wounds",
+  "slug": "mass-cure-wounds",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.232",
+    "heading": "Mass Cure Wounds",
+    "lineStart": 10253,
+    "lineEnd": 10267
+  },
+  "level": 5,
+  "school": "Abjuration",
+  "classAvailability": [
+    "Bard",
+    "Cleric",
+    "Druid"
+  ],
+  "castingTime": "Action",
+  "range": "60 feet",
+  "components": "V, S",
+  "duration": "Instantaneous",
+  "rulesText": "Level 5 Abjuration (Bard, Cleric, Druid)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S\n\nDuration: Instantaneous\n\nA wave of healing energy washes out from a point you can see within range. Choose up to six creatures in a 30-foot-radius Sphere centered on that point. Each target regains Hit Points equal to 5d8 plus your spellcasting ability modifier.\n\nUsing a Higher-Level Spell Slot. The healing increases by 1d8 for each spell slot level above 5."
+}

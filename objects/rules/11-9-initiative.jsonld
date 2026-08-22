@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/11-9-initiative",
+  "@type": "Rule",
+  "name": "Initiative",
+  "slug": "11-9-initiative",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters",
+    "section": "11.9",
+    "heading": "Initiative",
+    "lineStart": 17406,
+    "lineEnd": 17410
+  },
+  "section": "11.9",
+  "rulesText": "The Initiative entry specifies the monster's Initiative modifier followed by the monster's Initiative score in parentheses. Use the modifier when you roll to determine a monster's Initiative. A monster's Initiative modifier is typically equal to its Dexterity modifier, but some monsters have additional modifiers, such as Proficiency Bonus, applied to that number.\n\nIf you don't want to roll a monster's Initiative, use the Initiative score as the monster's Initiative in combat. Initiative is further detailed in “Playing the Game.”"
+}

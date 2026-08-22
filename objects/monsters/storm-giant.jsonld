@@ -1,0 +1,84 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/storm-giant",
+  "@type": "Monster",
+  "name": "Storm Giant",
+  "slug": "storm-giant",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.235",
+    "heading": "Storm Giant",
+    "lineStart": 25687,
+    "lineEnd": 25735
+  },
+  "sizeTypeAlignment": "Huge Giant, Chaotic Good",
+  "sizeAndType": "Huge Giant",
+  "alignment": "Chaotic Good",
+  "armorClass": "16",
+  "initiative": "+7 (17)",
+  "hitPoints": "230 (20d12 + 100)",
+  "speed": "50 ft., Fly 25 ft. (hover), Swim 50 ft.",
+  "skills": "Arcana +8, Athletics +14, History +8, Perception +10",
+  "resistances": "Cold",
+  "immunities": "Lightning, Thunder",
+  "senses": "Darkvision 120 ft., Truesight 30 ft.; Passive Perception 20",
+  "languages": "Common, Giant",
+  "challenge": "13 (XP 10,000; PB +5)",
+  "armorClassValue": 16,
+  "hitPointsValue": 230,
+  "hitPointsRoll": {
+    "expression": "20d12+100",
+    "count": 20,
+    "sides": 12,
+    "modifier": 100
+  },
+  "challengeRating": "13",
+  "experiencePoints": 10000,
+  "proficiencyBonus": 5,
+  "abilities": {
+    "str": {
+      "score": 29,
+      "modifier": 9,
+      "savingThrow": 14
+    },
+    "dex": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 20,
+      "modifier": 5,
+      "savingThrow": 10
+    },
+    "int": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "wis": {
+      "score": 20,
+      "modifier": 5,
+      "savingThrow": 10
+    },
+    "cha": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 9
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Amphibious. The giant can breathe air and water."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The giant makes two attacks, using Storm Sword or Thunderbolt in any combination.\n\nStorm Sword. Melee Attack Roll: +14, reach 10 ft.\nHit: 23 (4d6 + 9) Slashing damage plus 13 (3d8) Lightning damage.\n\nThunderbolt. Ranged Attack Roll: +14, range 500 ft.\nHit: 22 (2d12 + 9) Lightning damage, and the target has the Blinded and Deafened conditions until the start of the giant's next turn.\n\nLightning Storm (Recharge 5–6). Dexterity Saving Throw: DC 18, each creature in a 10-foot-radius, 40-foot-high Cylinder originating from a point the giant can see within 500 feet. Failure: 55 (10d10) Lightning damage. Success: Half damage.\n\nSpellcasting. The giant casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 18):\n\nAt Will: Detect Magic, Light\n\n1/Day: Control Weather"
+    }
+  ],
+  "rulesText": "Huge Giant, Chaotic Good\n\nAC 16\n\nInitiative +7 (17)\n\nHP 230 (20d12 + 100)\n\nSpeed 50 ft., Fly 25 ft. (hover), Swim 50 ft.\n\nSkills Arcana +8, Athletics +14, History +8, Perception +10\n\nResistances Cold\n\nImmunities Lightning, Thunder\n\nSenses Darkvision 120 ft., Truesight 30 ft.; Passive Perception 20\n\nLanguages Common, Giant\n\nCR 13 (XP 10,000; PB +5)\n\nTraits\n\nAmphibious. The giant can breathe air and water.\n\nActions\n\nMultiattack. The giant makes two attacks, using Storm Sword or Thunderbolt in any combination.\n\nStorm Sword. Melee Attack Roll: +14, reach 10 ft.\nHit: 23 (4d6 + 9) Slashing damage plus 13 (3d8) Lightning damage.\n\nThunderbolt. Ranged Attack Roll: +14, range 500 ft.\nHit: 22 (2d12 + 9) Lightning damage, and the target has the Blinded and Deafened conditions until the start of the giant's next turn.\n\nLightning Storm (Recharge 5–6). Dexterity Saving Throw: DC 18, each creature in a 10-foot-radius, 40-foot-high Cylinder originating from a point the giant can see within 500 feet. Failure: 55 (10d10) Lightning damage. Success: Half damage.\n\nSpellcasting. The giant casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 18):\n\nAt Will: Detect Magic, Light\n\n1/Day: Control Weather"
+}

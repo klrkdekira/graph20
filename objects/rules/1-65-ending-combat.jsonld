@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-65-ending-combat",
+  "@type": "Rule",
+  "name": "Ending Combat",
+  "slug": "1-65-ending-combat",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.65",
+    "heading": "Ending Combat",
+    "lineStart": 1442,
+    "lineEnd": 1444
+  },
+  "section": "1.65",
+  "rulesText": "Combat ends when one side or the other is defeated, which can mean the creatures are killed or knocked out or have surrendered or fled. Combat can also end when both sides agree to end it."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-58-as-a-multiclass-character",
+  "@type": "Rule",
+  "name": "As a Multiclass Character",
+  "slug": "3-58-as-a-multiclass-character",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.58",
+    "heading": "As a Multiclass Character",
+    "lineStart": 2617,
+    "lineEnd": 2620
+  },
+  "section": "3.58",
+  "rulesText": "- Gain the following traits from the Core Cleric Traits table: Hit Point Die and training with Light and Medium armor and Shields.  \n- Gain the Cleric's level 1 features, which are listed in the Cleric Features table. See the multiclassing rules in “Character Creation” to determine your available spell slots."
+}

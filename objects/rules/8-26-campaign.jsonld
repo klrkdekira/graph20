@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-26-campaign",
+  "@type": "Rule",
+  "name": "Campaign",
+  "slug": "8-26-campaign",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.26",
+    "heading": "Campaign",
+    "lineStart": 12924,
+    "lineEnd": 12926
+  },
+  "section": "8.26",
+  "rulesText": "A campaign is a series of adventures. See also \"Adventure.\""
+}

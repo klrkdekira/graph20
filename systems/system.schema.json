@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/graph20/systems/system.schema.json",
+  "title": "SRD 5.2.1 aggregate manifest",
+  "type": "object",
+  "properties": {
+    "@context": {
+      "const": "https://cheeleong.dev/graph20/systems/context.jsonld"
+    },
+    "@id": {
+      "type": "string",
+      "pattern": "^https://cheeleong\\.dev/graph20/objects/[a-z0-9.-]+$"
+    },
+    "@type": { "const": "SRDSystemData" },
+    "version": { "type": "string", "minLength": 1 },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "author": { "type": "string" },
+        "srdVersion": { "type": "string" },
+        "license": { "const": "CC-BY-4.0" },
+        "licenseUrl": { "type": "string" },
+        "attributionStatement": { "type": "string" },
+        "source": { "type": "object" },
+        "sourceDigest": { "type": "string", "pattern": "^sha256-[0-9a-f]{64}$" },
+        "corpusDigest": { "type": "string", "pattern": "^sha256-[0-9a-f]{64}$" }
+      },
+      "required": [
+        "title",
+        "author",
+        "srdVersion",
+        "license",
+        "licenseUrl",
+        "attributionStatement",
+        "sourceDigest",
+        "corpusDigest"
+      ],
+      "unevaluatedProperties": false
+    },
+    "collections": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": { "@id": { "type": "string" } },
+          "required": ["@id"],
+          "unevaluatedProperties": false
+        }
+      }
+    },
+    "collectionSchemas": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    }
+  },
+  "required": [
+    "@context",
+    "@id",
+    "@type",
+    "version",
+    "metadata",
+    "collections",
+    "collectionSchemas"
+  ],
+  "unevaluatedProperties": false
+}

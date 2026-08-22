@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-1-rules-glossary",
+  "@type": "Rule",
+  "name": "Rules Glossary",
+  "slug": "8-1-rules-glossary",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.1",
+    "heading": "Rules Glossary",
+    "lineStart": 12766,
+    "lineEnd": 12766
+  },
+  "section": "8.1"
+}

@@ -1,0 +1,78 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/grimlock",
+  "@type": "Monster",
+  "name": "Grimlock",
+  "slug": "grimlock",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.124",
+    "heading": "Grimlock",
+    "lineStart": 21779,
+    "lineEnd": 21805
+  },
+  "sizeTypeAlignment": "Medium Aberration, Neutral Evil",
+  "sizeAndType": "Medium Aberration",
+  "alignment": "Neutral Evil",
+  "armorClass": "11",
+  "initiative": "+1 (11)",
+  "hitPoints": "11 (2d8 + 2)",
+  "speed": "30 ft., Climb 30 ft.",
+  "skills": "Athletics +5, Perception +3, Stealth +5",
+  "senses": "Blindsight 30 ft.; Passive Perception 13",
+  "languages": "None",
+  "challenge": "1/4 (XP 50; PB +2)",
+  "armorClassValue": 11,
+  "hitPointsValue": 11,
+  "hitPointsRoll": {
+    "expression": "2d8+2",
+    "count": 2,
+    "sides": 8,
+    "modifier": 2
+  },
+  "challengeRating": "1/4",
+  "experiencePoints": 50,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "dex": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "con": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "int": {
+      "score": 9,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "wis": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "cha": {
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Bone Cudgel. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage plus 2 (1d4) Psychic damage."
+    }
+  ],
+  "rulesText": "Medium Aberration, Neutral Evil\n\nAC 11\n\nInitiative +1 (11)\n\nHP 11 (2d8 + 2)\n\nSpeed 30 ft., Climb 30 ft.\n\nSkills Athletics +5, Perception +3, Stealth +5\n\nSenses Blindsight 30 ft.; Passive Perception 13\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBone Cudgel. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage plus 2 (1d4) Psychic damage."
+}

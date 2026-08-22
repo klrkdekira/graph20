@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/ring-of-telekinesis",
+  "@type": "MagicItem",
+  "name": "Ring of Telekinesis",
+  "slug": "ring-of-telekinesis",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.218",
+    "heading": "Ring of Telekinesis",
+    "lineStart": 16502,
+    "lineEnd": 16506
+  },
+  "itemCategory": "Ring",
+  "rarity": "Very Rare",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "rulesText": "Ring, Very Rare (Requires Attunement)\n\nWhile wearing this ring, you can cast Telekinesis from it."
+}

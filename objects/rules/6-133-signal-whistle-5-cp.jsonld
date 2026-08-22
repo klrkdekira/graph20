@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-133-signal-whistle-5-cp",
+  "@type": "Rule",
+  "name": "Signal Whistle (5 CP)",
+  "slug": "6-133-signal-whistle-5-cp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.133",
+    "heading": "Signal Whistle (5 CP)",
+    "lineStart": 5997,
+    "lineEnd": 5999
+  },
+  "section": "6.133",
+  "rulesText": "When blown as a Utilize action, a Signal Whistle produces a sound that can be heard up to 600 feet away."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-112-map-i-gp",
+  "@type": "Rule",
+  "name": "Map (I GP)",
+  "slug": "6-112-map-i-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.112",
+    "heading": "Map (I GP)",
+    "lineStart": 5903,
+    "lineEnd": 5905
+  },
+  "section": "6.112",
+  "rulesText": "If you consult an accurate Map, you gain a +5 bonus to Wisdom (Survival) checks you make to find your way in the place represented on it."
+}

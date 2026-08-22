@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-26-level-20-primal-champion",
+  "@type": "Rule",
+  "name": "Level 20: Primal Champion",
+  "slug": "3-26-level-20-primal-champion",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.26",
+    "heading": "Level 20: Primal Champion",
+    "lineStart": 2393,
+    "lineEnd": 2395
+  },
+  "section": "3.26",
+  "rulesText": "You embody primal power. Your Strength and Constitution scores increase by 4, to a maximum of 25."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-4-slower-travelers",
+  "@type": "Rule",
+  "name": "Slower Travelers",
+  "slug": "9-4-slower-travelers",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.4",
+    "heading": "Slower Travelers",
+    "lineStart": 13814,
+    "lineEnd": 13816
+  },
+  "section": "9.4",
+  "rulesText": "The group must move at a Slow pace if any group member's Speed is reduced to half or less of normal."
+}

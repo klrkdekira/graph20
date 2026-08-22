@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/2-22-record-class-features",
+  "@type": "Rule",
+  "name": "Record Class Features",
+  "slug": "2-22-record-class-features",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.22",
+    "heading": "Record Class Features",
+    "lineStart": 1905,
+    "lineEnd": 1909
+  },
+  "section": "2.22",
+  "rulesText": "Look at your class's feature table in \"Classes,\" and write down the level 1 features. The class features are detailed there too.\n\nSome class features offer choices. Make sure to read all your features and make any offered choices."
+}

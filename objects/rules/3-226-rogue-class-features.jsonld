@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-226-rogue-class-features",
+  "@type": "Rule",
+  "name": "Rogue Class Features",
+  "slug": "3-226-rogue-class-features",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.226",
+    "heading": "Rogue Class Features",
+    "lineStart": 3774,
+    "lineEnd": 3776
+  },
+  "section": "3.226",
+  "rulesText": "As a Rogue, you gain the following class features when you reach the specified Rogue levels. These features are listed in the Rogue Features table."
+}

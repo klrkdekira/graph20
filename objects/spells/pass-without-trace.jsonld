@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/pass-without-trace",
+  "@type": "Spell",
+  "name": "Pass without Trace",
+  "slug": "pass-without-trace",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.253",
+    "heading": "Pass without Trace",
+    "lineStart": 10617,
+    "lineEnd": 10629
+  },
+  "level": 2,
+  "school": "Abjuration",
+  "classAvailability": [
+    "Druid",
+    "Ranger"
+  ],
+  "castingTime": "Action",
+  "range": "Self",
+  "components": "V, S, M (ashes from burned mistletoe)",
+  "duration": "Concentration, up to 1 hour",
+  "rulesText": "Level 2 Abjuration (Druid, Ranger)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S, M (ashes from burned mistletoe)\n\nDuration: Concentration, up to 1 hour\n\nYou radiate a concealing aura in a 30-foot Emanation for the duration. While in the aura, you and each creature you choose have a +10 bonus to Dexterity (Stealth) checks and leave no tracks."
+}

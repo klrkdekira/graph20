@@ -1,0 +1,78 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/dire-wolf",
+  "@type": "Monster",
+  "name": "Dire Wolf",
+  "slug": "dire-wolf",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.19",
+    "heading": "Dire Wolf",
+    "lineStart": 27608,
+    "lineEnd": 27636
+  },
+  "sizeTypeAlignment": "Large Beast, Unaligned",
+  "sizeAndType": "Large Beast",
+  "alignment": "Unaligned",
+  "armorClass": "14",
+  "initiative": "+2 (12)",
+  "hitPoints": "22 (3d10 + 6)",
+  "speed": "50 ft.",
+  "skills": "Perception +5, Stealth +4",
+  "senses": "Darkvision 60 ft.; Passive Perception 15",
+  "languages": "None",
+  "challenge": "1 (XP 200; PB +2)",
+  "armorClassValue": 14,
+  "hitPointsValue": 22,
+  "hitPointsRoll": {
+    "expression": "3d10+6",
+    "count": 3,
+    "sides": 10,
+    "modifier": 6
+  },
+  "challengeRating": "1",
+  "experiencePoints": 200,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "dex": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 15
+    },
+    "int": {
+      "score": 3,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 7
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Pack Tactics. The wolf has Advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Piercing damage. If the target is a Large or smaller creature, it has the Prone condition."
+    }
+  ],
+  "rulesText": "Large Beast, Unaligned\n\nAC 14\n\nInitiative +2 (12)\n\nHP 22 (3d10 + 6)\n\nSpeed 50 ft.\n\nSkills Perception +5, Stealth +4\n\nSenses Darkvision 60 ft.; Passive Perception 15\n\nLanguages None\n\nCR 1 (XP 200; PB +2)\n\nTraits\n\nPack Tactics. The wolf has Advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Piercing damage. If the target is a Large or smaller creature, it has the Prone condition."
+}

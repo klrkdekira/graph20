@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-16-level-5-fast-movement",
+  "@type": "Rule",
+  "name": "Level 5: Fast Movement",
+  "slug": "3-16-level-5-fast-movement",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.16",
+    "heading": "Level 5: Fast Movement",
+    "lineStart": 2341,
+    "lineEnd": 2343
+  },
+  "section": "3.16",
+  "rulesText": "Your speed increases by 10 feet while you aren't wearing Heavy armor."
+}

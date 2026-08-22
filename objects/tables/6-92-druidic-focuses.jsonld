@@ -1,0 +1,66 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/6-92-druidic-focuses",
+  "@type": "Table",
+  "name": "Druidic Focuses",
+  "slug": "6-92-druidic-focuses",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.92",
+    "heading": "Druidic Focus (Varies)",
+    "lineStart": 5811,
+    "lineEnd": 5811
+  },
+  "columns": [
+    "Focus",
+    "Weight",
+    "Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Sprig of mistletoe"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "1 GP"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Wooden staff (also a Quarterstaff)"
+        },
+        {
+          "value": "4 lb."
+        },
+        {
+          "value": "5 GP"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Yew wand"
+        },
+        {
+          "value": "1 lb."
+        },
+        {
+          "value": "10 GP"
+        }
+      ]
+    }
+  ]
+}

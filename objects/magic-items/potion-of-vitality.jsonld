@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/potion-of-vitality",
+  "@type": "MagicItem",
+  "name": "Potion of Vitality",
+  "slug": "potion-of-vitality",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.199",
+    "heading": "Potion of Vitality",
+    "lineStart": 16310,
+    "lineEnd": 16316
+  },
+  "itemCategory": "Potion",
+  "rarity": "Very Rare",
+  "requiresAttunement": false,
+  "rulesText": "Potion, Very Rare\n\nWhen you drink this potion, it removes any Exhaustion levels you have and ends the Poisoned condition on you. For the next 24 hours, you regain the maximum number of Hit Points for any Hit Point Die you spend.\n\nThis potion's crimson liquid regularly pulses with dull light, calling to mind a heartbeat."
+}

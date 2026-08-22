@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-68-expertise",
+  "@type": "Rule",
+  "name": "Expertise",
+  "slug": "8-68-expertise",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.68",
+    "heading": "Expertise",
+    "lineStart": 13163,
+    "lineEnd": 13169
+  },
+  "section": "8.68",
+  "rulesText": "Expertise is a feature that enhances your use of a skill proficiency. When you make an ability check with a skill proficiency in which you have Expertise, your Proficiency Bonus is doubled for that check unless the bonus is doubled by another feature.\n\nIf you gain Expertise, you gain it in one skill in which you have proficiency. You can't have Expertise in the same skill proficiency more than once.\n\nSee also “Playing the Game” (“Proficiency”)."
+}

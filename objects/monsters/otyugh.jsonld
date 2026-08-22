@@ -1,0 +1,77 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/otyugh",
+  "@type": "Monster",
+  "name": "Otyugh",
+  "slug": "otyugh",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.180",
+    "heading": "Otyugh",
+    "lineStart": 23744,
+    "lineEnd": 23774
+  },
+  "sizeTypeAlignment": "Large Aberration, Neutral",
+  "sizeAndType": "Large Aberration",
+  "alignment": "Neutral",
+  "armorClass": "14",
+  "initiative": "+0 (10)",
+  "hitPoints": "104 (11d10 + 44)",
+  "speed": "30 ft.",
+  "senses": "Darkvision 120 ft.; Passive Perception 11",
+  "languages": "Otyugh; telepathy 120 ft. (doesn't allow the receiving creature to respond telepathically)",
+  "challenge": "5 (XP 1,800; PB +3)",
+  "armorClassValue": 14,
+  "hitPointsValue": 104,
+  "hitPointsRoll": {
+    "expression": "11d10+44",
+    "count": 11,
+    "sides": 10,
+    "modifier": 44
+  },
+  "challengeRating": "5",
+  "experiencePoints": 1800,
+  "proficiencyBonus": 3,
+  "abilities": {
+    "str": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "dex": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "con": {
+      "score": 19,
+      "modifier": 4,
+      "savingThrow": 7
+    },
+    "int": {
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
+    },
+    "wis": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The otyugh makes one Bite attack and two Tentacle attacks.\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage, and the target has the Poisoned condition. Whenever the Poisoned target finishes a Long Rest, it is subjected to the following effect. Constitution Saving Throw: DC 15. Failure: The target's Hit Point maximum decreases by 5 (1d10) and doesn't return to normal until the Poisoned condition ends on the target. Success: The Poisoned condition ends.\n\nTentacle. Melee Attack Roll: +6, reach 10 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from one of two tentacles.\n\nTentacle Slam. Constitution Saving Throw: DC 14, each creature Grappled by the otyugh. Failure: 16 (3d8 + 3) Bludgeoning damage, and the target has the Stunned condition until the start of the otyugh's next turn. Success: Half damage only."
+    }
+  ],
+  "rulesText": "Large Aberration, Neutral\n\nAC 14\n\nInitiative +0 (10)\n\nHP 104 (11d10 + 44)\n\nSpeed 30 ft.\n\nSenses Darkvision 120 ft.; Passive Perception 11\n\nLanguages Otyugh; telepathy 120 ft. (doesn't allow the receiving creature to respond telepathically)\n\nCR 5 (XP 1,800; PB +3)\n\nActions\n\nMultiattack. The otyugh makes one Bite attack and two Tentacle attacks.\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage, and the target has the Poisoned condition. Whenever the Poisoned target finishes a Long Rest, it is subjected to the following effect. Constitution Saving Throw: DC 15. Failure: The target's Hit Point maximum decreases by 5 (1d10) and doesn't return to normal until the Poisoned condition ends on the target. Success: The Poisoned condition ends.\n\nTentacle. Melee Attack Roll: +6, reach 10 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from one of two tentacles.\n\nTentacle Slam. Constitution Saving Throw: DC 14, each creature Grappled by the otyugh. Failure: 16 (3d8 + 3) Bludgeoning damage, and the target has the Stunned condition until the start of the otyugh's next turn. Success: Half damage only."
+}

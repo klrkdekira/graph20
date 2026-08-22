@@ -1,0 +1,82 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/cloud-giant",
+  "@type": "Monster",
+  "name": "Cloud Giant",
+  "slug": "cloud-giant",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.59",
+    "heading": "Cloud Giant",
+    "lineStart": 19481,
+    "lineEnd": 19521
+  },
+  "sizeTypeAlignment": "Huge Giant, Neutral",
+  "sizeAndType": "Huge Giant",
+  "alignment": "Neutral",
+  "armorClass": "14",
+  "initiative": "+4 (14)",
+  "hitPoints": "200 (16d12 + 96)",
+  "speed": "40 ft., Fly 20 ft. (hover)",
+  "skills": "Insight +7, Perception +11",
+  "senses": "Passive Perception 21",
+  "languages": "Common, Giant",
+  "challenge": "9 (XP 5,000; PB +4)",
+  "armorClassValue": 14,
+  "hitPointsValue": 200,
+  "hitPointsRoll": {
+    "expression": "16d12+96",
+    "count": 16,
+    "sides": 12,
+    "modifier": 96
+  },
+  "challengeRating": "9",
+  "experiencePoints": 5000,
+  "proficiencyBonus": 4,
+  "abilities": {
+    "str": {
+      "score": 27,
+      "modifier": 8,
+      "savingThrow": 8
+    },
+    "dex": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "con": {
+      "score": 22,
+      "modifier": 6,
+      "savingThrow": 10
+    },
+    "int": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "wis": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 7
+    },
+    "cha": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The giant makes two attacks, using Thunderous Mace or Thundercloud in any combination. It can replace one attack with a use of Spellcasting to cast Fog Cloud.\n\nThunderous Mace. Melee Attack Roll: +12, reach 10 ft. Hit: 21 (3d8 + 8) Bludgeoning damage plus 7 (2d6) Thunder damage.\n\nThundercloud. Ranged Attack Roll: +12, range 240 ft. Hit: 18 (3d6 + 8) Thunder damage, and the target has the Incapacitated condition until the end of its next turn.\n\nSpellcasting. The giant casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 15):\n\nAt Will: Detect Magic, Fog Cloud, Light\n\n1/Day Each: Control Weather, Gaseous Form, Telekinesis"
+    },
+    {
+      "name": "Bonus Actions",
+      "rulesText": "Misty Step. The giant casts the Misty Step spell, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "rulesText": "Huge Giant, Neutral\n\nAC 14\n\nInitiative +4 (14)\n\nHP 200 (16d12 + 96)\n\nSpeed 40 ft., Fly 20 ft. (hover)\n\nSkills Insight +7, Perception +11\n\nSenses Passive Perception 21\n\nLanguages Common, Giant\n\nCR 9 (XP 5,000; PB +4)\n\nActions\n\nMultiattack. The giant makes two attacks, using Thunderous Mace or Thundercloud in any combination. It can replace one attack with a use of Spellcasting to cast Fog Cloud.\n\nThunderous Mace. Melee Attack Roll: +12, reach 10 ft. Hit: 21 (3d8 + 8) Bludgeoning damage plus 7 (2d6) Thunder damage.\n\nThundercloud. Ranged Attack Roll: +12, range 240 ft. Hit: 18 (3d6 + 8) Thunder damage, and the target has the Incapacitated condition until the end of its next turn.\n\nSpellcasting. The giant casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 15):\n\nAt Will: Detect Magic, Fog Cloud, Light\n\n1/Day Each: Control Weather, Gaseous Form, Telekinesis\n\nBonus Actions\n\nMisty Step. The giant casts the Misty Step spell, using the same spellcasting ability as Spellcasting."
+}

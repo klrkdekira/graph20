@@ -1,0 +1,59 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-214-ring-of-shooting-stars-table-1",
+  "@type": "Table",
+  "name": "Ring of Shooting Stars Table 1",
+  "slug": "10-214-ring-of-shooting-stars-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.214",
+    "heading": "Ring of Shooting Stars",
+    "lineStart": 16473,
+    "lineEnd": 16473
+  },
+  "columns": [
+    "Number of Spheres",
+    "Lightning Damage",
+    "Number of Spheres",
+    "Lightning Damage"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "4d12"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2d6"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "5d4"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "2d4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-96-damage-types",
+  "@type": "Rule",
+  "name": "Damage Types",
+  "slug": "1-96-damage-types",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.96",
+    "heading": "Damage Types",
+    "lineStart": 1622,
+    "lineEnd": 1626
+  },
+  "section": "1.96",
+  "rulesText": "Each instance of damage has a type, like Fire or Slashing. Damage types are listed in “Rules\n\nGlossary\" and have no rules of their own, but other rules, such as Resistance, rely on damage types."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-6-special-movement",
+  "@type": "Rule",
+  "name": "Special Movement",
+  "slug": "9-6-special-movement",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.6",
+    "heading": "Special Movement",
+    "lineStart": 13822,
+    "lineEnd": 13834
+  },
+  "section": "9.6",
+  "rulesText": "If a party can travel at a high Speed for an extended time, as with a spell such as Wind Walk or a magic item such as a Carpet of Flying, translate the party's Speed into travel rates using these rules:\n\nMiles per hour = Speed ÷ 10\n\nMiles per day (Normal pace) = Miles per hour × number of hours traveled (typically 8)\n\nFast pace = Miles per day × 1½ (round down)\n\nSlow pace = Miles per day × 2/3 (round down)\n\nIf the characters are flying or their special movement allows them to ignore Difficult Terrain, they can move at a Fast pace regardless of the terrain."
+}

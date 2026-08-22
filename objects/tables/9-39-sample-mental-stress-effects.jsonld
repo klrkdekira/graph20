@@ -1,0 +1,66 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/9-39-sample-mental-stress-effects",
+  "@type": "Table",
+  "name": "Sample Mental Stress Effects",
+  "slug": "9-39-sample-mental-stress-effects",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.39",
+    "heading": "Mental Stress Effects",
+    "lineStart": 14045,
+    "lineEnd": 14045
+  },
+  "columns": [
+    "Example",
+    "Save DC",
+    "Psychic Damage"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "A character ingests a hallucinogenic substance that distorts the character&#x27;s perception of reality."
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "1d6"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "A character touches a fiendish idol that tears at the character&#x27;s mind, threatening to shatter it."
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "3d6"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "A magical trap flings a character into the Far Realm until the end of that character&#x27;s next turn."
+        },
+        {
+          "value": "20"
+        },
+        {
+          "value": "9d6"
+        }
+      ]
+    }
+  ]
+}

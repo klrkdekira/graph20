@@ -1,0 +1,83 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/swarm-of-insects",
+  "@type": "Monster",
+  "name": "Swarm of Insects",
+  "slug": "swarm-of-insects",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.84",
+    "heading": "Swarm of Insects",
+    "lineStart": 29531,
+    "lineEnd": 29563
+  },
+  "sizeTypeAlignment": "Medium Swarm of Tiny Beasts, Unaligned",
+  "sizeAndType": "Medium Swarm of Tiny Beasts",
+  "alignment": "Unaligned",
+  "armorClass": "11",
+  "initiative": "+1 (11)",
+  "hitPoints": "19 (3d8 + 6)",
+  "speed": "20 ft., Climb or Fly 20 ft. (GM's choice)",
+  "resistances": "Bludgeoning, Piercing, Slashing",
+  "immunities": "Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned",
+  "senses": "Blindsight 30 ft.; Passive Perception 8",
+  "languages": "None",
+  "challenge": "1/2 (XP 100; PB +2)",
+  "armorClassValue": 11,
+  "hitPointsValue": 19,
+  "hitPointsRoll": {
+    "expression": "3d8+6",
+    "count": 3,
+    "sides": 8,
+    "modifier": 6
+  },
+  "challengeRating": "1/2",
+  "experiencePoints": 100,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 3,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "dex": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "con": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "int": {
+      "score": 1,
+      "modifier": -5,
+      "savingThrow": -5
+    },
+    "wis": {
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
+    },
+    "cha": {
+      "score": 1,
+      "modifier": -5,
+      "savingThrow": -5
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Spider Climb. If the swarm has a Climb Speed, the swarm can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nSwarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain Hit Points or gain Temporary Hit Points."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Bites. Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Poison damage, or 3 (1d4 + 1) Poison damage if the swarm is Bloodied."
+    }
+  ],
+  "rulesText": "Medium Swarm of Tiny Beasts, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 19 (3d8 + 6)\n\nSpeed 20 ft., Climb or Fly 20 ft. (GM's choice)\n\nResistances Bludgeoning, Piercing, Slashing\n\nImmunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned\n\nSenses Blindsight 30 ft.; Passive Perception 8\n\nLanguages None\n\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nSpider Climb. If the swarm has a Climb Speed, the swarm can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nSwarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain Hit Points or gain Temporary Hit Points.\n\nActions\n\nBites. Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Poison damage, or 3 (1d4 + 1) Poison damage if the swarm is Bloodied."
+}

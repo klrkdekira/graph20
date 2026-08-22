@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-323-thirsting-blade",
+  "@type": "Rule",
+  "name": "Thirsting Blade",
+  "slug": "3-323-thirsting-blade",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.323",
+    "heading": "Thirsting Blade",
+    "lineStart": 4479,
+    "lineEnd": 4483
+  },
+  "section": "3.323",
+  "rulesText": "Prerequisite: Level 5+ Warlock, Pact of the Blade Invocation\n\nYou gain the Extra Attack feature for your pact weapon only. With that feature, you can attack twice with the weapon instead of once when you take the Attack action on your turn."
+}

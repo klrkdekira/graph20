@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-41-exploration",
+  "@type": "Rule",
+  "name": "Exploration",
+  "slug": "1-41-exploration",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.41",
+    "heading": "Exploration",
+    "lineStart": 1271,
+    "lineEnd": 1273
+  },
+  "section": "1.41",
+  "rulesText": "Exploration involves delving into places that are dangerous and full of mystery. The rules in this section detail some of the ways adventurers interact with the environment in such places."
+}

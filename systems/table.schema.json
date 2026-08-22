@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/graph20/systems/table.schema.json",
+  "title": "SRD 5.2.1 Table",
+  "$ref": "common.schema.json#/$defs/EntityBase",
+  "properties": {
+    "@type": { "const": "Table" },
+    "columns": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "rows": {
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/$defs/TableRow" }
+    },
+    "notes": { "type": "string" }
+  },
+  "required": ["columns", "rows"],
+  "unevaluatedProperties": false
+}

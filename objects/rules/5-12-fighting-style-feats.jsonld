@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/5-12-fighting-style-feats",
+  "@type": "Rule",
+  "name": "Fighting Style Feats",
+  "slug": "5-12-fighting-style-feats",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Feats",
+    "section": "5.12",
+    "heading": "Fighting Style Feats",
+    "lineStart": 5167,
+    "lineEnd": 5167
+  },
+  "section": "5.12"
+}

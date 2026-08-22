@@ -1,0 +1,15 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1",
+  "@type": "Source",
+  "name": "System Reference Document 5.2.1",
+  "slug": "srd-5-2-1",
+  "author": "Wizards of the Coast LLC",
+  "srdVersion": "5.2.1",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "attributionStatement": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
+  "canonicalUrl": "https://www.dndbeyond.com/srd",
+  "sourceFile": "SRD_CC_v5.2.1.md",
+  "contentDigest": "sha256-651440c82e5f30ff76469e5a9e589bfca91b17945e581126547a61261a79e042"
+}

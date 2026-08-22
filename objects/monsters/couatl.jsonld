@@ -1,0 +1,87 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/couatl",
+  "@type": "Monster",
+  "name": "Couatl",
+  "slug": "couatl",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.67",
+    "heading": "Couatl",
+    "lineStart": 19760,
+    "lineEnd": 19807
+  },
+  "sizeTypeAlignment": "Medium Celestial, Lawful Good",
+  "sizeAndType": "Medium Celestial",
+  "alignment": "Lawful Good",
+  "armorClass": "19",
+  "initiative": "+5 (15)",
+  "hitPoints": "60 (8d8 + 24)",
+  "speed": "30 ft., Fly 90 ft.",
+  "resistances": "Bludgeoning, Piercing, Slashing",
+  "immunities": "Psychic, Radiant",
+  "senses": "Truesight 120 ft.; Passive Perception 15",
+  "languages": "All; telepathy 120 ft.",
+  "challenge": "4 (XP 1,100; PB +2)",
+  "armorClassValue": 19,
+  "hitPointsValue": 60,
+  "hitPointsRoll": {
+    "expression": "8d8+24",
+    "count": 8,
+    "sides": 8,
+    "modifier": 24
+  },
+  "challengeRating": "4",
+  "experiencePoints": 1100,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "dex": {
+      "score": 20,
+      "modifier": 5,
+      "savingThrow": 5
+    },
+    "con": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 5
+    },
+    "int": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "wis": {
+      "score": 20,
+      "modifier": 5,
+      "savingThrow": 7
+    },
+    "cha": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Shielded Mind. The couatl's thoughts can't be read by any means, and other creatures can communicate with it telepathically only if it allows them."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Bite. Melee Attack Roll: +7, reach 5 ft. Hit: 11 (1d12 + 5) Piercing damage, and the target has the Poisoned condition until the end of the couatl's next turn.\n\nConstrict. Strength Saving Throw: DC 15, one Medium or smaller creature the couatl can see within 5 feet.\nFailure: 8 (1d6 + 5) Bludgeoning damage. The target has the Grappled condition (escape DC 13), and it has the Restrained condition until the grapple ends.\n\nSpellcasting. The couatl casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save DC 15):\n\nAt Will: Detect Evil and Good, Detect Magic, Detect Thoughts, Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell,\n\nand no Concentration or Temporary Hit Points required to maintain the spell)\n\n1/Day Each: Create Food and Water, Dream, Greater Restoration, Scrying, Sleep"
+    },
+    {
+      "name": "Bonus Actions",
+      "rulesText": "Divine Aid (2/Day). The couatl casts Bless, Lesser Restoration, or Sanctuary, requiring no spell components and using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "rulesText": "Medium Celestial, Lawful Good\n\nAC 19\n\nInitiative +5 (15)\n\nHP 60 (8d8 + 24)\n\nSpeed 30 ft., Fly 90 ft.\n\nResistances Bludgeoning, Piercing, Slashing\n\nImmunities Psychic, Radiant\n\nSenses Truesight 120 ft.; Passive Perception 15\n\nLanguages All; telepathy 120 ft.\n\nCR 4 (XP 1,100; PB +2)\n\nTraits\n\nShielded Mind. The couatl's thoughts can't be read by any means, and other creatures can communicate with it telepathically only if it allows them.\n\nActions\n\nBite. Melee Attack Roll: +7, reach 5 ft. Hit: 11 (1d12 + 5) Piercing damage, and the target has the Poisoned condition until the end of the couatl's next turn.\n\nConstrict. Strength Saving Throw: DC 15, one Medium or smaller creature the couatl can see within 5 feet.\nFailure: 8 (1d6 + 5) Bludgeoning damage. The target has the Grappled condition (escape DC 13), and it has the Restrained condition until the grapple ends.\n\nSpellcasting. The couatl casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save DC 15):\n\nAt Will: Detect Evil and Good, Detect Magic, Detect Thoughts, Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell,\n\nand no Concentration or Temporary Hit Points required to maintain the spell)\n\n1/Day Each: Create Food and Water, Dream, Greater Restoration, Scrying, Sleep\n\nBonus Actions\n\nDivine Aid (2/Day). The couatl casts Bless, Lesser Restoration, or Sanctuary, requiring no spell components and using the same spellcasting ability as Spellcasting."
+}

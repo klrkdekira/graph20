@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-204-level-4-ability-score-improvement",
+  "@type": "Rule",
+  "name": "Level 4: Ability Score Improvement",
+  "slug": "3-204-level-4-ability-score-improvement",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.204",
+    "heading": "Level 4: Ability Score Improvement",
+    "lineStart": 3648,
+    "lineEnd": 3650
+  },
+  "section": "3.204",
+  "rulesText": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Ranger levels 8, 12, and 16."
+}

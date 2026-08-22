@@ -1,0 +1,89 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/2-8-ability-scores-and-backgrounds",
+  "@type": "Table",
+  "name": "Ability Scores and Backgrounds",
+  "slug": "2-8-ability-scores-and-backgrounds",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.8",
+    "heading": "Choose a Background",
+    "lineStart": 1770,
+    "lineEnd": 1770
+  },
+  "columns": [
+    "Ability",
+    "Background"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Strength"
+        },
+        {
+          "value": "Soldier"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Dexterity"
+        },
+        {
+          "value": "Soldier"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Constitution"
+        },
+        {
+          "value": "Soldier"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Intelligence"
+        },
+        {
+          "value": "Acolyte"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Wisdom"
+        },
+        {
+          "value": "Acolyte"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Charisma"
+        },
+        {
+          "value": "Acolyte"
+        }
+      ]
+    }
+  ]
+}

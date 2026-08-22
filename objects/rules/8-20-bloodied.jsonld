@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-20-bloodied",
+  "@type": "Rule",
+  "name": "Bloodied",
+  "slug": "8-20-bloodied",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.20",
+    "heading": "Bloodied",
+    "lineStart": 12882,
+    "lineEnd": 12884
+  },
+  "section": "8.20",
+  "rulesText": "A creature is Bloodied while it has half its Hit Points or fewer remaining."
+}

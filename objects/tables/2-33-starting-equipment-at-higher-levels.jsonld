@@ -1,0 +1,80 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/2-33-starting-equipment-at-higher-levels",
+  "@type": "Table",
+  "name": "Starting Equipment at Higher Levels",
+  "slug": "2-33-starting-equipment-at-higher-levels",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.33",
+    "heading": "Creating Your Character",
+    "lineStart": 2016,
+    "lineEnd": 2016
+  },
+  "columns": [
+    "Starting Level",
+    "Equipment and Money",
+    "Magic Items"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "2–4"
+        },
+        {
+          "value": "Normal starting equipment"
+        },
+        {
+          "value": "1 Common"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "5–10"
+        },
+        {
+          "value": "500 GP plus 1d10 × 25 GP plus normal starting equipment"
+        },
+        {
+          "value": "1 Common, 1 Uncommon"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "11–16"
+        },
+        {
+          "value": "5,000 gp plus 1d10 × 250 GP plus normal starting equipment"
+        },
+        {
+          "value": "2 Common, 3 Uncommon, 1 Rare"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "17–20"
+        },
+        {
+          "value": "20,000 GP plus 1d10 × 250 GP plus normal starting equipment"
+        },
+        {
+          "value": "2 Common, 4 Uncommon, 3 Rare, 1 Very Rare"
+        }
+      ]
+    }
+  ]
+}

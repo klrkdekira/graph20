@@ -1,0 +1,78 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/weasel",
+  "@type": "Monster",
+  "name": "Weasel",
+  "slug": "weasel",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.95",
+    "heading": "Weasel",
+    "lineStart": 29863,
+    "lineEnd": 29887
+  },
+  "sizeTypeAlignment": "Tiny Beast, Unaligned",
+  "sizeAndType": "Tiny Beast",
+  "alignment": "Unaligned",
+  "armorClass": "13",
+  "initiative": "+3 (13)",
+  "hitPoints": "1 (1d4 - 1)",
+  "speed": "30 ft., Climb 30 ft.",
+  "skills": "Acrobatics +5, Perception +3, Stealth +5",
+  "senses": "Darkvision 60 ft.; Passive Perception 13",
+  "languages": "None",
+  "challenge": "0 (XP 10; PB +2)",
+  "armorClassValue": 13,
+  "hitPointsValue": 1,
+  "hitPointsRoll": {
+    "expression": "1d4-1",
+    "count": 1,
+    "sides": 4,
+    "modifier": -1
+  },
+  "challengeRating": "0",
+  "experiencePoints": 10,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 3,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "dex": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "con": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "int": {
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 3,
+      "modifier": -4,
+      "savingThrow": -4
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 1 Piercing damage."
+    }
+  ],
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 1 (1d4 - 1)\n\nSpeed 30 ft., Climb 30 ft.\n\nSkills Acrobatics +5, Perception +3, Stealth +5\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages None\n\nCR 0 (XP 10; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 1 Piercing damage."
+}

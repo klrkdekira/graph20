@@ -1,0 +1,75 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/wolf",
+  "@type": "Monster",
+  "name": "Wolf",
+  "slug": "wolf",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.96",
+    "heading": "Wolf",
+    "lineStart": 29889,
+    "lineEnd": 29917
+  },
+  "sizeTypeAlignment": "Medium Beast, Unaligned",
+  "sizeAndType": "Medium Beast",
+  "alignment": "Unaligned",
+  "armorClass": "12",
+  "initiative": "+2 (12)",
+  "hitPoints": "11 (2d8 + 2)",
+  "speed": "40 ft.",
+  "skills": "Perception +5, Stealth +4",
+  "senses": "Darkvision 60 ft.; Passive Perception 15",
+  "languages": "None",
+  "challenge": "1/4 (XP 50; PB +2)",
+  "armorClassValue": 12,
+  "hitPointsValue": 11,
+  "hitPointsRoll": {
+    "expression": "2d8+2",
+    "count": 2,
+    "sides": 8,
+    "modifier": 2
+  },
+  "challengeRating": "1/4",
+  "experiencePoints": 50,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "dex": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "int": {
+      "score": 3,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 6
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Pack Tactics. The wolf has Advantage on attack rolls against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition."
+    }
+  ],
+  "rulesText": "Medium Beast, Unaligned\n\nAC 12\n\nInitiative +2 (12)\n\nHP 11 (2d8 + 2)\n\nSpeed 40 ft.\n\nSkills Perception +5, Stealth +4\n\nSenses Darkvision 60 ft.; Passive Perception 15\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nPack Tactics. The wolf has Advantage on attack rolls against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition."
+}

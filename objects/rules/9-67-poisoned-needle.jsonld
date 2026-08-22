@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-67-poisoned-needle",
+  "@type": "Rule",
+  "name": "Poisoned Needle",
+  "slug": "9-67-poisoned-needle",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.67",
+    "heading": "Poisoned Needle",
+    "lineStart": 14285,
+    "lineEnd": 14303
+  },
+  "section": "9.67",
+  "rulesText": "Nuisance Trap (Levels 1–4)\n\nTrigger: A creature opens the trap's lock improperly or fails to disarm the trap\n\nDuration: Instantaneous\n\nA poisoned needle is hidden in a lock. When a creature opens the lock with any object other than the proper key, the needle springs out and stabs the creature. The creature makes a DC 11 Constitution saving throw. On a failed save, the creature takes 5 (1d10) Poison damage and has the Poisoned\n\ncondition for 1 hour. On a successful save, the creature takes half as much damage only.\n\nAvoid. The trap doesn't trigger if the lock is opened using a Knock spell or similar magic.\n\nDetect and Disarm. As a Search action, a creature can examine the trapped lock and make a DC 15 Wisdom (Perception) check, detecting the needle on a successful check. Once the trap is detected, a character can take an action to try to disarm the trap, doing so with a successful DC 15 Dexterity (Sleight of Hand) check. On a failed check, the creature triggers the trap.\n\nAt Higher Levels. You can scale the trap for higher levels by increasing the damage and the save DC, as shown in the following table.",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/9-67-poisoned-needle-table-1"
+    }
+  ]
+}

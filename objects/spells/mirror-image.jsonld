@@ -1,0 +1,30 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/mirror-image",
+  "@type": "Spell",
+  "name": "Mirror Image",
+  "slug": "mirror-image",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.245",
+    "heading": "Mirror Image",
+    "lineStart": 10475,
+    "lineEnd": 10491
+  },
+  "level": 2,
+  "school": "Illusion",
+  "classAvailability": [
+    "Bard",
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "Self",
+  "components": "V, S",
+  "duration": "1 minute",
+  "rulesText": "Level 2 Illusion (Bard, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S\n\nDuration: 1 minute\n\nThree illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it's impossible to track which image is real.\n\nEach time a creature hits you with an attack roll during the spell's duration, roll a d6 for each of your remaining duplicates. If any of the d6s rolls a 3 or higher, one of the duplicates is hit instead of you, and the duplicate is destroyed. The duplicates otherwise ignore all other damage and effects. The spell ends when all three duplicates are destroyed.\n\nA creature is unaffected by this spell if it has the Blinded condition, Blindsight, or Truesight."
+}

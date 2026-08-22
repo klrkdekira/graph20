@@ -1,0 +1,94 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/8-28-carrying-capacity",
+  "@type": "Table",
+  "name": "Carrying Capacity",
+  "slug": "8-28-carrying-capacity",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.28",
+    "heading": "Carrying Capacity",
+    "lineStart": 12940,
+    "lineEnd": 12940
+  },
+  "columns": [
+    "Creature Size",
+    "Carry",
+    "Drag/Lift/Push"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Tiny"
+        },
+        {
+          "value": "Str. × 7.5 lb."
+        },
+        {
+          "value": "Str. × 15 lb."
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Small/Medium"
+        },
+        {
+          "value": "Str. × 15 lb."
+        },
+        {
+          "value": "Str. × 30 lb."
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Large"
+        },
+        {
+          "value": "Str. × 30 lb."
+        },
+        {
+          "value": "Str. × 60 lb."
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Huge"
+        },
+        {
+          "value": "Str. × 60 lb."
+        },
+        {
+          "value": "Str. × 120 lb."
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Gargantuan"
+        },
+        {
+          "value": "Str. × 120 lb."
+        },
+        {
+          "value": "Str. × 240 lb."
+        }
+      ]
+    }
+  ]
+}

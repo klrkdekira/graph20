@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-50-midnight-tears-1-500-gp",
+  "@type": "Rule",
+  "name": "Midnight Tears (1,500 GP)",
+  "slug": "9-50-midnight-tears-1-500-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.50",
+    "heading": "Midnight Tears (1,500 GP)",
+    "lineStart": 14111,
+    "lineEnd": 14117
+  },
+  "section": "9.50",
+  "rulesText": "Ingested Poison\n\nA creature that ingests Midnight Tears suffers no effect until the stroke of midnight. Any effect that\n\nends the Poisoned condition neutralizes this poison. If the poison hasn't been neutralized before midnight, the creature makes a DC 17 Constitution saving throw, taking 31 (9d6) Poison damage on a failed save or half as much damage on a successful one."
+}

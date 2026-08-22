@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/headband-of-intellect",
+  "@type": "MagicItem",
+  "name": "Headband of Intellect",
+  "slug": "headband-of-intellect",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.133",
+    "heading": "Headband of Intellect",
+    "lineStart": 15624,
+    "lineEnd": 15628
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Uncommon",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nYour Intelligence is 19 while you wear this headband. It has no effect on you if your Intelligence is 19 or higher without it."
+}

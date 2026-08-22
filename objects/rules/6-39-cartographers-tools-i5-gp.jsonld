@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-39-cartographers-tools-i5-gp",
+  "@type": "Rule",
+  "name": "Cartographer's Tools (I5 GP)",
+  "slug": "6-39-cartographers-tools-i5-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.39",
+    "heading": "Cartographer's Tools (I5 GP)",
+    "lineStart": 5479,
+    "lineEnd": 5485
+  },
+  "section": "6.39",
+  "rulesText": "Ability: Wisdom Weight: 6 lb.\n\nUtilize: Draft a map of a small area (DC 15)\n\nCraft: Map"
+}

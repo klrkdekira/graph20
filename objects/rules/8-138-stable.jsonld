@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-138-stable",
+  "@type": "Rule",
+  "name": "Stable",
+  "slug": "8-138-stable",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.138",
+    "heading": "Stable",
+    "lineStart": 13626,
+    "lineEnd": 13628
+  },
+  "section": "8.138",
+  "rulesText": "A creature is Stable if it has 0 Hit Points but isn't required to make Death Saving Throws. See also \"Playing the Game\" (\"Damage and Healing\")."
+}

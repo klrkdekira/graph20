@@ -1,0 +1,93 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-53-gray-bag-of-tricks",
+  "@type": "Table",
+  "name": "Gray Bag of Tricks",
+  "slug": "10-53-gray-bag-of-tricks",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.53",
+    "heading": "Bag of Tricks",
+    "lineStart": 14845,
+    "lineEnd": 14845
+  },
+  "columns": [
+    "Id8",
+    "Creature",
+    "Id8",
+    "Creature"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "Weasel"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "Panther"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "Giant Rat"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "Giant Badger"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "Badger"
+        },
+        {
+          "value": "7"
+        },
+        {
+          "value": "Dire Wolf"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "Boar"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "Giant Elk"
+        }
+      ]
+    }
+  ]
+}

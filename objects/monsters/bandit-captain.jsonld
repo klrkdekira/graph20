@@ -1,0 +1,83 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/bandit-captain",
+  "@type": "Monster",
+  "name": "Bandit Captain",
+  "slug": "bandit-captain",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.19",
+    "heading": "Bandit Captain",
+    "lineStart": 18044,
+    "lineEnd": 18078
+  },
+  "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
+  "sizeAndType": "Medium or Small Humanoid",
+  "alignment": "Neutral",
+  "armorClass": "15",
+  "initiative": "+3 (13)",
+  "hitPoints": "52 (8d8 + 16)",
+  "speed": "30 ft.",
+  "skills": "Athletics +4, Deception +4",
+  "senses": "Passive Perception 10",
+  "languages": "Common, Thieves' Cant",
+  "gear": "Pistol, Scimitar, Studded Leather Armor",
+  "challenge": "2 (XP 450; PB +2)",
+  "armorClassValue": 15,
+  "hitPointsValue": 52,
+  "hitPointsRoll": {
+    "expression": "8d8+16",
+    "count": 8,
+    "sides": 8,
+    "modifier": 16
+  },
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 4
+    },
+    "dex": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 5
+    },
+    "con": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "int": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "wis": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 2
+    },
+    "cha": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The bandit makes two attacks, using Scimitar and Pistol in any combination.\n\nScimitar. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing damage.\n\nPistol. Ranged Attack Roll: +5, range 30/90 ft. Hit: 8 (1d10 + 3) Piercing damage."
+    },
+    {
+      "name": "Reactions",
+      "rulesText": "Parry. Trigger: The bandit is hit by a melee attack roll while holding a weapon. Response: The bandit adds 2 to its AC against that attack, possibly causing it to miss."
+    }
+  ],
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 15\n\nInitiative +3 (13)\n\nHP 52 (8d8 + 16)\n\nSpeed 30 ft.\n\nSkills Athletics +4, Deception +4\n\nGear Pistol, Scimitar, Studded Leather Armor\n\nSenses Passive Perception 10\n\nLanguages Common, Thieves' Cant\n\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The bandit makes two attacks, using Scimitar and Pistol in any combination.\n\nScimitar. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing damage.\n\nPistol. Ranged Attack Roll: +5, range 30/90 ft. Hit: 8 (1d10 + 3) Piercing damage.\n\nReactions\n\nParry. Trigger: The bandit is hit by a melee attack roll while holding a weapon. Response: The bandit adds 2 to its AC against that attack, possibly causing it to miss."
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/manticore",
+  "@type": "Monster",
+  "name": "Manticore",
+  "slug": "manticore",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.157",
+    "heading": "Manticore",
+    "lineStart": 22937,
+    "lineEnd": 22966
+  },
+  "sizeTypeAlignment": "Large Monstrosity, Lawful Evil",
+  "sizeAndType": "Large Monstrosity",
+  "alignment": "Lawful Evil",
+  "armorClass": "14",
+  "initiative": "+3 (13)",
+  "hitPoints": "68 (8d10 + 24)",
+  "speed": "30 ft., Fly 50 ft.",
+  "senses": "Darkvision 60 ft.; Passive Perception 11",
+  "languages": "Common",
+  "challenge": "3 (XP 700; PB +2)",
+  "armorClassValue": 14,
+  "hitPointsValue": 68,
+  "hitPointsRoll": {
+    "expression": "8d10+24",
+    "count": 8,
+    "sides": 10,
+    "modifier": 24
+  },
+  "challengeRating": "3",
+  "experiencePoints": 700,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "dex": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "con": {
+      "score": 17
+    },
+    "int": {
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 8
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The manticore makes three attacks, using Rend or Tail Spike in any combination.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.\n\nTail Spike. Ranged Attack Roll: +5, range 100/200 ft.\nHit: 7 (1d8 + 3) Piercing damage."
+    }
+  ],
+  "rulesText": "Large Monstrosity, Lawful Evil\n\nAC 14\n\nInitiative +3 (13)\n\nHP 68 (8d10 + 24)\n\nSpeed 30 ft., Fly 50 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 11\n\nLanguages Common\n\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The manticore makes three attacks, using Rend or Tail Spike in any combination.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.\n\nTail Spike. Ranged Attack Roll: +5, range 100/200 ft.\nHit: 7 (1d8 + 3) Piercing damage."
+}

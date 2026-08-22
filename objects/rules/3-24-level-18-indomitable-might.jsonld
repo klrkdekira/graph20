@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-24-level-18-indomitable-might",
+  "@type": "Rule",
+  "name": "Level 18: Indomitable Might",
+  "slug": "3-24-level-18-indomitable-might",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.24",
+    "heading": "Level 18: Indomitable Might",
+    "lineStart": 2385,
+    "lineEnd": 2387
+  },
+  "section": "3.24",
+  "rulesText": "If your total for a Strength check or Strength saving throw is less than your Strength score, you can use that score in place of the total."
+}

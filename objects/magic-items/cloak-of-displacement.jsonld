@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/cloak-of-displacement",
+  "@type": "MagicItem",
+  "name": "Cloak of Displacement",
+  "slug": "cloak-of-displacement",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.77",
+    "heading": "Cloak of Displacement",
+    "lineStart": 15058,
+    "lineEnd": 15062
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Rare",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "rulesText": "Wondrous Item, Rare (Requires Attunement)\n\nWhile you wear this cloak, it magically projects an illusion that makes you appear to be standing in a place near your actual location, causing any creature to have Disadvantage on attack rolls against you. If you take damage, the property ceases to function until the start of your next turn. This property is suppressed while your Speed is 0."
+}

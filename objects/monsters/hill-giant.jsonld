@@ -1,0 +1,78 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/hill-giant",
+  "@type": "Monster",
+  "name": "Hill Giant",
+  "slug": "hill-giant",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.133",
+    "heading": "Hill Giant",
+    "lineStart": 22065,
+    "lineEnd": 22095
+  },
+  "sizeTypeAlignment": "Huge Giant, Chaotic Evil",
+  "sizeAndType": "Huge Giant",
+  "alignment": "Chaotic Evil",
+  "armorClass": "13",
+  "initiative": "+2 (12)",
+  "hitPoints": "105 (10d12 + 40)",
+  "speed": "40 ft.",
+  "skills": "Perception +2",
+  "senses": "Passive Perception 12",
+  "languages": "Giant",
+  "challenge": "5 (XP 1,800; PB +3)",
+  "armorClassValue": 13,
+  "hitPointsValue": 105,
+  "hitPointsRoll": {
+    "expression": "10d12+40",
+    "count": 10,
+    "sides": 12,
+    "modifier": 40
+  },
+  "challengeRating": "5",
+  "experiencePoints": 1800,
+  "proficiencyBonus": 3,
+  "abilities": {
+    "str": {
+      "score": 21,
+      "modifier": 5,
+      "savingThrow": 5
+    },
+    "dex": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "con": {
+      "score": 19,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "int": {
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
+    },
+    "wis": {
+      "score": 9,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "cha": {
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The giant makes two attacks, using Tree Club or Trash Lob in any combination.\n\nTree Club. Melee Attack Roll: +8, reach 10 ft. Hit: 18 (3d8 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition.\n\nTrash Lob. Ranged Attack Roll: +8, range 60/240 ft. Hit: 16 (2d10 + 5) Bludgeoning damage, and the target has the Poisoned condition until the end of its next turn."
+    }
+  ],
+  "rulesText": "Huge Giant, Chaotic Evil\n\nAC 13\n\nInitiative +2 (12)\n\nHP 105 (10d12 + 40)\n\nSpeed 40 ft.\n\nSkills Perception +2\n\nSenses Passive Perception 12\n\nLanguages Giant\n\nCR 5 (XP 1,800; PB +3)\n\nActions\n\nMultiattack. The giant makes two attacks, using Tree Club or Trash Lob in any combination.\n\nTree Club. Melee Attack Roll: +8, reach 10 ft. Hit: 18 (3d8 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition.\n\nTrash Lob. Ranged Attack Roll: +8, range 60/240 ft. Hit: 16 (2d10 + 5) Bludgeoning damage, and the target has the Poisoned condition until the end of its next turn."
+}

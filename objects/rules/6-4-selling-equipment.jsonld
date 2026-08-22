@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-4-selling-equipment",
+  "@type": "Rule",
+  "name": "SELLING EQUIPMENT",
+  "slug": "6-4-selling-equipment",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.4",
+    "heading": "SELLING EQUIPMENT",
+    "lineStart": 5297,
+    "lineEnd": 5299
+  },
+  "section": "6.4",
+  "rulesText": "Equipment fetches half its cost when sold. In contrast, trade goods and valuables—like gems and art objects—retain their full value in the marketplace. \"Magic Items\" has prices for magic items."
+}

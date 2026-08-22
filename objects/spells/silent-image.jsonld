@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/silent-image",
+  "@type": "Spell",
+  "name": "Silent Image",
+  "slug": "silent-image",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.309",
+    "heading": "Silent Image",
+    "lineStart": 11608,
+    "lineEnd": 11624
+  },
+  "level": 1,
+  "school": "Illusion",
+  "classAvailability": [
+    "Bard",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "60 feet",
+  "components": "V, S, M (a bit of fleece)",
+  "duration": "Concentration, up to 10 minutes",
+  "rulesText": "Level 1 Illusion (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S, M (a bit of fleece)\n\nDuration: Concentration, up to 10 minutes\n\nYou create the image of an object, a creature, or some other visible phenomenon that is no larger than a 15-foot Cube. The image appears at a spot within range and lasts for the duration. The image is purely visual; it isn't accompanied by sound, smell, or other sensory effects.\n\nAs a Magic action, you can cause the image to move to any spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking.\n\nPhysical interaction with the image reveals it to be an illusion, since things can pass through it. A creature that takes a Study action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-49-what-is-an-object",
+  "@type": "Rule",
+  "name": "What Is an Object?",
+  "slug": "1-49-what-is-an-object",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.49",
+    "heading": "What Is an Object?",
+    "lineStart": 1323,
+    "lineEnd": 1325
+  },
+  "section": "1.49",
+  "rulesText": "For the purpose of the rules, an object is a discrete, inanimate item like a window, door, sword, book, table, chair, or stone. It isn't a building or a vehicle, which are composed of many objects."
+}

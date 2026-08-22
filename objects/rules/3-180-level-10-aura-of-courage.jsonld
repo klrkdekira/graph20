@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-180-level-10-aura-of-courage",
+  "@type": "Rule",
+  "name": "Level 10: Aura of Courage",
+  "slug": "3-180-level-10-aura-of-courage",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.180",
+    "heading": "Level 10: Aura of Courage",
+    "lineStart": 3480,
+    "lineEnd": 3482
+  },
+  "section": "3.180",
+  "rulesText": "You and your allies have Immunity to the Frightened condition while in your Aura of Protection. If a Frightened ally enters the aura, that condition has no effect on that ally while there."
+}

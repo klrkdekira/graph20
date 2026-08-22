@@ -1,0 +1,79 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/young-blue-dragon",
+  "@type": "Monster",
+  "name": "Young Blue Dragon",
+  "slug": "young-blue-dragon",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.34",
+    "heading": "Young Blue Dragon",
+    "lineStart": 18564,
+    "lineEnd": 18594
+  },
+  "sizeTypeAlignment": "Large Dragon (Chromatic), Lawful Evil",
+  "sizeAndType": "Large Dragon (Chromatic)",
+  "alignment": "Lawful Evil",
+  "armorClass": "18",
+  "initiative": "+4 (14)",
+  "hitPoints": "152 (16d10 + 64)",
+  "speed": "40 ft., Burrow 20 ft., Fly 80 ft.",
+  "skills": "Perception +9, Stealth +4",
+  "immunities": "Lightning",
+  "senses": "Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 19",
+  "languages": "Common, Draconic",
+  "challenge": "9 (XP 5,000; PB +4)",
+  "armorClassValue": 18,
+  "hitPointsValue": 152,
+  "hitPointsRoll": {
+    "expression": "16d10+64",
+    "count": 16,
+    "sides": 10,
+    "modifier": 64
+  },
+  "challengeRating": "9",
+  "experiencePoints": 5000,
+  "proficiencyBonus": 4,
+  "abilities": {
+    "str": {
+      "score": 21,
+      "modifier": 5,
+      "savingThrow": 5
+    },
+    "dex": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 4
+    },
+    "con": {
+      "score": 19,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "int": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "wis": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 5
+    },
+    "cha": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +9, reach 10 ft. Hit: 12 (2d6 + 5) Slashing damage plus 5 (1d10) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 16, each creature in a 60-foot-long, 5-foot-wide Line. Failure: 55 (10d10) Lightning damage. Success: Half damage."
+    }
+  ],
+  "rulesText": "Large Dragon (Chromatic), Lawful Evil\n\nAC 18\n\nInitiative +4 (14)\n\nHP 152 (16d10 + 64)\n\nSpeed 40 ft., Burrow 20 ft., Fly 80 ft.\n\nSkills Perception +9, Stealth +4\n\nImmunities Lightning\n\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 19\n\nLanguages Common, Draconic\n\nCR 9 (XP 5,000; PB +4)\n\nActions\n\nMultiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +9, reach 10 ft. Hit: 12 (2d6 + 5) Slashing damage plus 5 (1d10) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 16, each creature in a 60-foot-long, 5-foot-wide Line. Failure: 55 (10d10) Lightning damage. Success: Half damage."
+}

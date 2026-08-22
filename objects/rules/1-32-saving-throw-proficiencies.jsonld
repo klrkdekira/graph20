@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-32-saving-throw-proficiencies",
+  "@type": "Rule",
+  "name": "Saving Throw Proficiencies",
+  "slug": "1-32-saving-throw-proficiencies",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.32",
+    "heading": "Saving Throw Proficiencies",
+    "lineStart": 1195,
+    "lineEnd": 1199
+  },
+  "section": "1.32",
+  "rulesText": "Proficiency in a saving throw lets a character add their Proficiency Bonus to saves that use a particular ability. For example, proficiency in Wisdom saves lets you add your Proficiency Bonus to your Wisdom saves. Some monsters also have saving throw proficiencies, as noted in their stat blocks.\n\nEach class gives proficiency in at least two saving throws, representing that class's training in evading or resisting certain threats. Wizards, for example, are proficient in Intelligence and Wisdom saves; they train to resist mental assault."
+}

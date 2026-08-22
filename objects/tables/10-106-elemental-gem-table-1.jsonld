@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-106-elemental-gem-table-1",
+  "@type": "Table",
+  "name": "Elemental Gem Table 1",
+  "slug": "10-106-elemental-gem-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.106",
+    "heading": "Elemental Gem",
+    "lineStart": 15323,
+    "lineEnd": 15323
+  },
+  "columns": [
+    "Gem",
+    "Summoned Elemental"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Blue sapphire"
+        },
+        {
+          "value": "Air Elemental"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Emerald"
+        },
+        {
+          "value": "Water Elemental"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Red corundum"
+        },
+        {
+          "value": "Fire Elemental"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Yellow diamond"
+        },
+        {
+          "value": "Earth Elemental"
+        }
+      ]
+    }
+  ]
+}

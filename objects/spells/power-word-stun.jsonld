@@ -1,0 +1,30 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/power-word-stun",
+  "@type": "Spell",
+  "name": "Power Word Stun",
+  "slug": "power-word-stun",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.265",
+    "heading": "Power Word Stun",
+    "lineStart": 10825,
+    "lineEnd": 10839
+  },
+  "level": 8,
+  "school": "Enchantment",
+  "classAvailability": [
+    "Bard",
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "60 feet",
+  "components": "V",
+  "duration": "Instantaneous",
+  "rulesText": "Level 8 Enchantment (Bard, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V\n\nDuration: Instantaneous\n\nYou overwhelm the mind of one creature you can see within range. If the target has 150 Hit Points or fewer, it has the Stunned condition. Otherwise, its Speed is 0 until the start of your next turn.\n\nThe Stunned target makes a Constitution saving throw at the end of each of its turns, ending the condition on itself on a success."
+}

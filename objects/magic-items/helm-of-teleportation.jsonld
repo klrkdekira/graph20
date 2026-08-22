@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/helm-of-teleportation",
+  "@type": "MagicItem",
+  "name": "Helm of Teleportation",
+  "slug": "helm-of-teleportation",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.137",
+    "heading": "Helm of Teleportation",
+    "lineStart": 15662,
+    "lineEnd": 15666
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Rare",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "rulesText": "Wondrous Item, Rare (Requires Attunement)\n\nThis helm has 3 charges. While wearing it, you can expend 1 charge to cast Teleport from it. The helm regains 1d3 expended charges daily at dawn."
+}

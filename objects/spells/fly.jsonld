@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/fly",
+  "@type": "Spell",
+  "name": "Fly",
+  "slug": "fly",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.160",
+    "heading": "Fly",
+    "lineStart": 8896,
+    "lineEnd": 8910
+  },
+  "level": 3,
+  "school": "Transmutation",
+  "classAvailability": [
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": "V, S, M (a feather)",
+  "duration": "Concentration, up to 10 minutes",
+  "rulesText": "Level 3 Transmutation (Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (a feather)\n\nDuration: Concentration, up to 10 minutes\n\nYou touch a willing creature. For the duration, the target gains a Fly Speed of 60 feet and can hover. When the spell ends, the target falls if it is still aloft unless it can stop the fall.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 3."
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/feats/defense",
+  "@type": "Feat",
+  "name": "Defense",
+  "slug": "defense",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Feats",
+    "section": "5.14",
+    "heading": "Defense",
+    "lineStart": 5175,
+    "lineEnd": 5179
+  },
+  "category": "Fighting Style",
+  "prerequisite": "Fighting Style Feature",
+  "repeatable": false,
+  "rulesText": "Fighting Style Feat (Prerequisite: Fighting Style Feature)\n\nWhile you're wearing Light, Medium, or Heavy armor, you gain a +1 bonus to Armor Class."
+}

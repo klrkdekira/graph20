@@ -1,0 +1,87 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/ancient-blue-dragon",
+  "@type": "Monster",
+  "name": "Ancient Blue Dragon",
+  "slug": "ancient-blue-dragon",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.36",
+    "heading": "Ancient Blue Dragon",
+    "lineStart": 18650,
+    "lineEnd": 18700
+  },
+  "sizeTypeAlignment": "Gargantuan Dragon (Chromatic), Lawful Evil",
+  "sizeAndType": "Gargantuan Dragon (Chromatic)",
+  "alignment": "Lawful Evil",
+  "armorClass": "22",
+  "initiative": "+14 (24)",
+  "hitPoints": "481 (26d20 + 208)",
+  "speed": "40 ft., Burrow 40 ft., Fly 80 ft.",
+  "skills": "Perception +17, Stealth +7",
+  "immunities": "Lightning",
+  "senses": "Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 27",
+  "languages": "Common, Draconic",
+  "challenge": "23 (XP 50,000, or 62,000 in lair; PB +7)",
+  "armorClassValue": 22,
+  "hitPointsValue": 481,
+  "hitPointsRoll": {
+    "expression": "26d20+208",
+    "count": 26,
+    "sides": 20,
+    "modifier": 208
+  },
+  "challengeRating": "23",
+  "experiencePoints": 50000,
+  "proficiencyBonus": 7,
+  "abilities": {
+    "str": {
+      "score": 29,
+      "modifier": 9,
+      "savingThrow": 9
+    },
+    "dex": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 7
+    },
+    "con": {
+      "score": 27,
+      "modifier": 8,
+      "savingThrow": 8
+    },
+    "int": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "wis": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 10
+    },
+    "cha": {
+      "score": 25,
+      "modifier": 7,
+      "savingThrow": 7
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Legendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast Shatter (level 3 version).\n\nRend. Melee Attack Roll: +16, reach 15 ft. Hit: 18 (2d8 + 9) Slashing damage plus 11 (2d10) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 23, each creature in a 120-foot-long, 10-foot-wide Line. Failure: 88 (16d10) Lightning damage. Success: Half damage.\n\nSpellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 22):\n\nAt Will: Detect Magic, Invisibility, Mage Hand, Shatter (level 3 version)\n\n1/Day Each: Scrying, Sending"
+    },
+    {
+      "name": "Legendary Actions",
+      "rulesText": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nCloaked Flight. The dragon uses Spellcasting to cast Invisibility on itself, and it can fly up to half its Fly Speed. The dragon can't take this action again until the start of its next turn.\n\nSonic Boom. The dragon uses Spellcasting to cast Shatter (level 3 version). The dragon can't take this action again until the start of its next turn.\n\nTail Swipe. The dragon makes one Rend attack."
+    }
+  ],
+  "rulesText": "Gargantuan Dragon (Chromatic), Lawful Evil\n\nAC 22\n\nInitiative +14 (24)\n\nHP 481 (26d20 + 208)\n\nSpeed 40 ft., Burrow 40 ft., Fly 80 ft.\n\nSkills Perception +17, Stealth +7\n\nImmunities Lightning\n\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 27\n\nLanguages Common, Draconic\n\nCR 23 (XP 50,000, or 62,000 in lair; PB +7)\n\nTraits\n\nLegendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast Shatter (level 3 version).\n\nRend. Melee Attack Roll: +16, reach 15 ft. Hit: 18 (2d8 + 9) Slashing damage plus 11 (2d10) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 23, each creature in a 120-foot-long, 10-foot-wide Line. Failure: 88 (16d10) Lightning damage. Success: Half damage.\n\nSpellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 22):\n\nAt Will: Detect Magic, Invisibility, Mage Hand, Shatter (level 3 version)\n\n1/Day Each: Scrying, Sending\n\nLegendary Actions\n\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nCloaked Flight. The dragon uses Spellcasting to cast Invisibility on itself, and it can fly up to half its Fly Speed. The dragon can't take this action again until the start of its next turn.\n\nSonic Boom. The dragon uses Spellcasting to cast Shatter (level 3 version). The dragon can't take this action again until the start of its next turn.\n\nTail Swipe. The dragon makes one Rend attack."
+}

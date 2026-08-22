@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-136-spellcasting-focus",
+  "@type": "Rule",
+  "name": "Spellcasting Focus",
+  "slug": "8-136-spellcasting-focus",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.136",
+    "heading": "Spellcasting Focus",
+    "lineStart": 13616,
+    "lineEnd": 13618
+  },
+  "section": "8.136",
+  "rulesText": "A Spellcasting Focus is an object that certain creatures can use in place of a spell's Material components if those materials aren't consumed by the spell and don't have a cost specified. Some classes allow its members to use certain types of Spellcasting Focuses. See also \"Spells\" (\"Casting Spells\")."
+}

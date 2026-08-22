@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/meteor-swarm",
+  "@type": "Spell",
+  "name": "Meteor Swarm",
+  "slug": "meteor-swarm",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.240",
+    "heading": "Meteor Swarm",
+    "lineStart": 10385,
+    "lineEnd": 10399
+  },
+  "level": 9,
+  "school": "Evocation",
+  "classAvailability": [
+    "Sorcerer",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "1 mile",
+  "components": "V, S",
+  "duration": "Instantaneous",
+  "rulesText": "Level 9 Evocation (Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 1 mile\n\nComponents: V, S\n\nDuration: Instantaneous\n\nBlazing orbs of fire plummet to the ground at four different points you can see within range. Each creature in a 40-foot-radius Sphere centered on each of those points makes a Dexterity saving throw. A creature takes 20d6 Fire damage and 20d6 Bludgeoning damage on a failed save or half as much damage on a successful one. A creature in the area of more than one fiery Sphere is affected only once.\n\nA nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area, and the object starts burning if it's flammable."
+}

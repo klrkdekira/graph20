@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/tome-of-leadership-and-influence",
+  "@type": "MagicItem",
+  "name": "Tome of Leadership and Influence",
+  "slug": "tome-of-leadership-and-influence",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.272",
+    "heading": "Tome of Leadership and Influence",
+    "lineStart": 17095,
+    "lineEnd": 17101
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Very Rare",
+  "requiresAttunement": false,
+  "rulesText": "Wondrous Item, Very Rare\n\nThis book contains guidelines for influencing and charming others, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Charisma increases by 2, to\n\na maximum of 30. The manual then loses its magic but regains it in a century."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-71-combat-encounter-difficulty",
+  "@type": "Rule",
+  "name": "Combat Encounter Difficulty",
+  "slug": "9-71-combat-encounter-difficulty",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.71",
+    "heading": "Combat Encounter Difficulty",
+    "lineStart": 14355,
+    "lineEnd": 14357
+  },
+  "section": "9.71",
+  "rulesText": "Use the following guidelines to create a combat encounter of a desired level of difficulty."
+}

@@ -1,0 +1,122 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-25-magic-item-tools",
+  "@type": "Table",
+  "name": "Magic Item Tools",
+  "slug": "10-25-magic-item-tools",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.25",
+    "heading": "Tools",
+    "lineStart": 14582,
+    "lineEnd": 14582
+  },
+  "columns": [
+    "Item Category",
+    "Required Tool"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Armor"
+        },
+        {
+          "value": "Leatherworker’s Tools, Smith’s Tools, or Weaver’s Tools depending on the kind of armor as noted in the tools’ descriptions"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Potion"
+        },
+        {
+          "value": "Alchemist’s Supplies or Herbalism Kit"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Ring"
+        },
+        {
+          "value": "Jeweler’s Tools"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Rod"
+        },
+        {
+          "value": "Woodcarver’s Tools"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Scroll"
+        },
+        {
+          "value": "Calligrapher’s Supplies"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Staff"
+        },
+        {
+          "value": "Woodcarver’s Tools"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Wand"
+        },
+        {
+          "value": "Woodcarver’s Tools"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Weapon"
+        },
+        {
+          "value": "Leatherworker’s Tools, Smith’s Tools, or Woodcarver’s Tools depending on the kind of weapon as noted in the tools’ descriptions"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Wondrous Item"
+        },
+        {
+          "value": "Tinker’s Tools or the tool required to make the nonmagical item on which the magic item is based"
+        }
+      ]
+    }
+  ]
+}

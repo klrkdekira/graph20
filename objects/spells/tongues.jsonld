@@ -1,0 +1,31 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/tongues",
+  "@type": "Spell",
+  "name": "Tongues",
+  "slug": "tongues",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.341",
+    "heading": "Tongues",
+    "lineStart": 12257,
+    "lineEnd": 12271
+  },
+  "level": 3,
+  "school": "Divination",
+  "classAvailability": [
+    "Bard",
+    "Cleric",
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": "V, M (a miniature ziggurat)",
+  "duration": "1 hour",
+  "rulesText": "Level 3 Divination (Bard, Cleric, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, M (a miniature ziggurat)\n\nDuration: 1 hour\n\nThis spell grants the creature you touch the ability to understand any spoken or signed language that it hears or sees. Moreover, when the target communicates by speaking or signing, any creature that\n\nknows at least one language can understand it if that creature can hear the speech or see the signing."
+}

@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/scarab-of-protection",
+  "@type": "MagicItem",
+  "name": "Scarab of Protection",
+  "slug": "scarab-of-protection",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.237",
+    "heading": "Scarab of Protection",
+    "lineStart": 16738,
+    "lineEnd": 16748
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Legendary",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "rulesText": "Wondrous Item, Legendary (Requires Attunement)\n\nThis beetle-shaped medallion provides three benefits while it is on your person.\n\nDefense. You gain a +1 bonus to Armor Class.\n\nPreservation. The scarab has 12 charges. If you fail a saving throw against a Necromancy spell or a harmful effect originating from an Undead, you can take a Reaction to expend 1 charge and turn the failed save into a successful one. The scarab crumbles into powder and is destroyed when its last charge is expended.\n\nSpell Resistance. You have Advantage on saving throws against spells."
+}

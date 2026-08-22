@@ -1,0 +1,195 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/6-161-food-drink-and-lodging",
+  "@type": "Table",
+  "name": "Food, Drink, and Lodging",
+  "slug": "6-161-food-drink-and-lodging",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.161",
+    "heading": "Food, Drink, and Lodging",
+    "lineStart": 6135,
+    "lineEnd": 6135
+  },
+  "columns": [
+    "Item",
+    "Cost",
+    "Item",
+    "Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Ale (mug)"
+        },
+        {
+          "value": "4 CP"
+        },
+        {
+          "value": "Comfortable"
+        },
+        {
+          "value": "8 SP"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Bread (loaf)"
+        },
+        {
+          "value": "2 CP"
+        },
+        {
+          "value": "Wealthy"
+        },
+        {
+          "value": "2 GP"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Cheese (wedge)"
+        },
+        {
+          "value": "1 SP"
+        },
+        {
+          "value": "Aristocratic"
+        },
+        {
+          "value": "4 GP"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Inn Stay per Day"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": "Meal"
+        },
+        {
+          "value": ""
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Squalid"
+        },
+        {
+          "value": "7 CP"
+        },
+        {
+          "value": "Squalid"
+        },
+        {
+          "value": "1 CP"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Poor"
+        },
+        {
+          "value": "1 SP"
+        },
+        {
+          "value": "Poor"
+        },
+        {
+          "value": "2 CP"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Modest"
+        },
+        {
+          "value": "5 SP"
+        },
+        {
+          "value": "Modest"
+        },
+        {
+          "value": "1 SP"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Comfortable"
+        },
+        {
+          "value": "2 SP"
+        },
+        {
+          "value": "Wine (bottle)"
+        },
+        {
+          "value": ""
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Wealthy"
+        },
+        {
+          "value": "3 SP"
+        },
+        {
+          "value": "Common"
+        },
+        {
+          "value": "2 SP"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Aristocratic"
+        },
+        {
+          "value": "6 SP"
+        },
+        {
+          "value": "Fine"
+        },
+        {
+          "value": "10 GP"
+        }
+      ]
+    }
+  ]
+}

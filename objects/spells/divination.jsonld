@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/divination",
+  "@type": "Spell",
+  "name": "Divination",
+  "slug": "divination",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.119",
+    "heading": "Divination",
+    "lineStart": 8106,
+    "lineEnd": 8120
+  },
+  "level": 4,
+  "school": "Divination",
+  "classAvailability": [
+    "Cleric",
+    "Druid",
+    "Wizard"
+  ],
+  "castingTime": "Action or Ritual",
+  "range": "Self",
+  "components": "V, S, M (incense worth 25+ GP, which the spell consumes)",
+  "duration": "Instantaneous",
+  "rulesText": "Level 4 Divination (Cleric, Druid, Wizard)\n\nCasting Time: Action or Ritual\n\nRange: Self\n\nComponents: V, S, M (incense worth 25+ GP, which the spell consumes)\n\nDuration: Instantaneous\n\nThis spell puts you in contact with a god or a god's servants. You ask one question about a specific goal, event, or activity to occur within 7 days. The GM offers a truthful reply, which might be a short phrase or cryptic rhyme. The spell doesn't account for circumstances that might change the answer, such as the casting of other spells.\n\nIf you cast the spell more than once before finishing a Long Rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer."
+}

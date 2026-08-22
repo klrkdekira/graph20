@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-51-finding-hidden-objects",
+  "@type": "Rule",
+  "name": "Finding Hidden Objects",
+  "slug": "1-51-finding-hidden-objects",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.51",
+    "heading": "Finding Hidden Objects",
+    "lineStart": 1331,
+    "lineEnd": 1335
+  },
+  "section": "1.51",
+  "rulesText": "When your character searches for hidden things, such as a secret door or a trap, the GM typically asks you to make a Wisdom (Perception) check, provided you describe the character searching in the hidden object's vicinity. On a success, you find the object, other important details, or both.\n\nIf you describe your character searching nowhere near a hidden object, a Wisdom (Perception) check won't reveal the object, no matter the check's total."
+}

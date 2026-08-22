@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/mass-healing-word",
+  "@type": "Spell",
+  "name": "Mass Healing Word",
+  "slug": "mass-healing-word",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.234",
+    "heading": "Mass Healing Word",
+    "lineStart": 10283,
+    "lineEnd": 10297
+  },
+  "level": 3,
+  "school": "Abjuration",
+  "classAvailability": [
+    "Bard",
+    "Cleric"
+  ],
+  "castingTime": "Bonus Action",
+  "range": "60 feet",
+  "components": "V",
+  "duration": "Instantaneous",
+  "rulesText": "Level 3 Abjuration (Bard, Cleric)\n\nCasting Time: Bonus Action\n\nRange: 60 feet\n\nComponents: V\n\nDuration: Instantaneous\n\nUp to six creatures of your choice that you can see within range regain Hit Points equal to 2d4 plus your spellcasting ability modifier.\n\nUsing a Higher-Level Spell Slot. The healing increases by 1d4 for each spell slot level above 3."
+}

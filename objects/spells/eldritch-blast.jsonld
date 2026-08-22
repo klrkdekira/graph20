@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/eldritch-blast",
+  "@type": "Spell",
+  "name": "Eldritch Blast",
+  "slug": "eldritch-blast",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.130",
+    "heading": "Eldritch Blast",
+    "lineStart": 8314,
+    "lineEnd": 8328
+  },
+  "level": 0,
+  "school": "Evocation",
+  "classAvailability": [
+    "Warlock"
+  ],
+  "castingTime": "Action",
+  "range": "120 feet",
+  "components": "V, S",
+  "duration": "Instantaneous",
+  "rulesText": "Evocation Cantrip (Warlock)\n\nCasting Time: Action\n\nRange: 120 feet\n\nComponents: V, S\n\nDuration: Instantaneous\n\nYou hurl a beam of crackling energy. Make a ranged spell attack against one creature or object in range. On a hit, the target takes 1d10 Force damage.\n\nCantrip Upgrade. The spell creates two beams at level 5, three beams at level 11, and four beams at level 17. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam."
+}

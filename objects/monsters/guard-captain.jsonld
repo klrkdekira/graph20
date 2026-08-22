@@ -1,0 +1,79 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/guard-captain",
+  "@type": "Monster",
+  "name": "Guard Captain",
+  "slug": "guard-captain",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.128",
+    "heading": "Guard Captain",
+    "lineStart": 21881,
+    "lineEnd": 21911
+  },
+  "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
+  "sizeAndType": "Medium or Small Humanoid",
+  "alignment": "Neutral",
+  "armorClass": "18",
+  "initiative": "+4 (14)",
+  "hitPoints": "75 (10d8 + 30)",
+  "speed": "30 ft.",
+  "skills": "Athletics +6, Perception +4",
+  "senses": "Passive Perception 14",
+  "languages": "Common",
+  "gear": "Breastplate, Javelins (6), Longsword, Shield",
+  "challenge": "4 (XP 1,100; PB +2)",
+  "armorClassValue": 18,
+  "hitPointsValue": 75,
+  "hitPointsRoll": {
+    "expression": "10d8+30",
+    "count": 10,
+    "sides": 8,
+    "modifier": 30
+  },
+  "challengeRating": "4",
+  "experiencePoints": 1100,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "dex": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "int": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "wis": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "cha": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The guard makes two attacks, using Javelin or Longsword in any combination.\n\nJavelin. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 30/120 ft. Hit: 14 (3d6 + 4) Piercing damage.\n\nLongsword. Melee Attack Roll: +6, reach 5 ft. Hit: 15 (2d10 + 4) Slashing damage."
+    }
+  ],
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 18\n\nInitiative +4 (14)\n\nHP 75 (10d8 + 30)\n\nSpeed 30 ft.\n\nSkills Athletics +6, Perception +4\n\nGear Breastplate, Javelins (6), Longsword, Shield\n\nSenses Passive Perception 14\n\nLanguages Common\n\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The guard makes two attacks, using Javelin or Longsword in any combination.\n\nJavelin. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 30/120 ft. Hit: 14 (3d6 + 4) Piercing damage.\n\nLongsword. Melee Attack Roll: +6, reach 5 ft. Hit: 15 (2d10 + 4) Slashing damage."
+}

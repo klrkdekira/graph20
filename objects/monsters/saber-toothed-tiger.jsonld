@@ -1,0 +1,82 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/saber-toothed-tiger",
+  "@type": "Monster",
+  "name": "Saber-Toothed Tiger",
+  "slug": "saber-toothed-tiger",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.79",
+    "heading": "Saber-Toothed Tiger",
+    "lineStart": 29377,
+    "lineEnd": 29411
+  },
+  "sizeTypeAlignment": "Large Beast, Unaligned",
+  "sizeAndType": "Large Beast",
+  "alignment": "Unaligned",
+  "armorClass": "13",
+  "initiative": "+3 (13)",
+  "hitPoints": "52 (7d10 + 14)",
+  "speed": "40 ft.",
+  "skills": "Perception +5, Stealth +7",
+  "senses": "Darkvision 60 ft.; Passive Perception 15",
+  "languages": "None",
+  "challenge": "2 (XP 450; PB +2)",
+  "armorClassValue": 13,
+  "hitPointsValue": 52,
+  "hitPointsRoll": {
+    "expression": "7d10+14",
+    "count": 7,
+    "sides": 10,
+    "modifier": 14
+  },
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 6
+    },
+    "dex": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 5
+    },
+    "con": {
+      "score": 15
+    },
+    "int": {
+      "score": 3,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 8
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Running Leap. With a 10-foot running start, the tiger can Long Jump up to 25 feet."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The tiger makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 11 (2d6 + 4) Slashing damage."
+    },
+    {
+      "name": "Bonus Actions",
+      "rulesText": "Nimble Escape. The tiger takes the Disengage or Hide action."
+    }
+  ],
+  "rulesText": "Large Beast, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 52 (7d10 + 14)\n\nSpeed 40 ft.\n\nSkills Perception +5, Stealth +7\n\nSenses Darkvision 60 ft.; Passive Perception 15\n\nLanguages None\n\nCR 2 (XP 450; PB +2)\n\nTraits\n\nRunning Leap. With a 10-foot running start, the tiger can Long Jump up to 25 feet.\n\nActions\n\nMultiattack. The tiger makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 11 (2d6 + 4) Slashing damage.\n\nBonus Actions\n\nNimble Escape. The tiger takes the Disengage or Hide action."
+}

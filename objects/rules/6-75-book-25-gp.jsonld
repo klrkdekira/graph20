@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-75-book-25-gp",
+  "@type": "Rule",
+  "name": "Book (25 GP)",
+  "slug": "6-75-book-25-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.75",
+    "heading": "Book (25 GP)",
+    "lineStart": 5737,
+    "lineEnd": 5739
+  },
+  "section": "6.75",
+  "rulesText": "A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic."
+}

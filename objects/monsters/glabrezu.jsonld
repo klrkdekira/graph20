@@ -1,0 +1,84 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/glabrezu",
+  "@type": "Monster",
+  "name": "Glabrezu",
+  "slug": "glabrezu",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.101",
+    "heading": "Glabrezu",
+    "lineStart": 21002,
+    "lineEnd": 21048
+  },
+  "sizeTypeAlignment": "Large Fiend (Demon), Chaotic Evil",
+  "sizeAndType": "Large Fiend (Demon)",
+  "alignment": "Chaotic Evil",
+  "armorClass": "17",
+  "initiative": "+6 (16)",
+  "hitPoints": "189 (18d10 + 90)",
+  "speed": "40 ft.",
+  "skills": "Deception +7, Perception +7",
+  "resistances": "Cold, Fire, Lightning",
+  "immunities": "Poison; Poisoned",
+  "senses": "Truesight 120 ft.; Passive Perception 17",
+  "languages": "Abyssal; telepathy 120 ft.",
+  "challenge": "9 (XP 5,000; PB +4)",
+  "armorClassValue": 17,
+  "hitPointsValue": 189,
+  "hitPointsRoll": {
+    "expression": "18d10+90",
+    "count": 18,
+    "sides": 10,
+    "modifier": 90
+  },
+  "challengeRating": "9",
+  "experiencePoints": 5000,
+  "proficiencyBonus": 4,
+  "abilities": {
+    "str": {
+      "score": 20,
+      "modifier": 5,
+      "savingThrow": 9
+    },
+    "dex": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 21,
+      "modifier": 5,
+      "savingThrow": 9
+    },
+    "int": {
+      "score": 19,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "wis": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 7
+    },
+    "cha": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 7
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Demonic Restoration. If the glabrezu dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.\n\nMagic Resistance. The glabrezu has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The glabrezu makes two Pincer attacks and uses Pummel or Spellcasting.\n\nPincer. Melee Attack Roll: +9, reach 10 ft. Hit: 16 (2d10 + 5) Slashing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 15) from one of two pincers.\n\nPummel. Dexterity Saving Throw: DC 17, one creature Grappled by the glabrezu. Failure: 15 (3d6 + 5) Bludgeoning damage. Success: Half damage.\n\nSpellcasting. The glabrezu casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save DC 16):\n\nAt Will: Darkness, Detect Magic, Dispel Magic\n\n1/Day Each: Confusion, Fly, Power Word Stun"
+    }
+  ],
+  "rulesText": "Large Fiend (Demon), Chaotic Evil\n\nAC 17\n\nInitiative +6 (16)\n\nHP 189 (18d10 + 90)\n\nSpeed 40 ft.\n\nSkills Deception +7, Perception +7\n\nResistances Cold, Fire, Lightning\n\nImmunities Poison; Poisoned\n\nSenses Truesight 120 ft.; Passive Perception 17\n\nLanguages Abyssal; telepathy 120 ft.\n\nCR 9 (XP 5,000; PB +4)\n\nTraits\n\nDemonic Restoration. If the glabrezu dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.\n\nMagic Resistance. The glabrezu has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The glabrezu makes two Pincer attacks and uses Pummel or Spellcasting.\n\nPincer. Melee Attack Roll: +9, reach 10 ft. Hit: 16 (2d10 + 5) Slashing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 15) from one of two pincers.\n\nPummel. Dexterity Saving Throw: DC 17, one creature Grappled by the glabrezu. Failure: 15 (3d6 + 5) Bludgeoning damage. Success: Half damage.\n\nSpellcasting. The glabrezu casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save DC 16):\n\nAt Will: Darkness, Detect Magic, Dispel Magic\n\n1/Day Each: Confusion, Fly, Power Word Stun"
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/belt-of-giant-strength",
+  "@type": "MagicItem",
+  "name": "Belt of Giant Strength",
+  "slug": "belt-of-giant-strength",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.57",
+    "heading": "Belt of Giant Strength",
+    "lineStart": 14894,
+    "lineEnd": 14900
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Rarity Varies",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/10-57-belt-of-giant-strength-table-1"
+    }
+  ],
+  "rulesText": "Wondrous Item, Rarity Varies (Requires Attunement)\n\nWhile wearing this belt, your Strength changes to a score granted by the belt. The type of giant determines the score (see the table below). The item has no effect on you if your Strength without the belt is equal to or greater than the belt's score."
+}

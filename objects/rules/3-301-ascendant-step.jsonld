@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-301-ascendant-step",
+  "@type": "Rule",
+  "name": "Ascendant Step",
+  "slug": "3-301-ascendant-step",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.301",
+    "heading": "Ascendant Step",
+    "lineStart": 4311,
+    "lineEnd": 4315
+  },
+  "section": "3.301",
+  "rulesText": "Prerequisite: Level 5+ Warlock\n\nYou can cast Levitate on yourself without expending a spell slot."
+}

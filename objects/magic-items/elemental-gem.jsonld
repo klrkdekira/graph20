@@ -1,0 +1,26 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/elemental-gem",
+  "@type": "MagicItem",
+  "name": "Elemental Gem",
+  "slug": "elemental-gem",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.106",
+    "heading": "Elemental Gem",
+    "lineStart": 15318,
+    "lineEnd": 15324
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Uncommon",
+  "requiresAttunement": false,
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/10-106-elemental-gem-table-1"
+    }
+  ],
+  "rulesText": "Wondrous Item, Uncommon\n\nThis gem contains a mote of elemental energy. When you take a Utilize action to break the gem, an elemental is summoned (see “Monsters” for its stat block), and the gem ceases to be magical. The elemental appears in an unoccupied space as close to the broken gem as possible, understands your languages, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action. The type of gem determines the elemental, as shown in the following table."
+}

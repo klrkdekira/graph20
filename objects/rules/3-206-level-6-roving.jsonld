@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-206-level-6-roving",
+  "@type": "Rule",
+  "name": "Level 6: Roving",
+  "slug": "3-206-level-6-roving",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.206",
+    "heading": "Level 6: Roving",
+    "lineStart": 3656,
+    "lineEnd": 3658
+  },
+  "section": "3.206",
+  "rulesText": "Your Speed increases by 10 feet while you aren't wearing Heavy armor. You also have a Climb Speed and a Swim Speed equal to your Speed."
+}

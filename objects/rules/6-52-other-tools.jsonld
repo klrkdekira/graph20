@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-52-other-tools",
+  "@type": "Rule",
+  "name": "Other Tools",
+  "slug": "6-52-other-tools",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.52",
+    "heading": "Other Tools",
+    "lineStart": 5589,
+    "lineEnd": 5589
+  },
+  "section": "6.52"
+}

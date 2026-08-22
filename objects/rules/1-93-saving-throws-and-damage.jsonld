@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-93-saving-throws-and-damage",
+  "@type": "Rule",
+  "name": "Saving Throws and Damage",
+  "slug": "1-93-saving-throws-and-damage",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.93",
+    "heading": "Saving Throws and Damage",
+    "lineStart": 1610,
+    "lineEnd": 1612
+  },
+  "section": "1.93",
+  "rulesText": "Damage dealt via saving throws uses these rules."
+}

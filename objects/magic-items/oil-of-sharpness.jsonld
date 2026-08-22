@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/oil-of-sharpness",
+  "@type": "MagicItem",
+  "name": "Oil of Sharpness",
+  "slug": "oil-of-sharpness",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.171",
+    "heading": "Oil of Sharpness",
+    "lineStart": 16074,
+    "lineEnd": 16080
+  },
+  "itemCategory": "Potion",
+  "rarity": "Very Rare",
+  "requiresAttunement": false,
+  "rulesText": "Potion, Very Rare\n\nOne vial of this oil can coat one Melee weapon or twenty pieces of ammunition, but only ammunition and Melee weapons that are nonmagical and deal Slashing or Piercing damage are affected. Applying the oil takes 1 minute, after which the oil magically seeps into whatever it coats, turning the coated weapon into a +3 Weapon or the coated ammunition into +3 Ammunition.\n\nThis clear, gelatinous oil sparkles with tiny, ultrathin silver shards."
+}

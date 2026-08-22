@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/4-3-parts-of-a-background",
+  "@type": "Rule",
+  "name": "Parts of a Background",
+  "slug": "4-3-parts-of-a-background",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Origins",
+    "section": "4.3",
+    "heading": "Parts of a Background",
+    "lineStart": 4777,
+    "lineEnd": 4779
+  },
+  "section": "4.3",
+  "rulesText": "A background includes the following parts."
+}

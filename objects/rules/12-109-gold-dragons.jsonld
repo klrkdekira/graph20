@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/12-109-gold-dragons",
+  "@type": "Rule",
+  "name": "Gold Dragons",
+  "slug": "12-109-gold-dragons",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.109",
+    "heading": "Gold Dragons",
+    "lineStart": 21232,
+    "lineEnd": 21232
+  },
+  "section": "12.109"
+}

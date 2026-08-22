@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-42-id100-destination",
+  "@type": "Table",
+  "name": "Id100 Destination",
+  "slug": "10-42-id100-destination",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.42",
+    "heading": "Amulet of the Planes",
+    "lineStart": 14725,
+    "lineEnd": 14725
+  },
+  "columns": [
+    "01–60",
+    "Random location on the plane you named"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "61–70"
+        },
+        {
+          "value": "Random location on an Inner Plane determined by rolling Id6: on a 1, the Plane of Air; on a 2, the Plane of Earth; on a 3, the Plane of Fire; on a 4, the Plane of Water; on a 5, the Feywild; on a 6, the Shadowfell"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "71–80"
+        },
+        {
+          "value": "Random location on an Outer Plane determined by rolling Id8: on a 1, Arborea; on a 2, Arcadia; on a 3, the Beastlands; on a 4, Bytopia; on a 5, Elysium; on a 6, Mechanus; on a 7, Mount Celestia; on an 8, Ysgard"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "81–90"
+        },
+        {
+          "value": "Random location on an Outer Plane determined by rolling Id8: on a 1, the Abyss; on a 2, Acheron; on a 3, Carceri; on a 4, Gehenna; on a 5, Hades; on a 6, Limbo; on a 7, the Nine Hells; on an 8, Pandemonium"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "91–00"
+        },
+        {
+          "value": "Random location on the Astral Plane"
+        }
+      ]
+    }
+  ]
+}

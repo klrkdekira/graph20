@@ -1,0 +1,89 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-334-core-wizard-traits",
+  "@type": "Table",
+  "name": "Core Wizard Traits",
+  "slug": "3-334-core-wizard-traits",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.334",
+    "heading": "Wizard",
+    "lineStart": 4587,
+    "lineEnd": 4587
+  },
+  "columns": [
+    "Primary Ability",
+    "Intelligence"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Hit Point Die"
+        },
+        {
+          "value": "D6 per Wizard level"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Saving Throw Proficiencies"
+        },
+        {
+          "value": "Intelligence and Wisdom"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Skill Proficiencies"
+        },
+        {
+          "value": "Choose 2: Arcana, History, Insight, Investigation, Medicine, Nature, or Religion"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Weapon Proficiencies"
+        },
+        {
+          "value": "Simple weapons"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Armor Training"
+        },
+        {
+          "value": "None"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Starting Equipment"
+        },
+        {
+          "value": "Choose A or B: (A) 2 Daggers, Arcane Focus (Quarterstaff), Robe, Spellbook, Scholar’s Pack, and 5 GP; or (B) 55 GP"
+        }
+      ]
+    }
+  ]
+}

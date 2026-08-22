@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-63-level-3-cleric-subclass",
+  "@type": "Rule",
+  "name": "Level 3: Cleric Subclass",
+  "slug": "3-63-level-3-cleric-subclass",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.63",
+    "heading": "Level 3: Cleric Subclass",
+    "lineStart": 2676,
+    "lineEnd": 2678
+  },
+  "section": "3.63",
+  "rulesText": "You gain a Cleric subclass of your choice. The Life Domain subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Cleric levels. For the rest of your career, you gain each of your subclass's features that are of your Cleric level or lower."
+}

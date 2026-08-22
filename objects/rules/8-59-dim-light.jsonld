@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-59-dim-light",
+  "@type": "Rule",
+  "name": "Dim Light",
+  "slug": "8-59-dim-light",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.59",
+    "heading": "Dim Light",
+    "lineStart": 13113,
+    "lineEnd": 13115
+  },
+  "section": "8.59",
+  "rulesText": "An area with Dim Light is Lightly Obscured. See also “Lightly Obscured” and “Playing the Game” (“Exploration”)."
+}

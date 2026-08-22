@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/graph20/systems/feat.schema.json",
+  "title": "SRD 5.2.1 Feat",
+  "$ref": "common.schema.json#/$defs/EntityBase",
+  "properties": {
+    "@type": { "const": "Feat" },
+    "category": {
+      "enum": ["Origin", "General", "Fighting Style", "Epic Boon"]
+    },
+    "prerequisite": { "type": "string", "minLength": 1 },
+    "repeatable": { "type": "boolean" },
+    "rulesText": { "type": "string", "minLength": 1 }
+  },
+  "required": ["category", "repeatable", "rulesText"],
+  "unevaluatedProperties": false
+}

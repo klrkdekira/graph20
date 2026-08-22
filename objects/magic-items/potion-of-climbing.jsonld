@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/potion-of-climbing",
+  "@type": "MagicItem",
+  "name": "Potion of Climbing",
+  "slug": "potion-of-climbing",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.184",
+    "heading": "Potion of Climbing",
+    "lineStart": 16188,
+    "lineEnd": 16194
+  },
+  "itemCategory": "Potion",
+  "rarity": "Common",
+  "requiresAttunement": false,
+  "rulesText": "Potion, Common\n\nWhen you drink this potion, you gain a Climb Speed equal to your Speed for 1 hour. During this time, you have Advantage on Strength (Athletics) checks to climb.\n\nThis potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors."
+}

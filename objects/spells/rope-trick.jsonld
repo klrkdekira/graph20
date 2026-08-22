@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/rope-trick",
+  "@type": "Spell",
+  "name": "Rope Trick",
+  "slug": "rope-trick",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.290",
+    "heading": "Rope Trick",
+    "lineStart": 11282,
+    "lineEnd": 11296
+  },
+  "level": 2,
+  "school": "Transmutation",
+  "classAvailability": [
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": "V, S, M (a segment of rope)",
+  "duration": "1 hour",
+  "rulesText": "Level 2 Transmutation (Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (a segment of rope)\n\nDuration: 1 hour\n\nYou touch a rope. One end of it hovers upward until the rope hangs perpendicular to the ground or the rope reaches a ceiling. At the rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extra-dimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pulled into or dropped out of it.\n\nThe space can hold up to eight Medium or smaller creatures. Attacks, spells, and other effects can't pass into or out of the space, but creatures inside it can see through the portal. Anything inside the space drops out when the spell ends."
+}

@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-33-becoming-a-bard",
+  "@type": "Rule",
+  "name": "Becoming a Bard ...",
+  "slug": "3-33-becoming-a-bard",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.33",
+    "heading": "Becoming a Bard ...",
+    "lineStart": 2427,
+    "lineEnd": 2427
+  },
+  "section": "3.33"
+}

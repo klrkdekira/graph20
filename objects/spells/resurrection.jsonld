@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/resurrection",
+  "@type": "Spell",
+  "name": "Resurrection",
+  "slug": "resurrection",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.287",
+    "heading": "Resurrection",
+    "lineStart": 11232,
+    "lineEnd": 11250
+  },
+  "level": 7,
+  "school": "Necromancy",
+  "classAvailability": [
+    "Bard",
+    "Cleric"
+  ],
+  "castingTime": "1 hour",
+  "range": "Touch",
+  "components": "V, S, M (a diamond worth 1,000+ GP, which the spell consumes)",
+  "duration": "Instantaneous",
+  "rulesText": "Level 7 Necromancy (Bard, Cleric)\n\nCasting Time: 1 hour\n\nRange: Touch\n\nComponents: V, S, M (a diamond worth 1,000+ GP, which the spell consumes)\n\nDuration: Instantaneous\n\nWith a touch, you revive a dead creature that has been dead for no more than a century, didn't die of old age, and wasn't Undead when it died.\n\nThe creature returns to life with all its Hit Points. This spell also neutralizes any poisons that affected the creature at the time of death. This spell closes all mortal wounds and restores any missing body parts.\n\nComing back from the dead is an ordeal. The target takes a -4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.\n\nCasting this spell to revive a creature that has been dead for 365 days or longer taxes you. Until you finish a Long Rest, you can't cast spells again, and you have Disadvantage on D20 Tests."
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/11-24-experience-points",
+  "@type": "Rule",
+  "name": "Experience Points",
+  "slug": "11-24-experience-points",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters",
+    "section": "11.24",
+    "heading": "Experience Points",
+    "lineStart": 17492,
+    "lineEnd": 17502
+  },
+  "section": "11.24",
+  "rulesText": "The number of Experience Points (XP) a monster is worth is based on its CR, as detailed in the Experience Points by Challenge Rating table. XP is awarded for defeating the monster in combat or otherwise neutralizing it.\n\nUnless a rule says otherwise, a monster summoned by a spell or another magical ability is worth the XP noted in its stat block.\n\nExperience Points by Challenge Rating",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/11-24-experience-points-by-challenge-rating"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/11-24-experience-points-by-challenge-rating-2"
+    }
+  ]
+}

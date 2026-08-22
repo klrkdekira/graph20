@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-1-classes",
+  "@type": "Rule",
+  "name": "Classes",
+  "slug": "3-1-classes",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.1",
+    "heading": "Classes",
+    "lineStart": 2250,
+    "lineEnd": 2250
+  },
+  "section": "3.1"
+}

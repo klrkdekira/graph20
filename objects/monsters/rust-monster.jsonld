@@ -1,0 +1,81 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/rust-monster",
+  "@type": "Monster",
+  "name": "Rust Monster",
+  "slug": "rust-monster",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.204",
+    "heading": "Rust Monster",
+    "lineStart": 24589,
+    "lineEnd": 24627
+  },
+  "sizeTypeAlignment": "Medium Monstrosity, Unaligned",
+  "sizeAndType": "Medium Monstrosity",
+  "alignment": "Unaligned",
+  "armorClass": "14",
+  "initiative": "+1 (11)",
+  "hitPoints": "33 (6d8 + 6)",
+  "speed": "40 ft.",
+  "senses": "Darkvision 60 ft.; Passive Perception 11",
+  "languages": "None",
+  "challenge": "1/2 (XP 100; PB +2)",
+  "armorClassValue": 14,
+  "hitPointsValue": 33,
+  "hitPointsRoll": {
+    "expression": "6d8+6",
+    "count": 6,
+    "sides": 8,
+    "modifier": 6
+  },
+  "challengeRating": "1/2",
+  "experiencePoints": 100,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "dex": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "con": {
+      "score": 13
+    },
+    "int": {
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 6
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Iron Scent. The rust monster can pinpoint the location of ferrous metal within 30 feet of itself."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The rust monster makes one Bite attack and uses Antennae twice.\n\nBite. Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Piercing damage.\n\nAntennae. The rust monster targets one nonmagical metal object—armor or a weapon—worn or carried by a creature within 5 feet of itself. Dexterity Saving Throw: DC 11, the creature with the object. Failure: The object takes a -1 penalty to the AC it offers (armor) or to its attack rolls (weapon). Armor is destroyed if the penalty reduces its AC to 10, and a weapon is destroyed if its penalty reaches -5. The penalty can be removed by casting the Mending spell on the armor or weapon.\n\nDestroy Metal. The rust monster touches a nonmagical metal object within 5 feet of itself that isn't being worn or carried. The touch destroys a 1-foot Cube of the object."
+    },
+    {
+      "name": "Reactions",
+      "rulesText": "Reflexive Antennae. Trigger: An attack roll hits the rust monster. Response: The rust monster uses Antennae."
+    }
+  ],
+  "rulesText": "Medium Monstrosity, Unaligned\n\nAC 14\n\nInitiative +1 (11)\n\nHP 33 (6d8 + 6)\n\nSpeed 40 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 11\n\nLanguages None\n\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nIron Scent. The rust monster can pinpoint the location of ferrous metal within 30 feet of itself.\n\nActions\n\nMultiattack. The rust monster makes one Bite attack and uses Antennae twice.\n\nBite. Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Piercing damage.\n\nAntennae. The rust monster targets one nonmagical metal object—armor or a weapon—worn or carried by a creature within 5 feet of itself. Dexterity Saving Throw: DC 11, the creature with the object. Failure: The object takes a -1 penalty to the AC it offers (armor) or to its attack rolls (weapon). Armor is destroyed if the penalty reduces its AC to 10, and a weapon is destroyed if its penalty reaches -5. The penalty can be removed by casting the Mending spell on the armor or weapon.\n\nDestroy Metal. The rust monster touches a nonmagical metal object within 5 feet of itself that isn't being worn or carried. The touch destroys a 1-foot Cube of the object.\n\nReactions\n\nReflexive Antennae. Trigger: An attack roll hits the rust monster. Response: The rust monster uses Antennae."
+}

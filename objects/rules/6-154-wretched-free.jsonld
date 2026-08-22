@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-154-wretched-free",
+  "@type": "Rule",
+  "name": "Wretched (Free)",
+  "slug": "6-154-wretched-free",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.154",
+    "heading": "Wretched (Free)",
+    "lineStart": 6101,
+    "lineEnd": 6103
+  },
+  "section": "6.154",
+  "rulesText": "You survive via chance and charity. You're often exposed to natural dangers as a result of sleeping outside."
+}

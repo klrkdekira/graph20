@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-106-falling-unconscious",
+  "@type": "Rule",
+  "name": "Falling Unconscious",
+  "slug": "1-106-falling-unconscious",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.106",
+    "heading": "Falling Unconscious",
+    "lineStart": 1674,
+    "lineEnd": 1676
+  },
+  "section": "1.106",
+  "rulesText": "If you reach 0 Hit Points and don't die instantly, you have the Unconscious condition (see “Rules Glossary”) until you regain any Hit Points, and you now face making Death Saving Throws (see below)."
+}

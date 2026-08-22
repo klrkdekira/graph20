@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-70-creature-size",
+  "@type": "Rule",
+  "name": "Creature Size",
+  "slug": "1-70-creature-size",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.70",
+    "heading": "Creature Size",
+    "lineStart": 1470,
+    "lineEnd": 1478
+  },
+  "section": "1.70",
+  "rulesText": "A creature belongs to a size category, which determines the width of the square space the creature occupies on a map, as shown on the Creature Size and Space table. That table lists the sizes from smallest (Tiny) to largest (Gargantuan). A creature's space is the area that it effectively controls in combat and the area it needs to fight effectively.\n\nA character's size is determined by species, and a monster's size is specified in the monster's stat block.\n\nCreature Size and Space",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/1-70-creature-size-and-space"
+    }
+  ]
+}

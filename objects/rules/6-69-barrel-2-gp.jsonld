@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-69-barrel-2-gp",
+  "@type": "Rule",
+  "name": "Barrel (2 GP)",
+  "slug": "6-69-barrel-2-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.69",
+    "heading": "Barrel (2 GP)",
+    "lineStart": 5713,
+    "lineEnd": 5715
+  },
+  "section": "6.69",
+  "rulesText": "A Barrel holds up to 40 gallons of liquid or up to 4 cubic feet of dry goods."
+}

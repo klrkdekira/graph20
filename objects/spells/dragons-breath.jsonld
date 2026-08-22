@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/dragons-breath",
+  "@type": "Spell",
+  "name": "Dragon's Breath",
+  "slug": "dragons-breath",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.126",
+    "heading": "Dragon's Breath",
+    "lineStart": 8232,
+    "lineEnd": 8246
+  },
+  "level": 2,
+  "school": "Transmutation",
+  "classAvailability": [
+    "Sorcerer",
+    "Wizard"
+  ],
+  "castingTime": "Bonus Action",
+  "range": "Touch",
+  "components": "V, S, M (a hot pepper)",
+  "duration": "Concentration, up to 1 minute",
+  "rulesText": "Level 2 Transmutation (Sorcerer, Wizard)\n\nCasting Time: Bonus Action\n\nRange: Touch\n\nComponents: V, S, M (a hot pepper)\n\nDuration: Concentration, up to 1 minute\n\nYou touch one willing creature, and choose Acid, Cold, Fire, Lightning, or Poison. Until the spell ends, the target can take a Magic action to exhale a 15-foot Cone. Each creature in that area makes a Dexterity saving throw, taking 3d6 damage of the chosen type on a failed save or half as much damage on a successful one.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 2."
+}

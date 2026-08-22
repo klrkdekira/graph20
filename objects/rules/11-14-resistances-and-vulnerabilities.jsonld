@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/11-14-resistances-and-vulnerabilities",
+  "@type": "Rule",
+  "name": "Resistances and Vulnerabilities",
+  "slug": "11-14-resistances-and-vulnerabilities",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters",
+    "section": "11.14",
+    "heading": "Resistances and Vulnerabilities",
+    "lineStart": 17438,
+    "lineEnd": 17440
+  },
+  "section": "11.14",
+  "rulesText": "These entries list a monster's Resistances and Vulnerabilities, if any. See “Playing the Game” for more information."
+}

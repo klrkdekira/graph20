@@ -1,0 +1,31 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/lesser-restoration",
+  "@type": "Spell",
+  "name": "Lesser Restoration",
+  "slug": "lesser-restoration",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.215",
+    "heading": "Lesser Restoration",
+    "lineStart": 9940,
+    "lineEnd": 9952
+  },
+  "level": 2,
+  "school": "Abjuration",
+  "classAvailability": [
+    "Bard",
+    "Cleric",
+    "Druid",
+    "Paladin",
+    "Ranger"
+  ],
+  "castingTime": "Bonus Action",
+  "range": "Touch",
+  "components": "V, S",
+  "duration": "Instantaneous",
+  "rulesText": "Level 2 Abjuration (Bard, Cleric, Druid, Paladin, Ranger)\n\nCasting Time: Bonus Action\n\nRange: Touch\n\nComponents: V, S\n\nDuration: Instantaneous\n\nYou touch a creature and end one condition on it: Blinded, Deafened, Paralyzed, or Poisoned."
+}

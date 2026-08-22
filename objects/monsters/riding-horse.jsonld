@@ -1,0 +1,70 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/riding-horse",
+  "@type": "Monster",
+  "name": "Riding Horse",
+  "slug": "riding-horse",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.78",
+    "heading": "Riding Horse",
+    "lineStart": 29353,
+    "lineEnd": 29375
+  },
+  "sizeTypeAlignment": "Large Beast, Unaligned",
+  "sizeAndType": "Large Beast",
+  "alignment": "Unaligned",
+  "armorClass": "11",
+  "initiative": "+1 (11)",
+  "hitPoints": "13 (2d10 + 2)",
+  "speed": "60 ft.",
+  "senses": "Passive Perception 10",
+  "languages": "None",
+  "challenge": "1/4 (XP 50; PB +2)",
+  "armorClassValue": 11,
+  "hitPointsValue": 13,
+  "hitPointsRoll": {
+    "expression": "2d10+2",
+    "count": 2,
+    "sides": 10,
+    "modifier": 2
+  },
+  "challengeRating": "1/4",
+  "experiencePoints": 50,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "dex": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "int": {
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "cha": {
+      "score": 7
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Hooves. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning damage."
+    }
+  ],
+  "rulesText": "Large Beast, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 13 (2d10 + 2)\n\nSpeed 60 ft.\n\nSenses Passive Perception 10\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nHooves. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning damage."
+}

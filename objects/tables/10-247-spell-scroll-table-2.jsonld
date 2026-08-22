@@ -1,0 +1,127 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-247-spell-scroll-table-2",
+  "@type": "Table",
+  "name": "Spell Scroll Table 2",
+  "slug": "10-247-spell-scroll-table-2",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.247",
+    "heading": "Spell Scroll",
+    "lineStart": 16827,
+    "lineEnd": 16827
+  },
+  "columns": [
+    "Spell Level",
+    "Rarity",
+    "Save DC",
+    "Attack Bonus"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "Rare"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "+7"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "Rare"
+        },
+        {
+          "value": "17"
+        },
+        {
+          "value": "+9"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "Very Rare"
+        },
+        {
+          "value": "17"
+        },
+        {
+          "value": "+9"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "Very Rare"
+        },
+        {
+          "value": "18"
+        },
+        {
+          "value": "+10"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "Very Rare"
+        },
+        {
+          "value": "18"
+        },
+        {
+          "value": "+10"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "Legendary"
+        },
+        {
+          "value": "19"
+        },
+        {
+          "value": "+11"
+        }
+      ]
+    }
+  ]
+}

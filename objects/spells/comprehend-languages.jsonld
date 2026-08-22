@@ -1,0 +1,30 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/comprehend-languages",
+  "@type": "Spell",
+  "name": "Comprehend Languages",
+  "slug": "comprehend-languages",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.81",
+    "heading": "Comprehend Languages",
+    "lineStart": 7382,
+    "lineEnd": 7394
+  },
+  "level": 1,
+  "school": "Divination",
+  "classAvailability": [
+    "Bard",
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
+  ],
+  "castingTime": "Action or Ritual",
+  "range": "Self",
+  "components": "V, S, M (a pinch of soot and salt)",
+  "duration": "1 hour",
+  "rulesText": "Level 1 Divination (Bard, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action or Ritual\n\nRange: Self\n\nComponents: V, S, M (a pinch of soot and salt)\n\nDuration: 1 hour\n\nFor the duration, you understand the literal meaning of any language that you hear or see signed. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text. This spell doesn't decode symbols or secret messages."
+}

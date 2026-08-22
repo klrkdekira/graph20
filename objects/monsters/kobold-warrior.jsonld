@@ -1,0 +1,82 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/kobold-warrior",
+  "@type": "Monster",
+  "name": "Kobold Warrior",
+  "slug": "kobold-warrior",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.148",
+    "heading": "Kobold Warrior",
+    "lineStart": 22571,
+    "lineEnd": 22601
+  },
+  "sizeTypeAlignment": "Small Dragon, Neutral",
+  "sizeAndType": "Small Dragon",
+  "alignment": "Neutral",
+  "armorClass": "14",
+  "initiative": "+2 (12)",
+  "hitPoints": "7 (3d6 - 3)",
+  "speed": "30 ft.",
+  "senses": "Darkvision 60 ft.; Passive Perception 8",
+  "languages": "Common, Draconic",
+  "gear": "Daggers (3)",
+  "challenge": "1/8 (XP 25; PB +2)",
+  "armorClassValue": 14,
+  "hitPointsValue": 7,
+  "hitPointsRoll": {
+    "expression": "3d6-3",
+    "count": 3,
+    "sides": 6,
+    "modifier": -3
+  },
+  "challengeRating": "1/8",
+  "experiencePoints": 25,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
+    },
+    "dex": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 9,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "int": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "wis": {
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
+    },
+    "cha": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Pack Tactics. The kobold has Advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nSunlight Sensitivity. While in sunlight, the kobold has Disadvantage on ability checks and attack rolls."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Dagger. Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage."
+    }
+  ],
+  "rulesText": "Small Dragon, Neutral\n\nAC 14\n\nInitiative +2 (12)\n\nHP 7 (3d6 - 3)\n\nSpeed 30 ft.\n\nGear Daggers (3)\n\nSenses Darkvision 60 ft.; Passive Perception 8\n\nLanguages Common, Draconic\n\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nPack Tactics. The kobold has Advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nSunlight Sensitivity. While in sunlight, the kobold has Disadvantage on ability checks and attack rolls.\n\nActions\n\nDagger. Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage."
+}

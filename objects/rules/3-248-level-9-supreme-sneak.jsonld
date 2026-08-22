@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-248-level-9-supreme-sneak",
+  "@type": "Rule",
+  "name": "Level 9: Supreme Sneak",
+  "slug": "3-248-level-9-supreme-sneak",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.248",
+    "heading": "Level 9: Supreme Sneak",
+    "lineStart": 3904,
+    "lineEnd": 3908
+  },
+  "section": "3.248",
+  "rulesText": "You gain the following Cunning Strike option.\n\nStealth Attack (Cost: 1d6). If you have the Hide action's Invisible condition, this attack doesn't end that condition on you if you end the turn behind Three-Quarters Cover or Total Cover."
+}

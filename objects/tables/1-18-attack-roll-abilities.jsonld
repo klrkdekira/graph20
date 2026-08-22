@@ -1,0 +1,56 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/1-18-attack-roll-abilities",
+  "@type": "Table",
+  "name": "Attack Roll Abilities",
+  "slug": "1-18-attack-roll-abilities",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.18",
+    "heading": "Ability Modifier",
+    "lineStart": 1099,
+    "lineEnd": 1099
+  },
+  "columns": [
+    "Ability",
+    "Attack Type"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Strength"
+        },
+        {
+          "value": "Melee attack with a weapon or an Un-armed Strike (see “Rules Glossary”)"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Dexterity"
+        },
+        {
+          "value": "Ranged attack with a weapon"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Varies"
+        },
+        {
+          "value": "Spell attack (the ability used is determined by the spellcaster’s spellcasting feature, as explained in “Spells”)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/fire-bolt",
+  "@type": "Spell",
+  "name": "Fire Bolt",
+  "slug": "fire-bolt",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.152",
+    "heading": "Fire Bolt",
+    "lineStart": 8754,
+    "lineEnd": 8768
+  },
+  "level": 0,
+  "school": "Evocation",
+  "classAvailability": [
+    "Sorcerer",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "120 feet",
+  "components": "V, S",
+  "duration": "Instantaneous",
+  "rulesText": "Evocation Cantrip (Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 120 feet\n\nComponents: V, S\n\nDuration: Instantaneous\n\nYou hurl a mote of fire at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Fire damage. A flammable object hit by this spell starts burning if it isn't being worn or carried.\n\nCantrip Upgrade. The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10)."
+}

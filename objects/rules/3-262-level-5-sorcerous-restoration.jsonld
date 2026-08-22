@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-262-level-5-sorcerous-restoration",
+  "@type": "Rule",
+  "name": "Level 5: Sorcerous Restoration",
+  "slug": "3-262-level-5-sorcerous-restoration",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.262",
+    "heading": "Level 5: Sorcerous Restoration",
+    "lineStart": 4019,
+    "lineEnd": 4021
+  },
+  "section": "3.262",
+  "rulesText": "When you finish a Short Rest, you can regain expended Sorcery Points, but no more than a number equal to half your Sorcerer level (round down). Once you use this feature, you can't do so again until you finish a Long Rest."
+}

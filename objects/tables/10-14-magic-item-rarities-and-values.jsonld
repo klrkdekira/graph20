@@ -1,0 +1,76 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-14-magic-item-rarities-and-values",
+  "@type": "Table",
+  "name": "Magic Item Rarities and Values",
+  "slug": "10-14-magic-item-rarities-and-values",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.14",
+    "heading": "Magic Item Values by Rarity",
+    "lineStart": 14524,
+    "lineEnd": 14524
+  },
+  "columns": [
+    "Rarity",
+    "Value*",
+    "Rarity",
+    "Value*"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Common"
+        },
+        {
+          "value": "100 GP"
+        },
+        {
+          "value": "Very Rare"
+        },
+        {
+          "value": "40,000 GP"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Uncommon"
+        },
+        {
+          "value": "400 GP"
+        },
+        {
+          "value": "Legendary"
+        },
+        {
+          "value": "200,000 GP"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Rare"
+        },
+        {
+          "value": "4,000 GP"
+        },
+        {
+          "value": "Artifact"
+        },
+        {
+          "value": "Priceless"
+        }
+      ]
+    }
+  ]
+}

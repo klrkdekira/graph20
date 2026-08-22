@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-12-level-3-barbarian-subclass",
+  "@type": "Rule",
+  "name": "Level 3: Barbarian Subclass",
+  "slug": "3-12-level-3-barbarian-subclass",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.12",
+    "heading": "Level 3: Barbarian Subclass",
+    "lineStart": 2323,
+    "lineEnd": 2325
+  },
+  "section": "3.12",
+  "rulesText": "You gain a Barbarian subclass of your choice. The Path of the Berserker subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Barbarian levels. For the rest of your career, you gain each of your subclass's features that are of your Barbarian level or lower."
+}

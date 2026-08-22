@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-237-level-7-evasion",
+  "@type": "Rule",
+  "name": "Level 7: Evasion",
+  "slug": "3-237-level-7-evasion",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.237",
+    "heading": "Level 7: Evasion",
+    "lineStart": 3842,
+    "lineEnd": 3844
+  },
+  "section": "3.237",
+  "rulesText": "You can nimbly dodge out of the way of certain dangers. When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the Incapacitated condition."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-22-advantage-disadvantage",
+  "@type": "Rule",
+  "name": "Advantage/Disadvantage",
+  "slug": "1-22-advantage-disadvantage",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.22",
+    "heading": "Advantage/Disadvantage",
+    "lineStart": 1125,
+    "lineEnd": 1129
+  },
+  "section": "1.22",
+  "rulesText": "Sometimes a D20 Test is modified by Advantage or Disadvantage. Advantage reflects the positive circumstances surrounding a d20 roll, while Disadvantage reflects negative circumstances.\n\nYou usually acquire Advantage or Disadvantage through the use of special abilities and actions. The"
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/power-word-kill",
+  "@type": "Spell",
+  "name": "Power Word Kill",
+  "slug": "power-word-kill",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.264",
+    "heading": "Power Word Kill",
+    "lineStart": 10811,
+    "lineEnd": 10823
+  },
+  "level": 9,
+  "school": "Enchantment",
+  "classAvailability": [
+    "Bard",
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "60 feet",
+  "duration": "Instantaneous",
+  "rulesText": "Level 9 Enchantment (Bard, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponent: V\n\nDuration: Instantaneous\n\nYou compel one creature you can see within range to die. If the target has 100 Hit Points or fewer, it dies. Otherwise, it takes 12d12 Psychic damage."
+}

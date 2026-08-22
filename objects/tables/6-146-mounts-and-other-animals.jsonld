@@ -1,0 +1,136 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/6-146-mounts-and-other-animals",
+  "@type": "Table",
+  "name": "Mounts and Other Animals",
+  "slug": "6-146-mounts-and-other-animals",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.146",
+    "heading": "Saddles",
+    "lineStart": 6059,
+    "lineEnd": 6059
+  },
+  "columns": [
+    "Item",
+    "Carrying Capacity",
+    "Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Camel"
+        },
+        {
+          "value": "450 lb."
+        },
+        {
+          "value": "50 GP"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Elephant"
+        },
+        {
+          "value": "1,320 lb."
+        },
+        {
+          "value": "200 GP"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Horse, Draft"
+        },
+        {
+          "value": "540 lb."
+        },
+        {
+          "value": "50 GP"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Horse, Riding"
+        },
+        {
+          "value": "480 lb."
+        },
+        {
+          "value": "75 GP"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Mastiff"
+        },
+        {
+          "value": "195 lb."
+        },
+        {
+          "value": "25 GP"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Mule"
+        },
+        {
+          "value": "420 lb."
+        },
+        {
+          "value": "8 GP"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Pony"
+        },
+        {
+          "value": "225 lb."
+        },
+        {
+          "value": "30 GP"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Warhorse"
+        },
+        {
+          "value": "540 lb."
+        },
+        {
+          "value": "400 GP"
+        }
+      ]
+    }
+  ]
+}

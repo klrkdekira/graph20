@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/horseshoes-of-a-zephyr",
+  "@type": "MagicItem",
+  "name": "Horseshoes of a Zephyr",
+  "slug": "horseshoes-of-a-zephyr",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.141",
+    "heading": "Horseshoes of a Zephyr",
+    "lineStart": 15696,
+    "lineEnd": 15702
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Very Rare",
+  "requiresAttunement": false,
+  "rulesText": "Wondrous Item, Very Rare\n\nThese horseshoes come in a set of four. As a Magic action, you can touch one of the horseshoes to the hoof of a horse or similar creature, whereupon the horseshoe affixes itself to the hoof. Removing a horseshoe also takes a Magic action.\n\nWhile all four shoes are affixed to the hooves of a horse or similar creature, they allow the creature to move normally while floating 4 inches above a surface. This effect means the creature can cross or stand above nonsolid or unstable surfaces, such as water or lava. The creature leaves no tracks and ignores Difficult Terrain. In addition, the creature can travel for up to 12 hours a day without gaining Exhaustion levels from extended travel."
+}

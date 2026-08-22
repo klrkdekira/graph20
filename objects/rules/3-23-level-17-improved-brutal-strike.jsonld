@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-23-level-17-improved-brutal-strike",
+  "@type": "Rule",
+  "name": "Level 17: Improved Brutal Strike",
+  "slug": "3-23-level-17-improved-brutal-strike",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.23",
+    "heading": "Level 17: Improved Brutal Strike",
+    "lineStart": 2381,
+    "lineEnd": 2383
+  },
+  "section": "3.23",
+  "rulesText": "The extra damage of your Brutal Strike increases to 2d10. In addition, you can use two different Brutal Strike effects whenever you use your Brutal Strike feature."
+}

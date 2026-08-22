@@ -1,0 +1,93 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-247-spell-scroll-table-1",
+  "@type": "Table",
+  "name": "Spell Scroll Table 1",
+  "slug": "10-247-spell-scroll-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.247",
+    "heading": "Spell Scroll",
+    "lineStart": 16825,
+    "lineEnd": 16825
+  },
+  "columns": [
+    "Spell Level",
+    "Rarity",
+    "Save DC",
+    "Attack Bonus"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Cantrip"
+        },
+        {
+          "value": "Common"
+        },
+        {
+          "value": "13"
+        },
+        {
+          "value": "+5"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "Common"
+        },
+        {
+          "value": "13"
+        },
+        {
+          "value": "+5"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "Uncommon"
+        },
+        {
+          "value": "13"
+        },
+        {
+          "value": "+5"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "Uncommon"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "+7"
+        }
+      ]
+    }
+  ]
+}

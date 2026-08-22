@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-229-level-i-thieves-cant",
+  "@type": "Rule",
+  "name": "Level I: Thieves' Cant",
+  "slug": "3-229-level-i-thieves-cant",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.229",
+    "heading": "Level I: Thieves' Cant",
+    "lineStart": 3798,
+    "lineEnd": 3800
+  },
+  "section": "3.229",
+  "rulesText": "You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the language tables in \"Character Creation.\""
+}

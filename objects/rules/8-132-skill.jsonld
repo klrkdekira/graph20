@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-132-skill",
+  "@type": "Rule",
+  "name": "Skill",
+  "slug": "8-132-skill",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.132",
+    "heading": "Skill",
+    "lineStart": 13596,
+    "lineEnd": 13598
+  },
+  "section": "8.132",
+  "rulesText": "A skill is an area of specialization associated with an ability check. If you have proficiency in a skill, you can add your Proficiency Bonus when you make an ability check associated with that skill. See also “Playing the Game” (“Proficiency”)."
+}

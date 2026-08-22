@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/ring-of-protection",
+  "@type": "MagicItem",
+  "name": "Ring of Protection",
+  "slug": "ring-of-protection",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.211",
+    "heading": "Ring of Protection",
+    "lineStart": 16436,
+    "lineEnd": 16440
+  },
+  "itemCategory": "Ring",
+  "rarity": "Rare",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "rulesText": "Ring, Rare (Requires Attunement)\n\nYou gain a +1 bonus to Armor Class and saving throws while wearing this ring."
+}

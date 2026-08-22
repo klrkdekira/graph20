@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-148-level-9-acrobatic-movement",
+  "@type": "Rule",
+  "name": "Level 9: Acrobatic Movement",
+  "slug": "3-148-level-9-acrobatic-movement",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.148",
+    "heading": "Level 9: Acrobatic Movement",
+    "lineStart": 3283,
+    "lineEnd": 3285
+  },
+  "section": "3.148",
+  "rulesText": "While you aren't wearing armor or wielding a Shield, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the movement."
+}

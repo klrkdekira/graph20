@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-134-monk-class-features",
+  "@type": "Rule",
+  "name": "Monk Class Features",
+  "slug": "3-134-monk-class-features",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.134",
+    "heading": "Monk Class Features",
+    "lineStart": 3190,
+    "lineEnd": 3196
+  },
+  "section": "3.134",
+  "rulesText": "As a Monk, you gain the following class features when you reach the specified Monk levels. These features are listed in the Monk Features table.\n\nMonk Features",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-134-monk-features"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/earth-elemental",
+  "@type": "Monster",
+  "name": "Earth Elemental",
+  "slug": "earth-elemental",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.83",
+    "heading": "Earth Elemental",
+    "lineStart": 20333,
+    "lineEnd": 20371
+  },
+  "sizeTypeAlignment": "Large Elemental, Neutral",
+  "sizeAndType": "Large Elemental",
+  "alignment": "Neutral",
+  "armorClass": "17",
+  "initiative": "-1 (9)",
+  "hitPoints": "147 (14d10 + 70)",
+  "speed": "30 ft., Burrow 30 ft.",
+  "vulnerabilities": "Thunder",
+  "immunities": "Poison; Exhaustion, Paralyzed, Petrified, Poisoned, Unconscious",
+  "senses": "Darkvision 60 ft., Tremorsense 60 ft.; Passive Perception 10",
+  "languages": "Primordial (Terran)",
+  "challenge": "5 (XP 1,800; PB +3)",
+  "armorClassValue": 17,
+  "hitPointsValue": 147,
+  "hitPointsRoll": {
+    "expression": "14d10+70",
+    "count": 14,
+    "sides": 10,
+    "modifier": 70
+  },
+  "challengeRating": "5",
+  "experiencePoints": 1800,
+  "proficiencyBonus": 3,
+  "abilities": {
+    "str": {
+      "score": 20,
+      "modifier": 5,
+      "savingThrow": 5
+    },
+    "dex": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "int": {
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
+    },
+    "wis": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "cha": {
+      "score": 5
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Earth Glide. The elemental can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn't disturb the material it moves through.\n\nSiege Monster. The elemental deals double damage to objects and structures."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The elemental makes two attacks, using Slam or Rock Launch in any combination.\n\nSlam. Melee Attack Roll: +8, reach 10 ft. Hit: 14 (2d8 + 5) Bludgeoning damage.\n\nRock Launch. Ranged Attack Roll: +8, range 60 ft. Hit: 8 (1d6 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition."
+    }
+  ],
+  "rulesText": "Large Elemental, Neutral\n\nAC 17\n\nInitiative -1 (9)\n\nHP 147 (14d10 + 70)\n\nSpeed 30 ft., Burrow 30 ft.\n\nVulnerabilities Thunder\n\nImmunities Poison; Exhaustion, Paralyzed, Petrified, Poisoned, Unconscious\n\nSenses Darkvision 60 ft., Tremorsense 60 ft.; Passive Perception 10\n\nLanguages Primordial (Terran)\n\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nEarth Glide. The elemental can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn't disturb the material it moves through.\n\nSiege Monster. The elemental deals double damage to objects and structures.\n\nActions\n\nMultiattack. The elemental makes two attacks, using Slam or Rock Launch in any combination.\n\nSlam. Melee Attack Roll: +8, reach 10 ft. Hit: 14 (2d8 + 5) Bludgeoning damage.\n\nRock Launch. Ranged Attack Roll: +8, range 60 ft. Hit: 8 (1d6 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition."
+}

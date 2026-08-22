@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-134-spell",
+  "@type": "Rule",
+  "name": "Spell",
+  "slug": "8-134-spell",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.134",
+    "heading": "Spell",
+    "lineStart": 13608,
+    "lineEnd": 13610
+  },
+  "section": "8.134",
+  "rulesText": "A spell is a magical effect that has the characteristics described in “Spells.”"
+}

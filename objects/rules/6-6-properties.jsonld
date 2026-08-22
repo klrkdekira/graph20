@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-6-properties",
+  "@type": "Rule",
+  "name": "Properties",
+  "slug": "6-6-properties",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.6",
+    "heading": "Properties",
+    "lineStart": 5305,
+    "lineEnd": 5307
+  },
+  "section": "6.6",
+  "rulesText": "Here are definitions of the properties in the Properties column of the Weapons table."
+}

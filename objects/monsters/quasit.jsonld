@@ -1,0 +1,83 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/quasit",
+  "@type": "Monster",
+  "name": "Quasit",
+  "slug": "quasit",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.194",
+    "heading": "Quasit",
+    "lineStart": 24213,
+    "lineEnd": 24253
+  },
+  "sizeTypeAlignment": "Tiny Fiend (Demon), Chaotic Evil",
+  "sizeAndType": "Tiny Fiend (Demon)",
+  "alignment": "Chaotic Evil",
+  "armorClass": "13",
+  "initiative": "+3 (13)",
+  "hitPoints": "25 (10d4)",
+  "speed": "40 ft.",
+  "skills": "Stealth +5",
+  "resistances": "Cold, Fire, Lightning",
+  "immunities": "Poison; Poisoned",
+  "senses": "Darkvision 120 ft.; Passive Perception 10",
+  "languages": "Abyssal, Common",
+  "challenge": "1 (XP 200; PB +2)",
+  "armorClassValue": 13,
+  "hitPointsValue": 25,
+  "hitPointsRoll": {
+    "expression": "10d4",
+    "count": 10,
+    "sides": 4
+  },
+  "challengeRating": "1",
+  "experiencePoints": 200,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
+    },
+    "dex": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "con": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "int": {
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
+    },
+    "wis": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "cha": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Magic Resistance. The quasit has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage, and the target has the Poisoned condition until the start of the quasit's next turn.\n\nInvisibility. The quasit casts Invisibility on itself, requiring no spell components and using Charisma as the spellcasting ability.\n\nScare (1/Day). Wisdom Saving Throw: DC 10, one creature within 20 feet. Failure: The target has the Frightened condition. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically.\n\nShape-Shift. The quasit shape-shifts to resemble a bat (Speed 10 ft., Fly 40 ft.), a centipede (40 ft., Climb 40 ft.), or a toad (40 ft., Swim 40 ft.), or it returns to its true form. Its game statistics are the same in each form, except for its Speed. Any equipment it is wearing or carrying isn't transformed."
+    }
+  ],
+  "rulesText": "Tiny Fiend (Demon), Chaotic Evil\n\nAC 13\n\nInitiative +3 (13)\n\nHP 25 (10d4)\n\nSpeed 40 ft.\n\nSkills Stealth +5\n\nResistances Cold, Fire, Lightning\n\nImmunities Poison; Poisoned\n\nSenses Darkvision 120 ft.; Passive Perception 10\n\nLanguages Abyssal, Common\n\nCR 1 (XP 200; PB +2)\n\nTraits\n\nMagic Resistance. The quasit has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage, and the target has the Poisoned condition until the start of the quasit's next turn.\n\nInvisibility. The quasit casts Invisibility on itself, requiring no spell components and using Charisma as the spellcasting ability.\n\nScare (1/Day). Wisdom Saving Throw: DC 10, one creature within 20 feet. Failure: The target has the Frightened condition. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically.\n\nShape-Shift. The quasit shape-shifts to resemble a bat (Speed 10 ft., Fly 40 ft.), a centipede (40 ft., Climb 40 ft.), or a toad (40 ft., Swim 40 ft.), or it returns to its true form. Its game statistics are the same in each form, except for its Speed. Any equipment it is wearing or carrying isn't transformed."
+}

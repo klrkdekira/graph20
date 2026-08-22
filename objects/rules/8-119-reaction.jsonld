@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-119-reaction",
+  "@type": "Rule",
+  "name": "Reaction",
+  "slug": "8-119-reaction",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.119",
+    "heading": "Reaction",
+    "lineStart": 13512,
+    "lineEnd": 13514
+  },
+  "section": "8.119",
+  "rulesText": "A Reaction is a special action taken in response to a trigger defined in the Reaction's description. You can take a Reaction on another creature's turn, and if you take it on your turn, you can do so even if you also take an action, a Bonus Action, or both. Once you take a Reaction, you can't take another one until the start of your next turn. The Opportunity Attack is a Reaction available to all creatures. See also \"Opportunity Attacks\" and \"Playing the Game\" (\"Actions\")."
+}

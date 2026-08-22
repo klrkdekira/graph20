@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-12-4-choose-a-tool-proficiency",
+  "@type": "Rule",
+  "name": "4: Choose a Tool Proficiency",
+  "slug": "9-12-4-choose-a-tool-proficiency",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.12",
+    "heading": "4: Choose a Tool Proficiency",
+    "lineStart": 13873,
+    "lineEnd": 13875
+  },
+  "section": "9.12",
+  "rulesText": "Choose one tool used in the practice of the background or often associated with it."
+}

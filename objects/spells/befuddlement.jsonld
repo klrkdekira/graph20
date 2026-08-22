@@ -1,0 +1,30 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/befuddlement",
+  "@type": "Spell",
+  "name": "Befuddlement",
+  "slug": "befuddlement",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.56",
+    "heading": "Befuddlement",
+    "lineStart": 6929,
+    "lineEnd": 6945
+  },
+  "level": 8,
+  "school": "Enchantment",
+  "classAvailability": [
+    "Bard",
+    "Druid",
+    "Warlock",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "150 feet",
+  "components": "V, S, M (a key ring with no keys)",
+  "duration": "Instantaneous",
+  "rulesText": "Level 8 Enchantment (Bard, Druid, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: 150 feet\n\nComponents: V, S, M (a key ring with no keys)\n\nDuration: Instantaneous\n\nYou blast the mind of a creature that you can see within range. The target makes an Intelligence saving throw.\n\nOn a failed save, the target takes 10d12 Psychic damage and can't cast spells or take the Magic action. At the end of every 30 days, the target repeats the save, ending the effect on a success. The effect can also be ended by the Greater Restoration, Heal, or Wish spell.\n\nOn a successful save, the target takes half as much damage only."
+}

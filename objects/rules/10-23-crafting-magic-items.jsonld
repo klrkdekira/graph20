@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/10-23-crafting-magic-items",
+  "@type": "Rule",
+  "name": "Crafting Magic Items",
+  "slug": "10-23-crafting-magic-items",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.23",
+    "heading": "Crafting Magic Items",
+    "lineStart": 14568,
+    "lineEnd": 14570
+  },
+  "section": "10.23",
+  "rulesText": "“Equipment” contains rules on brewing Potions of Healing and scribing Spell Scrolls. To create other magic items, follow the rules below. In these rules, “you” refers to the character crafting the magic item."
+}

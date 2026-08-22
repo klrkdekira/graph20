@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/calm-emotions",
+  "@type": "Spell",
+  "name": "Calm Emotions",
+  "slug": "calm-emotions",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.67",
+    "heading": "Calm Emotions",
+    "lineStart": 7125,
+    "lineEnd": 7140
+  },
+  "level": 2,
+  "school": "Enchantment",
+  "classAvailability": [
+    "Bard",
+    "Cleric"
+  ],
+  "castingTime": "Action",
+  "range": "60 feet",
+  "components": "V, S",
+  "duration": "Concentration, up to 1 minute",
+  "rulesText": "Level 2 Enchantment (Bard, Cleric)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S\n\nDuration: Concentration, up to 1 minute\n\nEach Humanoid in a 20-foot-radius Sphere centered on a point you choose within range must succeed on a Charisma saving throw or be affected by one of the following effects (choose for each creature):\n\n- The creature has Immunity to the Charmed and Frightened conditions until the spell ends. If the creature was already Charmed or Frightened, those conditions are suppressed for the duration.  \n- The creature becomes Indifferent about creatures of your choice that it's Hostile toward. This indifference ends if the target takes damage or witnesses its allies taking damage. When the spell ends, the creature's attitude returns to normal."
+}

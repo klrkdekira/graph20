@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/10-35-conflict",
+  "@type": "Rule",
+  "name": "Conflict",
+  "slug": "10-35-conflict",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.35",
+    "heading": "Conflict",
+    "lineStart": 14658,
+    "lineEnd": 14674
+  },
+  "section": "10.35",
+  "rulesText": "When the bearer of a sentient item acts in a manner opposed to the item's alignment or purpose, conflict can arise. When such a conflict occurs, the item's bearer makes a Charisma saving throw (DC 12 plus the item's Charisma modifier). On a failed save, the item makes one or more of the following demands:\n\nChase My Dreams. The item demands that its bearer pursue the item's goals to the exclusion of all other goals.\n\nGet Rid of It. The item demands that its bearer dispose of anything the item finds repugnant.\n\nIt's Time for a Change. The item demands to be given to someone else.\n\nKeep Me Close. The item insists on being carried or worn at all times.\n\nIf its bearer refuses to comply with the item's demands, the item can do any of the following:\n\n- Make it impossible for its bearer to attune to it.  \n- Suppress one or more of its activated properties.  \n- Attempt to take control of its bearer, whereupon the bearer makes a Charisma saving throw (DC 12 plus the item's Charisma modifier). On a failed save, the bearer has the Charmed condition for 1d12 hours. While Charmed in this way, the bearer must try to follow the item's commands. If the bearer takes damage, it repeats the save, ending the effect on a success. Whether or not the attempt to control its bearer succeeds, the item can't use this power again until the next dawn."
+}

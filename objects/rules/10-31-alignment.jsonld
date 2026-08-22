@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/10-31-alignment",
+  "@type": "Rule",
+  "name": "Alignment",
+  "slug": "10-31-alignment",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.31",
+    "heading": "Alignment",
+    "lineStart": 14622,
+    "lineEnd": 14624
+  },
+  "section": "10.31",
+  "rulesText": "A sentient magic item has an alignment. Its creator or nature might suggest an alignment. Otherwise, pick an alignment or roll on the Sentient Item's Alignment table."
+}

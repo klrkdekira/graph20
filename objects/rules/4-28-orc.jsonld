@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/4-28-orc",
+  "@type": "Rule",
+  "name": "Orc",
+  "slug": "4-28-orc",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Origins",
+    "section": "4.28",
+    "heading": "Orc",
+    "lineStart": 5047,
+    "lineEnd": 5063
+  },
+  "section": "4.28",
+  "rulesText": "Creature Type: Humanoid\n\nSize: Medium (about 6–7 feet tall)\n\nSpeed: 30 feet\n\nAs an Orc, you have these special traits.\n\nAdrenaline Rush. You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus.\n\nYou can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest.\n\nDarkvision. You have Darkvision with a range of 120 feet.\n\nRelentless Endurance. When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest."
+}

@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-290-id100-effect",
+  "@type": "Table",
+  "name": "Id100 Effect",
+  "slug": "10-290-id100-effect",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.290",
+    "heading": "Wand of Wonder",
+    "lineStart": 17245,
+    "lineEnd": 17245
+  },
+  "columns": [
+    "01–20",
+    "You cast a spell originating from the chosen point. Roll Id10 to determine the spell: on a 1–2, Darkness; on a 3–4, Faerie Fire; on a 5–6, Fireball; on a 7–8, Slow; on a 9–10, Stinking Cloud."
+  ],
+  "rows": []
+}

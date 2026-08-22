@@ -1,0 +1,77 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/rhinoceros",
+  "@type": "Monster",
+  "name": "Rhinoceros",
+  "slug": "rhinoceros",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.77",
+    "heading": "Rhinoceros",
+    "lineStart": 29329,
+    "lineEnd": 29351
+  },
+  "sizeTypeAlignment": "Large Beast, Unaligned",
+  "sizeAndType": "Large Beast",
+  "alignment": "Unaligned",
+  "armorClass": "13",
+  "initiative": "-1 (9)",
+  "hitPoints": "45 (6d10 + 12)",
+  "speed": "40 ft.",
+  "senses": "Passive Perception 11",
+  "languages": "None",
+  "challenge": "2 (XP 450; PB +2)",
+  "armorClassValue": 13,
+  "hitPointsValue": 45,
+  "hitPointsRoll": {
+    "expression": "6d10+12",
+    "count": 6,
+    "sides": 10,
+    "modifier": 12
+  },
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 21,
+      "modifier": 5,
+      "savingThrow": 5
+    },
+    "dex": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "con": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "int": {
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Gore. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Piercing damage. If target is a Large or smaller creature and the rhinoceros moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition."
+    }
+  ],
+  "rulesText": "Large Beast, Unaligned\n\nAC 13\n\nInitiative -1 (9)\n\nHP 45 (6d10 + 12)\n\nSpeed 40 ft.\n\nSenses Passive Perception 11\n\nLanguages None\n\nCR 2 (XP 450; PB +2)\n\nActions\n\nGore. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Piercing damage. If target is a Large or smaller creature and the rhinoceros moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition."
+}

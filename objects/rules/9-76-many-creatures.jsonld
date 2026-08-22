@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-76-many-creatures",
+  "@type": "Rule",
+  "name": "Many Creatures",
+  "slug": "9-76-many-creatures",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.76",
+    "heading": "Many Creatures",
+    "lineStart": 14400,
+    "lineEnd": 14402
+  },
+  "section": "9.76",
+  "rulesText": "The more creatures in an encounter, the higher the risk that a lucky streak on their part could deal more damage to the characters than you expect. If your encounter includes more than two creatures per character, include fragile creatures that can be defeated quickly. This guideline is especially important for characters of level 1 or 2."
+}

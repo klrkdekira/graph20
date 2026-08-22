@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-244-level-20-stroke-of-luck",
+  "@type": "Rule",
+  "name": "Level 20: Stroke of Luck",
+  "slug": "3-244-level-20-stroke-of-luck",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.244",
+    "heading": "Level 20: Stroke of Luck",
+    "lineStart": 3876,
+    "lineEnd": 3880
+  },
+  "section": "3.244",
+  "rulesText": "You have a marvelous knack for succeeding when you need to. If you fail a D20 Test, you can turn the roll into a 20.\n\nOnce you use this feature, you can't use it again until you finish a Short or Long Rest."
+}

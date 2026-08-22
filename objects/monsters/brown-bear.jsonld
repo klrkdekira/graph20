@@ -1,0 +1,74 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/brown-bear",
+  "@type": "Monster",
+  "name": "Brown Bear",
+  "slug": "brown-bear",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.12",
+    "heading": "Brown Bear",
+    "lineStart": 27405,
+    "lineEnd": 27433
+  },
+  "sizeTypeAlignment": "Large Beast, Unaligned",
+  "sizeAndType": "Large Beast",
+  "alignment": "Unaligned",
+  "armorClass": "11",
+  "initiative": "+1 (11)",
+  "hitPoints": "22 (3d10 + 6)",
+  "speed": "40 ft., Climb 30 ft.",
+  "skills": "Perception +3",
+  "senses": "Darkvision 60 ft.; Passive Perception 13",
+  "languages": "None",
+  "challenge": "1 (XP 200; PB +2)",
+  "armorClassValue": 11,
+  "hitPointsValue": 22,
+  "hitPointsRoll": {
+    "expression": "3d10+6",
+    "count": 3,
+    "sides": 10,
+    "modifier": 6
+  },
+  "challengeRating": "1",
+  "experiencePoints": 200,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "dex": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "con": {
+      "score": 15
+    },
+    "int": {
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 7
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The bear makes one Bite attack and one Claw attack.\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition."
+    }
+  ],
+  "rulesText": "Large Beast, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 22 (3d10 + 6)\n\nSpeed 40 ft., Climb 30 ft.\n\nSkills Perception +3\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages None\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The bear makes one Bite attack and one Claw attack.\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition."
+}

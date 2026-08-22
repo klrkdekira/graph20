@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/shield",
+  "@type": "Spell",
+  "name": "Shield",
+  "slug": "shield",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.303",
+    "heading": "Shield",
+    "lineStart": 11512,
+    "lineEnd": 11526
+  },
+  "level": 1,
+  "school": "Abjuration",
+  "classAvailability": [
+    "Sorcerer",
+    "Wizard"
+  ],
+  "castingTime": "Reaction, which you take when you are hit by an attack roll or targeted by the Magic Missile spell",
+  "range": "Self",
+  "components": "V, S",
+  "duration": "I round",
+  "rulesText": "Level 1 Abjuration (Sorcerer, Wizard)\n\nCasting Time: Reaction, which you take when you are hit by an attack roll or targeted by the Magic Missile spell\n\nRange: Self\n\nComponents: V, S\n\nDuration: I round\n\nAn imperceptible barrier of magical force protects you. Until the start of your next turn, you have a +5\n\nbonus to AC, including against the triggering attack, and you take no damage from Magic Missile."
+}

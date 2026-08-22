@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/oil-of-etherealness",
+  "@type": "MagicItem",
+  "name": "Oil of Etherealness",
+  "slug": "oil-of-etherealness",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.170",
+    "heading": "Oil of Etherealness",
+    "lineStart": 16066,
+    "lineEnd": 16072
+  },
+  "itemCategory": "Potion",
+  "rarity": "Rare",
+  "requiresAttunement": false,
+  "rulesText": "Potion, Rare\n\nOne vial of this oil can cover one Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of the Etherealness spell for 1 hour.\n\nBeads of this cloudy, gray oil form on the outside of its container and quickly evaporate."
+}

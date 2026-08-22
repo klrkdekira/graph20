@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-33-climb-speed",
+  "@type": "Rule",
+  "name": "Climb Speed",
+  "slug": "8-33-climb-speed",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.33",
+    "heading": "Climb Speed",
+    "lineStart": 12964,
+    "lineEnd": 12966
+  },
+  "section": "8.33",
+  "rulesText": "A Climb Speed can be used in place of Speed to traverse a vertical surface without expending the extra movement normally associated with climbing. See also “Climbing” and “Speed.”"
+}

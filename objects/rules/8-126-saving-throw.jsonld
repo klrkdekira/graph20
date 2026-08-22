@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-126-saving-throw",
+  "@type": "Rule",
+  "name": "Saving Throw",
+  "slug": "8-126-saving-throw",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.126",
+    "heading": "Saving Throw",
+    "lineStart": 13554,
+    "lineEnd": 13556
+  },
+  "section": "8.126",
+  "rulesText": "A saving throw—also called a save—represents an attempt to avoid or resist a threat. You normally make a saving throw only when a rule requires you to do so, but you can decide to fail the save without rolling. The result of a save is detailed in the effect that allowed it. If a target is forced to make a save and lacks the ability score used by it, the target automatically fails. See also “Playing the Game” (“D20 Tests”)."
+}

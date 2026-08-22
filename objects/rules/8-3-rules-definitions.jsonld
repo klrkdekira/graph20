@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-3-rules-definitions",
+  "@type": "Rule",
+  "name": "Rules Definitions",
+  "slug": "8-3-rules-definitions",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.3",
+    "heading": "Rules Definitions",
+    "lineStart": 12786,
+    "lineEnd": 12788
+  },
+  "section": "8.3",
+  "rulesText": "Here are definitions of various rules."
+}

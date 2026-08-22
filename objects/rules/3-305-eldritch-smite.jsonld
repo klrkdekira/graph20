@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-305-eldritch-smite",
+  "@type": "Rule",
+  "name": "Eldritch Smite",
+  "slug": "3-305-eldritch-smite",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.305",
+    "heading": "Eldritch Smite",
+    "lineStart": 4333,
+    "lineEnd": 4339
+  },
+  "section": "3.305",
+  "rulesText": "Prerequisite: Level 5+ Warlock, Pact of the Blade Invocation\n\nOnce per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra 1d8 Force damage to the target,\n\nplus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller."
+}

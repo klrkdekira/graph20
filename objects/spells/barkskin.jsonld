@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/barkskin",
+  "@type": "Spell",
+  "name": "Barkskin",
+  "slug": "barkskin",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.54",
+    "heading": "Barkskin",
+    "lineStart": 6901,
+    "lineEnd": 6913
+  },
+  "level": 2,
+  "school": "Transmutation",
+  "classAvailability": [
+    "Druid",
+    "Ranger"
+  ],
+  "castingTime": "Bonus Action",
+  "range": "Touch",
+  "duration": "1 hour",
+  "rulesText": "Level 2 Transmutation (Druid, Ranger)\n\nCasting Time: Bonus Action\n\nRange: Touch\n\nComponent: V, S, M (a handful of bark)\n\nDuration: 1 hour\n\nYou touch a willing creature. Until the spell ends, the target's skin assumes a bark-like appearance, and the target has an Armor Class of 17 if its AC is lower than that."
+}

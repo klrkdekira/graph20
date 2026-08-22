@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-324-visions-of-distant-realms",
+  "@type": "Rule",
+  "name": "Visions of Distant Realms",
+  "slug": "3-324-visions-of-distant-realms",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.324",
+    "heading": "Visions of Distant Realms",
+    "lineStart": 4485,
+    "lineEnd": 4489
+  },
+  "section": "3.324",
+  "rulesText": "Prerequisite: Level 9+ Warlock\n\nYou can cast Arcane Eye without expending a spell slot."
+}

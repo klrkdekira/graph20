@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/cubic-gate",
+  "@type": "MagicItem",
+  "name": "Cubic Gate",
+  "slug": "cubic-gate",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.88",
+    "heading": "Cubic Gate",
+    "lineStart": 15134,
+    "lineEnd": 15144
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Legendary",
+  "requiresAttunement": false,
+  "rulesText": "Wondrous Item, Legendary\n\nThis cube is 3 inches across and radiates palpable magical energy. The six sides of the cube are each keyed to a different plane of existence, one of which is the Material Plane. The other sides are linked to planes determined by the GM.\n\nThe cube has 3 charges and regains 1d3 expended charges daily at dawn. As a Magic action, you can expend 1 of the cube's charges to cast one of the following spells using the cube.\n\nGate. Pressing one side of the cube, you cast Gate, opening a portal to the plane of existence keyed to that side.\n\nPlane Shift. Pressing one side of the cube twice, you cast Plane Shift, transporting the targets to the plane of existence keyed to that side."
+}

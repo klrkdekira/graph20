@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-73-level-3-disciple-of-life",
+  "@type": "Rule",
+  "name": "Level 3: Disciple of Life",
+  "slug": "3-73-level-3-disciple-of-life",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.73",
+    "heading": "Level 3: Disciple of Life",
+    "lineStart": 2768,
+    "lineEnd": 2770
+  },
+  "section": "3.73",
+  "rulesText": "When a spell you cast with a spell slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the spell. The additional Hit Points equal 2 plus the spell slot's level."
+}

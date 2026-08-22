@@ -1,0 +1,79 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/young-white-dragon",
+  "@type": "Monster",
+  "name": "Young White Dragon",
+  "slug": "young-white-dragon",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.261",
+    "heading": "Young White Dragon",
+    "lineStart": 26651,
+    "lineEnd": 26686
+  },
+  "sizeTypeAlignment": "Large Dragon (Chromatic), Chaotic Evil",
+  "sizeAndType": "Large Dragon (Chromatic)",
+  "alignment": "Chaotic Evil",
+  "armorClass": "17",
+  "initiative": "+3 (13)",
+  "hitPoints": "123 (13d10 + 52)",
+  "speed": "40 ft., Burrow 20 ft., Fly 80 ft., Swim 40 ft.",
+  "skills": "Perception +6, Stealth +3",
+  "immunities": "Cold",
+  "senses": "Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 16",
+  "languages": "Common, Draconic",
+  "challenge": "6 (2,300 XP; PB +3)",
+  "armorClassValue": 17,
+  "hitPointsValue": 123,
+  "hitPointsRoll": {
+    "expression": "13d10+52",
+    "count": 13,
+    "sides": 10,
+    "modifier": 52
+  },
+  "challengeRating": "6",
+  "experiencePoints": 2300,
+  "proficiencyBonus": 3,
+  "abilities": {
+    "str": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "dex": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 3
+    },
+    "con": {
+      "score": 18
+    },
+    "int": {
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": 2
+    },
+    "wis": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 3
+    },
+    "cha": {
+      "score": 12
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Ice Walk. The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn't cost it extra movement."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 9 (2d4 + 4) Slashing damage plus 2 (1d4) Cold damage.\n\nCold Breath (Recharge 5–6). Constitution Saving\nThrow: DC 15, each creature in a 30-foot Cone. Failure: 40 (9d8) Cold damage. Success: Half damage."
+    }
+  ],
+  "rulesText": "Large Dragon (Chromatic), Chaotic Evil\n\nAC 17\n\nInitiative +3 (13)\n\nHP 123 (13d10 + 52)\n\nSpeed 40 ft., Burrow 20 ft., Fly 80 ft., Swim 40 ft.\n\nSkills Perception +6, Stealth +3\n\nImmunities Cold\n\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 16\n\nLanguages Common, Draconic\n\nCR 6 (2,300 XP; PB +3)\n\nTraits\n\nIce Walk. The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn't cost it extra movement.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 9 (2d4 + 4) Slashing damage plus 2 (1d4) Cold damage.\n\nCold Breath (Recharge 5–6). Constitution Saving\nThrow: DC 15, each creature in a 30-foot Cone. Failure: 40 (9d8) Cold damage. Success: Half damage."
+}

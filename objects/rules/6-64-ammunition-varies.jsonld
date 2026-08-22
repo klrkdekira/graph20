@@ -1,0 +1,30 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-64-ammunition-varies",
+  "@type": "Rule",
+  "name": "Ammunition (Varies)",
+  "slug": "6-64-ammunition-varies",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.64",
+    "heading": "Ammunition (Varies)",
+    "lineStart": 5679,
+    "lineEnd": 5691
+  },
+  "section": "6.64",
+  "rulesText": "Ammunition is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.\n\nAdventuring Gear\n\nAmmunition",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/6-64-adventuring-gear"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/6-64-adventuring-gear-2"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/6-64-ammunition"
+    }
+  ]
+}

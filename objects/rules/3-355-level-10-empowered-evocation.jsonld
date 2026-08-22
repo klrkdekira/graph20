@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-355-level-10-empowered-evocation",
+  "@type": "Rule",
+  "name": "Level 10: Empowered Evocation",
+  "slug": "3-355-level-10-empowered-evocation",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.355",
+    "heading": "Level 10: Empowered Evocation",
+    "lineStart": 4759,
+    "lineEnd": 4761
+  },
+  "section": "3.355",
+  "rulesText": "Whenever you cast a Wizard spell from the Evocation school, you can add your Intelligence modifier to one damage roll of that spell."
+}

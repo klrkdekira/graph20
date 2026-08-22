@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/11-4-size",
+  "@type": "Rule",
+  "name": "Size",
+  "slug": "11-4-size",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters",
+    "section": "11.4",
+    "heading": "Size",
+    "lineStart": 17354,
+    "lineEnd": 17356
+  },
+  "section": "11.4",
+  "rulesText": "A monster is Tiny, Small, Medium, Large, Huge, or Gargantuan. If size options are presented, you choose the creature's size from those options. See \"Playing the Game\" for information on size."
+}

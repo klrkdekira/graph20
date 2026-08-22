@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-163-becoming-a-paladin",
+  "@type": "Rule",
+  "name": "Becoming a Paladin ...",
+  "slug": "3-163-becoming-a-paladin",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.163",
+    "heading": "Becoming a Paladin ...",
+    "lineStart": 3367,
+    "lineEnd": 3367
+  },
+  "section": "3.163"
+}

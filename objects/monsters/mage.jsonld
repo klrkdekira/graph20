@@ -1,0 +1,86 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/mage",
+  "@type": "Monster",
+  "name": "Mage",
+  "slug": "mage",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.154",
+    "heading": "Mage",
+    "lineStart": 22803,
+    "lineEnd": 22847
+  },
+  "sizeTypeAlignment": "Medium or Small Humanoid (Wizard), Neutral",
+  "sizeAndType": "Medium or Small Humanoid (Wizard)",
+  "alignment": "Neutral",
+  "armorClass": "15",
+  "initiative": "+2 (12)",
+  "hitPoints": "81 (18d8)",
+  "speed": "30 ft.",
+  "skills": "Arcana +6, History +6, Perception +4",
+  "senses": "Passive Perception 14",
+  "languages": "Common plus three other languages",
+  "gear": "Wand",
+  "challenge": "6 (XP 2,300; PB +3)",
+  "armorClassValue": 15,
+  "hitPointsValue": 81,
+  "hitPointsRoll": {
+    "expression": "18d8",
+    "count": 18,
+    "sides": 8
+  },
+  "challengeRating": "6",
+  "experiencePoints": 2300,
+  "proficiencyBonus": 3,
+  "abilities": {
+    "str": {
+      "score": 9,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "dex": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "int": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 6
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 4
+    },
+    "cha": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The mage makes three Arcane Burst attacks.\n\nArcane Burst. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 120 ft. Hit: 16 (3d8 + 3) Force damage.\n\nSpellcasting. The mage casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 14):\n\nAt Will: Detect Magic, Light, Mage Armor (included in AC), Mage Hand, Prestidigitation\n\n2/Day Each: Fireball (level 4 version), Invisibility\n\n1/Day Each: Cone of Cold, Fly"
+    },
+    {
+      "name": "Bonus Actions",
+      "rulesText": "Misty Step (3/Day). The mage casts Misty Step, using the same spellcasting ability as Spellcasting."
+    },
+    {
+      "name": "Reactions",
+      "rulesText": "Protective Magic (3/Day). The mage casts Counterspell or Shield in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "rulesText": "Medium or Small Humanoid (Wizard), Neutral\n\nAC 15\n\nInitiative +2 (12)\n\nHP 81 (18d8)\n\nSpeed 30 ft.\n\nSkills Arcana +6, History +6, Perception +4\n\nGear Wand\n\nSenses Passive Perception 14\n\nLanguages Common plus three other languages\n\nCR 6 (XP 2,300; PB +3)\n\nActions\n\nMultiattack. The mage makes three Arcane Burst attacks.\n\nArcane Burst. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 120 ft. Hit: 16 (3d8 + 3) Force damage.\n\nSpellcasting. The mage casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 14):\n\nAt Will: Detect Magic, Light, Mage Armor (included in AC), Mage Hand, Prestidigitation\n\n2/Day Each: Fireball (level 4 version), Invisibility\n\n1/Day Each: Cone of Cold, Fly\n\nBonus Actions\n\nMisty Step (3/Day). The mage casts Misty Step, using the same spellcasting ability as Spellcasting.\n\nReactions\n\nProtective Magic (3/Day). The mage casts Counterspell or Shield in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
+}

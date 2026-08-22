@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-89-hit-points",
+  "@type": "Rule",
+  "name": "Hit Points",
+  "slug": "1-89-hit-points",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.89",
+    "heading": "Hit Points",
+    "lineStart": 1586,
+    "lineEnd": 1588
+  },
+  "section": "1.89",
+  "rulesText": "Hit Points represent durability and the will to live. Creatures with more Hit Points are more difficult to kill. Your Hit Point maximum is the number of"
+}

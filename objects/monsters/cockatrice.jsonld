@@ -1,0 +1,78 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/cockatrice",
+  "@type": "Monster",
+  "name": "Cockatrice",
+  "slug": "cockatrice",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.60",
+    "heading": "Cockatrice",
+    "lineStart": 19523,
+    "lineEnd": 19549
+  },
+  "sizeTypeAlignment": "Small Monstrosity, Unaligned",
+  "sizeAndType": "Small Monstrosity",
+  "alignment": "Unaligned",
+  "armorClass": "11",
+  "initiative": "+1 (11)",
+  "hitPoints": "22 (5d6 + 5)",
+  "speed": "20 ft., Fly 40 ft.",
+  "immunities": "Petrified",
+  "senses": "Darkvision 60 ft.; Passive Perception 11",
+  "languages": "None",
+  "challenge": "1/2 (XP 100; PB +2)",
+  "armorClassValue": 11,
+  "hitPointsValue": 22,
+  "hitPointsRoll": {
+    "expression": "5d6+5",
+    "count": 5,
+    "sides": 6,
+    "modifier": 5
+  },
+  "challengeRating": "1/2",
+  "experiencePoints": 100,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
+    },
+    "dex": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "con": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "int": {
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Petrifying Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Piercing damage. If the target is a creature, it is subjected to the following effect. Constitution Saving Throw: DC 11. First Failure: The target has the Restrained condition. The target repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. Second Failure: The target has the Petrified condition, instead of the Restrained condition, for 24 hours."
+    }
+  ],
+  "rulesText": "Small Monstrosity, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 22 (5d6 + 5)\n\nSpeed 20 ft., Fly 40 ft.\n\nImmunities Petrified\n\nSenses Darkvision 60 ft.; Passive Perception 11\n\nLanguages None\n\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nPetrifying Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Piercing damage. If the target is a creature, it is subjected to the following effect. Constitution Saving Throw: DC 11. First Failure: The target has the Restrained condition. The target repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. Second Failure: The target has the Petrified condition, instead of the Restrained condition, for 24 hours."
+}

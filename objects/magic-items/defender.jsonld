@@ -1,0 +1,23 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/defender",
+  "@type": "MagicItem",
+  "name": "Defender",
+  "slug": "defender",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.93",
+    "heading": "Defender",
+    "lineStart": 15196,
+    "lineEnd": 15202
+  },
+  "itemCategory": "Weapon",
+  "categoryDetail": "Any Melee Weapon",
+  "rarity": "Legendary",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "rulesText": "Weapon (Any Melee Weapon), Legendary (Requires Attunement)\n\nYou gain a +3 bonus to attack rolls and damage rolls made with this magic weapon.\n\nThe first time you attack with the weapon on each of your turns, you can transfer some or all of the weapon's bonus to your Armor Class. For example, you could reduce the bonus to your attack rolls and damage rolls to +1 and gain a +2 bonus to Armor Class. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the weapon to gain a bonus to AC from it."
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/antilife-shell",
+  "@type": "Spell",
+  "name": "Antilife Shell",
+  "slug": "antilife-shell",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.40",
+    "heading": "Antilife Shell",
+    "lineStart": 6633,
+    "lineEnd": 6649
+  },
+  "level": 5,
+  "school": "Abjuration",
+  "classAvailability": [
+    "Druid"
+  ],
+  "castingTime": "Action",
+  "range": "Self",
+  "components": "V, S",
+  "duration": "Concentration, up to 1 hour",
+  "rulesText": "Level 5 Abjuration (Druid)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S\n\nDuration: Concentration, up to 1 hour\n\nAn aura extends from you in a 10-foot Emanation for the duration. The aura prevents creatures other than Constructs and Undead from passing or reaching through it. An affected creature can cast spells\n\nor make attacks with Ranged or Reach weapons through the barrier.\n\nIf you move so that an affected creature is forced to pass through the barrier, the spell ends."
+}

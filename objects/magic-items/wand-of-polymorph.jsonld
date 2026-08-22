@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/wand-of-polymorph",
+  "@type": "MagicItem",
+  "name": "Wand of Polymorph",
+  "slug": "wand-of-polymorph",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.286",
+    "heading": "Wand of Polymorph",
+    "lineStart": 17207,
+    "lineEnd": 17213
+  },
+  "itemCategory": "Wand",
+  "rarity": "Very Rare",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement by a Spellcaster",
+  "rulesText": "Wand, Very Rare (Requires Attunement by a Spellcaster)\n\nThis wand has 7 charges. While holding it, you can expend 1 charge to cast Polymorph (save DC 15) from it.\n\nRegaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed."
+}

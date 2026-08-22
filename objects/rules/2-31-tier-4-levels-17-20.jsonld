@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/2-31-tier-4-levels-17-20",
+  "@type": "Rule",
+  "name": "Tier 4 (Levels 17–20)",
+  "slug": "2-31-tier-4-levels-17-20",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.31",
+    "heading": "Tier 4 (Levels 17–20)",
+    "lineStart": 2002,
+    "lineEnd": 2004
+  },
+  "section": "2.31",
+  "rulesText": "At tier 4, characters achieve the pinnacle of their class features, becoming heroic archetypes. The fate of the world or even the order of the multiverse might hang in the balance during their adventures."
+}

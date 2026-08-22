@@ -1,0 +1,30 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/message",
+  "@type": "Spell",
+  "name": "Message",
+  "slug": "message",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.239",
+    "heading": "Message",
+    "lineStart": 10369,
+    "lineEnd": 10383
+  },
+  "level": 0,
+  "school": "Transmutation",
+  "classAvailability": [
+    "Bard",
+    "Druid",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "120 feet",
+  "components": "S, M (a copper wire)",
+  "duration": "I round",
+  "rulesText": "Transmutation Cantrip (Bard, Druid, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 120 feet\n\nComponents: S, M (a copper wire)\n\nDuration: I round\n\nYou point toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.\n\nYou can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence; 1 foot of stone, metal, or wood; or a thin sheet of lead blocks the spell."
+}

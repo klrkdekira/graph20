@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/10-36-magic-items-a-z",
+  "@type": "Rule",
+  "name": "Magic Items A-Z",
+  "slug": "10-36-magic-items-a-z",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.36",
+    "heading": "Magic Items A-Z",
+    "lineStart": 14676,
+    "lineEnd": 14680
+  },
+  "section": "10.36",
+  "rulesText": "Magic items are presented in alphabetical order.\n\nIf a magic item description capitalizes a creature's name and presents it in bold type, that's a visual cue pointing you to the creature's stat block. Unless the text states otherwise, the stat block is in “Monsters.” How to read and use a stat block is explained in “Monsters.”"
+}

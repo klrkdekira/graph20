@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/divine-favor",
+  "@type": "Spell",
+  "name": "Divine Favor",
+  "slug": "divine-favor",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.120",
+    "heading": "Divine Favor",
+    "lineStart": 8122,
+    "lineEnd": 8134
+  },
+  "level": 1,
+  "school": "Transmutation",
+  "classAvailability": [
+    "Paladin"
+  ],
+  "castingTime": "Bonus Action",
+  "range": "Self",
+  "components": "V, S",
+  "duration": "1 minute",
+  "rulesText": "Level 1 Transmutation (Paladin)\n\nCasting Time: Bonus Action\n\nRange: Self\n\nComponents: V, S\n\nDuration: 1 minute\n\nUntil the spell ends, your attacks with weapons deal an extra 1d4 Radiant damage on a hit."
+}

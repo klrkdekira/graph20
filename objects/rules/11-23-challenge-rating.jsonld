@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/11-23-challenge-rating",
+  "@type": "Rule",
+  "name": "Challenge Rating",
+  "slug": "11-23-challenge-rating",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters",
+    "section": "11.23",
+    "heading": "Challenge Rating",
+    "lineStart": 17488,
+    "lineEnd": 17490
+  },
+  "section": "11.23",
+  "rulesText": "Challenge Rating is defined in “Rules Glossary,” while guidance on using CR to plan potential combat encounters is in “Gameplay Toolbox.”"
+}

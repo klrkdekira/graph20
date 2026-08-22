@@ -1,0 +1,397 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/2-46-trinkets",
+  "@type": "Table",
+  "name": "Trinkets",
+  "slug": "2-46-trinkets",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.46",
+    "heading": "Trinkets",
+    "lineStart": 2112,
+    "lineEnd": 2112
+  },
+  "columns": [
+    "Id100",
+    "Trinket"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "01"
+        },
+        {
+          "value": "A mummified goblin hand"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "02"
+        },
+        {
+          "value": "A crystal that faintly glows in moonlight"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "03"
+        },
+        {
+          "value": "A gold coin minted in an unknown land"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "04"
+        },
+        {
+          "value": "A diary written in a language you don’t know"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "05"
+        },
+        {
+          "value": "A brass ring that never tarnishes"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "06"
+        },
+        {
+          "value": "An old chess piece made from glass"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "07"
+        },
+        {
+          "value": "A pair of knucklebone dice, each with a skull symbol on the side that would normally show six pips"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "08"
+        },
+        {
+          "value": "A small idol depicting a nightmarish creature that gives you unsettling dreams when you sleep near it"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "09"
+        },
+        {
+          "value": "A lock of someone’s hair"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "The deed for a parcel of land in a realm unknown to you"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "A l-ounce block made from an unknown material"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "12"
+        },
+        {
+          "value": "A small cloth doll skewered with needles"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "13"
+        },
+        {
+          "value": "A tooth from an unknown beast"
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "cells": [
+        {
+          "value": "14"
+        },
+        {
+          "value": "An enormous scale, perhaps from a dragon"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "cells": [
+        {
+          "value": "15"
+        },
+        {
+          "value": "A bright-green feather"
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "cells": [
+        {
+          "value": "16"
+        },
+        {
+          "value": "An old divination card bearing your likeness"
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "cells": [
+        {
+          "value": "17"
+        },
+        {
+          "value": "A glass orb filled with moving smoke"
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "cells": [
+        {
+          "value": "18"
+        },
+        {
+          "value": "A l-pound egg with a bright-red shell"
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "cells": [
+        {
+          "value": "19"
+        },
+        {
+          "value": "A pipe that blows bubbles"
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "cells": [
+        {
+          "value": "20"
+        },
+        {
+          "value": "A glass jar containing a bit of flesh floating in pickling fluid"
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "cells": [
+        {
+          "value": "21"
+        },
+        {
+          "value": "A gnome-crafted music box that plays a song you dimly remember from your childhood"
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "cells": [
+        {
+          "value": "22"
+        },
+        {
+          "value": "A wooden statuette of a smug halfling"
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "cells": [
+        {
+          "value": "23"
+        },
+        {
+          "value": "A brass orb etched with strange runes"
+        }
+      ]
+    },
+    {
+      "position": 24,
+      "cells": [
+        {
+          "value": "24"
+        },
+        {
+          "value": "A multicolored stone disk"
+        }
+      ]
+    },
+    {
+      "position": 25,
+      "cells": [
+        {
+          "value": "25"
+        },
+        {
+          "value": "A silver icon of a raven"
+        }
+      ]
+    },
+    {
+      "position": 26,
+      "cells": [
+        {
+          "value": "26"
+        },
+        {
+          "value": "A bag containing forty-seven teeth, one of which is rotten"
+        }
+      ]
+    },
+    {
+      "position": 27,
+      "cells": [
+        {
+          "value": "27"
+        },
+        {
+          "value": "A shard of obsidian that always feels warm to the touch"
+        }
+      ]
+    },
+    {
+      "position": 28,
+      "cells": [
+        {
+          "value": "28"
+        },
+        {
+          "value": "A dragon’s talon strung on a leather necklace"
+        }
+      ]
+    },
+    {
+      "position": 29,
+      "cells": [
+        {
+          "value": "29"
+        },
+        {
+          "value": "A pair of old socks"
+        }
+      ]
+    },
+    {
+      "position": 30,
+      "cells": [
+        {
+          "value": "30"
+        },
+        {
+          "value": "A blank book whose pages refuse to hold ink, chalk, graphite, or any other marking"
+        }
+      ]
+    },
+    {
+      "position": 31,
+      "cells": [
+        {
+          "value": "31"
+        },
+        {
+          "value": "A silver badge that is a five-pointed star"
+        }
+      ]
+    },
+    {
+      "position": 32,
+      "cells": [
+        {
+          "value": "32"
+        },
+        {
+          "value": "A knife that belonged to a relative"
+        }
+      ]
+    },
+    {
+      "position": 33,
+      "cells": [
+        {
+          "value": "33"
+        },
+        {
+          "value": "A glass vial filled with nail clippings"
+        }
+      ]
+    },
+    {
+      "position": 34,
+      "cells": [
+        {
+          "value": "34"
+        },
+        {
+          "value": "A rectangular metal device with two tiny metal cups on one end that throws sparks when wet"
+        }
+      ]
+    }
+  ]
+}

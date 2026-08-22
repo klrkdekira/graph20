@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-61-adventuring-gear",
+  "@type": "Rule",
+  "name": "Adventuring Gear",
+  "slug": "6-61-adventuring-gear",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.61",
+    "heading": "Adventuring Gear",
+    "lineStart": 5667,
+    "lineEnd": 5669
+  },
+  "section": "6.61",
+  "rulesText": "The Adventuring Gear table in this section includes gear that adventurers often find useful. These items are described here in alphabetical order, with an item's price appearing after its name."
+}

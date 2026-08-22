@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/11-12-ability-scores",
+  "@type": "Rule",
+  "name": "Ability Scores",
+  "slug": "11-12-ability-scores",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters",
+    "section": "11.12",
+    "heading": "Ability Scores",
+    "lineStart": 17430,
+    "lineEnd": 17432
+  },
+  "section": "11.12",
+  "rulesText": "Every monster has six ability scores along with corresponding ability score modifiers and saving throw modifiers. For more information on ability scores and saving throws, see “Playing the Game.”"
+}

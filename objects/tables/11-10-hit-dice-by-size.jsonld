@@ -1,0 +1,108 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/11-10-hit-dice-by-size",
+  "@type": "Table",
+  "name": "Hit Dice by Size",
+  "slug": "11-10-hit-dice-by-size",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters",
+    "section": "11.10",
+    "heading": "Hit Points",
+    "lineStart": 17420,
+    "lineEnd": 17420
+  },
+  "columns": [
+    "Monster Size",
+    "Hit Die",
+    "Average HP per Die"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Tiny"
+        },
+        {
+          "value": "d4"
+        },
+        {
+          "value": "$2\\frac{1}{2}$"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Small"
+        },
+        {
+          "value": "d6"
+        },
+        {
+          "value": "$3\\frac{1}{2}$"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Medium"
+        },
+        {
+          "value": "d8"
+        },
+        {
+          "value": "$4\\frac{1}{2}$"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Large"
+        },
+        {
+          "value": "d10"
+        },
+        {
+          "value": "$5\\frac{1}{2}$"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Huge"
+        },
+        {
+          "value": "d12"
+        },
+        {
+          "value": "$6\\frac{1}{2}$"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Gargantuan"
+        },
+        {
+          "value": "d20"
+        },
+        {
+          "value": "$10\\frac{1}{2}$"
+        }
+      ]
+    }
+  ]
+}

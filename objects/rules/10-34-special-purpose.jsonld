@@ -1,0 +1,36 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/10-34-special-purpose",
+  "@type": "Rule",
+  "name": "Special Purpose",
+  "slug": "10-34-special-purpose",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.34",
+    "heading": "Special Purpose",
+    "lineStart": 14634,
+    "lineEnd": 14656
+  },
+  "section": "10.34",
+  "rulesText": "You can give a sentient item an objective it pursues, perhaps to the exclusion of all else. As long as the wielder's use of the item aligns with that special purpose, the item remains cooperative. Deviating from this course might cause conflict between the wielder and the item (see “Conflict” below). You can pick a special purpose or roll on the Sentient Item's Special Purpose table.\n\nSentient Item's Alignment\n\nSentient Item's Communication\n\nSentient Item's Senses\n\nSentient Item's Special Purpose\n\nId10 Special Purpose",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/10-34-sentient-items-alignment"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/10-34-sentient-items-communication"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/10-34-sentient-items-senses"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/10-34-sentient-items-special-purpose"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/10-34-id10-special-purpose"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/swarm-of-ravens",
+  "@type": "Monster",
+  "name": "Swarm of Ravens",
+  "slug": "swarm-of-ravens",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.87",
+    "heading": "Swarm of Ravens",
+    "lineStart": 29631,
+    "lineEnd": 29665
+  },
+  "sizeTypeAlignment": "Medium Swarm of Tiny Beasts, Unaligned",
+  "sizeAndType": "Medium Swarm of Tiny Beasts",
+  "alignment": "Unaligned",
+  "armorClass": "12",
+  "initiative": "+2 (12)",
+  "hitPoints": "11 (2d8 + 2)",
+  "speed": "10 ft., Fly 50 ft.",
+  "skills": "Perception +5",
+  "resistances": "Bludgeoning, Piercing, Slashing",
+  "immunities": "Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned",
+  "senses": "Passive Perception 15",
+  "languages": "None",
+  "challenge": "1/4 (XP 50; PB +2)",
+  "armorClassValue": 12,
+  "hitPointsValue": 11,
+  "hitPointsRoll": {
+    "expression": "2d8+2",
+    "count": 2,
+    "sides": 8,
+    "modifier": 2
+  },
+  "challengeRating": "1/4",
+  "experiencePoints": 50,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
+    },
+    "dex": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "int": {
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Swarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny raven. The swarm can't regain Hit Points or gain Temporary Hit Points."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Beaks. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage, or 2 (1d4) Piercing damage if the swarm is Bloodied.\n\nCacophony (Recharge 6). Wisdom Saving Throw: DC 10, one creature in the swarm's space. Failure: The target has the Deafened condition until the start of the swarm's next turn. While Deafened, the target also has Disadvantage on ability checks and attack rolls."
+    }
+  ],
+  "rulesText": "Medium Swarm of Tiny Beasts, Unaligned\n\nAC 12\n\nInitiative +2 (12)\n\nHP 11 (2d8 + 2)\n\nSpeed 10 ft., Fly 50 ft.\n\nSkills Perception +5\n\nResistances Bludgeoning, Piercing, Slashing\n\nImmunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned\n\nSenses Passive Perception 15\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nSwarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny raven. The swarm can't regain Hit Points or gain Temporary Hit Points.\n\nActions\n\nBeaks. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage, or 2 (1d4) Piercing damage if the swarm is Bloodied.\n\nCacophony (Recharge 6). Wisdom Saving Throw: DC 10, one creature in the swarm's space. Failure: The target has the Deafened condition until the start of the swarm's next turn. While Deafened, the target also has Disadvantage on ability checks and attack rolls."
+}

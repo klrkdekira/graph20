@@ -1,0 +1,71 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/giant-goat",
+  "@type": "Monster",
+  "name": "Giant Goat",
+  "slug": "giant-goat",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.38",
+    "heading": "Giant Goat",
+    "lineStart": 28160,
+    "lineEnd": 28184
+  },
+  "sizeTypeAlignment": "Large Beast, Unaligned",
+  "sizeAndType": "Large Beast",
+  "alignment": "Unaligned",
+  "armorClass": "11",
+  "initiative": "+1 (11)",
+  "hitPoints": "19 (3d10 + 3)",
+  "speed": "40 ft., Climb 30 ft.",
+  "skills": "Perception +3",
+  "senses": "Darkvision 60 ft.; Passive Perception 13",
+  "languages": "None",
+  "challenge": "1/2 (XP 100; PB +2)",
+  "armorClassValue": 11,
+  "hitPointsValue": 19,
+  "hitPointsRoll": {
+    "expression": "3d10+3",
+    "count": 3,
+    "sides": 10,
+    "modifier": 3
+  },
+  "challengeRating": "1/2",
+  "experiencePoints": 100,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 5
+    },
+    "dex": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "int": {
+      "score": 3,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 6
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Ram. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the goat moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition."
+    }
+  ],
+  "rulesText": "Large Beast, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 19 (3d10 + 3)\n\nSpeed 40 ft., Climb 30 ft.\n\nSkills Perception +3\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages None\n\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nRam. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the goat moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition."
+}

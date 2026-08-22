@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/12-43-bronze-dragons",
+  "@type": "Rule",
+  "name": "Bronze Dragons",
+  "slug": "12-43-bronze-dragons",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.43",
+    "heading": "Bronze Dragons",
+    "lineStart": 18920,
+    "lineEnd": 18920
+  },
+  "section": "12.43"
+}

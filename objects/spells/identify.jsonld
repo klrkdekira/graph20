@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/identify",
+  "@type": "Spell",
+  "name": "Identify",
+  "slug": "identify",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.203",
+    "heading": "Identify",
+    "lineStart": 9718,
+    "lineEnd": 9732
+  },
+  "level": 1,
+  "school": "Divination",
+  "classAvailability": [
+    "Bard",
+    "Wizard"
+  ],
+  "castingTime": "I minute or Ritual",
+  "range": "Touch",
+  "components": "V, S, M (a pearl worth 100+ GP)",
+  "duration": "Instantaneous",
+  "rulesText": "Level 1 Divination (Bard, Wizard)\n\nCasting Time: I minute or Ritual\n\nRange: Touch\n\nComponents: V, S, M (a pearl worth 100+ GP)\n\nDuration: Instantaneous\n\nYou touch an object throughout the spell's casting. If the object is a magic item or some other magical object, you learn its properties and how to use them, whether it requires Attunement, and how many charges it has, if any. You learn whether any ongoing spells are affecting the item and what they are. If the item was created by a spell, you learn that spell's name.\n\nIf you instead touch a creature throughout the casting, you learn which ongoing spells, if any, are currently affecting it."
+}

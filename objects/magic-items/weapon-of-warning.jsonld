@@ -1,0 +1,23 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/weapon-of-warning",
+  "@type": "MagicItem",
+  "name": "Weapon of Warning",
+  "slug": "weapon-of-warning",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.292",
+    "heading": "Weapon of Warning",
+    "lineStart": 17290,
+    "lineEnd": 17298
+  },
+  "itemCategory": "Weapon",
+  "categoryDetail": "Any Simple or Martial",
+  "rarity": "Uncommon",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "rulesText": "Weapon (Any Simple or Martial), Uncommon (Requires Attunement)\n\nAs long as this weapon is within your reach and you are attuned to it, you and allies within 30 feet of you gain the following benefits.\n\nAlarm. The weapon magically awakens each subject who is sleeping naturally when combat begins. This benefit doesn't wake a subject from magically induced sleep.\n\nSupernatural Readiness. Each subject has Advantage on its Initiative rolls."
+}

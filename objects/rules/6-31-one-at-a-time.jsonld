@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-31-one-at-a-time",
+  "@type": "Rule",
+  "name": "One at a Time",
+  "slug": "6-31-one-at-a-time",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.31",
+    "heading": "One at a Time",
+    "lineStart": 5417,
+    "lineEnd": 5423
+  },
+  "section": "6.31",
+  "rulesText": "A creature can wear only one suit of armor at a time and wield only one Shield at a time.\n\nArmor",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/6-31-armor"
+    }
+  ]
+}

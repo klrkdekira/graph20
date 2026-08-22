@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/4-5-feat",
+  "@type": "Rule",
+  "name": "Feat",
+  "slug": "4-5-feat",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Origins",
+    "section": "4.5",
+    "heading": "Feat",
+    "lineStart": 4785,
+    "lineEnd": 4787
+  },
+  "section": "4.5",
+  "rulesText": "A background gives your character a specified Origin feat (described in \"Feats\")."
+}

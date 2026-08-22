@@ -1,0 +1,56 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/6-162-hirelings",
+  "@type": "Table",
+  "name": "Hirelings",
+  "slug": "6-162-hirelings",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.162",
+    "heading": "Hirelings",
+    "lineStart": 6143,
+    "lineEnd": 6143
+  },
+  "columns": [
+    "Service",
+    "Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Skilled hireling"
+        },
+        {
+          "value": "2 GP per day"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Untrained hireling"
+        },
+        {
+          "value": "2 SP per day"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Messenger"
+        },
+        {
+          "value": "2 CP per mile"
+        }
+      ]
+    }
+  ]
+}

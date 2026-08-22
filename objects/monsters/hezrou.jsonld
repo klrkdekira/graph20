@@ -1,0 +1,87 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/hezrou",
+  "@type": "Monster",
+  "name": "Hezrou",
+  "slug": "hezrou",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.132",
+    "heading": "Hezrou",
+    "lineStart": 22021,
+    "lineEnd": 22063
+  },
+  "sizeTypeAlignment": "Large Fiend (Demon), Chaotic Evil",
+  "sizeAndType": "Large Fiend (Demon)",
+  "alignment": "Chaotic Evil",
+  "armorClass": "18",
+  "initiative": "+6 (16)",
+  "hitPoints": "157 (15d10 + 75)",
+  "speed": "30 ft.",
+  "resistances": "Cold, Fire, Lightning",
+  "immunities": "Poison; Poisoned",
+  "senses": "Darkvision 120 ft.; Passive Perception 11",
+  "languages": "Abyssal; telepathy 120 ft.",
+  "challenge": "8 (XP 3,900; PB +3)",
+  "armorClassValue": 18,
+  "hitPointsValue": 157,
+  "hitPointsRoll": {
+    "expression": "15d10+75",
+    "count": 15,
+    "sides": 10,
+    "modifier": 75
+  },
+  "challengeRating": "8",
+  "experiencePoints": 3900,
+  "proficiencyBonus": 3,
+  "abilities": {
+    "str": {
+      "score": 19,
+      "modifier": 4,
+      "savingThrow": 7
+    },
+    "dex": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "con": {
+      "score": 20,
+      "modifier": 5,
+      "savingThrow": 8
+    },
+    "int": {
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 4
+    },
+    "cha": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Demonic Restoration. If the hezrou dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.\n\nMagic Resistance. The hezrou has Advantage on saving throws against spells and other magical effects.\n\nStench. Constitution Saving Throw: DC 16, any creature that starts its turn in a 10-foot Emanation originating from the hezrou. Failure: The target has the Poisoned condition until the start of its next turn."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The hezrou makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 5 ft. Hit: 6 (1d4 + 4) Slashing damage plus 9 (2d8) Poison damage."
+    },
+    {
+      "name": "Bonus Actions",
+      "rulesText": "Leap. The hezrou jumps up to 30 feet by spending 10 feet of movement."
+    }
+  ],
+  "rulesText": "Large Fiend (Demon), Chaotic Evil\n\nAC 18\n\nInitiative +6 (16)\n\nHP 157 (15d10 + 75)\n\nSpeed 30 ft.\n\nResistances Cold, Fire, Lightning\n\nImmunities Poison; Poisoned\n\nSenses Darkvision 120 ft.; Passive Perception 11\n\nLanguages Abyssal; telepathy 120 ft.\n\nCR 8 (XP 3,900; PB +3)\n\nTraits\n\nDemonic Restoration. If the hezrou dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.\n\nMagic Resistance. The hezrou has Advantage on saving throws against spells and other magical effects.\n\nStench. Constitution Saving Throw: DC 16, any creature that starts its turn in a 10-foot Emanation originating from the hezrou. Failure: The target has the Poisoned condition until the start of its next turn.\n\nActions\n\nMultiattack. The hezrou makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 5 ft. Hit: 6 (1d4 + 4) Slashing damage plus 9 (2d8) Poison damage.\n\nBonus Actions\n\nLeap. The hezrou jumps up to 30 feet by spending 10 feet of movement."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-32-climbing",
+  "@type": "Rule",
+  "name": "Climbing",
+  "slug": "8-32-climbing",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.32",
+    "heading": "Climbing",
+    "lineStart": 12958,
+    "lineEnd": 12962
+  },
+  "section": "8.32",
+  "rulesText": "While you're climbing, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain). You ignore this extra cost if you have a Climb Speed and use it to climb.\n\nAt the GM's option, climbing a slippery surface or one with few handholds might require a successful DC 15 Strength (Athletics) check."
+}

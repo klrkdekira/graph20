@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-171-multiple-items-of-the-same-kind",
+  "@type": "Rule",
+  "name": "Multiple Items of the Same Kind",
+  "slug": "6-171-multiple-items-of-the-same-kind",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.171",
+    "heading": "Multiple Items of the Same Kind",
+    "lineStart": 6193,
+    "lineEnd": 6195
+  },
+  "section": "6.171",
+  "rulesText": "You can't wear more than one of certain magic items. You can't normally wear more than one pair of footwear, one pair of gloves or gauntlets, one pair of bracers, one suit of armor, one item of headwear, or one cloak. The GM might make exceptions."
+}

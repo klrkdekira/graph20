@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/2-15-assign-ability-scores",
+  "@type": "Rule",
+  "name": "Assign Ability Scores",
+  "slug": "2-15-assign-ability-scores",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.15",
+    "heading": "Assign Ability Scores",
+    "lineStart": 1839,
+    "lineEnd": 1847
+  },
+  "section": "2.15",
+  "rulesText": "Once you've generated six scores, assign them to Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma, keeping in mind your class's primary ability. Fill in the ability modifiers as well.\n\nIf you're using the Standard Array option, consult the Standard Array by Class table for suggestions on where to assign scores for your character's class. The table puts the highest scores in a class's main abilities. If you used a different method to generate the scores, you may still use this table to guide where you place your highest and lowest scores.\n\nStandard Array by Class",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/2-15-standard-array-by-class"
+    }
+  ]
+}

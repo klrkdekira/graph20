@@ -1,0 +1,78 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/plesiosaurus",
+  "@type": "Monster",
+  "name": "Plesiosaurus",
+  "slug": "plesiosaurus",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.70",
+    "heading": "Plesiosaurus",
+    "lineStart": 29123,
+    "lineEnd": 29151
+  },
+  "sizeTypeAlignment": "Large Beast (Dinosaur), Unaligned",
+  "sizeAndType": "Large Beast (Dinosaur)",
+  "alignment": "Unaligned",
+  "armorClass": "13",
+  "initiative": "+2 (12)",
+  "hitPoints": "68 (8d10 + 24)",
+  "speed": "20 ft., Swim 40 ft.",
+  "skills": "Perception +3, Stealth +4",
+  "senses": "Passive Perception 13",
+  "languages": "None",
+  "challenge": "2 (XP 450; PB +2)",
+  "armorClassValue": 13,
+  "hitPointsValue": 68,
+  "hitPointsRoll": {
+    "expression": "8d10+24",
+    "count": 8,
+    "sides": 10,
+    "modifier": 24
+  },
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "dex": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 16
+    },
+    "int": {
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 5
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Hold Breath. The plesiosaurus can hold its breath for 1 hour."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Bite. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage."
+    }
+  ],
+  "rulesText": "Large Beast (Dinosaur), Unaligned\n\nAC 13\n\nInitiative +2 (12)\n\nHP 68 (8d10 + 24)\n\nSpeed 20 ft., Swim 40 ft.\n\nSkills Perception +3, Stealth +4\n\nSenses Passive Perception 13\n\nLanguages None\n\nCR 2 (XP 450; PB +2)\n\nTraits\n\nHold Breath. The plesiosaurus can hold its breath for 1 hour.\n\nActions\n\nBite. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage."
+}

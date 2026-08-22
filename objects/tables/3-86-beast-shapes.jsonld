@@ -1,0 +1,76 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-86-beast-shapes",
+  "@type": "Table",
+  "name": "Beast Shapes",
+  "slug": "3-86-beast-shapes",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.86",
+    "heading": "Level 2: Wild Shape",
+    "lineStart": 2876,
+    "lineEnd": 2876
+  },
+  "columns": [
+    "Druid Level",
+    "Known Forms",
+    "Max CR",
+    "Fly Speed"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "1/4"
+        },
+        {
+          "value": "No"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "1/2"
+        },
+        {
+          "value": "No"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "Yes"
+        }
+      ]
+    }
+  ]
+}

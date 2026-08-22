@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-225-as-a-multiclass-character",
+  "@type": "Rule",
+  "name": "As a Multiclass Character",
+  "slug": "3-225-as-a-multiclass-character",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.225",
+    "heading": "As a Multiclass Character",
+    "lineStart": 3769,
+    "lineEnd": 3772
+  },
+  "section": "3.225",
+  "rulesText": "- Gain the following traits from the Core Rogue Traits table: Hit Point Die, proficiency in one skill of your choice from the Rogue's skill list, proficiency with Thieves' Tools, and training with Light armor.  \n- Gain the Rogue's level 1 features, which are listed in the Rogue Features table."
+}

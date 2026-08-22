@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-209-level-13-relentless-hunter",
+  "@type": "Rule",
+  "name": "Level 13: Relentless Hunter",
+  "slug": "3-209-level-13-relentless-hunter",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.209",
+    "heading": "Level 13: Relentless Hunter",
+    "lineStart": 3672,
+    "lineEnd": 3674
+  },
+  "section": "3.209",
+  "rulesText": "Taking damage can't break your Concentration on Hunter's Mark."
+}

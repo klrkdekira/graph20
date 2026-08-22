@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-29-level-6-mindless-rage",
+  "@type": "Rule",
+  "name": "Level 6: Mindless Rage",
+  "slug": "3-29-level-6-mindless-rage",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.29",
+    "heading": "Level 6: Mindless Rage",
+    "lineStart": 2407,
+    "lineEnd": 2409
+  },
+  "section": "3.29",
+  "rulesText": "You have Immunity to the Charmed and Frightened conditions while your Rage is active. If you're Charmed or Frightened when you enter your Rage, the condition ends on you."
+}

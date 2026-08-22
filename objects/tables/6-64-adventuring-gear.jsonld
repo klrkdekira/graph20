@@ -1,0 +1,598 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/6-64-adventuring-gear",
+  "@type": "Table",
+  "name": "Adventuring Gear",
+  "slug": "6-64-adventuring-gear",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.64",
+    "heading": "Ammunition (Varies)",
+    "lineStart": 5685,
+    "lineEnd": 5685
+  },
+  "columns": [
+    "Item",
+    "Weight",
+    "Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Acid"
+        },
+        {
+          "value": "1 lb."
+        },
+        {
+          "value": "25 GP"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Alchemist&#x27;s Fire"
+        },
+        {
+          "value": "1 lb."
+        },
+        {
+          "value": "50 GP"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Ammunition"
+        },
+        {
+          "value": "Varies"
+        },
+        {
+          "value": "Varies"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Antitoxin"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "50 GP"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Arcane Focus"
+        },
+        {
+          "value": "Varies"
+        },
+        {
+          "value": "Varies"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Backpack"
+        },
+        {
+          "value": "5 lb."
+        },
+        {
+          "value": "2 GP"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Ball Bearings"
+        },
+        {
+          "value": "2 lb."
+        },
+        {
+          "value": "1 GP"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Barrel"
+        },
+        {
+          "value": "70 lb."
+        },
+        {
+          "value": "2 GP"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Basket"
+        },
+        {
+          "value": "2 lb."
+        },
+        {
+          "value": "4 SP"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Bedroll"
+        },
+        {
+          "value": "7 lb."
+        },
+        {
+          "value": "1 GP"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "Bell"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "1 GP"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "Blanket"
+        },
+        {
+          "value": "3 lb."
+        },
+        {
+          "value": "5 SP"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "Block and Tackle"
+        },
+        {
+          "value": "5 lb."
+        },
+        {
+          "value": "1 GP"
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "cells": [
+        {
+          "value": "Book"
+        },
+        {
+          "value": "5 lb."
+        },
+        {
+          "value": "25 GP"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "cells": [
+        {
+          "value": "Bottle, Glass"
+        },
+        {
+          "value": "2 lb."
+        },
+        {
+          "value": "2 GP"
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "cells": [
+        {
+          "value": "Bucket"
+        },
+        {
+          "value": "2 lb."
+        },
+        {
+          "value": "5 CP"
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "cells": [
+        {
+          "value": "Burglar&#x27;s Pack"
+        },
+        {
+          "value": "42 lb."
+        },
+        {
+          "value": "16 GP"
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "cells": [
+        {
+          "value": "Caltrops"
+        },
+        {
+          "value": "2 lb."
+        },
+        {
+          "value": "1 GP"
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "cells": [
+        {
+          "value": "Candle"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "1 CP"
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "cells": [
+        {
+          "value": "Case, Crossbow Bolt"
+        },
+        {
+          "value": "1 lb."
+        },
+        {
+          "value": "1 GP"
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "cells": [
+        {
+          "value": "Case, Map or Scroll"
+        },
+        {
+          "value": "1 lb."
+        },
+        {
+          "value": "1 GP"
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "cells": [
+        {
+          "value": "Chain"
+        },
+        {
+          "value": "10 lb."
+        },
+        {
+          "value": "5 GP"
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "cells": [
+        {
+          "value": "Chest"
+        },
+        {
+          "value": "25 lb."
+        },
+        {
+          "value": "5 GP"
+        }
+      ]
+    },
+    {
+      "position": 24,
+      "cells": [
+        {
+          "value": "Climber&#x27;s Kit"
+        },
+        {
+          "value": "12 lb."
+        },
+        {
+          "value": "25 GP"
+        }
+      ]
+    },
+    {
+      "position": 25,
+      "cells": [
+        {
+          "value": "Clothes, Fine"
+        },
+        {
+          "value": "6 lb."
+        },
+        {
+          "value": "15 GP"
+        }
+      ]
+    },
+    {
+      "position": 26,
+      "cells": [
+        {
+          "value": "Clothes, Traveler&#x27;s"
+        },
+        {
+          "value": "4 lb."
+        },
+        {
+          "value": "2 GP"
+        }
+      ]
+    },
+    {
+      "position": 27,
+      "cells": [
+        {
+          "value": "Component Pouch"
+        },
+        {
+          "value": "2 lb."
+        },
+        {
+          "value": "25 GP"
+        }
+      ]
+    },
+    {
+      "position": 28,
+      "cells": [
+        {
+          "value": "Costume"
+        },
+        {
+          "value": "4 lb."
+        },
+        {
+          "value": "5 GP"
+        }
+      ]
+    },
+    {
+      "position": 29,
+      "cells": [
+        {
+          "value": "Crowbar"
+        },
+        {
+          "value": "5 lb."
+        },
+        {
+          "value": "2 GP"
+        }
+      ]
+    },
+    {
+      "position": 30,
+      "cells": [
+        {
+          "value": "Diplomat&#x27;s Pack"
+        },
+        {
+          "value": "39 lb."
+        },
+        {
+          "value": "39 GP"
+        }
+      ]
+    },
+    {
+      "position": 31,
+      "cells": [
+        {
+          "value": "Druidic Focus"
+        },
+        {
+          "value": "Varies"
+        },
+        {
+          "value": "Varies"
+        }
+      ]
+    },
+    {
+      "position": 32,
+      "cells": [
+        {
+          "value": "Dungeoneer&#x27;s Pack"
+        },
+        {
+          "value": "55 lb."
+        },
+        {
+          "value": "12 GP"
+        }
+      ]
+    },
+    {
+      "position": 33,
+      "cells": [
+        {
+          "value": "Entertainer&#x27;s Pack"
+        },
+        {
+          "value": "$58\\frac{1}{2}$ lb."
+        },
+        {
+          "value": "40 GP"
+        }
+      ]
+    },
+    {
+      "position": 34,
+      "cells": [
+        {
+          "value": "Explorer&#x27;s Pack"
+        },
+        {
+          "value": "55 lb."
+        },
+        {
+          "value": "10 GP"
+        }
+      ]
+    },
+    {
+      "position": 35,
+      "cells": [
+        {
+          "value": "Flask"
+        },
+        {
+          "value": "1 lb."
+        },
+        {
+          "value": "2 CP"
+        }
+      ]
+    },
+    {
+      "position": 36,
+      "cells": [
+        {
+          "value": "Grappling Hook"
+        },
+        {
+          "value": "4 lb."
+        },
+        {
+          "value": "2 GP"
+        }
+      ]
+    },
+    {
+      "position": 37,
+      "cells": [
+        {
+          "value": "Healer&#x27;s Kit"
+        },
+        {
+          "value": "3 lb."
+        },
+        {
+          "value": "5 GP"
+        }
+      ]
+    },
+    {
+      "position": 38,
+      "cells": [
+        {
+          "value": "Holy Symbol"
+        },
+        {
+          "value": "Varies"
+        },
+        {
+          "value": "Varies"
+        }
+      ]
+    },
+    {
+      "position": 39,
+      "cells": [
+        {
+          "value": "Holy Water"
+        },
+        {
+          "value": "1 lb."
+        },
+        {
+          "value": "25 GP"
+        }
+      ]
+    },
+    {
+      "position": 40,
+      "cells": [
+        {
+          "value": "Hunting Trap"
+        },
+        {
+          "value": "25 lb."
+        },
+        {
+          "value": "5 GP"
+        }
+      ]
+    },
+    {
+      "position": 41,
+      "cells": [
+        {
+          "value": "Ink"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "10 GP"
+        }
+      ]
+    }
+  ]
+}

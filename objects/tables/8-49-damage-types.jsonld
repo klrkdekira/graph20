@@ -1,0 +1,89 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/8-49-damage-types",
+  "@type": "Table",
+  "name": "Damage Types",
+  "slug": "8-49-damage-types",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.49",
+    "heading": "Damage Types",
+    "lineStart": 13054,
+    "lineEnd": 13054
+  },
+  "columns": [
+    "Type",
+    "Examples"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Acid"
+        },
+        {
+          "value": "Corrosive liquids, digestive enzymes"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Bludgeoning"
+        },
+        {
+          "value": "Blunt objects, constriction, falling"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Cold"
+        },
+        {
+          "value": "Freezing water, icy blasts"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Fire"
+        },
+        {
+          "value": "Flames, unbearable heat"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Force"
+        },
+        {
+          "value": "Pure magical energy"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Lightning"
+        },
+        {
+          "value": "Electricity"
+        }
+      ]
+    }
+  ]
+}

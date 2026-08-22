@@ -1,0 +1,937 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/6-26-weapons",
+  "@type": "Table",
+  "name": "Weapons",
+  "slug": "6-26-weapons",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.26",
+    "heading": "Vex",
+    "lineStart": 5391,
+    "lineEnd": 5391
+  },
+  "columns": [
+    "Name",
+    "Damage",
+    "Properties",
+    "Mastery",
+    "Weight",
+    "Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Simple Melee Weapons",
+          "colspan": 6
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Club"
+        },
+        {
+          "value": "Id4 Bludgeoning"
+        },
+        {
+          "value": "Light"
+        },
+        {
+          "value": "Slow"
+        },
+        {
+          "value": "2 lb."
+        },
+        {
+          "value": "1 SP"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Dagger"
+        },
+        {
+          "value": "Id4 Piercing"
+        },
+        {
+          "value": "Finesse, Light, Thrown (Range 20/60)"
+        },
+        {
+          "value": "Nick"
+        },
+        {
+          "value": "1 lb."
+        },
+        {
+          "value": "2 GP"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Greatclub"
+        },
+        {
+          "value": "Id8 Bludgeoning"
+        },
+        {
+          "value": "Two-Handed"
+        },
+        {
+          "value": "Push"
+        },
+        {
+          "value": "10 lb."
+        },
+        {
+          "value": "2 SP"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Handaxe"
+        },
+        {
+          "value": "Id6 Slashing"
+        },
+        {
+          "value": "Light, Thrown (Range 20/60)"
+        },
+        {
+          "value": "Vex"
+        },
+        {
+          "value": "2 lb."
+        },
+        {
+          "value": "5 GP"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Javelin"
+        },
+        {
+          "value": "Id6 Piercing"
+        },
+        {
+          "value": "Thrown (Range 30/120)"
+        },
+        {
+          "value": "Slow"
+        },
+        {
+          "value": "2 lb."
+        },
+        {
+          "value": "5 SP"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Light Hammer"
+        },
+        {
+          "value": "Id4 Bludgeoning"
+        },
+        {
+          "value": "Light, Thrown (Range 20/60)"
+        },
+        {
+          "value": "Nick"
+        },
+        {
+          "value": "2 lb."
+        },
+        {
+          "value": "2 GP"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Mace"
+        },
+        {
+          "value": "Id6 Bludgeoning"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "Sap"
+        },
+        {
+          "value": "4 lb."
+        },
+        {
+          "value": "5 GP"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Quarterstaff"
+        },
+        {
+          "value": "Id6 Bludgeoning"
+        },
+        {
+          "value": "Versatile (Id8)"
+        },
+        {
+          "value": "Topple"
+        },
+        {
+          "value": "4 lb."
+        },
+        {
+          "value": "2 SP"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Sickle"
+        },
+        {
+          "value": "Id4 Slashing"
+        },
+        {
+          "value": "Light"
+        },
+        {
+          "value": "Nick"
+        },
+        {
+          "value": "2 lb."
+        },
+        {
+          "value": "1 GP"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "Spear"
+        },
+        {
+          "value": "Id6 Piercing"
+        },
+        {
+          "value": "Thrown (Range 20/60), Versatile (Id8)"
+        },
+        {
+          "value": "Sap"
+        },
+        {
+          "value": "3 lb."
+        },
+        {
+          "value": "1 GP"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "Simple Ranged Weapons",
+          "colspan": 6
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "Dart"
+        },
+        {
+          "value": "Id4 Piercing"
+        },
+        {
+          "value": "Finesse, Thrown (Range 20/60)"
+        },
+        {
+          "value": "Vex"
+        },
+        {
+          "value": "1/4 lb."
+        },
+        {
+          "value": "5 CP"
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "cells": [
+        {
+          "value": "Light Crossbow"
+        },
+        {
+          "value": "Id8 Piercing"
+        },
+        {
+          "value": "Ammunition (Range 80/320; Bolt), Loading, Two-Handed"
+        },
+        {
+          "value": "Slow"
+        },
+        {
+          "value": "5 lb."
+        },
+        {
+          "value": "25 GP"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "cells": [
+        {
+          "value": "Shortbow"
+        },
+        {
+          "value": "Id6 Piercing"
+        },
+        {
+          "value": "Ammunition (Range 80/320; Arrow), Two-Handed"
+        },
+        {
+          "value": "Vex"
+        },
+        {
+          "value": "2 lb."
+        },
+        {
+          "value": "25 GP"
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "cells": [
+        {
+          "value": "Sling"
+        },
+        {
+          "value": "Id4 Bludgeoning"
+        },
+        {
+          "value": "Ammunition (Range 30/120; Bullet)"
+        },
+        {
+          "value": "Slow"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "1 SP"
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "cells": [
+        {
+          "value": "Martial Melee Weapons",
+          "colspan": 6
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "cells": [
+        {
+          "value": "Battleaxe"
+        },
+        {
+          "value": "Id8 Slashing"
+        },
+        {
+          "value": "Versatile (Id10)"
+        },
+        {
+          "value": "Topple"
+        },
+        {
+          "value": "4 lb."
+        },
+        {
+          "value": "10 GP"
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "cells": [
+        {
+          "value": "Flail"
+        },
+        {
+          "value": "Id8 Bludgeoning"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "Sap"
+        },
+        {
+          "value": "2 lb."
+        },
+        {
+          "value": "10 GP"
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "cells": [
+        {
+          "value": "Glaive"
+        },
+        {
+          "value": "Id10 Slashing"
+        },
+        {
+          "value": "Heavy, Reach, Two-Handed"
+        },
+        {
+          "value": "Graze"
+        },
+        {
+          "value": "6 lb."
+        },
+        {
+          "value": "20 GP"
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "cells": [
+        {
+          "value": "Greataxe"
+        },
+        {
+          "value": "Id12 Slashing"
+        },
+        {
+          "value": "Heavy, Two-Handed"
+        },
+        {
+          "value": "Cleave"
+        },
+        {
+          "value": "7 lb."
+        },
+        {
+          "value": "30 GP"
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "cells": [
+        {
+          "value": "Greatsword"
+        },
+        {
+          "value": "2d6 Slashing"
+        },
+        {
+          "value": "Heavy, Two-Handed"
+        },
+        {
+          "value": "Graze"
+        },
+        {
+          "value": "6 lb."
+        },
+        {
+          "value": "50 GP"
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "cells": [
+        {
+          "value": "Halberd"
+        },
+        {
+          "value": "Id10 Slashing"
+        },
+        {
+          "value": "Heavy, Reach, Two-Handed"
+        },
+        {
+          "value": "Cleave"
+        },
+        {
+          "value": "6 lb."
+        },
+        {
+          "value": "20 GP"
+        }
+      ]
+    },
+    {
+      "position": 24,
+      "cells": [
+        {
+          "value": "Lance"
+        },
+        {
+          "value": "Id10 Piercing"
+        },
+        {
+          "value": "Heavy, Reach, Two-Handed (unless mounted)"
+        },
+        {
+          "value": "Topple"
+        },
+        {
+          "value": "6 lb."
+        },
+        {
+          "value": "10 GP"
+        }
+      ]
+    },
+    {
+      "position": 25,
+      "cells": [
+        {
+          "value": "Longsword"
+        },
+        {
+          "value": "Id8 Slashing"
+        },
+        {
+          "value": "Versatile (Id10)"
+        },
+        {
+          "value": "Sap"
+        },
+        {
+          "value": "3 lb."
+        },
+        {
+          "value": "15 GP"
+        }
+      ]
+    },
+    {
+      "position": 26,
+      "cells": [
+        {
+          "value": "Maul"
+        },
+        {
+          "value": "2d6 Bludgeoning"
+        },
+        {
+          "value": "Heavy, Two-Handed"
+        },
+        {
+          "value": "Topple"
+        },
+        {
+          "value": "10 lb."
+        },
+        {
+          "value": "10 GP"
+        }
+      ]
+    },
+    {
+      "position": 27,
+      "cells": [
+        {
+          "value": "Morningstar"
+        },
+        {
+          "value": "Id8 Piercing"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "Sap"
+        },
+        {
+          "value": "4 lb."
+        },
+        {
+          "value": "15 GP"
+        }
+      ]
+    },
+    {
+      "position": 28,
+      "cells": [
+        {
+          "value": "Pike"
+        },
+        {
+          "value": "Id10 Piercing"
+        },
+        {
+          "value": "Heavy, Reach, Two-Handed"
+        },
+        {
+          "value": "Push"
+        },
+        {
+          "value": "18 lb."
+        },
+        {
+          "value": "5 GP"
+        }
+      ]
+    },
+    {
+      "position": 29,
+      "cells": [
+        {
+          "value": "Rapier"
+        },
+        {
+          "value": "Id8 Piercing"
+        },
+        {
+          "value": "Finesse"
+        },
+        {
+          "value": "Vex"
+        },
+        {
+          "value": "2 lb."
+        },
+        {
+          "value": "25 GP"
+        }
+      ]
+    },
+    {
+      "position": 30,
+      "cells": [
+        {
+          "value": "Scimitar"
+        },
+        {
+          "value": "Id6 Slashing"
+        },
+        {
+          "value": "Finesse, Light"
+        },
+        {
+          "value": "Nick"
+        },
+        {
+          "value": "3 lb."
+        },
+        {
+          "value": "25 GP"
+        }
+      ]
+    },
+    {
+      "position": 31,
+      "cells": [
+        {
+          "value": "Shortsword"
+        },
+        {
+          "value": "Id6 Piercing"
+        },
+        {
+          "value": "Finesse, Light"
+        },
+        {
+          "value": "Vex"
+        },
+        {
+          "value": "2 lb."
+        },
+        {
+          "value": "10 GP"
+        }
+      ]
+    },
+    {
+      "position": 32,
+      "cells": [
+        {
+          "value": "Trident"
+        },
+        {
+          "value": "Id8 Piercing"
+        },
+        {
+          "value": "Thrown (Range 20/60), Versatile (Id10)"
+        },
+        {
+          "value": "Topple"
+        },
+        {
+          "value": "4 lb."
+        },
+        {
+          "value": "5 GP"
+        }
+      ]
+    },
+    {
+      "position": 33,
+      "cells": [
+        {
+          "value": "Warhammer"
+        },
+        {
+          "value": "Id8 Bludgeoning"
+        },
+        {
+          "value": "Versatile (Id10)"
+        },
+        {
+          "value": "Push"
+        },
+        {
+          "value": "5 lb."
+        },
+        {
+          "value": "15 GP"
+        }
+      ]
+    },
+    {
+      "position": 34,
+      "cells": [
+        {
+          "value": "War Pick"
+        },
+        {
+          "value": "Id8 Piercing"
+        },
+        {
+          "value": "Versatile (Id10)"
+        },
+        {
+          "value": "Sap"
+        },
+        {
+          "value": "2 lb."
+        },
+        {
+          "value": "5 GP"
+        }
+      ]
+    },
+    {
+      "position": 35,
+      "cells": [
+        {
+          "value": "Whip"
+        },
+        {
+          "value": "Id4 Slashing"
+        },
+        {
+          "value": "Finesse, Reach"
+        },
+        {
+          "value": "Slow"
+        },
+        {
+          "value": "3 lb."
+        },
+        {
+          "value": "2 GP"
+        }
+      ]
+    },
+    {
+      "position": 36,
+      "cells": [
+        {
+          "value": "Martial Ranged Weapons",
+          "colspan": 6
+        }
+      ]
+    },
+    {
+      "position": 37,
+      "cells": [
+        {
+          "value": "Blowgun"
+        },
+        {
+          "value": "I Piercing"
+        },
+        {
+          "value": "Ammunition (Range 25/100; Needle), Loading"
+        },
+        {
+          "value": "Vex"
+        },
+        {
+          "value": "1 lb."
+        },
+        {
+          "value": "10 GP"
+        }
+      ]
+    },
+    {
+      "position": 38,
+      "cells": [
+        {
+          "value": "Hand Crossbow"
+        },
+        {
+          "value": "Id6 Piercing"
+        },
+        {
+          "value": "Ammunition (Range 30/120; Bolt), Light, Loading"
+        },
+        {
+          "value": "Vex"
+        },
+        {
+          "value": "3 lb."
+        },
+        {
+          "value": "75 GP"
+        }
+      ]
+    },
+    {
+      "position": 39,
+      "cells": [
+        {
+          "value": "Heavy Crossbow"
+        },
+        {
+          "value": "Id10 Piercing"
+        },
+        {
+          "value": "Ammunition (Range 100/400; Bolt), Heavy, Loading, Two-Handed"
+        },
+        {
+          "value": "Push"
+        },
+        {
+          "value": "18 lb."
+        },
+        {
+          "value": "50 GP"
+        }
+      ]
+    },
+    {
+      "position": 40,
+      "cells": [
+        {
+          "value": "Longbow"
+        },
+        {
+          "value": "Id8 Piercing"
+        },
+        {
+          "value": "Ammunition (Range 150/600; Arrow), Heavy, Two-Handed"
+        },
+        {
+          "value": "Slow"
+        },
+        {
+          "value": "2 lb."
+        },
+        {
+          "value": "50 GP"
+        }
+      ]
+    },
+    {
+      "position": 41,
+      "cells": [
+        {
+          "value": "Musket"
+        },
+        {
+          "value": "Id12 Piercing"
+        },
+        {
+          "value": "Ammunition (Range 40/120; Bullet), Loading, Two-Handed"
+        },
+        {
+          "value": "Slow"
+        },
+        {
+          "value": "10 lb."
+        },
+        {
+          "value": "500 GP"
+        }
+      ]
+    },
+    {
+      "position": 42,
+      "cells": [
+        {
+          "value": "Pistol"
+        },
+        {
+          "value": "Id10 Piercing"
+        },
+        {
+          "value": "Ammunition (Range 30/90; Bullet), Loading"
+        },
+        {
+          "value": "Vex"
+        },
+        {
+          "value": "3 lb."
+        },
+        {
+          "value": "250 GP"
+        }
+      ]
+    }
+  ]
+}

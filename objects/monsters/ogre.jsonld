@@ -1,0 +1,78 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/ogre",
+  "@type": "Monster",
+  "name": "Ogre",
+  "slug": "ogre",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.178",
+    "heading": "Ogre",
+    "lineStart": 23665,
+    "lineEnd": 23693
+  },
+  "sizeTypeAlignment": "Large Giant, Chaotic Evil",
+  "sizeAndType": "Large Giant",
+  "alignment": "Chaotic Evil",
+  "armorClass": "11",
+  "initiative": "-1 (9)",
+  "hitPoints": "68 (8d10 + 24)",
+  "speed": "40 ft.",
+  "senses": "Darkvision 60 ft.; Passive Perception 8",
+  "languages": "Common, Giant",
+  "gear": "Greatclub, Javelins (3)",
+  "challenge": "2 (XP 450; PB +2)",
+  "armorClassValue": 11,
+  "hitPointsValue": 68,
+  "hitPointsRoll": {
+    "expression": "8d10+24",
+    "count": 8,
+    "sides": 10,
+    "modifier": 24
+  },
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 19,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "dex": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "con": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "int": {
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
+    },
+    "wis": {
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
+    },
+    "cha": {
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Greatclub. Melee Attack Roll: +6, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning damage.\n\nJavelin. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 30/120 ft. Hit: 11 (2d6 + 4) Piercing damage."
+    }
+  ],
+  "rulesText": "Large Giant, Chaotic Evil\n\nAC 11\n\nInitiative -1 (9)\n\nHP 68 (8d10 + 24)\n\nSpeed 40 ft.\n\nGear Greatclub, Javelins (3)\n\nSenses Darkvision 60 ft.; Passive Perception 8\n\nLanguages Common, Giant\n\nCR 2 (XP 450; PB +2)\n\nActions\n\nGreatclub. Melee Attack Roll: +6, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning damage.\n\nJavelin. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 30/120 ft. Hit: 11 (2d6 + 4) Piercing damage."
+}

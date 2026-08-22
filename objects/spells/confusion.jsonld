@@ -1,0 +1,30 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/confusion",
+  "@type": "Spell",
+  "name": "Confusion",
+  "slug": "confusion",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.84",
+    "heading": "Confusion",
+    "lineStart": 7430,
+    "lineEnd": 7452
+  },
+  "level": 4,
+  "school": "Enchantment",
+  "classAvailability": [
+    "Bard",
+    "Druid",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "90 feet",
+  "components": "V, S, M (three nut shells)",
+  "duration": "Concentration, up to 1 minute",
+  "rulesText": "Level 4 Enchantment (Bard, Druid, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 90 feet\n\nComponents: V, S, M (three nut shells)\n\nDuration: Concentration, up to 1 minute\n\nEach creature in a 10-foot-radius Sphere centered on a point you choose within range must succeed on a Wisdom saving throw, or that target can't take Bonus Actions or Reactions and must roll 1d10 at the start of each of its turns to determine its behavior for that turn, consulting the table below.\n\nId10 Behavior for the Turn\n\n<table><tr><td>1</td><td>The target doesn’t take an action, and it uses all its movement to move. Roll Id4 for the direction: 1, north; 2, east; 3, south; or 4, west.</td></tr><tr><td>2–6</td><td>The target doesn’t move or take actions.</td></tr><tr><td>7–8</td><td>The target doesn’t move, and it takes the Attack action to make one melee attack against a random creature within reach. If none are within reach, the target takes no action.</td></tr></table>\n\n9–10 The target chooses its behavior.\n\nAt the end of each of its turns, an affected target repeats the save, ending the spell on itself on a success.\n\nUsing a Higher-Level Spell Slot. The Sphere's radius increases by 5 feet for each spell slot level above 4."
+}

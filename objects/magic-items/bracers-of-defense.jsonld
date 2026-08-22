@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/bracers-of-defense",
+  "@type": "MagicItem",
+  "name": "Bracers of Defense",
+  "slug": "bracers-of-defense",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.66",
+    "heading": "Bracers of Defense",
+    "lineStart": 14966,
+    "lineEnd": 14970
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Rare",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "rulesText": "Wondrous Item, Rare (Requires Attunement)\n\nWhile wearing these bracers, you gain a +2 bonus to Armor Class if you are wearing no armor and using no Shield."
+}

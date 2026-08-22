@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-17-attack-rolls",
+  "@type": "Rule",
+  "name": "Attack Rolls",
+  "slug": "1-17-attack-rolls",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.17",
+    "heading": "Attack Rolls",
+    "lineStart": 1089,
+    "lineEnd": 1091
+  },
+  "section": "1.17",
+  "rulesText": "An attack roll determines whether an attack hits a target. An attack roll hits if the roll equals or exceeds the target's Armor Class. Attack rolls usually occur in battle, described in “Combat” later in “Playing the Game,” but the GM might also ask for an attack roll in other situations, such as an archery competition."
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/speak-with-animals",
+  "@type": "Spell",
+  "name": "Speak with Animals",
+  "slug": "speak-with-animals",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.316",
+    "heading": "Speak with Animals",
+    "lineStart": 11732,
+    "lineEnd": 11746
+  },
+  "level": 1,
+  "school": "Divination",
+  "classAvailability": [
+    "Bard",
+    "Druid",
+    "Ranger",
+    "Warlock"
+  ],
+  "castingTime": "Action or Ritual",
+  "range": "Self",
+  "components": "V, S",
+  "duration": "10 minutes",
+  "rulesText": "Level 1 Divination (Bard, Druid, Ranger, Warlock)\n\nCasting Time: Action or Ritual\n\nRange: Self\n\nComponents: V, S\n\nDuration: 10 minutes\n\nFor the duration, you can comprehend and verbally communicate with Beasts, and you can use any of the Influence action's skill options with them.\n\nMost Beasts have little to say about topics that don't pertain to survival or companionship, but at minimum, a Beast can give you information about nearby locations and monsters, including whatever it has perceived within the past day."
+}

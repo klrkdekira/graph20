@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-58-vehicles",
+  "@type": "Rule",
+  "name": "Vehicles",
+  "slug": "1-58-vehicles",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.58",
+    "heading": "Vehicles",
+    "lineStart": 1378,
+    "lineEnd": 1380
+  },
+  "section": "1.58",
+  "rulesText": "Travelers in wagons, carriages, or other land vehicles choose a pace as normal. Characters in a waterborne vessel are limited to the speed of the vessel, and they don't choose a travel pace. Depending on the vessel and the size of the crew, ships might be able to travel for up to 24 hours per day. \"Equipment\" includes vehicles for sale."
+}

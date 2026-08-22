@@ -1,0 +1,78 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/black-bear",
+  "@type": "Monster",
+  "name": "Black Bear",
+  "slug": "black-bear",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.9",
+    "heading": "Black Bear",
+    "lineStart": 27319,
+    "lineEnd": 27345
+  },
+  "sizeTypeAlignment": "Medium Beast, Unaligned",
+  "sizeAndType": "Medium Beast",
+  "alignment": "Unaligned",
+  "armorClass": "11",
+  "initiative": "+1 (11)",
+  "hitPoints": "19 (3d8 + 6)",
+  "speed": "30 ft., Climb 30 ft., Swim 30 ft.",
+  "skills": "Perception +5",
+  "senses": "Darkvision 60 ft.; Passive Perception 15",
+  "languages": "None",
+  "challenge": "1/2 (XP 100; PB +2)",
+  "armorClassValue": 11,
+  "hitPointsValue": 19,
+  "hitPointsRoll": {
+    "expression": "3d8+6",
+    "count": 3,
+    "sides": 8,
+    "modifier": 6
+  },
+  "challengeRating": "1/2",
+  "experiencePoints": 100,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "dex": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "con": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "int": {
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The bear makes two Rend attacks.\n\nRend. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing damage."
+    }
+  ],
+  "rulesText": "Medium Beast, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 19 (3d8 + 6)\n\nSpeed 30 ft., Climb 30 ft., Swim 30 ft.\n\nSkills Perception +5\n\nSenses Darkvision 60 ft.; Passive Perception 15\n\nLanguages None\n\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nMultiattack. The bear makes two Rend attacks.\n\nRend. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing damage."
+}

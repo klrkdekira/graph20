@@ -1,0 +1,110 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-47-armor-of-resistance-table-1",
+  "@type": "Table",
+  "name": "Armor of Resistance Table 1",
+  "slug": "10-47-armor-of-resistance-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.47",
+    "heading": "Armor of Resistance",
+    "lineStart": 14767,
+    "lineEnd": 14767
+  },
+  "columns": [
+    "Id10",
+    "Damage Type",
+    "Id10",
+    "Damage Type"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "Acid"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "Necrotic"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "Cold"
+        },
+        {
+          "value": "7"
+        },
+        {
+          "value": "Poison"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "Fire"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "Psychic"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "Force"
+        },
+        {
+          "value": "9"
+        },
+        {
+          "value": "Radiant"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "Lightning"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "Thunder"
+        }
+      ]
+    }
+  ]
+}

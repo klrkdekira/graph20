@@ -1,0 +1,93 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-72-carpet-of-flying-table-1",
+  "@type": "Table",
+  "name": "Carpet of Flying Table 1",
+  "slug": "10-72-carpet-of-flying-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.72",
+    "heading": "Carpet of Flying",
+    "lineStart": 15021,
+    "lineEnd": 15021
+  },
+  "columns": [
+    "Id100",
+    "Size",
+    "Capacity",
+    "Fly Speed"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "01–20"
+        },
+        {
+          "value": "3 ft. × 5 ft."
+        },
+        {
+          "value": "200 lb."
+        },
+        {
+          "value": "80 feet"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "21–55"
+        },
+        {
+          "value": "4 ft. × 6 ft."
+        },
+        {
+          "value": "400 lb."
+        },
+        {
+          "value": "60 feet"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "56–80"
+        },
+        {
+          "value": "5 ft. × 7 ft."
+        },
+        {
+          "value": "600 lb."
+        },
+        {
+          "value": "40 feet"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "81–00"
+        },
+        {
+          "value": "6 ft. × 9 ft."
+        },
+        {
+          "value": "800 lb."
+        },
+        {
+          "value": "30 feet"
+        }
+      ]
+    }
+  ]
+}

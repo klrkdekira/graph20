@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-44-leatherworkers-tools-5-gp",
+  "@type": "Rule",
+  "name": "Leatherworker's Tools (5 GP)",
+  "slug": "6-44-leatherworkers-tools-5-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.44",
+    "heading": "Leatherworker's Tools (5 GP)",
+    "lineStart": 5519,
+    "lineEnd": 5525
+  },
+  "section": "6.44",
+  "rulesText": "Ability: Dexterity Weight: 5 lb.\n\nUtilize: Add a design to a leather item (DC 10)\n\nCraft: Sling, Whip, Hide Armor, Leather Armor, Studded Leather Armor, Backpack, Crossbow Bolt Case, Map or Scroll Case, Parchment, Pouch, Quiver, Waterskin"
+}

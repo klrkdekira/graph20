@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/10-16-command-word",
+  "@type": "Rule",
+  "name": "Command Word",
+  "slug": "10-16-command-word",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.16",
+    "heading": "Command Word",
+    "lineStart": 14532,
+    "lineEnd": 14534
+  },
+  "section": "10.16",
+  "rulesText": "A command word is a word or short phrase that must be spoken or signed for an item to work. Spoken command words must be audible and fail to work in areas where all sound is suppressed, as in the area of the Silence spell."
+}

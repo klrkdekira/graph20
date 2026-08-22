@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/crystal-ball-of-mind-reading",
+  "@type": "MagicItem",
+  "name": "Crystal Ball of Mind Reading",
+  "slug": "crystal-ball-of-mind-reading",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.84",
+    "heading": "Crystal Ball of Mind Reading",
+    "lineStart": 15104,
+    "lineEnd": 15108
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Legendary",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "rulesText": "Wondrous Item, Legendary (Requires Attunement)\n\nWhile touching this crystal orb, you can cast Scrying (save DC 17) with it. In addition, you can cast Detect Thoughts (save DC 17) targeting creatures you can see within 30 feet of the spell's sensor. You don't need to concentrate on this Detect Thoughts spell to maintain it during its duration, but it ends if the Scrying spell ends."
+}

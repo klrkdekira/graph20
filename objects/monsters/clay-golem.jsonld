@@ -1,0 +1,87 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/clay-golem",
+  "@type": "Monster",
+  "name": "Clay Golem",
+  "slug": "clay-golem",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.57",
+    "heading": "Clay Golem",
+    "lineStart": 19389,
+    "lineEnd": 19433
+  },
+  "sizeTypeAlignment": "Large Construct, Unaligned",
+  "sizeAndType": "Large Construct",
+  "alignment": "Unaligned",
+  "armorClass": "14",
+  "initiative": "+3 (13)",
+  "hitPoints": "123 (13d10 + 52)",
+  "speed": "30 ft.",
+  "resistances": "Bludgeoning, Piercing, Slashing",
+  "immunities": "Acid, Poison, Psychic; Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned",
+  "senses": "Darkvision 60 ft.; Passive Perception 9",
+  "languages": "Common plus one other language",
+  "challenge": "9 (XP 5,000; PB +4)",
+  "armorClassValue": 14,
+  "hitPointsValue": 123,
+  "hitPointsRoll": {
+    "expression": "13d10+52",
+    "count": 13,
+    "sides": 10,
+    "modifier": 52
+  },
+  "challengeRating": "9",
+  "experiencePoints": 5000,
+  "proficiencyBonus": 4,
+  "abilities": {
+    "str": {
+      "score": 20,
+      "modifier": 5,
+      "savingThrow": 5
+    },
+    "dex": {
+      "score": 9,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "con": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "int": {
+      "score": 3,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "cha": {
+      "score": 1,
+      "modifier": -5,
+      "savingThrow": -5
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Acid Absorption. Whenever the golem is subjected to Acid damage, it takes no damage and instead regains a number of Hit Points equal to the Acid damage dealt.\n\nBerserk. Whenever the golem starts its turn Bloodied, roll 1d6. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object. Once the golem goes berserk, it continues to be berserk until it is destroyed or it is no longer Bloodied.\n\nImmutable Form. The golem can't shape-shift.\n\nMagic Resistance. The golem has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The golem makes two Slam attacks, or it makes three Slam attacks if it used Hasten this turn.\n\nSlam. Melee Attack Roll: +9, reach 5 ft. Hit: 10 (1d10 + 5) Bludgeoning damage plus 6 (1d12) Acid damage, and the target's Hit Point maximum decreases by an amount equal to the Acid damage taken."
+    },
+    {
+      "name": "Bonus Actions",
+      "rulesText": "Hasten (Recharge 5–6). The golem takes the Dash and Disengage actions."
+    }
+  ],
+  "rulesText": "Large Construct, Unaligned\n\nAC 14\n\nInitiative +3 (13)\n\nHP 123 (13d10 + 52)\n\nSpeed 30 ft.\n\nResistances Bludgeoning, Piercing, Slashing\n\nImmunities Acid, Poison, Psychic; Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned\n\nSenses Darkvision 60 ft.; Passive Perception 9\n\nLanguages Common plus one other language\n\nCR 9 (XP 5,000; PB +4)\n\nTraits\n\nAcid Absorption. Whenever the golem is subjected to Acid damage, it takes no damage and instead regains a number of Hit Points equal to the Acid damage dealt.\n\nBerserk. Whenever the golem starts its turn Bloodied, roll 1d6. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object. Once the golem goes berserk, it continues to be berserk until it is destroyed or it is no longer Bloodied.\n\nImmutable Form. The golem can't shape-shift.\n\nMagic Resistance. The golem has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The golem makes two Slam attacks, or it makes three Slam attacks if it used Hasten this turn.\n\nSlam. Melee Attack Roll: +9, reach 5 ft. Hit: 10 (1d10 + 5) Bludgeoning damage plus 6 (1d12) Acid damage, and the target's Hit Point maximum decreases by an amount equal to the Acid damage taken.\n\nBonus Actions\n\nHasten (Recharge 5–6). The golem takes the Dash and Disengage actions."
+}

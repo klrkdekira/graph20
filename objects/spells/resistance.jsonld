@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/resistance",
+  "@type": "Spell",
+  "name": "Resistance",
+  "slug": "resistance",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.286",
+    "heading": "Resistance",
+    "lineStart": 11218,
+    "lineEnd": 11230
+  },
+  "level": 0,
+  "school": "Abjuration",
+  "classAvailability": [
+    "Cleric",
+    "Druid"
+  ],
+  "castingTime": "Action",
+  "range": "Touch",
+  "duration": "Concentration, up to 1 minute",
+  "rulesText": "Abjuration Cantrip (Cleric, Druid)\n\nCasting Time: Action\n\nRange: Touch\n\nComponent: V, S\n\nDuration: Concentration, up to 1 minute\n\nYou touch a willing creature and choose a damage type: Acid, Bludgeoning, Cold, Fire, Lightning, Necrotic, Piercing, Poison, Radiant, Slashing, or Thunder. When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by 1d4. A creature can benefit from this spell only once per turn."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-110-passive-perception",
+  "@type": "Rule",
+  "name": "Passive Perception",
+  "slug": "8-110-passive-perception",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.110",
+    "heading": "Passive Perception",
+    "lineStart": 13454,
+    "lineEnd": 13458
+  },
+  "section": "8.110",
+  "rulesText": "Passive Perception is a score that reflects a creature's general awareness of its surroundings. The GM uses this score when determining whether a creature notices something without consciously making a Wisdom (Perception) check.\n\nA creature's Passive Perception equals 10 plus the creature's Wisdom (Perception) check bonus. If the creature has Advantage on such checks, increase the score by 5. If the creature has Disadvantage on them, decrease the score by 5. For example, a level 1 character with a Wisdom of 15 and proficiency in Perception has a Passive Perception of 14 ( $10 + 2 + 2$ ). If that character has Advantage on Wisdom (Perception) checks, the score becomes 19."
+}

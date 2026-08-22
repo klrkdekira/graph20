@@ -1,0 +1,23 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/sword-of-sharpness",
+  "@type": "MagicItem",
+  "name": "Sword of Sharpness",
+  "slug": "sword-of-sharpness",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.265",
+    "heading": "Sword of Sharpness",
+    "lineStart": 17038,
+    "lineEnd": 17044
+  },
+  "itemCategory": "Weapon",
+  "categoryDetail": "Glaive, Greatsword, Longsword, or Scimitar",
+  "rarity": "Very Rare",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "rulesText": "Weapon (Glaive, Greatsword, Longsword, or Scimitar), Very Rare (Requires Attunement)\n\nWhen you attack an object with this magic weapon and hit, maximize your weapon damage dice against the target.\n\nWhen you attack a creature with this weapon and roll a 20 on the d20 for the attack roll, that target takes an extra 14 Slashing damage and gains 1 Exhaustion level."
+}

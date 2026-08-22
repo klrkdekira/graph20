@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/jump",
+  "@type": "Spell",
+  "name": "Jump",
+  "slug": "jump",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.212",
+    "heading": "Jump",
+    "lineStart": 9886,
+    "lineEnd": 9900
+  },
+  "level": 1,
+  "school": "Transmutation",
+  "classAvailability": [
+    "Druid",
+    "Ranger",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "castingTime": "Bonus Action",
+  "range": "Touch",
+  "duration": "1 minute",
+  "rulesText": "Level 1 Transmutation (Druid, Ranger, Sorcerer, Wizard)\n\nCasting Time: Bonus Action\n\nRange: Touch\n\nComponent: V, S, M (a grasshopper's hind leg)\n\nDuration: 1 minute\n\nYou touch a willing creature. Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending 10 feet of movement.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1."
+}

@@ -1,0 +1,66 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/1-74-cover",
+  "@type": "Table",
+  "name": "Cover",
+  "slug": "1-74-cover",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.74",
+    "heading": "Cover",
+    "lineStart": 1514,
+    "lineEnd": 1514
+  },
+  "columns": [
+    "Degree",
+    "Benefit to Target",
+    "Offered By ..."
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Half"
+        },
+        {
+          "value": "+2 bonus to AC and Dexterity saving throws"
+        },
+        {
+          "value": "Another creature or an object that covers at least half of the target"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Three-Quarters"
+        },
+        {
+          "value": "+5 bonus to AC and Dexterity saving throws"
+        },
+        {
+          "value": "An object that covers at least three-quarters of the target"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Total"
+        },
+        {
+          "value": "Can’t be targeted directly"
+        },
+        {
+          "value": "An object that covers the whole target"
+        }
+      ]
+    }
+  ]
+}

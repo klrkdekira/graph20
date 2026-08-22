@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/12-214-silver-dragons",
+  "@type": "Rule",
+  "name": "Silver Dragons",
+  "slug": "12-214-silver-dragons",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.214",
+    "heading": "Silver Dragons",
+    "lineStart": 24946,
+    "lineEnd": 24946
+  },
+  "section": "12.214"
+}

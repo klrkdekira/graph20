@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-22-push",
+  "@type": "Rule",
+  "name": "Push",
+  "slug": "6-22-push",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.22",
+    "heading": "Push",
+    "lineStart": 5369,
+    "lineEnd": 5371
+  },
+  "section": "6.22",
+  "rulesText": "If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller."
+}

@@ -1,0 +1,23 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/spellguard-shield",
+  "@type": "MagicItem",
+  "name": "Spellguard Shield",
+  "slug": "spellguard-shield",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.246",
+    "heading": "Spellguard Shield",
+    "lineStart": 16810,
+    "lineEnd": 16814
+  },
+  "itemCategory": "Armor",
+  "categoryDetail": "Shield",
+  "rarity": "Very Rare",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "rulesText": "Armor (Shield), Very Rare (Requires Attunement)\n\nWhile holding this Shield, you have Advantage on saving throws against spells and other magical effects, and spell attack rolls have Disadvantage against you."
+}

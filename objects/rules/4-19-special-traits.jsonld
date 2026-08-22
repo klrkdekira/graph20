@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/4-19-special-traits",
+  "@type": "Rule",
+  "name": "Special Traits",
+  "slug": "4-19-special-traits",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Origins",
+    "section": "4.19",
+    "heading": "Special Traits",
+    "lineStart": 4879,
+    "lineEnd": 4881
+  },
+  "section": "4.19",
+  "rulesText": "Each species gives a character special traits—unique characteristics based on the species' physiology or magical nature. When you choose a species, your character gets all the special traits listed for it. Some traits involve making a choice from a handful of options."
+}

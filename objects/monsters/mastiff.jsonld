@@ -1,0 +1,78 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/mastiff",
+  "@type": "Monster",
+  "name": "Mastiff",
+  "slug": "mastiff",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.64",
+    "heading": "Mastiff",
+    "lineStart": 28945,
+    "lineEnd": 28969
+  },
+  "sizeTypeAlignment": "Medium Beast, Unaligned",
+  "sizeAndType": "Medium Beast",
+  "alignment": "Unaligned",
+  "armorClass": "12",
+  "initiative": "+2 (12)",
+  "hitPoints": "5 (1d8 + 1)",
+  "speed": "40 ft.",
+  "skills": "Perception +5",
+  "senses": "Darkvision 60 ft.; Passive Perception 15",
+  "languages": "None",
+  "challenge": "1/8 (XP 25; PB +2)",
+  "armorClassValue": 12,
+  "hitPointsValue": 5,
+  "hitPointsRoll": {
+    "expression": "1d8+1",
+    "count": 1,
+    "sides": 8,
+    "modifier": 1
+  },
+  "challengeRating": "1/8",
+  "experiencePoints": 25,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "dex": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "int": {
+      "score": 3,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 3
+    },
+    "cha": {
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition."
+    }
+  ],
+  "rulesText": "Medium Beast, Unaligned\n\nAC 12\n\nInitiative +2 (12)\n\nHP 5 (1d8 + 1)\n\nSpeed 40 ft.\n\nSkills Perception +5\n\nSenses Darkvision 60 ft.; Passive Perception 15\n\nLanguages None\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition."
+}

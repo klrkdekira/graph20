@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/ring-of-free-action",
+  "@type": "MagicItem",
+  "name": "Ring of Free Action",
+  "slug": "ring-of-free-action",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.207",
+    "heading": "Ring of Free Action",
+    "lineStart": 16406,
+    "lineEnd": 16410
+  },
+  "itemCategory": "Ring",
+  "rarity": "Rare",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "rulesText": "Ring, Rare (Requires Attunement)\n\nWhile you wear this ring, Difficult Terrain doesn't cost you extra movement. In addition, magic can neither reduce any of your Speeds nor cause you to have the Paralyzed or Restrained condition."
+}

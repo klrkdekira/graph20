@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/graph20/systems/common.schema.json",
+  "title": "Shared definitions for SRD 5.2.1 corpus records",
+  "$defs": {
+    "NodeReference": {
+      "type": "object",
+      "properties": {
+        "@id": { "type": "string", "format": "iri", "pattern": "^https://" }
+      },
+      "required": ["@id"],
+      "unevaluatedProperties": false
+    },
+    "SourceLocator": {
+      "type": "object",
+      "properties": {
+        "chapter": { "type": "string", "minLength": 1 },
+        "section": { "type": "string", "pattern": "^\\d+\\.\\d+$" },
+        "heading": { "type": "string", "minLength": 1 },
+        "lineStart": { "type": "integer", "minimum": 1 },
+        "lineEnd": { "type": "integer", "minimum": 1 }
+      },
+      "required": ["chapter", "section", "heading", "lineStart", "lineEnd"],
+      "unevaluatedProperties": false
+    },
+    "DiceExpression": {
+      "type": "object",
+      "properties": {
+        "expression": { "type": "string", "minLength": 2 },
+        "count": { "type": "integer", "minimum": 1 },
+        "sides": { "type": "integer", "minimum": 2 },
+        "modifier": { "type": "integer" }
+      },
+      "required": ["expression"],
+      "unevaluatedProperties": false
+    },
+    "TableCell": {
+      "type": "object",
+      "properties": {
+        "value": { "type": "string" },
+        "colspan": { "type": "integer", "minimum": 2 }
+      },
+      "required": ["value"],
+      "unevaluatedProperties": false
+    },
+    "TableRow": {
+      "type": "object",
+      "properties": {
+        "position": { "type": "integer", "minimum": 1 },
+        "cells": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/TableCell" }
+        }
+      },
+      "required": ["position", "cells"],
+      "unevaluatedProperties": false
+    },
+    "AbilityEntry": {
+      "type": "object",
+      "properties": {
+        "score": { "type": "integer", "minimum": 1, "maximum": 30 },
+        "modifier": { "type": "integer", "minimum": -5, "maximum": 10 },
+        "savingThrow": { "type": "integer", "minimum": -5, "maximum": 20 }
+      },
+      "required": ["score"],
+      "unevaluatedProperties": false
+    },
+    "EntityBase": {
+      "type": "object",
+      "properties": {
+        "@context": {
+          "const": "https://cheeleong.dev/graph20/systems/context.jsonld"
+        },
+        "@id": {
+          "type": "string",
+          "pattern": "^https://cheeleong\\.dev/graph20/objects/[a-z-]+/[a-z0-9-]+$"
+        },
+        "@type": { "type": "string" },
+        "name": { "type": "string", "minLength": 1 },
+        "slug": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+        "source": { "$ref": "#/$defs/NodeReference" },
+        "sourceLocator": { "$ref": "#/$defs/SourceLocator" }
+      },
+      "required": ["@context", "@id", "@type", "name", "slug", "source", "sourceLocator"]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/12-196-red-dragons",
+  "@type": "Rule",
+  "name": "Red Dragons",
+  "slug": "12-196-red-dragons",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.196",
+    "heading": "Red Dragons",
+    "lineStart": 24303,
+    "lineEnd": 24303
+  },
+  "section": "12.196"
+}

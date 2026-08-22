@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/color-spray",
+  "@type": "Spell",
+  "name": "Color Spray",
+  "slug": "color-spray",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.77",
+    "heading": "Color Spray",
+    "lineStart": 7298,
+    "lineEnd": 7310
+  },
+  "level": 1,
+  "school": "Illusion",
+  "classAvailability": [
+    "Bard",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "Self",
+  "components": "V, S, M (a pinch of colorful sand)",
+  "duration": "Instantaneous",
+  "rulesText": "Level 1 Illusion (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S, M (a pinch of colorful sand)\n\nDuration: Instantaneous\n\nYou launch a dazzling array of flashing, colorful light. Each creature in a 15-foot Cone originating from you must succeed on a Constitution saving throw or have the Blinded condition until the end of your next turn."
+}

@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@base": "https://cheeleong.dev/graph20/vocab/",
+    "@vocab": "https://cheeleong.dev/graph20/vocab/",
+    "srd": "https://cheeleong.dev/graph20/vocab/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "name": "schema:name",
+    "description": "schema:description",
+    "slug": "srd:slug",
+    "rulesText": "srd:rulesText",
+    "source": { "@id": "dcterms:source", "@type": "@id" },
+    "sourceLocator": "srd:sourceLocator",
+    "license": "srd:licenseCode",
+    "licenseUrl": { "@id": "srd:licenseUrl", "@type": "@id" },
+    "attributionStatement": "srd:attributionStatement",
+    "canonicalUrl": { "@id": "srd:canonicalUrl", "@type": "@id" },
+    "seeAlso": { "@id": "srd:seeAlso", "@type": "@id", "@container": "@set" },
+    "relatedRules": { "@id": "srd:relatedRule", "@type": "@id", "@container": "@set" },
+    "relatedTables": { "@id": "srd:relatedTable", "@type": "@id", "@container": "@set" },
+    "collections": "srd:collections",
+    "collectionSchemas": "srd:collectionSchemas",
+    "metadata": "srd:metadata",
+    "contentDigest": "srd:contentDigest",
+    "sourceFile": "srd:sourceFile",
+    "srdVersion": "srd:srdVersion"
+  }
+}

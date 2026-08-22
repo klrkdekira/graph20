@@ -1,0 +1,87 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/succubus",
+  "@type": "Monster",
+  "name": "Succubus",
+  "slug": "succubus",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.236",
+    "heading": "Succubus",
+    "lineStart": 25737,
+    "lineEnd": 25779
+  },
+  "sizeTypeAlignment": "Medium Fiend, Neutral Evil",
+  "sizeAndType": "Medium Fiend",
+  "alignment": "Neutral Evil",
+  "armorClass": "15",
+  "initiative": "+3 (13)",
+  "hitPoints": "71 (13d8 + 13)",
+  "speed": "30 ft., Fly 60 ft.",
+  "skills": "Deception +9, Insight +5, Perception +5, Persuasion +9, Stealth +7",
+  "resistances": "Cold, Fire, Poison, Psychic",
+  "senses": "Darkvision 60 ft.; Passive Perception 15",
+  "languages": "Abyssal, Common, Infernal; telepathy 60 ft.",
+  "challenge": "4 (XP 1,100; PB +2)",
+  "armorClassValue": 15,
+  "hitPointsValue": 71,
+  "hitPointsRoll": {
+    "expression": "13d8+13",
+    "count": 13,
+    "sides": 8,
+    "modifier": 13
+  },
+  "challengeRating": "4",
+  "experiencePoints": 1100,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "dex": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "con": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "int": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 20,
+      "modifier": 5,
+      "savingThrow": 5
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Incubus Form. When the succubus finishes a Long Rest, it can shape-shift into an Incubus, using that stat block instead of this one."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The succubus makes one Fiendish Touch attack and uses Charm or Draining Kiss.\n\nFiendish Touch. Melee Attack Roll: +7, reach 5 ft. Hit: 16 (2d10 + 5) Psychic damage.\n\nCharm. The succubus casts Dominate Person (level 8 version), requiring no spell components and using Charisma as the spellcasting ability (spell save DC 15).\n\nDraining Kiss. Constitution Saving Throw: DC 15, one creature Charmed by the succubus within 5 feet. Failure: 13 (3d8) Psychic damage. Success: Half damage. Failure or Success: The target's Hit Point maximum decreases by an amount equal to the damage taken."
+    },
+    {
+      "name": "Bonus Actions",
+      "rulesText": "Shape-Shift. The succubus shape-shifts into a Medium or Small Humanoid, or it returns to its true form. Its game statistics are the same in each form, except its Fly Speed is available only in its true form. Any equipment it is wearing or carrying isn't transformed."
+    }
+  ],
+  "rulesText": "Medium Fiend, Neutral Evil\n\nAC 15\n\nInitiative +3 (13)\n\nHP 71 (13d8 + 13)\n\nSpeed 30 ft., Fly 60 ft.\n\nSkills Deception +9, Insight +5, Perception +5, Persuasion +9, Stealth +7\n\nResistances Cold, Fire, Poison, Psychic\n\nSenses Darkvision 60 ft.; Passive Perception 15\n\nLanguages Abyssal, Common, Infernal; telepathy 60 ft.\n\nCR 4 (XP 1,100; PB +2)\n\nTraits\n\nIncubus Form. When the succubus finishes a Long Rest, it can shape-shift into an Incubus, using that stat block instead of this one.\n\nActions\n\nMultiattack. The succubus makes one Fiendish Touch attack and uses Charm or Draining Kiss.\n\nFiendish Touch. Melee Attack Roll: +7, reach 5 ft. Hit: 16 (2d10 + 5) Psychic damage.\n\nCharm. The succubus casts Dominate Person (level 8 version), requiring no spell components and using Charisma as the spellcasting ability (spell save DC 15).\n\nDraining Kiss. Constitution Saving Throw: DC 15, one creature Charmed by the succubus within 5 feet. Failure: 13 (3d8) Psychic damage. Success: Half damage. Failure or Success: The target's Hit Point maximum decreases by an amount equal to the damage taken.\n\nBonus Actions\n\nShape-Shift. The succubus shape-shifts into a Medium or Small Humanoid, or it returns to its true form. Its game statistics are the same in each form, except its Fly Speed is available only in its true form. Any equipment it is wearing or carrying isn't transformed."
+}

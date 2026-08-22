@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-126-level-7-additional-fighting-style",
+  "@type": "Rule",
+  "name": "Level 7: Additional Fighting Style",
+  "slug": "3-126-level-7-additional-fighting-style",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.126",
+    "heading": "Level 7: Additional Fighting Style",
+    "lineStart": 3152,
+    "lineEnd": 3154
+  },
+  "section": "3.126",
+  "rulesText": "You gain another Fighting Style feat of your choice."
+}

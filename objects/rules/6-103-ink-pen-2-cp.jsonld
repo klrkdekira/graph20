@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-103-ink-pen-2-cp",
+  "@type": "Rule",
+  "name": "Ink Pen (2 CP)",
+  "slug": "6-103-ink-pen-2-cp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.103",
+    "heading": "Ink Pen (2 CP)",
+    "lineStart": 5863,
+    "lineEnd": 5865
+  },
+  "section": "6.103",
+  "rulesText": "Using Ink, an Ink Pen is used to write or draw."
+}

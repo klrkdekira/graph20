@@ -1,0 +1,110 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/2-17-ability-scores-and-modifiers",
+  "@type": "Table",
+  "name": "Ability Scores and Modifiers",
+  "slug": "2-17-ability-scores-and-modifiers",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.17",
+    "heading": "Determine Ability Modifiers",
+    "lineStart": 1863,
+    "lineEnd": 1863
+  },
+  "columns": [
+    "Score",
+    "Modifier",
+    "Score",
+    "Modifier"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "-4"
+        },
+        {
+          "value": "12–13"
+        },
+        {
+          "value": "+1"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "4–5"
+        },
+        {
+          "value": "-3"
+        },
+        {
+          "value": "14–15"
+        },
+        {
+          "value": "+2"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "6–7"
+        },
+        {
+          "value": "-2"
+        },
+        {
+          "value": "16–17"
+        },
+        {
+          "value": "+3"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "8–9"
+        },
+        {
+          "value": "-1"
+        },
+        {
+          "value": "18–19"
+        },
+        {
+          "value": "+4"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "10–11"
+        },
+        {
+          "value": "+0"
+        },
+        {
+          "value": "20"
+        },
+        {
+          "value": "+5"
+        }
+      ]
+    }
+  ]
+}

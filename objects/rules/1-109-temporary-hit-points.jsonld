@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-109-temporary-hit-points",
+  "@type": "Rule",
+  "name": "Temporary Hit Points",
+  "slug": "1-109-temporary-hit-points",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.109",
+    "heading": "Temporary Hit Points",
+    "lineStart": 1696,
+    "lineEnd": 1698
+  },
+  "section": "1.109",
+  "rulesText": "Some spells and other effects confer Temporary Hit Points, which are a buffer against losing actual Hit Points, as explained below."
+}

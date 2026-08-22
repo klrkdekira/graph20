@@ -1,0 +1,82 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/tough",
+  "@type": "Monster",
+  "name": "Tough",
+  "slug": "tough",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.239",
+    "heading": "Tough",
+    "lineStart": 25849,
+    "lineEnd": 25879
+  },
+  "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
+  "sizeAndType": "Medium or Small Humanoid",
+  "alignment": "Neutral",
+  "armorClass": "12",
+  "initiative": "+1 (11)",
+  "hitPoints": "32 (5d8 + 10)",
+  "speed": "30 ft.",
+  "senses": "Passive Perception 10",
+  "languages": "Common",
+  "gear": "Heavy Crossbow, Leather Armor, Mace",
+  "challenge": "1/2 (XP 100; PB +2)",
+  "armorClassValue": 12,
+  "hitPointsValue": 32,
+  "hitPointsRoll": {
+    "expression": "5d8+10",
+    "count": 5,
+    "sides": 8,
+    "modifier": 10
+  },
+  "challengeRating": "1/2",
+  "experiencePoints": 100,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "dex": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "con": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "int": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "wis": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "cha": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Pack Tactics. The tough has Advantage on an attack roll against a creature if at least one of the tough's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Mace. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage.\n\nHeavy Crossbow. Ranged Attack Roll: +3, range 100/400 ft. Hit: 6 (1d10 + 1) Piercing damage."
+    }
+  ],
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 12\n\nInitiative +1 (11)\n\nHP 32 (5d8 + 10)\n\nSpeed 30 ft.\n\nGear Heavy Crossbow, Leather Armor, Mace\n\nSenses Passive Perception 10\n\nLanguages Common\n\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nPack Tactics. The tough has Advantage on an attack roll against a creature if at least one of the tough's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nMace. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage.\n\nHeavy Crossbow. Ranged Attack Roll: +3, range 100/400 ft. Hit: 6 (1d10 + 1) Piercing damage."
+}

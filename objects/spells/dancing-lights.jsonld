@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/dancing-lights",
+  "@type": "Spell",
+  "name": "Dancing Lights",
+  "slug": "dancing-lights",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.103",
+    "heading": "Dancing Lights",
+    "lineStart": 7802,
+    "lineEnd": 7816
+  },
+  "level": 0,
+  "school": "Illusion",
+  "classAvailability": [
+    "Bard",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "120 feet",
+  "components": "V, S, M (a bit of phosphorus)",
+  "duration": "Concentration, up to 1 minute",
+  "rulesText": "Illusion Cantrip (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 120 feet\n\nComponents: V, S, M (a bit of phosphorus)\n\nDuration: Concentration, up to 1 minute\n\nYou create up to four torch-size lights within range, making them appear as torches, lanterns, or glowing orbs that hover for the duration. Alternatively, you combine the four lights into one glowing Medium form that is vaguely humanlike. Whichever form you choose, each light sheds Dim Light in a 10-foot radius.\n\nAs a Bonus Action, you can move the lights up to 60 feet to a space within range. A light must be within 20 feet of another light created by this spell, and a light vanishes if it exceeds the spell's range."
+}

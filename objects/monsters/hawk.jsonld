@@ -1,0 +1,78 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/hawk",
+  "@type": "Monster",
+  "name": "Hawk",
+  "slug": "hawk",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.55",
+    "heading": "Hawk",
+    "lineStart": 28675,
+    "lineEnd": 28699
+  },
+  "sizeTypeAlignment": "Tiny Beast, Unaligned",
+  "sizeAndType": "Tiny Beast",
+  "alignment": "Unaligned",
+  "armorClass": "13",
+  "initiative": "+3 (13)",
+  "hitPoints": "1 (1d4 - 1)",
+  "speed": "10 ft., Fly 60 ft.",
+  "skills": "Perception +6",
+  "senses": "Passive Perception 16",
+  "languages": "None",
+  "challenge": "0 (XP 10; PB +2)",
+  "armorClassValue": 13,
+  "hitPointsValue": 1,
+  "hitPointsRoll": {
+    "expression": "1d4-1",
+    "count": 1,
+    "sides": 4,
+    "modifier": -1
+  },
+  "challengeRating": "0",
+  "experiencePoints": 10,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
+    },
+    "dex": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "con": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "int": {
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "cha": {
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Talons. Melee Attack Roll: +5, reach 5 ft. Hit: 1 Slashing damage."
+    }
+  ],
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 1 (1d4 - 1)\n\nSpeed 10 ft., Fly 60 ft.\n\nSkills Perception +6\n\nSenses Passive Perception 16\n\nLanguages None\n\nCR 0 (XP 10; PB +2)\n\nActions\n\nTalons. Melee Attack Roll: +5, reach 5 ft. Hit: 1 Slashing damage."
+}

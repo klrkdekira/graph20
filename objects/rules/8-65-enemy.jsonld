@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-65-enemy",
+  "@type": "Rule",
+  "name": "Enemy",
+  "slug": "8-65-enemy",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.65",
+    "heading": "Enemy",
+    "lineStart": 13143,
+    "lineEnd": 13145
+  },
+  "section": "8.65",
+  "rulesText": "A creature is your enemy if it fights against you in combat, actively works to harm you, or is designated as your enemy by the rules or GM."
+}

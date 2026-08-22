@@ -1,0 +1,81 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/lion",
+  "@type": "Monster",
+  "name": "Lion",
+  "slug": "lion",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.61",
+    "heading": "Lion",
+    "lineStart": 28851,
+    "lineEnd": 28885
+  },
+  "sizeTypeAlignment": "Large Beast, Unaligned",
+  "sizeAndType": "Large Beast",
+  "alignment": "Unaligned",
+  "armorClass": "12",
+  "initiative": "+2 (12)",
+  "hitPoints": "22 (4d10)",
+  "speed": "50 ft.",
+  "skills": "Perception +3, Stealth +4",
+  "senses": "Darkvision 60 ft.; Passive Perception 13",
+  "languages": "None",
+  "challenge": "1 (XP 200; PB +2)",
+  "armorClassValue": 12,
+  "hitPointsValue": 22,
+  "hitPointsRoll": {
+    "expression": "4d10",
+    "count": 4,
+    "sides": 10
+  },
+  "challengeRating": "1",
+  "experiencePoints": 200,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "dex": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "int": {
+      "score": 3,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Pack Tactics. The lion has Advantage on an attack roll against a creature if at least one of the lion's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nRunning Leap. With a 10-foot running start, the lion can Long Jump up to 25 feet."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The lion makes two Rend attacks. It can replace one attack with a use of Roar.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.\n\nRoar. Wisdom Saving Throw: DC 11, one creature within 15 feet. Failure: The target has the Frightened condition until the start of the lion's next turn."
+    }
+  ],
+  "rulesText": "Large Beast, Unaligned\n\nAC 12\n\nInitiative +2 (12)\n\nHP 22 (4d10)\n\nSpeed 50 ft.\n\nSkills Perception +3, Stealth +4\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages None\n\nCR 1 (XP 200; PB +2)\n\nTraits\n\nPack Tactics. The lion has Advantage on an attack roll against a creature if at least one of the lion's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nRunning Leap. With a 10-foot running start, the lion can Long Jump up to 25 feet.\n\nActions\n\nMultiattack. The lion makes two Rend attacks. It can replace one attack with a use of Roar.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.\n\nRoar. Wisdom Saving Throw: DC 11, one creature within 15 feet. Failure: The target has the Frightened condition until the start of the lion's next turn."
+}

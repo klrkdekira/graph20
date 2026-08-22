@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-79-number-of-stat-blocks",
+  "@type": "Rule",
+  "name": "Number of Stat Blocks",
+  "slug": "9-79-number-of-stat-blocks",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.79",
+    "heading": "Number of Stat Blocks",
+    "lineStart": 14412,
+    "lineEnd": 14414
+  },
+  "section": "9.79",
+  "rulesText": "The best combat encounters often pair one kind of creature with another, such as fire giants paired with hell hounds. Be mindful of the number of stat blocks you need to run the encounter. Referencing more than two or three stat blocks for a single encounter can be daunting, particularly if the creatures are complex."
+}

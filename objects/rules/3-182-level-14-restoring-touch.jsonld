@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-182-level-14-restoring-touch",
+  "@type": "Rule",
+  "name": "Level 14: Restoring Touch",
+  "slug": "3-182-level-14-restoring-touch",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.182",
+    "heading": "Level 14: Restoring Touch",
+    "lineStart": 3488,
+    "lineEnd": 3490
+  },
+  "section": "3.182",
+  "rulesText": "When you use Lay On Hands on a creature, you can also remove one or more of the following conditions from the creature: Blinded, Charmed, Deafened, Frightened, Paralyzed, or Stunned. You must expend 5 Hit Points from the healing pool of Lay On Hands for each of these conditions you remove; those points don't also restore Hit Points to the creature."
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/ring-of-three-wishes",
+  "@type": "MagicItem",
+  "name": "Ring of Three Wishes",
+  "slug": "ring-of-three-wishes",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.220",
+    "heading": "Ring of Three Wishes",
+    "lineStart": 16516,
+    "lineEnd": 16520
+  },
+  "itemCategory": "Ring",
+  "rarity": "Legendary",
+  "requiresAttunement": false,
+  "rulesText": "Ring, Legendary\n\nWhile wearing this ring, you can expend 1 of its 3 charges to cast Wish from it. The ring becomes non-magical when you use the last charge."
+}

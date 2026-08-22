@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-21-level-13-improved-brutal-strike",
+  "@type": "Rule",
+  "name": "Level 13: Improved Brutal Strike",
+  "slug": "3-21-level-13-improved-brutal-strike",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.21",
+    "heading": "Level 13: Improved Brutal Strike",
+    "lineStart": 2367,
+    "lineEnd": 2373
+  },
+  "section": "3.21",
+  "rulesText": "You have honed new ways to attack furiously. The following effects are now among your Brutal Strike options.\n\nStaggering Blow. The target has Disadvantage on the next saving throw it makes, and it can't make Opportunity Attacks until the start of your next turn.\n\nSundering Blow. Before the start of your next turn, the next attack roll made by another creature against the target gains a +5 bonus to the roll. An attack roll can gain only one Sundering Blow bonus."
+}

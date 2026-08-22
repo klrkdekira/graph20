@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-40-level-2-jack-of-all-trades",
+  "@type": "Rule",
+  "name": "Level 2: Jack of All Trades",
+  "slug": "3-40-level-2-jack-of-all-trades",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.40",
+    "heading": "Level 2: Jack of All Trades",
+    "lineStart": 2494,
+    "lineEnd": 2498
+  },
+  "section": "3.40",
+  "rulesText": "You can add half your Proficiency Bonus (round down) to any ability check you make that uses a skill proficiency you lack and that doesn't otherwise use your Proficiency Bonus.\n\nFor example, if you make a Strength (Athletics) check and lack Athletics proficiency, you can add half your Proficiency Bonus to the check."
+}

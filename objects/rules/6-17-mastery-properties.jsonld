@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-17-mastery-properties",
+  "@type": "Rule",
+  "name": "Mastery Properties",
+  "slug": "6-17-mastery-properties",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.17",
+    "heading": "Mastery Properties",
+    "lineStart": 5349,
+    "lineEnd": 5351
+  },
+  "section": "6.17",
+  "rulesText": "Each weapon has a mastery property, which is usable only by a character who has a feature, such as Weapon Mastery, that unlocks the property for the character. The properties are defined below."
+}

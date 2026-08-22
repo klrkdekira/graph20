@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-140-torch-i-cp",
+  "@type": "Rule",
+  "name": "Torch (I CP)",
+  "slug": "6-140-torch-i-cp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.140",
+    "heading": "Torch (I CP)",
+    "lineStart": 6027,
+    "lineEnd": 6029
+  },
+  "section": "6.140",
+  "rulesText": "A Torch burns for 1 hour, casting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. When you take the Attack action, you can attack with the Torch, using it as a Simple Melee weapon. On a hit, the target takes 1 Fire damage."
+}

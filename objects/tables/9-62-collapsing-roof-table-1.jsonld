@@ -1,0 +1,66 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/9-62-collapsing-roof-table-1",
+  "@type": "Table",
+  "name": "Collapsing Roof Table 1",
+  "slug": "9-62-collapsing-roof-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.62",
+    "heading": "Collapsing Roof",
+    "lineStart": 14209,
+    "lineEnd": 14209
+  },
+  "columns": [
+    "Levels",
+    "Bludgeoning Damage",
+    "Save DC"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "5–10"
+        },
+        {
+          "value": "22 (4d10)"
+        },
+        {
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "11–16"
+        },
+        {
+          "value": "55 (10d10)"
+        },
+        {
+          "value": "17"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "17–20"
+        },
+        {
+          "value": "99 (18d10)"
+        },
+        {
+          "value": "19"
+        }
+      ]
+    }
+  ]
+}

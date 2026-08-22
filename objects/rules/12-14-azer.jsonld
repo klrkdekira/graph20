@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/12-14-azer",
+  "@type": "Rule",
+  "name": "Azer",
+  "slug": "12-14-azer",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.14",
+    "heading": "Azer",
+    "lineStart": 17927,
+    "lineEnd": 17927
+  },
+  "section": "12.14"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-166-paladin-class-features",
+  "@type": "Rule",
+  "name": "Paladin Class Features",
+  "slug": "3-166-paladin-class-features",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.166",
+    "heading": "Paladin Class Features",
+    "lineStart": 3380,
+    "lineEnd": 3382
+  },
+  "section": "3.166",
+  "rulesText": "As a Paladin, you gain the following class features when you reach the specified Paladin levels. These features are listed in the Paladin Features table."
+}

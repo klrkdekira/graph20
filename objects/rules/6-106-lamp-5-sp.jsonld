@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-106-lamp-5-sp",
+  "@type": "Rule",
+  "name": "Lamp (5 SP)",
+  "slug": "6-106-lamp-5-sp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.106",
+    "heading": "Lamp (5 SP)",
+    "lineStart": 5875,
+    "lineEnd": 5877
+  },
+  "section": "6.106",
+  "rulesText": "A Lamp burns Oil as fuel to cast Bright Light in a 15-foot radius and Dim Light for an additional 30 feet."
+}

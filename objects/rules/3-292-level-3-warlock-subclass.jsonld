@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-292-level-3-warlock-subclass",
+  "@type": "Rule",
+  "name": "Level 3: Warlock Subclass",
+  "slug": "3-292-level-3-warlock-subclass",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.292",
+    "heading": "Level 3: Warlock Subclass",
+    "lineStart": 4263,
+    "lineEnd": 4265
+  },
+  "section": "3.292",
+  "rulesText": "You gain a Warlock subclass of your choice. The Fiend Patron subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Warlock levels. For the rest of your career, you gain each of your subclass's features that are of your Warlock level or lower."
+}

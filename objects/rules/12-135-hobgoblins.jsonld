@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/12-135-hobgoblins",
+  "@type": "Rule",
+  "name": "Hobgoblins",
+  "slug": "12-135-hobgoblins",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.135",
+    "heading": "Hobgoblins",
+    "lineStart": 22131,
+    "lineEnd": 22131
+  },
+  "section": "12.135"
+}

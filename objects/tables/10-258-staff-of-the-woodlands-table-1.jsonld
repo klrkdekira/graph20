@@ -1,0 +1,111 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-258-staff-of-the-woodlands-table-1",
+  "@type": "Table",
+  "name": "Staff of the Woodlands Table 1",
+  "slug": "10-258-staff-of-the-woodlands-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.258",
+    "heading": "Staff of the Woodlands",
+    "lineStart": 16977,
+    "lineEnd": 16977
+  },
+  "columns": [
+    "Spell",
+    "Charge Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Animal Friendship"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Awaken"
+        },
+        {
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Barkskin"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Locate Animals or Plants"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Pass without Trace"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Speak with Animals"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Speak with Plants"
+        },
+        {
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Wall of Thorns"
+        },
+        {
+          "value": "6"
+        }
+      ]
+    }
+  ]
+}

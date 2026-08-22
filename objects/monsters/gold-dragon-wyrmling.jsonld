@@ -1,0 +1,79 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/gold-dragon-wyrmling",
+  "@type": "Monster",
+  "name": "Gold Dragon Wyrmling",
+  "slug": "gold-dragon-wyrmling",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.110",
+    "heading": "Gold Dragon Wyrmling",
+    "lineStart": 21234,
+    "lineEnd": 21270
+  },
+  "sizeTypeAlignment": "Medium Dragon (Metallic), Lawful Good",
+  "sizeAndType": "Medium Dragon (Metallic)",
+  "alignment": "Lawful Good",
+  "armorClass": "17",
+  "initiative": "+4 (14)",
+  "hitPoints": "60 (8d8 + 24)",
+  "speed": "30 ft., Fly 60 ft., Swim 30 ft.",
+  "skills": "Perception +4, Stealth +4",
+  "immunities": "Fire",
+  "senses": "Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14",
+  "languages": "Draconic",
+  "challenge": "3 (700 XP; PB +2)",
+  "armorClassValue": 17,
+  "hitPointsValue": 60,
+  "hitPointsRoll": {
+    "expression": "8d8+24",
+    "count": 8,
+    "sides": 8,
+    "modifier": 24
+  },
+  "challengeRating": "3",
+  "experiencePoints": 700,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 19,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "dex": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 4
+    },
+    "con": {
+      "score": 17
+    },
+    "int": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "wis": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 2
+    },
+    "cha": {
+      "score": 16
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Amphibious. The dragon can breathe air and water."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Slashing damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 13, each creature in a 15-foot Cone. Failure: 22 (4d10) Fire damage. Success: Half damage.\n\nWeakening Breath. Strength Saving Throw: DC 13, each creature that isn't currently affected by this breath in a 15-foot Cone. Failure: The target has Disadvantage on Strength-based D20 Tests and subtracts 2 (1d4) from its damage rolls. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+    }
+  ],
+  "rulesText": "Medium Dragon (Metallic), Lawful Good\n\nAC 17\n\nInitiative +4 (14)\n\nHP 60 (8d8 + 24)\n\nSpeed 30 ft., Fly 60 ft., Swim 30 ft.\n\nSkills Perception +4, Stealth +4\n\nImmunities Fire\n\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14\n\nLanguages Draconic\n\nCR 3 (700 XP; PB +2)\n\nTraits\n\nAmphibious. The dragon can breathe air and water.\n\nActions\n\nMultiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Slashing damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 13, each creature in a 15-foot Cone. Failure: 22 (4d10) Fire damage. Success: Half damage.\n\nWeakening Breath. Strength Saving Throw: DC 13, each creature that isn't currently affected by this breath in a 15-foot Cone. Failure: The target has Disadvantage on Strength-based D20 Tests and subtracts 2 (1d4) from its damage rolls. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+}

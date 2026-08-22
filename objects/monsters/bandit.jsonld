@@ -1,0 +1,78 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/bandit",
+  "@type": "Monster",
+  "name": "Bandit",
+  "slug": "bandit",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.18",
+    "heading": "Bandit",
+    "lineStart": 18016,
+    "lineEnd": 18042
+  },
+  "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
+  "sizeAndType": "Medium or Small Humanoid",
+  "alignment": "Neutral",
+  "armorClass": "12",
+  "initiative": "+1 (11)",
+  "hitPoints": "11 (2d8 + 2)",
+  "speed": "30 ft.",
+  "senses": "Passive Perception 10",
+  "languages": "Common, Thieves' Cant",
+  "gear": "Leather Armor, Light Crossbow, Scimitar",
+  "challenge": "1/8 (XP 25; PB +2)",
+  "armorClassValue": 12,
+  "hitPointsValue": 11,
+  "hitPointsRoll": {
+    "expression": "2d8+2",
+    "count": 2,
+    "sides": 8,
+    "modifier": 2
+  },
+  "challengeRating": "1/8",
+  "experiencePoints": 25,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "dex": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "con": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "int": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "wis": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "cha": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Scimitar. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage.\n\nLight Crossbow. Ranged Attack Roll: +3, range 80/320 ft. Hit: 5 (1d8 + 1) Piercing damage."
+    }
+  ],
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 12\n\nInitiative +1 (11)\n\nHP 11 (2d8 + 2)\n\nSpeed 30 ft.\n\nGear Leather Armor, Light Crossbow, Scimitar\n\nSenses Passive Perception 10\n\nLanguages Common, Thieves' Cant\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nScimitar. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage.\n\nLight Crossbow. Ranged Attack Roll: +3, range 80/320 ft. Hit: 5 (1d8 + 1) Piercing damage."
+}

@@ -1,0 +1,32 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/enhance-ability",
+  "@type": "Spell",
+  "name": "Enhance Ability",
+  "slug": "enhance-ability",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.132",
+    "heading": "Enhance Ability",
+    "lineStart": 8354,
+    "lineEnd": 8368
+  },
+  "level": 2,
+  "school": "Transmutation",
+  "classAvailability": [
+    "Bard",
+    "Cleric",
+    "Druid",
+    "Ranger",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": "V, S, M (fur or a feather)",
+  "duration": "Concentration, up to 1 hour",
+  "rulesText": "Level 2 Transmutation (Bard, Cleric, Druid, Ranger, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (fur or a feather)\n\nDuration: Concentration, up to 1 hour\n\nYou touch a creature and choose Strength, Dexterity, Intelligence, Wisdom, or Charisma. For the duration, the target has Advantage on ability checks using the chosen ability.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 2. You can choose a different ability for each target."
+}

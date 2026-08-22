@@ -1,0 +1,362 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/6-31-armor",
+  "@type": "Table",
+  "name": "Armor",
+  "slug": "6-31-armor",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.31",
+    "heading": "One at a Time",
+    "lineStart": 5423,
+    "lineEnd": 5423
+  },
+  "columns": [
+    "Armor",
+    "Armor Class (AC)",
+    "Strength",
+    "Stealth",
+    "Weight",
+    "Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Light Armor (1 Minute to Don or Doff)",
+          "colspan": 6
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Padded Armor"
+        },
+        {
+          "value": "11 + Dex modifier"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "Disadvantage"
+        },
+        {
+          "value": "8 lb."
+        },
+        {
+          "value": "5 GP"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Leather Armor"
+        },
+        {
+          "value": "11 + Dex modifier"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "10 lb."
+        },
+        {
+          "value": "10 GP"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Studded Leather Armor"
+        },
+        {
+          "value": "12 + Dex modifier"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "13 lb."
+        },
+        {
+          "value": "45 GP"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Medium Armor (5 Minutes to Don and 1 Minute to Doff)",
+          "colspan": 6
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Hide Armor"
+        },
+        {
+          "value": "12 + Dex modifier (max 2)"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "12 lb."
+        },
+        {
+          "value": "10 GP"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Chain Shirt"
+        },
+        {
+          "value": "13 + Dex modifier (max 2)"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "20 lb."
+        },
+        {
+          "value": "50 GP"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Scale Mail"
+        },
+        {
+          "value": "14 + Dex modifier (max 2)"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "Disadvantage"
+        },
+        {
+          "value": "45 lb."
+        },
+        {
+          "value": "50 GP"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Breastplate"
+        },
+        {
+          "value": "14 + Dex modifier (max 2)"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "20 lb."
+        },
+        {
+          "value": "400 GP"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Half Plate Armor"
+        },
+        {
+          "value": "15 + Dex modifier (max 2)"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "Disadvantage"
+        },
+        {
+          "value": "40 lb."
+        },
+        {
+          "value": "750 GP"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "Heavy Armor (10 Minutes to Don and 5 Minutes to Doff)",
+          "colspan": 6
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "Ring Mail"
+        },
+        {
+          "value": "14"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "Disadvantage"
+        },
+        {
+          "value": "40 lb."
+        },
+        {
+          "value": "30 GP"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "Chain Mail"
+        },
+        {
+          "value": "16"
+        },
+        {
+          "value": "Str 13"
+        },
+        {
+          "value": "Disadvantage"
+        },
+        {
+          "value": "55 lb."
+        },
+        {
+          "value": "75 GP"
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "cells": [
+        {
+          "value": "Splint Armor"
+        },
+        {
+          "value": "17"
+        },
+        {
+          "value": "Str 15"
+        },
+        {
+          "value": "Disadvantage"
+        },
+        {
+          "value": "60 lb."
+        },
+        {
+          "value": "200 GP"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "cells": [
+        {
+          "value": "Plate Armor"
+        },
+        {
+          "value": "18"
+        },
+        {
+          "value": "Str 15"
+        },
+        {
+          "value": "Disadvantage"
+        },
+        {
+          "value": "65 lb."
+        },
+        {
+          "value": "1,500 GP"
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "cells": [
+        {
+          "value": "Shield (Utilize Action to Don or Doff)",
+          "colspan": 6
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "cells": [
+        {
+          "value": "Shield"
+        },
+        {
+          "value": "+2"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "6 lb."
+        },
+        {
+          "value": "10 GP"
+        }
+      ]
+    }
+  ]
+}

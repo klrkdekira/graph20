@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/7-11-school-of-magic",
+  "@type": "Rule",
+  "name": "School of Magic",
+  "slug": "7-11-school-of-magic",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.11",
+    "heading": "School of Magic",
+    "lineStart": 6307,
+    "lineEnd": 6313
+  },
+  "section": "7.11",
+  "rulesText": "Each spell belongs to a school of magic. The schools are listed in the Schools of Magic table. These categories help describe spells but have no rules of their own, although some other rules refer to them.\n\nSchools of Magic",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/7-11-schools-of-magic"
+    }
+  ]
+}

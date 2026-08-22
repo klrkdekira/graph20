@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/10-13-magic-item-rarity",
+  "@type": "Rule",
+  "name": "Magic Item Rarity",
+  "slug": "10-13-magic-item-rarity",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.13",
+    "heading": "Magic Item Rarity",
+    "lineStart": 14508,
+    "lineEnd": 14512
+  },
+  "section": "10.13",
+  "rulesText": "Every magic item has a rarity, which provides a rough measure of an item's power relative to other magic items. The rarities are shown in the Magic Item Rarities and Values table.\n\nCommon magic items, such as a Potion of Healing, are the most plentiful. Artifacts, such as the Dragon Orb, are priceless, unique, and difficult to acquire."
+}

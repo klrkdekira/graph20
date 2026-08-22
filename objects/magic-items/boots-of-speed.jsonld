@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/boots-of-speed",
+  "@type": "MagicItem",
+  "name": "Boots of Speed",
+  "slug": "boots-of-speed",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.61",
+    "heading": "Boots of Speed",
+    "lineStart": 14926,
+    "lineEnd": 14932
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Rare",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "rulesText": "Wondrous Item, Rare (Requires Attunement)\n\nWhile you wear these boots, you can take a Bonus Action to click the boots' heels together. If you do, the boots double your Speed, and any creature that makes an Opportunity Attack against you has Disadvantage on the attack roll. If you click your heels together again, you end the effect.\n\nWhen you've used the boots' property for a total of 10 minutes, the magic ceases to function for you until you finish a Long Rest."
+}

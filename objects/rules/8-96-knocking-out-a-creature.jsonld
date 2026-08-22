@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-96-knocking-out-a-creature",
+  "@type": "Rule",
+  "name": "Knocking Out a Creature",
+  "slug": "8-96-knocking-out-a-creature",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.96",
+    "heading": "Knocking Out a Creature",
+    "lineStart": 13347,
+    "lineEnd": 13351
+  },
+  "section": "8.96",
+  "rulesText": "When you would reduce a creature to 0 Hit Points with a melee attack, you can instead reduce the creature to 1 Hit Point. The creature then has the Unconscious condition and starts a Short Rest.\n\nThe creature remains Unconscious until it regains any Hit Points or until someone uses an action to administer first aid to it, which requires a successful DC 10 Wisdom (Medicine) check."
+}

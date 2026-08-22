@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/4-9-background-descriptions",
+  "@type": "Rule",
+  "name": "Background Descriptions",
+  "slug": "4-9-background-descriptions",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Origins",
+    "section": "4.9",
+    "heading": "Background Descriptions",
+    "lineStart": 4801,
+    "lineEnd": 4801
+  },
+  "section": "4.9"
+}

@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/2-17-determine-ability-modifiers",
+  "@type": "Rule",
+  "name": "Determine Ability Modifiers",
+  "slug": "2-17-determine-ability-modifiers",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.17",
+    "heading": "Determine Ability Modifiers",
+    "lineStart": 1857,
+    "lineEnd": 1863
+  },
+  "section": "2.17",
+  "rulesText": "Finally, determine your ability modifiers using the Ability Scores and Modifiers table. Write the modifier next to each of your scores.\n\nAbility Scores and Modifiers",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/2-17-ability-scores-and-modifiers"
+    }
+  ]
+}

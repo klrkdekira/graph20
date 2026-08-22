@@ -1,0 +1,93 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/8-22-object-armor-class",
+  "@type": "Table",
+  "name": "Object Armor Class",
+  "slug": "8-22-object-armor-class",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.22",
+    "heading": "Breaking Objects",
+    "lineStart": 12898,
+    "lineEnd": 12898
+  },
+  "columns": [
+    "AC",
+    "Substance",
+    "AC",
+    "Substance"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "Cloth, paper, rope"
+        },
+        {
+          "value": "19"
+        },
+        {
+          "value": "Iron, steel"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "13"
+        },
+        {
+          "value": "Crystal, glass, ice"
+        },
+        {
+          "value": "21"
+        },
+        {
+          "value": "Mithral"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "15"
+        },
+        {
+          "value": "Wood"
+        },
+        {
+          "value": "23"
+        },
+        {
+          "value": "Adamantine"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "17"
+        },
+        {
+          "value": "Stone"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

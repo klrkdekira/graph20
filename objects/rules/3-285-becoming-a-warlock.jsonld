@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-285-becoming-a-warlock",
+  "@type": "Rule",
+  "name": "Becoming a Warlock ...",
+  "slug": "3-285-becoming-a-warlock",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.285",
+    "heading": "Becoming a Warlock ...",
+    "lineStart": 4199,
+    "lineEnd": 4199
+  },
+  "section": "3.285"
+}

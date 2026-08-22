@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-85-climbers-kit-25-gp",
+  "@type": "Rule",
+  "name": "Climber's Kit (25 GP)",
+  "slug": "6-85-climbers-kit-25-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.85",
+    "heading": "Climber's Kit (25 GP)",
+    "lineStart": 5777,
+    "lineEnd": 5779
+  },
+  "section": "6.85",
+  "rulesText": "A Climber's Kit includes boot tips, gloves, pitons, and a harness. As a Utilize action, you can use the Climber's Kit to anchor yourself; when you do, you can't fall more than 25 feet from the anchor point, and you can't move more than 25 feet from there without undoing the anchor as a Bonus Action."
+}

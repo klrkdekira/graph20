@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-263-level-7-sorcery-incarnate",
+  "@type": "Rule",
+  "name": "Level 7: Sorcery Incarnate",
+  "slug": "3-263-level-7-sorcery-incarnate",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.263",
+    "heading": "Level 7: Sorcery Incarnate",
+    "lineStart": 4023,
+    "lineEnd": 4027
+  },
+  "section": "3.263",
+  "rulesText": "If you have no uses of Innate Sorcery left, you can use it if you spend 2 Sorcery Points when you take the Bonus Action to activate it.\n\nIn addition, while your Innate Sorcery feature is active, you can use up to two of your Metamagic options on each spell you cast."
+}

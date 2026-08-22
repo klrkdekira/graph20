@@ -1,0 +1,280 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/9-9-travel-terrain",
+  "@type": "Table",
+  "name": "Travel Terrain",
+  "slug": "9-9-travel-terrain",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.9",
+    "heading": "I: Choose Abilities",
+    "lineStart": 13856,
+    "lineEnd": 13856
+  },
+  "columns": [
+    "Terrain",
+    "Maximum Pace",
+    "Encounter Distance",
+    "Foraging DC",
+    "Navigation DC",
+    "Search DC"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Arctic"
+        },
+        {
+          "value": "Fast*"
+        },
+        {
+          "value": "6d6 × 10 feet"
+        },
+        {
+          "value": "20"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Coastal"
+        },
+        {
+          "value": "Normal"
+        },
+        {
+          "value": "2d10 × 10 feet"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Desert"
+        },
+        {
+          "value": "Normal"
+        },
+        {
+          "value": "6d6 × 10 feet"
+        },
+        {
+          "value": "20"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Forest"
+        },
+        {
+          "value": "Normal"
+        },
+        {
+          "value": "2d8 × 10 feet"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Grassland"
+        },
+        {
+          "value": "Fast"
+        },
+        {
+          "value": "6d6 × 10 feet"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Hill"
+        },
+        {
+          "value": "Normal"
+        },
+        {
+          "value": "2d10 × 10 feet"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Mountain"
+        },
+        {
+          "value": "Slow"
+        },
+        {
+          "value": "4d10 × 10 feet"
+        },
+        {
+          "value": "20"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Swamp"
+        },
+        {
+          "value": "Slow"
+        },
+        {
+          "value": "2d8 × 10 feet"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Underdark"
+        },
+        {
+          "value": "Normal"
+        },
+        {
+          "value": "2d6 × 10 feet"
+        },
+        {
+          "value": "20"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Urban"
+        },
+        {
+          "value": "Normal"
+        },
+        {
+          "value": "2d6 × 10 feet"
+        },
+        {
+          "value": "20"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "Waterborne"
+        },
+        {
+          "value": "Special†"
+        },
+        {
+          "value": "6d6 × 10 feet"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "15"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/11-3-parts-of-a-stat-block",
+  "@type": "Rule",
+  "name": "Parts of a Stat Block",
+  "slug": "11-3-parts-of-a-stat-block",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters",
+    "section": "11.3",
+    "heading": "Parts of a Stat Block",
+    "lineStart": 17350,
+    "lineEnd": 17352
+  },
+  "section": "11.3",
+  "rulesText": "The rules for a stat block are detailed in “Rules Glossary” and in this section."
+}

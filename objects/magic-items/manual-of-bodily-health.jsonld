@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/manual-of-bodily-health",
+  "@type": "MagicItem",
+  "name": "Manual of Bodily Health",
+  "slug": "manual-of-bodily-health",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.155",
+    "heading": "Manual of Bodily Health",
+    "lineStart": 15852,
+    "lineEnd": 15856
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Very Rare",
+  "requiresAttunement": false,
+  "rulesText": "Wondrous Item, Very Rare\n\nThis book contains health and nutrition tips, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Constitution increases by 2, to a maximum of 30. The manual then loses its magic but regains it in a century."
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/commune",
+  "@type": "Spell",
+  "name": "Commune",
+  "slug": "commune",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.79",
+    "heading": "Commune",
+    "lineStart": 7338,
+    "lineEnd": 7354
+  },
+  "level": 5,
+  "school": "Divination",
+  "classAvailability": [
+    "Cleric"
+  ],
+  "castingTime": "I minute or Ritual",
+  "range": "Self",
+  "components": "V, S, M (incense)",
+  "duration": "1 minute",
+  "rulesText": "Level 5 Divination (Cleric)\n\nCasting Time: I minute or Ritual\n\nRange: Self\n\nComponents: V, S, M (incense)\n\nDuration: 1 minute\n\nYou contact a deity or a divine proxy and ask up to three questions that can be answered with yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.\n\nDivine beings aren't necessarily omniscient, so you might receive “unclear” as an answer if a question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer could be misleading or contrary to the deity's interests, the GM might offer a short phrase as an answer instead.\n\nIf you cast the spell more than once before finishing a Long Rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer."
+}

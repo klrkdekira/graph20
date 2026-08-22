@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/feats/great-weapon-fighting",
+  "@type": "Feat",
+  "name": "Great Weapon Fighting",
+  "slug": "great-weapon-fighting",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Feats",
+    "section": "5.15",
+    "heading": "Great Weapon Fighting",
+    "lineStart": 5181,
+    "lineEnd": 5185
+  },
+  "category": "Fighting Style",
+  "prerequisite": "Fighting Style Feature",
+  "repeatable": false,
+  "rulesText": "Fighting Style Feat (Prerequisite: Fighting Style Feature)\n\nWhen you roll damage for an attack you make with a Melee weapon that you are holding with two hands, you can treat any 1 or 2 on a damage die as a 3. The weapon must have the Two-Handed or Versatile property to gain this benefit."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-46-damage",
+  "@type": "Rule",
+  "name": "Damage",
+  "slug": "8-46-damage",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.46",
+    "heading": "Damage",
+    "lineStart": 13036,
+    "lineEnd": 13038
+  },
+  "section": "8.46",
+  "rulesText": "Damage represents harm that causes a creature or an object to lose Hit Points."
+}

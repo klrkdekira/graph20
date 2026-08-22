@@ -1,0 +1,30 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/teleportation-circle",
+  "@type": "Spell",
+  "name": "Teleportation Circle",
+  "slug": "teleportation-circle",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.336",
+    "heading": "Teleportation Circle",
+    "lineStart": 12157,
+    "lineEnd": 12175
+  },
+  "level": 5,
+  "school": "Conjuration",
+  "classAvailability": [
+    "Bard",
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
+  ],
+  "castingTime": "1 minute",
+  "range": "10 feet",
+  "components": "V, M (rare inks worth 50+ GP, which the spell consumes)",
+  "duration": "I round",
+  "rulesText": "Level 5 Conjuration (Bard, Sorcerer, Warlock, Wizard)\n\nCasting Time: 1 minute\n\nRange: 10 feet\n\nComponents: V, M (rare inks worth 50+ GP, which the spell consumes)\n\nDuration: I round\n\nAs you cast the spell, you draw a 5-foot-radius circle on the ground inscribed with sigils that link your location to a permanent teleportation circle of your choice whose sigil sequence you know and that is on the same plane of existence as you. A shimmering portal opens within the circle you drew and remains open until the end of your next turn. Any creature that enters the portal instantly appears within 5 feet of the destination circle or in the nearest unoccupied space if that space is occupied.\n\nMany major temples, guildhalls, and other important places have permanent teleportation circles. Each circle includes a unique sigil sequence—a string of runes arranged in a particular pattern.\n\nWhen you first gain the ability to cast this spell, you learn the sigil sequences for two destinations on the Material Plane, determined by the GM. You might learn additional sigil sequences during your adventures. You can commit a new sigil sequence to memory after studying it for 1 minute.\n\nYou can create a permanent teleportation circle by casting this spell in the same location every day for 365 days."
+}

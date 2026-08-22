@@ -1,0 +1,232 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-256-staff-of-the-magi-table-1",
+  "@type": "Table",
+  "name": "Staff of the Magi Table 1",
+  "slug": "10-256-staff-of-the-magi-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.256",
+    "heading": "Staff of the Magi",
+    "lineStart": 16951,
+    "lineEnd": 16951
+  },
+  "columns": [
+    "Spell",
+    "Charge Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Arcane Lock"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Conjure Elemental"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Detect Magic"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Dispel Magic"
+        },
+        {
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Enlarge/Reduce"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Fireball (level 7 version)"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Flaming Sphere"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Ice Storm"
+        },
+        {
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Invisibility"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Knock"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "Light"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "Lightning Bolt (level 7 version)"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "Mage Hand"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "cells": [
+        {
+          "value": "Passwall"
+        },
+        {
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "cells": [
+        {
+          "value": "Plane Shift"
+        },
+        {
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "cells": [
+        {
+          "value": "Protection from Evil and Good"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "cells": [
+        {
+          "value": "Telekinesis"
+        },
+        {
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "cells": [
+        {
+          "value": "Wall of Fire"
+        },
+        {
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "cells": [
+        {
+          "value": "Web"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/2-4-class-overview",
+  "@type": "Table",
+  "name": "Class Overview",
+  "slug": "2-4-class-overview",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.4",
+    "heading": "Step I: Choose Class",
+    "lineStart": 1740,
+    "lineEnd": 1740
+  },
+  "columns": [
+    "Class",
+    "Likes ...",
+    "Primary Ability",
+    "Complexity"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Barbarian"
+        },
+        {
+          "value": "Battle"
+        },
+        {
+          "value": "Strength"
+        },
+        {
+          "value": "Average"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Bard"
+        },
+        {
+          "value": "Performing"
+        },
+        {
+          "value": "Charisma"
+        },
+        {
+          "value": "High"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Cleric"
+        },
+        {
+          "value": "Gods"
+        },
+        {
+          "value": "Wisdom"
+        },
+        {
+          "value": "Average"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Druid"
+        },
+        {
+          "value": "Nature"
+        },
+        {
+          "value": "Wisdom"
+        },
+        {
+          "value": "High"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Fighter"
+        },
+        {
+          "value": "Weapons"
+        },
+        {
+          "value": "Strength or Dexterity"
+        },
+        {
+          "value": "Low"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Monk"
+        },
+        {
+          "value": "Unarmed combat"
+        },
+        {
+          "value": "Dexterity and Wisdom"
+        },
+        {
+          "value": "High"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Paladin"
+        },
+        {
+          "value": "Defense"
+        },
+        {
+          "value": "Strength and Charisma"
+        },
+        {
+          "value": "Average"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Ranger"
+        },
+        {
+          "value": "Survival"
+        },
+        {
+          "value": "Dexterity and Wisdom"
+        },
+        {
+          "value": "Average"
+        }
+      ]
+    }
+  ]
+}

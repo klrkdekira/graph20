@@ -1,0 +1,248 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-163-mysterious-deck",
+  "@type": "Table",
+  "name": "Mysterious Deck",
+  "slug": "10-163-mysterious-deck",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.163",
+    "heading": "Mysterious Deck",
+    "lineStart": 15939,
+    "lineEnd": 15939
+  },
+  "columns": [
+    "Id100(13-Card Deck)",
+    "Id100(22-Card Deck)",
+    "Card"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "—"
+        },
+        {
+          "value": "01–05"
+        },
+        {
+          "value": "Balance"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "—"
+        },
+        {
+          "value": "06–10"
+        },
+        {
+          "value": "Comet"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "—"
+        },
+        {
+          "value": "11–14"
+        },
+        {
+          "value": "Donjon"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "01–08"
+        },
+        {
+          "value": "15–18"
+        },
+        {
+          "value": "Euryale"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "—"
+        },
+        {
+          "value": "19–23"
+        },
+        {
+          "value": "Fates"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "09–16"
+        },
+        {
+          "value": "24–27"
+        },
+        {
+          "value": "Flames"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "—"
+        },
+        {
+          "value": "28–31"
+        },
+        {
+          "value": "Fool"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "—"
+        },
+        {
+          "value": "32–36"
+        },
+        {
+          "value": "Gem"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "17–24"
+        },
+        {
+          "value": "37–41"
+        },
+        {
+          "value": "Jester"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "25–32"
+        },
+        {
+          "value": "42–46"
+        },
+        {
+          "value": "Key"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "33–40"
+        },
+        {
+          "value": "47–51"
+        },
+        {
+          "value": "Knight"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "41–48"
+        },
+        {
+          "value": "52–56"
+        },
+        {
+          "value": "Moon"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "—"
+        },
+        {
+          "value": "57–60"
+        },
+        {
+          "value": "Puzzle"
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "cells": [
+        {
+          "value": "49–56"
+        },
+        {
+          "value": "61–64"
+        },
+        {
+          "value": "Rogue"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "cells": [
+        {
+          "value": "57–64"
+        },
+        {
+          "value": "65–68"
+        },
+        {
+          "value": "Ruin"
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "cells": [
+        {
+          "value": "—"
+        },
+        {
+          "value": "69–73"
+        },
+        {
+          "value": "Sage"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-75-ranged-attacks",
+  "@type": "Rule",
+  "name": "Ranged Attacks",
+  "slug": "1-75-ranged-attacks",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.75",
+    "heading": "Ranged Attacks",
+    "lineStart": 1516,
+    "lineEnd": 1518
+  },
+  "section": "1.75",
+  "rulesText": "When you make a ranged attack, you fire a bow, hurl an axe, or otherwise send projectiles to strike a foe at a distance. Many spells also involve making a ranged attack."
+}

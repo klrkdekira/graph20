@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-10-ability-modifier",
+  "@type": "Rule",
+  "name": "Ability Modifier",
+  "slug": "1-10-ability-modifier",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.10",
+    "heading": "Ability Modifier",
+    "lineStart": 1047,
+    "lineEnd": 1053
+  },
+  "section": "1.10",
+  "rulesText": "An ability check is named for the ability modifier it uses: a Strength check, an Intelligence check, and so on. Different ability checks are called for in different situations, depending on which ability is most relevant. See the Ability Check Examples table for examples of each check's use.\n\nAbility Check Examples",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/1-10-ability-check-examples"
+    }
+  ]
+}

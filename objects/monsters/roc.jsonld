@@ -1,0 +1,82 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/roc",
+  "@type": "Monster",
+  "name": "Roc",
+  "slug": "roc",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.202",
+    "heading": "Roc",
+    "lineStart": 24513,
+    "lineEnd": 24547
+  },
+  "sizeTypeAlignment": "Gargantuan Monstrosity, Unaligned",
+  "sizeAndType": "Gargantuan Monstrosity",
+  "alignment": "Unaligned",
+  "armorClass": "15",
+  "initiative": "+8 (18)",
+  "hitPoints": "248 (16d20 + 80)",
+  "speed": "20 ft., Fly 120 ft.",
+  "skills": "Perception +8",
+  "senses": "Passive Perception 18",
+  "languages": "None",
+  "challenge": "11 (XP 7,200; PB +4)",
+  "armorClassValue": 15,
+  "hitPointsValue": 248,
+  "hitPointsRoll": {
+    "expression": "16d20+80",
+    "count": 16,
+    "sides": 20,
+    "modifier": 80
+  },
+  "challengeRating": "11",
+  "experiencePoints": 7200,
+  "proficiencyBonus": 4,
+  "abilities": {
+    "str": {
+      "score": 28,
+      "modifier": 9,
+      "savingThrow": 9
+    },
+    "dex": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 4
+    },
+    "con": {
+      "score": 20,
+      "modifier": 5,
+      "savingThrow": 5
+    },
+    "int": {
+      "score": 3,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 4
+    },
+    "cha": {
+      "score": 9,
+      "modifier": -1,
+      "savingThrow": -1
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The roc makes two Beak attacks. It can replace one attack with a Talons attack.\n\nBeak. Melee Attack Roll: +13, reach 10 ft. Hit: 28 (3d12 + 9) Piercing damage.\n\nTalons. Melee Attack Roll: +13, reach 5 ft. Hit: 23 (4d6 + 9) Slashing damage. If the target is a Huge or smaller creature, it has the Grappled condition (escape DC 19) from both talons, and it has the Restrained condition until the grapple ends."
+    },
+    {
+      "name": "Bonus Actions",
+      "rulesText": "Swoop (Recharge 5–6). If the roc has a creature Grappled, the roc flies up to half its Fly Speed without provoking Opportunity Attacks and drops that creature."
+    }
+  ],
+  "rulesText": "Gargantuan Monstrosity, Unaligned\n\nAC 15\n\nInitiative +8 (18)\n\nHP 248 (16d20 + 80)\n\nSpeed 20 ft., Fly 120 ft.\n\nSkills Perception +8\n\nSenses Passive Perception 18\n\nLanguages None\n\nCR 11 (XP 7,200; PB +4)\n\nActions\n\nMultiattack. The roc makes two Beak attacks. It can replace one attack with a Talons attack.\n\nBeak. Melee Attack Roll: +13, reach 10 ft. Hit: 28 (3d12 + 9) Piercing damage.\n\nTalons. Melee Attack Roll: +13, reach 5 ft. Hit: 23 (4d6 + 9) Slashing damage. If the target is a Huge or smaller creature, it has the Grappled condition (escape DC 19) from both talons, and it has the Restrained condition until the grapple ends.\n\nBonus Actions\n\nSwoop (Recharge 5–6). If the roc has a creature Grappled, the roc flies up to half its Fly Speed without provoking Opportunity Attacks and drops that creature."
+}

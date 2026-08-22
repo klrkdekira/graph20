@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-177-level-5-faithful-steed",
+  "@type": "Rule",
+  "name": "Level 5: Faithful Steed",
+  "slug": "3-177-level-5-faithful-steed",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.177",
+    "heading": "Level 5: Faithful Steed",
+    "lineStart": 3460,
+    "lineEnd": 3464
+  },
+  "section": "3.177",
+  "rulesText": "You can call on the aid of an otherworldly steed. You always have the Find Steed spell prepared.\n\nYou can also cast the spell once without expending a spell slot, and you regain the ability to do so when you finish a Long Rest."
+}

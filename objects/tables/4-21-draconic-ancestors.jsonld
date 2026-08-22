@@ -1,0 +1,110 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/4-21-draconic-ancestors",
+  "@type": "Table",
+  "name": "Draconic Ancestors",
+  "slug": "4-21-draconic-ancestors",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Origins",
+    "section": "4.21",
+    "heading": "Dragonborn",
+    "lineStart": 4899,
+    "lineEnd": 4899
+  },
+  "columns": [
+    "Dragon",
+    "Damage Type",
+    "Dragon",
+    "Damage Type"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Black"
+        },
+        {
+          "value": "Acid"
+        },
+        {
+          "value": "Gold"
+        },
+        {
+          "value": "Fire"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Blue"
+        },
+        {
+          "value": "Lightning"
+        },
+        {
+          "value": "Green"
+        },
+        {
+          "value": "Poison"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Brass"
+        },
+        {
+          "value": "Fire"
+        },
+        {
+          "value": "Red"
+        },
+        {
+          "value": "Fire"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Bronze"
+        },
+        {
+          "value": "Lightning"
+        },
+        {
+          "value": "Silver"
+        },
+        {
+          "value": "Cold"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Copper"
+        },
+        {
+          "value": "Acid"
+        },
+        {
+          "value": "White"
+        },
+        {
+          "value": "Cold"
+        }
+      ]
+    }
+  ]
+}

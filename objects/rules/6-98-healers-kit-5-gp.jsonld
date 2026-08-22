@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-98-healers-kit-5-gp",
+  "@type": "Rule",
+  "name": "Healer's Kit (5 GP)",
+  "slug": "6-98-healers-kit-5-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.98",
+    "heading": "Healer's Kit (5 GP)",
+    "lineStart": 5835,
+    "lineEnd": 5837
+  },
+  "section": "6.98",
+  "rulesText": "A Healer's Kit has ten uses. As a Utilize action, you can expend one of its uses to stabilize an Unconscious creature that has 0 Hit Points without needing to make a Wisdom (Medicine) check."
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/hideous-laughter",
+  "@type": "Spell",
+  "name": "Hideous Laughter",
+  "slug": "hideous-laughter",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.195",
+    "heading": "Hideous Laughter",
+    "lineStart": 9586,
+    "lineEnd": 9602
+  },
+  "level": 1,
+  "school": "Enchantment",
+  "classAvailability": [
+    "Bard",
+    "Warlock",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "30 feet",
+  "components": "V, S, M (a tart and a feather)",
+  "duration": "Concentration, up to 1 minute",
+  "rulesText": "Level 1 Enchantment (Bard, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V, S, M (a tart and a feather)\n\nDuration: Concentration, up to 1 minute\n\nOne creature of your choice that you can see within range makes a Wisdom saving throw. On a failed save, it has the Prone and Incapacitated conditions for the duration. During that time, it laughs uncontrollably if it's capable of laughter, and it can't end the Prone condition on itself.\n\nAt the end of each of its turns and each time it takes damage, it makes another Wisdom saving throw. The target has Advantage on the save if the save is triggered by damage. On a successful save, the spell ends.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1."
+}

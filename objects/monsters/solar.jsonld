@@ -1,0 +1,91 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/solar",
+  "@type": "Monster",
+  "name": "Solar",
+  "slug": "solar",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.223",
+    "heading": "Solar",
+    "lineStart": 25219,
+    "lineEnd": 25279
+  },
+  "sizeTypeAlignment": "Large Celestial (Angel), Lawful Good",
+  "sizeAndType": "Large Celestial (Angel)",
+  "alignment": "Lawful Good",
+  "armorClass": "21",
+  "initiative": "+20 (30)",
+  "hitPoints": "297 (22d10 + 176)",
+  "speed": "50 ft., Fly 150 ft. (hover)",
+  "skills": "Perception +14",
+  "immunities": "Poison, Radiant; Charmed, Exhaustion, Frightened, Poisoned",
+  "senses": "Truesight 120 ft.; Passive Perception 24",
+  "languages": "All; telepathy 120 ft.",
+  "challenge": "21 (XP 33,000; PB +7)",
+  "armorClassValue": 21,
+  "hitPointsValue": 297,
+  "hitPointsRoll": {
+    "expression": "22d10+176",
+    "count": 22,
+    "sides": 10,
+    "modifier": 176
+  },
+  "challengeRating": "21",
+  "experiencePoints": 33000,
+  "proficiencyBonus": 7,
+  "abilities": {
+    "str": {
+      "score": 26,
+      "modifier": 8,
+      "savingThrow": 8
+    },
+    "dex": {
+      "score": 22,
+      "modifier": 6,
+      "savingThrow": 6
+    },
+    "con": {
+      "score": 26,
+      "modifier": 8,
+      "savingThrow": 8
+    },
+    "int": {
+      "score": 25,
+      "modifier": 7,
+      "savingThrow": 7
+    },
+    "wis": {
+      "score": 25,
+      "modifier": 7,
+      "savingThrow": 7
+    },
+    "cha": {
+      "score": 30,
+      "modifier": 10,
+      "savingThrow": 10
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Divine Awareness. The solar knows if it hears a lie.\n\nExalted Restoration. If the solar dies outside Mount Celestia, its body disappears, and it gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia.\n\nLegendary Resistance (4/Day). If the solar fails a saving throw, it can choose to succeed instead.\n\nMagic Resistance. The solar has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The solar makes two Flying Sword attacks. It can replace one attack with a use of Slaying Bow.\n\nFlying Sword. Melee or Ranged Attack Roll: +15, reach 10 ft. or range 120 ft. Hit: 22 (4d6 + 8) Slashing damage plus 36 (8d8) Radiant damage. Hit or Miss: The sword magically returns to the solar's hand or hovers within 5 feet of the solar immediately after a ranged attack.\n\nSlaying Bow. Dexterity Saving Throw: DC 21, one creature the solar can see within 600 feet. Failure: If the creature has 100 Hit Points or fewer, it dies. It otherwise takes 24 (4d8 + 6) Piercing damage plus 36 (8d8) Radiant damage.\n\nSpellcasting. The solar casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 25):\n\nAt Will: Detect Evil and Good\n\n1/Day Each: Commune, Control Weather, Dispel Evil and Good, Resurrection"
+    },
+    {
+      "name": "Bonus Actions",
+      "rulesText": "Divine Aid (3/Day). The solar casts Cure Wounds (level 2 version), Lesser Restoration, or Remove Curse, using the same spellcasting ability as Spellcasting."
+    },
+    {
+      "name": "Legendary Actions",
+      "rulesText": "Legendary Action Uses: 3. Immediately after another creature's turn, the solar can expend a use to take one of the following actions. The solar regains all expended uses at the start of each of its turns.\n\nBlinding Gaze. Constitution Saving Throw: DC 25, one creature the solar can see within 120 feet. Failure: The target has the Blinded condition for 1 minute. Failure or Success: The solar can't take this action again until the start of its next turn.\n\nRadiant Teleport. The solar teleports up to 60 feet to an unoccupied space it can see. Dexterity Saving Throw: DC 25, each creature in a 10-foot Emanation originating from the solar at its destination space. Failure: 11 (2d10) Radiant damage. Success: Half damage."
+    }
+  ],
+  "rulesText": "Large Celestial (Angel), Lawful Good\n\nAC 21\n\nInitiative +20 (30)\n\nHP 297 (22d10 + 176)\n\nSpeed 50 ft., Fly 150 ft. (hover)\n\nSkills Perception +14\n\nImmunities Poison, Radiant; Charmed, Exhaustion, Frightened, Poisoned\n\nSenses Truesight 120 ft.; Passive Perception 24\n\nLanguages All; telepathy 120 ft.\n\nCR 21 (XP 33,000; PB +7)\n\nTraits\n\nDivine Awareness. The solar knows if it hears a lie.\n\nExalted Restoration. If the solar dies outside Mount Celestia, its body disappears, and it gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia.\n\nLegendary Resistance (4/Day). If the solar fails a saving throw, it can choose to succeed instead.\n\nMagic Resistance. The solar has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The solar makes two Flying Sword attacks. It can replace one attack with a use of Slaying Bow.\n\nFlying Sword. Melee or Ranged Attack Roll: +15, reach 10 ft. or range 120 ft. Hit: 22 (4d6 + 8) Slashing damage plus 36 (8d8) Radiant damage. Hit or Miss: The sword magically returns to the solar's hand or hovers within 5 feet of the solar immediately after a ranged attack.\n\nSlaying Bow. Dexterity Saving Throw: DC 21, one creature the solar can see within 600 feet. Failure: If the creature has 100 Hit Points or fewer, it dies. It otherwise takes 24 (4d8 + 6) Piercing damage plus 36 (8d8) Radiant damage.\n\nSpellcasting. The solar casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 25):\n\nAt Will: Detect Evil and Good\n\n1/Day Each: Commune, Control Weather, Dispel Evil and Good, Resurrection\n\nBonus Actions\n\nDivine Aid (3/Day). The solar casts Cure Wounds (level 2 version), Lesser Restoration, or Remove Curse, using the same spellcasting ability as Spellcasting.\n\nLegendary Actions\n\nLegendary Action Uses: 3. Immediately after another creature's turn, the solar can expend a use to take one of the following actions. The solar regains all expended uses at the start of each of its turns.\n\nBlinding Gaze. Constitution Saving Throw: DC 25, one creature the solar can see within 120 feet. Failure: The target has the Blinded condition for 1 minute. Failure or Success: The solar can't take this action again until the start of its next turn.\n\nRadiant Teleport. The solar teleports up to 60 feet to an unoccupied space it can see. Dexterity Saving Throw: DC 25, each creature in a 10-foot Emanation originating from the solar at its destination space. Failure: 11 (2d10) Radiant damage. Success: Half damage."
+}

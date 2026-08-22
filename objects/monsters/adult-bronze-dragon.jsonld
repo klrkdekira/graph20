@@ -1,0 +1,87 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/adult-bronze-dragon",
+  "@type": "Monster",
+  "name": "Adult Bronze Dragon",
+  "slug": "adult-bronze-dragon",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.46",
+    "heading": "Adult Bronze Dragon",
+    "lineStart": 18998,
+    "lineEnd": 19054
+  },
+  "sizeTypeAlignment": "Huge Dragon (Metallic), Lawful Good",
+  "sizeAndType": "Huge Dragon (Metallic)",
+  "alignment": "Lawful Good",
+  "armorClass": "18",
+  "initiative": "+10 (20)",
+  "hitPoints": "212 (17d12 + 102)",
+  "speed": "40 ft., Fly 80 ft., Swim 40 ft.",
+  "skills": "Insight +7, Perception +12, Stealth +5",
+  "immunities": "Lightning",
+  "senses": "Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 22",
+  "languages": "Common, Draconic",
+  "challenge": "15 (XP 13,000, or 15,000 in lair; PB +5)",
+  "armorClassValue": 18,
+  "hitPointsValue": 212,
+  "hitPointsRoll": {
+    "expression": "17d12+102",
+    "count": 17,
+    "sides": 12,
+    "modifier": 102
+  },
+  "challengeRating": "15",
+  "experiencePoints": 13000,
+  "proficiencyBonus": 5,
+  "abilities": {
+    "str": {
+      "score": 25,
+      "modifier": 7,
+      "savingThrow": 7
+    },
+    "dex": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 5
+    },
+    "con": {
+      "score": 23,
+      "modifier": 6,
+      "savingThrow": 6
+    },
+    "int": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "wis": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 7
+    },
+    "cha": {
+      "score": 20,
+      "modifier": 5,
+      "savingThrow": 5
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Amphibious. The dragon can breathe air and water.\n\nLegendary Resistance (3/Day, or 4/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The dragon makes three Rend attacks. It can replace one attack with a use of (A) Repulsion Breath or (B) Spellcasting to cast Guiding Bolt (level 2 version).\n\nRend. Melee Attack Roll: +12, reach 10 ft. Hit: 16 (2d8 + 7) Slashing damage plus 5 (1d10) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 19, each creature in a 90-foot-long, 5-foot-wide Line. Failure: 55 (10d10) Lightning damage. Success: Half damage.\n\nRepulsion Breath. Strength Saving Throw: DC 19, each creature in a 30-foot Cone. Failure: The target is pushed up to 60 feet straight away from the dragon and has the Prone condition.\n\nSpellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 17, +10 to hit with spell attacks):\n\nAt Will: Detect Magic, Guiding Bolt (level 2 version), Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell), Speak with Animals, Thaumaturgy\n\n1/Day Each: Detect Thoughts, Water Breathing"
+    },
+    {
+      "name": "Legendary Actions",
+      "rulesText": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nGuiding Light. The dragon uses Spellcasting to cast Guiding Bolt (level 2 version).\n\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.\n\nThunderclap. Constitution Saving Throw: DC 17, each creature in a 20-foot-radius Sphere centered on a point the dragon can see within 90 feet. Failure: 10 (3d6)\n\nThunder damage, and the target has the Deafened condition until the end of its next turn."
+    }
+  ],
+  "rulesText": "Huge Dragon (Metallic), Lawful Good\n\nAC 18\n\nInitiative +10 (20)\n\nHP 212 (17d12 + 102)\n\nSpeed 40 ft., Fly 80 ft., Swim 40 ft.\n\nSkills Insight +7, Perception +12, Stealth +5\n\nImmunities Lightning\n\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 22\n\nLanguages Common, Draconic\n\nCR 15 (XP 13,000, or 15,000 in lair; PB +5)\n\nTraits\n\nAmphibious. The dragon can breathe air and water.\n\nLegendary Resistance (3/Day, or 4/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks. It can replace one attack with a use of (A) Repulsion Breath or (B) Spellcasting to cast Guiding Bolt (level 2 version).\n\nRend. Melee Attack Roll: +12, reach 10 ft. Hit: 16 (2d8 + 7) Slashing damage plus 5 (1d10) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 19, each creature in a 90-foot-long, 5-foot-wide Line. Failure: 55 (10d10) Lightning damage. Success: Half damage.\n\nRepulsion Breath. Strength Saving Throw: DC 19, each creature in a 30-foot Cone. Failure: The target is pushed up to 60 feet straight away from the dragon and has the Prone condition.\n\nSpellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 17, +10 to hit with spell attacks):\n\nAt Will: Detect Magic, Guiding Bolt (level 2 version), Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell), Speak with Animals, Thaumaturgy\n\n1/Day Each: Detect Thoughts, Water Breathing\n\nLegendary Actions\n\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nGuiding Light. The dragon uses Spellcasting to cast Guiding Bolt (level 2 version).\n\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.\n\nThunderclap. Constitution Saving Throw: DC 17, each creature in a 20-foot-radius Sphere centered on a point the dragon can see within 90 feet. Failure: 10 (3d6)\n\nThunder damage, and the target has the Deafened condition until the end of its next turn."
+}

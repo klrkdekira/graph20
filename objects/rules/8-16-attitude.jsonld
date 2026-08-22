@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-16-attitude",
+  "@type": "Rule",
+  "name": "Attitude",
+  "slug": "8-16-attitude",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.16",
+    "heading": "Attitude",
+    "lineStart": 12862,
+    "lineEnd": 12864
+  },
+  "section": "8.16",
+  "rulesText": "A monster has a starting attitude toward a player character: Friendly, Hostile, or Indifferent. See also \"Friendly,\" \"Hostile,\" \"Indifferent,\" and \"Influence.\""
+}

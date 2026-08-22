@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/amulet-of-proof-against-detection-and-location",
+  "@type": "MagicItem",
+  "name": "Amulet of Proof against Detection and Location",
+  "slug": "amulet-of-proof-against-detection-and-location",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.41",
+    "heading": "Amulet of Proof against Detection and Location",
+    "lineStart": 14712,
+    "lineEnd": 14716
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Uncommon",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile wearing this amulet, you can't be targeted by Divination spells or perceived through magical scrying sensors unless you allow it."
+}

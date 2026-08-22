@@ -1,0 +1,78 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/8-92-influence-checks",
+  "@type": "Table",
+  "name": "Influence Checks",
+  "slug": "8-92-influence-checks",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.92",
+    "heading": "Influence [Action]",
+    "lineStart": 13325,
+    "lineEnd": 13325
+  },
+  "columns": [
+    "Ability Check",
+    "Interaction"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Charisma (Deception)"
+        },
+        {
+          "value": "Deceiving a monster that understands you"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Charisma (Intimidation)"
+        },
+        {
+          "value": "Intimidating a monster"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Charisma (Performance)"
+        },
+        {
+          "value": "Amusing a monster"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Charisma (Persuasion)"
+        },
+        {
+          "value": "Persuading a monster that understands you"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Wisdom (Animal Handling)"
+        },
+        {
+          "value": "Gently coaxing a Beast or Monstrosity"
+        }
+      ]
+    }
+  ]
+}

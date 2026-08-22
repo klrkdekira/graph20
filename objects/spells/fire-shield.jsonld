@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/fire-shield",
+  "@type": "Spell",
+  "name": "Fire Shield",
+  "slug": "fire-shield",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.153",
+    "heading": "Fire Shield",
+    "lineStart": 8770,
+    "lineEnd": 8786
+  },
+  "level": 4,
+  "school": "Evocation",
+  "classAvailability": [
+    "Druid",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "Self",
+  "components": "V, S, M (a bit of phosphorus or a firefly)",
+  "duration": "10 minutes",
+  "rulesText": "Level 4 Evocation (Druid, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S, M (a bit of phosphorus or a firefly)\n\nDuration: 10 minutes\n\nWispy flames wreathe your body for the duration, shedding Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.\n\nThe flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you Resistance to Cold damage, and the chill shield grants you Resistance to Fire damage.\n\nIn addition, whenever a creature within 5 feet of you hits you with a melee attack roll, the shield erupts with flame. The attacker takes 2d8 Fire damage from a warm shield or 2d8 Cold damage from a chill shield."
+}

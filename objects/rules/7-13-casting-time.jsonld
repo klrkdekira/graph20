@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/7-13-casting-time",
+  "@type": "Rule",
+  "name": "Casting Time",
+  "slug": "7-13-casting-time",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.13",
+    "heading": "Casting Time",
+    "lineStart": 6319,
+    "lineEnd": 6321
+  },
+  "section": "7.13",
+  "rulesText": "Most spells require the Magic action to cast, but some spells require a Bonus Action, a Reaction, or 1 minute or more. A spell's Casting Time entry specifies which of those is required."
+}

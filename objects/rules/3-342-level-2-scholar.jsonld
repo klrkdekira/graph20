@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-342-level-2-scholar",
+  "@type": "Rule",
+  "name": "Level 2: Scholar",
+  "slug": "3-342-level-2-scholar",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.342",
+    "heading": "Level 2: Scholar",
+    "lineStart": 4649,
+    "lineEnd": 4651
+  },
+  "section": "3.342",
+  "rulesText": "While studying magic, you also specialized in another field of study. Choose one of the following skills in which you have proficiency: Arcana, History, Investigation, Medicine, Nature, or Religion. You have Expertise in the chosen skill."
+}

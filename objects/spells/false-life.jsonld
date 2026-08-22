@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/false-life",
+  "@type": "Spell",
+  "name": "False Life",
+  "slug": "false-life",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.143",
+    "heading": "False Life",
+    "lineStart": 8554,
+    "lineEnd": 8568
+  },
+  "level": 1,
+  "school": "Necromancy",
+  "classAvailability": [
+    "Sorcerer",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "Self",
+  "components": "V, S, M (a drop of alcohol)",
+  "duration": "Instantaneous",
+  "rulesText": "Level 1 Necromancy (Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S, M (a drop of alcohol)\n\nDuration: Instantaneous\n\nYou gain 2d4 + 4 Temporary Hit Points.\n\nUsing a Higher-Level Spell Slot. You gain 5 additional Temporary Hit Points for each spell slot level above 1."
+}

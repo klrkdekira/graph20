@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/conjure-fey",
+  "@type": "Spell",
+  "name": "Conjure Fey",
+  "slug": "conjure-fey",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.88",
+    "heading": "Conjure Fey",
+    "lineStart": 7520,
+    "lineEnd": 7536
+  },
+  "level": 6,
+  "school": "Conjuration",
+  "classAvailability": [
+    "Druid"
+  ],
+  "castingTime": "Action",
+  "range": "60 feet",
+  "components": "V, S",
+  "duration": "Concentration, up to 10 minutes",
+  "rulesText": "Level 6 Conjuration (Druid)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S\n\nDuration: Concentration, up to 10 minutes\n\nYou conjure a Medium spirit from the Feywild in an unoccupied space you can see within range. The spirit lasts for the duration, and it looks like a Fey creature of your choice. When the spirit appears, you can make one melee spell attack against a creature within 5 feet of it. On a hit, the target takes Psychic damage equal to 3d12 plus your spellcasting ability modifier, and the target has the Frightened condition until the start of your next turn, with both you and the spirit as the source of the fear.\n\nAs a Bonus Action on your later turns, you can teleport the spirit to an unoccupied space you can see within 30 feet of the space it left and make the attack against a creature within 5 feet of it.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d12 for each spell slot level above 6."
+}

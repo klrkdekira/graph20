@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-154-level-18-superior-defense",
+  "@type": "Rule",
+  "name": "Level 18: Superior Defense",
+  "slug": "3-154-level-18-superior-defense",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.154",
+    "heading": "Level 18: Superior Defense",
+    "lineStart": 3317,
+    "lineEnd": 3319
+  },
+  "section": "3.154",
+  "rulesText": "At the start of your turn, you can expend 3 Focus Points to bolster yourself against harm for 1 minute or until you have the Incapacitated condition. During that time, you have Resistance to all damage except Force damage."
+}

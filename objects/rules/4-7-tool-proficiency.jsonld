@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/4-7-tool-proficiency",
+  "@type": "Rule",
+  "name": "Tool Proficiency",
+  "slug": "4-7-tool-proficiency",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Origins",
+    "section": "4.7",
+    "heading": "Tool Proficiency",
+    "lineStart": 4793,
+    "lineEnd": 4795
+  },
+  "section": "4.7",
+  "rulesText": "Each background gives a character proficiency with one tool—either a specific tool or one chosen from the Artisan's Tools category. Tools are detailed in \"Equipment.\""
+}

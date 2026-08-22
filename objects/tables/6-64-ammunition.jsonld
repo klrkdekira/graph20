@@ -1,0 +1,126 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/6-64-ammunition",
+  "@type": "Table",
+  "name": "Ammunition",
+  "slug": "6-64-ammunition",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.64",
+    "heading": "Ammunition (Varies)",
+    "lineStart": 5691,
+    "lineEnd": 5691
+  },
+  "columns": [
+    "Type",
+    "Amount",
+    "Storage",
+    "Weight",
+    "Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Arrows"
+        },
+        {
+          "value": "20"
+        },
+        {
+          "value": "Quiver"
+        },
+        {
+          "value": "1 lb."
+        },
+        {
+          "value": "1 GP"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Bolts"
+        },
+        {
+          "value": "20"
+        },
+        {
+          "value": "Case"
+        },
+        {
+          "value": "$1\\frac{1}{2}$ lb."
+        },
+        {
+          "value": "1 GP"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Bullets, Firearm"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "Pouch"
+        },
+        {
+          "value": "2 lb."
+        },
+        {
+          "value": "3 GP"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Bullets, Sling"
+        },
+        {
+          "value": "20"
+        },
+        {
+          "value": "Pouch"
+        },
+        {
+          "value": "$1\\frac{1}{2}$ lb."
+        },
+        {
+          "value": "4 CP"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Needles"
+        },
+        {
+          "value": "50"
+        },
+        {
+          "value": "Pouch"
+        },
+        {
+          "value": "1 lb."
+        },
+        {
+          "value": "1 GP"
+        }
+      ]
+    }
+  ]
+}

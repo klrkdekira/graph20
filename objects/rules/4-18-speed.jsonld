@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/4-18-speed",
+  "@type": "Rule",
+  "name": "Speed",
+  "slug": "4-18-speed",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Origins",
+    "section": "4.18",
+    "heading": "Speed",
+    "lineStart": 4875,
+    "lineEnd": 4877
+  },
+  "section": "4.18",
+  "rulesText": "Your character's species determines the character's Speed."
+}

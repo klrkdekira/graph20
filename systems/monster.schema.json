@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/graph20/systems/monster.schema.json",
+  "title": "SRD 5.2.1 Monster stat block",
+  "$ref": "common.schema.json#/$defs/EntityBase",
+  "properties": {
+    "@type": { "const": "Monster" },
+    "sizeTypeAlignment": { "type": "string", "minLength": 1 },
+    "sizeAndType": { "type": "string", "minLength": 1 },
+    "alignment": { "type": "string", "minLength": 1 },
+    "armorClass": { "type": "string", "minLength": 1 },
+    "armorClassValue": { "type": "integer", "minimum": 1 },
+    "initiative": { "type": "string", "minLength": 1 },
+    "hitPoints": { "type": "string", "minLength": 1 },
+    "hitPointsValue": { "type": "integer", "minimum": 1 },
+    "hitPointsRoll": { "$ref": "common.schema.json#/$defs/DiceExpression" },
+    "speed": { "type": "string", "minLength": 1 },
+    "skills": { "type": "string", "minLength": 1 },
+    "resistances": { "type": "string", "minLength": 1 },
+    "vulnerabilities": { "type": "string", "minLength": 1 },
+    "immunities": { "type": "string", "minLength": 1 },
+    "senses": { "type": "string", "minLength": 1 },
+    "languages": { "type": "string", "minLength": 1 },
+    "gear": { "type": "string", "minLength": 1 },
+    "challenge": { "type": "string", "minLength": 1 },
+    "challengeRating": { "type": "string", "pattern": "^[\\d/]+$" },
+    "experiencePoints": { "type": "integer", "minimum": 0 },
+    "proficiencyBonus": { "type": "integer", "minimum": 1 },
+    "abilities": {
+      "type": "object",
+      "properties": {
+        "str": { "$ref": "common.schema.json#/$defs/AbilityEntry" },
+        "dex": { "$ref": "common.schema.json#/$defs/AbilityEntry" },
+        "con": { "$ref": "common.schema.json#/$defs/AbilityEntry" },
+        "int": { "$ref": "common.schema.json#/$defs/AbilityEntry" },
+        "wis": { "$ref": "common.schema.json#/$defs/AbilityEntry" },
+        "cha": { "$ref": "common.schema.json#/$defs/AbilityEntry" }
+      },
+      "unevaluatedProperties": false
+    },
+    "statSections": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "rulesText": { "type": "string", "minLength": 1 }
+        },
+        "required": ["name", "rulesText"],
+        "unevaluatedProperties": false
+      }
+    },
+    "rulesText": { "type": "string", "minLength": 1 }
+  },
+  "required": ["sizeTypeAlignment", "rulesText"],
+  "unevaluatedProperties": false
+}

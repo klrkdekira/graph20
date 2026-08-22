@@ -1,0 +1,83 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/winter-wolf",
+  "@type": "Monster",
+  "name": "Winter Wolf",
+  "slug": "winter-wolf",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.266",
+    "heading": "Winter Wolf",
+    "lineStart": 26878,
+    "lineEnd": 26913
+  },
+  "sizeTypeAlignment": "Large Monstrosity, Neutral Evil",
+  "sizeAndType": "Large Monstrosity",
+  "alignment": "Neutral Evil",
+  "armorClass": "13",
+  "initiative": "+1 (11)",
+  "hitPoints": "75 (10d10 + 20)",
+  "speed": "50 ft.",
+  "skills": "Perception +5, Stealth +5",
+  "immunities": "Cold",
+  "senses": "Passive Perception 15",
+  "languages": "Common, Giant",
+  "challenge": "3 (XP 700; PB +2)",
+  "armorClassValue": 13,
+  "hitPointsValue": 75,
+  "hitPointsRoll": {
+    "expression": "10d10+20",
+    "count": 10,
+    "sides": 10,
+    "modifier": 20
+  },
+  "challengeRating": "3",
+  "experiencePoints": 700,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "dex": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "con": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "int": {
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Pack Tactics. The wolf has Advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Bite. Melee Attack Roll: +6, reach 5 ft. Hit: 11 (2d6 + 4) Piercing damage. If the target is a Large or smaller creature, it has the Prone condition.\n\nCold Breath (Recharge 5–6). Constitution Saving\nThrow: DC 12, each creature in a 15-foot Cone. Failure: 18 (4d8) Cold damage. Success: Half damage."
+    }
+  ],
+  "rulesText": "Large Monstrosity, Neutral Evil\n\nAC 13\n\nInitiative +1 (11)\n\nHP 75 (10d10 + 20)\n\nSpeed 50 ft.\n\nSkills Perception +5, Stealth +5\n\nImmunities Cold\n\nSenses Passive Perception 15\n\nLanguages Common, Giant\n\nCR 3 (XP 700; PB +2)\n\nTraits\n\nPack Tactics. The wolf has Advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 11 (2d6 + 4) Piercing damage. If the target is a Large or smaller creature, it has the Prone condition.\n\nCold Breath (Recharge 5–6). Constitution Saving\nThrow: DC 12, each creature in a 15-foot Cone. Failure: 18 (4d8) Cold damage. Success: Half damage."
+}

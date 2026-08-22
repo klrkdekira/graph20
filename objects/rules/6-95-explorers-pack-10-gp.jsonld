@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-95-explorers-pack-10-gp",
+  "@type": "Rule",
+  "name": "Explorer's Pack (10 GP)",
+  "slug": "6-95-explorers-pack-10-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.95",
+    "heading": "Explorer's Pack (10 GP)",
+    "lineStart": 5823,
+    "lineEnd": 5825
+  },
+  "section": "6.95",
+  "rulesText": "An Explorer's Pack contains the following items: Backpack, Bedroll, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin."
+}

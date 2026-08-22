@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/10-11-wondrous-items",
+  "@type": "Rule",
+  "name": "Wondrous Items",
+  "slug": "10-11-wondrous-items",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.11",
+    "heading": "Wondrous Items",
+    "lineStart": 14492,
+    "lineEnd": 14494
+  },
+  "section": "10.11",
+  "rulesText": "Wondrous Items include wearable items such as boots, belts, capes, amulets, brooches, and circlets. Bags, carpets, figurines, horns, musical instruments, and more also fall into this category."
+}

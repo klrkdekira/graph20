@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-245-rogue-subclass-thief",
+  "@type": "Rule",
+  "name": "Rogue Subclass: Thief",
+  "slug": "3-245-rogue-subclass-thief",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.245",
+    "heading": "Rogue Subclass: Thief",
+    "lineStart": 3882,
+    "lineEnd": 3886
+  },
+  "section": "3.245",
+  "rulesText": "Hunt for Treasure as a Classic Adventurer\n\nA mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer. In addition to improving your agility and stealth, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there."
+}

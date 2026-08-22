@@ -1,0 +1,83 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/ice-devil",
+  "@type": "Monster",
+  "name": "Ice Devil",
+  "slug": "ice-devil",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.141",
+    "heading": "Ice Devil",
+    "lineStart": 22314,
+    "lineEnd": 22354
+  },
+  "sizeTypeAlignment": "Large Fiend (Devil), Lawful Evil",
+  "sizeAndType": "Large Fiend (Devil)",
+  "alignment": "Lawful Evil",
+  "armorClass": "18",
+  "initiative": "+7 (17)",
+  "hitPoints": "228 (24d10 + 96)",
+  "speed": "40 ft.",
+  "skills": "Insight +7, Perception +7, Persuasion +9",
+  "immunities": "Cold, Fire, Poison; Poisoned",
+  "senses": "Blindsight 120 ft.; Passive Perception 17",
+  "languages": "Infernal; telepathy 120 ft.",
+  "challenge": "14 (XP 11,500; PB +5)",
+  "armorClassValue": 18,
+  "hitPointsValue": 228,
+  "hitPointsRoll": {
+    "expression": "24d10+96",
+    "count": 24,
+    "sides": 10,
+    "modifier": 96
+  },
+  "challengeRating": "14",
+  "experiencePoints": 11500,
+  "proficiencyBonus": 5,
+  "abilities": {
+    "str": {
+      "score": 21,
+      "modifier": 5,
+      "savingThrow": 5
+    },
+    "dex": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 7
+    },
+    "con": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 9
+    },
+    "int": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "wis": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 7
+    },
+    "cha": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 9
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Diabolical Restoration. If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nMagic Resistance. The devil has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The devil makes three Ice Spear attacks. It can replace one attack with a Tail attack.\n\nIce Spear. Melee or Ranged Attack Roll: +10, reach 5 ft. or range 30/120 ft. Hit: 14 (2d8 + 5) Piercing damage plus 10 (3d6) Cold damage. Until the end of its next turn, the target can't take a Bonus Action or Reaction, its Speed decreases by 10 feet, and it can move or take one action on its turn, not both. Hit or Miss: The spear magically returns to the devil's hand immediately after a ranged attack.\n\nTail. Melee Attack Roll: +10, reach 10 ft. Hit: 15 (3d6 + 5) Bludgeoning damage plus 18 (4d8) Cold damage.\n\nIce Wall (Recharge 6). The devil casts Wall of Ice (level 8 version), requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 17)."
+    }
+  ],
+  "rulesText": "Large Fiend (Devil), Lawful Evil\n\nAC 18\n\nInitiative +7 (17)\n\nHP 228 (24d10 + 96)\n\nSpeed 40 ft.\n\nSkills Insight +7, Perception +7, Persuasion +9\n\nImmunities Cold, Fire, Poison; Poisoned\n\nSenses Blindsight 120 ft.; Passive Perception 17\n\nLanguages Infernal; telepathy 120 ft.\n\nCR 14 (XP 11,500; PB +5)\n\nTraits\n\nDiabolical Restoration. If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nMagic Resistance. The devil has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The devil makes three Ice Spear attacks. It can replace one attack with a Tail attack.\n\nIce Spear. Melee or Ranged Attack Roll: +10, reach 5 ft. or range 30/120 ft. Hit: 14 (2d8 + 5) Piercing damage plus 10 (3d6) Cold damage. Until the end of its next turn, the target can't take a Bonus Action or Reaction, its Speed decreases by 10 feet, and it can move or take one action on its turn, not both. Hit or Miss: The spear magically returns to the devil's hand immediately after a ranged attack.\n\nTail. Melee Attack Roll: +10, reach 10 ft. Hit: 15 (3d6 + 5) Bludgeoning damage plus 18 (4d8) Cold damage.\n\nIce Wall (Recharge 6). The devil casts Wall of Ice (level 8 version), requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 17)."
+}

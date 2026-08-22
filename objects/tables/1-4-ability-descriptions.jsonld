@@ -1,0 +1,89 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/1-4-ability-descriptions",
+  "@type": "Table",
+  "name": "Ability Descriptions",
+  "slug": "1-4-ability-descriptions",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.4",
+    "heading": "The Six Abilities",
+    "lineStart": 1009,
+    "lineEnd": 1009
+  },
+  "columns": [
+    "Ability",
+    "Score Measures ..."
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Strength"
+        },
+        {
+          "value": "Physical might"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Dexterity"
+        },
+        {
+          "value": "Agility, reflexes, and balance"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Constitution"
+        },
+        {
+          "value": "Health and stamina"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Intelligence"
+        },
+        {
+          "value": "Reasoning and memory"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Wisdom"
+        },
+        {
+          "value": "Perceptiveness and mental fortitude"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Charisma"
+        },
+        {
+          "value": "Confidence, poise, and charm"
+        }
+      ]
+    }
+  ]
+}

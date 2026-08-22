@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/4-8-equipment",
+  "@type": "Rule",
+  "name": "Equipment",
+  "slug": "4-8-equipment",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Origins",
+    "section": "4.8",
+    "heading": "Equipment",
+    "lineStart": 4797,
+    "lineEnd": 4799
+  },
+  "section": "4.8",
+  "rulesText": "Each background offers a choice between a package of equipment and 50 GP."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-124-round-down",
+  "@type": "Rule",
+  "name": "Round Down",
+  "slug": "8-124-round-down",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.124",
+    "heading": "Round Down",
+    "lineStart": 13546,
+    "lineEnd": 13548
+  },
+  "section": "8.124",
+  "rulesText": "Whenever you divide or multiply a number in the game, round down if you end up with a fraction, even if the fraction is one-half or greater. Some rules make an exception and tell you to round up."
+}

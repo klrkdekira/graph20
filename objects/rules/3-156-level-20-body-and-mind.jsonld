@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-156-level-20-body-and-mind",
+  "@type": "Rule",
+  "name": "Level 20: Body and Mind",
+  "slug": "3-156-level-20-body-and-mind",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.156",
+    "heading": "Level 20: Body and Mind",
+    "lineStart": 3325,
+    "lineEnd": 3327
+  },
+  "section": "3.156",
+  "rulesText": "You have developed your body and mind to new heights. Your Dexterity and Wisdom scores increase by 4, to a maximum of 25."
+}

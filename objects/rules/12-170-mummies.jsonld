@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/12-170-mummies",
+  "@type": "Rule",
+  "name": "Mummies",
+  "slug": "12-170-mummies",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.170",
+    "heading": "Mummies",
+    "lineStart": 23345,
+    "lineEnd": 23345
+  },
+  "section": "12.170"
+}

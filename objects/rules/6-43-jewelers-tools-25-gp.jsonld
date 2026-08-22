@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-43-jewelers-tools-25-gp",
+  "@type": "Rule",
+  "name": "Jeweler's Tools (25 GP)",
+  "slug": "6-43-jewelers-tools-25-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.43",
+    "heading": "Jeweler's Tools (25 GP)",
+    "lineStart": 5511,
+    "lineEnd": 5517
+  },
+  "section": "6.43",
+  "rulesText": "Ability: Intelligence Weight: 2 lb.\n\nUtilize: Discern a gem's value (DC 15)\n\nCraft: Arcane Focus, Holy Symbol"
+}

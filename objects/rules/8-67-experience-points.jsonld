@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-67-experience-points",
+  "@type": "Rule",
+  "name": "Experience Points",
+  "slug": "8-67-experience-points",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.67",
+    "heading": "Experience Points",
+    "lineStart": 13159,
+    "lineEnd": 13161
+  },
+  "section": "8.67",
+  "rulesText": "As they overcome challenges and complete adventures, characters earn Experience Points (XP), which are awarded by the Game Master. When a character's XP total crosses certain thresholds, the character's level increases. See also “Level Advancement.”"
+}

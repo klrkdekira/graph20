@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/passwall",
+  "@type": "Spell",
+  "name": "Passwall",
+  "slug": "passwall",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.252",
+    "heading": "Passwall",
+    "lineStart": 10601,
+    "lineEnd": 10615
+  },
+  "level": 5,
+  "school": "Transmutation",
+  "classAvailability": [
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "30 feet",
+  "components": "V, S, M (a pinch of sesame seeds)",
+  "duration": "1 hour",
+  "rulesText": "Level 5 Transmutation (Wizard)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V, S, M (a pinch of sesame seeds)\n\nDuration: 1 hour\n\nA passage appears at a point that you can see on a wooden, plaster, or stone surface (such as a wall, ceiling, or floor) within range and lasts for the duration. You choose the opening's dimensions: up to 5 feet wide, 8 feet tall, and 20 feet deep. The passage creates no instability in a structure surrounding it.\n\nWhen the opening disappears, any creatures or objects still in the passage created by the spell are safely ejected to an unoccupied space nearest to the surface on which you cast the spell."
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/lantern-of-revealing",
+  "@type": "MagicItem",
+  "name": "Lantern of Revealing",
+  "slug": "lantern-of-revealing",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.149",
+    "heading": "Lantern of Revealing",
+    "lineStart": 15804,
+    "lineEnd": 15810
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Uncommon",
+  "requiresAttunement": false,
+  "rulesText": "Wondrous Item, Uncommon\n\nWhile lit, this hooded lantern burns for 6 hours on 1 pint of oil, shedding Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. Invisible creatures and objects are visible as long as they are in the lantern's Bright Light. You can take a Utilize\n\naction to lower the hood, reducing the lantern's light to Dim Light in a 5-foot radius."
+}

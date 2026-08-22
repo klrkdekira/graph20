@@ -1,0 +1,94 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/6-66-arcane-focuses",
+  "@type": "Table",
+  "name": "Arcane Focuses",
+  "slug": "6-66-arcane-focuses",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.66",
+    "heading": "Arcane Focus (Varies)",
+    "lineStart": 5703,
+    "lineEnd": 5703
+  },
+  "columns": [
+    "Focus",
+    "Weight",
+    "Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Crystal"
+        },
+        {
+          "value": "1 lb."
+        },
+        {
+          "value": "10 GP"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Orb"
+        },
+        {
+          "value": "3 lb."
+        },
+        {
+          "value": "20 GP"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Rod"
+        },
+        {
+          "value": "2 lb."
+        },
+        {
+          "value": "10 GP"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Staff (also a Quarterstaff)"
+        },
+        {
+          "value": "4 lb."
+        },
+        {
+          "value": "5 GP"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Wand"
+        },
+        {
+          "value": "1 lb."
+        },
+        {
+          "value": "10 GP"
+        }
+      ]
+    }
+  ]
+}

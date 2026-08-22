@@ -1,0 +1,78 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-96-dragon-orb-table-1",
+  "@type": "Table",
+  "name": "Dragon Orb Table 1",
+  "slug": "10-96-dragon-orb-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.96",
+    "heading": "Dragon Orb",
+    "lineStart": 15233,
+    "lineEnd": 15233
+  },
+  "columns": [
+    "Spell",
+    "Charge Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Cure Wounds (level 9 version)"
+        },
+        {
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Daylight"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Death Ward"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Detect Magic"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Scrying (save DC 18)"
+        },
+        {
+          "value": "3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-41-level-3-bard-subclass",
+  "@type": "Rule",
+  "name": "Level 3: Bard Subclass",
+  "slug": "3-41-level-3-bard-subclass",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.41",
+    "heading": "Level 3: Bard Subclass",
+    "lineStart": 2500,
+    "lineEnd": 2502
+  },
+  "section": "3.41",
+  "rulesText": "You gain a Bard subclass of your choice. The College of Lore subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Bard levels. For the rest of your career, you gain each of your subclass's features that are of your Bard level or lower."
+}

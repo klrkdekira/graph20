@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/weird",
+  "@type": "Spell",
+  "name": "Weird",
+  "slug": "weird",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.362",
+    "heading": "Weird",
+    "lineStart": 12648,
+    "lineEnd": 12662
+  },
+  "level": 9,
+  "school": "Illusion",
+  "classAvailability": [
+    "Warlock",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "120 feet",
+  "components": "V, S",
+  "duration": "Concentration, up to 1 minute",
+  "rulesText": "Level 9 Illusion (Warlock, Wizard)\n\nCasting Time: Action\n\nRange: 120 feet\n\nComponents: V, S\n\nDuration: Concentration, up to 1 minute\n\nYou try to create illusory terrors in others' minds. Each creature of your choice in a 30-foot-radius Sphere centered on a point within range makes a Wisdom saving throw. On a failed save, a target takes 10d10 Psychic damage and has the Frightened condition for the duration. On a successful save, a target takes half as much damage only.\n\nA Frightened target makes a Wisdom saving throw at the end of each of its turns. On a failed save, it takes 5d10 Psychic damage. On a successful save, the spell ends on that target."
+}

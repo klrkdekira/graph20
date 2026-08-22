@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-46-special-senses",
+  "@type": "Rule",
+  "name": "Special Senses",
+  "slug": "1-46-special-senses",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.46",
+    "heading": "Special Senses",
+    "lineStart": 1301,
+    "lineEnd": 1311
+  },
+  "section": "1.46",
+  "rulesText": "Some creatures have special senses that help them perceive things in certain situations. “Rules Glossary” defines the following special senses:\n\nBlindsight\n\nDarkvision\n\nTremorsense\n\nTruesight"
+}

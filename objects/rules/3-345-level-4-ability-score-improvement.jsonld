@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-345-level-4-ability-score-improvement",
+  "@type": "Rule",
+  "name": "Level 4: Ability Score Improvement",
+  "slug": "3-345-level-4-ability-score-improvement",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.345",
+    "heading": "Level 4: Ability Score Improvement",
+    "lineStart": 4669,
+    "lineEnd": 4671
+  },
+  "section": "3.345",
+  "rulesText": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Wizard levels 8, 12, and 16."
+}

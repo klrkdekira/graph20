@@ -1,0 +1,81 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/commoner",
+  "@type": "Monster",
+  "name": "Commoner",
+  "slug": "commoner",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.61",
+    "heading": "Commoner",
+    "lineStart": 19551,
+    "lineEnd": 19581
+  },
+  "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
+  "sizeAndType": "Medium or Small Humanoid",
+  "alignment": "Neutral",
+  "armorClass": "10",
+  "initiative": "+0 (10)",
+  "hitPoints": "4 (1d8)",
+  "speed": "30 ft.",
+  "senses": "Passive Perception 10",
+  "languages": "Common",
+  "gear": "Club",
+  "challenge": "0 (XP 10; PB +2)",
+  "armorClassValue": 10,
+  "hitPointsValue": 4,
+  "hitPointsRoll": {
+    "expression": "1d8",
+    "count": 1,
+    "sides": 8
+  },
+  "challengeRating": "0",
+  "experiencePoints": 10,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "dex": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "con": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "int": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "wis": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "cha": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Training. The commoner has proficiency in one skill of the GM's choice and has Advantage whenever it makes an ability check using that skill."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Club. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage."
+    }
+  ],
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 10\n\nInitiative +0 (10)\n\nHP 4 (1d8)\n\nSpeed 30 ft.\n\nGear Club\n\nSenses Passive Perception 10\n\nLanguages Common\n\nCR 0 (XP 10; PB +2)\n\nTraits\n\nTraining. The commoner has proficiency in one skill of the GM's choice and has Advantage whenever it makes an ability check using that skill.\n\nActions\n\nClub. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage."
+}

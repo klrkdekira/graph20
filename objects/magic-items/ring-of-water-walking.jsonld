@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/ring-of-water-walking",
+  "@type": "MagicItem",
+  "name": "Ring of Water Walking",
+  "slug": "ring-of-water-walking",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.222",
+    "heading": "Ring of Water Walking",
+    "lineStart": 16530,
+    "lineEnd": 16534
+  },
+  "itemCategory": "Ring",
+  "rarity": "Uncommon",
+  "requiresAttunement": false,
+  "rulesText": "Ring, Uncommon\n\nWhile wearing this ring, you cast Water Walk from it, targeting only yourself."
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/arcane-eye",
+  "@type": "Spell",
+  "name": "Arcane Eye",
+  "slug": "arcane-eye",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.43",
+    "heading": "Arcane Eye",
+    "lineStart": 6693,
+    "lineEnd": 6707
+  },
+  "level": 4,
+  "school": "Divination",
+  "classAvailability": [
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "30 feet",
+  "components": "V, S, M (a bit of bat fur)",
+  "duration": "Concentration, up to 1 hour",
+  "rulesText": "Level 4 Divination (Wizard)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V, S, M (a bit of bat fur)\n\nDuration: Concentration, up to 1 hour\n\nYou create an Invisible, invulnerable eye within range that hovers for the duration. You mentally receive visual information from the eye, which can see in every direction. It also has Darkvision with a range of 30 feet.\n\nAs a Bonus Action, you can move the eye up to 30 feet in any direction. A solid barrier blocks the eye's movement, but the eye can pass through an opening as small as 1 inch in diameter."
+}

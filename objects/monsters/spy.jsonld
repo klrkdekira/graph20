@@ -1,0 +1,82 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/spy",
+  "@type": "Monster",
+  "name": "Spy",
+  "slug": "spy",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.231",
+    "heading": "Spy",
+    "lineStart": 25545,
+    "lineEnd": 25579
+  },
+  "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
+  "sizeAndType": "Medium or Small Humanoid",
+  "alignment": "Neutral",
+  "armorClass": "12",
+  "initiative": "+4 (14)",
+  "hitPoints": "27 (6d8)",
+  "speed": "30 ft., Climb 30 ft.",
+  "skills": "Deception +5, Insight +4, Investigation +5, Perception +6, Sleight of Hand +4, Stealth +6",
+  "senses": "Passive Perception 16",
+  "languages": "Common plus one other language",
+  "gear": "Hand Crossbow, Shortsword, Thieves' Tools",
+  "challenge": "1 (XP 200; PB +2)",
+  "armorClassValue": 12,
+  "hitPointsValue": 27,
+  "hitPointsRoll": {
+    "expression": "6d8",
+    "count": 6,
+    "sides": 8
+  },
+  "challengeRating": "1",
+  "experiencePoints": 200,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "dex": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "int": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "wis": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "cha": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Shortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage.\n\nHand Crossbow. Ranged Attack Roll: +4, range 30/120 ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage."
+    },
+    {
+      "name": "Bonus Actions",
+      "rulesText": "Cunning Action. The spy takes the Dash, Disengage, or Hide action."
+    }
+  ],
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 12\n\nInitiative +4 (14)\n\nHP 27 (6d8)\n\nSpeed 30 ft., Climb 30 ft.\n\nSkills Deception +5, Insight +4, Investigation +5, Perception +6, Sleight of Hand +4, Stealth +6\n\nGear Hand Crossbow, Shortsword, Thieves' Tools\n\nSenses Passive Perception 16\n\nLanguages Common plus one other language\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nShortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage.\n\nHand Crossbow. Ranged Attack Roll: +4, range 30/120 ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage.\n\nBonus Actions\n\nCunning Action. The spy takes the Dash, Disengage, or Hide action."
+}

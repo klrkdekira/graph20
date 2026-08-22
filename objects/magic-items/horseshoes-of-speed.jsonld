@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/horseshoes-of-speed",
+  "@type": "MagicItem",
+  "name": "Horseshoes of Speed",
+  "slug": "horseshoes-of-speed",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.142",
+    "heading": "Horseshoes of Speed",
+    "lineStart": 15704,
+    "lineEnd": 15710
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Rare",
+  "requiresAttunement": false,
+  "rulesText": "Wondrous Item, Rare\n\nThese horseshoes come in a set of four. As a Magic action, you can touch one of the horseshoes to the hoof of a horse or similar creature, whereupon the horseshoe affixes itself to the hoof. Removing a horseshoe also takes a Magic action.\n\nWhile all four horseshoes are attached to the same creature, its Speed is increased by 30 feet."
+}

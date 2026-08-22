@@ -1,0 +1,110 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-34-sentient-items-alignment",
+  "@type": "Table",
+  "name": "Sentient Item's Alignment",
+  "slug": "10-34-sentient-items-alignment",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.34",
+    "heading": "Special Purpose",
+    "lineStart": 14640,
+    "lineEnd": 14640
+  },
+  "columns": [
+    "Id100",
+    "Alignment",
+    "Id100",
+    "Alignment"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "01–15"
+        },
+        {
+          "value": "Lawful Good"
+        },
+        {
+          "value": "74–85"
+        },
+        {
+          "value": "Chaotic Neutral"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "16–35"
+        },
+        {
+          "value": "Neutral Good"
+        },
+        {
+          "value": "86–89"
+        },
+        {
+          "value": "Lawful Evil"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "36–50"
+        },
+        {
+          "value": "Chaotic Good"
+        },
+        {
+          "value": "90–96"
+        },
+        {
+          "value": "Neutral Evil"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "51–63"
+        },
+        {
+          "value": "Lawful Neutral"
+        },
+        {
+          "value": "97–00"
+        },
+        {
+          "value": "Chaotic Evil"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "64–73"
+        },
+        {
+          "value": "Neutral"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

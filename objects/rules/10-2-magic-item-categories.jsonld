@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/10-2-magic-item-categories",
+  "@type": "Rule",
+  "name": "Magic Item Categories",
+  "slug": "10-2-magic-item-categories",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.2",
+    "heading": "Magic Item Categories",
+    "lineStart": 14428,
+    "lineEnd": 14434
+  },
+  "section": "10.2",
+  "rulesText": "Every magic item belongs to a category. The Magic Item Categories table lists the nine categories and provides examples. Rules for the categories appear after the table.\n\nMagic Item Categories",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/10-2-magic-item-categories"
+    }
+  ]
+}

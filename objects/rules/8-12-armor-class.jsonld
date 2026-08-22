@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-12-armor-class",
+  "@type": "Rule",
+  "name": "Armor Class",
+  "slug": "8-12-armor-class",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.12",
+    "heading": "Armor Class",
+    "lineStart": 12840,
+    "lineEnd": 12844
+  },
+  "section": "8.12",
+  "rulesText": "An Armor Class (AC) is the target number for an attack roll. AC represents how difficult it is to hit a target.\n\nYour base AC calculation is 10 plus your Dexterity modifier. If a rule gives you another base AC calculation, you choose which calculation to use; you can't use more than one. See also \"Attack Roll.\""
+}

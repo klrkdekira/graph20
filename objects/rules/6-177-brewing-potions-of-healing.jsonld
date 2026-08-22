@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-177-brewing-potions-of-healing",
+  "@type": "Rule",
+  "name": "Brewing Potions of Healing",
+  "slug": "6-177-brewing-potions-of-healing",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.177",
+    "heading": "Brewing Potions of Healing",
+    "lineStart": 6225,
+    "lineEnd": 6227
+  },
+  "section": "6.177",
+  "rulesText": "A character who has proficiency with the Herbalism Kit can create a Potion of Healing. Doing so requires using that kit and 25 GP of raw material over the course of 1 day (8 hours of work)."
+}

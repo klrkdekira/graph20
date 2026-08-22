@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-21-nick",
+  "@type": "Rule",
+  "name": "Nick",
+  "slug": "6-21-nick",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.21",
+    "heading": "Nick",
+    "lineStart": 5365,
+    "lineEnd": 5367
+  },
+  "section": "6.21",
+  "rulesText": "When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn."
+}

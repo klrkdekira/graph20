@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/greater-invisibility",
+  "@type": "Spell",
+  "name": "Greater Invisibility",
+  "slug": "greater-invisibility",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.177",
+    "heading": "Greater Invisibility",
+    "lineStart": 9250,
+    "lineEnd": 9262
+  },
+  "level": 4,
+  "school": "Illusion",
+  "classAvailability": [
+    "Bard",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": "V, S",
+  "duration": "Concentration, up to 1 minute",
+  "rulesText": "Level 4 Illusion (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S\n\nDuration: Concentration, up to 1 minute\n\nA creature you touch has the Invisible condition until the spell ends."
+}

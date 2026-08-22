@@ -1,0 +1,82 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/giant-ape",
+  "@type": "Monster",
+  "name": "Giant Ape",
+  "slug": "giant-ape",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.26",
+    "heading": "Giant Ape",
+    "lineStart": 27804,
+    "lineEnd": 27836
+  },
+  "sizeTypeAlignment": "Huge Beast, Unaligned",
+  "sizeAndType": "Huge Beast",
+  "alignment": "Unaligned",
+  "armorClass": "12",
+  "initiative": "+5 (15)",
+  "hitPoints": "168 (16d12 + 64)",
+  "speed": "40 ft., Climb 40 ft.",
+  "skills": "Athletics +9, Perception +4, Survival +4",
+  "senses": "Passive Perception 14",
+  "languages": "None",
+  "challenge": "7 (XP 2,900; PB +3)",
+  "armorClassValue": 12,
+  "hitPointsValue": 168,
+  "hitPointsRoll": {
+    "expression": "16d12+64",
+    "count": 16,
+    "sides": 12,
+    "modifier": 64
+  },
+  "challengeRating": "7",
+  "experiencePoints": 2900,
+  "proficiencyBonus": 3,
+  "abilities": {
+    "str": {
+      "score": 23,
+      "modifier": 6,
+      "savingThrow": 6
+    },
+    "dex": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "int": {
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The ape makes two Fist attacks.\n\nFist. Melee Attack Roll: +9, reach 10 ft. Hit: 22 (3d10 + 6) Bludgeoning damage.\n\nBoulder Toss (Recharge 6). The ape hurls a boulder at a point it can see within 90 feet. Dexterity Saving Throw: DC 17, each creature in a 5-foot-radius Sphere centered on that point. Failure: 24 (7d6) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition. Success: Half damage only."
+    },
+    {
+      "name": "Bonus Actions",
+      "rulesText": "Leap. The ape jumps up to 30 feet by spending 10 feet of movement."
+    }
+  ],
+  "rulesText": "Huge Beast, Unaligned\n\nAC 12\n\nInitiative +5 (15)\n\nHP 168 (16d12 + 64)\n\nSpeed 40 ft., Climb 40 ft.\n\nSkills Athletics +9, Perception +4, Survival +4\n\nSenses Passive Perception 14\n\nLanguages None\n\nCR 7 (XP 2,900; PB +3)\n\nActions\n\nMultiattack. The ape makes two Fist attacks.\n\nFist. Melee Attack Roll: +9, reach 10 ft. Hit: 22 (3d10 + 6) Bludgeoning damage.\n\nBoulder Toss (Recharge 6). The ape hurls a boulder at a point it can see within 90 feet. Dexterity Saving Throw: DC 17, each creature in a 5-foot-radius Sphere centered on that point. Failure: 24 (7d6) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition. Success: Half damage only.\n\nBonus Actions\n\nLeap. The ape jumps up to 30 feet by spending 10 feet of movement."
+}

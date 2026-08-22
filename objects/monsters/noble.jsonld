@@ -1,0 +1,82 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/noble",
+  "@type": "Monster",
+  "name": "Noble",
+  "slug": "noble",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.176",
+    "heading": "Noble",
+    "lineStart": 23591,
+    "lineEnd": 23623
+  },
+  "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
+  "sizeAndType": "Medium or Small Humanoid",
+  "alignment": "Neutral",
+  "armorClass": "15",
+  "initiative": "+1 (11)",
+  "hitPoints": "9 (2d8)",
+  "speed": "30 ft.",
+  "skills": "Deception +5, Insight +4, Persuasion +5",
+  "senses": "Passive Perception 12",
+  "languages": "Common plus two other languages",
+  "gear": "Breastplate, Rapier",
+  "challenge": "1/8 (XP 25; PB +2)",
+  "armorClassValue": 15,
+  "hitPointsValue": 9,
+  "hitPointsRoll": {
+    "expression": "2d8",
+    "count": 2,
+    "sides": 8
+  },
+  "challengeRating": "1/8",
+  "experiencePoints": 25,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "dex": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "con": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "int": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "wis": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "cha": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Rapier. Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Piercing damage."
+    },
+    {
+      "name": "Reactions",
+      "rulesText": "Parry. Trigger: The noble is hit by a melee attack roll while holding a weapon. Response: The noble adds 2 to its AC against that attack, possibly causing it to miss."
+    }
+  ],
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 15\n\nInitiative +1 (11)\n\nHP 9 (2d8)\n\nSpeed 30 ft.\n\nSkills Deception +5, Insight +4, Persuasion +5\n\nGear Breastplate, Rapier\n\nSenses Passive Perception 12\n\nLanguages Common plus two other languages\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nRapier. Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Piercing damage.\n\nReactions\n\nParry. Trigger: The noble is hit by a melee attack roll while holding a weapon. Response: The noble adds 2 to its AC against that attack, possibly causing it to miss."
+}

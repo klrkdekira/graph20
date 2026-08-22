@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-132-shovel-2-gp",
+  "@type": "Rule",
+  "name": "Shovel (2 GP)",
+  "slug": "6-132-shovel-2-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.132",
+    "heading": "Shovel (2 GP)",
+    "lineStart": 5993,
+    "lineEnd": 5995
+  },
+  "section": "6.132",
+  "rulesText": "Working for 1 hour, you can use a Shovel to dig a hole that is 5 feet on each side in soil or similar material."
+}

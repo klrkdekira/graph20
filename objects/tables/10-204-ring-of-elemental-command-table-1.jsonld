@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-204-ring-of-elemental-command-table-1",
+  "@type": "Table",
+  "name": "Ring of Elemental Command Table 1",
+  "slug": "10-204-ring-of-elemental-command-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.204",
+    "heading": "Ring of Elemental Command",
+    "lineStart": 16391,
+    "lineEnd": 16391
+  },
+  "columns": [
+    "Plane",
+    "Spells (Charges)"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Air"
+        },
+        {
+          "value": "Chain Lightning (3 charges), Feather Fall (0 charges), Gust of Wind (2 charges), Wind Wall (1 charge)"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Earth"
+        },
+        {
+          "value": "Earthquake (5 charges), Stone Shape (2 charges), Stoneskin (3 charges), Wall of Stone (3 charges)"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Fire"
+        },
+        {
+          "value": "Burning Hands (1 charge), Fireball (2 charges), Fire Storm (4 charges), Wall of Fire (3 charges)"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Water"
+        },
+        {
+          "value": "Create or Destroy Water (1 charge), Ice Storm (2 charges), Tsunami (5 charges), Wall of Ice (3 charges), Water Walk (2 charges)"
+        }
+      ]
+    }
+  ]
+}

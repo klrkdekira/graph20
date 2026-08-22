@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/12-10-awakened-plants",
+  "@type": "Rule",
+  "name": "Awakened Plants",
+  "slug": "12-10-awakened-plants",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.10",
+    "heading": "Awakened Plants",
+    "lineStart": 17843,
+    "lineEnd": 17843
+  },
+  "section": "12.10"
+}

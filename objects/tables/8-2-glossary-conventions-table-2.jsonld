@@ -1,0 +1,166 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/8-2-glossary-conventions-table-2",
+  "@type": "Table",
+  "name": "Glossary Conventions Table 2",
+  "slug": "8-2-glossary-conventions-table-2",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.2",
+    "heading": "Glossary Conventions",
+    "lineStart": 12784,
+    "lineEnd": 12784
+  },
+  "columns": [
+    "M",
+    "Material component"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "N"
+        },
+        {
+          "value": "Neutral"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "NE"
+        },
+        {
+          "value": "Neutral Evil"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "NG"
+        },
+        {
+          "value": "Neutral Good"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "NPC"
+        },
+        {
+          "value": "Nonplayer character"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "PB"
+        },
+        {
+          "value": "Proficiency Bonus"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "PP"
+        },
+        {
+          "value": "Platinum Piece(s)"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "R"
+        },
+        {
+          "value": "Ritual"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "S"
+        },
+        {
+          "value": "Somatic component"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "SP"
+        },
+        {
+          "value": "Silver Piece(s)"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Str."
+        },
+        {
+          "value": "Strength"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "V"
+        },
+        {
+          "value": "Verbal component"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "Wis."
+        },
+        {
+          "value": "Wisdom"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "XP"
+        },
+        {
+          "value": "Experience Point(s)"
+        }
+      ]
+    }
+  ]
+}

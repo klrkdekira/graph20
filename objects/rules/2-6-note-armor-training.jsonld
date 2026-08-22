@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/2-6-note-armor-training",
+  "@type": "Rule",
+  "name": "Note Armor Training",
+  "slug": "2-6-note-armor-training",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.6",
+    "heading": "Note Armor Training",
+    "lineStart": 1752,
+    "lineEnd": 1754
+  },
+  "section": "2.6",
+  "rulesText": "Your class might give you training with certain categories of armor. Note your armor training on your character sheet. Armor training with a kind of armor means you can wear that armor effectively, gaining defensive bonuses from it. The categories of armor are described in “Equipment.”"
+}

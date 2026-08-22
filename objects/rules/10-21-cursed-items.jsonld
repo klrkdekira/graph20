@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/10-21-cursed-items",
+  "@type": "Rule",
+  "name": "Cursed Items",
+  "slug": "10-21-cursed-items",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.21",
+    "heading": "Cursed Items",
+    "lineStart": 14556,
+    "lineEnd": 14560
+  },
+  "section": "10.21",
+  "rulesText": "A magic item's description specifies whether it bears a curse. Most methods of identifying items, including the Identify spell, fail to reveal such a curse.\n\nAttunement to a cursed item can't be ended voluntarily unless the curse is broken first, such as with a Remove Curse spell."
+}

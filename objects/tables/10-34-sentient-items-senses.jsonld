@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-34-sentient-items-senses",
+  "@type": "Table",
+  "name": "Sentient Item's Senses",
+  "slug": "10-34-sentient-items-senses",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.34",
+    "heading": "Special Purpose",
+    "lineStart": 14648,
+    "lineEnd": 14648
+  },
+  "columns": [
+    "Id4",
+    "Senses"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "Hearing and standard vision out to 30 feet"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "Hearing and standard vision out to 60 feet"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "Hearing and standard vision out to 120 feet"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "Hearing and Darkvision out to 120 feet"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/12-70-cultists",
+  "@type": "Rule",
+  "name": "Cultists",
+  "slug": "12-70-cultists",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.70",
+    "heading": "Cultists",
+    "lineStart": 19843,
+    "lineEnd": 19843
+  },
+  "section": "12.70"
+}

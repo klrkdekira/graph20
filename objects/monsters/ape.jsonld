@@ -1,0 +1,78 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/ape",
+  "@type": "Monster",
+  "name": "Ape",
+  "slug": "ape",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.4",
+    "heading": "Ape",
+    "lineStart": 27177,
+    "lineEnd": 27205
+  },
+  "sizeTypeAlignment": "Medium Beast, Unaligned",
+  "sizeAndType": "Medium Beast",
+  "alignment": "Unaligned",
+  "armorClass": "12",
+  "initiative": "+2 (12)",
+  "hitPoints": "19 (3d8 + 6)",
+  "speed": "30 ft., Climb 30 ft.",
+  "skills": "Athletics +5, Perception +3",
+  "senses": "Passive Perception 13",
+  "languages": "None",
+  "challenge": "1/2 (XP 100; PB +2)",
+  "armorClassValue": 12,
+  "hitPointsValue": 19,
+  "hitPointsRoll": {
+    "expression": "3d8+6",
+    "count": 3,
+    "sides": 8,
+    "modifier": 6
+  },
+  "challengeRating": "1/2",
+  "experiencePoints": 100,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "dex": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "int": {
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The ape makes two Fist attacks.\n\nFist. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Bludgeoning damage.\n\nRock (Recharge 6). Ranged Attack Roll: +5, range 25/50 ft. Hit: 10 (2d6 + 3) Bludgeoning damage."
+    }
+  ],
+  "rulesText": "Medium Beast, Unaligned\n\nAC 12\n\nInitiative +2 (12)\n\nHP 19 (3d8 + 6)\n\nSpeed 30 ft., Climb 30 ft.\n\nSkills Athletics +5, Perception +3\n\nSenses Passive Perception 13\n\nLanguages None\n\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nMultiattack. The ape makes two Fist attacks.\n\nFist. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Bludgeoning damage.\n\nRock (Recharge 6). Ranged Attack Roll: +5, range 25/50 ft. Hit: 10 (2d6 + 3) Bludgeoning damage."
+}

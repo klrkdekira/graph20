@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-15-proficiency-bonus",
+  "@type": "Rule",
+  "name": "Proficiency Bonus",
+  "slug": "1-15-proficiency-bonus",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.15",
+    "heading": "Proficiency Bonus",
+    "lineStart": 1081,
+    "lineEnd": 1083
+  },
+  "section": "1.15",
+  "rulesText": "You add your Proficiency Bonus to your saving throw if you have proficiency in that kind of save. See “Proficiency” later in “Playing the Game.”"
+}

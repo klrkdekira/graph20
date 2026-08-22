@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-78-burglars-pack-16-gp",
+  "@type": "Rule",
+  "name": "Burglar's Pack (16 GP)",
+  "slug": "6-78-burglars-pack-16-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.78",
+    "heading": "Burglar's Pack (16 GP)",
+    "lineStart": 5749,
+    "lineEnd": 5751
+  },
+  "section": "6.78",
+  "rulesText": "A Burglar's Pack contains the following items: Backpack, Ball Bearings, Bell, 10 Candles, Crowbar, Hooded Lantern, 7 flasks of Oil, 5 days of Rations, Rope, Tinderbox, and Waterskin."
+}

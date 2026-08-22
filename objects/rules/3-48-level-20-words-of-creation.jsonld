@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-48-level-20-words-of-creation",
+  "@type": "Rule",
+  "name": "Level 20: Words of Creation",
+  "slug": "3-48-level-20-words-of-creation",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.48",
+    "heading": "Level 20: Words of Creation",
+    "lineStart": 2530,
+    "lineEnd": 2532
+  },
+  "section": "3.48",
+  "rulesText": "You have mastered two of the Words of Creation: the words of life and death. You therefore always have the Power Word Heal and Power Word Kill spells prepared. When you cast either spell, you can target a second creature with it if that creature is within 10 feet of the first target."
+}

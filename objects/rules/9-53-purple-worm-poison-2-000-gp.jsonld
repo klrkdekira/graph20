@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-53-purple-worm-poison-2-000-gp",
+  "@type": "Rule",
+  "name": "Purple Worm Poison (2,000 GP)",
+  "slug": "9-53-purple-worm-poison-2-000-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.53",
+    "heading": "Purple Worm Poison (2,000 GP)",
+    "lineStart": 14131,
+    "lineEnd": 14135
+  },
+  "section": "9.53",
+  "rulesText": "Injury Poison\n\nA creature subjected to Purple Worm Poison makes a DC 21 Constitution saving throw, taking 35 (10d6) Poison damage on a failed save or half as much damage on a successful one."
+}

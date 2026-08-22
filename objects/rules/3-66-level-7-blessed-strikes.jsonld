@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-66-level-7-blessed-strikes",
+  "@type": "Rule",
+  "name": "Level 7: Blessed Strikes",
+  "slug": "3-66-level-7-blessed-strikes",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.66",
+    "heading": "Level 7: Blessed Strikes",
+    "lineStart": 2688,
+    "lineEnd": 2694
+  },
+  "section": "3.66",
+  "rulesText": "Divine power infuses you in battle. You gain one of the following options of your choice (if you get either option from a Cleric subclass in an older book, use only the option you choose for this feature).\n\nDivine Strike. Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant damage (your choice).\n\nPotent Spellcasting. Add your Wisdom modifier to the damage you deal with any Cleric cantrip."
+}

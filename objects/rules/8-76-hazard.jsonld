@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-76-hazard",
+  "@type": "Rule",
+  "name": "Hazard",
+  "slug": "8-76-hazard",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.76",
+    "heading": "Hazard",
+    "lineStart": 13217,
+    "lineEnd": 13219
+  },
+  "section": "8.76",
+  "rulesText": "A hazard is an environmental danger. See also \"Burning,\" \"Dehydration,\" \"Falling,\" \"Malnutrition,\" and \"Suffocation.\""
+}

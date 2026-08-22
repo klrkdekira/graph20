@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-18-ability-modifier",
+  "@type": "Rule",
+  "name": "Ability Modifier",
+  "slug": "1-18-ability-modifier",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.18",
+    "heading": "Ability Modifier",
+    "lineStart": 1093,
+    "lineEnd": 1101
+  },
+  "section": "1.18",
+  "rulesText": "The Attack Roll Abilities table shows which ability modifier to use for different types of attack rolls.\n\nAttack Roll Abilities\n\nSome features let you use different ability modifiers from those listed. For example, the Finesse property (see “Equipment”) lets you use Strength or Dexterity with a weapon that has that property.",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/1-18-attack-roll-abilities"
+    }
+  ]
+}

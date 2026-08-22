@@ -1,0 +1,72 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/avatar-of-death",
+  "@type": "Monster",
+  "name": "Avatar of Death",
+  "slug": "avatar-of-death",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.164",
+    "heading": "Avatar of Death",
+    "lineStart": 15990,
+    "lineEnd": 16022
+  },
+  "sizeTypeAlignment": "Medium Undead, Neutral evil",
+  "sizeAndType": "Medium Undead",
+  "alignment": "Neutral evil",
+  "armorClass": "20",
+  "initiative": "+3 (13)",
+  "hitPoints": "Half the HP maximum of its summoner",
+  "speed": "60 ft., Fly 60 ft. (hover)",
+  "immunities": "Necrotic, Poison; Charmed, Exhaustion,",
+  "senses": "Truesight 60 ft., Passive Perception 13",
+  "languages": "All languages known to its summoner",
+  "challenge": "None (XP 0; PB equals its summoner's)",
+  "armorClassValue": 20,
+  "abilities": {
+    "str": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "dex": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "con": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "int": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "wis": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "cha": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Incorporeal Movement. The avatar can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The avatar makes a number of Reaping Scythe attacks equal to half the summoner's Proficiency Bonus (rounded up).\n\nReaping Scythe. Melee Attack Roll: Automatic hit, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage plus 4 (1d8) Necrotic damage."
+    }
+  ],
+  "rulesText": "Medium Undead, Neutral evil\n\nAC 20\n\nInitiative +3 (13)\n\nHP Half the HP maximum of its summoner\n\nSpeed 60 ft., Fly 60 ft. (hover)\n\nImmunities Necrotic, Poison; Charmed, Exhaustion,\n\nFrightened, Paralyzed, Petrified, Poisoned, Unconscious\n\nSenses Truesight 60 ft., Passive Perception 13\n\nLanguages All languages known to its summoner\n\nCR None (XP 0; PB equals its summoner's)\n\nTraits\n\nIncorporeal Movement. The avatar can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.\n\nActions\n\nMultiattack. The avatar makes a number of Reaping Scythe attacks equal to half the summoner's Proficiency Bonus (rounded up).\n\nReaping Scythe. Melee Attack Roll: Automatic hit, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage plus 4 (1d8) Necrotic damage."
+}

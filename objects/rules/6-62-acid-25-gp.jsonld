@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-62-acid-25-gp",
+  "@type": "Rule",
+  "name": "Acid (25 GP)",
+  "slug": "6-62-acid-25-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.62",
+    "heading": "Acid (25 GP)",
+    "lineStart": 5671,
+    "lineEnd": 5673
+  },
+  "section": "6.62",
+  "rulesText": "When you take the Attack action, you can replace one of your attacks with throwing a vial of Acid. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d6 Acid damage."
+}

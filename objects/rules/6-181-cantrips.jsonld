@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-181-cantrips",
+  "@type": "Rule",
+  "name": "Cantrips",
+  "slug": "6-181-cantrips",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.181",
+    "heading": "Cantrips",
+    "lineStart": 6241,
+    "lineEnd": 6247
+  },
+  "section": "6.181",
+  "rulesText": "If the scribed spell is a cantrip, the version on the scroll works as if the caster were your level.\n\nSpell Scroll Costs",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/6-181-spell-scroll-costs"
+    }
+  ]
+}

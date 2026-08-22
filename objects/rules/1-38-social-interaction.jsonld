@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-38-social-interaction",
+  "@type": "Rule",
+  "name": "Social Interaction",
+  "slug": "1-38-social-interaction",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.38",
+    "heading": "Social Interaction",
+    "lineStart": 1243,
+    "lineEnd": 1249
+  },
+  "section": "1.38",
+  "rulesText": "During their adventures, player characters meet many different people and face some monsters that would rather talk than fight. In those situations, it's time for social interaction, which takes many forms. For example, you might try to convince a burglar to confess to wrongdoing or try to flatter a guard. The Game Master assumes the roles of any nonplayer characters who are participating.\n\nAn NPC's attitude toward your character is Friendly, Indifferent, or Hostile, as defined in “Rules Glossary.” Friendly NPCs are predisposed to help, and Hostile ones are inclined to hinder.\n\nSocial interactions progress in two ways: through roleplaying and ability checks."
+}

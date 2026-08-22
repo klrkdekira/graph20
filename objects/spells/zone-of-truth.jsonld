@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/zone-of-truth",
+  "@type": "Spell",
+  "name": "Zone of Truth",
+  "slug": "zone-of-truth",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.367",
+    "heading": "Zone of Truth",
+    "lineStart": 12750,
+    "lineEnd": 12764
+  },
+  "level": 2,
+  "school": "Enchantment",
+  "classAvailability": [
+    "Bard",
+    "Cleric",
+    "Paladin"
+  ],
+  "castingTime": "Action",
+  "range": "60 feet",
+  "components": "V, S",
+  "duration": "10 minutes",
+  "rulesText": "Level 2 Enchantment (Bard, Cleric, Paladin)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V, S\n\nDuration: 10 minutes\n\nYou create a magical zone that guards against deception in a 15-foot-radius Sphere centered on a point within range. Until the spell ends, a creature that enters the spell's area for the first time on a turn or starts its turn there makes a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie while in the radius. You know whether a creature succeeds or fails on this save.\n\nAn affected creature is aware of the spell and can avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive yet must be truthful."
+}

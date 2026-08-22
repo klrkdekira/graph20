@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/ring-of-feather-falling",
+  "@type": "MagicItem",
+  "name": "Ring of Feather Falling",
+  "slug": "ring-of-feather-falling",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.206",
+    "heading": "Ring of Feather Falling",
+    "lineStart": 16400,
+    "lineEnd": 16404
+  },
+  "itemCategory": "Ring",
+  "rarity": "Rare",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "rulesText": "Ring, Rare (Requires Attunement)\n\nWhen you fall while wearing this ring, you descend 60 feet per round and take no damage from falling."
+}

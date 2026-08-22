@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-95-jumping",
+  "@type": "Rule",
+  "name": "Jumping",
+  "slug": "8-95-jumping",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.95",
+    "heading": "Jumping",
+    "lineStart": 13343,
+    "lineEnd": 13345
+  },
+  "section": "8.95",
+  "rulesText": "When you jump, you make either a Long Jump (horizontal) or a High Jump (vertical). See also “Long Jump” and “High Jump.”"
+}

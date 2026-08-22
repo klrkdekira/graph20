@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/vicious-mockery",
+  "@type": "Spell",
+  "name": "Vicious Mockery",
+  "slug": "vicious-mockery",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.351",
+    "heading": "Vicious Mockery",
+    "lineStart": 12444,
+    "lineEnd": 12458
+  },
+  "level": 0,
+  "school": "Enchantment",
+  "classAvailability": [
+    "Bard"
+  ],
+  "castingTime": "Action",
+  "range": "60 feet",
+  "components": "V",
+  "duration": "Instantaneous",
+  "rulesText": "Enchantment Cantrip (Bard)\n\nCasting Time: Action\n\nRange: 60 feet\n\nComponents: V\n\nDuration: Instantaneous\n\nYou unleash a string of insults laced with subtle enchantments at one creature you can see or hear within range. The target must succeed on a Wisdom saving throw or take 1d6 Psychic damage and have Disadvantage on the next attack roll it makes before the end of its next turn.\n\nCantrip Upgrade. The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6)."
+}

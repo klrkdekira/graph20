@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-41-cooks-utensils-i-gp",
+  "@type": "Rule",
+  "name": "Cook's Utensils (I GP)",
+  "slug": "6-41-cooks-utensils-i-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.41",
+    "heading": "Cook's Utensils (I GP)",
+    "lineStart": 5495,
+    "lineEnd": 5501
+  },
+  "section": "6.41",
+  "rulesText": "Ability: Wisdom Weight: 8 lb.\n\nUtilize: Improve food's flavor (DC 10), or detect spoiled or poisoned food (DC 15)\n\nCraft: Rations"
+}

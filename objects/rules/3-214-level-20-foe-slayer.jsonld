@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-214-level-20-foe-slayer",
+  "@type": "Rule",
+  "name": "Level 20: Foe Slayer",
+  "slug": "3-214-level-20-foe-slayer",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.214",
+    "heading": "Level 20: Foe Slayer",
+    "lineStart": 3694,
+    "lineEnd": 3696
+  },
+  "section": "3.214",
+  "rulesText": "The damage die of your Hunter's Mark is a d10 rather than a d6."
+}

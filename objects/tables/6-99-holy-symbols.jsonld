@@ -1,0 +1,66 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/6-99-holy-symbols",
+  "@type": "Table",
+  "name": "Holy Symbols",
+  "slug": "6-99-holy-symbols",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.99",
+    "heading": "Holy Symbol (Varies)",
+    "lineStart": 5847,
+    "lineEnd": 5847
+  },
+  "columns": [
+    "Symbol",
+    "Weight",
+    "Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Amulet (worn or held)"
+        },
+        {
+          "value": "1 lb."
+        },
+        {
+          "value": "5 GP"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Emblem (borne on fabric or a Shield)"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "5 GP"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Reliquary (held)"
+        },
+        {
+          "value": "2 lb."
+        },
+        {
+          "value": "5 GP"
+        }
+      ]
+    }
+  ]
+}

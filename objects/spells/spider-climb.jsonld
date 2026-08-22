@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/spider-climb",
+  "@type": "Spell",
+  "name": "Spider Climb",
+  "slug": "spider-climb",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.319",
+    "heading": "Spider Climb",
+    "lineStart": 11786,
+    "lineEnd": 11800
+  },
+  "level": 2,
+  "school": "Transmutation",
+  "classAvailability": [
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": "V, S, M (a drop of bitumen and a spider)",
+  "duration": "Concentration, up to 1 hour",
+  "rulesText": "Level 2 Transmutation (Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (a drop of bitumen and a spider)\n\nDuration: Concentration, up to 1 hour\n\nUntil the spell ends, one willing creature you touch gains the ability to move up, down, and across vertical surfaces and along ceilings, while leaving its hands free. The target also gains a Climb Speed equal to its Speed.\n\nUsing a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 2."
+}

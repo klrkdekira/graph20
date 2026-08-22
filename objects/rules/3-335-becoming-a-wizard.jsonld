@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-335-becoming-a-wizard",
+  "@type": "Rule",
+  "name": "Becoming a Wizard ...",
+  "slug": "3-335-becoming-a-wizard",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.335",
+    "heading": "Becoming a Wizard ...",
+    "lineStart": 4589,
+    "lineEnd": 4589
+  },
+  "section": "3.335"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-30-shield",
+  "@type": "Rule",
+  "name": "Shield",
+  "slug": "6-30-shield",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.30",
+    "heading": "Shield",
+    "lineStart": 5413,
+    "lineEnd": 5415
+  },
+  "section": "6.30",
+  "rulesText": "You gain the Armor Class benefit of a Shield only if you have training with it."
+}

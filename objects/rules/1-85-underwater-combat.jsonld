@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-85-underwater-combat",
+  "@type": "Rule",
+  "name": "Underwater Combat",
+  "slug": "1-85-underwater-combat",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.85",
+    "heading": "Underwater Combat",
+    "lineStart": 1568,
+    "lineEnd": 1570
+  },
+  "section": "1.85",
+  "rulesText": "A fight underwater follows these rules."
+}

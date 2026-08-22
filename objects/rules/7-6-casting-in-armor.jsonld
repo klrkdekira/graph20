@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/7-6-casting-in-armor",
+  "@type": "Rule",
+  "name": "CASTING IN ARMOR",
+  "slug": "7-6-casting-in-armor",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.6",
+    "heading": "CASTING IN ARMOR",
+    "lineStart": 6273,
+    "lineEnd": 6275
+  },
+  "section": "7.6",
+  "rulesText": "You must have training with any armor you are wearing to cast spells while wearing it. You are otherwise too hampered by the armor for spellcasting."
+}

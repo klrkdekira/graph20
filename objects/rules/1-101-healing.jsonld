@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-101-healing",
+  "@type": "Rule",
+  "name": "Healing",
+  "slug": "1-101-healing",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.101",
+    "heading": "Healing",
+    "lineStart": 1646,
+    "lineEnd": 1648
+  },
+  "section": "1.101",
+  "rulesText": "Hit Points can be restored by magic, such as the Cure Wounds spell or a Potion of Healing, or by a Short or Long Rest (see “Rules Glossary”)."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-133-as-a-multiclass-character",
+  "@type": "Rule",
+  "name": "As a Multiclass Character",
+  "slug": "3-133-as-a-multiclass-character",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.133",
+    "heading": "As a Multiclass Character",
+    "lineStart": 3185,
+    "lineEnd": 3188
+  },
+  "section": "3.133",
+  "rulesText": "- Gain the Hit Point Die trait from the Core Monk Traits table.  \n- Gain the Monk's level 1 features, which are listed in the Monk Features table."
+}

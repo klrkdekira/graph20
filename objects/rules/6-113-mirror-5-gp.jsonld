@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-113-mirror-5-gp",
+  "@type": "Rule",
+  "name": "Mirror (5 GP)",
+  "slug": "6-113-mirror-5-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.113",
+    "heading": "Mirror (5 GP)",
+    "lineStart": 5907,
+    "lineEnd": 5909
+  },
+  "section": "6.113",
+  "rulesText": "A handheld steel Mirror is useful for personal cosmetics but also for peeking around corners and reflecting light as a signal."
+}

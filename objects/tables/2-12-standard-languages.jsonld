@@ -1,0 +1,133 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/2-12-standard-languages",
+  "@type": "Table",
+  "name": "Standard Languages",
+  "slug": "2-12-standard-languages",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.12",
+    "heading": "Choose Languages",
+    "lineStart": 1811,
+    "lineEnd": 1811
+  },
+  "columns": [
+    "Id12",
+    "Language"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "—"
+        },
+        {
+          "value": "Common"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "Common Sign Language"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "Draconic"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "3-4"
+        },
+        {
+          "value": "Dwarvish"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "5-6"
+        },
+        {
+          "value": "Elvish"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "Giant"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "Gnomish"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "Goblin"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "10-11"
+        },
+        {
+          "value": "Halfling"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "12"
+        },
+        {
+          "value": "Orc"
+        }
+      ]
+    }
+  ]
+}

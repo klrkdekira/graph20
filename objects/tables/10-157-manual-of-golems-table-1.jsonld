@@ -1,0 +1,93 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-157-manual-of-golems-table-1",
+  "@type": "Table",
+  "name": "Manual of Golems Table 1",
+  "slug": "10-157-manual-of-golems-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.157",
+    "heading": "Manual of Golems",
+    "lineStart": 15873,
+    "lineEnd": 15873
+  },
+  "columns": [
+    "Id20",
+    "Golem",
+    "Time",
+    "Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "1–5"
+        },
+        {
+          "value": "Clay Golem"
+        },
+        {
+          "value": "30 days"
+        },
+        {
+          "value": "65,000 GP"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "6–17"
+        },
+        {
+          "value": "Flesh Golem"
+        },
+        {
+          "value": "60 days"
+        },
+        {
+          "value": "50,000 GP"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "18"
+        },
+        {
+          "value": "Iron Golem"
+        },
+        {
+          "value": "120 days"
+        },
+        {
+          "value": "100,000 GP"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "19–20"
+        },
+        {
+          "value": "Stone Golem"
+        },
+        {
+          "value": "90 days"
+        },
+        {
+          "value": "80,000 GP"
+        }
+      ]
+    }
+  ]
+}

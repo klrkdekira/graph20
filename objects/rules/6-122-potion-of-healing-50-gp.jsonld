@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-122-potion-of-healing-50-gp",
+  "@type": "Rule",
+  "name": "Potion of Healing (50 GP)",
+  "slug": "6-122-potion-of-healing-50-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.122",
+    "heading": "Potion of Healing (50 GP)",
+    "lineStart": 5951,
+    "lineEnd": 5953
+  },
+  "section": "6.122",
+  "rulesText": "This potion is a magic item. As a Bonus Action, you can drink it or administer it to another creature within 5 feet of yourself. The creature that drinks the magical red fluid in this vial regains $2d4 + 2$ Hit Points."
+}

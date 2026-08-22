@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/potion-of-water-breathing",
+  "@type": "MagicItem",
+  "name": "Potion of Water Breathing",
+  "slug": "potion-of-water-breathing",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.200",
+    "heading": "Potion of Water Breathing",
+    "lineStart": 16318,
+    "lineEnd": 16324
+  },
+  "itemCategory": "Potion",
+  "rarity": "Uncommon",
+  "requiresAttunement": false,
+  "rulesText": "Potion, Uncommon\n\nYou can breathe underwater for 24 hours after drinking this potion.\n\nThis potion's cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it."
+}

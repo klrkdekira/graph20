@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-29-light-medium-or-heavy-armor",
+  "@type": "Rule",
+  "name": "Light, Medium, or Heavy Armor",
+  "slug": "6-29-light-medium-or-heavy-armor",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.29",
+    "heading": "Light, Medium, or Heavy Armor",
+    "lineStart": 5409,
+    "lineEnd": 5411
+  },
+  "section": "6.29",
+  "rulesText": "If you wear Light, Medium, or Heavy armor and lack training with it, you have Disadvantage on any D20 Test that involves Strength or Dexterity, and you can't cast spells."
+}

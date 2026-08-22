@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-15-two-handed",
+  "@type": "Rule",
+  "name": "Two-Handed",
+  "slug": "6-15-two-handed",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.15",
+    "heading": "Two-Handed",
+    "lineStart": 5341,
+    "lineEnd": 5343
+  },
+  "section": "6.15",
+  "rulesText": "A Two-Handed weapon requires two hands when you attack with it."
+}

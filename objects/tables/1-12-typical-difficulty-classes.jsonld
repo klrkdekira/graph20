@@ -1,0 +1,93 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/1-12-typical-difficulty-classes",
+  "@type": "Table",
+  "name": "Typical Difficulty Classes",
+  "slug": "1-12-typical-difficulty-classes",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.12",
+    "heading": "Difficulty Class",
+    "lineStart": 1065,
+    "lineEnd": 1065
+  },
+  "columns": [
+    "Task Difficulty",
+    "DC",
+    "Task Difficulty",
+    "DC"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Very easy"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "Very hard"
+        },
+        {
+          "value": "25"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Easy"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "Nearly impossible"
+        },
+        {
+          "value": "30"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Medium"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Hard"
+        },
+        {
+          "value": "20"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

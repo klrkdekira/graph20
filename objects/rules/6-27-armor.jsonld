@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-27-armor",
+  "@type": "Rule",
+  "name": "Armor",
+  "slug": "6-27-armor",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.27",
+    "heading": "Armor",
+    "lineStart": 5393,
+    "lineEnd": 5403
+  },
+  "section": "6.27",
+  "rulesText": "The Armor table lists the game's main armor. The table includes the cost and weight of armor, as well as the following details:\n\nCategory. Every type of armor falls into a category: Light, Medium, or Heavy. The category determines how long it takes to don or doff the armor (as shown in the table).\n\nArmor Class (AC). The table's Armor Class column tells you what your base AC is when you wear a type of armor. For example, if you wear Leather Armor, your base AC is 11 plus your Dexterity modifier, whereas your AC is 16 in Chain Mail.\n\nStrength. If the table shows a Strength score in the Strength column for an armor type, that armor reduces the wearer's speed by 10 feet unless the wearer has a Strength score equal to or higher than the listed score.\n\nStealth. If the table shows “Disadvantage” in the Stealth column for an armor type, the wearer has Disadvantage on Dexterity (Stealth) checks."
+}

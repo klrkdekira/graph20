@@ -1,0 +1,31 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/armor-of-resistance",
+  "@type": "MagicItem",
+  "name": "Armor of Resistance",
+  "slug": "armor-of-resistance",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.47",
+    "heading": "Armor of Resistance",
+    "lineStart": 14762,
+    "lineEnd": 14772
+  },
+  "itemCategory": "Armor",
+  "categoryDetail": "Any Light, Medium, or Heavy",
+  "rarity": "Rare",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/10-47-armor-of-resistance-table-1"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/10-47-apparatus-of-the-crab-levers"
+    }
+  ],
+  "rulesText": "Armor (Any Light, Medium, or Heavy), Rare (Requires Attunement)\n\nYou have Resistance to one type of damage while you wear this armor. The GM chooses the type or determines it randomly by rolling on the following table.\n\nApparatus of the Crab Levers"
+}

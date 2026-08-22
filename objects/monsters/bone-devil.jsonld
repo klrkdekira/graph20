@@ -1,0 +1,84 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/bone-devil",
+  "@type": "Monster",
+  "name": "Bone Devil",
+  "slug": "bone-devil",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.37",
+    "heading": "Bone Devil",
+    "lineStart": 18702,
+    "lineEnd": 18744
+  },
+  "sizeTypeAlignment": "Large Fiend (Devil), Lawful Evil",
+  "sizeAndType": "Large Fiend (Devil)",
+  "alignment": "Lawful Evil",
+  "armorClass": "16",
+  "initiative": "+7 (17)",
+  "hitPoints": "161 (17d10 + 68)",
+  "speed": "40 ft., Fly 40 ft.",
+  "skills": "Deception +7, Insight +6",
+  "resistances": "Cold",
+  "immunities": "Fire, Poison; Poisoned",
+  "senses": "Darkvision 120 ft. (unimpeded by magical Darkness); Passive Perception 12",
+  "languages": "Infernal; telepathy 120 ft.",
+  "challenge": "9 (XP 5,000; PB +4)",
+  "armorClassValue": 16,
+  "hitPointsValue": 161,
+  "hitPointsRoll": {
+    "expression": "17d10+68",
+    "count": 17,
+    "sides": 10,
+    "modifier": 68
+  },
+  "challengeRating": "9",
+  "experiencePoints": 5000,
+  "proficiencyBonus": 4,
+  "abilities": {
+    "str": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 8
+    },
+    "dex": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "con": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "int": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 5
+    },
+    "wis": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 6
+    },
+    "cha": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 7
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Diabolical Restoration. If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nMagic Resistance. The devil has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The devil makes two Claw attacks and one Infernal Sting attack.\n\nClaw. Melee Attack Roll: +8, reach 10 ft. Hit: 13 (2d8 + 4) Slashing damage.\n\nInfernal Sting. Melee Attack Roll: +8, reach 10 ft. Hit: 15 (2d10 + 4) Piercing damage plus 18 (4d8) Poison\n\ndamage, and the target has the Poisoned condition until the start of the devil's next turn. While Poisoned, the target can't regain Hit Points."
+    }
+  ],
+  "rulesText": "Large Fiend (Devil), Lawful Evil\n\nAC 16\n\nInitiative +7 (17)\n\nHP 161 (17d10 + 68)\n\nSpeed 40 ft., Fly 40 ft.\n\nSkills Deception +7, Insight +6\n\nResistances Cold\n\nImmunities Fire, Poison; Poisoned\n\nSenses Darkvision 120 ft. (unimpeded by magical Darkness); Passive Perception 12\n\nLanguages Infernal; telepathy 120 ft.\n\nCR 9 (XP 5,000; PB +4)\n\nTraits\n\nDiabolical Restoration. If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nMagic Resistance. The devil has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The devil makes two Claw attacks and one Infernal Sting attack.\n\nClaw. Melee Attack Roll: +8, reach 10 ft. Hit: 13 (2d8 + 4) Slashing damage.\n\nInfernal Sting. Melee Attack Roll: +8, reach 10 ft. Hit: 15 (2d10 + 4) Piercing damage plus 18 (4d8) Poison\n\ndamage, and the target has the Poisoned condition until the start of the devil's next turn. While Poisoned, the target can't regain Hit Points."
+}

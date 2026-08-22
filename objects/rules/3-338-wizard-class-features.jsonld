@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-338-wizard-class-features",
+  "@type": "Rule",
+  "name": "Wizard Class Features",
+  "slug": "3-338-wizard-class-features",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.338",
+    "heading": "Wizard Class Features",
+    "lineStart": 4601,
+    "lineEnd": 4603
+  },
+  "section": "3.338",
+  "rulesText": "As a Wizard, you gain the following class features when you reach the specified Wizard levels. These features are listed in the Wizard Features table."
+}

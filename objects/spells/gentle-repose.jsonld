@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/gentle-repose",
+  "@type": "Spell",
+  "name": "Gentle Repose",
+  "slug": "gentle-repose",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.170",
+    "heading": "Gentle Repose",
+    "lineStart": 9086,
+    "lineEnd": 9100
+  },
+  "level": 2,
+  "school": "Necromancy",
+  "classAvailability": [
+    "Cleric",
+    "Paladin",
+    "Wizard"
+  ],
+  "castingTime": "Action or Ritual",
+  "range": "Touch",
+  "components": "V, S, M (2 Copper Pieces, which the spell consumes)",
+  "duration": "10 days",
+  "rulesText": "Level 2 Necromancy (Cleric, Paladin, Wizard)\n\nCasting Time: Action or Ritual\n\nRange: Touch\n\nComponents: V, S, M (2 Copper Pieces, which the spell consumes)\n\nDuration: 10 days\n\nYou touch a corpse or other remains. For the duration, the target is protected from decay and can't become Undead.\n\nThe spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don't count against the time limit of spells such as Raise Dead."
+}

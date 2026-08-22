@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/1-55-hazards-table-1",
+  "@type": "Table",
+  "name": "Hazards Table 1",
+  "slug": "1-55-hazards-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.55",
+    "heading": "Hazards",
+    "lineStart": 1353,
+    "lineEnd": 1353
+  },
+  "columns": [
+    "Burning",
+    "Falling",
+    "Suffocation"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Dehydration"
+        },
+        {
+          "value": "Malnutrition"
+        },
+        {
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

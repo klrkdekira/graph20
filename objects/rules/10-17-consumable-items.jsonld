@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/10-17-consumable-items",
+  "@type": "Rule",
+  "name": "Consumable Items",
+  "slug": "10-17-consumable-items",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.17",
+    "heading": "Consumable Items",
+    "lineStart": 14536,
+    "lineEnd": 14538
+  },
+  "section": "10.17",
+  "rulesText": "Some items are consumed—used up, in other words—when they are activated. A Potion of Healing must be swallowed, for example, while the writing vanishes from a scroll when it is read. Once used, a consumable item loses its magic."
+}

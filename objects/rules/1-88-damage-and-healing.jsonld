@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-88-damage-and-healing",
+  "@type": "Rule",
+  "name": "Damage and Healing",
+  "slug": "1-88-damage-and-healing",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.88",
+    "heading": "Damage and Healing",
+    "lineStart": 1582,
+    "lineEnd": 1584
+  },
+  "section": "1.88",
+  "rulesText": "Injury and death are frequent threats, as detailed in the following rules."
+}

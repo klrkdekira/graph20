@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-77-bucket-5-cp",
+  "@type": "Rule",
+  "name": "Bucket (5 CP)",
+  "slug": "6-77-bucket-5-cp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.77",
+    "heading": "Bucket (5 CP)",
+    "lineStart": 5745,
+    "lineEnd": 5747
+  },
+  "section": "6.77",
+  "rulesText": "A Bucket holds up to half a cubic foot of contents."
+}

@@ -1,0 +1,75 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/red-dragon-wyrmling",
+  "@type": "Monster",
+  "name": "Red Dragon Wyrmling",
+  "slug": "red-dragon-wyrmling",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.197",
+    "heading": "Red Dragon Wyrmling",
+    "lineStart": 24305,
+    "lineEnd": 24335
+  },
+  "sizeTypeAlignment": "Medium Dragon (Chromatic), Chaotic Evil",
+  "sizeAndType": "Medium Dragon (Chromatic)",
+  "alignment": "Chaotic Evil",
+  "armorClass": "17",
+  "initiative": "+2 (12)",
+  "hitPoints": "75 (10d8 + 30)",
+  "speed": "30 ft., Climb 30 ft., Fly 60 ft.",
+  "skills": "Perception +4, Stealth +2",
+  "immunities": "Fire",
+  "senses": "Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14",
+  "languages": "Draconic",
+  "challenge": "4 (XP 1,100; PB +2)",
+  "armorClassValue": 17,
+  "hitPointsValue": 75,
+  "hitPointsRoll": {
+    "expression": "10d8+30",
+    "count": 10,
+    "sides": 8,
+    "modifier": 30
+  },
+  "challengeRating": "4",
+  "experiencePoints": 1100,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 19,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "dex": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 17
+    },
+    "int": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "wis": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 2
+    },
+    "cha": {
+      "score": 15
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Slashing damage plus 3 (1d6) Fire damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 13, each creature in a 15-foot Cone. Failure: 24 (7d6) Fire damage. Success: Half damage."
+    }
+  ],
+  "rulesText": "Medium Dragon (Chromatic), Chaotic Evil\n\nAC 17\n\nInitiative +2 (12)\n\nHP 75 (10d8 + 30)\n\nSpeed 30 ft., Climb 30 ft., Fly 60 ft.\n\nSkills Perception +4, Stealth +2\n\nImmunities Fire\n\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14\n\nLanguages Draconic\n\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Slashing damage plus 3 (1d6) Fire damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 13, each creature in a 15-foot Cone. Failure: 24 (7d6) Fire damage. Success: Half damage."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/10-20-the-next-dawn",
+  "@type": "Rule",
+  "name": "\"The Next Dawn\"",
+  "slug": "10-20-the-next-dawn",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.20",
+    "heading": "\"The Next Dawn\"",
+    "lineStart": 14552,
+    "lineEnd": 14554
+  },
+  "section": "10.20",
+  "rulesText": "Magic items often have charges or properties that recharge at the next dawn or some other specified time. If such an item is on a world or plane of existence where the specified event doesn't occur, the GM determines when the item recharges."
+}

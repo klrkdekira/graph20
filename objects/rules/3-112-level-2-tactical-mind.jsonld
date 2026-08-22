@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-112-level-2-tactical-mind",
+  "@type": "Rule",
+  "name": "Level 2: Tactical Mind",
+  "slug": "3-112-level-2-tactical-mind",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.112",
+    "heading": "Level 2: Tactical Mind",
+    "lineStart": 3090,
+    "lineEnd": 3092
+  },
+  "section": "3.112",
+  "rulesText": "You have a mind for tactics on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining Hit Points, you roll 1d10 and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind isn't expended."
+}

@@ -1,0 +1,77 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/ghoul",
+  "@type": "Monster",
+  "name": "Ghoul",
+  "slug": "ghoul",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.99",
+    "heading": "Ghoul",
+    "lineStart": 20926,
+    "lineEnd": 20956
+  },
+  "sizeTypeAlignment": "Medium Undead, Chaotic Evil",
+  "sizeAndType": "Medium Undead",
+  "alignment": "Chaotic Evil",
+  "armorClass": "12",
+  "initiative": "+2 (12)",
+  "hitPoints": "22 (5d8)",
+  "speed": "30 ft.",
+  "immunities": "Poison; Charmed, Exhaustion, Poisoned",
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Common",
+  "challenge": "1 (XP 200; PB +2)",
+  "armorClassValue": 12,
+  "hitPointsValue": 22,
+  "hitPointsRoll": {
+    "expression": "5d8",
+    "count": 5,
+    "sides": 8
+  },
+  "challengeRating": "1",
+  "experiencePoints": 200,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "dex": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "int": {
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
+    },
+    "wis": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "cha": {
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The ghoul makes two Bite attacks.\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 3 (1d6) Necrotic damage.\n\nClaw. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing damage. If the target is a creature that isn't an Undead or elf, it is subjected to the following effect. Constitution Saving Throw: DC 10. Failure: The target has the Paralyzed condition until the end of its next turn."
+    }
+  ],
+  "rulesText": "Medium Undead, Chaotic Evil\n\nAC 12\n\nInitiative +2 (12)\n\nHP 22 (5d8)\n\nSpeed 30 ft.\n\nImmunities Poison; Charmed, Exhaustion, Poisoned\n\nSenses Darkvision 60 ft.; Passive Perception 10\n\nLanguages Common\n\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The ghoul makes two Bite attacks.\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 3 (1d6) Necrotic damage.\n\nClaw. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing damage. If the target is a creature that isn't an Undead or elf, it is subjected to the following effect. Constitution Saving Throw: DC 10. Failure: The target has the Paralyzed condition until the end of its next turn."
+}

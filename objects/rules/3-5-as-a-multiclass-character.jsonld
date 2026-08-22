@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-5-as-a-multiclass-character",
+  "@type": "Rule",
+  "name": "As a Multiclass Character",
+  "slug": "3-5-as-a-multiclass-character",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.5",
+    "heading": "As a Multiclass Character",
+    "lineStart": 2266,
+    "lineEnd": 2269
+  },
+  "section": "3.5",
+  "rulesText": "- Gain the following traits from the Core Barbarian Traits table: Hit Point Die, proficiency with Martial weapons, and training with Shields.  \n- Gain the Barbarian's level 1 features, which are listed in the Barbarian Features table."
+}

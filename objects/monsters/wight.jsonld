@@ -1,0 +1,81 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/wight",
+  "@type": "Monster",
+  "name": "Wight",
+  "slug": "wight",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.264",
+    "heading": "Wight",
+    "lineStart": 26787,
+    "lineEnd": 26832
+  },
+  "sizeTypeAlignment": "Medium Undead, Neutral Evil",
+  "sizeAndType": "Medium Undead",
+  "alignment": "Neutral Evil",
+  "armorClass": "14",
+  "initiative": "+4 (14)",
+  "hitPoints": "82 (11d8 + 33)",
+  "speed": "30 ft.",
+  "skills": "Perception +3, Stealth +4",
+  "resistances": "Necrotic",
+  "immunities": "Poison; Exhaustion, Poisoned",
+  "senses": "Darkvision 60 ft.; Passive Perception 13",
+  "languages": "Common plus one other language",
+  "gear": "Studded Leather Armor",
+  "challenge": "3 (XP 700; PB +2)",
+  "armorClassValue": 14,
+  "hitPointsValue": 82,
+  "hitPointsRoll": {
+    "expression": "11d8+33",
+    "count": 11,
+    "sides": 8,
+    "modifier": 33
+  },
+  "challengeRating": "3",
+  "experiencePoints": 700,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "dex": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 16
+    },
+    "int": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "wis": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 15
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Sunlight Sensitivity. While in sunlight, the wight has Disadvantage on ability checks and attack rolls."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The wight makes two attacks, using Necrotic Sword or Necrotic Bow in any combination. It can replace one attack with a use of Life Drain.\n\nNecrotic Sword. Melee Attack Roll: +4, reach 5 ft.\nHit: 6 (1d8 + 2) Slashing damage plus 4 (1d8) Necrotic damage.\n\nNecrotic Bow. Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing damage plus 4 (1d8) Necrotic damage.\n\nLife Drain. Constitution Saving Throw: DC 13, one creature within 5 feet. Failure: 6 (1d8 + 2) Necrotic damage, and the target's Hit Point maximum decreases by an amount equal to the damage taken.\n\nA Humanoid slain by this attack rises 24 hours later as a Zombie under the wight's control, unless the Humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at a time."
+    }
+  ],
+  "rulesText": "Medium Undead, Neutral Evil\n\nAC 14\n\nInitiative +4 (14)\n\nHP 82 (11d8 + 33)\n\nSpeed 30 ft.\n\nSkills Perception +3, Stealth +4\n\nResistances Necrotic\n\nImmunities Poison; Exhaustion, Poisoned\n\nGear Studded Leather Armor\n\nSenses Darkvision 60 ft.; Passive Perception 13\n\nLanguages Common plus one other language\n\nCR 3 (XP 700; PB +2)\n\nTraits\n\nSunlight Sensitivity. While in sunlight, the wight has Disadvantage on ability checks and attack rolls.\n\nActions\n\nMultiattack. The wight makes two attacks, using Necrotic Sword or Necrotic Bow in any combination. It can replace one attack with a use of Life Drain.\n\nNecrotic Sword. Melee Attack Roll: +4, reach 5 ft.\nHit: 6 (1d8 + 2) Slashing damage plus 4 (1d8) Necrotic damage.\n\nNecrotic Bow. Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing damage plus 4 (1d8) Necrotic damage.\n\nLife Drain. Constitution Saving Throw: DC 13, one creature within 5 feet. Failure: 6 (1d8 + 2) Necrotic damage, and the target's Hit Point maximum decreases by an amount equal to the damage taken.\n\nA Humanoid slain by this attack rises 24 hours later as a Zombie under the wight's control, unless the Humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at a time."
+}

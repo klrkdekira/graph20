@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-4-ability-check",
+  "@type": "Rule",
+  "name": "Ability Check",
+  "slug": "8-4-ability-check",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.4",
+    "heading": "Ability Check",
+    "lineStart": 12790,
+    "lineEnd": 12792
+  },
+  "section": "8.4",
+  "rulesText": "An ability check is a D20 Test that represents using one of the six abilities—or a specific skill associated with an ability—to overcome a challenge. See also “Playing the Game” (“D20 Tests” and “Proficiency”)."
+}

@@ -1,0 +1,122 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-2-magic-item-categories",
+  "@type": "Table",
+  "name": "Magic Item Categories",
+  "slug": "10-2-magic-item-categories",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.2",
+    "heading": "Magic Item Categories",
+    "lineStart": 14434,
+    "lineEnd": 14434
+  },
+  "columns": [
+    "Category",
+    "Examples"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Armor"
+        },
+        {
+          "value": "+I Leather Armor, +I Shield"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Potions"
+        },
+        {
+          "value": "Potion of Healing"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Rings"
+        },
+        {
+          "value": "Ring of Invisibility"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Rods"
+        },
+        {
+          "value": "Immovable Rod"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Scrolls"
+        },
+        {
+          "value": "Spell Scroll"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Staffs"
+        },
+        {
+          "value": "Staff of Striking"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Wands"
+        },
+        {
+          "value": "Wand of Fireballs"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Weapons"
+        },
+        {
+          "value": "+I Ammunition, +I Longsword"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Wondrous Items"
+        },
+        {
+          "value": "Bag of Holding, Boots of Elvenkind"
+        }
+      ]
+    }
+  ]
+}

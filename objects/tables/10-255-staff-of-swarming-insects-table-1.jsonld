@@ -1,0 +1,45 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-255-staff-of-swarming-insects-table-1",
+  "@type": "Table",
+  "name": "Staff of Swarming Insects Table 1",
+  "slug": "10-255-staff-of-swarming-insects-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.255",
+    "heading": "Staff of Swarming Insects",
+    "lineStart": 16937,
+    "lineEnd": 16937
+  },
+  "columns": [
+    "Spell",
+    "Charge Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Giant Insect"
+        },
+        {
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Insect Plague"
+        },
+        {
+          "value": "5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/giant-elk",
+  "@type": "Monster",
+  "name": "Giant Elk",
+  "slug": "giant-elk",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.35",
+    "heading": "Giant Elk",
+    "lineStart": 28066,
+    "lineEnd": 28092
+  },
+  "sizeTypeAlignment": "Huge Celestial, Neutral Good",
+  "sizeAndType": "Huge Celestial",
+  "alignment": "Neutral Good",
+  "armorClass": "14",
+  "initiative": "+6 (16)",
+  "hitPoints": "42 (5d12 + 10)",
+  "speed": "60 ft.",
+  "skills": "Perception +4",
+  "resistances": "Necrotic, Radiant",
+  "senses": "Darkvision 90 ft.; Passive Perception 14",
+  "languages": "Celestial; understands Common, Elvish, and Sylvan but can't speak them",
+  "challenge": "2 (XP 450; PB +2)",
+  "armorClassValue": 14,
+  "hitPointsValue": 42,
+  "hitPointsRoll": {
+    "expression": "5d12+10",
+    "count": 5,
+    "sides": 12,
+    "modifier": 10
+  },
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 19,
+      "modifier": 4,
+      "savingThrow": 6
+    },
+    "dex": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 6
+    },
+    "con": {
+      "score": 14
+    },
+    "int": {
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
+    },
+    "wis": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "cha": {
+      "score": 10
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Ram. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning damage plus 5 (2d4) Radiant damage. If the target is a Huge or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition."
+    }
+  ],
+  "rulesText": "Huge Celestial, Neutral Good\n\nAC 14\n\nInitiative +6 (16)\n\nHP 42 (5d12 + 10)\n\nSpeed 60 ft.\n\nSkills Perception +4\n\nResistances Necrotic, Radiant\n\nSenses Darkvision 90 ft.; Passive Perception 14\n\nLanguages Celestial; understands Common, Elvish, and Sylvan but can't speak them\n\nCR 2 (XP 450; PB +2)\n\nActions\n\nRam. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning damage plus 5 (2d4) Radiant damage. If the target is a Huge or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition."
+}

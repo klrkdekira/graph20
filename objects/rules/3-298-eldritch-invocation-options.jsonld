@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-298-eldritch-invocation-options",
+  "@type": "Rule",
+  "name": "Eldritch Invocation Options",
+  "slug": "3-298-eldritch-invocation-options",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.298",
+    "heading": "Eldritch Invocation Options",
+    "lineStart": 4295,
+    "lineEnd": 4297
+  },
+  "section": "3.298",
+  "rulesText": "Eldritch Invocation options appear in alphabetical order."
+}

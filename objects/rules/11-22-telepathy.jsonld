@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/11-22-telepathy",
+  "@type": "Rule",
+  "name": "Telepathy",
+  "slug": "11-22-telepathy",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters",
+    "section": "11.22",
+    "heading": "Telepathy",
+    "lineStart": 17484,
+    "lineEnd": 17486
+  },
+  "section": "11.22",
+  "rulesText": "Telepathy is a magical ability that allows a creature to communicate mentally with another creature within a specified range. See “Rules Glossary” for more information."
+}

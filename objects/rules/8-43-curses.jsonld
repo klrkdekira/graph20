@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-43-curses",
+  "@type": "Rule",
+  "name": "Curses",
+  "slug": "8-43-curses",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.43",
+    "heading": "Curses",
+    "lineStart": 13022,
+    "lineEnd": 13024
+  },
+  "section": "8.43",
+  "rulesText": "Some game effects curse a creature or an object. The effect that confers a curse defines what the curse does. Curses can be removed by the Remove Curse and Greater Restoration spells or other magic that explicitly ends curses."
+}

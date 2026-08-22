@@ -1,0 +1,82 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/giant-wolf-spider",
+  "@type": "Monster",
+  "name": "Giant Wolf Spider",
+  "slug": "giant-wolf-spider",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.53",
+    "heading": "Giant Wolf Spider",
+    "lineStart": 28617,
+    "lineEnd": 28647
+  },
+  "sizeTypeAlignment": "Medium Beast, Unaligned",
+  "sizeAndType": "Medium Beast",
+  "alignment": "Unaligned",
+  "armorClass": "13",
+  "initiative": "+3 (13)",
+  "hitPoints": "11 (2d8 + 2)",
+  "speed": "40 ft., Climb 40 ft.",
+  "skills": "Perception +3, Stealth +7",
+  "senses": "Blindsight 10 ft., Darkvision 60 ft.;",
+  "languages": "None",
+  "challenge": "1/4 (XP 50; PB +2)",
+  "armorClassValue": 13,
+  "hitPointsValue": 11,
+  "hitPointsRoll": {
+    "expression": "2d8+2",
+    "count": 2,
+    "sides": 8,
+    "modifier": 2
+  },
+  "challengeRating": "1/4",
+  "experiencePoints": 50,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "dex": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "con": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "int": {
+      "score": 3,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 4,
+      "modifier": -3,
+      "savingThrow": -3
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Spider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage plus 5 (2d4) Poison damage."
+    }
+  ],
+  "rulesText": "Medium Beast, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 11 (2d8 + 2)\n\nSpeed 40 ft., Climb 40 ft.\n\nSkills Perception +3, Stealth +7\n\nSenses Blindsight 10 ft., Darkvision 60 ft.;\n\nPassive Perception 13\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nSpider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage plus 5 (2d4) Poison damage."
+}

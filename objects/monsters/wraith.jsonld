@@ -1,0 +1,83 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/wraith",
+  "@type": "Monster",
+  "name": "Wraith",
+  "slug": "wraith",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.268",
+    "heading": "Wraith",
+    "lineStart": 26943,
+    "lineEnd": 26979
+  },
+  "sizeTypeAlignment": "Medium or Small Undead, Neutral Evil",
+  "sizeAndType": "Medium or Small Undead",
+  "alignment": "Neutral Evil",
+  "armorClass": "13",
+  "initiative": "+3 (13)",
+  "hitPoints": "67 (9d8 + 27)",
+  "speed": "5 ft., Fly 60 ft. (hover)",
+  "resistances": "Acid, Bludgeoning, Cold, Fire, Piercing, Slashing",
+  "immunities": "Necrotic, Poison; Charmed, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious",
+  "senses": "Darkvision 60 ft.; Passive Perception 12",
+  "languages": "Common plus two other languages",
+  "challenge": "5 (XP 1,800; PB +3)",
+  "armorClassValue": 13,
+  "hitPointsValue": 67,
+  "hitPointsRoll": {
+    "expression": "9d8+27",
+    "count": 9,
+    "sides": 8,
+    "modifier": 27
+  },
+  "challengeRating": "5",
+  "experiencePoints": 1800,
+  "proficiencyBonus": 3,
+  "abilities": {
+    "str": {
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
+    },
+    "dex": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "con": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "int": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "wis": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "cha": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Incorporeal Movement. The wraith can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.\n\nSunlight Sensitivity. While in sunlight, the wraith has Disadvantage on ability checks and attack rolls."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Life Drain. Melee Attack Roll: +6, reach 5 ft. Hit: 21 (4d8 + 3) Necrotic damage. If the target is a creature, its Hit Point maximum decreases by an amount equal to the damage taken.\n\nCreate Specter. The wraith targets a Humanoid corpse within 10 feet of itself that has been dead for no longer than 1 minute. The target's spirit rises as a Specter in the space of its corpse or in the nearest unoccupied space. The specter is under the wraith's control. The wraith can have no more than seven specters under its control at a time."
+    }
+  ],
+  "rulesText": "Medium or Small Undead, Neutral Evil\n\nAC 13\n\nInitiative +3 (13)\n\nHP 67 (9d8 + 27)\n\nSpeed 5 ft., Fly 60 ft. (hover)\n\nResistances Acid, Bludgeoning, Cold, Fire, Piercing, Slashing\n\nImmunities Necrotic, Poison; Charmed, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\n\nSenses Darkvision 60 ft.; Passive Perception 12\n\nLanguages Common plus two other languages\n\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nIncorporeal Movement. The wraith can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.\n\nSunlight Sensitivity. While in sunlight, the wraith has Disadvantage on ability checks and attack rolls.\n\nActions\n\nLife Drain. Melee Attack Roll: +6, reach 5 ft. Hit: 21 (4d8 + 3) Necrotic damage. If the target is a creature, its Hit Point maximum decreases by an amount equal to the damage taken.\n\nCreate Specter. The wraith targets a Humanoid corpse within 10 feet of itself that has been dead for no longer than 1 minute. The target's spirit rises as a Specter in the space of its corpse or in the nearest unoccupied space. The specter is under the wraith's control. The wraith can have no more than seven specters under its control at a time."
+}

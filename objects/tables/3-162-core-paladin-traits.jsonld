@@ -1,0 +1,89 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-162-core-paladin-traits",
+  "@type": "Table",
+  "name": "Core Paladin Traits",
+  "slug": "3-162-core-paladin-traits",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.162",
+    "heading": "Paladin",
+    "lineStart": 3365,
+    "lineEnd": 3365
+  },
+  "columns": [
+    "Primary Ability",
+    "Strength and Charisma"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Hit Point Die"
+        },
+        {
+          "value": "D10 per Paladin level"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Saving Throw Proficiencies"
+        },
+        {
+          "value": "Wisdom and Charisma"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Skill Proficiencies"
+        },
+        {
+          "value": "Choose 2: Athletics, Insight, Intimidation, Medicine, Persuasion, or Religion"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Weapon Proficiencies"
+        },
+        {
+          "value": "Simple and Martial weapons"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Armor Training"
+        },
+        {
+          "value": "Light, Medium, and Heavy armor and Shields"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Starting Equipment"
+        },
+        {
+          "value": "Choose A or B: (A) Chain Mail, Shield, Longsword, 6 Javelins, Holy Symbol, Priest’s Pack, and 9 GP; or (B) 150 GP"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-124-priests-pack-33-gp",
+  "@type": "Rule",
+  "name": "Priest's Pack (33 GP)",
+  "slug": "6-124-priests-pack-33-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.124",
+    "heading": "Priest's Pack (33 GP)",
+    "lineStart": 5959,
+    "lineEnd": 5961
+  },
+  "section": "6.124",
+  "rulesText": "A Priest's Pack contains the following items: Backpack, Blanket, Holy Water, Lamp, 7 days of Rations, Robe, and Tinderbox."
+}

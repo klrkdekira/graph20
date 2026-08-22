@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-2-coins",
+  "@type": "Rule",
+  "name": "Coins",
+  "slug": "6-2-coins",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.2",
+    "heading": "Coins",
+    "lineStart": 5273,
+    "lineEnd": 5281
+  },
+  "section": "6.2",
+  "rulesText": "Characters often find coins on their adventures and can spend those coins in shops, inns, and other businesses. Coins come in different denominations based on the relative worth of their material. The Coin Values table lists coins and how much they're worth relative to the Gold Piece, which is the game's main coin. For example, 100 Copper Pieces are worth 1 Gold Piece.\n\nA coin weighs about a third of an ounce, so fifty coins weigh a pound.\n\nCoin Values",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/6-2-coin-values"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/bugbear-stalker",
+  "@type": "Monster",
+  "name": "Bugbear Stalker",
+  "slug": "bugbear-stalker",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.49",
+    "heading": "Bugbear Stalker",
+    "lineStart": 19116,
+    "lineEnd": 19154
+  },
+  "sizeTypeAlignment": "Medium Fey (Goblinoid), Chaotic Evil",
+  "sizeAndType": "Medium Fey (Goblinoid)",
+  "alignment": "Chaotic Evil",
+  "armorClass": "15",
+  "initiative": "+2 (12)",
+  "hitPoints": "65 (10d8 + 20)",
+  "speed": "30 ft.",
+  "skills": "Stealth +6, Survival +3",
+  "senses": "Darkvision 60 ft.; Passive Perception 11",
+  "languages": "Common, Goblin",
+  "gear": "Chain Shirt, Javelins (6), Morningstar",
+  "challenge": "3 (XP 700; PB +2)",
+  "armorClassValue": 15,
+  "hitPointsValue": 65,
+  "hitPointsRoll": {
+    "expression": "10d8+20",
+    "count": 10,
+    "sides": 8,
+    "modifier": 20
+  },
+  "challengeRating": "3",
+  "experiencePoints": 700,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "dex": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 4
+    },
+    "int": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 3
+    },
+    "cha": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Abduct. The bugbear needn't spend extra movement to move a creature it is grappling."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The bugbear makes two Javelin or Morningstar attacks.\n\nJavelin. Melee or Ranged Attack Roll: +5, reach 10 ft. or range 30/120 ft. Hit: 13 (3d6 + 3) Piercing damage.\n\nMorningstar. Melee Attack Roll: +5 (with Advantage if the target is Grappled by the bugbear), reach 10 ft. Hit: 12 (2d8 + 3) Piercing damage."
+    },
+    {
+      "name": "Bonus Actions",
+      "rulesText": "Quick Grapple. Dexterity Saving Throw: DC 13, one Medium or smaller creature the bugbear can see within 10 feet. Failure: The target has the Grappled condition (escape DC 13)."
+    }
+  ],
+  "rulesText": "Medium Fey (Goblinoid), Chaotic Evil\n\nAC 15\n\nInitiative +2 (12)\n\nHP 65 (10d8 + 20)\n\nSpeed 30 ft.\n\nSkills Stealth +6, Survival +3\n\nGear Chain Shirt, Javelins (6), Morningstar\n\nSenses Darkvision 60 ft.; Passive Perception 11\n\nLanguages Common, Goblin\n\nCR 3 (XP 700; PB +2)\n\nTraits\n\nAbduct. The bugbear needn't spend extra movement to move a creature it is grappling.\n\nActions\n\nMultiattack. The bugbear makes two Javelin or Morningstar attacks.\n\nJavelin. Melee or Ranged Attack Roll: +5, reach 10 ft. or range 30/120 ft. Hit: 13 (3d6 + 3) Piercing damage.\n\nMorningstar. Melee Attack Roll: +5 (with Advantage if the target is Grappled by the bugbear), reach 10 ft. Hit: 12 (2d8 + 3) Piercing damage.\n\nBonus Actions\n\nQuick Grapple. Dexterity Saving Throw: DC 13, one Medium or smaller creature the bugbear can see within 10 feet. Failure: The target has the Grappled condition (escape DC 13)."
+}

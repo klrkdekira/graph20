@@ -1,0 +1,87 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/sphinx-of-wonder",
+  "@type": "Monster",
+  "name": "Sphinx of Wonder",
+  "slug": "sphinx-of-wonder",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.226",
+    "heading": "Sphinx of Wonder",
+    "lineStart": 25319,
+    "lineEnd": 25353
+  },
+  "sizeTypeAlignment": "Tiny Celestial, Lawful Good",
+  "sizeAndType": "Tiny Celestial",
+  "alignment": "Lawful Good",
+  "armorClass": "13",
+  "initiative": "+3 (13)",
+  "hitPoints": "24 (7d4 + 7)",
+  "speed": "20 ft., Fly 40 ft.",
+  "skills": "Arcana +4, Religion +4, Stealth +5",
+  "resistances": "Necrotic, Psychic, Radiant",
+  "senses": "Darkvision 60 ft.; Passive Perception 11",
+  "languages": "Celestial, Common",
+  "challenge": "1 (XP 200; PB +2)",
+  "armorClassValue": 13,
+  "hitPointsValue": 24,
+  "hitPointsRoll": {
+    "expression": "7d4+7",
+    "count": 7,
+    "sides": 4,
+    "modifier": 7
+  },
+  "challengeRating": "1",
+  "experiencePoints": 200,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
+    },
+    "dex": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "con": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "int": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Magic Resistance. The sphinx has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage plus 7 (2d6) Radiant damage."
+    },
+    {
+      "name": "Reactions",
+      "rulesText": "Burst of Ingenuity (2/Day). Trigger: The sphinx or another creature within 30 feet makes an ability check or a saving throw. Response: The sphinx adds 2 to the roll."
+    }
+  ],
+  "rulesText": "Tiny Celestial, Lawful Good\n\nAC 13\n\nInitiative +3 (13)\n\nHP 24 (7d4 + 7)\n\nSpeed 20 ft., Fly 40 ft.\n\nSkills Arcana +4, Religion +4, Stealth +5\n\nResistances Necrotic, Psychic, Radiant\n\nSenses Darkvision 60 ft.; Passive Perception 11\n\nLanguages Celestial, Common\n\nCR 1 (XP 200; PB +2)\n\nTraits\n\nMagic Resistance. The sphinx has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage plus 7 (2d6) Radiant damage.\n\nReactions\n\nBurst of Ingenuity (2/Day). Trigger: The sphinx or another creature within 30 feet makes an ability check or a saving throw. Response: The sphinx adds 2 to the roll."
+}

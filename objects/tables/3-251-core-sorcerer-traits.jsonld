@@ -1,0 +1,89 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-251-core-sorcerer-traits",
+  "@type": "Table",
+  "name": "Core Sorcerer Traits",
+  "slug": "3-251-core-sorcerer-traits",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.251",
+    "heading": "Sorcerer",
+    "lineStart": 3928,
+    "lineEnd": 3928
+  },
+  "columns": [
+    "Primary Ability",
+    "Charisma"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Hit Point Die"
+        },
+        {
+          "value": "D6 per Sorcerer level"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Saving Throw Proficiencies"
+        },
+        {
+          "value": "Constitution and Charisma"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Skill Proficiencies"
+        },
+        {
+          "value": "Choose 2: Arcana, Deception, Insight, Intimidation, Persuasion, or Religion"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Weapon Proficiencies"
+        },
+        {
+          "value": "Simple weapons"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Armor Training"
+        },
+        {
+          "value": "None"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Starting Equipment"
+        },
+        {
+          "value": "Choose A or B: (A) Spear, 2 Daggers, Arcane Focus (crystal), Dungeoneer’s Pack, and 28 GP; or (B) 50 GP"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-144-level-5-extra-attack",
+  "@type": "Rule",
+  "name": "Level 5: Extra Attack",
+  "slug": "3-144-level-5-extra-attack",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.144",
+    "heading": "Level 5: Extra Attack",
+    "lineStart": 3265,
+    "lineEnd": 3267
+  },
+  "section": "3.144",
+  "rulesText": "You can attack twice instead of once whenever you take the Attack action on your turn."
+}

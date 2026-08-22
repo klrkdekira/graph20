@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/2-18-step-4-alignment",
+  "@type": "Rule",
+  "name": "Step 4: Alignment",
+  "slug": "2-18-step-4-alignment",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.18",
+    "heading": "Step 4: Alignment",
+    "lineStart": 1865,
+    "lineEnd": 1869
+  },
+  "section": "2.18",
+  "rulesText": "Choose your character's alignment from the options below, and note it on your character sheet.\n\nThe game assumes that player characters aren't of an evil alignment. Check with your GM before making an evil character."
+}

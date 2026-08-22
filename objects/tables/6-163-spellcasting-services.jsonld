@@ -1,0 +1,122 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/6-163-spellcasting-services",
+  "@type": "Table",
+  "name": "Spellcasting Services",
+  "slug": "6-163-spellcasting-services",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.163",
+    "heading": "Spellcasting",
+    "lineStart": 6151,
+    "lineEnd": 6151
+  },
+  "columns": [
+    "Spell Level",
+    "Availability",
+    "Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Cantrip"
+        },
+        {
+          "value": "Village, town, or city"
+        },
+        {
+          "value": "30 GP"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "Village, town, or city"
+        },
+        {
+          "value": "50 GP"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "Village, town, or city"
+        },
+        {
+          "value": "200 GP"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "Town or city only"
+        },
+        {
+          "value": "300 GP"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "4–5"
+        },
+        {
+          "value": "Town or city only"
+        },
+        {
+          "value": "2,000 GP"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "6–8"
+        },
+        {
+          "value": "City only"
+        },
+        {
+          "value": "20,000 GP"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "City only"
+        },
+        {
+          "value": "100,000 GP"
+        }
+      ]
+    }
+  ]
+}

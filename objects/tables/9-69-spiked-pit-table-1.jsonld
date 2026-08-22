@@ -1,0 +1,66 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/9-69-spiked-pit-table-1",
+  "@type": "Table",
+  "name": "Spiked Pit Table 1",
+  "slug": "9-69-spiked-pit-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.69",
+    "heading": "Spiked Pit",
+    "lineStart": 14341,
+    "lineEnd": 14341
+  },
+  "columns": [
+    "Levels",
+    "Pit Depth",
+    "Damage"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "5–10"
+        },
+        {
+          "value": "30 feet"
+        },
+        {
+          "value": "10 (3d6) Bludgeoning plus 13 (3d8) Piercing"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "11–16"
+        },
+        {
+          "value": "60 feet"
+        },
+        {
+          "value": "21 (6d6) Bludgeoning plus 36 (8d8) Piercing"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "17–20"
+        },
+        {
+          "value": "120 feet"
+        },
+        {
+          "value": "42 (12d6) Bludgeoning plus 57 (13d8) Piercing"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-253-staff-of-power-table-1",
+  "@type": "Table",
+  "name": "Staff of Power Table 1",
+  "slug": "10-253-staff-of-power-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.253",
+    "heading": "Staff of Power",
+    "lineStart": 16909,
+    "lineEnd": 16909
+  },
+  "columns": [
+    "Spell",
+    "Charge Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Cone of Cold"
+        },
+        {
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Fireball (level 5 version)"
+        },
+        {
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Globe of Invulnerability"
+        },
+        {
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Hold Monster"
+        },
+        {
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Levitate"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Lightning Bolt (level 5 version)"
+        },
+        {
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Magic Missile"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Ray of Enfeeblement"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Wall of Force"
+        },
+        {
+          "value": "5"
+        }
+      ]
+    }
+  ]
+}

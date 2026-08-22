@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-120-level-13-studied-attacks",
+  "@type": "Rule",
+  "name": "Level 13: Studied Attacks",
+  "slug": "3-120-level-13-studied-attacks",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.120",
+    "heading": "Level 13: Studied Attacks",
+    "lineStart": 3124,
+    "lineEnd": 3126
+  },
+  "section": "3.120",
+  "rulesText": "You study your opponents and learn from each attack you make. If you make an attack roll against a creature and miss, you have Advantage on your next attack roll against that creature before the end of your next turn."
+}

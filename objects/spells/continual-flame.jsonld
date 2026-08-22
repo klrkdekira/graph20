@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/continual-flame",
+  "@type": "Spell",
+  "name": "Continual Flame",
+  "slug": "continual-flame",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.94",
+    "heading": "Continual Flame",
+    "lineStart": 7628,
+    "lineEnd": 7640
+  },
+  "level": 2,
+  "school": "Evocation",
+  "classAvailability": [
+    "Cleric",
+    "Druid",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": "V, S, M (ruby dust worth 50+ GP, which the spell consumes)",
+  "duration": "Until dispelled",
+  "rulesText": "Level 2 Evocation (Cleric, Druid, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (ruby dust worth 50+ GP, which the spell consumes)\n\nDuration: Until dispelled\n\nA flame springs from an object that you touch. The effect casts Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. It looks like a regular flame, but it creates no heat and consumes no fuel. The flame can be covered or hidden but not smothered or quenched."
+}

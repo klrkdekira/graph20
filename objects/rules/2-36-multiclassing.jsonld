@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/2-36-multiclassing",
+  "@type": "Rule",
+  "name": "Multiclassing",
+  "slug": "2-36-multiclassing",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.36",
+    "heading": "Multiclassing",
+    "lineStart": 2030,
+    "lineEnd": 2032
+  },
+  "section": "2.36",
+  "rulesText": "Multiclassing allows you to gain levels in multiple classes. With this rule, you have the option of gaining a level in a new class whenever you advance in level instead of gaining a level in your current class. Doing so lets you mix the abilities of those classes to realize a character concept that might not be reflected in a single class."
+}

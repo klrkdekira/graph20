@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-56-travel",
+  "@type": "Rule",
+  "name": "Travel",
+  "slug": "1-56-travel",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.56",
+    "heading": "Travel",
+    "lineStart": 1355,
+    "lineEnd": 1359
+  },
+  "section": "1.56",
+  "rulesText": "During an adventure, the characters might travel long distances on trips that could take hours or days. The GM can summarize this travel without calculating exact distances or travel times, or the GM might have you use the travel pace rules below.\n\nIf you need to know how fast you can move when every second matters, see the movement rules in “Combat” later in “Playing the Game.”"
+}

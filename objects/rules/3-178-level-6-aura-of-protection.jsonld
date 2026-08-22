@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-178-level-6-aura-of-protection",
+  "@type": "Rule",
+  "name": "Level 6: Aura of Protection",
+  "slug": "3-178-level-6-aura-of-protection",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.178",
+    "heading": "Level 6: Aura of Protection",
+    "lineStart": 3466,
+    "lineEnd": 3472
+  },
+  "section": "3.178",
+  "rulesText": "You radiate a protective, unseeable aura in a 10-foot Emanation that originates from you. The aura is inactive while you have the Incapacitated condition.\n\nYou and your allies in the aura gain a bonus to saving throws equal to your Charisma modifier (minimum bonus of +1).\n\nIf another Paladin is present, a creature can benefit from only one Aura of Protection at a time; the creature chooses which aura while in them."
+}

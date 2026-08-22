@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/7-7-spell-level",
+  "@type": "Rule",
+  "name": "Spell Level",
+  "slug": "7-7-spell-level",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.7",
+    "heading": "Spell Level",
+    "lineStart": 6277,
+    "lineEnd": 6279
+  },
+  "section": "7.7",
+  "rulesText": "Every spell has a level from 0 to 9, which is indicated in a spell's description. A spell's level is an indicator of how powerful it is. Cantrips—simple spells that can be cast almost by rote—are level 0. The rules for each spellcasting class say when its members gain access to spells of certain levels."
+}

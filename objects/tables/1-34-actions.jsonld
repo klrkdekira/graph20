@@ -1,0 +1,155 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/1-34-actions",
+  "@type": "Table",
+  "name": "Actions",
+  "slug": "1-34-actions",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.34",
+    "heading": "Actions",
+    "lineStart": 1215,
+    "lineEnd": 1215
+  },
+  "columns": [
+    "Action",
+    "Summary"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Attack"
+        },
+        {
+          "value": "Attack with a weapon or an Unarmed Strike."
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Dash"
+        },
+        {
+          "value": "For the rest of the turn, give yourself extra movement equal to your Speed."
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Disengage"
+        },
+        {
+          "value": "Your movement doesn’t provoke Opportunity Attacks for the rest of the turn."
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Dodge"
+        },
+        {
+          "value": "Until the start of your next turn, attack rolls against you have Disadvantage, and you make Dexterity saving throws with Advantage. You lose this benefit if you have the Incapacitated condition or if your Speed is 0."
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Help"
+        },
+        {
+          "value": "Help another creature’s ability check or attack roll, or administer first aid."
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Hide"
+        },
+        {
+          "value": "Make a Dexterity (Stealth) check."
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Influence"
+        },
+        {
+          "value": "Make a Charisma (Deception, Intimidation, Performance, or Persuasion) or Wisdom (Animal Handling) check to alter a creature’s attitude."
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Magic"
+        },
+        {
+          "value": "Cast a spell, use a magic item, or use a magical feature."
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Ready"
+        },
+        {
+          "value": "Prepare to take an action in response to a trigger you define."
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Search"
+        },
+        {
+          "value": "Make a Wisdom (Insight, Medicine, Perception, or Survival) check."
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "Study"
+        },
+        {
+          "value": "Make an Intelligence (Arcana, History, Investigation, Nature, or Religion) check."
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "Utilize"
+        },
+        {
+          "value": "Use a nonmagical object."
+        }
+      ]
+    }
+  ]
+}

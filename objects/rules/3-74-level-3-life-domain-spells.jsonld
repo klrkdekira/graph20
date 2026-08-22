@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-74-level-3-life-domain-spells",
+  "@type": "Rule",
+  "name": "Level 3: Life Domain Spells",
+  "slug": "3-74-level-3-life-domain-spells",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.74",
+    "heading": "Level 3: Life Domain Spells",
+    "lineStart": 2772,
+    "lineEnd": 2778
+  },
+  "section": "3.74",
+  "rulesText": "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Life Domain Spells table, you thereafter always have the listed spells prepared.\n\nLife Domain Spells",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-74-life-domain-spells"
+    }
+  ]
+}

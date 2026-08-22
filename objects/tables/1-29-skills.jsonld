@@ -1,0 +1,276 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/1-29-skills",
+  "@type": "Table",
+  "name": "Skills",
+  "slug": "1-29-skills",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.29",
+    "heading": "Skill Proficiencies",
+    "lineStart": 1183,
+    "lineEnd": 1183
+  },
+  "columns": [
+    "Skill",
+    "Ability",
+    "Example Uses"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Acrobatics"
+        },
+        {
+          "value": "Dexterity"
+        },
+        {
+          "value": "Stay on your feet in a tricky situation, or perform an acrobatic stunt."
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Animal Handling"
+        },
+        {
+          "value": "Wisdom"
+        },
+        {
+          "value": "Calm or train an animal, or get an animal to behave in a certain way."
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Arcana"
+        },
+        {
+          "value": "Intelligence"
+        },
+        {
+          "value": "Recall lore about spells, magic items, and the planes of existence."
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Athletics"
+        },
+        {
+          "value": "Strength"
+        },
+        {
+          "value": "Jump farther than normal, stay afloat in rough water, or break something."
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Deception"
+        },
+        {
+          "value": "Charisma"
+        },
+        {
+          "value": "Tell a convincing lie, or wear a disguise convincingly."
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "History"
+        },
+        {
+          "value": "Intelligence"
+        },
+        {
+          "value": "Recall lore about historical events, people, nations, and cultures."
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Insight"
+        },
+        {
+          "value": "Wisdom"
+        },
+        {
+          "value": "Discern a person’s mood and intentions."
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Intimidation"
+        },
+        {
+          "value": "Charisma"
+        },
+        {
+          "value": "Awe or threaten someone into doing what you want."
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Investigation"
+        },
+        {
+          "value": "Intelligence"
+        },
+        {
+          "value": "Find obscure information in books, or deduce how something works."
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Medicine"
+        },
+        {
+          "value": "Wisdom"
+        },
+        {
+          "value": "Diagnose an illness, or determine what killed the recently slain."
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "Nature"
+        },
+        {
+          "value": "Intelligence"
+        },
+        {
+          "value": "Recall lore about terrain, plants, animals, and weather."
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "Perception"
+        },
+        {
+          "value": "Wisdom"
+        },
+        {
+          "value": "Using a combination of senses, notice something that’s easy to miss."
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "Performance"
+        },
+        {
+          "value": "Charisma"
+        },
+        {
+          "value": "Act, tell a story, perform music, or dance."
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "cells": [
+        {
+          "value": "Persuasion"
+        },
+        {
+          "value": "Charisma"
+        },
+        {
+          "value": "Honestly and graciously convince someone of something."
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "cells": [
+        {
+          "value": "Religion"
+        },
+        {
+          "value": "Intelligence"
+        },
+        {
+          "value": "Recall lore about gods, religious rituals, and holy symbols."
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "cells": [
+        {
+          "value": "Sleight of Hand"
+        },
+        {
+          "value": "Dexterity"
+        },
+        {
+          "value": "Pick a pocket, conceal a handheld object, or perform legerdemain."
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "cells": [
+        {
+          "value": "Stealth"
+        },
+        {
+          "value": "Dexterity"
+        },
+        {
+          "value": "Escape notice by moving quietly and hiding behind things."
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "cells": [
+        {
+          "value": "Survival"
+        },
+        {
+          "value": "Wisdom"
+        },
+        {
+          "value": "Follow tracks, forage, find a trail, or avoid natural hazards."
+        }
+      ]
+    }
+  ]
+}

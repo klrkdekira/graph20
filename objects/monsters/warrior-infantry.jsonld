@@ -1,0 +1,81 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/warrior-infantry",
+  "@type": "Monster",
+  "name": "Warrior Infantry",
+  "slug": "warrior-infantry",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.251",
+    "heading": "Warrior Infantry",
+    "lineStart": 26294,
+    "lineEnd": 26322
+  },
+  "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
+  "sizeAndType": "Medium or Small Humanoid",
+  "alignment": "Neutral",
+  "armorClass": "13",
+  "initiative": "+0 (10)",
+  "hitPoints": "9 (2d8)",
+  "speed": "30 ft.",
+  "senses": "Passive Perception 10",
+  "languages": "Common",
+  "gear": "Chain Shirt, Spear",
+  "challenge": "1/8 (XP 25; PB +2)",
+  "armorClassValue": 13,
+  "hitPointsValue": 9,
+  "hitPointsRoll": {
+    "expression": "2d8",
+    "count": 2,
+    "sides": 8
+  },
+  "challengeRating": "1/8",
+  "experiencePoints": 25,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "dex": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "con": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "int": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "wis": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "cha": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Pack Tactics. The warrior has Advantage on an attack roll against a creature if at least one of the warrior's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Spear. Melee or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft. Hit: 4 (1d6 + 1) Piercing damage."
+    }
+  ],
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 13\n\nInitiative +0 (10)\n\nHP 9 (2d8)\n\nSpeed 30 ft.\n\nGear Chain Shirt, Spear\n\nSenses Passive Perception 10\n\nLanguages Common\n\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nPack Tactics. The warrior has Advantage on an attack roll against a creature if at least one of the warrior's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nSpear. Melee or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft. Hit: 4 (1d6 + 1) Piercing damage."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-109-lock-10-gp",
+  "@type": "Rule",
+  "name": "Lock (10 GP)",
+  "slug": "6-109-lock-10-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.109",
+    "heading": "Lock (10 GP)",
+    "lineStart": 5887,
+    "lineEnd": 5889
+  },
+  "section": "6.109",
+  "rulesText": "A Lock comes with a key. Without the key, a creature can use Thieves' Tools to pick this Lock with a successful DC 15 Dexterity (Sleight of Hand) check."
+}

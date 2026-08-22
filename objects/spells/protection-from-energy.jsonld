@@ -1,0 +1,31 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/protection-from-energy",
+  "@type": "Spell",
+  "name": "Protection from Energy",
+  "slug": "protection-from-energy",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.274",
+    "heading": "Protection from Energy",
+    "lineStart": 11028,
+    "lineEnd": 11040
+  },
+  "level": 3,
+  "school": "Abjuration",
+  "classAvailability": [
+    "Cleric",
+    "Druid",
+    "Ranger",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": "V, S",
+  "duration": "Concentration, up to 1 hour",
+  "rulesText": "Level 3 Abjuration (Cleric, Druid, Ranger, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S\n\nDuration: Concentration, up to 1 hour\n\nFor the duration, the willing creature you touch has Resistance to one damage type of your choice: Acid, Cold, Fire, Lightning, or Thunder."
+}

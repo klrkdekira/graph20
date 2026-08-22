@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/2-41-proficiencies",
+  "@type": "Rule",
+  "name": "Proficiencies",
+  "slug": "2-41-proficiencies",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.41",
+    "heading": "Proficiencies",
+    "lineStart": 2054,
+    "lineEnd": 2056
+  },
+  "section": "2.41",
+  "rulesText": "When you gain your first level in a class other than your initial class, you gain only some of the new class's starting proficiencies, as detailed in each class's description in “Classes.”"
+}

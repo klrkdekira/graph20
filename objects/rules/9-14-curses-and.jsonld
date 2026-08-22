@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-14-curses-and",
+  "@type": "Rule",
+  "name": "Curses and",
+  "slug": "9-14-curses-and",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.14",
+    "heading": "Curses and",
+    "lineStart": 13881,
+    "lineEnd": 13881
+  },
+  "section": "9.14"
+}

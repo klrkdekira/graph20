@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/potion-of-poison",
+  "@type": "MagicItem",
+  "name": "Potion of Poison",
+  "slug": "potion-of-poison",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.196",
+    "heading": "Potion of Poison",
+    "lineStart": 16286,
+    "lineEnd": 16292
+  },
+  "itemCategory": "Potion",
+  "rarity": "Uncommon",
+  "requiresAttunement": false,
+  "rulesText": "Potion, Uncommon\n\nThis concoction looks, smells, and tastes like a Potion of Healing or another beneficial potion. However, it is actually poison masked by illusion magic. Identify reveals its true nature.\n\nIf you drink this potion, you take 4d6 Poison damage and must succeed on a DC 13 Constitution saving throw or have the Poisoned condition for 1 hour."
+}

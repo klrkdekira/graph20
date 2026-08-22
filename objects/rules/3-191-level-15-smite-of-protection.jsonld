@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-191-level-15-smite-of-protection",
+  "@type": "Rule",
+  "name": "Level 15: Smite of Protection",
+  "slug": "3-191-level-15-smite-of-protection",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.191",
+    "heading": "Level 15: Smite of Protection",
+    "lineStart": 3558,
+    "lineEnd": 3560
+  },
+  "section": "3.191",
+  "rulesText": "Your magical smite now radiates protective energy. Whenever you cast Divine Smite, you and your allies have Half Cover while in your Aura of Protection. The aura has this benefit until the start of your next turn."
+}

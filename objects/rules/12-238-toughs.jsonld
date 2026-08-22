@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/12-238-toughs",
+  "@type": "Rule",
+  "name": "Toughs",
+  "slug": "12-238-toughs",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.238",
+    "heading": "Toughs",
+    "lineStart": 25847,
+    "lineEnd": 25847
+  },
+  "section": "12.238"
+}

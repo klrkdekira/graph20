@@ -1,0 +1,45 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-280-wand-of-fear-table-1",
+  "@type": "Table",
+  "name": "Wand of Fear Table 1",
+  "slug": "10-280-wand-of-fear-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.280",
+    "heading": "Wand of Fear",
+    "lineStart": 17164,
+    "lineEnd": 17164
+  },
+  "columns": [
+    "Spell",
+    "Charge Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Command (“flee” or “grovel” only)"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Fear (60-foot Cone)"
+        },
+        {
+          "value": "3"
+        }
+      ]
+    }
+  ]
+}

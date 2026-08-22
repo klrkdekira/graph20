@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/produce-flame",
+  "@type": "Spell",
+  "name": "Produce Flame",
+  "slug": "produce-flame",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.271",
+    "heading": "Produce Flame",
+    "lineStart": 10970,
+    "lineEnd": 10986
+  },
+  "level": 0,
+  "school": "Conjuration",
+  "classAvailability": [
+    "Druid"
+  ],
+  "castingTime": "Bonus Action",
+  "range": "Self",
+  "components": "V, S",
+  "duration": "10 minutes",
+  "rulesText": "Conjuration Cantrip (Druid)\n\nCasting Time: Bonus Action\n\nRange: Self\n\nComponents: V, S\n\nDuration: 10 minutes\n\nA flickering flame appears in your hand and remains there for the duration. While there, the flame emits no heat and ignites nothing, and it sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The spell ends if you cast it again.\n\nUntil the spell ends, you can take a Magic action to hurl fire at a creature or an object within 60 feet of you. Make a ranged spell attack. On a hit, the target takes 1d8 Fire damage.\n\nCantrip Upgrade. The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8)."
+}

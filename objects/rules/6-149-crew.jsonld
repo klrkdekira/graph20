@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-149-crew",
+  "@type": "Rule",
+  "name": "Crew",
+  "slug": "6-149-crew",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.149",
+    "heading": "Crew",
+    "lineStart": 6077,
+    "lineEnd": 6079
+  },
+  "section": "6.149",
+  "rulesText": "A ship larger than a Keelboat or Rowboat needs a crew of skilled hirelings (see “Hirelings” later in “Equipment”) to function. The minimum number of skilled hirelings needed to crew a ship depends on the type of ship, as shown in the table."
+}

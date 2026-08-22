@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-34-sentient-items-special-purpose",
+  "@type": "Table",
+  "name": "Sentient Item's Special Purpose",
+  "slug": "10-34-sentient-items-special-purpose",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.34",
+    "heading": "Special Purpose",
+    "lineStart": 14652,
+    "lineEnd": 14652
+  },
+  "columns": [
+    "Id10",
+    "Special Purpose"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "Aligned. The item seeks to defeat or destroy those of a diametrically opposed alignment.Such an item is never Neutral."
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "Bane. The item seeks to thwart or destroy creatures of a particular type, such as Constructs, Fiends, or Undead."
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "Creator Seeker. The item seeks its creator and wants to understand why it was created."
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "Destiny Seeker. The item believes it and its bearer have key roles to play in future events."
+        }
+      ]
+    }
+  ]
+}

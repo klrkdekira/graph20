@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/crystal-ball-of-true-seeing",
+  "@type": "MagicItem",
+  "name": "Crystal Ball of True Seeing",
+  "slug": "crystal-ball-of-true-seeing",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.86",
+    "heading": "Crystal Ball of True Seeing",
+    "lineStart": 15116,
+    "lineEnd": 15120
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Legendary",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "rulesText": "Wondrous Item, Legendary (Requires Attunement)\n\nWhile touching this crystal orb, you can cast Scrying (save DC 17) with it. In addition, you have Truesight with a range of 120 feet centered on the spell's sensor."
+}

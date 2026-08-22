@@ -1,0 +1,83 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/priest-acolyte",
+  "@type": "Monster",
+  "name": "Priest Acolyte",
+  "slug": "priest-acolyte",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.190",
+    "heading": "Priest Acolyte",
+    "lineStart": 24055,
+    "lineEnd": 24092
+  },
+  "sizeTypeAlignment": "Medium or Small Humanoid (Cleric), Neutral",
+  "sizeAndType": "Medium or Small Humanoid (Cleric)",
+  "alignment": "Neutral",
+  "armorClass": "13",
+  "initiative": "+0 (10)",
+  "hitPoints": "11 (2d8 + 2)",
+  "speed": "30 ft.",
+  "skills": "Medicine +4, Religion +2",
+  "senses": "Passive Perception 12",
+  "languages": "Common",
+  "gear": "Chain Shirt, Holy Symbol, Mace",
+  "challenge": "1/4 (XP 50; PB +2)",
+  "armorClassValue": 13,
+  "hitPointsValue": 11,
+  "hitPointsRoll": {
+    "expression": "2d8+2",
+    "count": 2,
+    "sides": 8,
+    "modifier": 2
+  },
+  "challengeRating": "1/4",
+  "experiencePoints": 50,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "dex": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "con": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "int": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "wis": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "cha": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Mace. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage plus 2 (1d4) Radiant damage.\n\nRadiant Flame. Ranged Attack Roll: +4, range 60 ft.\nHit: 7 (2d6) Radiant damage.\n\nSpellcasting. The priest casts one of the following spells, using Wisdom as the spellcasting ability:\n\nAt Will: Light, Thaumaturgy"
+    },
+    {
+      "name": "Bonus Actions",
+      "rulesText": "Divine Aid (1/Day). The priest casts Bless, Healing Word, or Sanctuary, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "rulesText": "Medium or Small Humanoid (Cleric), Neutral\n\nAC 13\n\nInitiative +0 (10)\n\nHP 11 (2d8 + 2)\n\nSpeed 30 ft.\n\nSkills Medicine +4, Religion +2\n\nGear Chain Shirt, Holy Symbol, Mace\n\nSenses Passive Perception 12\n\nLanguages Common\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nMace. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage plus 2 (1d4) Radiant damage.\n\nRadiant Flame. Ranged Attack Roll: +4, range 60 ft.\nHit: 7 (2d6) Radiant damage.\n\nSpellcasting. The priest casts one of the following spells, using Wisdom as the spellcasting ability:\n\nAt Will: Light, Thaumaturgy\n\nBonus Actions\n\nDivine Aid (1/Day). The priest casts Bless, Healing Word, or Sanctuary, using the same spellcasting ability as Spellcasting."
+}

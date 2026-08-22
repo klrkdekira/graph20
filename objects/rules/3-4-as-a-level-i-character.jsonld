@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-4-as-a-level-i-character",
+  "@type": "Rule",
+  "name": "As a Level I Character",
+  "slug": "3-4-as-a-level-i-character",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.4",
+    "heading": "As a Level I Character",
+    "lineStart": 2260,
+    "lineEnd": 2264
+  },
+  "section": "3.4",
+  "rulesText": "\\- Gain all the traits in the Core Barbarian Traits table.\n\n\\- Gain the Barbarian's level 1 features, which are listed in the Barbarian Features table."
+}

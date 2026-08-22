@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/fireball",
+  "@type": "Spell",
+  "name": "Fireball",
+  "slug": "fireball",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.151",
+    "heading": "Fireball",
+    "lineStart": 8736,
+    "lineEnd": 8752
+  },
+  "level": 3,
+  "school": "Evocation",
+  "classAvailability": [
+    "Sorcerer",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "150 feet",
+  "components": "V, S, M (a ball of bat guano and sulfur)",
+  "duration": "Instantaneous",
+  "rulesText": "Level 3 Evocation (Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 150 feet\n\nComponents: V, S, M (a ball of bat guano and sulfur)\n\nDuration: Instantaneous\n\nA bright streak flashes from you to a point you choose within range and then blossoms with a low roar into a fiery explosion. Each creature in a 20-foot-radius Sphere centered on that point makes a Dexterity saving throw, taking 8d6 Fire damage on a failed save or half as much damage on a successful one.\n\nFlammable objects in the area that aren't being worn or carried start burning.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 3."
+}

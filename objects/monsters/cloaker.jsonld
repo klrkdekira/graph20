@@ -1,0 +1,77 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/cloaker",
+  "@type": "Monster",
+  "name": "Cloaker",
+  "slug": "cloaker",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.58",
+    "heading": "Cloaker",
+    "lineStart": 19435,
+    "lineEnd": 19479
+  },
+  "sizeTypeAlignment": "Large Aberration, Chaotic Neutral",
+  "sizeAndType": "Large Aberration",
+  "alignment": "Chaotic Neutral",
+  "armorClass": "14",
+  "initiative": "+5 (15)",
+  "hitPoints": "91 (14d10 + 14)",
+  "speed": "10 ft., Fly 40 ft.",
+  "skills": "Stealth +5",
+  "immunities": "Frightened",
+  "senses": "Darkvision 120 ft.; Passive Perception 12",
+  "languages": "Deep Speech, Undercommon",
+  "challenge": "8 (XP 3,900; PB +3)",
+  "armorClassValue": 14,
+  "hitPointsValue": 91,
+  "hitPointsRoll": {
+    "expression": "14d10+14",
+    "count": 14,
+    "sides": 10,
+    "modifier": 14
+  },
+  "challengeRating": "8",
+  "experiencePoints": 3900,
+  "proficiencyBonus": 3,
+  "abilities": {
+    "str": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "dex": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "int": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "wis": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Light Sensitivity. While in Bright Light, the cloaker has Disadvantage on attack rolls."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The cloaker makes one Attach attack and two Tail attacks.\n\nAttach. Melee Attack Roll: +6, reach 5 ft. Hit: 13 (3d6 + 3) Piercing damage. If the target is a Large or smaller creature, the cloaker attaches to it. While the cloaker is attached, the target has the Blinded condition, and the cloaker can't make Attach attacks against other targets. In addition, the cloaker halves the damage it takes (round down), and the target takes the same amount of damage.\n\nThe cloaker can detach itself by spending 5 feet of movement. The target or a creature within 5 feet of it can take an action to try to detach the cloaker, doing so by succeeding on a DC 14 Strength (Athletics) check.\n\nTail. Melee Attack Roll: +6, reach 10 ft. Hit: 8 (1d10 + 3) Slashing damage."
+    },
+    {
+      "name": "Bonus Actions",
+      "rulesText": "Moan. Wisdom Saving Throw: DC 13, each creature in a 60-foot Emanation originating from the cloaker. Failure: The target has the Frightened condition until the end of the cloaker's next turn. Success: The target is immune to this cloaker's Moan for the next 24 hours.\n\nPhantasms (Recharge after a Short or Long Rest). The cloaker casts the Mirror Image spell, requiring no spell components and using Wisdom as the spellcasting ability. The spell ends early if the cloaker starts or ends its turn in Bright Light."
+    }
+  ],
+  "rulesText": "Large Aberration, Chaotic Neutral\n\nAC 14\n\nInitiative +5 (15)\n\nHP 91 (14d10 + 14)\n\nSpeed 10 ft., Fly 40 ft.\n\nSkills Stealth +5\n\nImmunities Frightened\n\nSenses Darkvision 120 ft.; Passive Perception 12\n\nLanguages Deep Speech, Undercommon\n\nCR 8 (XP 3,900; PB +3)\n\nTraits\n\nLight Sensitivity. While in Bright Light, the cloaker has Disadvantage on attack rolls.\n\nActions\n\nMultiattack. The cloaker makes one Attach attack and two Tail attacks.\n\nAttach. Melee Attack Roll: +6, reach 5 ft. Hit: 13 (3d6 + 3) Piercing damage. If the target is a Large or smaller creature, the cloaker attaches to it. While the cloaker is attached, the target has the Blinded condition, and the cloaker can't make Attach attacks against other targets. In addition, the cloaker halves the damage it takes (round down), and the target takes the same amount of damage.\n\nThe cloaker can detach itself by spending 5 feet of movement. The target or a creature within 5 feet of it can take an action to try to detach the cloaker, doing so by succeeding on a DC 14 Strength (Athletics) check.\n\nTail. Melee Attack Roll: +6, reach 10 ft. Hit: 8 (1d10 + 3) Slashing damage.\n\nBonus Actions\n\nMoan. Wisdom Saving Throw: DC 13, each creature in a 60-foot Emanation originating from the cloaker. Failure: The target has the Frightened condition until the end of the cloaker's next turn. Success: The target is immune to this cloaker's Moan for the next 24 hours.\n\nPhantasms (Recharge after a Short or Long Rest). The cloaker casts the Mirror Image spell, requiring no spell components and using Wisdom as the spellcasting ability. The spell ends early if the cloaker starts or ends its turn in Bright Light."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-156-poor-2-sp-per-day",
+  "@type": "Rule",
+  "name": "Poor (2 SP per Day)",
+  "slug": "6-156-poor-2-sp-per-day",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.156",
+    "heading": "Poor (2 SP per Day)",
+    "lineStart": 6109,
+    "lineEnd": 6111
+  },
+  "section": "6.156",
+  "rulesText": "You spend frugally for your necessities."
+}

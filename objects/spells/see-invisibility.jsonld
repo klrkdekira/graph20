@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/see-invisibility",
+  "@type": "Spell",
+  "name": "See Invisibility",
+  "slug": "see-invisibility",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.297",
+    "heading": "See Invisibility",
+    "lineStart": 11402,
+    "lineEnd": 11414
+  },
+  "level": 2,
+  "school": "Divination",
+  "classAvailability": [
+    "Bard",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "Self",
+  "components": "V, S, M (a pinch of talc)",
+  "duration": "1 hour",
+  "rulesText": "Level 2 Divination (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V, S, M (a pinch of talc)\n\nDuration: 1 hour\n\nFor the duration, you see creatures and objects that have the Invisible condition as if they were visible, and you can see into the Ethereal Plane. Creatures and objects there appear ghostly."
+}

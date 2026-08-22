@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/11-19-equipping-a-monster-with-other-items",
+  "@type": "Rule",
+  "name": "Equipping a Monster with Other Items",
+  "slug": "11-19-equipping-a-monster-with-other-items",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters",
+    "section": "11.19",
+    "heading": "Equipping a Monster with Other Items",
+    "lineStart": 17468,
+    "lineEnd": 17474
+  },
+  "section": "11.19",
+  "rulesText": "You may equip monsters with additional gear however you like, using the items in “Equipment” for inspiration. You decide how much of a monster’s equipment is recoverable after the creature is slain and whether any of that equipment is still usable.\n\nBeware of giving a monster combat-oriented magic items, since those might alter the monster's Challenge Rating. If you do give a monster a magic item, the monster can have Attunement with magic items as noted in “Equipment.” A monster with\n\na class tag after its creature type is considered a member of that class for Attunement purposes."
+}

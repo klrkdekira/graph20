@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/counterspell",
+  "@type": "Spell",
+  "name": "Counterspell",
+  "slug": "counterspell",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.97",
+    "heading": "Counterspell",
+    "lineStart": 7694,
+    "lineEnd": 7706
+  },
+  "level": 3,
+  "school": "Abjuration",
+  "classAvailability": [
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
+  ],
+  "castingTime": "Reaction, which you take when you see a creature within 60 feet of yourself casting a spell with Verbal, Somatic, or Material components",
+  "range": "60 feet",
+  "components": "S",
+  "duration": "Instantaneous",
+  "rulesText": "Level 3 Abjuration (Sorcerer, Warlock, Wizard)\n\nCasting Time: Reaction, which you take when you see a creature within 60 feet of yourself casting a spell with Verbal, Somatic, or Material components\n\nRange: 60 feet\n\nComponents: S\n\nDuration: Instantaneous\n\nYou attempt to interrupt a creature in the process of casting a spell. The creature makes a Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended."
+}

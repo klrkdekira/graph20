@@ -1,0 +1,92 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/archmage",
+  "@type": "Monster",
+  "name": "Archmage",
+  "slug": "archmage",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.155",
+    "heading": "Archmage",
+    "lineStart": 22849,
+    "lineEnd": 22899
+  },
+  "sizeTypeAlignment": "Medium or Small Humanoid (Wizard), Neutral",
+  "sizeAndType": "Medium or Small Humanoid (Wizard)",
+  "alignment": "Neutral",
+  "armorClass": "17",
+  "initiative": "+7 (17)",
+  "hitPoints": "170 (31d8 + 31)",
+  "speed": "30 ft.",
+  "skills": "Arcana +13, History +9, Perception +6",
+  "immunities": "Psychic; Charmed (with Mind Blank)",
+  "senses": "Passive Perception 16",
+  "languages": "Common plus five other languages",
+  "gear": "Wand",
+  "challenge": "12 (XP 8,000; PB +4)",
+  "armorClassValue": 17,
+  "hitPointsValue": 170,
+  "hitPointsRoll": {
+    "expression": "31d8+31",
+    "count": 31,
+    "sides": 8,
+    "modifier": 31
+  },
+  "challengeRating": "12",
+  "experiencePoints": 8000,
+  "proficiencyBonus": 4,
+  "abilities": {
+    "str": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "dex": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "int": {
+      "score": 20,
+      "modifier": 5,
+      "savingThrow": 9
+    },
+    "wis": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 6
+    },
+    "cha": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Magic Resistance. The archmage has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The archmage makes four Arcane Burst attacks.\n\nArcane Burst. Melee or Ranged Attack Roll: +9, reach 5 ft. or range 150 ft. Hit: 27 (4d10 + 5) Force damage.\n\nSpellcasting. The archmage casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 17):\n\nAt Will: Detect Magic, Detect Thoughts, Disguise Self, Invisibility, Light, Mage Armor (included in AC), Mage Hand, Prestidigitation\n\n2/Day Each: Fly, Lightning Bolt (level 7 version)\n\n1/Day Each: Cone of Cold (level 9 version), Mind Blank (cast before combat), Scrying, Teleport"
+    },
+    {
+      "name": "Bonus Actions",
+      "rulesText": "Misty Step (3/Day). The mage casts Misty Step, using the same spellcasting ability as Spellcasting."
+    },
+    {
+      "name": "Reactions",
+      "rulesText": "Protective Magic (3/Day). The archmage casts Counterspell or Shield in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
+    }
+  ],
+  "rulesText": "Medium or Small Humanoid (Wizard), Neutral\n\nAC 17\n\nInitiative +7 (17)\n\nHP 170 (31d8 + 31)\n\nSpeed 30 ft.\n\nSkills Arcana +13, History +9, Perception +6\n\nImmunities Psychic; Charmed (with Mind Blank)\n\nGear Wand\n\nSenses Passive Perception 16\n\nLanguages Common plus five other languages\n\nCR 12 (XP 8,000; PB +4)\n\nTraits\n\nMagic Resistance. The archmage has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The archmage makes four Arcane Burst attacks.\n\nArcane Burst. Melee or Ranged Attack Roll: +9, reach 5 ft. or range 150 ft. Hit: 27 (4d10 + 5) Force damage.\n\nSpellcasting. The archmage casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 17):\n\nAt Will: Detect Magic, Detect Thoughts, Disguise Self, Invisibility, Light, Mage Armor (included in AC), Mage Hand, Prestidigitation\n\n2/Day Each: Fly, Lightning Bolt (level 7 version)\n\n1/Day Each: Cone of Cold (level 9 version), Mind Blank (cast before combat), Scrying, Teleport\n\nBonus Actions\n\nMisty Step (3/Day). The mage casts Misty Step, using the same spellcasting ability as Spellcasting.\n\nReactions\n\nProtective Magic (3/Day). The archmage casts Counterspell or Shield in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
+}

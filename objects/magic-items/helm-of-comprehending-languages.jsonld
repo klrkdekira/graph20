@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/helm-of-comprehending-languages",
+  "@type": "MagicItem",
+  "name": "Helm of Comprehending Languages",
+  "slug": "helm-of-comprehending-languages",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.135",
+    "heading": "Helm of Comprehending Languages",
+    "lineStart": 15650,
+    "lineEnd": 15654
+  },
+  "itemCategory": "Wondrous Item",
+  "rarity": "Uncommon",
+  "requiresAttunement": false,
+  "rulesText": "Wondrous Item, Uncommon\n\nWhile wearing this helm, you can cast Comprehend Languages from it."
+}

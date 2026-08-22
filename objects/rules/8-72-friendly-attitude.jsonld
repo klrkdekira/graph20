@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-72-friendly-attitude",
+  "@type": "Rule",
+  "name": "Friendly [Attitude]",
+  "slug": "8-72-friendly-attitude",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.72",
+    "heading": "Friendly [Attitude]",
+    "lineStart": 13185,
+    "lineEnd": 13187
+  },
+  "section": "8.72",
+  "rulesText": "A Friendly creature views you favorably. You have Advantage on an ability check to influence a Friendly creature. See also “Influence.”"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-47-hiding",
+  "@type": "Rule",
+  "name": "Hiding",
+  "slug": "1-47-hiding",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.47",
+    "heading": "Hiding",
+    "lineStart": 1313,
+    "lineEnd": 1315
+  },
+  "section": "1.47",
+  "rulesText": "Adventurers and monsters often hide, whether to spy on one another, sneak past a guardian, or set an ambush. The Game Master decides when circumstances are appropriate for hiding. When you try to hide, you take the Hide action."
+}

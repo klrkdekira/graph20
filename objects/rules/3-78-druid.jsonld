@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-78-druid",
+  "@type": "Rule",
+  "name": "Druid",
+  "slug": "3-78-druid",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.78",
+    "heading": "Druid",
+    "lineStart": 2792,
+    "lineEnd": 2796
+  },
+  "section": "3.78",
+  "rulesText": "Core Druid Traits",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-78-core-druid-traits"
+    }
+  ]
+}

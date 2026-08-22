@@ -1,0 +1,86 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/shield-guardian",
+  "@type": "Monster",
+  "name": "Shield Guardian",
+  "slug": "shield-guardian",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.213",
+    "heading": "Shield Guardian",
+    "lineStart": 24904,
+    "lineEnd": 24944
+  },
+  "sizeTypeAlignment": "Large Construct, Unaligned",
+  "sizeAndType": "Large Construct",
+  "alignment": "Unaligned",
+  "armorClass": "17",
+  "initiative": "-1 (9)",
+  "hitPoints": "142 (15d10 + 60)",
+  "speed": "30 ft.",
+  "immunities": "Poison; Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned",
+  "senses": "Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Understands commands given in any language but can't speak",
+  "challenge": "7 (XP 2,900; PB +3)",
+  "armorClassValue": 17,
+  "hitPointsValue": 142,
+  "hitPointsRoll": {
+    "expression": "15d10+60",
+    "count": 15,
+    "sides": 10,
+    "modifier": 60
+  },
+  "challengeRating": "7",
+  "experiencePoints": 2900,
+  "proficiencyBonus": 3,
+  "abilities": {
+    "str": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "dex": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "con": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "int": {
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
+    },
+    "wis": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "cha": {
+      "score": 3,
+      "modifier": -4,
+      "savingThrow": -4
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Bound. The guardian is magically bound to an amulet. While the guardian and its amulet are on the same plane of existence, the amulet's wearer can telepathically call the guardian to travel to it, and the guardian knows the distance and direction to the amulet. If the guardian is within 60 feet of the amulet's wearer, half of any damage the wearer takes (round up) is transferred to the guardian.\n\nRegeneration. The guardian regains 10 Hit Points at the start of each of its turns if it has at least 1 Hit Point.\n\nSpell Storing. A spellcaster who wears the guardian's amulet can cause the guardian to store one spell of level 4 or lower. To do so, the wearer must cast the spell on the guardian while within 5 feet of it. The spell has no effect but is stored within the guardian. Any previously stored spell is lost when a new spell is stored. The guardian can cast the spell stored with any parameters set by the original caster, requiring no spell components and using the caster's spellcasting ability. The stored spell is then lost."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The guardian makes two Fist attacks.\n\nFist. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning damage plus 7 (2d6) Force damage."
+    },
+    {
+      "name": "Reactions",
+      "rulesText": "Protection. Trigger: An attack roll hits the wearer of the guardian's amulet while the wearer is within 5 feet of the guardian. Response: The wearer gains a +5 bonus to AC, including against the triggering attack and possibly causing it to miss, until the start of the guardian's next turn."
+    }
+  ],
+  "rulesText": "Large Construct, Unaligned\n\nAC 17\n\nInitiative -1 (9)\n\nHP 142 (15d10 + 60)\n\nSpeed 30 ft.\n\nImmunities Poison; Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned\n\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 10\n\nLanguages Understands commands given in any language but can't speak\n\nCR 7 (XP 2,900; PB +3)\n\nTraits\n\nBound. The guardian is magically bound to an amulet. While the guardian and its amulet are on the same plane of existence, the amulet's wearer can telepathically call the guardian to travel to it, and the guardian knows the distance and direction to the amulet. If the guardian is within 60 feet of the amulet's wearer, half of any damage the wearer takes (round up) is transferred to the guardian.\n\nRegeneration. The guardian regains 10 Hit Points at the start of each of its turns if it has at least 1 Hit Point.\n\nSpell Storing. A spellcaster who wears the guardian's amulet can cause the guardian to store one spell of level 4 or lower. To do so, the wearer must cast the spell on the guardian while within 5 feet of it. The spell has no effect but is stored within the guardian. Any previously stored spell is lost when a new spell is stored. The guardian can cast the spell stored with any parameters set by the original caster, requiring no spell components and using the caster's spellcasting ability. The stored spell is then lost.\n\nActions\n\nMultiattack. The guardian makes two Fist attacks.\n\nFist. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning damage plus 7 (2d6) Force damage.\n\nReactions\n\nProtection. Trigger: An attack roll hits the wearer of the guardian's amulet while the wearer is within 5 feet of the guardian. Response: The wearer gains a +5 bonus to AC, including against the triggering attack and possibly causing it to miss, until the start of the guardian's next turn."
+}

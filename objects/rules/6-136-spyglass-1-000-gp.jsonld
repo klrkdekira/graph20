@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-136-spyglass-1-000-gp",
+  "@type": "Rule",
+  "name": "Spyglass (1,000 GP)",
+  "slug": "6-136-spyglass-1-000-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.136",
+    "heading": "Spyglass (1,000 GP)",
+    "lineStart": 6011,
+    "lineEnd": 6013
+  },
+  "section": "6.136",
+  "rulesText": "Objects viewed through a Spyglass are magnified to twice their size."
+}

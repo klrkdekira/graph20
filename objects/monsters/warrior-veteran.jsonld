@@ -1,0 +1,83 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/warrior-veteran",
+  "@type": "Monster",
+  "name": "Warrior Veteran",
+  "slug": "warrior-veteran",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.252",
+    "heading": "Warrior Veteran",
+    "lineStart": 26324,
+    "lineEnd": 26358
+  },
+  "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
+  "sizeAndType": "Medium or Small Humanoid",
+  "alignment": "Neutral",
+  "armorClass": "17",
+  "initiative": "+3 (13)",
+  "hitPoints": "65 (10d8 + 20)",
+  "speed": "30 ft.",
+  "skills": "Athletics +5, Perception +2",
+  "senses": "Passive Perception 12",
+  "languages": "Common plus one other language",
+  "gear": "Greatsword, Heavy Crossbow, Splint Armor",
+  "challenge": "3 (XP 700; PB +2)",
+  "armorClassValue": 17,
+  "hitPointsValue": 65,
+  "hitPointsRoll": {
+    "expression": "10d8+20",
+    "count": 10,
+    "sides": 8,
+    "modifier": 20
+  },
+  "challengeRating": "3",
+  "experiencePoints": 700,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "dex": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "con": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "int": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "wis": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "cha": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The warrior makes two Greatsword or Heavy Crossbow attacks.\n\nGreatsword. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.\n\nHeavy Crossbow. Ranged Attack Roll: +3, range 100/400 ft. Hit: 12 (2d10 + 1) Piercing damage."
+    },
+    {
+      "name": "Reactions",
+      "rulesText": "Parry. Trigger: The warrior is hit by a melee attack roll while holding a weapon. Response: The warrior adds 2 to its AC against that attack, possibly causing it to miss."
+    }
+  ],
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 17\n\nInitiative +3 (13)\n\nHP 65 (10d8 + 20)\n\nSpeed 30 ft.\n\nSkills Athletics +5, Perception +2\n\nGear Greatsword, Heavy Crossbow, Splint Armor\n\nSenses Passive Perception 12\n\nLanguages Common plus one other language\n\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The warrior makes two Greatsword or Heavy Crossbow attacks.\n\nGreatsword. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.\n\nHeavy Crossbow. Ranged Attack Roll: +3, range 100/400 ft. Hit: 12 (2d10 + 1) Piercing damage.\n\nReactions\n\nParry. Trigger: The warrior is hit by a melee attack roll while holding a weapon. Response: The warrior adds 2 to its AC against that attack, possibly causing it to miss."
+}

@@ -1,0 +1,79 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/guard",
+  "@type": "Monster",
+  "name": "Guard",
+  "slug": "guard",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.127",
+    "heading": "Guard",
+    "lineStart": 21853,
+    "lineEnd": 21879
+  },
+  "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
+  "sizeAndType": "Medium or Small Humanoid",
+  "alignment": "Neutral",
+  "armorClass": "16",
+  "initiative": "+1 (11)",
+  "hitPoints": "11 (2d8 + 2)",
+  "speed": "30 ft.",
+  "skills": "Perception +2",
+  "senses": "Passive Perception 12",
+  "languages": "Common",
+  "gear": "Chain Shirt, Shield, Spear",
+  "challenge": "1/8 (XP 25; PB +2)",
+  "armorClassValue": 16,
+  "hitPointsValue": 11,
+  "hitPointsRoll": {
+    "expression": "2d8+2",
+    "count": 2,
+    "sides": 8,
+    "modifier": 2
+  },
+  "challengeRating": "1/8",
+  "experiencePoints": 25,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "dex": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "con": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "int": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "wis": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "cha": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Spear. Melee or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft. Hit: 4 (1d6 + 1) Piercing damage."
+    }
+  ],
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 16\n\nInitiative +1 (11)\n\nHP 11 (2d8 + 2)\n\nSpeed 30 ft.\n\nSkills Perception +2\n\nGear Chain Shirt, Shield, Spear\n\nSenses Passive Perception 12\n\nLanguages Common\n\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nSpear. Melee or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft. Hit: 4 (1d6 + 1) Piercing damage."
+}

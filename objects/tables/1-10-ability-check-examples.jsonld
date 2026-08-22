@@ -1,0 +1,89 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/1-10-ability-check-examples",
+  "@type": "Table",
+  "name": "Ability Check Examples",
+  "slug": "1-10-ability-check-examples",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.10",
+    "heading": "Ability Modifier",
+    "lineStart": 1053,
+    "lineEnd": 1053
+  },
+  "columns": [
+    "Ability",
+    "Make a Check To ..."
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Strength"
+        },
+        {
+          "value": "Lift, push, pull, or break something"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Dexterity"
+        },
+        {
+          "value": "Move nimbly, quickly, or quietly"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Constitution"
+        },
+        {
+          "value": "Push your body beyond normal limits"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Intelligence"
+        },
+        {
+          "value": "Reason or remember"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Wisdom"
+        },
+        {
+          "value": "Notice things in the environment or in creatures’ behavior"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Charisma"
+        },
+        {
+          "value": "Influence, entertain, or deceive"
+        }
+      ]
+    }
+  ]
+}

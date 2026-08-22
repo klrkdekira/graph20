@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-16-difficulty-class",
+  "@type": "Rule",
+  "name": "Difficulty Class",
+  "slug": "1-16-difficulty-class",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.16",
+    "heading": "Difficulty Class",
+    "lineStart": 1085,
+    "lineEnd": 1087
+  },
+  "section": "1.16",
+  "rulesText": "The Difficulty Class for a saving throw is determined by the effect that causes it or by the GM. For example, if a spell forces you to make a save, the DC is determined by the caster's spellcasting ability and Proficiency Bonus. Monster abilities that call for saves specify the DC."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-78-heavily-obscured",
+  "@type": "Rule",
+  "name": "Heavily Obscured",
+  "slug": "8-78-heavily-obscured",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.78",
+    "heading": "Heavily Obscured",
+    "lineStart": 13225,
+    "lineEnd": 13227
+  },
+  "section": "8.78",
+  "rulesText": "You have the Blinded condition while trying to see something in a Heavily Obscured space. See also “Blinded,” “Darkness,” and “Playing the Game” (“Exploration”)."
+}

@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game",
+  "@type": "Rule",
+  "name": "Playing the Game",
+  "slug": "1-1-playing-the-game",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.1",
+    "heading": "Playing the Game",
+    "lineStart": 981,
+    "lineEnd": 981
+  },
+  "section": "1.1"
+}

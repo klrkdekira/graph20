@@ -1,0 +1,178 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/6-146-tack-harness-and-drawn-vehicles",
+  "@type": "Table",
+  "name": "Tack, Harness, and Drawn Vehicles",
+  "slug": "6-146-tack-harness-and-drawn-vehicles",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.146",
+    "heading": "Saddles",
+    "lineStart": 6063,
+    "lineEnd": 6063
+  },
+  "columns": [
+    "Item",
+    "Weight",
+    "Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Carriage"
+        },
+        {
+          "value": "600 lb."
+        },
+        {
+          "value": "100 GP"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Cart"
+        },
+        {
+          "value": "200 lb."
+        },
+        {
+          "value": "15 GP"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Chariot"
+        },
+        {
+          "value": "100 lb."
+        },
+        {
+          "value": "250 GP"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Feed per day"
+        },
+        {
+          "value": "10 lb."
+        },
+        {
+          "value": "5 CP"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Saddle"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Exotic"
+        },
+        {
+          "value": "40 lb."
+        },
+        {
+          "value": "60 GP"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Military"
+        },
+        {
+          "value": "30 lb."
+        },
+        {
+          "value": "20 GP"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Riding"
+        },
+        {
+          "value": "25 lb."
+        },
+        {
+          "value": "10 GP"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Sled"
+        },
+        {
+          "value": "300 lb."
+        },
+        {
+          "value": "20 GP"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Stabling per day"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "5 SP"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "Wagon"
+        },
+        {
+          "value": "400 lb."
+        },
+        {
+          "value": "35 GP"
+        }
+      ]
+    }
+  ]
+}

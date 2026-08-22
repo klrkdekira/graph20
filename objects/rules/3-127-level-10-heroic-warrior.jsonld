@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-127-level-10-heroic-warrior",
+  "@type": "Rule",
+  "name": "Level 10: Heroic Warrior",
+  "slug": "3-127-level-10-heroic-warrior",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.127",
+    "heading": "Level 10: Heroic Warrior",
+    "lineStart": 3156,
+    "lineEnd": 3158
+  },
+  "section": "3.127",
+  "rulesText": "The thrill of battle drives you toward victory. During combat, you can give yourself Heroic Inspiration whenever you start your turn without it."
+}

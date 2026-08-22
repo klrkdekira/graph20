@@ -1,0 +1,79 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/warhorse-skeleton",
+  "@type": "Monster",
+  "name": "Warhorse Skeleton",
+  "slug": "warhorse-skeleton",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.221",
+    "heading": "Warhorse Skeleton",
+    "lineStart": 25161,
+    "lineEnd": 25187
+  },
+  "sizeTypeAlignment": "Large Undead, Lawful Evil",
+  "sizeAndType": "Large Undead",
+  "alignment": "Lawful Evil",
+  "armorClass": "13",
+  "initiative": "+1 (11)",
+  "hitPoints": "22 (3d10 + 6)",
+  "speed": "60 ft.",
+  "vulnerabilities": "Bludgeoning",
+  "immunities": "Poison; Exhaustion, Poisoned",
+  "senses": "Darkvision 60 ft.; Passive Perception 9",
+  "languages": "None",
+  "challenge": "1/2 (XP 100; PB +2)",
+  "armorClassValue": 13,
+  "hitPointsValue": 22,
+  "hitPointsRoll": {
+    "expression": "3d10+6",
+    "count": 3,
+    "sides": 10,
+    "modifier": 6
+  },
+  "challengeRating": "1/2",
+  "experiencePoints": 100,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "dex": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "con": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "int": {
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "cha": {
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Hooves. Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning damage. If the target is a Large or smaller creature and the skeleton moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition."
+    }
+  ],
+  "rulesText": "Large Undead, Lawful Evil\n\nAC 13\n\nInitiative +1 (11)\n\nHP 22 (3d10 + 6)\n\nSpeed 60 ft.\n\nVulnerabilities Bludgeoning\n\nImmunities Poison; Exhaustion, Poisoned\n\nSenses Darkvision 60 ft.; Passive Perception 9\n\nLanguages None\n\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nHooves. Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning damage. If the target is a Large or smaller creature and the skeleton moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition."
+}

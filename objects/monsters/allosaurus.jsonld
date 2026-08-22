@@ -1,0 +1,74 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/allosaurus",
+  "@type": "Monster",
+  "name": "Allosaurus",
+  "slug": "allosaurus",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.2",
+    "heading": "Allosaurus",
+    "lineStart": 27121,
+    "lineEnd": 27149
+  },
+  "sizeTypeAlignment": "Large Beast (Dinosaur), Unaligned",
+  "sizeAndType": "Large Beast (Dinosaur)",
+  "alignment": "Unaligned",
+  "armorClass": "13",
+  "initiative": "+1 (11)",
+  "hitPoints": "51 (6d10 + 18)",
+  "speed": "60 ft.",
+  "skills": "Perception +5",
+  "senses": "Passive Perception 15",
+  "languages": "None",
+  "challenge": "2 (XP 450; PB +2)",
+  "armorClassValue": 13,
+  "hitPointsValue": 51,
+  "hitPointsRoll": {
+    "expression": "6d10+18",
+    "count": 6,
+    "sides": 10,
+    "modifier": 18
+  },
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 19,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "dex": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "con": {
+      "score": 17
+    },
+    "int": {
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 5
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Bite. Melee Attack Roll: +6, reach 5 ft. Hit: 15 (2d10 + 4) Piercing damage.\n\nClaws. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing damage. If the target is a Large or smaller creature and the allosaurus moved 30+ feet straight toward it immediately before the hit, the target has the\n\nProne condition, and the allosaurus can make one Bite attack against it."
+    }
+  ],
+  "rulesText": "Large Beast (Dinosaur), Unaligned\n\nAC 13\n\nInitiative +1 (11)\n\nHP 51 (6d10 + 18)\n\nSpeed 60 ft.\n\nSkills Perception +5\n\nSenses Passive Perception 15\n\nLanguages None\n\nCR 2 (XP 450; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 15 (2d10 + 4) Piercing damage.\n\nClaws. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing damage. If the target is a Large or smaller creature and the allosaurus moved 30+ feet straight toward it immediately before the hit, the target has the\n\nProne condition, and the allosaurus can make one Bite attack against it."
+}

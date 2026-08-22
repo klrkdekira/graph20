@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/13-1-animals",
+  "@type": "Rule",
+  "name": "Animals",
+  "slug": "13-1-animals",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.1",
+    "heading": "Animals",
+    "lineStart": 27119,
+    "lineEnd": 27119
+  },
+  "section": "13.1"
+}

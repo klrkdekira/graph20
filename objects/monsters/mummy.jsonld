@@ -1,0 +1,79 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/mummy",
+  "@type": "Monster",
+  "name": "Mummy",
+  "slug": "mummy",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.171",
+    "heading": "Mummy",
+    "lineStart": 23347,
+    "lineEnd": 23377
+  },
+  "sizeTypeAlignment": "Medium or Small Undead, Lawful Evil",
+  "sizeAndType": "Medium or Small Undead",
+  "alignment": "Lawful Evil",
+  "armorClass": "11",
+  "initiative": "-1 (9)",
+  "hitPoints": "58 (9d8 + 18)",
+  "speed": "20 ft.",
+  "vulnerabilities": "Fire",
+  "immunities": "Necrotic, Poison; Charmed, Exhaustion, Frightened, Paralyzed, Poisoned",
+  "senses": "Darkvision 60 ft.; Passive Perception 11",
+  "languages": "Common plus two other languages",
+  "challenge": "3 (XP 700; PB +2)",
+  "armorClassValue": 11,
+  "hitPointsValue": 58,
+  "hitPointsRoll": {
+    "expression": "9d8+18",
+    "count": 9,
+    "sides": 8,
+    "modifier": 18
+  },
+  "challengeRating": "3",
+  "experiencePoints": 700,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "dex": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
+    },
+    "con": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "int": {
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 3
+    },
+    "cha": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The mummy makes two Rotting Fist attacks and uses Dreadful Glare.\n\nRotting Fist. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Bludgeoning damage plus 10 (3d6) Necrotic damage. If the target is a creature, it is cursed. While cursed, the target can't regain Hit Points, its Hit Point maximum doesn't return to normal when finishing a Long Rest, and its Hit Point maximum decreases by 10 (3d6) every 24 hours that elapse. A creature dies and turns to dust if reduced to 0 Hit Points by this attack.\n\nDreadful Glare. Wisdom Saving Throw: DC 11, one creature the mummy can see within 60 feet. Failure: The target has the Frightened condition until the end of the mummy's next turn. Success: The target is immune to this mummy's Dreadful Glare for 24 hours."
+    }
+  ],
+  "rulesText": "Medium or Small Undead, Lawful Evil\n\nAC 11\n\nInitiative -1 (9)\n\nHP 58 (9d8 + 18)\n\nSpeed 20 ft.\n\nVulnerabilities Fire\nImmunities Necrotic, Poison; Charmed, Exhaustion, Frightened, Paralyzed, Poisoned\n\nSenses Darkvision 60 ft.; Passive Perception 11\n\nLanguages Common plus two other languages\n\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The mummy makes two Rotting Fist attacks and uses Dreadful Glare.\n\nRotting Fist. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Bludgeoning damage plus 10 (3d6) Necrotic damage. If the target is a creature, it is cursed. While cursed, the target can't regain Hit Points, its Hit Point maximum doesn't return to normal when finishing a Long Rest, and its Hit Point maximum decreases by 10 (3d6) every 24 hours that elapse. A creature dies and turns to dust if reduced to 0 Hit Points by this attack.\n\nDreadful Glare. Wisdom Saving Throw: DC 11, one creature the mummy can see within 60 feet. Failure: The target has the Frightened condition until the end of the mummy's next turn. Success: The target is immune to this mummy's Dreadful Glare for 24 hours."
+}

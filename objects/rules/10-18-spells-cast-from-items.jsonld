@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/10-18-spells-cast-from-items",
+  "@type": "Rule",
+  "name": "Spells Cast from Items",
+  "slug": "10-18-spells-cast-from-items",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.18",
+    "heading": "Spells Cast from Items",
+    "lineStart": 14540,
+    "lineEnd": 14546
+  },
+  "section": "10.18",
+  "rulesText": "Some magic items allow the user to cast a spell from the item. The spell is cast at the lowest possible spell and caster level, doesn't expend any of the user's spell slots, and requires no components unless the item's description notes otherwise. The spell uses its normal casting time, range, and duration, and the user of the item must concentrate if the spell requires Concentration. Many items, such as Potions, bypass the casting of a spell and confer the spell's effects with its usual duration. Certain items make exceptions to these rules, changing the casting time, duration, or other parts of a spell.\n\nA magic item may require the user to use their own spellcasting ability when casting a spell from the item. If the user has more than one spellcasting ability, the user chooses which one to use with the item. If the user doesn't have a spellcasting ability,\n\ntheir spellcasting ability modifier is +0 for the item, and the user's Proficiency Bonus applies."
+}

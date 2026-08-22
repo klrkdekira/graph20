@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-183-level-18-aura-expansion",
+  "@type": "Rule",
+  "name": "Level 18: Aura Expansion",
+  "slug": "3-183-level-18-aura-expansion",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.183",
+    "heading": "Level 18: Aura Expansion",
+    "lineStart": 3492,
+    "lineEnd": 3494
+  },
+  "section": "3.183",
+  "rulesText": "Your Aura of Protection is now a 30-foot Emanation."
+}

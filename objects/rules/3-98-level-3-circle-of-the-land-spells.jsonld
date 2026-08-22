@@ -1,0 +1,33 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-98-level-3-circle-of-the-land-spells",
+  "@type": "Rule",
+  "name": "Level 3: Circle of the Land Spells",
+  "slug": "3-98-level-3-circle-of-the-land-spells",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.98",
+    "heading": "Level 3: Circle of the Land Spells",
+    "lineStart": 2992,
+    "lineEnd": 3010
+  },
+  "section": "3.98",
+  "rulesText": "Whenever you finish a Long Rest, choose one type of land: arid, polar, temperate, or tropical. Consult the table below that corresponds to the chosen type; you have the spells listed for your Druid level and lower prepared.\n\nArid Land\n\nPolar Land\n\nTemperate Land\n\nTropical Land",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-98-arid-land"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-98-polar-land"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-98-temperate-land"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-98-tropical-land"
+    }
+  ]
+}

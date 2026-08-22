@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/wand-of-fear",
+  "@type": "MagicItem",
+  "name": "Wand of Fear",
+  "slug": "wand-of-fear",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.280",
+    "heading": "Wand of Fear",
+    "lineStart": 17157,
+    "lineEnd": 17167
+  },
+  "itemCategory": "Wand",
+  "rarity": "Rare",
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/10-280-wand-of-fear-table-1"
+    }
+  ],
+  "rulesText": "Wand, Rare (Requires Attunement)\n\nThis wand has 7 charges.\n\nSpells. While holding the wand, you can cast one of the spells (save DC 15) on the following table from it. The table indicates how many charges you must expend to cast the spell.\n\nRegaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed."
+}

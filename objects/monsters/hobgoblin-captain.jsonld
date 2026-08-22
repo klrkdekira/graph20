@@ -1,0 +1,78 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/hobgoblin-captain",
+  "@type": "Monster",
+  "name": "Hobgoblin Captain",
+  "slug": "hobgoblin-captain",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.137",
+    "heading": "Hobgoblin Captain",
+    "lineStart": 22166,
+    "lineEnd": 22198
+  },
+  "sizeTypeAlignment": "Medium Fey (Goblinoid), Lawful Evil",
+  "sizeAndType": "Medium Fey (Goblinoid)",
+  "alignment": "Lawful Evil",
+  "armorClass": "17",
+  "initiative": "+4 (14)",
+  "hitPoints": "58 (9d8 + 18)",
+  "speed": "30 ft.",
+  "senses": "Darkvision 60 ft.; Passive Perception 10",
+  "languages": "Common, Goblin",
+  "gear": "Greatsword, Half Plate Armor, Longbow",
+  "challenge": "3 (XP 700; PB +2)",
+  "armorClassValue": 17,
+  "hitPointsValue": 58,
+  "hitPointsRoll": {
+    "expression": "9d8+18",
+    "count": 9,
+    "sides": 8,
+    "modifier": 18
+  },
+  "challengeRating": "3",
+  "experiencePoints": 700,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "dex": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 14
+    },
+    "int": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "wis": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "cha": {
+      "score": 13
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Aura of Authority. While in a 10-foot Emanation originating from the hobgoblin, the hobgoblin and its allies have Advantage on attack rolls and saving throws, provided the hobgoblin doesn't have the Incapacitated condition."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The hobgoblin makes two attacks, using Greatsword or Longbow in any combination.\n\nGreatsword. Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Slashing damage plus 3 (1d6) Poison damage.\n\nLongbow. Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing damage plus 5 (2d4) Poison damage."
+    }
+  ],
+  "rulesText": "Medium Fey (Goblinoid), Lawful Evil\n\nAC 17\n\nInitiative +4 (14)\n\nHP 58 (9d8 + 18)\n\nSpeed 30 ft.\n\nGear Greatsword, Half Plate Armor, Longbow\n\nSenses Darkvision 60 ft.; Passive Perception 10\n\nLanguages Common, Goblin\n\nCR 3 (XP 700; PB +2)\n\nTraits\n\nAura of Authority. While in a 10-foot Emanation originating from the hobgoblin, the hobgoblin and its allies have Advantage on attack rolls and saving throws, provided the hobgoblin doesn't have the Incapacitated condition.\n\nActions\n\nMultiattack. The hobgoblin makes two attacks, using Greatsword or Longbow in any combination.\n\nGreatsword. Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Slashing damage plus 3 (1d6) Poison damage.\n\nLongbow. Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing damage plus 5 (2d4) Poison damage."
+}

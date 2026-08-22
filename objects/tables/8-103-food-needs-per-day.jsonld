@@ -1,0 +1,76 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/8-103-food-needs-per-day",
+  "@type": "Table",
+  "name": "Food Needs per Day",
+  "slug": "8-103-food-needs-per-day",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.103",
+    "heading": "Malnutrition [Hazard]",
+    "lineStart": 13418,
+    "lineEnd": 13418
+  },
+  "columns": [
+    "Size",
+    "Food",
+    "Size",
+    "Food"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Tiny"
+        },
+        {
+          "value": "1/4 pound"
+        },
+        {
+          "value": "Large"
+        },
+        {
+          "value": "4 pounds"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Small"
+        },
+        {
+          "value": "1 pound"
+        },
+        {
+          "value": "Huge"
+        },
+        {
+          "value": "16 pounds"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Medium"
+        },
+        {
+          "value": "1 pound"
+        },
+        {
+          "value": "Gargantuan"
+        },
+        {
+          "value": "64 pounds"
+        }
+      ]
+    }
+  ]
+}

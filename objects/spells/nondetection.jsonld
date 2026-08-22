@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/nondetection",
+  "@type": "Spell",
+  "name": "Nondetection",
+  "slug": "nondetection",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.251",
+    "heading": "Nondetection",
+    "lineStart": 10587,
+    "lineEnd": 10599
+  },
+  "level": 3,
+  "school": "Abjuration",
+  "classAvailability": [
+    "Bard",
+    "Ranger",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": "V, S, M (a pinch of diamond dust worth 25+ GP, which the spell consumes)",
+  "duration": "8 hours",
+  "rulesText": "Level 3 Abjuration (Bard, Ranger, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (a pinch of diamond dust worth 25+ GP, which the spell consumes)\n\nDuration: 8 hours\n\nFor the duration, you hide a target that you touch from Divination spells. The target can be a willing creature, or it can be a place or an object no larger than 10 feet in any dimension. The target can't be targeted by any Divination spell or perceived through magical scrying sensors."
+}

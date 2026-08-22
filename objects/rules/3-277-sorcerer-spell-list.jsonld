@@ -1,0 +1,54 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-277-sorcerer-spell-list",
+  "@type": "Rule",
+  "name": "Sorcerer Spell List",
+  "slug": "3-277-sorcerer-spell-list",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.277",
+    "heading": "Sorcerer Spell List",
+    "lineStart": 4109,
+    "lineEnd": 4153
+  },
+  "section": "3.277",
+  "rulesText": "This section presents the Sorcerer spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, C means the spell requires Concentration, R means it's a Ritual, and M means it requires a specific Material component.\n\nCantrips (Level 0 Sorcerer Spells)\n\nLevel I Sorcerer Spells\n\nLevel 2 Sorcerer Spells\n\nLevel 3 Sorcerer Spells\n\nLevel 4 Sorcerer Spells\n\nLevel 5 Sorcerer Spells\n\nLevel 6 Sorcerer Spells\n\nLevel 7 Sorcerer Spells\n\nLevel 8 Sorcerer Spells\n\nLevel 9 Sorcerer Spells",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-277-cantrips-level-0-sorcerer-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-277-level-i-sorcerer-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-277-level-2-sorcerer-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-277-level-2-sorcerer-spells-2"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-277-level-3-sorcerer-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-277-level-4-sorcerer-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-277-level-5-sorcerer-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-277-level-6-sorcerer-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-277-level-7-sorcerer-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-277-level-8-sorcerer-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-277-level-9-sorcerer-spells"
+    }
+  ]
+}

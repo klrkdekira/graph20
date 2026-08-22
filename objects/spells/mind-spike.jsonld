@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/mind-spike",
+  "@type": "Spell",
+  "name": "Mind Spike",
+  "slug": "mind-spike",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.242",
+    "heading": "Mind Spike",
+    "lineStart": 10415,
+    "lineEnd": 10431
+  },
+  "level": 2,
+  "school": "Divination",
+  "classAvailability": [
+    "Sorcerer",
+    "Warlock",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "120 feet",
+  "components": "S",
+  "duration": "Concentration, up to 1 hour",
+  "rulesText": "Level 2 Divination (Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\n\nRange: 120 feet\n\nComponents: S\n\nDuration: Concentration, up to 1 hour\n\nYou drive a spike of psionic energy into the mind of one creature you can see within range. The target makes a Wisdom saving throw, taking 3d8 Psychic damage on a failed save or half as much damage on a successful one. On a failed save, you also always know the target's location until the spell ends, but only while the two of you are on the same plane\n\nof existence. While you have this knowledge, the target can't become hidden from you, and if it has the Invisible condition, it gains no benefit from that condition against you.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 2."
+}

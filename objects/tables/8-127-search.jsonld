@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/8-127-search",
+  "@type": "Table",
+  "name": "Search",
+  "slug": "8-127-search",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.127",
+    "heading": "Search [Action]",
+    "lineStart": 13564,
+    "lineEnd": 13564
+  },
+  "columns": [
+    "Skill",
+    "Thing to Detect"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Insight"
+        },
+        {
+          "value": "Creature’s state of mind"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Medicine"
+        },
+        {
+          "value": "Creature’s ailment or cause of death"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Perception"
+        },
+        {
+          "value": "Concealed creature or object"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Survival"
+        },
+        {
+          "value": "Tracks or food"
+        }
+      ]
+    }
+  ]
+}

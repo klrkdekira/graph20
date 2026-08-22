@@ -1,0 +1,78 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/hippogriff",
+  "@type": "Monster",
+  "name": "Hippogriff",
+  "slug": "hippogriff",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.134",
+    "heading": "Hippogriff",
+    "lineStart": 22097,
+    "lineEnd": 22129
+  },
+  "sizeTypeAlignment": "Large Monstrosity, Unaligned",
+  "sizeAndType": "Large Monstrosity",
+  "alignment": "Unaligned",
+  "armorClass": "11",
+  "initiative": "+1 (11)",
+  "hitPoints": "26 (4d10 + 4)",
+  "speed": "40 ft., Fly 60 ft.",
+  "skills": "Perception +5",
+  "senses": "Passive Perception 15",
+  "languages": "None",
+  "challenge": "1 (XP 200; PB +2)",
+  "armorClassValue": 11,
+  "hitPointsValue": 26,
+  "hitPointsRoll": {
+    "expression": "4d10+4",
+    "count": 4,
+    "sides": 10,
+    "modifier": 4
+  },
+  "challengeRating": "1",
+  "experiencePoints": 200,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "dex": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "con": {
+      "score": 13
+    },
+    "int": {
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 8
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Flyby. The hippogriff doesn't provoke an Opportunity Attack when it flies out of an enemy's reach."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The hippogriff makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage."
+    }
+  ],
+  "rulesText": "Large Monstrosity, Unaligned\n\nAC 11\n\nInitiative +1 (11)\n\nHP 26 (4d10 + 4)\n\nSpeed 40 ft., Fly 60 ft.\n\nSkills Perception +5\n\nSenses Passive Perception 15\n\nLanguages None\n\nCR 1 (XP 200; PB +2)\n\nTraits\n\nFlyby. The hippogriff doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nMultiattack. The hippogriff makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage."
+}

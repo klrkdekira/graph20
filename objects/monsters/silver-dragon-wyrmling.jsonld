@@ -1,0 +1,75 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/silver-dragon-wyrmling",
+  "@type": "Monster",
+  "name": "Silver Dragon Wyrmling",
+  "slug": "silver-dragon-wyrmling",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.215",
+    "heading": "Silver Dragon Wyrmling",
+    "lineStart": 24948,
+    "lineEnd": 24981
+  },
+  "sizeTypeAlignment": "Medium Dragon (Metallic), Lawful Good",
+  "sizeAndType": "Medium Dragon (Metallic)",
+  "alignment": "Lawful Good",
+  "armorClass": "17",
+  "initiative": "+2 (12)",
+  "hitPoints": "45 (6d8 + 18)",
+  "speed": "30 ft., Fly 60 ft.",
+  "skills": "Perception +4, Stealth +2",
+  "immunities": "Cold",
+  "senses": "Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14",
+  "languages": "Draconic",
+  "challenge": "2 (450 XP; PB +2)",
+  "armorClassValue": 17,
+  "hitPointsValue": 45,
+  "hitPointsRoll": {
+    "expression": "6d8+18",
+    "count": 6,
+    "sides": 8,
+    "modifier": 18
+  },
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 19,
+      "modifier": 4,
+      "savingThrow": 4
+    },
+    "dex": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 17
+    },
+    "int": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "wis": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 2
+    },
+    "cha": {
+      "score": 15
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Piercing damage.\n\nCold Breath (Recharge 5–6). Constitution Saving\nThrow: DC 13, each creature in a 15-foot Cone. Failure: 18 (4d8) Cold damage. Success: Half damage.\n\nParalyzing Breath. Constitution Saving Throw: DC 13, each creature in a 15-foot Cone. First Failure: The target has the Incapacitated condition until the end of its next turn, when it repeats the save. Second Failure: The target has the Paralyzed condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+    }
+  ],
+  "rulesText": "Medium Dragon (Metallic), Lawful Good\n\nAC 17\n\nInitiative +2 (12)\n\nHP 45 (6d8 + 18)\n\nSpeed 30 ft., Fly 60 ft.\n\nSkills Perception +4, Stealth +2\n\nImmunities Cold\n\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14\n\nLanguages Draconic\n\nCR 2 (450 XP; PB +2)\n\nActions\n\nMultiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Piercing damage.\n\nCold Breath (Recharge 5–6). Constitution Saving\nThrow: DC 13, each creature in a 15-foot Cone. Failure: 18 (4d8) Cold damage. Success: Half damage.\n\nParalyzing Breath. Constitution Saving Throw: DC 13, each creature in a 15-foot Cone. First Failure: The target has the Incapacitated condition until the end of its next turn, when it repeats the save. Second Failure: The target has the Paralyzed condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+}

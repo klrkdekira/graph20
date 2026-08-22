@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-131-becoming-a-monk",
+  "@type": "Rule",
+  "name": "Becoming a Monk ...",
+  "slug": "3-131-becoming-a-monk",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.131",
+    "heading": "Becoming a Monk ...",
+    "lineStart": 3178,
+    "lineEnd": 3178
+  },
+  "section": "3.131"
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-152-level-14-disciplined-survivor",
+  "@type": "Rule",
+  "name": "Level 14: Disciplined Survivor",
+  "slug": "3-152-level-14-disciplined-survivor",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.152",
+    "heading": "Level 14: Disciplined Survivor",
+    "lineStart": 3307,
+    "lineEnd": 3311
+  },
+  "section": "3.152",
+  "rulesText": "Your physical and mental discipline grant you proficiency in all saving throws.\n\nAdditionally, whenever you make a saving throw and fail, you can expend 1 Focus Point to reroll it, and you must use the new roll."
+}

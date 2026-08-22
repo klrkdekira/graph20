@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/dagger-of-venom",
+  "@type": "MagicItem",
+  "name": "Dagger of Venom",
+  "slug": "dagger-of-venom",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.89",
+    "heading": "Dagger of Venom",
+    "lineStart": 15146,
+    "lineEnd": 15152
+  },
+  "itemCategory": "Weapon",
+  "categoryDetail": "Dagger",
+  "rarity": "Rare",
+  "requiresAttunement": false,
+  "rulesText": "Weapon (Dagger), Rare\n\nYou gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.\n\nYou can take a Bonus Action to magically coat the blade with poison. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take 2d10 Poison damage and have the Poisoned condition for 1 minute. The weapon can't be used this way again until the next dawn."
+}

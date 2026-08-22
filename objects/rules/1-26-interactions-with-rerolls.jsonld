@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-26-interactions-with-rerolls",
+  "@type": "Rule",
+  "name": "Interactions with Rerolls",
+  "slug": "1-26-interactions-with-rerolls",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.26",
+    "heading": "Interactions with Rerolls",
+    "lineStart": 1153,
+    "lineEnd": 1157
+  },
+  "section": "1.26",
+  "rulesText": "When you have Advantage or Disadvantage and something in the game lets you reroll or replace the d20, you can reroll or replace only one die, not both. You choose which one.\n\nFor example, if you have Heroic Inspiration (see the sidebar below) and roll a 3 and an 18 on an ability check that has Advantage or Disadvantage, you could expend your Heroic Inspiration to reroll one of those dice, not both of them."
+}

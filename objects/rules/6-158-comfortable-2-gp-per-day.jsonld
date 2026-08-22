@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-158-comfortable-2-gp-per-day",
+  "@type": "Rule",
+  "name": "Comfortable (2 GP per Day)",
+  "slug": "6-158-comfortable-2-gp-per-day",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.158",
+    "heading": "Comfortable (2 GP per Day)",
+    "lineStart": 6117,
+    "lineEnd": 6119
+  },
+  "section": "6.158",
+  "rulesText": "You spend modestly for your necessities and enjoy a few luxuries."
+}

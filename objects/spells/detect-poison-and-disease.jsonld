@@ -1,0 +1,30 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/detect-poison-and-disease",
+  "@type": "Spell",
+  "name": "Detect Poison and Disease",
+  "slug": "detect-poison-and-disease",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.112",
+    "heading": "Detect Poison and Disease",
+    "lineStart": 7958,
+    "lineEnd": 7974
+  },
+  "level": 1,
+  "school": "Divination",
+  "classAvailability": [
+    "Cleric",
+    "Druid",
+    "Paladin",
+    "Ranger"
+  ],
+  "castingTime": "Action or Ritual",
+  "range": "Self",
+  "components": "V, S, M (a yew leaf)",
+  "duration": "Concentration, up to 10 minutes",
+  "rulesText": "Level 1 Divination (Cleric, Druid, Paladin, Ranger)\n\nCasting Time: Action or Ritual\n\nRange: Self\n\nComponents: V, S, M (a yew leaf)\n\nDuration: Concentration, up to 10 minutes\n\nFor the duration, you sense the location of poisons, poisonous or venomous creatures, and magical\n\ncontagions within 30 feet of yourself. You sense the kind of poison, creature, or contagion in each case.\n\nThe spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead."
+}

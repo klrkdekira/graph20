@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-71-bedroll-i-gp",
+  "@type": "Rule",
+  "name": "Bedroll (I GP)",
+  "slug": "6-71-bedroll-i-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.71",
+    "heading": "Bedroll (I GP)",
+    "lineStart": 5721,
+    "lineEnd": 5723
+  },
+  "section": "6.71",
+  "rulesText": "A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against extreme cold (see “Gameplay Toolbox”)."
+}

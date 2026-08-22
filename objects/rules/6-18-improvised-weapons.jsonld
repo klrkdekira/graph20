@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-18-improvised-weapons",
+  "@type": "Rule",
+  "name": "IMPROVISED WEAPONS",
+  "slug": "6-18-improvised-weapons",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.18",
+    "heading": "IMPROVISED WEAPONS",
+    "lineStart": 5353,
+    "lineEnd": 5355
+  },
+  "section": "6.18",
+  "rulesText": "If you use an object—such as a table leg, frying pan, or bottle—as a makeshift weapon, see “Improvised Weapons” in “Rules Glossary.” Also see those rules if you wield a weapon in an unusual way, such as using a Ranged weapon to make a melee attack."
+}

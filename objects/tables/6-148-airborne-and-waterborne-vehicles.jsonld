@@ -1,0 +1,254 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/6-148-airborne-and-waterborne-vehicles",
+  "@type": "Table",
+  "name": "Airborne and Waterborne Vehicles",
+  "slug": "6-148-airborne-and-waterborne-vehicles",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.148",
+    "heading": "Speed",
+    "lineStart": 6075,
+    "lineEnd": 6075
+  },
+  "columns": [
+    "Ship",
+    "Speed",
+    "Crew",
+    "Passengers",
+    "Cargo (Tons)",
+    "AC",
+    "HP",
+    "Damage Threshold",
+    "Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Airship"
+        },
+        {
+          "value": "8 mph"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "20"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "13"
+        },
+        {
+          "value": "300"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "40,000 GP"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Galley"
+        },
+        {
+          "value": "4 mph"
+        },
+        {
+          "value": "80"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "150"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "500"
+        },
+        {
+          "value": "20"
+        },
+        {
+          "value": "30,000 GP"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Keelboat"
+        },
+        {
+          "value": "1 mph"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "1/2"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "100"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "3,000 GP"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Longship"
+        },
+        {
+          "value": "3 mph"
+        },
+        {
+          "value": "40"
+        },
+        {
+          "value": "150"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "300"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "10,000 GP"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Rowboat"
+        },
+        {
+          "value": "11⁄2 mph"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "11"
+        },
+        {
+          "value": "50"
+        },
+        {
+          "value": "—"
+        },
+        {
+          "value": "50 GP"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Sailing Ship"
+        },
+        {
+          "value": "2 mph"
+        },
+        {
+          "value": "20"
+        },
+        {
+          "value": "20"
+        },
+        {
+          "value": "100"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "300"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "10,000 GP"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Warship"
+        },
+        {
+          "value": "21⁄2 mph"
+        },
+        {
+          "value": "60"
+        },
+        {
+          "value": "60"
+        },
+        {
+          "value": "200"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "500"
+        },
+        {
+          "value": "20"
+        },
+        {
+          "value": "25,000 GP"
+        }
+      ]
+    }
+  ]
+}

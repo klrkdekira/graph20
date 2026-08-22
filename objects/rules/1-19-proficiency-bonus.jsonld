@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-19-proficiency-bonus",
+  "@type": "Rule",
+  "name": "Proficiency Bonus",
+  "slug": "1-19-proficiency-bonus",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.19",
+    "heading": "Proficiency Bonus",
+    "lineStart": 1103,
+    "lineEnd": 1105
+  },
+  "section": "1.19",
+  "rulesText": "You add your Proficiency Bonus to your attack roll when you attack using a weapon you have proficiency with, as well as when you attack with a spell. See “Proficiency” later in “Playing the Game” for more information about weapon proficiencies."
+}

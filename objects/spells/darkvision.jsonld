@@ -1,0 +1,30 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/darkvision",
+  "@type": "Spell",
+  "name": "Darkvision",
+  "slug": "darkvision",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.105",
+    "heading": "Darkvision",
+    "lineStart": 7836,
+    "lineEnd": 7848
+  },
+  "level": 2,
+  "school": "Transmutation",
+  "classAvailability": [
+    "Druid",
+    "Ranger",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": "V, S, M (a dried carrot)",
+  "duration": "8 hours",
+  "rulesText": "Level 2 Transmutation (Druid, Ranger, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (a dried carrot)\n\nDuration: 8 hours\n\nFor the duration, a willing creature you touch has Darkvision with a range of 150 feet."
+}

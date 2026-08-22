@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-60-thieves-tools-25-gp",
+  "@type": "Rule",
+  "name": "Thieves' Tools (25 GP)",
+  "slug": "6-60-thieves-tools-25-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.60",
+    "heading": "Thieves' Tools (25 GP)",
+    "lineStart": 5659,
+    "lineEnd": 5665
+  },
+  "section": "6.60",
+  "rulesText": "Ability: Dexterity\n\nWeight: 1 lb.\n\nUtilize: Pick a lock (DC 15), or disarm a trap (DC 15)"
+}

@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/locate-animals-or-plants",
+  "@type": "Spell",
+  "name": "Locate Animals or Plants",
+  "slug": "locate-animals-or-plants",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.219",
+    "heading": "Locate Animals or Plants",
+    "lineStart": 10006,
+    "lineEnd": 10018
+  },
+  "level": 2,
+  "school": "Divination",
+  "classAvailability": [
+    "Bard",
+    "Druid",
+    "Ranger"
+  ],
+  "castingTime": "Action or Ritual",
+  "range": "Self",
+  "components": "V, S, M (fur from a bloodhound)",
+  "duration": "Instantaneous",
+  "rulesText": "Level 2 Divination (Bard, Druid, Ranger)\n\nCasting Time: Action or Ritual\n\nRange: Self\n\nComponents: V, S, M (fur from a bloodhound)\n\nDuration: Instantaneous\n\nDescribe or name a specific kind of Beast, Plant creature, or nonmagical plant. You learn the direction and distance to the closest creature or plant of that kind within 5 miles, if any are present."
+}

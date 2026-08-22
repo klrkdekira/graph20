@@ -1,0 +1,94 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-188-potion-of-giant-strength-table-1",
+  "@type": "Table",
+  "name": "Potion of Giant Strength Table 1",
+  "slug": "10-188-potion-of-giant-strength-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.188",
+    "heading": "Potion of Giant Strength",
+    "lineStart": 16227,
+    "lineEnd": 16227
+  },
+  "columns": [
+    "Potion",
+    "Str.",
+    "Rarity"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Potion of Giant Strength (hill)"
+        },
+        {
+          "value": "21"
+        },
+        {
+          "value": "Uncommon"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Potion of Giant Strength (frost or stone)"
+        },
+        {
+          "value": "23"
+        },
+        {
+          "value": "Rare"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Potion of Giant Strength (fire)"
+        },
+        {
+          "value": "25"
+        },
+        {
+          "value": "Rare"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Potion of Giant Strength (cloud)"
+        },
+        {
+          "value": "27"
+        },
+        {
+          "value": "Very Rare"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Potion of Giant Strength (storm)"
+        },
+        {
+          "value": "29"
+        },
+        {
+          "value": "Legendary"
+        }
+      ]
+    }
+  ]
+}

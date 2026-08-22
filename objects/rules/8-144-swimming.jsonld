@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-144-swimming",
+  "@type": "Rule",
+  "name": "Swimming",
+  "slug": "8-144-swimming",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.144",
+    "heading": "Swimming",
+    "lineStart": 13702,
+    "lineEnd": 13704
+  },
+  "section": "8.144",
+  "rulesText": "While you're swimming, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain). You ignore this extra cost if you have a Swim Speed and use it to swim. At the GM's option, moving any distance in rough water might require a successful DC 15 Strength (Athletics) check."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-55-gaming-set-varies",
+  "@type": "Rule",
+  "name": "Gaming Set (Varies)",
+  "slug": "6-55-gaming-set-varies",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.55",
+    "heading": "Gaming Set (Varies)",
+    "lineStart": 5609,
+    "lineEnd": 5617
+  },
+  "section": "6.55",
+  "rulesText": "Ability: Wisdom\n\nWeight: —\n\nUtilize: Discern whether someone is cheating (DC 10), or win the game (DC 20)\n\nVariants: Dice (I SP), dragonchess (I GP), playing cards (5 SP), three-dragon ante (I GP)"
+}

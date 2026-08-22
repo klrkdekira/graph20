@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/12-160-mephits",
+  "@type": "Rule",
+  "name": "Mephits",
+  "slug": "12-160-mephits",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.160",
+    "heading": "Mephits",
+    "lineStart": 23058,
+    "lineEnd": 23058
+  },
+  "section": "12.160"
+}

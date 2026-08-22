@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-11-3-choose-skill-proficiencies",
+  "@type": "Rule",
+  "name": "3: Choose Skill Proficiencies",
+  "slug": "9-11-3-choose-skill-proficiencies",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.11",
+    "heading": "3: Choose Skill Proficiencies",
+    "lineStart": 13869,
+    "lineEnd": 13871
+  },
+  "section": "9.11",
+  "rulesText": "Choose two skills appropriate for the background. There needn't be a relationship between the skill proficiencies a background grants and the ability scores it increases."
+}

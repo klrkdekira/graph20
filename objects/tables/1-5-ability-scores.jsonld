@@ -1,0 +1,100 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/1-5-ability-scores",
+  "@type": "Table",
+  "name": "Ability Scores",
+  "slug": "1-5-ability-scores",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.5",
+    "heading": "Ability Scores",
+    "lineStart": 1017,
+    "lineEnd": 1017
+  },
+  "columns": [
+    "Score",
+    "Meaning"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "This is the lowest a score can normally go. If an effect reduces a score to 0, that effect explains what happens."
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "2–9"
+        },
+        {
+          "value": "This represents a weak capability."
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "10–11"
+        },
+        {
+          "value": "This represents the human average."
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "12–19"
+        },
+        {
+          "value": "This represents a strong capability."
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "20"
+        },
+        {
+          "value": "This is the highest an adventurer’s score can go unless a feature says otherwise."
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "21–29"
+        },
+        {
+          "value": "This represents an extraordinary capability."
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "30"
+        },
+        {
+          "value": "This is the highest a score can go."
+        }
+      ]
+    }
+  ]
+}

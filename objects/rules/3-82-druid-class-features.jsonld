@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-82-druid-class-features",
+  "@type": "Rule",
+  "name": "Druid Class Features",
+  "slug": "3-82-druid-class-features",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.82",
+    "heading": "Druid Class Features",
+    "lineStart": 2810,
+    "lineEnd": 2812
+  },
+  "section": "3.82",
+  "rulesText": "As a Druid, you gain the following class features when you reach the specified Druid levels. These features are listed in the Druid Features table."
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/feats/boon-of-spell-recall",
+  "@type": "Feat",
+  "name": "Boon of Spell Recall",
+  "slug": "boon-of-spell-recall",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Feats",
+    "section": "5.22",
+    "heading": "Boon of Spell Recall",
+    "lineStart": 5239,
+    "lineEnd": 5247
+  },
+  "category": "Epic Boon",
+  "prerequisite": "Level 19+, Spellcasting Feature",
+  "repeatable": false,
+  "rulesText": "Epic Boon Feat (Prerequisite: Level 19+, Spellcasting Feature)\n\nYou gain the following benefits.\n\nAbility Score Increase. Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.\n\nFree Casting. Whenever you cast a spell with a level 1–4 spell slot, roll 1d4. If the number you roll is the same as the slot's level, the slot isn't expended."
+}

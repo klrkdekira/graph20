@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/magic-missile",
+  "@type": "Spell",
+  "name": "Magic Missile",
+  "slug": "magic-missile",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.227",
+    "heading": "Magic Missile",
+    "lineStart": 10159,
+    "lineEnd": 10173
+  },
+  "level": 1,
+  "school": "Evocation",
+  "classAvailability": [
+    "Sorcerer",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "120 feet",
+  "components": "V, S",
+  "duration": "Instantaneous",
+  "rulesText": "Level 1 Evocation (Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 120 feet\n\nComponents: V, S\n\nDuration: Instantaneous\n\nYou create three glowing darts of magical force. Each dart strikes a creature of your choice that you can see within range. A dart deals 1d4 + 1 Force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.\n\nUsing a Higher-Level Spell Slot. The spell creates one more dart for each spell slot level above 1."
+}

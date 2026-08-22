@@ -1,0 +1,78 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/2-12-rare-languages",
+  "@type": "Table",
+  "name": "Rare Languages",
+  "slug": "2-12-rare-languages",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.12",
+    "heading": "Choose Languages",
+    "lineStart": 1817,
+    "lineEnd": 1817
+  },
+  "columns": [
+    "Language",
+    "Language"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Abyssal"
+        },
+        {
+          "value": "Primordial*"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Celestial"
+        },
+        {
+          "value": "Sylvan"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Deep Speech"
+        },
+        {
+          "value": "Thieves’ Cant"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Druidic"
+        },
+        {
+          "value": "Undercommon"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Infernal"
+        },
+        {
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

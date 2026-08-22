@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/4-26-halfling",
+  "@type": "Rule",
+  "name": "Halfling",
+  "slug": "4-26-halfling",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Origins",
+    "section": "4.26",
+    "heading": "Halfling",
+    "lineStart": 5009,
+    "lineEnd": 5025
+  },
+  "section": "4.26",
+  "rulesText": "Creature Type: Humanoid\n\nSize: Small (about 2–3 feet tall)\n\nSpeed: 30 feet\n\nAs a Halfling, you have these special traits.\n\nBrave. You have Advantage on saving throws you make to avoid or end the Frightened condition.\n\nHalfling Nimbleness. You can move through the space of any creature that is a size larger than you, but you can't stop in the same space.\n\nLuck. When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll.\n\nNaturally Stealthy. You can take the Hide action even when you are obscured only by a creature that is at least one size larger than you."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-103-dropping-to-0-hit-points",
+  "@type": "Rule",
+  "name": "Dropping to 0 Hit Points",
+  "slug": "1-103-dropping-to-0-hit-points",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.103",
+    "heading": "Dropping to 0 Hit Points",
+    "lineStart": 1656,
+    "lineEnd": 1658
+  },
+  "section": "1.103",
+  "rulesText": "When a creature drops to 0 Hit Points, it either dies outright or falls unconscious, as explained below."
+}

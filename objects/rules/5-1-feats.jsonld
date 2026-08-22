@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/5-1-feats",
+  "@type": "Rule",
+  "name": "Feats",
+  "slug": "5-1-feats",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Feats",
+    "section": "5.1",
+    "heading": "Feats",
+    "lineStart": 5085,
+    "lineEnd": 5085
+  },
+  "section": "5.1"
+}

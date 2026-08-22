@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-110-level-i-weapon-mastery",
+  "@type": "Rule",
+  "name": "Level I: Weapon Mastery",
+  "slug": "3-110-level-i-weapon-mastery",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.110",
+    "heading": "Level I: Weapon Mastery",
+    "lineStart": 3078,
+    "lineEnd": 3082
+  },
+  "section": "3.110",
+  "rulesText": "Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.\n\nWhen you reach certain Fighter levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter Features table."
+}

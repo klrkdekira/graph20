@@ -1,0 +1,45 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-278-wand-of-binding-table-1",
+  "@type": "Table",
+  "name": "Wand of Binding Table 1",
+  "slug": "10-278-wand-of-binding-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.278",
+    "heading": "Wand of Binding",
+    "lineStart": 17144,
+    "lineEnd": 17144
+  },
+  "columns": [
+    "Spell",
+    "Charge Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Hold Monster"
+        },
+        {
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Hold Person"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    }
+  ]
+}

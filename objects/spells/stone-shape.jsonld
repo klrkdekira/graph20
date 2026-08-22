@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/stone-shape",
+  "@type": "Spell",
+  "name": "Stone Shape",
+  "slug": "stone-shape",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.325",
+    "heading": "Stone Shape",
+    "lineStart": 11888,
+    "lineEnd": 11900
+  },
+  "level": 4,
+  "school": "Transmutation",
+  "classAvailability": [
+    "Cleric",
+    "Druid",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": "V, S, M (soft clay)",
+  "duration": "Instantaneous",
+  "rulesText": "Level 4 Transmutation (Cleric, Druid, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, S, M (soft clay)\n\nDuration: Instantaneous\n\nYou touch a stone object of Medium size or smaller or a section of stone no more than 5 feet in any dimension and form it into any shape you like. For example, you could shape a large rock into a weapon, statue, or coffer, or you could make a small passage through a wall that is 5 feet thick. You could also shape a stone door or its frame to seal the door shut. The object you create can have up to two hinges and a latch, but finer mechanical detail isn't possible."
+}

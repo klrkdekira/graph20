@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/feats/archery",
+  "@type": "Feat",
+  "name": "Archery",
+  "slug": "archery",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Feats",
+    "section": "5.13",
+    "heading": "Archery",
+    "lineStart": 5169,
+    "lineEnd": 5173
+  },
+  "category": "Fighting Style",
+  "prerequisite": "Fighting Style Feature",
+  "repeatable": false,
+  "rulesText": "Fighting Style Feat (Prerequisite: Fighting Style Feature)\n\nYou gain a +2 bonus to attack rolls you make with Ranged weapons."
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-167-necklace-of-prayer-beads-table-1",
+  "@type": "Table",
+  "name": "Necklace of Prayer Beads Table 1",
+  "slug": "10-167-necklace-of-prayer-beads-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.167",
+    "heading": "Necklace of Prayer Beads",
+    "lineStart": 16045,
+    "lineEnd": 16045
+  },
+  "columns": [
+    "Id20",
+    "Bead",
+    "Spell"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "1-6"
+        },
+        {
+          "value": "Bead of Blessing"
+        },
+        {
+          "value": "Bless"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "7-12"
+        },
+        {
+          "value": "Bead of Curing"
+        },
+        {
+          "value": "Cure Wounds (level 2 version)"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "13-16"
+        },
+        {
+          "value": "Bead of Favor"
+        },
+        {
+          "value": "Greater Restoration"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "17-18"
+        },
+        {
+          "value": "Bead of Smiting"
+        },
+        {
+          "value": "Shining Smite"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "19"
+        },
+        {
+          "value": "Bead of Summons"
+        },
+        {
+          "value": "Guardian of Faith"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "20"
+        },
+        {
+          "value": "Bead of Wind Walking"
+        },
+        {
+          "value": "Wind Walk"
+        }
+      ]
+    }
+  ]
+}

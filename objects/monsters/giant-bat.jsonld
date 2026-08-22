@@ -1,0 +1,69 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/giant-bat",
+  "@type": "Monster",
+  "name": "Giant Bat",
+  "slug": "giant-bat",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.28",
+    "heading": "Giant Bat",
+    "lineStart": 27866,
+    "lineEnd": 27888
+  },
+  "sizeTypeAlignment": "Large Beast, Unaligned",
+  "sizeAndType": "Large Beast",
+  "alignment": "Unaligned",
+  "armorClass": "13",
+  "initiative": "+3 (13)",
+  "hitPoints": "22 (4d10)",
+  "speed": "10 ft., Fly 60 ft.",
+  "senses": "Blindsight 120 ft.; Passive Perception 11",
+  "languages": "None",
+  "challenge": "1/4 (XP 50; PB +2)",
+  "armorClassValue": 13,
+  "hitPointsValue": 22,
+  "hitPointsRoll": {
+    "expression": "4d10",
+    "count": 4,
+    "sides": 10
+  },
+  "challengeRating": "1/4",
+  "experiencePoints": 50,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "dex": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "int": {
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 6
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage."
+    }
+  ],
+  "rulesText": "Large Beast, Unaligned\n\nAC 13\n\nInitiative +3 (13)\n\nHP 22 (4d10)\n\nSpeed 10 ft., Fly 60 ft.\n\nSenses Blindsight 120 ft.; Passive Perception 11\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/10-29-sentient-magic-item-traits",
+  "@type": "Rule",
+  "name": "Sentient Magic Item Traits",
+  "slug": "10-29-sentient-magic-item-traits",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.29",
+    "heading": "Sentient Magic Item Traits",
+    "lineStart": 14614,
+    "lineEnd": 14616
+  },
+  "section": "10.29",
+  "rulesText": "When you make a sentient magic item, you create the item's persona much as you would create an NPC, with these exceptions."
+}

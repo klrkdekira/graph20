@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-10-level-2-danger-sense",
+  "@type": "Rule",
+  "name": "Level 2: Danger Sense",
+  "slug": "3-10-level-2-danger-sense",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.10",
+    "heading": "Level 2: Danger Sense",
+    "lineStart": 2313,
+    "lineEnd": 2315
+  },
+  "section": "3.10",
+  "rulesText": "You gain an uncanny sense of when things aren't as they should be, giving you an edge when you dodge perils. You have Advantage on Dexterity saving throws unless you have the Incapacitated condition."
+}

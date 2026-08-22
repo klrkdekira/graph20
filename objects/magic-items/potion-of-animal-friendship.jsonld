@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/potion-of-animal-friendship",
+  "@type": "MagicItem",
+  "name": "Potion of Animal Friendship",
+  "slug": "potion-of-animal-friendship",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.182",
+    "heading": "Potion of Animal Friendship",
+    "lineStart": 16172,
+    "lineEnd": 16178
+  },
+  "itemCategory": "Potion",
+  "rarity": "Uncommon",
+  "requiresAttunement": false,
+  "rulesText": "Potion, Uncommon\n\nWhen you drink this potion, you can cast the level 3 version of the Animal Friendship spell (save DC 13).\n\nAgitating this potion's muddy liquid brings little bits into view: a fish scale, a hummingbird feather, a cat claw, or a squirrel hair."
+}

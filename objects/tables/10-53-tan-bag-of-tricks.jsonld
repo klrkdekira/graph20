@@ -1,0 +1,93 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-53-tan-bag-of-tricks",
+  "@type": "Table",
+  "name": "Tan Bag of Tricks",
+  "slug": "10-53-tan-bag-of-tricks",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.53",
+    "heading": "Bag of Tricks",
+    "lineStart": 14853,
+    "lineEnd": 14853
+  },
+  "columns": [
+    "Id8",
+    "Creature",
+    "Id8",
+    "Creature"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "Jackal"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "Black Bear"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "Ape"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "Giant Weasel"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "Baboon"
+        },
+        {
+          "value": "7"
+        },
+        {
+          "value": "Giant Hyena"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "Axe Beak"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "Tiger"
+        }
+      ]
+    }
+  ]
+}

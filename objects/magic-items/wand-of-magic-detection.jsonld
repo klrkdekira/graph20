@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/wand-of-magic-detection",
+  "@type": "MagicItem",
+  "name": "Wand of Magic Detection",
+  "slug": "wand-of-magic-detection",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.283",
+    "heading": "Wand of Magic Detection",
+    "lineStart": 17185,
+    "lineEnd": 17189
+  },
+  "itemCategory": "Wand",
+  "rarity": "Uncommon",
+  "requiresAttunement": false,
+  "rulesText": "Wand, Uncommon\n\nThis wand has 3 charges. While holding it, you can expend 1 charge to cast Detect Magic from it. The wand regains 1d3 expended charges daily at dawn."
+}

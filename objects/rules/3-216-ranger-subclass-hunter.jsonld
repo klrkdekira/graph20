@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-216-ranger-subclass-hunter",
+  "@type": "Rule",
+  "name": "Ranger Subclass: Hunter",
+  "slug": "3-216-ranger-subclass-hunter",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.216",
+    "heading": "Ranger Subclass: Hunter",
+    "lineStart": 3722,
+    "lineEnd": 3726
+  },
+  "section": "3.216",
+  "rulesText": "Protect Nature and People from Destruction\n\nYou stalk prey in the wilds and elsewhere, using your abilities as a Hunter to protect nature and people everywhere from forces that would destroy them."
+}

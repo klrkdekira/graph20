@@ -1,0 +1,52 @@
+{
+  "overrides": [
+    {
+      "id": "ability-table-roman-numeral-ocr",
+      "scope": "monster ability score tables (HTML <table> cells inside stat blocks)",
+      "observed": "OCR artifact: numeral 1 rendered as 'I' (9 cells) and 11 rendered as 'II' (23 cells), e.g. Lemure CON/INT/WIS.",
+      "proposed": "When parsing typed ability values only, map a standalone token 'I' -> 1 and 'II' -> 11 (optionally signed for modifier/save cells). Verbatim table cells and rulesText are NOT altered.",
+      "status": "accepted",
+      "rationale": "The tokens appear exclusively where an integer ability score, modifier, or save bonus is required; no roman numerals are otherwise used in SRD stat tables. Without the mapping, 23 of 332 monsters would lack typed ability fields."
+    },
+    {
+      "id": "ability-table-latex-labels",
+      "scope": "monster ability score tables",
+      "observed": "PDF conversion renders some ability labels as LaTeX markup, e.g. '$\\mathbf{S_{TR}}$' (Bandit, Commoner) and '$\\mathbf{STR}$' (Brass Dragon Wyrmling).",
+      "proposed": "Strip the LaTeX wrapper to the plain three-letter ability label before typed parsing.",
+      "status": "accepted",
+      "rationale": "Pure formatting artifact; the underlying labels are unambiguous."
+    },
+    {
+      "id": "ability-table-glued-score",
+      "scope": "monster ability score tables",
+      "observed": "Some cells glue label and score without a space or with wrong case, e.g. 'CON25', 'CHA23' (Adult Red Dragon), 'Con22' (Adult White Dragon).",
+      "proposed": "Split into label + integer score for typed parsing; the mod/save cells lost in the same table rows stay omitted rather than invented.",
+      "status": "accepted",
+      "rationale": "Row truncation in the PDF conversion; scores are unambiguous, missing values must not be fabricated."
+    },
+    {
+      "id": "cr-line-join",
+      "scope": "monster stat blocks",
+      "observed": "A few stat blocks join the CR line onto the Languages line (e.g. Young Gold Dragon: 'Languages Common, Draconic CR 10 (XP 5,900; PB +4)'), and White Dragon Wyrmling prints '450 XP' instead of 'XP 450'.",
+      "proposed": "Match the CR expression at a word boundary anywhere in the stat text and accept both XP orderings for typed fields.",
+      "status": "accepted",
+      "rationale": "Line-join artifacts; the CR grammar is otherwise unambiguous."
+    },
+    {
+      "id": "ability-table-truncated-cells",
+      "scope": "monster ability score tables",
+      "observed": "28 stat blocks have truncated rows where a score, modifier, or save cell is absent from the source entirely (e.g. Goat CON row reads 'CON', '+0'; several dragons lose the CON and CHA columns).",
+      "proposed": "No repair: typed ability entries are omitted where the source value is missing. Verbatim table text is preserved in the corresponding Table/rulesText content.",
+      "status": "recorded",
+      "rationale": "Never invent missing values; the printed SRD is the only authority for what the value should be."
+    },
+    {
+      "id": "dice-expression-ocr-id",
+      "scope": "equipment and item tables ('Id6' for '1d6', etc.)",
+      "observed": "OCR artifact: leading '1' in dice expressions rendered as capital 'I' in several HTML tables (e.g. the Weapons table) and in magic item category examples ('+I Longsword').",
+      "proposed": "No typed dice fields are derived from these cells in v1; values are preserved verbatim. Revisit when equipment gains a typed catalog.",
+      "status": "accepted",
+      "rationale": "Prose fidelity: no structured field currently depends on these cells, so no normalization is performed."
+    }
+  ]
+}

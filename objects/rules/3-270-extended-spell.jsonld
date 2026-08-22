@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-270-extended-spell",
+  "@type": "Rule",
+  "name": "Extended Spell",
+  "slug": "3-270-extended-spell",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.270",
+    "heading": "Extended Spell",
+    "lineStart": 4063,
+    "lineEnd": 4069
+  },
+  "section": "3.270",
+  "rulesText": "Cost: 1 Sorcery Point\n\nWhen you cast a spell that has a duration of 1 minute or longer, you can spend 1 Sorcery Point to double its duration to a maximum duration of 24 hours.\n\nIf the affected spell requires Concentration, you have Advantage on any saving throw you make to maintain that Concentration."
+}

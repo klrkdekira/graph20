@@ -1,0 +1,77 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/giant-centipede",
+  "@type": "Monster",
+  "name": "Giant Centipede",
+  "slug": "giant-centipede",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Animals",
+    "section": "13.30",
+    "heading": "Giant Centipede",
+    "lineStart": 27918,
+    "lineEnd": 27940
+  },
+  "sizeTypeAlignment": "Small Beast, Unaligned",
+  "sizeAndType": "Small Beast",
+  "alignment": "Unaligned",
+  "armorClass": "14",
+  "initiative": "+2 (12)",
+  "hitPoints": "9 (2d6 + 2)",
+  "speed": "30 ft., Climb 30 ft.",
+  "senses": "Blindsight 30 ft.; Passive Perception 8",
+  "languages": "None",
+  "challenge": "1/4 (XP 50; PB +2)",
+  "armorClassValue": 14,
+  "hitPointsValue": 9,
+  "hitPointsRoll": {
+    "expression": "2d6+2",
+    "count": 2,
+    "sides": 6,
+    "modifier": 2
+  },
+  "challengeRating": "1/4",
+  "experiencePoints": 50,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
+    },
+    "dex": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "int": {
+      "score": 1,
+      "modifier": -5,
+      "savingThrow": -5
+    },
+    "wis": {
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
+    },
+    "cha": {
+      "score": 3,
+      "modifier": -4,
+      "savingThrow": -4
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage, and the target has the Poisoned condition until the start of the centipede's next turn."
+    }
+  ],
+  "rulesText": "Small Beast, Unaligned\n\nAC 14\n\nInitiative +2 (12)\n\nHP 9 (2d6 + 2)\n\nSpeed 30 ft., Climb 30 ft.\n\nSenses Blindsight 30 ft.; Passive Perception 8\n\nLanguages None\n\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage, and the target has the Poisoned condition until the start of the centipede's next turn."
+}

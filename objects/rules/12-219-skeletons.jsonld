@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/12-219-skeletons",
+  "@type": "Rule",
+  "name": "Skeletons",
+  "slug": "12-219-skeletons",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.219",
+    "heading": "Skeletons",
+    "lineStart": 25127,
+    "lineEnd": 25127
+  },
+  "section": "12.219"
+}

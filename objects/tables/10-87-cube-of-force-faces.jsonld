@@ -1,0 +1,89 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-87-cube-of-force-faces",
+  "@type": "Table",
+  "name": "Cube of Force Faces",
+  "slug": "10-87-cube-of-force-faces",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.87",
+    "heading": "Cube of Force",
+    "lineStart": 15131,
+    "lineEnd": 15131
+  },
+  "columns": [
+    "Spell",
+    "Charge Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Mage Armor"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Shield"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Tiny Hut"
+        },
+        {
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Private Sanctum"
+        },
+        {
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Resilient Sphere"
+        },
+        {
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Wall of Force"
+        },
+        {
+          "value": "5"
+        }
+      ]
+    }
+  ]
+}

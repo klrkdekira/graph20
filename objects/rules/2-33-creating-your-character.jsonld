@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/2-33-creating-your-character",
+  "@type": "Rule",
+  "name": "Creating Your Character",
+  "slug": "2-33-creating-your-character",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.33",
+    "heading": "Creating Your Character",
+    "lineStart": 2010,
+    "lineEnd": 2016
+  },
+  "section": "2.33",
+  "rulesText": "Creating a higher-level character uses the same character-creation steps outlined in this chapter and the rules for advancing beyond level 1 provided\n\nStarting Equipment at Higher Levels",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/2-33-starting-equipment-at-higher-levels"
+    }
+  ]
+}

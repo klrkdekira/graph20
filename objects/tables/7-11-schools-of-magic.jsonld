@@ -1,0 +1,111 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/7-11-schools-of-magic",
+  "@type": "Table",
+  "name": "Schools of Magic",
+  "slug": "7-11-schools-of-magic",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.11",
+    "heading": "School of Magic",
+    "lineStart": 6313,
+    "lineEnd": 6313
+  },
+  "columns": [
+    "School",
+    "Typical Effects"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "Prevents or reverses harmful effects"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Conjuration"
+        },
+        {
+          "value": "Transports creatures or objects"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "Reveals information"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "Influences minds"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "Channels energy to create effects that are often destructive"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Illusion"
+        },
+        {
+          "value": "Deceives the mind or senses"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Necromancy"
+        },
+        {
+          "value": "Manipulates life and death"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "Transforms creatures or objects"
+        }
+      ]
+    }
+  ]
+}

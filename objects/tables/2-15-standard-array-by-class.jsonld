@@ -1,0 +1,340 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/2-15-standard-array-by-class",
+  "@type": "Table",
+  "name": "Standard Array by Class",
+  "slug": "2-15-standard-array-by-class",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.15",
+    "heading": "Assign Ability Scores",
+    "lineStart": 1847,
+    "lineEnd": 1847
+  },
+  "columns": [
+    "Class",
+    "Str.",
+    "Dex.",
+    "Con.",
+    "Int.",
+    "Wis.",
+    "Cha."
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Barbarian"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "13"
+        },
+        {
+          "value": "14"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "12"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Bard"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "14"
+        },
+        {
+          "value": "12"
+        },
+        {
+          "value": "13"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Cleric"
+        },
+        {
+          "value": "14"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "13"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Druid"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "12"
+        },
+        {
+          "value": "14"
+        },
+        {
+          "value": "13"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Fighter"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "14"
+        },
+        {
+          "value": "13"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Monk"
+        },
+        {
+          "value": "12"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "13"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "14"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Paladin"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "13"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "12"
+        },
+        {
+          "value": "14"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Ranger"
+        },
+        {
+          "value": "12"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "13"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "14"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Rogue"
+        },
+        {
+          "value": "12"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "13"
+        },
+        {
+          "value": "14"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Sorcerer"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "13"
+        },
+        {
+          "value": "14"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "12"
+        },
+        {
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "Warlock"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "14"
+        },
+        {
+          "value": "13"
+        },
+        {
+          "value": "12"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "Wizard"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "12"
+        },
+        {
+          "value": "13"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "14"
+        },
+        {
+          "value": "10"
+        }
+      ]
+    }
+  ]
+}

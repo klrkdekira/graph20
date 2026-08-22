@@ -1,0 +1,79 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/horned-devil",
+  "@type": "Monster",
+  "name": "Horned Devil",
+  "slug": "horned-devil",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.139",
+    "heading": "Horned Devil",
+    "lineStart": 22232,
+    "lineEnd": 22272
+  },
+  "sizeTypeAlignment": "Large Fiend (Devil), Lawful Evil",
+  "sizeAndType": "Large Fiend (Devil)",
+  "alignment": "Lawful Evil",
+  "armorClass": "18",
+  "initiative": "+7 (17)",
+  "hitPoints": "199 (19d10 + 95)",
+  "speed": "30 ft., Fly 60 ft.",
+  "resistances": "Cold",
+  "immunities": "Fire, Poison; Poisoned",
+  "senses": "Darkvision 150 ft. (unimpeded by magical Darkness); Passive Perception 13",
+  "languages": "Infernal; telepathy 120 ft.",
+  "challenge": "11 (XP 7,200; PB +4)",
+  "armorClassValue": 18,
+  "hitPointsValue": 199,
+  "hitPointsRoll": {
+    "expression": "19d10+95",
+    "count": 19,
+    "sides": 10,
+    "modifier": 95
+  },
+  "challengeRating": "11",
+  "experiencePoints": 7200,
+  "proficiencyBonus": 4,
+  "abilities": {
+    "str": {
+      "score": 22,
+      "modifier": 6,
+      "savingThrow": 10
+    },
+    "dex": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 7
+    },
+    "con": {
+      "score": 21
+    },
+    "int": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "wis": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 7
+    },
+    "cha": {
+      "score": 18
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Diabolical Restoration. If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nMagic Resistance. The devil has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The devil makes three attacks, using Searing Fork or Hurl Flame in any combination. It can replace one attack with a use of Infernal Tail.\n\nSearing Fork. Melee Attack Roll: +10, reach 10 ft. Hit: 15 (2d8 + 6) Piercing damage plus 9 (2d8) Fire damage.\n\nHurl Flame. Ranged Attack Roll: +8, range 150 ft. Hit: 26 (5d8 + 4) Fire damage. If the target is a flammable object that isn't being worn or carried, it starts burning.\n\nInfernal Tail. Dexterity Saving Throw: DC 17, one creature the devil can see within 10 feet. Failure: 10 (1d8 + 6) Necrotic damage, and the target receives an infernal wound if it doesn't have one. While wounded, the target loses 10 (3d6) Hit Points at the start of each of its turns. The wound closes after 1 minute, after a spell restores Hit Points to the target, or after the target or a creature within 5 feet of it takes an action to stanch the wound, doing so by succeeding on a DC 17 Wisdom (Medicine) check."
+    }
+  ],
+  "rulesText": "Large Fiend (Devil), Lawful Evil\n\nAC 18\n\nInitiative +7 (17)\n\nHP 199 (19d10 + 95)\n\nSpeed 30 ft., Fly 60 ft.\n\nResistances Cold\n\nImmunities Fire, Poison; Poisoned\n\nSenses Darkvision 150 ft. (unimpeded by magical Darkness); Passive Perception 13\n\nLanguages Infernal; telepathy 120 ft.\n\nCR 11 (XP 7,200; PB +4)\n\nTraits\n\nDiabolical Restoration. If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nMagic Resistance. The devil has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The devil makes three attacks, using Searing Fork or Hurl Flame in any combination. It can replace one attack with a use of Infernal Tail.\n\nSearing Fork. Melee Attack Roll: +10, reach 10 ft. Hit: 15 (2d8 + 6) Piercing damage plus 9 (2d8) Fire damage.\n\nHurl Flame. Ranged Attack Roll: +8, range 150 ft. Hit: 26 (5d8 + 4) Fire damage. If the target is a flammable object that isn't being worn or carried, it starts burning.\n\nInfernal Tail. Dexterity Saving Throw: DC 17, one creature the devil can see within 10 feet. Failure: 10 (1d8 + 6) Necrotic damage, and the target receives an infernal wound if it doesn't have one. While wounded, the target loses 10 (3d6) Hit Points at the start of each of its turns. The wound closes after 1 minute, after a spell restores Hit Points to the target, or after the target or a creature within 5 feet of it takes an action to stanch the wound, doing so by succeeding on a DC 17 Wisdom (Medicine) check."
+}

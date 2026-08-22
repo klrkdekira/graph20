@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/glibness",
+  "@type": "Spell",
+  "name": "Glibness",
+  "slug": "glibness",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.172",
+    "heading": "Glibness",
+    "lineStart": 9154,
+    "lineEnd": 9166
+  },
+  "level": 8,
+  "school": "Enchantment",
+  "classAvailability": [
+    "Bard",
+    "Warlock"
+  ],
+  "castingTime": "Action",
+  "range": "Self",
+  "components": "V",
+  "duration": "1 hour",
+  "rulesText": "Level 8 Enchantment (Bard, Warlock)\n\nCasting Time: Action\n\nRange: Self\n\nComponents: V\n\nDuration: 1 hour\n\nUntil the spell ends, when you make a Charisma check, you can replace the number you roll with a 15. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful."
+}

@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/armor-1-2-or-3",
+  "@type": "MagicItem",
+  "name": "Armor, +1, +2, or +3",
+  "slug": "armor-1-2-or-3",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.45",
+    "heading": "Armor, +1, +2, or +3",
+    "lineStart": 14748,
+    "lineEnd": 14752
+  },
+  "itemCategory": "Armor",
+  "categoryDetail": "Any Light, Medium, or Heavy",
+  "rarity": "Rare",
+  "requiresAttunement": false,
+  "rulesText": "Armor (Any Light, Medium, or Heavy), Rare (+1), Very Rare (+2), or Legendary (+3)\n\nYou have a bonus to Armor Class while wearing this armor. The bonus is determined by its rarity."
+}

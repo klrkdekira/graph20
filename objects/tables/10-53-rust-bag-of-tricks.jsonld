@@ -1,0 +1,93 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-53-rust-bag-of-tricks",
+  "@type": "Table",
+  "name": "Rust Bag of Tricks",
+  "slug": "10-53-rust-bag-of-tricks",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.53",
+    "heading": "Bag of Tricks",
+    "lineStart": 14849,
+    "lineEnd": 14849
+  },
+  "columns": [
+    "Id8",
+    "Creature",
+    "Id8",
+    "Creature"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "Rat"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "Giant Goat"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "Owl"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "Giant Boar"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "Mastiff"
+        },
+        {
+          "value": "7"
+        },
+        {
+          "value": "Lion"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "Goat"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "Brown Bear"
+        }
+      ]
+    }
+  ]
+}

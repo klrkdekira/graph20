@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-187-uphold-the-ideals-of-justice-and-order",
+  "@type": "Rule",
+  "name": "Uphold the Ideals of Justice and Order",
+  "slug": "3-187-uphold-the-ideals-of-justice-and-order",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.187",
+    "heading": "Uphold the Ideals of Justice and Order",
+    "lineStart": 3526,
+    "lineEnd": 3536
+  },
+  "section": "3.187",
+  "rulesText": "The Oath of Devotion binds Paladins to the ideals of justice and order. These Paladins meet the archetype of the knight in shining armor. They hold themselves to the highest standards of conduct, and some—for better or worse—hold the rest of the world to the same standards.\n\nMany who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of personal devotion. Others hold angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.\n\nThese paladins share the following tenets:\n\n- Let your word be your promise.  \n- Protect the weak and never fear to act.  \n- Let your honorable deeds be an example."
+}

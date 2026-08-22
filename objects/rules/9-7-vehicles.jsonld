@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-7-vehicles",
+  "@type": "Rule",
+  "name": "Vehicles",
+  "slug": "9-7-vehicles",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.7",
+    "heading": "Vehicles",
+    "lineStart": 13836,
+    "lineEnd": 13838
+  },
+  "section": "9.7",
+  "rulesText": "Characters traveling in a vehicle use the vehicle's speed in miles per hour (as shown in “Equipment”) to determine their rate of travel, and they don't choose a travel pace."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-220-level-ii-superior-hunters-prey",
+  "@type": "Rule",
+  "name": "Level II: Superior Hunter's Prey",
+  "slug": "3-220-level-ii-superior-hunters-prey",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.220",
+    "heading": "Level II: Superior Hunter's Prey",
+    "lineStart": 3748,
+    "lineEnd": 3750
+  },
+  "section": "3.220",
+  "rulesText": "Once per turn when you deal damage to a creature marked by your Hunter's Mark, you can also deal that spell's extra damage to a different creature that you can see within 30 feet of the first creature."
+}

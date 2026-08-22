@@ -1,0 +1,67 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/3-98-arid-land",
+  "@type": "Table",
+  "name": "Arid Land",
+  "slug": "3-98-arid-land",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.98",
+    "heading": "Level 3: Circle of the Land Spells",
+    "lineStart": 2998,
+    "lineEnd": 2998
+  },
+  "columns": [
+    "Druid Level",
+    "Circle Spells"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "Blur, Burning Hands, Fire Bolt"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "Fireball"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "Blight"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "Wall of Stone"
+        }
+      ]
+    }
+  ]
+}

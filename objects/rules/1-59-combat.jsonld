@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-59-combat",
+  "@type": "Rule",
+  "name": "Combat",
+  "slug": "1-59-combat",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.59",
+    "heading": "Combat",
+    "lineStart": 1382,
+    "lineEnd": 1384
+  },
+  "section": "1.59",
+  "rulesText": "Adventurers encounter many dangerous monsters and nefarious villains. In those moments, combat often breaks out."
+}

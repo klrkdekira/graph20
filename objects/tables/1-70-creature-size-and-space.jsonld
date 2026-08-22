@@ -1,0 +1,108 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/1-70-creature-size-and-space",
+  "@type": "Table",
+  "name": "Creature Size and Space",
+  "slug": "1-70-creature-size-and-space",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.70",
+    "heading": "Creature Size",
+    "lineStart": 1478,
+    "lineEnd": 1478
+  },
+  "columns": [
+    "Size",
+    "Space (Feet)",
+    "Space (Squares)"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Tiny"
+        },
+        {
+          "value": "2 $\\frac{1}{2}$ by 2 $\\frac{1}{2}$ feet"
+        },
+        {
+          "value": "4 per square"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Small"
+        },
+        {
+          "value": "5 by 5 feet"
+        },
+        {
+          "value": "1 square"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Medium"
+        },
+        {
+          "value": "5 by 5 feet"
+        },
+        {
+          "value": "1 square"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Large"
+        },
+        {
+          "value": "10 by 10 feet"
+        },
+        {
+          "value": "4 squares (2 by 2)"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Huge"
+        },
+        {
+          "value": "15 by 15 feet"
+        },
+        {
+          "value": "9 squares (3 by 3)"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Gargantuan"
+        },
+        {
+          "value": "20 by 20 feet"
+        },
+        {
+          "value": "16 squares (4 by 4)"
+        }
+      ]
+    }
+  ]
+}

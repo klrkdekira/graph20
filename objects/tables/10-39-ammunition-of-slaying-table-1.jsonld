@@ -1,0 +1,144 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-39-ammunition-of-slaying-table-1",
+  "@type": "Table",
+  "name": "Ammunition of Slaying Table 1",
+  "slug": "10-39-ammunition-of-slaying-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.39",
+    "heading": "Ammunition of Slaying",
+    "lineStart": 14703,
+    "lineEnd": 14703
+  },
+  "columns": [
+    "Id100",
+    "Creature Type",
+    "Id100",
+    "Creature Type"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "01–10"
+        },
+        {
+          "value": "Aberrations"
+        },
+        {
+          "value": "51–60"
+        },
+        {
+          "value": "Fey"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "11–15"
+        },
+        {
+          "value": "Beasts"
+        },
+        {
+          "value": "61–70"
+        },
+        {
+          "value": "Fiends"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "16–20"
+        },
+        {
+          "value": "Celestials"
+        },
+        {
+          "value": "71–75"
+        },
+        {
+          "value": "Giants"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "21–25"
+        },
+        {
+          "value": "Constructs"
+        },
+        {
+          "value": "76–80"
+        },
+        {
+          "value": "Monstrosities"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "26–35"
+        },
+        {
+          "value": "Dragons"
+        },
+        {
+          "value": "81–85"
+        },
+        {
+          "value": "Oozes"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "36–45"
+        },
+        {
+          "value": "Elementals"
+        },
+        {
+          "value": "86–90"
+        },
+        {
+          "value": "Plants"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "46–50"
+        },
+        {
+          "value": "Humanoids"
+        },
+        {
+          "value": "91–00"
+        },
+        {
+          "value": "Undead"
+        }
+      ]
+    }
+  ]
+}

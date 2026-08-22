@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-84-level-i-druidic",
+  "@type": "Rule",
+  "name": "Level I: Druidic",
+  "slug": "3-84-level-i-druidic",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.84",
+    "heading": "Level I: Druidic",
+    "lineStart": 2844,
+    "lineEnd": 2850
+  },
+  "section": "3.84",
+  "rulesText": "You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of communicating with animals; you always have the Speak with Animals spell prepared.\n\nYou can use Druidic to leave hidden messages. You and others who know Druidic automatically spot such a message. Others spot the message's presence\n\nwith a successful DC 15 Intelligence (Investigation) check but can't decipher it without magic."
+}

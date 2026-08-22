@@ -1,0 +1,108 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-114-feather-tokens",
+  "@type": "Table",
+  "name": "Feather Tokens",
+  "slug": "10-114-feather-tokens",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.114",
+    "heading": "Feather Token",
+    "lineStart": 15405,
+    "lineEnd": 15405
+  },
+  "columns": [
+    "Id100",
+    "Token",
+    "Rarity"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "01–20"
+        },
+        {
+          "value": "Anchor"
+        },
+        {
+          "value": "Uncommon"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "21–35"
+        },
+        {
+          "value": "Bird"
+        },
+        {
+          "value": "Rare"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "36–50"
+        },
+        {
+          "value": "Fan"
+        },
+        {
+          "value": "Uncommon"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "51–65"
+        },
+        {
+          "value": "Swan boat"
+        },
+        {
+          "value": "Rare"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "66–90"
+        },
+        {
+          "value": "Tree"
+        },
+        {
+          "value": "Uncommon"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "91–00"
+        },
+        {
+          "value": "Whip"
+        },
+        {
+          "value": "Rare"
+        }
+      ]
+    }
+  ]
+}

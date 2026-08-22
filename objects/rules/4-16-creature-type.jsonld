@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/4-16-creature-type",
+  "@type": "Rule",
+  "name": "Creature Type",
+  "slug": "4-16-creature-type",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Origins",
+    "section": "4.16",
+    "heading": "Creature Type",
+    "lineStart": 4865,
+    "lineEnd": 4867
+  },
+  "section": "4.16",
+  "rulesText": "A character's species determines the character's creature type, which is described in “Rules Glossary.” Every species in “Character Origins” is Humanoid; playable non-Humanoid species appear in other books."
+}

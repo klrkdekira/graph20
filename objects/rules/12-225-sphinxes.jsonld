@@ -1,0 +1,18 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/12-225-sphinxes",
+  "@type": "Rule",
+  "name": "Sphinxes",
+  "slug": "12-225-sphinxes",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.225",
+    "heading": "Sphinxes",
+    "lineStart": 25317,
+    "lineEnd": 25317
+  },
+  "section": "12.225"
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/light",
+  "@type": "Spell",
+  "name": "Light",
+  "slug": "light",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.217",
+    "heading": "Light",
+    "lineStart": 9974,
+    "lineEnd": 9988
+  },
+  "level": 0,
+  "school": "Evocation",
+  "classAvailability": [
+    "Bard",
+    "Cleric",
+    "Sorcerer",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "Touch",
+  "components": "V, M (a firefly or phosphorescent moss)",
+  "duration": "1 hour",
+  "rulesText": "Evocation Cantrip (Bard, Cleric, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: Touch\n\nComponents: V, M (a firefly or phosphorescent moss)\n\nDuration: 1 hour\n\nYou touch one Large or smaller object that isn't being worn or carried by someone else. Until the spell ends, the object sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The light can be colored as you like.\n\nCovering the object with something opaque blocks the light. The spell ends if you cast it again."
+}

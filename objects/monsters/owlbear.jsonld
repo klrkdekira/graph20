@@ -1,0 +1,78 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/owlbear",
+  "@type": "Monster",
+  "name": "Owlbear",
+  "slug": "owlbear",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.181",
+    "heading": "Owlbear",
+    "lineStart": 23776,
+    "lineEnd": 23804
+  },
+  "sizeTypeAlignment": "Large Monstrosity, Unaligned",
+  "sizeAndType": "Large Monstrosity",
+  "alignment": "Unaligned",
+  "armorClass": "13",
+  "initiative": "+1 (11)",
+  "hitPoints": "59 (7d10 + 21)",
+  "speed": "40 ft., Climb 40 ft.",
+  "skills": "Perception +5",
+  "senses": "Darkvision 60 ft.; Passive Perception 15",
+  "languages": "None",
+  "challenge": "3 (XP 700; PB +2)",
+  "armorClassValue": 13,
+  "hitPointsValue": 59,
+  "hitPointsRoll": {
+    "expression": "7d10+21",
+    "count": 7,
+    "sides": 10,
+    "modifier": 21
+  },
+  "challengeRating": "3",
+  "experiencePoints": 700,
+  "proficiencyBonus": 2,
+  "abilities": {
+    "str": {
+      "score": 20,
+      "modifier": 5,
+      "savingThrow": 5
+    },
+    "dex": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "con": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "int": {
+      "score": 3,
+      "modifier": -4,
+      "savingThrow": -4
+    },
+    "wis": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "cha": {
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
+    }
+  },
+  "statSections": [
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The owlbear makes two Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Slashing damage."
+    }
+  ],
+  "rulesText": "Large Monstrosity, Unaligned\n\nAC 13\n\nInitiative +1 (11)\n\nHP 59 (7d10 + 21)\n\nSpeed 40 ft., Climb 40 ft.\n\nSkills Perception +5\n\nSenses Darkvision 60 ft.; Passive Perception 15\n\nLanguages None\n\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The owlbear makes two Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Slashing damage."
+}

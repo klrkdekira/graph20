@@ -1,0 +1,29 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/control-weather",
+  "@type": "Spell",
+  "name": "Control Weather",
+  "slug": "control-weather",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.96",
+    "heading": "Control Weather",
+    "lineStart": 7668,
+    "lineEnd": 7692
+  },
+  "level": 8,
+  "school": "Transmutation",
+  "classAvailability": [
+    "Cleric",
+    "Druid",
+    "Wizard"
+  ],
+  "castingTime": "10 minutes",
+  "range": "Self",
+  "components": "V, S, M (burning incense)",
+  "duration": "Concentration, up to 8 hours",
+  "rulesText": "Level 8 Transmutation (Cleric, Druid, Wizard)\n\nCasting Time: 10 minutes\n\nRange: Self\n\nComponents: V, S, M (burning incense)\n\nDuration: Concentration, up to 8 hours\n\nYou take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell, and it ends early if you go indoors.\n\nWhen you cast the spell, you change the current weather conditions, which are determined by the GM. You can change precipitation, temperature, and wind. It takes $1d4 \\times 10$ minutes for the new\n\nconditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.\n\nWhen you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction.\n\nPrecipitation\n\n<table><tr><td>Stage</td><td>Condition</td></tr><tr><td>1</td><td>Clear</td></tr><tr><td>2</td><td>Light clouds</td></tr><tr><td>3</td><td>Overcast or ground fog</td></tr><tr><td>4</td><td>Rain, hail, or snow</td></tr><tr><td>5</td><td>Torrential rain, driving hail, or blizzard</td></tr></table>\n\n<table><tr><td colspan=\"2\">Temperature</td><td colspan=\"2\">Wind</td></tr><tr><td>Stage</td><td>Condition</td><td>Stage</td><td>Condition</td></tr><tr><td>1</td><td>Heat wave</td><td>1</td><td>Calm</td></tr><tr><td>2</td><td>Hot</td><td>2</td><td>Moderate wind</td></tr><tr><td>3</td><td>Warm</td><td>3</td><td>Strong wind</td></tr><tr><td>4</td><td>Cool</td><td>4</td><td>Gale</td></tr><tr><td>5</td><td>Cold</td><td>5</td><td>Storm</td></tr><tr><td>6</td><td>Freezing</td><td></td><td></td></tr></table>"
+}

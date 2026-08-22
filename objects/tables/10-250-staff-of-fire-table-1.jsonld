@@ -1,0 +1,59 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-250-staff-of-fire-table-1",
+  "@type": "Table",
+  "name": "Staff of Fire Table 1",
+  "slug": "10-250-staff-of-fire-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.250",
+    "heading": "Staff of Fire",
+    "lineStart": 16875,
+    "lineEnd": 16875
+  },
+  "columns": [
+    "Spell",
+    "Charge Cost",
+    "Spell",
+    "Charge Cost"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Burning Hands"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "Wall of Fire"
+        },
+        {
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Fireball"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": ""
+        },
+        {
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-315-master-of-myriad-forms",
+  "@type": "Rule",
+  "name": "Master of Myriad Forms",
+  "slug": "3-315-master-of-myriad-forms",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.315",
+    "heading": "Master of Myriad Forms",
+    "lineStart": 4421,
+    "lineEnd": 4425
+  },
+  "section": "3.315",
+  "rulesText": "Prerequisite: Level 5+ Warlock\n\nYou can cast Alter Self without expending a spell slot."
+}

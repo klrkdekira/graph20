@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-139-tinderbox-5-sp",
+  "@type": "Rule",
+  "name": "Tinderbox (5 SP)",
+  "slug": "6-139-tinderbox-5-sp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.139",
+    "heading": "Tinderbox (5 SP)",
+    "lineStart": 6023,
+    "lineEnd": 6025
+  },
+  "section": "6.139",
+  "rulesText": "A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute."
+}

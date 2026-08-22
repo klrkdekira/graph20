@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/irresistible-dance",
+  "@type": "Spell",
+  "name": "Irresistible Dance",
+  "slug": "irresistible-dance",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.210",
+    "heading": "Irresistible Dance",
+    "lineStart": 9854,
+    "lineEnd": 9868
+  },
+  "level": 6,
+  "school": "Enchantment",
+  "classAvailability": [
+    "Bard",
+    "Wizard"
+  ],
+  "castingTime": "Action",
+  "range": "30 feet",
+  "components": "V",
+  "duration": "Concentration, up to 1 minute",
+  "rulesText": "Level 6 Enchantment (Bard, Wizard)\n\nCasting Time: Action\n\nRange: 30 feet\n\nComponents: V\n\nDuration: Concentration, up to 1 minute\n\nOne creature that you can see within range must make a Wisdom saving throw. On a successful save, the target dances comically until the end of its next turn, during which it must spend all its movement to dance in place.\n\nOn a failed save, the target has the Charmed condition for the duration. While Charmed, the target dances comically, must use all its movement to dance in place, and has Disadvantage on Dexterity saving throws and attack rolls, and other creatures have Advantage on attack rolls against it. On each of its turns, the target can take an action to collect itself and repeat the save, ending the spell on itself on a success."
+}

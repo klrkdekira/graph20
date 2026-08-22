@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-118-perfume-5-gp",
+  "@type": "Rule",
+  "name": "Perfume (5 GP)",
+  "slug": "6-118-perfume-5-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.118",
+    "heading": "Perfume (5 GP)",
+    "lineStart": 5935,
+    "lineEnd": 5937
+  },
+  "section": "6.118",
+  "rulesText": "Perfume comes in a 4-ounce vial. For 1 hour after applying Perfume to yourself, you have Advantage on Charisma (Persuasion) checks made to influence an Indifferent Humanoid within 5 feet of yourself."
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/1-6-ability-modifiers",
+  "@type": "Rule",
+  "name": "Ability Modifiers",
+  "slug": "1-6-ability-modifiers",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Playing the Game",
+    "section": "1.6",
+    "heading": "Ability Modifiers",
+    "lineStart": 1019,
+    "lineEnd": 1021
+  },
+  "section": "1.6",
+  "rulesText": "Each ability has a modifier that you apply whenever you make a D20 Test with that ability (explained in \"D20 Tests\"). An ability modifier is derived from its score, as shown in the Ability Modifiers table."
+}

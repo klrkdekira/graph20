@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-42-purchasing-poison",
+  "@type": "Rule",
+  "name": "Purchasing Poison",
+  "slug": "9-42-purchasing-poison",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.42",
+    "heading": "Purchasing Poison",
+    "lineStart": 14069,
+    "lineEnd": 14071
+  },
+  "section": "9.42",
+  "rulesText": "In some settings, laws prohibit the possession and use of poison, but an illicit dealer or unscrupulous apothecary might keep a hidden stash. Characters with criminal contacts might be able to acquire poison easily. Other characters might have to make extensive inquiries and pay bribes before they acquire the poison they seek."
+}

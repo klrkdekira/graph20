@@ -1,0 +1,84 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/pit-fiend",
+  "@type": "Monster",
+  "name": "Pit Fiend",
+  "slug": "pit-fiend",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Monsters A-Z",
+    "section": "12.187",
+    "heading": "Pit Fiend",
+    "lineStart": 23948,
+    "lineEnd": 23996
+  },
+  "sizeTypeAlignment": "Large Fiend (Devil), Lawful Evil",
+  "sizeAndType": "Large Fiend (Devil)",
+  "alignment": "Lawful Evil",
+  "armorClass": "21",
+  "initiative": "+14 (24)",
+  "hitPoints": "337 (27d10 + 189)",
+  "speed": "30 ft., Fly 60 ft.",
+  "skills": "Perception +10, Persuasion +19",
+  "resistances": "Cold",
+  "immunities": "Fire, Poison; Poisoned",
+  "senses": "Truesight 120 ft.; Passive Perception 20",
+  "languages": "Infernal; telepathy 120 ft.",
+  "challenge": "20 (XP 25,000; PB +6)",
+  "armorClassValue": 21,
+  "hitPointsValue": 337,
+  "hitPointsRoll": {
+    "expression": "27d10+189",
+    "count": 27,
+    "sides": 10,
+    "modifier": 189
+  },
+  "challengeRating": "20",
+  "experiencePoints": 25000,
+  "proficiencyBonus": 6,
+  "abilities": {
+    "str": {
+      "score": 26,
+      "modifier": 8,
+      "savingThrow": 8
+    },
+    "dex": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 8
+    },
+    "con": {
+      "score": 24,
+      "modifier": 7,
+      "savingThrow": 7
+    },
+    "int": {
+      "score": 22,
+      "modifier": 6,
+      "savingThrow": 6
+    },
+    "wis": {
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 10
+    },
+    "cha": {
+      "score": 24,
+      "modifier": 7,
+      "savingThrow": 7
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Diabolical Restoration. If the pit fiend dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nFear Aura. The pit fiend emanates an aura in a 20-foot Emanation while it doesn't have the Incapacitated condition. Wisdom Saving Throw: DC 21, any enemy that starts its turn in the aura. Failure: The target has the Frightened condition until the start of its next turn. Success: The target is immune to this pit fiend's aura for 24 hours.\n\nLegendary Resistance (4/Day). If the pit fiend fails a saving throw, it can choose to succeed instead.\n\nMagic Resistance. The pit fiend has Advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The pit fiend makes one Bite attack, two Devilish Claw attacks, and one Fiery Mace attack.\n\nBite. Melee Attack Roll: +14, reach 10 ft. Hit: 18 (3d6 + 8) Piercing damage. If the target is a creature, it must make the following saving throw. Constitution Saving Throw: DC 21. Failure: The target has the Poisoned condition. While Poisoned, the target can't regain Hit Points and takes 21 (6d6) Poison damage at the start of each of its turns, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.\n\nDevilish Claw. Melee Attack Roll: +14, reach 10 ft. Hit: 26 (4d8 + 8) Necrotic damage.\n\nFiery Mace. Melee Attack Roll: +14, reach 10 ft. Hit: 22 (4d6 + 8) Force damage plus 21 (6d6) Fire damage.\n\nHellfire Spellcasting (Recharge 4–6). The pit fiend casts Fireball (level 5 version) twice, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 21). It can replace one Fireball with Hold Monster (level 7 version) or Wall of Fire."
+    }
+  ],
+  "rulesText": "Large Fiend (Devil), Lawful Evil\n\nAC 21\n\nInitiative +14 (24)\n\nHP 337 (27d10 + 189)\n\nSpeed 30 ft., Fly 60 ft.\n\nSkills Perception +10, Persuasion +19\n\nResistances Cold\n\nImmunities Fire, Poison; Poisoned\n\nSenses Truesight 120 ft.; Passive Perception 20\n\nLanguages Infernal; telepathy 120 ft.\n\nCR 20 (XP 25,000; PB +6)\n\nTraits\n\nDiabolical Restoration. If the pit fiend dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nFear Aura. The pit fiend emanates an aura in a 20-foot Emanation while it doesn't have the Incapacitated condition. Wisdom Saving Throw: DC 21, any enemy that starts its turn in the aura. Failure: The target has the Frightened condition until the start of its next turn. Success: The target is immune to this pit fiend's aura for 24 hours.\n\nLegendary Resistance (4/Day). If the pit fiend fails a saving throw, it can choose to succeed instead.\n\nMagic Resistance. The pit fiend has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The pit fiend makes one Bite attack, two Devilish Claw attacks, and one Fiery Mace attack.\n\nBite. Melee Attack Roll: +14, reach 10 ft. Hit: 18 (3d6 + 8) Piercing damage. If the target is a creature, it must make the following saving throw. Constitution Saving Throw: DC 21. Failure: The target has the Poisoned condition. While Poisoned, the target can't regain Hit Points and takes 21 (6d6) Poison damage at the start of each of its turns, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.\n\nDevilish Claw. Melee Attack Roll: +14, reach 10 ft. Hit: 26 (4d8 + 8) Necrotic damage.\n\nFiery Mace. Melee Attack Roll: +14, reach 10 ft. Hit: 22 (4d6 + 8) Force damage plus 21 (6d6) Fire damage.\n\nHellfire Spellcasting (Recharge 4–6). The pit fiend casts Fireball (level 5 version) twice, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 21). It can replace one Fireball with Hold Monster (level 7 version) or Wall of Fire."
+}

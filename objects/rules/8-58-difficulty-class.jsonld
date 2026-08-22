@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-58-difficulty-class",
+  "@type": "Rule",
+  "name": "Difficulty Class",
+  "slug": "8-58-difficulty-class",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.58",
+    "heading": "Difficulty Class",
+    "lineStart": 13109,
+    "lineEnd": 13111
+  },
+  "section": "8.58",
+  "rulesText": "A Difficulty Class (DC) is the target number for an ability check or a saving throw. See also “Playing the Game” (“D20 Tests”)."
+}

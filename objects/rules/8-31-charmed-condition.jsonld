@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-31-charmed-condition",
+  "@type": "Rule",
+  "name": "Charmed [Condition]",
+  "slug": "8-31-charmed-condition",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.31",
+    "heading": "Charmed [Condition]",
+    "lineStart": 12950,
+    "lineEnd": 12956
+  },
+  "section": "8.31",
+  "rulesText": "While you have the Charmed condition, you experience the following effects.\n\nCan't Harm the Charmer. You can't attack the charmer or target the charmer with damaging abilities or magical effects.\n\nSocial Advantage. The charmer has Advantage on any ability check to interact with you socially."
+}

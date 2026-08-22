@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/spells/telepathic-bond",
+  "@type": "Spell",
+  "name": "Telepathic Bond",
+  "slug": "telepathic-bond",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.334",
+    "heading": "Telepathic Bond",
+    "lineStart": 12104,
+    "lineEnd": 12118
+  },
+  "level": 5,
+  "school": "Divination",
+  "classAvailability": [
+    "Bard",
+    "Wizard"
+  ],
+  "castingTime": "Action or Ritual",
+  "range": "30 feet",
+  "components": "V, S, M (two eggs)",
+  "duration": "1 hour",
+  "rulesText": "Level 5 Divination (Bard, Wizard)\n\nCasting Time: Action or Ritual\n\nRange: 30 feet\n\nComponents: V, S, M (two eggs)\n\nDuration: 1 hour\n\nYou forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures that can't communicate in any languages aren't affected by this spell.\n\nUntil the spell ends, the targets can communicate telepathically through the bond whether or not they share a language. The communication is possible over any distance, though it can't extend to other planes of existence."
+}

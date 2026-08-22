@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-119-level-ii-two-extra-attacks",
+  "@type": "Rule",
+  "name": "Level II: Two Extra Attacks",
+  "slug": "3-119-level-ii-two-extra-attacks",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.119",
+    "heading": "Level II: Two Extra Attacks",
+    "lineStart": 3120,
+    "lineEnd": 3122
+  },
+  "section": "3.119",
+  "rulesText": "You can attack three times instead of once whenever you take the Attack action on your turn."
+}

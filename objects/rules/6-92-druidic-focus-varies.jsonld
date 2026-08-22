@@ -1,0 +1,24 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/6-92-druidic-focus-varies",
+  "@type": "Rule",
+  "name": "Druidic Focus (Varies)",
+  "slug": "6-92-druidic-focus-varies",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.92",
+    "heading": "Druidic Focus (Varies)",
+    "lineStart": 5805,
+    "lineEnd": 5811
+  },
+  "section": "6.92",
+  "rulesText": "A Druidic Focus takes one of the forms in the Druidic Focuses table and is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus.\n\nDruidic Focuses",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/6-92-druidic-focuses"
+    }
+  ]
+}

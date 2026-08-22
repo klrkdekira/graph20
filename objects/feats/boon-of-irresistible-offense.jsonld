@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/feats/boon-of-irresistible-offense",
+  "@type": "Feat",
+  "name": "Boon of Irresistible Offense",
+  "slug": "boon-of-irresistible-offense",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Feats",
+    "section": "5.21",
+    "heading": "Boon of Irresistible Offense",
+    "lineStart": 5227,
+    "lineEnd": 5237
+  },
+  "category": "Epic Boon",
+  "prerequisite": "Level 19+",
+  "repeatable": false,
+  "rulesText": "Epic Boon Feat (Prerequisite: Level 19+)\n\nYou gain the following benefits.\n\nAbility Score Increase. Increase your Strength or Dexterity score by 1, to a maximum of 30.\n\nOvercome Defenses. The Bludgeoning, Piercing, and Slashing damage you deal always ignores Resistance.\n\nOverwhelming Strike. When you roll a 20 on the d20 for an attack roll, you can deal extra damage to the target equal to the ability score increased by this feat. The extra damage's type is the same as the attack's type."
+}

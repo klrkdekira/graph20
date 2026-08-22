@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/magic-items/shield-1-2-or-3",
+  "@type": "MagicItem",
+  "name": "Shield, +1, +2, or +3",
+  "slug": "shield-1-2-or-3",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.241",
+    "heading": "Shield, +1, +2, or +3",
+    "lineStart": 16770,
+    "lineEnd": 16774
+  },
+  "itemCategory": "Armor",
+  "categoryDetail": "Shield",
+  "rarity": "Uncommon",
+  "requiresAttunement": false,
+  "rulesText": "Armor (Shield), Uncommon (+1), Rare (+2), or Very Rare (+3)\n\nWhile holding this Shield, you have a bonus to Armor Class determined by the Shield's rarity, in addition to the Shield's normal bonus to AC."
+}

@@ -1,0 +1,36 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/3-185-paladin-spell-list",
+  "@type": "Rule",
+  "name": "Paladin Spell List",
+  "slug": "3-185-paladin-spell-list",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.185",
+    "heading": "Paladin Spell List",
+    "lineStart": 3500,
+    "lineEnd": 3522
+  },
+  "section": "3.185",
+  "rulesText": "This section presents the Paladin spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, C means the spell requires Concentration, R means it's a Ritual, and M means it requires a specific Material component.\n\nLevel I Paladin Spells\n\nLevel 2 Paladin Spells\n\nLevel 3 Paladin Spells\n\nLevel 4 Paladin Spells\n\nLevel 5 Paladin Spells",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-185-level-i-paladin-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-185-level-2-paladin-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-185-level-3-paladin-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-185-level-4-paladin-spells"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/3-185-level-5-paladin-spells"
+    }
+  ]
+}

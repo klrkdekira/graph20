@@ -1,0 +1,10 @@
+[project]
+name = "graph20"
+version = "0.1.0"
+description = "SRD 5.2.1 JSON-LD reference data and JSON Schema contracts"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = ["jsonschema==4.26.0", "pyld==3.1.0"]

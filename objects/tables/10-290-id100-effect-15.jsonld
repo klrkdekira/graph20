@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-290-id100-effect-15",
+  "@type": "Table",
+  "name": "Id100 Effect",
+  "slug": "10-290-id100-effect-15",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.290",
+    "heading": "Wand of Wonder",
+    "lineStart": 17275,
+    "lineEnd": 17275
+  },
+  "columns": [
+    "83–87",
+    "Nothing happens at the chosen point of origin. Instead, you cast Invisibility on yourself."
+  ],
+  "rows": []
+}

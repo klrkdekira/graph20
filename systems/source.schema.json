@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/graph20/systems/source.schema.json",
+  "title": "SRD 5.2.1 Source provenance record",
+  "type": "object",
+  "properties": {
+    "@context": {
+      "const": "https://cheeleong.dev/graph20/systems/context.jsonld"
+    },
+    "@id": {
+      "type": "string",
+      "pattern": "^https://cheeleong\\.dev/graph20/objects/sources/[a-z0-9-]+$"
+    },
+    "@type": { "const": "Source" },
+    "name": { "type": "string", "minLength": 1 },
+    "slug": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+    "author": { "type": "string", "minLength": 1 },
+    "srdVersion": { "type": "string", "minLength": 1 },
+    "license": { "const": "CC-BY-4.0" },
+    "licenseUrl": { "type": "string", "format": "iri" },
+    "attributionStatement": { "type": "string", "minLength": 1 },
+    "canonicalUrl": { "type": "string", "format": "iri" },
+    "sourceFile": { "type": "string", "minLength": 1 },
+    "contentDigest": { "type": "string", "pattern": "^sha256-[0-9a-f]{64}$" }
+  },
+  "required": [
+    "@context",
+    "@id",
+    "@type",
+    "name",
+    "slug",
+    "author",
+    "srdVersion",
+    "license",
+    "licenseUrl",
+    "attributionStatement",
+    "sourceFile",
+    "contentDigest"
+  ],
+  "unevaluatedProperties": false
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/2-2-choose-a-character-sheet",
+  "@type": "Rule",
+  "name": "Choose a Character Sheet",
+  "slug": "2-2-choose-a-character-sheet",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.2",
+    "heading": "Choose a Character Sheet",
+    "lineStart": 1720,
+    "lineEnd": 1722
+  },
+  "section": "2.2",
+  "rulesText": "You'll record the main details of your character on a character sheet. Throughout this chapter, we use the term \"character sheet\" to mean whatever you use to track your character's details, whether it's a printed character sheet, a digital character sheet, or plain paper. Choose whichever style of sheet works for you, and then embark on creating a character!"
+}

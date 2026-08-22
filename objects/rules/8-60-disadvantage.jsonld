@@ -1,0 +1,19 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/8-60-disadvantage",
+  "@type": "Rule",
+  "name": "Disadvantage",
+  "slug": "8-60-disadvantage",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.60",
+    "heading": "Disadvantage",
+    "lineStart": 13117,
+    "lineEnd": 13119
+  },
+  "section": "8.60",
+  "rulesText": "If you have Disadvantage on a D20 Test, roll two d20s and use the lower roll. A roll can't be affected by more than one Disadvantage, and Advantage and Disadvantage on the same roll cancel each other. See also \"Playing the Game\" (\"D20 Tests\")."
+}
