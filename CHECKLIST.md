@@ -53,4 +53,6 @@ Replication of the `wwn-system-json` pipeline (see its `PLAYBOOK.md`) for the Sy
 
 ## Open (requires human judgment, not tooling)
 
+- [ ] Resolve every applicable finding in `AUDIT.md`, starting with the critical source-boundary/invented-value finding.
+- [ ] Expand the review ledger to nested feature and table content and to typed/source, table-shape, provenance, and graph-fidelity checks.
 - [ ] Semantic review: disposition the pending signals in `objects/sources/source-review-ledger.json` (`make review-stats`).

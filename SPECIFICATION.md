@@ -1,6 +1,6 @@
 # SRD 5.2.1 System JSON — Technical Specification
 
-Status: v0.2.0. All pipeline phases are complete and verified by `make check`: extraction of 13 typed collections, paragraph-level source coverage (0 uncovered lines), schema validation, link resolution, graph enrichment, LLM/FAIR artifacts, and build determinism. The one open item is human semantic review: `objects/sources/source-review-ledger.json` tracks the pending signals (`make review-stats`), and the corpus must not be described as semantically verified until they are dispositioned.
+Status: v0.2.0 audit remediation. The mechanical pipeline passes `make check`, but that gate does not prove the source-discipline, graph-fidelity, traceability, table, LLM/search, or semantic-review requirements. `AUDIT.md` is the current evidence-backed remediation backlog. The corpus must not be described as complete or semantically verified until every applicable audit finding and review signal is closed.
 
 ## 1. Objective
 
@@ -86,16 +86,16 @@ Pre- and post-repair digests are recorded in the overrides registry. The parser 
 `make check` runs, in order: full re-extraction, manifest, bundle, `llms-full.txt`, search index, unit tests, structural validation, schema validation, determinism.
 
 - `scripts/validate.py` (dependency-free): JSON syntax, required identity fields, unique `@id`s, slug/filename agreement, locator line bounds, and 100% node-reference resolution including manifest and bundle.
-- `scripts/validate_schema.py`: all 2,317 records + manifest against the Draft 2020-12 schemas.
+- `scripts/validate_schema.py`: all 2,112 records + manifest against the Draft 2020-12 schemas.
 - `tests/test_structural.py`: source digest match, attribution presence, catalog counts, entity fixtures (Bless, Fire Giant, Animated Shield), typed-fields-mirror-source-strings, no-invented-scores, JSON-LD expansion via pyld (asserts expanded predicate IRIs), llms-full inlining, search-index resolution.
 - `scripts/check_determinism.py`: two clean builds in temp dirs, byte-identical output including `llms-full.txt` and the search index.
 
 ## 7. Definition of done (v1)
 
-- all in-scope SRD blocks represented or explicitly excluded — **done** (heading-block coverage);
+- all in-scope SRD blocks represented or explicitly excluded — **open** (interval coverage passes, but `AUDIT.md` identifies fidelity and table-shape gaps);
 - every entity validates with a stable canonical IRI — **done**;
 - every internal relationship resolves — **done**;
-- deterministic generation — **done**;
-- licensing/attribution metadata present — **done**;
-- typed catalogs for the deferred chapters — **open**;
+- deterministic generation — **partially verified** (the current determinism script's artifact scope is incomplete);
+- licensing/attribution metadata present — **open** for secondary-source provenance; the required Wizards attribution is present;
+- typed catalogs for the deferred chapters — **open and requires a scope decision**;
 - human semantic review of ambiguous parses and table anomalies — **open**.

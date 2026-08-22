@@ -11,6 +11,7 @@ Machine-readable reference data for the System Reference Document 5.2.1 (D&D fif
 - `tests/` — structural test suite.
 - `index.html` — dependency-free static explorer (browse, search, and inspect records in the browser; works on GitHub Pages as-is).
 - `SPECIFICATION.md` — authoritative architecture, extraction rules, and audit baseline.
+- `AUDIT.md` — evidence-backed gap register, remediation order, and fix acceptance criteria.
 - `CHECKLIST.md` — replication blueprint with live completion status.
 
 ## Quickstart
@@ -19,6 +20,8 @@ Machine-readable reference data for the System Reference Document 5.2.1 (D&D fif
 make install   # sync dev dependencies with uv
 make check     # full rebuild + tests + structural/schema validation + determinism
 ```
+
+`make check` verifies the current mechanical gates, not semantic completeness. See `AUDIT.md` for known source-discipline, JSON-LD, provenance, table, ingestion, and review gaps that remain open.
 
 ## Corpus inventory (v0.2.0)
 
