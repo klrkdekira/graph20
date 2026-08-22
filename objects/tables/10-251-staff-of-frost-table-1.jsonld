@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.251",
     "heading": "Staff of Frost",
-    "lineStart": 17306,
-    "lineEnd": 17309
+    "lineStart": 17307,
+    "lineEnd": 17310
   },
   "columns": [
     "Spell",
@@ -55,5 +55,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell        | Charge Cost | Spell       | Charge Cost |\n| :----------- | :---------- | :---------- | :---------- |\n| Cone of Cold | 5           | Ice Storm   | 4           |\n| Fog Cloud    | 1           | Wall of Ice | 4           |"
 }

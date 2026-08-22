@@ -7,11 +7,11 @@ Machine-readable reference data for the System Reference Document 5.2.1 (D&D fif
 - `SRD_CC_v5.2.1.md` — the authoritative CC-BY-4.0 source markdown (frozen; SHA-256 asserted by tests).
 - `objects/` — one JSON-LD file per entity: rules, tables, spells, feats, magic items, monsters, plus source provenance, the aggregate manifest, the single-file bundle, and the static search index.
 - `systems/` — JSON-LD 1.1 context and Draft 2020-12 schemas.
-- `scripts/` — deterministic extraction, manifest/bundle/llms/search-index builders, and validators.
+- `scripts/` — deterministic extraction and artifact builders plus separate anomaly, fidelity, graph, schema, and determinism gates.
+- `reviews/` — curated semantic-review policies and occurrence overrides that survive clean builds.
 - `tests/` — structural test suite.
 - `index.html` — dependency-free static explorer (browse, search, and inspect records in the browser; works on GitHub Pages as-is).
-- `SPECIFICATION.md` — authoritative architecture, extraction rules, and audit baseline.
-- `AUDIT.md` — evidence-backed gap register, remediation order, and fix acceptance criteria.
+- `SPECIFICATION.md` — authoritative architecture, extraction rules, and acceptance gates.
 - `CHECKLIST.md` — replication blueprint with live completion status.
 
 ## Quickstart
@@ -21,15 +21,15 @@ make install   # sync dev dependencies with uv
 make check     # full rebuild + tests + structural/schema validation + determinism
 ```
 
-`make check` verifies the current mechanical gates, not semantic completeness. See `AUDIT.md` for known source-discipline, JSON-LD, provenance, table, ingestion, and review gaps that remain open.
+`make check` rebuilds every artifact, rejects unreviewed source anomalies or semantic signals, verifies locator/typed-field fidelity, expands the complete JSON-LD graph, validates primary and auxiliary schemas, and compares clean builds with checked-in output. `make coverage` is deliberately narrower: it proves interval coverage only.
 
-## Corpus inventory (v0.2.0)
+## Corpus inventory (v0.3.0)
 
 | Collection | Records | Schema |
 | --- | --- | --- |
 | sources | 1 | `source.schema.json` |
 | rules | 738 | `rule.schema.json` |
-| tables | 243 | `table.schema.json` |
+| tables | 223 | `table.schema.json` |
 | classes | 12 | `class.schema.json` |
 | subclasses | 12 | `subclass.schema.json` |
 | species | 9 | `species.schema.json` |
@@ -40,15 +40,17 @@ make check     # full rebuild + tests + structural/schema validation + determini
 | conditions | 15 | `condition.schema.json` |
 | magic-items | 258 | `magic-item.schema.json` |
 | monsters | 332 | `monster.schema.json` |
-| **total** | **2,112** | |
+| **total** | **2,092** | |
 
-Graph enrichment: spells link to class nodes and carry typed save/damage/scaling fields; monsters carry typed six-ability blocks, parsed attack routines, and condition-immunity links; equipment carries typed damage, properties, and costs. Verbatim SRD prose is always preserved alongside.
+Graph enrichment: spells link to class nodes and carry all four printed spell headers plus typed save/damage/scaling fields; monsters carry observed ability entries, 423 parsed damaging attacks, one explicit non-damaging attack disposition, and condition-immunity links; magic items retain every rarity variant and full-header attunement; equipment carries typed damage, properties, and costs. Verbatim SRD prose is preserved alongside.
 
 ## Conventions
 
 Every entity has an absolute canonical `@id` under the base IRI `https://cheeleong.dev/graph20/`, a JSON-LD `@type`, a slug, a source reference, and a `sourceLocator` (chapter, section, heading, line bounds) tracing it to the SRD markdown. Source wording is preserved verbatim in `rulesText`; structured fields are indexes, never replacements.
 
-The source markdown received a single documented repair pass (`scripts/repair_source.py`) driven by the substitution glossary in `scripts/data/sanitization-glossary.json`: OCR dice (`Id6` → `1d6`), `Level I/II` headings, and 91 damaged monster ability tables regenerated from open5e's CC-BY-4.0 srd-2024 dataset with cell-level cross-validation. All repairs and their rationale live in `objects/sources/extraction-overrides.json`. Coverage (`make coverage`) asserts every content line maps to a record; `make review-stats` shows the semantic review ledger.
+The source markdown received one documented normalization event (`scripts/repair_source.py`) cross-checked directly against the official PDF text layer. All observed tokens, approved fixes, rationale, dispositions, and pre/post digests live in `objects/sources/extraction-overrides.json`; `make anomalies` rejects stale or unreviewed detector results. No external dataset contributes retained values, and missing source cells remain omitted through extraction and every aggregate. Coverage currently maps all 18,051 in-scope content lines; `make fidelity` separately proves physical ownership and typed/source agreement. `make review-stats` reports the occurrence-level semantic ledger, currently with zero pending signals.
+
+Class traits and manifest collections use graph-safe typed entries rather than arbitrary JSON property maps. All IRI-coerced predicates use `{ "@id": "..." }` values. The published vocabulary inventories every project class and predicate observed in the expanded graph using dereferenceable fragment IRIs under `https://cheeleong.dev/graph20/vocab/#`.
 
 ## Source, license, and attribution
 

@@ -70,8 +70,41 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Sting. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage plus 3 (1d6) Poison damage."
+      "rulesText": "Sting. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage plus 3 (1d6) Poison damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.80",
+        "heading": "Actions",
+        "lineStart": 28837,
+        "lineEnd": 28839
+      }
     }
   ],
-  "rulesText": "Tiny Beast, Unaligned\n\nAC 11\nInitiative +0 (10)\nHP 1 (1d4 - 1)\nSpeed 10 ft.\n\nSenses Blindsight 10 ft.; Passive Perception 9\nLanguages None\nCR 0 (XP 10; PB +2)\n\nActions\n\nSting. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage plus 3 (1d6) Poison damage."
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 11\nInitiative +0 (10)\nHP 1 (1d4 - 1)\nSpeed 10 ft.\n\nSenses Blindsight 10 ft.; Passive Perception 9\nLanguages None\nCR 0 (XP 10; PB +2)\n\nActions\n\nSting. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage plus 3 (1d6) Poison damage.",
+  "attacks": [
+    {
+      "name": "Sting",
+      "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 1,
+          "damageType": "Piercing"
+        },
+        {
+          "averageDamage": 3,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "1d6",
+            "count": 1,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Sting. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage plus 3 (1d6) Poison damage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
+      "attackBonus": 2,
+      "reachFeet": 5
+    }
+  ]
 }

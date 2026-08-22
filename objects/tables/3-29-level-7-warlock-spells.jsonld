@@ -76,5 +76,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell           | School      | Special |\n| :-------------- | :---------- | :------ |\n| Etherealness    | Conjuration |    -    |\n| Finger of Death | Necromancy  |    -    |\n| Forcecage       | Evocation   | C, M    |\n| Plane Shift     | Conjuration | M       |"
 }

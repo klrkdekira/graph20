@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Pack Tactics. The wolf has Advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+      "rulesText": "Pack Tactics. The wolf has Advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.266",
+        "heading": "Traits",
+        "lineStart": 26549,
+        "lineEnd": 26551
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +6, reach 5 ft. Hit: 11 (2d6 + 4) Piercing damage. If the target is a Large or smaller creature, it has the Prone condition.\n\nCold Breath (Recharge 5–6). Constitution Saving\nThrow: DC 12, each creature in a 15-foot Cone. Failure: 18 (4d8) Cold damage. Success: Half damage."
+      "rulesText": "Bite. Melee Attack Roll: +6, reach 5 ft. Hit: 11 (2d6 + 4) Piercing damage. If the target is a Large or smaller creature, it has the Prone condition.\n\nCold Breath (Recharge 5–6). Constitution Saving\nThrow: DC 12, each creature in a 15-foot Cone. Failure: 18 (4d8) Cold damage. Success: Half damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.266",
+        "heading": "Actions",
+        "lineStart": 26553,
+        "lineEnd": 26558
+      }
     }
   ],
   "rulesText": "Large Monstrosity, Neutral Evil\n\nAC 13\nInitiative +1 (11)\nHP 75 (10d10 + 20)\nSpeed 50 ft.\n\nSkills Perception +5, Stealth +5\nImmunities Cold\nSenses Passive Perception 15\nLanguages Common, Giant\nCR 3 (XP 700; PB +2)\n\nTraits\n\nPack Tactics. The wolf has Advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 11 (2d6 + 4) Piercing damage. If the target is a Large or smaller creature, it has the Prone condition.\n\nCold Breath (Recharge 5–6). Constitution Saving\nThrow: DC 12, each creature in a 15-foot Cone. Failure: 18 (4d8) Cold damage. Success: Half damage.",
@@ -84,15 +98,22 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 11,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d6+4",
+            "count": 2,
+            "sides": 6,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +6, reach 5 ft. Hit: 11 (2d6 + 4) Piercing damage. If the target is a Large or smaller creature, it has the Prone condition.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 11,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d6+4",
-        "count": 2,
-        "sides": 6,
-        "modifier": 4
-      },
       "reachFeet": 5
     }
   ]

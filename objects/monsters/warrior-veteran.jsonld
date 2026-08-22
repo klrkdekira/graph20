@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The warrior makes two Greatsword or Heavy Crossbow attacks.\n\nGreatsword. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.\n\nHeavy Crossbow. Ranged Attack Roll: +3, range 100/400 ft. Hit: 12 (2d10 + 1) Piercing damage."
+      "rulesText": "Multiattack. The warrior makes two Greatsword or Heavy Crossbow attacks.\n\nGreatsword. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.\n\nHeavy Crossbow. Ranged Attack Roll: +3, range 100/400 ft. Hit: 12 (2d10 + 1) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.252",
+        "heading": "Actions",
+        "lineStart": 26045,
+        "lineEnd": 26051
+      }
     },
     {
       "name": "Reactions",
-      "rulesText": "Parry. Trigger: The warrior is hit by a melee attack roll while holding a weapon. Response: The warrior adds 2 to its AC against that attack, possibly causing it to miss."
+      "rulesText": "Parry. Trigger: The warrior is hit by a melee attack roll while holding a weapon. Response: The warrior adds 2 to its AC against that attack, possibly causing it to miss.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.252",
+        "heading": "Reactions",
+        "lineStart": 26053,
+        "lineEnd": 26055
+      }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 17\nInitiative +3 (13)\nHP 65 (10d8 + 20)\nSpeed 30 ft.\n\nSkills Athletics +5, Perception +2\nGear Greatsword, Heavy Crossbow, Splint Armor\nSenses Passive Perception 12\nLanguages Common plus one other language\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The warrior makes two Greatsword or Heavy Crossbow attacks.\n\nGreatsword. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.\n\nHeavy Crossbow. Ranged Attack Roll: +3, range 100/400 ft. Hit: 12 (2d10 + 1) Piercing damage.\n\nReactions\n\nParry. Trigger: The warrior is hit by a melee attack roll while holding a weapon. Response: The warrior adds 2 to its AC against that attack, possibly causing it to miss.",
@@ -84,29 +98,43 @@
     {
       "name": "Greatsword",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 10,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "2d6+3",
+            "count": 2,
+            "sides": 6,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Greatsword. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 10,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "2d6+3",
-        "count": 2,
-        "sides": 6,
-        "modifier": 3
-      },
       "reachFeet": 5
     },
     {
       "name": "Heavy Crossbow",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 12,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d10+1",
+            "count": 2,
+            "sides": 10,
+            "modifier": 1
+          }
+        }
+      ],
+      "sourceText": "Heavy Crossbow. Ranged Attack Roll: +3, range 100/400 ft. Hit: 12 (2d10 + 1) Piercing damage.",
+      "path": "statSections[0].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 3,
-      "averageDamage": 12,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d10+1",
-        "count": 2,
-        "sides": 10,
-        "modifier": 1
-      },
       "rangeFeet": {
         "normal": 100,
         "long": 400

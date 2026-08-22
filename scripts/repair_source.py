@@ -256,6 +256,8 @@ def repair_source_text(md_content: str, txt_content: str = "") -> str:
         (r"\badvan-tage\b", "advantage"),
         (r"\bdisadvan-tage\b", "disadvantage"),
         (r"\bcon-centration\b", "concentration"),
+        (r"\bpo-tions\b", "potions"),
+        (r"\bex-pending\b", "expending"),
         (r"\bchar-acter\b", "character"),
         (r"\bpro-ficiency\b", "proficiency"),
     ]

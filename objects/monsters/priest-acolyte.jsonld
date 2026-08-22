@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Mace. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage plus 2 (1d4) Radiant damage.\n\nRadiant Flame. Ranged Attack Roll: +4, range 60 ft.\nHit: 7 (2d6) Radiant damage.\n\nSpellcasting. The priest casts one of the following spells, using Wisdom as the spellcasting ability:\n\nAt Will: Light, Thaumaturgy"
+      "rulesText": "Mace. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage plus 2 (1d4) Radiant damage.\n\nRadiant Flame. Ranged Attack Roll: +4, range 60 ft.\nHit: 7 (2d6) Radiant damage.\n\nSpellcasting. The priest casts one of the following spells, using Wisdom as the spellcasting ability:\n\nAt Will: Light, Thaumaturgy",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.190",
+        "heading": "Actions",
+        "lineStart": 23978,
+        "lineEnd": 23987
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Divine Aid (1/Day). The priest casts Bless, Healing Word, or Sanctuary, using the same spellcasting ability as Spellcasting."
+      "rulesText": "Divine Aid (1/Day). The priest casts Bless, Healing Word, or Sanctuary, using the same spellcasting ability as Spellcasting.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.190",
+        "heading": "Bonus Actions",
+        "lineStart": 23989,
+        "lineEnd": 23991
+      }
     }
   ],
   "rulesText": "Medium or Small Humanoid (Cleric), Neutral\n\nAC 13\nInitiative +0 (10)\nHP 11 (2d8 + 2)\nSpeed 30 ft.\n\nSkills Medicine +4, Religion +2\nGear Chain Shirt, Holy Symbol, Mace\nSenses Passive Perception 12\nLanguages Common\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nMace. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage plus 2 (1d4) Radiant damage.\n\nRadiant Flame. Ranged Attack Roll: +4, range 60 ft.\nHit: 7 (2d6) Radiant damage.\n\nSpellcasting. The priest casts one of the following spells, using Wisdom as the spellcasting ability:\n\nAt Will: Light, Thaumaturgy\n\nBonus Actions\n\nDivine Aid (1/Day). The priest casts Bless, Healing Word, or Sanctuary, using the same spellcasting ability as Spellcasting.",
@@ -84,28 +98,51 @@
     {
       "name": "Mace",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 5,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "1d6+2",
+            "count": 1,
+            "sides": 6,
+            "modifier": 2
+          }
+        },
+        {
+          "averageDamage": 2,
+          "damageType": "Radiant",
+          "damageRoll": {
+            "expression": "1d4",
+            "count": 1,
+            "sides": 4
+          }
+        }
+      ],
+      "sourceText": "Mace. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage plus 2 (1d4) Radiant damage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 5,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "1d6+2",
-        "count": 1,
-        "sides": 6,
-        "modifier": 2
-      },
       "reachFeet": 5
     },
     {
       "name": "Radiant Flame",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 7,
+          "damageType": "Radiant",
+          "damageRoll": {
+            "expression": "2d6",
+            "count": 2,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Radiant Flame. Ranged Attack Roll: +4, range 60 ft.\nHit: 7 (2d6) Radiant damage.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 7,
-      "damageType": "Radiant",
-      "damageRoll": {
-        "expression": "2d6",
-        "count": 2,
-        "sides": 6
-      },
       "rangeFeet": {
         "normal": 60
       }

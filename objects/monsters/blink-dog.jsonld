@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage."
+      "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.31",
+        "heading": "Actions",
+        "lineStart": 18931,
+        "lineEnd": 18933
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Teleport (Recharge 4–6). The dog teleports up to 40 feet to an unoccupied space it can see."
+      "rulesText": "Teleport (Recharge 4–6). The dog teleports up to 40 feet to an unoccupied space it can see.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.31",
+        "heading": "Bonus Actions",
+        "lineStart": 18935,
+        "lineEnd": 18937
+      }
     }
   ],
   "rulesText": "Medium Fey, Lawful Good\n\nAC 13\nInitiative +3 (13)\nHP 22 (4d8 + 4)\nSpeed 40 ft.\n\nSkills Perception +5, Stealth +5\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages Blink Dog; understands Elvish and Sylvan but can't speak them\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage.\n\nBonus Actions\n\nTeleport (Recharge 4–6). The dog teleports up to 40 feet to an unoccupied space it can see.",
@@ -83,15 +97,22 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 5,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d4+3",
+            "count": 1,
+            "sides": 4,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 5,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d4+3",
-        "count": 1,
-        "sides": 4,
-        "modifier": 3
-      },
       "reachFeet": 5
     }
   ]

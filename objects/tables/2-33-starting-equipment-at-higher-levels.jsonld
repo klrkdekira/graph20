@@ -76,5 +76,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Starting Level | Equipment and Money                                         | Magic Items                               |\n| :------------- | :---------------------------------------------------------- | :---------------------------------------- |\n| 2–4            | Normal starting equipment                                   | 1 Common                                  |\n| 5–10           | 500 GP plus 1d10 × 25 GP plus normal starting equipment     | 1 Common, 1 Uncommon                      |\n| 11–16          | 5,000 gp plus 1d10 × 250 GP plus normal starting equipment  | 2 Common, 3 Uncommon, 1 Rare              |\n| 17–20          | 20,000 GP plus 1d10 × 250 GP plus normal starting equipment | 2 Common, 4 Uncommon, 3 Rare, 1 Very Rare |"
 }

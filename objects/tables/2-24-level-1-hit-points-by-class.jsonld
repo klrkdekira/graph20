@@ -63,5 +63,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Class                                        | Hit Point Maximum  |\n| :------------------------------------------- | :----------------- |\n| Barbarian                                    | 12 + Con. modifier |\n| Fighter, Paladin, or Ranger                  | 10 + Con. modifier |\n| Bard, Cleric, Druid, Monk, Rogue, or Warlock | 8 + Con. modifier  |\n| Sorcerer or Wizard                           | 6 + Con. modifier  |"
 }

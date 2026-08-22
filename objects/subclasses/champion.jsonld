@@ -12,7 +12,7 @@
     "section": "3.14",
     "heading": "Fighter Subclass: Champion",
     "lineStart": 3005,
-    "lineEnd": 3009
+    "lineEnd": 3039
   },
   "parentClass": {
     "@id": "https://cheeleong.dev/graph20/objects/classes/fighter"
@@ -23,32 +23,74 @@
     {
       "level": 3,
       "name": "Improved Critical",
-      "rulesText": "Your attack rolls with weapons and Unarmed Strikes can score a Critical Hit on a roll of 19 or 20 on the d20."
+      "rulesText": "Your attack rolls with weapons and Unarmed Strikes can score a Critical Hit on a roll of 19 or 20 on the d20.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.13",
+        "heading": "Level 3: Improved Critical",
+        "lineStart": 3011,
+        "lineEnd": 3013
+      }
     },
     {
       "level": 3,
       "name": "Remarkable Athlete",
-      "rulesText": "Thanks to your athleticism, you have Advantage on Initiative rolls and Strength (Athletics) checks.\n\nIn addition, immediately after you score a Critical Hit, you can move up to half your Speed without provoking Opportunity Attacks."
+      "rulesText": "Thanks to your athleticism, you have Advantage on Initiative rolls and Strength (Athletics) checks.\n\nIn addition, immediately after you score a Critical Hit, you can move up to half your Speed without provoking Opportunity Attacks.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.13",
+        "heading": "Level 3: Remarkable Athlete",
+        "lineStart": 3015,
+        "lineEnd": 3019
+      }
     },
     {
       "level": 7,
       "name": "Additional Fighting Style",
-      "rulesText": "You gain another Fighting Style feat of your choice."
+      "rulesText": "You gain another Fighting Style feat of your choice.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.13",
+        "heading": "Level 7: Additional Fighting Style",
+        "lineStart": 3021,
+        "lineEnd": 3023
+      }
     },
     {
       "level": 10,
       "name": "Heroic Warrior",
-      "rulesText": "The thrill of battle drives you toward victory. During combat, you can give yourself Heroic Inspiration whenever you start your turn without it."
+      "rulesText": "The thrill of battle drives you toward victory. During combat, you can give yourself Heroic Inspiration whenever you start your turn without it.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.13",
+        "heading": "Level 10: Heroic Warrior",
+        "lineStart": 3025,
+        "lineEnd": 3027
+      }
     },
     {
       "level": 15,
       "name": "Superior Critical",
-      "rulesText": "Your attack rolls with weapons and Unarmed Strikes can now score a Critical Hit on a roll of 18–20 on the d20."
+      "rulesText": "Your attack rolls with weapons and Unarmed Strikes can now score a Critical Hit on a roll of 18–20 on the d20.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.13",
+        "heading": "Level 15: Superior Critical",
+        "lineStart": 3029,
+        "lineEnd": 3031
+      }
     },
     {
       "level": 18,
       "name": "Survivor",
-      "rulesText": "You attain the pinnacle of resilience in battle, giving you these benefits.\n\nDefy Death. You have Advantage on Death Saving Throws. Moreover, when you roll 18–20 on a Death Saving Throw, you gain the benefit of rolling a 20 on it.\n\nHeroic Rally. At the start of each of your turns, you regain Hit Points equal to 5 plus your Constitution modifier if you are Bloodied and have at least 1 Hit Point."
+      "rulesText": "You attain the pinnacle of resilience in battle, giving you these benefits.\n\nDefy Death. You have Advantage on Death Saving Throws. Moreover, when you roll 18–20 on a Death Saving Throw, you gain the benefit of rolling a 20 on it.\n\nHeroic Rally. At the start of each of your turns, you regain Hit Points equal to 5 plus your Constitution modifier if you are Bloodied and have at least 1 Hit Point.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.13",
+        "heading": "Level 18: Survivor",
+        "lineStart": 3033,
+        "lineEnd": 3039
+      }
     }
   ]
 }

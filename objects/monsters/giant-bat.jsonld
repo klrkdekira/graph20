@@ -69,7 +69,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage."
+      "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.28",
+        "heading": "Actions",
+        "lineStart": 27437,
+        "lineEnd": 27439
+      }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 22 (4d10)\nSpeed 10 ft., Fly 60 ft.\n\nSenses Blindsight 120 ft.; Passive Perception 11\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage.",
@@ -77,15 +84,22 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 6,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d6+3",
+            "count": 1,
+            "sides": 6,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 6,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d6+3",
-        "count": 1,
-        "sides": 6,
-        "modifier": 3
-      },
       "reachFeet": 5
     }
   ]

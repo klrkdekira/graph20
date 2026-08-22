@@ -74,5 +74,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Paladin Level | Spells                                        |\n| :------------ | :-------------------------------------------- |\n| 3             | Protection from Evil and Good,Shield of Faith |\n| 5             | Aid, Zone of Truth                            |\n| 9             | Beacon of Hope, Dispel Magic                  |\n| 13            | Freedom of Movement,Guardian of Faith         |\n| 17            | Commune, Flame Strike                         |"
 }

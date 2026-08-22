@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Flyby. The gargoyle doesn't provoke an Opportunity Attack when it flies out of an enemy's reach."
+      "rulesText": "Flyby. The gargoyle doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.95",
+        "heading": "Traits",
+        "lineStart": 20991,
+        "lineEnd": 20993
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The gargoyle makes two Claw attacks.\n\nClaw. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Slashing damage."
+      "rulesText": "Multiattack. The gargoyle makes two Claw attacks.\n\nClaw. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Slashing damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.95",
+        "heading": "Actions",
+        "lineStart": 20995,
+        "lineEnd": 20999
+      }
     }
   ],
   "rulesText": "Medium Elemental, Chaotic Evil\n\nAC 15\nInitiative +2 (12)\nHP 67 (9d8 + 27)\nSpeed 30 ft., Fly 60 ft.\n\nSkills Stealth +4\nImmunities Poison; Exhaustion, Petrified, Poisoned\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Primordial (Terran)\nCR 2 (XP 450; PB +2)\n\nTraits\n\nFlyby. The gargoyle doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nMultiattack. The gargoyle makes two Claw attacks.\n\nClaw. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Slashing damage.",
@@ -95,15 +109,22 @@
     {
       "name": "Claw",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 7,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "2d4+2",
+            "count": 2,
+            "sides": 4,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Claw. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Slashing damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 7,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "2d4+2",
-        "count": 2,
-        "sides": 4,
-        "modifier": 2
-      },
       "reachFeet": 5
     }
   ]

@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Siege Monster. The treant deals double damage to objects and structures."
+      "rulesText": "Siege Monster. The treant deals double damage to objects and structures.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.241",
+        "heading": "Traits",
+        "lineStart": 25671,
+        "lineEnd": 25673
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The treant makes two Slam attacks.\n\nSlam. Melee Attack Roll: +10, reach 5 ft. Hit: 16 (3d6 + 6) Bludgeoning damage.\n\nHail of Bark. Ranged Attack Roll: +10, range 180 ft.\nHit: 28 (4d10 + 6) Piercing damage.\n\nAnimate Trees (1/Day). The treant magically animates up to two trees it can see within 60 feet of itself. Each tree uses the Treant stat block, except it has Intelligence and Charisma scores of 1, it can't speak, and it lacks this action. The tree takes its turn immediately after the treant on the same Initiative count, and it obeys the treant. A tree remains animate for 1 day or until it dies, the treant dies, or it is more than 120 feet from the treant. The tree then takes root if possible."
+      "rulesText": "Multiattack. The treant makes two Slam attacks.\n\nSlam. Melee Attack Roll: +10, reach 5 ft. Hit: 16 (3d6 + 6) Bludgeoning damage.\n\nHail of Bark. Ranged Attack Roll: +10, range 180 ft.\nHit: 28 (4d10 + 6) Piercing damage.\n\nAnimate Trees (1/Day). The treant magically animates up to two trees it can see within 60 feet of itself. Each tree uses the Treant stat block, except it has Intelligence and Charisma scores of 1, it can't speak, and it lacks this action. The tree takes its turn immediately after the treant on the same Initiative count, and it obeys the treant. A tree remains animate for 1 day or until it dies, the treant dies, or it is more than 120 feet from the treant. The tree then takes root if possible.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.241",
+        "heading": "Actions",
+        "lineStart": 25675,
+        "lineEnd": 25684
+      }
     }
   ],
   "rulesText": "Huge Plant, Chaotic Good\n\nAC 16\nInitiative +3 (13)\nHP 138 (12d12 + 60)\nSpeed 30 ft.\n\nVulnerabilities Fire\nResistances Bludgeoning, Piercing\nSenses Passive Perception 13\nLanguages Common, Druidic, Elvish, Sylvan\nCR 9 (XP 5,000; PB +4)\n\nTraits\n\nSiege Monster. The treant deals double damage to objects and structures.\n\nActions\n\nMultiattack. The treant makes two Slam attacks.\n\nSlam. Melee Attack Roll: +10, reach 5 ft. Hit: 16 (3d6 + 6) Bludgeoning damage.\n\nHail of Bark. Ranged Attack Roll: +10, range 180 ft.\nHit: 28 (4d10 + 6) Piercing damage.\n\nAnimate Trees (1/Day). The treant magically animates up to two trees it can see within 60 feet of itself. Each tree uses the Treant stat block, except it has Intelligence and Charisma scores of 1, it can't speak, and it lacks this action. The tree takes its turn immediately after the treant on the same Initiative count, and it obeys the treant. A tree remains animate for 1 day or until it dies, the treant dies, or it is more than 120 feet from the treant. The tree then takes root if possible.",
@@ -84,29 +98,43 @@
     {
       "name": "Slam",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 16,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "3d6+6",
+            "count": 3,
+            "sides": 6,
+            "modifier": 6
+          }
+        }
+      ],
+      "sourceText": "Slam. Melee Attack Roll: +10, reach 5 ft. Hit: 16 (3d6 + 6) Bludgeoning damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 10,
-      "averageDamage": 16,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "3d6+6",
-        "count": 3,
-        "sides": 6,
-        "modifier": 6
-      },
       "reachFeet": 5
     },
     {
       "name": "Hail of Bark",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 28,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "4d10+6",
+            "count": 4,
+            "sides": 10,
+            "modifier": 6
+          }
+        }
+      ],
+      "sourceText": "Hail of Bark. Ranged Attack Roll: +10, range 180 ft.\nHit: 28 (4d10 + 6) Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 10,
-      "averageDamage": 28,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "4d10+6",
-        "count": 4,
-        "sides": 10,
-        "modifier": 6
-      },
       "rangeFeet": {
         "normal": 180
       }

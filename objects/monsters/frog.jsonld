@@ -71,12 +71,43 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Amphibious. The frog can breathe air and water.\n\nStanding Leap. The frog's Long Jump is up to 10 feet and its High Jump is up to 5 feet with or without a running start."
+      "rulesText": "Amphibious. The frog can breathe air and water.\n\nStanding Leap. The frog's Long Jump is up to 10 feet and its High Jump is up to 5 feet with or without a running start.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.25",
+        "heading": "Traits",
+        "lineStart": 27354,
+        "lineEnd": 27358
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 1 Piercing damage."
+      "rulesText": "Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 1 Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.25",
+        "heading": "Actions",
+        "lineStart": 27360,
+        "lineEnd": 27362
+      }
     }
   ],
-  "rulesText": "Tiny Beast, Unaligned\n\nAC 11\nInitiative +1 (11)\nHP 1 (1d4 - 1)\nSpeed 20 ft., Swim 20 ft.\n\nSkills Perception +1, Stealth +3\nSenses Darkvision 30 ft.; Passive Perception 11\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nAmphibious. The frog can breathe air and water.\n\nStanding Leap. The frog's Long Jump is up to 10 feet and its High Jump is up to 5 feet with or without a running start.\n\nActions\n\nBite. Melee Attack Roll: +3, reach 5 ft. Hit: 1 Piercing damage."
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 11\nInitiative +1 (11)\nHP 1 (1d4 - 1)\nSpeed 20 ft., Swim 20 ft.\n\nSkills Perception +1, Stealth +3\nSenses Darkvision 30 ft.; Passive Perception 11\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nAmphibious. The frog can breathe air and water.\n\nStanding Leap. The frog's Long Jump is up to 10 feet and its High Jump is up to 5 feet with or without a running start.\n\nActions\n\nBite. Melee Attack Roll: +3, reach 5 ft. Hit: 1 Piercing damage.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 1,
+          "damageType": "Piercing"
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 1 Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
+      "attackBonus": 3,
+      "reachFeet": 5
+    }
+  ]
 }

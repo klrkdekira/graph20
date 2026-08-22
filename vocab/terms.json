@@ -1,0 +1,2036 @@
+{
+  "vocabulary": "https://cheeleong.dev/graph20/vocab/#",
+  "classes": [
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#Background",
+      "anchor": "Background",
+      "description": "JSON-LD class for background records."
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#CharacterClass",
+      "anchor": "CharacterClass",
+      "description": "JSON-LD class for character class records."
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#Condition",
+      "anchor": "Condition",
+      "description": "JSON-LD class for condition records."
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#Equipment",
+      "anchor": "Equipment",
+      "description": "JSON-LD class for equipment records."
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#Feat",
+      "anchor": "Feat",
+      "description": "JSON-LD class for feat records."
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#MagicItem",
+      "anchor": "MagicItem",
+      "description": "JSON-LD class for magic item records."
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#Monster",
+      "anchor": "Monster",
+      "description": "JSON-LD class for monster records."
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#Rule",
+      "anchor": "Rule",
+      "description": "JSON-LD class for rule records."
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#SRDSystemData",
+      "anchor": "SRDSystemData",
+      "description": "JSON-LD class for srdsystem data records."
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#Source",
+      "anchor": "Source",
+      "description": "JSON-LD class for source records."
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#Species",
+      "anchor": "Species",
+      "description": "JSON-LD class for species records."
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#Spell",
+      "anchor": "Spell",
+      "description": "JSON-LD class for spell records."
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#Subclass",
+      "anchor": "Subclass",
+      "description": "JSON-LD class for subclass records."
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#Table",
+      "anchor": "Table",
+      "description": "JSON-LD class for table records."
+    }
+  ],
+  "properties": [
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#abilities",
+      "anchor": "abilities",
+      "jsonTerms": [
+        "abilities"
+      ],
+      "description": "Carries the abilities value.",
+      "valueKinds": [
+        "structured blank node"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#abilityScoreOptions",
+      "anchor": "abilityScoreOptions",
+      "jsonTerms": [
+        "abilityScoreOptions"
+      ],
+      "description": "Carries the ability score options value.",
+      "valueKinds": [
+        "ordered/set values"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#abilityScores",
+      "anchor": "abilityScores",
+      "jsonTerms": [
+        "abilityScores"
+      ],
+      "description": "Carries the ability scores value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#alignment",
+      "anchor": "alignment",
+      "jsonTerms": [
+        "alignment"
+      ],
+      "description": "Carries the alignment value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#amount",
+      "anchor": "amount",
+      "jsonTerms": [
+        "amount"
+      ],
+      "description": "Carries the amount value.",
+      "valueKinds": [
+        "integer literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#armorCategory",
+      "anchor": "armorCategory",
+      "jsonTerms": [
+        "armorCategory"
+      ],
+      "description": "Carries the armor category value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#armorClass",
+      "anchor": "armorClass",
+      "jsonTerms": [
+        "armorClass"
+      ],
+      "description": "Carries the armor class value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#armorClassValue",
+      "anchor": "armorClassValue",
+      "jsonTerms": [
+        "armorClassValue"
+      ],
+      "description": "Carries the armor class value value.",
+      "valueKinds": [
+        "integer literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#attackBonus",
+      "anchor": "attackBonus",
+      "jsonTerms": [
+        "attackBonus"
+      ],
+      "description": "Carries the attack bonus value.",
+      "valueKinds": [
+        "integer literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#attackType",
+      "anchor": "attackType",
+      "jsonTerms": [
+        "attackType"
+      ],
+      "description": "Carries the attack type value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#attacks",
+      "anchor": "attacks",
+      "jsonTerms": [
+        "attacks"
+      ],
+      "description": "Carries the attacks value.",
+      "valueKinds": [
+        "ordered/set values"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#attributionStatement",
+      "anchor": "attributionStatement",
+      "jsonTerms": [
+        "attributionStatement"
+      ],
+      "description": "Carries the attribution statement value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#attunementNote",
+      "anchor": "attunementNote",
+      "jsonTerms": [
+        "attunementNote"
+      ],
+      "description": "Carries the attunement note value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#author",
+      "anchor": "author",
+      "jsonTerms": [
+        "author"
+      ],
+      "description": "Carries the author value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#automaticHit",
+      "anchor": "automaticHit",
+      "jsonTerms": [
+        "automaticHit"
+      ],
+      "description": "Carries the automatic hit value.",
+      "valueKinds": [
+        "boolean literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#averageDamage",
+      "anchor": "averageDamage",
+      "jsonTerms": [
+        "averageDamage"
+      ],
+      "description": "Carries the average damage value.",
+      "valueKinds": [
+        "integer literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#canonicalUrl",
+      "anchor": "canonicalUrl",
+      "jsonTerms": [
+        "canonicalUrl"
+      ],
+      "description": "Links the subject using the canonicalUrl relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "External IRI"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#castingTime",
+      "anchor": "castingTime",
+      "jsonTerms": [
+        "castingTime"
+      ],
+      "description": "Carries the casting time value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#category",
+      "anchor": "category",
+      "jsonTerms": [
+        "category"
+      ],
+      "description": "Carries the category value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#categoryDetail",
+      "anchor": "categoryDetail",
+      "jsonTerms": [
+        "categoryDetail"
+      ],
+      "description": "Carries the category detail value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#cells",
+      "anchor": "cells",
+      "jsonTerms": [
+        "cells"
+      ],
+      "description": "Carries the cells value.",
+      "valueKinds": [
+        "ordered/set values"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#cha",
+      "anchor": "cha",
+      "jsonTerms": [
+        "cha"
+      ],
+      "description": "Carries the cha value.",
+      "valueKinds": [
+        "structured blank node"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#challenge",
+      "anchor": "challenge",
+      "jsonTerms": [
+        "challenge"
+      ],
+      "description": "Carries the challenge value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#challengeRating",
+      "anchor": "challengeRating",
+      "jsonTerms": [
+        "challengeRating"
+      ],
+      "description": "Carries the challenge rating value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#chapter",
+      "anchor": "chapter",
+      "jsonTerms": [
+        "chapter"
+      ],
+      "description": "Carries the chapter value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#class",
+      "anchor": "class",
+      "jsonTerms": [
+        "classes"
+      ],
+      "description": "Links the subject using the classes relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "CharacterClass"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#classAvailability",
+      "anchor": "classAvailability",
+      "jsonTerms": [
+        "classAvailability"
+      ],
+      "description": "Carries the class availability value.",
+      "valueKinds": [
+        "ordered/set values"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#collection",
+      "anchor": "collection",
+      "jsonTerms": [
+        "collections"
+      ],
+      "description": "Carries the collections value.",
+      "valueKinds": [
+        "ordered/set values"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#columns",
+      "anchor": "columns",
+      "jsonTerms": [
+        "columns"
+      ],
+      "description": "Carries the columns value.",
+      "valueKinds": [
+        "ordered/set values"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#components",
+      "anchor": "components",
+      "jsonTerms": [
+        "components"
+      ],
+      "description": "Carries the components value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#con",
+      "anchor": "con",
+      "jsonTerms": [
+        "con"
+      ],
+      "description": "Carries the con value.",
+      "valueKinds": [
+        "structured blank node"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#concentration",
+      "anchor": "concentration",
+      "jsonTerms": [
+        "concentration"
+      ],
+      "description": "Carries the concentration value.",
+      "valueKinds": [
+        "boolean literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#conditionImmunity",
+      "anchor": "conditionImmunity",
+      "jsonTerms": [
+        "conditionImmunities"
+      ],
+      "description": "Links the subject using the conditionImmunities relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "Condition"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#contentDigest",
+      "anchor": "contentDigest",
+      "jsonTerms": [
+        "contentDigest"
+      ],
+      "description": "Carries the content digest value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#coreTraits",
+      "anchor": "coreTraits",
+      "jsonTerms": [
+        "coreTraits"
+      ],
+      "description": "Carries the core traits value.",
+      "valueKinds": [
+        "ordered/set values"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#corpusDigest",
+      "anchor": "corpusDigest",
+      "jsonTerms": [
+        "corpusDigest"
+      ],
+      "description": "Carries the corpus digest value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#cost",
+      "anchor": "cost",
+      "jsonTerms": [
+        "cost"
+      ],
+      "description": "Carries the cost value.",
+      "valueKinds": [
+        "structured blank node"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#count",
+      "anchor": "count",
+      "jsonTerms": [
+        "count"
+      ],
+      "description": "Carries the count value.",
+      "valueKinds": [
+        "integer literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#creatureType",
+      "anchor": "creatureType",
+      "jsonTerms": [
+        "creatureType"
+      ],
+      "description": "Carries the creature type value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#currency",
+      "anchor": "currency",
+      "jsonTerms": [
+        "currency"
+      ],
+      "description": "Carries the currency value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#damage",
+      "anchor": "damage",
+      "jsonTerms": [
+        "damage"
+      ],
+      "description": "Carries the damage value.",
+      "valueKinds": [
+        "ordered/set values",
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#damageComponents",
+      "anchor": "damageComponents",
+      "jsonTerms": [
+        "damageComponents"
+      ],
+      "description": "Carries the damage components value.",
+      "valueKinds": [
+        "ordered/set values"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#damageRoll",
+      "anchor": "damageRoll",
+      "jsonTerms": [
+        "damageRoll"
+      ],
+      "description": "Carries the damage roll value.",
+      "valueKinds": [
+        "structured blank node"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#damageType",
+      "anchor": "damageType",
+      "jsonTerms": [
+        "damageType"
+      ],
+      "description": "Carries the damage type value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#dex",
+      "anchor": "dex",
+      "jsonTerms": [
+        "dex"
+      ],
+      "description": "Carries the dex value.",
+      "valueKinds": [
+        "structured blank node"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#donDoffTime",
+      "anchor": "donDoffTime",
+      "jsonTerms": [
+        "donDoffTime"
+      ],
+      "description": "Carries the don doff time value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#duration",
+      "anchor": "duration",
+      "jsonTerms": [
+        "duration"
+      ],
+      "description": "Carries the duration value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#entityType",
+      "anchor": "entityType",
+      "jsonTerms": [
+        "entityType"
+      ],
+      "description": "Carries the entity type value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#equipmentType",
+      "anchor": "equipmentType",
+      "jsonTerms": [
+        "equipmentType"
+      ],
+      "description": "Carries the equipment type value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#experiencePoints",
+      "anchor": "experiencePoints",
+      "jsonTerms": [
+        "experiencePoints"
+      ],
+      "description": "Carries the experience points value.",
+      "valueKinds": [
+        "integer literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#expression",
+      "anchor": "expression",
+      "jsonTerms": [
+        "expression"
+      ],
+      "description": "Carries the expression value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#feat",
+      "anchor": "feat",
+      "jsonTerms": [
+        "feat"
+      ],
+      "description": "Carries the feat value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#features",
+      "anchor": "features",
+      "jsonTerms": [
+        "features"
+      ],
+      "description": "Carries the features value.",
+      "valueKinds": [
+        "ordered/set values"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#fromTable",
+      "anchor": "fromTable",
+      "jsonTerms": [
+        "fromTable"
+      ],
+      "description": "Links the subject using the fromTable relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "Table"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#gear",
+      "anchor": "gear",
+      "jsonTerms": [
+        "gear"
+      ],
+      "description": "Carries the gear value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#heading",
+      "anchor": "heading",
+      "jsonTerms": [
+        "heading"
+      ],
+      "description": "Carries the heading value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#hitPoints",
+      "anchor": "hitPoints",
+      "jsonTerms": [
+        "hitPoints"
+      ],
+      "description": "Carries the hit points value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#hitPointsRoll",
+      "anchor": "hitPointsRoll",
+      "jsonTerms": [
+        "hitPointsRoll"
+      ],
+      "description": "Carries the hit points roll value.",
+      "valueKinds": [
+        "structured blank node"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#hitPointsValue",
+      "anchor": "hitPointsValue",
+      "jsonTerms": [
+        "hitPointsValue"
+      ],
+      "description": "Carries the hit points value value.",
+      "valueKinds": [
+        "integer literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#immunities",
+      "anchor": "immunities",
+      "jsonTerms": [
+        "immunities"
+      ],
+      "description": "Carries the immunities value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#initiative",
+      "anchor": "initiative",
+      "jsonTerms": [
+        "initiative"
+      ],
+      "description": "Carries the initiative value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#int",
+      "anchor": "int",
+      "jsonTerms": [
+        "int"
+      ],
+      "description": "Carries the int value.",
+      "valueKinds": [
+        "structured blank node"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#itemCategory",
+      "anchor": "itemCategory",
+      "jsonTerms": [
+        "itemCategory"
+      ],
+      "description": "Carries the item category value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#languages",
+      "anchor": "languages",
+      "jsonTerms": [
+        "languages"
+      ],
+      "description": "Carries the languages value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#level",
+      "anchor": "level",
+      "jsonTerms": [
+        "level"
+      ],
+      "description": "Carries the level value.",
+      "valueKinds": [
+        "integer literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#licenseCode",
+      "anchor": "licenseCode",
+      "jsonTerms": [
+        "license"
+      ],
+      "description": "Carries the license value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#licenseUrl",
+      "anchor": "licenseUrl",
+      "jsonTerms": [
+        "licenseUrl"
+      ],
+      "description": "Links the subject using the licenseUrl relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "External IRI"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#lineEnd",
+      "anchor": "lineEnd",
+      "jsonTerms": [
+        "lineEnd"
+      ],
+      "description": "Carries the line end value.",
+      "valueKinds": [
+        "integer literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#lineStart",
+      "anchor": "lineStart",
+      "jsonTerms": [
+        "lineStart"
+      ],
+      "description": "Carries the line start value.",
+      "valueKinds": [
+        "integer literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#long",
+      "anchor": "long",
+      "jsonTerms": [
+        "long"
+      ],
+      "description": "Carries the long value.",
+      "valueKinds": [
+        "integer literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#mastery",
+      "anchor": "mastery",
+      "jsonTerms": [
+        "mastery"
+      ],
+      "description": "Carries the mastery value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#member",
+      "anchor": "member",
+      "jsonTerms": [
+        "members"
+      ],
+      "description": "Links the subject using the members relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "Background",
+        "CharacterClass",
+        "Condition",
+        "Equipment",
+        "Feat",
+        "MagicItem",
+        "Monster",
+        "Rule",
+        "Source",
+        "Species",
+        "Spell",
+        "Subclass",
+        "Table"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#metadata",
+      "anchor": "metadata",
+      "jsonTerms": [
+        "metadata"
+      ],
+      "description": "Carries the metadata value.",
+      "valueKinds": [
+        "structured blank node"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#modifier",
+      "anchor": "modifier",
+      "jsonTerms": [
+        "modifier"
+      ],
+      "description": "Carries the modifier value.",
+      "valueKinds": [
+        "integer literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#normal",
+      "anchor": "normal",
+      "jsonTerms": [
+        "normal"
+      ],
+      "description": "Carries the normal value.",
+      "valueKinds": [
+        "integer literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#parentClass",
+      "anchor": "parentClass",
+      "jsonTerms": [
+        "parentClass"
+      ],
+      "description": "Links the subject using the parentClass relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "CharacterClass"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#parentClassName",
+      "anchor": "parentClassName",
+      "jsonTerms": [
+        "parentClassName"
+      ],
+      "description": "Carries the parent class name value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#parseStatus",
+      "anchor": "parseStatus",
+      "jsonTerms": [
+        "parseStatus"
+      ],
+      "description": "Carries the parse status value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#path",
+      "anchor": "path",
+      "jsonTerms": [
+        "path"
+      ],
+      "description": "Carries the path value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#position",
+      "anchor": "position",
+      "jsonTerms": [
+        "position"
+      ],
+      "description": "Carries the position value.",
+      "valueKinds": [
+        "integer literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#prerequisite",
+      "anchor": "prerequisite",
+      "jsonTerms": [
+        "prerequisite"
+      ],
+      "description": "Carries the prerequisite value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#proficiencyBonus",
+      "anchor": "proficiencyBonus",
+      "jsonTerms": [
+        "proficiencyBonus"
+      ],
+      "description": "Carries the proficiency bonus value.",
+      "valueKinds": [
+        "integer literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#properties",
+      "anchor": "properties",
+      "jsonTerms": [
+        "properties"
+      ],
+      "description": "Carries the properties value.",
+      "valueKinds": [
+        "ordered/set values"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#range",
+      "anchor": "range",
+      "jsonTerms": [
+        "range"
+      ],
+      "description": "Carries the range value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#rangeFeet",
+      "anchor": "rangeFeet",
+      "jsonTerms": [
+        "rangeFeet"
+      ],
+      "description": "Carries the range feet value.",
+      "valueKinds": [
+        "structured blank node"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#rarities",
+      "anchor": "rarities",
+      "jsonTerms": [
+        "rarities"
+      ],
+      "description": "Carries the rarities value.",
+      "valueKinds": [
+        "ordered/set values"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#rarity",
+      "anchor": "rarity",
+      "jsonTerms": [
+        "rarity"
+      ],
+      "description": "Carries the rarity value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#rawText",
+      "anchor": "rawText",
+      "jsonTerms": [
+        "rawText"
+      ],
+      "description": "Carries the raw text value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#reachFeet",
+      "anchor": "reachFeet",
+      "jsonTerms": [
+        "reachFeet"
+      ],
+      "description": "Carries the reach feet value.",
+      "valueKinds": [
+        "integer literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#reason",
+      "anchor": "reason",
+      "jsonTerms": [
+        "reason"
+      ],
+      "description": "Carries the reason value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#relatedRule",
+      "anchor": "relatedRule",
+      "jsonTerms": [
+        "relatedRules"
+      ],
+      "description": "Links the subject using the relatedRules relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#relatedTable",
+      "anchor": "relatedTable",
+      "jsonTerms": [
+        "relatedTables"
+      ],
+      "description": "Links the subject using the relatedTables relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "Table"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#repeatable",
+      "anchor": "repeatable",
+      "jsonTerms": [
+        "repeatable"
+      ],
+      "description": "Carries the repeatable value.",
+      "valueKinds": [
+        "boolean literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#requiresAttunement",
+      "anchor": "requiresAttunement",
+      "jsonTerms": [
+        "requiresAttunement"
+      ],
+      "description": "Carries the requires attunement value.",
+      "valueKinds": [
+        "boolean literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#resistances",
+      "anchor": "resistances",
+      "jsonTerms": [
+        "resistances"
+      ],
+      "description": "Carries the resistances value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#ritual",
+      "anchor": "ritual",
+      "jsonTerms": [
+        "ritual"
+      ],
+      "description": "Carries the ritual value.",
+      "valueKinds": [
+        "boolean literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#rows",
+      "anchor": "rows",
+      "jsonTerms": [
+        "rows"
+      ],
+      "description": "Carries the rows value.",
+      "valueKinds": [
+        "ordered/set values"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#rulesText",
+      "anchor": "rulesText",
+      "jsonTerms": [
+        "rulesText"
+      ],
+      "description": "Carries the rules text value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#savingThrow",
+      "anchor": "savingThrow",
+      "jsonTerms": [
+        "savingThrow"
+      ],
+      "description": "Carries the saving throw value.",
+      "valueKinds": [
+        "integer literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#savingThrowAbility",
+      "anchor": "savingThrowAbility",
+      "jsonTerms": [
+        "savingThrowAbility"
+      ],
+      "description": "Carries the saving throw ability value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#scalesWithSlotLevel",
+      "anchor": "scalesWithSlotLevel",
+      "jsonTerms": [
+        "scalesWithSlotLevel"
+      ],
+      "description": "Carries the scales with slot level value.",
+      "valueKinds": [
+        "boolean literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#schemaReference",
+      "anchor": "schemaReference",
+      "jsonTerms": [
+        "schemaReference"
+      ],
+      "description": "Links the subject using the schemaReference relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "JSON Schema"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#school",
+      "anchor": "school",
+      "jsonTerms": [
+        "school"
+      ],
+      "description": "Carries the school value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#score",
+      "anchor": "score",
+      "jsonTerms": [
+        "score"
+      ],
+      "description": "Carries the score value.",
+      "valueKinds": [
+        "integer literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#section",
+      "anchor": "section",
+      "jsonTerms": [
+        "section"
+      ],
+      "description": "Carries the section value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#seeAlso",
+      "anchor": "seeAlso",
+      "jsonTerms": [
+        "seeAlso"
+      ],
+      "description": "Links the subject using the seeAlso relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#senses",
+      "anchor": "senses",
+      "jsonTerms": [
+        "senses"
+      ],
+      "description": "Carries the senses value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#sides",
+      "anchor": "sides",
+      "jsonTerms": [
+        "sides"
+      ],
+      "description": "Carries the sides value.",
+      "valueKinds": [
+        "integer literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#size",
+      "anchor": "size",
+      "jsonTerms": [
+        "size"
+      ],
+      "description": "Carries the size value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#sizeAndType",
+      "anchor": "sizeAndType",
+      "jsonTerms": [
+        "sizeAndType"
+      ],
+      "description": "Carries the size and type value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#sizeTypeAlignment",
+      "anchor": "sizeTypeAlignment",
+      "jsonTerms": [
+        "sizeTypeAlignment"
+      ],
+      "description": "Carries the size type alignment value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#skillProficiencies",
+      "anchor": "skillProficiencies",
+      "jsonTerms": [
+        "skillProficiencies"
+      ],
+      "description": "Carries the skill proficiencies value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#skills",
+      "anchor": "skills",
+      "jsonTerms": [
+        "skills"
+      ],
+      "description": "Carries the skills value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#slug",
+      "anchor": "slug",
+      "jsonTerms": [
+        "slug"
+      ],
+      "description": "Carries the slug value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#sourceDigest",
+      "anchor": "sourceDigest",
+      "jsonTerms": [
+        "sourceDigest"
+      ],
+      "description": "Carries the source digest value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#sourceFile",
+      "anchor": "sourceFile",
+      "jsonTerms": [
+        "sourceFile"
+      ],
+      "description": "Carries the source file value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#sourceLocator",
+      "anchor": "sourceLocator",
+      "jsonTerms": [
+        "sourceLocator"
+      ],
+      "description": "Carries the source locator value.",
+      "valueKinds": [
+        "structured blank node"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#sourceText",
+      "anchor": "sourceText",
+      "jsonTerms": [
+        "sourceText"
+      ],
+      "description": "Carries the source text value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#speed",
+      "anchor": "speed",
+      "jsonTerms": [
+        "speed"
+      ],
+      "description": "Carries the speed value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#spellList",
+      "anchor": "spellList",
+      "jsonTerms": [
+        "spellList"
+      ],
+      "description": "Links the subject using the spellList relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "Rule"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#srdVersion",
+      "anchor": "srdVersion",
+      "jsonTerms": [
+        "srdVersion"
+      ],
+      "description": "Carries the srd version value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#startingEquipment",
+      "anchor": "startingEquipment",
+      "jsonTerms": [
+        "startingEquipment"
+      ],
+      "description": "Carries the starting equipment value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#statSections",
+      "anchor": "statSections",
+      "jsonTerms": [
+        "statSections"
+      ],
+      "description": "Carries the stat sections value.",
+      "valueKinds": [
+        "ordered/set values"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#stealthEffect",
+      "anchor": "stealthEffect",
+      "jsonTerms": [
+        "stealthEffect"
+      ],
+      "description": "Carries the stealth effect value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#str",
+      "anchor": "str",
+      "jsonTerms": [
+        "str"
+      ],
+      "description": "Carries the str value.",
+      "valueKinds": [
+        "structured blank node"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#strengthRequirement",
+      "anchor": "strengthRequirement",
+      "jsonTerms": [
+        "strengthRequirement"
+      ],
+      "description": "Carries the strength requirement value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#subclass",
+      "anchor": "subclass",
+      "jsonTerms": [
+        "subclasses"
+      ],
+      "description": "Links the subject using the subclasses relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "Subclass"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#text",
+      "anchor": "text",
+      "jsonTerms": [
+        "text"
+      ],
+      "description": "Carries the text value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#title",
+      "anchor": "title",
+      "jsonTerms": [
+        "title"
+      ],
+      "description": "Carries the title value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#toolProficiency",
+      "anchor": "toolProficiency",
+      "jsonTerms": [
+        "toolProficiency"
+      ],
+      "description": "Carries the tool proficiency value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#traits",
+      "anchor": "traits",
+      "jsonTerms": [
+        "traits"
+      ],
+      "description": "Carries the traits value.",
+      "valueKinds": [
+        "ordered/set values"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#unparsedAttacks",
+      "anchor": "unparsedAttacks",
+      "jsonTerms": [
+        "unparsedAttacks"
+      ],
+      "description": "Carries the unparsed attacks value.",
+      "valueKinds": [
+        "ordered/set values"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#value",
+      "anchor": "value",
+      "jsonTerms": [
+        "value"
+      ],
+      "description": "Carries the value value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#variant",
+      "anchor": "variant",
+      "jsonTerms": [
+        "variant"
+      ],
+      "description": "Carries the variant value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#version",
+      "anchor": "version",
+      "jsonTerms": [
+        "version"
+      ],
+      "description": "Carries the version value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#vulnerabilities",
+      "anchor": "vulnerabilities",
+      "jsonTerms": [
+        "vulnerabilities"
+      ],
+      "description": "Carries the vulnerabilities value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#weaponCategory",
+      "anchor": "weaponCategory",
+      "jsonTerms": [
+        "weaponCategory"
+      ],
+      "description": "Carries the weapon category value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#weight",
+      "anchor": "weight",
+      "jsonTerms": [
+        "weight"
+      ],
+      "description": "Carries the weight value.",
+      "valueKinds": [
+        "string literal"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#wis",
+      "anchor": "wis",
+      "jsonTerms": [
+        "wis"
+      ],
+      "description": "Carries the wis value.",
+      "valueKinds": [
+        "structured blank node"
+      ],
+      "ranges": [
+        "Literal or structured value"
+      ]
+    }
+  ]
+}

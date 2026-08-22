@@ -72,5 +72,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Size   | Water      | Size       | Water      |\n| :----- | :--------- | :--------- | :--------- |\n| Tiny   | 1/4 gallon | Large      | 4 gallons  |\n| Small  | 1 gallon   | Huge       | 16 gallons |\n| Medium | 1 gallon   | Gargantuan | 64 gallons |"
 }

@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The knight makes two attacks, using Greatsword or Heavy Crossbow in any combination.\n\nGreatsword. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage plus 4 (1d8) Radiant damage.\n\nHeavy Crossbow. Ranged Attack Roll: +2, range 100/400 ft. Hit: 11 (2d10) Piercing damage plus 4 (1d8) Radiant damage."
+      "rulesText": "Multiattack. The knight makes two attacks, using Greatsword or Heavy Crossbow in any combination.\n\nGreatsword. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage plus 4 (1d8) Radiant damage.\n\nHeavy Crossbow. Ranged Attack Roll: +2, range 100/400 ft. Hit: 11 (2d10) Piercing damage plus 4 (1d8) Radiant damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.146",
+        "heading": "Actions",
+        "lineStart": 22597,
+        "lineEnd": 22603
+      }
     },
     {
       "name": "Reactions",
-      "rulesText": "Parry. Trigger: The knight is hit by a melee attack roll while holding a weapon. Response: The knight adds 2 to its AC against that attack, possibly causing it to miss."
+      "rulesText": "Parry. Trigger: The knight is hit by a melee attack roll while holding a weapon. Response: The knight adds 2 to its AC against that attack, possibly causing it to miss.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.146",
+        "heading": "Reactions",
+        "lineStart": 22605,
+        "lineEnd": 22607
+      }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 18\nInitiative +0 (10)\nHP 52 (8d8 + 16)\nSpeed 30 ft.\n\nImmunities Frightened\nGear Greatsword, Heavy Crossbow, Plate Armor\nSenses Passive Perception 10\nLanguages Common plus one other language\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The knight makes two attacks, using Greatsword or Heavy Crossbow in any combination.\n\nGreatsword. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage plus 4 (1d8) Radiant damage.\n\nHeavy Crossbow. Ranged Attack Roll: +2, range 100/400 ft. Hit: 11 (2d10) Piercing damage plus 4 (1d8) Radiant damage.\n\nReactions\n\nParry. Trigger: The knight is hit by a melee attack roll while holding a weapon. Response: The knight adds 2 to its AC against that attack, possibly causing it to miss.",
@@ -89,28 +103,60 @@
     {
       "name": "Greatsword",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 10,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "2d6+3",
+            "count": 2,
+            "sides": 6,
+            "modifier": 3
+          }
+        },
+        {
+          "averageDamage": 4,
+          "damageType": "Radiant",
+          "damageRoll": {
+            "expression": "1d8",
+            "count": 1,
+            "sides": 8
+          }
+        }
+      ],
+      "sourceText": "Greatsword. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage plus 4 (1d8) Radiant damage.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 10,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "2d6+3",
-        "count": 2,
-        "sides": 6,
-        "modifier": 3
-      },
       "reachFeet": 5
     },
     {
       "name": "Heavy Crossbow",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 11,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d10",
+            "count": 2,
+            "sides": 10
+          }
+        },
+        {
+          "averageDamage": 4,
+          "damageType": "Radiant",
+          "damageRoll": {
+            "expression": "1d8",
+            "count": 1,
+            "sides": 8
+          }
+        }
+      ],
+      "sourceText": "Heavy Crossbow. Ranged Attack Roll: +2, range 100/400 ft. Hit: 11 (2d10) Piercing damage plus 4 (1d8) Radiant damage.",
+      "path": "statSections[0].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 2,
-      "averageDamage": 11,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d10",
-        "count": 2,
-        "sides": 10
-      },
       "rangeFeet": {
         "normal": 100,
         "long": 400

@@ -71,7 +71,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage, and the next attack roll made against the target before the start of the worg's next turn has Advantage."
+      "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage, and the next attack roll made against the target before the start of the worg's next turn has Advantage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.267",
+        "heading": "Actions",
+        "lineStart": 26581,
+        "lineEnd": 26583
+      }
     }
   ],
   "rulesText": "Large Fey, Neutral Evil\n\nAC 13\nInitiative +1 (11)\nHP 26 (4d10 + 4)\nSpeed 50 ft.\n\nSkills Perception +4\nSenses Darkvision 60 ft.; Passive Perception 14\nLanguages Goblin, Worg\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage, and the next attack roll made against the target before the start of the worg's next turn has Advantage.",
@@ -79,15 +86,22 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 7,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d8+3",
+            "count": 1,
+            "sides": 8,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage, and the next attack roll made against the target before the start of the worg's next turn has Advantage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 7,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d8+3",
-        "count": 1,
-        "sides": 8,
-        "modifier": 3
-      },
       "reachFeet": 5
     }
   ]

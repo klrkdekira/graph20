@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Pack Tactics. The hyena has Advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+      "rulesText": "Pack Tactics. The hyena has Advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.58",
+        "heading": "Traits",
+        "lineStart": 28248,
+        "lineEnd": 28250
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +2, reach 5 ft. Hit: 3 (1d6) Piercing damage."
+      "rulesText": "Bite. Melee Attack Roll: +2, reach 5 ft. Hit: 3 (1d6) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.58",
+        "heading": "Actions",
+        "lineStart": 28252,
+        "lineEnd": 28254
+      }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 11\nInitiative +1 (11)\nHP 5 (1d8 + 1)\nSpeed 50 ft.\n\nSkills Perception +3\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nPack Tactics. The hyena has Advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBite. Melee Attack Roll: +2, reach 5 ft. Hit: 3 (1d6) Piercing damage.",
@@ -83,14 +97,21 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 3,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d6",
+            "count": 1,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +2, reach 5 ft. Hit: 3 (1d6) Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 2,
-      "averageDamage": 3,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d6",
-        "count": 1,
-        "sides": 6
-      },
       "reachFeet": 5
     }
   ]

@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The medusa makes two Claw attacks and one Snake Hair attack, or it makes three Poison Ray attacks.\n\nClaw. Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.\n\nSnake Hair. Melee Attack Roll: +6, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage plus 14 (4d6) Poison damage.\n\nPoison Ray. Ranged Attack Roll: +5, range 150 ft. Hit: 11 (2d8 + 2) Poison damage."
+      "rulesText": "Multiattack. The medusa makes two Claw attacks and one Snake Hair attack, or it makes three Poison Ray attacks.\n\nClaw. Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.\n\nSnake Hair. Melee Attack Roll: +6, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage plus 14 (4d6) Poison damage.\n\nPoison Ray. Ranged Attack Roll: +5, range 150 ft. Hit: 11 (2d8 + 2) Poison damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.159",
+        "heading": "Actions",
+        "lineStart": 23042,
+        "lineEnd": 23050
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Petrifying Gaze (Recharge 5–6). Constitution Saving Throw: DC 13, each creature in a 30-foot Cone. If the medusa sees its reflection in the Cone, the medusa must make this save. First Failure: The target has the Restrained condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. Second Failure: The target has the Petrified condition instead of the Restrained condition."
+      "rulesText": "Petrifying Gaze (Recharge 5–6). Constitution Saving Throw: DC 13, each creature in a 30-foot Cone. If the medusa sees its reflection in the Cone, the medusa must make this save. First Failure: The target has the Restrained condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. Second Failure: The target has the Petrified condition instead of the Restrained condition.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.159",
+        "heading": "Bonus Actions",
+        "lineStart": 23052,
+        "lineEnd": 23054
+      }
     }
   ],
   "rulesText": "Medium Monstrosity, Lawful Evil\n\nAC 15\nInitiative +6 (16)\nHP 127 (17d8 + 51)\nSpeed 30 ft.\n\nSkills Deception +5, Perception +4, Stealth +6\nSenses Darkvision 150 ft.; Passive Perception 14\nLanguages Common plus one other language\nCR 6 (XP 2,300; PB +3)\n\nActions\n\nMultiattack. The medusa makes two Claw attacks and one Snake Hair attack, or it makes three Poison Ray attacks.\n\nClaw. Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.\n\nSnake Hair. Melee Attack Roll: +6, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage plus 14 (4d6) Poison damage.\n\nPoison Ray. Ranged Attack Roll: +5, range 150 ft. Hit: 11 (2d8 + 2) Poison damage.\n\nBonus Actions\n\nPetrifying Gaze (Recharge 5–6). Constitution Saving Throw: DC 13, each creature in a 30-foot Cone. If the medusa sees its reflection in the Cone, the medusa must make this save. First Failure: The target has the Restrained condition and repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. Second Failure: The target has the Petrified condition instead of the Restrained condition.",
@@ -83,43 +97,73 @@
     {
       "name": "Claw",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 10,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "2d6+3",
+            "count": 2,
+            "sides": 6,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Claw. Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 10,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "2d6+3",
-        "count": 2,
-        "sides": 6,
-        "modifier": 3
-      },
       "reachFeet": 5
     },
     {
       "name": "Snake Hair",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 5,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d4+3",
+            "count": 1,
+            "sides": 4,
+            "modifier": 3
+          }
+        },
+        {
+          "averageDamage": 14,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "4d6",
+            "count": 4,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Snake Hair. Melee Attack Roll: +6, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage plus 14 (4d6) Poison damage.",
+      "path": "statSections[0].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 5,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d4+3",
-        "count": 1,
-        "sides": 4,
-        "modifier": 3
-      },
       "reachFeet": 5
     },
     {
       "name": "Poison Ray",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 11,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "2d8+2",
+            "count": 2,
+            "sides": 8,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Poison Ray. Ranged Attack Roll: +5, range 150 ft. Hit: 11 (2d8 + 2) Poison damage.",
+      "path": "statSections[0].rulesText.paragraphs[3]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 11,
-      "damageType": "Poison",
-      "damageRoll": {
-        "expression": "2d8+2",
-        "count": 2,
-        "sides": 8,
-        "modifier": 2
-      },
       "rangeFeet": {
         "normal": 150
       }

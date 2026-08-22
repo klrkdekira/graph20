@@ -85,5 +85,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Ability      | Background |\n| :----------- | :--------- |\n| Strength     | Soldier    |\n| Dexterity    | Soldier    |\n| Constitution | Soldier    |\n| Intelligence | Acolyte    |\n| Wisdom       | Acolyte    |\n| Charisma     | Acolyte    |"
 }

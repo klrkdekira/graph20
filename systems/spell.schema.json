@@ -45,6 +45,6 @@
     "ritual": { "type": "boolean" },
     "rulesText": { "type": "string", "minLength": 1 }
   },
-  "required": ["level", "school", "classAvailability", "rulesText", "scalesWithSlotLevel", "concentration", "ritual"],
+  "required": ["level", "school", "classAvailability", "castingTime", "range", "components", "duration", "rulesText", "scalesWithSlotLevel", "concentration", "ritual"],
   "unevaluatedProperties": false
 }

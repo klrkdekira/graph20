@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Aura of Authority. While in a 10-foot Emanation originating from the hobgoblin, the hobgoblin and its allies have Advantage on attack rolls and saving throws, provided the hobgoblin doesn't have the Incapacitated condition."
+      "rulesText": "Aura of Authority. While in a 10-foot Emanation originating from the hobgoblin, the hobgoblin and its allies have Advantage on attack rolls and saving throws, provided the hobgoblin doesn't have the Incapacitated condition.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.137",
+        "heading": "Traits",
+        "lineStart": 22266,
+        "lineEnd": 22268
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The hobgoblin makes two attacks, using Greatsword or Longbow in any combination.\n\nGreatsword. Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Slashing damage plus 3 (1d6) Poison damage.\n\nLongbow. Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing damage plus 5 (2d4) Poison damage."
+      "rulesText": "Multiattack. The hobgoblin makes two attacks, using Greatsword or Longbow in any combination.\n\nGreatsword. Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Slashing damage plus 3 (1d6) Poison damage.\n\nLongbow. Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing damage plus 5 (2d4) Poison damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.137",
+        "heading": "Actions",
+        "lineStart": 22270,
+        "lineEnd": 22276
+      }
     }
   ],
   "rulesText": "Medium Fey (Goblinoid), Lawful Evil\n\nAC 17\nInitiative +4 (14)\nHP 58 (9d8 + 18)\nSpeed 30 ft.\n\nGear Greatsword, Half Plate Armor, Longbow\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Common, Goblin\nCR 3 (XP 700; PB +2)\n\nTraits\n\nAura of Authority. While in a 10-foot Emanation originating from the hobgoblin, the hobgoblin and its allies have Advantage on attack rolls and saving throws, provided the hobgoblin doesn't have the Incapacitated condition.\n\nActions\n\nMultiattack. The hobgoblin makes two attacks, using Greatsword or Longbow in any combination.\n\nGreatsword. Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Slashing damage plus 3 (1d6) Poison damage.\n\nLongbow. Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing damage plus 5 (2d4) Poison damage.",
@@ -83,29 +97,61 @@
     {
       "name": "Greatsword",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 9,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "2d6+2",
+            "count": 2,
+            "sides": 6,
+            "modifier": 2
+          }
+        },
+        {
+          "averageDamage": 3,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "1d6",
+            "count": 1,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Greatsword. Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Slashing damage plus 3 (1d6) Poison damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 9,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "2d6+2",
-        "count": 2,
-        "sides": 6,
-        "modifier": 2
-      },
       "reachFeet": 5
     },
     {
       "name": "Longbow",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 6,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d8+2",
+            "count": 1,
+            "sides": 8,
+            "modifier": 2
+          }
+        },
+        {
+          "averageDamage": 5,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "2d4",
+            "count": 2,
+            "sides": 4
+          }
+        }
+      ],
+      "sourceText": "Longbow. Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing damage plus 5 (2d4) Poison damage.",
+      "path": "statSections[1].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 6,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d8+2",
-        "count": 1,
-        "sides": 8,
-        "modifier": 2
-      },
       "rangeFeet": {
         "normal": 150,
         "long": 600

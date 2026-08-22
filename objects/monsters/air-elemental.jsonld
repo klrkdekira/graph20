@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Air Form. The elemental can enter a creature's space and stop there. It can move through a space as narrow as 1 inch without expending extra movement to do so."
+      "rulesText": "Air Form. The elemental can enter a creature's space and stop there. It can move through a space as narrow as 1 inch without expending extra movement to do so.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.3",
+        "heading": "Traits",
+        "lineStart": 18149,
+        "lineEnd": 18151
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The elemental makes two Thunderous Slam attacks.\n\nThunderous Slam. Melee Attack Roll: +8, reach 10 ft.\nHit: 14 (2d8 + 5) Thunder damage.\n\nWhirlwind (Recharge 4–6). Strength Saving Throw: DC 13, one Medium or smaller creature in the elemental's space. Failure: 24 (4d10 + 2) Thunder damage, and the target is pushed up to 20 feet straight away from the elemental and has the Prone condition. Success: Half damage only."
+      "rulesText": "Multiattack. The elemental makes two Thunderous Slam attacks.\n\nThunderous Slam. Melee Attack Roll: +8, reach 10 ft.\nHit: 14 (2d8 + 5) Thunder damage.\n\nWhirlwind (Recharge 4–6). Strength Saving Throw: DC 13, one Medium or smaller creature in the elemental's space. Failure: 24 (4d10 + 2) Thunder damage, and the target is pushed up to 20 feet straight away from the elemental and has the Prone condition. Success: Half damage only.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.3",
+        "heading": "Actions",
+        "lineStart": 18153,
+        "lineEnd": 18160
+      }
     }
   ],
   "rulesText": "Large Elemental, Neutral\n\nAC 15\nInitiative +5 (15)\nHP 90 (12d10 + 24)\nSpeed 10 ft., Fly 90 ft. (hover)\n\nResistances Bludgeoning, Lightning, Piercing, Slashing\nImmunities Poison, Thunder; Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Primordial (Auran)\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nAir Form. The elemental can enter a creature's space and stop there. It can move through a space as narrow as 1 inch without expending extra movement to do so.\n\nActions\n\nMultiattack. The elemental makes two Thunderous Slam attacks.\n\nThunderous Slam. Melee Attack Roll: +8, reach 10 ft.\nHit: 14 (2d8 + 5) Thunder damage.\n\nWhirlwind (Recharge 4–6). Strength Saving Throw: DC 13, one Medium or smaller creature in the elemental's space. Failure: 24 (4d10 + 2) Thunder damage, and the target is pushed up to 20 feet straight away from the elemental and has the Prone condition. Success: Half damage only.",
@@ -110,15 +124,22 @@
     {
       "name": "Thunderous Slam",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 14,
+          "damageType": "Thunder",
+          "damageRoll": {
+            "expression": "2d8+5",
+            "count": 2,
+            "sides": 8,
+            "modifier": 5
+          }
+        }
+      ],
+      "sourceText": "Thunderous Slam. Melee Attack Roll: +8, reach 10 ft.\nHit: 14 (2d8 + 5) Thunder damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 8,
-      "averageDamage": 14,
-      "damageType": "Thunder",
-      "damageRoll": {
-        "expression": "2d8+5",
-        "count": 2,
-        "sides": 8,
-        "modifier": 5
-      },
       "reachFeet": 10
     }
   ]

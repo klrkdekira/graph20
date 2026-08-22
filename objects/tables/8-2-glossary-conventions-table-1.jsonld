@@ -217,5 +217,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| AC   | Armor Class       |\n| :--- | :---------------- |\n| C    | Concentration     |\n| CE   | Chaotic Evil      |\n| CG   | Chaotic Good      |\n| Cha. | Charisma          |\n| CN   | Chaotic Neutral   |\n| Con. | Constitution      |\n| CP   | Copper Piece(s)   |\n| CR   | Challenge Rating  |\n| DC   | Difficulty Class  |\n| Dex. | Dexterity         |\n| EP   | Electrum Piece(s) |\n| GM   | Game Master       |\n| GP   | Gold Piece(s)     |\n| HP   | Hit Point(s)      |\n| Int. | Intelligence      |\n| LE   | Lawful Evil       |\n| LG   | Lawful Good       |\n| LN   | Lawful Neutral    |"
 }

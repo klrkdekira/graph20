@@ -72,7 +72,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The scout makes two attacks, using Short-word and Longbow in any combination.\n\nShortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage.\n\nLongbow. Ranged Attack Roll: +4, range 150/600 ft.\nHit: 6 (1d8 + 2) Piercing damage."
+      "rulesText": "Multiattack. The scout makes two attacks, using Short-word and Longbow in any combination.\n\nShortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage.\n\nLongbow. Ranged Attack Roll: +4, range 150/600 ft.\nHit: 6 (1d8 + 2) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.209",
+        "heading": "Actions",
+        "lineStart": 24610,
+        "lineEnd": 24617
+      }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 13\nInitiative +2 (12)\nHP 16 (3d8 + 3)\nSpeed 30 ft.\n\nSkills Nature +4, Perception +5, Stealth +6, Survival +5\nGear Leather Armor, Longbow, Shortsword\nSenses Passive Perception 15\nLanguages Common plus one other language\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nMultiattack. The scout makes two attacks, using Short-word and Longbow in any combination.\n\nShortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage.\n\nLongbow. Ranged Attack Roll: +4, range 150/600 ft.\nHit: 6 (1d8 + 2) Piercing damage.",
@@ -80,29 +87,43 @@
     {
       "name": "Shortsword",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 5,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d6+2",
+            "count": 1,
+            "sides": 6,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Shortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 5,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d6+2",
-        "count": 1,
-        "sides": 6,
-        "modifier": 2
-      },
       "reachFeet": 5
     },
     {
       "name": "Longbow",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 6,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d8+2",
+            "count": 1,
+            "sides": 8,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Longbow. Ranged Attack Roll: +4, range 150/600 ft.\nHit: 6 (1d8 + 2) Piercing damage.",
+      "path": "statSections[0].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 6,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d8+2",
-        "count": 1,
-        "sides": 8,
-        "modifier": 2
-      },
       "rangeFeet": {
         "normal": 150,
         "long": 600

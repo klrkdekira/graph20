@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Pack Tactics. The tough has Advantage on an attack roll against a creature if at least one of the tough's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+      "rulesText": "Pack Tactics. The tough has Advantage on an attack roll against a creature if at least one of the tough's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.240",
+        "heading": "Traits",
+        "lineStart": 25637,
+        "lineEnd": 25639
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The tough makes two attacks, using Warhammer or Heavy Crossbow in any combination.\n\nWarhammer. Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Bludgeoning damage. If the target is a Large or smaller creature, the tough pushes the target up to 10 feet straight away from itself.\n\nHeavy Crossbow. Ranged Attack Roll: +4, range 100/400 ft. Hit: 13 (2d10 + 2) Piercing damage."
+      "rulesText": "Multiattack. The tough makes two attacks, using Warhammer or Heavy Crossbow in any combination.\n\nWarhammer. Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Bludgeoning damage. If the target is a Large or smaller creature, the tough pushes the target up to 10 feet straight away from itself.\n\nHeavy Crossbow. Ranged Attack Roll: +4, range 100/400 ft. Hit: 13 (2d10 + 2) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.240",
+        "heading": "Actions",
+        "lineStart": 25641,
+        "lineEnd": 25647
+      }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 16\nInitiative +2 (12)\nHP 82 (11d8 + 33)\nSpeed 30 ft.\n\nGear Chain Mail, Heavy Crossbow, Warhammer\nSenses Passive Perception 10\nLanguages Common plus one other language\nCR 4 (XP 1,100; PB +2)\n\nTraits\n\nPack Tactics. The tough has Advantage on an attack roll against a creature if at least one of the tough's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nMultiattack. The tough makes two attacks, using Warhammer or Heavy Crossbow in any combination.\n\nWarhammer. Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Bludgeoning damage. If the target is a Large or smaller creature, the tough pushes the target up to 10 feet straight away from itself.\n\nHeavy Crossbow. Ranged Attack Roll: +4, range 100/400 ft. Hit: 13 (2d10 + 2) Piercing damage.",
@@ -83,29 +97,43 @@
     {
       "name": "Warhammer",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 12,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "2d8+3",
+            "count": 2,
+            "sides": 8,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Warhammer. Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Bludgeoning damage. If the target is a Large or smaller creature, the tough pushes the target up to 10 feet straight away from itself.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 12,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "2d8+3",
-        "count": 2,
-        "sides": 8,
-        "modifier": 3
-      },
       "reachFeet": 5
     },
     {
       "name": "Heavy Crossbow",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 13,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d10+2",
+            "count": 2,
+            "sides": 10,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Heavy Crossbow. Ranged Attack Roll: +4, range 100/400 ft. Hit: 13 (2d10 + 2) Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 13,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d10+2",
-        "count": 2,
-        "sides": 10,
-        "modifier": 2
-      },
       "rangeFeet": {
         "normal": 100,
         "long": 400

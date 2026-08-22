@@ -89,5 +89,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| AC  | Substance           | AC  | Substance   |\n| :--- | :------------------ | :--- | :---------- |\n| 11  | Cloth, paper, rope  | 19  | Iron, steel |\n| 13  | Crystal, glass, ice | 21  | Mithral     |\n| 15  | Wood                | 23  | Adamantine  |\n| 17  | Stone               |     |             |"
 }

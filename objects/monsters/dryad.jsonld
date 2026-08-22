@@ -70,15 +70,36 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Magic Resistance. The dryad has Advantage on saving throws against spells and other magical effects.\n\nSpeak with Beasts and Plants. The dryad can communicate with Beasts and Plants as if they shared a language."
+      "rulesText": "Magic Resistance. The dryad has Advantage on saving throws against spells and other magical effects.\n\nSpeak with Beasts and Plants. The dryad can communicate with Beasts and Plants as if they shared a language.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.82",
+        "heading": "Traits",
+        "lineStart": 20554,
+        "lineEnd": 20558
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The dryad makes one Vine Lash or Thorn Burst attack, and it can use Spellcasting to cast Charm Monster.\n\nVine Lash. Melee Attack Roll: +6, reach 10 ft. Hit: 8 (1d8 + 4) Slashing damage.\n\nThorn Burst. Ranged Attack Roll: +6, range 60 ft. Hit: 7 (1d6 + 4) Piercing damage.\n\nSpellcasting. The dryad casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 14):\n\nAt Will: Animal Friendship, Charm Monster (lasts 24 hours; ends early if the dryad casts the spell again), Druidcraft\n\n1/Day Each: Entangle, Pass without Trace"
+      "rulesText": "Multiattack. The dryad makes one Vine Lash or Thorn Burst attack, and it can use Spellcasting to cast Charm Monster.\n\nVine Lash. Melee Attack Roll: +6, reach 10 ft. Hit: 8 (1d8 + 4) Slashing damage.\n\nThorn Burst. Ranged Attack Roll: +6, range 60 ft. Hit: 7 (1d6 + 4) Piercing damage.\n\nSpellcasting. The dryad casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 14):\n\nAt Will: Animal Friendship, Charm Monster (lasts 24 hours; ends early if the dryad casts the spell again), Druidcraft\n\n1/Day Each: Entangle, Pass without Trace",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.82",
+        "heading": "Actions",
+        "lineStart": 20560,
+        "lineEnd": 20572
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Tree Stride. If within 5 feet of a Large or bigger tree, the dryad teleports to an unoccupied space within 5 feet of a second Large or bigger tree that is within 60 feet of the previous tree."
+      "rulesText": "Tree Stride. If within 5 feet of a Large or bigger tree, the dryad teleports to an unoccupied space within 5 feet of a second Large or bigger tree that is within 60 feet of the previous tree.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.82",
+        "heading": "Bonus Actions",
+        "lineStart": 20574,
+        "lineEnd": 20576
+      }
     }
   ],
   "rulesText": "Medium Fey, Neutral\n\nAC 16\nInitiative +1 (11)\nHP 22 (5d8)\nSpeed 30 ft.\n\nSkills Perception +4, Stealth +5\nSenses Darkvision 60 ft.; Passive Perception 14\nLanguages Elvish, Sylvan\nCR 1 (XP 200; PB +2)\n\nTraits\n\nMagic Resistance. The dryad has Advantage on saving throws against spells and other magical effects.\n\nSpeak with Beasts and Plants. The dryad can communicate with Beasts and Plants as if they shared a language.\n\nActions\n\nMultiattack. The dryad makes one Vine Lash or Thorn Burst attack, and it can use Spellcasting to cast Charm Monster.\n\nVine Lash. Melee Attack Roll: +6, reach 10 ft. Hit: 8 (1d8 + 4) Slashing damage.\n\nThorn Burst. Ranged Attack Roll: +6, range 60 ft. Hit: 7 (1d6 + 4) Piercing damage.\n\nSpellcasting. The dryad casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 14):\n\nAt Will: Animal Friendship, Charm Monster (lasts 24 hours; ends early if the dryad casts the spell again), Druidcraft\n\n1/Day Each: Entangle, Pass without Trace\n\nBonus Actions\n\nTree Stride. If within 5 feet of a Large or bigger tree, the dryad teleports to an unoccupied space within 5 feet of a second Large or bigger tree that is within 60 feet of the previous tree.",
@@ -86,29 +107,43 @@
     {
       "name": "Vine Lash",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 8,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d8+4",
+            "count": 1,
+            "sides": 8,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Vine Lash. Melee Attack Roll: +6, reach 10 ft. Hit: 8 (1d8 + 4) Slashing damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 8,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d8+4",
-        "count": 1,
-        "sides": 8,
-        "modifier": 4
-      },
       "reachFeet": 10
     },
     {
       "name": "Thorn Burst",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 7,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d6+4",
+            "count": 1,
+            "sides": 6,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Thorn Burst. Ranged Attack Roll: +6, range 60 ft. Hit: 7 (1d6 + 4) Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 7,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d6+4",
-        "count": 1,
-        "sides": 6,
-        "modifier": 4
-      },
       "rangeFeet": {
         "normal": 60
       }

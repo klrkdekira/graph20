@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Spider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+      "rulesText": "Spider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.53",
+        "heading": "Traits",
+        "lineStart": 28119,
+        "lineEnd": 28121
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage plus 5 (2d4) Poison damage."
+      "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage plus 5 (2d4) Poison damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.53",
+        "heading": "Actions",
+        "lineStart": 28123,
+        "lineEnd": 28125
+      }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 11 (2d8 + 2)\nSpeed 40 ft., Climb 40 ft.\n\nSkills Perception +3, Stealth +7\nSenses Blindsight 10 ft., Darkvision 60 ft.;\n\nPassive Perception 13\n\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nSpider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage plus 5 (2d4) Poison damage.",
@@ -83,15 +97,31 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 5,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d4+3",
+            "count": 1,
+            "sides": 4,
+            "modifier": 3
+          }
+        },
+        {
+          "averageDamage": 5,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "2d4",
+            "count": 2,
+            "sides": 4
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage plus 5 (2d4) Poison damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 5,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d4+3",
-        "count": 1,
-        "sides": 4,
-        "modifier": 3
-      },
       "reachFeet": 5
     }
   ]

@@ -90,5 +90,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell           | School        | Special |\n| :-------------- | :------------ | :------ |\n| Gate            | Conjuration   | C, M    |\n| Meteor Swarm    | Evocation     |    -    |\n| Power Word Kill | Enchantment   |    -    |\n| Time Stop       | Transmutation |    -    |\n| Wish            | Conjuration   |    -    |"
 }

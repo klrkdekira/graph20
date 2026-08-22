@@ -258,5 +258,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                  | School        | Special |\n| :--------------------- | :------------ | :------ |\n| Aid                    | Abjuration    |    -    |\n| Augury                 | Divination    | R, M    |\n| Blindness/Deafness     | Transmutation |    -    |\n| Calm Emotions          | Enchantment   | C       |\n| Continual Flame        | Evocation     | M       |\n| Enhance Ability        | Transmutation | C       |\n| Find Traps             | Divination    |    -    |\n| Gentle Repose          | Necromancy    | R, M    |\n| Hold Person            | Enchantment   | C       |\n| Lesser Restoration     | Abjuration    |    -    |\n| Locate Object          | Divination    | C       |\n| Prayer of Healing      | Abjuration    |    -    |\n| Protection from Poison | Abjuration    |    -    |\n| Silence                | Illusion      | C, R    |\n| Spiritual Weapon       | Evocation     | C       |\n| Warding Bond           | Abjuration    | M       |\n| Zone of Truth          | Enchantment   |    -    |"
 }

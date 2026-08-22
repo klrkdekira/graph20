@@ -70,7 +70,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The griffon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 14) from both of the griffon's front claws."
+      "rulesText": "Multiattack. The griffon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 14) from both of the griffon's front claws.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.123",
+        "heading": "Actions",
+        "lineStart": 21892,
+        "lineEnd": 21896
+      }
     }
   ],
   "rulesText": "Large Monstrosity, Unaligned\n\nAC 12 Initiative +2 (12)\n\nHP 59 (7d10 + 21)\nSpeed 30 ft., Fly 80 ft.\n\nSkills Perception +5\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages None\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The griffon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 14) from both of the griffon's front claws.",
@@ -78,15 +85,22 @@
     {
       "name": "Rend",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 8,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d8+4",
+            "count": 1,
+            "sides": 8,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Rend. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 14) from both of the griffon's front claws.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 8,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d8+4",
-        "count": 1,
-        "sides": 8,
-        "modifier": 4
-      },
       "reachFeet": 5
     }
   ]

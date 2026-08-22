@@ -118,5 +118,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell Level | Availability           | Cost       |\n| :---------- | :--------------------- | :--------- |\n| Cantrip     | Village, town, or city | 30 GP      |\n| 1           | Village, town, or city | 50 GP      |\n| 2           | Village, town, or city | 200 GP     |\n| 3           | Town or city only      | 300 GP     |\n| 4–5         | Town or city only      | 2,000 GP   |\n| 6–8         | City only              | 20,000 GP  |\n| 9           | City only              | 100,000 GP |"
 }

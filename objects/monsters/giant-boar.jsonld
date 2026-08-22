@@ -70,11 +70,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Bloodied Fury. The boar has Advantage on melee attack rolls while it is Bloodied."
+      "rulesText": "Bloodied Fury. The boar has Advantage on melee attack rolls while it is Bloodied.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.29",
+        "heading": "Traits",
+        "lineStart": 27459,
+        "lineEnd": 27461
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Gore. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Large or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition."
+      "rulesText": "Gore. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Large or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.29",
+        "heading": "Actions",
+        "lineStart": 27463,
+        "lineEnd": 27465
+      }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 13\nInitiative +0 (10)\nHP 42 (5d10 + 15)\nSpeed 40 ft.\n\nSenses Passive Perception 8\nLanguages None\nCR 2 (XP 450; PB +2)\n\nTraits\n\nBloodied Fury. The boar has Advantage on melee attack rolls while it is Bloodied.\n\nActions\n\nGore. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Large or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition.",
@@ -82,15 +96,31 @@
     {
       "name": "Gore",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 10,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d6+3",
+            "count": 2,
+            "sides": 6,
+            "modifier": 3
+          }
+        },
+        {
+          "averageDamage": 7,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d6",
+            "count": 2,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Gore. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Large or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 10,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d6+3",
-        "count": 2,
-        "sides": 6,
-        "modifier": 3
-      },
       "reachFeet": 5
     }
   ]

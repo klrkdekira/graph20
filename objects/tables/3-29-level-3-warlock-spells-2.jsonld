@@ -118,5 +118,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell            | School        | Special |\n| :--------------- | :------------ | :------ |\n| Gaseous Form     | Transmutation | C       |\n| Hypnotic Pattern | Illusion      | C       |\n| Magic Circle     | Abjuration    | M       |\n| Major Image      | Illusion      | C       |\n| Remove Curse     | Abjuration    |    -    |\n| Tongues          | Divination    |    -    |\n| Vampiric Touch   | Necromancy    | C       |"
 }

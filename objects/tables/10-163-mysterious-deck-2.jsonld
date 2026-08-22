@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.163",
     "heading": "Mysterious Deck",
-    "lineStart": 16303,
-    "lineEnd": 16310
+    "lineStart": 16304,
+    "lineEnd": 16311
   },
   "columns": [
     "1d100(13-Card Deck)",
@@ -104,5 +104,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| 1d100(13-Card Deck) | 1d100(22-Card Deck) | Card   |\n| :------------------ | :------------------ | :----- |\n| 65–72               | 74–77               | Skull  |\n| 73–80               | 78–82               | Star   |\n| 81–88               | 83–87               | Sun    |\n|          -          | 88–91               | Talons |\n| 89–96               | 92–96               | Throne |\n| 97–00               | 97–00               | Void   |"
 }

@@ -41,13 +41,15 @@ def entry_for(collection: str, record: dict):
         sub = record.get("sizeTypeAlignment", "")
         order = (cr_sort_key(cr) if cr else 99.0, name.lower())
     elif collection == "magic-items":
-        rarity = record.get("rarity", "Varies")
-        group = rarity
+        rarity = record.get("rarity")
+        rarity_values = [entry["rarity"] for entry in record.get("rarities", [])]
+        group = rarity or "Multiple Rarities"
         detail = record.get("categoryDetail")
         sub = record.get("itemCategory", "") + (f" ({detail})" if detail else "")
         if record.get("requiresAttunement"):
             sub += " · attunement"
-        order = (RARITY_ORDER.index(rarity), name.lower())
+        first_rarity = rarity or rarity_values[0]
+        order = (RARITY_ORDER.index(first_rarity), name.lower())
     elif collection == "feats":
         category = record.get("category", "General")
         group = f"{category} Feats"
@@ -55,7 +57,7 @@ def entry_for(collection: str, record: dict):
         order = (FEAT_ORDER.index(category), name.lower())
     elif collection == "classes":
         group = "Classes"
-        core = record.get("coreTraits", {})
+        core = {trait["name"]: trait["value"] for trait in record.get("coreTraits", [])}
         sub = f"{core.get('Primary Ability', '')} · {core.get('Hit Point Die', '')}"
         order = (0, name.lower())
     elif collection == "subclasses":

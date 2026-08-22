@@ -70,12 +70,43 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Jumper. The cat's jump distance is determined using its Dexterity rather than its Strength."
+      "rulesText": "Jumper. The cat's jump distance is determined using its Dexterity rather than its Strength.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.14",
+        "heading": "Traits",
+        "lineStart": 27071,
+        "lineEnd": 27073
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Scratch. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Slashing damage."
+      "rulesText": "Scratch. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Slashing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.14",
+        "heading": "Actions",
+        "lineStart": 27075,
+        "lineEnd": 27077
+      }
     }
   ],
-  "rulesText": "Tiny Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 2 (1d4)\nSpeed 40 ft., Climb 40 ft.\n\nSkills Perception +3, Stealth +4\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nJumper. The cat's jump distance is determined using its Dexterity rather than its Strength.\n\nActions\n\nScratch. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Slashing damage."
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 2 (1d4)\nSpeed 40 ft., Climb 40 ft.\n\nSkills Perception +3, Stealth +4\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nJumper. The cat's jump distance is determined using its Dexterity rather than its Strength.\n\nActions\n\nScratch. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Slashing damage.",
+  "attacks": [
+    {
+      "name": "Scratch",
+      "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 1,
+          "damageType": "Slashing"
+        }
+      ],
+      "sourceText": "Scratch. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Slashing damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
+      "attackBonus": 4,
+      "reachFeet": 5
+    }
+  ]
 }

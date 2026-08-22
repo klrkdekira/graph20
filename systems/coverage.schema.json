@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/graph20/systems/coverage.schema.json",
+  "title": "Interval source coverage report",
+  "type": "object",
+  "properties": {
+    "sourceFile": { "type": "string", "minLength": 1 },
+    "contentFirstLine": { "type": "integer", "minimum": 1 },
+    "excludedPreamble": { "type": "object" },
+    "contentLines": { "type": "integer", "minimum": 1 },
+    "uncoveredLines": { "type": "array", "maxItems": 0 },
+    "recordCounts": { "type": "object" },
+    "recordsWithLocators": { "type": "integer", "minimum": 1 }
+  },
+  "required": ["sourceFile", "contentFirstLine", "excludedPreamble", "contentLines", "uncoveredLines", "recordCounts", "recordsWithLocators"],
+  "unevaluatedProperties": false
+}

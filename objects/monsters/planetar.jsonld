@@ -73,15 +73,36 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Divine Awareness. The planetar knows if it hears a lie.\n\nExalted Restoration. If the planetar dies outside Mount Celestia, its body disappears, and it gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia.\n\nMagic Resistance. The planetar has Advantage on saving throws against spells and other magical effects."
+      "rulesText": "Divine Awareness. The planetar knows if it hears a lie.\n\nExalted Restoration. If the planetar dies outside Mount Celestia, its body disappears, and it gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia.\n\nMagic Resistance. The planetar has Advantage on saving throws against spells and other magical effects.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.188",
+        "heading": "Traits",
+        "lineStart": 23929,
+        "lineEnd": 23935
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The planetar makes three Radiant Sword attacks or uses Holy Burst twice.\n\nRadiant Sword. Melee Attack Roll: +12, reach 10 ft.\nHit: 14 (2d6 + 7) Slashing damage plus 18 (4d8) Radiant damage.\n\nHoly Burst. Dexterity Saving Throw: DC 20, each enemy in a 20-foot-radius Sphere centered on a point the planetar can see within 120 feet. Failure: 24 (7d6) Radiant damage. Success: Half damage.\n\nSpellcasting. The planetar casts one of the following spells, requiring no Material components and using Charisma as spellcasting ability (spell save DC 20):\n\nAt Will: Detect Evil and Good\n\n1/Day Each: Commune, Control Weather, Dispel Evil and Good, Raise Dead"
+      "rulesText": "Multiattack. The planetar makes three Radiant Sword attacks or uses Holy Burst twice.\n\nRadiant Sword. Melee Attack Roll: +12, reach 10 ft.\nHit: 14 (2d6 + 7) Slashing damage plus 18 (4d8) Radiant damage.\n\nHoly Burst. Dexterity Saving Throw: DC 20, each enemy in a 20-foot-radius Sphere centered on a point the planetar can see within 120 feet. Failure: 24 (7d6) Radiant damage. Success: Half damage.\n\nSpellcasting. The planetar casts one of the following spells, requiring no Material components and using Charisma as spellcasting ability (spell save DC 20):\n\nAt Will: Detect Evil and Good\n\n1/Day Each: Commune, Control Weather, Dispel Evil and Good, Raise Dead",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.188",
+        "heading": "Actions",
+        "lineStart": 23937,
+        "lineEnd": 23950
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Divine Aid (2/Day). The planetar casts Cure Wounds, Invisibility, Lesser Restoration, or Remove Curse, using the same spellcasting ability as Spellcasting."
+      "rulesText": "Divine Aid (2/Day). The planetar casts Cure Wounds, Invisibility, Lesser Restoration, or Remove Curse, using the same spellcasting ability as Spellcasting.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.188",
+        "heading": "Bonus Actions",
+        "lineStart": 23952,
+        "lineEnd": 23954
+      }
     }
   ],
   "rulesText": "Large Celestial (Angel), Lawful Good\n\nAC 19\nInitiative +10 (20)\nHP 262 (21d10 + 147)\nSpeed 40 ft., Fly 120 ft. (hover)\n\nSkills Perception +11\nResistances Radiant\nImmunities Charmed, Exhaustion, Frightened\nSenses Truesight 120 ft.; Passive Perception 21\nLanguages All; telepathy 120 ft.\nCR 16 (XP 15,000; PB +5)\n\nTraits\n\nDivine Awareness. The planetar knows if it hears a lie.\n\nExalted Restoration. If the planetar dies outside Mount Celestia, its body disappears, and it gains a new body instantly, reviving with all its Hit Points somewhere in Mount Celestia.\n\nMagic Resistance. The planetar has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The planetar makes three Radiant Sword attacks or uses Holy Burst twice.\n\nRadiant Sword. Melee Attack Roll: +12, reach 10 ft.\nHit: 14 (2d6 + 7) Slashing damage plus 18 (4d8) Radiant damage.\n\nHoly Burst. Dexterity Saving Throw: DC 20, each enemy in a 20-foot-radius Sphere centered on a point the planetar can see within 120 feet. Failure: 24 (7d6) Radiant damage. Success: Half damage.\n\nSpellcasting. The planetar casts one of the following spells, requiring no Material components and using Charisma as spellcasting ability (spell save DC 20):\n\nAt Will: Detect Evil and Good\n\n1/Day Each: Commune, Control Weather, Dispel Evil and Good, Raise Dead\n\nBonus Actions\n\nDivine Aid (2/Day). The planetar casts Cure Wounds, Invisibility, Lesser Restoration, or Remove Curse, using the same spellcasting ability as Spellcasting.",
@@ -100,15 +121,31 @@
     {
       "name": "Radiant Sword",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 14,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "2d6+7",
+            "count": 2,
+            "sides": 6,
+            "modifier": 7
+          }
+        },
+        {
+          "averageDamage": 18,
+          "damageType": "Radiant",
+          "damageRoll": {
+            "expression": "4d8",
+            "count": 4,
+            "sides": 8
+          }
+        }
+      ],
+      "sourceText": "Radiant Sword. Melee Attack Roll: +12, reach 10 ft.\nHit: 14 (2d6 + 7) Slashing damage plus 18 (4d8) Radiant damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 12,
-      "averageDamage": 14,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "2d6+7",
-        "count": 2,
-        "sides": 6,
-        "modifier": 7
-      },
       "reachFeet": 10
     }
   ]

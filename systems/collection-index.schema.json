@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/graph20/systems/collection-index.schema.json",
+  "title": "Explorer collection index",
+  "type": "object",
+  "properties": {
+    "collections": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "slug": { "type": "string", "minLength": 1 },
+            "name": { "type": "string", "minLength": 1 },
+            "sub": { "type": "string" },
+            "group": { "type": "string", "minLength": 1 }
+          },
+          "required": ["slug", "name", "sub", "group"],
+          "unevaluatedProperties": false
+        }
+      }
+    }
+  },
+  "required": ["collections"],
+  "unevaluatedProperties": false
+}

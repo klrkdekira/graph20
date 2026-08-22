@@ -70,11 +70,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Pack Tactics. The warrior has Advantage on an attack roll against a creature if at least one of the warrior's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+      "rulesText": "Pack Tactics. The warrior has Advantage on an attack roll against a creature if at least one of the warrior's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.251",
+        "heading": "Traits",
+        "lineStart": 26017,
+        "lineEnd": 26019
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Spear. Melee or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft. Hit: 4 (1d6 + 1) Piercing damage."
+      "rulesText": "Spear. Melee or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft. Hit: 4 (1d6 + 1) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.251",
+        "heading": "Actions",
+        "lineStart": 26021,
+        "lineEnd": 26023
+      }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 13\nInitiative +0 (10)\nHP 9 (2d8)\nSpeed 30 ft.\n\nGear Chain Shirt, Spear\nSenses Passive Perception 10\nLanguages Common\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nPack Tactics. The warrior has Advantage on an attack roll against a creature if at least one of the warrior's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nSpear. Melee or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft. Hit: 4 (1d6 + 1) Piercing damage.",
@@ -82,15 +96,22 @@
     {
       "name": "Spear",
       "attackType": "Melee or Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 4,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d6+1",
+            "count": 1,
+            "sides": 6,
+            "modifier": 1
+          }
+        }
+      ],
+      "sourceText": "Spear. Melee or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft. Hit: 4 (1d6 + 1) Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 3,
-      "averageDamage": 4,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d6+1",
-        "count": 1,
-        "sides": 6,
-        "modifier": 1
-      },
       "reachFeet": 5,
       "rangeFeet": {
         "normal": 20,

@@ -272,5 +272,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                    | School        | Special |\n| :----------------------- | :------------ | :------ |\n| Blight                   | Necromancy    |    -    |\n| Charm Monster            | Enchantment   |    -    |\n| Confusion                | Enchantment   | C       |\n| Conjure Minor Elementals | Conjuration   | C       |\n| Conjure Woodland Beings  | Conjuration   | C       |\n| Control Water            | Transmutation | C       |\n| Divination               | Divination    | R, M    |\n| Dominate Beast           | Enchantment   | C       |\n| Fire Shield              | Evocation     |    -    |\n| Freedom of Movement      | Abjuration    |    -    |\n| Giant Insect             | Conjuration   | C       |\n| Hallucinatory Terrain    | Illusion      |    -    |\n| Ice Storm                | Evocation     |    -    |\n| Locate Creature          | Divination    | C       |\n| Polymorph                | Transmutation | C       |\n| Stone Shape              | Transmutation |    -    |\n| Stoneskin                | Transmutation | C, M    |\n| Wall of Fire             | Evocation     | C       |"
 }

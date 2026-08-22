@@ -72,7 +72,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Piercing damage."
+      "rulesText": "Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.27",
+        "heading": "Actions",
+        "lineStart": 27415,
+        "lineEnd": 27417
+      }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 13\nInitiative +0 (10)\nHP 15 (2d8 + 6)\nSpeed 30 ft., Burrow 10 ft.\n\nSkills Perception +3\nResistances Poison\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Piercing damage.",
@@ -80,15 +87,22 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 6,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d4+1",
+            "count": 2,
+            "sides": 4,
+            "modifier": 1
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Piercing damage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 3,
-      "averageDamage": 6,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d4+1",
-        "count": 2,
-        "sides": 4,
-        "modifier": 1
-      },
       "reachFeet": 5
     }
   ]

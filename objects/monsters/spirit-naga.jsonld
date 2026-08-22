@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Fiendish Restoration. If it dies, the naga returns to life in 1d6 days and regains all its Hit Points. Only a Wish spell can prevent this trait from functioning."
+      "rulesText": "Fiendish Restoration. If it dies, the naga returns to life in 1d6 days and regains all its Hit Points. Only a Wish spell can prevent this trait from functioning.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.229",
+        "heading": "Traits",
+        "lineStart": 25262,
+        "lineEnd": 25264
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The naga makes three attacks, using Bite or Necrotic Ray in any combination.\n\nBite. Melee Attack Roll: +7, reach 10 ft. Hit: 7 (1d6 + 4) Piercing damage plus 14 (4d6) Poison damage.\n\nNecrotic Ray. Ranged Attack Roll: +6, range 60 ft. Hit: 21 (6d6) Necrotic damage.\n\nSpellcasting. The naga casts one of the following spells, requiring no Somatic or Material components and using Intelligence as the spellcasting ability (spell save DC 14):\n\nAt Will: Detect Magic, Mage Hand, Minor Illusion, Water Breathing\n\n2/Day Each: Detect Thoughts, Dimension Door, Hold Person (level 3 version), Lightning Bolt (level 4 version)"
+      "rulesText": "Multiattack. The naga makes three attacks, using Bite or Necrotic Ray in any combination.\n\nBite. Melee Attack Roll: +7, reach 10 ft. Hit: 7 (1d6 + 4) Piercing damage plus 14 (4d6) Poison damage.\n\nNecrotic Ray. Ranged Attack Roll: +6, range 60 ft. Hit: 21 (6d6) Necrotic damage.\n\nSpellcasting. The naga casts one of the following spells, requiring no Somatic or Material components and using Intelligence as the spellcasting ability (spell save DC 14):\n\nAt Will: Detect Magic, Mage Hand, Minor Illusion, Water Breathing\n\n2/Day Each: Detect Thoughts, Dimension Door, Hold Person (level 3 version), Lightning Bolt (level 4 version)",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.229",
+        "heading": "Actions",
+        "lineStart": 25266,
+        "lineEnd": 25278
+      }
     }
   ],
   "rulesText": "Large Fiend, Chaotic Evil\n\nAC 17\nInitiative +3 (13)\nHP 135 (18d10 + 36)\nSpeed 40 ft.\n\nImmunities Poison; Charmed, Poisoned\nSenses Darkvision 60 ft.; Passive Perception 12\nLanguages Abyssal, Common\nCR 8 (XP 3,900; PB +3)\n\nTraits\n\nFiendish Restoration. If it dies, the naga returns to life in 1d6 days and regains all its Hit Points. Only a Wish spell can prevent this trait from functioning.\n\nActions\n\nMultiattack. The naga makes three attacks, using Bite or Necrotic Ray in any combination.\n\nBite. Melee Attack Roll: +7, reach 10 ft. Hit: 7 (1d6 + 4) Piercing damage plus 14 (4d6) Poison damage.\n\nNecrotic Ray. Ranged Attack Roll: +6, range 60 ft. Hit: 21 (6d6) Necrotic damage.\n\nSpellcasting. The naga casts one of the following spells, requiring no Somatic or Material components and using Intelligence as the spellcasting ability (spell save DC 14):\n\nAt Will: Detect Magic, Mage Hand, Minor Illusion, Water Breathing\n\n2/Day Each: Detect Thoughts, Dimension Door, Hold Person (level 3 version), Lightning Bolt (level 4 version)",
@@ -91,28 +105,51 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 7,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d6+4",
+            "count": 1,
+            "sides": 6,
+            "modifier": 4
+          }
+        },
+        {
+          "averageDamage": 14,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "4d6",
+            "count": 4,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +7, reach 10 ft. Hit: 7 (1d6 + 4) Piercing damage plus 14 (4d6) Poison damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 7,
-      "averageDamage": 7,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d6+4",
-        "count": 1,
-        "sides": 6,
-        "modifier": 4
-      },
       "reachFeet": 10
     },
     {
       "name": "Necrotic Ray",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 21,
+          "damageType": "Necrotic",
+          "damageRoll": {
+            "expression": "6d6",
+            "count": 6,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Necrotic Ray. Ranged Attack Roll: +6, range 60 ft. Hit: 21 (6d6) Necrotic damage.",
+      "path": "statSections[1].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 21,
-      "damageType": "Necrotic",
-      "damageRoll": {
-        "expression": "6d6",
-        "count": 6,
-        "sides": 6
-      },
       "rangeFeet": {
         "normal": 60
       }

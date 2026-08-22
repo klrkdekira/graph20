@@ -20,9 +20,9 @@
         "author": { "type": "string" },
         "srdVersion": { "type": "string" },
         "license": { "const": "CC-BY-4.0" },
-        "licenseUrl": { "type": "string" },
+        "licenseUrl": { "$ref": "common.schema.json#/$defs/NodeReference" },
         "attributionStatement": { "type": "string" },
-        "source": { "type": "object" },
+        "source": { "$ref": "common.schema.json#/$defs/NodeReference" },
         "sourceDigest": { "type": "string", "pattern": "^sha256-[0-9a-f]{64}$" },
         "corpusDigest": { "type": "string", "pattern": "^sha256-[0-9a-f]{64}$" }
       },
@@ -33,26 +33,30 @@
         "license",
         "licenseUrl",
         "attributionStatement",
+        "source",
         "sourceDigest",
         "corpusDigest"
       ],
       "unevaluatedProperties": false
     },
     "collections": {
-      "type": "object",
-      "additionalProperties": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": { "@id": { "type": "string" } },
-          "required": ["@id"],
-          "unevaluatedProperties": false
-        }
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "slug": { "type": "string", "pattern": "^[a-z-]+$" },
+          "entityType": { "type": "string", "minLength": 1 },
+          "members": {
+            "type": "array",
+            "items": { "$ref": "common.schema.json#/$defs/NodeReference" }
+          },
+          "schemaReference": { "$ref": "common.schema.json#/$defs/NodeReference" }
+        },
+        "required": ["name", "slug", "entityType", "members", "schemaReference"],
+        "unevaluatedProperties": false
       }
-    },
-    "collectionSchemas": {
-      "type": "object",
-      "additionalProperties": { "type": "string" }
     }
   },
   "required": [
@@ -61,8 +65,7 @@
     "@type",
     "version",
     "metadata",
-    "collections",
-    "collectionSchemas"
+    "collections"
   ],
   "unevaluatedProperties": false
 }

@@ -7,9 +7,13 @@
   "author": "Wizards of the Coast LLC",
   "srdVersion": "5.2.1",
   "license": "CC-BY-4.0",
-  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "licenseUrl": {
+    "@id": "https://creativecommons.org/licenses/by/4.0/legalcode"
+  },
   "attributionStatement": "This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.",
-  "canonicalUrl": "https://www.dndbeyond.com/srd",
+  "canonicalUrl": {
+    "@id": "https://www.dndbeyond.com/srd"
+  },
   "sourceFile": "SRD_CC_v5.2.1.md",
-  "contentDigest": "sha256-39087358c1fc5124364a774ca0411fd8f7f592780486ef6a4bb71132e2ef1d7c"
+  "contentDigest": "sha256-31496ccb6d139f8b6262ccfab60ec772cb2f369e65eb30ed39aafc6996581058"
 }

@@ -15,7 +15,21 @@
     "lineEnd": 17695
   },
   "itemCategory": "Wand",
-  "rarity": "Uncommon",
-  "requiresAttunement": false,
+  "rarities": [
+    {
+      "rarity": "Uncommon",
+      "variant": "+1"
+    },
+    {
+      "rarity": "Rare",
+      "variant": "+2"
+    },
+    {
+      "rarity": "Very Rare",
+      "variant": "+3"
+    }
+  ],
+  "requiresAttunement": true,
+  "attunementNote": "Requires Attunement by a Spellcaster",
   "rulesText": "Wand, Uncommon (+1), Rare (+2), or Very Rare (+3) (Requires Attunement by a Spellcaster)\n\nWhile holding this wand, you gain a bonus to spell attack rolls determined by the wand's rarity. In addition, you ignore Half Cover when making a spell attack roll."
 }

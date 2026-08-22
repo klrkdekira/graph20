@@ -90,5 +90,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell           | School        | Special |\n| :-------------- | :------------ | :------ |\n| Antimagic Field | Abjuration    | C       |\n| Control Weather | Transmutation | C       |\n| Earthquake      | Transmutation | C       |\n| Holy Aura       | Abjuration    | C, M    |\n| Sunburst        | Evocation     |    -    |"
 }

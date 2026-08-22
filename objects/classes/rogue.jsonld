@@ -14,16 +14,40 @@
     "lineStart": 3814,
     "lineEnd": 4007
   },
-  "coreTraits": {
-    "Primary Ability": "Dexterity",
-    "Hit Point Die": "D8 per Rogue level",
-    "Saving Throw Proficiencies": "Dexterity and Intelligence",
-    "Skill Proficiencies": "Choose 4: Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Persuasion, Sleight of Hand, or Stealth",
-    "Weapon Proficiencies": "Simple weapons and Martial weapons that have the Finesse or Light property",
-    "Tool Proficiencies": "Thieves’ Tools",
-    "Armor Training": "Light armor",
-    "Starting Equipment": "Choose A or B: (A) Leather Armor, 2 Daggers, Shortsword, Shortbow, 20 Arrows, Quiver, Thieves’ Tools, Burglar’s Pack, and 8 GP; or (B) 100 GP"
-  },
+  "coreTraits": [
+    {
+      "name": "Primary Ability",
+      "value": "Dexterity"
+    },
+    {
+      "name": "Hit Point Die",
+      "value": "D8 per Rogue level"
+    },
+    {
+      "name": "Saving Throw Proficiencies",
+      "value": "Dexterity and Intelligence"
+    },
+    {
+      "name": "Skill Proficiencies",
+      "value": "Choose 4: Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Persuasion, Sleight of Hand, or Stealth"
+    },
+    {
+      "name": "Weapon Proficiencies",
+      "value": "Simple weapons and Martial weapons that have the Finesse or Light property"
+    },
+    {
+      "name": "Tool Proficiencies",
+      "value": "Thieves’ Tools"
+    },
+    {
+      "name": "Armor Training",
+      "value": "Light armor"
+    },
+    {
+      "name": "Starting Equipment",
+      "value": "Choose A or B: (A) Leather Armor, 2 Daggers, Shortsword, Shortbow, 20 Arrows, Quiver, Thieves’ Tools, Burglar’s Pack, and 8 GP; or (B) 100 GP"
+    }
+  ],
   "subclasses": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/subclasses/thief"
@@ -33,92 +57,218 @@
     {
       "level": 1,
       "name": "Expertise",
-      "rulesText": "You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them.\n\nAt Rogue level 6, you gain Expertise in two more of your skill proficiencies of your choice."
+      "rulesText": "You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them.\n\nAt Rogue level 6, you gain Expertise in two more of your skill proficiencies of your choice.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.23",
+        "heading": "Level 1: Expertise",
+        "lineStart": 3869,
+        "lineEnd": 3873
+      }
     },
     {
       "level": 1,
       "name": "Sneak Attack",
-      "rulesText": "You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type.\n\nYou don't need Advantage on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn't have the Incapacitated condition, and you don't have Disadvantage on the attack roll.\n\nThe extra damage increases as you gain Rogue levels, as shown in the Sneak Attack column of the Rogue Features table."
+      "rulesText": "You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type.\n\nYou don't need Advantage on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn't have the Incapacitated condition, and you don't have Disadvantage on the attack roll.\n\nThe extra damage increases as you gain Rogue levels, as shown in the Sneak Attack column of the Rogue Features table.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.23",
+        "heading": "Level 1: Sneak Attack",
+        "lineStart": 3875,
+        "lineEnd": 3881
+      }
     },
     {
       "level": 1,
       "name": "Thieves' Cant",
-      "rulesText": "You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the language tables in \"Character Creation.\""
+      "rulesText": "You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the language tables in \"Character Creation.\"",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.23",
+        "heading": "Level 1: Thieves' Cant",
+        "lineStart": 3883,
+        "lineEnd": 3885
+      }
     },
     {
       "level": 1,
       "name": "Weapon Mastery",
-      "rulesText": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Daggers and Shortbows.\n\nWhenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Shortswords."
+      "rulesText": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Daggers and Shortbows.\n\nWhenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Shortswords.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.23",
+        "heading": "Level 1: Weapon Mastery",
+        "lineStart": 3887,
+        "lineEnd": 3891
+      }
     },
     {
       "level": 2,
       "name": "Cunning Action",
-      "rulesText": "Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a Bonus Action: Dash, Disengage, or Hide."
+      "rulesText": "Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a Bonus Action: Dash, Disengage, or Hide.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.23",
+        "heading": "Level 2: Cunning Action",
+        "lineStart": 3893,
+        "lineEnd": 3895
+      }
     },
     {
       "level": 3,
       "name": "Rogue Subclass",
-      "rulesText": "You gain a Rogue subclass of your choice. The Thief subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Rogue levels. For the rest of your career, you gain each of your subclass's features that are of your Rogue level or lower."
+      "rulesText": "You gain a Rogue subclass of your choice. The Thief subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Rogue levels. For the rest of your career, you gain each of your subclass's features that are of your Rogue level or lower.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.23",
+        "heading": "Level 3: Rogue Subclass",
+        "lineStart": 3897,
+        "lineEnd": 3899
+      }
     },
     {
       "level": 3,
       "name": "Steady Aim",
-      "rulesText": "As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn. You can use this feature only if you haven't moved during this turn, and after you use it, your Speed is 0 until the end of the current turn."
+      "rulesText": "As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn. You can use this feature only if you haven't moved during this turn, and after you use it, your Speed is 0 until the end of the current turn.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.23",
+        "heading": "Level 3: Steady Aim",
+        "lineStart": 3901,
+        "lineEnd": 3903
+      }
     },
     {
       "level": 4,
       "name": "Ability Score Improvement",
-      "rulesText": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Rogue levels 8, 10, 12, and 16."
+      "rulesText": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Rogue levels 8, 10, 12, and 16.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.23",
+        "heading": "Level 4: Ability Score Improvement",
+        "lineStart": 3905,
+        "lineEnd": 3907
+      }
     },
     {
       "level": 5,
       "name": "Cunning Strike",
-      "rulesText": "You've developed cunning ways to use your Sneak Attack. When you deal Sneak Attack damage, you can add one of the following Cunning Strike effects. Each effect has a die cost, which is the number of Sneak Attack damage dice you must forgo to add the effect. You remove the die before rolling, and the effect occurs immediately after the attack's damage is dealt. For example, if you add the Poison effect, remove 1d6 from the Sneak Attack's damage before rolling.\n\nIf a Cunning Strike effect requires a saving throw, the DC equals 8 plus your Dexterity modifier and Proficiency Bonus.\n\nPoison (Cost: 1d6). You add a toxin to your strike, forcing the target to make a Constitution saving throw. On a failed save, the target has the Poisoned condition for 1 minute. At the end of each of its turns, the Poisoned target repeats the save, ending the effect on itself on a success.\n\nTo use this effect, you must have a Poisoner's Kit on your person.\n\nTrip (Cost: 1d6). If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the Prone condition.\n\nWithdraw (Cost: 1d6). Immediately after the attack, you move up to half your Speed without provoking Opportunity Attacks."
+      "rulesText": "You've developed cunning ways to use your Sneak Attack. When you deal Sneak Attack damage, you can add one of the following Cunning Strike effects. Each effect has a die cost, which is the number of Sneak Attack damage dice you must forgo to add the effect. You remove the die before rolling, and the effect occurs immediately after the attack's damage is dealt. For example, if you add the Poison effect, remove 1d6 from the Sneak Attack's damage before rolling.\n\nIf a Cunning Strike effect requires a saving throw, the DC equals 8 plus your Dexterity modifier and Proficiency Bonus.\n\nPoison (Cost: 1d6). You add a toxin to your strike, forcing the target to make a Constitution saving throw. On a failed save, the target has the Poisoned condition for 1 minute. At the end of each of its turns, the Poisoned target repeats the save, ending the effect on itself on a success.\n\nTo use this effect, you must have a Poisoner's Kit on your person.\n\nTrip (Cost: 1d6). If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the Prone condition.\n\nWithdraw (Cost: 1d6). Immediately after the attack, you move up to half your Speed without provoking Opportunity Attacks.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.23",
+        "heading": "Level 5: Cunning Strike",
+        "lineStart": 3909,
+        "lineEnd": 3921
+      }
     },
     {
       "level": 5,
       "name": "Uncanny Dodge",
-      "rulesText": "When an attacker that you can see hits you with an attack roll, you can take a Reaction to halve the attack's damage against you (round down)."
+      "rulesText": "When an attacker that you can see hits you with an attack roll, you can take a Reaction to halve the attack's damage against you (round down).",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.23",
+        "heading": "Level 5: Uncanny Dodge",
+        "lineStart": 3923,
+        "lineEnd": 3925
+      }
     },
     {
       "level": 7,
       "name": "Evasion",
-      "rulesText": "You can nimbly dodge out of the way of certain dangers. When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the Incapacitated condition."
+      "rulesText": "You can nimbly dodge out of the way of certain dangers. When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the Incapacitated condition.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.23",
+        "heading": "Level 7: Evasion",
+        "lineStart": 3927,
+        "lineEnd": 3929
+      }
     },
     {
       "level": 7,
       "name": "Reliable Talent",
-      "rulesText": "Whenever you make an ability check that uses one of your skill or tool proficiencies, you can treat a d20 roll of 9 or lower as a 10."
+      "rulesText": "Whenever you make an ability check that uses one of your skill or tool proficiencies, you can treat a d20 roll of 9 or lower as a 10.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.23",
+        "heading": "Level 7: Reliable Talent",
+        "lineStart": 3931,
+        "lineEnd": 3933
+      }
     },
     {
       "level": 11,
       "name": "Improved Cunning Strike",
-      "rulesText": "You can use up to two Cunning Strike effects when you deal Sneak Attack damage, paying the die cost for each effect."
+      "rulesText": "You can use up to two Cunning Strike effects when you deal Sneak Attack damage, paying the die cost for each effect.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.23",
+        "heading": "Level 11: Improved Cunning Strike",
+        "lineStart": 3935,
+        "lineEnd": 3937
+      }
     },
     {
       "level": 14,
       "name": "Devious Strikes",
-      "rulesText": "You've practiced new ways to use your Sneak Attack deviously. The following effects are now among your Cunning Strike options.\n\nDaze (Cost: 2d6). The target must succeed on a Constitution saving throw, or on its next turn, it can do only one of the following: move or take an action or a Bonus Action.\n\nKnock Out (Cost: 6d6). The target must succeed on a Constitution saving throw, or it has the Unconscious condition for 1 minute or until it takes any damage. The Unconscious target repeats the save at the end of each of its turns, ending the effect on itself on a success.\n\nObscure (Cost: 3d6). The target must succeed on a Dexterity saving throw, or it has the Blinded condition until the end of its next turn."
+      "rulesText": "You've practiced new ways to use your Sneak Attack deviously. The following effects are now among your Cunning Strike options.\n\nDaze (Cost: 2d6). The target must succeed on a Constitution saving throw, or on its next turn, it can do only one of the following: move or take an action or a Bonus Action.\n\nKnock Out (Cost: 6d6). The target must succeed on a Constitution saving throw, or it has the Unconscious condition for 1 minute or until it takes any damage. The Unconscious target repeats the save at the end of each of its turns, ending the effect on itself on a success.\n\nObscure (Cost: 3d6). The target must succeed on a Dexterity saving throw, or it has the Blinded condition until the end of its next turn.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.23",
+        "heading": "Level 14: Devious Strikes",
+        "lineStart": 3939,
+        "lineEnd": 3947
+      }
     },
     {
       "level": 15,
       "name": "Slippery Mind",
-      "rulesText": "Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws."
+      "rulesText": "Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.23",
+        "heading": "Level 15: Slippery Mind",
+        "lineStart": 3949,
+        "lineEnd": 3951
+      }
     },
     {
       "level": 18,
       "name": "Elusive",
-      "rulesText": "You're so evasive that attackers rarely gain the upper hand against you. No attack roll can have Advantage against you unless you have the Incapacitated condition."
+      "rulesText": "You're so evasive that attackers rarely gain the upper hand against you. No attack roll can have Advantage against you unless you have the Incapacitated condition.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.23",
+        "heading": "Level 18: Elusive",
+        "lineStart": 3953,
+        "lineEnd": 3955
+      }
     },
     {
       "level": 19,
       "name": "Epic Boon",
-      "rulesText": "You gain an Epic Boon feat (see “Feats”) or another feat of your choice for which you qualify. Boon of the Night Spirit is recommended."
+      "rulesText": "You gain an Epic Boon feat (see “Feats”) or another feat of your choice for which you qualify. Boon of the Night Spirit is recommended.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.23",
+        "heading": "Level 19: Epic Boon",
+        "lineStart": 3957,
+        "lineEnd": 3959
+      }
     },
     {
       "level": 20,
       "name": "Stroke of Luck",
-      "rulesText": "You have a marvelous knack for succeeding when you need to. If you fail a D20 Test, you can turn the roll into a 20.\n\nOnce you use this feature, you can't use it again until you finish a Short or Long Rest."
+      "rulesText": "You have a marvelous knack for succeeding when you need to. If you fail a D20 Test, you can turn the roll into a 20.\n\nOnce you use this feature, you can't use it again until you finish a Short or Long Rest.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.23",
+        "heading": "Level 20: Stroke of Luck",
+        "lineStart": 3961,
+        "lineEnd": 3965
+      }
     }
   ],
   "relatedTables": [

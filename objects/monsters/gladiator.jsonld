@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The gladiator makes three Spear attacks. It can replace one attack with a use of Shield Bash.\n\nSpear. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft. Hit: 11 (2d6 + 4) Piercing damage.\n\nShield Bash. Strength Saving Throw: DC 15, one creature within 5 feet that the gladiator can see. Failure: 9 (2d4 + 4) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition."
+      "rulesText": "Multiattack. The gladiator makes three Spear attacks. It can replace one attack with a use of Shield Bash.\n\nSpear. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft. Hit: 11 (2d6 + 4) Piercing damage.\n\nShield Bash. Strength Saving Throw: DC 15, one creature within 5 feet that the gladiator can see. Failure: 9 (2d4 + 4) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.102",
+        "heading": "Actions",
+        "lineStart": 21250,
+        "lineEnd": 21256
+      }
     },
     {
       "name": "Reactions",
-      "rulesText": "Parry. Trigger: The gladiator is hit by a melee attack roll while holding a weapon. Response: The gladiator adds 3 to its AC against that attack, possibly causing it to miss."
+      "rulesText": "Parry. Trigger: The gladiator is hit by a melee attack roll while holding a weapon. Response: The gladiator adds 3 to its AC against that attack, possibly causing it to miss.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.102",
+        "heading": "Reactions",
+        "lineStart": 21258,
+        "lineEnd": 21260
+      }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 16\nInitiative +5 (15)\nHP 112 (15d8 + 45)\nSpeed 30 ft.\n\nSkills Athletics +10, Performance +5\nGear Shield, Spears (3), Studded Leather Armor\nSenses Passive Perception 11\nLanguages Common\nCR 5 (XP 1,800; PB +3)\n\nActions\n\nMultiattack. The gladiator makes three Spear attacks. It can replace one attack with a use of Shield Bash.\n\nSpear. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft. Hit: 11 (2d6 + 4) Piercing damage.\n\nShield Bash. Strength Saving Throw: DC 15, one creature within 5 feet that the gladiator can see. Failure: 9 (2d4 + 4) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition.\n\nReactions\n\nParry. Trigger: The gladiator is hit by a melee attack roll while holding a weapon. Response: The gladiator adds 3 to its AC against that attack, possibly causing it to miss.",
@@ -84,15 +98,22 @@
     {
       "name": "Spear",
       "attackType": "Melee or Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 11,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d6+4",
+            "count": 2,
+            "sides": 6,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Spear. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft. Hit: 11 (2d6 + 4) Piercing damage.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 7,
-      "averageDamage": 11,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d6+4",
-        "count": 2,
-        "sides": 6,
-        "modifier": 4
-      },
       "reachFeet": 5,
       "rangeFeet": {
         "normal": 20,

@@ -104,5 +104,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell          | School        | Special |\n| :------------- | :------------ | :------ |\n| Acid Splash    | Evocation     |    -    |\n| Chill Touch    | Necromancy    |    -    |\n| Dancing Lights | Illusion      | C       |\n| Elementalism   | Transmutation |    -    |\n| Fire Bolt      | Evocation     |    -    |\n| Light          | Evocation     |    -    |"
 }

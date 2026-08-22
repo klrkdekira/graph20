@@ -76,5 +76,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                | School      | Special |\n| :------------------- | :---------- | :------ |\n| Dispel Evil and Good | Abjuration  | C       |\n| Geas                 | Enchantment |    -    |\n| Greater Restoration  | Abjuration  | M       |\n| Raise Dead           | Necromancy  | M       |"
 }

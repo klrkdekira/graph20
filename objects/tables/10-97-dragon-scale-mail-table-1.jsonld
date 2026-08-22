@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.97",
     "heading": "Dragon Scale Mail",
-    "lineStart": 15559,
-    "lineEnd": 15565
+    "lineStart": 15560,
+    "lineEnd": 15566
   },
   "columns": [
     "Dragon",
@@ -106,5 +106,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Dragon | Resistance | Dragon | Resistance |\n| :----- | :--------- | :----- | :--------- |\n| Black  | Acid       | Gold   | Fire       |\n| Blue   | Lightning  | Green  | Poison     |\n| Brass  | Fire       | Red    | Fire       |\n| Bronze | Lightning  | Silver | Cold       |\n| Copper | Acid       | White  | Cold       |"
 }

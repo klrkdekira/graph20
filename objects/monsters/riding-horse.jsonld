@@ -70,7 +70,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Hooves. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning damage."
+      "rulesText": "Hooves. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.78",
+        "heading": "Actions",
+        "lineStart": 28782,
+        "lineEnd": 28784
+      }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 11\nInitiative +1 (11)\nHP 13 (2d10 + 2)\nSpeed 60 ft.\n\nSenses Passive Perception 10\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nHooves. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning damage.",
@@ -78,15 +85,22 @@
     {
       "name": "Hooves",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 7,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "1d8+3",
+            "count": 1,
+            "sides": 8,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Hooves. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning damage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 7,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "1d8+3",
-        "count": 1,
-        "sides": 8,
-        "modifier": 3
-      },
       "reachFeet": 5
     }
   ]

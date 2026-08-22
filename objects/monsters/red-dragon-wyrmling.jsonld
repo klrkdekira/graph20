@@ -72,7 +72,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Slashing damage plus 3 (1d6) Fire damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 13, each creature in a 15-foot Cone. Failure: 24 (7d6) Fire damage. Success: Half damage."
+      "rulesText": "Multiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Slashing damage plus 3 (1d6) Fire damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 13, each creature in a 15-foot Cone. Failure: 24 (7d6) Fire damage. Success: Half damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.197",
+        "heading": "Actions",
+        "lineStart": 24205,
+        "lineEnd": 24211
+      }
     }
   ],
   "rulesText": "Medium Dragon (Chromatic), Chaotic Evil\n\nAC 17\nInitiative +2 (12)\nHP 75 (10d8 + 30)\nSpeed 30 ft., Climb 30 ft., Fly 60 ft.\n\nSkills Perception +4, Stealth +2\nImmunities Fire\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14\nLanguages Draconic\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Slashing damage plus 3 (1d6) Fire damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 13, each creature in a 15-foot Cone. Failure: 24 (7d6) Fire damage. Success: Half damage.",
@@ -80,15 +87,31 @@
     {
       "name": "Rend",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 9,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d10+4",
+            "count": 1,
+            "sides": 10,
+            "modifier": 4
+          }
+        },
+        {
+          "averageDamage": 3,
+          "damageType": "Fire",
+          "damageRoll": {
+            "expression": "1d6",
+            "count": 1,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Rend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Slashing damage plus 3 (1d6) Fire damage.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 9,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d10+4",
-        "count": 1,
-        "sides": 10,
-        "modifier": 4
-      },
       "reachFeet": 5
     }
   ]

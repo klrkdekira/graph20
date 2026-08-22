@@ -160,5 +160,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell               | School        | Special |\n| :------------------ | :------------ | :------ |\n| Darkness            | Evocation     | C       |\n| Enthrall            | Enchantment   | C       |\n| Hold Person         | Enchantment   | C       |\n| Invisibility        | Illusion      | C       |\n| Mind Spike          | Divination    | C       |\n| Mirror Image        | Illusion      |    -    |\n| Misty Step          | Conjuration   |    -    |\n| Ray of Enfeeblement | Necromancy    | C       |\n| Spider Climb        | Transmutation | C       |\n| Suggestion          | Enchantment   | C       |"
 }

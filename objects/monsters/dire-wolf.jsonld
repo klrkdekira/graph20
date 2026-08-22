@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Pack Tactics. The wolf has Advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+      "rulesText": "Pack Tactics. The wolf has Advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.19",
+        "heading": "Traits",
+        "lineStart": 27205,
+        "lineEnd": 27207
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Piercing damage. If the target is a Large or smaller creature, it has the Prone condition."
+      "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Piercing damage. If the target is a Large or smaller creature, it has the Prone condition.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.19",
+        "heading": "Actions",
+        "lineStart": 27209,
+        "lineEnd": 27211
+      }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 14\nInitiative +2 (12)\nHP 22 (3d10 + 6)\nSpeed 50 ft.\n\nSkills Perception +5, Stealth +4\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages None\nCR 1 (XP 200; PB +2)\n\nTraits\n\nPack Tactics. The wolf has Advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Piercing damage. If the target is a Large or smaller creature, it has the Prone condition.",
@@ -83,15 +97,22 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 8,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d10+3",
+            "count": 1,
+            "sides": 10,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Piercing damage. If the target is a Large or smaller creature, it has the Prone condition.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 8,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d10+3",
-        "count": 1,
-        "sides": 10,
-        "modifier": 3
-      },
       "reachFeet": 5
     }
   ]

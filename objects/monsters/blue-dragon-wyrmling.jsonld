@@ -72,7 +72,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Slashing damage plus 3 (1d6) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 12, each creature in a 30-foot-long, 5-foot-wide Line. Failure: 21 (6d6) Lightning damage. Success: Half damage."
+      "rulesText": "Multiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Slashing damage plus 3 (1d6) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 12, each creature in a 30-foot-long, 5-foot-wide Line. Failure: 21 (6d6) Lightning damage. Success: Half damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.33",
+        "heading": "Actions",
+        "lineStart": 18961,
+        "lineEnd": 18967
+      }
     }
   ],
   "rulesText": "Medium Dragon (Chromatic), Lawful Evil\n\nAC 17\nInitiative +2 (12)\nHP 65 (10d8 + 20)\nSpeed 30 ft., Burrow 15 ft., Fly 60 ft.\n\nSkills Perception +4, Stealth +2\nImmunities Lightning\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14\nLanguages Draconic\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Slashing damage plus 3 (1d6) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 12, each creature in a 30-foot-long, 5-foot-wide Line. Failure: 21 (6d6) Lightning damage. Success: Half damage.",
@@ -80,15 +87,31 @@
     {
       "name": "Rend",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 8,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d10+3",
+            "count": 1,
+            "sides": 10,
+            "modifier": 3
+          }
+        },
+        {
+          "averageDamage": 3,
+          "damageType": "Lightning",
+          "damageRoll": {
+            "expression": "1d6",
+            "count": 1,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Slashing damage plus 3 (1d6) Lightning damage.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 8,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d10+3",
-        "count": 1,
-        "sides": 10,
-        "modifier": 3
-      },
       "reachFeet": 5
     }
   ]

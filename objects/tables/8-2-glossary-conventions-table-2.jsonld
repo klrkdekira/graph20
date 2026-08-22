@@ -162,5 +162,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| M    | Material component  |\n| :--- | :------------------ |\n| N    | Neutral             |\n| NE   | Neutral Evil        |\n| NG   | Neutral Good        |\n| NPC  | Nonplayer character |\n| PB   | Proficiency Bonus   |\n| PP   | Platinum Piece(s)   |\n| R    | Ritual              |\n| S    | Somatic component   |\n| SP   | Silver Piece(s)     |\n| Str. | Strength            |\n| V    | Verbal component    |\n| Wis. | Wisdom              |\n| XP   | Experience Point(s) |"
 }

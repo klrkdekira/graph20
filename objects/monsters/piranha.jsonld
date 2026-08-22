@@ -70,12 +70,43 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Water Breathing. The piranha can breathe only underwater."
+      "rulesText": "Water Breathing. The piranha can breathe only underwater.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.69",
+        "heading": "Traits",
+        "lineStart": 28549,
+        "lineEnd": 28551
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +5 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 1 Piercing damage."
+      "rulesText": "Bite. Melee Attack Roll: +5 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 1 Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.69",
+        "heading": "Actions",
+        "lineStart": 28553,
+        "lineEnd": 28555
+      }
     }
   ],
-  "rulesText": "Tiny Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 1 (1d4 - 1)\nSpeed 5 ft., Swim 40 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 8\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nWater Breathing. The piranha can breathe only underwater.\n\nActions\n\nBite. Melee Attack Roll: +5 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 1 Piercing damage."
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 1 (1d4 - 1)\nSpeed 5 ft., Swim 40 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 8\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nWater Breathing. The piranha can breathe only underwater.\n\nActions\n\nBite. Melee Attack Roll: +5 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 1 Piercing damage.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 1,
+          "damageType": "Piercing"
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +5 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 1 Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
+      "attackBonus": 5,
+      "reachFeet": 5
+    }
+  ]
 }

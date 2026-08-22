@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The centaur makes two attacks, using Pike or Longbow in any combination.\n\nPike. Melee Attack Roll: +6, reach 10 ft. Hit: 9 (1d10 + 4) Piercing damage.\n\nLongbow. Ranged Attack Roll: +4, range 150/600 ft.\nHit: 6 (1d8 + 2) Piercing damage."
+      "rulesText": "Multiattack. The centaur makes two attacks, using Pike or Longbow in any combination.\n\nPike. Melee Attack Roll: +6, reach 10 ft. Hit: 9 (1d10 + 4) Piercing damage.\n\nLongbow. Ranged Attack Roll: +4, range 150/600 ft.\nHit: 6 (1d8 + 2) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.53",
+        "heading": "Actions",
+        "lineStart": 19594,
+        "lineEnd": 19601
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Trampling Charge (Recharge 5–6). The centaur moves up to its Speed without provoking Opportunity Attacks and can move through the spaces of Medium or smaller creatures. Each creature whose space the centaur enters is targeted once by the following effect. Strength Saving Throw: DC 14. Failure: 7 (1d6 + 4) Bludgeoning damage, and the target has the Prone condition."
+      "rulesText": "Trampling Charge (Recharge 5–6). The centaur moves up to its Speed without provoking Opportunity Attacks and can move through the spaces of Medium or smaller creatures. Each creature whose space the centaur enters is targeted once by the following effect. Strength Saving Throw: DC 14. Failure: 7 (1d6 + 4) Bludgeoning damage, and the target has the Prone condition.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.53",
+        "heading": "Bonus Actions",
+        "lineStart": 19603,
+        "lineEnd": 19605
+      }
     }
   ],
   "rulesText": "Large Fey, Neutral Good\n\nAC 16\nInitiative +2 (12)\nHP 45 (6d10 + 12)\nSpeed 50 ft.\n\nSkills Athletics +6, Perception +3\nGear Breastplate, Longbow, Pike\nSenses Passive Perception 13\nLanguages Elvish, Sylvan\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The centaur makes two attacks, using Pike or Longbow in any combination.\n\nPike. Melee Attack Roll: +6, reach 10 ft. Hit: 9 (1d10 + 4) Piercing damage.\n\nLongbow. Ranged Attack Roll: +4, range 150/600 ft.\nHit: 6 (1d8 + 2) Piercing damage.\n\nBonus Actions\n\nTrampling Charge (Recharge 5–6). The centaur moves up to its Speed without provoking Opportunity Attacks and can move through the spaces of Medium or smaller creatures. Each creature whose space the centaur enters is targeted once by the following effect. Strength Saving Throw: DC 14. Failure: 7 (1d6 + 4) Bludgeoning damage, and the target has the Prone condition.",
@@ -84,29 +98,43 @@
     {
       "name": "Pike",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 9,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d10+4",
+            "count": 1,
+            "sides": 10,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Pike. Melee Attack Roll: +6, reach 10 ft. Hit: 9 (1d10 + 4) Piercing damage.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 9,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d10+4",
-        "count": 1,
-        "sides": 10,
-        "modifier": 4
-      },
       "reachFeet": 10
     },
     {
       "name": "Longbow",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 6,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d8+2",
+            "count": 1,
+            "sides": 8,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Longbow. Ranged Attack Roll: +4, range 150/600 ft.\nHit: 6 (1d8 + 2) Piercing damage.",
+      "path": "statSections[0].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 6,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d8+2",
-        "count": 1,
-        "sides": 8,
-        "modifier": 2
-      },
       "rangeFeet": {
         "normal": 150,
         "long": 600

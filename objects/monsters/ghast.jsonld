@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Stench. Constitution Saving Throw: DC 10, any creature that starts its turn in a 5-foot Emanation originating from the ghast. Failure: The target has the Poisoned condition until the start of its next turn. Success: The target is immune to this ghast's Stench for 24 hours."
+      "rulesText": "Stench. Constitution Saving Throw: DC 10, any creature that starts its turn in a 5-foot Emanation originating from the ghast. Failure: The target has the Poisoned condition until the start of its next turn. Success: The target is immune to this ghast's Stench for 24 hours.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.97",
+        "heading": "Traits",
+        "lineStart": 21060,
+        "lineEnd": 21062
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 9 (2d8) Necrotic damage.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage. If the target is a non-Undead creature, it is subjected to the following effect. Constitution Saving Throw: DC 10. Failure: The target has the Paralyzed condition until the end of its next turn."
+      "rulesText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 9 (2d8) Necrotic damage.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage. If the target is a non-Undead creature, it is subjected to the following effect. Constitution Saving Throw: DC 10. Failure: The target has the Paralyzed condition until the end of its next turn.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.97",
+        "heading": "Actions",
+        "lineStart": 21064,
+        "lineEnd": 21068
+      }
     }
   ],
   "rulesText": "Medium Undead, Chaotic Evil\n\nAC 13\nInitiative +3 (13)\nHP 36 (8d8)\nSpeed 30 ft.\n\nResistances Necrotic\nImmunities Poison; Charmed, Exhaustion, Poisoned\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Common\nCR 2 (XP 450; PB +2)\n\nTraits\n\nStench. Constitution Saving Throw: DC 10, any creature that starts its turn in a 5-foot Emanation originating from the ghast. Failure: The target has the Poisoned condition until the start of its next turn. Success: The target is immune to this ghast's Stench for 24 hours.\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 9 (2d8) Necrotic damage.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage. If the target is a non-Undead creature, it is subjected to the following effect. Constitution Saving Throw: DC 10. Failure: The target has the Paralyzed condition until the end of its next turn.",
@@ -94,29 +108,52 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 7,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d8+3",
+            "count": 1,
+            "sides": 8,
+            "modifier": 3
+          }
+        },
+        {
+          "averageDamage": 9,
+          "damageType": "Necrotic",
+          "damageRoll": {
+            "expression": "2d8",
+            "count": 2,
+            "sides": 8
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 9 (2d8) Necrotic damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 7,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d8+3",
-        "count": 1,
-        "sides": 8,
-        "modifier": 3
-      },
       "reachFeet": 5
     },
     {
       "name": "Claw",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 10,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "2d6+3",
+            "count": 2,
+            "sides": 6,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Claw. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage. If the target is a non-Undead creature, it is subjected to the following effect. Constitution Saving Throw: DC 10. Failure: The target has the Paralyzed condition until the end of its next turn.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 10,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "2d6+3",
-        "count": 2,
-        "sides": 6,
-        "modifier": 3
-      },
       "reachFeet": 5
     }
   ]

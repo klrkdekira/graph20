@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Pack Tactics. The vulture has Advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+      "rulesText": "Pack Tactics. The vulture has Advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.93",
+        "heading": "Traits",
+        "lineStart": 29191,
+        "lineEnd": 29193
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Beak. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Piercing damage."
+      "rulesText": "Beak. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.93",
+        "heading": "Actions",
+        "lineStart": 29195,
+        "lineEnd": 29197
+      }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 10\nInitiative +0 (10)\nHP 5 (1d8 + 1)\nSpeed 10 ft., Fly 50 ft.\n\nSkills Perception +3\nSenses Passive Perception 13\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nPack Tactics. The vulture has Advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBeak. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Piercing damage.",
@@ -83,14 +97,21 @@
     {
       "name": "Beak",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 2,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d4",
+            "count": 1,
+            "sides": 4
+          }
+        }
+      ],
+      "sourceText": "Beak. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 2,
-      "averageDamage": 2,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d4",
-        "count": 1,
-        "sides": 4
-      },
       "reachFeet": 5
     }
   ]

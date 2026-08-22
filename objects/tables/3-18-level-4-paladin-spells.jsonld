@@ -76,5 +76,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell           | School     | Special |\n| :-------------- | :--------- | :------ |\n| Aura of Life    | Abjuration | C       |\n| Banishment      | Abjuration | C       |\n| Death Ward      | Abjuration |    -    |\n| Locate Creature | Divination | C       |"
 }

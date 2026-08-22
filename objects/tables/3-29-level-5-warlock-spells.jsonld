@@ -118,5 +118,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                | School      | Special |\n| :------------------- | :---------- | :------ |\n| Contact Other Plane  | Divination  | R       |\n| Dream                | Illusion    |    -    |\n| Hold Monster         | Enchantment | C       |\n| Mislead              | Illusion    | C       |\n| Planar Binding       | Abjuration  | M       |\n| Scrying              | Divination  | C, M    |\n| Teleportation Circle | Conjuration | M       |"
 }

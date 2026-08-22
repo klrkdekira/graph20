@@ -69,12 +69,43 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Spider Climb. The lizard can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+      "rulesText": "Spider Climb. The lizard can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.62",
+        "heading": "Traits",
+        "lineStart": 28359,
+        "lineEnd": 28361
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage."
+      "rulesText": "Bite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.62",
+        "heading": "Actions",
+        "lineStart": 28363,
+        "lineEnd": 28365
+      }
     }
   ],
-  "rulesText": "Tiny Beast, Unaligned\n\nAC 10\nInitiative +0 (10)\nHP 2 (1d4)\nSpeed 20 ft., Climb 20 ft.\n\nSenses Darkvision 30 ft.; Passive Perception 9\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nSpider Climb. The lizard can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nActions\n\nBite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage."
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 10\nInitiative +0 (10)\nHP 2 (1d4)\nSpeed 20 ft., Climb 20 ft.\n\nSenses Darkvision 30 ft.; Passive Perception 9\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nSpider Climb. The lizard can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nActions\n\nBite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 1,
+          "damageType": "Piercing"
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
+      "attackBonus": 2,
+      "reachFeet": 5
+    }
+  ]
 }

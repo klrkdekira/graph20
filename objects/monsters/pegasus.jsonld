@@ -71,7 +71,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Hooves. Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning damage plus 5 (2d4) Radiant damage."
+      "rulesText": "Hooves. Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning damage plus 5 (2d4) Radiant damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.182",
+        "heading": "Actions",
+        "lineStart": 23753,
+        "lineEnd": 23755
+      }
     }
   ],
   "rulesText": "Large Celestial, Chaotic Good\n\nAC 12\nInitiative +2 (12)\nHP 59 (7d10 + 21)\nSpeed 60 ft., Fly 90 ft.\n\nSkills Perception +6\nSenses Passive Perception 16\nLanguages Understands Celestial, Common, Elvish, and Sylvan but can't speak\nCR 2 (XP 450; PB +2)\n\nActions\n\nHooves. Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning damage plus 5 (2d4) Radiant damage.",
@@ -79,15 +86,31 @@
     {
       "name": "Hooves",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 7,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "1d6+4",
+            "count": 1,
+            "sides": 6,
+            "modifier": 4
+          }
+        },
+        {
+          "averageDamage": 5,
+          "damageType": "Radiant",
+          "damageRoll": {
+            "expression": "2d4",
+            "count": 2,
+            "sides": 4
+          }
+        }
+      ],
+      "sourceText": "Hooves. Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning damage plus 5 (2d4) Radiant damage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 7,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "1d6+4",
-        "count": 1,
-        "sides": 6,
-        "modifier": 4
-      },
       "reachFeet": 5
     }
   ]

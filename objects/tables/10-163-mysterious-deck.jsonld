@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.163",
     "heading": "Mysterious Deck",
-    "lineStart": 16284,
-    "lineEnd": 16301
+    "lineStart": 16285,
+    "lineEnd": 16302
   },
   "columns": [
     "1d100(13-Card Deck)",
@@ -244,5 +244,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| 1d100(13-Card Deck) | 1d100(22-Card Deck) | Card    |\n| :------------------ | :------------------ | :------ |\n|          -          | 01–05               | Balance |\n|          -          | 06–10               | Comet   |\n|          -          | 11–14               | Donjon  |\n| 01–08               | 15–18               | Euryale |\n|          -          | 19–23               | Fates   |\n| 09–16               | 24–27               | Flames  |\n|          -          | 28–31               | Fool    |\n|          -          | 32–36               | Gem     |\n| 17–24               | 37–41               | Jester  |\n| 25–32               | 42–46               | Key     |\n| 33–40               | 47–51               | Knight  |\n| 41–48               | 52–56               | Moon    |\n|          -          | 57–60               | Puzzle  |\n| 49–56               | 61–64               | Rogue   |\n| 57–64               | 65–68               | Ruin    |\n|          -          | 69–73               | Sage    |"
 }

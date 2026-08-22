@@ -576,7 +576,9 @@
         var matched = {};
         Object.keys(idx.tokens).forEach(function (token) {
           if (token.indexOf(term) === 0) {
-            idx.tokens[token].forEach(function (doc) { matched[doc] = true; });
+            idx.tokens[token].forEach(function (posting) {
+              matched[posting.document] = posting.excerpt;
+            });
           }
         });
         hits = hits === null ? matched : intersect(hits, matched);
@@ -593,15 +595,16 @@
         var pathParts = doc.id.split("/"); // objects/<collection>/<slug>
         var a = link("#/" + pathParts[1] + "/" + pathParts[2]);
         a.appendChild(el("span", "nm", doc.name));
+        var matchedExcerpt = (hits || {})[docIndex] || doc.excerpt;
         a.appendChild(el("span", "sub", (LABELS[pathParts[1]] || doc.type) +
-          (doc.excerpt ? " · " + doc.excerpt : "")));
+          (matchedExcerpt ? " · " + matchedExcerpt : "")));
         items.appendChild(a);
       });
     });
   }
   function intersect(a, b) {
     var out = {};
-    Object.keys(a).forEach(function (k) { if (b[k]) out[k] = true; });
+    Object.keys(a).forEach(function (k) { if (b[k]) out[k] = a[k] || b[k]; });
     return out;
   }
 
@@ -623,7 +626,7 @@
 
     var meta = el("div", "landing-meta");
     [total.toLocaleString() + " records", NAV_ORDER.length + " collections", "JSON-LD 1.1",
-      "JSON Schema 2020-12", "v0.2.0"].forEach(function (label) {
+      "JSON Schema 2020-12", "v0.3.0"].forEach(function (label) {
       meta.appendChild(el("span", null, label));
     });
     box.appendChild(meta);
@@ -806,12 +809,12 @@
         recordLinks.appendChild(sourceLink);
       }
       if (record.canonicalUrl) {
-        var canonicalLink = link(record.canonicalUrl); canonicalLink.textContent = "Canonical source";
+        var canonicalLink = link(record.canonicalUrl["@id"]); canonicalLink.textContent = "Canonical source";
         canonicalLink.target = "_blank"; canonicalLink.rel = "noopener noreferrer";
         recordLinks.appendChild(canonicalLink);
       }
       if (record.licenseUrl) {
-        var licenseLink = link(record.licenseUrl); licenseLink.textContent = record.license || "License";
+        var licenseLink = link(record.licenseUrl["@id"]); licenseLink.textContent = record.license || "License";
         licenseLink.target = "_blank"; licenseLink.rel = "noopener noreferrer";
         recordLinks.appendChild(licenseLink);
       }
@@ -820,10 +823,10 @@
       renderFacts(box, record);
       if (record.coreTraits) {
         var grid = el("div", "facts");
-        Object.keys(record.coreTraits).forEach(function (key) {
+        record.coreTraits.forEach(function (trait) {
           var fact = el("div", "fact");
-          fact.appendChild(el("span", "k", key));
-          fact.appendChild(el("span", "v", record.coreTraits[key]));
+          fact.appendChild(el("span", "k", trait.name));
+          fact.appendChild(el("span", "v", trait.value));
           grid.appendChild(fact);
         });
         box.appendChild(grid);
@@ -883,7 +886,10 @@
     }
     if (record["@type"] === "Monster") return record.sizeTypeAlignment || "";
     if (record["@type"] === "MagicItem") {
-      var s = record.itemCategory + (record.categoryDetail ? " (" + record.categoryDetail + ")" : "") + ", " + record.rarity;
+      var rarityText = record.rarity || (record.rarities || []).map(function (entry) {
+        return entry.rarity + (entry.variant ? " (" + entry.variant + ")" : "");
+      }).join(", ");
+      var s = record.itemCategory + (record.categoryDetail ? " (" + record.categoryDetail + ")" : "") + ", " + rarityText;
       if (record.attunementNote) s += " (" + record.attunementNote + ")";
       return s;
     }
@@ -991,12 +997,14 @@
       var attackLine = [attack.attackType,
         attack.attackBonus !== undefined ? (attack.attackBonus >= 0 ? "+" : "") + attack.attackBonus + " to hit" : null,
         attack.reachFeet ? "reach " + attack.reachFeet + " ft." : null,
-        attack.rangeFeet ? "range " + attack.rangeFeet.normal + "/" + attack.rangeFeet.long + " ft." : null
+        attack.rangeFeet ? "range " + attack.rangeFeet.normal +
+          (attack.rangeFeet.long ? "/" + attack.rangeFeet.long : "") + " ft." : null
       ].filter(Boolean).join(" · ");
       card.appendChild(el("span", null, attackLine));
-      var roll = attack.damageRoll && attack.damageRoll.expression ? attack.damageRoll.expression : "—";
-      var damageLine = (attack.averageDamage !== undefined ? attack.averageDamage + " average · " : "") +
-        roll + (attack.damageType ? " " + attack.damageType : "");
+      var damageLine = (attack.damageComponents || []).map(function (component) {
+        var roll = component.damageRoll && component.damageRoll.expression ? component.damageRoll.expression : "flat";
+        return component.averageDamage + " average · " + roll + " " + component.damageType;
+      }).join(" + ");
       card.appendChild(el("span", null, damageLine));
       grid.appendChild(card);
     });

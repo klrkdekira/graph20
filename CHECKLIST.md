@@ -1,58 +1,38 @@
 # SRD 5.2.1 → JSON-LD Reference Corpus Checklist
 
-Replication of the `wwn-system-json` pipeline (see its `PLAYBOOK.md`) for the System Reference Document 5.2.1.
+## Source and rights
 
-## Phase 1: Source preparation & provenance
+- [x] `SRD_CC_v5.2.1.md` is the sole contributing content source; source and manifest rights metadata preserve the exact CC-BY-4.0 attribution and source digest.
+- [x] The source-normalization event is cross-checked against the official PDF text layer and registered with observed tokens, fixes, rationale, dispositions, counts, and pre/post digests.
+- [x] The obsolete external creature cache is removed; extraction never derives missing source values; a truncated ability fixture remains omitted through clean rebuild, bundle, and LLM output.
+- [x] Twelve registered anomaly detectors run in CI and reject stale or unreviewed hits.
 
-- [x] Source metadata record with CC-BY-4.0 license and the required attribution statement (`objects/sources/srd-5-2-1.jsonld`); digest asserted by tests.
-- [x] Source cleanup pass (`scripts/repair_source.py`, glossary-driven via `scripts/data/sanitization-glossary.json`): OCR dice (`Id6`→`1d6`), `+I` bonuses, `Level I/II` headings, CR line joins, and 91 damaged ability tables regenerated from open5e srd-2024 (CC-BY-4.0) with cell-level cross-validation. Idempotent; pre/post digests recorded in `extraction-overrides.json`.
+## Semantic architecture
 
-## Phase 2: Semantic architecture & schemas
+- [x] JSON-LD 1.1 context, stable canonical IRIs, and Draft 2020-12 schemas cover all 13 collections and aggregate/auxiliary artifacts.
+- [x] Every IRI-coerced predicate uses `{ "@id": "..." }` node references.
+- [x] Class core traits and manifest collections use graph-safe typed entries; expansion preserves all compact properties and values.
+- [x] Every project class/predicate in the expanded graph has a generated vocabulary definition, description, value kind/range, and dereferenceable fragment target.
 
-- [x] Base IRI `https://cheeleong.dev/graph20/`; JSON-LD 1.1 context (`systems/context.jsonld`).
-- [x] Draft 2020-12 schemas for all 13 collections: common, source, rule, table, class, subclass, species, background, feat, equipment, spell, condition, magic-item, monster, system; `unevaluatedProperties: false` on leaf entities; `if/then` guards on the equipment union.
+## Extraction and traceability
 
-## Phase 3: Extraction pipeline
+- [x] The clean corpus contains 2,092 records: 1 source, 738 rules, 223 logical tables, 12 classes, 12 subclasses, 9 species, 4 backgrounds, 17 feats, 133 equipment, 338 spells, 15 conditions, 258 magic items, and 332 monsters.
+- [x] Ordinary entity locators start at their heading; Table/equipment locators start at the physical table; nested feature/stat spans remain inside their owner.
+- [x] Tables retain `rawText`, continuation headers are not promoted to rows, Wand of Wonder is one 18-row table, and no table is empty.
+- [x] Every spell has casting time, range, components, and duration; all magic-item rarity variants and full-header attunement are retained.
+- [x] All 424 monster `Attack Roll:` paragraphs have a disposition: 423 complete typed damaging attacks and one explicit non-damaging Roper Tentacle reason.
+- [x] Structured equipment names decode reviewed HTML markup and produce stable semantic slugs.
 
-- [x] Chapter/heading block parser with line provenance (`scripts/extract_srd.py`).
-- [x] Specialized emitters: spells (338), feats (17), magic items (258), monsters (332), classes (12), subclasses (12), species (9), backgrounds (4), conditions (15), equipment (133 typed from the Weapons/Armor/Adventuring Gear tables).
-- [x] Generic emitters: rules (738) and HTML-table conversion to Table records (243) for full coverage of everything else.
+## Ingestion and semantic review
 
-## Phase 4: Anomaly tracking
+- [x] One shared recursive textual projection drives LLM, search, and review artifacts, including nested features/traits/stat sections, table cells, core traits, and structured-only equipment.
+- [x] Search postings retain matched nested excerpts; corpus-wide tests cover nested prose and Rage/Mindless Rage/Longsword fixtures.
+- [x] The occurrence ledger records path, source line/column, context, status, and evidence note. Curated policies and a reviewed signal-set digest live outside generated output, survive clean builds, and make added/removed/moved signals pending.
+- [x] The ledger includes typed/source, table-shape, anomaly, provenance, and graph checks and has zero pending signals.
 
-- [x] `objects/sources/extraction-overrides.json` with observed/proposed/status/rationale entries; repairs applied to source carry `status: applied-to-source` with pre/post digests.
-- [x] Review-signal ledger (`build_review_ledger.py`, `manage_review_ledger.py`): dice formulas, player choices, slot scaling — triage states survive rebuilds.
+## Verification and publication
 
-## Phase 5: Coverage & traceability
-
-- [x] Paragraph-level coverage (`build_coverage.py`): every non-blank content line maps to ≥1 record; 0 uncovered lines; legal preamble exclusion documented.
-
-## Phase 5b: Graph enrichment & typed stats
-
-- [x] Spells → class node references; typed save ability, damage rolls, concentration/ritual/slot-scaling flags.
-- [x] Monsters → condition-immunity node references; typed six-ability blocks, HP rolls, CR/XP/PB, parsed attack routines (bonus, reach/range, damage dice + type).
-- [x] Equipment → typed damage/properties/mastery/AC/costs; classes ↔ subclasses ↔ spell-list links.
-- [x] All typed fields are siblings of verbatim source strings, produced only by the extraction scripts.
-
-## Phase 6: Aggregates
-
-- [x] Manifest with collection indexes + corpus digest; single-file bundle.
-
-## Phase 7: Verification & CI
-
-- [x] `validate.py`, `validate_schema.py`, `check_determinism.py` (includes coverage + review ledger), `tests/test_structural.py` (16 tests), unified `make check`, GitHub Actions CI.
-
-## Phase 8: LLM-native & FAIR metadata
-
-- [x] `llms.txt`, generated `llms-full.txt`, `objects/search-index.json`, `objects/collection-index.json`.
-- [x] `datapackage.json`, `CITATION.cff`, Schema.org Dataset snippet, `robots.txt`, generated `sitemap.xml` (all record URLs), `.nojekyll`, generated `vocab/index.html` (dereferenceable predicate IRIs).
-
-## Phase 9: Living documentation
-
-- [x] `SPECIFICATION.md`, `AGENTS.md`, this checklist, static explorer `index.html`.
-
-## Open (requires human judgment, not tooling)
-
-- [ ] Resolve every applicable finding in `AUDIT.md`, starting with the critical source-boundary/invented-value finding.
-- [ ] Expand the review ledger to nested feature and table content and to typed/source, table-shape, provenance, and graph-fidelity checks.
-- [ ] Semantic review: disposition the pending signals in `objects/sources/source-review-ledger.json` (`make review-stats`).
+- [x] Interval coverage, anomaly disposition, source fidelity, graph expansion, semantic review, structural validation, schema validation, and determinism are separate gates with documented meanings.
+- [x] Schemas validate records, manifest, bundle, search index, collection index, coverage report, and review ledger; structural checks also cover sitemap and vocabulary targets.
+- [x] Determinism covers two clean builds and checked-in `objects/`, `llms-full.txt`, `vocab/`, and `sitemap.xml`, including curated review-policy inputs.
+- [x] `README.md`, `SPECIFICATION.md`, manifest version, inventory counts, generated command summaries, and this checklist agree with the clean v0.3.0 build.

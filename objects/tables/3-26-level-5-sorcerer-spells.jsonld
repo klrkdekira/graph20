@@ -188,5 +188,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                | School        | Special |\n| :------------------- | :------------ | :------ |\n| Animate Objects      | Transmutation | C       |\n| Arcane Hand          | Evocation     | C       |\n| Cloudkill            | Conjuration   | C       |\n| Cone of Cold         | Evocation     |    -    |\n| Creation             | Illusion      |    -    |\n| Dominate Person      | Enchantment   | C       |\n| Hold Monster         | Enchantment   | C       |\n| Insect Plague        | Conjuration   | C       |\n| Seeming              | Illusion      |    -    |\n| Telekinesis          | Transmutation | C       |\n| Teleportation Circle | Conjuration   | M       |\n| Wall of Stone        | Evocation     | C       |"
 }

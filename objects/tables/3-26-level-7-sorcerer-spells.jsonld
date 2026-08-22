@@ -132,5 +132,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                  | School        | Special |\n| :--------------------- | :------------ | :------ |\n| Delayed Blast Fireball | Evocation     | C       |\n| Etherealness           | Conjuration   |    -    |\n| Finger of Death        | Necromancy    |    -    |\n| Fire Storm             | Evocation     |    -    |\n| Plane Shift            | Conjuration   | M       |\n| Prismatic Spray        | Evocation     |    -    |\n| Reverse Gravity        | Transmutation | C       |\n| Teleport               | Conjuration   |    -    |"
 }

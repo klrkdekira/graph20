@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Pack Tactics. The hound has Advantage on an attack roll against a creature if at least one of the hound's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+      "rulesText": "Pack Tactics. The hound has Advantage on an attack roll against a creature if at least one of the hound's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.131",
+        "heading": "Traits",
+        "lineStart": 22103,
+        "lineEnd": 22105
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The hound makes two Bite attacks.\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 3 (1d6) Fire damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 12, each creature in a 15-foot Cone. Failure: 17 (5d6) Fire damage. Success: Half damage."
+      "rulesText": "Multiattack. The hound makes two Bite attacks.\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 3 (1d6) Fire damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 12, each creature in a 15-foot Cone. Failure: 17 (5d6) Fire damage. Success: Half damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.131",
+        "heading": "Actions",
+        "lineStart": 22107,
+        "lineEnd": 22113
+      }
     }
   ],
   "rulesText": "Medium Fiend, Lawful Evil\n\nAC 15\nInitiative +1 (11)\nHP 58 (9d8 + 18)\nSpeed 50 ft.\n\nSkills Perception +5\nImmunities Fire\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages Understands Infernal but can't speak\nCR 3 (XP 700; PB +2)\n\nTraits\n\nPack Tactics. The hound has Advantage on an attack roll against a creature if at least one of the hound's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nMultiattack. The hound makes two Bite attacks.\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 3 (1d6) Fire damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 12, each creature in a 15-foot Cone. Failure: 17 (5d6) Fire damage. Success: Half damage.",
@@ -84,15 +98,31 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 7,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d8+3",
+            "count": 1,
+            "sides": 8,
+            "modifier": 3
+          }
+        },
+        {
+          "averageDamage": 3,
+          "damageType": "Fire",
+          "damageRoll": {
+            "expression": "1d6",
+            "count": 1,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 3 (1d6) Fire damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 7,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d8+3",
-        "count": 1,
-        "sides": 8,
-        "modifier": 3
-      },
       "reachFeet": 5
     }
   ]

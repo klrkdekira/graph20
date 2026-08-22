@@ -63,5 +63,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Skill      | Thing to Detect                      |\n| :--------- | :----------------------------------- |\n| Insight    | Creature’s state of mind             |\n| Medicine   | Creature’s ailment or cause of death |\n| Perception | Concealed creature or object         |\n| Survival   | Tracks or food                       |"
 }

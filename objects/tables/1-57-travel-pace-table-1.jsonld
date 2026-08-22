@@ -72,5 +72,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Pace   | Minute   | Hour    | Day      |\n| :----- | :------- | :------ | :------- |\n| Fast   | 400 feet | 4 miles | 30 miles |\n| Normal | 300 feet | 3 miles | 24 miles |\n| Slow   | 200 feet | 2 miles | 18 miles |"
 }

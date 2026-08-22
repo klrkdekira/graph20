@@ -90,5 +90,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Focus                       | Weight | Cost  |\n| :-------------------------- | :----- | :---- |\n| Crystal                     | 1 lb.  | 10 GP |\n| Orb                         | 3 lb.  | 20 GP |\n| Rod                         | 2 lb.  | 10 GP |\n| Staff (also a Quarterstaff) | 4 lb.  | 5 GP  |\n| Wand                        | 1 lb.  | 10 GP |"
 }

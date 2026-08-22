@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.253",
     "heading": "Staff of Power",
-    "lineStart": 17335,
-    "lineEnd": 17345
+    "lineStart": 17336,
+    "lineEnd": 17346
   },
   "columns": [
     "Spell",
@@ -118,5 +118,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                            | Charge Cost |\n| :------------------------------- | :---------- |\n| Cone of Cold                     | 5           |\n| Fireball (level 5 version)       | 5           |\n| Globe of Invulnerability         | 6           |\n| Hold Monster                     | 5           |\n| Levitate                         | 2           |\n| Lightning Bolt (level 5 version) | 5           |\n| Magic Missile                    | 1           |\n| Ray of Enfeeblement              | 1           |\n| Wall of Force                    | 5           |"
 }

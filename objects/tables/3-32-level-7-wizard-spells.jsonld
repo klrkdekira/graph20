@@ -230,5 +230,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                  | School        | Special |\n| :--------------------- | :------------ | :------ |\n| Arcane Sword           | Evocation     | C, M    |\n| Delayed Blast Fireball | Evocation     | C       |\n| Etherealness           | Conjuration   |    -    |\n| Finger of Death        | Necromancy    |    -    |\n| Forcecage              | Evocation     | C, M    |\n| Magnificent Mansion    | Conjuration   | M       |\n| Mirage Arcane          | Illusion      |    -    |\n| Plane Shift            | Conjuration   | M       |\n| Prismatic Spray        | Evocation     |    -    |\n| Project Image          | Illusion      | C, M    |\n| Reverse Gravity        | Transmutation | C       |\n| Sequester              | Transmutation | M       |\n| Simulacrum             | Illusion      | M       |\n| Symbol                 | Abjuration    | M       |\n| Teleport               | Conjuration   |    -    |"
 }

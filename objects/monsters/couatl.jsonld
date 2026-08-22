@@ -72,15 +72,36 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Shielded Mind. The couatl's thoughts can't be read by any means, and other creatures can communicate with it telepathically only if it allows them."
+      "rulesText": "Shielded Mind. The couatl's thoughts can't be read by any means, and other creatures can communicate with it telepathically only if it allows them.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.67",
+        "heading": "Traits",
+        "lineStart": 20081,
+        "lineEnd": 20083
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +7, reach 5 ft. Hit: 11 (1d12 + 5) Piercing damage, and the target has the Poisoned condition until the end of the couatl's next turn.\n\nConstrict. Strength Saving Throw: DC 15, one Medium or smaller creature the couatl can see within 5 feet.\nFailure: 8 (1d6 + 5) Bludgeoning damage. The target has the Grappled condition (escape DC 13), and it has the Restrained condition until the grapple ends.\n\nSpellcasting. The couatl casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save DC 15):\n\nAt Will: Detect Evil and Good, Detect Magic, Detect Thoughts, Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell,\n\nand no Concentration or Temporary Hit Points required to maintain the spell)\n\n1/Day Each: Create Food and Water, Dream, Greater Restoration, Scrying, Sleep"
+      "rulesText": "Bite. Melee Attack Roll: +7, reach 5 ft. Hit: 11 (1d12 + 5) Piercing damage, and the target has the Poisoned condition until the end of the couatl's next turn.\n\nConstrict. Strength Saving Throw: DC 15, one Medium or smaller creature the couatl can see within 5 feet.\nFailure: 8 (1d6 + 5) Bludgeoning damage. The target has the Grappled condition (escape DC 13), and it has the Restrained condition until the grapple ends.\n\nSpellcasting. The couatl casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save DC 15):\n\nAt Will: Detect Evil and Good, Detect Magic, Detect Thoughts, Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell,\n\nand no Concentration or Temporary Hit Points required to maintain the spell)\n\n1/Day Each: Create Food and Water, Dream, Greater Restoration, Scrying, Sleep",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.67",
+        "heading": "Actions",
+        "lineStart": 20085,
+        "lineEnd": 20098
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Divine Aid (2/Day). The couatl casts Bless, Lesser Restoration, or Sanctuary, requiring no spell components and using the same spellcasting ability as Spellcasting."
+      "rulesText": "Divine Aid (2/Day). The couatl casts Bless, Lesser Restoration, or Sanctuary, requiring no spell components and using the same spellcasting ability as Spellcasting.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.67",
+        "heading": "Bonus Actions",
+        "lineStart": 20100,
+        "lineEnd": 20102
+      }
     }
   ],
   "rulesText": "Medium Celestial, Lawful Good\n\nAC 19\nInitiative +5 (15)\nHP 60 (8d8 + 24)\nSpeed 30 ft., Fly 90 ft.\n\nResistances Bludgeoning, Piercing, Slashing\nImmunities Psychic, Radiant\nSenses Truesight 120 ft.; Passive Perception 15\nLanguages All; telepathy 120 ft.\nCR 4 (XP 1,100; PB +2)\n\nTraits\n\nShielded Mind. The couatl's thoughts can't be read by any means, and other creatures can communicate with it telepathically only if it allows them.\n\nActions\n\nBite. Melee Attack Roll: +7, reach 5 ft. Hit: 11 (1d12 + 5) Piercing damage, and the target has the Poisoned condition until the end of the couatl's next turn.\n\nConstrict. Strength Saving Throw: DC 15, one Medium or smaller creature the couatl can see within 5 feet.\nFailure: 8 (1d6 + 5) Bludgeoning damage. The target has the Grappled condition (escape DC 13), and it has the Restrained condition until the grapple ends.\n\nSpellcasting. The couatl casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save DC 15):\n\nAt Will: Detect Evil and Good, Detect Magic, Detect Thoughts, Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell,\n\nand no Concentration or Temporary Hit Points required to maintain the spell)\n\n1/Day Each: Create Food and Water, Dream, Greater Restoration, Scrying, Sleep\n\nBonus Actions\n\nDivine Aid (2/Day). The couatl casts Bless, Lesser Restoration, or Sanctuary, requiring no spell components and using the same spellcasting ability as Spellcasting.",
@@ -88,15 +109,22 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 11,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d12+5",
+            "count": 1,
+            "sides": 12,
+            "modifier": 5
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +7, reach 5 ft. Hit: 11 (1d12 + 5) Piercing damage, and the target has the Poisoned condition until the end of the couatl's next turn.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 7,
-      "averageDamage": 11,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d12+5",
-        "count": 1,
-        "sides": 12,
-        "modifier": 5
-      },
       "reachFeet": 5
     }
   ]

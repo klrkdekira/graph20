@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Abduct. The bugbear needn't spend extra movement to move a creature it is grappling."
+      "rulesText": "Abduct. The bugbear needn't spend extra movement to move a creature it is grappling.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.50",
+        "heading": "Traits",
+        "lineStart": 19529,
+        "lineEnd": 19531
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Grab. Melee Attack Roll: +4, reach 10 ft. Hit: 9 (2d6 + 2) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12).\n\nLight Hammer. Melee or Ranged Attack Roll: +4 (with Advantage if the target is Grappled by the bugbear), reach 10 ft. or range 20/60 ft. Hit: 9 (3d4 + 2) Bludgeoning damage."
+      "rulesText": "Grab. Melee Attack Roll: +4, reach 10 ft. Hit: 9 (2d6 + 2) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12).\n\nLight Hammer. Melee or Ranged Attack Roll: +4 (with Advantage if the target is Grappled by the bugbear), reach 10 ft. or range 20/60 ft. Hit: 9 (3d4 + 2) Bludgeoning damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.50",
+        "heading": "Actions",
+        "lineStart": 19533,
+        "lineEnd": 19537
+      }
     }
   ],
   "rulesText": "Medium Fey (Goblinoid), Chaotic Evil\n\nAC 14\nInitiative +2 (12)\nHP 33 (6d8 + 6)\nSpeed 30 ft.\n\nSkills Stealth +6, Survival +2\nGear Hide Armor, Light Hammers (3)\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Common, Goblin\nCR 1 (XP 200; PB +2)\n\nTraits\n\nAbduct. The bugbear needn't spend extra movement to move a creature it is grappling.\n\nActions\n\nGrab. Melee Attack Roll: +4, reach 10 ft. Hit: 9 (2d6 + 2) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12).\n\nLight Hammer. Melee or Ranged Attack Roll: +4 (with Advantage if the target is Grappled by the bugbear), reach 10 ft. or range 20/60 ft. Hit: 9 (3d4 + 2) Bludgeoning damage.",
@@ -84,16 +98,48 @@
     {
       "name": "Grab",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 9,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "2d6+2",
+            "count": 2,
+            "sides": 6,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Grab. Melee Attack Roll: +4, reach 10 ft. Hit: 9 (2d6 + 2) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12).",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 9,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "2d6+2",
-        "count": 2,
-        "sides": 6,
-        "modifier": 2
-      },
       "reachFeet": 10
+    },
+    {
+      "name": "Light Hammer",
+      "attackType": "Melee or Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 9,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "3d4+2",
+            "count": 3,
+            "sides": 4,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Light Hammer. Melee or Ranged Attack Roll: +4 (with Advantage if the target is Grappled by the bugbear), reach 10 ft. or range 20/60 ft. Hit: 9 (3d4 + 2) Bludgeoning damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
+      "attackBonus": 4,
+      "reachFeet": 10,
+      "rangeFeet": {
+        "normal": 20,
+        "long": 60
+      }
     }
   ]
 }

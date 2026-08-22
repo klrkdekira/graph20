@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.188",
     "heading": "Potion of Giant Strength",
-    "lineStart": 16599,
-    "lineEnd": 16605
+    "lineStart": 16600,
+    "lineEnd": 16606
   },
   "columns": [
     "Potion",
@@ -90,5 +90,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Potion                                    | Str. | Rarity    |\n| :---------------------------------------- | :--- | :-------- |\n| Potion of Giant Strength (hill)           | 21   | Uncommon  |\n| Potion of Giant Strength (frost or stone) | 23   | Rare      |\n| Potion of Giant Strength (fire)           | 25   | Rare      |\n| Potion of Giant Strength (cloud)          | 27   | Very Rare |\n| Potion of Giant Strength (storm)          | 29   | Legendary |"
 }

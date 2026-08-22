@@ -16,7 +16,20 @@
   },
   "itemCategory": "Weapon",
   "categoryDetail": "Any Simple or Martial",
-  "rarity": "Uncommon",
+  "rarities": [
+    {
+      "rarity": "Uncommon",
+      "variant": "+1"
+    },
+    {
+      "rarity": "Rare",
+      "variant": "+2"
+    },
+    {
+      "rarity": "Very Rare",
+      "variant": "+3"
+    }
+  ],
   "requiresAttunement": false,
   "rulesText": "Weapon (Any Simple or Martial), Uncommon (+1), Rare (+2), or Very Rare (+3)\n\nYou have a bonus to attack rolls and damage rolls made with this magic weapon. The bonus is determined by the weapon's rarity."
 }

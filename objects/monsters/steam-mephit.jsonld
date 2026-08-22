@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Blurred Form. Attack rolls against the mephit are made with Disadvantage unless the mephit has the Incapacitated condition.\n\nDeath Burst. The mephit explodes when it dies. Dexterity Saving Throw: DC 10, each creature in a 5-foot Emanation originating from the mephit. Failure: 5 (2d4) Fire damage. Success: Half damage."
+      "rulesText": "Blurred Form. Attack rolls against the mephit are made with Disadvantage unless the mephit has the Incapacitated condition.\n\nDeath Burst. The mephit explodes when it dies. Dexterity Saving Throw: DC 10, each creature in a 5-foot Emanation originating from the mephit. Failure: 5 (2d4) Fire damage. Success: Half damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.164",
+        "heading": "Traits",
+        "lineStart": 23175,
+        "lineEnd": 23179
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Claw. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Slashing damage plus 2 (1d4) Fire damage.\n\nSteam Breath (Recharge 6). Constitution Saving Throw: DC 10, each creature in a 15-foot Cone. Failure: 5 (2d4) Fire damage, and the target's Speed decreases by 10 feet until the end of the mephit's next turn. Success: Half damage only. Failure or Success: Being underwater doesn't grant Resistance to this Fire damage."
+      "rulesText": "Claw. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Slashing damage plus 2 (1d4) Fire damage.\n\nSteam Breath (Recharge 6). Constitution Saving Throw: DC 10, each creature in a 15-foot Cone. Failure: 5 (2d4) Fire damage, and the target's Speed decreases by 10 feet until the end of the mephit's next turn. Success: Half damage only. Failure or Success: Being underwater doesn't grant Resistance to this Fire damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.164",
+        "heading": "Actions",
+        "lineStart": 23181,
+        "lineEnd": 23185
+      }
     }
   ],
   "rulesText": "Small Elemental, Neutral Evil\n\nAC 10\nInitiative +0 (10)\nHP 17 (5d6)\nSpeed 30 ft., Fly 30 ft.\n\nSkills Stealth +2\nImmunities Fire, Poison; Exhaustion, Poisoned\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Primordial (Aquan, Ignan)\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nBlurred Form. Attack rolls against the mephit are made with Disadvantage unless the mephit has the Incapacitated condition.\n\nDeath Burst. The mephit explodes when it dies. Dexterity Saving Throw: DC 10, each creature in a 5-foot Emanation originating from the mephit. Failure: 5 (2d4) Fire damage. Success: Half damage.\n\nActions\n\nClaw. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Slashing damage plus 2 (1d4) Fire damage.\n\nSteam Breath (Recharge 6). Constitution Saving Throw: DC 10, each creature in a 15-foot Cone. Failure: 5 (2d4) Fire damage, and the target's Speed decreases by 10 feet until the end of the mephit's next turn. Success: Half damage only. Failure or Success: Being underwater doesn't grant Resistance to this Fire damage.",
@@ -91,14 +105,30 @@
     {
       "name": "Claw",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 2,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d4",
+            "count": 1,
+            "sides": 4
+          }
+        },
+        {
+          "averageDamage": 2,
+          "damageType": "Fire",
+          "damageRoll": {
+            "expression": "1d4",
+            "count": 1,
+            "sides": 4
+          }
+        }
+      ],
+      "sourceText": "Claw. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Slashing damage plus 2 (1d4) Fire damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 2,
-      "averageDamage": 2,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d4",
-        "count": 1,
-        "sides": 4
-      },
       "reachFeet": 5
     }
   ]

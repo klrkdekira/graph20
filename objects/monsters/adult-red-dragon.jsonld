@@ -72,15 +72,36 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Legendary Resistance (3/Day, or 4/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead."
+      "rulesText": "Legendary Resistance (3/Day, or 4/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.199",
+        "heading": "Traits",
+        "lineStart": 24261,
+        "lineEnd": 24263
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast Scorching Ray.\n\nRend. Melee Attack Roll: +14, reach 10 ft. Hit: 13 (1d10 + 8) Slashing damage plus 5 (2d4) Fire damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 21, each creature in a 60-foot Cone. Failure: 59 (17d6) Fire damage. Success: Half damage.\n\nSpellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 20, +12 to hit with spell attacks):\n\nAt Will: Command (level 2 version), Detect Magic, Scorching Ray\n\n1/Day: Fireball"
+      "rulesText": "Multiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast Scorching Ray.\n\nRend. Melee Attack Roll: +14, reach 10 ft. Hit: 13 (1d10 + 8) Slashing damage plus 5 (2d4) Fire damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 21, each creature in a 60-foot Cone. Failure: 59 (17d6) Fire damage. Success: Half damage.\n\nSpellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 20, +12 to hit with spell attacks):\n\nAt Will: Command (level 2 version), Detect Magic, Scorching Ray\n\n1/Day: Fireball",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.199",
+        "heading": "Actions",
+        "lineStart": 24265,
+        "lineEnd": 24277
+      }
     },
     {
       "name": "Legendary Actions",
-      "rulesText": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nCommanding Presence. The dragon uses Spellcasting to cast Command (level 2 version). The dragon can't take this action again until the start of its next turn.\n\nFiery Rays. The dragon uses Spellcasting to cast Scorching Ray. The dragon can't take this action again until the start of its next turn.\n\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack."
+      "rulesText": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nCommanding Presence. The dragon uses Spellcasting to cast Command (level 2 version). The dragon can't take this action again until the start of its next turn.\n\nFiery Rays. The dragon uses Spellcasting to cast Scorching Ray. The dragon can't take this action again until the start of its next turn.\n\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.199",
+        "heading": "Legendary Actions",
+        "lineStart": 24279,
+        "lineEnd": 24287
+      }
     }
   ],
   "rulesText": "Huge Dragon (Chromatic), Chaotic Evil\n\nAC 19\nInitiative +12 (22)\nHP 256 (19d12 + 133)\nSpeed 40 ft., Climb 40 ft., Fly 80 ft.\n\nSkills Perception +13, Stealth +6\nImmunities Fire\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 23\nLanguages Common, Draconic\nCR 17 (XP 18,000, or 20,000 in lair; PB +6)\n\nTraits\n\nLegendary Resistance (3/Day, or 4/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast Scorching Ray.\n\nRend. Melee Attack Roll: +14, reach 10 ft. Hit: 13 (1d10 + 8) Slashing damage plus 5 (2d4) Fire damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 21, each creature in a 60-foot Cone. Failure: 59 (17d6) Fire damage. Success: Half damage.\n\nSpellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 20, +12 to hit with spell attacks):\n\nAt Will: Command (level 2 version), Detect Magic, Scorching Ray\n\n1/Day: Fireball\n\nLegendary Actions\n\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nCommanding Presence. The dragon uses Spellcasting to cast Command (level 2 version). The dragon can't take this action again until the start of its next turn.\n\nFiery Rays. The dragon uses Spellcasting to cast Scorching Ray. The dragon can't take this action again until the start of its next turn.\n\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.",
@@ -88,15 +109,31 @@
     {
       "name": "Rend",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 13,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d10+8",
+            "count": 1,
+            "sides": 10,
+            "modifier": 8
+          }
+        },
+        {
+          "averageDamage": 5,
+          "damageType": "Fire",
+          "damageRoll": {
+            "expression": "2d4",
+            "count": 2,
+            "sides": 4
+          }
+        }
+      ],
+      "sourceText": "Rend. Melee Attack Roll: +14, reach 10 ft. Hit: 13 (1d10 + 8) Slashing damage plus 5 (2d4) Fire damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 14,
-      "averageDamage": 13,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d10+8",
-        "count": 1,
-        "sides": 10,
-        "modifier": 8
-      },
       "reachFeet": 10
     }
   ]

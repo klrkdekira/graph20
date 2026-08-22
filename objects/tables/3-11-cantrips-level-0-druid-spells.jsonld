@@ -174,5 +174,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell           | School        | Special |\n| :-------------- | :------------ | :------ |\n| Druidcraft      | Transmutation |    -    |\n| Elementalism    | Transmutation |    -    |\n| Guidance        | Divination    | C       |\n| Mending         | Transmutation |    -    |\n| Message         | Transmutation |    -    |\n| Poison Spray    | Necromancy    |    -    |\n| Produce Flame   | Conjuration   |    -    |\n| Resistance      | Abjuration    | C       |\n| Shillelagh      | Transmutation |    -    |\n| Spare the Dying | Necromancy    |    -    |\n| Starry Wisp     | Evocation     |    -    |"
 }

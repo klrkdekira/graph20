@@ -342,5 +342,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                | School        | Special |\n| :------------------- | :------------ | :------ |\n| Animal Friendship    | Enchantment   |    -    |\n| Bane                 | Enchantment   | C       |\n| Charm Person         | Enchantment   |    -    |\n| Color Spray          | Illusion      |    -    |\n| Command              | Enchantment   |    -    |\n| Comprehend Languages | Divination    | R       |\n| Cure Wounds          | Abjuration    |    -    |\n| Detect Magic         | Divination    | C, R    |\n| Disguise Self        | Illusion      |    -    |\n| Dissonant Whispers   | Enchantment   |    -    |\n| Faerie Fire          | Evocation     | C       |\n| Feather Fall         | Transmutation |    -    |\n| Healing Word         | Abjuration    |    -    |\n| Heroism              | Enchantment   | C       |\n| Hideous Laughter     | Enchantment   | C       |\n| Identify             | Divination    | R, M    |\n| Illusory Script      | Illusion      | R, M    |\n| Longstrider          | Transmutation |    -    |\n| Silent Image         | Illusion      | C       |\n| Sleep                | Enchantment   | C       |\n| Speak with Animals   | Divination    | R       |\n| Thunderwave          | Evocation     |    -    |\n| Unseen Servant       | Conjuration   | R       |"
 }

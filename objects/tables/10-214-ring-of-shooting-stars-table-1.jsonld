@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.214",
     "heading": "Ring of Shooting Stars",
-    "lineStart": 16878,
-    "lineEnd": 16881
+    "lineStart": 16879,
+    "lineEnd": 16882
   },
   "columns": [
     "Number of Spheres",
@@ -55,5 +55,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Number of Spheres | Lightning Damage | Number of Spheres | Lightning Damage |\n| :---------------- | :--------------- | :---------------- | :--------------- |\n| 1                 | 4d12             | 3                 | 2d6              |\n| 2                 | 5d4              | 4                 | 2d4              |"
 }

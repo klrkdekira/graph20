@@ -250,5 +250,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Ship         | Speed    | Crew | Passengers | Cargo (Tons) | AC  | HP  | Damage Threshold | Cost      |\n| :----------- | :------- | :--- | :--------- | :----------- | :--- | :--- | :--------------- | :-------- |\n| Airship      | 8 mph    | 10   | 20         | 1            | 13  | 300 |        -         | 40,000 GP |\n| Galley       | 4 mph    | 80   |     -      | 150          | 15  | 500 | 20               | 30,000 GP |\n| Keelboat     | 1 mph    | 1    | 6          | 1/2          | 15  | 100 | 10               | 3,000 GP  |\n| Longship     | 3 mph    | 40   | 150        | 10           | 15  | 300 | 15               | 10,000 GP |\n| Rowboat      | 1 1/2 mph | 1    | 3          |      -       | 11  | 50  |        -         | 50 GP     |\n| Sailing Ship | 2 mph    | 20   | 20         | 100          | 15  | 300 | 15               | 10,000 GP |\n| Warship      | 2 1/2 mph | 60   | 60         | 200          | 15  | 500 | 20               | 25,000 GP |"
 }

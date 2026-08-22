@@ -90,5 +90,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell             | School      | Special |\n| :---------------- | :---------- | :------ |\n| Astral Projection | Necromancy  | M       |\n| Gate              | Conjuration | C, M    |\n| Mass Heal         | Abjuration  |    -    |\n| Power Word Heal   | Enchantment |    -    |\n| True Resurrection | Necromancy  | M       |"
 }

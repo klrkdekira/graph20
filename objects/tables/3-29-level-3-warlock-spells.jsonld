@@ -76,5 +76,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell        | School        | Special |\n| :----------- | :------------ | :------ |\n| Counterspell | Abjuration    |    -    |\n| Dispel Magic | Abjuration    |    -    |\n| Fear         | Illusion      | C       |\n| Fly          | Transmutation | C       |"
 }

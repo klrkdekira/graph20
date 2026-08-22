@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.213",
     "heading": "Ring of Resistance",
-    "lineStart": 16847,
-    "lineEnd": 16858
+    "lineStart": 16848,
+    "lineEnd": 16859
   },
   "columns": [
     "1d10",
@@ -160,5 +160,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| 1d10 | Damage Type | Gemstone   |\n| :--- | :---------- | :--------- |\n| 1    | Acid        | Pearl      |\n| 2    | Cold        | Tourmaline |\n| 3    | Fire        | Garnet     |\n| 4    | Force       | Sapphire   |\n| 5    | Lightning   | Citrine    |\n| 6    | Necrotic    | Jet        |\n| 7    | Poison      | Amethyst   |\n| 8    | Psychic     | Jade       |\n| 9    | Radiant     | Topaz      |\n| 10   | Thunder     | Spinel     |"
 }

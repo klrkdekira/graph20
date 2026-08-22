@@ -71,15 +71,36 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Running Leap. With a 10-foot running start, the tiger can Long Jump up to 25 feet."
+      "rulesText": "Running Leap. With a 10-foot running start, the tiger can Long Jump up to 25 feet.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.79",
+        "heading": "Traits",
+        "lineStart": 28805,
+        "lineEnd": 28807
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The tiger makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 11 (2d6 + 4) Slashing damage."
+      "rulesText": "Multiattack. The tiger makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 11 (2d6 + 4) Slashing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.79",
+        "heading": "Actions",
+        "lineStart": 28809,
+        "lineEnd": 28813
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Nimble Escape. The tiger takes the Disengage or Hide action."
+      "rulesText": "Nimble Escape. The tiger takes the Disengage or Hide action.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.79",
+        "heading": "Bonus Actions",
+        "lineStart": 28815,
+        "lineEnd": 28817
+      }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 52 (7d10 + 14)\nSpeed 40 ft.\n\nSkills Perception +5, Stealth +7\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages None\nCR 2 (XP 450; PB +2)\n\nTraits\n\nRunning Leap. With a 10-foot running start, the tiger can Long Jump up to 25 feet.\n\nActions\n\nMultiattack. The tiger makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 11 (2d6 + 4) Slashing damage.\n\nBonus Actions\n\nNimble Escape. The tiger takes the Disengage or Hide action.",
@@ -87,15 +108,22 @@
     {
       "name": "Rend",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 11,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "2d6+4",
+            "count": 2,
+            "sides": 6,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Rend. Melee Attack Roll: +6, reach 5 ft. Hit: 11 (2d6 + 4) Slashing damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 11,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "2d6+4",
-        "count": 2,
-        "sides": 6,
-        "modifier": 4
-      },
       "reachFeet": 5
     }
   ]

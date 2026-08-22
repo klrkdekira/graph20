@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Amphibious. The dragon can breathe air and water."
+      "rulesText": "Amphibious. The dragon can breathe air and water.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.78",
+        "heading": "Traits",
+        "lineStart": 20412,
+        "lineEnd": 20414
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The dragon makes three Bite attacks. It can replace one attack with a Tail attack.\n\nBite. Melee Attack Roll: +13, reach 15 ft. Hit: 23 (3d10 + 7) Piercing damage plus 7 (2d6) Fire damage. Being underwater doesn't grant Resistance to this Fire damage.\n\nTail. Melee Attack Roll: +13, reach 15 ft. Hit: 18 (2d10 + 7) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.\n\nSteam Breath (Recharge 5–6). Constitution Saving Throw: DC 19, each creature in a 60-foot Cone. Failure: 56 (16d6) Fire damage. Success: Half damage. Failure or Success: Being underwater doesn't grant Resistance to this Fire damage."
+      "rulesText": "Multiattack. The dragon makes three Bite attacks. It can replace one attack with a Tail attack.\n\nBite. Melee Attack Roll: +13, reach 15 ft. Hit: 23 (3d10 + 7) Piercing damage plus 7 (2d6) Fire damage. Being underwater doesn't grant Resistance to this Fire damage.\n\nTail. Melee Attack Roll: +13, reach 15 ft. Hit: 18 (2d10 + 7) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.\n\nSteam Breath (Recharge 5–6). Constitution Saving Throw: DC 19, each creature in a 60-foot Cone. Failure: 56 (16d6) Fire damage. Success: Half damage. Failure or Success: Being underwater doesn't grant Resistance to this Fire damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.78",
+        "heading": "Actions",
+        "lineStart": 20416,
+        "lineEnd": 20424
+      }
     }
   ],
   "rulesText": "Gargantuan Dragon, Neutral\n\nAC 20\nInitiative +6 (16)\nHP 356 (23d20 + 115)\nSpeed 20 ft., Swim 50 ft.\n\nResistances Fire\nSenses Darkvision 120 ft.; Passive Perception 11\nLanguages Draconic, Primordial (Aquan)\nCR 17 (XP 18,000; PB +6)\n\nTraits\n\nAmphibious. The dragon can breathe air and water.\n\nActions\n\nMultiattack. The dragon makes three Bite attacks. It can replace one attack with a Tail attack.\n\nBite. Melee Attack Roll: +13, reach 15 ft. Hit: 23 (3d10 + 7) Piercing damage plus 7 (2d6) Fire damage. Being underwater doesn't grant Resistance to this Fire damage.\n\nTail. Melee Attack Roll: +13, reach 15 ft. Hit: 18 (2d10 + 7) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.\n\nSteam Breath (Recharge 5–6). Constitution Saving Throw: DC 19, each creature in a 60-foot Cone. Failure: 56 (16d6) Fire damage. Success: Half damage. Failure or Success: Being underwater doesn't grant Resistance to this Fire damage.",
@@ -83,29 +97,52 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 23,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "3d10+7",
+            "count": 3,
+            "sides": 10,
+            "modifier": 7
+          }
+        },
+        {
+          "averageDamage": 7,
+          "damageType": "Fire",
+          "damageRoll": {
+            "expression": "2d6",
+            "count": 2,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +13, reach 15 ft. Hit: 23 (3d10 + 7) Piercing damage plus 7 (2d6) Fire damage. Being underwater doesn't grant Resistance to this Fire damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 13,
-      "averageDamage": 23,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "3d10+7",
-        "count": 3,
-        "sides": 10,
-        "modifier": 7
-      },
       "reachFeet": 15
     },
     {
       "name": "Tail",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 18,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "2d10+7",
+            "count": 2,
+            "sides": 10,
+            "modifier": 7
+          }
+        }
+      ],
+      "sourceText": "Tail. Melee Attack Roll: +13, reach 15 ft. Hit: 18 (2d10 + 7) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.",
+      "path": "statSections[1].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 13,
-      "averageDamage": 18,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "2d10+7",
-        "count": 2,
-        "sides": 10,
-        "modifier": 7
-      },
       "reachFeet": 15
     }
   ]

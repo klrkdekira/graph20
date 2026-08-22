@@ -76,5 +76,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Aberration | Elemental | Monstrosity |\n| :--------- | :-------- | :---------- |\n| Beast      | Fey       | Ooze        |\n| Celestial  | Fiend     | Plant       |\n| Construct  | Giant     | Undead      |\n| Dragon     | Humanoid  |             |"
 }

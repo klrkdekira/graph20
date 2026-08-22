@@ -12,7 +12,7 @@
     "section": "3.3",
     "heading": "Barbarian Subclass: Path of the Berserker",
     "lineStart": 1726,
-    "lineEnd": 1730
+    "lineEnd": 1748
   },
   "parentClass": {
     "@id": "https://cheeleong.dev/graph20/objects/classes/barbarian"
@@ -23,22 +23,50 @@
     {
       "level": 3,
       "name": "Frenzy",
-      "rulesText": "If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Strength-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack."
+      "rulesText": "If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Strength-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.2",
+        "heading": "Level 3: Frenzy",
+        "lineStart": 1732,
+        "lineEnd": 1734
+      }
     },
     {
       "level": 6,
       "name": "Mindless Rage",
-      "rulesText": "You have Immunity to the Charmed and Frightened conditions while your Rage is active. If you're Charmed or Frightened when you enter your Rage, the condition ends on you."
+      "rulesText": "You have Immunity to the Charmed and Frightened conditions while your Rage is active. If you're Charmed or Frightened when you enter your Rage, the condition ends on you.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.2",
+        "heading": "Level 6: Mindless Rage",
+        "lineStart": 1736,
+        "lineEnd": 1738
+      }
     },
     {
       "level": 10,
       "name": "Retaliation",
-      "rulesText": "When you take damage from a creature that is within 5 feet of you, you can take a Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike."
+      "rulesText": "When you take damage from a creature that is within 5 feet of you, you can take a Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.2",
+        "heading": "Level 10: Retaliation",
+        "lineStart": 1740,
+        "lineEnd": 1742
+      }
     },
     {
       "level": 14,
       "name": "Intimidating Presence",
-      "rulesText": "As a Bonus Action, you can strike terror into others with your menacing presence and primal power. When you do so, each creature of your choice in a 30-foot Emanation originating from you must make a Wisdom saving throw (DC 8 plus your Strength modifier and Proficiency Bonus). On a failed save, a creature has the Frightened condition for 1 minute. At the end of each of the Frightened creature's turns, the creature repeats the save, ending the effect on itself on a success.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest unless you expend a use of your Rage (no action required) to restore your use of it."
+      "rulesText": "As a Bonus Action, you can strike terror into others with your menacing presence and primal power. When you do so, each creature of your choice in a 30-foot Emanation originating from you must make a Wisdom saving throw (DC 8 plus your Strength modifier and Proficiency Bonus). On a failed save, a creature has the Frightened condition for 1 minute. At the end of each of the Frightened creature's turns, the creature repeats the save, ending the effect on itself on a success.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest unless you expend a use of your Rage (no action required) to restore your use of it.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.2",
+        "heading": "Level 14: Intimidating Presence",
+        "lineStart": 1744,
+        "lineEnd": 1748
+      }
     }
   ]
 }

@@ -258,5 +258,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                | School        | Special |\n| :------------------- | :------------ | :------ |\n| Animate Objects      | Transmutation | C       |\n| Awaken               | Transmutation | M       |\n| Dominate Person      | Enchantment   | C       |\n| Dream                | Illusion      |    -    |\n| Geas                 | Enchantment   |    -    |\n| Greater Restoration  | Abjuration    | M       |\n| Hold Monster         | Enchantment   | C       |\n| Legend Lore          | Divination    | M       |\n| Mass Cure Wounds     | Abjuration    |    -    |\n| Mislead              | Illusion      | C       |\n| Modify Memory        | Enchantment   | C       |\n| Planar Binding       | Abjuration    | M       |\n| Raise Dead           | Necromancy    | M       |\n| Scrying              | Divination    | C, M    |\n| Seeming              | Illusion      |    -    |\n| Telepathic Bond      | Divination    | R       |\n| Teleportation Circle | Conjuration   | M       |"
 }

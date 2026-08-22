@@ -70,7 +70,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The scorpion makes two Claw attacks and one Sting attack.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 13) from one of two claws.\n\nSting. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 11 (2d10) Poison damage."
+      "rulesText": "Multiattack. The scorpion makes two Claw attacks and one Sting attack.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 13) from one of two claws.\n\nSting. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 11 (2d10) Poison damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.44",
+        "heading": "Actions",
+        "lineStart": 27869,
+        "lineEnd": 27875
+      }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 15\nInitiative +1 (11)\nHP 52 (7d10 + 14)\nSpeed 40 ft.\n\nSenses Blindsight 60 ft.; Passive Perception 9\nLanguages None\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The scorpion makes two Claw attacks and one Sting attack.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 13) from one of two claws.\n\nSting. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 11 (2d10) Poison damage.",
@@ -78,29 +85,52 @@
     {
       "name": "Claw",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 6,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "1d6+3",
+            "count": 1,
+            "sides": 6,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Claw. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 13) from one of two claws.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 6,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "1d6+3",
-        "count": 1,
-        "sides": 6,
-        "modifier": 3
-      },
       "reachFeet": 5
     },
     {
       "name": "Sting",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 7,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d8+3",
+            "count": 1,
+            "sides": 8,
+            "modifier": 3
+          }
+        },
+        {
+          "averageDamage": 11,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "2d10",
+            "count": 2,
+            "sides": 10
+          }
+        }
+      ],
+      "sourceText": "Sting. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 11 (2d10) Poison damage.",
+      "path": "statSections[0].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 7,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d8+3",
-        "count": 1,
-        "sides": 8,
-        "modifier": 3
-      },
       "reachFeet": 5
     }
   ]

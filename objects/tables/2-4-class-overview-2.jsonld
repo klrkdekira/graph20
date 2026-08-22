@@ -89,5 +89,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Class    | Likes ...   | Primary Ability | Complexity |\n| :------- | :---------- | :-------------- | :--------- |\n| Rogue    | Stealth     | Dexterity       | Low        |\n| Sorcerer | Power       | Charisma        | High       |\n| Warlock  | Occult lore | Charisma        | High       |\n| Wizard   | Spellbooks  | Intelligence    | Average    |"
 }

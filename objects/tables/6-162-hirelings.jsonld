@@ -52,5 +52,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Service            | Cost          |\n| :----------------- | :------------ |\n| Skilled hireling   | 2 GP per day  |\n| Untrained hireling | 2 SP per day  |\n| Messenger          | 2 CP per mile |"
 }

@@ -70,11 +70,25 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The mammoth makes two Gore attacks.\n\nGore. Melee Attack Roll: +10, reach 10 ft. Hit: 18 (2d10 + 7) Piercing damage. If the target is a Huge or smaller creature and the mammoth moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition."
+      "rulesText": "Multiattack. The mammoth makes two Gore attacks.\n\nGore. Melee Attack Roll: +10, reach 10 ft. Hit: 18 (2d10 + 7) Piercing damage. If the target is a Huge or smaller creature and the mammoth moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.63",
+        "heading": "Actions",
+        "lineStart": 28385,
+        "lineEnd": 28389
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Trample. Dexterity Saving Throw: DC 18, one creature within 5 feet that has the Prone condition. Failure: 29 (4d10 + 7) Bludgeoning damage. Success: Half damage."
+      "rulesText": "Trample. Dexterity Saving Throw: DC 18, one creature within 5 feet that has the Prone condition. Failure: 29 (4d10 + 7) Bludgeoning damage. Success: Half damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.63",
+        "heading": "Bonus Actions",
+        "lineStart": 28391,
+        "lineEnd": 28393
+      }
     }
   ],
   "rulesText": "Huge Beast, Unaligned\n\nAC 13\nInitiative +2 (12)\nHP 126 (11d12 + 55)\nSpeed 50 ft.\n\nSenses Passive Perception 10\nLanguages None\nCR 6 (XP 2,300; PB +3)\n\nActions\n\nMultiattack. The mammoth makes two Gore attacks.\n\nGore. Melee Attack Roll: +10, reach 10 ft. Hit: 18 (2d10 + 7) Piercing damage. If the target is a Huge or smaller creature and the mammoth moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.\n\nBonus Actions\n\nTrample. Dexterity Saving Throw: DC 18, one creature within 5 feet that has the Prone condition. Failure: 29 (4d10 + 7) Bludgeoning damage. Success: Half damage.",
@@ -82,15 +96,22 @@
     {
       "name": "Gore",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 18,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d10+7",
+            "count": 2,
+            "sides": 10,
+            "modifier": 7
+          }
+        }
+      ],
+      "sourceText": "Gore. Melee Attack Roll: +10, reach 10 ft. Hit: 18 (2d10 + 7) Piercing damage. If the target is a Huge or smaller creature and the mammoth moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 10,
-      "averageDamage": 18,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d10+7",
-        "count": 2,
-        "sides": 10,
-        "modifier": 7
-      },
       "reachFeet": 10
     }
   ]

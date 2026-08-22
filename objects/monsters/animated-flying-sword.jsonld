@@ -70,7 +70,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Slash. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage."
+      "rulesText": "Slash. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.6",
+        "heading": "Actions",
+        "lineStart": 18208,
+        "lineEnd": 18210
+      }
     }
   ],
   "rulesText": "Small Construct, Unaligned\n\nAC 17\nInitiative +4 (14)\nHP 14 (4d6)\nSpeed 5 ft., Fly 50 ft. (hover)\n\nImmunities Poison, Psychic; Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned\nSenses Blindsight 60 ft.; Passive Perception 7\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nSlash. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage.",
@@ -101,15 +108,22 @@
     {
       "name": "Slash",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 6,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d8+2",
+            "count": 1,
+            "sides": 8,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Slash. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 6,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d8+2",
-        "count": 1,
-        "sides": 8,
-        "modifier": 2
-      },
       "reachFeet": 5
     }
   ]

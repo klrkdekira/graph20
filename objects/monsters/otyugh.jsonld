@@ -70,7 +70,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The otyugh makes one Bite attack and two Tentacle attacks.\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage, and the target has the Poisoned condition. Whenever the Poisoned target finishes a Long Rest, it is subjected to the following effect. Constitution Saving Throw: DC 15. Failure: The target's Hit Point maximum decreases by 5 (1d10) and doesn't return to normal until the Poisoned condition ends on the target. Success: The Poisoned condition ends.\n\nTentacle. Melee Attack Roll: +6, reach 10 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from one of two tentacles.\n\nTentacle Slam. Constitution Saving Throw: DC 14, each creature Grappled by the otyugh. Failure: 16 (3d8 + 3) Bludgeoning damage, and the target has the Stunned condition until the start of the otyugh's next turn. Success: Half damage only."
+      "rulesText": "Multiattack. The otyugh makes one Bite attack and two Tentacle attacks.\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage, and the target has the Poisoned condition. Whenever the Poisoned target finishes a Long Rest, it is subjected to the following effect. Constitution Saving Throw: DC 15. Failure: The target's Hit Point maximum decreases by 5 (1d10) and doesn't return to normal until the Poisoned condition ends on the target. Success: The Poisoned condition ends.\n\nTentacle. Melee Attack Roll: +6, reach 10 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from one of two tentacles.\n\nTentacle Slam. Constitution Saving Throw: DC 14, each creature Grappled by the otyugh. Failure: 16 (3d8 + 3) Bludgeoning damage, and the target has the Stunned condition until the start of the otyugh's next turn. Success: Half damage only.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.180",
+        "heading": "Actions",
+        "lineStart": 23695,
+        "lineEnd": 23703
+      }
     }
   ],
   "rulesText": "Large Aberration, Neutral\n\nAC 14\nInitiative +0 (10)\nHP 104 (11d10 + 44)\nSpeed 30 ft.\n\nSenses Darkvision 120 ft.; Passive Perception 11\nLanguages Otyugh; telepathy 120 ft. (doesn't allow the receiving creature to respond telepathically)\nCR 5 (XP 1,800; PB +3)\n\nActions\n\nMultiattack. The otyugh makes one Bite attack and two Tentacle attacks.\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage, and the target has the Poisoned condition. Whenever the Poisoned target finishes a Long Rest, it is subjected to the following effect. Constitution Saving Throw: DC 15. Failure: The target's Hit Point maximum decreases by 5 (1d10) and doesn't return to normal until the Poisoned condition ends on the target. Success: The Poisoned condition ends.\n\nTentacle. Melee Attack Roll: +6, reach 10 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from one of two tentacles.\n\nTentacle Slam. Constitution Saving Throw: DC 14, each creature Grappled by the otyugh. Failure: 16 (3d8 + 3) Bludgeoning damage, and the target has the Stunned condition until the start of the otyugh's next turn. Success: Half damage only.",
@@ -78,29 +85,43 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 12,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d8+3",
+            "count": 2,
+            "sides": 8,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +6, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage, and the target has the Poisoned condition. Whenever the Poisoned target finishes a Long Rest, it is subjected to the following effect. Constitution Saving Throw: DC 15. Failure: The target's Hit Point maximum decreases by 5 (1d10) and doesn't return to normal until the Poisoned condition ends on the target. Success: The Poisoned condition ends.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 12,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d8+3",
-        "count": 2,
-        "sides": 8,
-        "modifier": 3
-      },
       "reachFeet": 5
     },
     {
       "name": "Tentacle",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 12,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d8+3",
+            "count": 2,
+            "sides": 8,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Tentacle. Melee Attack Roll: +6, reach 10 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from one of two tentacles.",
+      "path": "statSections[0].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 12,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d8+3",
-        "count": 2,
-        "sides": 8,
-        "modifier": 3
-      },
       "reachFeet": 10
     }
   ]

@@ -202,5 +202,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                | School      | Special |\n| :------------------- | :---------- | :------ |\n| Commune              | Divination  | R       |\n| Contagion            | Necromancy  |    -    |\n| Dispel Evil and Good | Abjuration  | C       |\n| Flame Strike         | Evocation   |    -    |\n| Geas                 | Enchantment |    -    |\n| Greater Restoration  | Abjuration  | M       |\n| Hallow               | Abjuration  | M       |\n| Insect Plague        | Conjuration | C       |\n| Legend Lore          | Divination  | M       |\n| Mass Cure Wounds     | Abjuration  |    -    |\n| Planar Binding       | Abjuration  | M       |\n| Raise Dead           | Necromancy  | M       |\n| Scrying              | Divination  | C, M    |"
 }

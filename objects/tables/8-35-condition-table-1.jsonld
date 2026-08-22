@@ -76,5 +76,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Blinded    | Grappled      | Poisoned    |\n| :--------- | :------------ | :---------- |\n| Charmed    | Incapacitated | Prone       |\n| Deafened   | Invisible     | Restrained  |\n| Exhaustion | Paralyzed     | Stunned     |\n| Frightened | Petrified     | Unconscious |"
 }

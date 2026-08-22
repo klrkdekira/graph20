@@ -188,5 +188,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell              | School        | Special |\n| :----------------- | :------------ | :------ |\n| Alter Self         | Transmutation | C       |\n| Blindness/Deafness | Transmutation |    -    |\n| Blur               | Illusion      | C       |\n| Darkness           | Evocation     | C       |\n| Darkvision         | Transmutation |    -    |\n| Detect Thoughts    | Divination    | C       |\n| Dragon’s Breath    | Transmutation | C       |\n| Enhance Ability    | Transmutation | C       |\n| Enlarge/Reduce     | Transmutation | C       |\n| Flame Blade        | Evocation     | C       |\n| Flaming Sphere     | Evocation     | C       |\n| Gust of Wind       | Evocation     | C       |"
 }

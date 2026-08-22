@@ -73,19 +73,47 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Magic Resistance. The archmage has Advantage on saving throws against spells and other magical effects."
+      "rulesText": "Magic Resistance. The archmage has Advantage on saving throws against spells and other magical effects.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.155",
+        "heading": "Traits",
+        "lineStart": 22886,
+        "lineEnd": 22888
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The archmage makes four Arcane Burst attacks.\n\nArcane Burst. Melee or Ranged Attack Roll: +9, reach 5 ft. or range 150 ft. Hit: 27 (4d10 + 5) Force damage.\n\nSpellcasting. The archmage casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 17):\n\nAt Will: Detect Magic, Detect Thoughts, Disguise Self, Invisibility, Light, Mage Armor (included in AC), Mage Hand, Prestidigitation\n\n2/Day Each: Fly, Lightning Bolt (level 7 version)\n\n1/Day Each: Cone of Cold (level 9 version), Mind Blank (cast before combat), Scrying, Teleport"
+      "rulesText": "Multiattack. The archmage makes four Arcane Burst attacks.\n\nArcane Burst. Melee or Ranged Attack Roll: +9, reach 5 ft. or range 150 ft. Hit: 27 (4d10 + 5) Force damage.\n\nSpellcasting. The archmage casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 17):\n\nAt Will: Detect Magic, Detect Thoughts, Disguise Self, Invisibility, Light, Mage Armor (included in AC), Mage Hand, Prestidigitation\n\n2/Day Each: Fly, Lightning Bolt (level 7 version)\n\n1/Day Each: Cone of Cold (level 9 version), Mind Blank (cast before combat), Scrying, Teleport",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.155",
+        "heading": "Actions",
+        "lineStart": 22890,
+        "lineEnd": 22902
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Misty Step (3/Day). The mage casts Misty Step, using the same spellcasting ability as Spellcasting."
+      "rulesText": "Misty Step (3/Day). The mage casts Misty Step, using the same spellcasting ability as Spellcasting.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.155",
+        "heading": "Bonus Actions",
+        "lineStart": 22904,
+        "lineEnd": 22906
+      }
     },
     {
       "name": "Reactions",
-      "rulesText": "Protective Magic (3/Day). The archmage casts Counterspell or Shield in response to the spell's trigger, using the same spellcasting ability as Spellcasting."
+      "rulesText": "Protective Magic (3/Day). The archmage casts Counterspell or Shield in response to the spell's trigger, using the same spellcasting ability as Spellcasting.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.155",
+        "heading": "Reactions",
+        "lineStart": 22908,
+        "lineEnd": 22910
+      }
     }
   ],
   "rulesText": "Medium or Small Humanoid (Wizard), Neutral\n\nAC 17\nInitiative +7 (17)\nHP 170 (31d8 + 31)\nSpeed 30 ft.\n\nSkills Arcana +13, History +9, Perception +6\nImmunities Psychic; Charmed (with Mind Blank)\nGear Wand\nSenses Passive Perception 16\nLanguages Common plus five other languages\nCR 12 (XP 8,000; PB +4)\n\nTraits\n\nMagic Resistance. The archmage has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The archmage makes four Arcane Burst attacks.\n\nArcane Burst. Melee or Ranged Attack Roll: +9, reach 5 ft. or range 150 ft. Hit: 27 (4d10 + 5) Force damage.\n\nSpellcasting. The archmage casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 17):\n\nAt Will: Detect Magic, Detect Thoughts, Disguise Self, Invisibility, Light, Mage Armor (included in AC), Mage Hand, Prestidigitation\n\n2/Day Each: Fly, Lightning Bolt (level 7 version)\n\n1/Day Each: Cone of Cold (level 9 version), Mind Blank (cast before combat), Scrying, Teleport\n\nBonus Actions\n\nMisty Step (3/Day). The mage casts Misty Step, using the same spellcasting ability as Spellcasting.\n\nReactions\n\nProtective Magic (3/Day). The archmage casts Counterspell or Shield in response to the spell's trigger, using the same spellcasting ability as Spellcasting.",
@@ -98,15 +126,22 @@
     {
       "name": "Arcane Burst",
       "attackType": "Melee or Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 27,
+          "damageType": "Force",
+          "damageRoll": {
+            "expression": "4d10+5",
+            "count": 4,
+            "sides": 10,
+            "modifier": 5
+          }
+        }
+      ],
+      "sourceText": "Arcane Burst. Melee or Ranged Attack Roll: +9, reach 5 ft. or range 150 ft. Hit: 27 (4d10 + 5) Force damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 9,
-      "averageDamage": 27,
-      "damageType": "Force",
-      "damageRoll": {
-        "expression": "4d10+5",
-        "count": 4,
-        "sides": 10,
-        "modifier": 5
-      },
       "reachFeet": 5,
       "rangeFeet": {
         "normal": 150

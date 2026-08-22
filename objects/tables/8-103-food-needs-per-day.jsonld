@@ -72,5 +72,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Size   | Food      | Size       | Food      |\n| :----- | :-------- | :--------- | :-------- |\n| Tiny   | 1/4 pound | Large      | 4 pounds  |\n| Small  | 1 pound   | Huge       | 16 pounds |\n| Medium | 1 pound   | Gargantuan | 64 pounds |"
 }

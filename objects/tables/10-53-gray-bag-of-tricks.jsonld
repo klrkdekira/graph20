@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.53",
     "heading": "Bag of Tricks",
-    "lineStart": 15071,
-    "lineEnd": 15076
+    "lineStart": 15072,
+    "lineEnd": 15077
   },
   "columns": [
     "1d8",
@@ -89,5 +89,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| 1d8 | Creature  | 1d8 | Creature     |\n| :--- | :-------- | :--- | :----------- |\n| 1   | Weasel    | 5   | Panther      |\n| 2   | Giant Rat | 6   | Giant Badger |\n| 3   | Badger    | 7   | Dire Wolf    |\n| 4   | Boar      | 8   | Giant Elk    |"
 }

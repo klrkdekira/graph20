@@ -90,5 +90,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Item Rarity | Time*    | Cost*      |\n| :---------- | :------- | :--------- |\n| Common      | 5 days   | 50 GP      |\n| Uncommon    | 10 days  | 200 GP     |\n| Rare        | 50 days  | 2,000 GP   |\n| Very Rare   | 125 days | 20,000 GP  |\n| Legendary   | 250 days | 100,000 GP |"
 }

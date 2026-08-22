@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.250",
     "heading": "Staff of Fire",
-    "lineStart": 17291,
-    "lineEnd": 17294
+    "lineStart": 17292,
+    "lineEnd": 17295
   },
   "columns": [
     "Spell",
@@ -55,5 +55,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell         | Charge Cost | Spell        | Charge Cost |\n| :------------ | :---------- | :----------- | :---------- |\n| Burning Hands | 1           | Wall of Fire | 4           |\n| Fireball      | 3           |              |             |"
 }

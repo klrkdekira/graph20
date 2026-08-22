@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Hold Breath. The plesiosaurus can hold its breath for 1 hour."
+      "rulesText": "Hold Breath. The plesiosaurus can hold its breath for 1 hour.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.70",
+        "heading": "Traits",
+        "lineStart": 28576,
+        "lineEnd": 28578
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage."
+      "rulesText": "Bite. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.70",
+        "heading": "Actions",
+        "lineStart": 28580,
+        "lineEnd": 28582
+      }
     }
   ],
   "rulesText": "Large Beast (Dinosaur), Unaligned\n\nAC 13\nInitiative +2 (12)\nHP 68 (8d10 + 24)\nSpeed 20 ft., Swim 40 ft.\n\nSkills Perception +3, Stealth +4\nSenses Passive Perception 13\nLanguages None\nCR 2 (XP 450; PB +2)\n\nTraits\n\nHold Breath. The plesiosaurus can hold its breath for 1 hour.\n\nActions\n\nBite. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage.",
@@ -83,15 +97,22 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 11,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d6+4",
+            "count": 2,
+            "sides": 6,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 11,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d6+4",
-        "count": 2,
-        "sides": 6,
-        "modifier": 4
-      },
       "reachFeet": 10
     }
   ]

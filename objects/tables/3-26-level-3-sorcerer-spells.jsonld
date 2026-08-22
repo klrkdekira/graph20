@@ -314,5 +314,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                  | School        | Special |\n| :--------------------- | :------------ | :------ |\n| Blink                  | Transmutation |    -    |\n| Clairvoyance           | Divination    | C, M    |\n| Counterspell           | Abjuration    |    -    |\n| Daylight               | Evocation     |    -    |\n| Dispel Magic           | Abjuration    |    -    |\n| Fear                   | Illusion      | C       |\n| Fireball               | Evocation     |    -    |\n| Fly                    | Transmutation | C       |\n| Gaseous Form           | Transmutation | C       |\n| Haste                  | Transmutation | C       |\n| Hypnotic Pattern       | Illusion      | C       |\n| Lightning Bolt         | Evocation     |    -    |\n| Major Image            | Illusion      | C       |\n| Protection from Energy | Abjuration    | C       |\n| Sleet Storm            | Conjuration   | C       |\n| Slow                   | Transmutation | C       |\n| Stinking Cloud         | Conjuration   | C       |\n| Tongues                | Divination    |    -    |\n| Vampiric Touch         | Necromancy    | C       |\n| Water Breathing        | Transmutation | R       |\n| Water Walk             | Transmutation | R       |"
 }

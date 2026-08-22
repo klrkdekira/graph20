@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.157",
     "heading": "Manual of Golems",
-    "lineStart": 16213,
-    "lineEnd": 16218
+    "lineStart": 16214,
+    "lineEnd": 16219
   },
   "columns": [
     "1d20",
@@ -89,5 +89,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| 1d20  | Golem       | Time     | Cost       |\n| :---- | :---------- | :------- | :--------- |\n| 1–5   | Clay Golem  | 30 days  | 65,000 GP  |\n| 6–17  | Flesh Golem | 60 days  | 50,000 GP  |\n| 18    | Iron Golem  | 120 days | 100,000 GP |\n| 19–20 | Stone Golem | 90 days  | 80,000 GP  |"
 }

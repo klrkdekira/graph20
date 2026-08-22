@@ -69,12 +69,52 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Flyby. The snake doesn't provoke an Opportunity Attack when it flies out of an enemy's reach."
+      "rulesText": "Flyby. The snake doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.24",
+        "heading": "Traits",
+        "lineStart": 27327,
+        "lineEnd": 27329
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus 5 (2d4) Poison damage."
+      "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus 5 (2d4) Poison damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.24",
+        "heading": "Actions",
+        "lineStart": 27331,
+        "lineEnd": 27333
+      }
     }
   ],
-  "rulesText": "Tiny Monstrosity, Unaligned\n\nAC 14\nInitiative +2 (12)\nHP 5 (2d4)\nSpeed 30 ft., Fly 60 ft., Swim 30 ft.\n\nSenses Blindsight 10 ft.; Passive Perception 11\nLanguages None\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nFlyby. The snake doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus 5 (2d4) Poison damage."
+  "rulesText": "Tiny Monstrosity, Unaligned\n\nAC 14\nInitiative +2 (12)\nHP 5 (2d4)\nSpeed 30 ft., Fly 60 ft., Swim 30 ft.\n\nSenses Blindsight 10 ft.; Passive Perception 11\nLanguages None\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nFlyby. The snake doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus 5 (2d4) Poison damage.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 1,
+          "damageType": "Piercing"
+        },
+        {
+          "averageDamage": 5,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "2d4",
+            "count": 2,
+            "sides": 4
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus 5 (2d4) Poison damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
+      "attackBonus": 4,
+      "reachFeet": 5
+    }
+  ]
 }

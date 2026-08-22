@@ -21,13 +21,22 @@ PIPELINE = [
     "build_collection_indexes.py",
     "build_coverage.py",
     "build_review_ledger.py",
+    "build_vocab.py",
+    "build_sitemap.py",
 ]
+TOP_LEVEL_ARTIFACTS = ["llms-full.txt", "sitemap.xml"]
 
 
 def build_in(workdir: Path) -> Path:
     shutil.copy2(ROOT / SOURCE_FILE, workdir / SOURCE_FILE)
     shutil.copytree(ROOT / "scripts", workdir / "scripts")
     shutil.copytree(ROOT / "systems", workdir / "systems")
+    shutil.copytree(ROOT / "reviews", workdir / "reviews")
+    (workdir / "objects/sources").mkdir(parents=True)
+    shutil.copy2(
+        ROOT / "objects/sources/extraction-overrides.json",
+        workdir / "objects/sources/extraction-overrides.json",
+    )
     for script in PIPELINE:
         subprocess.run(
             [sys.executable, f"scripts/{script}", "--root", "."],
@@ -35,7 +44,7 @@ def build_in(workdir: Path) -> Path:
             check=True,
             capture_output=True,
         )
-    return workdir / "objects"
+    return workdir
 
 
 def compare(dir_a: Path, dir_b: Path):
@@ -54,17 +63,29 @@ def main():
     with tempfile.TemporaryDirectory() as tmp_a, tempfile.TemporaryDirectory() as tmp_b:
         out_a = build_in(Path(tmp_a))
         out_b = build_in(Path(tmp_b))
-        mismatches, total = compare(out_a, out_b)
-        if not filecmp.cmp(
-            Path(tmp_a) / "llms-full.txt", Path(tmp_b) / "llms-full.txt", shallow=False
-        ):
-            mismatches.append("llms-full.txt")
-        total += 1
+        mismatches, total = compare(out_a / "objects", out_b / "objects")
+        root_mismatches, root_total = compare(out_a / "objects", ROOT / "objects")
+        mismatches.extend(f"checked-in objects/{item}" for item in root_mismatches)
+        total += root_total
+        vocab_mismatches, vocab_total = compare(out_a / "vocab", out_b / "vocab")
+        checked_vocab, checked_vocab_total = compare(out_a / "vocab", ROOT / "vocab")
+        mismatches.extend(f"vocab/{item}" for item in vocab_mismatches)
+        mismatches.extend(f"checked-in vocab/{item}" for item in checked_vocab)
+        total += vocab_total + checked_vocab_total
+        for artifact in TOP_LEVEL_ARTIFACTS:
+            if not filecmp.cmp(out_a / artifact, out_b / artifact, shallow=False):
+                mismatches.append(artifact)
+            if not filecmp.cmp(out_a / artifact, ROOT / artifact, shallow=False):
+                mismatches.append(f"checked-in {artifact}")
+            total += 2
     if mismatches:
         print("\n".join(mismatches[:20]))
         print(f"FAIL: {len(mismatches)} non-deterministic artifacts")
         sys.exit(1)
-    print(f"OK: {total} artifacts byte-identical across two clean builds")
+    print(
+        f"OK: {total} comparisons are byte-identical across two clean builds "
+        "and the checked-in generated artifacts"
+    )
 
 
 if __name__ == "__main__":

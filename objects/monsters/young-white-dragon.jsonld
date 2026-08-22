@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Ice Walk. The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn't cost it extra movement."
+      "rulesText": "Ice Walk. The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn't cost it extra movement.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.261",
+        "heading": "Traits",
+        "lineStart": 26341,
+        "lineEnd": 26343
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 9 (2d4 + 4) Slashing damage plus 2 (1d4) Cold damage.\n\nCold Breath (Recharge 5–6). Constitution Saving\nThrow: DC 15, each creature in a 30-foot Cone. Failure: 40 (9d8) Cold damage. Success: Half damage."
+      "rulesText": "Multiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 9 (2d4 + 4) Slashing damage plus 2 (1d4) Cold damage.\n\nCold Breath (Recharge 5–6). Constitution Saving\nThrow: DC 15, each creature in a 30-foot Cone. Failure: 40 (9d8) Cold damage. Success: Half damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.261",
+        "heading": "Actions",
+        "lineStart": 26345,
+        "lineEnd": 26352
+      }
     }
   ],
   "rulesText": "Large Dragon (Chromatic), Chaotic Evil\n\nAC 17\nInitiative +3 (13)\nHP 123 (13d10 + 52)\nSpeed 40 ft., Burrow 20 ft., Fly 80 ft., Swim 40 ft.\n\nSkills Perception +6, Stealth +3\nImmunities Cold\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 16\nLanguages Common, Draconic\nCR 6 (XP 2,300; PB +3)\n\nTraits\n\nIce Walk. The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn't cost it extra movement.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 9 (2d4 + 4) Slashing damage plus 2 (1d4) Cold damage.\n\nCold Breath (Recharge 5–6). Constitution Saving\nThrow: DC 15, each creature in a 30-foot Cone. Failure: 40 (9d8) Cold damage. Success: Half damage.",
@@ -84,15 +98,31 @@
     {
       "name": "Rend",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 9,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "2d4+4",
+            "count": 2,
+            "sides": 4,
+            "modifier": 4
+          }
+        },
+        {
+          "averageDamage": 2,
+          "damageType": "Cold",
+          "damageRoll": {
+            "expression": "1d4",
+            "count": 1,
+            "sides": 4
+          }
+        }
+      ],
+      "sourceText": "Rend. Melee Attack Roll: +7, reach 10 ft. Hit: 9 (2d4 + 4) Slashing damage plus 2 (1d4) Cold damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 7,
-      "averageDamage": 9,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "2d4+4",
-        "count": 2,
-        "sides": 4,
-        "modifier": 4
-      },
       "reachFeet": 10
     }
   ]

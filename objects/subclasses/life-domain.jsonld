@@ -12,7 +12,7 @@
     "section": "3.9",
     "heading": "Cleric Subclass: Life Domain",
     "lineStart": 2405,
-    "lineEnd": 2411
+    "lineEnd": 2440
   },
   "parentClass": {
     "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
@@ -23,12 +23,26 @@
     {
       "level": 3,
       "name": "Disciple of Life",
-      "rulesText": "When a spell you cast with a spell slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the spell. The additional Hit Points equal 2 plus the spell slot's level."
+      "rulesText": "When a spell you cast with a spell slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the spell. The additional Hit Points equal 2 plus the spell slot's level.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.7",
+        "heading": "Level 3: Disciple of Life",
+        "lineStart": 2413,
+        "lineEnd": 2415
+      }
     },
     {
       "level": 3,
       "name": "Life Domain Spells",
       "rulesText": "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Life Domain Spells table, you thereafter always have the listed spells prepared.\n\nLife Domain Spells",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.7",
+        "heading": "Level 3: Life Domain Spells",
+        "lineStart": 2417,
+        "lineEnd": 2428
+      },
       "relatedTables": [
         {
           "@id": "https://cheeleong.dev/graph20/objects/tables/3-7-life-domain-spells"
@@ -38,17 +52,38 @@
     {
       "level": 3,
       "name": "Preserve Life",
-      "rulesText": "As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to evoke healing energy that can restore a number of Hit Points equal to five times your Cleric level. Choose Bloodied creatures within 30 feet of yourself (which can include you), and divide those Hit Points among them. This feature can restore a creature to no more than half its Hit Point maximum."
+      "rulesText": "As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to evoke healing energy that can restore a number of Hit Points equal to five times your Cleric level. Choose Bloodied creatures within 30 feet of yourself (which can include you), and divide those Hit Points among them. This feature can restore a creature to no more than half its Hit Point maximum.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.7",
+        "heading": "Level 3: Preserve Life",
+        "lineStart": 2430,
+        "lineEnd": 2432
+      }
     },
     {
       "level": 6,
       "name": "Blessed Healer",
-      "rulesText": "The healing spells you cast on others heal you as well. Immediately after you cast a spell with a spell slot that restores Hit Points to one or more creatures other than yourself, you regain Hit Points equal to 2 plus the spell slot's level."
+      "rulesText": "The healing spells you cast on others heal you as well. Immediately after you cast a spell with a spell slot that restores Hit Points to one or more creatures other than yourself, you regain Hit Points equal to 2 plus the spell slot's level.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.7",
+        "heading": "Level 6: Blessed Healer",
+        "lineStart": 2434,
+        "lineEnd": 2436
+      }
     },
     {
       "level": 17,
       "name": "Supreme Healing",
-      "rulesText": "When you would normally roll one or more dice to restore Hit Points to a creature with a spell or Channel Divinity, don't roll those dice for the healing; instead use the highest number possible for each die. For example, instead of restoring 2d6 Hit Points to a creature with a spell, you restore 12."
+      "rulesText": "When you would normally roll one or more dice to restore Hit Points to a creature with a spell or Channel Divinity, don't roll those dice for the healing; instead use the highest number possible for each die. For example, instead of restoring 2d6 Hit Points to a creature with a spell, you restore 12.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.7",
+        "heading": "Level 17: Supreme Healing",
+        "lineStart": 2438,
+        "lineEnd": 2440
+      }
     }
   ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.114",
     "heading": "Feather Token",
-    "lineStart": 15726,
-    "lineEnd": 15733
+    "lineStart": 15727,
+    "lineEnd": 15734
   },
   "columns": [
     "1d100",
@@ -104,5 +104,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| 1d100 | Token     | Rarity   |\n| :---- | :-------- | :------- |\n| 01–20 | Anchor    | Uncommon |\n| 21–35 | Bird      | Rare     |\n| 36–50 | Fan       | Uncommon |\n| 51–65 | Swan boat | Rare     |\n| 66–90 | Tree      | Uncommon |\n| 91–00 | Whip      | Rare     |"
 }

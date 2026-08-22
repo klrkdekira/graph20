@@ -5,7 +5,7 @@ type: dataset
 authors:
   - family-names: "Chow"
     given-names: "Chee Leong"
-version: "0.2.0"
+version: "0.3.0"
 license: "CC-BY-4.0"
 url: "https://cheeleong.dev/graph20/"
 abstract: >-

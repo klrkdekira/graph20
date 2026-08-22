@@ -63,5 +63,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Class                                        | Hit Points per Level |\n| :------------------------------------------- | :------------------- |\n| Barbarian                                    | 7 + Con. modifier    |\n| Fighter, Paladin, or Ranger                  | 6 + Con. modifier    |\n| Bard, Cleric, Druid, Monk, Rogue, or Warlock | 5 + Con. modifier    |\n| Sorcerer or Wizard                           | 4 + Con. modifier    |"
 }

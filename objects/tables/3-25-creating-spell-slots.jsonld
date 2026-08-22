@@ -90,5 +90,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell Slot Level | Sorcery Point Cost | Min. Sorcerer Level |\n| :--------------- | :----------------- | :------------------ |\n| 1                | 2                  | 2                   |\n| 2                | 3                  | 3                   |\n| 3                | 5                  | 5                   |\n| 4                | 6                  | 7                   |\n| 5                | 7                  | 9                   |"
 }

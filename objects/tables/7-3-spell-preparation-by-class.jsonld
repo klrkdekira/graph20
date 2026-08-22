@@ -132,5 +132,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Class    | Change When You ... | Number of Spells |\n| :------- | :------------------ | :--------------- |\n| Bard     | Gain a level        | One              |\n| Cleric   | Finish a Long Rest  | Any              |\n| Druid    | Finish a Long Rest  | Any              |\n| Paladin  | Finish a Long Rest  | One              |\n| Ranger   | Finish a Long Rest  | One              |\n| Sorcerer | Gain a level        | One              |\n| Warlock  | Gain a level        | One              |\n| Wizard   | Finish a Long Rest  | Any              |"
 }

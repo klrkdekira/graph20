@@ -188,5 +188,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell             | School        | Special |\n| :---------------- | :------------ | :------ |\n| Astral Projection | Necromancy    | M       |\n| Foresight         | Divination    |    -    |\n| Gate              | Conjuration   | C, M    |\n| Imprisonment      | Abjuration    | M       |\n| Meteor Swarm      | Evocation     |    -    |\n| Power Word Kill   | Enchantment   |    -    |\n| Prismatic Wall    | Abjuration    |    -    |\n| Shapechange       | Transmutation | C, M    |\n| Time Stop         | Transmutation |    -    |\n| True Polymorph    | Transmutation | C       |\n| Weird             | Illusion      | C       |\n| Wish              | Conjuration   |    -    |"
 }

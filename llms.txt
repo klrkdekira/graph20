@@ -1,6 +1,6 @@
 # SRD 5.2.1 System JSON
 
-> Machine-readable JSON-LD 1.1 reference corpus for the System Reference Document 5.2.1 (D&D fifth edition rules, CC-BY-4.0), with JSON Schema Draft 2020-12 validation. 2,112 records: rules, tables, classes, subclasses, species, backgrounds, feats, equipment, spells, conditions, magic items, and monster stat blocks — each with verbatim source prose, typed sibling fields, graph links, and line-level provenance.
+> Machine-readable JSON-LD 1.1 reference corpus for the System Reference Document 5.2.1 (D&D fifth edition rules, CC-BY-4.0), with JSON Schema Draft 2020-12 validation. 2,092 records: rules, logical tables, classes, subclasses, species, backgrounds, feats, equipment, spells, conditions, magic items, and monster stat blocks — each with source-faithful prose, typed sibling fields, graph links, and physical line provenance.
 
 Attribution: This work includes material from the System Reference Document 5.2.1 ("SRD 5.2.1") by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd, licensed CC-BY-4.0.
 
@@ -21,7 +21,7 @@ Record URLs follow `objects/<collection>/<slug>.jsonld`; the full per-collection
 - Magic items: 258, e.g. [animated-shield](https://cheeleong.dev/graph20/objects/magic-items/animated-shield.jsonld)
 - Classes: 12 · Subclasses: 12 · Species: 9 · Backgrounds: 4 · Feats: 17 · Conditions: 15
 - Equipment: 133 typed weapons/armor/gear, e.g. [longsword](https://cheeleong.dev/graph20/objects/equipment/longsword.jsonld)
-- Rules: 738 · Tables: 243
+- Rules: 738 · Tables: 223
 
 ## Documentation
 

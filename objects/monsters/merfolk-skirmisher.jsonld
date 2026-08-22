@@ -70,11 +70,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Amphibious. The merfolk can breathe air and water."
+      "rulesText": "Amphibious. The merfolk can breathe air and water.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.166",
+        "heading": "Traits",
+        "lineStart": 23207,
+        "lineEnd": 23209
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Ocean Spear. Melee or Ranged Attack Roll: +2, reach 5 ft. or range 20/60 ft. Hit: 3 (1d6) Piercing damage plus 2 (1d4) Cold damage. If the target is a creature, its Speed decreases by 10 feet until the end of its next turn. Hit or Miss: The spear magically returns to the merfolk's hand immediately after a ranged attack."
+      "rulesText": "Ocean Spear. Melee or Ranged Attack Roll: +2, reach 5 ft. or range 20/60 ft. Hit: 3 (1d6) Piercing damage plus 2 (1d4) Cold damage. If the target is a creature, its Speed decreases by 10 feet until the end of its next turn. Hit or Miss: The spear magically returns to the merfolk's hand immediately after a ranged attack.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.166",
+        "heading": "Actions",
+        "lineStart": 23211,
+        "lineEnd": 23213
+      }
     }
   ],
   "rulesText": "Medium Elemental, Neutral\n\nAC 11\nInitiative +1 (11)\nHP 11 (2d8 + 2)\nSpeed 10 ft., Swim 40 ft.\n\nSenses Passive Perception 12\nLanguages Common, Primordial (Aquan)\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nAmphibious. The merfolk can breathe air and water.\n\nActions\n\nOcean Spear. Melee or Ranged Attack Roll: +2, reach 5 ft. or range 20/60 ft. Hit: 3 (1d6) Piercing damage plus 2 (1d4) Cold damage. If the target is a creature, its Speed decreases by 10 feet until the end of its next turn. Hit or Miss: The spear magically returns to the merfolk's hand immediately after a ranged attack.",
@@ -82,14 +96,30 @@
     {
       "name": "Ocean Spear",
       "attackType": "Melee or Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 3,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d6",
+            "count": 1,
+            "sides": 6
+          }
+        },
+        {
+          "averageDamage": 2,
+          "damageType": "Cold",
+          "damageRoll": {
+            "expression": "1d4",
+            "count": 1,
+            "sides": 4
+          }
+        }
+      ],
+      "sourceText": "Ocean Spear. Melee or Ranged Attack Roll: +2, reach 5 ft. or range 20/60 ft. Hit: 3 (1d6) Piercing damage plus 2 (1d4) Cold damage. If the target is a creature, its Speed decreases by 10 feet until the end of its next turn. Hit or Miss: The spear magically returns to the merfolk's hand immediately after a ranged attack.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 2,
-      "averageDamage": 3,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d6",
-        "count": 1,
-        "sides": 6
-      },
       "reachFeet": 5,
       "rangeFeet": {
         "normal": 20,

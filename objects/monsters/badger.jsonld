@@ -72,8 +72,32 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage."
+      "rulesText": "Bite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.7",
+        "heading": "Actions",
+        "lineStart": 26899,
+        "lineEnd": 26901
+      }
     }
   ],
-  "rulesText": "Tiny Beast, Unaligned\n\nAC 11\nInitiative +0 (10)\nHP 5 (1d4 + 3)\nSpeed 20 ft., Burrow 5 ft.\n\nSkills Perception +3\nResistances Poison\nSenses Darkvision 30 ft.; Passive Perception 13\nLanguages None\nCR 0 (XP 10; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage."
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 11\nInitiative +0 (10)\nHP 5 (1d4 + 3)\nSpeed 20 ft., Burrow 5 ft.\n\nSkills Perception +3\nResistances Poison\nSenses Darkvision 30 ft.; Passive Perception 13\nLanguages None\nCR 0 (XP 10; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 1,
+          "damageType": "Piercing"
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
+      "attackBonus": 2,
+      "reachFeet": 5
+    }
+  ]
 }

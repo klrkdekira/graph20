@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.70",
     "heading": "Candle of Invocation",
-    "lineStart": 15250,
-    "lineEnd": 15259
+    "lineStart": 15251,
+    "lineEnd": 15260
   },
   "columns": [
     "1d100",
@@ -157,5 +157,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| 1d100 | Outer Plane | 1d100 | Outer Plane    |\n| :---- | :---------- | :---- | :------------- |\n| 01–05 | Abyss       | 55–59 | Gehenna        |\n| 06–10 | Acheron     | 60–64 | Hades          |\n| 11–17 | Arborea     | 65–69 | Limbo          |\n| 18–25 | Arcadia     | 70–77 | Mechanus       |\n| 26–33 | Beastlands  | 78–85 | Mount Celestia |\n| 34–41 | Bytopia     | 86–90 | Nine Hells     |\n| 42–46 | Carceri     | 91–95 | Pandemonium    |\n| 47–54 | Elysium     | 96–00 | Ysgard         |"
 }

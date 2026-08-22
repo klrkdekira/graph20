@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Death Burst. The mephit explodes when it dies. Dexterity Saving Throw: DC 10, each creature in a 5-foot Emanation originating from the mephit. Failure: 5 (2d4) Bludgeoning damage. Success: Half damage."
+      "rulesText": "Death Burst. The mephit explodes when it dies. Dexterity Saving Throw: DC 10, each creature in a 5-foot Emanation originating from the mephit. Failure: 5 (2d4) Bludgeoning damage. Success: Half damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.161",
+        "heading": "Traits",
+        "lineStart": 23079,
+        "lineEnd": 23081
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Claw. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing damage.\n\nBlinding Breath (Recharge 6). Dexterity Saving Throw: DC 10, each creature in a 15-foot Cone. Failure: The target has the Blinded condition until the end of the mephit's next turn.\n\nSleep (1/Day). The mephit casts the Sleep spell, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 10)."
+      "rulesText": "Claw. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing damage.\n\nBlinding Breath (Recharge 6). Dexterity Saving Throw: DC 10, each creature in a 15-foot Cone. Failure: The target has the Blinded condition until the end of the mephit's next turn.\n\nSleep (1/Day). The mephit casts the Sleep spell, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 10).",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.161",
+        "heading": "Actions",
+        "lineStart": 23083,
+        "lineEnd": 23089
+      }
     }
   ],
   "rulesText": "Small Elemental, Neutral Evil\n\nAC 12\nInitiative +2 (12)\nHP 17 (5d6)\nSpeed 30 ft., Fly 30 ft.\n\nSkills Perception +2, Stealth +4\nVulnerabilities Fire\nImmunities Poison; Exhaustion, Poisoned\nSenses Darkvision 60 ft.; Passive Perception 12\nLanguages Primordial (Auran, Terran)\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nDeath Burst. The mephit explodes when it dies. Dexterity Saving Throw: DC 10, each creature in a 5-foot Emanation originating from the mephit. Failure: 5 (2d4) Bludgeoning damage. Success: Half damage.\n\nActions\n\nClaw. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing damage.\n\nBlinding Breath (Recharge 6). Dexterity Saving Throw: DC 10, each creature in a 15-foot Cone. Failure: The target has the Blinded condition until the end of the mephit's next turn.\n\nSleep (1/Day). The mephit casts the Sleep spell, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 10).",
@@ -92,15 +106,22 @@
     {
       "name": "Claw",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 4,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d4+2",
+            "count": 1,
+            "sides": 4,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Claw. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Slashing damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 4,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d4+2",
-        "count": 1,
-        "sides": 4,
-        "modifier": 2
-      },
       "reachFeet": 5
     }
   ]

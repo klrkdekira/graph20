@@ -132,5 +132,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Item          | Carrying Capacity | Cost   |\n| :------------ | :---------------- | :----- |\n| Camel         | 450 lb.           | 50 GP  |\n| Elephant      | 1,320 lb.         | 200 GP |\n| Horse, Draft  | 540 lb.           | 50 GP  |\n| Horse, Riding | 480 lb.           | 75 GP  |\n| Mastiff       | 195 lb.           | 25 GP  |\n| Mule          | 420 lb.           | 8 GP   |\n| Pony          | 225 lb.           | 30 GP  |\n| Warhorse      | 540 lb.           | 400 GP |"
 }

@@ -71,12 +71,43 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Illumination. The beetle sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet."
+      "rulesText": "Illumination. The beetle sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.36",
+        "heading": "Traits",
+        "lineStart": 27643,
+        "lineEnd": 27645
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +1, reach 5 ft. Hit: 1 Fire damage."
+      "rulesText": "Bite. Melee Attack Roll: +1, reach 5 ft. Hit: 1 Fire damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.36",
+        "heading": "Actions",
+        "lineStart": 27647,
+        "lineEnd": 27649
+      }
     }
   ],
-  "rulesText": "Small Beast, Unaligned\n\nAC 13\nInitiative +0 (10)\nHP 4 (1d6 + 1)\nSpeed 30 ft., Climb 30 ft.\n\nResistances Fire\nSenses Blindsight 30 ft.; Passive Perception 8\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nIllumination. The beetle sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.\n\nActions\n\nBite. Melee Attack Roll: +1, reach 5 ft. Hit: 1 Fire damage."
+  "rulesText": "Small Beast, Unaligned\n\nAC 13\nInitiative +0 (10)\nHP 4 (1d6 + 1)\nSpeed 30 ft., Climb 30 ft.\n\nResistances Fire\nSenses Blindsight 30 ft.; Passive Perception 8\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nIllumination. The beetle sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.\n\nActions\n\nBite. Melee Attack Roll: +1, reach 5 ft. Hit: 1 Fire damage.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 1,
+          "damageType": "Fire"
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +1, reach 5 ft. Hit: 1 Fire damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
+      "attackBonus": 1,
+      "reachFeet": 5
+    }
+  ]
 }

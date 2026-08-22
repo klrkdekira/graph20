@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Pack Tactics. The shark has Advantage on an attack roll against a creature if at least one of the shark's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nWater Breathing. The shark can breathe only underwater."
+      "rulesText": "Pack Tactics. The shark has Advantage on an attack roll against a creature if at least one of the shark's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nWater Breathing. The shark can breathe only underwater.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.76",
+        "heading": "Traits",
+        "lineStart": 28732,
+        "lineEnd": 28736
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Piercing damage."
+      "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.76",
+        "heading": "Actions",
+        "lineStart": 28738,
+        "lineEnd": 28740
+      }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 22 (4d8 + 4)\nSpeed 5 ft., Swim 30 ft.\n\nSkills Perception +2\nSenses Blindsight 30 ft.; Passive Perception 12\nLanguages None\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nPack Tactics. The shark has Advantage on an attack roll against a creature if at least one of the shark's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nWater Breathing. The shark can breathe only underwater.\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Piercing damage.",
@@ -83,15 +97,22 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 7,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d4+2",
+            "count": 2,
+            "sides": 4,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 7,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d4+2",
-        "count": 2,
-        "sides": 4,
-        "modifier": 2
-      },
       "reachFeet": 5
     }
   ]

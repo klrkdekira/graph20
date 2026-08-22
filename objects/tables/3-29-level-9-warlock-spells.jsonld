@@ -118,5 +118,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell             | School        | Special |\n| :---------------- | :------------ | :------ |\n| Astral Projection | Necromancy    | M       |\n| Foresight         | Divination    |    -    |\n| Gate              | Conjuration   | C, M    |\n| Imprisonment      | Abjuration    | M       |\n| Power Word Kill   | Enchantment   |    -    |\n| True Polymorph    | Transmutation | C       |\n| Weird             | Illusion      | C       |"
 }

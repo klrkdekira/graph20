@@ -62,5 +62,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Symbol                               | Weight | Cost |\n| :----------------------------------- | :----- | :--- |\n| Amulet (worn or held)                | 1 lb.  | 5 GP |\n| Emblem (borne on fabric or a Shield) |   -    | 5 GP |\n| Reliquary (held)                     | 2 lb.  | 5 GP |"
 }

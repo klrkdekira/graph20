@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Amphibious. The archelon can breathe air and water."
+      "rulesText": "Amphibious. The archelon can breathe air and water.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.5",
+        "heading": "Traits",
+        "lineStart": 26843,
+        "lineEnd": 26845
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The archelon makes two Bite attacks.\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 14 (3d6 + 4) Piercing damage."
+      "rulesText": "Multiattack. The archelon makes two Bite attacks.\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 14 (3d6 + 4) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.5",
+        "heading": "Actions",
+        "lineStart": 26847,
+        "lineEnd": 26851
+      }
     }
   ],
   "rulesText": "Huge Beast (Dinosaur), Unaligned\n\nAC 17\nInitiative +3 (13)\nHP 90 (12d12 + 12)\nSpeed 20 ft., Swim 80 ft.\n\nSkills Stealth +5\nSenses Passive Perception 12\nLanguages None\nCR 4 (XP 1,100; PB +2)\n\nTraits\n\nAmphibious. The archelon can breathe air and water.\n\nActions\n\nMultiattack. The archelon makes two Bite attacks.\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 14 (3d6 + 4) Piercing damage.",
@@ -83,15 +97,22 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 14,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "3d6+4",
+            "count": 3,
+            "sides": 6,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +6, reach 5 ft. Hit: 14 (3d6 + 4) Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 14,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "3d6+4",
-        "count": 3,
-        "sides": 6,
-        "modifier": 4
-      },
       "reachFeet": 5
     }
   ]

@@ -72,7 +72,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The giant makes two attacks, using Flame Sword or Hammer Throw in any combination.\n\nFlame Sword. Melee Attack Roll: +11, reach 10 ft.\nHit: 21 (4d6 + 7) Slashing damage plus 10 (3d6)\nFire damage.\n\nHammer Throw. Ranged Attack Roll: +11, range 60/240 ft. Hit: 23 (3d10 + 7) Bludgeoning damage plus 4 (1d8) Fire damage, and the target is pushed up to 15 feet straight away from the giant and has Disadvantage on the next attack roll it makes before the end of its next turn."
+      "rulesText": "Multiattack. The giant makes two attacks, using Flame Sword or Hammer Throw in any combination.\n\nFlame Sword. Melee Attack Roll: +11, reach 10 ft.\nHit: 21 (4d6 + 7) Slashing damage plus 10 (3d6)\nFire damage.\n\nHammer Throw. Ranged Attack Roll: +11, range 60/240 ft. Hit: 23 (3d10 + 7) Bludgeoning damage plus 4 (1d8) Fire damage, and the target is pushed up to 15 feet straight away from the giant and has Disadvantage on the next attack roll it makes before the end of its next turn.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.89",
+        "heading": "Actions",
+        "lineStart": 20834,
+        "lineEnd": 20842
+      }
     }
   ],
   "rulesText": "Huge Giant, Lawful Evil\n\nAC 18\nInitiative +3 (13)\nHP 162 (13d12 + 78)\nSpeed 30 ft.\n\nSkills Athletics +11, Perception +6\nImmunities Fire\nSenses Passive Perception 16\nLanguages Giant\nCR 9 (XP 5,000; PB +4)\n\nActions\n\nMultiattack. The giant makes two attacks, using Flame Sword or Hammer Throw in any combination.\n\nFlame Sword. Melee Attack Roll: +11, reach 10 ft.\nHit: 21 (4d6 + 7) Slashing damage plus 10 (3d6)\nFire damage.\n\nHammer Throw. Ranged Attack Roll: +11, range 60/240 ft. Hit: 23 (3d10 + 7) Bludgeoning damage plus 4 (1d8) Fire damage, and the target is pushed up to 15 feet straight away from the giant and has Disadvantage on the next attack roll it makes before the end of its next turn.",
@@ -80,29 +87,61 @@
     {
       "name": "Flame Sword",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 21,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "4d6+7",
+            "count": 4,
+            "sides": 6,
+            "modifier": 7
+          }
+        },
+        {
+          "averageDamage": 10,
+          "damageType": "Fire",
+          "damageRoll": {
+            "expression": "3d6",
+            "count": 3,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Flame Sword. Melee Attack Roll: +11, reach 10 ft.\nHit: 21 (4d6 + 7) Slashing damage plus 10 (3d6)\nFire damage.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 11,
-      "averageDamage": 21,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "4d6+7",
-        "count": 4,
-        "sides": 6,
-        "modifier": 7
-      },
       "reachFeet": 10
     },
     {
       "name": "Hammer Throw",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 23,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "3d10+7",
+            "count": 3,
+            "sides": 10,
+            "modifier": 7
+          }
+        },
+        {
+          "averageDamage": 4,
+          "damageType": "Fire",
+          "damageRoll": {
+            "expression": "1d8",
+            "count": 1,
+            "sides": 8
+          }
+        }
+      ],
+      "sourceText": "Hammer Throw. Ranged Attack Roll: +11, range 60/240 ft. Hit: 23 (3d10 + 7) Bludgeoning damage plus 4 (1d8) Fire damage, and the target is pushed up to 15 feet straight away from the giant and has Disadvantage on the next attack roll it makes before the end of its next turn.",
+      "path": "statSections[0].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 11,
-      "averageDamage": 23,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "3d10+7",
-        "count": 3,
-        "sides": 10,
-        "modifier": 7
-      },
       "rangeFeet": {
         "normal": 60,
         "long": 240

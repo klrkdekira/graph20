@@ -132,5 +132,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell             | School        | Special |\n| :---------------- | :------------ | :------ |\n| Conjure Celestial | Conjuration   | C       |\n| Divine Word       | Evocation     |    -    |\n| Etherealness      | Conjuration   |    -    |\n| Fire Storm        | Evocation     |    -    |\n| Plane Shift       | Conjuration   | M       |\n| Regenerate        | Transmutation |    -    |\n| Resurrection      | Necromancy    | M       |\n| Symbol            | Abjuration    | M       |"
 }

@@ -71,7 +71,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The wyvern makes one Bite attack and one Sting attack.\n\nBite. Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Piercing damage.\n\nSting. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage plus 24 (7d6) Poison damage, and the target has the Poisoned condition until the start of the wyvern's next turn."
+      "rulesText": "Multiattack. The wyvern makes one Bite attack and one Sting attack.\n\nBite. Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Piercing damage.\n\nSting. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage plus 24 (7d6) Poison damage, and the target has the Poisoned condition until the start of the wyvern's next turn.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.269",
+        "heading": "Actions",
+        "lineStart": 26640,
+        "lineEnd": 26646
+      }
     }
   ],
   "rulesText": "Large Dragon, Unaligned\n\nAC 14\nInitiative +0 (10)\nHP 127 (15d10 + 45)\nSpeed 30 ft., Fly 80 ft.\n\nSkills Perception +4\nSenses Darkvision 120 ft.; Passive Perception 14\nLanguages None\nCR 6 (XP 2,300; PB +3)\n\nActions\n\nMultiattack. The wyvern makes one Bite attack and one Sting attack.\n\nBite. Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Piercing damage.\n\nSting. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage plus 24 (7d6) Poison damage, and the target has the Poisoned condition until the start of the wyvern's next turn.",
@@ -79,29 +86,52 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 13,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d8+4",
+            "count": 2,
+            "sides": 8,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Piercing damage.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 7,
-      "averageDamage": 13,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d8+4",
-        "count": 2,
-        "sides": 8,
-        "modifier": 4
-      },
       "reachFeet": 5
     },
     {
       "name": "Sting",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 11,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d6+4",
+            "count": 2,
+            "sides": 6,
+            "modifier": 4
+          }
+        },
+        {
+          "averageDamage": 24,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "7d6",
+            "count": 7,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Sting. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage plus 24 (7d6) Poison damage, and the target has the Poisoned condition until the start of the wyvern's next turn.",
+      "path": "statSections[0].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 7,
-      "averageDamage": 11,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d6+4",
-        "count": 2,
-        "sides": 6,
-        "modifier": 4
-      },
       "reachFeet": 10
     }
   ]

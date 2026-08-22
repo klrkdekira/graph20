@@ -132,5 +132,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell               | School      | Special |\n| :------------------ | :---------- | :------ |\n| Eyebite             | Necromancy  | C       |\n| Find the Path       | Divination  | C, M    |\n| Guards and Wards    | Abjuration  | M       |\n| Heroes’ Feast       | Conjuration | M       |\n| Irresistible Dance  | Enchantment | C       |\n| Mass Suggestion     | Enchantment |    -    |\n| Programmed Illusion | Illusion    | M       |\n| True Seeing         | Divination  | M       |"
 }

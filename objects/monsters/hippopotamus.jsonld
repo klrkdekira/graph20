@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Hold Breath. The hippopotamus can hold its breath for 10 minutes."
+      "rulesText": "Hold Breath. The hippopotamus can hold its breath for 10 minutes.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.56",
+        "heading": "Traits",
+        "lineStart": 28192,
+        "lineEnd": 28194
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The hippopotamus makes two Bite attacks.\n\nBite. Melee Attack Roll: +7, reach 5 ft. Hit: 16 (2d10 + 5) Piercing damage."
+      "rulesText": "Multiattack. The hippopotamus makes two Bite attacks.\n\nBite. Melee Attack Roll: +7, reach 5 ft. Hit: 16 (2d10 + 5) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.56",
+        "heading": "Actions",
+        "lineStart": 28196,
+        "lineEnd": 28200
+      }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 14\nInitiative -2 (8)\nHP 82 (11d10 + 22)\nSpeed 30 ft., Swim 30 ft.\n\nSkills Perception +3\nSenses Passive Perception 13\nLanguages None\nCR 4 (XP 1,100; PB +2)\n\nTraits\n\nHold Breath. The hippopotamus can hold its breath for 10 minutes.\n\nActions\n\nMultiattack. The hippopotamus makes two Bite attacks.\n\nBite. Melee Attack Roll: +7, reach 5 ft. Hit: 16 (2d10 + 5) Piercing damage.",
@@ -83,15 +97,22 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 16,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d10+5",
+            "count": 2,
+            "sides": 10,
+            "modifier": 5
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +7, reach 5 ft. Hit: 16 (2d10 + 5) Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 7,
-      "averageDamage": 16,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d10+5",
-        "count": 2,
-        "sides": 10,
-        "modifier": 5
-      },
       "reachFeet": 5
     }
   ]

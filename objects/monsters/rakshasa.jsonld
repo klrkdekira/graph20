@@ -73,11 +73,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Greater Magic Resistance. The rakshasa automatically succeeds on saving throws against spells and other magical effects, and the attack rolls of spells automatically miss it. Without the rakshasa's permission, no spell can observe the rakshasa remotely or detect its thoughts, creature type, or alignment.\n\nFiendish Restoration. If the rakshasa dies outside the Nine Hells, its body turns to ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells."
+      "rulesText": "Greater Magic Resistance. The rakshasa automatically succeeds on saving throws against spells and other magical effects, and the attack rolls of spells automatically miss it. Without the rakshasa's permission, no spell can observe the rakshasa remotely or detect its thoughts, creature type, or alignment.\n\nFiendish Restoration. If the rakshasa dies outside the Nine Hells, its body turns to ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.195",
+        "heading": "Traits",
+        "lineStart": 24163,
+        "lineEnd": 24167
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The rakshasa makes three Cursed Touch attacks.\n\nCursed Touch. Melee Attack Roll: +10, reach 5 ft. Hit: 12 (2d6 + 5) Slashing damage plus 19 (3d12) Necrotic damage. If the target is a creature, it is cursed. While cursed, the target gains no benefit from finishing a Short or Long Rest.\n\nBaleful Command (Recharge 5–6). Wisdom Saving Throw: DC 18, each enemy in a 30-foot Emanation originating from the rakshasa. Failure: 28 (8d6) Psychic damage, and the target has the Frightened and Incapacitated conditions until the start of the rakshasa's next turn.\n\nSpellcasting. The rakshasa casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 18):\n\nAt Will: Detect Magic, Detect Thoughts, Disguise Self, Mage Hand, Minor Illusion\n\n1/Day Each: Fly, Invisibility, Major Image, Plane Shift"
+      "rulesText": "Multiattack. The rakshasa makes three Cursed Touch attacks.\n\nCursed Touch. Melee Attack Roll: +10, reach 5 ft. Hit: 12 (2d6 + 5) Slashing damage plus 19 (3d12) Necrotic damage. If the target is a creature, it is cursed. While cursed, the target gains no benefit from finishing a Short or Long Rest.\n\nBaleful Command (Recharge 5–6). Wisdom Saving Throw: DC 18, each enemy in a 30-foot Emanation originating from the rakshasa. Failure: 28 (8d6) Psychic damage, and the target has the Frightened and Incapacitated conditions until the start of the rakshasa's next turn.\n\nSpellcasting. The rakshasa casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 18):\n\nAt Will: Detect Magic, Detect Thoughts, Disguise Self, Mage Hand, Minor Illusion\n\n1/Day Each: Fly, Invisibility, Major Image, Plane Shift",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.195",
+        "heading": "Actions",
+        "lineStart": 24169,
+        "lineEnd": 24181
+      }
     }
   ],
   "rulesText": "Medium Fiend, Lawful Evil\n\nAC 17\nInitiative +8 (18)\nHP 221 (26d8 + 104)\nSpeed 40 ft.\n\nSkills Deception +10, Insight +8, Perception +8\nVulnerabilities Piercing damage from weapons wielded by creatures under the effect of a Bless spell\nImmunities Charmed, Frightened\nSenses Truesight 60 ft.; Passive Perception 18\nLanguages Common, Infernal\nCR 13 (XP 10,000; PB +5)\n\nTraits\n\nGreater Magic Resistance. The rakshasa automatically succeeds on saving throws against spells and other magical effects, and the attack rolls of spells automatically miss it. Without the rakshasa's permission, no spell can observe the rakshasa remotely or detect its thoughts, creature type, or alignment.\n\nFiendish Restoration. If the rakshasa dies outside the Nine Hells, its body turns to ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nActions\n\nMultiattack. The rakshasa makes three Cursed Touch attacks.\n\nCursed Touch. Melee Attack Roll: +10, reach 5 ft. Hit: 12 (2d6 + 5) Slashing damage plus 19 (3d12) Necrotic damage. If the target is a creature, it is cursed. While cursed, the target gains no benefit from finishing a Short or Long Rest.\n\nBaleful Command (Recharge 5–6). Wisdom Saving Throw: DC 18, each enemy in a 30-foot Emanation originating from the rakshasa. Failure: 28 (8d6) Psychic damage, and the target has the Frightened and Incapacitated conditions until the start of the rakshasa's next turn.\n\nSpellcasting. The rakshasa casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 18):\n\nAt Will: Detect Magic, Detect Thoughts, Disguise Self, Mage Hand, Minor Illusion\n\n1/Day Each: Fly, Invisibility, Major Image, Plane Shift",
@@ -93,15 +107,31 @@
     {
       "name": "Cursed Touch",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 12,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "2d6+5",
+            "count": 2,
+            "sides": 6,
+            "modifier": 5
+          }
+        },
+        {
+          "averageDamage": 19,
+          "damageType": "Necrotic",
+          "damageRoll": {
+            "expression": "3d12",
+            "count": 3,
+            "sides": 12
+          }
+        }
+      ],
+      "sourceText": "Cursed Touch. Melee Attack Roll: +10, reach 5 ft. Hit: 12 (2d6 + 5) Slashing damage plus 19 (3d12) Necrotic damage. If the target is a creature, it is cursed. While cursed, the target gains no benefit from finishing a Short or Long Rest.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 10,
-      "averageDamage": 12,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "2d6+5",
-        "count": 2,
-        "sides": 6,
-        "modifier": 5
-      },
       "reachFeet": 5
     }
   ]

@@ -10,11 +10,20 @@ from jsonschema import Draft202012Validator
 from referencing import Registry, Resource
 
 from srdlib import (
+    BUNDLE_NAME,
     MANIFEST_NAME,
     SCHEMA_FOR_COLLECTION,
     iter_object_files,
     load_json,
 )
+
+AUXILIARY_SCHEMAS = {
+    BUNDLE_NAME: "bundle.schema.json",
+    "search-index.json": "search-index.schema.json",
+    "collection-index.json": "collection-index.schema.json",
+    "sources/source-coverage.json": "coverage.schema.json",
+    "sources/source-review-ledger.json": "review-ledger.schema.json",
+}
 
 
 def main():
@@ -52,11 +61,22 @@ def main():
     for error in system_validator.iter_errors(manifest):
         errors.append(f"{MANIFEST_NAME}: {error.message}")
 
+    auxiliary_count = 0
+    for relative, schema_name in AUXILIARY_SCHEMAS.items():
+        document = load_json(root / "objects" / relative)
+        validator = Draft202012Validator(load_json(systems / schema_name), registry=registry)
+        auxiliary_count += 1
+        for error in validator.iter_errors(document):
+            errors.append(f"{relative}: {error.message}")
+
     if errors:
         print("\n".join(errors[:40]))
         print(f"FAIL: {len(errors)} schema errors across {count} records")
         sys.exit(1)
-    print(f"OK: {count} records + manifest validate against Draft 2020-12 schemas")
+    print(
+        f"OK: {count} records, manifest, and {auxiliary_count} auxiliary artifacts "
+        "validate against Draft 2020-12 schemas"
+    )
 
 
 if __name__ == "__main__":

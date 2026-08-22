@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.96",
     "heading": "Dragon Orb",
-    "lineStart": 15535,
-    "lineEnd": 15541
+    "lineStart": 15536,
+    "lineEnd": 15542
   },
   "columns": [
     "Spell",
@@ -74,5 +74,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                         | Charge Cost |\n| :---------------------------- | :---------- |\n| Cure Wounds (level 9 version) | 4           |\n| Daylight                      | 1           |\n| Death Ward                    | 2           |\n| Detect Magic                  | 0           |\n| Scrying (save DC 18)          | 3           |"
 }

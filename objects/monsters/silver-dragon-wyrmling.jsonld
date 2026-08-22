@@ -72,7 +72,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Piercing damage.\n\nCold Breath (Recharge 5–6). Constitution Saving\nThrow: DC 13, each creature in a 15-foot Cone. Failure: 18 (4d8) Cold damage. Success: Half damage.\n\nParalyzing Breath. Constitution Saving Throw: DC 13, each creature in a 15-foot Cone. First Failure: The target has the Incapacitated condition until the end of its next turn, when it repeats the save. Second Failure: The target has the Paralyzed condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+      "rulesText": "Multiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Piercing damage.\n\nCold Breath (Recharge 5–6). Constitution Saving\nThrow: DC 13, each creature in a 15-foot Cone. Failure: 18 (4d8) Cold damage. Success: Half damage.\n\nParalyzing Breath. Constitution Saving Throw: DC 13, each creature in a 15-foot Cone. First Failure: The target has the Incapacitated condition until the end of its next turn, when it repeats the save. Second Failure: The target has the Paralyzed condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.215",
+        "heading": "Actions",
+        "lineStart": 24791,
+        "lineEnd": 24800
+      }
     }
   ],
   "rulesText": "Medium Dragon (Metallic), Lawful Good\n\nAC 17\nInitiative +2 (12)\nHP 45 (6d8 + 18)\nSpeed 30 ft., Fly 60 ft.\n\nSkills Perception +4, Stealth +2\nImmunities Cold\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14\nLanguages Draconic\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Piercing damage.\n\nCold Breath (Recharge 5–6). Constitution Saving\nThrow: DC 13, each creature in a 15-foot Cone. Failure: 18 (4d8) Cold damage. Success: Half damage.\n\nParalyzing Breath. Constitution Saving Throw: DC 13, each creature in a 15-foot Cone. First Failure: The target has the Incapacitated condition until the end of its next turn, when it repeats the save. Second Failure: The target has the Paralyzed condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.",
@@ -80,15 +87,22 @@
     {
       "name": "Rend",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 9,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d10+4",
+            "count": 1,
+            "sides": 10,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Rend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Piercing damage.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 9,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d10+4",
-        "count": 1,
-        "sides": 10,
-        "modifier": 4
-      },
       "reachFeet": 5
     }
   ]

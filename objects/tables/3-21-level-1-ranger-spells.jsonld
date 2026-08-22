@@ -202,5 +202,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                     | School        | Special |\n| :------------------------ | :------------ | :------ |\n| Alarm                     | Abjuration    | R       |\n| Animal Friendship         | Enchantment   |    -    |\n| Cure Wounds               | Abjuration    |    -    |\n| Detect Magic              | Divination    | C, R    |\n| Detect Poison and Disease | Divination    | C, R    |\n| Ensnaring Strike          | Conjuration   | C       |\n| Entangle                  | Conjuration   | C       |\n| Fog Cloud                 | Conjuration   | C       |\n| Goodberry                 | Conjuration   |    -    |\n| Hunter’s Mark             | Divination    | C       |\n| Jump                      | Transmutation |    -    |\n| Longstrider               | Transmutation |    -    |\n| Speak with Animals        | Divination    | R       |"
 }

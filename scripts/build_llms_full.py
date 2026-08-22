@@ -14,6 +14,7 @@ from srdlib import (
     BASE,
     COLLECTIONS,
     MANIFEST_NAME,
+    iter_text_fragments,
     iter_object_files,
     load_json,
 )
@@ -27,37 +28,27 @@ def format_record(record) -> str:
             f"source: {locator['chapter']} §{locator['section']} "
             f"(lines {locator['lineStart']}-{locator['lineEnd']})"
         )
-    for key in (
-        "level",
-        "school",
-        "classAvailability",
-        "castingTime",
-        "range",
-        "components",
-        "duration",
-        "category",
-        "prerequisite",
-        "itemCategory",
-        "rarity",
-        "requiresAttunement",
-        "sizeTypeAlignment",
-        "armorClass",
-        "hitPoints",
-        "speed",
-        "challenge",
-    ):
-        if key in record:
-            value = record[key]
-            if isinstance(value, list):
-                value = ", ".join(str(v) for v in value)
-            lines.append(f"{key}: {value}")
-    if "columns" in record:
-        lines.append("columns: " + " | ".join(record["columns"]))
-        for row in record.get("rows", []):
-            lines.append("row: " + " | ".join(c["value"] for c in row["cells"]))
-    if record.get("rulesText"):
+    fragments = list(iter_text_fragments(record))
+    # A larger source-faithful prose/table fragment already carries any
+    # contained nested/scalar value exactly.  Keeping only maximal strings
+    # avoids duplicate monster sections and table cells while remaining a
+    # complete recursive projection.
+    selected = []
+    seen = set()
+    for fragment in sorted(fragments, key=lambda f: -len(f["text"])):
+        value = fragment["text"]
+        if value == record["name"] or value in seen:
+            continue
+        if any(value in existing["text"] for existing in selected):
+            continue
+        seen.add(value)
+        selected.append(fragment)
+    selected.sort(key=lambda f: fragments.index(f))
+    for fragment in selected:
+        value = fragment["text"]
         lines.append("")
-        lines.append(record["rulesText"])
+        lines.append(f"[{fragment['path']}]")
+        lines.append(value)
     return "\n".join(lines)
 
 
@@ -87,8 +78,9 @@ def build(root: Path) -> None:
         for record in records:
             out.append(format_record(record))
             out.append("")
-    (root / "llms-full.txt").write_text("\n".join(out) + "\n", encoding="utf-8")
-    print(f"llms-full.txt: {len(out)} lines")
+    output = "\n".join(out) + "\n"
+    (root / "llms-full.txt").write_text(output, encoding="utf-8")
+    print(f"llms-full.txt: {len(output.splitlines())} physical lines")
 
 
 def main():

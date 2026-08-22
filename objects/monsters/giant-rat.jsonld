@@ -70,12 +70,49 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Pack Tactics. The rat has Advantage on an attack roll against a creature if at least one of the rat's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+      "rulesText": "Pack Tactics. The rat has Advantage on an attack roll against a creature if at least one of the rat's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.43",
+        "heading": "Traits",
+        "lineStart": 27843,
+        "lineEnd": 27845
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +5, reach 5 feet. Hit: 5 (1d4 + 3) Piercing damage."
+      "rulesText": "Bite. Melee Attack Roll: +5, reach 5 feet. Hit: 5 (1d4 + 3) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.43",
+        "heading": "Actions",
+        "lineStart": 27847,
+        "lineEnd": 27849
+      }
     }
   ],
-  "rulesText": "Small Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 7 (2d6)\nSpeed 30 ft., Climb 30 ft.\n\nSkills Perception +2\nSenses Darkvision 60 ft.; Passive Perception 12\nLanguages None\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nPack Tactics. The rat has Advantage on an attack roll against a creature if at least one of the rat's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 feet. Hit: 5 (1d4 + 3) Piercing damage."
+  "rulesText": "Small Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 7 (2d6)\nSpeed 30 ft., Climb 30 ft.\n\nSkills Perception +2\nSenses Darkvision 60 ft.; Passive Perception 12\nLanguages None\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nPack Tactics. The rat has Advantage on an attack roll against a creature if at least one of the rat's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 feet. Hit: 5 (1d4 + 3) Piercing damage.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 5,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d4+3",
+            "count": 1,
+            "sides": 4,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +5, reach 5 feet. Hit: 5 (1d4 + 3) Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
+      "attackBonus": 5,
+      "reachFeet": 5
+    }
+  ]
 }

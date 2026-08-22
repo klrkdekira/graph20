@@ -71,15 +71,36 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Loathsome Limbs (4/Day). If the troll ends any turn Bloodied and took 15+ Slashing damage during that turn, one of the troll's limbs is severed, falls into the troll's space, and becomes a Troll Limb. The limb acts immediately after the troll's turn. The troll has 1 Exhaustion level for each missing limb, and it grows replacement limbs the next time it regains Hit Points.\n\nRegeneration. The troll regains 15 Hit Points at the start of each of its turns. If the troll takes Acid or Fire damage, this trait doesn't function on the troll's next turn. The troll dies only if it starts its turn with 0 Hit Points and doesn't regenerate."
+      "rulesText": "Loathsome Limbs (4/Day). If the troll ends any turn Bloodied and took 15+ Slashing damage during that turn, one of the troll's limbs is severed, falls into the troll's space, and becomes a Troll Limb. The limb acts immediately after the troll's turn. The troll has 1 Exhaustion level for each missing limb, and it grows replacement limbs the next time it regains Hit Points.\n\nRegeneration. The troll regains 15 Hit Points at the start of each of its turns. If the troll takes Acid or Fire damage, this trait doesn't function on the troll's next turn. The troll dies only if it starts its turn with 0 Hit Points and doesn't regenerate.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.242",
+        "heading": "Traits",
+        "lineStart": 25707,
+        "lineEnd": 25711
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The troll makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Slashing damage."
+      "rulesText": "Multiattack. The troll makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Slashing damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.242",
+        "heading": "Actions",
+        "lineStart": 25713,
+        "lineEnd": 25717
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Charge. The troll moves up to half its Speed straight toward an enemy it can see."
+      "rulesText": "Charge. The troll moves up to half its Speed straight toward an enemy it can see.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.242",
+        "heading": "Bonus Actions",
+        "lineStart": 25719,
+        "lineEnd": 25721
+      }
     }
   ],
   "rulesText": "Large Giant, Chaotic Evil\n\nAC 15\nInitiative +1 (11)\nHP 94 (9d10 + 45)\nSpeed 30 ft.\n\nSkills Perception +5\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages Giant\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nLoathsome Limbs (4/Day). If the troll ends any turn Bloodied and took 15+ Slashing damage during that turn, one of the troll's limbs is severed, falls into the troll's space, and becomes a Troll Limb. The limb acts immediately after the troll's turn. The troll has 1 Exhaustion level for each missing limb, and it grows replacement limbs the next time it regains Hit Points.\n\nRegeneration. The troll regains 15 Hit Points at the start of each of its turns. If the troll takes Acid or Fire damage, this trait doesn't function on the troll's next turn. The troll dies only if it starts its turn with 0 Hit Points and doesn't regenerate.\n\nActions\n\nMultiattack. The troll makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Slashing damage.\n\nBonus Actions\n\nCharge. The troll moves up to half its Speed straight toward an enemy it can see.",
@@ -87,15 +108,22 @@
     {
       "name": "Rend",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 11,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "2d6+4",
+            "count": 2,
+            "sides": 6,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Rend. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Slashing damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 7,
-      "averageDamage": 11,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "2d6+4",
-        "count": 2,
-        "sides": 6,
-        "modifier": 4
-      },
       "reachFeet": 10
     }
   ]

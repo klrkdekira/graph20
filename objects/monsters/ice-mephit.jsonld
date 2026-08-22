@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Death Burst. The mephit explodes when it dies. Constitution Saving Throw: DC 10, each creature in a 5-foot Emanation originating from the mephit. Failure: 5 (2d4) Cold damage. Success: Half damage."
+      "rulesText": "Death Burst. The mephit explodes when it dies. Constitution Saving Throw: DC 10, each creature in a 5-foot Emanation originating from the mephit. Failure: 5 (2d4) Cold damage. Success: Half damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.162",
+        "heading": "Traits",
+        "lineStart": 23112,
+        "lineEnd": 23114
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Claw. Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Slashing damage plus 2 (1d4) Cold damage.\n\nFog Cloud (1/Day). The mephit casts Fog Cloud, requiring no spell components and using Charisma as the spellcasting ability.\n\nFrost Breath (Recharge 6). Constitution Saving Throw: DC 10, each creature in a 15-foot Cone. Failure: 7 (3d4) Cold damage. Success: Half damage."
+      "rulesText": "Claw. Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Slashing damage plus 2 (1d4) Cold damage.\n\nFog Cloud (1/Day). The mephit casts Fog Cloud, requiring no spell components and using Charisma as the spellcasting ability.\n\nFrost Breath (Recharge 6). Constitution Saving Throw: DC 10, each creature in a 15-foot Cone. Failure: 7 (3d4) Cold damage. Success: Half damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.162",
+        "heading": "Actions",
+        "lineStart": 23116,
+        "lineEnd": 23122
+      }
     }
   ],
   "rulesText": "Small Elemental, Neutral Evil\n\nAC 11\nInitiative +1 (11)\nHP 21 (6d6)\nSpeed 30 ft., Fly 30 ft.\n\nSkills Perception +2, Stealth +3\nVulnerabilities Fire\nImmunities Cold, Poison; Exhaustion, Poisoned\nSenses Darkvision 60 ft.; Passive Perception 12\nLanguages Primordial (Aquan, Auran)\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nDeath Burst. The mephit explodes when it dies. Constitution Saving Throw: DC 10, each creature in a 5-foot Emanation originating from the mephit. Failure: 5 (2d4) Cold damage. Success: Half damage.\n\nActions\n\nClaw. Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Slashing damage plus 2 (1d4) Cold damage.\n\nFog Cloud (1/Day). The mephit casts Fog Cloud, requiring no spell components and using Charisma as the spellcasting ability.\n\nFrost Breath (Recharge 6). Constitution Saving Throw: DC 10, each creature in a 15-foot Cone. Failure: 7 (3d4) Cold damage. Success: Half damage.",
@@ -92,15 +106,31 @@
     {
       "name": "Claw",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 3,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d4+1",
+            "count": 1,
+            "sides": 4,
+            "modifier": 1
+          }
+        },
+        {
+          "averageDamage": 2,
+          "damageType": "Cold",
+          "damageRoll": {
+            "expression": "1d4",
+            "count": 1,
+            "sides": 4
+          }
+        }
+      ],
+      "sourceText": "Claw. Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Slashing damage plus 2 (1d4) Cold damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 3,
-      "averageDamage": 3,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d4+1",
-        "count": 1,
-        "sides": 4,
-        "modifier": 1
-      },
       "reachFeet": 5
     }
   ]

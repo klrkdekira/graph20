@@ -85,5 +85,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Ability      | Score Measures ...                  |\n| :----------- | :---------------------------------- |\n| Strength     | Physical might                      |\n| Dexterity    | Agility, reflexes, and balance      |\n| Constitution | Health and stamina                  |\n| Intelligence | Reasoning and memory                |\n| Wisdom       | Perceptiveness and mental fortitude |\n| Charisma     | Confidence, poise, and charm        |"
 }

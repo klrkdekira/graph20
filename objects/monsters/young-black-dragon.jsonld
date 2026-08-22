@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Amphibious. The dragon can breathe air and water."
+      "rulesText": "Amphibious. The dragon can breathe air and water.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.27",
+        "heading": "Traits",
+        "lineStart": 18759,
+        "lineEnd": 18761
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 9 (2d4 + 4) Slashing damage plus 3 (1d6) Acid damage.\n\nAcid Breath (Recharge 5–6). Dexterity Saving Throw: DC 14, each creature in a 30-foot-long, 5-foot-wide Line. Failure: 49 (14d6) Acid damage. Success: Half damage."
+      "rulesText": "Multiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 9 (2d4 + 4) Slashing damage plus 3 (1d6) Acid damage.\n\nAcid Breath (Recharge 5–6). Dexterity Saving Throw: DC 14, each creature in a 30-foot-long, 5-foot-wide Line. Failure: 49 (14d6) Acid damage. Success: Half damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.27",
+        "heading": "Actions",
+        "lineStart": 18763,
+        "lineEnd": 18769
+      }
     }
   ],
   "rulesText": "Large Dragon (Chromatic), Chaotic Evil\n\nAC 18\nInitiative +5 (15)\nHP 127 (15d10 + 45)\nSpeed 40 ft., Fly 80 ft., Swim 40 ft.\n\nSkills Perception +6, Stealth +5\nImmunities Acid\nSenses Blindsight 30 ft., Darkvision 120 ft.;\n\nPassive Perception 16\n\nLanguages Common, Draconic\nCR 7 (XP 2,900; PB +3)\n\nTraits\n\nAmphibious. The dragon can breathe air and water.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 9 (2d4 + 4) Slashing damage plus 3 (1d6) Acid damage.\n\nAcid Breath (Recharge 5–6). Dexterity Saving Throw: DC 14, each creature in a 30-foot-long, 5-foot-wide Line. Failure: 49 (14d6) Acid damage. Success: Half damage.",
@@ -84,15 +98,31 @@
     {
       "name": "Rend",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 9,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "2d4+4",
+            "count": 2,
+            "sides": 4,
+            "modifier": 4
+          }
+        },
+        {
+          "averageDamage": 3,
+          "damageType": "Acid",
+          "damageRoll": {
+            "expression": "1d6",
+            "count": 1,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Rend. Melee Attack Roll: +7, reach 10 ft. Hit: 9 (2d4 + 4) Slashing damage plus 3 (1d6) Acid damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 7,
-      "averageDamage": 9,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "2d4+4",
-        "count": 2,
-        "sides": 4,
-        "modifier": 4
-      },
       "reachFeet": 10
     }
   ]

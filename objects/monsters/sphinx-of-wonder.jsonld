@@ -72,15 +72,36 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Magic Resistance. The sphinx has Advantage on saving throws against spells and other magical effects."
+      "rulesText": "Magic Resistance. The sphinx has Advantage on saving throws against spells and other magical effects.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.226",
+        "heading": "Traits",
+        "lineStart": 25125,
+        "lineEnd": 25127
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage plus 7 (2d6) Radiant damage."
+      "rulesText": "Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage plus 7 (2d6) Radiant damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.226",
+        "heading": "Actions",
+        "lineStart": 25129,
+        "lineEnd": 25131
+      }
     },
     {
       "name": "Reactions",
-      "rulesText": "Burst of Ingenuity (2/Day). Trigger: The sphinx or another creature within 30 feet makes an ability check or a saving throw. Response: The sphinx adds 2 to the roll."
+      "rulesText": "Burst of Ingenuity (2/Day). Trigger: The sphinx or another creature within 30 feet makes an ability check or a saving throw. Response: The sphinx adds 2 to the roll.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.226",
+        "heading": "Reactions",
+        "lineStart": 25133,
+        "lineEnd": 25135
+      }
     }
   ],
   "rulesText": "Tiny Celestial, Lawful Good\n\nAC 13\nInitiative +3 (13)\nHP 24 (7d4 + 7)\nSpeed 20 ft., Fly 40 ft.\n\nSkills Arcana +4, Religion +4, Stealth +5\nResistances Necrotic, Psychic, Radiant\nSenses Darkvision 60 ft.; Passive Perception 11\nLanguages Celestial, Common\nCR 1 (XP 200; PB +2)\n\nTraits\n\nMagic Resistance. The sphinx has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage plus 7 (2d6) Radiant damage.\n\nReactions\n\nBurst of Ingenuity (2/Day). Trigger: The sphinx or another creature within 30 feet makes an ability check or a saving throw. Response: The sphinx adds 2 to the roll.",
@@ -88,15 +109,31 @@
     {
       "name": "Rend",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 5,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d4+3",
+            "count": 1,
+            "sides": 4,
+            "modifier": 3
+          }
+        },
+        {
+          "averageDamage": 7,
+          "damageType": "Radiant",
+          "damageRoll": {
+            "expression": "2d6",
+            "count": 2,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage plus 7 (2d6) Radiant damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 5,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d4+3",
-        "count": 1,
-        "sides": 4,
-        "modifier": 3
-      },
       "reachFeet": 5
     }
   ]

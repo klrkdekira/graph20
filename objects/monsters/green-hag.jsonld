@@ -70,11 +70,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Amphibious. The hag can breathe air and water.\n\nCoven Magic. While within 30 feet of at least two hag allies, the hag can cast one of the following spells, requiring no Material components, using the spell's normal casting time, and using Intelligence as the spellcasting ability (spell save DC 11): Augury, Find Familiar, Identify, Locate Object, Scrying, or Unseen Servant. The hag must finish a Long Rest before using this trait to cast that spell again.\n\nMimicry. The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations only with a successful DC 14 Wisdom (Insight) check."
+      "rulesText": "Amphibious. The hag can breathe air and water.\n\nCoven Magic. While within 30 feet of at least two hag allies, the hag can cast one of the following spells, requiring no Material components, using the spell's normal casting time, and using Intelligence as the spellcasting ability (spell save DC 11): Augury, Find Familiar, Identify, Locate Object, Scrying, or Unseen Servant. The hag must finish a Long Rest before using this trait to cast that spell again.\n\nMimicry. The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations only with a successful DC 14 Wisdom (Insight) check.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.121",
+        "heading": "Traits",
+        "lineStart": 21822,
+        "lineEnd": 21828
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The hag makes two Claw attacks.\n\nClaw. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing damage plus 3 (1d6) Poison damage.\n\nSpellcasting. The hag casts one of the following spells, requiring no Material components and using Wisdom\n\nas the spellcasting ability (spell save DC 12, +4 to hit with spell attacks):\n\nAt Will: Dancing Lights, Disguise Self (24-hour duration), Invisibility (self only, and the hag leaves no tracks while Invisible), Minor Illusion, Ray of Sickness (level 3 version)"
+      "rulesText": "Multiattack. The hag makes two Claw attacks.\n\nClaw. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing damage plus 3 (1d6) Poison damage.\n\nSpellcasting. The hag casts one of the following spells, requiring no Material components and using Wisdom\n\nas the spellcasting ability (spell save DC 12, +4 to hit with spell attacks):\n\nAt Will: Dancing Lights, Disguise Self (24-hour duration), Invisibility (self only, and the hag leaves no tracks while Invisible), Minor Illusion, Ray of Sickness (level 3 version)",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.121",
+        "heading": "Actions",
+        "lineStart": 21830,
+        "lineEnd": 21840
+      }
     }
   ],
   "rulesText": "Medium Fey, Neutral Evil\n\nAC 17 Initiative +1 (11)\n\nHP 82 (11d8 + 33)\nSpeed 30 ft., Swim 30 ft.\n\nSkills Arcana +5, Deception +4, Perception +4, Stealth +3\nSenses Darkvision 60 ft.; Passive Perception 14\nLanguages Common, Elvish, Sylvan\nCR 3 (XP 700; PB +2)\n\nTraits\n\nAmphibious. The hag can breathe air and water.\n\nCoven Magic. While within 30 feet of at least two hag allies, the hag can cast one of the following spells, requiring no Material components, using the spell's normal casting time, and using Intelligence as the spellcasting ability (spell save DC 11): Augury, Find Familiar, Identify, Locate Object, Scrying, or Unseen Servant. The hag must finish a Long Rest before using this trait to cast that spell again.\n\nMimicry. The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations only with a successful DC 14 Wisdom (Insight) check.\n\nActions\n\nMultiattack. The hag makes two Claw attacks.\n\nClaw. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing damage plus 3 (1d6) Poison damage.\n\nSpellcasting. The hag casts one of the following spells, requiring no Material components and using Wisdom\n\nas the spellcasting ability (spell save DC 12, +4 to hit with spell attacks):\n\nAt Will: Dancing Lights, Disguise Self (24-hour duration), Invisibility (self only, and the hag leaves no tracks while Invisible), Minor Illusion, Ray of Sickness (level 3 version)",
@@ -82,15 +96,31 @@
     {
       "name": "Claw",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 8,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d8+4",
+            "count": 1,
+            "sides": 8,
+            "modifier": 4
+          }
+        },
+        {
+          "averageDamage": 3,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "1d6",
+            "count": 1,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Claw. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing damage plus 3 (1d6) Poison damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 8,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d8+4",
-        "count": 1,
-        "sides": 8,
-        "modifier": 4
-      },
       "reachFeet": 5
     }
   ]

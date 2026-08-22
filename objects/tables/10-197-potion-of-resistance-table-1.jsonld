@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.197",
     "heading": "Potion of Resistance",
-    "lineStart": 16682,
-    "lineEnd": 16688
+    "lineStart": 16683,
+    "lineEnd": 16689
   },
   "columns": [
     "1d10",
@@ -106,5 +106,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| 1d10 | Damage Type | 1d10 | Damage Type |\n| :--- | :---------- | :--- | :---------- |\n| 1    | Acid        | 6    | Necrotic    |\n| 2    | Cold        | 7    | Poison      |\n| 3    | Fire        | 8    | Psychic     |\n| 4    | Force       | 9    | Radiant     |\n| 5    | Lightning   | 10   | Thunder     |"
 }

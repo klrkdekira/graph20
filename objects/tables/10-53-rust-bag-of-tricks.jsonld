@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.53",
     "heading": "Bag of Tricks",
-    "lineStart": 15080,
-    "lineEnd": 15085
+    "lineStart": 15081,
+    "lineEnd": 15086
   },
   "columns": [
     "1d8",
@@ -89,5 +89,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| 1d8 | Creature | 1d8 | Creature   |\n| :--- | :------- | :--- | :--------- |\n| 1   | Rat      | 5   | Giant Goat |\n| 2   | Owl      | 6   | Giant Boar |\n| 3   | Mastiff  | 7   | Lion       |\n| 4   | Goat     | 8   | Brown Bear |"
 }

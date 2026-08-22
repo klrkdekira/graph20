@@ -69,11 +69,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Pack Tactics. The baboon has Advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+      "rulesText": "Pack Tactics. The baboon has Advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.6",
+        "heading": "Traits",
+        "lineStart": 26871,
+        "lineEnd": 26873
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +1, reach 5 ft. Hit: 1 (1d4 - 1) Piercing damage."
+      "rulesText": "Bite. Melee Attack Roll: +1, reach 5 ft. Hit: 1 (1d4 - 1) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.6",
+        "heading": "Actions",
+        "lineStart": 26875,
+        "lineEnd": 26877
+      }
     }
   ],
   "rulesText": "Small Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 3 (1d6)\nSpeed 30 ft., Climb 30 ft.\n\nSenses Passive Perception 11\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nPack Tactics. The baboon has Advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBite. Melee Attack Roll: +1, reach 5 ft. Hit: 1 (1d4 - 1) Piercing damage.",
@@ -81,15 +95,22 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 1,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d4-1",
+            "count": 1,
+            "sides": 4,
+            "modifier": -1
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +1, reach 5 ft. Hit: 1 (1d4 - 1) Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 1,
-      "averageDamage": 1,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d4-1",
-        "count": 1,
-        "sides": 4,
-        "modifier": -1
-      },
       "reachFeet": 5
     }
   ]

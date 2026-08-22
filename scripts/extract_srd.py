@@ -16,6 +16,7 @@ verbatim; known anomalies are documented in SPECIFICATION.md.
 from __future__ import annotations
 
 import argparse
+import html
 import re
 import shutil
 from pathlib import Path
@@ -43,11 +44,22 @@ CANTRIP_RE = re.compile(r"^([A-Za-z]+) Cantrip \(([^)]+)\)")
 FEAT_RE = re.compile(
     r"^(Origin|General|Fighting Style|Epic Boon) Feat(?:\s*\(Prerequisite:\s*(.+?)\))?\s*$"
 )
-RARITIES = "Common|Uncommon|Rare|Very Rare|Legendary|Artifact|Rarity Varies|Varies"
-ITEM_RE = re.compile(
-    r"^(Armor|Potion|Ring|Rod|Scroll|Staff|Wand|Weapon|Wondrous Item)"
-    r"(?:\s*\(([^)]*)\))?,\s*(" + RARITIES + r")(?:\s*\((Requires Attunement[^)]*)\))?"
+RARITY_VALUES = (
+    "Rarity Varies",
+    "Very Rare",
+    "Legendary",
+    "Uncommon",
+    "Artifact",
+    "Common",
+    "Varies",
+    "Rare",
 )
+RARITIES = "|".join(RARITY_VALUES)
+ITEM_START_RE = re.compile(
+    r"^(Armor|Potion|Ring|Rod|Scroll|Staff|Wand|Weapon|Wondrous Item)"
+    r"(?:\s*\(([^)]*)\))?,\s*(.+)$"
+)
+RARITY_RE = re.compile(rf"\b({RARITIES})\b(?:\s*\(([^)]*)\))?")
 MONSTER_RE = re.compile(r"^(Tiny|Small|Medium|Large|Huge|Gargantuan)\b[^.]*,")
 MONSTER_FOLD_TITLES = {
     "Traits",
@@ -66,6 +78,31 @@ STAT_LABEL_HEADING_RE = re.compile(
 )
 DICE_RE = re.compile(r"^(\d+)d(\d+)(?:\s*([+-])\s*(\d+))?$")
 ABILITIES = ("STR", "DEX", "CON", "INT", "WIS", "CHA")
+
+
+def parse_magic_item_header(header: str):
+    """Parse every rarity variant and attunement clause in an item header."""
+    match = ITEM_START_RE.match(header)
+    if not match:
+        return None
+    rarities = []
+    for rarity, detail in RARITY_RE.findall(match.group(3)):
+        if detail.startswith("Requires Attunement"):
+            detail = ""
+        entry = {"rarity": rarity}
+        if detail:
+            entry["variant"] = detail
+        if entry not in rarities:
+            rarities.append(entry)
+    if not rarities:
+        return None
+    attunement = re.search(r"\((Requires Attunement[^)]*)\)", match.group(3))
+    return {
+        "itemCategory": match.group(1),
+        "categoryDetail": match.group(2),
+        "rarities": rarities,
+        "attunementNote": attunement.group(1) if attunement else None,
+    }
 
 
 class Block:
@@ -175,6 +212,7 @@ class Emitter:
         }
 
     def new_record(self, collection, type_name, name, slug_base, locator):
+        name = html.unescape(name)
         slug = self.unique_slug(collection, slug_base)
         record = {
             "@context": CONTEXT_IRI,
@@ -228,6 +266,7 @@ class Emitter:
                 columns, rows = parse_markdown_table(tbl_lines)
                 table["columns"] = columns
                 table["rows"] = rows
+                table["rawText"] = "\n".join(tbl_lines)
                 table_ids.append(table["@id"])
             elif line.startswith("<table>"):
                 table_index += 1
@@ -247,6 +286,7 @@ class Emitter:
                 columns, rows = parse_html_table(line)
                 table["columns"] = columns
                 table["rows"] = rows
+                table["rawText"] = line
                 table_ids.append(table["@id"])
                 idx += 1
             else:
@@ -336,27 +376,41 @@ class Emitter:
         record = self.new_record(
             "magic-items", "MagicItem", block.title, slugify(block.title), locator
         )
-        match = ITEM_RE.match(block.first_body_line())
-        record["itemCategory"] = match.group(1)
-        if match.group(2):
-            record["categoryDetail"] = match.group(2)
-        record["rarity"] = match.group(3)
-        record["requiresAttunement"] = bool(match.group(4))
-        if match.group(4):
-            record["attunementNote"] = match.group(4)
-        text_parts = [block.body]
+        parsed = parse_magic_item_header(block.first_body_line())
+        record["itemCategory"] = parsed["itemCategory"]
+        if parsed["categoryDetail"]:
+            record["categoryDetail"] = parsed["categoryDetail"]
+        if len(parsed["rarities"]) == 1:
+            record["rarity"] = parsed["rarities"][0]["rarity"]
+        else:
+            record["rarities"] = parsed["rarities"]
+        record["requiresAttunement"] = bool(parsed["attunementNote"])
+        if parsed["attunementNote"]:
+            record["attunementNote"] = parsed["attunementNote"]
+
+        # Extract each physical block independently.  Reconstructing one
+        # synthetic string shifts table offsets whenever a heading or leading
+        # blank line is folded into the magic item.
+        text_parts = []
+        table_ids = []
+        prose, ids = self.extract_tables(block, locator)
+        if prose:
+            text_parts.append(prose)
+        table_ids.extend(ids)
         for extra in extra_blocks:
-            text_parts.append(f"{extra.title}\n\n{extra.body}".strip())
-        # tables inside item bodies are rare; preserve them structurally
-        combined = "\n\n".join(part for part in text_parts if part)
-        if "<table>" in combined or re.search(r"(?m)^\|.*?\|$", combined):
-            synthetic = Block(
-                block.title, block.line_start, line_end, combined.split("\n"), block.chapter
+            extra_locator = dict(
+                locator,
+                heading=extra.title,
+                lineStart=extra.line_start,
+                lineEnd=extra.line_end,
             )
-            combined, table_ids = self.extract_tables(synthetic, locator)
-            if table_ids:
-                record["relatedTables"] = [{"@id": tid} for tid in table_ids]
-        record["rulesText"] = combined
+            prose, ids = self.extract_tables(extra, extra_locator)
+            if prose:
+                text_parts.append(f"{extra.title}\n\n{prose}".strip())
+            table_ids.extend(ids)
+        if table_ids:
+            record["relatedTables"] = [{"@id": tid} for tid in table_ids]
+        record["rulesText"] = "\n\n".join(text_parts)
         return record
 
     # -- monsters ---------------------------------------------------------------
@@ -437,7 +491,17 @@ class Emitter:
             record["abilities"] = abilities
 
         sections = [
-            {"name": extra.title, "rulesText": extra.body} for extra in section_extras
+            {
+                "name": extra.title,
+                "rulesText": extra.body,
+                "sourceLocator": {
+                    **locator,
+                    "heading": extra.title,
+                    "lineStart": extra.line_start,
+                    "lineEnd": extra.line_end,
+                },
+            }
+            for extra in section_extras
         ]
         if sections:
             record["statSections"] = sections
@@ -522,7 +586,7 @@ class Emitter:
         record = self.new_record(
             "classes", "CharacterClass", class_name, slugify(class_name), locator
         )
-        core = {}
+        core = []
         tbl_lines = [l.strip() for l in block.body_lines if l.strip().startswith("|") and l.strip().endswith("|")]
         html_table_match = TABLE_RE.search(block.body)
         if tbl_lines:
@@ -530,13 +594,13 @@ class Emitter:
             pairs = [columns] + [[c["value"] for c in r["cells"]] for r in rows]
             for pair in pairs:
                 if len(pair) >= 2 and pair[0] and pair[1]:
-                    core[pair[0]] = pair[1]
+                    core.append({"name": pair[0], "value": pair[1]})
         elif html_table_match:
             columns, rows = parse_html_table(html_table_match.group(0))
             pairs = [columns] + [[c["value"] for c in r["cells"]] for r in rows]
             for pair in pairs:
                 if len(pair) == 2:
-                    core[pair[0]] = pair[1]
+                    core.append({"name": pair[0], "value": pair[1]})
         if core:
             record["coreTraits"] = core
         prose_parts = [re.sub(r"(?m)^\|.*?\|\s*$", "", re.sub(r"^<table>.*</table>$", "", block.body, flags=re.M)).strip()]
@@ -577,11 +641,13 @@ class Emitter:
                     "level": int(feature.group(1)),
                     "name": feature.group(2),
                     "rulesText": prose,
+                    "sourceLocator": entry_locator,
                 }
                 if ids:
                     entry["relatedTables"] = [{"@id": t} for t in ids]
                 if current_subclass is not None:
                     current_subclass["features"].append(entry)
+                    current_subclass["sourceLocator"]["lineEnd"] = nxt.line_end
                 else:
                     features.append(entry)
             elif nxt.title == f"{class_name} Spell List":
@@ -593,6 +659,7 @@ class Emitter:
                 current_subclass["rulesText"] += (
                     "\n\n" + f"{nxt.title}\n\n{nxt.body}".strip()
                 )
+                current_subclass["sourceLocator"]["lineEnd"] = nxt.line_end
             else:
                 entry_locator = dict(
                     locator,
@@ -608,7 +675,6 @@ class Emitter:
         end_block = blocks[index - 1]
         locator["lineEnd"] = end_block.line_end
         for sub_record, sub_block in subclass_records:
-            sub_last = sub_block
             record.setdefault("subclasses", []).append({"@id": sub_record["@id"]})
         if features:
             record["features"] = features
@@ -623,17 +689,38 @@ class Emitter:
 def parse_markdown_table(table_lines: list[str]):
     if not table_lines:
         return [], []
-    hdr_cells = [c.strip() for c in table_lines[0].strip().strip("|").split("|")]
+    first_cells = [c.strip() for c in table_lines[0].strip().strip("|").split("|")]
+    second_cells = (
+        [c.strip() for c in table_lines[1].strip().strip("|").split("|")]
+        if len(table_lines) > 1
+        else []
+    )
+    has_header = bool(second_cells) and all(
+        re.fullmatch(r":?-{3,}:?", cell) for cell in second_cells
+    )
+    data_lines = table_lines[2:] if has_header else table_lines
+    if has_header:
+        hdr_cells = first_cells
+    else:
+        width = max(
+            len(line.strip().strip("|").split("|")) for line in table_lines
+        )
+        hdr_cells = [f"column{index}" for index in range(1, width + 1)]
     rows = []
-    for idx, line in enumerate(table_lines[2:], start=1):
+    for line in data_lines:
         cells = [c.strip() for c in line.strip().strip("|").split("|")]
         while len(cells) < len(hdr_cells):
             cells.append("")
+        cells = cells[:len(hdr_cells)]
+        # PDF page fragments can repeat the logical table header.  The source
+        # row remains in rawText, but it is not promoted to a data row.
+        if has_header and cells == hdr_cells:
+            continue
         rows.append({
-            "position": idx,
-            "cells": [{"value": c} for c in cells[:len(hdr_cells)]]
+            "position": len(rows) + 1,
+            "cells": [{"value": html.unescape(c)} for c in cells]
         })
-    return hdr_cells, rows
+    return [html.unescape(c) for c in hdr_cells], rows
 
 
 def parse_html_table(html: str):
@@ -642,7 +729,7 @@ def parse_html_table(html: str):
     for row in rows_raw:
         cells = []
         for colspan, value in CELL_RE.findall(row):
-            cell = {"value": re.sub(r"\s+", " ", value).strip()}
+            cell = {"value": html.unescape(re.sub(r"\s+", " ", value).strip())}
             if colspan:
                 cell["colspan"] = int(colspan)
             cells.append(cell)
@@ -693,7 +780,7 @@ def parse_ability_table(stat_text: str):
                     mod = int(m1.group(2))
                     save = int(m2.group(1))
                     result[ab] = {"score": score, "modifier": mod, "savingThrow": save}
-        if len(result) == 6:
+        if result:
             return result
 
     match = TABLE_RE.search(stat_text)
@@ -777,9 +864,9 @@ def run_extraction(root: Path):
         "author": "Wizards of the Coast LLC",
         "srdVersion": "5.2.1",
         "license": "CC-BY-4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "licenseUrl": {"@id": "https://creativecommons.org/licenses/by/4.0/legalcode"},
         "attributionStatement": ATTRIBUTION_STATEMENT,
-        "canonicalUrl": "https://www.dndbeyond.com/srd",
+        "canonicalUrl": {"@id": "https://www.dndbeyond.com/srd"},
         "sourceFile": SOURCE_FILE,
         "contentDigest": sha256_of(source_path),
     }
@@ -834,12 +921,12 @@ def run_extraction(root: Path):
             index += 1
             continue
 
-        if chapter == "Magic Items" and ITEM_RE.match(first):
+        if chapter == "Magic Items" and parse_magic_item_header(first):
             extras = []
             index += 1
             while index < len(blocks):
                 nxt = blocks[index]
-                if nxt.chapter != chapter or ITEM_RE.match(nxt.first_body_line()):
+                if nxt.chapter != chapter or parse_magic_item_header(nxt.first_body_line()):
                     break
                 if MONSTER_RE.match(nxt.first_body_line()):
                     break
@@ -1054,10 +1141,16 @@ def build_equipment(emitter: Emitter):
                 record["cost"] = parsed_cost
 
 
-ATTACK_RE = re.compile(
-    r"([A-Z][A-Za-z' ()-]{1,40})\. (Melee|Ranged|Melee or Ranged) Attack Roll: "
-    r"([+-]\d+), (?:reach (\d+) ft\.?|range (\d+)(?:/(\d+))? ?ft\.?|reach (\d+) ft\. "
-    r"or range (\d+)(?:/(\d+))? ?ft\.?)[.,]? Hit: (\d+) \(([^)]+)\) ([A-Za-z]+) damage",
+ATTACK_HEADER_RE = re.compile(
+    r"^(?P<name>.+?)\.\s+"
+    r"(?P<attackType>Melee or Ranged|Melee|Ranged) Attack Roll:\s*"
+    r"(?P<attackBonus>[+-]\d+|Automatic hit)(?:\s+to hit)?(?:\s*\([^)]*\))?,\s*"
+    r"(?P<targeting>.*?)\.\s*Hit:\s*(?P<hit>.+)$",
+    re.S,
+)
+DAMAGE_COMPONENT_RE = re.compile(
+    r"(?P<average>\d+)(?:\s*\((?P<roll>\d+d\d+(?:\s*[+-]\s*\d+)?)\))?\s+"
+    r"(?P<damageType>[A-Za-z]+) damage"
 )
 SAVE_RE = re.compile(
     r"(Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma) saving throw"
@@ -1108,32 +1201,86 @@ def enrich(emitter: Emitter):
         if linked:
             monster["conditionImmunities"] = linked
         attacks = []
-        for section in monster.get("statSections", []):
+        unparsed_attacks = []
+        for section_index, section in enumerate(monster.get("statSections", [])):
             if section["name"] not in ("Actions", "Bonus Actions", "Legendary Actions", "Reactions"):
                 continue
-            for m in ATTACK_RE.finditer(section["rulesText"].replace("\n", " ")):
+            source_paragraphs = [p.strip() for p in re.split(r"\n\s*\n", section["rulesText"]) if p.strip()]
+            paragraphs = []
+            for paragraph in source_paragraphs:
+                if paragraphs and (
+                    paragraph.startswith(("Melee Attack Roll:", "Ranged Attack Roll:"))
+                    or (paragraph.startswith("Hit:") and "Attack Roll:" in paragraphs[-1])
+                    or (
+                        paragraph.endswith("damage.")
+                        and "Attack Roll:" in paragraphs[-1]
+                        and "Hit:" in paragraphs[-1]
+                        and not re.search(r"\b[A-Za-z]+ damage\b", paragraphs[-1])
+                    )
+                ):
+                    paragraphs[-1] += " " + paragraph
+                else:
+                    paragraphs.append(paragraph)
+            for paragraph_index, paragraph in enumerate(paragraphs):
+                if "Attack Roll:" not in paragraph:
+                    continue
+                normalized = re.sub(r"\s+", " ", paragraph).strip()
+                m = ATTACK_HEADER_RE.match(normalized)
+                if not m:
+                    unparsed_attacks.append({
+                        "sourceText": paragraph,
+                        "path": f"statSections[{section_index}].rulesText.paragraphs[{paragraph_index}]",
+                        "parseStatus": "unparsed",
+                        "reason": "attack paragraph did not match the supported header grammar",
+                    })
+                    continue
+                components = []
+                for damage in DAMAGE_COMPONENT_RE.finditer(m.group("hit")):
+                    component = {
+                        "averageDamage": int(damage.group("average")),
+                        "damageType": damage.group("damageType"),
+                    }
+                    if damage.group("roll"):
+                        roll = parse_dice(damage.group("roll").replace(" ", ""))
+                        if roll:
+                            component["damageRoll"] = roll
+                    components.append(component)
                 attack = {
-                    "name": m.group(1).strip(),
-                    "attackType": m.group(2),
-                    "attackBonus": int(m.group(3)),
-                    "averageDamage": int(m.group(10)),
-                    "damageType": m.group(12),
+                    "name": m.group("name").strip(),
+                    "attackType": m.group("attackType"),
+                    "damageComponents": components,
+                    "sourceText": paragraph,
+                    "path": f"statSections[{section_index}].rulesText.paragraphs[{paragraph_index}]",
+                    "parseStatus": "parsed",
                 }
-                roll = parse_dice(m.group(11).replace(" ", ""))
-                if roll:
-                    attack["damageRoll"] = roll
-                reach = m.group(4) or m.group(7)
+                if m.group("attackBonus") == "Automatic hit":
+                    attack["automaticHit"] = True
+                else:
+                    attack["attackBonus"] = int(m.group("attackBonus"))
+                targeting = m.group("targeting")
+                reach = re.search(r"\breach (\d+) (?:ft\.?|feet)\b", targeting)
                 if reach:
-                    attack["reachFeet"] = int(reach)
-                normal = m.group(5) or m.group(8)
-                if normal:
-                    attack["rangeFeet"] = {"normal": int(normal)}
-                    long = m.group(6) or m.group(9)
-                    if long:
-                        attack["rangeFeet"]["long"] = int(long)
+                    attack["reachFeet"] = int(reach.group(1))
+                range_match = re.search(
+                    r"\brange (\d+)(?:/(\d+))? (?:ft\.?|feet)\b", targeting
+                )
+                if range_match:
+                    attack["rangeFeet"] = {"normal": int(range_match.group(1))}
+                    if range_match.group(2):
+                        attack["rangeFeet"]["long"] = int(range_match.group(2))
+                if not components:
+                    unparsed_attacks.append({
+                        "sourceText": paragraph,
+                        "path": attack["path"],
+                        "parseStatus": "unparsed",
+                        "reason": "attack hit clause contained no recognized damage component",
+                    })
+                    continue
                 attacks.append(attack)
         if attacks:
             monster["attacks"] = attacks
+        if unparsed_attacks:
+            monster["unparsedAttacks"] = unparsed_attacks
 
 
 def main():

@@ -71,8 +71,32 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Talons. Melee Attack Roll: +5, reach 5 ft. Hit: 1 Slashing damage."
+      "rulesText": "Talons. Melee Attack Roll: +5, reach 5 ft. Hit: 1 Slashing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.55",
+        "heading": "Actions",
+        "lineStart": 28169,
+        "lineEnd": 28171
+      }
     }
   ],
-  "rulesText": "Tiny Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 1 (1d4 - 1)\nSpeed 10 ft., Fly 60 ft.\n\nSkills Perception +6\nSenses Passive Perception 16\nLanguages None\nCR 0 (XP 10; PB +2)\n\nActions\n\nTalons. Melee Attack Roll: +5, reach 5 ft. Hit: 1 Slashing damage."
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 1 (1d4 - 1)\nSpeed 10 ft., Fly 60 ft.\n\nSkills Perception +6\nSenses Passive Perception 16\nLanguages None\nCR 0 (XP 10; PB +2)\n\nActions\n\nTalons. Melee Attack Roll: +5, reach 5 ft. Hit: 1 Slashing damage.",
+  "attacks": [
+    {
+      "name": "Talons",
+      "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 1,
+          "damageType": "Slashing"
+        }
+      ],
+      "sourceText": "Talons. Melee Attack Roll: +5, reach 5 ft. Hit: 1 Slashing damage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
+      "attackBonus": 5,
+      "reachFeet": 5
+    }
+  ]
 }

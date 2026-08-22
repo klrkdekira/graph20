@@ -328,5 +328,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                    | School        | Special |\n| :----------------------- | :------------ | :------ |\n| Aid                      | Abjuration    |    -    |\n| Animal Messenger         | Enchantment   | R       |\n| Blindness/Deafness       | Transmutation |    -    |\n| Calm Emotions            | Enchantment   | C       |\n| Detect Thoughts          | Divination    | C       |\n| Enhance Ability          | Transmutation | C       |\n| Enlarge/Reduce           | Transmutation | C       |\n| Enthrall                 | Enchantment   | C       |\n| Heat Metal               | Transmutation | C       |\n| Hold Person              | Enchantment   | C       |\n| Invisibility             | Illusion      | C       |\n| Knock                    | Transmutation |    -    |\n| Lesser Restoration       | Abjuration    |    -    |\n| Locate Animals or Plants | Divination    | R       |\n| Locate Object            | Divination    | C       |\n| Magic Mouth              | Illusion      | R, M    |\n| Mirror Image             | Illusion      |    -    |\n| See Invisibility         | Divination    |    -    |\n| Shatter                  | Evocation     |    -    |\n| Silence                  | Illusion      | C, R    |\n| Suggestion               | Enchantment   | C       |\n| Zone of Truth            | Enchantment   |    -    |"
 }

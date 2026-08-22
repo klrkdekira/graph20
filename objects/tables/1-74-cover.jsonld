@@ -62,5 +62,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Degree         | Benefit to Target                          | Offered By ...                                                        |\n| :------------- | :----------------------------------------- | :-------------------------------------------------------------------- |\n| Half           | +2 bonus to AC and Dexterity saving throws | Another creature or an object that covers at least half of the target |\n| Three-Quarters | +5 bonus to AC and Dexterity saving throws | An object that covers at least three-quarters of the target           |\n| Total          | Can’t be targeted directly                 | An object that covers the whole target                                |"
 }

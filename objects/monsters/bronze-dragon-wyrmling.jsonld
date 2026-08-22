@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Amphibious. The dragon can breathe air and water."
+      "rulesText": "Amphibious. The dragon can breathe air and water.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.44",
+        "heading": "Traits",
+        "lineStart": 19314,
+        "lineEnd": 19316
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Slashing damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 12, each creature in a 40-foot-long, 5-foot-wide Line. Failure: 16 (3d10) Lightning damage. Success: Half damage.\n\nRepulsion Breath. Strength Saving Throw: DC 12, each creature in a 30-foot Cone. Failure: The target is pushed up to 30 feet straight away from the dragon and has the Prone condition."
+      "rulesText": "Multiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Slashing damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 12, each creature in a 40-foot-long, 5-foot-wide Line. Failure: 16 (3d10) Lightning damage. Success: Half damage.\n\nRepulsion Breath. Strength Saving Throw: DC 12, each creature in a 30-foot Cone. Failure: The target is pushed up to 30 feet straight away from the dragon and has the Prone condition.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.44",
+        "heading": "Actions",
+        "lineStart": 19318,
+        "lineEnd": 19326
+      }
     }
   ],
   "rulesText": "Medium Dragon (Metallic), Lawful Good\n\nAC 15\nInitiative +2 (12)\nHP 39 (6d8 + 12)\nSpeed 30 ft., Fly 60 ft., Swim 30 ft.\n\nSkills Perception +4, Stealth +2\nImmunities Lightning\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14\nLanguages Draconic\nCR 2 (XP 450; PB +2)\n\nTraits\n\nAmphibious. The dragon can breathe air and water.\n\nActions\n\nMultiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Slashing damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 12, each creature in a 40-foot-long, 5-foot-wide Line. Failure: 16 (3d10) Lightning damage. Success: Half damage.\n\nRepulsion Breath. Strength Saving Throw: DC 12, each creature in a 30-foot Cone. Failure: The target is pushed up to 30 feet straight away from the dragon and has the Prone condition.",
@@ -84,15 +98,22 @@
     {
       "name": "Rend",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 8,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d10+3",
+            "count": 1,
+            "sides": 10,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Slashing damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 8,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d10+3",
-        "count": 1,
-        "sides": 10,
-        "modifier": 3
-      },
       "reachFeet": 5
     }
   ]

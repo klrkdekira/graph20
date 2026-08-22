@@ -118,5 +118,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell            | School        | Special |\n| :--------------- | :------------ | :------ |\n| Chill Touch      | Necromancy    |    -    |\n| Eldritch Blast   | Evocation     |    -    |\n| Mage Hand        | Conjuration   |    -    |\n| Minor Illusion   | Illusion      |    -    |\n| Poison Spray     | Necromancy    |    -    |\n| Prestidigitation | Transmutation |    -    |\n| True Strike      | Divination    |    -    |"
 }

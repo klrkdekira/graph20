@@ -71,15 +71,36 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Water Breathing. The octopus can breathe only underwater. It can hold its breath for 1 hour outside water."
+      "rulesText": "Water Breathing. The octopus can breathe only underwater. It can hold its breath for 1 hour outside water.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.41",
+        "heading": "Traits",
+        "lineStart": 27779,
+        "lineEnd": 27781
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Tentacles. Melee Attack Roll: +5, reach 10 ft. Hit: 10 (2d6 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from all eight tentacles. While Grappled, the target has the Restrained condition."
+      "rulesText": "Tentacles. Melee Attack Roll: +5, reach 10 ft. Hit: 10 (2d6 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from all eight tentacles. While Grappled, the target has the Restrained condition.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.41",
+        "heading": "Actions",
+        "lineStart": 27783,
+        "lineEnd": 27785
+      }
     },
     {
       "name": "Reactions",
-      "rulesText": "Ink Cloud (1/Day). Trigger: The octopus takes damage while underwater. Response: The octopus releases ink that fills a 10-foot Cube centered on itself, and the octopus moves up to its Swim Speed. The Cube is Heavily Obscured for 1 minute or until a strong current or similar effect disperses the ink."
+      "rulesText": "Ink Cloud (1/Day). Trigger: The octopus takes damage while underwater. Response: The octopus releases ink that fills a 10-foot Cube centered on itself, and the octopus moves up to its Swim Speed. The Cube is Heavily Obscured for 1 minute or until a strong current or similar effect disperses the ink.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.41",
+        "heading": "Reactions",
+        "lineStart": 27787,
+        "lineEnd": 27789
+      }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 11\nInitiative +1 (11)\nHP 45 (7d10 + 7)\nSpeed 10 ft., Swim 60 ft.\n\nSkills Perception +4, Stealth +5\nSenses Darkvision 60 ft.; Passive Perception 14\nLanguages None\nCR 1 (XP 200; PB +2)\n\nTraits\n\nWater Breathing. The octopus can breathe only underwater. It can hold its breath for 1 hour outside water.\n\nActions\n\nTentacles. Melee Attack Roll: +5, reach 10 ft. Hit: 10 (2d6 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from all eight tentacles. While Grappled, the target has the Restrained condition.\n\nReactions\n\nInk Cloud (1/Day). Trigger: The octopus takes damage while underwater. Response: The octopus releases ink that fills a 10-foot Cube centered on itself, and the octopus moves up to its Swim Speed. The Cube is Heavily Obscured for 1 minute or until a strong current or similar effect disperses the ink.",
@@ -87,15 +108,22 @@
     {
       "name": "Tentacles",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 10,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "2d6+3",
+            "count": 2,
+            "sides": 6,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Tentacles. Melee Attack Roll: +5, reach 10 ft. Hit: 10 (2d6 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from all eight tentacles. While Grappled, the target has the Restrained condition.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 10,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "2d6+3",
-        "count": 2,
-        "sides": 6,
-        "modifier": 3
-      },
       "reachFeet": 10
     }
   ]

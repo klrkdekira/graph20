@@ -74,5 +74,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Skill         | Areas                                                                                                                                                               |\n| :------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ |\n| Arcana        | Spells, magic items, eldritch symbols, magical traditions, planes of existence, and certain creatures (Aberrations, Constructs, Elementals, Fey, and Monstrosities) |\n| History       | Historic events and people, ancient civilizations, wars, and certain creatures (Giants and Humanoids)                                                               |\n| Investigation | Traps, ciphers, riddles, and gadgetry                                                                                                                               |\n| Nature        | Terrain, flora, weather, and certain creatures (Beasts, Dragons, Oozes, and Plants)                                                                                 |\n| Religion      | Deities, religious hierarchies and rites, holy symbols, cults, and certain creatures (Celestials, Fiends, and Undead)                                               |"
 }

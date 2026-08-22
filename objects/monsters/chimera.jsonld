@@ -71,7 +71,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The chimera makes one Ram attack, one Bite attack, and one Claw attack. It can replace the Claw attack with a use of Fire Breath if available.\n\nBite. Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Piercing damage, or 18 (4d6 + 4) Piercing damage if the chimera had Advantage on the attack roll.\n\nClaw. Melee Attack Roll: +7, reach 5 ft. Hit: 7 (1d6 + 4) Slashing damage.\n\nRam. Melee Attack Roll: +7, reach 5 ft. Hit: 10 (1d12 + 4) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 15, each creature in a 15-foot Cone. Failure: 31(7d8) Fire damage. Success: Half damage."
+      "rulesText": "Multiattack. The chimera makes one Ram attack, one Bite attack, and one Claw attack. It can replace the Claw attack with a use of Fire Breath if available.\n\nBite. Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Piercing damage, or 18 (4d6 + 4) Piercing damage if the chimera had Advantage on the attack roll.\n\nClaw. Melee Attack Roll: +7, reach 5 ft. Hit: 7 (1d6 + 4) Slashing damage.\n\nRam. Melee Attack Roll: +7, reach 5 ft. Hit: 10 (1d12 + 4) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 15, each creature in a 15-foot Cone. Failure: 31(7d8) Fire damage. Success: Half damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.55",
+        "heading": "Actions",
+        "lineStart": 19671,
+        "lineEnd": 19681
+      }
     }
   ],
   "rulesText": "Large Monstrosity, Chaotic Evil\n\nAC 14\nInitiative +0 (10)\nHP 114 (12d10 + 48)\nSpeed 30 ft., Fly 60 ft.\n\nSkills Perception +8\nSenses Darkvision 60 ft.; Passive Perception 18\nLanguages Understands Draconic but can't speak\nCR 6 (XP 2,300; PB +3)\n\nActions\n\nMultiattack. The chimera makes one Ram attack, one Bite attack, and one Claw attack. It can replace the Claw attack with a use of Fire Breath if available.\n\nBite. Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Piercing damage, or 18 (4d6 + 4) Piercing damage if the chimera had Advantage on the attack roll.\n\nClaw. Melee Attack Roll: +7, reach 5 ft. Hit: 7 (1d6 + 4) Slashing damage.\n\nRam. Melee Attack Roll: +7, reach 5 ft. Hit: 10 (1d12 + 4) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 15, each creature in a 15-foot Cone. Failure: 31(7d8) Fire damage. Success: Half damage.",
@@ -79,43 +86,74 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 11,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d6+4",
+            "count": 2,
+            "sides": 6,
+            "modifier": 4
+          }
+        },
+        {
+          "averageDamage": 18,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "4d6+4",
+            "count": 4,
+            "sides": 6,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Piercing damage, or 18 (4d6 + 4) Piercing damage if the chimera had Advantage on the attack roll.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 7,
-      "averageDamage": 11,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d6+4",
-        "count": 2,
-        "sides": 6,
-        "modifier": 4
-      },
       "reachFeet": 5
     },
     {
       "name": "Claw",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 7,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d6+4",
+            "count": 1,
+            "sides": 6,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Claw. Melee Attack Roll: +7, reach 5 ft. Hit: 7 (1d6 + 4) Slashing damage.",
+      "path": "statSections[0].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 7,
-      "averageDamage": 7,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d6+4",
-        "count": 1,
-        "sides": 6,
-        "modifier": 4
-      },
       "reachFeet": 5
     },
     {
       "name": "Ram",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 10,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "1d12+4",
+            "count": 1,
+            "sides": 12,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Ram. Melee Attack Roll: +7, reach 5 ft. Hit: 10 (1d12 + 4) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition.",
+      "path": "statSections[0].rulesText.paragraphs[3]",
+      "parseStatus": "parsed",
       "attackBonus": 7,
-      "averageDamage": 10,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "1d12+4",
-        "count": 1,
-        "sides": 12,
-        "modifier": 4
-      },
       "reachFeet": 5
     }
   ]

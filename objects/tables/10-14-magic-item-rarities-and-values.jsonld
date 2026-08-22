@@ -72,5 +72,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Rarity   | Value*   | Rarity    | Value*     |\n| :------- | :------- | :-------- | :--------- |\n| Common   | 100 GP   | Very Rare | 40,000 GP  |\n| Uncommon | 400 GP   | Legendary | 200,000 GP |\n| Rare     | 4,000 GP | Artifact  | Priceless  |"
 }

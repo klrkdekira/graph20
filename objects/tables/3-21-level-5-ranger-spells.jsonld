@@ -62,5 +62,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell               | School      | Special |\n| :------------------ | :---------- | :------ |\n| Commune with Nature | Divination  | R       |\n| Greater Restoration | Abjuration  | M       |\n| Tree Stride         | Conjuration | C       |"
 }

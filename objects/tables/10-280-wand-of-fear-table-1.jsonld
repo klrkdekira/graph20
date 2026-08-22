@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.280",
     "heading": "Wand of Fear",
-    "lineStart": 17631,
-    "lineEnd": 17634
+    "lineStart": 17632,
+    "lineEnd": 17635
   },
   "columns": [
     "Spell",
@@ -41,5 +41,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                             | Charge Cost |\n| :-------------------------------- | :---------- |\n| Command (“flee” or “grovel” only) | 1           |\n| Fear (60-foot Cone)               | 3           |"
 }

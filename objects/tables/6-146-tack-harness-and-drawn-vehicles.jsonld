@@ -174,5 +174,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Item             | Weight  | Cost   |\n| :--------------- | :------ | :----- |\n| Carriage         | 600 lb. | 100 GP |\n| Cart             | 200 lb. | 15 GP  |\n| Chariot          | 100 lb. | 250 GP |\n| Feed per day     | 10 lb.  | 5 CP   |\n| Saddle           |         |        |\n| Exotic           | 40 lb.  | 60 GP  |\n| Military         | 30 lb.  | 20 GP  |\n| Riding           | 25 lb.  | 10 GP  |\n| Sled             | 300 lb. | 20 GP  |\n| Stabling per day |    -    | 5 SP   |\n| Wagon            | 400 lb. | 35 GP  |"
 }

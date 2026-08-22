@@ -157,5 +157,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Class     | Likes ...      | Primary Ability       | Complexity |\n| :-------- | :------------- | :-------------------- | :--------- |\n| Barbarian | Battle         | Strength              | Average    |\n| Bard      | Performing     | Charisma              | High       |\n| Cleric    | Gods           | Wisdom                | Average    |\n| Druid     | Nature         | Wisdom                | High       |\n| Fighter   | Weapons        | Strength or Dexterity | Low        |\n| Monk      | Unarmed combat | Dexterity and Wisdom  | High       |\n| Paladin   | Defense        | Strength and Charisma | Average    |\n| Ranger    | Survival       | Dexterity and Wisdom  | Average    |"
 }

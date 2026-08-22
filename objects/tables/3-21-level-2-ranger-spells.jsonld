@@ -230,5 +230,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                    | School        | Special |\n| :----------------------- | :------------ | :------ |\n| Aid                      | Abjuration    |    -    |\n| Animal Messenger         | Enchantment   | R       |\n| Barkskin                 | Transmutation |    -    |\n| Darkvision               | Transmutation |    -    |\n| Enhance Ability          | Transmutation | C       |\n| Find Traps               | Divination    |    -    |\n| Gust of Wind             | Evocation     | C       |\n| Lesser Restoration       | Abjuration    |    -    |\n| Locate Animals or Plants | Divination    | R       |\n| Locate Object            | Divination    | C       |\n| Magic Weapon             | Transmutation |    -    |\n| Pass without Trace       | Abjuration    | C       |\n| Protection from Poison   | Abjuration    |    -    |\n| Silence                  | Illusion      | C, R    |\n| Spike Growth             | Transmutation | C       |"
 }

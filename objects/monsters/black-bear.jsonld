@@ -71,7 +71,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The bear makes two Rend attacks.\n\nRend. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing damage."
+      "rulesText": "Multiattack. The bear makes two Rend attacks.\n\nRend. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.9",
+        "heading": "Actions",
+        "lineStart": 26944,
+        "lineEnd": 26948
+      }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 11\nInitiative +1 (11)\nHP 19 (3d8 + 6)\nSpeed 30 ft., Climb 30 ft., Swim 30 ft.\n\nSkills Perception +5\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages None\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nMultiattack. The bear makes two Rend attacks.\n\nRend. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing damage.",
@@ -79,15 +86,22 @@
     {
       "name": "Rend",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 5,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d6+2",
+            "count": 1,
+            "sides": 6,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Rend. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing damage.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 5,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d6+2",
-        "count": 1,
-        "sides": 6,
-        "modifier": 2
-      },
       "reachFeet": 5
     }
   ]

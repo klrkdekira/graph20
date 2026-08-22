@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Earth Glide. The elemental can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn't disturb the material it moves through.\n\nSiege Monster. The elemental deals double damage to objects and structures."
+      "rulesText": "Earth Glide. The elemental can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn't disturb the material it moves through.\n\nSiege Monster. The elemental deals double damage to objects and structures.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.83",
+        "heading": "Traits",
+        "lineStart": 20600,
+        "lineEnd": 20604
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The elemental makes two attacks, using Slam or Rock Launch in any combination.\n\nSlam. Melee Attack Roll: +8, reach 10 ft. Hit: 14 (2d8 + 5) Bludgeoning damage.\n\nRock Launch. Ranged Attack Roll: +8, range 60 ft. Hit: 8 (1d6 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition."
+      "rulesText": "Multiattack. The elemental makes two attacks, using Slam or Rock Launch in any combination.\n\nSlam. Melee Attack Roll: +8, reach 10 ft. Hit: 14 (2d8 + 5) Bludgeoning damage.\n\nRock Launch. Ranged Attack Roll: +8, range 60 ft. Hit: 8 (1d6 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.83",
+        "heading": "Actions",
+        "lineStart": 20606,
+        "lineEnd": 20612
+      }
     }
   ],
   "rulesText": "Large Elemental, Neutral\n\nAC 17\nInitiative -1 (9)\nHP 147 (14d10 + 70)\nSpeed 30 ft., Burrow 30 ft.\n\nVulnerabilities Thunder\nImmunities Poison; Exhaustion, Paralyzed, Petrified, Poisoned, Unconscious\nSenses Darkvision 60 ft., Tremorsense 60 ft.; Passive Perception 10\nLanguages Primordial (Terran)\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nEarth Glide. The elemental can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn't disturb the material it moves through.\n\nSiege Monster. The elemental deals double damage to objects and structures.\n\nActions\n\nMultiattack. The elemental makes two attacks, using Slam or Rock Launch in any combination.\n\nSlam. Melee Attack Roll: +8, reach 10 ft. Hit: 14 (2d8 + 5) Bludgeoning damage.\n\nRock Launch. Ranged Attack Roll: +8, range 60 ft. Hit: 8 (1d6 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition.",
@@ -101,29 +115,43 @@
     {
       "name": "Slam",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 14,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "2d8+5",
+            "count": 2,
+            "sides": 8,
+            "modifier": 5
+          }
+        }
+      ],
+      "sourceText": "Slam. Melee Attack Roll: +8, reach 10 ft. Hit: 14 (2d8 + 5) Bludgeoning damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 8,
-      "averageDamage": 14,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "2d8+5",
-        "count": 2,
-        "sides": 8,
-        "modifier": 5
-      },
       "reachFeet": 10
     },
     {
       "name": "Rock Launch",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 8,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "1d6+5",
+            "count": 1,
+            "sides": 6,
+            "modifier": 5
+          }
+        }
+      ],
+      "sourceText": "Rock Launch. Ranged Attack Roll: +8, range 60 ft. Hit: 8 (1d6 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition.",
+      "path": "statSections[1].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 8,
-      "averageDamage": 8,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "1d6+5",
-        "count": 1,
-        "sides": 6,
-        "modifier": 5
-      },
       "rangeFeet": {
         "normal": 60
       }

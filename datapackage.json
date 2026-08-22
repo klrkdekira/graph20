@@ -3,7 +3,7 @@
   "title": "SRD 5.2.1 System JSON",
   "description": "A source-faithful JSON-LD 1.1 reference corpus and JSON Schema Draft 2020-12 specifications for the System Reference Document 5.2.1.",
   "homepage": "https://cheeleong.dev/graph20/",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "licenses": [
     {
       "name": "CC-BY-4.0",

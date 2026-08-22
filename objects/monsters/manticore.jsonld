@@ -70,7 +70,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The manticore makes three attacks, using Rend or Tail Spike in any combination.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.\n\nTail Spike. Ranged Attack Roll: +5, range 100/200 ft.\nHit: 7 (1d8 + 3) Piercing damage."
+      "rulesText": "Multiattack. The manticore makes three attacks, using Rend or Tail Spike in any combination.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.\n\nTail Spike. Ranged Attack Roll: +5, range 100/200 ft.\nHit: 7 (1d8 + 3) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.157",
+        "heading": "Actions",
+        "lineStart": 22965,
+        "lineEnd": 22972
+      }
     }
   ],
   "rulesText": "Large Monstrosity, Lawful Evil\n\nAC 14\nInitiative +3 (13)\nHP 68 (8d10 + 24)\nSpeed 30 ft., Fly 50 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 11\nLanguages Common\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The manticore makes three attacks, using Rend or Tail Spike in any combination.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.\n\nTail Spike. Ranged Attack Roll: +5, range 100/200 ft.\nHit: 7 (1d8 + 3) Piercing damage.",
@@ -78,29 +85,43 @@
     {
       "name": "Rend",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 7,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d8+3",
+            "count": 1,
+            "sides": 8,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 7,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d8+3",
-        "count": 1,
-        "sides": 8,
-        "modifier": 3
-      },
       "reachFeet": 5
     },
     {
       "name": "Tail Spike",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 7,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d8+3",
+            "count": 1,
+            "sides": 8,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Tail Spike. Ranged Attack Roll: +5, range 100/200 ft.\nHit: 7 (1d8 + 3) Piercing damage.",
+      "path": "statSections[0].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 7,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d8+3",
-        "count": 1,
-        "sides": 8,
-        "modifier": 3
-      },
       "rangeFeet": {
         "normal": 100,
         "long": 200

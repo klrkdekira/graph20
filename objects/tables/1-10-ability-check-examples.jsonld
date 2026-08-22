@@ -85,5 +85,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Ability      | Make a Check To ...                                        |\n| :----------- | :--------------------------------------------------------- |\n| Strength     | Lift, push, pull, or break something                       |\n| Dexterity    | Move nimbly, quickly, or quietly                           |\n| Constitution | Push your body beyond normal limits                        |\n| Intelligence | Reason or remember                                         |\n| Wisdom       | Notice things in the environment or in creatures’ behavior |\n| Charisma     | Influence, entertain, or deceive                           |"
 }

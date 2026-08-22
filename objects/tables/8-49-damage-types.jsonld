@@ -85,5 +85,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Type        | Examples                             |\n| :---------- | :----------------------------------- |\n| Acid        | Corrosive liquids, digestive enzymes |\n| Bludgeoning | Blunt objects, constriction, falling |\n| Cold        | Freezing water, icy blasts           |\n| Fire        | Flames, unbearable heat              |\n| Force       | Pure magical energy                  |\n| Lightning   | Electricity                          |"
 }

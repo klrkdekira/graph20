@@ -73,15 +73,36 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Evasion. If the assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the save and only half damage if it fails. It can't use this trait if it has the Incapacitated condition."
+      "rulesText": "Evasion. If the assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the save and only half damage if it fails. It can't use this trait if it has the Incapacitated condition.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.9",
+        "heading": "Traits",
+        "lineStart": 18296,
+        "lineEnd": 18298
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The assassin makes three attacks, using Shortsword or Light Crossbow in any combination.\n\nShortsword. Melee Attack Roll: +7, reach 5 ft. Hit: 7 (1d6 + 4) Piercing damage plus 17 (5d6) Poison damage, and the target has the Poisoned condition until the start of the assassin's next turn.\n\nLight Crossbow. Ranged Attack Roll: +7, range 80/320 ft. Hit: 8 (1d8 + 4) Piercing damage plus 21 (6d6) Poison damage."
+      "rulesText": "Multiattack. The assassin makes three attacks, using Shortsword or Light Crossbow in any combination.\n\nShortsword. Melee Attack Roll: +7, reach 5 ft. Hit: 7 (1d6 + 4) Piercing damage plus 17 (5d6) Poison damage, and the target has the Poisoned condition until the start of the assassin's next turn.\n\nLight Crossbow. Ranged Attack Roll: +7, range 80/320 ft. Hit: 8 (1d8 + 4) Piercing damage plus 21 (6d6) Poison damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.9",
+        "heading": "Actions",
+        "lineStart": 18300,
+        "lineEnd": 18306
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Cunning Action. The assassin takes the Dash, Disengage, or Hide action."
+      "rulesText": "Cunning Action. The assassin takes the Dash, Disengage, or Hide action.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.9",
+        "heading": "Bonus Actions",
+        "lineStart": 18308,
+        "lineEnd": 18310
+      }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 16\nInitiative +10 (20)\nHP 97 (15d8 + 30)\nSpeed 30 ft.\n\nSkills Acrobatics +7, Perception +6, Stealth +10\nResistances Poison\nGear Light Crossbow, Shortsword, Studded Leather Armor\nSenses Passive Perception 16\nLanguages Common, Thieves' Cant\nCR 8 (XP 3,900; PB +3)\n\nTraits\n\nEvasion. If the assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the save and only half damage if it fails. It can't use this trait if it has the Incapacitated condition.\n\nActions\n\nMultiattack. The assassin makes three attacks, using Shortsword or Light Crossbow in any combination.\n\nShortsword. Melee Attack Roll: +7, reach 5 ft. Hit: 7 (1d6 + 4) Piercing damage plus 17 (5d6) Poison damage, and the target has the Poisoned condition until the start of the assassin's next turn.\n\nLight Crossbow. Ranged Attack Roll: +7, range 80/320 ft. Hit: 8 (1d8 + 4) Piercing damage plus 21 (6d6) Poison damage.\n\nBonus Actions\n\nCunning Action. The assassin takes the Dash, Disengage, or Hide action.",
@@ -89,29 +110,61 @@
     {
       "name": "Shortsword",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 7,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d6+4",
+            "count": 1,
+            "sides": 6,
+            "modifier": 4
+          }
+        },
+        {
+          "averageDamage": 17,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "5d6",
+            "count": 5,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Shortsword. Melee Attack Roll: +7, reach 5 ft. Hit: 7 (1d6 + 4) Piercing damage plus 17 (5d6) Poison damage, and the target has the Poisoned condition until the start of the assassin's next turn.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 7,
-      "averageDamage": 7,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d6+4",
-        "count": 1,
-        "sides": 6,
-        "modifier": 4
-      },
       "reachFeet": 5
     },
     {
       "name": "Light Crossbow",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 8,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d8+4",
+            "count": 1,
+            "sides": 8,
+            "modifier": 4
+          }
+        },
+        {
+          "averageDamage": 21,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "6d6",
+            "count": 6,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Light Crossbow. Ranged Attack Roll: +7, range 80/320 ft. Hit: 8 (1d8 + 4) Piercing damage plus 21 (6d6) Poison damage.",
+      "path": "statSections[1].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 7,
-      "averageDamage": 8,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d8+4",
-        "count": 1,
-        "sides": 8,
-        "modifier": 4
-      },
       "rangeFeet": {
         "normal": 80,
         "long": 320

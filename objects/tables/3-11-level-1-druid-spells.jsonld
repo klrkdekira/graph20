@@ -272,5 +272,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                         | School        | Special |\n| :---------------------------- | :------------ | :------ |\n| Animal Friendship             | Enchantment   |    -    |\n| Charm Person                  | Enchantment   |    -    |\n| Create or Destroy Water       | Transmutation |    -    |\n| Cure Wounds                   | Abjuration    |    -    |\n| Detect Magic                  | Divination    | C, R    |\n| Detect Poison and Disease     | Divination    | C, R    |\n| Entangle                      | Conjuration   | C       |\n| Faerie Fire                   | Evocation     | C       |\n| Fog Cloud                     | Conjuration   | C       |\n| Goodberry                     | Conjuration   |    -    |\n| Healing Word                  | Abjuration    |    -    |\n| Ice Knife                     | Conjuration   |    -    |\n| Jump                          | Transmutation |    -    |\n| Longstrider                   | Transmutation |    -    |\n| Protection from Evil and Good | Abjuration    | C, M    |\n| Purify Food and Drink         | Transmutation | R       |\n| Speak with Animals            | Divination    | R       |\n| Thunderwave                   | Evocation     |    -    |"
 }

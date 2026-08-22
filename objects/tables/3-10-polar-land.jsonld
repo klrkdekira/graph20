@@ -63,5 +63,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Druid Level | Circle Spells                        |\n| :---------- | :----------------------------------- |\n| 3           | Fog Cloud, Hold Person, Ray of Frost |\n| 5           | Sleet Storm                          |\n| 7           | Ice Storm                            |\n| 9           | Cone of Cold                         |"
 }

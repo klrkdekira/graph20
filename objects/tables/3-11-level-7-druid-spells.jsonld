@@ -104,5 +104,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell           | School        | Special |\n| :-------------- | :------------ | :------ |\n| Fire Storm      | Evocation     |    -    |\n| Mirage Arcane   | Illusion      |    -    |\n| Plane Shift     | Conjuration   | M       |\n| Regenerate      | Transmutation |    -    |\n| Reverse Gravity | Transmutation | C       |\n| Symbol          | Abjuration    | M       |"
 }

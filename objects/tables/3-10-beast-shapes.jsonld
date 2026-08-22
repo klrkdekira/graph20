@@ -72,5 +72,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Druid Level | Known Forms | Max CR | Fly Speed |\n| :---------- | :---------- | :----- | :-------- |\n| 2           | 4           | 1/4    | No        |\n| 4           | 6           | 1/2    | No        |\n| 8           | 8           | 1      | Yes       |"
 }

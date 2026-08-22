@@ -96,5 +96,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Type     | Examples                       |\n| :------- | :----------------------------- |\n| Necrotic | Life-draining energy           |\n| Piercing | Fangs, puncturing objects      |\n| Poison   | Toxic gas, venom               |\n| Psychic  | Mind-rending energy            |\n| Radiant  | Holy energy, searing radiation |\n| Slashing | Claws, cutting objects         |\n| Thunder  | Concussive sound               |"
 }

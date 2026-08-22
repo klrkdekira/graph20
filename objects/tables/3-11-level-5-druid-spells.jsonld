@@ -230,5 +230,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell               | School        | Special |\n| :------------------ | :------------ | :------ |\n| Antilife Shell      | Abjuration    | C       |\n| Awaken              | Transmutation | M       |\n| Commune with Nature | Divination    | R       |\n| Cone of Cold        | Evocation     |    -    |\n| Conjure Elemental   | Conjuration   | C       |\n| Contagion           | Necromancy    |    -    |\n| Geas                | Enchantment   |    -    |\n| Greater Restoration | Abjuration    | M       |\n| Insect Plague       | Conjuration   | C       |\n| Mass Cure Wounds    | Abjuration    |    -    |\n| Planar Binding      | Abjuration    | M       |\n| Reincarnate         | Necromancy    | M       |\n| Scrying             | Divination    | C, M    |\n| Tree Stride         | Conjuration   | C       |\n| Wall of Stone       | Evocation     | C       |"
 }

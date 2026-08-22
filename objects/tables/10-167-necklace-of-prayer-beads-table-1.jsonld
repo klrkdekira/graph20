@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.167",
     "heading": "Necklace of Prayer Beads",
-    "lineStart": 16412,
-    "lineEnd": 16419
+    "lineStart": 16413,
+    "lineEnd": 16420
   },
   "columns": [
     "1d20",
@@ -104,5 +104,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| 1d20  | Bead                 | Spell                         |\n| :---- | :------------------- | :---------------------------- |\n| 1-6   | Bead of Blessing     | Bless                         |\n| 7-12  | Bead of Curing       | Cure Wounds (level 2 version) |\n| 13-16 | Bead of Favor        | Greater Restoration           |\n| 17-18 | Bead of Smiting      | Shining Smite                 |\n| 19    | Bead of Summons      | Guardian of Faith             |\n| 20    | Bead of Wind Walking | Wind Walk                     |"
 }

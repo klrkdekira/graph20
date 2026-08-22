@@ -16,7 +16,20 @@
   },
   "itemCategory": "Armor",
   "categoryDetail": "Any Light, Medium, or Heavy",
-  "rarity": "Rare",
+  "rarities": [
+    {
+      "rarity": "Rare",
+      "variant": "+1"
+    },
+    {
+      "rarity": "Very Rare",
+      "variant": "+2"
+    },
+    {
+      "rarity": "Legendary",
+      "variant": "+3"
+    }
+  ],
   "requiresAttunement": false,
   "rulesText": "Armor (Any Light, Medium, or Heavy), Rare (+1), Very Rare (+2), or Legendary (+3)\n\nYou have a bonus to Armor Class while wearing this armor. The bonus is determined by its rarity."
 }

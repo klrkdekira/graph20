@@ -107,5 +107,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| School        | Typical Effects                                              |\n| :------------ | :----------------------------------------------------------- |\n| Abjuration    | Prevents or reverses harmful effects                         |\n| Conjuration   | Transports creatures or objects                              |\n| Divination    | Reveals information                                          |\n| Enchantment   | Influences minds                                             |\n| Evocation     | Channels energy to create effects that are often destructive |\n| Illusion      | Deceives the mind or senses                                  |\n| Necromancy    | Manipulates life and death                                   |\n| Transmutation | Transforms creatures or objects                              |"
 }

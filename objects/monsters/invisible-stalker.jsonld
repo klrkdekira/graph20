@@ -73,11 +73,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Air Form. The stalker can enter an enemy's space and stop there. It can move through a space as narrow as 1 inch without expending extra movement to do so.\n\nInvisibility. The stalker has the Invisible condition."
+      "rulesText": "Air Form. The stalker can enter an enemy's space and stop there. It can move through a space as narrow as 1 inch without expending extra movement to do so.\n\nInvisibility. The stalker has the Invisible condition.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.144",
+        "heading": "Traits",
+        "lineStart": 22520,
+        "lineEnd": 22524
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The stalker makes three Wind Swipe attacks. It can replace one attack with a use of Vortex.\n\nWind Swipe. Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Force damage.\n\nVortex. Constitution Saving Throw: DC 14, one Large or smaller creature in the stalker's space. Failure: 7 (1d8 + 3) Thunder damage, and the target has the Grappled condition (escape DC 13). Until the grapple ends, the target can't cast spells with a Verbal component and takes 7 (2d6) Thunder damage at the start of each of the stalker's turns."
+      "rulesText": "Multiattack. The stalker makes three Wind Swipe attacks. It can replace one attack with a use of Vortex.\n\nWind Swipe. Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Force damage.\n\nVortex. Constitution Saving Throw: DC 14, one Large or smaller creature in the stalker's space. Failure: 7 (1d8 + 3) Thunder damage, and the target has the Grappled condition (escape DC 13). Until the grapple ends, the target can't cast spells with a Verbal component and takes 7 (2d6) Thunder damage at the start of each of the stalker's turns.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.144",
+        "heading": "Actions",
+        "lineStart": 22526,
+        "lineEnd": 22532
+      }
     }
   ],
   "rulesText": "Large Elemental, Neutral\n\nAC 14\nInitiative +7 (22)\nHP 97 (13d10 + 26)\nSpeed 50 ft., Fly 50 ft. (hover)\n\nSkills Perception +8, Stealth +10\nResistances Bludgeoning, Piercing, Slashing\nImmunities Poison; Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\nSenses Darkvision 60 ft.; Passive Perception 18\nLanguages Common, Primordial (Auran)\nCR 6 (XP 2,300; PB +3)\n\nTraits\n\nAir Form. The stalker can enter an enemy's space and stop there. It can move through a space as narrow as 1 inch without expending extra movement to do so.\n\nInvisibility. The stalker has the Invisible condition.\n\nActions\n\nMultiattack. The stalker makes three Wind Swipe attacks. It can replace one attack with a use of Vortex.\n\nWind Swipe. Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Force damage.\n\nVortex. Constitution Saving Throw: DC 14, one Large or smaller creature in the stalker's space. Failure: 7 (1d8 + 3) Thunder damage, and the target has the Grappled condition (escape DC 13). Until the grapple ends, the target can't cast spells with a Verbal component and takes 7 (2d6) Thunder damage at the start of each of the stalker's turns.",
@@ -111,15 +125,22 @@
     {
       "name": "Wind Swipe",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 11,
+          "damageType": "Force",
+          "damageRoll": {
+            "expression": "2d6+4",
+            "count": 2,
+            "sides": 6,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Wind Swipe. Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Force damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 7,
-      "averageDamage": 11,
-      "damageType": "Force",
-      "damageRoll": {
-        "expression": "2d6+4",
-        "count": 2,
-        "sides": 6,
-        "modifier": 4
-      },
       "reachFeet": 5
     }
   ]

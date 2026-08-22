@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Fire Aura. At the end of each of the salamander's turns, each creature of the salamander's choice in a 5-foot Emanation originating from the salamander takes 7 (2d6) Fire damage."
+      "rulesText": "Fire Aura. At the end of each of the salamander's turns, each creature of the salamander's choice in a 5-foot Emanation originating from the salamander takes 7 (2d6) Fire damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.207",
+        "heading": "Traits",
+        "lineStart": 24545,
+        "lineEnd": 24547
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The salamander makes two Flame Spear attacks. It can replace one attack with a use of Constrict.\n\nFlame Spear. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft. Hit: 13 (2d8 + 4) Piercing damage plus 7 (2d6) Fire damage. Hit or Miss: The spear magically returns to the salamander's hand immediately after a ranged attack.\n\nConstrict. Strength Saving Throw: DC 15, one Large or smaller creature the salamander can see within 10 feet. Failure: 11 (2d6 + 4) Bludgeoning damage plus 7 (2d6) Fire damage. The target has the Grappled condition (escape DC 14), and it has the Restrained condition until the grapple ends."
+      "rulesText": "Multiattack. The salamander makes two Flame Spear attacks. It can replace one attack with a use of Constrict.\n\nFlame Spear. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft. Hit: 13 (2d8 + 4) Piercing damage plus 7 (2d6) Fire damage. Hit or Miss: The spear magically returns to the salamander's hand immediately after a ranged attack.\n\nConstrict. Strength Saving Throw: DC 15, one Large or smaller creature the salamander can see within 10 feet. Failure: 11 (2d6 + 4) Bludgeoning damage plus 7 (2d6) Fire damage. The target has the Grappled condition (escape DC 14), and it has the Restrained condition until the grapple ends.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.207",
+        "heading": "Actions",
+        "lineStart": 24549,
+        "lineEnd": 24555
+      }
     }
   ],
   "rulesText": "Large Elemental, Neutral Evil\n\nAC 15\nInitiative +2 (12)\nHP 90 (12d10 + 24)\nSpeed 30 ft., Climb 30 ft.\n\nVulnerabilities Cold\nImmunities Fire\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Primordial (Ignan)\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nFire Aura. At the end of each of the salamander's turns, each creature of the salamander's choice in a 5-foot Emanation originating from the salamander takes 7 (2d6) Fire damage.\n\nActions\n\nMultiattack. The salamander makes two Flame Spear attacks. It can replace one attack with a use of Constrict.\n\nFlame Spear. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft. Hit: 13 (2d8 + 4) Piercing damage plus 7 (2d6) Fire damage. Hit or Miss: The spear magically returns to the salamander's hand immediately after a ranged attack.\n\nConstrict. Strength Saving Throw: DC 15, one Large or smaller creature the salamander can see within 10 feet. Failure: 11 (2d6 + 4) Bludgeoning damage plus 7 (2d6) Fire damage. The target has the Grappled condition (escape DC 14), and it has the Restrained condition until the grapple ends.",
@@ -84,15 +98,31 @@
     {
       "name": "Flame Spear",
       "attackType": "Melee or Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 13,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d8+4",
+            "count": 2,
+            "sides": 8,
+            "modifier": 4
+          }
+        },
+        {
+          "averageDamage": 7,
+          "damageType": "Fire",
+          "damageRoll": {
+            "expression": "2d6",
+            "count": 2,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Flame Spear. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft. Hit: 13 (2d8 + 4) Piercing damage plus 7 (2d6) Fire damage. Hit or Miss: The spear magically returns to the salamander's hand immediately after a ranged attack.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 7,
-      "averageDamage": 13,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d8+4",
-        "count": 2,
-        "sides": 8,
-        "modifier": 4
-      },
       "reachFeet": 5,
       "rangeFeet": {
         "normal": 20,

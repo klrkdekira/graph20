@@ -188,5 +188,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell              | School        | Special |\n| :----------------- | :------------ | :------ |\n| Antimagic Field    | Abjuration    | C       |\n| Antipathy/Sympathy | Enchantment   |    -    |\n| Befuddlement       | Enchantment   |    -    |\n| Clone              | Necromancy    | M       |\n| Control Weather    | Transmutation | C       |\n| Demiplane          | Conjuration   |    -    |\n| Dominate Monster   | Enchantment   | C       |\n| Incendiary Cloud   | Conjuration   | C       |\n| Maze               | Conjuration   | C       |\n| Mind Blank         | Abjuration    |    -    |\n| Power Word Stun    | Enchantment   |    -    |\n| Sunburst           | Evocation     |    -    |"
 }

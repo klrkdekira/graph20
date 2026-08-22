@@ -356,5 +356,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                | School        | Special |\n| :------------------- | :------------ | :------ |\n| Animate Objects      | Transmutation | C       |\n| Arcane Hand          | Evocation     | C       |\n| Cloudkill            | Conjuration   | C       |\n| Cone of Cold         | Evocation     |    -    |\n| Conjure Elemental    | Conjuration   | C       |\n| Contact Other Plane  | Divination    | R       |\n| Creation             | Illusion      |    -    |\n| Dominate Person      | Enchantment   | C       |\n| Dream                | Illusion      |    -    |\n| Geas                 | Enchantment   |    -    |\n| Hold Monster         | Enchantment   | C       |\n| Legend Lore          | Divination    | M       |\n| Mislead              | Illusion      | C       |\n| Modify Memory        | Enchantment   | C       |\n| Passwall             | Transmutation |    -    |\n| Planar Binding       | Abjuration    | M       |\n| Scrying              | Divination    | C, M    |\n| Seeming              | Illusion      |    -    |\n| Summon Dragon        | Conjuration   | C, M    |\n| Telekinesis          | Transmutation | C       |\n| Telepathic Bond      | Divination    | R       |\n| Teleportation Circle | Conjuration   | M       |\n| Wall of Force        | Evocation     | C       |\n| Wall of Stone        | Evocation     | C       |"
 }

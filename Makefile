@@ -1,4 +1,4 @@
-.PHONY: help install extract manifest bundle llms-full search-index collection-index coverage review review-stats vocab sitemap test validate schema determinism check
+.PHONY: help install extract manifest bundle llms-full search-index collection-index coverage review review-stats vocab sitemap anomalies fidelity graph test validate schema determinism check
 
 UV ?= uv
 
@@ -10,6 +10,11 @@ help:
 	@echo "  bundle       Build the single-file JSON-LD corpus"
 	@echo "  llms-full    Regenerate llms-full.txt"
 	@echo "  search-index Regenerate objects/search-index.json"
+	@echo "  coverage     Check interval coverage only (not extraction fidelity)"
+	@echo "  anomalies    Reject unreviewed source-conversion anomaly candidates"
+	@echo "  fidelity     Check locator ownership and typed/source fidelity"
+	@echo "  graph        Expand the complete JSON-LD graph and reject data loss"
+	@echo "  review       Rebuild the reviewed occurrence ledger; reject pending signals"
 	@echo "  test         Run the structural test suite"
 	@echo "  validate     Dependency-free structural validation"
 	@echo "  schema       Validate records against JSON Schemas"
@@ -52,6 +57,15 @@ vocab:
 sitemap:
 	$(UV) run python scripts/build_sitemap.py --root .
 
+anomalies:
+	$(UV) run python scripts/check_anomalies.py --root .
+
+fidelity:
+	$(UV) run python scripts/validate_fidelity.py --root .
+
+graph:
+	$(UV) run python scripts/validate_graph.py --root .
+
 test:
 	$(UV) run python -m unittest discover -s tests -v
 
@@ -64,4 +78,4 @@ schema:
 determinism:
 	$(UV) run python scripts/check_determinism.py
 
-check: extract manifest bundle llms-full search-index collection-index coverage review vocab sitemap test validate schema determinism
+check: extract manifest bundle llms-full search-index collection-index coverage review vocab sitemap anomalies test validate fidelity graph schema determinism

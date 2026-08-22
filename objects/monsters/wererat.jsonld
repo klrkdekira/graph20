@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The wererat makes two attacks, using Scratch or Hand Crossbow in any combination. It can replace one attack with a Bite attack.\n\nBite (Rat or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 8 (2d4 + 3) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 11. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Wererat under the GM's control and has 10 Hit Points. Success: The target is immune to this wererat's curse for 24 hours.\n\nScratch. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing damage.\n\nHand Crossbow (Humanoid or Hybrid Form Only).\n\nRanged Attack Roll: +5, range 30/120 ft. Hit: 6 (1d6 + 3) Piercing damage."
+      "rulesText": "Multiattack. The wererat makes two attacks, using Scratch or Hand Crossbow in any combination. It can replace one attack with a Bite attack.\n\nBite (Rat or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 8 (2d4 + 3) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 11. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Wererat under the GM's control and has 10 Hit Points. Success: The target is immune to this wererat's curse for 24 hours.\n\nScratch. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing damage.\n\nHand Crossbow (Humanoid or Hybrid Form Only).\n\nRanged Attack Roll: +5, range 30/120 ft. Hit: 6 (1d6 + 3) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.256",
+        "heading": "Actions",
+        "lineStart": 26189,
+        "lineEnd": 26199
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Shape-Shift. The wererat shape-shifts into a Medium rat-humanoid hybrid or a Small rat, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed."
+      "rulesText": "Shape-Shift. The wererat shape-shifts into a Medium rat-humanoid hybrid or a Small rat, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.256",
+        "heading": "Bonus Actions",
+        "lineStart": 26201,
+        "lineEnd": 26203
+      }
     }
   ],
   "rulesText": "Medium or Small Monstrosity (Lycanthrope), Lawful Evil\n\nAC 13\nInitiative +3 (13)\nHP 60 (11d8 + 11)\nSpeed 30 ft., Climb 30 ft.\n\nSkills Perception +4, Stealth +5\nGear Hand Crossbow\nSenses Darkvision 60 ft.; Passive Perception 14\nLanguages Common (can't speak in rat form)\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The wererat makes two attacks, using Scratch or Hand Crossbow in any combination. It can replace one attack with a Bite attack.\n\nBite (Rat or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 8 (2d4 + 3) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 11. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Wererat under the GM's control and has 10 Hit Points. Success: The target is immune to this wererat's curse for 24 hours.\n\nScratch. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing damage.\n\nHand Crossbow (Humanoid or Hybrid Form Only).\n\nRanged Attack Roll: +5, range 30/120 ft. Hit: 6 (1d6 + 3) Piercing damage.\n\nBonus Actions\n\nShape-Shift. The wererat shape-shifts into a Medium rat-humanoid hybrid or a Small rat, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed.",
@@ -84,30 +98,68 @@
     {
       "name": "Bite (Rat or Hybrid Form Only)",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 8,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d4+3",
+            "count": 2,
+            "sides": 4,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Bite (Rat or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 8 (2d4 + 3) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 11. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Wererat under the GM's control and has 10 Hit Points. Success: The target is immune to this wererat's curse for 24 hours.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 8,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d4+3",
-        "count": 2,
-        "sides": 4,
-        "modifier": 3
-      },
       "reachFeet": 5
     },
     {
       "name": "Scratch",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 6,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d6+3",
+            "count": 1,
+            "sides": 6,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Scratch. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing damage.",
+      "path": "statSections[0].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 6,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d6+3",
-        "count": 1,
-        "sides": 6,
-        "modifier": 3
-      },
       "reachFeet": 5
+    },
+    {
+      "name": "Hand Crossbow (Humanoid or Hybrid Form Only)",
+      "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 6,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d6+3",
+            "count": 1,
+            "sides": 6,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Hand Crossbow (Humanoid or Hybrid Form Only). Ranged Attack Roll: +5, range 30/120 ft. Hit: 6 (1d6 + 3) Piercing damage.",
+      "path": "statSections[0].rulesText.paragraphs[3]",
+      "parseStatus": "parsed",
+      "attackBonus": 5,
+      "rangeFeet": {
+        "normal": 30,
+        "long": 120
+      }
     }
   ]
 }

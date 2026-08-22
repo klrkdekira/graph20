@@ -12,7 +12,7 @@
     "section": "3.12",
     "heading": "Druid Subclass: Circle of the Land",
     "lineStart": 2804,
-    "lineEnd": 2808
+    "lineEnd": 2877
   },
   "parentClass": {
     "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
@@ -24,6 +24,13 @@
       "level": 3,
       "name": "Circle of the Land Spells",
       "rulesText": "Whenever you finish a Long Rest, choose one type of land: arid, polar, temperate, or tropical. Consult the table below that corresponds to the chosen type; you have the spells listed for your Druid level and lower prepared.\n\nArid Land\n\nPolar Land\n\nTemperate Land\n\nTropical Land",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.10",
+        "heading": "Level 3: Circle of the Land Spells",
+        "lineStart": 2810,
+        "lineEnd": 2848
+      },
       "relatedTables": [
         {
           "@id": "https://cheeleong.dev/graph20/objects/tables/3-10-arid-land"
@@ -42,17 +49,38 @@
     {
       "level": 3,
       "name": "Land's Aid",
-      "rulesText": "As a Magic action, you can expend a use of your Wild Shape and choose a point within 60 feet of yourself. Vitality-giving flowers and life-draining thorns appear for a moment in a 10-foot-radius Sphere centered on that point. Each creature of your choice in the Sphere must make a Constitution saving throw against your spell save DC, taking 2d6 Necrotic damage on a failed save or half as much damage on a successful one. One creature of your choice in that area regains 2d6 Hit Points.\n\nThe damage and healing increase by 1d6 when you reach Druid levels 10 (3d6) and 14 (4d6)."
+      "rulesText": "As a Magic action, you can expend a use of your Wild Shape and choose a point within 60 feet of yourself. Vitality-giving flowers and life-draining thorns appear for a moment in a 10-foot-radius Sphere centered on that point. Each creature of your choice in the Sphere must make a Constitution saving throw against your spell save DC, taking 2d6 Necrotic damage on a failed save or half as much damage on a successful one. One creature of your choice in that area regains 2d6 Hit Points.\n\nThe damage and healing increase by 1d6 when you reach Druid levels 10 (3d6) and 14 (4d6).",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.10",
+        "heading": "Level 3: Land's Aid",
+        "lineStart": 2850,
+        "lineEnd": 2854
+      }
     },
     {
       "level": 6,
       "name": "Natural Recovery",
-      "rulesText": "You can cast one of the level 1+ spells that you have prepared from your Circle Spells feature without expending a spell slot, and you must finish a Long Rest before you do so again.\n\nIn addition, when you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your Druid level (round up), and none of them can be level 6+. For example, if you're a level 6 Druid, you can recover up to three levels' worth of spell slots. You can recover a level 3 spell slot, a level 2 and a level 1 spell slot, or three level 1 spell slots. Once you recover spell slots with this feature, you can't do so again until you finish a Long Rest."
+      "rulesText": "You can cast one of the level 1+ spells that you have prepared from your Circle Spells feature without expending a spell slot, and you must finish a Long Rest before you do so again.\n\nIn addition, when you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your Druid level (round up), and none of them can be level 6+. For example, if you're a level 6 Druid, you can recover up to three levels' worth of spell slots. You can recover a level 3 spell slot, a level 2 and a level 1 spell slot, or three level 1 spell slots. Once you recover spell slots with this feature, you can't do so again until you finish a Long Rest.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.10",
+        "heading": "Level 6: Natural Recovery",
+        "lineStart": 2856,
+        "lineEnd": 2860
+      }
     },
     {
       "level": 10,
       "name": "Nature's Ward",
       "rulesText": "You are immune to the Poisoned condition, and you have Resistance to a damage type associated with your current land choice in the Circle Spells feature, as shown in the Nature's Ward table.\n\nNature's Ward",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.10",
+        "heading": "Level 10: Nature's Ward",
+        "lineStart": 2862,
+        "lineEnd": 2871
+      },
       "relatedTables": [
         {
           "@id": "https://cheeleong.dev/graph20/objects/tables/3-10-natures-ward"
@@ -62,7 +90,14 @@
     {
       "level": 14,
       "name": "Nature's Sanctuary",
-      "rulesText": "As a Magic action, you can expend a use of your Wild Shape and cause spectral trees and vines to appear in a 15-foot Cube on the ground within 120 feet of yourself. They last there for 1 minute or until you have the Incapacitated condition or die. You and your allies have Half Cover while in that area, and your allies gain the current Resistance of your Nature's Ward while there.\n\nAs a Bonus Action, you can move the Cube up to 60 feet to ground within 120 feet of yourself."
+      "rulesText": "As a Magic action, you can expend a use of your Wild Shape and cause spectral trees and vines to appear in a 15-foot Cube on the ground within 120 feet of yourself. They last there for 1 minute or until you have the Incapacitated condition or die. You and your allies have Half Cover while in that area, and your allies gain the current Resistance of your Nature's Ward while there.\n\nAs a Bonus Action, you can move the Cube up to 60 feet to ground within 120 feet of yourself.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.10",
+        "heading": "Level 14: Nature's Sanctuary",
+        "lineStart": 2873,
+        "lineEnd": 2877
+      }
     }
   ]
 }

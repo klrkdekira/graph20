@@ -202,5 +202,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                | School        | Special |\n| :------------------- | :------------ | :------ |\n| Banishment           | Abjuration    | C       |\n| Blight               | Necromancy    |    -    |\n| Charm Monster        | Enchantment   |    -    |\n| Confusion            | Enchantment   | C       |\n| Dimension Door       | Conjuration   |    -    |\n| Dominate Beast       | Enchantment   | C       |\n| Fire Shield          | Evocation     |    -    |\n| Greater Invisibility | Illusion      | C       |\n| Ice Storm            | Evocation     |    -    |\n| Polymorph            | Transmutation | C       |\n| Stoneskin            | Transmutation | C, M    |\n| Vitriolic Sphere     | Evocation     |    -    |\n| Wall of Fire         | Evocation     | C       |"
 }

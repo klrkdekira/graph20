@@ -72,7 +72,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Ram. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning damage plus 5 (2d4) Radiant damage. If the target is a Huge or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition."
+      "rulesText": "Ram. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning damage plus 5 (2d4) Radiant damage. If the target is a Huge or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.35",
+        "heading": "Actions",
+        "lineStart": 27620,
+        "lineEnd": 27622
+      }
     }
   ],
   "rulesText": "Huge Celestial, Neutral Good\n\nAC 14\nInitiative +6 (16)\nHP 42 (5d12 + 10)\nSpeed 60 ft.\n\nSkills Perception +4\nResistances Necrotic, Radiant\nSenses Darkvision 90 ft.; Passive Perception 14\nLanguages Celestial; understands Common, Elvish, and Sylvan but can't speak them\nCR 2 (XP 450; PB +2)\n\nActions\n\nRam. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning damage plus 5 (2d4) Radiant damage. If the target is a Huge or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition.",
@@ -80,15 +87,40 @@
     {
       "name": "Ram",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 11,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "2d6+4",
+            "count": 2,
+            "sides": 6,
+            "modifier": 4
+          }
+        },
+        {
+          "averageDamage": 5,
+          "damageType": "Radiant",
+          "damageRoll": {
+            "expression": "2d4",
+            "count": 2,
+            "sides": 4
+          }
+        },
+        {
+          "averageDamage": 5,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "2d4",
+            "count": 2,
+            "sides": 4
+          }
+        }
+      ],
+      "sourceText": "Ram. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Bludgeoning damage plus 5 (2d4) Radiant damage. If the target is a Huge or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 11,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "2d6+4",
-        "count": 2,
-        "sides": 6,
-        "modifier": 4
-      },
       "reachFeet": 10
     }
   ]

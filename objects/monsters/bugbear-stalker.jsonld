@@ -72,15 +72,36 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Abduct. The bugbear needn't spend extra movement to move a creature it is grappling."
+      "rulesText": "Abduct. The bugbear needn't spend extra movement to move a creature it is grappling.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.49",
+        "heading": "Traits",
+        "lineStart": 19493,
+        "lineEnd": 19495
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The bugbear makes two Javelin or Morningstar attacks.\n\nJavelin. Melee or Ranged Attack Roll: +5, reach 10 ft. or range 30/120 ft. Hit: 13 (3d6 + 3) Piercing damage.\n\nMorningstar. Melee Attack Roll: +5 (with Advantage if the target is Grappled by the bugbear), reach 10 ft. Hit: 12 (2d8 + 3) Piercing damage."
+      "rulesText": "Multiattack. The bugbear makes two Javelin or Morningstar attacks.\n\nJavelin. Melee or Ranged Attack Roll: +5, reach 10 ft. or range 30/120 ft. Hit: 13 (3d6 + 3) Piercing damage.\n\nMorningstar. Melee Attack Roll: +5 (with Advantage if the target is Grappled by the bugbear), reach 10 ft. Hit: 12 (2d8 + 3) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.49",
+        "heading": "Actions",
+        "lineStart": 19497,
+        "lineEnd": 19503
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Quick Grapple. Dexterity Saving Throw: DC 13, one Medium or smaller creature the bugbear can see within 10 feet. Failure: The target has the Grappled condition (escape DC 13)."
+      "rulesText": "Quick Grapple. Dexterity Saving Throw: DC 13, one Medium or smaller creature the bugbear can see within 10 feet. Failure: The target has the Grappled condition (escape DC 13).",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.49",
+        "heading": "Bonus Actions",
+        "lineStart": 19505,
+        "lineEnd": 19507
+      }
     }
   ],
   "rulesText": "Medium Fey (Goblinoid), Chaotic Evil\n\nAC 15\nInitiative +2 (12)\nHP 65 (10d8 + 20)\nSpeed 30 ft.\n\nSkills Stealth +6, Survival +3\nGear Chain Shirt, Javelins (6), Morningstar\nSenses Darkvision 60 ft.; Passive Perception 11\nLanguages Common, Goblin\nCR 3 (XP 700; PB +2)\n\nTraits\n\nAbduct. The bugbear needn't spend extra movement to move a creature it is grappling.\n\nActions\n\nMultiattack. The bugbear makes two Javelin or Morningstar attacks.\n\nJavelin. Melee or Ranged Attack Roll: +5, reach 10 ft. or range 30/120 ft. Hit: 13 (3d6 + 3) Piercing damage.\n\nMorningstar. Melee Attack Roll: +5 (with Advantage if the target is Grappled by the bugbear), reach 10 ft. Hit: 12 (2d8 + 3) Piercing damage.\n\nBonus Actions\n\nQuick Grapple. Dexterity Saving Throw: DC 13, one Medium or smaller creature the bugbear can see within 10 feet. Failure: The target has the Grappled condition (escape DC 13).",
@@ -88,20 +109,48 @@
     {
       "name": "Javelin",
       "attackType": "Melee or Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 13,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "3d6+3",
+            "count": 3,
+            "sides": 6,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Javelin. Melee or Ranged Attack Roll: +5, reach 10 ft. or range 30/120 ft. Hit: 13 (3d6 + 3) Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 13,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "3d6+3",
-        "count": 3,
-        "sides": 6,
-        "modifier": 3
-      },
       "reachFeet": 10,
       "rangeFeet": {
         "normal": 30,
         "long": 120
       }
+    },
+    {
+      "name": "Morningstar",
+      "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 12,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d8+3",
+            "count": 2,
+            "sides": 8,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Morningstar. Melee Attack Roll: +5 (with Advantage if the target is Grappled by the bugbear), reach 10 ft. Hit: 12 (2d8 + 3) Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
+      "attackBonus": 5,
+      "reachFeet": 10
     }
   ]
 }

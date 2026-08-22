@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.39",
     "heading": "Ammunition of Slaying",
-    "lineStart": 14895,
-    "lineEnd": 14903
+    "lineStart": 14896,
+    "lineEnd": 14904
   },
   "columns": [
     "1d100",
@@ -140,5 +140,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| 1d100 | Creature Type | 1d100 | Creature Type |\n| :---- | :------------ | :---- | :------------ |\n| 01–10 | Aberrations   | 51–60 | Fey           |\n| 11–15 | Beasts        | 61–70 | Fiends        |\n| 16–20 | Celestials    | 71–75 | Giants        |\n| 21–25 | Constructs    | 76–80 | Monstrosities |\n| 26–35 | Dragons       | 81–85 | Oozes         |\n| 36–45 | Elementals    | 86–90 | Plants        |\n| 46–50 | Humanoids     | 91–00 | Undead        |"
 }

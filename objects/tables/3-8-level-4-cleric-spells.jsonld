@@ -146,5 +146,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell               | School        | Special |\n| :------------------ | :------------ | :------ |\n| Aura of Life        | Abjuration    | C       |\n| Banishment          | Abjuration    | C       |\n| Control Water       | Transmutation | C       |\n| Death Ward          | Abjuration    |    -    |\n| Divination          | Divination    | R, M    |\n| Freedom of Movement | Abjuration    |    -    |\n| Guardian of Faith   | Conjuration   |    -    |\n| Locate Creature     | Divination    | C       |\n| Stone Shape         | Transmutation |    -    |"
 }

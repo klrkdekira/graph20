@@ -71,7 +71,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +6, reach 10 ft. Hit: 6 (1d4 + 4) Piercing damage plus 4 (1d8) Poison damage."
+      "rulesText": "Bite. Melee Attack Roll: +6, reach 10 ft. Hit: 6 (1d4 + 4) Piercing damage plus 4 (1d8) Poison damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.49",
+        "heading": "Actions",
+        "lineStart": 28016,
+        "lineEnd": 28018
+      }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 14\nInitiative +4 (14)\nHP 11 (2d8 + 2)\nSpeed 40 ft., Swim 40 ft.\n\nSkills Perception +2\nSenses Blindsight 10 ft.; Passive Perception 12\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +6, reach 10 ft. Hit: 6 (1d4 + 4) Piercing damage plus 4 (1d8) Poison damage.",
@@ -79,15 +86,31 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 6,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d4+4",
+            "count": 1,
+            "sides": 4,
+            "modifier": 4
+          }
+        },
+        {
+          "averageDamage": 4,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "1d8",
+            "count": 1,
+            "sides": 8
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +6, reach 10 ft. Hit: 6 (1d4 + 4) Piercing damage plus 4 (1d8) Poison damage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 6,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d4+4",
-        "count": 1,
-        "sides": 4,
-        "modifier": 4
-      },
       "reachFeet": 10
     }
   ]

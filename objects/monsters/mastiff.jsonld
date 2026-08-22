@@ -71,7 +71,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition."
+      "rulesText": "Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.64",
+        "heading": "Actions",
+        "lineStart": 28414,
+        "lineEnd": 28416
+      }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 5 (1d8 + 1)\nSpeed 40 ft.\n\nSkills Perception +5\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages None\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition.",
@@ -79,15 +86,22 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 4,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d6+1",
+            "count": 1,
+            "sides": 6,
+            "modifier": 1
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 3,
-      "averageDamage": 4,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d6+1",
-        "count": 1,
-        "sides": 6,
-        "modifier": 1
-      },
       "reachFeet": 5
     }
   ]

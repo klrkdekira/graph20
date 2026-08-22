@@ -90,5 +90,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Creature Size | Carry          | Drag/Lift/Push |\n| :------------ | :------------- | :------------- |\n| Tiny          | Str. × 7.5 lb. | Str. × 15 lb.  |\n| Small/Medium  | Str. × 15 lb.  | Str. × 30 lb.  |\n| Large         | Str. × 30 lb.  | Str. × 60 lb.  |\n| Huge          | Str. × 60 lb.  | Str. × 120 lb. |\n| Gargantuan    | Str. × 120 lb. | Str. × 240 lb. |"
 }

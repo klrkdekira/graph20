@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Dagger. Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage."
+      "rulesText": "Dagger. Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.106",
+        "heading": "Actions",
+        "lineStart": 21316,
+        "lineEnd": 21318
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Nimble Escape. The goblin takes the Disengage or Hide action."
+      "rulesText": "Nimble Escape. The goblin takes the Disengage or Hide action.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.106",
+        "heading": "Bonus Actions",
+        "lineStart": 21320,
+        "lineEnd": 21322
+      }
     }
   ],
   "rulesText": "Small Fey (Goblinoid), Chaotic Neutral\n\nAC 12\nInitiative +2 (12)\nHP 7 (2d6)\nSpeed 30 ft.\n\nSkills Stealth +6\nGear Daggers (3)\nSenses Darkvision 60 ft.; Passive Perception 9\nLanguages Common, Goblin\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nDagger. Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage.\n\nBonus Actions\n\nNimble Escape. The goblin takes the Disengage or Hide action.",
@@ -83,15 +97,22 @@
     {
       "name": "Dagger",
       "attackType": "Melee or Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 4,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d4+2",
+            "count": 1,
+            "sides": 4,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Dagger. Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 4,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d4+2",
-        "count": 1,
-        "sides": 4,
-        "modifier": 2
-      },
       "reachFeet": 5,
       "rangeFeet": {
         "normal": 20,

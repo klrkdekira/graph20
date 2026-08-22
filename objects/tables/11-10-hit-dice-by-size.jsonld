@@ -104,5 +104,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Monster Size | Hit Die | Average HP per Die |\n| :----------- | :------ | :----------------- |\n| Tiny         | d4      | 2 1/2              |\n| Small        | d6      | 3 1/2              |\n| Medium       | d8      | 4 1/2              |\n| Large        | d10     | 5 1/2              |\n| Huge         | d12     | 6 1/2              |\n| Gargantuan   | d20     | 10 1/2             |"
 }

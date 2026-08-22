@@ -70,12 +70,43 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Mimicry. The raven can mimic simple sounds it has heard, such as a whisper or chitter. A hearer can discern the sounds are imitations with a successful DC 10 Wisdom (Insight) check."
+      "rulesText": "Mimicry. The raven can mimic simple sounds it has heard, such as a whisper or chitter. A hearer can discern the sounds are imitations with a successful DC 10 Wisdom (Insight) check.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.75",
+        "heading": "Traits",
+        "lineStart": 28705,
+        "lineEnd": 28707
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Beak. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage."
+      "rulesText": "Beak. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.75",
+        "heading": "Actions",
+        "lineStart": 28709,
+        "lineEnd": 28711
+      }
     }
   ],
-  "rulesText": "Tiny Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 2 (1d4)\nSpeed 10 ft., Fly 50 ft.\n\nSkills Perception +3\nSenses Passive Perception 13\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nMimicry. The raven can mimic simple sounds it has heard, such as a whisper or chitter. A hearer can discern the sounds are imitations with a successful DC 10 Wisdom (Insight) check.\n\nActions\n\nBeak. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage."
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 2 (1d4)\nSpeed 10 ft., Fly 50 ft.\n\nSkills Perception +3\nSenses Passive Perception 13\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nMimicry. The raven can mimic simple sounds it has heard, such as a whisper or chitter. A hearer can discern the sounds are imitations with a successful DC 10 Wisdom (Insight) check.\n\nActions\n\nBeak. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage.",
+  "attacks": [
+    {
+      "name": "Beak",
+      "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 1,
+          "damageType": "Piercing"
+        }
+      ],
+      "sourceText": "Beak. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
+      "attackBonus": 4,
+      "reachFeet": 5
+    }
+  ]
 }

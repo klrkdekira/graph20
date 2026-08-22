@@ -14,15 +14,36 @@
     "lineStart": 3548,
     "lineEnd": 3812
   },
-  "coreTraits": {
-    "Primary Ability": "Dexterity and Wisdom",
-    "Hit Point Die": "D10 per Ranger level",
-    "Saving Throw Proficiencies": "Strength and Dexterity",
-    "Skill Proficiencies": "Choose 3: Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, or Survival",
-    "Weapon Proficiencies": "Simple and Martial weapons",
-    "Armor Training": "Light and Medium armor and Shields",
-    "Starting Equipment": "Choose A or B: (A) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Druidic Focus (sprig of mistletoe), Explorer’s Pack, and 7 GP; or (B) 150 GP"
-  },
+  "coreTraits": [
+    {
+      "name": "Primary Ability",
+      "value": "Dexterity and Wisdom"
+    },
+    {
+      "name": "Hit Point Die",
+      "value": "D10 per Ranger level"
+    },
+    {
+      "name": "Saving Throw Proficiencies",
+      "value": "Strength and Dexterity"
+    },
+    {
+      "name": "Skill Proficiencies",
+      "value": "Choose 3: Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, or Survival"
+    },
+    {
+      "name": "Weapon Proficiencies",
+      "value": "Simple and Martial weapons"
+    },
+    {
+      "name": "Armor Training",
+      "value": "Light and Medium armor and Shields"
+    },
+    {
+      "name": "Starting Equipment",
+      "value": "Choose A or B: (A) Studded Leather Armor, Scimitar, Shortsword, Longbow, 20 Arrows, Quiver, Druidic Focus (sprig of mistletoe), Explorer’s Pack, and 7 GP; or (B) 150 GP"
+    }
+  ],
   "spellList": {
     "@id": "https://cheeleong.dev/graph20/objects/rules/3-21-ranger-spell-list"
   },
@@ -35,87 +56,206 @@
     {
       "level": 1,
       "name": "Spellcasting",
-      "rulesText": "You have learned to channel the magical essence of nature to cast spells. See “Spells” for the rules on spellcasting. The information below details how you use those rules with Ranger spells, which appear in the Ranger spell list later in the class’s description.\n\nSpell Slots. The Ranger Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.\n\nPrepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Ranger spells. Cure Wounds and Ensnaring Strike are recommended.\n\nThe number of spells on your list increases as you gain Ranger levels, as shown in the Prepared Spells column of the Ranger Features table. Whenever that number increases, choose additional Ranger spells until the number of spells on your list matches the number in the Ranger Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Ranger, your list of prepared spells can include six Ranger spells of level 1 or 2 in any combination.\n\nIf another Ranger feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Ranger spells for you.\n\nChanging Your Prepared Spells. Whenever you finish a Long Rest, you can replace one spell on your list with another Ranger spell for which you have spell slots.\n\nSpellcasting Ability. Wisdom is your spellcasting ability for your Ranger spells.\n\nSpellcasting Focus. You can use a Druidic Focus as a Spellcasting Focus for your Ranger spells."
+      "rulesText": "You have learned to channel the magical essence of nature to cast spells. See “Spells” for the rules on spellcasting. The information below details how you use those rules with Ranger spells, which appear in the Ranger spell list later in the class’s description.\n\nSpell Slots. The Ranger Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.\n\nPrepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Ranger spells. Cure Wounds and Ensnaring Strike are recommended.\n\nThe number of spells on your list increases as you gain Ranger levels, as shown in the Prepared Spells column of the Ranger Features table. Whenever that number increases, choose additional Ranger spells until the number of spells on your list matches the number in the Ranger Features table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 5 Ranger, your list of prepared spells can include six Ranger spells of level 1 or 2 in any combination.\n\nIf another Ranger feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Ranger spells for you.\n\nChanging Your Prepared Spells. Whenever you finish a Long Rest, you can replace one spell on your list with another Ranger spell for which you have spell slots.\n\nSpellcasting Ability. Wisdom is your spellcasting ability for your Ranger spells.\n\nSpellcasting Focus. You can use a Druidic Focus as a Spellcasting Focus for your Ranger spells.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.20",
+        "heading": "Level 1: Spellcasting",
+        "lineStart": 3603,
+        "lineEnd": 3619
+      }
     },
     {
       "level": 1,
       "name": "Favored Enemy",
-      "rulesText": "You always have the Hunter's Mark spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.\n\nThe number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table."
+      "rulesText": "You always have the Hunter's Mark spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.\n\nThe number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.20",
+        "heading": "Level 1: Favored Enemy",
+        "lineStart": 3621,
+        "lineEnd": 3625
+      }
     },
     {
       "level": 1,
       "name": "Weapon Mastery",
-      "rulesText": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your\n\nchoice with which you have proficiency, such as Longbows and Shortswords.\n\nWhenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Longswords."
+      "rulesText": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your\n\nchoice with which you have proficiency, such as Longbows and Shortswords.\n\nWhenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Longswords.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.20",
+        "heading": "Level 1: Weapon Mastery",
+        "lineStart": 3627,
+        "lineEnd": 3633
+      }
     },
     {
       "level": 2,
       "name": "Deft Explorer",
-      "rulesText": "Thanks to your travels, you gain the following benefits.\n\nExpertise. Choose one of your skill proficiencies with which you lack Expertise. You gain Expertise in that skill.\n\nLanguages. You know two languages of your choice from the language tables in “Character Creation.”"
+      "rulesText": "Thanks to your travels, you gain the following benefits.\n\nExpertise. Choose one of your skill proficiencies with which you lack Expertise. You gain Expertise in that skill.\n\nLanguages. You know two languages of your choice from the language tables in “Character Creation.”",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.20",
+        "heading": "Level 2: Deft Explorer",
+        "lineStart": 3635,
+        "lineEnd": 3641
+      }
     },
     {
       "level": 2,
       "name": "Fighting Style",
-      "rulesText": "You gain a Fighting Style feat of your choice (see \"Feats\"). Instead of choosing one of those feats, you can choose the option below.\n\nDruidic Warrior. You learn two Druid cantrips of your choice (see the Druid class's section for a list of Druid spells). Guidance and Starry Wisp are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip."
+      "rulesText": "You gain a Fighting Style feat of your choice (see \"Feats\"). Instead of choosing one of those feats, you can choose the option below.\n\nDruidic Warrior. You learn two Druid cantrips of your choice (see the Druid class's section for a list of Druid spells). Guidance and Starry Wisp are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.20",
+        "heading": "Level 2: Fighting Style",
+        "lineStart": 3643,
+        "lineEnd": 3647
+      }
     },
     {
       "level": 3,
       "name": "Ranger Subclass",
-      "rulesText": "You gain a Ranger subclass of your choice. The Hunter subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Ranger levels. For the rest of your career, you gain each of your subclass's features that are of your Ranger level or lower."
+      "rulesText": "You gain a Ranger subclass of your choice. The Hunter subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Ranger levels. For the rest of your career, you gain each of your subclass's features that are of your Ranger level or lower.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.20",
+        "heading": "Level 3: Ranger Subclass",
+        "lineStart": 3649,
+        "lineEnd": 3651
+      }
     },
     {
       "level": 4,
       "name": "Ability Score Improvement",
-      "rulesText": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Ranger levels 8, 12, and 16."
+      "rulesText": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you qualify. You gain this feature again at Ranger levels 8, 12, and 16.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.20",
+        "heading": "Level 4: Ability Score Improvement",
+        "lineStart": 3653,
+        "lineEnd": 3655
+      }
     },
     {
       "level": 5,
       "name": "Extra Attack",
-      "rulesText": "You can attack twice instead of once whenever you take the Attack action on your turn."
+      "rulesText": "You can attack twice instead of once whenever you take the Attack action on your turn.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.20",
+        "heading": "Level 5: Extra Attack",
+        "lineStart": 3657,
+        "lineEnd": 3659
+      }
     },
     {
       "level": 6,
       "name": "Roving",
-      "rulesText": "Your Speed increases by 10 feet while you aren't wearing Heavy armor. You also have a Climb Speed and a Swim Speed equal to your Speed."
+      "rulesText": "Your Speed increases by 10 feet while you aren't wearing Heavy armor. You also have a Climb Speed and a Swim Speed equal to your Speed.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.20",
+        "heading": "Level 6: Roving",
+        "lineStart": 3661,
+        "lineEnd": 3663
+      }
     },
     {
       "level": 9,
       "name": "Expertise",
-      "rulesText": "Choose two of your skill proficiencies with which you lack Expertise. You gain Expertise in those skills."
+      "rulesText": "Choose two of your skill proficiencies with which you lack Expertise. You gain Expertise in those skills.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.20",
+        "heading": "Level 9: Expertise",
+        "lineStart": 3665,
+        "lineEnd": 3667
+      }
     },
     {
       "level": 10,
       "name": "Tireless",
-      "rulesText": "Primal forces now help fuel you on your journeys, granting you the following benefits.\n\nTemporary Hit Points. As a Magic action, you can give yourself a number of Temporary Hit Points equal to 1d8 plus your Wisdom modifier (minimum of 1). You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.\n\nDecrease Exhaustion. Whenever you finish a Short Rest, your Exhaustion level, if any, decreases by 1."
+      "rulesText": "Primal forces now help fuel you on your journeys, granting you the following benefits.\n\nTemporary Hit Points. As a Magic action, you can give yourself a number of Temporary Hit Points equal to 1d8 plus your Wisdom modifier (minimum of 1). You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.\n\nDecrease Exhaustion. Whenever you finish a Short Rest, your Exhaustion level, if any, decreases by 1.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.20",
+        "heading": "Level 10: Tireless",
+        "lineStart": 3669,
+        "lineEnd": 3675
+      }
     },
     {
       "level": 13,
       "name": "Relentless Hunter",
-      "rulesText": "Taking damage can't break your Concentration on Hunter's Mark."
+      "rulesText": "Taking damage can't break your Concentration on Hunter's Mark.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.20",
+        "heading": "Level 13: Relentless Hunter",
+        "lineStart": 3677,
+        "lineEnd": 3679
+      }
     },
     {
       "level": 14,
       "name": "Nature's Veil",
-      "rulesText": "You invoke spirits of nature to magically hide yourself. As a Bonus Action, you can give yourself the Invisible condition until the end of your next turn.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
+      "rulesText": "You invoke spirits of nature to magically hide yourself. As a Bonus Action, you can give yourself the Invisible condition until the end of your next turn.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.20",
+        "heading": "Level 14: Nature's Veil",
+        "lineStart": 3681,
+        "lineEnd": 3685
+      }
     },
     {
       "level": 17,
       "name": "Precise Hunter",
-      "rulesText": "You have Advantage on attack rolls against the creature currently marked by your Hunter's Mark."
+      "rulesText": "You have Advantage on attack rolls against the creature currently marked by your Hunter's Mark.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.20",
+        "heading": "Level 17: Precise Hunter",
+        "lineStart": 3687,
+        "lineEnd": 3689
+      }
     },
     {
       "level": 18,
       "name": "Feral Senses",
-      "rulesText": "Your connection to the forces of nature grants you Blindsight with a range of 30 feet."
+      "rulesText": "Your connection to the forces of nature grants you Blindsight with a range of 30 feet.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.20",
+        "heading": "Level 18: Feral Senses",
+        "lineStart": 3691,
+        "lineEnd": 3693
+      }
     },
     {
       "level": 19,
       "name": "Epic Boon",
-      "rulesText": "You gain an Epic Boon feat (see “Feats”) or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended."
+      "rulesText": "You gain an Epic Boon feat (see “Feats”) or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.20",
+        "heading": "Level 19: Epic Boon",
+        "lineStart": 3695,
+        "lineEnd": 3697
+      }
     },
     {
       "level": 20,
       "name": "Foe Slayer",
-      "rulesText": "The damage die of your Hunter's Mark is a d10 rather than a d6."
+      "rulesText": "The damage die of your Hunter's Mark is a d10 rather than a d6.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.20",
+        "heading": "Level 20: Foe Slayer",
+        "lineStart": 3699,
+        "lineEnd": 3701
+      }
     }
   ],
   "relatedTables": [

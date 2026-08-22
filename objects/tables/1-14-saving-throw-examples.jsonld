@@ -85,5 +85,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Ability      | Make a Save To ...             |\n| :----------- | :----------------------------- |\n| Strength     | Physically resist direct force |\n| Dexterity    | Dodge out of harm’s way        |\n| Constitution | Endure a toxic hazard          |\n| Intelligence | Recognize an illusion as fake  |\n| Wisdom       | Resist a mental assault        |\n| Charisma     | Assert your identity           |"
 }

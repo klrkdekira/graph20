@@ -76,5 +76,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Size                        | Fragile  | Resilient |\n| :-------------------------- | :------- | :-------- |\n| Tiny (bottle, lock)         | 2 (1d4)  | 5 (2d4)   |\n| Small (chest, lute)         | 3 (1d6)  | 10 (3d6)  |\n| Medium (barrel, chandelier) | 4 (1d8)  | 18 (4d8)  |\n| Large (cart, dining table)  | 5 (1d10) | 27 (5d10) |"
 }

@@ -129,5 +129,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| 1d12  | Language             |\n| :---- | :------------------- |\n|   -   | Common               |\n| 1     | Common Sign Language |\n| 2     | Draconic             |\n| 3-4   | Dwarvish             |\n| 5-6   | Elvish               |\n| 7     | Giant                |\n| 8     | Gnomish              |\n| 9     | Goblin               |\n| 10-11 | Halfling             |\n| 12    | Orc                  |"
 }

@@ -70,7 +70,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The ankylosaurus makes two Tail attacks.\n\nTail. Melee Attack Roll: +6, reach 10 ft. Hit: 9 (1d10 + 4) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition."
+      "rulesText": "Multiattack. The ankylosaurus makes two Tail attacks.\n\nTail. Melee Attack Roll: +6, reach 10 ft. Hit: 9 (1d10 + 4) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.3",
+        "heading": "Actions",
+        "lineStart": 26791,
+        "lineEnd": 26795
+      }
     }
   ],
   "rulesText": "Huge Beast (Dinosaur), Unaligned\n\nAC 15\nInitiative +0 (10)\nHP 68 (8d12 + 16)\nSpeed 30 ft.\n\nSenses Passive Perception 11\nLanguages None\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The ankylosaurus makes two Tail attacks.\n\nTail. Melee Attack Roll: +6, reach 10 ft. Hit: 9 (1d10 + 4) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.",
@@ -78,15 +85,22 @@
     {
       "name": "Tail",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 9,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "1d10+4",
+            "count": 1,
+            "sides": 10,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Tail. Melee Attack Roll: +6, reach 10 ft. Hit: 9 (1d10 + 4) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 9,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "1d10+4",
-        "count": 1,
-        "sides": 10,
-        "modifier": 4
-      },
       "reachFeet": 10
     }
   ]

@@ -71,12 +71,52 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Spider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nWeb Walker. The spider ignores movement restrictions caused by webs, and the spider knows the location of any other creature in contact with the same web."
+      "rulesText": "Spider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nWeb Walker. The spider ignores movement restrictions caused by webs, and the spider knows the location of any other creature in contact with the same web.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.82",
+        "heading": "Traits",
+        "lineStart": 28887,
+        "lineEnd": 28891
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus 2 (1d4) Poison damage."
+      "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus 2 (1d4) Poison damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.82",
+        "heading": "Actions",
+        "lineStart": 28893,
+        "lineEnd": 28895
+      }
     }
   ],
-  "rulesText": "Tiny Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 1 (1d4 - 1)\nSpeed 20 ft., Climb 20 ft.\n\nSkills Stealth +4\nSenses Darkvision 30 ft.; Passive Perception 10\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nSpider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nWeb Walker. The spider ignores movement restrictions caused by webs, and the spider knows the location of any other creature in contact with the same web.\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus 2 (1d4) Poison damage."
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 1 (1d4 - 1)\nSpeed 20 ft., Climb 20 ft.\n\nSkills Stealth +4\nSenses Darkvision 30 ft.; Passive Perception 10\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nSpider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nWeb Walker. The spider ignores movement restrictions caused by webs, and the spider knows the location of any other creature in contact with the same web.\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus 2 (1d4) Poison damage.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 1,
+          "damageType": "Piercing"
+        },
+        {
+          "averageDamage": 2,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "1d4",
+            "count": 1,
+            "sides": 4
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage plus 2 (1d4) Poison damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
+      "attackBonus": 4,
+      "reachFeet": 5
+    }
+  ]
 }

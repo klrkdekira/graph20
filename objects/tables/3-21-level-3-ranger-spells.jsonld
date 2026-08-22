@@ -188,5 +188,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                  | School        | Special |\n| :--------------------- | :------------ | :------ |\n| Conjure Animals        | Conjuration   | C       |\n| Daylight               | Evocation     |    -    |\n| Dispel Magic           | Abjuration    |    -    |\n| Meld into Stone        | Transmutation | R       |\n| Nondetection           | Abjuration    | M       |\n| Plant Growth           | Transmutation |    -    |\n| Protection from Energy | Abjuration    | C       |\n| Revivify               | Necromancy    | M       |\n| Speak with Plants      | Transmutation |    -    |\n| Water Breathing        | Transmutation | R       |\n| Water Walk             | Transmutation | R       |\n| Wind Wall              | Evocation     | C       |"
 }

@@ -1,6 +1,6 @@
 [project]
 name = "graph20"
-version = "0.2.0"
+version = "0.3.0"
 description = "SRD 5.2.1 JSON-LD reference data and JSON Schema contracts"
 readme = "README.md"
 requires-python = ">=3.12"

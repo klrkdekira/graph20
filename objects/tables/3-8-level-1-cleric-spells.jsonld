@@ -230,5 +230,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                         | School        | Special |\n| :---------------------------- | :------------ | :------ |\n| Bane                          | Enchantment   | C       |\n| Bless                         | Enchantment   | C, M    |\n| Command                       | Enchantment   |    -    |\n| Create or Destroy Water       | Transmutation |    -    |\n| Cure Wounds                   | Abjuration    |    -    |\n| Detect Evil and Good          | Divination    | C       |\n| Detect Magic                  | Divination    | C, R    |\n| Detect Poison and Disease     | Divination    | C, R    |\n| Guiding Bolt                  | Evocation     |    -    |\n| Healing Word                  | Abjuration    |    -    |\n| Inflict Wounds                | Necromancy    |    -    |\n| Protection from Evil and Good | Abjuration    | C, M    |\n| Purify Food and Drink         | Transmutation | R       |\n| Sanctuary                     | Abjuration    |    -    |\n| Shield of Faith               | Abjuration    | C       |"
 }

@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.278",
     "heading": "Wand of Binding",
-    "lineStart": 17608,
-    "lineEnd": 17611
+    "lineStart": 17609,
+    "lineEnd": 17612
   },
   "columns": [
     "Spell",
@@ -41,5 +41,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell        | Charge Cost |\n| :----------- | :---------- |\n| Hold Monster | 5           |\n| Hold Person  | 2           |"
 }

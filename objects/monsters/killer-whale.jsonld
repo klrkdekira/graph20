@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Hold Breath. The whale can hold its breath for 30 minutes."
+      "rulesText": "Hold Breath. The whale can hold its breath for 30 minutes.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.60",
+        "heading": "Traits",
+        "lineStart": 28300,
+        "lineEnd": 28302
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +6, reach 5 ft. Hit: 21 (5d6 + 4) Piercing damage."
+      "rulesText": "Bite. Melee Attack Roll: +6, reach 5 ft. Hit: 21 (5d6 + 4) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.60",
+        "heading": "Actions",
+        "lineStart": 28304,
+        "lineEnd": 28306
+      }
     }
   ],
   "rulesText": "Huge Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 90 (12d12 + 12)\nSpeed 5 ft., Swim 60 ft.\n\nSkills Perception +3, Stealth +4\nSenses Blindsight 120 ft.; Passive Perception 13\nLanguages None\nCR 3 (XP 700; PB +2)\n\nTraits\n\nHold Breath. The whale can hold its breath for 30 minutes.\n\nActions\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 21 (5d6 + 4) Piercing damage.",
@@ -83,15 +97,22 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 21,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "5d6+4",
+            "count": 5,
+            "sides": 6,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +6, reach 5 ft. Hit: 21 (5d6 + 4) Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 21,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "5d6+4",
-        "count": 5,
-        "sides": 6,
-        "modifier": 4
-      },
       "reachFeet": 5
     }
   ]

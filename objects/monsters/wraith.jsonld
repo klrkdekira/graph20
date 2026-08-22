@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Incorporeal Movement. The wraith can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.\n\nSunlight Sensitivity. While in sunlight, the wraith has Disadvantage on ability checks and attack rolls."
+      "rulesText": "Incorporeal Movement. The wraith can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.\n\nSunlight Sensitivity. While in sunlight, the wraith has Disadvantage on ability checks and attack rolls.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.268",
+        "heading": "Traits",
+        "lineStart": 26607,
+        "lineEnd": 26611
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Life Drain. Melee Attack Roll: +6, reach 5 ft. Hit: 21 (4d8 + 3) Necrotic damage. If the target is a creature, its Hit Point maximum decreases by an amount equal to the damage taken.\n\nCreate Specter. The wraith targets a Humanoid corpse within 10 feet of itself that has been dead for no longer than 1 minute. The target's spirit rises as a Specter in the space of its corpse or in the nearest unoccupied space. The specter is under the wraith's control. The wraith can have no more than seven specters under its control at a time."
+      "rulesText": "Life Drain. Melee Attack Roll: +6, reach 5 ft. Hit: 21 (4d8 + 3) Necrotic damage. If the target is a creature, its Hit Point maximum decreases by an amount equal to the damage taken.\n\nCreate Specter. The wraith targets a Humanoid corpse within 10 feet of itself that has been dead for no longer than 1 minute. The target's spirit rises as a Specter in the space of its corpse or in the nearest unoccupied space. The specter is under the wraith's control. The wraith can have no more than seven specters under its control at a time.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.268",
+        "heading": "Actions",
+        "lineStart": 26613,
+        "lineEnd": 26617
+      }
     }
   ],
   "rulesText": "Medium or Small Undead, Neutral Evil\n\nAC 13\nInitiative +3 (13)\nHP 67 (9d8 + 27)\nSpeed 5 ft., Fly 60 ft. (hover)\n\nResistances Acid, Bludgeoning, Cold, Fire, Piercing, Slashing\nImmunities Necrotic, Poison; Charmed, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\nSenses Darkvision 60 ft.; Passive Perception 12\nLanguages Common plus two other languages\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nIncorporeal Movement. The wraith can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.\n\nSunlight Sensitivity. While in sunlight, the wraith has Disadvantage on ability checks and attack rolls.\n\nActions\n\nLife Drain. Melee Attack Roll: +6, reach 5 ft. Hit: 21 (4d8 + 3) Necrotic damage. If the target is a creature, its Hit Point maximum decreases by an amount equal to the damage taken.\n\nCreate Specter. The wraith targets a Humanoid corpse within 10 feet of itself that has been dead for no longer than 1 minute. The target's spirit rises as a Specter in the space of its corpse or in the nearest unoccupied space. The specter is under the wraith's control. The wraith can have no more than seven specters under its control at a time.",
@@ -113,15 +127,22 @@
     {
       "name": "Life Drain",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 21,
+          "damageType": "Necrotic",
+          "damageRoll": {
+            "expression": "4d8+3",
+            "count": 4,
+            "sides": 8,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Life Drain. Melee Attack Roll: +6, reach 5 ft. Hit: 21 (4d8 + 3) Necrotic damage. If the target is a creature, its Hit Point maximum decreases by an amount equal to the damage taken.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 21,
-      "damageType": "Necrotic",
-      "damageRoll": {
-        "expression": "4d8+3",
-        "count": 4,
-        "sides": 8,
-        "modifier": 3
-      },
       "reachFeet": 5
     }
   ]

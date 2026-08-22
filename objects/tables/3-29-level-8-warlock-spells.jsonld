@@ -90,5 +90,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell            | School      | Special |\n| :--------------- | :---------- | :------ |\n| Befuddlement     | Enchantment |    -    |\n| Demiplane        | Conjuration |    -    |\n| Dominate Monster | Enchantment | C       |\n| Glibness         | Enchantment |    -    |\n| Power Word Stun  | Enchantment |    -    |"
 }

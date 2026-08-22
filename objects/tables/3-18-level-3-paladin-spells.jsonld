@@ -104,5 +104,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                 | School      | Special |\n| :-------------------- | :---------- | :------ |\n| Create Food and Water | Conjuration |    -    |\n| Daylight              | Evocation   |    -    |\n| Dispel Magic          | Abjuration  |    -    |\n| Magic Circle          | Abjuration  | M       |\n| Remove Curse          | Abjuration  |    -    |\n| Revivify              | Necromancy  | M       |"
 }

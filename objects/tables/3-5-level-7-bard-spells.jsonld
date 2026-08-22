@@ -174,5 +174,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell               | School        | Special |\n| :------------------ | :------------ | :------ |\n| Arcane Sword        | Evocation     | C, M    |\n| Etherealness        | Conjuration   |    -    |\n| Forcecage           | Evocation     | C, M    |\n| Magnificent Mansion | Conjuration   | M       |\n| Mirage Arcane       | Illusion      |    -    |\n| Prismatic Spray     | Evocation     |    -    |\n| Project Image       | Illusion      | C, M    |\n| Regenerate          | Transmutation |    -    |\n| Resurrection        | Necromancy    | M       |\n| Symbol              | Abjuration    | M       |\n| Teleport            | Conjuration   |    -    |"
 }

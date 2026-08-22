@@ -70,7 +70,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The triceratops makes two Gore attacks.\n\nGore. Melee Attack Roll: +9, reach 5 ft. Hit: 19 (2d12 + 6) Piercing damage. If the target is Huge or smaller and the triceratops moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition."
+      "rulesText": "Multiattack. The triceratops makes two Gore attacks.\n\nGore. Melee Attack Roll: +9, reach 5 ft. Hit: 19 (2d12 + 6) Piercing damage. If the target is Huge or smaller and the triceratops moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.90",
+        "heading": "Actions",
+        "lineStart": 29117,
+        "lineEnd": 29121
+      }
     }
   ],
   "rulesText": "Huge Beast (Dinosaur), Unaligned\n\nAC 14\nInitiative -1 (9)\nHP 114 (12d12 + 36)\nSpeed 50 ft.\n\nSenses Passive Perception 10\nLanguages None\nCR 5 (XP 1,800; PB +3)\n\nActions\n\nMultiattack. The triceratops makes two Gore attacks.\n\nGore. Melee Attack Roll: +9, reach 5 ft. Hit: 19 (2d12 + 6) Piercing damage. If the target is Huge or smaller and the triceratops moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition.",
@@ -78,15 +85,31 @@
     {
       "name": "Gore",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 19,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d12+6",
+            "count": 2,
+            "sides": 12,
+            "modifier": 6
+          }
+        },
+        {
+          "averageDamage": 9,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d8",
+            "count": 2,
+            "sides": 8
+          }
+        }
+      ],
+      "sourceText": "Gore. Melee Attack Roll: +9, reach 5 ft. Hit: 19 (2d12 + 6) Piercing damage. If the target is Huge or smaller and the triceratops moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 9,
-      "averageDamage": 19,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d12+6",
-        "count": 2,
-        "sides": 12,
-        "modifier": 6
-      },
       "reachFeet": 5
     }
   ]

@@ -17,9 +17,9 @@
     "author": { "type": "string", "minLength": 1 },
     "srdVersion": { "type": "string", "minLength": 1 },
     "license": { "const": "CC-BY-4.0" },
-    "licenseUrl": { "type": "string", "format": "iri" },
+    "licenseUrl": { "$ref": "common.schema.json#/$defs/NodeReference" },
     "attributionStatement": { "type": "string", "minLength": 1 },
-    "canonicalUrl": { "type": "string", "format": "iri" },
+    "canonicalUrl": { "$ref": "common.schema.json#/$defs/NodeReference" },
     "sourceFile": { "type": "string", "minLength": 1 },
     "contentDigest": { "type": "string", "pattern": "^sha256-[0-9a-f]{64}$" }
   },
@@ -34,6 +34,7 @@
     "license",
     "licenseUrl",
     "attributionStatement",
+    "canonicalUrl",
     "sourceFile",
     "contentDigest"
   ],

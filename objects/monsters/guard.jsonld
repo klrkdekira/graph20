@@ -72,7 +72,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Spear. Melee or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft. Hit: 4 (1d6 + 1) Piercing damage."
+      "rulesText": "Spear. Melee or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft. Hit: 4 (1d6 + 1) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.127",
+        "heading": "Actions",
+        "lineStart": 21985,
+        "lineEnd": 21987
+      }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 16\nInitiative +1 (11)\nHP 11 (2d8 + 2)\nSpeed 30 ft.\n\nSkills Perception +2\nGear Chain Shirt, Shield, Spear\nSenses Passive Perception 12\nLanguages Common\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nSpear. Melee or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft. Hit: 4 (1d6 + 1) Piercing damage.",
@@ -80,15 +87,22 @@
     {
       "name": "Spear",
       "attackType": "Melee or Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 4,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d6+1",
+            "count": 1,
+            "sides": 6,
+            "modifier": 1
+          }
+        }
+      ],
+      "sourceText": "Spear. Melee or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft. Hit: 4 (1d6 + 1) Piercing damage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 3,
-      "averageDamage": 4,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d6+1",
-        "count": 1,
-        "sides": 6,
-        "modifier": 1
-      },
       "reachFeet": 5,
       "rangeFeet": {
         "normal": 20,

@@ -73,11 +73,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Diabolical Restoration. If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nMagic Resistance. The devil has Advantage on saving throws against spells and other magical effects."
+      "rulesText": "Diabolical Restoration. If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nMagic Resistance. The devil has Advantage on saving throws against spells and other magical effects.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.37",
+        "heading": "Traits",
+        "lineStart": 19116,
+        "lineEnd": 19120
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The devil makes two Claw attacks and one Infernal Sting attack.\n\nClaw. Melee Attack Roll: +8, reach 10 ft. Hit: 13 (2d8 + 4) Slashing damage.\n\nInfernal Sting. Melee Attack Roll: +8, reach 10 ft. Hit: 15 (2d10 + 4) Piercing damage plus 18 (4d8) Poison\n\ndamage, and the target has the Poisoned condition until the start of the devil's next turn. While Poisoned, the target can't regain Hit Points."
+      "rulesText": "Multiattack. The devil makes two Claw attacks and one Infernal Sting attack.\n\nClaw. Melee Attack Roll: +8, reach 10 ft. Hit: 13 (2d8 + 4) Slashing damage.\n\nInfernal Sting. Melee Attack Roll: +8, reach 10 ft. Hit: 15 (2d10 + 4) Piercing damage plus 18 (4d8) Poison\n\ndamage, and the target has the Poisoned condition until the start of the devil's next turn. While Poisoned, the target can't regain Hit Points.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.37",
+        "heading": "Actions",
+        "lineStart": 19122,
+        "lineEnd": 19130
+      }
     }
   ],
   "rulesText": "Large Fiend (Devil), Lawful Evil\n\nAC 16\nInitiative +7 (17)\nHP 161 (17d10 + 68)\nSpeed 40 ft., Fly 40 ft.\n\nSkills Deception +7, Insight +6\nResistances Cold\nImmunities Fire, Poison; Poisoned\nSenses Darkvision 120 ft. (unimpeded by magical Darkness); Passive Perception 12\nLanguages Infernal; telepathy 120 ft.\nCR 9 (XP 5,000; PB +4)\n\nTraits\n\nDiabolical Restoration. If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nMagic Resistance. The devil has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The devil makes two Claw attacks and one Infernal Sting attack.\n\nClaw. Melee Attack Roll: +8, reach 10 ft. Hit: 13 (2d8 + 4) Slashing damage.\n\nInfernal Sting. Melee Attack Roll: +8, reach 10 ft. Hit: 15 (2d10 + 4) Piercing damage plus 18 (4d8) Poison\n\ndamage, and the target has the Poisoned condition until the start of the devil's next turn. While Poisoned, the target can't regain Hit Points.",
@@ -90,29 +104,43 @@
     {
       "name": "Claw",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 13,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "2d8+4",
+            "count": 2,
+            "sides": 8,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Claw. Melee Attack Roll: +8, reach 10 ft. Hit: 13 (2d8 + 4) Slashing damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 8,
-      "averageDamage": 13,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "2d8+4",
-        "count": 2,
-        "sides": 8,
-        "modifier": 4
-      },
       "reachFeet": 10
     },
     {
       "name": "Infernal Sting",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 15,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d10+4",
+            "count": 2,
+            "sides": 10,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Infernal Sting. Melee Attack Roll: +8, reach 10 ft. Hit: 15 (2d10 + 4) Piercing damage plus 18 (4d8) Poison",
+      "path": "statSections[1].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 8,
-      "averageDamage": 15,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d10+4",
-        "count": 2,
-        "sides": 10,
-        "modifier": 4
-      },
       "reachFeet": 10
     }
   ]

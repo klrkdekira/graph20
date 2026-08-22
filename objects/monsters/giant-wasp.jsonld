@@ -69,11 +69,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Flyby. The wasp doesn't provoke an Opportunity Attack when it flies out of an enemy's reach."
+      "rulesText": "Flyby. The wasp doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.51",
+        "heading": "Traits",
+        "lineStart": 28066,
+        "lineEnd": 28068
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Sting. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 5 (2d4) Poison damage."
+      "rulesText": "Sting. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 5 (2d4) Poison damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.51",
+        "heading": "Actions",
+        "lineStart": 28070,
+        "lineEnd": 28072
+      }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 13\nInitiative +2 (12)\nHP 22 (5d8)\nSpeed 10 ft., Fly 50 ft.\n\nSenses Passive Perception 10\nLanguages None\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nFlyby. The wasp doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nSting. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 5 (2d4) Poison damage.",
@@ -81,15 +95,31 @@
     {
       "name": "Sting",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 5,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d6+2",
+            "count": 1,
+            "sides": 6,
+            "modifier": 2
+          }
+        },
+        {
+          "averageDamage": 5,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "2d4",
+            "count": 2,
+            "sides": 4
+          }
+        }
+      ],
+      "sourceText": "Sting. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 5 (2d4) Poison damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 5,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d6+2",
-        "count": 1,
-        "sides": 6,
-        "modifier": 2
-      },
       "reachFeet": 5
     }
   ]

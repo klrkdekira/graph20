@@ -55,5 +55,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Attack    | Dodge | Influence | Search  |\n| :-------- | :---- | :-------- | :------ |\n| Dash      | Help  | Magic     | Study   |\n| Disengage | Hide  | Ready     | Utilize |"
 }

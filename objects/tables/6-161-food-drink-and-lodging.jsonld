@@ -191,5 +191,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Item             | Cost | Item          | Cost  |\n| :--------------- | :--- | :------------ | :---- |\n| Ale (mug)        | 4 CP | Comfortable   | 8 SP  |\n| Bread (loaf)     | 2 CP | Wealthy       | 2 GP  |\n| Cheese (wedge)   | 1 SP | Aristocratic  | 4 GP  |\n| Inn Stay per Day |      | Meal          |       |\n| Squalid          | 7 CP | Squalid       | 1 CP  |\n| Poor             | 1 SP | Poor          | 2 CP  |\n| Modest           | 5 SP | Modest        | 1 SP  |\n| Comfortable      | 2 SP | Wine (bottle) |       |\n| Wealthy          | 3 SP | Common        | 2 SP  |\n| Aristocratic     | 6 SP | Fine          | 10 GP |"
 }

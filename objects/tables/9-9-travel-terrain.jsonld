@@ -276,5 +276,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Terrain    | Maximum Pace | Encounter Distance | Foraging DC | Navigation DC | Search DC |\n| :--------- | :----------- | :----------------- | :---------- | :------------ | :-------- |\n| Arctic     | Fast*        | 6d6 × 10 feet      | 20          | 10            | 10        |\n| Coastal    | Normal       | 2d10 × 10 feet     | 10          | 5             | 15        |\n| Desert     | Normal       | 6d6 × 10 feet      | 20          | 10            | 10        |\n| Forest     | Normal       | 2d8 × 10 feet      | 10          | 15            | 15        |\n| Grassland  | Fast         | 6d6 × 10 feet      | 15          | 5             | 15        |\n| Hill       | Normal       | 2d10 × 10 feet     | 15          | 10            | 15        |\n| Mountain   | Slow         | 4d10 × 10 feet     | 20          | 15            | 20        |\n| Swamp      | Slow         | 2d8 × 10 feet      | 10          | 15            | 20        |\n| Underdark  | Normal       | 2d6 × 10 feet      | 20          | 10            | 20        |\n| Urban      | Normal       | 2d6 × 10 feet      | 20          | 15            | 15        |\n| Waterborne | Special†     | 6d6 × 10 feet      | 15          | 10            | 15        |"
 }

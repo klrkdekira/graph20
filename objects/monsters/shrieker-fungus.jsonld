@@ -70,7 +70,14 @@
   "statSections": [
     {
       "name": "Reactions",
-      "rulesText": "Shriek. Trigger: A creature or a source of Bright Light moves within 30 feet of the shrieker. Response: The shrieker emits a shriek audible within 300 feet of itself for 1 minute or until the shrieker dies."
+      "rulesText": "Shriek. Trigger: A creature or a source of Bright Light moves within 30 feet of the shrieker. Response: The shrieker emits a shriek audible within 300 feet of itself for 1 minute or until the shrieker dies.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.93",
+        "heading": "Reactions",
+        "lineStart": 20940,
+        "lineEnd": 20942
+      }
     }
   ],
   "rulesText": "Medium Plant, Unaligned\n\nAC 5\nInitiative -5 (5)\nHP 13 (3d8)\nSpeed 5 ft.\n\nImmunities Blinded, Charmed, Deafened, Frightened\nSenses Blindsight 30 ft.; Passive Perception 6\nLanguages None\nCR 0 (XP 0; PB +2)\n\nReactions\n\nShriek. Trigger: A creature or a source of Bright Light moves within 30 feet of the shrieker. Response: The shrieker emits a shriek audible within 300 feet of itself for 1 minute or until the shrieker dies.",

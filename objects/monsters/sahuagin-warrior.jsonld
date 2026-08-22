@@ -72,15 +72,36 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Blood Frenzy. The sahuagin has Advantage on attack rolls against any creature that doesn't have all its Hit Points.\n\nLimited Amphibiousness. The sahuagin can breathe air and water, but it must be submerged at least once every 4 hours to avoid suffocating outside water.\n\nShark Telepathy. The sahuagin can magically control sharks within 120 feet of itself, using a special telepathy."
+      "rulesText": "Blood Frenzy. The sahuagin has Advantage on attack rolls against any creature that doesn't have all its Hit Points.\n\nLimited Amphibiousness. The sahuagin can breathe air and water, but it must be submerged at least once every 4 hours to avoid suffocating outside water.\n\nShark Telepathy. The sahuagin can magically control sharks within 120 feet of itself, using a special telepathy.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.206",
+        "heading": "Traits",
+        "lineStart": 24504,
+        "lineEnd": 24510
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The sahuagin makes two Claw attacks.\n\nClaw. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage."
+      "rulesText": "Multiattack. The sahuagin makes two Claw attacks.\n\nClaw. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.206",
+        "heading": "Actions",
+        "lineStart": 24512,
+        "lineEnd": 24516
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Aquatic Charge. The sahuagin swims up to its Swim Speed straight toward an enemy it can see."
+      "rulesText": "Aquatic Charge. The sahuagin swims up to its Swim Speed straight toward an enemy it can see.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.206",
+        "heading": "Bonus Actions",
+        "lineStart": 24518,
+        "lineEnd": 24520
+      }
     }
   ],
   "rulesText": "Medium Fiend, Lawful Evil\n\nAC 12\nInitiative +0 (10)\nHP 22 (4d8 + 4)\nSpeed 30 ft., Swim 40 ft.\n\nSkills Perception +5\nResistances Acid, Cold\nSenses Darkvision 120 ft.; Passive Perception 15\nLanguages Sahuagin\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nBlood Frenzy. The sahuagin has Advantage on attack rolls against any creature that doesn't have all its Hit Points.\n\nLimited Amphibiousness. The sahuagin can breathe air and water, but it must be submerged at least once every 4 hours to avoid suffocating outside water.\n\nShark Telepathy. The sahuagin can magically control sharks within 120 feet of itself, using a special telepathy.\n\nActions\n\nMultiattack. The sahuagin makes two Claw attacks.\n\nClaw. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage.\n\nBonus Actions\n\nAquatic Charge. The sahuagin swims up to its Swim Speed straight toward an enemy it can see.",
@@ -88,15 +109,22 @@
     {
       "name": "Claw",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 4,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d6+1",
+            "count": 1,
+            "sides": 6,
+            "modifier": 1
+          }
+        }
+      ],
+      "sourceText": "Claw. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 3,
-      "averageDamage": 4,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d6+1",
-        "count": 1,
-        "sides": 6,
-        "modifier": 1
-      },
       "reachFeet": 5
     }
   ]

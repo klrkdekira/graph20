@@ -70,11 +70,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Flyby. The pteranodon doesn't provoke an Opportunity Attack when it flies out of an enemy's reach."
+      "rulesText": "Flyby. The pteranodon doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.73",
+        "heading": "Traits",
+        "lineStart": 28651,
+        "lineEnd": 28653
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage."
+      "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.73",
+        "heading": "Actions",
+        "lineStart": 28655,
+        "lineEnd": 28657
+      }
     }
   ],
   "rulesText": "Medium Beast (Dinosaur), Unaligned\n\nAC 13\nInitiative +2 (12)\nHP 13 (3d8)\nSpeed 10 ft., Fly 60 ft.\n\nSkills Perception +1\nSenses Passive Perception 11\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nFlyby. The pteranodon doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage.",
@@ -82,15 +96,22 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 6,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d8+2",
+            "count": 1,
+            "sides": 8,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 6,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d8+2",
-        "count": 1,
-        "sides": 8,
-        "modifier": 2
-      },
       "reachFeet": 5
     }
   ]

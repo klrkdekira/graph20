@@ -314,5 +314,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                    | School        | Special |\n| :----------------------- | :------------ | :------ |\n| Aid                      | Abjuration    |    -    |\n| Animal Messenger         | Enchantment   | R       |\n| Augury                   | Divination    | R, M    |\n| Barkskin                 | Transmutation |    -    |\n| Continual Flame          | Evocation     | M       |\n| Darkvision               | Transmutation |    -    |\n| Enhance Ability          | Transmutation | C       |\n| Enlarge/Reduce           | Transmutation | C       |\n| Find Traps               | Divination    |    -    |\n| Flame Blade              | Evocation     | C       |\n| Flaming Sphere           | Evocation     | C       |\n| Gust of Wind             | Evocation     | C       |\n| Heat Metal               | Transmutation | C       |\n| Hold Person              | Enchantment   | C       |\n| Lesser Restoration       | Abjuration    |    -    |\n| Locate Animals or Plants | Divination    | R       |\n| Locate Object            | Divination    | C       |\n| Moonbeam                 | Evocation     | C       |\n| Pass without Trace       | Abjuration    | C       |\n| Protection from Poison   | Abjuration    |    -    |\n| Spike Growth             | Transmutation | C       |"
 }

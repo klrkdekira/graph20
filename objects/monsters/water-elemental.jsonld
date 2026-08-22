@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Freeze. If the elemental takes Cold damage, its Speed decreases by 20 feet until the end of its next turn.\n\nWater Form. The elemental can enter an enemy's space and stop there. It can move through a space as narrow as 1 inch without expending extra movement to do so."
+      "rulesText": "Freeze. If the elemental takes Cold damage, its Speed decreases by 20 feet until the end of its next turn.\n\nWater Form. The elemental can enter an enemy's space and stop there. It can move through a space as narrow as 1 inch without expending extra movement to do so.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.253",
+        "heading": "Traits",
+        "lineStart": 26079,
+        "lineEnd": 26083
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The elemental makes two Slam attacks.\n\nSlam. Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition.\n\nWhelm (Recharge 4–6). Strength Saving Throw: DC 15, each creature in the elemental's space. Failure: 22 (4d8 + 4) Bludgeoning damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 14). Until the grapple ends, the target has the Restrained condition, is suffocating unless it can breathe water, and takes 9 (2d8) Bludgeoning damage at the start of each of the elemental's turns. The elemental can grapple one Large creature or up to two Medium or smaller creatures at a time with Whelm. As an action, a creature within 5 feet of the elemental can pull a creature out of it by succeeding on a DC 14 Strength (Athletics) check. Success: Half damage only."
+      "rulesText": "Multiattack. The elemental makes two Slam attacks.\n\nSlam. Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition.\n\nWhelm (Recharge 4–6). Strength Saving Throw: DC 15, each creature in the elemental's space. Failure: 22 (4d8 + 4) Bludgeoning damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 14). Until the grapple ends, the target has the Restrained condition, is suffocating unless it can breathe water, and takes 9 (2d8) Bludgeoning damage at the start of each of the elemental's turns. The elemental can grapple one Large creature or up to two Medium or smaller creatures at a time with Whelm. As an action, a creature within 5 feet of the elemental can pull a creature out of it by succeeding on a DC 14 Strength (Athletics) check. Success: Half damage only.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.253",
+        "heading": "Actions",
+        "lineStart": 26085,
+        "lineEnd": 26091
+      }
     }
   ],
   "rulesText": "Large Elemental, Neutral\n\nAC 14\nInitiative +2 (12)\nHP 114 (12d10 + 48)\nSpeed 30 ft., Swim 90 ft.\n\nResistances Acid, Fire\nImmunities Poison; Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Primordial (Aquan)\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nFreeze. If the elemental takes Cold damage, its Speed decreases by 20 feet until the end of its next turn.\n\nWater Form. The elemental can enter an enemy's space and stop there. It can move through a space as narrow as 1 inch without expending extra movement to do so.\n\nActions\n\nMultiattack. The elemental makes two Slam attacks.\n\nSlam. Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition.\n\nWhelm (Recharge 4–6). Strength Saving Throw: DC 15, each creature in the elemental's space. Failure: 22 (4d8 + 4) Bludgeoning damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 14). Until the grapple ends, the target has the Restrained condition, is suffocating unless it can breathe water, and takes 9 (2d8) Bludgeoning damage at the start of each of the elemental's turns. The elemental can grapple one Large creature or up to two Medium or smaller creatures at a time with Whelm. As an action, a creature within 5 feet of the elemental can pull a creature out of it by succeeding on a DC 14 Strength (Athletics) check. Success: Half damage only.",
@@ -110,15 +124,22 @@
     {
       "name": "Slam",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 13,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "2d8+4",
+            "count": 2,
+            "sides": 8,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Slam. Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 7,
-      "averageDamage": 13,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "2d8+4",
-        "count": 2,
-        "sides": 8,
-        "modifier": 4
-      },
       "reachFeet": 5
     }
   ]

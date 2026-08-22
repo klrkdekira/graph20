@@ -174,5 +174,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                  | School        | Special |\n| :--------------------- | :------------ | :------ |\n| Aid                    | Abjuration    |    -    |\n| Find Steed             | Conjuration   |    -    |\n| Gentle Repose          | Necromancy    | R, M    |\n| Lesser Restoration     | Abjuration    |    -    |\n| Locate Object          | Divination    | C       |\n| Magic Weapon           | Transmutation |    -    |\n| Prayer of Healing      | Abjuration    |    -    |\n| Protection from Poison | Abjuration    |    -    |\n| Shining Smite          | Transmutation | C       |\n| Warding Bond           | Abjuration    | M       |\n| Zone of Truth          | Enchantment   |    -    |"
 }

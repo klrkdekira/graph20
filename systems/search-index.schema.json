@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/graph20/systems/search-index.schema.json",
+  "title": "Recursive full-text search index",
+  "type": "object",
+  "properties": {
+    "base": { "type": "string", "format": "iri" },
+    "documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "type": { "type": "string" },
+          "name": { "type": "string", "minLength": 1 },
+          "excerpt": { "type": "string" }
+        },
+        "required": ["id", "type", "name", "excerpt"],
+        "unevaluatedProperties": false
+      }
+    },
+    "tokens": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "document": { "type": "integer", "minimum": 0 },
+            "excerpt": { "type": "string", "minLength": 1 }
+          },
+          "required": ["document", "excerpt"],
+          "unevaluatedProperties": false
+        }
+      }
+    }
+  },
+  "required": ["base", "documents", "tokens"],
+  "unevaluatedProperties": false
+}

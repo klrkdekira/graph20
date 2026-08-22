@@ -70,7 +70,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning damage."
+      "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.13",
+        "heading": "Actions",
+        "lineStart": 27048,
+        "lineEnd": 27050
+      }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 10\nInitiative -1 (9)\nHP 17 (2d10 + 6)\nSpeed 50 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages None\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning damage.",
@@ -78,15 +85,22 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 4,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "1d4+2",
+            "count": 1,
+            "sides": 4,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning damage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 4,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "1d4+2",
-        "count": 1,
-        "sides": 4,
-        "modifier": 2
-      },
       "reachFeet": 5
     }
   ]

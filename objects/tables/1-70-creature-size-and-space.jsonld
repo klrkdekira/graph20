@@ -104,5 +104,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Size       | Space (Feet)        | Space (Squares)     |\n| :--------- | :------------------ | :------------------ |\n| Tiny       | 2 1/2 by 2 1/2 feet | 4 per square        |\n| Small      | 5 by 5 feet         | 1 square            |\n| Medium     | 5 by 5 feet         | 1 square            |\n| Large      | 10 by 10 feet       | 4 squares (2 by 2)  |\n| Huge       | 15 by 15 feet       | 9 squares (3 by 3)  |\n| Gargantuan | 20 by 20 feet       | 16 squares (4 by 4) |"
 }

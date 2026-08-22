@@ -174,5 +174,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell          | School      | Special |\n| :------------- | :---------- | :------ |\n| Blade Barrier  | Evocation   | C       |\n| Create Undead  | Necromancy  | M       |\n| Find the Path  | Divination  | C, M    |\n| Forbiddance    | Abjuration  | R, M    |\n| Harm           | Necromancy  |    -    |\n| Heal           | Abjuration  |    -    |\n| Heroes’ Feast  | Conjuration | M       |\n| Planar Ally    | Conjuration |    -    |\n| Sunbeam        | Evocation   | C       |\n| True Seeing    | Divination  | M       |\n| Word of Recall | Conjuration |    -    |"
 }

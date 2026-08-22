@@ -70,7 +70,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Ram. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Bludgeoning damage and has the Prone condition."
+      "rulesText": "Ram. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Bludgeoning damage and has the Prone condition.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.23",
+        "heading": "Actions",
+        "lineStart": 27305,
+        "lineEnd": 27307
+      }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 10\nInitiative +0 (10)\nHP 11 (2d10)\nSpeed 50 ft.\n\nSkills Perception +2\nSenses Darkvision 60 ft.; Passive Perception 12\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nRam. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Bludgeoning damage and has the Prone condition.",
@@ -78,15 +85,31 @@
     {
       "name": "Ram",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 6,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "1d6+3",
+            "count": 1,
+            "sides": 6,
+            "modifier": 3
+          }
+        },
+        {
+          "averageDamage": 3,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "1d6",
+            "count": 1,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Ram. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Bludgeoning damage and has the Prone condition.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 6,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "1d6+3",
-        "count": 1,
-        "sides": 6,
-        "modifier": 3
-      },
       "reachFeet": 5
     }
   ]

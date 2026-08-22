@@ -70,11 +70,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Training. The commoner has proficiency in one skill of the GM's choice and has Advantage whenever it makes an ability check using that skill."
+      "rulesText": "Training. The commoner has proficiency in one skill of the GM's choice and has Advantage whenever it makes an ability check using that skill.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.61",
+        "heading": "Traits",
+        "lineStart": 19888,
+        "lineEnd": 19890
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Club. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage."
+      "rulesText": "Club. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.61",
+        "heading": "Actions",
+        "lineStart": 19892,
+        "lineEnd": 19894
+      }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 10\nInitiative +0 (10)\nHP 4 (1d8)\nSpeed 30 ft.\n\nGear Club\nSenses Passive Perception 10\nLanguages Common\nCR 0 (XP 10; PB +2)\n\nTraits\n\nTraining. The commoner has proficiency in one skill of the GM's choice and has Advantage whenever it makes an ability check using that skill.\n\nActions\n\nClub. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage.",
@@ -82,14 +96,21 @@
     {
       "name": "Club",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 2,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "1d4",
+            "count": 1,
+            "sides": 4
+          }
+        }
+      ],
+      "sourceText": "Club. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 2,
-      "averageDamage": 2,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "1d4",
-        "count": 1,
-        "sides": 4
-      },
       "reachFeet": 5
     }
   ]

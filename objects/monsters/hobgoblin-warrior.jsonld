@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Pack Tactics. The hobgoblin has Advantage on an attack roll against a creature if at least one of the hobgoblin's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+      "rulesText": "Pack Tactics. The hobgoblin has Advantage on an attack roll against a creature if at least one of the hobgoblin's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.136",
+        "heading": "Traits",
+        "lineStart": 22236,
+        "lineEnd": 22238
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Longsword. Melee Attack Roll: +3, reach 5 ft. Hit: 12 (2d10 + 1) Slashing damage.\n\nLongbow. Ranged Attack Roll: +3, range 150/600 ft.\nHit: 5 (1d8 + 1) Piercing damage plus 7 (3d4) Poison damage."
+      "rulesText": "Longsword. Melee Attack Roll: +3, reach 5 ft. Hit: 12 (2d10 + 1) Slashing damage.\n\nLongbow. Ranged Attack Roll: +3, range 150/600 ft.\nHit: 5 (1d8 + 1) Piercing damage plus 7 (3d4) Poison damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.136",
+        "heading": "Actions",
+        "lineStart": 22240,
+        "lineEnd": 22245
+      }
     }
   ],
   "rulesText": "Medium Fey (Goblinoid), Lawful Evil\n\nAC 18\nInitiative +3 (13)\nHP 11 (2d8 + 2)\nSpeed 30 ft.\n\nGear Half Plate Armor, Longbow, Longsword, Shield\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Common, Goblin\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nPack Tactics. The hobgoblin has Advantage on an attack roll against a creature if at least one of the hobgoblin's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nLongsword. Melee Attack Roll: +3, reach 5 ft. Hit: 12 (2d10 + 1) Slashing damage.\n\nLongbow. Ranged Attack Roll: +3, range 150/600 ft.\nHit: 5 (1d8 + 1) Piercing damage plus 7 (3d4) Poison damage.",
@@ -83,29 +97,52 @@
     {
       "name": "Longsword",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 12,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "2d10+1",
+            "count": 2,
+            "sides": 10,
+            "modifier": 1
+          }
+        }
+      ],
+      "sourceText": "Longsword. Melee Attack Roll: +3, reach 5 ft. Hit: 12 (2d10 + 1) Slashing damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 3,
-      "averageDamage": 12,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "2d10+1",
-        "count": 2,
-        "sides": 10,
-        "modifier": 1
-      },
       "reachFeet": 5
     },
     {
       "name": "Longbow",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 5,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d8+1",
+            "count": 1,
+            "sides": 8,
+            "modifier": 1
+          }
+        },
+        {
+          "averageDamage": 7,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "3d4",
+            "count": 3,
+            "sides": 4
+          }
+        }
+      ],
+      "sourceText": "Longbow. Ranged Attack Roll: +3, range 150/600 ft.\nHit: 5 (1d8 + 1) Piercing damage plus 7 (3d4) Poison damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 3,
-      "averageDamage": 5,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d8+1",
-        "count": 1,
-        "sides": 8,
-        "modifier": 1
-      },
       "rangeFeet": {
         "normal": 150,
         "long": 600

@@ -104,5 +104,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell              | School      | Special |\n| :----------------- | :---------- | :------ |\n| Antipathy/Sympathy | Enchantment |    -    |\n| Befuddlement       | Enchantment |    -    |\n| Dominate Monster   | Enchantment | C       |\n| Glibness           | Enchantment |    -    |\n| Mind Blank         | Abjuration  |    -    |\n| Power Word Stun    | Enchantment |    -    |"
 }

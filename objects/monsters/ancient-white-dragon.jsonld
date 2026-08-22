@@ -72,15 +72,36 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Ice Walk. The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn't cost it extra movement.\n\nLegendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead."
+      "rulesText": "Ice Walk. The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn't cost it extra movement.\n\nLegendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.263",
+        "heading": "Traits",
+        "lineStart": 26422,
+        "lineEnd": 26426
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +14, reach 15 ft. Hit: 17 (2d8 + 8) Slashing damage plus 7 (2d6) Cold damage.\n\nCold Breath (Recharge 5–6). Constitution Saving Throw: DC 22, each creature in a 90-foot Cone. Failure: 63 (14d8) Cold damage. Success: Half damage."
+      "rulesText": "Multiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +14, reach 15 ft. Hit: 17 (2d8 + 8) Slashing damage plus 7 (2d6) Cold damage.\n\nCold Breath (Recharge 5–6). Constitution Saving Throw: DC 22, each creature in a 90-foot Cone. Failure: 63 (14d8) Cold damage. Success: Half damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.263",
+        "heading": "Actions",
+        "lineStart": 26428,
+        "lineEnd": 26434
+      }
     },
     {
       "name": "Legendary Actions",
-      "rulesText": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nFreezing Burst. Constitution Saving Throw: DC 20, each creature in a 30-foot-radius Sphere centered on a point the dragon can see within 120 feet. Failure: 14 (4d6) Cold damage, and the target's Speed is 0 until the end of the target's next turn. Failure or Success: The dragon can't take this action again until the start of its next turn.\n\nFrightful Presence. The dragon casts Fear, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 18). The dragon can't take this action again until the start of its next turn.\n\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack."
+      "rulesText": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nFreezing Burst. Constitution Saving Throw: DC 20, each creature in a 30-foot-radius Sphere centered on a point the dragon can see within 120 feet. Failure: 14 (4d6) Cold damage, and the target's Speed is 0 until the end of the target's next turn. Failure or Success: The dragon can't take this action again until the start of its next turn.\n\nFrightful Presence. The dragon casts Fear, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 18). The dragon can't take this action again until the start of its next turn.\n\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.263",
+        "heading": "Legendary Actions",
+        "lineStart": 26436,
+        "lineEnd": 26444
+      }
     }
   ],
   "rulesText": "Gargantuan Dragon (Chromatic), Chaotic Evil\n\nAC 20\nInitiative +12 (22)\nHP 333 (18d20 + 144)\nSpeed 40 ft., Burrow 40 ft., Fly 80 ft., Swim 40 ft.\n\nSkills Perception +13, Stealth +6\nImmunities Cold\nSenses Blindsight 60 ft., Darkvision 120 ft.;\n\nPassive Perception 23\n\nLanguages Common, Draconic\nCR 20 (XP 25,000, or 33,000 in lair; PB +6)\n\nTraits\n\nIce Walk. The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn't cost it extra movement.\n\nLegendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +14, reach 15 ft. Hit: 17 (2d8 + 8) Slashing damage plus 7 (2d6) Cold damage.\n\nCold Breath (Recharge 5–6). Constitution Saving Throw: DC 22, each creature in a 90-foot Cone. Failure: 63 (14d8) Cold damage. Success: Half damage.\n\nLegendary Actions\n\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nFreezing Burst. Constitution Saving Throw: DC 20, each creature in a 30-foot-radius Sphere centered on a point the dragon can see within 120 feet. Failure: 14 (4d6) Cold damage, and the target's Speed is 0 until the end of the target's next turn. Failure or Success: The dragon can't take this action again until the start of its next turn.\n\nFrightful Presence. The dragon casts Fear, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 18). The dragon can't take this action again until the start of its next turn.\n\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.",
@@ -88,15 +109,31 @@
     {
       "name": "Rend",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 17,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "2d8+8",
+            "count": 2,
+            "sides": 8,
+            "modifier": 8
+          }
+        },
+        {
+          "averageDamage": 7,
+          "damageType": "Cold",
+          "damageRoll": {
+            "expression": "2d6",
+            "count": 2,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Rend. Melee Attack Roll: +14, reach 15 ft. Hit: 17 (2d8 + 8) Slashing damage plus 7 (2d6) Cold damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 14,
-      "averageDamage": 17,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "2d8+8",
-        "count": 2,
-        "sides": 8,
-        "modifier": 8
-      },
       "reachFeet": 15
     }
   ]

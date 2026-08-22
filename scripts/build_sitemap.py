@@ -19,6 +19,7 @@ def main():
         BASE + "llms.txt",
         BASE + "llms-full.txt",
         BASE + "vocab/",
+        BASE + "vocab/terms.json",
         BASE + "objects/srd52-system-data.jsonld",
         BASE + "objects/srd52-system-data.bundle.jsonld",
         BASE + "objects/search-index.json",

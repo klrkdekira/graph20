@@ -9057,7 +9057,7 @@
         "slug": "ammunition-1-2-or-3",
         "name": "Ammunition, +1, +2, or +3",
         "sub": "Weapon (Any Ammunition)",
-        "group": "Uncommon"
+        "group": "Multiple Rarities"
       },
       {
         "slug": "amulet-of-proof-against-detection-and-location",
@@ -9429,7 +9429,7 @@
         "slug": "shield-1-2-or-3",
         "name": "Shield, +1, +2, or +3",
         "sub": "Armor (Shield)",
-        "group": "Uncommon"
+        "group": "Multiple Rarities"
       },
       {
         "slug": "slippers-of-spider-climbing",
@@ -9476,8 +9476,8 @@
       {
         "slug": "wand-of-the-war-mage-1-2-or-3",
         "name": "Wand of the War Mage, +1, +2, or +3",
-        "sub": "Wand",
-        "group": "Uncommon"
+        "sub": "Wand · attunement",
+        "group": "Multiple Rarities"
       },
       {
         "slug": "wand-of-web",
@@ -9495,7 +9495,7 @@
         "slug": "weapon-1-2-or-3",
         "name": "Weapon, +1, +2, or +3",
         "sub": "Weapon (Any Simple or Martial)",
-        "group": "Uncommon"
+        "group": "Multiple Rarities"
       },
       {
         "slug": "wind-fan",
@@ -9531,7 +9531,7 @@
         "slug": "armor-1-2-or-3",
         "name": "Armor, +1, +2, or +3",
         "sub": "Armor (Any Light, Medium, or Heavy)",
-        "group": "Rare"
+        "group": "Multiple Rarities"
       },
       {
         "slug": "arrow-catching-shield",
@@ -9711,7 +9711,7 @@
         "slug": "horn-of-valhalla",
         "name": "Horn of Valhalla",
         "sub": "Wondrous Item",
-        "group": "Rare"
+        "group": "Multiple Rarities"
       },
       {
         "slug": "horseshoes-of-speed",

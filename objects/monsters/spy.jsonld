@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Shortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage.\n\nHand Crossbow. Ranged Attack Roll: +4, range 30/120 ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage."
+      "rulesText": "Shortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage.\n\nHand Crossbow. Ranged Attack Roll: +4, range 30/120 ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.231",
+        "heading": "Actions",
+        "lineStart": 25333,
+        "lineEnd": 25337
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Cunning Action. The spy takes the Dash, Disengage, or Hide action."
+      "rulesText": "Cunning Action. The spy takes the Dash, Disengage, or Hide action.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.231",
+        "heading": "Bonus Actions",
+        "lineStart": 25339,
+        "lineEnd": 25341
+      }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 12\nInitiative +4 (14)\nHP 27 (6d8)\nSpeed 30 ft., Climb 30 ft.\n\nSkills Deception +5, Insight +4, Investigation +5, Perception +6, Sleight of Hand +4, Stealth +6\nGear Hand Crossbow, Shortsword, Thieves' Tools\nSenses Passive Perception 16\nLanguages Common plus one other language\nCR 1 (XP 200; PB +2)\n\nActions\n\nShortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage.\n\nHand Crossbow. Ranged Attack Roll: +4, range 30/120 ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage.\n\nBonus Actions\n\nCunning Action. The spy takes the Dash, Disengage, or Hide action.",
@@ -83,29 +97,61 @@
     {
       "name": "Shortsword",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 5,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d6+2",
+            "count": 1,
+            "sides": 6,
+            "modifier": 2
+          }
+        },
+        {
+          "averageDamage": 7,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "2d6",
+            "count": 2,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Shortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 5,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d6+2",
-        "count": 1,
-        "sides": 6,
-        "modifier": 2
-      },
       "reachFeet": 5
     },
     {
       "name": "Hand Crossbow",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 5,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d6+2",
+            "count": 1,
+            "sides": 6,
+            "modifier": 2
+          }
+        },
+        {
+          "averageDamage": 7,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "2d6",
+            "count": 2,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Hand Crossbow. Ranged Attack Roll: +4, range 30/120 ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 5,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d6+2",
-        "count": 1,
-        "sides": 6,
-        "modifier": 2
-      },
       "rangeFeet": {
         "normal": 30,
         "long": 120

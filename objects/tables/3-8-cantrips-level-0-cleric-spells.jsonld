@@ -118,5 +118,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell           | School        | Special |\n| :-------------- | :------------ | :------ |\n| Guidance        | Divination    | C       |\n| Light           | Evocation     |    -    |\n| Mending         | Transmutation |    -    |\n| Resistance      | Abjuration    | C       |\n| Sacred Flame    | Evocation     |    -    |\n| Spare the Dying | Necromancy    |    -    |\n| Thaumaturgy     | Transmutation |    -    |"
 }

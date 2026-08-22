@@ -63,5 +63,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Cleric Level | Prepared Spells                             |\n| :----------- | :------------------------------------------ |\n| 3            | Aid, Bless, Cure Wounds, Lesser Restoration |\n| 5            | Mass Healing Word, Revivify                 |\n| 7            | Aura of Life, Death Ward                    |\n| 9            | Greater Restoration, Mass Cure Wounds       |"
 }

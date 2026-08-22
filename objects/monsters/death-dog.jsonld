@@ -72,7 +72,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The death dog makes two Bite attacks.\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage. If the target is a creature, it is subjected to the following effect. Constitution Saving Throw: DC 12. First Failure: The target has the Poisoned condition. While Poisoned, the target's Hit Point maximum doesn't return to normal when finishing a Long Rest, and it repeats the save every 24 hours that elapse, ending the effect on itself on a success. Subsequent Failures: The Poisoned target's Hit Point maximum decreases by 5 (1d10)."
+      "rulesText": "Multiattack. The death dog makes two Bite attacks.\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage. If the target is a creature, it is subjected to the following effect. Constitution Saving Throw: DC 12. First Failure: The target has the Poisoned condition. While Poisoned, the target's Hit Point maximum doesn't return to normal when finishing a Long Rest, and it repeats the save every 24 hours that elapse, ending the effect on itself on a success. Subsequent Failures: The Poisoned target's Hit Point maximum decreases by 5 (1d10).",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.74",
+        "heading": "Actions",
+        "lineStart": 20251,
+        "lineEnd": 20255
+      }
     }
   ],
   "rulesText": "Medium Monstrosity, Neutral Evil\n\nAC 12\nInitiative +2 (12)\nHP 39 (6d8 + 12)\nSpeed 40 ft.\n\nSkills Perception +5, Stealth +4\nImmunities Blinded, Charmed, Deafened, Frightened, Stunned, Unconscious\nSenses Darkvision 120 ft.; Passive Perception 15\nLanguages None\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The death dog makes two Bite attacks.\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage. If the target is a creature, it is subjected to the following effect. Constitution Saving Throw: DC 12. First Failure: The target has the Poisoned condition. While Poisoned, the target's Hit Point maximum doesn't return to normal when finishing a Long Rest, and it repeats the save every 24 hours that elapse, ending the effect on itself on a success. Subsequent Failures: The Poisoned target's Hit Point maximum decreases by 5 (1d10).",
@@ -100,15 +107,22 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 4,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d4+2",
+            "count": 1,
+            "sides": 4,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage. If the target is a creature, it is subjected to the following effect. Constitution Saving Throw: DC 12. First Failure: The target has the Poisoned condition. While Poisoned, the target's Hit Point maximum doesn't return to normal when finishing a Long Rest, and it repeats the save every 24 hours that elapse, ending the effect on itself on a success. Subsequent Failures: The Poisoned target's Hit Point maximum decreases by 5 (1d10).",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 4,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d4+2",
-        "count": 1,
-        "sides": 4,
-        "modifier": 2
-      },
       "reachFeet": 5
     }
   ]

@@ -71,7 +71,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The snake makes one Bite attack and uses Constrict.\n\nBite. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage.\n\nConstrict. Strength Saving Throw: DC 14, one Large or smaller creature the snake can see within 10 feet. Failure: 13 (2d8 + 4) Bludgeoning damage, and the target has the Grappled condition (escape DC 14)."
+      "rulesText": "Multiattack. The snake makes one Bite attack and uses Constrict.\n\nBite. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage.\n\nConstrict. Strength Saving Throw: DC 14, one Large or smaller creature the snake can see within 10 feet. Failure: 13 (2d8 + 4) Bludgeoning damage, and the target has the Grappled condition (escape DC 14).",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.31",
+        "heading": "Actions",
+        "lineStart": 27508,
+        "lineEnd": 27514
+      }
     }
   ],
   "rulesText": "Huge Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 60 (8d12 + 8)\nSpeed 30 ft., Swim 30 ft.\n\nSkills Perception +2\nSenses Blindsight 10 ft.; Passive Perception 12\nLanguages None\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The snake makes one Bite attack and uses Constrict.\n\nBite. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage.\n\nConstrict. Strength Saving Throw: DC 14, one Large or smaller creature the snake can see within 10 feet. Failure: 13 (2d8 + 4) Bludgeoning damage, and the target has the Grappled condition (escape DC 14).",
@@ -79,15 +86,22 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 11,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d6+4",
+            "count": 2,
+            "sides": 6,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 11,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d6+4",
-        "count": 2,
-        "sides": 6,
-        "modifier": 4
-      },
       "reachFeet": 10
     }
   ]

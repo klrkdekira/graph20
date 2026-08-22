@@ -61,13 +61,14 @@
         "level": { "type": "integer", "minimum": 1, "maximum": 20 },
         "name": { "type": "string", "minLength": 1 },
         "rulesText": { "type": "string" },
+        "sourceLocator": { "$ref": "#/$defs/SourceLocator" },
         "relatedTables": {
           "type": "array",
           "minItems": 1,
           "items": { "$ref": "#/$defs/NodeReference" }
         }
       },
-      "required": ["name", "rulesText"],
+      "required": ["name", "rulesText", "sourceLocator"],
       "unevaluatedProperties": false
     },
     "Cost": {
@@ -86,6 +87,7 @@
         "name": { "type": "string", "minLength": 1 },
         "attackType": { "enum": ["Melee", "Ranged", "Melee or Ranged"] },
         "attackBonus": { "type": "integer" },
+        "automaticHit": { "const": true },
         "reachFeet": { "type": "integer", "minimum": 0 },
         "rangeFeet": {
           "type": "object",
@@ -96,11 +98,40 @@
           "required": ["normal"],
           "unevaluatedProperties": false
         },
-        "averageDamage": { "type": "integer", "minimum": 0 },
-        "damageRoll": { "$ref": "#/$defs/DiceExpression" },
-        "damageType": { "type": "string", "minLength": 1 }
+        "damageComponents": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "averageDamage": { "type": "integer", "minimum": 0 },
+              "damageRoll": { "$ref": "#/$defs/DiceExpression" },
+              "damageType": { "type": "string", "minLength": 1 }
+            },
+            "required": ["averageDamage", "damageType"],
+            "unevaluatedProperties": false
+          }
+        },
+        "sourceText": { "type": "string", "minLength": 1 },
+        "path": { "type": "string", "minLength": 1 },
+        "parseStatus": { "const": "parsed" }
       },
-      "required": ["name", "attackType", "attackBonus"],
+      "required": ["name", "attackType", "damageComponents", "sourceText", "path", "parseStatus"],
+      "oneOf": [
+        { "required": ["attackBonus"], "not": { "required": ["automaticHit"] } },
+        { "required": ["automaticHit"], "not": { "required": ["attackBonus"] } }
+      ],
+      "unevaluatedProperties": false
+    },
+    "UnparsedAttack": {
+      "type": "object",
+      "properties": {
+        "sourceText": { "type": "string", "minLength": 1 },
+        "path": { "type": "string", "minLength": 1 },
+        "parseStatus": { "const": "unparsed" },
+        "reason": { "type": "string", "minLength": 1 }
+      },
+      "required": ["sourceText", "path", "parseStatus", "reason"],
       "unevaluatedProperties": false
     },
     "SpellDamage": {

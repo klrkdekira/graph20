@@ -342,5 +342,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                  | School        | Special |\n| :--------------------- | :------------ | :------ |\n| Fear                   | Illusion      | C       |\n| Fireball               | Evocation     |    -    |\n| Fly                    | Transmutation | C       |\n| Gaseous Form           | Transmutation | C       |\n| Glyph of Warding       | Abjuration    | M       |\n| Haste                  | Transmutation | C       |\n| Hypnotic Pattern       | Illusion      | C       |\n| Lightning Bolt         | Evocation     |    -    |\n| Magic Circle           | Abjuration    | M       |\n| Major Image            | Illusion      | C       |\n| Nondetection           | Abjuration    | M       |\n| Phantom Steed          | Illusion      | R       |\n| Protection from Energy | Abjuration    | C       |\n| Remove Curse           | Abjuration    |    -    |\n| Sending                | Divination    |    -    |\n| Sleet Storm            | Conjuration   | C       |\n| Slow                   | Transmutation | C       |\n| Speak with Dead        | Necromancy    |    -    |\n| Stinking Cloud         | Conjuration   | C       |\n| Tiny Hut               | Evocation     | R       |\n| Tongues                | Divination    |    -    |\n| Vampiric Touch         | Necromancy    | C       |\n| Water Breathing        | Transmutation | R       |"
 }

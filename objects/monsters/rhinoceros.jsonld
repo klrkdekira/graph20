@@ -70,7 +70,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Gore. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Piercing damage. If target is a Large or smaller creature and the rhinoceros moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition."
+      "rulesText": "Gore. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Piercing damage. If target is a Large or smaller creature and the rhinoceros moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.77",
+        "heading": "Actions",
+        "lineStart": 28760,
+        "lineEnd": 28762
+      }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 13\nInitiative -1 (9)\nHP 45 (6d10 + 12)\nSpeed 40 ft.\n\nSenses Passive Perception 11\nLanguages None\nCR 2 (XP 450; PB +2)\n\nActions\n\nGore. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Piercing damage. If target is a Large or smaller creature and the rhinoceros moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition.",
@@ -78,15 +85,31 @@
     {
       "name": "Gore",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 14,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d8+5",
+            "count": 2,
+            "sides": 8,
+            "modifier": 5
+          }
+        },
+        {
+          "averageDamage": 9,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d8",
+            "count": 2,
+            "sides": 8
+          }
+        }
+      ],
+      "sourceText": "Gore. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Piercing damage. If target is a Large or smaller creature and the rhinoceros moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 7,
-      "averageDamage": 14,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d8+5",
-        "count": 2,
-        "sides": 8,
-        "modifier": 5
-      },
       "reachFeet": 5
     }
   ]

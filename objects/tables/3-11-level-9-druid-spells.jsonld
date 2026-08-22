@@ -76,5 +76,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell              | School        | Special |\n| :----------------- | :------------ | :------ |\n| Foresight          | Divination    |    -    |\n| Shapechange        | Transmutation | C, M    |\n| Storm of Vengeance | Conjuration   | C       |\n| True Resurrection  | Necromancy    | M       |"
 }

@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Undead Fortitude. If damage reduces the zombie to 0 Hit Points, it makes a Constitution saving throw (DC 5 plus the damage taken) unless the damage is Radiant or from a Critical Hit. On a successful save, the zombie drops to 1 Hit Point instead."
+      "rulesText": "Undead Fortitude. If damage reduces the zombie to 0 Hit Points, it makes a Constitution saving throw (DC 5 plus the damage taken) unless the damage is Radiant or from a Critical Hit. On a successful save, the zombie drops to 1 Hit Point instead.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.272",
+        "heading": "Traits",
+        "lineStart": 26709,
+        "lineEnd": 26711
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Slam. Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Bludgeoning damage."
+      "rulesText": "Slam. Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Bludgeoning damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.272",
+        "heading": "Actions",
+        "lineStart": 26713,
+        "lineEnd": 26715
+      }
     }
   ],
   "rulesText": "Medium Undead, Neutral Evil\n\nAC 8\nInitiative -2 (8)\nHP 15 (2d8 + 6)\nSpeed 20 ft.\n\nImmunities Poison; Exhaustion, Poisoned\nSenses Darkvision 60 ft.; Passive Perception 8\nLanguages Understands Common plus one other language but can't speak\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nUndead Fortitude. If damage reduces the zombie to 0 Hit Points, it makes a Constitution saving throw (DC 5 plus the damage taken) unless the damage is Radiant or from a Critical Hit. On a successful save, the zombie drops to 1 Hit Point instead.\n\nActions\n\nSlam. Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Bludgeoning damage.",
@@ -91,15 +105,22 @@
     {
       "name": "Slam",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 5,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "1d8+1",
+            "count": 1,
+            "sides": 8,
+            "modifier": 1
+          }
+        }
+      ],
+      "sourceText": "Slam. Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Bludgeoning damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 3,
-      "averageDamage": 5,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "1d8+1",
-        "count": 1,
-        "sides": 8,
-        "modifier": 1
-      },
       "reachFeet": 5
     }
   ]

@@ -202,5 +202,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell            | School        | Special |\n| :--------------- | :------------ | :------ |\n| Hold Person      | Enchantment   | C       |\n| Invisibility     | Illusion      | C       |\n| Knock            | Transmutation |    -    |\n| Levitate         | Transmutation | C       |\n| Magic Weapon     | Transmutation |    -    |\n| Mirror Image     | Illusion      |    -    |\n| Misty Step       | Conjuration   |    -    |\n| Scorching Ray    | Evocation     |    -    |\n| See Invisibility | Divination    |    -    |\n| Shatter          | Evocation     |    -    |\n| Spider Climb     | Transmutation | C       |\n| Suggestion       | Enchantment   | C       |\n| Web              | Conjuration   | C       |"
 }

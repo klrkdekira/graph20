@@ -72,15 +72,36 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Light Sensitivity. While in Bright Light, the cloaker has Disadvantage on attack rolls."
+      "rulesText": "Light Sensitivity. While in Bright Light, the cloaker has Disadvantage on attack rolls.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.58",
+        "heading": "Traits",
+        "lineStart": 19783,
+        "lineEnd": 19785
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The cloaker makes one Attach attack and two Tail attacks.\n\nAttach. Melee Attack Roll: +6, reach 5 ft. Hit: 13 (3d6 + 3) Piercing damage. If the target is a Large or smaller creature, the cloaker attaches to it. While the cloaker is attached, the target has the Blinded condition, and the cloaker can't make Attach attacks against other targets. In addition, the cloaker halves the damage it takes (round down), and the target takes the same amount of damage.\n\nThe cloaker can detach itself by spending 5 feet of movement. The target or a creature within 5 feet of it can take an action to try to detach the cloaker, doing so by succeeding on a DC 14 Strength (Athletics) check.\n\nTail. Melee Attack Roll: +6, reach 10 ft. Hit: 8 (1d10 + 3) Slashing damage."
+      "rulesText": "Multiattack. The cloaker makes one Attach attack and two Tail attacks.\n\nAttach. Melee Attack Roll: +6, reach 5 ft. Hit: 13 (3d6 + 3) Piercing damage. If the target is a Large or smaller creature, the cloaker attaches to it. While the cloaker is attached, the target has the Blinded condition, and the cloaker can't make Attach attacks against other targets. In addition, the cloaker halves the damage it takes (round down), and the target takes the same amount of damage.\n\nThe cloaker can detach itself by spending 5 feet of movement. The target or a creature within 5 feet of it can take an action to try to detach the cloaker, doing so by succeeding on a DC 14 Strength (Athletics) check.\n\nTail. Melee Attack Roll: +6, reach 10 ft. Hit: 8 (1d10 + 3) Slashing damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.58",
+        "heading": "Actions",
+        "lineStart": 19787,
+        "lineEnd": 19795
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Moan. Wisdom Saving Throw: DC 13, each creature in a 60-foot Emanation originating from the cloaker. Failure: The target has the Frightened condition until the end of the cloaker's next turn. Success: The target is immune to this cloaker's Moan for the next 24 hours.\n\nPhantasms (Recharge after a Short or Long Rest). The cloaker casts the Mirror Image spell, requiring no spell components and using Wisdom as the spellcasting ability. The spell ends early if the cloaker starts or ends its turn in Bright Light."
+      "rulesText": "Moan. Wisdom Saving Throw: DC 13, each creature in a 60-foot Emanation originating from the cloaker. Failure: The target has the Frightened condition until the end of the cloaker's next turn. Success: The target is immune to this cloaker's Moan for the next 24 hours.\n\nPhantasms (Recharge after a Short or Long Rest). The cloaker casts the Mirror Image spell, requiring no spell components and using Wisdom as the spellcasting ability. The spell ends early if the cloaker starts or ends its turn in Bright Light.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.58",
+        "heading": "Bonus Actions",
+        "lineStart": 19797,
+        "lineEnd": 19801
+      }
     }
   ],
   "rulesText": "Large Aberration, Chaotic Neutral\n\nAC 14\nInitiative +5 (15)\nHP 91 (14d10 + 14)\nSpeed 10 ft., Fly 40 ft.\n\nSkills Stealth +5\nImmunities Frightened\nSenses Darkvision 120 ft.; Passive Perception 12\nLanguages Deep Speech, Undercommon\nCR 8 (XP 3,900; PB +3)\n\nTraits\n\nLight Sensitivity. While in Bright Light, the cloaker has Disadvantage on attack rolls.\n\nActions\n\nMultiattack. The cloaker makes one Attach attack and two Tail attacks.\n\nAttach. Melee Attack Roll: +6, reach 5 ft. Hit: 13 (3d6 + 3) Piercing damage. If the target is a Large or smaller creature, the cloaker attaches to it. While the cloaker is attached, the target has the Blinded condition, and the cloaker can't make Attach attacks against other targets. In addition, the cloaker halves the damage it takes (round down), and the target takes the same amount of damage.\n\nThe cloaker can detach itself by spending 5 feet of movement. The target or a creature within 5 feet of it can take an action to try to detach the cloaker, doing so by succeeding on a DC 14 Strength (Athletics) check.\n\nTail. Melee Attack Roll: +6, reach 10 ft. Hit: 8 (1d10 + 3) Slashing damage.\n\nBonus Actions\n\nMoan. Wisdom Saving Throw: DC 13, each creature in a 60-foot Emanation originating from the cloaker. Failure: The target has the Frightened condition until the end of the cloaker's next turn. Success: The target is immune to this cloaker's Moan for the next 24 hours.\n\nPhantasms (Recharge after a Short or Long Rest). The cloaker casts the Mirror Image spell, requiring no spell components and using Wisdom as the spellcasting ability. The spell ends early if the cloaker starts or ends its turn in Bright Light.",
@@ -93,29 +114,43 @@
     {
       "name": "Attach",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 13,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "3d6+3",
+            "count": 3,
+            "sides": 6,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Attach. Melee Attack Roll: +6, reach 5 ft. Hit: 13 (3d6 + 3) Piercing damage. If the target is a Large or smaller creature, the cloaker attaches to it. While the cloaker is attached, the target has the Blinded condition, and the cloaker can't make Attach attacks against other targets. In addition, the cloaker halves the damage it takes (round down), and the target takes the same amount of damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 13,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "3d6+3",
-        "count": 3,
-        "sides": 6,
-        "modifier": 3
-      },
       "reachFeet": 5
     },
     {
       "name": "Tail",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 8,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d10+3",
+            "count": 1,
+            "sides": 10,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Tail. Melee Attack Roll: +6, reach 10 ft. Hit: 8 (1d10 + 3) Slashing damage.",
+      "path": "statSections[1].rulesText.paragraphs[3]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 8,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d10+3",
-        "count": 1,
-        "sides": 10,
-        "modifier": 3
-      },
       "reachFeet": 10
     }
   ]

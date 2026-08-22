@@ -70,7 +70,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Claw. Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Slashing damage.\n\nLuring Song. The harpy sings a magical melody, which lasts until the harpy's Concentration ends on it. Wisdom Saving Throw: DC 11, each Humanoid and Giant in a 300-foot Emanation originating from the harpy when the song starts. Failure: The target has the Charmed condition until the song ends and repeats the save at the end of each of its turns. While Charmed, the target has the Incapacitated condition and ignores the Luring Song of other harpies. If the target is more than 5 feet from the harpy, the target moves on its turn toward the harpy by the most direct route, trying to get within 5 feet of the harpy. It doesn't avoid Opportunity Attacks; however, before moving into damaging terrain (such as lava or a pit) and whenever it takes damage from a source other than the harpy, the target repeats the save. Success: The target is immune to this harpy's Luring Song for 24 hours."
+      "rulesText": "Claw. Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Slashing damage.\n\nLuring Song. The harpy sings a magical melody, which lasts until the harpy's Concentration ends on it. Wisdom Saving Throw: DC 11, each Humanoid and Giant in a 300-foot Emanation originating from the harpy when the song starts. Failure: The target has the Charmed condition until the song ends and repeats the save at the end of each of its turns. While Charmed, the target has the Incapacitated condition and ignores the Luring Song of other harpies. If the target is more than 5 feet from the harpy, the target moves on its turn toward the harpy by the most direct route, trying to get within 5 feet of the harpy. It doesn't avoid Opportunity Attacks; however, before moving into damaging terrain (such as lava or a pit) and whenever it takes damage from a source other than the harpy, the target repeats the save. Success: The target is immune to this harpy's Luring Song for 24 hours.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.130",
+        "heading": "Actions",
+        "lineStart": 22075,
+        "lineEnd": 22079
+      }
     }
   ],
   "rulesText": "Medium Monstrosity, Chaotic Evil\n\nAC 11\nInitiative +1 (11)\nHP 38 (7d8 + 7)\nSpeed 20 ft., Fly 40 ft.\n\nSenses Passive Perception 10\nLanguages Common\nCR 1 (XP 200; PB +2)\n\nActions\n\nClaw. Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Slashing damage.\n\nLuring Song. The harpy sings a magical melody, which lasts until the harpy's Concentration ends on it. Wisdom Saving Throw: DC 11, each Humanoid and Giant in a 300-foot Emanation originating from the harpy when the song starts. Failure: The target has the Charmed condition until the song ends and repeats the save at the end of each of its turns. While Charmed, the target has the Incapacitated condition and ignores the Luring Song of other harpies. If the target is more than 5 feet from the harpy, the target moves on its turn toward the harpy by the most direct route, trying to get within 5 feet of the harpy. It doesn't avoid Opportunity Attacks; however, before moving into damaging terrain (such as lava or a pit) and whenever it takes damage from a source other than the harpy, the target repeats the save. Success: The target is immune to this harpy's Luring Song for 24 hours.",
@@ -78,15 +85,22 @@
     {
       "name": "Claw",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 6,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "2d4+1",
+            "count": 2,
+            "sides": 4,
+            "modifier": 1
+          }
+        }
+      ],
+      "sourceText": "Claw. Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Slashing damage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 3,
-      "averageDamage": 6,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "2d4+1",
-        "count": 2,
-        "sides": 4,
-        "modifier": 1
-      },
       "reachFeet": 5
     }
   ]

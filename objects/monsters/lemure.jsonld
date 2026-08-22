@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Hellish Restoration. If the lemure dies in the Nine Hells, it revives with all its Hit Points in 1d10 days unless it is killed by a creature under the effects of a Bless spell or its remains are sprinkled with Holy Water."
+      "rulesText": "Hellish Restoration. If the lemure dies in the Nine Hells, it revives with all its Hit Points in 1d10 days unless it is killed by a creature under the effects of a Bless spell or its remains are sprinkled with Holy Water.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.151",
+        "heading": "Traits",
+        "lineStart": 22753,
+        "lineEnd": 22755
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Vile Slime. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Poison damage."
+      "rulesText": "Vile Slime. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Poison damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.151",
+        "heading": "Actions",
+        "lineStart": 22757,
+        "lineEnd": 22759
+      }
     }
   ],
   "rulesText": "Medium Fiend (Devil), Lawful Evil\n\nAC 9\nInitiative -3 (7)\nHP 9 (2d8)\nSpeed 20 ft.\n\nResistances Cold\nImmunities Fire, Poison; Charmed, Frightened, Poisoned\nSenses Darkvision 120 ft. (unimpeded by magical Darkness); Passive Perception 10\nLanguages Understands Infernal but can't speak\nCR 0 (XP 10; PB +2)\n\nTraits\n\nHellish Restoration. If the lemure dies in the Nine Hells, it revives with all its Hit Points in 1d10 days unless it is killed by a creature under the effects of a Bless spell or its remains are sprinkled with Holy Water.\n\nActions\n\nVile Slime. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Poison damage.",
@@ -94,14 +108,21 @@
     {
       "name": "Vile Slime",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 2,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "1d4",
+            "count": 1,
+            "sides": 4
+          }
+        }
+      ],
+      "sourceText": "Vile Slime. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Poison damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 2,
-      "averageDamage": 2,
-      "damageType": "Poison",
-      "damageRoll": {
-        "expression": "1d4",
-        "count": 1,
-        "sides": 4
-      },
       "reachFeet": 5
     }
   ]

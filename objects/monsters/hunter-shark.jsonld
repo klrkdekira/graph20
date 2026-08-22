@@ -71,12 +71,49 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Water Breathing. The shark can breathe only underwater."
+      "rulesText": "Water Breathing. The shark can breathe only underwater.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.57",
+        "heading": "Traits",
+        "lineStart": 28221,
+        "lineEnd": 28223
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +6 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 14 (3d6 + 4) Piercing damage."
+      "rulesText": "Bite. Melee Attack Roll: +6 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 14 (3d6 + 4) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.57",
+        "heading": "Actions",
+        "lineStart": 28225,
+        "lineEnd": 28227
+      }
     }
   ],
-  "rulesText": "Large Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 45 (6d10 + 12)\nSpeed 5 ft., Swim 40 ft.\n\nSkills Perception +2\nSenses Blindsight 60 ft.; Passive Perception 12\nLanguages None\nCR 2 (XP 450; PB +2)\n\nTraits\n\nWater Breathing. The shark can breathe only underwater.\n\nActions\n\nBite. Melee Attack Roll: +6 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 14 (3d6 + 4) Piercing damage."
+  "rulesText": "Large Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 45 (6d10 + 12)\nSpeed 5 ft., Swim 40 ft.\n\nSkills Perception +2\nSenses Blindsight 60 ft.; Passive Perception 12\nLanguages None\nCR 2 (XP 450; PB +2)\n\nTraits\n\nWater Breathing. The shark can breathe only underwater.\n\nActions\n\nBite. Melee Attack Roll: +6 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 14 (3d6 + 4) Piercing damage.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 14,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "3d6+4",
+            "count": 3,
+            "sides": 6,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +6 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 14 (3d6 + 4) Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
+      "attackBonus": 6,
+      "reachFeet": 5
+    }
+  ]
 }

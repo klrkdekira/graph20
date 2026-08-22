@@ -15,7 +15,20 @@
     "lineEnd": 16034
   },
   "itemCategory": "Wondrous Item",
-  "rarity": "Rare",
+  "rarities": [
+    {
+      "rarity": "Rare",
+      "variant": "Silver or Brass"
+    },
+    {
+      "rarity": "Very Rare",
+      "variant": "Bronze"
+    },
+    {
+      "rarity": "Legendary",
+      "variant": "Iron"
+    }
+  ],
   "requiresAttunement": false,
   "relatedTables": [
     {

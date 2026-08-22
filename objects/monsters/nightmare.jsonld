@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Confer Fire Resistance. The nightmare can grant Resistance to Fire damage to a rider while it is on the nightmare.\n\nIllumination. The nightmare sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet."
+      "rulesText": "Confer Fire Resistance. The nightmare can grant Resistance to Fire damage to a rider while it is on the nightmare.\n\nIllumination. The nightmare sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.175",
+        "heading": "Traits",
+        "lineStart": 23525,
+        "lineEnd": 23529
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Hooves. Melee Attack Roll: +6, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning damage plus 10 (3d6) Fire damage.\n\nEthereal Stride. The nightmare and up to three willing creatures within 5 feet of it teleport to the Ethereal Plane from the Material Plane or vice versa."
+      "rulesText": "Hooves. Melee Attack Roll: +6, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning damage plus 10 (3d6) Fire damage.\n\nEthereal Stride. The nightmare and up to three willing creatures within 5 feet of it teleport to the Ethereal Plane from the Material Plane or vice versa.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.175",
+        "heading": "Actions",
+        "lineStart": 23531,
+        "lineEnd": 23535
+      }
     }
   ],
   "rulesText": "Large Fiend, Neutral Evil\n\nAC 13\nInitiative +2 (12)\nHP 68 (8d10 + 24)\nSpeed 60 ft., Fly 90 ft. (hover)\n\nImmunities Fire\nSenses Passive Perception 11\nLanguages Understands Abyssal, Common, and Infernal but can't speak\nCR 3 (XP 700; PB +2)\n\nTraits\n\nConfer Fire Resistance. The nightmare can grant Resistance to Fire damage to a rider while it is on the nightmare.\n\nIllumination. The nightmare sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.\n\nActions\n\nHooves. Melee Attack Roll: +6, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning damage plus 10 (3d6) Fire damage.\n\nEthereal Stride. The nightmare and up to three willing creatures within 5 feet of it teleport to the Ethereal Plane from the Material Plane or vice versa.",
@@ -83,15 +97,31 @@
     {
       "name": "Hooves",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 13,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "2d8+4",
+            "count": 2,
+            "sides": 8,
+            "modifier": 4
+          }
+        },
+        {
+          "averageDamage": 10,
+          "damageType": "Fire",
+          "damageRoll": {
+            "expression": "3d6",
+            "count": 3,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Hooves. Melee Attack Roll: +6, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning damage plus 10 (3d6) Fire damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 13,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "2d8+4",
-        "count": 2,
-        "sides": 8,
-        "modifier": 4
-      },
       "reachFeet": 5
     }
   ]

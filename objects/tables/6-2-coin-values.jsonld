@@ -74,5 +74,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Coin                | Value in GP |\n| :------------------ | :---------- |\n| Copper Piece (CP)   | 1/100       |\n| Silver Piece (SP)   | 1/10        |\n| Electrum Piece (EP) | 1/2         |\n| Gold Piece (GP)     | 1           |\n| Platinum Piece (PP) | 10          |"
 }

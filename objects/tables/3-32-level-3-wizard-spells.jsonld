@@ -104,5 +104,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell        | School        | Special |\n| :----------- | :------------ | :------ |\n| Animate Dead | Necromancy    |    -    |\n| Bestow Curse | Necromancy    | C       |\n| Blink        | Transmutation |    -    |\n| Clairvoyance | Divination    | C, M    |\n| Counterspell | Abjuration    |    -    |\n| Dispel Magic | Abjuration    |    -    |"
 }

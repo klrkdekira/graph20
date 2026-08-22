@@ -202,5 +202,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                         | School        | Special |\n| :---------------------------- | :------------ | :------ |\n| Bless                         | Enchantment   | C, M    |\n| Command                       | Enchantment   |    -    |\n| Cure Wounds                   | Abjuration    |    -    |\n| Detect Evil and Good          | Divination    | C       |\n| Detect Magic                  | Divination    | C, R    |\n| Detect Poison and Disease     | Divination    | C, R    |\n| Divine Favor                  | Transmutation |    -    |\n| Divine Smite                  | Evocation     |    -    |\n| Heroism                       | Enchantment   | C       |\n| Protection from Evil and Good | Abjuration    | C, M    |\n| Purify Food and Drink         | Transmutation | R       |\n| Searing Smite                 | Evocation     |    -    |\n| Shield of Faith               | Abjuration    | C       |"
 }

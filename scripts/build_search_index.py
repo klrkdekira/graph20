@@ -6,7 +6,7 @@ import argparse
 import re
 from pathlib import Path
 
-from srdlib import BASE, dump_json, iter_object_files, load_json
+from srdlib import BASE, dump_json, iter_object_files, iter_text_fragments, load_json
 
 TOKEN_RE = re.compile(r"[a-z0-9']+")
 STOPWORDS = {
@@ -21,25 +21,34 @@ def build(root: Path) -> None:
     postings = {}
     for collection, path in iter_object_files(root):
         record = load_json(path)
-        text = " ".join(
-            str(record.get(key, ""))
-            for key in ("name", "rulesText", "description")
-        )
+        fragments = list(iter_text_fragments(record))
         doc_index = len(documents)
         documents.append(
             {
                 "id": record["@id"].removeprefix(BASE),
                 "type": record.get("@type", ""),
                 "name": record.get("name", ""),
-                "excerpt": (record.get("rulesText") or "")[:160],
+                "excerpt": next(
+                    (f["text"][:160] for f in fragments if f["path"].endswith(("rulesText", "description"))),
+                    "",
+                ),
             }
         )
-        seen = set()
-        for token in TOKEN_RE.findall(text.lower()):
-            if len(token) < 3 or token in STOPWORDS or token in seen:
-                continue
-            seen.add(token)
-            postings.setdefault(token, []).append(doc_index)
+        excerpts = {}
+        for fragment in fragments:
+            text = fragment["text"]
+            for match in TOKEN_RE.finditer(text.lower()):
+                token = match.group(0)
+                if len(token) < 3 or token in STOPWORDS or token in excerpts:
+                    continue
+                start = max(0, match.start() - 55)
+                end = min(len(text), match.end() + 105)
+                excerpt = re.sub(r"\s+", " ", text[start:end]).strip()
+                excerpts[token] = excerpt
+        for token, excerpt in excerpts.items():
+            postings.setdefault(token, []).append(
+                {"document": doc_index, "excerpt": excerpt}
+            )
     index = {
         "base": BASE,
         "documents": documents,

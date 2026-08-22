@@ -106,5 +106,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| 1d100 | Alignment      | 1d100 | Alignment       |\n| :---- | :------------- | :---- | :-------------- |\n| 01–15 | Lawful Good    | 74–85 | Chaotic Neutral |\n| 16–35 | Neutral Good   | 86–89 | Lawful Evil     |\n| 36–50 | Chaotic Good   | 90–96 | Neutral Evil    |\n| 51–63 | Lawful Neutral | 97–00 | Chaotic Evil    |\n| 64–73 | Neutral        |       |                 |"
 }

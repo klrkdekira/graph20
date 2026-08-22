@@ -132,5 +132,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell              | School        | Special |\n| :----------------- | :------------ | :------ |\n| Animal Shapes      | Transmutation |    -    |\n| Antipathy/Sympathy | Enchantment   |    -    |\n| Befuddlement       | Enchantment   |    -    |\n| Control Weather    | Transmutation | C       |\n| Earthquake         | Transmutation | C       |\n| Incendiary Cloud   | Conjuration   | C       |\n| Sunburst           | Evocation     |    -    |\n| Tsunami            | Conjuration   | C       |"
 }

@@ -70,7 +70,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The fungus makes two Rotting Touch attacks.\n\nRotting Touch. Melee Attack Roll: +2, reach 10 ft. Hit: 4 (1d8) Necrotic damage."
+      "rulesText": "Multiattack. The fungus makes two Rotting Touch attacks.\n\nRotting Touch. Melee Attack Roll: +2, reach 10 ft. Hit: 4 (1d8) Necrotic damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.94",
+        "heading": "Actions",
+        "lineStart": 20963,
+        "lineEnd": 20967
+      }
     }
   ],
   "rulesText": "Medium Plant, Unaligned\n\nAC 5\nInitiative -5 (5)\nHP 18 (4d8)\nSpeed 5 ft.\n\nImmunities Blinded, Charmed, Deafened, Frightened\nSenses Blindsight 30 ft.; Passive Perception 6\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nMultiattack. The fungus makes two Rotting Touch attacks.\n\nRotting Touch. Melee Attack Roll: +2, reach 10 ft. Hit: 4 (1d8) Necrotic damage.",
@@ -92,14 +99,21 @@
     {
       "name": "Rotting Touch",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 4,
+          "damageType": "Necrotic",
+          "damageRoll": {
+            "expression": "1d8",
+            "count": 1,
+            "sides": 8
+          }
+        }
+      ],
+      "sourceText": "Rotting Touch. Melee Attack Roll: +2, reach 10 ft. Hit: 4 (1d8) Necrotic damage.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 2,
-      "averageDamage": 4,
-      "damageType": "Necrotic",
-      "damageRoll": {
-        "expression": "1d8",
-        "count": 1,
-        "sides": 8
-      },
       "reachFeet": 10
     }
   ]

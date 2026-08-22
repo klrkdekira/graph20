@@ -14,16 +14,40 @@
     "lineStart": 3041,
     "lineEnd": 3257
   },
-  "coreTraits": {
-    "Primary Ability": "Dexterity and Wisdom",
-    "Hit Point Die": "D8 per Monk level",
-    "Saving Throw Proficiencies": "Strength and Dexterity",
-    "Skill Proficiencies": "Choose 2: Acrobatics, Athletics, History, Insight, Religion, or Stealth",
-    "Weapon Proficiencies": "Simple weapons and Martial weapons that have the Light property",
-    "Tool Proficiencies": "Choose one type of Artisan’s Tools or Musical Instrument (see “Equipment”)",
-    "Armor Training": "None",
-    "Starting Equipment": "Choose A or B: (A) Spear, 5 Daggers, Artisan’s Tools or Musical Instrument chosen for the tool proficiency above, Explorer’s Pack, and 11 GP; or (B) 50 GP"
-  },
+  "coreTraits": [
+    {
+      "name": "Primary Ability",
+      "value": "Dexterity and Wisdom"
+    },
+    {
+      "name": "Hit Point Die",
+      "value": "D8 per Monk level"
+    },
+    {
+      "name": "Saving Throw Proficiencies",
+      "value": "Strength and Dexterity"
+    },
+    {
+      "name": "Skill Proficiencies",
+      "value": "Choose 2: Acrobatics, Athletics, History, Insight, Religion, or Stealth"
+    },
+    {
+      "name": "Weapon Proficiencies",
+      "value": "Simple weapons and Martial weapons that have the Light property"
+    },
+    {
+      "name": "Tool Proficiencies",
+      "value": "Choose one type of Artisan’s Tools or Musical Instrument (see “Equipment”)"
+    },
+    {
+      "name": "Armor Training",
+      "value": "None"
+    },
+    {
+      "name": "Starting Equipment",
+      "value": "Choose A or B: (A) Spear, 5 Daggers, Artisan’s Tools or Musical Instrument chosen for the tool proficiency above, Explorer’s Pack, and 11 GP; or (B) 50 GP"
+    }
+  ],
   "subclasses": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/subclasses/warrior-of-the-open-hand"
@@ -33,112 +57,266 @@
     {
       "level": 1,
       "name": "Martial Arts",
-      "rulesText": "Your practice of martial arts gives you mastery of combat styles that use your Unarmed Strike and Monk weapons, which are the following:\n\n- Simple Melee weapons\n- Martial Melee weapons that have the Light property\n\nYou gain the following benefits while you are unarmed or wielding only Monk weapons and you aren't wearing armor or wielding a Shield.\n\nBonus Unarmed Strike. You can make an Unarmed Strike as a Bonus Action.\n\nMartial Arts Die. You can roll 1d6 in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.\n\nDexterous Attacks. You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC."
+      "rulesText": "Your practice of martial arts gives you mastery of combat styles that use your Unarmed Strike and Monk weapons, which are the following:\n\n- Simple Melee weapons\n- Martial Melee weapons that have the Light property\n\nYou gain the following benefits while you are unarmed or wielding only Monk weapons and you aren't wearing armor or wielding a Shield.\n\nBonus Unarmed Strike. You can make an Unarmed Strike as a Bonus Action.\n\nMartial Arts Die. You can roll 1d6 in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.\n\nDexterous Attacks. You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 1: Martial Arts",
+        "lineStart": 3096,
+        "lineEnd": 3109
+      }
     },
     {
       "level": 1,
       "name": "Unarmored Defense",
-      "rulesText": "While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers."
+      "rulesText": "While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 1: Unarmored Defense",
+        "lineStart": 3111,
+        "lineEnd": 3113
+      }
     },
     {
       "level": 2,
       "name": "Monk's Focus",
-      "rulesText": "Your focus and martial training allow you to harness a well of extraordinary energy within yourself. This energy is represented by Focus Points. Your Monk level determines the number of points you have, as shown in the Focus Points column of the Monk Features table.\n\nYou can expend these points to enhance or fuel certain Monk features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind, each of which is detailed below.\n\nWhen you expend a Focus Point, it is unavailable until you finish a Short or Long Rest, at the end of which you regain all your expended points.\n\nSome features that use Focus Points require your target to make a saving throw. The save DC equals 8 plus your Wisdom modifier and Proficiency Bonus.\n\nFlurry of Blows. You can expend 1 Focus Point to make two Unarmed Strikes as a Bonus Action.\n\nPatient Defense. You can take the Disengage action as a Bonus Action. Alternatively, you can\n\nexpend 1 Focus Point to take both the Disengage and the Dodge actions as a Bonus Action.\n\nStep of the Wind. You can take the Dash action as a Bonus Action. Alternatively, you can expend 1 Focus Point to take both the Disengage and Dash actions as a Bonus Action, and your jump distance is doubled for the turn."
+      "rulesText": "Your focus and martial training allow you to harness a well of extraordinary energy within yourself. This energy is represented by Focus Points. Your Monk level determines the number of points you have, as shown in the Focus Points column of the Monk Features table.\n\nYou can expend these points to enhance or fuel certain Monk features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind, each of which is detailed below.\n\nWhen you expend a Focus Point, it is unavailable until you finish a Short or Long Rest, at the end of which you regain all your expended points.\n\nSome features that use Focus Points require your target to make a saving throw. The save DC equals 8 plus your Wisdom modifier and Proficiency Bonus.\n\nFlurry of Blows. You can expend 1 Focus Point to make two Unarmed Strikes as a Bonus Action.\n\nPatient Defense. You can take the Disengage action as a Bonus Action. Alternatively, you can\n\nexpend 1 Focus Point to take both the Disengage and the Dodge actions as a Bonus Action.\n\nStep of the Wind. You can take the Dash action as a Bonus Action. Alternatively, you can expend 1 Focus Point to take both the Disengage and Dash actions as a Bonus Action, and your jump distance is doubled for the turn.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 2: Monk's Focus",
+        "lineStart": 3115,
+        "lineEnd": 3131
+      }
     },
     {
       "level": 2,
       "name": "Unarmored Movement",
-      "rulesText": "Your speed increases by 10 feet while you aren't wearing armor or wielding a Shield. This bonus increases when you reach certain Monk levels, as shown on the Monk Features table."
+      "rulesText": "Your speed increases by 10 feet while you aren't wearing armor or wielding a Shield. This bonus increases when you reach certain Monk levels, as shown on the Monk Features table.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 2: Unarmored Movement",
+        "lineStart": 3133,
+        "lineEnd": 3135
+      }
     },
     {
       "level": 2,
       "name": "Uncanny Metabolism",
-      "rulesText": "When you roll Initiative, you can regain all expended Focus Points. When you do so, roll your Martial Arts die, and regain a number of Hit Points equal to your Monk level plus the number rolled.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest."
+      "rulesText": "When you roll Initiative, you can regain all expended Focus Points. When you do so, roll your Martial Arts die, and regain a number of Hit Points equal to your Monk level plus the number rolled.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 2: Uncanny Metabolism",
+        "lineStart": 3137,
+        "lineEnd": 3141
+      }
     },
     {
       "level": 3,
       "name": "Deflect Attacks",
-      "rulesText": "When an attack roll hits you and its damage includes Bludgeoning, Piercing, or Slashing damage, you can take a Reaction to reduce the attack's total damage against you. The reduction equals 1d10 plus your Dexterity modifier and Monk level.\n\nIf you reduce the damage to 0, you can expend 1 Focus Point to redirect some of the attack's force. If you do so, choose a creature you can see within 5 feet of yourself if the attack was a melee attack or a creature you can see within 60 feet of yourself that isn't behind Total Cover if the attack was a ranged attack. That creature must succeed on a Dexterity saving throw or take damage equal to two rolls of your Martial Arts die plus your Dexterity modifier. The damage is the same type dealt by the attack."
+      "rulesText": "When an attack roll hits you and its damage includes Bludgeoning, Piercing, or Slashing damage, you can take a Reaction to reduce the attack's total damage against you. The reduction equals 1d10 plus your Dexterity modifier and Monk level.\n\nIf you reduce the damage to 0, you can expend 1 Focus Point to redirect some of the attack's force. If you do so, choose a creature you can see within 5 feet of yourself if the attack was a melee attack or a creature you can see within 60 feet of yourself that isn't behind Total Cover if the attack was a ranged attack. That creature must succeed on a Dexterity saving throw or take damage equal to two rolls of your Martial Arts die plus your Dexterity modifier. The damage is the same type dealt by the attack.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 3: Deflect Attacks",
+        "lineStart": 3143,
+        "lineEnd": 3147
+      }
     },
     {
       "level": 3,
       "name": "Monk Subclass",
-      "rulesText": "You gain a Monk subclass of your choice. The Warrior of the Open Hand subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Monk levels. For the rest of your career, you gain each of your subclass's features that are of your Monk level or lower."
+      "rulesText": "You gain a Monk subclass of your choice. The Warrior of the Open Hand subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Monk levels. For the rest of your career, you gain each of your subclass's features that are of your Monk level or lower.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 3: Monk Subclass",
+        "lineStart": 3149,
+        "lineEnd": 3151
+      }
     },
     {
       "level": 4,
       "name": "Ability Score Improvement",
-      "rulesText": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you\n\nqualify. You gain this feature again at Monk levels 8, 12, and 16."
+      "rulesText": "You gain the Ability Score Improvement feat (see \"Feats\") or another feat of your choice for which you\n\nqualify. You gain this feature again at Monk levels 8, 12, and 16.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 4: Ability Score Improvement",
+        "lineStart": 3153,
+        "lineEnd": 3157
+      }
     },
     {
       "level": 4,
       "name": "Slow Fall",
-      "rulesText": "You can take a Reaction when you fall to reduce any damage you take from the fall by an amount equal to five times your Monk level."
+      "rulesText": "You can take a Reaction when you fall to reduce any damage you take from the fall by an amount equal to five times your Monk level.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 4: Slow Fall",
+        "lineStart": 3159,
+        "lineEnd": 3161
+      }
     },
     {
       "level": 5,
       "name": "Extra Attack",
-      "rulesText": "You can attack twice instead of once whenever you take the Attack action on your turn."
+      "rulesText": "You can attack twice instead of once whenever you take the Attack action on your turn.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 5: Extra Attack",
+        "lineStart": 3163,
+        "lineEnd": 3165
+      }
     },
     {
       "level": 5,
       "name": "Stunning Strike",
-      "rulesText": "Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike, you can expend 1 Focus Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the Stunned condition until the start of your next turn. On a successful save, the target's Speed is halved until the start of your next turn, and the next attack roll made against the target before then has Advantage."
+      "rulesText": "Once per turn when you hit a creature with a Monk weapon or an Unarmed Strike, you can expend 1 Focus Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the Stunned condition until the start of your next turn. On a successful save, the target's Speed is halved until the start of your next turn, and the next attack roll made against the target before then has Advantage.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 5: Stunning Strike",
+        "lineStart": 3167,
+        "lineEnd": 3169
+      }
     },
     {
       "level": 6,
       "name": "Empowered Strikes",
-      "rulesText": "Whenever you deal damage with your Unarmed Strike, it can deal your choice of Force damage or its normal damage type."
+      "rulesText": "Whenever you deal damage with your Unarmed Strike, it can deal your choice of Force damage or its normal damage type.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 6: Empowered Strikes",
+        "lineStart": 3171,
+        "lineEnd": 3173
+      }
     },
     {
       "level": 7,
       "name": "Evasion",
-      "rulesText": "When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail.\n\nYou don't benefit from this feature if you have the Incapacitated condition."
+      "rulesText": "When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail.\n\nYou don't benefit from this feature if you have the Incapacitated condition.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 7: Evasion",
+        "lineStart": 3175,
+        "lineEnd": 3179
+      }
     },
     {
       "level": 9,
       "name": "Acrobatic Movement",
-      "rulesText": "While you aren't wearing armor or wielding a Shield, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the movement."
+      "rulesText": "While you aren't wearing armor or wielding a Shield, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the movement.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 9: Acrobatic Movement",
+        "lineStart": 3181,
+        "lineEnd": 3183
+      }
     },
     {
       "level": 10,
       "name": "Heightened Focus",
-      "rulesText": "Your Flurry of Blows, Patient Defense, and Step of the Wind gain the following benefits.\n\nFlurry of Blows. You can expend 1 Focus Point to use Flurry of Blows and make three Unarmed Strikes with it instead of two.\n\nPatient Defense. When you expend a Focus Point to use Patient Defense, you gain a number of Temporary Hit Points equal to two rolls of your Martial Arts die.\n\nStep of the Wind. When you expend a Focus Point to use Step of the Wind, you can choose a willing creature within 5 feet of yourself that is Large or smaller. You move the creature with you until the end of your turn. The creature's movement doesn't provoke Opportunity Attacks."
+      "rulesText": "Your Flurry of Blows, Patient Defense, and Step of the Wind gain the following benefits.\n\nFlurry of Blows. You can expend 1 Focus Point to use Flurry of Blows and make three Unarmed Strikes with it instead of two.\n\nPatient Defense. When you expend a Focus Point to use Patient Defense, you gain a number of Temporary Hit Points equal to two rolls of your Martial Arts die.\n\nStep of the Wind. When you expend a Focus Point to use Step of the Wind, you can choose a willing creature within 5 feet of yourself that is Large or smaller. You move the creature with you until the end of your turn. The creature's movement doesn't provoke Opportunity Attacks.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 10: Heightened Focus",
+        "lineStart": 3185,
+        "lineEnd": 3193
+      }
     },
     {
       "level": 10,
       "name": "Self-Restoration",
-      "rulesText": "Through sheer force of will, you can remove one of the following conditions from yourself at the end of each of your turns: Charmed, Frightened, or Poisoned.\n\nIn addition, forgoing food and drink doesn't give you levels of Exhaustion."
+      "rulesText": "Through sheer force of will, you can remove one of the following conditions from yourself at the end of each of your turns: Charmed, Frightened, or Poisoned.\n\nIn addition, forgoing food and drink doesn't give you levels of Exhaustion.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 10: Self-Restoration",
+        "lineStart": 3195,
+        "lineEnd": 3199
+      }
     },
     {
       "level": 13,
       "name": "Deflect Energy",
-      "rulesText": "You can now use your Deflect Attacks feature against attacks that deal any damage type, not just Bludgeoning, Piercing, or Slashing."
+      "rulesText": "You can now use your Deflect Attacks feature against attacks that deal any damage type, not just Bludgeoning, Piercing, or Slashing.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 13: Deflect Energy",
+        "lineStart": 3201,
+        "lineEnd": 3203
+      }
     },
     {
       "level": 14,
       "name": "Disciplined Survivor",
-      "rulesText": "Your physical and mental discipline grant you proficiency in all saving throws.\n\nAdditionally, whenever you make a saving throw and fail, you can expend 1 Focus Point to reroll it, and you must use the new roll."
+      "rulesText": "Your physical and mental discipline grant you proficiency in all saving throws.\n\nAdditionally, whenever you make a saving throw and fail, you can expend 1 Focus Point to reroll it, and you must use the new roll.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 14: Disciplined Survivor",
+        "lineStart": 3205,
+        "lineEnd": 3209
+      }
     },
     {
       "level": 15,
       "name": "Perfect Focus",
-      "rulesText": "When you roll Initiative and don't use Uncanny Metabolism, you regain expended Focus Points until you have 4 if you have 3 or fewer."
+      "rulesText": "When you roll Initiative and don't use Uncanny Metabolism, you regain expended Focus Points until you have 4 if you have 3 or fewer.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 15: Perfect Focus",
+        "lineStart": 3211,
+        "lineEnd": 3213
+      }
     },
     {
       "level": 18,
       "name": "Superior Defense",
-      "rulesText": "At the start of your turn, you can expend 3 Focus Points to bolster yourself against harm for 1 minute or until you have the Incapacitated condition. During that time, you have Resistance to all damage except Force damage."
+      "rulesText": "At the start of your turn, you can expend 3 Focus Points to bolster yourself against harm for 1 minute or until you have the Incapacitated condition. During that time, you have Resistance to all damage except Force damage.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 18: Superior Defense",
+        "lineStart": 3215,
+        "lineEnd": 3217
+      }
     },
     {
       "level": 19,
       "name": "Epic Boon",
-      "rulesText": "You gain an Epic Boon feat (see “Feats”) or another feat of your choice for which you qualify. Boon of Irresistible Offense is recommended."
+      "rulesText": "You gain an Epic Boon feat (see “Feats”) or another feat of your choice for which you qualify. Boon of Irresistible Offense is recommended.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 19: Epic Boon",
+        "lineStart": 3219,
+        "lineEnd": 3221
+      }
     },
     {
       "level": 20,
       "name": "Body and Mind",
-      "rulesText": "You have developed your body and mind to new heights. Your Dexterity and Wisdom scores increase by 4, to a maximum of 25."
+      "rulesText": "You have developed your body and mind to new heights. Your Dexterity and Wisdom scores increase by 4, to a maximum of 25.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 20: Body and Mind",
+        "lineStart": 3223,
+        "lineEnd": 3225
+      }
     }
   ],
   "relatedTables": [

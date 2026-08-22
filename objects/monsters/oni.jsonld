@@ -72,15 +72,36 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Regeneration. The oni regains 10 Hit Points at the start of each of its turns if it has at least 1 Hit Point."
+      "rulesText": "Regeneration. The oni regains 10 Hit Points at the start of each of its turns if it has at least 1 Hit Point.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.179",
+        "heading": "Traits",
+        "lineStart": 23652,
+        "lineEnd": 23654
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The oni makes two Claw or Nightmare Ray attacks. It can replace one attack with a use of Spellcasting.\n\nClaw. Melee Attack Roll: +7, reach 10 ft. Hit: 10 (1d12 + 4) Slashing damage plus 9 (2d8) Necrotic damage.\n\nNightmare Ray. Ranged Attack Roll: +5, range 60 ft.\nHit: 9 (2d6 + 2) Psychic damage, and the target has the Frightened condition until the start of the oni's next turn.\n\nShape-Shift. The oni shape-shifts into a Small or Medium Humanoid or a Large Giant, or it returns to its true form. Other than its size, its game statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed.\n\nSpellcasting. The oni casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 13):\n\n1/Day Each: Charm Person (level 2 version), Darkness, Gaseous Form, Sleep"
+      "rulesText": "Multiattack. The oni makes two Claw or Nightmare Ray attacks. It can replace one attack with a use of Spellcasting.\n\nClaw. Melee Attack Roll: +7, reach 10 ft. Hit: 10 (1d12 + 4) Slashing damage plus 9 (2d8) Necrotic damage.\n\nNightmare Ray. Ranged Attack Roll: +5, range 60 ft.\nHit: 9 (2d6 + 2) Psychic damage, and the target has the Frightened condition until the start of the oni's next turn.\n\nShape-Shift. The oni shape-shifts into a Small or Medium Humanoid or a Large Giant, or it returns to its true form. Other than its size, its game statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed.\n\nSpellcasting. The oni casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 13):\n\n1/Day Each: Charm Person (level 2 version), Darkness, Gaseous Form, Sleep",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.179",
+        "heading": "Actions",
+        "lineStart": 23656,
+        "lineEnd": 23669
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Invisibility. The oni casts Invisibility on itself, requiring no spell components and using the same spellcasting ability as Spellcasting."
+      "rulesText": "Invisibility. The oni casts Invisibility on itself, requiring no spell components and using the same spellcasting ability as Spellcasting.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.179",
+        "heading": "Bonus Actions",
+        "lineStart": 23671,
+        "lineEnd": 23673
+      }
     }
   ],
   "rulesText": "Large Fiend, Lawful Evil\n\nAC 17\nInitiative +0 (10)\nHP 119 (14d10 + 42)\nSpeed 30 ft., Fly 30 ft. (hover)\n\nSkills Arcana +5, Deception +8, Perception +4\nResistances Cold\nSenses Darkvision 60 ft.; Passive Perception 14\nLanguages Common, Giant\nCR 7 (XP 2,900; PB +3)\n\nTraits\n\nRegeneration. The oni regains 10 Hit Points at the start of each of its turns if it has at least 1 Hit Point.\n\nActions\n\nMultiattack. The oni makes two Claw or Nightmare Ray attacks. It can replace one attack with a use of Spellcasting.\n\nClaw. Melee Attack Roll: +7, reach 10 ft. Hit: 10 (1d12 + 4) Slashing damage plus 9 (2d8) Necrotic damage.\n\nNightmare Ray. Ranged Attack Roll: +5, range 60 ft.\nHit: 9 (2d6 + 2) Psychic damage, and the target has the Frightened condition until the start of the oni's next turn.\n\nShape-Shift. The oni shape-shifts into a Small or Medium Humanoid or a Large Giant, or it returns to its true form. Other than its size, its game statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed.\n\nSpellcasting. The oni casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 13):\n\n1/Day Each: Charm Person (level 2 version), Darkness, Gaseous Form, Sleep\n\nBonus Actions\n\nInvisibility. The oni casts Invisibility on itself, requiring no spell components and using the same spellcasting ability as Spellcasting.",
@@ -88,29 +109,52 @@
     {
       "name": "Claw",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 10,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d12+4",
+            "count": 1,
+            "sides": 12,
+            "modifier": 4
+          }
+        },
+        {
+          "averageDamage": 9,
+          "damageType": "Necrotic",
+          "damageRoll": {
+            "expression": "2d8",
+            "count": 2,
+            "sides": 8
+          }
+        }
+      ],
+      "sourceText": "Claw. Melee Attack Roll: +7, reach 10 ft. Hit: 10 (1d12 + 4) Slashing damage plus 9 (2d8) Necrotic damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 7,
-      "averageDamage": 10,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d12+4",
-        "count": 1,
-        "sides": 12,
-        "modifier": 4
-      },
       "reachFeet": 10
     },
     {
       "name": "Nightmare Ray",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 9,
+          "damageType": "Psychic",
+          "damageRoll": {
+            "expression": "2d6+2",
+            "count": 2,
+            "sides": 6,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Nightmare Ray. Ranged Attack Roll: +5, range 60 ft.\nHit: 9 (2d6 + 2) Psychic damage, and the target has the Frightened condition until the start of the oni's next turn.",
+      "path": "statSections[1].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 9,
-      "damageType": "Psychic",
-      "damageRoll": {
-        "expression": "2d6+2",
-        "count": 2,
-        "sides": 6,
-        "modifier": 2
-      },
       "rangeFeet": {
         "normal": 60
       }

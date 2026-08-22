@@ -71,12 +71,43 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Agile. The rat doesn't provoke an Opportunity Attack when it moves out of an enemy's reach."
+      "rulesText": "Agile. The rat doesn't provoke an Opportunity Attack when it moves out of an enemy's reach.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.74",
+        "heading": "Traits",
+        "lineStart": 28678,
+        "lineEnd": 28680
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage."
+      "rulesText": "Bite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.74",
+        "heading": "Actions",
+        "lineStart": 28682,
+        "lineEnd": 28684
+      }
     }
   ],
-  "rulesText": "Tiny Beast, Unaligned\n\nAC 10\nInitiative +0 (10)\nHP 1 (1d4 - 1)\nSpeed 20 ft., Climb 20 ft.\n\nSkills Perception +2\nSenses Darkvision 30 ft.; Passive Perception 12\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nAgile. The rat doesn't provoke an Opportunity Attack when it moves out of an enemy's reach.\n\nActions\n\nBite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage."
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 10\nInitiative +0 (10)\nHP 1 (1d4 - 1)\nSpeed 20 ft., Climb 20 ft.\n\nSkills Perception +2\nSenses Darkvision 30 ft.; Passive Perception 12\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nAgile. The rat doesn't provoke an Opportunity Attack when it moves out of an enemy's reach.\n\nActions\n\nBite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage.",
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 1,
+          "damageType": "Piercing"
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
+      "attackBonus": 2,
+      "reachFeet": 5
+    }
+  ]
 }

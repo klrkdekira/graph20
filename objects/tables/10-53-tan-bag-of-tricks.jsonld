@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.53",
     "heading": "Bag of Tricks",
-    "lineStart": 15089,
-    "lineEnd": 15094
+    "lineStart": 15090,
+    "lineEnd": 15095
   },
   "columns": [
     "1d8",
@@ -89,5 +89,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| 1d8 | Creature | 1d8 | Creature     |\n| :--- | :------- | :--- | :----------- |\n| 1   | Jackal   | 5   | Black Bear   |\n| 2   | Ape      | 6   | Giant Weasel |\n| 3   | Baboon   | 7   | Giant Hyena  |\n| 4   | Axe Beak | 8   | Tiger        |"
 }

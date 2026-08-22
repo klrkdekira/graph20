@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.92",
     "heading": "Deck of Illusions",
-    "lineStart": 15459,
-    "lineEnd": 15493
+    "lineStart": 15460,
+    "lineEnd": 15494
   },
   "columns": [
     "1d100",
@@ -382,5 +382,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| 1d100 | Illusion*         |\n| :---- | :---------------- |\n| 01-03 | Adult Red Dragon  |\n| 04-06 | Archmage          |\n| 07-09 | Assassin          |\n| 10-12 | Bandit Captain    |\n| 13-15 | Basilisk          |\n| 16-18 | Berserker         |\n| 19-21 | Bugbear Warrior   |\n| 22-24 | Cloud Giant       |\n| 25-27 | Druid             |\n| 28-30 | Erinyes           |\n| 31-33 | Ettin             |\n| 34-36 | Fire Giant        |\n| 37-39 | Frost Giant       |\n| 40-42 | Gnoll Warrior     |\n| 43-45 | Goblin Warrior    |\n| 46-48 | Guardian Naga     |\n| 49-51 | Hill Giant        |\n| 52-54 | Hobgoblin Warrior |\n| 55-57 | Incubus           |\n| 58-60 | Iron Golem        |\n| 61-63 | Knight            |\n| 64-66 | Kobold Warrior    |\n| 67-69 | Lich              |\n| 70-72 | Medusa            |\n| 73-75 | Night Hag         |\n| 76-78 | Ogre              |\n| 79-81 | Oni               |\n| 82–84 | Priest            |\n| 85–87 | Succubus          |\n| 88–90 | Troll             |\n| 91–93 | Veteran Warrior   |\n| 94–96 | Wyvern            |\n| 97–00 | The card drawer   |"
 }

@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Amphibious. The dragon can breathe air and water."
+      "rulesText": "Amphibious. The dragon can breathe air and water.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.45",
+        "heading": "Traits",
+        "lineStart": 19348,
+        "lineEnd": 19350
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Repulsion Breath.\n\nRend. Melee Attack Roll: +8, reach 10 ft. Hit: 16 (2d10 + 5) Slashing damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 15, each creature in a 60-foot-long, 5-foot-wide Line. Failure: 49 (9d10) Lightning damage. Success: Half damage.\n\nRepulsion Breath. Strength Saving Throw: DC 15, each creature in a 30-foot Cone. Failure: The target is pushed up to 40 feet straight away from the dragon and has the Prone condition."
+      "rulesText": "Multiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Repulsion Breath.\n\nRend. Melee Attack Roll: +8, reach 10 ft. Hit: 16 (2d10 + 5) Slashing damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 15, each creature in a 60-foot-long, 5-foot-wide Line. Failure: 49 (9d10) Lightning damage. Success: Half damage.\n\nRepulsion Breath. Strength Saving Throw: DC 15, each creature in a 30-foot Cone. Failure: The target is pushed up to 40 feet straight away from the dragon and has the Prone condition.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.45",
+        "heading": "Actions",
+        "lineStart": 19352,
+        "lineEnd": 19360
+      }
     }
   ],
   "rulesText": "Large Dragon (Metallic), Lawful Good\n\nAC 17\nInitiative +3 (13)\nHP 142 (15d10 + 60)\nSpeed 40 ft., Fly 80 ft., Swim 40 ft.\n\nSkills Insight +4, Perception +7, Stealth +3\nImmunities Lightning\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 17\nLanguages Common, Draconic\nCR 8 (XP 3,900; PB +3)\n\nTraits\n\nAmphibious. The dragon can breathe air and water.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Repulsion Breath.\n\nRend. Melee Attack Roll: +8, reach 10 ft. Hit: 16 (2d10 + 5) Slashing damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 15, each creature in a 60-foot-long, 5-foot-wide Line. Failure: 49 (9d10) Lightning damage. Success: Half damage.\n\nRepulsion Breath. Strength Saving Throw: DC 15, each creature in a 30-foot Cone. Failure: The target is pushed up to 40 feet straight away from the dragon and has the Prone condition.",
@@ -84,15 +98,22 @@
     {
       "name": "Rend",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 16,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "2d10+5",
+            "count": 2,
+            "sides": 10,
+            "modifier": 5
+          }
+        }
+      ],
+      "sourceText": "Rend. Melee Attack Roll: +8, reach 10 ft. Hit: 16 (2d10 + 5) Slashing damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 8,
-      "averageDamage": 16,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "2d10+5",
-        "count": 2,
-        "sides": 10,
-        "modifier": 5
-      },
       "reachFeet": 10
     }
   ]

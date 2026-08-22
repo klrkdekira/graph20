@@ -76,5 +76,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell            | School        | Special |\n| :--------------- | :------------ | :------ |\n| Prestidigitation | Transmutation |    -    |\n| Starry Wisp      | Evocation     |    -    |\n| True Strike      | Divination    |    -    |\n| Vicious Mockery  | Enchantment   |    -    |"
 }

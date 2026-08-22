@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.190",
     "heading": "Potions of Healing",
-    "lineStart": 16623,
-    "lineEnd": 16628
+    "lineStart": 16624,
+    "lineEnd": 16629
   },
   "columns": [
     "Potion",
@@ -76,5 +76,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Potion                       | HP Regained | Rarity    |\n| :--------------------------- | :---------- | :-------- |\n| Potion of Healing            | 2d4 + 2     | Common    |\n| Potion of Healing (greater)  | 4d4 + 4     | Uncommon  |\n| Potion of Healing (superior) | 8d4 + 8     | Rare      |\n| Potion of Healing (supreme)  | 10d4 + 20   | Very Rare |"
 }

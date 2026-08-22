@@ -188,5 +188,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                         | School        | Special |\n| :---------------------------- | :------------ | :------ |\n| Bane                          | Enchantment   | C       |\n| Charm Person                  | Enchantment   |    -    |\n| Comprehend Languages          | Divination    | R       |\n| Detect Magic                  | Divination    | C, R    |\n| Expeditious Retreat           | Transmutation | C       |\n| Hellish Rebuke                | Evocation     |    -    |\n| Hex                           | Enchantment   | C       |\n| Hideous Laughter              | Enchantment   | C       |\n| Illusory Script               | Illusion      | R, M    |\n| Protection from Evil and Good | Abjuration    | C, M    |\n| Speak with Animals            | Divination    | R       |\n| Unseen Servant                | Conjuration   | R       |"
 }

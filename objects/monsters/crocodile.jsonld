@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Hold Breath. The crocodile can hold its breath for 1 hour."
+      "rulesText": "Hold Breath. The crocodile can hold its breath for 1 hour.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.17",
+        "heading": "Traits",
+        "lineStart": 27151,
+        "lineEnd": 27153
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12). While Grappled, the target has the Restrained condition."
+      "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12). While Grappled, the target has the Restrained condition.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.17",
+        "heading": "Actions",
+        "lineStart": 27155,
+        "lineEnd": 27157
+      }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 12\nInitiative +0 (10)\nHP 13 (2d10 + 2)\nSpeed 20 ft., Swim 30 ft.\n\nSkills Stealth +2\nSenses Passive Perception 10\nLanguages None\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nHold Breath. The crocodile can hold its breath for 1 hour.\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12). While Grappled, the target has the Restrained condition.",
@@ -83,15 +97,22 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 6,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d8+2",
+            "count": 1,
+            "sides": 8,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12). While Grappled, the target has the Restrained condition.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 6,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d8+2",
-        "count": 1,
-        "sides": 8,
-        "modifier": 2
-      },
       "reachFeet": 5
     }
   ]

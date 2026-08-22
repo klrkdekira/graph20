@@ -71,7 +71,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage.\n\nConstrict. Strength Saving Throw: DC 12, one Medium or smaller creature the snake can see within 5 feet.\nFailure: 7 (3d4) Bludgeoning damage, and the target has the Grappled condition (escape DC 12)."
+      "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage.\n\nConstrict. Strength Saving Throw: DC 12, one Medium or smaller creature the snake can see within 5 feet.\nFailure: 7 (3d4) Bludgeoning damage, and the target has the Grappled condition (escape DC 12).",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.15",
+        "heading": "Actions",
+        "lineStart": 27098,
+        "lineEnd": 27103
+      }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 13\nInitiative +2 (12)\nHP 13 (2d10 + 2)\nSpeed 30 ft., Swim 30 ft.\n\nSkills Perception +2, Stealth +4\nSenses Blindsight 10 ft.; Passive Perception 12\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage.\n\nConstrict. Strength Saving Throw: DC 12, one Medium or smaller creature the snake can see within 5 feet.\nFailure: 7 (3d4) Bludgeoning damage, and the target has the Grappled condition (escape DC 12).",
@@ -79,15 +86,22 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 6,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d8+2",
+            "count": 1,
+            "sides": 8,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 6,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d8+2",
-        "count": 1,
-        "sides": 8,
-        "modifier": 2
-      },
       "reachFeet": 5
     }
   ]

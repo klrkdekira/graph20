@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.47",
     "heading": "Armor of Resistance",
-    "lineStart": 14986,
-    "lineEnd": 14992
+    "lineStart": 14987,
+    "lineEnd": 14993
   },
   "columns": [
     "1d10",
@@ -106,5 +106,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| 1d10 | Damage Type | 1d10 | Damage Type |\n| :--- | :---------- | :--- | :---------- |\n| 1    | Acid        | 6    | Necrotic    |\n| 2    | Cold        | 7    | Poison      |\n| 3    | Fire        | 8    | Psychic     |\n| 4    | Force       | 9    | Radiant     |\n| 5    | Lightning   | 10   | Thunder     |"
 }

@@ -160,5 +160,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                | School        | Special |\n| :------------------- | :------------ | :------ |\n| Conjure Fey          | Conjuration   | C       |\n| Find the Path        | Divination    | C, M    |\n| Flesh to Stone       | Transmutation | C       |\n| Heal                 | Abjuration    |    -    |\n| Heroes’ Feast        | Conjuration   | M       |\n| Move Earth           | Transmutation | C       |\n| Sunbeam              | Evocation     | C       |\n| Transport via Plants | Conjuration   |    -    |\n| Wall of Thorns       | Conjuration   | C       |\n| Wind Walk            | Transmutation |    -    |"
 }

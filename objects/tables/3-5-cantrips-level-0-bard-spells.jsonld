@@ -104,5 +104,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell          | School        | Special |\n| :------------- | :------------ | :------ |\n| Dancing Lights | Illusion      | C       |\n| Light          | Evocation     |    -    |\n| Mage Hand      | Conjuration   |    -    |\n| Mending        | Transmutation |    -    |\n| Message        | Transmutation |    -    |\n| Minor Illusion | Illusion      |    -    |"
 }

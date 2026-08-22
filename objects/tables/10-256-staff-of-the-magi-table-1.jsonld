@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.256",
     "heading": "Staff of the Magi",
-    "lineStart": 17390,
-    "lineEnd": 17410
+    "lineStart": 17391,
+    "lineEnd": 17411
   },
   "columns": [
     "Spell",
@@ -228,5 +228,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                            | Charge Cost |\n| :------------------------------- | :---------- |\n| Arcane Lock                      | 0           |\n| Conjure Elemental                | 7           |\n| Detect Magic                     | 0           |\n| Dispel Magic                     | 3           |\n| Enlarge/Reduce                   | 0           |\n| Fireball (level 7 version)       | 7           |\n| Flaming Sphere                   | 2           |\n| Ice Storm                        | 4           |\n| Invisibility                     | 2           |\n| Knock                            | 2           |\n| Light                            | 0           |\n| Lightning Bolt (level 7 version) | 7           |\n| Mage Hand                        | 0           |\n| Passwall                         | 5           |\n| Plane Shift                      | 7           |\n| Protection from Evil and Good    | 0           |\n| Telekinesis                      | 5           |\n| Wall of Fire                     | 4           |\n| Web                              | 2           |"
 }

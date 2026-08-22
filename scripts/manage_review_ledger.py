@@ -14,6 +14,7 @@ from pathlib import Path
 from srdlib import dump_json, load_json
 
 LEDGER = Path(__file__).resolve().parent.parent / "objects/sources/source-review-ledger.json"
+POLICIES = Path(__file__).resolve().parent.parent / "reviews/semantic-review-policies.json"
 STATUSES = ("pending", "accepted", "corrected", "false-positive")
 
 
@@ -51,20 +52,22 @@ def main():
     if status not in STATUSES:
         raise SystemExit(f"status must be one of {STATUSES}")
     hit = False
+    selected = None
     for signal in signals:
         if signal["key"] == key:
-            signal["status"] = status
-            if args.note:
-                signal["note"] = args.note
+            selected = signal
             hit = True
     if not hit:
         raise SystemExit(f"no signal with key {key}")
-    counts = {}
-    for signal in signals:
-        counts[signal["status"]] = counts.get(signal["status"], 0) + 1
-    ledger["statusCounts"] = counts
-    dump_json(LEDGER, ledger)
-    print(f"{key} -> {status}")
+    policies = load_json(POLICIES)
+    override = {"status": status}
+    if args.note:
+        override["note"] = args.note
+    else:
+        override["note"] = selected.get("note", "Occurrence-level reviewer disposition.")
+    policies.setdefault("signalOverrides", {})[key] = override
+    dump_json(POLICIES, policies)
+    print(f"{key} -> {status}; saved in reviews/semantic-review-policies.json (run make review)")
 
 
 if __name__ == "__main__":

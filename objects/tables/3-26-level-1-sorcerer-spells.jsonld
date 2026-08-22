@@ -314,5 +314,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                | School        | Special |\n| :------------------- | :------------ | :------ |\n| Burning Hands        | Evocation     |    -    |\n| Charm Person         | Enchantment   |    -    |\n| Chromatic Orb        | Evocation     | M       |\n| Color Spray          | Illusion      |    -    |\n| Comprehend Languages | Divination    | R       |\n| Detect Magic         | Divination    | C, R    |\n| Disguise Self        | Illusion      |    -    |\n| Expeditious Retreat  | Transmutation | C       |\n| False Life           | Necromancy    |    -    |\n| Feather Fall         | Transmutation |    -    |\n| Fog Cloud            | Conjuration   | C       |\n| Grease               | Conjuration   |    -    |\n| Ice Knife            | Conjuration   |    -    |\n| Jump                 | Transmutation |    -    |\n| Mage Armor           | Abjuration    |    -    |\n| Magic Missile        | Evocation     |    -    |\n| Ray of Sickness      | Necromancy    |    -    |\n| Shield               | Abjuration    |    -    |\n| Silent Image         | Illusion      | C       |\n| Sleep                | Enchantment   | C       |\n| Thunderwave          | Evocation     |    -    |"
 }

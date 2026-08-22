@@ -122,5 +122,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Type             | Amount | Storage | Weight    | Cost |\n| :--------------- | :----- | :------ | :-------- | :--- |\n| Arrows           | 20     | Quiver  | 1 lb.     | 1 GP |\n| Bolts            | 20     | Case    | 1 1/2 lb. | 1 GP |\n| Bullets, Firearm | 10     | Pouch   | 2 lb.     | 3 GP |\n| Bullets, Sling   | 20     | Pouch   | 1 1/2 lb. | 4 CP |\n| Needles          | 50     | Pouch   | 1 lb.     | 1 GP |"
 }

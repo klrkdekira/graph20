@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.57",
     "heading": "Belt of Giant Strength",
-    "lineStart": 15140,
-    "lineEnd": 15146
+    "lineStart": 15141,
+    "lineEnd": 15147
   },
   "columns": [
     "Belt",
@@ -90,5 +90,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Belt                                    | Str. | Rarity    |\n| :-------------------------------------- | :--- | :-------- |\n| Belt of Giant Strength (hill)           | 21   | Rare      |\n| Belt of Giant Strength (frost or stone) | 23   | Very Rare |\n| Belt of Giant Strength (fire)           | 25   | Very Rare |\n| Belt of Giant Strength (cloud)          | 27   | Legendary |\n| Belt of Giant Strength (storm)          | 29   | Legendary |"
 }

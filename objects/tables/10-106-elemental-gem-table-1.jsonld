@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.106",
     "heading": "Elemental Gem",
-    "lineStart": 15639,
-    "lineEnd": 15644
+    "lineStart": 15640,
+    "lineEnd": 15645
   },
   "columns": [
     "Gem",
@@ -63,5 +63,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Gem            | Summoned Elemental |\n| :------------- | :----------------- |\n| Blue sapphire  | Air Elemental      |\n| Emerald        | Water Elemental    |\n| Red corundum   | Fire Elemental     |\n| Yellow diamond | Earth Elemental    |"
 }

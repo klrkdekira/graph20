@@ -55,5 +55,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Land Type | Resistance | Land Type | Resistance |\n| :-------- | :--------- | :-------- | :--------- |\n| Arid      | Fire       | Temperate | Lightning  |\n| Polar     | Cold       | Tropical  | Poison     |"
 }

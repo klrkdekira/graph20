@@ -286,5 +286,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                    | School        | Special |\n| :----------------------- | :------------ | :------ |\n| Chain Lightning          | Evocation     |    -    |\n| Circle of Death          | Necromancy    | M       |\n| Contingency              | Abjuration    | M       |\n| Create Undead            | Necromancy    | M       |\n| Disintegrate             | Transmutation |    -    |\n| Eyebite                  | Necromancy    | C       |\n| Flesh to Stone           | Transmutation | C       |\n| Freezing Sphere          | Evocation     |    -    |\n| Globe of Invulnerability | Abjuration    | C       |\n| Guards and Wards         | Abjuration    | M       |\n| Instant Summons          | Conjuration   | R, M    |\n| Irresistible Dance       | Enchantment   | C       |\n| Magic Jar                | Necromancy    | M       |\n| Mass Suggestion          | Enchantment   |    -    |\n| Move Earth               | Transmutation | C       |\n| Programmed Illusion      | Illusion      | M       |\n| Sunbeam                  | Evocation     | C       |\n| True Seeing              | Divination    | M       |\n| Wall of Ice              | Evocation     | C       |"
 }

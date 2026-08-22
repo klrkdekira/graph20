@@ -71,12 +71,43 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Flyby. The owl doesn't provoke an Opportunity Attack when it flies out of an enemy's reach."
+      "rulesText": "Flyby. The owl doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.67",
+        "heading": "Traits",
+        "lineStart": 28496,
+        "lineEnd": 28498
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Talons. Melee Attack Roll: +3, reach 5 ft. Hit: 1 Slashing damage."
+      "rulesText": "Talons. Melee Attack Roll: +3, reach 5 ft. Hit: 1 Slashing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.67",
+        "heading": "Actions",
+        "lineStart": 28500,
+        "lineEnd": 28502
+      }
     }
   ],
-  "rulesText": "Tiny Beast, Unaligned\n\nAC 11\nInitiative +1 (11)\nHP 1 (1d4 - 1)\nSpeed 5 ft., Fly 60 ft.\n\nSkills Perception +5, Stealth +5\nSenses Darkvision 120 ft.; Passive Perception 15\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nFlyby. The owl doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nTalons. Melee Attack Roll: +3, reach 5 ft. Hit: 1 Slashing damage."
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 11\nInitiative +1 (11)\nHP 1 (1d4 - 1)\nSpeed 5 ft., Fly 60 ft.\n\nSkills Perception +5, Stealth +5\nSenses Darkvision 120 ft.; Passive Perception 15\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nFlyby. The owl doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nTalons. Melee Attack Roll: +3, reach 5 ft. Hit: 1 Slashing damage.",
+  "attacks": [
+    {
+      "name": "Talons",
+      "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 1,
+          "damageType": "Slashing"
+        }
+      ],
+      "sourceText": "Talons. Melee Attack Roll: +3, reach 5 ft. Hit: 1 Slashing damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
+      "attackBonus": 3,
+      "reachFeet": 5
+    }
+  ]
 }

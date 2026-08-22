@@ -71,12 +71,43 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Amphibious. The crab can breathe air and water."
+      "rulesText": "Amphibious. The crab can breathe air and water.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.16",
+        "heading": "Traits",
+        "lineStart": 27124,
+        "lineEnd": 27126
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Claw. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Bludgeoning damage."
+      "rulesText": "Claw. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Bludgeoning damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.16",
+        "heading": "Actions",
+        "lineStart": 27128,
+        "lineEnd": 27130
+      }
     }
   ],
-  "rulesText": "Tiny Beast, Unaligned\n\nAC 11\nInitiative +0 (10)\nHP 3 (1d4 + 1)\nSpeed 20 ft., Swim 20 ft.\n\nSkills Stealth +2\nSenses Blindsight 30 ft.; Passive Perception 9\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nAmphibious. The crab can breathe air and water.\n\nActions\n\nClaw. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Bludgeoning damage."
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 11\nInitiative +0 (10)\nHP 3 (1d4 + 1)\nSpeed 20 ft., Swim 20 ft.\n\nSkills Stealth +2\nSenses Blindsight 30 ft.; Passive Perception 9\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nAmphibious. The crab can breathe air and water.\n\nActions\n\nClaw. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Bludgeoning damage.",
+  "attacks": [
+    {
+      "name": "Claw",
+      "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 1,
+          "damageType": "Bludgeoning"
+        }
+      ],
+      "sourceText": "Claw. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Bludgeoning damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
+      "attackBonus": 2,
+      "reachFeet": 5
+    }
+  ]
 }

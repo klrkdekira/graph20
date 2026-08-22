@@ -69,7 +69,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage plus 3 (1d6) Poison damage."
+      "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage plus 3 (1d6) Poison damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.92",
+        "heading": "Actions",
+        "lineStart": 29168,
+        "lineEnd": 29170
+      }
     }
   ],
   "rulesText": "Tiny Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 5 (2d4)\nSpeed 30 ft., Swim 30 ft.\n\nSenses Blindsight 10 ft.; Passive Perception 10\nLanguages None\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage plus 3 (1d6) Poison damage.",
@@ -77,15 +84,31 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 4,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d4+2",
+            "count": 1,
+            "sides": 4,
+            "modifier": 2
+          }
+        },
+        {
+          "averageDamage": 3,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "1d6",
+            "count": 1,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage plus 3 (1d6) Poison damage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 4,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d4+2",
-        "count": 1,
-        "sides": 4,
-        "modifier": 2
-      },
       "reachFeet": 5
     }
   ]

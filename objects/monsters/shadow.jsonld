@@ -74,15 +74,36 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Amorphous. The shadow can move through a space as narrow as 1 inch without expending extra movement to do so.\n\nSunlight Weakness. While in sunlight, the shadow has Disadvantage on D20 Tests."
+      "rulesText": "Amorphous. The shadow can move through a space as narrow as 1 inch without expending extra movement to do so.\n\nSunlight Weakness. While in sunlight, the shadow has Disadvantage on D20 Tests.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.211",
+        "heading": "Traits",
+        "lineStart": 24679,
+        "lineEnd": 24683
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Draining Swipe. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Necrotic damage, and the target's Strength score decreases by 1d4. The target dies if this reduces that score to 0. If a Humanoid is slain by this attack, a Shadow rises from the corpse 1d4 hours later."
+      "rulesText": "Draining Swipe. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Necrotic damage, and the target's Strength score decreases by 1d4. The target dies if this reduces that score to 0. If a Humanoid is slain by this attack, a Shadow rises from the corpse 1d4 hours later.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.211",
+        "heading": "Actions",
+        "lineStart": 24685,
+        "lineEnd": 24687
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Shadow Stealth. While in Dim Light or Darkness, the shadow takes the Hide action."
+      "rulesText": "Shadow Stealth. While in Dim Light or Darkness, the shadow takes the Hide action.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.211",
+        "heading": "Bonus Actions",
+        "lineStart": 24689,
+        "lineEnd": 24691
+      }
     }
   ],
   "rulesText": "Medium Undead, Chaotic Evil\n\nAC 12\nInitiative +2 (12)\nHP 27 (5d8 + 5)\nSpeed 40 ft.\n\nSkills Stealth +6\nVulnerabilities Radiant\nResistances Acid, Cold, Fire, Lightning, Thunder\nImmunities Necrotic, Poison; Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages None\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nAmorphous. The shadow can move through a space as narrow as 1 inch without expending extra movement to do so.\n\nSunlight Weakness. While in sunlight, the shadow has Disadvantage on D20 Tests.\n\nActions\n\nDraining Swipe. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Necrotic damage, and the target's Strength score decreases by 1d4. The target dies if this reduces that score to 0. If a Humanoid is slain by this attack, a Shadow rises from the corpse 1d4 hours later.\n\nBonus Actions\n\nShadow Stealth. While in Dim Light or Darkness, the shadow takes the Hide action.",
@@ -119,15 +140,22 @@
     {
       "name": "Draining Swipe",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 5,
+          "damageType": "Necrotic",
+          "damageRoll": {
+            "expression": "1d6+2",
+            "count": 1,
+            "sides": 6,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Draining Swipe. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Necrotic damage, and the target's Strength score decreases by 1d4. The target dies if this reduces that score to 0. If a Humanoid is slain by this attack, a Shadow rises from the corpse 1d4 hours later.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 5,
-      "damageType": "Necrotic",
-      "damageRoll": {
-        "expression": "1d6+2",
-        "count": 1,
-        "sides": 6,
-        "modifier": 2
-      },
       "reachFeet": 5
     }
   ]

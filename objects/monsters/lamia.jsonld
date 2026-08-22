@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The lamia makes two Claw attacks. It can replace one attack with a use of Corrupting Touch.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage plus 7 (2d6) Psychic damage.\n\nCorrupting Touch. Wisdom Saving Throw: DC 13, one creature the lamia can see within 5 feet. Failure: 13 (3d8) Psychic damage, and the target is cursed for 1 hour. Until the curse ends, the target has the Charmed and Poisoned conditions.\n\nSpellcasting. The lamia casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 13):\n\nAt Will: Disguise Self (can appear as a Large or Medium biped), Minor Illusion\n\n1/Day Each: Geas, Major Image, Scrying"
+      "rulesText": "Multiattack. The lamia makes two Claw attacks. It can replace one attack with a use of Corrupting Touch.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage plus 7 (2d6) Psychic damage.\n\nCorrupting Touch. Wisdom Saving Throw: DC 13, one creature the lamia can see within 5 feet. Failure: 13 (3d8) Psychic damage, and the target is cursed for 1 hour. Until the curse ends, the target has the Charmed and Poisoned conditions.\n\nSpellcasting. The lamia casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 13):\n\nAt Will: Disguise Self (can appear as a Large or Medium biped), Minor Illusion\n\n1/Day Each: Geas, Major Image, Scrying",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.150",
+        "heading": "Actions",
+        "lineStart": 22713,
+        "lineEnd": 22725
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Leap. The lamia jumps up to 30 feet by spending 10 feet of movement."
+      "rulesText": "Leap. The lamia jumps up to 30 feet by spending 10 feet of movement.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.150",
+        "heading": "Bonus Actions",
+        "lineStart": 22727,
+        "lineEnd": 22729
+      }
     }
   ],
   "rulesText": "Large Fiend, Chaotic Evil\n\nAC 13\nInitiative +1 (11)\nHP 97 (13d10 + 26)\nSpeed 40 ft.\n\nSkills Deception +7, Insight +4, Stealth +5\nSenses Darkvision 60 ft.; Passive Perception 12\nLanguages Abyssal, Common\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The lamia makes two Claw attacks. It can replace one attack with a use of Corrupting Touch.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage plus 7 (2d6) Psychic damage.\n\nCorrupting Touch. Wisdom Saving Throw: DC 13, one creature the lamia can see within 5 feet. Failure: 13 (3d8) Psychic damage, and the target is cursed for 1 hour. Until the curse ends, the target has the Charmed and Poisoned conditions.\n\nSpellcasting. The lamia casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 13):\n\nAt Will: Disguise Self (can appear as a Large or Medium biped), Minor Illusion\n\n1/Day Each: Geas, Major Image, Scrying\n\nBonus Actions\n\nLeap. The lamia jumps up to 30 feet by spending 10 feet of movement.",
@@ -83,15 +97,31 @@
     {
       "name": "Claw",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 7,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d8+3",
+            "count": 1,
+            "sides": 8,
+            "modifier": 3
+          }
+        },
+        {
+          "averageDamage": 7,
+          "damageType": "Psychic",
+          "damageRoll": {
+            "expression": "2d6",
+            "count": 2,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Claw. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage plus 7 (2d6) Psychic damage.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 7,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d8+3",
-        "count": 1,
-        "sides": 8,
-        "modifier": 3
-      },
       "reachFeet": 5
     }
   ]

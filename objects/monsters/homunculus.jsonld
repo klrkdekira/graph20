@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Telepathic Bond. While the homunculus is on the same plane of existence as its master, the two of them can communicate telepathically with each other."
+      "rulesText": "Telepathic Bond. While the homunculus is on the same plane of existence as its master, the two of them can communicate telepathically with each other.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.138",
+        "heading": "Traits",
+        "lineStart": 22299,
+        "lineEnd": 22301
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage, and the target is subjected to the following effect. Constitution Saving Throw: DC 12. Failure: The target has the Poisoned condition until the end of the homunculus's next turn. Failure by 5 or More: The target has the Poisoned condition for 1 minute. While Poisoned, the target has the Unconscious condition, which ends early if the target takes any damage."
+      "rulesText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage, and the target is subjected to the following effect. Constitution Saving Throw: DC 12. Failure: The target has the Poisoned condition until the end of the homunculus's next turn. Failure by 5 or More: The target has the Poisoned condition for 1 minute. While Poisoned, the target has the Unconscious condition, which ends early if the target takes any damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.138",
+        "heading": "Actions",
+        "lineStart": 22303,
+        "lineEnd": 22305
+      }
     }
   ],
   "rulesText": "Tiny Construct, Neutral\n\nAC 13\nInitiative +2 (12)\nHP 4 (1d4 + 2)\nSpeed 20 ft., Fly 40 ft.\n\nImmunities Poison; Charmed, Poisoned\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Understands Common plus one other language but can't speak\nCR 0 (XP 10; PB +2)\n\nTraits\n\nTelepathic Bond. While the homunculus is on the same plane of existence as its master, the two of them can communicate telepathically with each other.\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage, and the target is subjected to the following effect. Constitution Saving Throw: DC 12. Failure: The target has the Poisoned condition until the end of the homunculus's next turn. Failure by 5 or More: The target has the Poisoned condition for 1 minute. While Poisoned, the target has the Unconscious condition, which ends early if the target takes any damage.",
@@ -85,6 +99,23 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Bite",
+      "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 1,
+          "damageType": "Piercing"
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage, and the target is subjected to the following effect. Constitution Saving Throw: DC 12. Failure: The target has the Poisoned condition until the end of the homunculus's next turn. Failure by 5 or More: The target has the Poisoned condition for 1 minute. While Poisoned, the target has the Unconscious condition, which ends early if the target takes any damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
+      "attackBonus": 4,
+      "reachFeet": 5
     }
   ]
 }

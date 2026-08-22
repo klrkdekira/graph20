@@ -70,11 +70,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Magic Resistance. The satyr has Advantage on saving throws against spells and other magical effects."
+      "rulesText": "Magic Resistance. The satyr has Advantage on saving throws against spells and other magical effects.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.208",
+        "heading": "Traits",
+        "lineStart": 24578,
+        "lineEnd": 24580
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Hooves. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, the satyr pushes the target up to 10 feet straight away from itself.\n\nMockery. Wisdom Saving Throw: DC 12, one creature the satyr can see within 90 feet. Failure: 5 (1d6 + 2) Psychic damage."
+      "rulesText": "Hooves. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, the satyr pushes the target up to 10 feet straight away from itself.\n\nMockery. Wisdom Saving Throw: DC 12, one creature the satyr can see within 90 feet. Failure: 5 (1d6 + 2) Psychic damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.208",
+        "heading": "Actions",
+        "lineStart": 24582,
+        "lineEnd": 24586
+      }
     }
   ],
   "rulesText": "Medium Fey, Chaotic Neutral\n\nAC 13\nInitiative +3 (13)\nHP 31 (7d8)\nSpeed 40 ft.\n\nSkills Perception +2, Performance +6, Stealth +5\nSenses Passive Perception 12\nLanguages Common, Elvish, Sylvan\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nMagic Resistance. The satyr has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nHooves. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, the satyr pushes the target up to 10 feet straight away from itself.\n\nMockery. Wisdom Saving Throw: DC 12, one creature the satyr can see within 90 feet. Failure: 5 (1d6 + 2) Psychic damage.",
@@ -82,15 +96,22 @@
     {
       "name": "Hooves",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 5,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "1d4+3",
+            "count": 1,
+            "sides": 4,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Hooves. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, the satyr pushes the target up to 10 feet straight away from itself.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 5,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "1d4+3",
-        "count": 1,
-        "sides": 4,
-        "modifier": 3
-      },
       "reachFeet": 5
     }
   ]

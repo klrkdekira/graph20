@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Swarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can't regain Hit Points or gain Temporary Hit Points."
+      "rulesText": "Swarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can't regain Hit Points or gain Temporary Hit Points.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.88",
+        "heading": "Traits",
+        "lineStart": 29064,
+        "lineEnd": 29066
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Bites. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage - or 6 (1d4 + 4) Piercing damage if the swarm is Bloodied - plus 10 (3d6) Poison damage."
+      "rulesText": "Bites. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage - or 6 (1d4 + 4) Piercing damage if the swarm is Bloodied - plus 10 (3d6) Poison damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.88",
+        "heading": "Actions",
+        "lineStart": 29068,
+        "lineEnd": 29070
+      }
     }
   ],
   "rulesText": "Medium Swarm of Tiny Beasts, Unaligned\n\nAC 14\nInitiative +4 (14)\nHP 36 (8d8)\nSpeed 30 ft., Swim 30 ft.\n\nResistances Bludgeoning, Piercing, Slashing\nImmunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned\nSenses Blindsight 10 ft.; Passive Perception 10\nLanguages None\nCR 2 (XP 450; PB +2)\n\nTraits\n\nSwarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can't regain Hit Points or gain Temporary Hit Points.\n\nActions\n\nBites. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage - or 6 (1d4 + 4) Piercing damage if the swarm is Bloodied - plus 10 (3d6) Poison damage.",
@@ -109,15 +123,41 @@
     {
       "name": "Bites",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 8,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d8+4",
+            "count": 1,
+            "sides": 8,
+            "modifier": 4
+          }
+        },
+        {
+          "averageDamage": 6,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d4+4",
+            "count": 1,
+            "sides": 4,
+            "modifier": 4
+          }
+        },
+        {
+          "averageDamage": 10,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "3d6",
+            "count": 3,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Bites. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage - or 6 (1d4 + 4) Piercing damage if the swarm is Bloodied - plus 10 (3d6) Poison damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 8,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d8+4",
-        "count": 1,
-        "sides": 8,
-        "modifier": 4
-      },
       "reachFeet": 5
     }
   ]

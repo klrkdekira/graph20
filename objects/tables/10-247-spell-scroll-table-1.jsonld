@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.247",
     "heading": "Spell Scroll",
-    "lineStart": 17229,
-    "lineEnd": 17234
+    "lineStart": 17230,
+    "lineEnd": 17235
   },
   "columns": [
     "Spell Level",
@@ -89,5 +89,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell Level | Rarity   | Save DC | Attack Bonus |\n| :---------- | :------- | :------ | :----------- |\n| Cantrip     | Common   | 13      | +5           |\n| 1           | Common   | 13      | +5           |\n| 2           | Uncommon | 13      | +5           |\n| 3           | Uncommon | 15      | +7           |"
 }

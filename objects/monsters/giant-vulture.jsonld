@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Pack Tactics. The vulture has Advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+      "rulesText": "Pack Tactics. The vulture has Advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.50",
+        "heading": "Traits",
+        "lineStart": 28040,
+        "lineEnd": 28042
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Gouge. Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Piercing damage, and the target has the Poisoned condition until the end of its next turn."
+      "rulesText": "Gouge. Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Piercing damage, and the target has the Poisoned condition until the end of its next turn.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.50",
+        "heading": "Actions",
+        "lineStart": 28044,
+        "lineEnd": 28046
+      }
     }
   ],
   "rulesText": "Large Monstrosity, Neutral Evil\n\nAC 10\nInitiative +0 (10)\nHP 25 (3d10 + 9)\nSpeed 10 ft., Fly 60 ft.\n\nSkills Perception +3\nResistances Necrotic\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages Understands Common but can't speak\nCR 1 (XP 200; PB +2)\n\nTraits\n\nPack Tactics. The vulture has Advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nGouge. Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Piercing damage, and the target has the Poisoned condition until the end of its next turn.",
@@ -84,15 +98,22 @@
     {
       "name": "Gouge",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 9,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d6+2",
+            "count": 2,
+            "sides": 6,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Gouge. Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Piercing damage, and the target has the Poisoned condition until the end of its next turn.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 9,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d6+2",
-        "count": 2,
-        "sides": 6,
-        "modifier": 2
-      },
       "reachFeet": 5
     }
   ]

@@ -71,8 +71,32 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Rake. Melee Attack Roll: +1, reach 5 ft. Hit: 1 Slashing damage."
+      "rulesText": "Rake. Melee Attack Roll: +1, reach 5 ft. Hit: 1 Slashing damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.11",
+        "heading": "Actions",
+        "lineStart": 18335,
+        "lineEnd": 18337
+      }
     }
   ],
-  "rulesText": "Small Plant, Neutral\n\nAC 9\nInitiative -1 (9)\nHP 10 (3d6)\nSpeed 20 ft.\n\nVulnerabilities Fire\nResistances Piercing\nSenses Passive Perception 10\nLanguages Common plus one other language\nCR 0 (XP 10; PB +2)\n\nActions\n\nRake. Melee Attack Roll: +1, reach 5 ft. Hit: 1 Slashing damage."
+  "rulesText": "Small Plant, Neutral\n\nAC 9\nInitiative -1 (9)\nHP 10 (3d6)\nSpeed 20 ft.\n\nVulnerabilities Fire\nResistances Piercing\nSenses Passive Perception 10\nLanguages Common plus one other language\nCR 0 (XP 10; PB +2)\n\nActions\n\nRake. Melee Attack Roll: +1, reach 5 ft. Hit: 1 Slashing damage.",
+  "attacks": [
+    {
+      "name": "Rake",
+      "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 1,
+          "damageType": "Slashing"
+        }
+      ],
+      "sourceText": "Rake. Melee Attack Roll: +1, reach 5 ft. Hit: 1 Slashing damage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
+      "attackBonus": 1,
+      "reachFeet": 5
+    }
+  ]
 }

@@ -72,15 +72,36 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Succubus Form. When the incubus finishes a Long Rest, it can shape-shift into a Succubus, using that stat block instead of this one. Any equipment it is wearing or carrying isn't transformed."
+      "rulesText": "Succubus Form. When the incubus finishes a Long Rest, it can shape-shift into a Succubus, using that stat block instead of this one. Any equipment it is wearing or carrying isn't transformed.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.143",
+        "heading": "Traits",
+        "lineStart": 22476,
+        "lineEnd": 22478
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The incubus makes two Restless Touch attacks.\n\nRestless Touch. Melee Attack Roll: +7, reach 5 ft.\nHit: 15 (3d6 + 5) Psychic damage, and the target is cursed for 24 hours or until the incubus dies. Until the curse ends, the target gains no benefit from finishing Short Rests.\n\nSpellcasting. The incubus casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 15):\n\nAt Will: Disguise Self, Etherealness\n\n1/Day Each: Dream, Hypnotic Pattern"
+      "rulesText": "Multiattack. The incubus makes two Restless Touch attacks.\n\nRestless Touch. Melee Attack Roll: +7, reach 5 ft.\nHit: 15 (3d6 + 5) Psychic damage, and the target is cursed for 24 hours or until the incubus dies. Until the curse ends, the target gains no benefit from finishing Short Rests.\n\nSpellcasting. The incubus casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 15):\n\nAt Will: Disguise Self, Etherealness\n\n1/Day Each: Dream, Hypnotic Pattern",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.143",
+        "heading": "Actions",
+        "lineStart": 22480,
+        "lineEnd": 22491
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Nightmare (Recharge 6). Wisdom Saving Throw: DC 15, one creature the incubus can see within 60 feet. Failure: If the target has 20 Hit Points or fewer, it has the Unconscious condition for 1 hour, until it takes damage, or until a creature within 5 feet of it takes an action to wake it. Otherwise, the target takes 18 (4d8) Psychic damage."
+      "rulesText": "Nightmare (Recharge 6). Wisdom Saving Throw: DC 15, one creature the incubus can see within 60 feet. Failure: If the target has 20 Hit Points or fewer, it has the Unconscious condition for 1 hour, until it takes damage, or until a creature within 5 feet of it takes an action to wake it. Otherwise, the target takes 18 (4d8) Psychic damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.143",
+        "heading": "Bonus Actions",
+        "lineStart": 22493,
+        "lineEnd": 22495
+      }
     }
   ],
   "rulesText": "Medium Fiend, Neutral Evil\n\nAC 15\nInitiative +3 (13)\nHP 66 (12d8 + 12)\nSpeed 30 ft., Fly 60 ft.\n\nSkills Deception +9, Insight +5, Perception +5, Persuasion +9, Stealth +7\nResistances Cold, Fire, Poison, Psychic\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages Abyssal, Common, Infernal; telepathy 60 ft.\nCR 4 (XP 1,100; PB +2)\n\nTraits\n\nSuccubus Form. When the incubus finishes a Long Rest, it can shape-shift into a Succubus, using that stat block instead of this one. Any equipment it is wearing or carrying isn't transformed.\n\nActions\n\nMultiattack. The incubus makes two Restless Touch attacks.\n\nRestless Touch. Melee Attack Roll: +7, reach 5 ft.\nHit: 15 (3d6 + 5) Psychic damage, and the target is cursed for 24 hours or until the incubus dies. Until the curse ends, the target gains no benefit from finishing Short Rests.\n\nSpellcasting. The incubus casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 15):\n\nAt Will: Disguise Self, Etherealness\n\n1/Day Each: Dream, Hypnotic Pattern\n\nBonus Actions\n\nNightmare (Recharge 6). Wisdom Saving Throw: DC 15, one creature the incubus can see within 60 feet. Failure: If the target has 20 Hit Points or fewer, it has the Unconscious condition for 1 hour, until it takes damage, or until a creature within 5 feet of it takes an action to wake it. Otherwise, the target takes 18 (4d8) Psychic damage.",
@@ -88,15 +109,22 @@
     {
       "name": "Restless Touch",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 15,
+          "damageType": "Psychic",
+          "damageRoll": {
+            "expression": "3d6+5",
+            "count": 3,
+            "sides": 6,
+            "modifier": 5
+          }
+        }
+      ],
+      "sourceText": "Restless Touch. Melee Attack Roll: +7, reach 5 ft.\nHit: 15 (3d6 + 5) Psychic damage, and the target is cursed for 24 hours or until the incubus dies. Until the curse ends, the target gains no benefit from finishing Short Rests.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 7,
-      "averageDamage": 15,
-      "damageType": "Psychic",
-      "damageRoll": {
-        "expression": "3d6+5",
-        "count": 3,
-        "sides": 6,
-        "modifier": 5
-      },
       "reachFeet": 5
     }
   ]

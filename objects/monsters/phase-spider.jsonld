@@ -71,15 +71,36 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Ethereal Sight. The spider can see 60 feet into the Ethereal Plane while on the Material Plane and vice versa.\n\nSpider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nWeb Walker. The spider ignores movement restrictions caused by webs, and the spider knows the location of any other creature in contact with the same web."
+      "rulesText": "Ethereal Sight. The spider can see 60 feet into the Ethereal Plane while on the Material Plane and vice versa.\n\nSpider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nWeb Walker. The spider ignores movement restrictions caused by webs, and the spider knows the location of any other creature in contact with the same web.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.183",
+        "heading": "Traits",
+        "lineStart": 23778,
+        "lineEnd": 23784
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The spider makes two Bite attacks.\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Piercing damage plus 9 (2d8) Poison damage. If this damage reduces the target to 0 Hit Points, the target becomes Stable, and it has the Poisoned condition for 1 hour. While Poisoned, the target also has the Paralyzed condition."
+      "rulesText": "Multiattack. The spider makes two Bite attacks.\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Piercing damage plus 9 (2d8) Poison damage. If this damage reduces the target to 0 Hit Points, the target becomes Stable, and it has the Poisoned condition for 1 hour. While Poisoned, the target also has the Paralyzed condition.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.183",
+        "heading": "Actions",
+        "lineStart": 23786,
+        "lineEnd": 23790
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Ethereal Jaunt. The spider teleports from the Material Plane to the Ethereal Plane or vice versa."
+      "rulesText": "Ethereal Jaunt. The spider teleports from the Material Plane to the Ethereal Plane or vice versa.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.183",
+        "heading": "Bonus Actions",
+        "lineStart": 23792,
+        "lineEnd": 23794
+      }
     }
   ],
   "rulesText": "Large Monstrosity, Unaligned\n\nAC 14\nInitiative +3 (13)\nHP 45 (7d10 + 7)\nSpeed 30 ft., Climb 30 ft.\n\nSkills Stealth +7\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages None\nCR 3 (XP 700; PB +2)\n\nTraits\n\nEthereal Sight. The spider can see 60 feet into the Ethereal Plane while on the Material Plane and vice versa.\n\nSpider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nWeb Walker. The spider ignores movement restrictions caused by webs, and the spider knows the location of any other creature in contact with the same web.\n\nActions\n\nMultiattack. The spider makes two Bite attacks.\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Piercing damage plus 9 (2d8) Poison damage. If this damage reduces the target to 0 Hit Points, the target becomes Stable, and it has the Poisoned condition for 1 hour. While Poisoned, the target also has the Paralyzed condition.\n\nBonus Actions\n\nEthereal Jaunt. The spider teleports from the Material Plane to the Ethereal Plane or vice versa.",
@@ -87,15 +108,31 @@
     {
       "name": "Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 8,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d10+3",
+            "count": 1,
+            "sides": 10,
+            "modifier": 3
+          }
+        },
+        {
+          "averageDamage": 9,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "2d8",
+            "count": 2,
+            "sides": 8
+          }
+        }
+      ],
+      "sourceText": "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Piercing damage plus 9 (2d8) Poison damage. If this damage reduces the target to 0 Hit Points, the target becomes Stable, and it has the Poisoned condition for 1 hour. While Poisoned, the target also has the Paralyzed condition.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 8,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d10+3",
-        "count": 1,
-        "sides": 10,
-        "modifier": 3
-      },
       "reachFeet": 5
     }
   ]

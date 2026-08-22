@@ -286,5 +286,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                  | School        | Special |\n| :--------------------- | :------------ | :------ |\n| Animate Dead           | Necromancy    |    -    |\n| Beacon of Hope         | Abjuration    | C       |\n| Bestow Curse           | Necromancy    | C       |\n| Clairvoyance           | Divination    | C, M    |\n| Create Food and Water  | Conjuration   |    -    |\n| Daylight               | Evocation     |    -    |\n| Dispel Magic           | Abjuration    |    -    |\n| Glyph of Warding       | Abjuration    | M       |\n| Magic Circle           | Abjuration    | M       |\n| Mass Healing Word      | Abjuration    |    -    |\n| Meld into Stone        | Transmutation | R       |\n| Protection from Energy | Abjuration    | C       |\n| Remove Curse           | Abjuration    |    -    |\n| Revivify               | Necromancy    | M       |\n| Sending                | Divination    |    -    |\n| Speak with Dead        | Necromancy    |    -    |\n| Spirit Guardians       | Conjuration   | C       |\n| Tongues                | Divination    |    -    |\n| Water Walk             | Transmutation | R       |"
 }

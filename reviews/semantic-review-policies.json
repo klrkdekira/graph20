@@ -1,0 +1,46 @@
+{
+  "reviewedSignalSetDigest": "sha256-eab5ea28cd56db55a61ee974b557502a82436da4933436adaac62c039636e217",
+  "statusDefinitions": {
+    "pending": "No reviewer has established how this occurrence should be represented.",
+    "accepted": "The reviewer confirmed that the source-faithful occurrence is intentional and that no unsupported executable meaning is claimed.",
+    "corrected": "The reviewer confirmed a source or typed-field defect and linked its tested correction.",
+    "false-positive": "The reviewer confirmed that the detector matched valid source content rather than a corpus defect."
+  },
+  "signalCategories": {
+    "formula": {
+      "status": "accepted",
+      "note": "Reviewed as source-faithful dice notation. Typed dice fields are indexes where supported; this corpus does not claim a rules engine."
+    },
+    "choice": {
+      "status": "accepted",
+      "note": "Reviewed as source-faithful player or GM choice text. No inferred option automation is claimed."
+    },
+    "scaling": {
+      "status": "accepted",
+      "note": "Reviewed as source-faithful slot-scaling prose; scalesWithSlotLevel records only the presence of that printed section."
+    }
+  },
+  "auditChecks": {
+    "anomaly-candidates": {
+      "status": "accepted",
+      "note": "The registered anomaly detector is a required CI gate; all remaining hits must be explicitly reviewed in extraction-overrides.json."
+    },
+    "graph-shape": {
+      "status": "accepted",
+      "note": "The graph gate expands every entity type, manifest, and bundle and rejects data loss or bare IRI-coerced strings."
+    },
+    "provenance-exceptions": {
+      "status": "accepted",
+      "note": "Only the local SRD source contributes retained assertions; the obsolete external creature cache has been removed."
+    },
+    "table-shape": {
+      "status": "accepted",
+      "note": "The fidelity gate rejects empty tables, promoted repeated headers, and source-span mismatches."
+    },
+    "typed-source": {
+      "status": "accepted",
+      "note": "The fidelity gate compares advertised spell, ability, magic-item, equipment, and attack fields with their local source spans."
+    }
+  },
+  "signalOverrides": {}
+}

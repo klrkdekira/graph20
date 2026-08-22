@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The giant makes two attacks, using Thunderous Mace or Thundercloud in any combination. It can replace one attack with a use of Spellcasting to cast Fog Cloud.\n\nThunderous Mace. Melee Attack Roll: +12, reach 10 ft. Hit: 21 (3d8 + 8) Bludgeoning damage plus 7 (2d6) Thunder damage.\n\nThundercloud. Ranged Attack Roll: +12, range 240 ft. Hit: 18 (3d6 + 8) Thunder damage, and the target has the Incapacitated condition until the end of its next turn.\n\nSpellcasting. The giant casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 15):\n\nAt Will: Detect Magic, Fog Cloud, Light\n\n1/Day Each: Control Weather, Gaseous Form, Telekinesis"
+      "rulesText": "Multiattack. The giant makes two attacks, using Thunderous Mace or Thundercloud in any combination. It can replace one attack with a use of Spellcasting to cast Fog Cloud.\n\nThunderous Mace. Melee Attack Roll: +12, reach 10 ft. Hit: 21 (3d8 + 8) Bludgeoning damage plus 7 (2d6) Thunder damage.\n\nThundercloud. Ranged Attack Roll: +12, range 240 ft. Hit: 18 (3d6 + 8) Thunder damage, and the target has the Incapacitated condition until the end of its next turn.\n\nSpellcasting. The giant casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 15):\n\nAt Will: Detect Magic, Fog Cloud, Light\n\n1/Day Each: Control Weather, Gaseous Form, Telekinesis",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.59",
+        "heading": "Actions",
+        "lineStart": 19824,
+        "lineEnd": 19836
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Misty Step. The giant casts the Misty Step spell, using the same spellcasting ability as Spellcasting."
+      "rulesText": "Misty Step. The giant casts the Misty Step spell, using the same spellcasting ability as Spellcasting.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.59",
+        "heading": "Bonus Actions",
+        "lineStart": 19838,
+        "lineEnd": 19840
+      }
     }
   ],
   "rulesText": "Huge Giant, Neutral\n\nAC 14\nInitiative +4 (14)\nHP 200 (16d12 + 96)\nSpeed 40 ft., Fly 20 ft. (hover)\n\nSkills Insight +7, Perception +11\nSenses Passive Perception 21\nLanguages Common, Giant\nCR 9 (XP 5,000; PB +4)\n\nActions\n\nMultiattack. The giant makes two attacks, using Thunderous Mace or Thundercloud in any combination. It can replace one attack with a use of Spellcasting to cast Fog Cloud.\n\nThunderous Mace. Melee Attack Roll: +12, reach 10 ft. Hit: 21 (3d8 + 8) Bludgeoning damage plus 7 (2d6) Thunder damage.\n\nThundercloud. Ranged Attack Roll: +12, range 240 ft. Hit: 18 (3d6 + 8) Thunder damage, and the target has the Incapacitated condition until the end of its next turn.\n\nSpellcasting. The giant casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 15):\n\nAt Will: Detect Magic, Fog Cloud, Light\n\n1/Day Each: Control Weather, Gaseous Form, Telekinesis\n\nBonus Actions\n\nMisty Step. The giant casts the Misty Step spell, using the same spellcasting ability as Spellcasting.",
@@ -83,29 +97,52 @@
     {
       "name": "Thunderous Mace",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 21,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "3d8+8",
+            "count": 3,
+            "sides": 8,
+            "modifier": 8
+          }
+        },
+        {
+          "averageDamage": 7,
+          "damageType": "Thunder",
+          "damageRoll": {
+            "expression": "2d6",
+            "count": 2,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Thunderous Mace. Melee Attack Roll: +12, reach 10 ft. Hit: 21 (3d8 + 8) Bludgeoning damage plus 7 (2d6) Thunder damage.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 12,
-      "averageDamage": 21,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "3d8+8",
-        "count": 3,
-        "sides": 8,
-        "modifier": 8
-      },
       "reachFeet": 10
     },
     {
       "name": "Thundercloud",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 18,
+          "damageType": "Thunder",
+          "damageRoll": {
+            "expression": "3d6+8",
+            "count": 3,
+            "sides": 6,
+            "modifier": 8
+          }
+        }
+      ],
+      "sourceText": "Thundercloud. Ranged Attack Roll: +12, range 240 ft. Hit: 18 (3d6 + 8) Thunder damage, and the target has the Incapacitated condition until the end of its next turn.",
+      "path": "statSections[0].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 12,
-      "averageDamage": 18,
-      "damageType": "Thunder",
-      "damageRoll": {
-        "expression": "3d6+8",
-        "count": 3,
-        "sides": 6,
-        "modifier": 8
-      },
       "rangeFeet": {
         "normal": 240
       }

@@ -69,11 +69,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Regeneration. The limb regains 5 Hit Points at the start of each of its turns. If the limb takes Acid or Fire damage, this trait doesn't function on the limb's next turn. The limb dies only if it starts its turn with 0 Hit Points and doesn't regenerate.\n\nTroll Spawn. The limb uncannily has the same senses as a whole troll. If the limb isn't destroyed within 24 hours, roll 1d12. On a 12, the limb turns into a Troll. Otherwise, the limb withers away."
+      "rulesText": "Regeneration. The limb regains 5 Hit Points at the start of each of its turns. If the limb takes Acid or Fire damage, this trait doesn't function on the limb's next turn. The limb dies only if it starts its turn with 0 Hit Points and doesn't regenerate.\n\nTroll Spawn. The limb uncannily has the same senses as a whole troll. If the limb isn't destroyed within 24 hours, roll 1d12. On a 12, the limb turns into a Troll. Otherwise, the limb withers away.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.243",
+        "heading": "Traits",
+        "lineStart": 25741,
+        "lineEnd": 25745
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Rend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (2d4 + 4) Slashing damage."
+      "rulesText": "Rend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (2d4 + 4) Slashing damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.243",
+        "heading": "Actions",
+        "lineStart": 25747,
+        "lineEnd": 25749
+      }
     }
   ],
   "rulesText": "Small Giant, Chaotic Evil\n\nAC 13\nInitiative +1 (11)\nHP 14 (4d6)\nSpeed 20 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 9\nLanguages None\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nRegeneration. The limb regains 5 Hit Points at the start of each of its turns. If the limb takes Acid or Fire damage, this trait doesn't function on the limb's next turn. The limb dies only if it starts its turn with 0 Hit Points and doesn't regenerate.\n\nTroll Spawn. The limb uncannily has the same senses as a whole troll. If the limb isn't destroyed within 24 hours, roll 1d12. On a 12, the limb turns into a Troll. Otherwise, the limb withers away.\n\nActions\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (2d4 + 4) Slashing damage.",
@@ -81,15 +95,22 @@
     {
       "name": "Rend",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 9,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "2d4+4",
+            "count": 2,
+            "sides": 4,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Rend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (2d4 + 4) Slashing damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 9,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "2d4+4",
-        "count": 2,
-        "sides": 4,
-        "modifier": 4
-      },
       "reachFeet": 5
     }
   ]

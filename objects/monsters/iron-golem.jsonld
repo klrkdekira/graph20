@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Fire Absorption. Whenever the golem is subjected to Fire damage, it regains a number of Hit Points equal to the Fire damage dealt.\n\nImmutable Form. The golem can't shape-shift.\n\nMagic Resistance. The golem has Advantage on saving throws against spells and other magical effects."
+      "rulesText": "Fire Absorption. Whenever the golem is subjected to Fire damage, it regains a number of Hit Points equal to the Fire damage dealt.\n\nImmutable Form. The golem can't shape-shift.\n\nMagic Resistance. The golem has Advantage on saving throws against spells and other magical effects.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.145",
+        "heading": "Traits",
+        "lineStart": 22555,
+        "lineEnd": 22561
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The golem makes two attacks, using Bladed Arm or Fiery Bolt in any combination.\n\nBladed Arm. Melee Attack Roll: +12, reach 10 ft.\nHit: 20 (3d8 + 7) Slashing damage plus 10 (3d6) Fire damage.\n\nFiery Bolt. Ranged Attack Roll: +10, range 120 ft. Hit: 36 (8d8) Fire damage.\n\nPoison Breath (Recharge 6). Constitution Saving\nThrow: DC 18, each creature in a 60-foot Cone. Failure: 55 (10d10) Poison damage. Success: Half damage."
+      "rulesText": "Multiattack. The golem makes two attacks, using Bladed Arm or Fiery Bolt in any combination.\n\nBladed Arm. Melee Attack Roll: +12, reach 10 ft.\nHit: 20 (3d8 + 7) Slashing damage plus 10 (3d6) Fire damage.\n\nFiery Bolt. Ranged Attack Roll: +10, range 120 ft. Hit: 36 (8d8) Fire damage.\n\nPoison Breath (Recharge 6). Constitution Saving\nThrow: DC 18, each creature in a 60-foot Cone. Failure: 55 (10d10) Poison damage. Success: Half damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.145",
+        "heading": "Actions",
+        "lineStart": 22563,
+        "lineEnd": 22573
+      }
     }
   ],
   "rulesText": "Large Construct, Unaligned\n\nAC 20\nInitiative +9 (19)\nHP 252 (24d10 + 120)\nSpeed 30 ft.\n\nImmunities Fire, Poison, Psychic; Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned\nSenses Darkvision 120 ft.; Passive Perception 10\nLanguages Understands Common plus two other languages but can't speak\nCR 16 (XP 15,000; PB +5)\n\nTraits\n\nFire Absorption. Whenever the golem is subjected to Fire damage, it regains a number of Hit Points equal to the Fire damage dealt.\n\nImmutable Form. The golem can't shape-shift.\n\nMagic Resistance. The golem has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The golem makes two attacks, using Bladed Arm or Fiery Bolt in any combination.\n\nBladed Arm. Melee Attack Roll: +12, reach 10 ft.\nHit: 20 (3d8 + 7) Slashing damage plus 10 (3d6) Fire damage.\n\nFiery Bolt. Ranged Attack Roll: +10, range 120 ft. Hit: 36 (8d8) Fire damage.\n\nPoison Breath (Recharge 6). Constitution Saving\nThrow: DC 18, each creature in a 60-foot Cone. Failure: 55 (10d10) Poison damage. Success: Half damage.",
@@ -103,28 +117,51 @@
     {
       "name": "Bladed Arm",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 20,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "3d8+7",
+            "count": 3,
+            "sides": 8,
+            "modifier": 7
+          }
+        },
+        {
+          "averageDamage": 10,
+          "damageType": "Fire",
+          "damageRoll": {
+            "expression": "3d6",
+            "count": 3,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Bladed Arm. Melee Attack Roll: +12, reach 10 ft.\nHit: 20 (3d8 + 7) Slashing damage plus 10 (3d6) Fire damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 12,
-      "averageDamage": 20,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "3d8+7",
-        "count": 3,
-        "sides": 8,
-        "modifier": 7
-      },
       "reachFeet": 10
     },
     {
       "name": "Fiery Bolt",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 36,
+          "damageType": "Fire",
+          "damageRoll": {
+            "expression": "8d8",
+            "count": 8,
+            "sides": 8
+          }
+        }
+      ],
+      "sourceText": "Fiery Bolt. Ranged Attack Roll: +10, range 120 ft. Hit: 36 (8d8) Fire damage.",
+      "path": "statSections[1].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 10,
-      "averageDamage": 36,
-      "damageType": "Fire",
-      "damageRoll": {
-        "expression": "8d8",
-        "count": 8,
-        "sides": 8
-      },
       "rangeFeet": {
         "normal": 120
       }

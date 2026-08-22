@@ -146,5 +146,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell            | School        | Special |\n| :--------------- | :------------ | :------ |\n| Mage Hand        | Conjuration   |    -    |\n| Mending          | Transmutation |    -    |\n| Message          | Transmutation |    -    |\n| Minor Illusion   | Illusion      |    -    |\n| Poison Spray     | Necromancy    |    -    |\n| Prestidigitation | Transmutation |    -    |\n| Ray of Frost     | Evocation     |    -    |\n| Shocking Grasp   | Evocation     |    -    |\n| True Strike      | Divination    |    -    |"
 }

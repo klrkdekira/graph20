@@ -71,7 +71,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The armor makes two Slam attacks.\n\nSlam. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage."
+      "rulesText": "Multiattack. The armor makes two Slam attacks.\n\nSlam. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.5",
+        "heading": "Actions",
+        "lineStart": 18183,
+        "lineEnd": 18187
+      }
     }
   ],
   "rulesText": "Medium Construct, Unaligned\n\nAC 18\nInitiative +2 (12)\nHP 33 (6d8 + 6)\nSpeed 25 ft.\n\nImmunities Poison, Psychic; Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned\nSenses Blindsight 60 ft.; Passive Perception 6\nLanguages None\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The armor makes two Slam attacks.\n\nSlam. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage.",
@@ -102,15 +109,22 @@
     {
       "name": "Slam",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 5,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "1d6+2",
+            "count": 1,
+            "sides": 6,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Slam. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 5,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "1d6+2",
-        "count": 1,
-        "sides": 6,
-        "modifier": 2
-      },
       "reachFeet": 5
     }
   ]

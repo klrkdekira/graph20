@@ -70,11 +70,25 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing damage."
+      "rulesText": "Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.68",
+        "heading": "Actions",
+        "lineStart": 28523,
+        "lineEnd": 28525
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Nimble Escape. The panther takes the Disengage or Hide action."
+      "rulesText": "Nimble Escape. The panther takes the Disengage or Hide action.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.68",
+        "heading": "Bonus Actions",
+        "lineStart": 28527,
+        "lineEnd": 28529
+      }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 13 (3d8)\nSpeed 50 ft., Climb 40 ft.\n\nSkills Perception +4, Stealth +7\nSenses Darkvision 60 ft.; Passive Perception 14\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing damage.\n\nBonus Actions\n\nNimble Escape. The panther takes the Disengage or Hide action.",
@@ -82,15 +96,22 @@
     {
       "name": "Rend",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 6,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d6+3",
+            "count": 1,
+            "sides": 6,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing damage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 6,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d6+3",
-        "count": 1,
-        "sides": 6,
-        "modifier": 3
-      },
       "reachFeet": 5
     }
   ]

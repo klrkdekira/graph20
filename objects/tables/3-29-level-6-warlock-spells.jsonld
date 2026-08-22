@@ -76,5 +76,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell           | School     | Special |\n| :-------------- | :--------- | :------ |\n| Circle of Death | Necromancy | M       |\n| Create Undead   | Necromancy | M       |\n| Eyebite         | Necromancy | C       |\n| True Seeing     | Divination | M       |"
 }

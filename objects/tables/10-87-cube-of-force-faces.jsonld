@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.87",
     "heading": "Cube of Force",
-    "lineStart": 15392,
-    "lineEnd": 15399
+    "lineStart": 15393,
+    "lineEnd": 15400
   },
   "columns": [
     "Spell",
@@ -85,5 +85,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell            | Charge Cost |\n| :--------------- | :---------- |\n| Mage Armor       | 1           |\n| Shield           | 1           |\n| Tiny Hut         | 3           |\n| Private Sanctum  | 4           |\n| Resilient Sphere | 4           |\n| Wall of Force    | 5           |"
 }

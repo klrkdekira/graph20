@@ -72,15 +72,36 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Legendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead."
+      "rulesText": "Legendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.36",
+        "heading": "Traits",
+        "lineStart": 19065,
+        "lineEnd": 19067
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast Shatter (level 3 version).\n\nRend. Melee Attack Roll: +16, reach 15 ft. Hit: 18 (2d8 + 9) Slashing damage plus 11 (2d10) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 23, each creature in a 120-foot-long, 10-foot-wide Line. Failure: 88 (16d10) Lightning damage. Success: Half damage.\n\nSpellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 22):\n\nAt Will: Detect Magic, Invisibility, Mage Hand, Shatter (level 3 version)\n\n1/Day Each: Scrying, Sending"
+      "rulesText": "Multiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast Shatter (level 3 version).\n\nRend. Melee Attack Roll: +16, reach 15 ft. Hit: 18 (2d8 + 9) Slashing damage plus 11 (2d10) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 23, each creature in a 120-foot-long, 10-foot-wide Line. Failure: 88 (16d10) Lightning damage. Success: Half damage.\n\nSpellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 22):\n\nAt Will: Detect Magic, Invisibility, Mage Hand, Shatter (level 3 version)\n\n1/Day Each: Scrying, Sending",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.36",
+        "heading": "Actions",
+        "lineStart": 19069,
+        "lineEnd": 19081
+      }
     },
     {
       "name": "Legendary Actions",
-      "rulesText": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nCloaked Flight. The dragon uses Spellcasting to cast Invisibility on itself, and it can fly up to half its Fly Speed. The dragon can't take this action again until the start of its next turn.\n\nSonic Boom. The dragon uses Spellcasting to cast Shatter (level 3 version). The dragon can't take this action again until the start of its next turn.\n\nTail Swipe. The dragon makes one Rend attack."
+      "rulesText": "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nCloaked Flight. The dragon uses Spellcasting to cast Invisibility on itself, and it can fly up to half its Fly Speed. The dragon can't take this action again until the start of its next turn.\n\nSonic Boom. The dragon uses Spellcasting to cast Shatter (level 3 version). The dragon can't take this action again until the start of its next turn.\n\nTail Swipe. The dragon makes one Rend attack.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.36",
+        "heading": "Legendary Actions",
+        "lineStart": 19083,
+        "lineEnd": 19091
+      }
     }
   ],
   "rulesText": "Gargantuan Dragon (Chromatic), Lawful Evil\n\nAC 22\nInitiative +14 (24)\nHP 481 (26d20 + 208)\nSpeed 40 ft., Burrow 40 ft., Fly 80 ft.\n\nSkills Perception +17, Stealth +7\nImmunities Lightning\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 27\nLanguages Common, Draconic\nCR 23 (XP 50,000, or 62,000 in lair; PB +7)\n\nTraits\n\nLegendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast Shatter (level 3 version).\n\nRend. Melee Attack Roll: +16, reach 15 ft. Hit: 18 (2d8 + 9) Slashing damage plus 11 (2d10) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 23, each creature in a 120-foot-long, 10-foot-wide Line. Failure: 88 (16d10) Lightning damage. Success: Half damage.\n\nSpellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 22):\n\nAt Will: Detect Magic, Invisibility, Mage Hand, Shatter (level 3 version)\n\n1/Day Each: Scrying, Sending\n\nLegendary Actions\n\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nCloaked Flight. The dragon uses Spellcasting to cast Invisibility on itself, and it can fly up to half its Fly Speed. The dragon can't take this action again until the start of its next turn.\n\nSonic Boom. The dragon uses Spellcasting to cast Shatter (level 3 version). The dragon can't take this action again until the start of its next turn.\n\nTail Swipe. The dragon makes one Rend attack.",
@@ -88,15 +109,31 @@
     {
       "name": "Rend",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 18,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "2d8+9",
+            "count": 2,
+            "sides": 8,
+            "modifier": 9
+          }
+        },
+        {
+          "averageDamage": 11,
+          "damageType": "Lightning",
+          "damageRoll": {
+            "expression": "2d10",
+            "count": 2,
+            "sides": 10
+          }
+        }
+      ],
+      "sourceText": "Rend. Melee Attack Roll: +16, reach 15 ft. Hit: 18 (2d8 + 9) Slashing damage plus 11 (2d10) Lightning damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 16,
-      "averageDamage": 18,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "2d8+9",
-        "count": 2,
-        "sides": 8,
-        "modifier": 9
-      },
       "reachFeet": 15
     }
   ]

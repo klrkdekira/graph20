@@ -104,5 +104,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell            | School        | Special |\n| :--------------- | :------------ | :------ |\n| Demiplane        | Conjuration   |    -    |\n| Dominate Monster | Enchantment   | C       |\n| Earthquake       | Transmutation | C       |\n| Incendiary Cloud | Conjuration   | C       |\n| Power Word Stun  | Enchantment   |    -    |\n| Sunburst         | Evocation     |    -    |"
 }

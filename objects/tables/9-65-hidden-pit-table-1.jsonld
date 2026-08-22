@@ -62,5 +62,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Levels | Pit Depth | Bludgeoning Damage |\n| :----- | :-------- | :----------------- |\n| 5–10   | 30 feet   | 10 (3d6)           |\n| 11–16  | 60 feet   | 21 (6d6)           |\n| 17–20  | 120 feet  | 42 (12d6)          |"
 }

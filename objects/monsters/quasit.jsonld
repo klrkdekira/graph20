@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Magic Resistance. The quasit has Advantage on saving throws against spells and other magical effects."
+      "rulesText": "Magic Resistance. The quasit has Advantage on saving throws against spells and other magical effects.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.194",
+        "heading": "Traits",
+        "lineStart": 24126,
+        "lineEnd": 24128
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage, and the target has the Poisoned condition until the start of the quasit's next turn.\n\nInvisibility. The quasit casts Invisibility on itself, requiring no spell components and using Charisma as the spellcasting ability.\n\nScare (1/Day). Wisdom Saving Throw: DC 10, one creature within 20 feet. Failure: The target has the Frightened condition. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically.\n\nShape-Shift. The quasit shape-shifts to resemble a bat (Speed 10 ft., Fly 40 ft.), a centipede (40 ft., Climb 40 ft.), or a toad (40 ft., Swim 40 ft.), or it returns to its true form. Its game statistics are the same in each form, except for its Speed. Any equipment it is wearing or carrying isn't transformed."
+      "rulesText": "Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage, and the target has the Poisoned condition until the start of the quasit's next turn.\n\nInvisibility. The quasit casts Invisibility on itself, requiring no spell components and using Charisma as the spellcasting ability.\n\nScare (1/Day). Wisdom Saving Throw: DC 10, one creature within 20 feet. Failure: The target has the Frightened condition. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically.\n\nShape-Shift. The quasit shape-shifts to resemble a bat (Speed 10 ft., Fly 40 ft.), a centipede (40 ft., Climb 40 ft.), or a toad (40 ft., Swim 40 ft.), or it returns to its true form. Its game statistics are the same in each form, except for its Speed. Any equipment it is wearing or carrying isn't transformed.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.194",
+        "heading": "Actions",
+        "lineStart": 24130,
+        "lineEnd": 24138
+      }
     }
   ],
   "rulesText": "Tiny Fiend (Demon), Chaotic Evil\n\nAC 13\nInitiative +3 (13)\nHP 25 (10d4)\nSpeed 40 ft.\n\nSkills Stealth +5\nResistances Cold, Fire, Lightning\nImmunities Poison; Poisoned\nSenses Darkvision 120 ft.; Passive Perception 10\nLanguages Abyssal, Common\nCR 1 (XP 200; PB +2)\n\nTraits\n\nMagic Resistance. The quasit has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage, and the target has the Poisoned condition until the start of the quasit's next turn.\n\nInvisibility. The quasit casts Invisibility on itself, requiring no spell components and using Charisma as the spellcasting ability.\n\nScare (1/Day). Wisdom Saving Throw: DC 10, one creature within 20 feet. Failure: The target has the Frightened condition. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically.\n\nShape-Shift. The quasit shape-shifts to resemble a bat (Speed 10 ft., Fly 40 ft.), a centipede (40 ft., Climb 40 ft.), or a toad (40 ft., Swim 40 ft.), or it returns to its true form. Its game statistics are the same in each form, except for its Speed. Any equipment it is wearing or carrying isn't transformed.",
@@ -89,15 +103,22 @@
     {
       "name": "Rend",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 5,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d4+3",
+            "count": 1,
+            "sides": 4,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage, and the target has the Poisoned condition until the start of the quasit's next turn.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 5,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d4+3",
-        "count": 1,
-        "sides": 4,
-        "modifier": 3
-      },
       "reachFeet": 5
     }
   ]

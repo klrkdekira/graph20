@@ -70,11 +70,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Agile. The deer doesn't provoke an Opportunity Attack when it moves out of an enemy's reach."
+      "rulesText": "Agile. The deer doesn't provoke an Opportunity Attack when it moves out of an enemy's reach.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.18",
+        "heading": "Traits",
+        "lineStart": 27178,
+        "lineEnd": 27180
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Ram. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage."
+      "rulesText": "Ram. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.18",
+        "heading": "Actions",
+        "lineStart": 27182,
+        "lineEnd": 27184
+      }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 4 (1d8)\nSpeed 50 ft.\n\nSkills Perception +4\nSenses Darkvision 60 ft.; Passive Perception 14\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nAgile. The deer doesn't provoke an Opportunity Attack when it moves out of an enemy's reach.\n\nActions\n\nRam. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage.",
@@ -82,14 +96,21 @@
     {
       "name": "Ram",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 2,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "1d4",
+            "count": 1,
+            "sides": 4
+          }
+        }
+      ],
+      "sourceText": "Ram. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 2,
-      "averageDamage": 2,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "1d4",
-        "count": 1,
-        "sides": 4
-      },
       "reachFeet": 5
     }
   ]

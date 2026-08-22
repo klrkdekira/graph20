@@ -66,6 +66,6 @@
     }
   ],
   "ability_table_glossary": {
-    "meaning": "Inside monster ability-score tables only: standalone 'I' means 1, 'II' means 11; labels may be LaTeX-wrapped ('$\\mathbf{S_{TR}}$' means STR) or glued to the score ('CON25' means CON 25). Damaged tables are regenerated from scripts/data/srd-2024-creatures.json (open5e srd-2024, CC-BY-4.0) with cross-validation against every intact cell."
+    "meaning": "Inside monster ability-score tables only: standalone 'I' means 1, 'II' means 11; labels may be LaTeX-wrapped ('$\\mathbf{S_{TR}}$' means STR) or glued to the score ('CON25' means CON 25). Any historical table reconstruction was cross-checked against the official SRD PDF text layer; no external dataset contributes retained values."
   }
 }

@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.204",
     "heading": "Ring of Elemental Command",
-    "lineStart": 16780,
-    "lineEnd": 16785
+    "lineStart": 16781,
+    "lineEnd": 16786
   },
   "columns": [
     "Plane",
@@ -63,5 +63,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Plane | Spells (Charges)                                                                                                                |\n| :---- | :------------------------------------------------------------------------------------------------------------------------------ |\n| Air   | Chain Lightning (3 charges), Feather Fall (0 charges), Gust of Wind (2 charges), Wind Wall (1 charge)                           |\n| Earth | Earthquake (5 charges), Stone Shape (2 charges), Stoneskin (3 charges), Wall of Stone (3 charges)                               |\n| Fire  | Burning Hands (1 charge), Fireball (2 charges), Fire Storm (4 charges), Wall of Fire (3 charges)                                |\n| Water | Create or Destroy Water (1 charge), Ice Storm (2 charges), Tsunami (5 charges), Wall of Ice (3 charges), Water Walk (2 charges) |"
 }

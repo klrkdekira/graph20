@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Diabolical Restoration. If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nMagic Resistance. The devil has Advantage on saving throws against spells and other magical effects."
+      "rulesText": "Diabolical Restoration. If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nMagic Resistance. The devil has Advantage on saving throws against spells and other magical effects.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.139",
+        "heading": "Traits",
+        "lineStart": 22329,
+        "lineEnd": 22333
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The devil makes three attacks, using Searing Fork or Hurl Flame in any combination. It can replace one attack with a use of Infernal Tail.\n\nSearing Fork. Melee Attack Roll: +10, reach 10 ft. Hit: 15 (2d8 + 6) Piercing damage plus 9 (2d8) Fire damage.\n\nHurl Flame. Ranged Attack Roll: +8, range 150 ft. Hit: 26 (5d8 + 4) Fire damage. If the target is a flammable object that isn't being worn or carried, it starts burning.\n\nInfernal Tail. Dexterity Saving Throw: DC 17, one creature the devil can see within 10 feet. Failure: 10 (1d8 + 6) Necrotic damage, and the target receives an infernal wound if it doesn't have one. While wounded, the target loses 10 (3d6) Hit Points at the start of each of its turns. The wound closes after 1 minute, after a spell restores Hit Points to the target, or after the target or a creature within 5 feet of it takes an action to stanch the wound, doing so by succeeding on a DC 17 Wisdom (Medicine) check."
+      "rulesText": "Multiattack. The devil makes three attacks, using Searing Fork or Hurl Flame in any combination. It can replace one attack with a use of Infernal Tail.\n\nSearing Fork. Melee Attack Roll: +10, reach 10 ft. Hit: 15 (2d8 + 6) Piercing damage plus 9 (2d8) Fire damage.\n\nHurl Flame. Ranged Attack Roll: +8, range 150 ft. Hit: 26 (5d8 + 4) Fire damage. If the target is a flammable object that isn't being worn or carried, it starts burning.\n\nInfernal Tail. Dexterity Saving Throw: DC 17, one creature the devil can see within 10 feet. Failure: 10 (1d8 + 6) Necrotic damage, and the target receives an infernal wound if it doesn't have one. While wounded, the target loses 10 (3d6) Hit Points at the start of each of its turns. The wound closes after 1 minute, after a spell restores Hit Points to the target, or after the target or a creature within 5 feet of it takes an action to stanch the wound, doing so by succeeding on a DC 17 Wisdom (Medicine) check.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.139",
+        "heading": "Actions",
+        "lineStart": 22335,
+        "lineEnd": 22343
+      }
     }
   ],
   "rulesText": "Large Fiend (Devil), Lawful Evil\n\nAC 18\nInitiative +7 (17)\nHP 199 (19d10 + 95)\nSpeed 30 ft., Fly 60 ft.\n\nResistances Cold\nImmunities Fire, Poison; Poisoned\nSenses Darkvision 150 ft. (unimpeded by magical Darkness); Passive Perception 13\nLanguages Infernal; telepathy 120 ft.\nCR 11 (XP 7,200; PB +4)\n\nTraits\n\nDiabolical Restoration. If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nMagic Resistance. The devil has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The devil makes three attacks, using Searing Fork or Hurl Flame in any combination. It can replace one attack with a use of Infernal Tail.\n\nSearing Fork. Melee Attack Roll: +10, reach 10 ft. Hit: 15 (2d8 + 6) Piercing damage plus 9 (2d8) Fire damage.\n\nHurl Flame. Ranged Attack Roll: +8, range 150 ft. Hit: 26 (5d8 + 4) Fire damage. If the target is a flammable object that isn't being worn or carried, it starts burning.\n\nInfernal Tail. Dexterity Saving Throw: DC 17, one creature the devil can see within 10 feet. Failure: 10 (1d8 + 6) Necrotic damage, and the target receives an infernal wound if it doesn't have one. While wounded, the target loses 10 (3d6) Hit Points at the start of each of its turns. The wound closes after 1 minute, after a spell restores Hit Points to the target, or after the target or a creature within 5 feet of it takes an action to stanch the wound, doing so by succeeding on a DC 17 Wisdom (Medicine) check.",
@@ -89,29 +103,52 @@
     {
       "name": "Searing Fork",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 15,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d8+6",
+            "count": 2,
+            "sides": 8,
+            "modifier": 6
+          }
+        },
+        {
+          "averageDamage": 9,
+          "damageType": "Fire",
+          "damageRoll": {
+            "expression": "2d8",
+            "count": 2,
+            "sides": 8
+          }
+        }
+      ],
+      "sourceText": "Searing Fork. Melee Attack Roll: +10, reach 10 ft. Hit: 15 (2d8 + 6) Piercing damage plus 9 (2d8) Fire damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 10,
-      "averageDamage": 15,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d8+6",
-        "count": 2,
-        "sides": 8,
-        "modifier": 6
-      },
       "reachFeet": 10
     },
     {
       "name": "Hurl Flame",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 26,
+          "damageType": "Fire",
+          "damageRoll": {
+            "expression": "5d8+4",
+            "count": 5,
+            "sides": 8,
+            "modifier": 4
+          }
+        }
+      ],
+      "sourceText": "Hurl Flame. Ranged Attack Roll: +8, range 150 ft. Hit: 26 (5d8 + 4) Fire damage. If the target is a flammable object that isn't being worn or carried, it starts burning.",
+      "path": "statSections[1].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 8,
-      "averageDamage": 26,
-      "damageType": "Fire",
-      "damageRoll": {
-        "expression": "5d8+4",
-        "count": 5,
-        "sides": 8,
-        "modifier": 4
-      },
       "rangeFeet": {
         "normal": 150
       }

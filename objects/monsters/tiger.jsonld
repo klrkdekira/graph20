@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition."
+      "rulesText": "Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.89",
+        "heading": "Actions",
+        "lineStart": 29091,
+        "lineEnd": 29093
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Nimble Escape. The tiger takes the Disengage or Hide action."
+      "rulesText": "Nimble Escape. The tiger takes the Disengage or Hide action.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.89",
+        "heading": "Bonus Actions",
+        "lineStart": 29095,
+        "lineEnd": 29097
+      }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 30 (4d10 + 8)\nSpeed 40 ft.\n\nSkills Perception +3, Stealth +7\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages None\nCR 1 (XP 200; PB +2)\n\nActions\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.\n\nBonus Actions\n\nNimble Escape. The tiger takes the Disengage or Hide action.",
@@ -83,15 +97,22 @@
     {
       "name": "Rend",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 10,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "2d6+3",
+            "count": 2,
+            "sides": 6,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 10,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "2d6+3",
-        "count": 2,
-        "sides": 6,
-        "modifier": 3
-      },
       "reachFeet": 5
     }
   ]

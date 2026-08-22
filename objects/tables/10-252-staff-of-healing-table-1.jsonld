@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.252",
     "heading": "Staff of Healing",
-    "lineStart": 17319,
-    "lineEnd": 17323
+    "lineStart": 17320,
+    "lineEnd": 17324
   },
   "columns": [
     "Spell",
@@ -52,5 +52,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell              | Charge Cost                                              |\n| :----------------- | :------------------------------------------------------- |\n| Cure Wounds        | 1 charge per spell level (maximum 4 for a level 4 spell) |\n| Lesser Restoration | 2                                                        |\n| Mass Cure Wounds   | 5                                                        |"
 }

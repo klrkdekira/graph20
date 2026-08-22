@@ -90,5 +90,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                   | School        | Special |\n| :---------------------- | :------------ | :------ |\n| Conjure Woodland Beings | Conjuration   | C       |\n| Dominate Beast          | Enchantment   | C       |\n| Freedom of Movement     | Abjuration    |    -    |\n| Locate Creature         | Divination    | C       |\n| Stoneskin               | Transmutation | C, M    |"
 }

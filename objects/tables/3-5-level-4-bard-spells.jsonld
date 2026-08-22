@@ -160,5 +160,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                 | School        | Special |\n| :-------------------- | :------------ | :------ |\n| Charm Monster         | Enchantment   |    -    |\n| Compulsion            | Enchantment   | C       |\n| Confusion             | Enchantment   | C       |\n| Dimension Door        | Conjuration   |    -    |\n| Freedom of Movement   | Abjuration    |    -    |\n| Greater Invisibility  | Illusion      | C       |\n| Hallucinatory Terrain | Illusion      |    -    |\n| Locate Creature       | Divination    | C       |\n| Phantasmal Killer     | Illusion      | C       |\n| Polymorph             | Transmutation | C       |"
 }

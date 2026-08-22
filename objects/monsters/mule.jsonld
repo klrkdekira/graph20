@@ -70,11 +70,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Beast of Burden. The mule counts as one size larger for the purpose of determining its carrying capacity."
+      "rulesText": "Beast of Burden. The mule counts as one size larger for the purpose of determining its carrying capacity.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.65",
+        "heading": "Traits",
+        "lineStart": 28436,
+        "lineEnd": 28438
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Hooves. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning damage."
+      "rulesText": "Hooves. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.65",
+        "heading": "Actions",
+        "lineStart": 28440,
+        "lineEnd": 28442
+      }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 10\nInitiative +0 (10)\nHP 11 (2d8 + 2)\nSpeed 40 ft.\n\nSenses Passive Perception 10\nLanguages None\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nBeast of Burden. The mule counts as one size larger for the purpose of determining its carrying capacity.\n\nActions\n\nHooves. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning damage.",
@@ -82,15 +96,22 @@
     {
       "name": "Hooves",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 4,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "1d4+2",
+            "count": 1,
+            "sides": 4,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Hooves. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 4,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "1d4+2",
-        "count": 1,
-        "sides": 4,
-        "modifier": 2
-      },
       "reachFeet": 5
     }
   ]

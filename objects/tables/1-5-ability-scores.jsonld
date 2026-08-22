@@ -96,5 +96,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Score | Meaning                                                                                                           |\n| :---- | :---------------------------------------------------------------------------------------------------------------- |\n| 1     | This is the lowest a score can normally go. If an effect reduces a score to 0, that effect explains what happens. |\n| 2–9   | This represents a weak capability.                                                                                |\n| 10–11 | This represents the human average.                                                                                |\n| 12–19 | This represents a strong capability.                                                                              |\n| 20    | This is the highest an adventurer’s score can go unless a feature says otherwise.                                 |\n| 21–29 | This represents an extraordinary capability.                                                                      |\n| 30    | This is the highest a score can go.                                                                               |"
 }

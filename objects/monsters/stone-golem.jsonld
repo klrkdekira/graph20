@@ -71,15 +71,36 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Immutable Form. The golem can't shape-shift.\n\nMagic Resistance. The golem has Advantage on saving throws against spells and other magical effects."
+      "rulesText": "Immutable Form. The golem can't shape-shift.\n\nMagic Resistance. The golem has Advantage on saving throws against spells and other magical effects.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.234",
+        "heading": "Traits",
+        "lineStart": 25423,
+        "lineEnd": 25427
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The golem makes two attacks, using Slam or Force Bolt in any combination.\n\nSlam. Melee Attack Roll: +10, reach 5 ft. Hit: 15 (2d8 + 6) Bludgeoning damage plus 9 (2d8) Force damage.\n\nForce Bolt. Ranged Attack Roll: +9, range 120 ft. Hit: 22 (4d10) Force damage."
+      "rulesText": "Multiattack. The golem makes two attacks, using Slam or Force Bolt in any combination.\n\nSlam. Melee Attack Roll: +10, reach 5 ft. Hit: 15 (2d8 + 6) Bludgeoning damage plus 9 (2d8) Force damage.\n\nForce Bolt. Ranged Attack Roll: +9, range 120 ft. Hit: 22 (4d10) Force damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.234",
+        "heading": "Actions",
+        "lineStart": 25429,
+        "lineEnd": 25435
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Slow (Recharge 5–6). The golem casts the Slow spell, requiring no spell components and using Constitution as the spellcasting ability (spell save DC 17)."
+      "rulesText": "Slow (Recharge 5–6). The golem casts the Slow spell, requiring no spell components and using Constitution as the spellcasting ability (spell save DC 17).",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.234",
+        "heading": "Bonus Actions",
+        "lineStart": 25437,
+        "lineEnd": 25439
+      }
     }
   ],
   "rulesText": "Large Construct, Unaligned\n\nAC 18\nInitiative +3 (13)\nHP 220 (21d10 + 105)\nSpeed 30 ft.\n\nImmunities Poison, Psychic; Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned\nSenses Darkvision 120 ft.; Passive Perception 10\nLanguages Understands Common plus two other languages but can't speak\nCR 10 (XP 5,900; PB +4)\n\nTraits\n\nImmutable Form. The golem can't shape-shift.\n\nMagic Resistance. The golem has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The golem makes two attacks, using Slam or Force Bolt in any combination.\n\nSlam. Melee Attack Roll: +10, reach 5 ft. Hit: 15 (2d8 + 6) Bludgeoning damage plus 9 (2d8) Force damage.\n\nForce Bolt. Ranged Attack Roll: +9, range 120 ft. Hit: 22 (4d10) Force damage.\n\nBonus Actions\n\nSlow (Recharge 5–6). The golem casts the Slow spell, requiring no spell components and using Constitution as the spellcasting ability (spell save DC 17).",
@@ -107,28 +128,51 @@
     {
       "name": "Slam",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 15,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "2d8+6",
+            "count": 2,
+            "sides": 8,
+            "modifier": 6
+          }
+        },
+        {
+          "averageDamage": 9,
+          "damageType": "Force",
+          "damageRoll": {
+            "expression": "2d8",
+            "count": 2,
+            "sides": 8
+          }
+        }
+      ],
+      "sourceText": "Slam. Melee Attack Roll: +10, reach 5 ft. Hit: 15 (2d8 + 6) Bludgeoning damage plus 9 (2d8) Force damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 10,
-      "averageDamage": 15,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "2d8+6",
-        "count": 2,
-        "sides": 8,
-        "modifier": 6
-      },
       "reachFeet": 5
     },
     {
       "name": "Force Bolt",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 22,
+          "damageType": "Force",
+          "damageRoll": {
+            "expression": "4d10",
+            "count": 4,
+            "sides": 10
+          }
+        }
+      ],
+      "sourceText": "Force Bolt. Ranged Attack Roll: +9, range 120 ft. Hit: 22 (4d10) Force damage.",
+      "path": "statSections[1].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 9,
-      "averageDamage": 22,
-      "damageType": "Force",
-      "damageRoll": {
-        "expression": "4d10",
-        "count": 4,
-        "sides": 10
-      },
       "rangeFeet": {
         "normal": 120
       }

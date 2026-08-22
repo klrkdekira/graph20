@@ -71,7 +71,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Petrifying Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Piercing damage. If the target is a creature, it is subjected to the following effect. Constitution Saving Throw: DC 11. First Failure: The target has the Restrained condition. The target repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. Second Failure: The target has the Petrified condition, instead of the Restrained condition, for 24 hours."
+      "rulesText": "Petrifying Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Piercing damage. If the target is a creature, it is subjected to the following effect. Constitution Saving Throw: DC 11. First Failure: The target has the Restrained condition. The target repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. Second Failure: The target has the Petrified condition, instead of the Restrained condition, for 24 hours.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.60",
+        "heading": "Actions",
+        "lineStart": 19863,
+        "lineEnd": 19865
+      }
     }
   ],
   "rulesText": "Small Monstrosity, Unaligned\n\nAC 11\nInitiative +1 (11)\nHP 22 (5d6 + 5)\nSpeed 20 ft., Fly 40 ft.\n\nImmunities Petrified\nSenses Darkvision 60 ft.; Passive Perception 11\nLanguages None\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nPetrifying Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Piercing damage. If the target is a creature, it is subjected to the following effect. Constitution Saving Throw: DC 11. First Failure: The target has the Restrained condition. The target repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. Second Failure: The target has the Petrified condition, instead of the Restrained condition, for 24 hours.",
@@ -84,15 +91,22 @@
     {
       "name": "Petrifying Bite",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 3,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d4+1",
+            "count": 1,
+            "sides": 4,
+            "modifier": 1
+          }
+        }
+      ],
+      "sourceText": "Petrifying Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Piercing damage. If the target is a creature, it is subjected to the following effect. Constitution Saving Throw: DC 11. First Failure: The target has the Restrained condition. The target repeats the save at the end of its next turn if it is still Restrained, ending the effect on itself on a success. Second Failure: The target has the Petrified condition, instead of the Restrained condition, for 24 hours.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 3,
-      "averageDamage": 3,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d4+1",
-        "count": 1,
-        "sides": 4,
-        "modifier": 1
-      },
       "reachFeet": 5
     }
   ]

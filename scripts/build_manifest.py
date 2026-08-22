@@ -10,6 +10,7 @@ from pathlib import Path
 from srdlib import (
     BASE,
     COLLECTIONS,
+    COLLECTION_TYPES,
     CONTEXT_IRI,
     MANIFEST_NAME,
     SOURCE_ID,
@@ -21,12 +22,12 @@ from srdlib import (
 
 
 def build(root: Path) -> None:
-    collections = {name: [] for name in COLLECTIONS}
+    members = {name: [] for name in COLLECTIONS}
     digest = hashlib.sha256()
     source_record = None
     for collection, path in iter_object_files(root):
         record = load_json(path)
-        collections[collection].append({"@id": record["@id"]})
+        members[collection].append({"@id": record["@id"]})
         digest.update(
             json.dumps(record, sort_keys=True, ensure_ascii=False).encode("utf-8")
         )
@@ -39,7 +40,7 @@ def build(root: Path) -> None:
         "@context": CONTEXT_IRI,
         "@id": f"{BASE}objects/{MANIFEST_NAME.removesuffix('.jsonld')}",
         "@type": "SRDSystemData",
-        "version": "0.2.0",
+        "version": "0.3.0",
         "metadata": {
             "title": "SRD 5.2.1 System JSON",
             "author": source_record["author"],
@@ -51,14 +52,19 @@ def build(root: Path) -> None:
             "sourceDigest": source_record["contentDigest"],
             "corpusDigest": "sha256-" + digest.hexdigest(),
         },
-        "collections": collections,
-        "collectionSchemas": {
-            name: f"{BASE}systems/{schema}"
-            for name, schema in SCHEMA_FOR_COLLECTION.items()
-        },
+        "collections": [
+            {
+                "name": name,
+                "slug": name,
+                "entityType": COLLECTION_TYPES[name],
+                "members": members[name],
+                "schemaReference": {"@id": f"{BASE}systems/{SCHEMA_FOR_COLLECTION[name]}"},
+            }
+            for name in COLLECTIONS
+        ],
     }
     dump_json(root / "objects" / MANIFEST_NAME, manifest)
-    print(f"manifest: {sum(len(v) for v in collections.values())} records")
+    print(f"manifest: {sum(len(v) for v in members.values())} records")
 
 
 def main():

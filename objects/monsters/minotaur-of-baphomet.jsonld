@@ -71,7 +71,14 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Abyssal Glaive. Melee Attack Roll: +6, reach 10 ft.\nHit: 10 (1d12 + 4) Slashing damage plus 10 (3d6) Necrotic damage.\n\nGore (Recharge 5–6). Melee Attack Roll: +6, reach 5 ft. Hit: 18 (4d6 + 4) Piercing damage. If the target is a Large or smaller creature and the minotaur moved 10+ feet straight toward it immediately before the hit, the target takes an extra 10 (3d6) Piercing damage and has the Prone condition."
+      "rulesText": "Abyssal Glaive. Melee Attack Roll: +6, reach 10 ft.\nHit: 10 (1d12 + 4) Slashing damage plus 10 (3d6) Necrotic damage.\n\nGore (Recharge 5–6). Melee Attack Roll: +6, reach 5 ft. Hit: 18 (4d6 + 4) Piercing damage. If the target is a Large or smaller creature and the minotaur moved 10+ feet straight toward it immediately before the hit, the target takes an extra 10 (3d6) Piercing damage and has the Prone condition.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.169",
+        "heading": "Actions",
+        "lineStart": 23306,
+        "lineEnd": 23311
+      }
     }
   ],
   "rulesText": "Large Monstrosity, Chaotic Evil\n\nAC 14\nInitiative +0 (10)\nHP 85 (10d10 + 30)\nSpeed 40 ft.\n\nSkills Perception +7, Survival +7\nSenses Darkvision 60 ft.; Passive Perception 17\nLanguages Abyssal\nCR 3 (XP 700; PB +2)\n\nActions\n\nAbyssal Glaive. Melee Attack Roll: +6, reach 10 ft.\nHit: 10 (1d12 + 4) Slashing damage plus 10 (3d6) Necrotic damage.\n\nGore (Recharge 5–6). Melee Attack Roll: +6, reach 5 ft. Hit: 18 (4d6 + 4) Piercing damage. If the target is a Large or smaller creature and the minotaur moved 10+ feet straight toward it immediately before the hit, the target takes an extra 10 (3d6) Piercing damage and has the Prone condition.",
@@ -79,16 +86,62 @@
     {
       "name": "Abyssal Glaive",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 10,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d12+4",
+            "count": 1,
+            "sides": 12,
+            "modifier": 4
+          }
+        },
+        {
+          "averageDamage": 10,
+          "damageType": "Necrotic",
+          "damageRoll": {
+            "expression": "3d6",
+            "count": 3,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Abyssal Glaive. Melee Attack Roll: +6, reach 10 ft.\nHit: 10 (1d12 + 4) Slashing damage plus 10 (3d6) Necrotic damage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 10,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d12+4",
-        "count": 1,
-        "sides": 12,
-        "modifier": 4
-      },
       "reachFeet": 10
+    },
+    {
+      "name": "Gore (Recharge 5–6)",
+      "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 18,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "4d6+4",
+            "count": 4,
+            "sides": 6,
+            "modifier": 4
+          }
+        },
+        {
+          "averageDamage": 10,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "3d6",
+            "count": 3,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Gore (Recharge 5–6). Melee Attack Roll: +6, reach 5 ft. Hit: 18 (4d6 + 4) Piercing damage. If the target is a Large or smaller creature and the minotaur moved 10+ feet straight toward it immediately before the hit, the target takes an extra 10 (3d6) Piercing damage and has the Prone condition.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
+      "attackBonus": 6,
+      "reachFeet": 5
     }
   ]
 }

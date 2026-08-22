@@ -72,15 +72,36 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Demonic Restoration. If the hezrou dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.\n\nMagic Resistance. The hezrou has Advantage on saving throws against spells and other magical effects.\n\nStench. Constitution Saving Throw: DC 16, any creature that starts its turn in a 10-foot Emanation originating from the hezrou. Failure: The target has the Poisoned condition until the start of its next turn."
+      "rulesText": "Demonic Restoration. If the hezrou dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.\n\nMagic Resistance. The hezrou has Advantage on saving throws against spells and other magical effects.\n\nStench. Constitution Saving Throw: DC 16, any creature that starts its turn in a 10-foot Emanation originating from the hezrou. Failure: The target has the Poisoned condition until the start of its next turn.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.132",
+        "heading": "Traits",
+        "lineStart": 22137,
+        "lineEnd": 22143
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The hezrou makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 5 ft. Hit: 6 (1d4 + 4) Slashing damage plus 9 (2d8) Poison damage."
+      "rulesText": "Multiattack. The hezrou makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 5 ft. Hit: 6 (1d4 + 4) Slashing damage plus 9 (2d8) Poison damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.132",
+        "heading": "Actions",
+        "lineStart": 22145,
+        "lineEnd": 22149
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Leap. The hezrou jumps up to 30 feet by spending 10 feet of movement."
+      "rulesText": "Leap. The hezrou jumps up to 30 feet by spending 10 feet of movement.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.132",
+        "heading": "Bonus Actions",
+        "lineStart": 22151,
+        "lineEnd": 22153
+      }
     }
   ],
   "rulesText": "Large Fiend (Demon), Chaotic Evil\n\nAC 18\nInitiative +6 (16)\nHP 157 (15d10 + 75)\nSpeed 30 ft.\n\nResistances Cold, Fire, Lightning\nImmunities Poison; Poisoned\nSenses Darkvision 120 ft.; Passive Perception 11\nLanguages Abyssal; telepathy 120 ft.\nCR 8 (XP 3,900; PB +3)\n\nTraits\n\nDemonic Restoration. If the hezrou dies outside the Abyss, its body dissolves into ichor, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Abyss.\n\nMagic Resistance. The hezrou has Advantage on saving throws against spells and other magical effects.\n\nStench. Constitution Saving Throw: DC 16, any creature that starts its turn in a 10-foot Emanation originating from the hezrou. Failure: The target has the Poisoned condition until the start of its next turn.\n\nActions\n\nMultiattack. The hezrou makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 5 ft. Hit: 6 (1d4 + 4) Slashing damage plus 9 (2d8) Poison damage.\n\nBonus Actions\n\nLeap. The hezrou jumps up to 30 feet by spending 10 feet of movement.",
@@ -93,15 +114,31 @@
     {
       "name": "Rend",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 6,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d4+4",
+            "count": 1,
+            "sides": 4,
+            "modifier": 4
+          }
+        },
+        {
+          "averageDamage": 9,
+          "damageType": "Poison",
+          "damageRoll": {
+            "expression": "2d8",
+            "count": 2,
+            "sides": 8
+          }
+        }
+      ],
+      "sourceText": "Rend. Melee Attack Roll: +7, reach 5 ft. Hit: 6 (1d4 + 4) Slashing damage plus 9 (2d8) Poison damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 7,
-      "averageDamage": 6,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d4+4",
-        "count": 1,
-        "sides": 4,
-        "modifier": 4
-      },
       "reachFeet": 5
     }
   ]

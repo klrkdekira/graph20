@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import sys
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 from srdlib import (
@@ -99,11 +100,32 @@ def main():
             if ref.startswith(f"{BASE}objects/") and ref not in ids:
                 errors.append(f"{name}: unresolved reference {ref}")
 
+    search = load_json(root / "objects/search-index.json")
+    document_count = len(search.get("documents", []))
+    for token, postings in search.get("tokens", {}).items():
+        for posting in postings:
+            index = posting.get("document", -1)
+            if not 0 <= index < document_count:
+                errors.append(f"search-index.json: token {token!r} has bad document index {index}")
+
+    try:
+        ET.parse(root / "sitemap.xml")
+    except (ET.ParseError, OSError) as exc:
+        errors.append(f"sitemap.xml: {exc}")
+    vocab = load_json(root / "vocab/terms.json")
+    vocab_page = (root / "vocab/index.html").read_text(encoding="utf-8")
+    for entry in vocab.get("classes", []) + vocab.get("properties", []):
+        if f'id="{entry["anchor"]}"' not in vocab_page:
+            errors.append(f"vocab/index.html: missing target #{entry['anchor']}")
+
     if errors:
         print("\n".join(errors[:50]))
         print(f"FAIL: {len(errors)} structural errors")
         sys.exit(1)
-    print(f"OK: {len(records)} records structurally valid, all references resolve")
+    print(
+        f"OK: {len(records)} records and auxiliary indexes structurally valid; "
+        "all references and vocabulary targets resolve"
+    )
 
 
 if __name__ == "__main__":

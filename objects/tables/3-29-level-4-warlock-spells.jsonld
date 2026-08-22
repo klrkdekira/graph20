@@ -90,5 +90,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                 | School      | Special |\n| :-------------------- | :---------- | :------ |\n| Banishment            | Abjuration  | C       |\n| Blight                | Necromancy  |    -    |\n| Charm Monster         | Enchantment |    -    |\n| Dimension Door        | Conjuration |    -    |\n| Hallucinatory Terrain | Illusion    |    -    |"
 }

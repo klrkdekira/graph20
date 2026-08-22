@@ -258,5 +258,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell             | School        | Special |\n| :---------------- | :------------ | :------ |\n| Bestow Curse      | Necromancy    | C       |\n| Clairvoyance      | Divination    | C, M    |\n| Dispel Magic      | Abjuration    |    -    |\n| Fear              | Illusion      | C       |\n| Glyph of Warding  | Abjuration    | M       |\n| Hypnotic Pattern  | Illusion      | C       |\n| Major Image       | Illusion      | C       |\n| Mass Healing Word | Abjuration    |    -    |\n| Nondetection      | Abjuration    | M       |\n| Plant Growth      | Transmutation |    -    |\n| Sending           | Divination    |    -    |\n| Slow              | Transmutation | C       |\n| Speak with Dead   | Necromancy    |    -    |\n| Speak with Plants | Transmutation |    -    |\n| Stinking Cloud    | Conjuration   | C       |\n| Tiny Hut          | Evocation     | R       |\n| Tongues           | Divination    |    -    |"
 }

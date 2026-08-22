@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.255",
     "heading": "Staff of Swarming Insects",
-    "lineStart": 17373,
-    "lineEnd": 17376
+    "lineStart": 17374,
+    "lineEnd": 17377
   },
   "columns": [
     "Spell",
@@ -41,5 +41,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell         | Charge Cost |\n| :------------ | :---------- |\n| Giant Insect  | 4           |\n| Insect Plague | 5           |"
 }

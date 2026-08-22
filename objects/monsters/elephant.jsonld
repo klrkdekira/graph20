@@ -70,11 +70,25 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The elephant makes two Gore attacks.\n\nGore. Melee Attack Roll: +8, reach 5 ft. Hit: 15 (2d8 + 6) Piercing damage. If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition."
+      "rulesText": "Multiattack. The elephant makes two Gore attacks.\n\nGore. Melee Attack Roll: +8, reach 5 ft. Hit: 15 (2d8 + 6) Piercing damage. If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.22",
+        "heading": "Actions",
+        "lineStart": 27276,
+        "lineEnd": 27280
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Trample. Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 17 (2d10 + 6) Bludgeoning damage. Success: Half damage."
+      "rulesText": "Trample. Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 17 (2d10 + 6) Bludgeoning damage. Success: Half damage.",
+      "sourceLocator": {
+        "chapter": "Animals",
+        "section": "13.22",
+        "heading": "Bonus Actions",
+        "lineStart": 27282,
+        "lineEnd": 27284
+      }
     }
   ],
   "rulesText": "Huge Beast, Unaligned\n\nAC 12\nInitiative -1 (9)\nHP 76 (8d12 + 24)\nSpeed 40 ft.\n\nSenses Passive Perception 10\nLanguages None\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The elephant makes two Gore attacks.\n\nGore. Melee Attack Roll: +8, reach 5 ft. Hit: 15 (2d8 + 6) Piercing damage. If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.\n\nBonus Actions\n\nTrample. Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 17 (2d10 + 6) Bludgeoning damage. Success: Half damage.",
@@ -82,15 +96,22 @@
     {
       "name": "Gore",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 15,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d8+6",
+            "count": 2,
+            "sides": 8,
+            "modifier": 6
+          }
+        }
+      ],
+      "sourceText": "Gore. Melee Attack Roll: +8, reach 5 ft. Hit: 15 (2d8 + 6) Piercing damage. If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.",
+      "path": "statSections[0].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 8,
-      "averageDamage": 15,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d8+6",
-        "count": 2,
-        "sides": 8,
-        "modifier": 6
-      },
       "reachFeet": 5
     }
   ]

@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.258",
     "heading": "Staff of the Woodlands",
-    "lineStart": 17436,
-    "lineEnd": 17445
+    "lineStart": 17437,
+    "lineEnd": 17446
   },
   "columns": [
     "Spell",
@@ -107,5 +107,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell                    | Charge Cost |\n| :----------------------- | :---------- |\n| Animal Friendship        | 1           |\n| Awaken                   | 5           |\n| Barkskin                 | 2           |\n| Locate Animals or Plants | 2           |\n| Pass without Trace       | 2           |\n| Speak with Animals       | 1           |\n| Speak with Plants        | 3           |\n| Wall of Thorns           | 6           |"
 }

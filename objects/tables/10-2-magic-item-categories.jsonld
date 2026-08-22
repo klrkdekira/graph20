@@ -118,5 +118,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Category       | Examples                           |\n| :------------- | :--------------------------------- |\n| Armor          | +1 Leather Armor, +1 Shield        |\n| Potions        | Potion of Healing                  |\n| Rings          | Ring of Invisibility               |\n| Rods           | Immovable Rod                      |\n| Scrolls        | Spell Scroll                       |\n| Staffs         | Staff of Striking                  |\n| Wands          | Wand of Fireballs                  |\n| Weapons        | +1 Ammunition, +1 Longsword        |\n| Wondrous Items | Bag of Holding, Boots of Elvenkind |"
 }

@@ -74,5 +74,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Ability Check            | Interaction                               |\n| :----------------------- | :---------------------------------------- |\n| Charisma (Deception)     | Deceiving a monster that understands you  |\n| Charisma (Intimidation)  | Intimidating a monster                    |\n| Charisma (Performance)   | Amusing a monster                         |\n| Charisma (Persuasion)    | Persuading a monster that understands you |\n| Wisdom (Animal Handling) | Gently coaxing a Beast or Monstrosity     |"
 }

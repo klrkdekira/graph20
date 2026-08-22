@@ -12,7 +12,7 @@
     "section": "3.16",
     "heading": "Monk Subclass: Warrior of the Open Hand",
     "lineStart": 3227,
-    "lineEnd": 3231
+    "lineEnd": 3257
   },
   "parentClass": {
     "@id": "https://cheeleong.dev/graph20/objects/classes/monk"
@@ -23,22 +23,50 @@
     {
       "level": 3,
       "name": "Open Hand Technique",
-      "rulesText": "Whenever you hit a creature with an attack granted by your Flurry of Blows, you can impose one of the following effects on that target.\n\nAddle. The target can't make Opportunity Attacks until the start of its next turn.\n\nPush. The target must succeed on a Strength saving throw or be pushed up to 15 feet away from you.\n\nTopple. The target must succeed on a Dexterity saving throw or have the Prone condition."
+      "rulesText": "Whenever you hit a creature with an attack granted by your Flurry of Blows, you can impose one of the following effects on that target.\n\nAddle. The target can't make Opportunity Attacks until the start of its next turn.\n\nPush. The target must succeed on a Strength saving throw or be pushed up to 15 feet away from you.\n\nTopple. The target must succeed on a Dexterity saving throw or have the Prone condition.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 3: Open Hand Technique",
+        "lineStart": 3233,
+        "lineEnd": 3241
+      }
     },
     {
       "level": 6,
       "name": "Wholeness of Body",
-      "rulesText": "You gain the ability to heal yourself. As a Bonus Action, you can roll your Martial Arts die. You regain a number of Hit Points equal to the number rolled plus your Wisdom modifier (minimum of 1 Hit Point regained).\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
+      "rulesText": "You gain the ability to heal yourself. As a Bonus Action, you can roll your Martial Arts die. You regain a number of Hit Points equal to the number rolled plus your Wisdom modifier (minimum of 1 Hit Point regained).\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 6: Wholeness of Body",
+        "lineStart": 3243,
+        "lineEnd": 3247
+      }
     },
     {
       "level": 11,
       "name": "Fleet Step",
-      "rulesText": "When you take a Bonus Action other than Step of the Wind, you can also use Step of the Wind immediately after that Bonus Action."
+      "rulesText": "When you take a Bonus Action other than Step of the Wind, you can also use Step of the Wind immediately after that Bonus Action.",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 11: Fleet Step",
+        "lineStart": 3249,
+        "lineEnd": 3251
+      }
     },
     {
       "level": 17,
       "name": "Quivering Palm",
-      "rulesText": "You gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an Unarmed Strike, you can expend 4 Focus Points to start these imperceptible vibrations, which last for a number of days equal to your Monk level. The vibrations are harmless unless you take an action to end them. Alternatively, when you take the Attack action on your turn, you can forgo one of the attacks to end the vibrations. To end them, you and the target must be on the same plane of existence. When you end them, the target must make a Constitution saving throw, taking 10d12 Force damage on a failed save or half as much damage on a successful one.\n\nYou can have only one creature under the effect of this feature at a time. You can end the vibrations harmlessly (no action required)."
+      "rulesText": "You gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an Unarmed Strike, you can expend 4 Focus Points to start these imperceptible vibrations, which last for a number of days equal to your Monk level. The vibrations are harmless unless you take an action to end them. Alternatively, when you take the Attack action on your turn, you can forgo one of the attacks to end the vibrations. To end them, you and the target must be on the same plane of existence. When you end them, the target must make a Constitution saving throw, taking 10d12 Force damage on a failed save or half as much damage on a successful one.\n\nYou can have only one creature under the effect of this feature at a time. You can end the vibrations harmlessly (no action required).",
+      "sourceLocator": {
+        "chapter": "Classes",
+        "section": "3.15",
+        "heading": "Level 17: Quivering Palm",
+        "lineStart": 3253,
+        "lineEnd": 3257
+      }
     }
   ]
 }

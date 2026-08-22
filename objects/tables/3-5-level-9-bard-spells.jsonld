@@ -90,5 +90,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Spell           | School        | Special |\n| :-------------- | :------------ | :------ |\n| Foresight       | Divination    |    -    |\n| Power Word Heal | Enchantment   |    -    |\n| Power Word Kill | Enchantment   |    -    |\n| Prismatic Wall  | Abjuration    |    -    |\n| True Polymorph  | Transmutation | C       |"
 }

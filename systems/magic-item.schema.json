@@ -31,6 +31,21 @@
         "Varies"
       ]
     },
+    "rarities": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "properties": {
+          "rarity": {
+            "enum": ["Common", "Uncommon", "Rare", "Very Rare", "Legendary", "Artifact", "Rarity Varies", "Varies"]
+          },
+          "variant": { "type": "string", "minLength": 1 }
+        },
+        "required": ["rarity"],
+        "unevaluatedProperties": false
+      }
+    },
     "requiresAttunement": { "type": "boolean" },
     "attunementNote": { "type": "string", "minLength": 1 },
     "relatedTables": {
@@ -40,6 +55,10 @@
     },
     "rulesText": { "type": "string", "minLength": 1 }
   },
-  "required": ["itemCategory", "rarity", "requiresAttunement", "rulesText"],
+  "required": ["itemCategory", "requiresAttunement", "rulesText"],
+  "oneOf": [
+    { "required": ["rarity"], "not": { "required": ["rarities"] } },
+    { "required": ["rarities"], "not": { "required": ["rarity"] } }
+  ],
   "unevaluatedProperties": false
 }

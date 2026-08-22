@@ -89,5 +89,6 @@
         }
       ]
     }
-  ]
+  ],
+  "rawText": "| Task Difficulty | DC  | Task Difficulty   | DC  |\n| :-------------- | :--- | :---------------- | :--- |\n| Very easy       | 5   | Very hard         | 25  |\n| Easy            | 10  | Nearly impossible | 30  |\n| Medium          | 15  |                   |     |\n| Hard            | 20  |                   |     |"
 }

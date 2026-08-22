@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Pack Tactics. The kobold has Advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nSunlight Sensitivity. While in sunlight, the kobold has Disadvantage on ability checks and attack rolls."
+      "rulesText": "Pack Tactics. The kobold has Advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nSunlight Sensitivity. While in sunlight, the kobold has Disadvantage on ability checks and attack rolls.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.148",
+        "heading": "Traits",
+        "lineStart": 22630,
+        "lineEnd": 22634
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Dagger. Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage."
+      "rulesText": "Dagger. Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.148",
+        "heading": "Actions",
+        "lineStart": 22636,
+        "lineEnd": 22638
+      }
     }
   ],
   "rulesText": "Small Dragon, Neutral\n\nAC 14\nInitiative +2 (12)\nHP 7 (3d6 - 3)\nSpeed 30 ft.\n\nGear Daggers (3)\nSenses Darkvision 60 ft.; Passive Perception 8\nLanguages Common, Draconic\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nPack Tactics. The kobold has Advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nSunlight Sensitivity. While in sunlight, the kobold has Disadvantage on ability checks and attack rolls.\n\nActions\n\nDagger. Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage.",
@@ -83,15 +97,22 @@
     {
       "name": "Dagger",
       "attackType": "Melee or Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 4,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "1d4+2",
+            "count": 1,
+            "sides": 4,
+            "modifier": 2
+          }
+        }
+      ],
+      "sourceText": "Dagger. Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage.",
+      "path": "statSections[1].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
       "attackBonus": 4,
-      "averageDamage": 4,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "1d4+2",
-        "count": 1,
-        "sides": 4,
-        "modifier": 2
-      },
       "reachFeet": 5,
       "rangeFeet": {
         "normal": 20,

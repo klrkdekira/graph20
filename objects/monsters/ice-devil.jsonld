@@ -72,11 +72,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Diabolical Restoration. If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nMagic Resistance. The devil has Advantage on saving throws against spells and other magical effects."
+      "rulesText": "Diabolical Restoration. If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nMagic Resistance. The devil has Advantage on saving throws against spells and other magical effects.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.141",
+        "heading": "Traits",
+        "lineStart": 22403,
+        "lineEnd": 22407
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The devil makes three Ice Spear attacks. It can replace one attack with a Tail attack.\n\nIce Spear. Melee or Ranged Attack Roll: +10, reach 5 ft. or range 30/120 ft. Hit: 14 (2d8 + 5) Piercing damage plus 10 (3d6) Cold damage. Until the end of its next turn, the target can't take a Bonus Action or Reaction, its Speed decreases by 10 feet, and it can move or take one action on its turn, not both. Hit or Miss: The spear magically returns to the devil's hand immediately after a ranged attack.\n\nTail. Melee Attack Roll: +10, reach 10 ft. Hit: 15 (3d6 + 5) Bludgeoning damage plus 18 (4d8) Cold damage.\n\nIce Wall (Recharge 6). The devil casts Wall of Ice (level 8 version), requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 17)."
+      "rulesText": "Multiattack. The devil makes three Ice Spear attacks. It can replace one attack with a Tail attack.\n\nIce Spear. Melee or Ranged Attack Roll: +10, reach 5 ft. or range 30/120 ft. Hit: 14 (2d8 + 5) Piercing damage plus 10 (3d6) Cold damage. Until the end of its next turn, the target can't take a Bonus Action or Reaction, its Speed decreases by 10 feet, and it can move or take one action on its turn, not both. Hit or Miss: The spear magically returns to the devil's hand immediately after a ranged attack.\n\nTail. Melee Attack Roll: +10, reach 10 ft. Hit: 15 (3d6 + 5) Bludgeoning damage plus 18 (4d8) Cold damage.\n\nIce Wall (Recharge 6). The devil casts Wall of Ice (level 8 version), requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 17).",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.141",
+        "heading": "Actions",
+        "lineStart": 22409,
+        "lineEnd": 22417
+      }
     }
   ],
   "rulesText": "Large Fiend (Devil), Lawful Evil\n\nAC 18\nInitiative +7 (17)\nHP 228 (24d10 + 96)\nSpeed 40 ft.\n\nSkills Insight +7, Perception +7, Persuasion +9\nImmunities Cold, Fire, Poison; Poisoned\nSenses Blindsight 120 ft.; Passive Perception 17\nLanguages Infernal; telepathy 120 ft.\nCR 14 (XP 11,500; PB +5)\n\nTraits\n\nDiabolical Restoration. If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nMagic Resistance. The devil has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The devil makes three Ice Spear attacks. It can replace one attack with a Tail attack.\n\nIce Spear. Melee or Ranged Attack Roll: +10, reach 5 ft. or range 30/120 ft. Hit: 14 (2d8 + 5) Piercing damage plus 10 (3d6) Cold damage. Until the end of its next turn, the target can't take a Bonus Action or Reaction, its Speed decreases by 10 feet, and it can move or take one action on its turn, not both. Hit or Miss: The spear magically returns to the devil's hand immediately after a ranged attack.\n\nTail. Melee Attack Roll: +10, reach 10 ft. Hit: 15 (3d6 + 5) Bludgeoning damage plus 18 (4d8) Cold damage.\n\nIce Wall (Recharge 6). The devil casts Wall of Ice (level 8 version), requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 17).",
@@ -89,15 +103,31 @@
     {
       "name": "Ice Spear",
       "attackType": "Melee or Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 14,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d8+5",
+            "count": 2,
+            "sides": 8,
+            "modifier": 5
+          }
+        },
+        {
+          "averageDamage": 10,
+          "damageType": "Cold",
+          "damageRoll": {
+            "expression": "3d6",
+            "count": 3,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Ice Spear. Melee or Ranged Attack Roll: +10, reach 5 ft. or range 30/120 ft. Hit: 14 (2d8 + 5) Piercing damage plus 10 (3d6) Cold damage. Until the end of its next turn, the target can't take a Bonus Action or Reaction, its Speed decreases by 10 feet, and it can move or take one action on its turn, not both. Hit or Miss: The spear magically returns to the devil's hand immediately after a ranged attack.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 10,
-      "averageDamage": 14,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d8+5",
-        "count": 2,
-        "sides": 8,
-        "modifier": 5
-      },
       "reachFeet": 5,
       "rangeFeet": {
         "normal": 30,
@@ -107,15 +137,31 @@
     {
       "name": "Tail",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 15,
+          "damageType": "Bludgeoning",
+          "damageRoll": {
+            "expression": "3d6+5",
+            "count": 3,
+            "sides": 6,
+            "modifier": 5
+          }
+        },
+        {
+          "averageDamage": 18,
+          "damageType": "Cold",
+          "damageRoll": {
+            "expression": "4d8",
+            "count": 4,
+            "sides": 8
+          }
+        }
+      ],
+      "sourceText": "Tail. Melee Attack Roll: +10, reach 10 ft. Hit: 15 (3d6 + 5) Bludgeoning damage plus 18 (4d8) Cold damage.",
+      "path": "statSections[1].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 10,
-      "averageDamage": 15,
-      "damageType": "Bludgeoning",
-      "damageRoll": {
-        "expression": "3d6+5",
-        "count": 3,
-        "sides": 6,
-        "modifier": 5
-      },
       "reachFeet": 10
     }
   ]

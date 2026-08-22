@@ -73,11 +73,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Barbed Hide. At the start of each of its turns, the devil deals 5 (1d10) Piercing damage to any creature it is grappling or any creature grappling it.\n\nDiabolical Restoration. If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nMagic Resistance. The devil has Advantage on saving throws against spells and other magical effects."
+      "rulesText": "Barbed Hide. At the start of each of its turns, the devil deals 5 (1d10) Piercing damage to any creature it is grappling or any creature grappling it.\n\nDiabolical Restoration. If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nMagic Resistance. The devil has Advantage on saving throws against spells and other magical effects.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.20",
+        "heading": "Traits",
+        "lineStart": 18552,
+        "lineEnd": 18558
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The devil makes one Claws attack and one Tail attack, or it makes two Hurl Flame attacks.\n\nClaws. Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 13) from both claws.\n\nTail. Melee Attack Roll: +6, reach 10 ft. Hit: 14 (2d10 + 3) Slashing damage.\n\nHurl Flame. Ranged Attack Roll: +5, range 150 ft. Hit: 17 (5d6) Fire damage. If the target is a flammable object that isn't being worn or carried, it starts burning."
+      "rulesText": "Multiattack. The devil makes one Claws attack and one Tail attack, or it makes two Hurl Flame attacks.\n\nClaws. Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 13) from both claws.\n\nTail. Melee Attack Roll: +6, reach 10 ft. Hit: 14 (2d10 + 3) Slashing damage.\n\nHurl Flame. Ranged Attack Roll: +5, range 150 ft. Hit: 17 (5d6) Fire damage. If the target is a flammable object that isn't being worn or carried, it starts burning.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.20",
+        "heading": "Actions",
+        "lineStart": 18560,
+        "lineEnd": 18568
+      }
     }
   ],
   "rulesText": "Medium Fiend (Devil), Lawful Evil\n\nAC 15\nInitiative +3 (13)\nHP 110 (13d8 + 52)\nSpeed 30 ft., Climb 30 ft.\n\nSkills Deception +5, Insight +5, Perception +8\nResistances Cold\nImmunities Fire, Poison; Poisoned\nSenses Darkvision 120 ft. (unimpeded by magical\n\nDarkness); Passive Perception 18\n\nLanguages Infernal; telepathy 120 ft.\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nBarbed Hide. At the start of each of its turns, the devil deals 5 (1d10) Piercing damage to any creature it is grappling or any creature grappling it.\n\nDiabolical Restoration. If the devil dies outside the Nine Hells, its body disappears in sulfurous smoke, and it gains a new body instantly, reviving with all its Hit Points somewhere in the Nine Hells.\n\nMagic Resistance. The devil has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The devil makes one Claws attack and one Tail attack, or it makes two Hurl Flame attacks.\n\nClaws. Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 13) from both claws.\n\nTail. Melee Attack Roll: +6, reach 10 ft. Hit: 14 (2d10 + 3) Slashing damage.\n\nHurl Flame. Ranged Attack Roll: +5, range 150 ft. Hit: 17 (5d6) Fire damage. If the target is a flammable object that isn't being worn or carried, it starts burning.",
@@ -90,42 +104,63 @@
     {
       "name": "Claws",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 10,
+          "damageType": "Piercing",
+          "damageRoll": {
+            "expression": "2d6+3",
+            "count": 2,
+            "sides": 6,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Claws. Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 13) from both claws.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 10,
-      "damageType": "Piercing",
-      "damageRoll": {
-        "expression": "2d6+3",
-        "count": 2,
-        "sides": 6,
-        "modifier": 3
-      },
       "reachFeet": 5
     },
     {
       "name": "Tail",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 14,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "2d10+3",
+            "count": 2,
+            "sides": 10,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Tail. Melee Attack Roll: +6, reach 10 ft. Hit: 14 (2d10 + 3) Slashing damage.",
+      "path": "statSections[1].rulesText.paragraphs[2]",
+      "parseStatus": "parsed",
       "attackBonus": 6,
-      "averageDamage": 14,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "2d10+3",
-        "count": 2,
-        "sides": 10,
-        "modifier": 3
-      },
       "reachFeet": 10
     },
     {
       "name": "Hurl Flame",
       "attackType": "Ranged",
+      "damageComponents": [
+        {
+          "averageDamage": 17,
+          "damageType": "Fire",
+          "damageRoll": {
+            "expression": "5d6",
+            "count": 5,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Hurl Flame. Ranged Attack Roll: +5, range 150 ft. Hit: 17 (5d6) Fire damage. If the target is a flammable object that isn't being worn or carried, it starts burning.",
+      "path": "statSections[1].rulesText.paragraphs[3]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 17,
-      "damageType": "Fire",
-      "damageRoll": {
-        "expression": "5d6",
-        "count": 5,
-        "sides": 6
-      },
       "rangeFeet": {
         "normal": 150
       }

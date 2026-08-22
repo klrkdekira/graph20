@@ -72,12 +72,58 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Pact Blade. Melee Attack Roll: +4, reach 5 ft.\n\nHit: 6 (1d8 + 2) Slashing damage plus 7 (2d6) Necrotic damage.\n\nSpellcasting. The cultist casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 12, +4 to hit with spell attacks):\n\nAt Will: Light, Thaumaturgy\n\n2/Day: Command\n\n1/Day: Hold Person"
+      "rulesText": "Pact Blade. Melee Attack Roll: +4, reach 5 ft.\n\nHit: 6 (1d8 + 2) Slashing damage plus 7 (2d6) Necrotic damage.\n\nSpellcasting. The cultist casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 12, +4 to hit with spell attacks):\n\nAt Will: Light, Thaumaturgy\n\n2/Day: Command\n\n1/Day: Hold Person",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.72",
+        "heading": "Actions",
+        "lineStart": 20180,
+        "lineEnd": 20192
+      }
     },
     {
       "name": "Bonus Actions",
-      "rulesText": "Spiritual Weapon (2/Day). The cultist casts the Spiritual Weapon spell, using the same spellcasting ability as Spellcasting."
+      "rulesText": "Spiritual Weapon (2/Day). The cultist casts the Spiritual Weapon spell, using the same spellcasting ability as Spellcasting.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.72",
+        "heading": "Bonus Actions",
+        "lineStart": 20194,
+        "lineEnd": 20196
+      }
     }
   ],
-  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 13\nInitiative +2 (12)\nHP 44 (8d8 + 8)\nSpeed 30 ft.\n\nSkills Deception +3, Persuasion +3, Religion +2\nGear Holy Symbol, Leather Armor\nSenses Passive Perception 12\nLanguages Common\nCR 2 (XP 450; PB +2)\n\nActions\n\nPact Blade. Melee Attack Roll: +4, reach 5 ft.\n\nHit: 6 (1d8 + 2) Slashing damage plus 7 (2d6) Necrotic damage.\n\nSpellcasting. The cultist casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 12, +4 to hit with spell attacks):\n\nAt Will: Light, Thaumaturgy\n\n2/Day: Command\n\n1/Day: Hold Person\n\nBonus Actions\n\nSpiritual Weapon (2/Day). The cultist casts the Spiritual Weapon spell, using the same spellcasting ability as Spellcasting."
+  "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 13\nInitiative +2 (12)\nHP 44 (8d8 + 8)\nSpeed 30 ft.\n\nSkills Deception +3, Persuasion +3, Religion +2\nGear Holy Symbol, Leather Armor\nSenses Passive Perception 12\nLanguages Common\nCR 2 (XP 450; PB +2)\n\nActions\n\nPact Blade. Melee Attack Roll: +4, reach 5 ft.\n\nHit: 6 (1d8 + 2) Slashing damage plus 7 (2d6) Necrotic damage.\n\nSpellcasting. The cultist casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 12, +4 to hit with spell attacks):\n\nAt Will: Light, Thaumaturgy\n\n2/Day: Command\n\n1/Day: Hold Person\n\nBonus Actions\n\nSpiritual Weapon (2/Day). The cultist casts the Spiritual Weapon spell, using the same spellcasting ability as Spellcasting.",
+  "attacks": [
+    {
+      "name": "Pact Blade",
+      "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 6,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d8+2",
+            "count": 1,
+            "sides": 8,
+            "modifier": 2
+          }
+        },
+        {
+          "averageDamage": 7,
+          "damageType": "Necrotic",
+          "damageRoll": {
+            "expression": "2d6",
+            "count": 2,
+            "sides": 6
+          }
+        }
+      ],
+      "sourceText": "Pact Blade. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage plus 7 (2d6) Necrotic damage.",
+      "path": "statSections[0].rulesText.paragraphs[0]",
+      "parseStatus": "parsed",
+      "attackBonus": 4,
+      "reachFeet": 5
+    }
+  ]
 }

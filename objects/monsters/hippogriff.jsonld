@@ -71,11 +71,25 @@
   "statSections": [
     {
       "name": "Traits",
-      "rulesText": "Flyby. The hippogriff doesn't provoke an Opportunity Attack when it flies out of an enemy's reach."
+      "rulesText": "Flyby. The hippogriff doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.134",
+        "heading": "Traits",
+        "lineStart": 22205,
+        "lineEnd": 22207
+      }
     },
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The hippogriff makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage."
+      "rulesText": "Multiattack. The hippogriff makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.",
+      "sourceLocator": {
+        "chapter": "Monsters A-Z",
+        "section": "12.134",
+        "heading": "Actions",
+        "lineStart": 22209,
+        "lineEnd": 22213
+      }
     }
   ],
   "rulesText": "Large Monstrosity, Unaligned\n\nAC 11\nInitiative +1 (11)\nHP 26 (4d10 + 4)\nSpeed 40 ft., Fly 60 ft.\n\nSkills Perception +5\nSenses Passive Perception 15\nLanguages None\nCR 1 (XP 200; PB +2)\n\nTraits\n\nFlyby. The hippogriff doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nMultiattack. The hippogriff makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.",
@@ -83,15 +97,22 @@
     {
       "name": "Rend",
       "attackType": "Melee",
+      "damageComponents": [
+        {
+          "averageDamage": 7,
+          "damageType": "Slashing",
+          "damageRoll": {
+            "expression": "1d8+3",
+            "count": 1,
+            "sides": 8,
+            "modifier": 3
+          }
+        }
+      ],
+      "sourceText": "Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "parsed",
       "attackBonus": 5,
-      "averageDamage": 7,
-      "damageType": "Slashing",
-      "damageRoll": {
-        "expression": "1d8+3",
-        "count": 1,
-        "sides": 8,
-        "modifier": 3
-      },
       "reachFeet": 5
     }
   ]

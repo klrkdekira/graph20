@@ -11,6 +11,7 @@ import hashlib
 import json
 import re
 from pathlib import Path
+from typing import Iterator
 
 BASE = "https://cheeleong.dev/graph20/"
 CONTEXT_IRI = BASE + "systems/context.jsonld"
@@ -131,3 +132,50 @@ def iter_object_files(root: Path):
             continue
         for path in sorted(directory.glob("*.jsonld")):
             yield collection, path
+
+
+# Fields that identify or locate a value but are not useful corpus text.
+PROJECTION_IGNORED_KEYS = {
+    "@context",
+    "@id",
+    "@type",
+    "slug",
+    "source",
+    "sourceLocator",
+    "contentDigest",
+    "sourceDigest",
+    "corpusDigest",
+}
+
+
+def iter_text_fragments(
+    value,
+    path: str = "",
+    locator: dict | None = None,
+) -> Iterator[dict]:
+    """Yield every human-meaningful scalar with its structural path.
+
+    This is the shared, recursive textual projection used by LLM output,
+    search, and semantic-review tooling.  A nested source locator overrides
+    its parent's locator so feature-level review signals retain precise
+    provenance.
+    """
+    if isinstance(value, dict):
+        inherited = value.get("sourceLocator", locator)
+        for key, child in value.items():
+            if key in PROJECTION_IGNORED_KEYS:
+                continue
+            child_path = f"{path}.{key}" if path else key
+            yield from iter_text_fragments(child, child_path, inherited)
+    elif isinstance(value, list):
+        for index, child in enumerate(value):
+            yield from iter_text_fragments(child, f"{path}[{index}]", locator)
+    elif isinstance(value, (str, int, float, bool)):
+        text = str(value)
+        if text:
+            yield {"path": path, "text": text, "sourceLocator": locator}
+
+
+def projected_text(record: dict) -> str:
+    """Return a complete plain-text projection of a corpus record."""
+    return "\n".join(fragment["text"] for fragment in iter_text_fragments(record))
