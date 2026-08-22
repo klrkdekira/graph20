@@ -11,8 +11,8 @@
     "chapter": "Feats",
     "section": "5.3",
     "heading": "Parts of a Feat",
-    "lineStart": 5769,
-    "lineEnd": 5779
+    "lineStart": 5757,
+    "lineEnd": 5767
   },
   "section": "5.3",
   "rulesText": "The description of a feat contains the following parts, which are presented after the feat's name.\n\nCategory. A feat is a member of a category, which is noted in the feat. If you're instructed to choose a feat from a specific category, such as the Origin category, that category must appear under the feat's name. If you're instructed to choose a feat and no category is specified, you can choose from any category.\n\nPrerequisite. To take a feat, you must meet any prerequisite in its description unless a feature allows you to take the feat without the prerequisite. If a prerequisite includes a class, you must have at least 1 level in that class to take the feat.\n\nBenefit. The benefits of a feat are detailed after any prerequisites are listed. If you have a feat, you gain its benefits.\n\nRepeatable. A feat can be taken only once unless its description states otherwise in a “Repeatable” subsection."

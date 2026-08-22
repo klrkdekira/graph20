@@ -11,8 +11,8 @@
     "chapter": "Monsters",
     "section": "11.36",
     "heading": "Limited Usage",
-    "lineStart": 18090,
-    "lineEnd": 18100
+    "lineStart": 18056,
+    "lineEnd": 18066
   },
   "section": "11.36",
   "rulesText": "Some parts of a stat block have restrictions on the number of times they can be used. Here are the most common ways that usage is limited:\n\nX/Day. This notation means the stat block part can be used a certain number of times (represented by X) and that a monster must finish a Long Rest to regain expended uses. For example, a Reaction that includes “1/Day” means the Reaction can be taken once and that the monster must finish a Long Rest to take it again.\n\nRecharge X–Y. This notation means a monster can use the stat block part once. At the start of each of the monster's turns, roll 1d6. If the roll is within the number range given in the notation (represented by X–Y), the monster regains the use of that part, which also recharges when the monster finishes a Short or Long Rest. For example, \"Recharge 5–6\" in an action means a monster can take the action once. Then, at the start of each of the monster's turns, it regains the use of that action if it rolls a 5 or 6 on 1d6.\n\nRecharge after a Short or Long Rest. This notation means the monster can use the stat block part once and must then finish a Short or Long Rest to use it again.\n\n---"

@@ -11,11 +11,11 @@
     "chapter": "Character Creation",
     "section": "2.12",
     "heading": "Choose Languages",
-    "lineStart": 975,
-    "lineEnd": 1008
+    "lineStart": 969,
+    "lineEnd": 1002
   },
   "section": "2.12",
-  "rulesText": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table. Knowledge of a language means your character can communicate in it, read it, and write it. Your class and other features might also give you languages.\n\nThe Standard Languages table lists languages that are widespread in the setting. Every player character knows Common. The other standard languages originated with the first members of the most prominent species in the setting and have since spread widely.\n\nStandard Languages\n\nThe Rare Languages table lists languages that are either secret or derived from other planes of existence and thus less widespread in the worlds of the Material Plane. Some features let a character learn a rare language.\n\nRare Languages\n\n\\*Primordial includes the Aquan, Auran, Ignan, and Terran dialects. Creatures that know one of these dialects can communicate with those that know a different one.",
+  "rulesText": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table. Knowledge of a language means your character can communicate in it, read it, and write it. Your class and other features might also give you languages.\n\nThe Standard Languages table lists languages that are widespread in the setting. Every player character knows Common. The other standard languages originated with the first members of the most prominent species in the setting and have since spread widely.\n\nStandard Languages\n\nThe Rare Languages table lists languages that are either secret or derived from other planes of existence and thus less widespread in the worlds of the Material Plane. Some features let a character learn a rare language.\n\nRare Languages\n\n*Primordial includes the Aquan, Auran, Ignan, and Terran dialects. Creatures that know one of these dialects can communicate with those that know a different one.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/2-12-standard-languages"

@@ -11,8 +11,8 @@
     "chapter": "Equipment",
     "section": "6.32",
     "heading": "Tools",
-    "lineStart": 6172,
-    "lineEnd": 6182
+    "lineStart": 6160,
+    "lineEnd": 6170
   },
   "section": "6.32",
   "rulesText": "A tool helps you make specialized ability checks, craft certain items, or both. A tool's description includes the tool's cost and weight, as well as the following entries:\n\nAbility. This entry lists the ability to use when making an ability check with the tool.\n\nUtilize. This entry lists things you can do with the tool when you take the Utilize action. You can do one of those things each time you take the action. This entry also provides the DC for the action.\n\nCraft. This entry lists what, if anything, you can craft with the tool. For crafting rules, see \"Crafting Nonmagical Items,\" \"Brewing Potions of Healing,\" and \"Scribing Spell Scrolls\" later in \"Equipment.\"\n\nVariants. This entry appears if the tool has variants, which are listed. Each requires a separate proficiency."

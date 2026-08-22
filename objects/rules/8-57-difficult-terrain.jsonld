@@ -11,8 +11,8 @@
     "chapter": "Rules Glossary",
     "section": "8.57",
     "heading": "Difficult Terrain",
-    "lineStart": 13158,
-    "lineEnd": 13169
+    "lineStart": 13140,
+    "lineEnd": 13151
   },
   "section": "8.57",
   "rulesText": "If a space is Difficult Terrain, every foot of movement in that space costs 1 extra foot. For example, moving 5 feet through Difficult Terrain costs 10 feet of movement. Difficult Terrain isn't cumulative; either a space is Difficult Terrain or it isn't.\n\nA space is Difficult Terrain if the space contains any of the following or something similar:\n\n- A creature that isn’t Tiny or your ally\n- Furniture that is sized for creatures of your size or larger\n- Heavy snow, ice, rubble, or undergrowth\n- Liquid that's between shin- and waist-deep\n- A narrow opening sized for a creature one size smaller than you\n- A slope of 20 degrees or more"

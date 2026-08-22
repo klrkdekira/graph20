@@ -38,15 +38,13 @@ The three main pillars of D&D play are social interaction, exploration, and comb
 
 3: The GM Narrates the Results of the Adventurers' Actions. Sometimes resolving a task is easy. If an adventurer walks across a room and tries to open a door, the GM might say the door opens and describe what lies beyond. But the door might be locked, the floor might hide a trap, or some other circumstance might make it challenging for an adventurer to complete a task. In those cases, the GM might ask the player to roll a die to help determine what happens. Describing the results often leads to another decision point, which brings the game back to step 1.
 
-This pattern holds during every game session (each time you sit down to play D&D), whether the
+This pattern holds during every game session (each time you sit down to play D&D), whether the adventurers are talking to a noble, exploring a ruin, or fighting a dragon. In certain situations - particularly combat - the action is more structured, and everyone takes turns.
 
-# EXCEPTIONS SUPERSEDE GENERAL RULES
+# Exceptions Supersede General Rules
 
 General rules govern each part of the game. For example, the combat rules tell you that melee attacks use Strength and ranged attacks use Dexterity. That's a general rule, and a general rule is in effect as long as something in the game doesn't explicitly say otherwise.
 
 The game also includes elements - class features, feats, weapon properties, spells, magic items, monster abilities, and the like - that sometimes contradict a general rule. When an exception and a general rule disagree, the exception wins. For example, if a feature says you can make melee attacks using your Charisma, you can do so, even though that statement disagrees with the general rule.
-
-adventurers are talking to a noble, exploring a ruin, or fighting a dragon. In certain situations - particularly combat - the action is more structured, and everyone takes turns.
 
 # The Six Abilities
 
@@ -221,9 +219,9 @@ If you roll a 1 on the d20 (a “natural 1”) for an attack roll, the attack mi
 
 Sometimes a D20 Test is modified by Advantage or Disadvantage. Advantage reflects the positive circumstances surrounding a d20 roll, while Disadvantage reflects negative circumstances.
 
-You usually acquire Advantage or Disadvantage through the use of special abilities and actions. The
+You usually acquire Advantage or Disadvantage through the use of special abilities and actions. The GM can also decide that circumstances grant Advantage or impose Disadvantage.
 
-# HEROIC INSPIRATION
+# Heroic Inspiration
 
 Sometimes the GM or a rule gives you Heroic Inspiration. If you have Heroic Inspiration, you can expend it to reroll any die immediately after rolling it, and you must use the new roll.
 
@@ -232,8 +230,6 @@ Only One at a Time. You can never have more than one instance of Heroic Inspirat
 Gaining Heroic Inspiration. Your GM can give you Heroic Inspiration for a variety of reasons. Typically, GMs award it when you do something particularly heroic, in character, or entertaining. It's a reward for making the game more fun for everyone playing.
 
 Other rules might allow your character to gain Heroic Inspiration independent of the GM's decision. For example, Human characters start each day with Heroic Inspiration.
-
-GM can also decide that circumstances grant Advantage or impose Disadvantage.
 
 # Roll Two D20s
 
@@ -734,17 +730,15 @@ Injury and death are frequent threats, as detailed in the following rules.
 
 # Hit Points
 
-Hit Points represent durability and the will to live. Creatures with more Hit Points are more difficult to kill. Your Hit Point maximum is the number of
-
-# RESTING
-
-Adventurers can't spend every hour adventuring. They need rest. Any creature can take hour-long Short Rests in the midst of a day and an 8-hour Long Rest to end it. Regaining Hit Points is one of the main benefits of a rest. “Rules Glossary” provides the rules for Short and Long Rests.
-
-Hit Points you have when uninjured. Your current Hit Points can be any number from that maximum down to 0, which is the lowest Hit Points can go.
+Hit Points represent durability and the will to live. Creatures with more Hit Points are more difficult to kill. Your Hit Point maximum is the number of Hit Points you have when uninjured. Your current Hit Points can be any number from that maximum down to 0, which is the lowest Hit Points can go.
 
 Whenever you take damage, subtract it from your Hit Points. Hit Point loss has no effect on your capabilities until you reach 0 Hit Points.
 
 If you have half your Hit Points or fewer, you're Bloodied, which has no game effect on its own but which might trigger other game effects.
+
+# Resting
+
+Adventurers can't spend every hour adventuring. They need rest. Any creature can take hour-long Short Rests in the midst of a day and an 8-hour Long Rest to end it. Regaining Hit Points is one of the main benefits of a rest. “Rules Glossary” provides the rules for Short and Long Rests.
 
 # Damage Rolls
 
@@ -1005,7 +999,7 @@ Rare Languages
 | Druidic     | Undercommon   |
 | Infernal    |               |
 
-\*Primordial includes the Aquan, Auran, Ignan, and Terran dialects. Creatures that know one of these dialects can communicate with those that know a different one.
+*Primordial includes the Aquan, Auran, Ignan, and Terran dialects. Creatures that know one of these dialects can communicate with those that know a different one.
 
 # Step 3: Ability Scores
 
@@ -1573,9 +1567,9 @@ Core Barbarian Traits
 
 # As a Level 1 Character
 
-\- Gain all the traits in the Core Barbarian Traits table.
+- Gain all the traits in the Core Barbarian Traits table.
 
-\- Gain the Barbarian's level 1 features, which are listed in the Barbarian Features table.
+- Gain the Barbarian's level 1 features, which are listed in the Barbarian Features table.
 
 # As a Multiclass Character
 
@@ -1585,12 +1579,6 @@ Core Barbarian Traits
 # Barbarian Class Features
 
 As a Barbarian, you gain the following class features when you reach the specified Barbarian levels. These features are listed in the Barbarian Features table.
-
-# Level 1: Rage
-
-You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren't wearing Heavy armor.
-
-You can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian Features table. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.
 
 Barbarian Features
 
@@ -1616,6 +1604,12 @@ Barbarian Features
 | 18    | +6                | Indomitable Might                       | 6     | +4          | 4              |
 | 19    | +6                | Epic Boon                               | 6     | +4          | 4              |
 | 20    | +6                | Primal Champion                         | 6     | +4          | 4              |
+
+# Level 1: Rage
+
+You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren't wearing Heavy armor.
+
+You can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian Features table. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.
 
 While active, your Rage follows the rules below.
 
@@ -1771,9 +1765,9 @@ Core Bard Traits
 
 # As a Level 1 Character
 
-\- Gain all the traits in the Core Bard Traits table.
+- Gain all the traits in the Core Bard Traits table.
 
-\- Gain the Bard's level 1 features, which are listed in the Bard Features table.
+- Gain the Bard's level 1 features, which are listed in the Bard Features table.
 
 # As a Multiclass Character
 
@@ -1783,12 +1777,6 @@ Core Bard Traits
 # Bard Class Features
 
 As a Bard, you gain the following class features when you reach the specified Bard levels. These features are listed in the Bard Features table.
-
-# Level 1: Bardic Inspiration
-
-You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6.
-
-Using Bardic Inspiration. As a Bonus Action, you can inspire another creature within 60 feet of yourself who can see or hear you. That creature gains
 
 Bard Features
 
@@ -1816,7 +1804,11 @@ Bard Features
 | 19    | +6                | Epic Boon                        | D12        | 4        | 21              | 4                               | 3   | 3   | 3   | 3   | 2   | 1   | 1   | 1   |
 | 20    | +6                | Words of Creation                | D12        | 4        | 22              | 4                               | 3   | 3   | 3   | 3   | 2   | 2   | 1   | 1   |
 
-one of your Bardic Inspiration dice. A creature can have only one Bardic Inspiration die at a time.
+# Level 1: Bardic Inspiration
+
+You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6.
+
+Using Bardic Inspiration. As a Bonus Action, you can inspire another creature within 60 feet of yourself who can see or hear you. That creature gains one of your Bardic Inspiration dice. A creature can have only one Bardic Inspiration die at a time.
 
 Once within the next hour when the creature fails a D20 Test, the creature can roll the Bardic Inspiration die and add the number rolled to the d20, potentially turning the failure into a success. A Bardic Inspiration die is expended when it's rolled.
 
@@ -2135,14 +2127,6 @@ Core Cleric Traits
 
 As a Cleric, you gain the following class features when you reach the specified Cleric levels. These features are listed in the Cleric Features table.
 
-# Level 1: Spellcasting
-
-You have learned to cast spells through prayer and meditation. See “Spells” for the rules on spellcasting. The information below details how you use those rules with Cleric spells, which appear on the Cleric spell list later in the class’s description.
-
-Cantrips. You know three cantrips of your choice from the Cleric spell list. Guidance, Sacred Flame, and Thaumaturgy are recommended.
-
-Whenever you gain a Cleric level, you can replace one of your cantrips with another cantrip of your choice from the Cleric spell list.
-
 Cleric Features
 
 | Proficiency |       |                             | Channel Divinity | Cantrips | Prepared Spells | -Spell Slots per Spell Level- |     |     |     |     |     |     |     |     |
@@ -2168,6 +2152,14 @@ Cleric Features
 | 18          | +6    |              -              | 4                | 5        | 20              | 4                             | 3   | 3   | 3   | 3   | 1   | 1   | 1   | 1   |
 | 19          | +6    | Epic Boon                   | 4                | 5        | 21              | 4                             | 3   | 3   | 3   | 3   | 2   | 1   | 1   | 1   |
 | 20          | +6    | Greater Divine Intervention | 4                | 5        | 22              | 4                             | 3   | 3   | 3   | 3   | 2   | 2   | 1   | 1   |
+
+# Level 1: Spellcasting
+
+You have learned to cast spells through prayer and meditation. See “Spells” for the rules on spellcasting. The information below details how you use those rules with Cleric spells, which appear on the Cleric spell list later in the class’s description.
+
+Cantrips. You know three cantrips of your choice from the Cleric spell list. Guidance, Sacred Flame, and Thaumaturgy are recommended.
+
+Whenever you gain a Cleric level, you can replace one of your cantrips with another cantrip of your choice from the Cleric spell list.
 
 When you reach Cleric levels 4 and 10, you learn another cantrip of your choice from the Cleric spell list, as shown in the Cantrips column of the Cleric Features table.
 
@@ -2477,10 +2469,6 @@ Core Druid Traits
 
 As a Druid, you gain the following class features when you reach the specified Druid levels. These features are listed in the Druid Features table.
 
-# Level 1: Spellcasting
-
-You have learned to cast spells through studying the mystical forces of nature. See “Spells” for the rules on spellcasting. The information below details
-
 Druid Features
 
 | Proficiency Level | Bonus | Class Features                      | Wild Shape | Cantrips | Prepared Spells | -Spell Slots per Spell Level- |     |     |     |     |     |     |     |     |
@@ -2506,6 +2494,10 @@ Druid Features
 | 18                | +6    | Beast Spells                        | 4          | 4        | 20              | 4                             | 3   | 3   | 3   | 3   | 1   | 1   | 1   | 1   |
 | 19                | +6    | Epic Boon                           | 4          | 4        | 21              | 4                             | 3   | 3   | 3   | 3   | 2   | 1   | 1   | 1   |
 | 20                | +6    | Archdruid                           | 4          | 4        | 22              | 4                             | 3   | 3   | 3   | 3   | 2   | 2   | 1   | 1   |
+
+# Level 1: Spellcasting
+
+You have learned to cast spells through studying the mystical forces of nature. See “Spells” for the rules on spellcasting. The information below details
 
 how you use those rules with Druid spells, which appear on the Druid spell list later in the class's description.
 
@@ -2913,12 +2905,6 @@ Core Fighter Traits
 
 As a Fighter, you gain the following class features when you reach the specified Fighter levels. These features are listed on the Fighter Features table.
 
-# Level 1: Fighting Style
-
-You have honed your martial prowess and gain a Fighting Style feat of your choice (see “Feats”). Defense is recommended.
-
-Whenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat.
-
 Fighter Features
 
 | Level | Proficiency Bonus | Class Features                                    | Second Wind | Weapon Mastery |
@@ -2943,6 +2929,12 @@ Fighter Features
 | 18    | +6                | Subclass feature                                  | 4           | 6              |
 | 19    | +6                | Epic Boon                                         | 4           | 6              |
 | 20    | +6                | Three Extra Attacks                               | 4           | 6              |
+
+# Level 1: Fighting Style
+
+You have honed your martial prowess and gain a Fighting Style feat of your choice (see “Feats”). Defense is recommended.
+
+Whenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat.
 
 # Level 1: Second Wind
 
@@ -3281,9 +3273,9 @@ Core Paladin Traits
 
 # As a Level 1 Character
 
-\- Gain all the traits in the Core Paladin Traits table.
+- Gain all the traits in the Core Paladin Traits table.
 
-\- Gain the Paladin's level 1 features, which are listed in the Paladin Features table.
+- Gain the Paladin's level 1 features, which are listed in the Paladin Features table.
 
 # As a Multiclass Character
 
@@ -3293,10 +3285,6 @@ Core Paladin Traits
 # Paladin Class Features
 
 As a Paladin, you gain the following class features when you reach the specified Paladin levels. These features are listed in the Paladin Features table.
-
-# Level 1: Lay On Hands
-
-Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you finish a Long Rest. With that pool, you can restore a total number of Hit Points equal to five times your Paladin level.
 
 Paladin Features
 
@@ -3323,6 +3311,10 @@ Paladin Features
 | 18    | +6                | Aura Expansion                             | 3                | 14              | 4                             | 3   | 3   | 3   | 1   |
 | 19    | +6                | Epic Boon                                  | 3                | 15              | 4                             | 3   | 3   | 3   | 2   |
 | 20    | +6                | Subclass feature                           | 3                | 15              | 4                             | 3   | 3   | 3   | 2   |
+
+# Level 1: Lay On Hands
+
+Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you finish a Long Rest. With that pool, you can restore a total number of Hit Points equal to five times your Paladin level.
 
 As a Bonus Action, you can touch a creature (which could be yourself) and draw power from the pool of healing to restore a number of Hit Points to that creature, up to the maximum amount remaining in the pool.
 
@@ -3582,12 +3574,6 @@ Core Ranger Traits
 
 As a Ranger, you gain the following class features when you reach the specified Ranger levels. These features are listed in the Ranger Features table.
 
-# Level 1: Spellcasting
-
-You have learned to channel the magical essence of nature to cast spells. See “Spells” for the rules on spellcasting. The information below details how you use those rules with Ranger spells, which appear in the Ranger spell list later in the class’s description.
-
-Spell Slots. The Ranger Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
-
 Ranger Features
 
 | Level | Proficiency Bonus | Class Features                              | Favored Enemy | Prepared Spells | -Spell Slots per Spell Level- |     |     |     |     |
@@ -3613,6 +3599,12 @@ Ranger Features
 | 18    | +6                | Feral Senses                                | 6             | 14              | 4                             | 3   | 3   | 3   | 1   |
 | 19    | +6                | Epic Boon                                   | 6             | 15              | 4                             | 3   | 3   | 3   | 2   |
 | 20    | +6                | Foe Slayer                                  | 6             | 15              | 4                             | 3   | 3   | 3   | 2   |
+
+# Level 1: Spellcasting
+
+You have learned to channel the magical essence of nature to cast spells. See “Spells” for the rules on spellcasting. The information below details how you use those rules with Ranger spells, which appear in the Ranger spell list later in the class’s description.
+
+Spell Slots. The Ranger Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
 
 Prepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Ranger spells. Cure Wounds and Ensnaring Strike are recommended.
 
@@ -3849,16 +3841,6 @@ Core Rogue Traits
 
 As a Rogue, you gain the following class features when you reach the specified Rogue levels. These features are listed in the Rogue Features table.
 
-# Level 1: Expertise
-
-You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them.
-
-At Rogue level 6, you gain Expertise in two more of your skill proficiencies of your choice.
-
-# Level 1: Sneak Attack
-
-You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack
-
 Rogue Features
 
 | Level | Proficiency Bonus | Class Features                                         | Sneak Attack |
@@ -3884,7 +3866,15 @@ Rogue Features
 | 19    | +6                | Epic Boon                                              | 10d6         |
 | 20    | +6                | Stroke of Luck                                         | 10d6         |
 
-roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type.
+# Level 1: Expertise
+
+You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them.
+
+At Rogue level 6, you gain Expertise in two more of your skill proficiencies of your choice.
+
+# Level 1: Sneak Attack
+
+You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type.
 
 You don't need Advantage on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn't have the Incapacitated condition, and you don't have Disadvantage on the attack roll.
 
@@ -4045,16 +4035,6 @@ Core Sorcerer Traits
 
 As a Sorcerer, you gain the following class features when you reach the specified Sorcerer levels. These features are listed in the Sorcerer Features table.
 
-# Level 1: Spellcasting
-
-Drawing from your innate magic, you can cast spells. See “Spells” for the rules on spellcasting. The information below details how you use those rules with Sorcerer spells, which appear in the Sorcerer spell list later in the class’s description.
-
-Cantrips. You know four Sorcerer cantrips of your choice. Light, Prestidigitation, Shocking Grasp, and Sorcerous Burst are recommended. Whenever you gain a Sorcerer level, you can replace one of your cantrips from this feature with another Sorcerer cantrip of your choice.
-
-When you reach Sorcerer levels 4 and 10, you learn another Sorcerer cantrip of your choice, as shown in the Cantrips column of the Sorcerer Features table.
-
-Spell Slots. The Sorcerer Features table shows how many spell slots you have to cast your level 1+
-
 Sorcerer Features
 
 | Level | Proficiency Bonus | Class Features               | Sorcery Points | Cantrips | Prepared Spells | --Spell Slots per Spell Level-- |     |     |     |     |     |     |     |     |
@@ -4081,7 +4061,15 @@ Sorcerer Features
 | 19    | +6                | Epic Boon                    | 19             | 6        | 21              | 4                               | 3   | 3   | 3   | 3   | 2   | 1   | 1   | 1   |
 | 20    | +6                | Arcane Apotheosis            | 20             | 6        | 22              | 4                               | 3   | 3   | 3   | 3   | 2   | 2   | 1   | 1   |
 
-spells. You regain all expended slots when you finish a Long Rest.
+# Level 1: Spellcasting
+
+Drawing from your innate magic, you can cast spells. See “Spells” for the rules on spellcasting. The information below details how you use those rules with Sorcerer spells, which appear in the Sorcerer spell list later in the class’s description.
+
+Cantrips. You know four Sorcerer cantrips of your choice. Light, Prestidigitation, Shocking Grasp, and Sorcerous Burst are recommended. Whenever you gain a Sorcerer level, you can replace one of your cantrips from this feature with another Sorcerer cantrip of your choice.
+
+When you reach Sorcerer levels 4 and 10, you learn another Sorcerer cantrip of your choice, as shown in the Cantrips column of the Sorcerer Features table.
+
+Spell Slots. The Sorcerer Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.
 
 Prepared Spells of Level 1+. You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Sorcerer spells. Burning Hands and Detect Magic are recommended.
 
@@ -4503,14 +4491,6 @@ Core Warlock Traits
 
 As a Warlock, you gain the following class features when you reach the specified Warlock levels. These features are listed in the Warlock Features table.
 
-# Level 1: Eldritch Invocations
-
-You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as Pact of the Tome. Invocations are described in the “Eldritch Invocation Options” section later in this class’s description.
-
-Prerequisites. If an invocation has a prerequisite, you must meet it to learn that invocation. For example, if an invocation requires you to be a level 5+ Warlock, you can select the invocation once you reach Warlock level 5.
-
-Replacing and Gaining Invocations. Whenever you gain a Warlock level, you can replace one of your invocations with another one for which you
-
 Warlock Features
 
 | Level | Proficiency Bonus | Class Features                   | Eldritch Invocations | Cantrips | Prepared Spells | Spell Slots | Slot Level |
@@ -4535,6 +4515,14 @@ Warlock Features
 | 18    | +6                |                -                 | 10                   | 4        | 14              | 4           | 5          |
 | 19    | +6                | Epic Boon                        | 10                   | 4        | 15              | 4           | 5          |
 | 20    | +6                | Eldritch Master                  | 10                   | 4        | 15              | 4           | 5          |
+
+# Level 1: Eldritch Invocations
+
+You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as Pact of the Tome. Invocations are described in the “Eldritch Invocation Options” section later in this class’s description.
+
+Prerequisites. If an invocation has a prerequisite, you must meet it to learn that invocation. For example, if an invocation requires you to be a level 5+ Warlock, you can select the invocation once you reach Warlock level 5.
+
+Replacing and Gaining Invocations. Whenever you gain a Warlock level, you can replace one of your invocations with another one for which you
 
 qualify. You can't replace an invocation if it's a prerequisite for another invocation that you have.
 
@@ -5009,12 +4997,6 @@ Core Wizard Traits
 
 As a Wizard, you gain the following class features when you reach the specified Wizard levels. These features are listed in the Wizard Features table.
 
-# Level 1: Spellcasting
-
-As a student of arcane magic, you have learned to cast spells. See “Spells” for the rules on spellcasting. The information below details how you use those rules with Wizard spells, which appear in the Wizard spell list later in the class’s description.
-
-Cantrips. You know three Wizard cantrips of your choice. Light, Mage Hand, and Ray of Frost are recommended. Whenever you finish a Long Rest, you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.
-
 Wizard Features
 
 | Level | Proficiency Bonus | Class Features                              | Cantrips | Prepared Spells | --Spell Slots per Spell Level-- |     |     |     |     |     |     |     |     |
@@ -5040,6 +5022,12 @@ Wizard Features
 | 18    | +6                | Spell Mastery                               | 5        | 23              | 4                               | 3   | 3   | 3   | 3   | 1   | 1   | 1   | 1   |
 | 19    | +6                | Epic Boon                                   | 5        | 24              | 4                               | 3   | 3   | 3   | 3   | 2   | 1   | 1   | 1   |
 | 20    | +6                | Signature Spells                            | 5        | 25              | 4                               | 3   | 3   | 3   | 3   | 2   | 2   | 1   | 1   |
+
+# Level 1: Spellcasting
+
+As a student of arcane magic, you have learned to cast spells. See “Spells” for the rules on spellcasting. The information below details how you use those rules with Wizard spells, which appear in the Wizard spell list later in the class’s description.
+
+Cantrips. You know three Wizard cantrips of your choice. Light, Mage Hand, and Ray of Frost are recommended. Whenever you finish a Long Rest, you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.
 
 When you reach Wizard levels 4 and 10, you learn another Wizard cantrip of your choice, as shown in the Cantrips column of the Wizard Features table.
 
@@ -7816,7 +7804,7 @@ You touch a creature, which must succeed on a Wisdom saving throw or become curs
 - The target has Disadvantage on attack rolls against you.
 - In combat, the target must succeed on a Wisdom saving throw at the start of each of its turns or be forced to take the Dodge action on that turn.
 
-\- If you deal damage to the target with an attack roll or a spell, the target takes an extra 1d8 Necrotic damage.
+- If you deal damage to the target with an attack roll or a spell, the target takes an extra 1d8 Necrotic damage.
 
 Using a Higher-Level Spell Slot. If you cast this spell using a level 4 spell slot, you can maintain Concentration on it for up to 10 minutes. If you use a level 5+ spell slot, the spell doesn't require Concentration, and the duration becomes 8 hours (level 5–6 slot) or 24 hours (level 7–8 slot). If you use a level 9 spell slot, the spell lasts until dispelled.
 
@@ -10496,7 +10484,7 @@ Choose one or more of the following types of creatures: Celestials, Elementals, 
 - The creature can't willingly enter the Cylinder by nonmagical means. If the creature tries to use teleportation or interplanar travel to do so, it must first succeed on a Charisma saving throw.
 - The creature has Disadvantage on attack rolls against targets within the Cylinder.
 
-\- Targets within the Cylinder can't be possessed by or gain the Charmed or Frightened condition from the creature.
+- Targets within the Cylinder can't be possessed by or gain the Charmed or Frightened condition from the creature.
 
 Each time you cast this spell, you can cause its magic to operate in the reverse direction, preventing a creature of the specified type from leaving the Cylinder and protecting targets outside it.
 
@@ -11736,9 +11724,7 @@ Range: Touch
 Components: V, S
 Duration: Instantaneous
 
-Lightning springs from you to a creature that you try to touch. Make a melee spell attack against the
-
-target. On a hit, the target takes 1d8 Lightning damage, and it can't make Opportunity Attacks until the start of its next turn.
+Lightning springs from you to a creature that you try to touch. Make a melee spell attack against the target. On a hit, the target takes 1d8 Lightning damage, and it can't make Opportunity Attacks until the start of its next turn.
 
 Cantrip Upgrade. The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).
 
@@ -11809,9 +11795,7 @@ Duration: Concentration, up to 1 minute
 
 Until the spell ends, sleet falls in a 40-foot-tall, 20-foot-radius Cylinder centered on a point you choose within range. The area is Heavily Obscured, and exposed flames in the area are doused.
 
-Ground in the Cylinder is Difficult Terrain. When a creature enters the Cylinder for the first time on a turn or starts its turn there, it must succeed on a
-
-Dexterity saving throw or have the Prone condition and lose Concentration.
+Ground in the Cylinder is Difficult Terrain. When a creature enters the Cylinder for the first time on a turn or starts its turn there, it must succeed on a Dexterity saving throw or have the Prone condition and lose Concentration.
 
 # Slow
 
@@ -12388,9 +12372,7 @@ You touch a creature that has been dead for no longer than 200 years and that di
 
 This spell closes all wounds, neutralizes any poison, cures all magical contagions, and lifts any curses affecting the creature when it died. The spell replaces damaged or missing organs and limbs. If the creature was Undead, it is restored to its non-Undead form.
 
-The spell can provide a new body if the original no longer exists, in which case you must speak the
-
-creature's name. The creature then appears in an unoccupied space you choose within 10 feet of you.
+The spell can provide a new body if the original no longer exists, in which case you must speak the creature's name. The creature then appears in an unoccupied space you choose within 10 feet of you.
 
 # True Seeing
 
@@ -13589,9 +13571,7 @@ A Reaction is a special action taken in response to a trigger defined in the Rea
 
 You take the Ready action to wait for a particular circumstance before you act. To do so, you take this action on your turn, which lets you act by taking a Reaction before the start of your next turn.
 
-First, you decide what perceivable circumstance will trigger your Reaction. Then, you choose the action you will take in response to that trigger, or you choose to move up to your Speed in response to it. Examples include “If the cultist steps on the
-
-trapdoor, I'll pull the lever that opens it," and "If the zombie steps next to me, I move away."
+First, you decide what perceivable circumstance will trigger your Reaction. Then, you choose the action you will take in response to that trigger, or you choose to move up to your Speed in response to it. Examples include “If the cultist steps on the trapdoor, I'll pull the lever that opens it," and "If the zombie steps next to me, I move away."
 
 When the trigger occurs, you can either take your Reaction right after the trigger finishes or ignore the trigger.
 
@@ -13952,7 +13932,7 @@ Travel Terrain
 | Urban      | Normal       | 2d6 × 10 feet      | 20          | 15            | 15        |
 | Waterborne | Special†     | 6d6 × 10 feet      | 15          | 10            | 15        |
 
-\*Appropriate equipment (such as skis) is necessary to keep up a Fast pace in Arctic terrain.
+*Appropriate equipment (such as skis) is necessary to keep up a Fast pace in Arctic terrain.
 † Characters' rate of travel while waterborne depends on the vehicle carrying them; see “Vehicles.”
 
 Intelligence or Wisdom. One or both abilities are ideal for a background that focuses on cerebral or spiritual matters.
@@ -14538,7 +14518,7 @@ Example 2. A moderate-difficulty encounter for five level 3 characters has an XP
 
 Example 3. A high-difficulty encounter for six level 15 characters has an XP budget of 7,800 × 6 , for a total of 46,800 XP. With that, you could build this encounter:
 
-\- 2 Adult Red Dragons (18,000 XP each) and 2 Fire Giants (5,000 XP each), for 46,000 XP total
+- 2 Adult Red Dragons (18,000 XP each) and 2 Fire Giants (5,000 XP each), for 46,000 XP total
 
 # Troubleshooting
 
@@ -14695,7 +14675,7 @@ Magic Item Rarities and Values
 | Uncommon | 400 GP   | Legendary | 200,000 GP |
 | Rare     | 4,000 GP | Artifact  | Priceless  |
 
-\*Halve the value for a consumable item other than a Spell Scroll. The value of a Spell Scroll is double what it costs to scribe the scroll (as specified in the “Scribing Spell Scrolls” section of “Equipment”).
+*Halve the value for a consumable item other than a Spell Scroll. The value of a Spell Scroll is double what it costs to scribe the scroll (as specified in the “Scribing Spell Scrolls” section of “Equipment”).
 
 # Activating a Magic Item
 
@@ -14791,7 +14771,7 @@ Magic Item Crafting Time and Cost
 | Very Rare   | 125 days | 20,000 GP  |
 | Legendary   | 250 days | 100,000 GP |
 
-\*The time and cost are halved for a consumable item other than a Spell Scroll, whose crafting time and cost are given in “Equipment.”
+*The time and cost are halved for a consumable item other than a Spell Scroll, whose crafting time and cost are given in “Equipment.”
 
 # Sentient Magic Items
 
@@ -15513,7 +15493,7 @@ Deck of Illusions
 | 94–96 | Wyvern            |
 | 97–00 | The card drawer   |
 
-\*Stat blocks for these creatures (except the card drawer) appear in "Monsters."
+*Stat blocks for these creatures (except the card drawer) appear in "Monsters."
 
 # Defender
 
@@ -15885,9 +15865,7 @@ When you hit a Giant with this weapon, the Giant takes an extra 2d6 damage of th
 
 Armor (Studded Leather Armor), Rare
 
-While wearing this armor, you gain a +1 bonus to Armor Class. You can also take a Bonus Action to
-
-cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like - including color, style, and accessories - but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or doff the armor.
+While wearing this armor, you gain a +1 bonus to Armor Class. You can also take a Bonus Action to cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like - including color, style, and accessories - but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or doff the armor.
 
 # Gloves of Missile Snaring
 
@@ -16555,9 +16533,7 @@ Wondrous Item, Rare
 
 This fine black cloth, soft as silk, is folded up to the dimensions of a handkerchief. It unfolds into a circular sheet 6 feet in diameter.
 
-You can take a Magic action to unfold a Portable Hole and place it on or against a solid surface, whereupon the Portable Hole creates an
-
-extradimensional hole 10 feet deep. The cylindrical space within the hole exists on a different plane of existence, so it can't be used to create open passages. Any creature inside an open Portable Hole can exit the hole by climbing out of it.
+You can take a Magic action to unfold a Portable Hole and place it on or against a solid surface, whereupon the Portable Hole creates an extradimensional hole 10 feet deep. The cylindrical space within the hole exists on a different plane of existence, so it can't be used to create open passages. Any creature inside an open Portable Hole can exit the hole by climbing out of it.
 
 You can take a Magic action to close a Portable Hole by taking hold of the edges of the cloth and folding it up. Folding the cloth closes the hole, and any creatures or objects within remain in the extradimensional space. No matter what's in it, the hole weighs next to nothing.
 
@@ -16921,9 +16897,7 @@ While wearing this ring, you can cast any spell stored in it. The spell uses the
 
 Ring, Legendary (Requires Attunement)
 
-While wearing this ring, you have Advantage on saving throws against spells. If you succeed on the save for a spell of level 7 or lower, the spell has no effect on you. If that spell targeted only you and didn't create an area of effect, you can take a Reaction to deflect the spell back at the spell's caster; the
-
-caster must make a saving throw against the spell using their own spell save DC.
+While wearing this ring, you have Advantage on saving throws against spells. If you succeed on the save for a spell of level 7 or lower, the spell has no effect on you. If that spell targeted only you and didn't create an area of effect, you can take a Reaction to deflect the spell back at the spell's caster; the caster must make a saving throw against the spell using their own spell save DC.
 
 # Ring of Swimming
 
@@ -17111,9 +17085,7 @@ Button 2. The rod's flanged head folds down and two crescent-shaped blades sprin
 Button 3. The rod's flanged head folds down, a spear point springs from the rod's tip, and the rod's handle lengthens into a 6-foot haft, transforming the rod into a magic Spear that grants a +3 bonus to attack rolls and damage rolls made with it.
 Button 4. The rod transforms into a climbing pole up to 50 feet long (you specify the length), though the rod's buttons remain within your reach. In surfaces as hard as granite, a spike at the bottom and three hooks at the top anchor the pole. Horizontal bars 3 inches long fold out from the sides, 1 foot apart, forming a ladder. The pole can bear up to 4,000 pounds. More weight or lack of solid anchoring causes the rod to revert to its normal form.
 Button 5. The rod transforms into a handheld battering ram and grants its user a +10 bonus to Strength (Athletics) checks made to break through doors, barricades, and other barriers.
-Button 6. The rod assumes or remains in its normal form and indicates magnetic north. (Nothing happens if this function of the rod is used in a
-
-location that has no magnetic north.) The rod also gives you knowledge of your approximate depth beneath the ground or your height above it.
+Button 6. The rod assumes or remains in its normal form and indicates magnetic north. (Nothing happens if this function of the rod is used in a location that has no magnetic north.) The rod also gives you knowledge of your approximate depth beneath the ground or your height above it.
 
 Drain Life. When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Constitution saving throw. On a failed save, the target takes an extra 4d6 Necrotic damage, and you regain a number of Hit Points equal to half that Necrotic damage. Once used, this property can't be used again until the next dawn.
 
@@ -17519,9 +17491,7 @@ Weapon (Longsword), Rare (Requires Attunement)
 
 This item appears to be a sword hilt.
 
-Blade of Radiance. While grasping the hilt, you can take a Bonus Action to cause a blade of pure radiance to spring into existence or make the
-
-blade disappear. While the blade exists, this magic weapon functions as a Longsword with the Finesse property. If you are proficient with Longswords or Shortswords, you are proficient with the Sun Blade.
+Blade of Radiance. While grasping the hilt, you can take a Bonus Action to cause a blade of pure radiance to spring into existence or make the blade disappear. While the blade exists, this magic weapon functions as a Longsword with the Finesse property. If you are proficient with Longswords or Shortswords, you are proficient with the Sun Blade.
 
 You gain a +2 bonus to attack rolls and damage rolls made with this weapon, which deals Radiant damage instead of Slashing damage. When you hit an Undead with it, that target takes an extra 1d8 Radiant damage.
 
@@ -17592,9 +17562,7 @@ This book contains memory and logic exercises, and its words are charged with ma
 
 Wondrous Item, Very Rare
 
-This book contains guidelines for influencing and charming others, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Charisma increases by 2, to
-
-a maximum of 30. The manual then loses its magic but regains it in a century.
+This book contains guidelines for influencing and charming others, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Charisma increases by 2, to a maximum of 30. The manual then loses its magic but regains it in a century.
 
 # Tome of Understanding
 
@@ -17967,9 +17935,7 @@ A monster that requires ammunition to make ranged attacks carries the necessary 
 
 You may equip monsters with additional gear however you like, using the items in “Equipment” for inspiration. You decide how much of a monster’s equipment is recoverable after the creature is slain and whether any of that equipment is still usable.
 
-Beware of giving a monster combat-oriented magic items, since those might alter the monster's Challenge Rating. If you do give a monster a magic item, the monster can have Attunement with magic items as noted in “Equipment.” A monster with
-
-a class tag after its creature type is considered a member of that class for Attunement purposes.
+Beware of giving a monster combat-oriented magic items, since those might alter the monster's Challenge Rating. If you do give a monster a magic item, the monster can have Attunement with magic items as noted in “Equipment.” A monster with a class tag after its creature type is considered a member of that class for Attunement purposes.
 
 # Senses
 
@@ -19597,9 +19563,7 @@ Multiattack. The bulette makes two Bite attacks.
 
 Bite. Melee Attack Roll: +7, reach 5 ft. Hit: 17 (2d12 + 4) Piercing damage.
 
-Deadly Leap. The bulette spends 5 feet of movement to jump to a space within 15 feet that contains one or more Large or smaller creatures. Dexterity Saving Throw: DC 15, each creature in the bulette's destination space. Failure: 19 (3d12) Bludgeoning damage, and
-
-the target has the Prone condition. Success: Half damage, and the target is pushed 5 feet straight away from the bulette.
+Deadly Leap. The bulette spends 5 feet of movement to jump to a space within 15 feet that contains one or more Large or smaller creatures. Dexterity Saving Throw: DC 15, each creature in the bulette's destination space. Failure: 19 (3d12) Bludgeoning damage, and the target has the Prone condition. Success: Half damage, and the target is pushed 5 feet straight away from the bulette.
 
 # Bonus Actions
 
@@ -22565,9 +22529,7 @@ Multiattack. The stalker makes three Wind Swipe attacks. It can replace one atta
 
 Wind Swipe. Melee Attack Roll: +7, reach 5 ft. Hit: 11 (2d6 + 4) Force damage.
 
-Vortex. Constitution Saving Throw: DC 14, one Large or smaller creature in the stalker's space. Failure: 7 (1d8 + 3) Thunder damage, and the target has the Grappled condition (escape DC 13). Until the grapple ends, the target can't cast spells with a Verbal component and
-
-takes 7 (2d6) Thunder damage at the start of each of the stalker's turns.
+Vortex. Constitution Saving Throw: DC 14, one Large or smaller creature in the stalker's space. Failure: 7 (1d8 + 3) Thunder damage, and the target has the Grappled condition (escape DC 13). Until the grapple ends, the target can't cast spells with a Verbal component and takes 7 (2d6) Thunder damage at the start of each of the stalker's turns.
 
 # Iron Golem
 
@@ -26806,9 +26768,7 @@ CR 2 (XP 450; PB +2)
 
 Bite. Melee Attack Roll: +6, reach 5 ft. Hit: 15 (2d10 + 4) Piercing damage.
 
-Claws. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing damage. If the target is a Large or smaller creature and the allosaurus moved 30+ feet straight toward it immediately before the hit, the target has the
-
-Prone condition, and the allosaurus can make one Bite attack against it.
+Claws. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Slashing damage. If the target is a Large or smaller creature and the allosaurus moved 30+ feet straight toward it immediately before the hit, the target has the Prone condition, and the allosaurus can make one Bite attack against it.
 
 # Ankylosaurus
 
@@ -28032,9 +27992,7 @@ Standing Leap. The toad's Long Jump is up to 20 feet and its High Jump is up to 
 
 Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 5 (2d4) Poison damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12).
 
-Swallow. The toad swallows a Medium or smaller target it is grappling. While swallowed, the target isn't Grappled but has the Blinded and Restrained conditions, and it has Total Cover against attacks and other effects outside the toad. In addition, the target takes 10 (3d6) Acid damage at the end of each of the toad's turns. The
-
-toad can have only one target swallowed at a time, and it can't use Bite while it has a swallowed target. If the toad dies, a swallowed creature is no longer Restrained and can escape from the corpse using 5 feet of movement, exiting with the Prone condition.
+Swallow. The toad swallows a Medium or smaller target it is grappling. While swallowed, the target isn't Grappled but has the Blinded and Restrained conditions, and it has Total Cover against attacks and other effects outside the toad. In addition, the target takes 10 (3d6) Acid damage at the end of each of the toad's turns. The toad can have only one target swallowed at a time, and it can't use Bite while it has a swallowed target. If the toad dies, a swallowed creature is no longer Restrained and can escape from the corpse using 5 feet of movement, exiting with the Prone condition.
 
 # Giant Venomous Snake
 

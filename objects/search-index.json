@@ -184,7 +184,7 @@
     {
       "id": "objects/rules/1-23-heroic-inspiration",
       "type": "Rule",
-      "name": "HEROIC INSPIRATION",
+      "name": "Heroic Inspiration",
       "excerpt": "Sometimes the GM or a rule gives you Heroic Inspiration. If you have Heroic Inspiration, you can expend it to reroll any die immediately after rolling it, and y"
     },
     {
@@ -226,7 +226,7 @@
     {
       "id": "objects/rules/1-3-exceptions-supersede-general-rules",
       "type": "Rule",
-      "name": "EXCEPTIONS SUPERSEDE GENERAL RULES",
+      "name": "Exceptions Supersede General Rules",
       "excerpt": "General rules govern each part of the game. For example, the combat rules tell you that melee attacks use Strength and ranged attacks use Dexterity. That's a ge"
     },
     {
@@ -617,7 +617,7 @@
       "id": "objects/rules/1-89-hit-points",
       "type": "Rule",
       "name": "Hit Points",
-      "excerpt": "Hit Points represent durability and the will to live. Creatures with more Hit Points are more difficult to kill. Your Hit Point maximum is the number of"
+      "excerpt": "Hit Points represent durability and the will to live. Creatures with more Hit Points are more difficult to kill. Your Hit Point maximum is the number of Hit Poi"
     },
     {
       "id": "objects/rules/1-9-ability-checks",
@@ -628,7 +628,7 @@
     {
       "id": "objects/rules/1-90-resting",
       "type": "Rule",
-      "name": "RESTING",
+      "name": "Resting",
       "excerpt": "Adventurers can't spend every hour adventuring. They need rest. Any creature can take hour-long Short Rests in the midst of a day and an 8-hour Long Rest to end"
     },
     {
@@ -5777,13 +5777,13 @@
       "id": "objects/classes/barbarian",
       "type": "CharacterClass",
       "name": "Barbarian",
-      "excerpt": "Core Barbarian Traits\n\nBecoming a Barbarian ...\n\nAs a Level 1 Character\n\n\\- Gain all the traits in the Core Barbarian Traits table.\n\n\\- Gain the Barbarian's lev"
+      "excerpt": "Core Barbarian Traits\n\nBecoming a Barbarian ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Barbarian Traits table.\n\n- Gain the Barbarian's level"
     },
     {
       "id": "objects/classes/bard",
       "type": "CharacterClass",
       "name": "Bard",
-      "excerpt": "Core Bard Traits\n\nBecoming a Bard ...\n\nAs a Level 1 Character\n\n\\- Gain all the traits in the Core Bard Traits table.\n\n\\- Gain the Bard's level 1 features, which"
+      "excerpt": "Core Bard Traits\n\nBecoming a Bard ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Bard Traits table.\n\n- Gain the Bard's level 1 features, which a"
     },
     {
       "id": "objects/classes/cleric",
@@ -5813,7 +5813,7 @@
       "id": "objects/classes/paladin",
       "type": "CharacterClass",
       "name": "Paladin",
-      "excerpt": "Core Paladin Traits\n\nBecoming a Paladin ...\n\nAs a Level 1 Character\n\n\\- Gain all the traits in the Core Paladin Traits table.\n\n\\- Gain the Paladin's level 1 fea"
+      "excerpt": "Core Paladin Traits\n\nBecoming a Paladin ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Paladin Traits table.\n\n- Gain the Paladin's level 1 featu"
     },
     {
       "id": "objects/classes/ranger",
@@ -9533,7 +9533,7 @@
       "id": "objects/magic-items/glamoured-studded-leather",
       "type": "MagicItem",
       "name": "Glamoured Studded Leather",
-      "excerpt": "Armor (Studded Leather Armor), Rare\n\nWhile wearing this armor, you gain a +1 bonus to Armor Class. You can also take a Bonus Action to\n\ncause the armor to assum"
+      "excerpt": "Armor (Studded Leather Armor), Rare\n\nWhile wearing this armor, you gain a +1 bonus to Armor Class. You can also take a Bonus Action to cause the armor to assume"
     },
     {
       "id": "objects/magic-items/gloves-of-missile-snaring",
@@ -16087,8 +16087,8 @@
     "action": [
       5,
       11,
+      26,
       36,
-      37,
       42,
       43,
       44,
@@ -17495,7 +17495,6 @@
     ],
     "advantage": [
       29,
-      30,
       31,
       32,
       33,
@@ -17695,7 +17694,6 @@
     ],
     "adventurers": [
       26,
-      37,
       50,
       51,
       56,
@@ -19151,7 +19149,7 @@
     "also": [
       19,
       23,
-      30,
+      29,
       34,
       37,
       40,
@@ -19980,6 +19978,7 @@
       75,
       79,
       80,
+      102,
       104,
       105,
       106,
@@ -24921,7 +24920,7 @@
       1339
     ],
     "bloodied": [
-      104,
+      102,
       578,
       1807,
       1810,
@@ -26471,7 +26470,7 @@
       85,
       92,
       96,
-      104,
+      102,
       105,
       110,
       117,
@@ -27234,7 +27233,7 @@
     ],
     "capabilities": [
       34,
-      104,
+      102,
       114,
       244,
       271,
@@ -28598,8 +28597,8 @@
       3,
       7,
       18,
+      26,
       35,
-      37,
       40,
       45,
       52,
@@ -30239,7 +30238,6 @@
     ],
     "circumstances": [
       29,
-      30,
       32,
       56,
       587,
@@ -35842,7 +35840,7 @@
     ],
     "current": [
       5,
-      104,
+      102,
       241,
       254,
       255,
@@ -36161,7 +36159,7 @@
       99,
       100,
       101,
-      104,
+      102,
       105,
       106,
       107,
@@ -37803,7 +37801,7 @@
     ],
     "decide": [
       16,
-      30,
+      29,
       73,
       74,
       75,
@@ -39802,7 +39800,6 @@
     ],
     "disadvantage": [
       29,
-      30,
       31,
       32,
       33,
@@ -40887,7 +40884,7 @@
       78,
       81,
       95,
-      104,
+      102,
       109,
       111,
       113,
@@ -41010,7 +41007,7 @@
       586
     ],
     "dragon": [
-      37,
+      26,
       47,
       118,
       267,
@@ -42257,7 +42254,7 @@
       67,
       86,
       97,
-      104,
+      102,
       108,
       142,
       144,
@@ -42482,7 +42479,7 @@
       52,
       75,
       85,
-      104,
+      102,
       109,
       123,
       144,
@@ -44671,8 +44668,8 @@
       2009
     ],
     "everyone": [
+      26,
       30,
-      37,
       71,
       72,
       1458
@@ -45758,7 +45755,7 @@
       481
     ],
     "exploring": [
-      37,
+      26,
       43
     ],
     "explosion": [
@@ -47596,7 +47593,7 @@
       729
     ],
     "fewer": [
-      104,
+      102,
       436,
       578,
       613,
@@ -47789,7 +47786,7 @@
       966
     ],
     "fighting": [
-      37,
+      26,
       72,
       299,
       301,
@@ -50264,7 +50261,7 @@
       82,
       86,
       92,
-      104,
+      102,
       106,
       114,
       115,
@@ -51149,7 +51146,7 @@
       81,
       85,
       92,
-      104,
+      102,
       151,
       153,
       155,
@@ -52248,7 +52245,7 @@
       1694
     ],
     "grant": [
-      30,
+      29,
       32,
       114,
       645,
@@ -52850,7 +52847,7 @@
       81,
       86,
       95,
-      104,
+      102,
       109,
       112,
       171,
@@ -56599,7 +56596,7 @@
       1455
     ],
     "impose": [
-      30,
+      29,
       32
     ],
     "imposes": [
@@ -63357,7 +63354,7 @@
       1740
     ],
     "loss": [
-      104
+      102
     ],
     "lost": [
       5,
@@ -63447,7 +63444,7 @@
     ],
     "lowest": [
       73,
-      104,
+      102,
       123,
       137,
       175,
@@ -65279,7 +65276,6 @@
       7,
       10,
       102,
-      104,
       241,
       243,
       517,
@@ -66364,7 +66360,7 @@
       68,
       75,
       92,
-      104,
+      102,
       117,
       119,
       120,
@@ -67476,10 +67472,10 @@
       16,
       18,
       25,
+      26,
       27,
       30,
       35,
-      37,
       42,
       44,
       51,
@@ -69860,7 +69856,7 @@
       1997
     ],
     "noble": [
-      37,
+      26,
       1971
     ],
     "noble's": [
@@ -70447,7 +70443,6 @@
       88,
       92,
       102,
-      104,
       124,
       133,
       151,
@@ -72047,8 +72042,8 @@
       86,
       89,
       90,
+      102,
       103,
-      104,
       106,
       110,
       118,
@@ -72738,7 +72733,7 @@
       181
     ],
     "own": [
-      104,
+      102,
       110,
       123,
       181,
@@ -73221,8 +73216,8 @@
       1666
     ],
     "particularly": [
+      26,
       30,
-      37,
       250,
       733,
       734,
@@ -75733,7 +75728,6 @@
       11,
       26,
       102,
-      104,
       151,
       230,
       241,
@@ -79547,7 +79541,7 @@
       90,
       91,
       93,
-      104,
+      102,
       170,
       242,
       252,
@@ -83957,7 +83951,7 @@
       1785
     ],
     "ruin": [
-      37,
+      26,
       1627
     ],
     "ruins": [
@@ -88065,8 +88059,8 @@
     "situations": [
       2,
       23,
+      26,
       32,
-      37,
       43,
       45,
       46,
@@ -93958,7 +93952,7 @@
       1248
     ],
     "structured": [
-      37
+      26
     ],
     "structures": [
       1248,
@@ -94174,7 +94168,7 @@
       1470
     ],
     "subtract": [
-      104,
+      102,
       548,
       1171
     ],
@@ -95964,6 +95958,7 @@
       79,
       84,
       93,
+      102,
       104,
       142,
       144,
@@ -96278,7 +96273,7 @@
       5,
       7,
       11,
-      37,
+      26,
       45,
       46,
       71,
@@ -96666,7 +96661,7 @@
       1286
     ],
     "talking": [
-      37,
+      26,
       517,
       543
     ],
@@ -101781,7 +101776,7 @@
     ],
     "trigger": [
       45,
-      104,
+      102,
       492,
       533,
       535,
@@ -102359,7 +102354,6 @@
     ],
     "turns": [
       26,
-      37,
       71,
       72,
       73,
@@ -103593,7 +103587,7 @@
       496
     ],
     "uninjured": [
-      104
+      102
     ],
     "unintelligible": [
       1323,
@@ -103892,7 +103886,7 @@
       45,
       72,
       77,
-      104,
+      102,
       142,
       308,
       322,
@@ -107393,7 +107387,7 @@
       35,
       70,
       81,
-      104,
+      102,
       178,
       254,
       538,
@@ -107610,7 +107604,7 @@
       82,
       86,
       92,
-      104,
+      102,
       105,
       118,
       119,
@@ -110428,7 +110422,7 @@
       77,
       85,
       97,
-      104,
+      102,
       231,
       240,
       261,

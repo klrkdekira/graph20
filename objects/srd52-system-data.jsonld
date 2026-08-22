@@ -13,8 +13,8 @@
     "source": {
       "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
     },
-    "sourceDigest": "sha256-a50682ef48b60781e93f67e05266074fb3e5fbc627a15c63996c48f94e7c7202",
-    "corpusDigest": "sha256-1d35a65479b97be700292e96770125f614a88900c13722b9fb452f1a398ba43f"
+    "sourceDigest": "sha256-39087358c1fc5124364a774ca0411fd8f7f592780486ef6a4bb71132e2ef1d7c",
+    "corpusDigest": "sha256-e007e836c8f21936dc8280ac5dd9709a2c857ea275874825d0ec58803c40c0ac"
   },
   "collections": {
     "sources": [

@@ -3,8 +3,8 @@
 Cross-checks and normalizes MinerU OCR/conversion defects in SRD_CC_v5.2.1.md
 using the direct PyMuPDF text-layer ground truth in SRD_CC_v5.2.1.txt,
 reformats all tables into clean, well-organized GitHub-Flavored Markdown (GFM)
-pipe tables, and cleans up document layout (hyphenation, bullets, TOC, headings,
-and stat block layout).
+pipe tables, repairs OCR sidebar splices, class progression table positioning,
+and cleans up document layout (hyphenation, bullets, TOC, headings, and stat blocks).
 
 Every repair class is registered in objects/sources/extraction-overrides.json.
 This script is completely self-contained and idempotent.
@@ -183,7 +183,7 @@ def html_to_gfm_table(table_html: str) -> str:
     return "\n".join(lines)
 
 
-def repair_source_text(md_content: str, txt_content: str) -> str:
+def repair_source_text(md_content: str, txt_content: str = "") -> str:
     res = md_content
 
     # 1. Glued words
@@ -265,7 +265,11 @@ def repair_source_text(md_content: str, txt_content: str) -> str:
     # 7. Fraction slash normalization
     res = res.replace("11⁄2 mph", "1 1/2 mph").replace("21⁄2 mph", "2 1/2 mph")
 
-    # 8. Numbered headings and trailing periods
+    # 8. Escaped characters cleanup (\- and \*)
+    res = re.sub(r"(?m)^\\-\s+", "- ", res)
+    res = res.replace(r"\*", "*")
+
+    # 9. Numbered headings and trailing periods
     heading_patterns = [
         (r"^# Step I: Choose Class", "# Step 1: Choose Class"),
         (r"^# Tier I \(Levels I–4\)", "# Tier 1 (Levels 1–4)"),
@@ -276,10 +280,10 @@ def repair_source_text(md_content: str, txt_content: str) -> str:
     for pat, rep in heading_patterns:
         res = re.sub(pat, rep, res, flags=re.MULTILINE)
 
-    # 9. Spell header fixes: Component: -> Components:
+    # 10. Spell header fixes: Component: -> Components:
     res = re.sub(r"(?m)^Component:\s*([VSM])", r"Components: \1", res)
 
-    # 10. Spurious headings in spell blocks and monster blocks
+    # 11. Spurious headings in spell blocks and monster blocks
     spurious_headings = [
         (r"(?m)^# Components:\s*([^\n]+)$", r"Components: \1"),
         (r"(?m)^# Resistances Cold$", r"Resistances Cold"),
@@ -289,10 +293,173 @@ def repair_source_text(md_content: str, txt_content: str) -> str:
     for pat, rep in spurious_headings:
         res = re.sub(pat, rep, res)
 
-    # 11. Unicode bullet character normalization
+    # 12. Unicode bullet character normalization
     res = re.sub(r"(?m)^•\s+", "- ", res)
 
-    # 12. Chapter separators
+    # 13. Sidebar splices repair
+    old_rhythm = """This pattern holds during every game session (each time you sit down to play D&D), whether the
+
+# EXCEPTIONS SUPERSEDE GENERAL RULES
+
+General rules govern each part of the game. For example, the combat rules tell you that melee attacks use Strength and ranged attacks use Dexterity. That's a general rule, and a general rule is in effect as long as something in the game doesn't explicitly say otherwise.
+
+The game also includes elements - class features, feats, weapon properties, spells, magic items, monster abilities, and the like - that sometimes contradict a general rule. When an exception and a general rule disagree, the exception wins. For example, if a feature says you can make melee attacks using your Charisma, you can do so, even though that statement disagrees with the general rule.
+
+adventurers are talking to a noble, exploring a ruin, or fighting a dragon. In certain situations - particularly combat - the action is more structured, and everyone takes turns."""
+
+    new_rhythm = """This pattern holds during every game session (each time you sit down to play D&D), whether the adventurers are talking to a noble, exploring a ruin, or fighting a dragon. In certain situations - particularly combat - the action is more structured, and everyone takes turns.
+
+# Exceptions Supersede General Rules
+
+General rules govern each part of the game. For example, the combat rules tell you that melee attacks use Strength and ranged attacks use Dexterity. That's a general rule, and a general rule is in effect as long as something in the game doesn't explicitly say otherwise.
+
+The game also includes elements - class features, feats, weapon properties, spells, magic items, monster abilities, and the like - that sometimes contradict a general rule. When an exception and a general rule disagree, the exception wins. For example, if a feature says you can make melee attacks using your Charisma, you can do so, even though that statement disagrees with the general rule."""
+
+    res = res.replace(old_rhythm, new_rhythm)
+
+    old_adv = """# Advantage/Disadvantage
+
+Sometimes a D20 Test is modified by Advantage or Disadvantage. Advantage reflects the positive circumstances surrounding a d20 roll, while Disadvantage reflects negative circumstances.
+
+You usually acquire Advantage or Disadvantage through the use of special abilities and actions. The
+
+# HEROIC INSPIRATION
+
+Sometimes the GM or a rule gives you Heroic Inspiration. If you have Heroic Inspiration, you can expend it to reroll any die immediately after rolling it, and you must use the new roll.
+
+Only One at a Time. You can never have more than one instance of Heroic Inspiration. If something gives you Heroic Inspiration and you already have it, you can give it to a player character in your group who lacks it.
+
+Gaining Heroic Inspiration. Your GM can give you Heroic Inspiration for a variety of reasons. Typically, GMs award it when you do something particularly heroic, in character, or entertaining. It's a reward for making the game more fun for everyone playing.
+
+Other rules might allow your character to gain Heroic Inspiration independent of the GM's decision. For example, Human characters start each day with Heroic Inspiration.
+
+GM can also decide that circumstances grant Advantage or impose Disadvantage."""
+
+    new_adv = """# Advantage/Disadvantage
+
+Sometimes a D20 Test is modified by Advantage or Disadvantage. Advantage reflects the positive circumstances surrounding a d20 roll, while Disadvantage reflects negative circumstances.
+
+You usually acquire Advantage or Disadvantage through the use of special abilities and actions. The GM can also decide that circumstances grant Advantage or impose Disadvantage.
+
+# Heroic Inspiration
+
+Sometimes the GM or a rule gives you Heroic Inspiration. If you have Heroic Inspiration, you can expend it to reroll any die immediately after rolling it, and you must use the new roll.
+
+Only One at a Time. You can never have more than one instance of Heroic Inspiration. If something gives you Heroic Inspiration and you already have it, you can give it to a player character in your group who lacks it.
+
+Gaining Heroic Inspiration. Your GM can give you Heroic Inspiration for a variety of reasons. Typically, GMs award it when you do something particularly heroic, in character, or entertaining. It's a reward for making the game more fun for everyone playing.
+
+Other rules might allow your character to gain Heroic Inspiration independent of the GM's decision. For example, Human characters start each day with Heroic Inspiration."""
+
+    res = res.replace(old_adv, new_adv)
+
+    old_hp = """# Hit Points
+
+Hit Points represent durability and the will to live. Creatures with more Hit Points are more difficult to kill. Your Hit Point maximum is the number of
+
+# RESTING
+
+Adventurers can't spend every hour adventuring. They need rest. Any creature can take hour-long Short Rests in the midst of a day and an 8-hour Long Rest to end it. Regaining Hit Points is one of the main benefits of a rest. “Rules Glossary” provides the rules for Short and Long Rests.
+
+Hit Points you have when uninjured. Your current Hit Points can be any number from that maximum down to 0, which is the lowest Hit Points can go.
+
+Whenever you take damage, subtract it from your Hit Points. Hit Point loss has no effect on your capabilities until you reach 0 Hit Points.
+
+If you have half your Hit Points or fewer, you're Bloodied, which has no game effect on its own but which might trigger other game effects."""
+
+    new_hp = """# Hit Points
+
+Hit Points represent durability and the will to live. Creatures with more Hit Points are more difficult to kill. Your Hit Point maximum is the number of Hit Points you have when uninjured. Your current Hit Points can be any number from that maximum down to 0, which is the lowest Hit Points can go.
+
+Whenever you take damage, subtract it from your Hit Points. Hit Point loss has no effect on your capabilities until you reach 0 Hit Points.
+
+If you have half your Hit Points or fewer, you're Bloodied, which has no game effect on its own but which might trigger other game effects.
+
+# Resting
+
+Adventurers can't spend every hour adventuring. They need rest. Any creature can take hour-long Short Rests in the midst of a day and an 8-hour Long Rest to end it. Regaining Hit Points is one of the main benefits of a rest. “Rules Glossary” provides the rules for Short and Long Rests."""
+
+    res = res.replace(old_hp, new_hp)
+
+    # 14. Broken sentence cuts across paragraphs
+    broken_sentence_joins = [
+        (r"(?m)(your)\n\n(choice of Acid)", r"\1 \2"),
+        (r"(?m)(and the)\n\n(target takes)", r"\1 \2"),
+        (r"(?m)(The)\n\n(target must succeed)", r"\1 \2"),
+        (r"(?m)(returns to)\n\n(the creature's body)", r"\1 \2"),
+        (r"(?m)(see through the)\n\n(image, and its other)", r"\1 \2"),
+        (r"(?m)(against the)\n\n(target\.)", r"\1 \2"),
+        (r"(?m)(succeed on a)\n\n(Dexterity saving throw)", r"\1 \2"),
+        (r"(?m)(any creature that)\n\n(hears you and knows)", r"\1 \2"),
+        (r"(?m)(speak the)\n\n(creature's name)", r"\1 \2"),
+        (r"(?m)(steps on the)\n\n(trap)", r"\1 \2"),
+        (r"(?m)(Any effect that)\n\n(cures the Poisoned)", r"\1 \2"),
+        (r"(?m)(over your)\n\n(head as a)", r"\1 \2"),
+        (r"(?m)(that)\n\n(is within 5 feet)", r"\1 \2"),
+        (r"(?m)(or)\n\n(if the space is)", r"\1 \2"),
+        (r"(?m)(Bonus Action to)\n\n(cause the armor)", r"\1 \2"),
+        (r"(?m)(creates an)\n\n(extradimensional hole)", r"\1 \2"),
+        (r"(?m)(the)\n\n(caster must make a saving throw)", r"\1 \2"),
+        (r"(?m)(used in a)\n\n(location that has no)", r"\1 \2"),
+        (r"(?m)(make the)\n\n(blade disappear\.)", r"\1 \2"),
+        (r"(?m)(to)\n\n(a maximum of 30\.)", r"\1 \2"),
+        (r"(?m)(A monster with)\n\n(a class tag after its)", r"\1 \2"),
+        (r"(?m)(Bludgeoning damage, and)\n\n(the target has the Prone)", r"\1 \2"),
+        (r"(?m)(Verbal component and)\n\n(takes 7 \(2d6\) Thunder damage)", r"\1 \2"),
+        (r"(?m)(the target has the)\n\n(Prone condition, and the allosaurus)", r"\1 \2"),
+        (r"(?m)(each of the toad's turns\. The)\n\n(toad can have only one)", r"\1 \2"),
+    ]
+    for pat, rep in broken_sentence_joins:
+        res = re.sub(pat, rep, res)
+
+    # 15. Relocate Class Feature tables to # <Class> Class Features
+    classes_to_relocate = [
+        "Barbarian", "Bard", "Cleric", "Druid", "Fighter",
+        "Paladin", "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard"
+    ]
+    for cls in classes_to_relocate:
+        tbl_name = f"{cls} Features"
+        m = re.search(rf"\n({re.escape(tbl_name)}\n\n\|.+?\n\n)", res, re.S)
+        if not m:
+            m = re.search(rf"\n({re.escape(tbl_name)}\n\|.+?\n\n)", res, re.S)
+        if m:
+            full_table = m.group(1).strip()
+            target_heading = f"# {cls} Class Features"
+            target_pos = res.find(target_heading)
+            # Only relocate if table is currently after the target heading's first section
+            if target_pos != -1 and m.start(1) > target_pos + len(target_heading) + 300:
+                res = res[:m.start(1)] + res[m.end(1):]
+                end_para = res.find("\n\n", target_pos + len(target_heading) + 2)
+                if end_para != -1:
+                    insert_pos = end_para + 2
+                    res = res[:insert_pos] + full_table + "\n\n" + res[insert_pos:]
+
+    cleanups = [
+        ("As a Bonus Action, you can enter a Rage if you aren't wearing Heavy armor.\n\nWhile active, your Rage follows the rules below.",
+         "As a Bonus Action, you can enter a Rage if you aren't wearing Heavy armor. While active, your Rage follows the rules below."),
+        ("That creature gains\n\none of your Bardic Inspiration dice.",
+         "That creature gains one of your Bardic Inspiration dice."),
+        ("Guidance, Sacred Flame, and Thaumaturgy are recommended.\n\nWhen you reach Cleric levels 4 and 10",
+         "Guidance, Sacred Flame, and Thaumaturgy are recommended. When you reach Cleric levels 4 and 10"),
+        ("The rules below describe\n\nhow you use those rules with Druid spells",
+         "The rules below describe how you use those rules with Druid spells"),
+        ("up to the maximum amount remaining in\n\nyour pool.",
+         "up to the maximum amount remaining in your pool."),
+        ("The rules below describe\n\nhow you use those rules with Ranger spells",
+         "The rules below describe how you use those rules with Ranger spells"),
+        ("Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack\n\nroll if you have Advantage on the roll",
+         "Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack roll if you have Advantage on the roll"),
+        ("The Sorcerer Features table shows how many spell slots you have to cast your level 1+\n\nspells. You regain all expended slots when you finish a Long Rest.",
+         "The Sorcerer Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest."),
+        ("replace it with another invocation for which you\n\nqualify.",
+         "replace it with another invocation for which you qualify."),
+        ("Light, Mage Hand, and Ray of Frost are recommended.\n\nWhen you reach Wizard levels 4 and 10",
+         "Light, Mage Hand, and Ray of Frost are recommended. When you reach Wizard levels 4 and 10"),
+    ]
+    for old_s, new_s in cleanups:
+        res = res.replace(old_s, new_s)
+
+    # 16. Chapter separators
     chapters = [
         "Playing the Game", "Character Creation", "Classes", "Character Origins",
         "Feats", "Equipment", "Spells", "Rules Glossary", "Gameplay Toolbox",
@@ -301,7 +468,7 @@ def repair_source_text(md_content: str, txt_content: str) -> str:
     for ch in chapters:
         res = re.sub(rf"(?<!---)\n\n# {re.escape(ch)}\n", f"\n\n---\n\n# {ch}\n", res)
 
-    # 13. Table of Contents clean list formatting
+    # 17. Table of Contents clean list formatting
     toc_start = res.find("# Contents")
     toc_end = res.find("---\n\n# Playing the Game")
     if toc_start != -1 and toc_end != -1:
@@ -324,7 +491,7 @@ def repair_source_text(md_content: str, txt_content: str) -> str:
 """
         res = res[:toc_start] + new_toc + res[toc_end:]
 
-    # 14. LaTeX Math and Math-mode cleanup
+    # 18. LaTeX Math and Math-mode cleanup
     latex_patterns = [
         (r"\$1\+\$", "1+"),
         (r"\$2\+\$", "2+"),
@@ -370,7 +537,7 @@ def repair_source_text(md_content: str, txt_content: str) -> str:
             pat, rep = item
             res = re.sub(pat, rep, res)
 
-    # 15. HTML tables to GFM pipe tables conversion
+    # 19. HTML tables to GFM pipe tables conversion
     if "<table>" in res:
         txt_clean = txt_content.replace("−", "-").replace("\t", " ")
         all_tbl_matches = list(re.finditer(r"<table>.*?</table>", res, re.S))
@@ -416,7 +583,7 @@ def repair_source_text(md_content: str, txt_content: str) -> str:
         for sp, ep, gfm_tbl in reversed(replacements):
             res = res[:sp] + gfm_tbl + res[ep:]
 
-    # 16. Compact monster stat blocks
+    # 20. Compact monster stat blocks
     res = re.sub(r"(?m)^(AC [^\n]+)\n\n(Initiative [^\n]+)", r"\1\n\2", res)
     res = re.sub(r"(?m)^(Initiative [^\n]+)\n\n(HP [^\n]+)", r"\1\n\2", res)
     res = re.sub(r"(?m)^(HP [^\n]+)\n\n(Speed [^\n]+)", r"\1\n\2", res)
@@ -424,12 +591,12 @@ def repair_source_text(md_content: str, txt_content: str) -> str:
         for t2 in ["Skills", "Resistances", "Vulnerabilities", "Immunities", "Gear", "Senses", "Languages", "CR"]:
             res = re.sub(rf"(?m)^({t1} [^\n]+)\n\n({t2} [^\n]+)", r"\1\n\2", res)
 
-    # 17. Compact spell blocks
+    # 21. Compact spell blocks
     res = re.sub(r"(?m)^(Casting Time: [^\n]+)\n\n(Range: [^\n]+)", r"\1\n\2", res)
     res = re.sub(r"(?m)^(Range: [^\n]+)\n\n(Components: [^\n]+)", r"\1\n\2", res)
     res = re.sub(r"(?m)^(Components: [^\n]+)\n\n(Duration: [^\n]+)", r"\1\n\2", res)
 
-    # 18. Replace all em-dashes context-sensitively
+    # 22. Replace all em-dashes context-sensitively
     res_lines_em = []
     for line in res.splitlines():
         if "—" not in line:
@@ -455,7 +622,7 @@ def repair_source_text(md_content: str, txt_content: str) -> str:
             res_lines_em.append(line_rep)
     res = "\n".join(res_lines_em) + "\n"
 
-    # 19. Strip trailing whitespaces from every line
+    # 23. Strip trailing whitespaces from every line
     res_lines = [l.rstrip() for l in res.splitlines()]
     res = "\n".join(res_lines) + "\n"
 

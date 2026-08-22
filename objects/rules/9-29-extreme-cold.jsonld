@@ -11,8 +11,8 @@
     "chapter": "Gameplay Toolbox",
     "section": "9.29",
     "heading": "Extreme Cold",
-    "lineStart": 14076,
-    "lineEnd": 14078
+    "lineStart": 14056,
+    "lineEnd": 14058
   },
   "section": "9.29",
   "rulesText": "When the temperature is 0 degrees Fahrenheit or lower, a creature exposed to the extreme cold must succeed on a DC 10 Constitution saving throw at the end of each hour or gain 1 Exhaustion level. Creatures that have Resistance or Immunity to Cold damage automatically succeed on the save."

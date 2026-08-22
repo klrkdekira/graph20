@@ -11,8 +11,8 @@
     "chapter": "Monsters",
     "section": "11.30",
     "heading": "Damage Notation",
-    "lineStart": 18058,
-    "lineEnd": 18060
+    "lineStart": 18024,
+    "lineEnd": 18026
   },
   "section": "11.30",
   "rulesText": "A stat block usually provides both a number and a die expression for each instance of damage. For example, an attack might deal 4 (1d4 + 2) damage on a hit. You decide whether to use the number or the die expression in parentheses; don't use both."

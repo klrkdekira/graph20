@@ -11,8 +11,8 @@
     "chapter": "Rules Glossary",
     "section": "8.94",
     "heading": "Invisible [Condition]",
-    "lineStart": 13401,
-    "lineEnd": 13409
+    "lineStart": 13383,
+    "lineEnd": 13391
   },
   "rulesText": "While you have the Invisible condition, you experience the following effects.\n\nSurprise. If you're Invisible when you roll Initiative, you have Advantage on the roll.\n\nConcealed. You aren't affected by any effect that requires its target to be seen unless the effect's creator can somehow see you. Any equipment you are wearing or carrying is also concealed.\n\nAttacks Affected. Attack rolls against you have Disadvantage, and your attack rolls have Advantage. If a creature can somehow see you, you don't gain this benefit against that creature."
 }

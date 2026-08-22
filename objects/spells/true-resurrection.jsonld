@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.345",
     "heading": "True Resurrection",
-    "lineStart": 12378,
-    "lineEnd": 12393
+    "lineStart": 12362,
+    "lineEnd": 12375
   },
   "level": 9,
   "school": "Necromancy",
@@ -24,7 +24,7 @@
   "range": "Touch",
   "components": "V, S, M (diamonds worth 25,000+ GP, which the spell consumes)",
   "duration": "Instantaneous",
-  "rulesText": "Level 9 Necromancy (Cleric, Druid)\n\nCasting Time: 1 hour\nRange: Touch\nComponents: V, S, M (diamonds worth 25,000+ GP, which the spell consumes)\nDuration: Instantaneous\n\nYou touch a creature that has been dead for no longer than 200 years and that died for any reason except old age. The creature is revived with all its Hit Points.\n\nThis spell closes all wounds, neutralizes any poison, cures all magical contagions, and lifts any curses affecting the creature when it died. The spell replaces damaged or missing organs and limbs. If the creature was Undead, it is restored to its non-Undead form.\n\nThe spell can provide a new body if the original no longer exists, in which case you must speak the\n\ncreature's name. The creature then appears in an unoccupied space you choose within 10 feet of you.",
+  "rulesText": "Level 9 Necromancy (Cleric, Druid)\n\nCasting Time: 1 hour\nRange: Touch\nComponents: V, S, M (diamonds worth 25,000+ GP, which the spell consumes)\nDuration: Instantaneous\n\nYou touch a creature that has been dead for no longer than 200 years and that died for any reason except old age. The creature is revived with all its Hit Points.\n\nThis spell closes all wounds, neutralizes any poison, cures all magical contagions, and lifts any curses affecting the creature when it died. The spell replaces damaged or missing organs and limbs. If the creature was Undead, it is restored to its non-Undead form.\n\nThe spell can provide a new body if the original no longer exists, in which case you must speak the creature's name. The creature then appears in an unoccupied space you choose within 10 feet of you.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"

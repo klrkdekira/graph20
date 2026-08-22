@@ -11,8 +11,8 @@
     "chapter": "Monsters",
     "section": "11.29",
     "heading": "Saving Throw Effect Notation",
-    "lineStart": 18052,
-    "lineEnd": 18056
+    "lineStart": 18018,
+    "lineEnd": 18022
   },
   "section": "11.29",
   "rulesText": "If an effect forces a saving throw, the effect identifies the kind of save required and then provides the save's DC, a description of which creatures make the save, and an explanation of what happens on a failed or successful save.\n\n“Half damage only” on a successful save means the target takes half as much damage (round down) as targets that fail the save, while also ignoring all other parts of the effect."

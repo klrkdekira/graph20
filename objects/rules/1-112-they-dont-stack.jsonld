@@ -11,8 +11,8 @@
     "chapter": "Playing the Game",
     "section": "1.112",
     "heading": "They Don't Stack",
-    "lineStart": 857,
-    "lineEnd": 859
+    "lineStart": 851,
+    "lineEnd": 853
   },
   "section": "1.112",
   "rulesText": "Temporary Hit Points can't be added together. If you have Temporary Hit Points and receive more of them, you decide whether to keep the ones you have or to gain the new ones. For example, if a spell grants you 12 Temporary Hit Points when you already have 10, you can have 12 or 10, not 22."

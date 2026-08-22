@@ -11,8 +11,8 @@
     "chapter": "Playing the Game",
     "section": "1.24",
     "heading": "Roll Two D20s",
-    "lineStart": 238,
-    "lineEnd": 240
+    "lineStart": 234,
+    "lineEnd": 236
   },
   "section": "1.24",
   "rulesText": "When a roll has either Advantage or Disadvantage, roll a second d20 when you make the roll. Use the higher of the two rolls if you have Advantage, and use the lower roll if you have Disadvantage. For example, if you have Disadvantage and roll an 18 and a 3, use the 3. If you instead have Advantage and roll those numbers, use the 18."

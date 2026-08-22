@@ -11,8 +11,8 @@
     "chapter": "Rules Glossary",
     "section": "8.109",
     "heading": "Paralyzed [Condition]",
-    "lineStart": 13512,
-    "lineEnd": 13524
+    "lineStart": 13494,
+    "lineEnd": 13506
   },
   "rulesText": "While you have the Paralyzed condition, you experience the following effects.\n\nIncapacitated. You have the Incapacitated condition.\n\nSpeed 0. Your Speed is 0 and can't increase.\n\nSaving Throws Affected. You automatically fail Strength and Dexterity saving throws.\n\nAttacks Affected. Attack rolls against you have Advantage.\n\nAutomatic Critical Hits. Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you."
 }
