@@ -252,11 +252,29 @@
   .source-links a { font-size: .73rem; font-weight: 700; color: var(--accent-strong); }
   h3.sect { margin: 2rem 0 .55rem; padding-bottom: .38rem; border-bottom: 1px solid var(--border);
     font-family: ui-serif, Georgia, serif; font-size: 1.14rem; line-height: 1.3; color: var(--accent-strong); }
-  .tablewrap { overflow-x: auto; margin: 1.25rem 0; border: 1px solid var(--border); border-radius: 10px; box-shadow: var(--shadow); }
+  .tablewrap { overflow-x: auto; margin: 1.25rem 0; border: 1px solid var(--border); border-radius: 10px; box-shadow: var(--shadow); background: var(--card); }
+  .tablewrap.tall { max-height: min(34rem, 70vh); overflow-y: auto; }
+  .table-caption {
+    display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
+    padding: .55rem .75rem; border-bottom: 1px solid var(--border); background: var(--panel2);
+    font-family: ui-serif, Georgia, serif; font-size: .9rem; font-weight: 700;
+  }
+  .table-caption .rows-meta { color: var(--muted); font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: .7rem; font-weight: 650; white-space: nowrap; }
+  .table-caption a { color: var(--accent-strong); text-decoration: none; }
+  .table-caption a:hover { text-decoration: underline; }
   table.data { width: 100%; border-collapse: collapse; font-size: .84rem; background: var(--card); }
-  table.data td, table.data th { border-bottom: 1px solid var(--border); padding: .52rem .7rem; text-align: left; vertical-align: top; }
-  table.data th { background: var(--panel2); font-size: .72rem; text-transform: uppercase; letter-spacing: .04em; }
-  table.data tr:last-child td { border-bottom: 0; }
+  table.data td, table.data th { border-bottom: 1px solid var(--border); padding: .5rem .7rem; text-align: left; vertical-align: top; }
+  table.data thead th {
+    position: sticky; top: 0; z-index: 1; background: var(--panel2);
+    font-size: .72rem; text-transform: uppercase; letter-spacing: .04em;
+    box-shadow: 0 1px 0 var(--border);
+  }
+  table.data tbody tr:nth-child(even) td { background: var(--panel); }
+  table.data tbody tr:hover td { background: var(--accent-soft); }
+  table.data td.num, table.data th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  table.data td.blank { color: var(--muted); text-align: center; }
+  table.data tbody tr:last-child td { border-bottom: 0; }
+  .inline-table { margin: 0; }
   details.raw { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--border); }
   details.raw summary { cursor: pointer; width: max-content; color: var(--muted); font-size: .79rem; font-weight: 650; }
   details.raw summary:hover { color: var(--accent); }
@@ -856,7 +874,7 @@
         // sections (Traits, Actions, ...) as headed blocks.
         record.statSections.forEach(function (section) {
           box.appendChild(el("h3", "sect", section.name));
-          box.appendChild(el("div", "prose", section.rulesText));
+          renderProse(box, section.rulesText);
         });
       } else if (record.rulesText) {
         var text = stripSubtitle(record.rulesText, subtitle);
@@ -865,16 +883,20 @@
           // grid; hide the duplicated header lines in display only.
           text = text.replace(/^(?:(?:Casting Time|Range|Components|Duration):[^\n]*\n+)+/, "");
         }
-        box.appendChild(el("div", "prose", text));
+        renderProse(box, text, tableDropKeys(record.relatedTables));
+      }
+      if (record["@type"] !== "Table" && record.relatedTables) {
+        renderRelatedTables(box, record.relatedTables);
       }
       (record.features || []).forEach(function (feature) {
         var title = (feature.level ? "Level " + feature.level + ": " : "") + feature.name;
         box.appendChild(el("h3", "sect", title));
-        if (feature.rulesText) box.appendChild(el("div", "prose", feature.rulesText));
+        if (feature.rulesText) renderProse(box, feature.rulesText, tableDropKeys(feature.relatedTables));
+        if (feature.relatedTables) renderRelatedTables(box, feature.relatedTables);
       });
       (record.traits || []).forEach(function (trait) {
         box.appendChild(el("h3", "sect", trait.name));
-        box.appendChild(el("div", "prose", trait.rulesText));
+        renderProse(box, trait.rulesText);
       });
       var raw = el("details", "raw");
       raw.appendChild(el("summary", null, "Raw record JSON"));
@@ -1023,9 +1045,10 @@
   }
 
   function renderRelations(box, record) {
+    // relatedTables render inline with linked captions, not as relation chips.
     var relationFields = [
       ["classes", "Class"], ["subclasses", "Subclass"], ["parentClass", "Parent class"],
-      ["relatedTables", "Table"], ["fromTable", "Source table"], ["relatedRules", "Rule"],
+      ["fromTable", "Source table"], ["relatedRules", "Rule"],
       ["conditionImmunities", "Condition"], ["spellList", "Spell"]
     ];
     var section = el("section", "structured-section");
@@ -1043,7 +1066,10 @@
         if (routeParts.length < 2) return;
         var slug = routeParts.slice(1).join("/");
         var a = link("#/" + routeParts[0] + "/" + slug, "relation-link");
-        a.textContent = pair[1] + " · " + titleFromSlug(slug);
+        var labelSlug = (routeParts[0] === "rules" || routeParts[0] === "tables")
+          ? slug.replace(/^(\d+-)+/, "")
+          : slug;
+        a.textContent = pair[1] + " · " + titleFromSlug(labelSlug);
         links.appendChild(a);
         linkCount += 1;
       });
@@ -1086,23 +1112,185 @@
     box.appendChild(grid);
   }
 
-  function renderDataTable(box, columns, rows) {
+  var BLANK_CELL = { "": true, "-": true, "—": true };
+  function isNumericValue(value) {
+    return /^[+-]?[\d,]+(?:\.\d+)?$/.test(value) ||
+      /^\d+d\d+(?:\s*[+-]\s*\d+)?$/.test(value) ||
+      /^[\d,\/]+ (?:CP|SP|EP|GP|PP)$/.test(value) ||
+      /^[\d,.\/ ]+ ?(?:lb|ft)\.?$/.test(value);
+  }
+
+  function numericColumns(columns, rows) {
+    return columns.map(function (_, index) {
+      var seen = false;
+      var allNumeric = (rows || []).every(function (row) {
+        var cell = row.cells[index];
+        if (!cell || BLANK_CELL[cell.value]) return true;
+        if (cell.colspan) return false;
+        seen = true;
+        return isNumericValue(cell.value);
+      });
+      return seen && allNumeric;
+    });
+  }
+
+  function renderDataTable(box, columns, rows, caption, captionHref) {
     var wrap = el("div", "tablewrap");
+    if ((rows || []).length > 14) wrap.className += " tall";
+    if (caption) {
+      var cap = el("div", "table-caption");
+      if (captionHref) {
+        var captionLink = link(captionHref);
+        captionLink.textContent = caption;
+        cap.appendChild(captionLink);
+      } else {
+        cap.appendChild(el("span", null, caption));
+      }
+      cap.appendChild(el("span", "rows-meta", (rows || []).length + " rows"));
+      wrap.appendChild(cap);
+    }
     var table = el("table", "data");
-    var head = el("tr");
-    columns.forEach(function (column) { head.appendChild(el("th", null, column)); });
-    table.appendChild(head);
+    var numeric = numericColumns(columns, rows);
+    if (columns.some(function (c) { return c; })) {
+      var thead = el("thead");
+      var head = el("tr");
+      columns.forEach(function (column, index) {
+        head.appendChild(el("th", numeric[index] ? "num" : null, column));
+      });
+      thead.appendChild(head);
+      table.appendChild(thead);
+    }
+    var tbody = el("tbody");
     (rows || []).forEach(function (row) {
       var tr = el("tr");
-      row.cells.forEach(function (cell) {
-        var td = el("td", null, cell.value);
+      row.cells.forEach(function (cell, index) {
+        var cls = BLANK_CELL[cell.value] ? "blank" : (numeric[index] && !cell.colspan ? "num" : null);
+        var td = el("td", cls, cell.value);
         if (cell.colspan) td.setAttribute("colspan", cell.colspan);
         tr.appendChild(td);
       });
-      table.appendChild(tr);
+      tbody.appendChild(tr);
     });
+    table.appendChild(tbody);
     wrap.appendChild(table);
     box.appendChild(wrap);
+  }
+
+  function parsePipeTable(tableLines) {
+    var split = function (line) {
+      return line.replace(/^\|/, "").replace(/\|$/, "").split("|").map(function (c) { return c.trim(); });
+    };
+    var first = split(tableLines[0]);
+    var hasHeader = tableLines.length > 1 && split(tableLines[1]).every(function (c) {
+      return /^:?-{3,}:?$/.test(c);
+    });
+    var columns = hasHeader ? first : first.map(function () { return ""; });
+    var dataLines = hasHeader ? tableLines.slice(2) : tableLines;
+    var rows = [];
+    dataLines.forEach(function (line) {
+      var cells = split(line);
+      if (hasHeader && cells.join(" ") === first.join(" ")) return; // repeated header row
+      rows.push({ cells: cells.map(function (value) { return { value: value }; }) });
+    });
+    return { columns: columns, rows: rows };
+  }
+
+  function normalizedKey(text) {
+    return text.toLowerCase().replace(/[^a-z0-9]/g, "");
+  }
+
+  function tableDropKeys(refs) {
+    // Normalized names of related tables, derived from their slugs, so the
+    // dangling caption line the extractor leaves in prose can be suppressed
+    // (the inline table render carries the caption instead).
+    var keys = {};
+    (refs || []).forEach(function (ref) {
+      var parts = ref && ref["@id"] ? ref["@id"].split("/objects/tables/")[1] : null;
+      if (parts) keys[normalizedKey(parts.replace(/^(\d+-)+/, ""))] = true;
+    });
+    return keys;
+  }
+
+  function isCaptionLine(line) {
+    return line && line.length < 80 && !/[.:,;]$/.test(line);
+  }
+
+  function renderProse(box, text, dropKeys) {
+    // Render verbatim prose, promoting embedded markdown pipe tables
+    // (species lineage tables, inline spell tables) to real tables. A short
+    // caption line directly above an embedded table becomes its caption.
+    if (!text) return;
+    var lines = text.split("\n");
+    var buffer = [];
+    var flush = function () {
+      var chunk = buffer.join("\n").replace(/\n{3,}/g, "\n\n").trim();
+      // An absorbed chapter-separator rule at the end of a record's prose
+      // (see AUDIT.md S11) is display noise, not content.
+      chunk = chunk.replace(/\n-{3,}$/, "").trim();
+      if (chunk && chunk !== "---") box.appendChild(el("div", "prose", chunk));
+      buffer = [];
+    };
+    var index = 0;
+    var isPipeLine = function (line) {
+      var trimmed = line.trim();
+      return trimmed.charAt(0) === "|" && trimmed.charAt(trimmed.length - 1) === "|" && trimmed.length > 2;
+    };
+    while (index < lines.length) {
+      var trimmedLine = lines[index].trim();
+      if (isPipeLine(lines[index])) {
+        var tableLines = [];
+        while (index < lines.length && isPipeLine(lines[index])) {
+          tableLines.push(lines[index].trim());
+          index += 1;
+        }
+        // Pop a caption line sitting as its own paragraph right above.
+        var caption = null;
+        var tail = buffer.length - 1;
+        while (tail >= 0 && !buffer[tail].trim()) tail -= 1;
+        var isOwnParagraph = tail === 0 || (tail > 0 && !buffer[tail - 1].trim());
+        if (tail >= 0 && isOwnParagraph && isCaptionLine(buffer[tail].trim())) {
+          caption = buffer[tail].trim();
+          buffer = buffer.slice(0, tail);
+        }
+        flush();
+        var parsed = parsePipeTable(tableLines);
+        renderDataTable(box, parsed.columns, parsed.rows, caption);
+      } else if (
+        dropKeys && trimmedLine && isCaptionLine(trimmedLine) &&
+        dropKeys[normalizedKey(trimmedLine)] &&
+        (buffer.length === 0 || !buffer[buffer.length - 1].trim()) &&
+        (index + 1 >= lines.length || !lines[index + 1].trim())
+      ) {
+        index += 1; // suppress the dangling caption of an inline related table
+      } else {
+        buffer.push(lines[index]);
+        index += 1;
+      }
+    }
+    flush();
+  }
+
+  function renderRelatedTables(box, refs) {
+    // Fetch each referenced Table record and render it inline where it is
+    // cited; fall back to a navigation link if the fetch fails.
+    (refs || []).forEach(function (ref) {
+      if (!ref || !ref["@id"]) return;
+      var parts = ref["@id"].split("/objects/")[1];
+      if (!parts) return;
+      var holder = el("div", "inline-table");
+      box.appendChild(holder);
+      fetch("objects/" + parts + ".jsonld").then(function (r) {
+        if (!r.ok) throw new Error(r.status);
+        return r.json();
+      }).then(function (table) {
+        if (!table.columns) return;
+        renderDataTable(holder, table.columns, table.rows, table.name, "#/" + parts);
+      }).catch(function () {
+        var a = link("#/" + parts, "relation-link");
+        a.textContent = "Table · " + titleFromSlug(parts.split("/")[1] || parts);
+        holder.appendChild(a);
+      });
+    });
   }
 })();
 </script>
