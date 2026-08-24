@@ -20,7 +20,7 @@
 - [x] Ordinary entity locators start at their heading; Table/equipment locators start at the physical table; nested feature/stat spans remain inside their owner.
 - [x] Tables retain `rawText`, continuation headers are not promoted to rows, Wand of Wonder is one 18-row table, and no table is empty.
 - [x] Every spell has casting time, range, components, and duration; all magic-item rarity variants and full-header attunement are retained.
-- [x] All 424 monster `Attack Roll:` paragraphs have a disposition: 423 complete typed damaging attacks and one explicit non-damaging Roper Tentacle reason.
+- [x] All 429 monster `Attack Roll:` paragraphs have a disposition: 423 complete typed damaging attacks and 6 explicit unparsed dispositions (the Roper Tentacle plus 5 caster-scaling summon attacks).
 - [x] Structured equipment names decode reviewed HTML markup and produce stable semantic slugs.
 
 ## Ingestion and semantic review

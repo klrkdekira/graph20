@@ -12,7 +12,7 @@ The corpus is reference data. Executable rules engines, character builders, camp
 
 `SRD_CC_v5.2.1.md` is the sole content source. It represents the System Reference Document 5.2.1 by Wizards of the Coast LLC under CC-BY-4.0. The required attribution statement is preserved exactly in the source record, manifest, README, and `llms-full.txt`.
 
-The historical source-normalization event was compared directly with the official PDF text layer. Its observed tokens, fixes, rationale, disposition, affected classes, and pre/post digests are registered in `objects/sources/extraction-overrides.json`. The obsolete open5e comparison cache was removed and no external dataset contributes retained assertions. Extraction never derives a missing ability modifier or saving throw: incomplete observed cells remain omitted, as verified through extraction, bundle generation, LLM projection, and repeated rebuilds.
+Each source-normalization event was compared directly with the official PDF text layer. Observed tokens, fixes, rationale, disposition, affected classes, and (for detector entries and the 2026-08-24 event) pre/post digests are registered in `objects/sources/extraction-overrides.json`. The obsolete open5e comparison cache was removed and no external dataset contributes retained assertions. Extraction never derives a missing ability modifier or saving throw: incomplete observed cells remain omitted, as verified through extraction, bundle generation, LLM projection, and repeated rebuilds.
 
 ## 3. Corpus scope
 

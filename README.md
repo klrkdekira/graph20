@@ -23,7 +23,7 @@
 
 Machine-readable JSON-LD 1.1 reference corpus and JSON Schema Draft 2020-12 specifications for the System Reference Document 5.2.1 (D&D 5th Edition rules, CC-BY-4.0). The architecture replicates [wwn-system-json](https://cheeleong.dev/wwn-system-json/) per its replication playbook.
 
-The corpus provides 2,097 source-faithful records across 13 collections, covering rules, logical tables, character classes, subclasses, species, backgrounds, feats, equipment, spells, conditions, magic items, and monster stat blocks. Every record carries verbatim SRD prose, structured index fields, graph links, and line-level physical source provenance tracing back to the authoritative source markdown.
+The corpus provides 2,097 source-faithful records across 13 collections, covering rules, logical tables, character classes, subclasses, species, backgrounds, feats, equipment, spells, conditions, magic items, and monster stat blocks. Records carry verbatim SRD prose, structured index fields, graph links where asserted, and line-level physical source provenance tracing back to the authoritative source markdown.
 
 - **Live Web Explorer**: [https://cheeleong.dev/graph20/](https://cheeleong.dev/graph20/)
 - **Vocabulary & Ontology**: [https://cheeleong.dev/graph20/vocab/](https://cheeleong.dev/graph20/vocab/)
@@ -121,7 +121,7 @@ graph20/
 
 ### Semantic Graph Enrichment
 
-- **Spells**: Linked to class `@id` nodes (`castingClasses`), retaining all 5 printed spell headers (Level & School, Casting Time, Range, Components, Duration) alongside structured fields for saving throws, damage dice, damage types, healing, and upcast scaling.
+- **Spells**: Linked to class `@id` nodes (`classes`), retaining all 5 printed spell headers (Level & School, Casting Time, Range, Components, Duration) alongside structured fields for saving throws, damage dice, damage types, healing, and upcast scaling.
 - **Monsters**: 336 complete stat blocks (including the 6 summoned-creature stat blocks printed in the Spells and Magic Items chapters) with observed ability entries, 423 parsed damaging attacks with typed modifiers/reach/damage components, 6 explicit unparsed attack dispositions (the Roper *Tentacle* plus 5 summon attacks whose bonus scales with the caster), condition-immunity node references, traits, and action sections.
 - **Classes & Subclasses**: Graph-safe typed trait entries (`name`, `value`), ordered level progressions, and nested feature structures retaining exact source line spans.
 - **Magic Items**: Complete retention of rarity variants, full attunement clauses with prerequisites, and embedded logical tables.
@@ -135,11 +135,11 @@ graph20/
 - **JSON-LD 1.1**: Every entity carries a canonical `@id` under `https://cheeleong.dev/graph20/`, a `@type`, and references the shared context (`systems/context.jsonld`).
 - **Strict JSON Schemas**: Every collection, manifest, bundle, index, coverage report, and review ledger is validated against JSON Schema Draft 2020-12, rejecting unevaluated properties on leaf entities.
 - **Relational Integrity**: All semantic links use `{ "@id": "..." }` node references. Predicates declared as `@type: "@id"` in the context are never emitted as bare strings.
-- **Line-Level Physical Provenance**: Every entity and nested feature carries a `sourceLocator` (`chapter`, `section`, `heading`, `lineStart`, `lineEnd`) tracing it directly to `SRD_CC_v5.2.1.md`.
+- **Line-Level Physical Provenance**: Every extracted entity (and every class feature and monster stat section) carries a `sourceLocator` (`chapter`, `section`, `heading`, `lineStart`, `lineEnd`) tracing it directly to `SRD_CC_v5.2.1.md`.
 - **Zero Derived Values**: The parser never derives missing values or invents data (e.g. truncated ability modifier table cells stay omitted).
-- **Source Fidelity & Normalization**: The source markdown underwent a single documented normalization (`scripts/repair_source.py`) cross-referenced against the official PDF text layer. All observed anomalies and approved fixes are registered in `objects/sources/extraction-overrides.json`.
+- **Source Fidelity & Normalization**: The source markdown underwent documented normalization passes (`scripts/repair_source.py`) cross-referenced against the official PDF text layer. All observed anomalies and approved fixes are registered in `objects/sources/extraction-overrides.json`.
 - **Occurrence Review Ledger**: Occurrence-level review ledger tracks 1,974 semantic signals with policies in `reviews/semantic-review-policies.json`, maintaining zero pending signals across clean builds.
-- **Published Vocabulary**: All 139 properties and 14 classes in the expanded graph are defined with dereferenceable fragment IRIs under `https://cheeleong.dev/graph20/vocab/#`.
+- **Published Vocabulary**: All 139 properties and 14 classes declared by the project context are defined with dereferenceable fragment IRIs under `https://cheeleong.dev/graph20/vocab/#`.
 
 ---
 

@@ -1173,27 +1173,32 @@ def link_gear_rules(emitter: Emitter):
     """Link each gear item to the Equipment-chapter Rule describing it.
 
     The gear tables carry stats only; the prose descriptions were emitted as
-    separate Rule records (e.g. "Torch (1 CP)"). Names are matched after
-    normalizing typographic apostrophes, first on the full rule name, then on
-    the rule name with its trailing price parenthetical stripped, then with
-    the item's own variant parenthetical stripped too. Ambiguous matches are
-    never linked.
+    separate Rule records whose names carry a trailing parenthetical (e.g.
+    "Torch (1 CP)", "Ammunition (Varies)"). Only those rules are candidates:
+    bare-named Equipment-chapter rules are shared concepts (e.g. the
+    "Ammunition" weapon property), not item descriptions. Names are matched
+    after normalizing typographic apostrophes, on the rule name with its
+    parenthetical stripped, then with the item's own variant parenthetical
+    stripped too. Ambiguous matches are never linked.
     """
-    strip_paren = lambda text: re.sub(r"\s*\([^)]*\)$", "", text)
-    full_names = {}
+
+    def strip_paren(text):
+        return re.sub(r"\s*\([^)]*\)$", "", text)
+
     base_names = {}
     for rule in emitter.records["rules"]:
         if rule["sourceLocator"]["chapter"] != "Equipment":
             continue
         norm = rule["name"].replace("’", "'")
-        full_names.setdefault(norm, []).append(rule["@id"])
-        base_names.setdefault(strip_paren(norm), []).append(rule["@id"])
+        base = strip_paren(norm)
+        if base == norm:
+            continue
+        base_names.setdefault(base, []).append(rule["@id"])
     for item in emitter.records["equipment"]:
         if item["equipmentType"] != "gear":
             continue
         name = item["name"].replace("’", "'")
         for candidates in (
-            full_names.get(name, []),
             base_names.get(name, []),
             base_names.get(strip_paren(name), []),
         ):

@@ -16,7 +16,7 @@
       "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
     },
     "sourceDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
-    "corpusDigest": "sha256-186fc8beecf6bc249e93021aa17958f7df3f2cf153315dd746f55e4fd2cbc639"
+    "corpusDigest": "sha256-0ecd7a6f735731009d57c38d2ebe9cdf204506b031323940b042810cd541f88f"
   },
   "@graph": [
     {
@@ -3312,7 +3312,7 @@
       "weight": "Varies",
       "relatedRules": [
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/6-7-ammunition"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/6-64-ammunition-varies"
         }
       ]
     },

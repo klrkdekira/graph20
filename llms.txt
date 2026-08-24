@@ -28,3 +28,5 @@ Record URLs follow `objects/<collection>/<slug>.jsonld`; the full per-collection
 
 - [README](https://cheeleong.dev/graph20/README.md)
 - [Technical specification](https://cheeleong.dev/graph20/SPECIFICATION.md)
+- [Replication checklist](https://cheeleong.dev/graph20/CHECKLIST.md)
+- [Gap register](https://cheeleong.dev/graph20/AUDIT.md)

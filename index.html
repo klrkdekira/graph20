@@ -570,13 +570,13 @@
     items.appendChild(el("p", "placeholder", "Searching…"));
     detail.textContent = "";
     detail.appendChild(el("p", "placeholder", "Full-text results for “" + query + "” are in the list."));
+    var terms = query.toLowerCase().split(/\s+/).filter(function (t) { return t.length >= 3; });
+    if (!terms.length) {
+      items.textContent = "";
+      items.appendChild(el("p", "placeholder", "Search terms need at least 3 characters."));
+      return;
+    }
     ensureSearchIndex().then(function (idx) {
-      var terms = query.toLowerCase().split(/\s+/).filter(function (t) { return t.length >= 3; });
-      if (!terms.length) {
-        items.textContent = "";
-        items.appendChild(el("p", "placeholder", "Search terms need at least 3 characters."));
-        return;
-      }
       var hits = null;
       terms.forEach(function (term) {
         var matched = {};
