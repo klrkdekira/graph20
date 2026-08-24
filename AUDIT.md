@@ -1,36 +1,6 @@
-# Gap Register
+# Open Gap Register
 
-Audit date: 2026-08-24 (v0.4.0); second verification pass same day (see "Second-run findings" below). Method: four independent sweeps — semantic completeness against `SRD_CC_v5.2.1.md`, graph/link quality, specification-vs-enforcement, and publication surface — followed by remediation of every confirmed data-loss and pipeline-integrity finding. Items marked **fixed** shipped in v0.4.0; items marked **open** are known, registered limitations.
-
-## Fixed in v0.4.0
-
-### Data loss and provenance (extraction)
-
-1. **Fixed — `Dispel Magic` was missing from the corpus.** Its descriptor line wrapped across a column break (`Level 3 Abjuration (Bard, Cleric, Druid, Paladin,` / `Ranger, Sorcerer, Warlock, Wizard)`), so descriptor detection failed and the spell's full text was folded into the preceding *Dispel Evil and Good* record. Repaired at the source (`scripts/repair_source.py` step 21b, registered as `cross-column-splice-repairs-2026-08-24`). Spells: 338 → 339.
-2. **Fixed — the Tiefling's Fiendish Legacies table was spliced into the Human species entry** by the two-column page layout. The table is relocated to the Tiefling's Fiendish Legacy trait, which references it.
-3. **Fixed — the Travel Terrain table was spliced into the "1: Choose Abilities" background-creation step.** Relocated to the Travel Pace section that references it; its record is now `objects/tables/9-2-travel-terrain.jsonld` with correct heading provenance.
-4. **Fixed — four summoned-creature stat blocks in the Spells chapter (Animated Object, Otherworldly Steed, Giant Insect, Draconic Spirit) were raw prose inside spell records** while the two stat blocks in the Magic Items chapter had been promoted. All four are now Monster records. Monsters: 332 → 336. Spell-level-scaling AC/HP values are intentionally left untyped (a scalar index would misstate the printed value); their five attack paragraphs use non-numeric bonuses ("Bonus equals your spell attack modifier") and are recorded as explicit unparsed dispositions alongside the Roper's Tentacle.
-5. **Fixed — all 133 equipment records carried a wrong `sourceLocator.heading`** (the column-flow heading the table physically sat under: "Vex", "One at a Time", "Ammunition (Varies)"). The heading is now the owning table's caption ("Weapons", "Armor", "Adventuring Gear").
-6. **Fixed — the 82 gear records and their prose descriptions were severed twins.** Each gear item now carries `relatedRules` linking to the Equipment-chapter Rule record that describes it (82/82 matched deterministically after apostrophe normalization and price-parenthetical stripping).
-
-### Pipeline and enforcement
-
-7. **Fixed — `make check` neutered the determinism gate.** The in-place regeneration targets ran before `determinism`, so the "checked-in artifacts match a clean build" comparison always saw freshly rewritten files. `determinism` now runs first, and CI additionally fails on a dirty tree after `make check`.
-8. **Fixed — headline record counts were unenforced.** `tests/test_structural.py` now pins every collection exactly and asserts the 2,097 total; equipment/rules/tables previously used `assertGreater`, letting records vanish silently.
-9. **Fixed — the `typed-source` review-check note claimed equipment fidelity that did not exist.** `scripts/validate_fidelity.py` now verifies equipment `name`, `cost`, `damage`, `armorClass`, `weight`, and `mastery` against the source table span, and verifies the spell Level & School descriptor (the fifth printed header, previously unchecked) against each spell's span. The note is now accurate.
-
-### Publication surface
-
-10. **Fixed — README documented `startLine`/`endLine`; the fields are `lineStart`/`lineEnd`.**
-11. **Fixed — seven `file:///Users/...` local links in README** replaced with repository-relative links.
-12. **Fixed — README described five spell headers as "all 4".**
-13. **Fixed — `llms.txt` listed 12 of 13 collections** (sources omitted, so its counts contradicted its own total) and omitted the vocabulary; both corrected.
-14. **Fixed — the explorer's "View source lines" GitHub link was broken for every record** (`#L` anchors need `?plain=1` on rendered markdown).
-15. **Fixed — the explorer's list filter ignored `group`**, so the advertised spell-level / monster-CR / rarity / equipment-category filtering matched nothing.
-16. **Fixed — search UX false negatives**: a query of only short tokens (e.g. "AC") reported "No matches anywhere" instead of explaining the 3-character minimum, and result counts over 300 displayed as exactly "300 results" with no truncation notice.
-17. **Fixed — stale size labels** ("about 4 MB" bundle, "about 1.5 MB" llms-full) and the version chip.
-18. **Fixed — `CITATION.cff` gaps**: added `repository-code`, `date-released`, and the dual CC-BY-4.0 + MIT license list; author naming aligned ("Chee Leong Chow") across `CITATION.cff`, `datapackage.json`, and `index.html`; Wizards of the Coast's Frictionless role corrected from `wrangler` to `author`.
-19. **Fixed — `datapackage.json` omitted published artifacts**: added `vocab/terms.json`, `systems/context.jsonld`, `llms.txt`, `sitemap.xml`, and the three `objects/sources/*` verification artifacts, plus a `repository` link.
+Audit date: 2026-08-24 (v0.4.0); second verification pass same day (see "Second-run findings" below). Method: four independent sweeps — semantic completeness against `SRD_CC_v5.2.1.md`, graph/link quality, specification-vs-enforcement, and publication surface. This register contains unresolved findings only; handled findings have been removed.
 
 ## Open gaps (registered limitations)
 
@@ -46,7 +16,7 @@ Audit date: 2026-08-24 (v0.4.0); second verification pass same day (see "Second-
 - **T1.** The Rules Glossary self-labels five typed families; only `[Condition]` has a collection. `[Action]` ×12, `[Area of Effect]` ×6, `[Hazard]` ×5, `[Attitude]` ×3 are generic rules.
 - **T2.** 28 Eldritch Invocations and 10 Metamagic options live inside the warlock/sorcerer class `rulesText` (not in `features[]`), with their printed `Prerequisite:` lines unindexed.
 - **T3.** The 25 tools (17 Artisan's, 8 Other) are Rule records with the price trapped in the record name; there is no tools table in the source, so they need a prose-heading extraction path. Mounts, tack, vehicles, food/lodging, hirelings, and spellcasting services exist only as table rows. Arcane/Druidic focuses, holy symbols, and the ammunition-storage table rows are likewise not equipment records.
-- **T4.** 10 spells still carry inline markdown tables with no Table record or `relatedTables` (the 4 stat-block cases were resolved by promotion); species lineage tables (Elven Lineages, Fiendish Legacies, Draconic Ancestry) are raw pipes inside species `rulesText`.
+- **T4.** 10 spells still carry inline markdown tables with no Table record or `relatedTables`; species lineage tables (Elven Lineages, Fiendish Legacies, Draconic Ancestry) are raw pipes inside species `rulesText`.
 - **T5.** Monster `sizeAndType`, `speed`, `skills`, `senses`, `languages`, `immunities` (damage + condition mixed), `resistances`, `vulnerabilities`, and `gear` are raw strings; no split `size`/`creatureType`/`descriptiveTags`; no NPC/Animal category field; monster spellcasting sections (49 monsters) are untyped prose.
 - **T6.** Spells have no typed area-of-effect geometry (85 spells name a shape), no save-DC/save-outcome typing, and `duration`/`range`/`components` are free strings. Condition records carry `rulesText` only. Magic-item charges (~50 items), granted spells (25), attunement restrictions (21), and cursed/sentient flags are untyped. Equipment `weight` is a string while `cost` is typed. Gameplay Toolbox traps, poisons, diseases, environmental effects, fear/mental stress, and curses have consistent internal structure that is not indexed. Backgrounds link skills/tools/equipment by prose strings.
 - **T7.** Table cells hold display strings only (no entity references); the 8 class `spellList` links terminate in prose Rule records whose tables name spells as unlinked strings.
@@ -72,11 +42,7 @@ Audit date: 2026-08-24 (v0.4.0); second verification pass same day (see "Second-
 
 ## Second-run findings (2026-08-24, second audit pass — open)
 
-A verification sweep after the v0.4.0 remediation found more instances of the same defect classes. All confirmed against the source; none yet remediated except S0.
-
-### Fixed immediately after the second run
-
-- **S0.** The v0.4.0 gear link for `equipment/ammunition` targeted the "Ammunition" *weapon property* rule instead of the "Ammunition (Varies)" gear description; the matcher now only considers rules with a trailing parenthetical (item-description shape). README's `castingClasses` typo (the term is `classes`), CHECKLIST's stale "424 attack paragraphs / 1 unparsed" line (now 429 / 6), the "single documented normalization" wording (there are two registered events), the "Every entity and nested feature carries a sourceLocator" overclaim (the source record and species traits do not), the vocabulary "in the expanded graph" overclaim (`seeAlso` is declared-only), and the explorer's short-query guard running after the 18.5 MB index download were corrected in the same pass. This register's own miscounts (28 invocations, not 31; 25 tools, not 26; ~50 charge items, not 56; eight relation predicates; 9 version files) were corrected in place.
+A verification sweep after the v0.4.0 remediation found more instances of the same defect classes. All were confirmed against the source and remain unresolved.
 
 ### Cross-record absorption (Dispel Magic class)
 
