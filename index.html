@@ -299,10 +299,10 @@
   .relation-link { display: inline-flex; align-items: center; gap: .42rem; padding: .42rem .66rem; border: 1px solid var(--border); border-radius: 8px; background: var(--card); color: var(--accent-strong); font-size: .8rem; font-weight: 700; text-decoration: none; box-shadow: var(--shadow); }
   .relation-link::after { content: "→"; color: var(--muted); }
   .relation-link:hover { border-color: var(--accent); }
-  .attack-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: .65rem; }
-  .attack-card { padding: .82rem .9rem; border: 1px solid var(--border); border-radius: 10px; background: var(--card); box-shadow: var(--shadow); }
-  .attack-card strong { display: block; font-family: var(--font-text); font-size: 1.05rem; }
-  .attack-card span { display: block; color: var(--muted); font-size: .79rem; line-height: 1.55; }
+  .attack-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: .8rem; }
+  .attack-card { padding: 1rem 1.05rem; border: 1px solid var(--border); border-radius: 10px; background: var(--card); box-shadow: var(--shadow); }
+  .attack-card strong { display: block; font-family: var(--font-text); font-size: 1.4rem; line-height: 1.3; }
+  .attack-card span { display: block; margin-top: .18rem; color: var(--muted); font-size: 1.08rem; font-weight: 500; line-height: 1.6; }
   .source-links { display: flex; flex-wrap: wrap; gap: .5rem 1rem; margin: -.85rem 0 1.75rem; }
   .source-links a { font-size: .8rem; font-weight: 700; color: var(--accent-strong); }
   h3.sect { margin: 2.4rem 0 .72rem; padding-bottom: .46rem; border-bottom: 2px solid var(--brass);
@@ -311,17 +311,17 @@
   .tablewrap.tall { max-height: min(34rem, 70vh); overflow-y: auto; }
   .table-caption {
     display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
-    padding: .68rem .85rem; border-bottom: 1px solid var(--border); background: var(--panel2);
-    font-family: var(--font-text); font-size: 1.03rem; font-weight: 700;
+    padding: .78rem .95rem; border-bottom: 1px solid var(--border); background: var(--panel2);
+    font-family: var(--font-text); font-size: 1.13rem; font-weight: 700;
   }
-  .table-caption .rows-meta { color: var(--muted); font-family: var(--font-ui); font-size: .75rem; font-weight: 650; white-space: nowrap; }
+  .table-caption .rows-meta { color: var(--muted); font-family: var(--font-ui); font-size: .86rem; font-weight: 650; white-space: nowrap; }
   .table-caption a { color: var(--accent-strong); text-decoration: none; }
   .table-caption a:hover { text-decoration: underline; }
-  table.data { width: 100%; border-collapse: collapse; font-size: .89rem; line-height: 1.5; background: var(--card); }
-  table.data td, table.data th { border-bottom: 1px solid var(--border); padding: .62rem .78rem; text-align: left; vertical-align: top; }
+  table.data { width: 100%; border-collapse: collapse; font-size: clamp(1.06rem, 1.02rem + .2vw, 1.13rem); font-weight: 450; line-height: 1.6; background: var(--card); }
+  table.data td, table.data th { border-bottom: 1px solid var(--border); padding: .78rem .95rem; text-align: left; vertical-align: top; }
   table.data thead th {
     position: sticky; top: 0; z-index: 1; background: var(--table-head); color: var(--table-head-text);
-    font-size: .76rem; text-transform: uppercase; letter-spacing: .045em;
+    font-size: .95rem; font-weight: 750; line-height: 1.4; text-transform: uppercase; letter-spacing: .03em;
     box-shadow: 0 1px 0 var(--border);
   }
   table.data tbody tr:nth-child(even) td { background: var(--panel); }
