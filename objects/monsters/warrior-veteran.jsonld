@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.252",
     "heading": "Warrior Veteran",
-    "lineStart": 26023,
-    "lineEnd": 26053
+    "lineStart": 25947,
+    "lineEnd": 25977
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.252",
         "heading": "Actions",
-        "lineStart": 26043,
-        "lineEnd": 26049
+        "lineStart": 25967,
+        "lineEnd": 25973
       }
     },
     {
@@ -88,12 +88,23 @@
         "chapter": "Monsters A-Z",
         "section": "12.252",
         "heading": "Reactions",
-        "lineStart": 26051,
-        "lineEnd": 26053
+        "lineStart": 25975,
+        "lineEnd": 25977
       }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 17\nInitiative +3 (13)\nHP 65 (10d8 + 20)\nSpeed 30 ft.\n\nSkills Athletics +5, Perception +2\nGear Greatsword, Heavy Crossbow, Splint Armor\nSenses Passive Perception 12\nLanguages Common plus one other language\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The warrior makes two Greatsword or Heavy Crossbow attacks.\n\nGreatsword. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage.\n\nHeavy Crossbow. Ranged Attack Roll: +3, range 100/400 ft. Hit: 12 (2d10 + 1) Piercing damage.\n\nReactions\n\nParry. Trigger: The warrior is hit by a melee attack roll while holding a weapon. Response: The warrior adds 2 to its AC against that attack, possibly causing it to miss.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/greatsword"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/heavy-crossbow"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/splint-armor"
+    }
+  ],
   "attacks": [
     {
       "name": "Greatsword",

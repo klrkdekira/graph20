@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.10",
     "heading": "Blood Hawk",
-    "lineStart": 26948,
-    "lineEnd": 26973
+    "lineStart": 26872,
+    "lineEnd": 26897
   },
   "sizeTypeAlignment": "Small Beast, Unaligned",
   "sizeAndType": "Small Beast",
@@ -75,8 +75,8 @@
         "chapter": "Animals",
         "section": "13.10",
         "heading": "Traits",
-        "lineStart": 26967,
-        "lineEnd": 26969
+        "lineStart": 26891,
+        "lineEnd": 26893
       }
     },
     {
@@ -86,8 +86,8 @@
         "chapter": "Animals",
         "section": "13.10",
         "heading": "Actions",
-        "lineStart": 26971,
-        "lineEnd": 26973
+        "lineStart": 26895,
+        "lineEnd": 26897
       }
     }
   ],
@@ -123,6 +123,11 @@
       "parseStatus": "parsed",
       "attackBonus": 4,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
     }
   ]
 }

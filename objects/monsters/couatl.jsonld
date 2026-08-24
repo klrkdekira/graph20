@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.67",
     "heading": "Couatl",
-    "lineStart": 20057,
-    "lineEnd": 20100
+    "lineStart": 19981,
+    "lineEnd": 20024
   },
   "sizeTypeAlignment": "Medium Celestial, Lawful Good",
   "sizeAndType": "Medium Celestial",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.67",
         "heading": "Traits",
-        "lineStart": 20079,
-        "lineEnd": 20081
+        "lineStart": 20003,
+        "lineEnd": 20005
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.67",
         "heading": "Actions",
-        "lineStart": 20083,
-        "lineEnd": 20096
+        "lineStart": 20007,
+        "lineEnd": 20020
       }
     },
     {
@@ -99,8 +99,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.67",
         "heading": "Bonus Actions",
-        "lineStart": 20098,
-        "lineEnd": 20100
+        "lineStart": 20022,
+        "lineEnd": 20024
       }
     }
   ],
@@ -126,6 +126,17 @@
       "parseStatus": "parsed",
       "attackBonus": 7,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
   ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.21",
     "heading": "Ranger Spell List",
-    "lineStart": 3747,
-    "lineEnd": 3760
+    "lineStart": 3677,
+    "lineEnd": 3690
   },
   "columns": [
     "Spell",
@@ -189,5 +189,43 @@
       ]
     }
   ],
-  "rawText": "| Spell                  | School        | Special |\n| :--------------------- | :------------ | :------ |\n| Conjure Animals        | Conjuration   | C       |\n| Daylight               | Evocation     |    -    |\n| Dispel Magic           | Abjuration    |    -    |\n| Meld into Stone        | Transmutation | R       |\n| Nondetection           | Abjuration    | M       |\n| Plant Growth           | Transmutation |    -    |\n| Protection from Energy | Abjuration    | C       |\n| Revivify               | Necromancy    | M       |\n| Speak with Plants      | Transmutation |    -    |\n| Water Breathing        | Transmutation | R       |\n| Water Walk             | Transmutation | R       |\n| Wind Wall              | Evocation     | C       |"
+  "rawText": "| Spell                  | School        | Special |\n| :--------------------- | :------------ | :------ |\n| Conjure Animals        | Conjuration   | C       |\n| Daylight               | Evocation     |    -    |\n| Dispel Magic           | Abjuration    |    -    |\n| Meld into Stone        | Transmutation | R       |\n| Nondetection           | Abjuration    | M       |\n| Plant Growth           | Transmutation |    -    |\n| Protection from Energy | Abjuration    | C       |\n| Revivify               | Necromancy    | M       |\n| Speak with Plants      | Transmutation |    -    |\n| Water Breathing        | Transmutation | R       |\n| Water Walk             | Transmutation | R       |\n| Wind Wall              | Evocation     | C       |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/conjure-animals"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/daylight"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/meld-into-stone"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/nondetection"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/plant-growth"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/protection-from-energy"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/revivify"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/speak-with-plants"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/water-breathing"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/water-walk"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/wind-wall"
+    }
+  ]
 }

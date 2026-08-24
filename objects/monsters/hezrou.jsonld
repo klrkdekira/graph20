@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.132",
     "heading": "Hezrou",
-    "lineStart": 22113,
-    "lineEnd": 22151
+    "lineStart": 22037,
+    "lineEnd": 22075
   },
   "sizeTypeAlignment": "Large Fiend (Demon), Chaotic Evil",
   "sizeAndType": "Large Fiend (Demon)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.132",
         "heading": "Traits",
-        "lineStart": 22135,
-        "lineEnd": 22141
+        "lineStart": 22059,
+        "lineEnd": 22065
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.132",
         "heading": "Actions",
-        "lineStart": 22143,
-        "lineEnd": 22147
+        "lineStart": 22067,
+        "lineEnd": 22071
       }
     },
     {
@@ -99,8 +99,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.132",
         "heading": "Bonus Actions",
-        "lineStart": 22149,
-        "lineEnd": 22151
+        "lineStart": 22073,
+        "lineEnd": 22075
       }
     }
   ],
@@ -140,6 +140,11 @@
       "parseStatus": "parsed",
       "attackBonus": 7,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
   ]
 }

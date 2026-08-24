@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.94",
     "heading": "Warhorse",
-    "lineStart": 29197,
-    "lineEnd": 29217
+    "lineStart": 29121,
+    "lineEnd": 29141
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -75,8 +75,8 @@
         "chapter": "Animals",
         "section": "13.94",
         "heading": "Actions",
-        "lineStart": 29215,
-        "lineEnd": 29217
+        "lineStart": 29139,
+        "lineEnd": 29141
       }
     }
   ],
@@ -111,6 +111,11 @@
       "parseStatus": "parsed",
       "attackBonus": 6,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

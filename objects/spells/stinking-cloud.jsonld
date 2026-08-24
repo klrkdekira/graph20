@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.328",
     "heading": "Stinking Cloud",
-    "lineStart": 11957,
-    "lineEnd": 11968
+    "lineStart": 11881,
+    "lineEnd": 11892
   },
   "level": 3,
   "school": "Conjuration",
@@ -40,5 +40,10 @@
   "savingThrowAbility": "Constitution",
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ]
 }

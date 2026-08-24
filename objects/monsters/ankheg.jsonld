@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.8",
     "heading": "Ankheg",
-    "lineStart": 18238,
-    "lineEnd": 18269
+    "lineStart": 18162,
+    "lineEnd": 18193
   },
   "sizeTypeAlignment": "Large Monstrosity, Unaligned",
   "sizeAndType": "Large Monstrosity",
@@ -75,8 +75,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.8",
         "heading": "Traits",
-        "lineStart": 18261,
-        "lineEnd": 18263
+        "lineStart": 18185,
+        "lineEnd": 18187
       }
     },
     {
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.8",
         "heading": "Actions",
-        "lineStart": 18265,
-        "lineEnd": 18269
+        "lineStart": 18189,
+        "lineEnd": 18193
       }
     }
   ],
@@ -122,6 +122,11 @@
       "parseStatus": "parsed",
       "attackBonus": 5,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
     }
   ]
 }

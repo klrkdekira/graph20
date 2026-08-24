@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.79",
     "heading": "Command",
-    "lineStart": 8094,
-    "lineEnd": 8115
+    "lineStart": 8024,
+    "lineEnd": 8045
   },
   "level": 1,
   "school": "Enchantment",
@@ -40,5 +40,10 @@
   "savingThrowAbility": "Wisdom",
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    }
+  ]
 }

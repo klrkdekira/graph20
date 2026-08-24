@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.367",
     "heading": "Weird",
-    "lineStart": 12625,
-    "lineEnd": 12636
+    "lineStart": 12549,
+    "lineEnd": 12560
   },
   "level": 9,
   "school": "Illusion",
@@ -54,5 +54,10 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    }
+  ]
 }

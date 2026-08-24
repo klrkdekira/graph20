@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.171",
     "heading": "Mummy",
-    "lineStart": 23313,
-    "lineEnd": 23340
+    "lineStart": 23237,
+    "lineEnd": 23264
   },
   "sizeTypeAlignment": "Medium or Small Undead, Lawful Evil",
   "sizeAndType": "Medium or Small Undead",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.171",
         "heading": "Actions",
-        "lineStart": 23334,
-        "lineEnd": 23340
+        "lineStart": 23258,
+        "lineEnd": 23264
       }
     }
   ],
@@ -130,6 +130,11 @@
       "parseStatus": "parsed",
       "attackBonus": 5,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
     }
   ]
 }

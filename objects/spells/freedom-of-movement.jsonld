@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.168",
     "heading": "Freedom of Movement",
-    "lineStart": 9527,
-    "lineEnd": 9542
+    "lineStart": 9457,
+    "lineEnd": 9472
   },
   "level": 4,
   "school": "Abjuration",
@@ -43,5 +43,10 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    }
+  ]
 }

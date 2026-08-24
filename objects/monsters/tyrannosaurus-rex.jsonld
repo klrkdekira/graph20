@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.91",
     "heading": "Tyrannosaurus Rex",
-    "lineStart": 29121,
-    "lineEnd": 29146
+    "lineStart": 29045,
+    "lineEnd": 29070
   },
   "sizeTypeAlignment": "Huge Beast (Dinosaur), Unaligned",
   "sizeAndType": "Huge Beast (Dinosaur)",
@@ -76,8 +76,8 @@
         "chapter": "Animals",
         "section": "13.91",
         "heading": "Actions",
-        "lineStart": 29140,
-        "lineEnd": 29146
+        "lineStart": 29064,
+        "lineEnd": 29070
       }
     }
   ],
@@ -124,6 +124,17 @@
       "parseStatus": "parsed",
       "attackBonus": 10,
       "reachFeet": 15
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
   ]
 }

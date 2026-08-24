@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.38",
     "heading": "Giant Goat",
-    "lineStart": 27682,
-    "lineEnd": 27703
+    "lineStart": 27606,
+    "lineEnd": 27627
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -76,8 +76,8 @@
         "chapter": "Animals",
         "section": "13.38",
         "heading": "Actions",
-        "lineStart": 27701,
-        "lineEnd": 27703
+        "lineStart": 27625,
+        "lineEnd": 27627
       }
     }
   ],
@@ -112,6 +112,11 @@
       "parseStatus": "parsed",
       "attackBonus": 5,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

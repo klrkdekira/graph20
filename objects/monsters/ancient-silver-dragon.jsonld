@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.218",
     "heading": "Ancient Silver Dragon",
-    "lineStart": 24882,
-    "lineEnd": 24930
+    "lineStart": 24806,
+    "lineEnd": 24854
   },
   "sizeTypeAlignment": "Gargantuan Dragon (Metallic), Lawful Good",
   "sizeAndType": "Gargantuan Dragon (Metallic)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.218",
         "heading": "Traits",
-        "lineStart": 24902,
-        "lineEnd": 24904
+        "lineStart": 24826,
+        "lineEnd": 24828
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.218",
         "heading": "Actions",
-        "lineStart": 24906,
-        "lineEnd": 24920
+        "lineStart": 24830,
+        "lineEnd": 24844
       }
     },
     {
@@ -99,8 +99,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.218",
         "heading": "Legendary Actions",
-        "lineStart": 24922,
-        "lineEnd": 24930
+        "lineStart": 24846,
+        "lineEnd": 24854
       }
     }
   ],
@@ -135,6 +135,14 @@
       "parseStatus": "parsed",
       "attackBonus": 17,
       "reachFeet": 15
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/paralyzed"
     }
   ]
 }

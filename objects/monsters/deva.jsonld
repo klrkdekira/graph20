@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.75",
     "heading": "Deva",
-    "lineStart": 20255,
-    "lineEnd": 20298
+    "lineStart": 20179,
+    "lineEnd": 20222
   },
   "sizeTypeAlignment": "Medium Celestial (Angel), Lawful Good",
   "sizeAndType": "Medium Celestial (Angel)",
@@ -78,8 +78,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.75",
         "heading": "Traits",
-        "lineStart": 20278,
-        "lineEnd": 20282
+        "lineStart": 20202,
+        "lineEnd": 20206
       }
     },
     {
@@ -89,8 +89,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.75",
         "heading": "Actions",
-        "lineStart": 20284,
-        "lineEnd": 20294
+        "lineStart": 20208,
+        "lineEnd": 20218
       }
     },
     {
@@ -100,8 +100,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.75",
         "heading": "Bonus Actions",
-        "lineStart": 20296,
-        "lineEnd": 20298
+        "lineStart": 20220,
+        "lineEnd": 20222
       }
     }
   ],

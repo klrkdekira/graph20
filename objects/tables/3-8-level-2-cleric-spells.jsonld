@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.8",
     "heading": "Cleric Spell List",
-    "lineStart": 2280,
-    "lineEnd": 2298
+    "lineStart": 2210,
+    "lineEnd": 2228
   },
   "columns": [
     "Spell",
@@ -259,5 +259,58 @@
       ]
     }
   ],
-  "rawText": "| Spell                  | School        | Special |\n| :--------------------- | :------------ | :------ |\n| Aid                    | Abjuration    |    -    |\n| Augury                 | Divination    | R, M    |\n| Blindness/Deafness     | Transmutation |    -    |\n| Calm Emotions          | Enchantment   | C       |\n| Continual Flame        | Evocation     | M       |\n| Enhance Ability        | Transmutation | C       |\n| Find Traps             | Divination    |    -    |\n| Gentle Repose          | Necromancy    | R, M    |\n| Hold Person            | Enchantment   | C       |\n| Lesser Restoration     | Abjuration    |    -    |\n| Locate Object          | Divination    | C       |\n| Prayer of Healing      | Abjuration    |    -    |\n| Protection from Poison | Abjuration    |    -    |\n| Silence                | Illusion      | C, R    |\n| Spiritual Weapon       | Evocation     | C       |\n| Warding Bond           | Abjuration    | M       |\n| Zone of Truth          | Enchantment   |    -    |"
+  "rawText": "| Spell                  | School        | Special |\n| :--------------------- | :------------ | :------ |\n| Aid                    | Abjuration    |    -    |\n| Augury                 | Divination    | R, M    |\n| Blindness/Deafness     | Transmutation |    -    |\n| Calm Emotions          | Enchantment   | C       |\n| Continual Flame        | Evocation     | M       |\n| Enhance Ability        | Transmutation | C       |\n| Find Traps             | Divination    |    -    |\n| Gentle Repose          | Necromancy    | R, M    |\n| Hold Person            | Enchantment   | C       |\n| Lesser Restoration     | Abjuration    |    -    |\n| Locate Object          | Divination    | C       |\n| Prayer of Healing      | Abjuration    |    -    |\n| Protection from Poison | Abjuration    |    -    |\n| Silence                | Illusion      | C, R    |\n| Spiritual Weapon       | Evocation     | C       |\n| Warding Bond           | Abjuration    | M       |\n| Zone of Truth          | Enchantment   |    -    |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/aid"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/augury"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/blindness-deafness"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/calm-emotions"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/continual-flame"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/enhance-ability"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/find-traps"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/gentle-repose"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/hold-person"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/lesser-restoration"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/locate-object"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/prayer-of-healing"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/protection-from-poison"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/silence"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/spiritual-weapon"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/warding-bond"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/zone-of-truth"
+    }
+  ]
 }

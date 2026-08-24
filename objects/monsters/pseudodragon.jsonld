@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.192",
     "heading": "Pseudodragon",
-    "lineStart": 24030,
-    "lineEnd": 24061
+    "lineStart": 23954,
+    "lineEnd": 23985
   },
   "sizeTypeAlignment": "Tiny Dragon, Neutral Good",
   "sizeAndType": "Tiny Dragon",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.192",
         "heading": "Traits",
-        "lineStart": 24051,
-        "lineEnd": 24053
+        "lineStart": 23975,
+        "lineEnd": 23977
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.192",
         "heading": "Actions",
-        "lineStart": 24055,
-        "lineEnd": 24061
+        "lineStart": 23979,
+        "lineEnd": 23985
       }
     }
   ],
@@ -114,6 +114,14 @@
       "parseStatus": "parsed",
       "attackBonus": 4,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
     }
   ]
 }

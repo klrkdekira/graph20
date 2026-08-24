@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.255",
     "heading": "Wereboar",
-    "lineStart": 26129,
-    "lineEnd": 26163
+    "lineStart": 26053,
+    "lineEnd": 26087
   },
   "sizeTypeAlignment": "Medium or Small Monstrosity (Lycanthrope), Neutral Evil",
   "sizeAndType": "Medium or Small Monstrosity (Lycanthrope)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.255",
         "heading": "Actions",
-        "lineStart": 26151,
-        "lineEnd": 26159
+        "lineStart": 26075,
+        "lineEnd": 26083
       }
     },
     {
@@ -88,12 +88,17 @@
         "chapter": "Monsters A-Z",
         "section": "12.255",
         "heading": "Bonus Actions",
-        "lineStart": 26161,
-        "lineEnd": 26163
+        "lineStart": 26085,
+        "lineEnd": 26087
       }
     }
   ],
   "rulesText": "Medium or Small Monstrosity (Lycanthrope), Neutral Evil\n\nAC 15\nInitiative +2 (12)\nHP 97 (15d8 + 30)\nSpeed 30 ft., 40 ft. (boar form only)\n\nSkills Perception +2\nGear Javelins (6)\nSenses Passive Perception 12\nLanguages Common (can't speak in boar form)\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The wereboar makes two attacks, using Javelin or Tusk in any combination. It can replace one attack with a Gore attack.\n\nGore (Boar or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Piercing damage. If the target is a Humanoid, it is subjected to the following effect. Constitution Saving Throw: DC 12. Failure: The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Wereboar under the GM's control and has 10 Hit Points. Success: The target is immune to this wereboar's curse for 24 hours.\n\nJavelin (Humanoid or Hybrid Form Only). Melee or Ranged Attack Roll: +5, reach 5 ft. or range 30/120 ft. Hit: 13 (3d6 + 3) Piercing damage.\n\nTusk (Boar or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Medium or smaller creature and the were-boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition.\n\nBonus Actions\n\nShape-Shift. The wereboar shape-shifts into a Medium boar-humanoid hybrid or a Small boar, or it returns to its true humanoid form. Its game statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/javelin"
+    }
+  ],
   "attacks": [
     {
       "name": "Gore (Boar or Hybrid Form Only)",
@@ -170,6 +175,11 @@
       "parseStatus": "parsed",
       "attackBonus": 5,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

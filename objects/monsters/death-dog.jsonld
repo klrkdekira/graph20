@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.74",
     "heading": "Death Dog",
-    "lineStart": 20227,
-    "lineEnd": 20253
+    "lineStart": 20151,
+    "lineEnd": 20177
   },
   "sizeTypeAlignment": "Medium Monstrosity, Neutral Evil",
   "sizeAndType": "Medium Monstrosity",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.74",
         "heading": "Actions",
-        "lineStart": 20249,
-        "lineEnd": 20253
+        "lineStart": 20173,
+        "lineEnd": 20177
       }
     }
   ],
@@ -124,6 +124,11 @@
       "parseStatus": "parsed",
       "attackBonus": 4,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
   ]
 }

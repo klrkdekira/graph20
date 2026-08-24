@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.44",
     "heading": "Giant Scorpion",
-    "lineStart": 27849,
-    "lineEnd": 27873
+    "lineStart": 27773,
+    "lineEnd": 27797
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -75,8 +75,8 @@
         "chapter": "Animals",
         "section": "13.44",
         "heading": "Actions",
-        "lineStart": 27867,
-        "lineEnd": 27873
+        "lineStart": 27791,
+        "lineEnd": 27797
       }
     }
   ],
@@ -132,6 +132,11 @@
       "parseStatus": "parsed",
       "attackBonus": 5,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
     }
   ]
 }

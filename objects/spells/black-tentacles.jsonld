@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.59",
     "heading": "Black Tentacles",
-    "lineStart": 7811,
-    "lineEnd": 7824
+    "lineStart": 7741,
+    "lineEnd": 7754
   },
   "level": 4,
   "school": "Conjuration",
@@ -42,5 +42,10 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
+    }
+  ]
 }

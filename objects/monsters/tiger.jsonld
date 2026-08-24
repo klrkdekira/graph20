@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.89",
     "heading": "Tiger",
-    "lineStart": 29070,
-    "lineEnd": 29095
+    "lineStart": 28994,
+    "lineEnd": 29019
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -76,8 +76,8 @@
         "chapter": "Animals",
         "section": "13.89",
         "heading": "Actions",
-        "lineStart": 29089,
-        "lineEnd": 29091
+        "lineStart": 29013,
+        "lineEnd": 29015
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Animals",
         "section": "13.89",
         "heading": "Bonus Actions",
-        "lineStart": 29093,
-        "lineEnd": 29095
+        "lineStart": 29017,
+        "lineEnd": 29019
       }
     }
   ],
@@ -114,6 +114,11 @@
       "parseStatus": "parsed",
       "attackBonus": 5,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

@@ -11,13 +11,23 @@
     "chapter": "Magic Items",
     "section": "10.150",
     "heading": "Luck Blade",
-    "lineStart": 16150,
-    "lineEnd": 16158
+    "lineStart": 16074,
+    "lineEnd": 16082
   },
   "itemCategory": "Weapon",
   "categoryDetail": "Glaive, Greatsword, Longsword, Rapier, Scimitar, Sickle, or Shortsword",
   "rarity": "Legendary",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Weapon (Glaive, Greatsword, Longsword, Rapier, Scimitar, Sickle, or Shortsword), Legendary (Requires Attunement)\n\nYou gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. While the weapon is on your person, you also gain a +1 bonus to saving throws.\n\nLuck. If the weapon is on your person, you can call on its luck (no action required) to reroll one failed D20 Test if you don't have the Incapacitated condition. You must use the second roll. Once used, this property can't be used again until the next dawn.\n\nWish. The weapon has 1d3 charges. While holding it, you can expend 1 charge and cast Wish from it. Once used, this property can't be used again until the next dawn. The weapon loses this property if it has no charges."
+  "rulesText": "Weapon (Glaive, Greatsword, Longsword, Rapier, Scimitar, Sickle, or Shortsword), Legendary (Requires Attunement)\n\nYou gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. While the weapon is on your person, you also gain a +1 bonus to saving throws.\n\nLuck. If the weapon is on your person, you can call on its luck (no action required) to reroll one failed D20 Test if you don't have the Incapacitated condition. You must use the second roll. Once used, this property can't be used again until the next dawn.\n\nWish. The weapon has 1d3 charges. While holding it, you can expend 1 charge and cast Wish from it. Once used, this property can't be used again until the next dawn. The weapon loses this property if it has no charges.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/wish"
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    }
+  ]
 }

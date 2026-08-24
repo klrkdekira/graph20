@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.332",
     "heading": "Suggestion",
-    "lineStart": 12013,
-    "lineEnd": 12024
+    "lineStart": 11937,
+    "lineEnd": 11948
   },
   "level": 2,
   "school": "Enchantment",
@@ -44,5 +44,10 @@
   "savingThrowAbility": "Wisdom",
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    }
+  ]
 }

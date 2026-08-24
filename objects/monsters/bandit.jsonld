@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.18",
     "heading": "Bandit",
-    "lineStart": 18467,
-    "lineEnd": 18490
+    "lineStart": 18391,
+    "lineEnd": 18414
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -76,12 +76,23 @@
         "chapter": "Monsters A-Z",
         "section": "12.18",
         "heading": "Actions",
-        "lineStart": 18486,
-        "lineEnd": 18490
+        "lineStart": 18410,
+        "lineEnd": 18414
       }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 12\nInitiative +1 (11)\nHP 11 (2d8 + 2)\nSpeed 30 ft.\n\nGear Leather Armor, Light Crossbow, Scimitar\nSenses Passive Perception 10\nLanguages Common, Thieves' Cant\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nScimitar. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage.\n\nLight Crossbow. Ranged Attack Roll: +3, range 80/320 ft. Hit: 5 (1d8 + 1) Piercing damage.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/leather-armor"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/light-crossbow"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/scimitar"
+    }
+  ],
   "attacks": [
     {
       "name": "Scimitar",

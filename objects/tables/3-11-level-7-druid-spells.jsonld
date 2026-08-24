@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.11",
     "heading": "Druid Spell List",
-    "lineStart": 2773,
-    "lineEnd": 2780
+    "lineStart": 2703,
+    "lineEnd": 2710
   },
   "columns": [
     "Spell",
@@ -105,5 +105,25 @@
       ]
     }
   ],
-  "rawText": "| Spell           | School        | Special |\n| :-------------- | :------------ | :------ |\n| Fire Storm      | Evocation     |    -    |\n| Mirage Arcane   | Illusion      |    -    |\n| Plane Shift     | Conjuration   | M       |\n| Regenerate      | Transmutation |    -    |\n| Reverse Gravity | Transmutation | C       |\n| Symbol          | Abjuration    | M       |"
+  "rawText": "| Spell           | School        | Special |\n| :-------------- | :------------ | :------ |\n| Fire Storm      | Evocation     |    -    |\n| Mirage Arcane   | Illusion      |    -    |\n| Plane Shift     | Conjuration   | M       |\n| Regenerate      | Transmutation |    -    |\n| Reverse Gravity | Transmutation | C       |\n| Symbol          | Abjuration    | M       |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/fire-storm"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mirage-arcane"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/plane-shift"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/regenerate"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/reverse-gravity"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/symbol"
+    }
+  ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.77",
     "heading": "Rhinoceros",
-    "lineStart": 28740,
-    "lineEnd": 28760
+    "lineStart": 28664,
+    "lineEnd": 28684
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -75,8 +75,8 @@
         "chapter": "Animals",
         "section": "13.77",
         "heading": "Actions",
-        "lineStart": 28758,
-        "lineEnd": 28760
+        "lineStart": 28682,
+        "lineEnd": 28684
       }
     }
   ],
@@ -111,6 +111,11 @@
       "parseStatus": "parsed",
       "attackBonus": 7,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

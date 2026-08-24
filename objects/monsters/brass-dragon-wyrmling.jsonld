@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.39",
     "heading": "Brass Dragon Wyrmling",
-    "lineStart": 19132,
-    "lineEnd": 19158
+    "lineStart": 19056,
+    "lineEnd": 19082
   },
   "sizeTypeAlignment": "Medium Dragon (Metallic), Chaotic Good",
   "sizeAndType": "Medium Dragon (Metallic)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.39",
         "heading": "Actions",
-        "lineStart": 19152,
-        "lineEnd": 19158
+        "lineStart": 19076,
+        "lineEnd": 19082
       }
     }
   ],
@@ -104,6 +104,14 @@
       "parseStatus": "parsed",
       "attackBonus": 4,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
     }
   ]
 }

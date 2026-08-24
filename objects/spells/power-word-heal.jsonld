@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.267",
     "heading": "Power Word Heal",
-    "lineStart": 11046,
-    "lineEnd": 11055
+    "lineStart": 10976,
+    "lineEnd": 10985
   },
   "level": 9,
   "school": "Enchantment",
@@ -35,5 +35,13 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/stunned"
+    }
+  ]
 }

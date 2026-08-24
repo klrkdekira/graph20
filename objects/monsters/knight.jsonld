@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.146",
     "heading": "Knight",
-    "lineStart": 22573,
-    "lineEnd": 22605
+    "lineStart": 22497,
+    "lineEnd": 22529
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.146",
         "heading": "Actions",
-        "lineStart": 22595,
-        "lineEnd": 22601
+        "lineStart": 22519,
+        "lineEnd": 22525
       }
     },
     {
@@ -88,12 +88,23 @@
         "chapter": "Monsters A-Z",
         "section": "12.146",
         "heading": "Reactions",
-        "lineStart": 22603,
-        "lineEnd": 22605
+        "lineStart": 22527,
+        "lineEnd": 22529
       }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 18\nInitiative +0 (10)\nHP 52 (8d8 + 16)\nSpeed 30 ft.\n\nImmunities Frightened\nGear Greatsword, Heavy Crossbow, Plate Armor\nSenses Passive Perception 10\nLanguages Common plus one other language\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The knight makes two attacks, using Greatsword or Heavy Crossbow in any combination.\n\nGreatsword. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage plus 4 (1d8) Radiant damage.\n\nHeavy Crossbow. Ranged Attack Roll: +2, range 100/400 ft. Hit: 11 (2d10) Piercing damage plus 4 (1d8) Radiant damage.\n\nReactions\n\nParry. Trigger: The knight is hit by a melee attack roll while holding a weapon. Response: The knight adds 2 to its AC against that attack, possibly causing it to miss.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/greatsword"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/heavy-crossbow"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/plate-armor"
+    }
+  ],
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"

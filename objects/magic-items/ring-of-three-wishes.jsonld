@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.220",
     "heading": "Ring of Three Wishes",
-    "lineStart": 16920,
-    "lineEnd": 16924
+    "lineStart": 16844,
+    "lineEnd": 16848
   },
   "itemCategory": "Ring",
   "rarity": "Legendary",
   "requiresAttunement": false,
-  "rulesText": "Ring, Legendary\n\nWhile wearing this ring, you can expend 1 of its 3 charges to cast Wish from it. The ring becomes non-magical when you use the last charge."
+  "rulesText": "Ring, Legendary\n\nWhile wearing this ring, you can expend 1 of its 3 charges to cast Wish from it. The ring becomes non-magical when you use the last charge.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/wish"
+    }
+  ]
 }

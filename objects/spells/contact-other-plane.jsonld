@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.92",
     "heading": "Contact Other Plane",
-    "lineStart": 8321,
-    "lineEnd": 8332
+    "lineStart": 8251,
+    "lineEnd": 8262
   },
   "level": 5,
   "school": "Divination",
@@ -46,5 +46,10 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": true
+  "ritual": true,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    }
+  ]
 }

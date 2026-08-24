@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.63",
     "heading": "Blindness/Deafness",
-    "lineStart": 7867,
-    "lineEnd": 7878
+    "lineStart": 7797,
+    "lineEnd": 7808
   },
   "level": 2,
   "school": "Transmutation",
@@ -44,5 +44,10 @@
   "savingThrowAbility": "Constitution",
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/deafened"
+    }
+  ]
 }

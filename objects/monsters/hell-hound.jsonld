@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.131",
     "heading": "Hell Hound",
-    "lineStart": 22079,
-    "lineEnd": 22111
+    "lineStart": 22003,
+    "lineEnd": 22035
   },
   "sizeTypeAlignment": "Medium Fiend, Lawful Evil",
   "sizeAndType": "Medium Fiend",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.131",
         "heading": "Traits",
-        "lineStart": 22101,
-        "lineEnd": 22103
+        "lineStart": 22025,
+        "lineEnd": 22027
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.131",
         "heading": "Actions",
-        "lineStart": 22105,
-        "lineEnd": 22111
+        "lineStart": 22029,
+        "lineEnd": 22035
       }
     }
   ],
@@ -124,6 +124,11 @@
       "parseStatus": "parsed",
       "attackBonus": 5,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
     }
   ]
 }

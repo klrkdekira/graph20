@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.11",
     "heading": "Druid Spell List",
-    "lineStart": 2797,
-    "lineEnd": 2802
+    "lineStart": 2727,
+    "lineEnd": 2732
   },
   "columns": [
     "Spell",
@@ -77,5 +77,19 @@
       ]
     }
   ],
-  "rawText": "| Spell              | School        | Special |\n| :----------------- | :------------ | :------ |\n| Foresight          | Divination    |    -    |\n| Shapechange        | Transmutation | C, M    |\n| Storm of Vengeance | Conjuration   | C       |\n| True Resurrection  | Necromancy    | M       |"
+  "rawText": "| Spell              | School        | Special |\n| :----------------- | :------------ | :------ |\n| Foresight          | Divination    |    -    |\n| Shapechange        | Transmutation | C, M    |\n| Storm of Vengeance | Conjuration   | C       |\n| True Resurrection  | Necromancy    | M       |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/foresight"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/shapechange"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/storm-of-vengeance"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/true-resurrection"
+    }
+  ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.26",
     "heading": "Sorcerer Spell List",
-    "lineStart": 4233,
-    "lineEnd": 4250
+    "lineStart": 4163,
+    "lineEnd": 4180
   },
   "columns": [
     "Spell",
@@ -245,5 +245,55 @@
       ]
     }
   ],
-  "rawText": "| Spell            | School        | Special |\n| :--------------- | :------------ | :------ |\n| Acid Splash      | Evocation     |    -    |\n| Chill Touch      | Necromancy    |    -    |\n| Dancing Lights   | Illusion      | C       |\n| Elementalism     | Transmutation |    -    |\n| Fire Bolt        | Evocation     |    -    |\n| Light            | Evocation     |    -    |\n| Mage Hand        | Conjuration   |    -    |\n| Mending          | Transmutation |    -    |\n| Message          | Transmutation |    -    |\n| Minor Illusion   | Illusion      |    -    |\n| Poison Spray     | Necromancy    |    -    |\n| Prestidigitation | Transmutation |    -    |\n| Ray of Frost     | Evocation     |    -    |\n| Shocking Grasp   | Evocation     |    -    |\n| Sorcerous Burst  | Evocation     |    -    |\n| True Strike      | Divination    |    -    |"
+  "rawText": "| Spell            | School        | Special |\n| :--------------- | :------------ | :------ |\n| Acid Splash      | Evocation     |    -    |\n| Chill Touch      | Necromancy    |    -    |\n| Dancing Lights   | Illusion      | C       |\n| Elementalism     | Transmutation |    -    |\n| Fire Bolt        | Evocation     |    -    |\n| Light            | Evocation     |    -    |\n| Mage Hand        | Conjuration   |    -    |\n| Mending          | Transmutation |    -    |\n| Message          | Transmutation |    -    |\n| Minor Illusion   | Illusion      |    -    |\n| Poison Spray     | Necromancy    |    -    |\n| Prestidigitation | Transmutation |    -    |\n| Ray of Frost     | Evocation     |    -    |\n| Shocking Grasp   | Evocation     |    -    |\n| Sorcerous Burst  | Evocation     |    -    |\n| True Strike      | Divination    |    -    |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/acid-splash"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/chill-touch"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dancing-lights"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/elementalism"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/fire-bolt"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/light"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mage-hand"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mending"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/message"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/minor-illusion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/poison-spray"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/prestidigitation"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/ray-of-frost"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/shocking-grasp"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/sorcerous-burst"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/true-strike"
+    }
+  ]
 }

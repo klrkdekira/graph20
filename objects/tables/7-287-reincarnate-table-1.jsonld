@@ -1,0 +1,111 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/7-287-reincarnate-table-1",
+  "@type": "Table",
+  "name": "Reincarnate Table 1",
+  "slug": "7-287-reincarnate-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.287",
+    "heading": "Reincarnate",
+    "lineStart": 11299,
+    "lineEnd": 11305
+  },
+  "columns": [
+    "1d10",
+    "Species",
+    "1d10",
+    "Species"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "Roll again."
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "Goliath"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "Dragonborn"
+        },
+        {
+          "value": "7"
+        },
+        {
+          "value": "Halfling"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "Dwarf"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "Human"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "Elf"
+        },
+        {
+          "value": "9"
+        },
+        {
+          "value": "Orc"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "Gnome"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "Tiefling"
+        }
+      ]
+    }
+  ],
+  "rawText": "| 1d10 | Species     | 1d10 | Species  |\n| :--- | :---------- | :--- | :------- |\n| 1    | Roll again. | 6    | Goliath  |\n| 2    | Dragonborn  | 7    | Halfling |\n| 3    | Dwarf       | 8    | Human    |\n| 4    | Elf         | 9    | Orc      |\n| 5    | Gnome       | 10   | Tiefling |"
+}

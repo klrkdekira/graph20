@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.269",
     "heading": "Power Word Stun",
-    "lineStart": 11068,
-    "lineEnd": 11079
+    "lineStart": 10998,
+    "lineEnd": 11009
   },
   "level": 8,
   "school": "Enchantment",
@@ -44,5 +44,10 @@
   "savingThrowAbility": "Constitution",
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/stunned"
+    }
+  ]
 }

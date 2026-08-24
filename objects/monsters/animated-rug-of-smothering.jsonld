@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.7",
     "heading": "Animated Rug of Smothering",
-    "lineStart": 18210,
-    "lineEnd": 18236
+    "lineStart": 18134,
+    "lineEnd": 18160
   },
   "sizeTypeAlignment": "Large Construct, Unaligned",
   "sizeAndType": "Large Construct",
@@ -75,8 +75,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.7",
         "heading": "Actions",
-        "lineStart": 18232,
-        "lineEnd": 18236
+        "lineStart": 18156,
+        "lineEnd": 18160
       }
     }
   ],
@@ -120,6 +120,11 @@
       "parseStatus": "parsed",
       "attackBonus": 5,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
     }
   ]
 }

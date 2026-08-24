@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.48",
     "heading": "Giant Toad",
-    "lineStart": 27965,
-    "lineEnd": 27993
+    "lineStart": 27889,
+    "lineEnd": 27917
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -75,8 +75,8 @@
         "chapter": "Animals",
         "section": "13.48",
         "heading": "Traits",
-        "lineStart": 27983,
-        "lineEnd": 27987
+        "lineStart": 27907,
+        "lineEnd": 27911
       }
     },
     {
@@ -86,8 +86,8 @@
         "chapter": "Animals",
         "section": "13.48",
         "heading": "Actions",
-        "lineStart": 27989,
-        "lineEnd": 27993
+        "lineStart": 27913,
+        "lineEnd": 27917
       }
     }
   ],
@@ -122,6 +122,14 @@
       "parseStatus": "parsed",
       "attackBonus": 4,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

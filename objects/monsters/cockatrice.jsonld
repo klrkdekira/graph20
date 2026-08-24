@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.60",
     "heading": "Cockatrice",
-    "lineStart": 19840,
-    "lineEnd": 19863
+    "lineStart": 19764,
+    "lineEnd": 19787
   },
   "sizeTypeAlignment": "Small Monstrosity, Unaligned",
   "sizeAndType": "Small Monstrosity",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.60",
         "heading": "Actions",
-        "lineStart": 19861,
-        "lineEnd": 19863
+        "lineStart": 19785,
+        "lineEnd": 19787
       }
     }
   ],
@@ -108,6 +108,14 @@
       "parseStatus": "parsed",
       "attackBonus": 3,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/petrified"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
   ]
 }

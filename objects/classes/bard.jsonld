@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.4",
     "heading": "Bard",
-    "lineStart": 1750,
-    "lineEnd": 2099
+    "lineStart": 1680,
+    "lineEnd": 2029
   },
   "coreTraits": [
     {
@@ -65,8 +65,8 @@
         "chapter": "Classes",
         "section": "3.4",
         "heading": "Level 1: Bardic Inspiration",
-        "lineStart": 1807,
-        "lineEnd": 1817
+        "lineStart": 1737,
+        "lineEnd": 1747
       }
     },
     {
@@ -77,8 +77,8 @@
         "chapter": "Classes",
         "section": "3.4",
         "heading": "Level 1: Spellcasting",
-        "lineStart": 1819,
-        "lineEnd": 1843
+        "lineStart": 1749,
+        "lineEnd": 1773
       }
     },
     {
@@ -89,8 +89,8 @@
         "chapter": "Classes",
         "section": "3.4",
         "heading": "Level 2: Expertise",
-        "lineStart": 1845,
-        "lineEnd": 1849
+        "lineStart": 1775,
+        "lineEnd": 1779
       }
     },
     {
@@ -101,8 +101,8 @@
         "chapter": "Classes",
         "section": "3.4",
         "heading": "Level 2: Jack of All Trades",
-        "lineStart": 1851,
-        "lineEnd": 1855
+        "lineStart": 1781,
+        "lineEnd": 1785
       }
     },
     {
@@ -113,8 +113,8 @@
         "chapter": "Classes",
         "section": "3.4",
         "heading": "Level 3: Bard Subclass",
-        "lineStart": 1857,
-        "lineEnd": 1859
+        "lineStart": 1787,
+        "lineEnd": 1789
       }
     },
     {
@@ -125,8 +125,8 @@
         "chapter": "Classes",
         "section": "3.4",
         "heading": "Level 4: Ability Score Improvement",
-        "lineStart": 1861,
-        "lineEnd": 1863
+        "lineStart": 1791,
+        "lineEnd": 1793
       }
     },
     {
@@ -137,8 +137,8 @@
         "chapter": "Classes",
         "section": "3.4",
         "heading": "Level 5: Font of Inspiration",
-        "lineStart": 1865,
-        "lineEnd": 1869
+        "lineStart": 1795,
+        "lineEnd": 1799
       }
     },
     {
@@ -149,8 +149,8 @@
         "chapter": "Classes",
         "section": "3.4",
         "heading": "Level 7: Countercharm",
-        "lineStart": 1871,
-        "lineEnd": 1873
+        "lineStart": 1801,
+        "lineEnd": 1803
       }
     },
     {
@@ -161,8 +161,8 @@
         "chapter": "Classes",
         "section": "3.4",
         "heading": "Level 10: Magical Secrets",
-        "lineStart": 1875,
-        "lineEnd": 1877
+        "lineStart": 1805,
+        "lineEnd": 1807
       }
     },
     {
@@ -173,8 +173,8 @@
         "chapter": "Classes",
         "section": "3.4",
         "heading": "Level 18: Superior Inspiration",
-        "lineStart": 1879,
-        "lineEnd": 1881
+        "lineStart": 1809,
+        "lineEnd": 1811
       }
     },
     {
@@ -185,8 +185,8 @@
         "chapter": "Classes",
         "section": "3.4",
         "heading": "Level 19: Epic Boon",
-        "lineStart": 1883,
-        "lineEnd": 1885
+        "lineStart": 1813,
+        "lineEnd": 1815
       }
     },
     {
@@ -197,8 +197,8 @@
         "chapter": "Classes",
         "section": "3.4",
         "heading": "Level 20: Words of Creation",
-        "lineStart": 1887,
-        "lineEnd": 1889
+        "lineStart": 1817,
+        "lineEnd": 1819
       }
     }
   ],
@@ -207,5 +207,10 @@
       "@id": "https://cheeleong.dev/graph20/objects/tables/3-4-bard-features"
     }
   ],
-  "rulesText": "Core Bard Traits\n\nBecoming a Bard ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Bard Traits table.\n\n- Gain the Bard's level 1 features, which are listed in the Bard Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Bard Traits table: Hit Point Die, proficiency in one skill of your choice, proficiency with one Musical Instrument of your choice, and training with Light armor.\n- Gain the Bard's level 1 features, which are listed in the Bard Features table. See the multiclassing rules in “Character Creation” to determine your available spell slots.\n\nBard Class Features\n\nAs a Bard, you gain the following class features when you reach the specified Bard levels. These features are listed in the Bard Features table.\n\nBard Features"
+  "rulesText": "Core Bard Traits\n\nBecoming a Bard ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Bard Traits table.\n\n- Gain the Bard's level 1 features, which are listed in the Bard Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Bard Traits table: Hit Point Die, proficiency in one skill of your choice, proficiency with one Musical Instrument of your choice, and training with Light armor.\n- Gain the Bard's level 1 features, which are listed in the Bard Features table. See the multiclassing rules in “Character Creation” to determine your available spell slots.\n\nBard Class Features\n\nAs a Bard, you gain the following class features when you reach the specified Bard levels. These features are listed in the Bard Features table.\n\nBard Features",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    }
+  ]
 }

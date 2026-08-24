@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.32",
     "heading": "Giant Crab",
-    "lineStart": 27514,
-    "lineEnd": 27539
+    "lineStart": 27438,
+    "lineEnd": 27463
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
@@ -75,8 +75,8 @@
         "chapter": "Animals",
         "section": "13.32",
         "heading": "Traits",
-        "lineStart": 27533,
-        "lineEnd": 27535
+        "lineStart": 27457,
+        "lineEnd": 27459
       }
     },
     {
@@ -86,8 +86,8 @@
         "chapter": "Animals",
         "section": "13.32",
         "heading": "Actions",
-        "lineStart": 27537,
-        "lineEnd": 27539
+        "lineStart": 27461,
+        "lineEnd": 27463
       }
     }
   ],
@@ -113,6 +113,11 @@
       "parseStatus": "parsed",
       "attackBonus": 3,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
     }
   ]
 }

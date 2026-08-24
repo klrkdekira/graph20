@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.112",
     "heading": "Adult Gold Dragon",
-    "lineStart": 21460,
-    "lineEnd": 21510
+    "lineStart": 21384,
+    "lineEnd": 21434
   },
   "sizeTypeAlignment": "Huge Dragon (Metallic), Lawful Good",
   "sizeAndType": "Huge Dragon (Metallic)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.112",
         "heading": "Traits",
-        "lineStart": 21480,
-        "lineEnd": 21484
+        "lineStart": 21404,
+        "lineEnd": 21408
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.112",
         "heading": "Actions",
-        "lineStart": 21486,
-        "lineEnd": 21500
+        "lineStart": 21410,
+        "lineEnd": 21424
       }
     },
     {
@@ -99,8 +99,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.112",
         "heading": "Legendary Actions",
-        "lineStart": 21502,
-        "lineEnd": 21510
+        "lineStart": 21426,
+        "lineEnd": 21434
       }
     }
   ],
@@ -135,6 +135,11 @@
       "parseStatus": "parsed",
       "attackBonus": 14,
       "reachFeet": 10
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
     }
   ]
 }

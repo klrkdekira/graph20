@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.45",
     "heading": "Young Bronze Dragon",
-    "lineStart": 19326,
-    "lineEnd": 19358
+    "lineStart": 19250,
+    "lineEnd": 19282
   },
   "sizeTypeAlignment": "Large Dragon (Metallic), Lawful Good",
   "sizeAndType": "Large Dragon (Metallic)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.45",
         "heading": "Traits",
-        "lineStart": 19346,
-        "lineEnd": 19348
+        "lineStart": 19270,
+        "lineEnd": 19272
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.45",
         "heading": "Actions",
-        "lineStart": 19350,
-        "lineEnd": 19358
+        "lineStart": 19274,
+        "lineEnd": 19282
       }
     }
   ],
@@ -115,6 +115,11 @@
       "parseStatus": "parsed",
       "attackBonus": 8,
       "reachFeet": 10
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

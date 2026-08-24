@@ -11,8 +11,8 @@
     "chapter": "Equipment",
     "section": "6.64",
     "heading": "Ammunition (Varies)",
-    "lineStart": 6412,
-    "lineEnd": 6514
+    "lineStart": 6342,
+    "lineEnd": 6444
   },
   "section": "6.64",
   "rulesText": "Ammunition is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.\n\nAdventuring Gear\n\nAmmunition",

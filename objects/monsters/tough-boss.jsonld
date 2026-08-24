@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.240",
     "heading": "Tough Boss",
-    "lineStart": 25616,
-    "lineEnd": 25645
+    "lineStart": 25540,
+    "lineEnd": 25569
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.240",
         "heading": "Traits",
-        "lineStart": 25635,
-        "lineEnd": 25637
+        "lineStart": 25559,
+        "lineEnd": 25561
       }
     },
     {
@@ -87,12 +87,23 @@
         "chapter": "Monsters A-Z",
         "section": "12.240",
         "heading": "Actions",
-        "lineStart": 25639,
-        "lineEnd": 25645
+        "lineStart": 25563,
+        "lineEnd": 25569
       }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 16\nInitiative +2 (12)\nHP 82 (11d8 + 33)\nSpeed 30 ft.\n\nGear Chain Mail, Heavy Crossbow, Warhammer\nSenses Passive Perception 10\nLanguages Common plus one other language\nCR 4 (XP 1,100; PB +2)\n\nTraits\n\nPack Tactics. The tough has Advantage on an attack roll against a creature if at least one of the tough's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nMultiattack. The tough makes two attacks, using Warhammer or Heavy Crossbow in any combination.\n\nWarhammer. Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8 + 3) Bludgeoning damage. If the target is a Large or smaller creature, the tough pushes the target up to 10 feet straight away from itself.\n\nHeavy Crossbow. Ranged Attack Roll: +4, range 100/400 ft. Hit: 13 (2d10 + 2) Piercing damage.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/chain-mail"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/heavy-crossbow"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/warhammer"
+    }
+  ],
   "attacks": [
     {
       "name": "Warhammer",
@@ -138,6 +149,11 @@
         "normal": 100,
         "long": 400
       }
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
     }
   ]
 }

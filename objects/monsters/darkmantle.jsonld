@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.73",
     "heading": "Darkmantle",
-    "lineStart": 20196,
-    "lineEnd": 20225
+    "lineStart": 20120,
+    "lineEnd": 20149
   },
   "sizeTypeAlignment": "Small Aberration, Unaligned",
   "sizeAndType": "Small Aberration",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.73",
         "heading": "Actions",
-        "lineStart": 20217,
-        "lineEnd": 20225
+        "lineStart": 20141,
+        "lineEnd": 20149
       }
     }
   ],
@@ -103,6 +103,11 @@
       "parseStatus": "parsed",
       "attackBonus": 5,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/blinded"
     }
   ]
 }

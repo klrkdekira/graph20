@@ -29,6 +29,7 @@ from extract_srd import Block, Emitter, parse_ability_table, parse_markdown_tabl
 from build_bundle import build as build_bundle  # noqa: E402
 from build_llms_full import build as build_llms_full  # noqa: E402
 from build_manifest import build as build_manifest  # noqa: E402
+from build_review_ledger import source_positions  # noqa: E402
 
 
 def records_of(collection):
@@ -98,9 +99,9 @@ class TestCatalogs(unittest.TestCase):
         self.assertEqual(counts["backgrounds"], 4)
         self.assertEqual(counts["conditions"], 15)
         self.assertEqual(counts["equipment"], 133)
-        self.assertEqual(counts["rules"], 738)
-        self.assertEqual(counts["tables"], 223)
-        self.assertEqual(sum(counts.values()), 2097)
+        self.assertEqual(counts["rules"], 736)
+        self.assertEqual(counts["tables"], 235)
+        self.assertEqual(sum(counts.values()), 2107)
 
     def test_class_fixture_barbarian(self):
         cls = load_json(ROOT / "objects/classes/barbarian.jsonld")
@@ -287,6 +288,92 @@ class TestCatalogs(unittest.TestCase):
         columns, rows = parse_markdown_table(["| 1 | First effect |", "| 2 | Second effect |"])
         self.assertEqual(columns, ["column1", "column2"])
         self.assertEqual([row["cells"][0]["value"] for row in rows], ["1", "2"])
+
+    def test_review_positions_distinguish_repeated_table_cell_tokens(self):
+        lines = [
+            "| 1 | Failed Save: 12d6 Fire damage. |",
+            "| 2 | Failed Save: 12d6 Acid damage. |",
+        ]
+        locator = {"lineStart": 1, "lineEnd": 2}
+        self.assertEqual(
+            source_positions(
+                lines,
+                locator,
+                "12d6",
+                "Failed Save: 12d6 Acid damage.",
+            ),
+            [(2, 20)],
+        )
+
+    def test_residual_structure_repairs(self):
+        rule_names = {rule["name"] for rule in records_of("rules")}
+        self.assertNotIn("1d100 Trinket", rule_names)
+        self.assertNotIn("1d8 Ray", rule_names)
+
+        trinkets = next(
+            table for table in records_of("tables") if table["name"] == "Trinkets"
+        )
+        self.assertEqual(len(trinkets["rows"]), 100)
+        self.assertEqual(trinkets["rows"][-1]["cells"][0]["value"], "00")
+
+        rays = next(
+            table for table in records_of("tables")
+            if table["name"] == "Prismatic Rays"
+        )
+        self.assertEqual(len(rays["rows"]), 8)
+        spray = load_json(ROOT / "objects/spells/prismatic-spray.jsonld")
+        self.assertIn({"@id": rays["@id"]}, spray["relatedTables"])
+
+        figurine = load_json(
+            ROOT / "objects/magic-items/figurine-of-wondrous-power.jsonld"
+        )
+        giant_fly = load_json(ROOT / "objects/monsters/giant-fly.jsonld")
+        self.assertIn("Golden Lions (Rare).", figurine["rulesText"])
+        self.assertIn("Silver Raven (Uncommon).", figurine["rulesText"])
+        self.assertNotIn("Golden Lions (Rare).", giant_fly["rulesText"])
+
+    def test_latent_graph_relations(self):
+        relation_counts = {}
+        for field in (
+            "listsSpell",
+            "castsSpell",
+            "mentionsCondition",
+            "grantsFeat",
+            "hasGear",
+        ):
+            records = [
+                record
+                for collection in COLLECTIONS
+                for record in records_of(collection)
+                if field in record
+            ]
+            relation_counts[field] = sum(
+                len(record[field]) if isinstance(record[field], list) else 1
+                for record in records
+            )
+        self.assertEqual(
+            relation_counts,
+            {
+                "listsSpell": 875,
+                "castsSpell": 54,
+                "mentionsCondition": 506,
+                "grantsFeat": 4,
+                "hasGear": 97,
+            },
+        )
+
+        helm = load_json(ROOT / "objects/magic-items/helm-of-brilliance.jsonld")
+        self.assertEqual(
+            [reference["@id"].rsplit("/", 1)[-1] for reference in helm["castsSpell"]],
+            ["daylight", "fireball", "prismatic-spray", "wall-of-fire"],
+        )
+        acolyte = load_json(ROOT / "objects/backgrounds/acolyte.jsonld")
+        self.assertEqual(
+            acolyte["grantsFeat"],
+            {"@id": f"{BASE}objects/feats/magic-initiate"},
+        )
+        assassin = load_json(ROOT / "objects/monsters/assassin.jsonld")
+        self.assertEqual(len(assassin["hasGear"]), 3)
 
     def test_locator_regressions(self):
         lines = (ROOT / SOURCE_FILE).read_text(encoding="utf-8").splitlines()

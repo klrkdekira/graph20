@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.176",
     "heading": "Noble",
-    "lineStart": 23535,
-    "lineEnd": 23563
+    "lineStart": 23459,
+    "lineEnd": 23487
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.176",
         "heading": "Actions",
-        "lineStart": 23557,
-        "lineEnd": 23559
+        "lineStart": 23481,
+        "lineEnd": 23483
       }
     },
     {
@@ -87,12 +87,20 @@
         "chapter": "Monsters A-Z",
         "section": "12.176",
         "heading": "Reactions",
-        "lineStart": 23561,
-        "lineEnd": 23563
+        "lineStart": 23485,
+        "lineEnd": 23487
       }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 15\nInitiative +1 (11)\nHP 9 (2d8)\nSpeed 30 ft.\n\nSkills Deception +5, Insight +4, Persuasion +5\nGear Breastplate, Rapier\nSenses Passive Perception 12\nLanguages Common plus two other languages\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nRapier. Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) Piercing damage.\n\nReactions\n\nParry. Trigger: The noble is hit by a melee attack roll while holding a weapon. Response: The noble adds 2 to its AC against that attack, possibly causing it to miss.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/breastplate"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/rapier"
+    }
+  ],
   "attacks": [
     {
       "name": "Rapier",

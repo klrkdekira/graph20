@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.107",
     "heading": "Goblin Warrior",
-    "lineStart": 21322,
-    "lineEnd": 21351
+    "lineStart": 21246,
+    "lineEnd": 21275
   },
   "sizeTypeAlignment": "Small Fey (Goblinoid), Chaotic Neutral",
   "sizeAndType": "Small Fey (Goblinoid)",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.107",
         "heading": "Actions",
-        "lineStart": 21342,
-        "lineEnd": 21347
+        "lineStart": 21266,
+        "lineEnd": 21271
       }
     },
     {
@@ -87,12 +87,26 @@
         "chapter": "Monsters A-Z",
         "section": "12.107",
         "heading": "Bonus Actions",
-        "lineStart": 21349,
-        "lineEnd": 21351
+        "lineStart": 21273,
+        "lineEnd": 21275
       }
     }
   ],
   "rulesText": "Small Fey (Goblinoid), Chaotic Neutral\n\nAC 15\nInitiative +2 (12)\nHP 10 (3d6)\nSpeed 30 ft.\n\nSkills Stealth +6\nGear Leather Armor, Scimitar, Shield, Shortbow\nSenses Darkvision 60 ft.; Passive Perception 9\nLanguages Common, Goblin\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nScimitar. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing damage, plus 2 (1d4) Slashing damage if the attack roll had Advantage.\n\nShortbow. Ranged Attack Roll: +4, range 80/320 ft.\nHit: 5 (1d6 + 2) Piercing damage, plus 2 (1d4) Piercing damage if the attack roll had Advantage.\n\nBonus Actions\n\nNimble Escape. The goblin takes the Disengage or Hide action.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/leather-armor"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/scimitar"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/shield"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/shortbow"
+    }
+  ],
   "attacks": [
     {
       "name": "Scimitar",

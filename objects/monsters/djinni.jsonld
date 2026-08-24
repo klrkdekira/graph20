@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.76",
     "heading": "Djinni",
-    "lineStart": 20300,
-    "lineEnd": 20351
+    "lineStart": 20224,
+    "lineEnd": 20275
   },
   "sizeTypeAlignment": "Large Elemental (Genie), Neutral",
   "sizeAndType": "Large Elemental (Genie)",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.76",
         "heading": "Traits",
-        "lineStart": 20321,
-        "lineEnd": 20327
+        "lineStart": 20245,
+        "lineEnd": 20251
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.76",
         "heading": "Actions",
-        "lineStart": 20329,
-        "lineEnd": 20351
+        "lineStart": 20253,
+        "lineEnd": 20275
       }
     }
   ],
@@ -145,6 +145,14 @@
       "rangeFeet": {
         "normal": 120
       }
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
   ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.9",
     "heading": "Cleric Subclass: Life Domain",
-    "lineStart": 2405,
-    "lineEnd": 2440
+    "lineStart": 2335,
+    "lineEnd": 2370
   },
   "parentClass": {
     "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
@@ -28,8 +28,8 @@
         "chapter": "Classes",
         "section": "3.7",
         "heading": "Level 3: Disciple of Life",
-        "lineStart": 2413,
-        "lineEnd": 2415
+        "lineStart": 2343,
+        "lineEnd": 2345
       }
     },
     {
@@ -40,8 +40,8 @@
         "chapter": "Classes",
         "section": "3.7",
         "heading": "Level 3: Life Domain Spells",
-        "lineStart": 2417,
-        "lineEnd": 2428
+        "lineStart": 2347,
+        "lineEnd": 2358
       },
       "relatedTables": [
         {
@@ -57,8 +57,8 @@
         "chapter": "Classes",
         "section": "3.7",
         "heading": "Level 3: Preserve Life",
-        "lineStart": 2430,
-        "lineEnd": 2432
+        "lineStart": 2360,
+        "lineEnd": 2362
       }
     },
     {
@@ -69,8 +69,8 @@
         "chapter": "Classes",
         "section": "3.7",
         "heading": "Level 6: Blessed Healer",
-        "lineStart": 2434,
-        "lineEnd": 2436
+        "lineStart": 2364,
+        "lineEnd": 2366
       }
     },
     {
@@ -81,8 +81,8 @@
         "chapter": "Classes",
         "section": "3.7",
         "heading": "Level 17: Supreme Healing",
-        "lineStart": 2438,
-        "lineEnd": 2440
+        "lineStart": 2368,
+        "lineEnd": 2370
       }
     }
   ]

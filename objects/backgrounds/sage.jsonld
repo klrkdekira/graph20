@@ -11,8 +11,8 @@
     "chapter": "Character Origins",
     "section": "4.12",
     "heading": "Sage",
-    "lineStart": 5477,
-    "lineEnd": 5487
+    "lineStart": 5407,
+    "lineEnd": 5417
   },
   "abilityScores": "Constitution, Intelligence, Wisdom",
   "feat": "Magic Initiate (Wizard) (see “Feats”)",
@@ -24,5 +24,8 @@
     "Intelligence",
     "Wisdom"
   ],
-  "rulesText": "Ability Scores: Constitution, Intelligence, Wisdom\n\nFeat: Magic Initiate (Wizard) (see “Feats”)\n\nSkill Proficiencies: Arcana and History\n\nTool Proficiency: Calligrapher's Supplies\n\nEquipment: Choose A or B: (A) Quarterstaff, Calligrapher's Supplies, Book (history), Parchment (8 sheets), Robe, 8 GP; or (B) 50 GP"
+  "rulesText": "Ability Scores: Constitution, Intelligence, Wisdom\n\nFeat: Magic Initiate (Wizard) (see “Feats”)\n\nSkill Proficiencies: Arcana and History\n\nTool Proficiency: Calligrapher's Supplies\n\nEquipment: Choose A or B: (A) Quarterstaff, Calligrapher's Supplies, Book (history), Parchment (8 sheets), Robe, 8 GP; or (B) 50 GP",
+  "grantsFeat": {
+    "@id": "https://cheeleong.dev/graph20/objects/feats/magic-initiate"
+  }
 }

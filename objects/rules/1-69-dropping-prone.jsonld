@@ -15,5 +15,10 @@
     "lineEnd": 602
   },
   "section": "1.69",
-  "rulesText": "On your turn, you can give yourself the Prone condition (see “Rules Glossary”) without using an action or any of your Speed, but you can’t do so if your Speed is 0."
+  "rulesText": "On your turn, you can give yourself the Prone condition (see “Rules Glossary”) without using an action or any of your Speed, but you can’t do so if your Speed is 0.",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    }
+  ]
 }

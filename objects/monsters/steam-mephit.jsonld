@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.164",
     "heading": "Steam Mephit",
-    "lineStart": 23153,
-    "lineEnd": 23183
+    "lineStart": 23077,
+    "lineEnd": 23107
   },
   "sizeTypeAlignment": "Small Elemental, Neutral Evil",
   "sizeAndType": "Small Elemental",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.164",
         "heading": "Traits",
-        "lineStart": 23173,
-        "lineEnd": 23177
+        "lineStart": 23097,
+        "lineEnd": 23101
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.164",
         "heading": "Actions",
-        "lineStart": 23179,
-        "lineEnd": 23183
+        "lineStart": 23103,
+        "lineEnd": 23107
       }
     }
   ],
@@ -130,6 +130,11 @@
       "parseStatus": "parsed",
       "attackBonus": 2,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
     }
   ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.130",
     "heading": "Harpy",
-    "lineStart": 22053,
-    "lineEnd": 22077
+    "lineStart": 21977,
+    "lineEnd": 22001
   },
   "sizeTypeAlignment": "Medium Monstrosity, Chaotic Evil",
   "sizeAndType": "Medium Monstrosity",
@@ -75,8 +75,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.130",
         "heading": "Actions",
-        "lineStart": 22073,
-        "lineEnd": 22077
+        "lineStart": 21997,
+        "lineEnd": 22001
       }
     }
   ],
@@ -102,6 +102,14 @@
       "parseStatus": "parsed",
       "attackBonus": 3,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
     }
   ]
 }

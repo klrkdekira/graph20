@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.137",
     "heading": "Helm of Teleportation",
-    "lineStart": 15995,
-    "lineEnd": 15999
+    "lineStart": 15919,
+    "lineEnd": 15923
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Rare",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Rare (Requires Attunement)\n\nThis helm has 3 charges. While wearing it, you can expend 1 charge to cast Teleport from it. The helm regains 1d3 expended charges daily at dawn."
+  "rulesText": "Wondrous Item, Rare (Requires Attunement)\n\nThis helm has 3 charges. While wearing it, you can expend 1 charge to cast Teleport from it. The helm regains 1d3 expended charges daily at dawn.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/teleport"
+    }
+  ]
 }

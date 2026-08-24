@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.133",
     "heading": "Hill Giant",
-    "lineStart": 22153,
-    "lineEnd": 22180
+    "lineStart": 22077,
+    "lineEnd": 22104
   },
   "sizeTypeAlignment": "Huge Giant, Chaotic Evil",
   "sizeAndType": "Huge Giant",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.133",
         "heading": "Actions",
-        "lineStart": 22174,
-        "lineEnd": 22180
+        "lineStart": 22098,
+        "lineEnd": 22104
       }
     }
   ],
@@ -127,6 +127,14 @@
         "normal": 60,
         "long": 240
       }
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.58",
     "heading": "Cloaker",
-    "lineStart": 19759,
-    "lineEnd": 19799
+    "lineStart": 19683,
+    "lineEnd": 19723
   },
   "sizeTypeAlignment": "Large Aberration, Chaotic Neutral",
   "sizeAndType": "Large Aberration",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.58",
         "heading": "Traits",
-        "lineStart": 19781,
-        "lineEnd": 19783
+        "lineStart": 19705,
+        "lineEnd": 19707
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.58",
         "heading": "Actions",
-        "lineStart": 19785,
-        "lineEnd": 19793
+        "lineStart": 19709,
+        "lineEnd": 19717
       }
     },
     {
@@ -99,8 +99,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.58",
         "heading": "Bonus Actions",
-        "lineStart": 19795,
-        "lineEnd": 19799
+        "lineStart": 19719,
+        "lineEnd": 19723
       }
     }
   ],
@@ -152,6 +152,14 @@
       "parseStatus": "parsed",
       "attackBonus": 6,
       "reachFeet": 10
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/blinded"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
     }
   ]
 }

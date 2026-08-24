@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.114",
     "heading": "Gorgon",
-    "lineStart": 21566,
-    "lineEnd": 21596
+    "lineStart": 21490,
+    "lineEnd": 21520
   },
   "sizeTypeAlignment": "Large Construct, Unaligned",
   "sizeAndType": "Large Construct",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.114",
         "heading": "Actions",
-        "lineStart": 21588,
-        "lineEnd": 21592
+        "lineStart": 21512,
+        "lineEnd": 21516
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.114",
         "heading": "Bonus Actions",
-        "lineStart": 21594,
-        "lineEnd": 21596
+        "lineStart": 21518,
+        "lineEnd": 21520
       }
     }
   ],
@@ -123,6 +123,17 @@
       "parseStatus": "parsed",
       "attackBonus": 8,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/petrified"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
   ]
 }

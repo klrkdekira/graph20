@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.85",
     "heading": "Erinyes",
-    "lineStart": 20656,
-    "lineEnd": 20698
+    "lineStart": 20580,
+    "lineEnd": 20622
   },
   "sizeTypeAlignment": "Medium Fiend (Devil), Lawful Evil",
   "sizeAndType": "Medium Fiend (Devil)",
@@ -78,8 +78,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.85",
         "heading": "Traits",
-        "lineStart": 20679,
-        "lineEnd": 20685
+        "lineStart": 20603,
+        "lineEnd": 20609
       }
     },
     {
@@ -89,8 +89,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.85",
         "heading": "Actions",
-        "lineStart": 20687,
-        "lineEnd": 20694
+        "lineStart": 20611,
+        "lineEnd": 20618
       }
     },
     {
@@ -100,8 +100,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.85",
         "heading": "Reactions",
-        "lineStart": 20696,
-        "lineEnd": 20698
+        "lineStart": 20620,
+        "lineEnd": 20622
       }
     }
   ],
@@ -141,6 +141,11 @@
       "parseStatus": "parsed",
       "attackBonus": 8,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
   ]
 }

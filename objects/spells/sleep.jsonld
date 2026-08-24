@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.315",
     "heading": "Sleep",
-    "lineStart": 11772,
-    "lineEnd": 11783
+    "lineStart": 11696,
+    "lineEnd": 11707
   },
   "level": 1,
   "school": "Enchantment",
@@ -40,5 +40,16 @@
   "savingThrowAbility": "Wisdom",
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/exhaustion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
+    }
+  ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.131",
     "heading": "Earthquake",
-    "lineStart": 8941,
-    "lineEnd": 8960
+    "lineStart": 8871,
+    "lineEnd": 8890
   },
   "level": 8,
   "school": "Transmutation",
@@ -50,5 +50,10 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    }
+  ]
 }

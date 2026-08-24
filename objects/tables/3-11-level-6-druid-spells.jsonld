@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.11",
     "heading": "Druid Spell List",
-    "lineStart": 2758,
-    "lineEnd": 2769
+    "lineStart": 2688,
+    "lineEnd": 2699
   },
   "columns": [
     "Spell",
@@ -161,5 +161,37 @@
       ]
     }
   ],
-  "rawText": "| Spell                | School        | Special |\n| :------------------- | :------------ | :------ |\n| Conjure Fey          | Conjuration   | C       |\n| Find the Path        | Divination    | C, M    |\n| Flesh to Stone       | Transmutation | C       |\n| Heal                 | Abjuration    |    -    |\n| Heroes’ Feast        | Conjuration   | M       |\n| Move Earth           | Transmutation | C       |\n| Sunbeam              | Evocation     | C       |\n| Transport via Plants | Conjuration   |    -    |\n| Wall of Thorns       | Conjuration   | C       |\n| Wind Walk            | Transmutation |    -    |"
+  "rawText": "| Spell                | School        | Special |\n| :------------------- | :------------ | :------ |\n| Conjure Fey          | Conjuration   | C       |\n| Find the Path        | Divination    | C, M    |\n| Flesh to Stone       | Transmutation | C       |\n| Heal                 | Abjuration    |    -    |\n| Heroes’ Feast        | Conjuration   | M       |\n| Move Earth           | Transmutation | C       |\n| Sunbeam              | Evocation     | C       |\n| Transport via Plants | Conjuration   |    -    |\n| Wall of Thorns       | Conjuration   | C       |\n| Wind Walk            | Transmutation |    -    |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/conjure-fey"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/find-the-path"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/flesh-to-stone"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/heal"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/heroes-feast"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/move-earth"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/sunbeam"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/transport-via-plants"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/wall-of-thorns"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/wind-walk"
+    }
+  ]
 }

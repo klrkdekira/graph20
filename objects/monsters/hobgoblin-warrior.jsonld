@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.136",
     "heading": "Hobgoblin Warrior",
-    "lineStart": 22215,
-    "lineEnd": 22243
+    "lineStart": 22139,
+    "lineEnd": 22167
   },
   "sizeTypeAlignment": "Medium Fey (Goblinoid), Lawful Evil",
   "sizeAndType": "Medium Fey (Goblinoid)",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.136",
         "heading": "Traits",
-        "lineStart": 22234,
-        "lineEnd": 22236
+        "lineStart": 22158,
+        "lineEnd": 22160
       }
     },
     {
@@ -87,12 +87,26 @@
         "chapter": "Monsters A-Z",
         "section": "12.136",
         "heading": "Actions",
-        "lineStart": 22238,
-        "lineEnd": 22243
+        "lineStart": 22162,
+        "lineEnd": 22167
       }
     }
   ],
   "rulesText": "Medium Fey (Goblinoid), Lawful Evil\n\nAC 18\nInitiative +3 (13)\nHP 11 (2d8 + 2)\nSpeed 30 ft.\n\nGear Half Plate Armor, Longbow, Longsword, Shield\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Common, Goblin\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nPack Tactics. The hobgoblin has Advantage on an attack roll against a creature if at least one of the hobgoblin's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nLongsword. Melee Attack Roll: +3, reach 5 ft. Hit: 12 (2d10 + 1) Slashing damage.\n\nLongbow. Ranged Attack Roll: +3, range 150/600 ft.\nHit: 5 (1d8 + 1) Piercing damage plus 7 (3d4) Poison damage.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/half-plate-armor"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/longbow"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/longsword"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/shield"
+    }
+  ],
   "attacks": [
     {
       "name": "Longsword",
@@ -147,6 +161,11 @@
         "normal": 150,
         "long": 600
       }
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
     }
   ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.93",
     "heading": "Vulture",
-    "lineStart": 29170,
-    "lineEnd": 29195
+    "lineStart": 29094,
+    "lineEnd": 29119
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
@@ -76,8 +76,8 @@
         "chapter": "Animals",
         "section": "13.93",
         "heading": "Traits",
-        "lineStart": 29189,
-        "lineEnd": 29191
+        "lineStart": 29113,
+        "lineEnd": 29115
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Animals",
         "section": "13.93",
         "heading": "Actions",
-        "lineStart": 29193,
-        "lineEnd": 29195
+        "lineStart": 29117,
+        "lineEnd": 29119
       }
     }
   ],
@@ -113,6 +113,11 @@
       "parseStatus": "parsed",
       "attackBonus": 2,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
     }
   ]
 }

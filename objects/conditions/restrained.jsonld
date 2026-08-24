@@ -11,8 +11,13 @@
     "chapter": "Rules Glossary",
     "section": "8.122",
     "heading": "Restrained [Condition]",
-    "lineStart": 13582,
-    "lineEnd": 13590
+    "lineStart": 13506,
+    "lineEnd": 13514
   },
-  "rulesText": "While you have the Restrained condition, you experience the following effects.\n\nSpeed 0. Your Speed is 0 and can't increase.\n\nAttacks Affected. Attack rolls against you have Advantage, and your attack rolls have Disadvantage.\n\nSaving Throws Affected. You have Disadvantage on Dexterity saving throws."
+  "rulesText": "While you have the Restrained condition, you experience the following effects.\n\nSpeed 0. Your Speed is 0 and can't increase.\n\nAttacks Affected. Attack rolls against you have Advantage, and your attack rolls have Disadvantage.\n\nSaving Throws Affected. You have Disadvantage on Dexterity saving throws.",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
+    }
+  ]
 }

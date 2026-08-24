@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.15",
     "heading": "Constrictor Snake",
-    "lineStart": 27077,
-    "lineEnd": 27101
+    "lineStart": 27001,
+    "lineEnd": 27025
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -76,8 +76,8 @@
         "chapter": "Animals",
         "section": "13.15",
         "heading": "Actions",
-        "lineStart": 27096,
-        "lineEnd": 27101
+        "lineStart": 27020,
+        "lineEnd": 27025
       }
     }
   ],
@@ -103,6 +103,11 @@
       "parseStatus": "parsed",
       "attackBonus": 4,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
     }
   ]
 }

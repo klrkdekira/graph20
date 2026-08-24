@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.5",
     "heading": "Bard Spell List",
-    "lineStart": 2058,
-    "lineEnd": 2065
+    "lineStart": 1988,
+    "lineEnd": 1995
   },
   "columns": [
     "Spell",
@@ -105,5 +105,25 @@
       ]
     }
   ],
-  "rawText": "| Spell              | School      | Special |\n| :----------------- | :---------- | :------ |\n| Antipathy/Sympathy | Enchantment |    -    |\n| Befuddlement       | Enchantment |    -    |\n| Dominate Monster   | Enchantment | C       |\n| Glibness           | Enchantment |    -    |\n| Mind Blank         | Abjuration  |    -    |\n| Power Word Stun    | Enchantment |    -    |"
+  "rawText": "| Spell              | School      | Special |\n| :----------------- | :---------- | :------ |\n| Antipathy/Sympathy | Enchantment |    -    |\n| Befuddlement       | Enchantment |    -    |\n| Dominate Monster   | Enchantment | C       |\n| Glibness           | Enchantment |    -    |\n| Mind Blank         | Abjuration  |    -    |\n| Power Word Stun    | Enchantment |    -    |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/antipathy-sympathy"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/befuddlement"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dominate-monster"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/glibness"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mind-blank"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/power-word-stun"
+    }
+  ]
 }

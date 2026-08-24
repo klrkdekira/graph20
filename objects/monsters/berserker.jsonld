@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.24",
     "heading": "Berserker",
-    "lineStart": 18668,
-    "lineEnd": 18695
+    "lineStart": 18592,
+    "lineEnd": 18619
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.24",
         "heading": "Traits",
-        "lineStart": 18689,
-        "lineEnd": 18691
+        "lineStart": 18613,
+        "lineEnd": 18615
       }
     },
     {
@@ -87,12 +87,20 @@
         "chapter": "Monsters A-Z",
         "section": "12.24",
         "heading": "Actions",
-        "lineStart": 18693,
-        "lineEnd": 18695
+        "lineStart": 18617,
+        "lineEnd": 18619
       }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 13\nInitiative +1 (11)\nHP 67 (9d8 + 27)\nSpeed 30 ft.\n\nGear Greataxe, Hide Armor\nSenses Passive Perception 10\nLanguages Common\nCR 2 (XP 450; PB +2)\n\nTraits\n\nBloodied Frenzy. While Bloodied, the berserker has Advantage on attack rolls and saving throws.\n\nActions\n\nGreataxe. Melee Attack Roll: +5, reach 5 ft. Hit: 9 (1d12 + 3) Slashing damage.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/greataxe"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/hide-armor"
+    }
+  ],
   "attacks": [
     {
       "name": "Greataxe",

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.269",
     "heading": "Wyvern",
-    "lineStart": 26617,
-    "lineEnd": 26644
+    "lineStart": 26541,
+    "lineEnd": 26568
   },
   "sizeTypeAlignment": "Large Dragon, Unaligned",
   "sizeAndType": "Large Dragon",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.269",
         "heading": "Actions",
-        "lineStart": 26638,
-        "lineEnd": 26644
+        "lineStart": 26562,
+        "lineEnd": 26568
       }
     }
   ],
@@ -133,6 +133,11 @@
       "parseStatus": "parsed",
       "attackBonus": 7,
       "reachFeet": 10
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
   ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.110",
     "heading": "Demiplane",
-    "lineStart": 8619,
-    "lineEnd": 8632
+    "lineStart": 8549,
+    "lineEnd": 8562
   },
   "level": 8,
   "school": "Conjuration",
@@ -39,5 +39,10 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    }
+  ]
 }

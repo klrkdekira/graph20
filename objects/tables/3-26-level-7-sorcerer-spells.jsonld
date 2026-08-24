@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.26",
     "heading": "Sorcerer Spell List",
-    "lineStart": 4390,
-    "lineEnd": 4399
+    "lineStart": 4320,
+    "lineEnd": 4329
   },
   "columns": [
     "Spell",
@@ -133,5 +133,31 @@
       ]
     }
   ],
-  "rawText": "| Spell                  | School        | Special |\n| :--------------------- | :------------ | :------ |\n| Delayed Blast Fireball | Evocation     | C       |\n| Etherealness           | Conjuration   |    -    |\n| Finger of Death        | Necromancy    |    -    |\n| Fire Storm             | Evocation     |    -    |\n| Plane Shift            | Conjuration   | M       |\n| Prismatic Spray        | Evocation     |    -    |\n| Reverse Gravity        | Transmutation | C       |\n| Teleport               | Conjuration   |    -    |"
+  "rawText": "| Spell                  | School        | Special |\n| :--------------------- | :------------ | :------ |\n| Delayed Blast Fireball | Evocation     | C       |\n| Etherealness           | Conjuration   |    -    |\n| Finger of Death        | Necromancy    |    -    |\n| Fire Storm             | Evocation     |    -    |\n| Plane Shift            | Conjuration   | M       |\n| Prismatic Spray        | Evocation     |    -    |\n| Reverse Gravity        | Transmutation | C       |\n| Teleport               | Conjuration   |    -    |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/delayed-blast-fireball"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/etherealness"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/finger-of-death"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/fire-storm"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/plane-shift"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/prismatic-spray"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/reverse-gravity"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/teleport"
+    }
+  ]
 }

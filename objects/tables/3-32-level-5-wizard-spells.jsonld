@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.32",
     "heading": "Wizard Spell List",
-    "lineStart": 5280,
-    "lineEnd": 5305
+    "lineStart": 5210,
+    "lineEnd": 5235
   },
   "columns": [
     "Spell",
@@ -357,5 +357,79 @@
       ]
     }
   ],
-  "rawText": "| Spell                | School        | Special |\n| :------------------- | :------------ | :------ |\n| Animate Objects      | Transmutation | C       |\n| Arcane Hand          | Evocation     | C       |\n| Cloudkill            | Conjuration   | C       |\n| Cone of Cold         | Evocation     |    -    |\n| Conjure Elemental    | Conjuration   | C       |\n| Contact Other Plane  | Divination    | R       |\n| Creation             | Illusion      |    -    |\n| Dominate Person      | Enchantment   | C       |\n| Dream                | Illusion      |    -    |\n| Geas                 | Enchantment   |    -    |\n| Hold Monster         | Enchantment   | C       |\n| Legend Lore          | Divination    | M       |\n| Mislead              | Illusion      | C       |\n| Modify Memory        | Enchantment   | C       |\n| Passwall             | Transmutation |    -    |\n| Planar Binding       | Abjuration    | M       |\n| Scrying              | Divination    | C, M    |\n| Seeming              | Illusion      |    -    |\n| Summon Dragon        | Conjuration   | C, M    |\n| Telekinesis          | Transmutation | C       |\n| Telepathic Bond      | Divination    | R       |\n| Teleportation Circle | Conjuration   | M       |\n| Wall of Force        | Evocation     | C       |\n| Wall of Stone        | Evocation     | C       |"
+  "rawText": "| Spell                | School        | Special |\n| :------------------- | :------------ | :------ |\n| Animate Objects      | Transmutation | C       |\n| Arcane Hand          | Evocation     | C       |\n| Cloudkill            | Conjuration   | C       |\n| Cone of Cold         | Evocation     |    -    |\n| Conjure Elemental    | Conjuration   | C       |\n| Contact Other Plane  | Divination    | R       |\n| Creation             | Illusion      |    -    |\n| Dominate Person      | Enchantment   | C       |\n| Dream                | Illusion      |    -    |\n| Geas                 | Enchantment   |    -    |\n| Hold Monster         | Enchantment   | C       |\n| Legend Lore          | Divination    | M       |\n| Mislead              | Illusion      | C       |\n| Modify Memory        | Enchantment   | C       |\n| Passwall             | Transmutation |    -    |\n| Planar Binding       | Abjuration    | M       |\n| Scrying              | Divination    | C, M    |\n| Seeming              | Illusion      |    -    |\n| Summon Dragon        | Conjuration   | C, M    |\n| Telekinesis          | Transmutation | C       |\n| Telepathic Bond      | Divination    | R       |\n| Teleportation Circle | Conjuration   | M       |\n| Wall of Force        | Evocation     | C       |\n| Wall of Stone        | Evocation     | C       |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/animate-objects"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/arcane-hand"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/cloudkill"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/cone-of-cold"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/conjure-elemental"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/contact-other-plane"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/creation"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dominate-person"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dream"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/geas"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/hold-monster"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/legend-lore"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mislead"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/modify-memory"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/passwall"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/planar-binding"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/scrying"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/seeming"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/summon-dragon"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/telekinesis"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/telepathic-bond"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/teleportation-circle"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/wall-of-force"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/wall-of-stone"
+    }
+  ]
 }

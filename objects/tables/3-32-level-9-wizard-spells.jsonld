@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.32",
     "heading": "Wizard Spell List",
-    "lineStart": 5370,
-    "lineEnd": 5383
+    "lineStart": 5300,
+    "lineEnd": 5313
   },
   "columns": [
     "Spell",
@@ -189,5 +189,43 @@
       ]
     }
   ],
-  "rawText": "| Spell             | School        | Special |\n| :---------------- | :------------ | :------ |\n| Astral Projection | Necromancy    | M       |\n| Foresight         | Divination    |    -    |\n| Gate              | Conjuration   | C, M    |\n| Imprisonment      | Abjuration    | M       |\n| Meteor Swarm      | Evocation     |    -    |\n| Power Word Kill   | Enchantment   |    -    |\n| Prismatic Wall    | Abjuration    |    -    |\n| Shapechange       | Transmutation | C, M    |\n| Time Stop         | Transmutation |    -    |\n| True Polymorph    | Transmutation | C       |\n| Weird             | Illusion      | C       |\n| Wish              | Conjuration   |    -    |"
+  "rawText": "| Spell             | School        | Special |\n| :---------------- | :------------ | :------ |\n| Astral Projection | Necromancy    | M       |\n| Foresight         | Divination    |    -    |\n| Gate              | Conjuration   | C, M    |\n| Imprisonment      | Abjuration    | M       |\n| Meteor Swarm      | Evocation     |    -    |\n| Power Word Kill   | Enchantment   |    -    |\n| Prismatic Wall    | Abjuration    |    -    |\n| Shapechange       | Transmutation | C, M    |\n| Time Stop         | Transmutation |    -    |\n| True Polymorph    | Transmutation | C       |\n| Weird             | Illusion      | C       |\n| Wish              | Conjuration   |    -    |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/astral-projection"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/foresight"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/gate"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/imprisonment"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/meteor-swarm"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/power-word-kill"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/prismatic-wall"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/shapechange"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/time-stop"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/true-polymorph"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/weird"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/wish"
+    }
+  ]
 }

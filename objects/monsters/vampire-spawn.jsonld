@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.247",
     "heading": "Vampire Spawn",
-    "lineStart": 25842,
-    "lineEnd": 25886
+    "lineStart": 25766,
+    "lineEnd": 25810
   },
   "sizeTypeAlignment": "Medium or Small Undead, Neutral Evil",
   "sizeAndType": "Medium or Small Undead",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.247",
         "heading": "Traits",
-        "lineStart": 25862,
-        "lineEnd": 25874
+        "lineStart": 25786,
+        "lineEnd": 25798
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.247",
         "heading": "Actions",
-        "lineStart": 25876,
-        "lineEnd": 25882
+        "lineStart": 25800,
+        "lineEnd": 25806
       }
     },
     {
@@ -99,8 +99,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.247",
         "heading": "Bonus Actions",
-        "lineStart": 25884,
-        "lineEnd": 25886
+        "lineStart": 25808,
+        "lineEnd": 25810
       }
     }
   ],
@@ -126,6 +126,17 @@
       "parseStatus": "parsed",
       "attackBonus": 6,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
   ]
 }

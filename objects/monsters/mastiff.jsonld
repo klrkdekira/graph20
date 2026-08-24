@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.64",
     "heading": "Mastiff",
-    "lineStart": 28393,
-    "lineEnd": 28414
+    "lineStart": 28317,
+    "lineEnd": 28338
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
@@ -76,8 +76,8 @@
         "chapter": "Animals",
         "section": "13.64",
         "heading": "Actions",
-        "lineStart": 28412,
-        "lineEnd": 28414
+        "lineStart": 28336,
+        "lineEnd": 28338
       }
     }
   ],
@@ -103,6 +103,11 @@
       "parseStatus": "parsed",
       "attackBonus": 3,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

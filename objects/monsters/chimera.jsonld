@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.55",
     "heading": "Chimera",
-    "lineStart": 19648,
-    "lineEnd": 19679
+    "lineStart": 19572,
+    "lineEnd": 19603
   },
   "sizeTypeAlignment": "Large Monstrosity, Chaotic Evil",
   "sizeAndType": "Large Monstrosity",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.55",
         "heading": "Actions",
-        "lineStart": 19669,
-        "lineEnd": 19679
+        "lineStart": 19593,
+        "lineEnd": 19603
       }
     }
   ],
@@ -155,6 +155,11 @@
       "parseStatus": "parsed",
       "attackBonus": 7,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

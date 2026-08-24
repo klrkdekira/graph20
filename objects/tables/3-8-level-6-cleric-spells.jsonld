@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.8",
     "heading": "Cleric Spell List",
-    "lineStart": 2358,
-    "lineEnd": 2370
+    "lineStart": 2288,
+    "lineEnd": 2300
   },
   "columns": [
     "Spell",
@@ -175,5 +175,40 @@
       ]
     }
   ],
-  "rawText": "| Spell          | School      | Special |\n| :------------- | :---------- | :------ |\n| Blade Barrier  | Evocation   | C       |\n| Create Undead  | Necromancy  | M       |\n| Find the Path  | Divination  | C, M    |\n| Forbiddance    | Abjuration  | R, M    |\n| Harm           | Necromancy  |    -    |\n| Heal           | Abjuration  |    -    |\n| Heroes’ Feast  | Conjuration | M       |\n| Planar Ally    | Conjuration |    -    |\n| Sunbeam        | Evocation   | C       |\n| True Seeing    | Divination  | M       |\n| Word of Recall | Conjuration |    -    |"
+  "rawText": "| Spell          | School      | Special |\n| :------------- | :---------- | :------ |\n| Blade Barrier  | Evocation   | C       |\n| Create Undead  | Necromancy  | M       |\n| Find the Path  | Divination  | C, M    |\n| Forbiddance    | Abjuration  | R, M    |\n| Harm           | Necromancy  |    -    |\n| Heal           | Abjuration  |    -    |\n| Heroes’ Feast  | Conjuration | M       |\n| Planar Ally    | Conjuration |    -    |\n| Sunbeam        | Evocation   | C       |\n| True Seeing    | Divination  | M       |\n| Word of Recall | Conjuration |    -    |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/blade-barrier"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/create-undead"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/find-the-path"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/forbiddance"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/harm"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/heal"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/heroes-feast"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/planar-ally"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/sunbeam"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/true-seeing"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/word-of-recall"
+    }
+  ]
 }

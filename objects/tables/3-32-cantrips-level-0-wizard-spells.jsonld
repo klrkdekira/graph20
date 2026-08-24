@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.32",
     "heading": "Wizard Spell List",
-    "lineStart": 5114,
-    "lineEnd": 5121
+    "lineStart": 5044,
+    "lineEnd": 5051
   },
   "columns": [
     "Spell",
@@ -105,5 +105,25 @@
       ]
     }
   ],
-  "rawText": "| Spell          | School        | Special |\n| :------------- | :------------ | :------ |\n| Acid Splash    | Evocation     |    -    |\n| Chill Touch    | Necromancy    |    -    |\n| Dancing Lights | Illusion      | C       |\n| Elementalism   | Transmutation |    -    |\n| Fire Bolt      | Evocation     |    -    |\n| Light          | Evocation     |    -    |"
+  "rawText": "| Spell          | School        | Special |\n| :------------- | :------------ | :------ |\n| Acid Splash    | Evocation     |    -    |\n| Chill Touch    | Necromancy    |    -    |\n| Dancing Lights | Illusion      | C       |\n| Elementalism   | Transmutation |    -    |\n| Fire Bolt      | Evocation     |    -    |\n| Light          | Evocation     |    -    |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/acid-splash"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/chill-touch"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dancing-lights"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/elementalism"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/fire-bolt"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/light"
+    }
+  ]
 }

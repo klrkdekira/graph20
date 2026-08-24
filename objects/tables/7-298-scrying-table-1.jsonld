@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/7-298-scrying-table-1",
+  "@type": "Table",
+  "name": "Scrying Table 1",
+  "slug": "7-298-scrying-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.298",
+    "heading": "Scrying",
+    "lineStart": 11450,
+    "lineEnd": 11454
+  },
+  "columns": [
+    "Your Knowledge of the Target Is ...",
+    "Save Modifier"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Secondhand (heard of the target)"
+        },
+        {
+          "value": "+5"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Firsthand (met the target)"
+        },
+        {
+          "value": "+0"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Extensive (know the target well)"
+        },
+        {
+          "value": "-5"
+        }
+      ]
+    }
+  ],
+  "rawText": "| Your Knowledge of the Target Is ... | Save Modifier |\n| :---------------------------------- | :------------ |\n| Secondhand (heard of the target)    | +5            |\n| Firsthand (met the target)          | +0            |\n| Extensive (know the target well)    | -5            |"
+}

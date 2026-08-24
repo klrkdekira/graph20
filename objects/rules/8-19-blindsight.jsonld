@@ -11,9 +11,17 @@
     "chapter": "Rules Glossary",
     "section": "8.19",
     "heading": "Blindsight",
-    "lineStart": 12875,
-    "lineEnd": 12877
+    "lineStart": 12799,
+    "lineEnd": 12801
   },
   "section": "8.19",
-  "rulesText": "If you have Blindsight, you can see within a specific range without relying on physical sight. Within that range, you can see anything that isn't behind Total Cover even if you have the Blinded condition or are in Darkness. Moreover, in that range, you can see something that has the Invisible condition."
+  "rulesText": "If you have Blindsight, you can see within a specific range without relying on physical sight. Within that range, you can see anything that isn't behind Total Cover even if you have the Blinded condition or are in Darkness. Moreover, in that range, you can see something that has the Invisible condition.",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/blinded"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/invisible"
+    }
+  ]
 }

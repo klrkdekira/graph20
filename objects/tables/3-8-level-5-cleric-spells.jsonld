@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.8",
     "heading": "Cleric Spell List",
-    "lineStart": 2340,
-    "lineEnd": 2354
+    "lineStart": 2270,
+    "lineEnd": 2284
   },
   "columns": [
     "Spell",
@@ -203,5 +203,46 @@
       ]
     }
   ],
-  "rawText": "| Spell                | School      | Special |\n| :------------------- | :---------- | :------ |\n| Commune              | Divination  | R       |\n| Contagion            | Necromancy  |    -    |\n| Dispel Evil and Good | Abjuration  | C       |\n| Flame Strike         | Evocation   |    -    |\n| Geas                 | Enchantment |    -    |\n| Greater Restoration  | Abjuration  | M       |\n| Hallow               | Abjuration  | M       |\n| Insect Plague        | Conjuration | C       |\n| Legend Lore          | Divination  | M       |\n| Mass Cure Wounds     | Abjuration  |    -    |\n| Planar Binding       | Abjuration  | M       |\n| Raise Dead           | Necromancy  | M       |\n| Scrying              | Divination  | C, M    |"
+  "rawText": "| Spell                | School      | Special |\n| :------------------- | :---------- | :------ |\n| Commune              | Divination  | R       |\n| Contagion            | Necromancy  |    -    |\n| Dispel Evil and Good | Abjuration  | C       |\n| Flame Strike         | Evocation   |    -    |\n| Geas                 | Enchantment |    -    |\n| Greater Restoration  | Abjuration  | M       |\n| Hallow               | Abjuration  | M       |\n| Insect Plague        | Conjuration | C       |\n| Legend Lore          | Divination  | M       |\n| Mass Cure Wounds     | Abjuration  |    -    |\n| Planar Binding       | Abjuration  | M       |\n| Raise Dead           | Necromancy  | M       |\n| Scrying              | Divination  | C, M    |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/commune"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/contagion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-evil-and-good"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/flame-strike"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/geas"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/greater-restoration"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/hallow"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/insect-plague"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/legend-lore"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mass-cure-wounds"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/planar-binding"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/raise-dead"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/scrying"
+    }
+  ]
 }

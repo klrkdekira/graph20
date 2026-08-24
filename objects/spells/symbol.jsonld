@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.337",
     "heading": "Symbol",
-    "lineStart": 12103,
-    "lineEnd": 12136
+    "lineStart": 12027,
+    "lineEnd": 12060
   },
   "level": 7,
   "school": "Abjuration",
@@ -54,5 +54,19 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/stunned"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
+    }
+  ]
 }

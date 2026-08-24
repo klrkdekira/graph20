@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.76",
     "heading": "Cloak of Arachnida",
-    "lineStart": 15303,
-    "lineEnd": 15315
+    "lineStart": 15227,
+    "lineEnd": 15239
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Very Rare",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Very Rare (Requires Attunement)\n\nThis fine garment is made of black silk interwoven with faint, silvery threads. While wearing it, you gain the following benefits.\n\nPoison Resistance. You have Resistance to Poison damage.\n\nSpider Climb. You have a Climb Speed equal to your Speed and can move up, down, and across vertical surfaces and along ceilings, while leaving your hands free.\n\nSpider Walk. You can't be caught in webs of any sort and can move through webs as if they were Difficult Terrain.\n\nWeb. You can cast Web (save DC 13). The web created by the spell fills twice its normal area. Once used, this property can't be used again until the next dawn."
+  "rulesText": "Wondrous Item, Very Rare (Requires Attunement)\n\nThis fine garment is made of black silk interwoven with faint, silvery threads. While wearing it, you gain the following benefits.\n\nPoison Resistance. You have Resistance to Poison damage.\n\nSpider Climb. You have a Climb Speed equal to your Speed and can move up, down, and across vertical surfaces and along ceilings, while leaving your hands free.\n\nSpider Walk. You can't be caught in webs of any sort and can move through webs as if they were Difficult Terrain.\n\nWeb. You can cast Web (save DC 13). The web created by the spell fills twice its normal area. Once used, this property can't be used again until the next dawn.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/web"
+    }
+  ]
 }

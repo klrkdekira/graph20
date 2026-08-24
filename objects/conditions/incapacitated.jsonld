@@ -11,8 +11,13 @@
     "chapter": "Rules Glossary",
     "section": "8.90",
     "heading": "Incapacitated [Condition]",
-    "lineStart": 13339,
-    "lineEnd": 13349
+    "lineStart": 13263,
+    "lineEnd": 13273
   },
-  "rulesText": "While you have the Incapacitated condition, you experience the following effects.\n\nInactive. You can't take any action, Bonus Action, or Reaction.\n\nNo Concentration. Your Concentration is broken.\n\nSpeechless. You can't speak.\n\nSurprised. If you're Incapacitated when you roll Initiative, you have Disadvantage on the roll."
+  "rulesText": "While you have the Incapacitated condition, you experience the following effects.\n\nInactive. You can't take any action, Bonus Action, or Reaction.\n\nNo Concentration. Your Concentration is broken.\n\nSpeechless. You can't speak.\n\nSurprised. If you're Incapacitated when you roll Initiative, you have Disadvantage on the roll.",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    }
+  ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.113",
     "heading": "Ancient Gold Dragon",
-    "lineStart": 21512,
-    "lineEnd": 21564
+    "lineStart": 21436,
+    "lineEnd": 21488
   },
   "sizeTypeAlignment": "Gargantuan Dragon (Metallic), Lawful Good",
   "sizeAndType": "Gargantuan Dragon (Metallic)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.113",
         "heading": "Traits",
-        "lineStart": 21532,
-        "lineEnd": 21536
+        "lineStart": 21456,
+        "lineEnd": 21460
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.113",
         "heading": "Actions",
-        "lineStart": 21538,
-        "lineEnd": 21554
+        "lineStart": 21462,
+        "lineEnd": 21478
       }
     },
     {
@@ -99,8 +99,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.113",
         "heading": "Legendary Actions",
-        "lineStart": 21556,
-        "lineEnd": 21564
+        "lineStart": 21480,
+        "lineEnd": 21488
       }
     }
   ],
@@ -135,6 +135,11 @@
       "parseStatus": "parsed",
       "attackBonus": 17,
       "reachFeet": 15
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
     }
   ]
 }

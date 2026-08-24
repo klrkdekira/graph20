@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.79",
     "heading": "Dretch",
-    "lineStart": 20424,
-    "lineEnd": 20450
+    "lineStart": 20348,
+    "lineEnd": 20374
   },
   "sizeTypeAlignment": "Small Fiend (Demon), Chaotic Evil",
   "sizeAndType": "Small Fiend (Demon)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.79",
         "heading": "Actions",
-        "lineStart": 20446,
-        "lineEnd": 20450
+        "lineStart": 20370,
+        "lineEnd": 20374
       }
     }
   ],
@@ -109,6 +109,11 @@
       "parseStatus": "parsed",
       "attackBonus": 3,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
   ]
 }

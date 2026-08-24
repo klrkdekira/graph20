@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.22",
     "heading": "Ranger Subclass: Hunter",
-    "lineStart": 3780,
-    "lineEnd": 3812
+    "lineStart": 3710,
+    "lineEnd": 3742
   },
   "parentClass": {
     "@id": "https://cheeleong.dev/graph20/objects/classes/ranger"
@@ -28,8 +28,8 @@
         "chapter": "Classes",
         "section": "3.20",
         "heading": "Level 3: Hunter's Lore",
-        "lineStart": 3786,
-        "lineEnd": 3788
+        "lineStart": 3716,
+        "lineEnd": 3718
       }
     },
     {
@@ -40,8 +40,8 @@
         "chapter": "Classes",
         "section": "3.20",
         "heading": "Level 3: Hunter's Prey",
-        "lineStart": 3790,
-        "lineEnd": 3796
+        "lineStart": 3720,
+        "lineEnd": 3726
       }
     },
     {
@@ -52,8 +52,8 @@
         "chapter": "Classes",
         "section": "3.20",
         "heading": "Level 7: Defensive Tactics",
-        "lineStart": 3798,
-        "lineEnd": 3804
+        "lineStart": 3728,
+        "lineEnd": 3734
       }
     },
     {
@@ -64,8 +64,8 @@
         "chapter": "Classes",
         "section": "3.20",
         "heading": "Level 11: Superior Hunter's Prey",
-        "lineStart": 3806,
-        "lineEnd": 3808
+        "lineStart": 3736,
+        "lineEnd": 3738
       }
     },
     {
@@ -76,8 +76,8 @@
         "chapter": "Classes",
         "section": "3.20",
         "heading": "Level 15: Superior Hunter's Defense",
-        "lineStart": 3810,
-        "lineEnd": 3812
+        "lineStart": 3740,
+        "lineEnd": 3742
       }
     }
   ]

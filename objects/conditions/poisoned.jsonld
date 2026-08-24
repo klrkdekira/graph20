@@ -11,8 +11,13 @@
     "chapter": "Rules Glossary",
     "section": "8.114",
     "heading": "Poisoned [Condition]",
-    "lineStart": 13538,
-    "lineEnd": 13542
+    "lineStart": 13462,
+    "lineEnd": 13466
   },
-  "rulesText": "While you have the Poisoned condition, you experience the following effect.\n\nAbility Checks and Attacks Affected. You have Disadvantage on attack rolls and ability checks."
+  "rulesText": "While you have the Poisoned condition, you experience the following effect.\n\nAbility Checks and Attacks Affected. You have Disadvantage on attack rolls and ability checks.",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ]
 }

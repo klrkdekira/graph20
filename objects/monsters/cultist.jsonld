@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.71",
     "heading": "Cultist",
-    "lineStart": 20134,
-    "lineEnd": 20156
+    "lineStart": 20058,
+    "lineEnd": 20080
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -76,12 +76,20 @@
         "chapter": "Monsters A-Z",
         "section": "12.71",
         "heading": "Actions",
-        "lineStart": 20154,
-        "lineEnd": 20156
+        "lineStart": 20078,
+        "lineEnd": 20080
       }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 12\nInitiative +1 (11)\nHP 9 (2d8)\nSpeed 30 ft.\n\nSkills Deception +2, Religion +2\nGear Leather Armor, Sickle\nSenses Passive Perception 10\nLanguages Common\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nRitual Sickle. Melee Attack Roll: +3, reach 5 ft. Hit: 3 (1d4 + 1) Slashing damage plus 1 Necrotic damage.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/leather-armor"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/sickle"
+    }
+  ],
   "attacks": [
     {
       "name": "Ritual Sickle",

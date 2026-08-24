@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.231",
     "heading": "Spy",
-    "lineStart": 25309,
-    "lineEnd": 25339
+    "lineStart": 25233,
+    "lineEnd": 25263
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.231",
         "heading": "Actions",
-        "lineStart": 25331,
-        "lineEnd": 25335
+        "lineStart": 25255,
+        "lineEnd": 25259
       }
     },
     {
@@ -87,12 +87,20 @@
         "chapter": "Monsters A-Z",
         "section": "12.231",
         "heading": "Bonus Actions",
-        "lineStart": 25337,
-        "lineEnd": 25339
+        "lineStart": 25261,
+        "lineEnd": 25263
       }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 12\nInitiative +4 (14)\nHP 27 (6d8)\nSpeed 30 ft., Climb 30 ft.\n\nSkills Deception +5, Insight +4, Investigation +5, Perception +6, Sleight of Hand +4, Stealth +6\nGear Hand Crossbow, Shortsword, Thieves' Tools\nSenses Passive Perception 16\nLanguages Common plus one other language\nCR 1 (XP 200; PB +2)\n\nActions\n\nShortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage.\n\nHand Crossbow. Ranged Attack Roll: +4, range 30/120 ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage.\n\nBonus Actions\n\nCunning Action. The spy takes the Dash, Disengage, or Hide action.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/hand-crossbow"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/shortsword"
+    }
+  ],
   "attacks": [
     {
       "name": "Shortsword",

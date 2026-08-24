@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.8",
     "heading": "Cleric Spell List",
-    "lineStart": 2260,
-    "lineEnd": 2276
+    "lineStart": 2190,
+    "lineEnd": 2206
   },
   "columns": [
     "Spell",
@@ -231,5 +231,52 @@
       ]
     }
   ],
-  "rawText": "| Spell                         | School        | Special |\n| :---------------------------- | :------------ | :------ |\n| Bane                          | Enchantment   | C       |\n| Bless                         | Enchantment   | C, M    |\n| Command                       | Enchantment   |    -    |\n| Create or Destroy Water       | Transmutation |    -    |\n| Cure Wounds                   | Abjuration    |    -    |\n| Detect Evil and Good          | Divination    | C       |\n| Detect Magic                  | Divination    | C, R    |\n| Detect Poison and Disease     | Divination    | C, R    |\n| Guiding Bolt                  | Evocation     |    -    |\n| Healing Word                  | Abjuration    |    -    |\n| Inflict Wounds                | Necromancy    |    -    |\n| Protection from Evil and Good | Abjuration    | C, M    |\n| Purify Food and Drink         | Transmutation | R       |\n| Sanctuary                     | Abjuration    |    -    |\n| Shield of Faith               | Abjuration    | C       |"
+  "rawText": "| Spell                         | School        | Special |\n| :---------------------------- | :------------ | :------ |\n| Bane                          | Enchantment   | C       |\n| Bless                         | Enchantment   | C, M    |\n| Command                       | Enchantment   |    -    |\n| Create or Destroy Water       | Transmutation |    -    |\n| Cure Wounds                   | Abjuration    |    -    |\n| Detect Evil and Good          | Divination    | C       |\n| Detect Magic                  | Divination    | C, R    |\n| Detect Poison and Disease     | Divination    | C, R    |\n| Guiding Bolt                  | Evocation     |    -    |\n| Healing Word                  | Abjuration    |    -    |\n| Inflict Wounds                | Necromancy    |    -    |\n| Protection from Evil and Good | Abjuration    | C, M    |\n| Purify Food and Drink         | Transmutation | R       |\n| Sanctuary                     | Abjuration    |    -    |\n| Shield of Faith               | Abjuration    | C       |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/bane"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/bless"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/command"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/create-or-destroy-water"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/cure-wounds"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-evil-and-good"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-poison-and-disease"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/guiding-bolt"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/healing-word"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/inflict-wounds"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/protection-from-evil-and-good"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/purify-food-and-drink"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/sanctuary"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/shield-of-faith"
+    }
+  ]
 }

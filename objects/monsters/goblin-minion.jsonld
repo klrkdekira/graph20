@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.106",
     "heading": "Goblin Minion",
-    "lineStart": 21294,
-    "lineEnd": 21320
+    "lineStart": 21218,
+    "lineEnd": 21244
   },
   "sizeTypeAlignment": "Small Fey (Goblinoid), Chaotic Neutral",
   "sizeAndType": "Small Fey (Goblinoid)",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.106",
         "heading": "Actions",
-        "lineStart": 21314,
-        "lineEnd": 21316
+        "lineStart": 21238,
+        "lineEnd": 21240
       }
     },
     {
@@ -87,12 +87,17 @@
         "chapter": "Monsters A-Z",
         "section": "12.106",
         "heading": "Bonus Actions",
-        "lineStart": 21318,
-        "lineEnd": 21320
+        "lineStart": 21242,
+        "lineEnd": 21244
       }
     }
   ],
   "rulesText": "Small Fey (Goblinoid), Chaotic Neutral\n\nAC 12\nInitiative +2 (12)\nHP 7 (2d6)\nSpeed 30 ft.\n\nSkills Stealth +6\nGear Daggers (3)\nSenses Darkvision 60 ft.; Passive Perception 9\nLanguages Common, Goblin\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nDagger. Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage.\n\nBonus Actions\n\nNimble Escape. The goblin takes the Disengage or Hide action.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/dagger"
+    }
+  ],
   "attacks": [
     {
       "name": "Dagger",

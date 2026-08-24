@@ -11,9 +11,14 @@
     "chapter": "Equipment",
     "section": "6.65",
     "heading": "Antitoxin (50 GP)",
-    "lineStart": 6516,
-    "lineEnd": 6518
+    "lineStart": 6446,
+    "lineEnd": 6448
   },
   "section": "6.65",
-  "rulesText": "As a Bonus Action, you can drink a vial of Antitoxin to gain Advantage on saving throws to avoid or end the Poisoned condition for 1 hour."
+  "rulesText": "As a Bonus Action, you can drink a vial of Antitoxin to gain Advantage on saving throws to avoid or end the Poisoned condition for 1 hour.",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.11",
     "heading": "Druid Spell List",
-    "lineStart": 2784,
-    "lineEnd": 2793
+    "lineStart": 2714,
+    "lineEnd": 2723
   },
   "columns": [
     "Spell",
@@ -133,5 +133,31 @@
       ]
     }
   ],
-  "rawText": "| Spell              | School        | Special |\n| :----------------- | :------------ | :------ |\n| Animal Shapes      | Transmutation |    -    |\n| Antipathy/Sympathy | Enchantment   |    -    |\n| Befuddlement       | Enchantment   |    -    |\n| Control Weather    | Transmutation | C       |\n| Earthquake         | Transmutation | C       |\n| Incendiary Cloud   | Conjuration   | C       |\n| Sunburst           | Evocation     |    -    |\n| Tsunami            | Conjuration   | C       |"
+  "rawText": "| Spell              | School        | Special |\n| :----------------- | :------------ | :------ |\n| Animal Shapes      | Transmutation |    -    |\n| Antipathy/Sympathy | Enchantment   |    -    |\n| Befuddlement       | Enchantment   |    -    |\n| Control Weather    | Transmutation | C       |\n| Earthquake         | Transmutation | C       |\n| Incendiary Cloud   | Conjuration   | C       |\n| Sunburst           | Evocation     |    -    |\n| Tsunami            | Conjuration   | C       |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/animal-shapes"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/antipathy-sympathy"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/befuddlement"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/control-weather"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/earthquake"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/incendiary-cloud"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/sunburst"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/tsunami"
+    }
+  ]
 }

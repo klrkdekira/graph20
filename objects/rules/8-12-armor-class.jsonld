@@ -11,8 +11,8 @@
     "chapter": "Rules Glossary",
     "section": "8.12",
     "heading": "Armor Class",
-    "lineStart": 12837,
-    "lineEnd": 12841
+    "lineStart": 12761,
+    "lineEnd": 12765
   },
   "section": "8.12",
   "rulesText": "An Armor Class (AC) is the target number for an attack roll. AC represents how difficult it is to hit a target.\n\nYour base AC calculation is 10 plus your Dexterity modifier. If a rule gives you another base AC calculation, you choose which calculation to use; you can't use more than one. See also \"Attack Roll.\""

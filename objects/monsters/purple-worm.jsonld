@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.193",
     "heading": "Purple Worm",
-    "lineStart": 24063,
-    "lineEnd": 24099
+    "lineStart": 23987,
+    "lineEnd": 24023
   },
   "sizeTypeAlignment": "Gargantuan Monstrosity, Unaligned",
   "sizeAndType": "Gargantuan Monstrosity",
@@ -75,8 +75,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.193",
         "heading": "Traits",
-        "lineStart": 24083,
-        "lineEnd": 24085
+        "lineStart": 24007,
+        "lineEnd": 24009
       }
     },
     {
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.193",
         "heading": "Actions",
-        "lineStart": 24087,
-        "lineEnd": 24093
+        "lineStart": 24011,
+        "lineEnd": 24017
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.193",
         "heading": "Bonus Actions",
-        "lineStart": 24095,
-        "lineEnd": 24099
+        "lineStart": 24019,
+        "lineEnd": 24023
       }
     }
   ],
@@ -154,6 +154,17 @@
       "parseStatus": "parsed",
       "attackBonus": 14,
       "reachFeet": 10
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
   ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.137",
     "heading": "Hobgoblin Captain",
-    "lineStart": 22245,
-    "lineEnd": 22274
+    "lineStart": 22169,
+    "lineEnd": 22198
   },
   "sizeTypeAlignment": "Medium Fey (Goblinoid), Lawful Evil",
   "sizeAndType": "Medium Fey (Goblinoid)",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.137",
         "heading": "Traits",
-        "lineStart": 22264,
-        "lineEnd": 22266
+        "lineStart": 22188,
+        "lineEnd": 22190
       }
     },
     {
@@ -87,12 +87,23 @@
         "chapter": "Monsters A-Z",
         "section": "12.137",
         "heading": "Actions",
-        "lineStart": 22268,
-        "lineEnd": 22274
+        "lineStart": 22192,
+        "lineEnd": 22198
       }
     }
   ],
   "rulesText": "Medium Fey (Goblinoid), Lawful Evil\n\nAC 17\nInitiative +4 (14)\nHP 58 (9d8 + 18)\nSpeed 30 ft.\n\nGear Greatsword, Half Plate Armor, Longbow\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Common, Goblin\nCR 3 (XP 700; PB +2)\n\nTraits\n\nAura of Authority. While in a 10-foot Emanation originating from the hobgoblin, the hobgoblin and its allies have Advantage on attack rolls and saving throws, provided the hobgoblin doesn't have the Incapacitated condition.\n\nActions\n\nMultiattack. The hobgoblin makes two attacks, using Greatsword or Longbow in any combination.\n\nGreatsword. Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Slashing damage plus 3 (1d6) Poison damage.\n\nLongbow. Ranged Attack Roll: +4, range 150/600 ft. Hit: 6 (1d8 + 2) Piercing damage plus 5 (2d4) Poison damage.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/greatsword"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/half-plate-armor"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/longbow"
+    }
+  ],
   "attacks": [
     {
       "name": "Greatsword",
@@ -156,6 +167,11 @@
         "normal": 150,
         "long": 600
       }
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
     }
   ]
 }

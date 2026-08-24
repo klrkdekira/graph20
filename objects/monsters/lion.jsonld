@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.61",
     "heading": "Lion",
-    "lineStart": 28306,
-    "lineEnd": 28337
+    "lineStart": 28230,
+    "lineEnd": 28261
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -75,8 +75,8 @@
         "chapter": "Animals",
         "section": "13.61",
         "heading": "Traits",
-        "lineStart": 28325,
-        "lineEnd": 28329
+        "lineStart": 28249,
+        "lineEnd": 28253
       }
     },
     {
@@ -86,8 +86,8 @@
         "chapter": "Animals",
         "section": "13.61",
         "heading": "Actions",
-        "lineStart": 28331,
-        "lineEnd": 28337
+        "lineStart": 28255,
+        "lineEnd": 28261
       }
     }
   ],
@@ -113,6 +113,14 @@
       "parseStatus": "parsed",
       "attackBonus": 5,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
     }
   ]
 }

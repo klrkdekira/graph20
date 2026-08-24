@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.8",
     "heading": "Cleric Spell List",
-    "lineStart": 2326,
-    "lineEnd": 2336
+    "lineStart": 2256,
+    "lineEnd": 2266
   },
   "columns": [
     "Spell",
@@ -147,5 +147,34 @@
       ]
     }
   ],
-  "rawText": "| Spell               | School        | Special |\n| :------------------ | :------------ | :------ |\n| Aura of Life        | Abjuration    | C       |\n| Banishment          | Abjuration    | C       |\n| Control Water       | Transmutation | C       |\n| Death Ward          | Abjuration    |    -    |\n| Divination          | Divination    | R, M    |\n| Freedom of Movement | Abjuration    |    -    |\n| Guardian of Faith   | Conjuration   |    -    |\n| Locate Creature     | Divination    | C       |\n| Stone Shape         | Transmutation |    -    |"
+  "rawText": "| Spell               | School        | Special |\n| :------------------ | :------------ | :------ |\n| Aura of Life        | Abjuration    | C       |\n| Banishment          | Abjuration    | C       |\n| Control Water       | Transmutation | C       |\n| Death Ward          | Abjuration    |    -    |\n| Divination          | Divination    | R, M    |\n| Freedom of Movement | Abjuration    |    -    |\n| Guardian of Faith   | Conjuration   |    -    |\n| Locate Creature     | Divination    | C       |\n| Stone Shape         | Transmutation |    -    |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/aura-of-life"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/banishment"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/control-water"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/death-ward"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/divination"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/freedom-of-movement"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/guardian-of-faith"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/locate-creature"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/stone-shape"
+    }
+  ]
 }

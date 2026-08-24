@@ -11,8 +11,13 @@
     "chapter": "Rules Glossary",
     "section": "8.153",
     "heading": "Unconscious [Condition]",
-    "lineStart": 13829,
-    "lineEnd": 13843
+    "lineStart": 13753,
+    "lineEnd": 13767
   },
-  "rulesText": "While you have the Unconscious condition, you experience the following effects.\n\nInert. You have the Incapacitated and Prone conditions, and you drop whatever you're holding. When this condition ends, you remain Prone.\n\nSpeed 0. Your Speed is 0 and can't increase.\n\nAttacks Affected. Attack rolls against you have Advantage.\n\nSaving Throws Affected. You automatically fail Strength and Dexterity saving throws.\n\nAutomatic Critical Hits. Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.\n\nUnaware. You're unaware of your surroundings."
+  "rulesText": "While you have the Unconscious condition, you experience the following effects.\n\nInert. You have the Incapacitated and Prone conditions, and you drop whatever you're holding. When this condition ends, you remain Prone.\n\nSpeed 0. Your Speed is 0 and can't increase.\n\nAttacks Affected. Attack rolls against you have Advantage.\n\nSaving Throws Affected. You automatically fail Strength and Dexterity saving throws.\n\nAutomatic Critical Hits. Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.\n\nUnaware. You're unaware of your surroundings.",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
+    }
+  ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.266",
     "heading": "Winter Wolf",
-    "lineStart": 26525,
-    "lineEnd": 26556
+    "lineStart": 26449,
+    "lineEnd": 26480
   },
   "sizeTypeAlignment": "Large Monstrosity, Neutral Evil",
   "sizeAndType": "Large Monstrosity",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.266",
         "heading": "Traits",
-        "lineStart": 26547,
-        "lineEnd": 26549
+        "lineStart": 26471,
+        "lineEnd": 26473
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.266",
         "heading": "Actions",
-        "lineStart": 26551,
-        "lineEnd": 26556
+        "lineStart": 26475,
+        "lineEnd": 26480
       }
     }
   ],
@@ -115,6 +115,14 @@
       "parseStatus": "parsed",
       "attackBonus": 6,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

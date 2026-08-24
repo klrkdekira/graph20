@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.90",
     "heading": "Flesh Golem",
-    "lineStart": 20842,
-    "lineEnd": 20881
+    "lineStart": 20766,
+    "lineEnd": 20805
   },
   "sizeTypeAlignment": "Medium Construct, Neutral",
   "sizeAndType": "Medium Construct",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.90",
         "heading": "Traits",
-        "lineStart": 20863,
-        "lineEnd": 20875
+        "lineStart": 20787,
+        "lineEnd": 20799
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.90",
         "heading": "Actions",
-        "lineStart": 20877,
-        "lineEnd": 20881
+        "lineStart": 20801,
+        "lineEnd": 20805
       }
     }
   ],

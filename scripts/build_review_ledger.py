@@ -20,10 +20,29 @@ LEDGER = "objects/sources/source-review-ledger.json"
 POLICIES = "reviews/semantic-review-policies.json"
 
 
-def source_positions(lines, locator, token):
+def source_positions(lines, locator, token, fragment_text=None):
     positions = []
     if not locator:
         return positions
+    if fragment_text and "\n" not in fragment_text:
+        token_offsets = [
+            match.start() for match in re.finditer(re.escape(token), fragment_text)
+        ]
+        if token_offsets:
+            for line_number in range(locator["lineStart"], locator["lineEnd"] + 1):
+                line = lines[line_number - 1]
+                cursor = 0
+                while True:
+                    fragment_column = line.find(fragment_text, cursor)
+                    if fragment_column < 0:
+                        break
+                    positions.extend(
+                        (line_number, fragment_column + offset + 1)
+                        for offset in token_offsets
+                    )
+                    cursor = fragment_column + max(1, len(fragment_text))
+            if positions:
+                return positions
     for line_number in range(locator["lineStart"], locator["lineEnd"] + 1):
         line = lines[line_number - 1]
         cursor = 0
@@ -63,7 +82,7 @@ def main():
                     token = match.group(0)
                     occurrence = occurrence_by_token.get(token, 0)
                     occurrence_by_token[token] = occurrence + 1
-                    positions = source_positions(source_lines, locator, token)
+                    positions = source_positions(source_lines, locator, token, text)
                     position = positions[occurrence] if occurrence < len(positions) else None
                     if not position:
                         missing_locations.append(

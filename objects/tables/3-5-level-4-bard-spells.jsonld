@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.5",
     "heading": "Bard Spell List",
-    "lineStart": 1992,
-    "lineEnd": 2003
+    "lineStart": 1922,
+    "lineEnd": 1933
   },
   "columns": [
     "Spell",
@@ -161,5 +161,37 @@
       ]
     }
   ],
-  "rawText": "| Spell                 | School        | Special |\n| :-------------------- | :------------ | :------ |\n| Charm Monster         | Enchantment   |    -    |\n| Compulsion            | Enchantment   | C       |\n| Confusion             | Enchantment   | C       |\n| Dimension Door        | Conjuration   |    -    |\n| Freedom of Movement   | Abjuration    |    -    |\n| Greater Invisibility  | Illusion      | C       |\n| Hallucinatory Terrain | Illusion      |    -    |\n| Locate Creature       | Divination    | C       |\n| Phantasmal Killer     | Illusion      | C       |\n| Polymorph             | Transmutation | C       |"
+  "rawText": "| Spell                 | School        | Special |\n| :-------------------- | :------------ | :------ |\n| Charm Monster         | Enchantment   |    -    |\n| Compulsion            | Enchantment   | C       |\n| Confusion             | Enchantment   | C       |\n| Dimension Door        | Conjuration   |    -    |\n| Freedom of Movement   | Abjuration    |    -    |\n| Greater Invisibility  | Illusion      | C       |\n| Hallucinatory Terrain | Illusion      |    -    |\n| Locate Creature       | Divination    | C       |\n| Phantasmal Killer     | Illusion      | C       |\n| Polymorph             | Transmutation | C       |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/charm-monster"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/compulsion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/confusion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dimension-door"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/freedom-of-movement"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/greater-invisibility"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/hallucinatory-terrain"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/locate-creature"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/phantasmal-killer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/polymorph"
+    }
+  ]
 }

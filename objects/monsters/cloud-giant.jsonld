@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.59",
     "heading": "Cloud Giant",
-    "lineStart": 19801,
-    "lineEnd": 19838
+    "lineStart": 19725,
+    "lineEnd": 19762
   },
   "sizeTypeAlignment": "Huge Giant, Neutral",
   "sizeAndType": "Huge Giant",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.59",
         "heading": "Actions",
-        "lineStart": 19822,
-        "lineEnd": 19834
+        "lineStart": 19746,
+        "lineEnd": 19758
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.59",
         "heading": "Bonus Actions",
-        "lineStart": 19836,
-        "lineEnd": 19838
+        "lineStart": 19760,
+        "lineEnd": 19762
       }
     }
   ],
@@ -146,6 +146,11 @@
       "rangeFeet": {
         "normal": 240
       }
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
     }
   ]
 }

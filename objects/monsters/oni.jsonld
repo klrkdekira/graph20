@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.179",
     "heading": "Oni",
-    "lineStart": 23628,
-    "lineEnd": 23671
+    "lineStart": 23552,
+    "lineEnd": 23595
   },
   "sizeTypeAlignment": "Large Fiend, Lawful Evil",
   "sizeAndType": "Large Fiend",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.179",
         "heading": "Traits",
-        "lineStart": 23650,
-        "lineEnd": 23652
+        "lineStart": 23574,
+        "lineEnd": 23576
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.179",
         "heading": "Actions",
-        "lineStart": 23654,
-        "lineEnd": 23667
+        "lineStart": 23578,
+        "lineEnd": 23591
       }
     },
     {
@@ -99,8 +99,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.179",
         "heading": "Bonus Actions",
-        "lineStart": 23669,
-        "lineEnd": 23671
+        "lineStart": 23593,
+        "lineEnd": 23595
       }
     }
   ],
@@ -158,6 +158,11 @@
       "rangeFeet": {
         "normal": 60
       }
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
     }
   ]
 }

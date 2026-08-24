@@ -11,14 +11,15 @@
 
 - [x] JSON-LD 1.1 context, stable canonical IRIs, and Draft 2020-12 schemas cover all 13 collections and aggregate/auxiliary artifacts.
 - [x] Every IRI-coerced predicate uses `{ "@id": "..." }` node references.
+- [x] Exact source-name relations connect class spell lists, magic-item casting, condition phrases, background feats, and monster gear without replacing display strings.
 - [x] Class core traits and manifest collections use graph-safe typed entries; expansion preserves all compact properties and values.
 - [x] Every project class/predicate in the expanded graph has a generated vocabulary definition, description, value kind/range, and dereferenceable fragment target.
 
 ## Extraction and traceability
 
-- [x] The clean corpus contains 2,097 records: 1 source, 738 rules, 223 logical tables, 12 classes, 12 subclasses, 9 species, 4 backgrounds, 17 feats, 133 equipment, 339 spells, 15 conditions, 258 magic items, and 336 monsters.
+- [x] The clean corpus contains 2,107 records: 1 source, 736 rules, 235 logical tables, 12 classes, 12 subclasses, 9 species, 4 backgrounds, 17 feats, 133 equipment, 339 spells, 15 conditions, 258 magic items, and 336 monsters.
 - [x] Ordinary entity locators start at their heading; Table/equipment locators start at the physical table; nested feature/stat spans remain inside their owner.
-- [x] Tables retain `rawText`, continuation headers are not promoted to rows, Wand of Wonder is one 18-row table, and no table is empty.
+- [x] Tables retain `rawText`, continuation headers are not promoted to rows, Trinkets is one 100-row table, Prismatic Rays is one 8-row table, Wand of Wonder is one 18-row table, and no table is empty.
 - [x] Every spell has casting time, range, components, and duration; all magic-item rarity variants and full-header attunement are retained.
 - [x] All 429 monster `Attack Roll:` paragraphs have a disposition: 423 complete typed damaging attacks and 6 explicit unparsed dispositions (the Roper Tentacle plus 5 caster-scaling summon attacks).
 - [x] Structured equipment names decode reviewed HTML markup and produce stable semantic slugs.

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.50",
     "heading": "Bugbear Warrior",
-    "lineStart": 19507,
-    "lineEnd": 19535
+    "lineStart": 19431,
+    "lineEnd": 19459
   },
   "sizeTypeAlignment": "Medium Fey (Goblinoid), Chaotic Evil",
   "sizeAndType": "Medium Fey (Goblinoid)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.50",
         "heading": "Traits",
-        "lineStart": 19527,
-        "lineEnd": 19529
+        "lineStart": 19451,
+        "lineEnd": 19453
       }
     },
     {
@@ -88,12 +88,20 @@
         "chapter": "Monsters A-Z",
         "section": "12.50",
         "heading": "Actions",
-        "lineStart": 19531,
-        "lineEnd": 19535
+        "lineStart": 19455,
+        "lineEnd": 19459
       }
     }
   ],
   "rulesText": "Medium Fey (Goblinoid), Chaotic Evil\n\nAC 14\nInitiative +2 (12)\nHP 33 (6d8 + 6)\nSpeed 30 ft.\n\nSkills Stealth +6, Survival +2\nGear Hide Armor, Light Hammers (3)\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Common, Goblin\nCR 1 (XP 200; PB +2)\n\nTraits\n\nAbduct. The bugbear needn't spend extra movement to move a creature it is grappling.\n\nActions\n\nGrab. Melee Attack Roll: +4, reach 10 ft. Hit: 9 (2d6 + 2) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12).\n\nLight Hammer. Melee or Ranged Attack Roll: +4 (with Advantage if the target is Grappled by the bugbear), reach 10 ft. or range 20/60 ft. Hit: 9 (3d4 + 2) Bludgeoning damage.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/hide-armor"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/light-hammer"
+    }
+  ],
   "attacks": [
     {
       "name": "Grab",
@@ -140,6 +148,11 @@
         "normal": 20,
         "long": 60
       }
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
     }
   ]
 }

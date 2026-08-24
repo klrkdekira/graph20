@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.3",
     "heading": "Ankylosaurus",
-    "lineStart": 26771,
-    "lineEnd": 26793
+    "lineStart": 26695,
+    "lineEnd": 26717
   },
   "sizeTypeAlignment": "Huge Beast (Dinosaur), Unaligned",
   "sizeAndType": "Huge Beast (Dinosaur)",
@@ -75,8 +75,8 @@
         "chapter": "Animals",
         "section": "13.3",
         "heading": "Actions",
-        "lineStart": 26789,
-        "lineEnd": 26793
+        "lineStart": 26713,
+        "lineEnd": 26717
       }
     }
   ],
@@ -102,6 +102,11 @@
       "parseStatus": "parsed",
       "attackBonus": 6,
       "reachFeet": 10
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

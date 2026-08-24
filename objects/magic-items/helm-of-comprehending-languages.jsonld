@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.135",
     "heading": "Helm of Comprehending Languages",
-    "lineStart": 15983,
-    "lineEnd": 15987
+    "lineStart": 15907,
+    "lineEnd": 15911
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": false,
-  "rulesText": "Wondrous Item, Uncommon\n\nWhile wearing this helm, you can cast Comprehend Languages from it."
+  "rulesText": "Wondrous Item, Uncommon\n\nWhile wearing this helm, you can cast Comprehend Languages from it.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/comprehend-languages"
+    }
+  ]
 }

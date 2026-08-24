@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.180",
     "heading": "Otyugh",
-    "lineStart": 23673,
-    "lineEnd": 23701
+    "lineStart": 23597,
+    "lineEnd": 23625
   },
   "sizeTypeAlignment": "Large Aberration, Neutral",
   "sizeAndType": "Large Aberration",
@@ -75,8 +75,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.180",
         "heading": "Actions",
-        "lineStart": 23693,
-        "lineEnd": 23701
+        "lineStart": 23617,
+        "lineEnd": 23625
       }
     }
   ],
@@ -123,6 +123,17 @@
       "parseStatus": "parsed",
       "attackBonus": 6,
       "reachFeet": 10
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/stunned"
     }
   ]
 }

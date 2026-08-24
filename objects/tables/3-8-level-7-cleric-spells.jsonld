@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.8",
     "heading": "Cleric Spell List",
-    "lineStart": 2374,
-    "lineEnd": 2383
+    "lineStart": 2304,
+    "lineEnd": 2313
   },
   "columns": [
     "Spell",
@@ -133,5 +133,31 @@
       ]
     }
   ],
-  "rawText": "| Spell             | School        | Special |\n| :---------------- | :------------ | :------ |\n| Conjure Celestial | Conjuration   | C       |\n| Divine Word       | Evocation     |    -    |\n| Etherealness      | Conjuration   |    -    |\n| Fire Storm        | Evocation     |    -    |\n| Plane Shift       | Conjuration   | M       |\n| Regenerate        | Transmutation |    -    |\n| Resurrection      | Necromancy    | M       |\n| Symbol            | Abjuration    | M       |"
+  "rawText": "| Spell             | School        | Special |\n| :---------------- | :------------ | :------ |\n| Conjure Celestial | Conjuration   | C       |\n| Divine Word       | Evocation     |    -    |\n| Etherealness      | Conjuration   |    -    |\n| Fire Storm        | Evocation     |    -    |\n| Plane Shift       | Conjuration   | M       |\n| Regenerate        | Transmutation |    -    |\n| Resurrection      | Necromancy    | M       |\n| Symbol            | Abjuration    | M       |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/conjure-celestial"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/divine-word"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/etherealness"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/fire-storm"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/plane-shift"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/regenerate"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/resurrection"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/symbol"
+    }
+  ]
 }

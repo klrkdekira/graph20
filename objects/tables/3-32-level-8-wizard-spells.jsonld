@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.32",
     "heading": "Wizard Spell List",
-    "lineStart": 5353,
-    "lineEnd": 5366
+    "lineStart": 5283,
+    "lineEnd": 5296
   },
   "columns": [
     "Spell",
@@ -189,5 +189,43 @@
       ]
     }
   ],
-  "rawText": "| Spell              | School        | Special |\n| :----------------- | :------------ | :------ |\n| Antimagic Field    | Abjuration    | C       |\n| Antipathy/Sympathy | Enchantment   |    -    |\n| Befuddlement       | Enchantment   |    -    |\n| Clone              | Necromancy    | M       |\n| Control Weather    | Transmutation | C       |\n| Demiplane          | Conjuration   |    -    |\n| Dominate Monster   | Enchantment   | C       |\n| Incendiary Cloud   | Conjuration   | C       |\n| Maze               | Conjuration   | C       |\n| Mind Blank         | Abjuration    |    -    |\n| Power Word Stun    | Enchantment   |    -    |\n| Sunburst           | Evocation     |    -    |"
+  "rawText": "| Spell              | School        | Special |\n| :----------------- | :------------ | :------ |\n| Antimagic Field    | Abjuration    | C       |\n| Antipathy/Sympathy | Enchantment   |    -    |\n| Befuddlement       | Enchantment   |    -    |\n| Clone              | Necromancy    | M       |\n| Control Weather    | Transmutation | C       |\n| Demiplane          | Conjuration   |    -    |\n| Dominate Monster   | Enchantment   | C       |\n| Incendiary Cloud   | Conjuration   | C       |\n| Maze               | Conjuration   | C       |\n| Mind Blank         | Abjuration    |    -    |\n| Power Word Stun    | Enchantment   |    -    |\n| Sunburst           | Evocation     |    -    |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/antimagic-field"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/antipathy-sympathy"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/befuddlement"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/clone"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/control-weather"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/demiplane"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dominate-monster"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/incendiary-cloud"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/maze"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mind-blank"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/power-word-stun"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/sunburst"
+    }
+  ]
 }

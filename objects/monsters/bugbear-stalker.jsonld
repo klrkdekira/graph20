@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.49",
     "heading": "Bugbear Stalker",
-    "lineStart": 19471,
-    "lineEnd": 19505
+    "lineStart": 19395,
+    "lineEnd": 19429
   },
   "sizeTypeAlignment": "Medium Fey (Goblinoid), Chaotic Evil",
   "sizeAndType": "Medium Fey (Goblinoid)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.49",
         "heading": "Traits",
-        "lineStart": 19491,
-        "lineEnd": 19493
+        "lineStart": 19415,
+        "lineEnd": 19417
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.49",
         "heading": "Actions",
-        "lineStart": 19495,
-        "lineEnd": 19501
+        "lineStart": 19419,
+        "lineEnd": 19425
       }
     },
     {
@@ -99,12 +99,23 @@
         "chapter": "Monsters A-Z",
         "section": "12.49",
         "heading": "Bonus Actions",
-        "lineStart": 19503,
-        "lineEnd": 19505
+        "lineStart": 19427,
+        "lineEnd": 19429
       }
     }
   ],
   "rulesText": "Medium Fey (Goblinoid), Chaotic Evil\n\nAC 15\nInitiative +2 (12)\nHP 65 (10d8 + 20)\nSpeed 30 ft.\n\nSkills Stealth +6, Survival +3\nGear Chain Shirt, Javelins (6), Morningstar\nSenses Darkvision 60 ft.; Passive Perception 11\nLanguages Common, Goblin\nCR 3 (XP 700; PB +2)\n\nTraits\n\nAbduct. The bugbear needn't spend extra movement to move a creature it is grappling.\n\nActions\n\nMultiattack. The bugbear makes two Javelin or Morningstar attacks.\n\nJavelin. Melee or Ranged Attack Roll: +5, reach 10 ft. or range 30/120 ft. Hit: 13 (3d6 + 3) Piercing damage.\n\nMorningstar. Melee Attack Roll: +5 (with Advantage if the target is Grappled by the bugbear), reach 10 ft. Hit: 12 (2d8 + 3) Piercing damage.\n\nBonus Actions\n\nQuick Grapple. Dexterity Saving Throw: DC 13, one Medium or smaller creature the bugbear can see within 10 feet. Failure: The target has the Grappled condition (escape DC 13).",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/chain-shirt"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/javelin"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/morningstar"
+    }
+  ],
   "attacks": [
     {
       "name": "Javelin",
@@ -151,6 +162,11 @@
       "parseStatus": "parsed",
       "attackBonus": 5,
       "reachFeet": 10
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
     }
   ]
 }

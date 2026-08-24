@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.74",
     "heading": "Chime of Opening",
-    "lineStart": 15289,
-    "lineEnd": 15295
+    "lineStart": 15213,
+    "lineEnd": 15219
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Rare",
   "requiresAttunement": false,
-  "rulesText": "Wondrous Item, Rare\n\nThis hollow metal tube measures about 1 foot long and weighs 1 pound. As a Magic action, you can strike the chime to cast Knock. The spell's customary knocking sound is replaced by the clear, ringing tone of the chime, which is audible out to 300 feet.\n\nThe chime can be used 10 times. After the tenth time, it cracks and becomes useless."
+  "rulesText": "Wondrous Item, Rare\n\nThis hollow metal tube measures about 1 foot long and weighs 1 pound. As a Magic action, you can strike the chime to cast Knock. The spell's customary knocking sound is replaced by the clear, ringing tone of the chime, which is audible out to 300 feet.\n\nThe chime can be used 10 times. After the tenth time, it cracks and becomes useless.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/knock"
+    }
+  ]
 }

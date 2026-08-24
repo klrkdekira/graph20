@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.143",
     "heading": "Faerie Fire",
-    "lineStart": 9133,
-    "lineEnd": 9144
+    "lineStart": 9063,
+    "lineEnd": 9074
   },
   "level": 1,
   "school": "Evocation",
@@ -36,5 +36,10 @@
   "savingThrowAbility": "Dexterity",
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/invisible"
+    }
+  ]
 }

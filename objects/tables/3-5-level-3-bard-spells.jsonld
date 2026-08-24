@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.5",
     "heading": "Bard Spell List",
-    "lineStart": 1970,
-    "lineEnd": 1988
+    "lineStart": 1900,
+    "lineEnd": 1918
   },
   "columns": [
     "Spell",
@@ -259,5 +259,58 @@
       ]
     }
   ],
-  "rawText": "| Spell             | School        | Special |\n| :---------------- | :------------ | :------ |\n| Bestow Curse      | Necromancy    | C       |\n| Clairvoyance      | Divination    | C, M    |\n| Dispel Magic      | Abjuration    |    -    |\n| Fear              | Illusion      | C       |\n| Glyph of Warding  | Abjuration    | M       |\n| Hypnotic Pattern  | Illusion      | C       |\n| Major Image       | Illusion      | C       |\n| Mass Healing Word | Abjuration    |    -    |\n| Nondetection      | Abjuration    | M       |\n| Plant Growth      | Transmutation |    -    |\n| Sending           | Divination    |    -    |\n| Slow              | Transmutation | C       |\n| Speak with Dead   | Necromancy    |    -    |\n| Speak with Plants | Transmutation |    -    |\n| Stinking Cloud    | Conjuration   | C       |\n| Tiny Hut          | Evocation     | R       |\n| Tongues           | Divination    |    -    |"
+  "rawText": "| Spell             | School        | Special |\n| :---------------- | :------------ | :------ |\n| Bestow Curse      | Necromancy    | C       |\n| Clairvoyance      | Divination    | C, M    |\n| Dispel Magic      | Abjuration    |    -    |\n| Fear              | Illusion      | C       |\n| Glyph of Warding  | Abjuration    | M       |\n| Hypnotic Pattern  | Illusion      | C       |\n| Major Image       | Illusion      | C       |\n| Mass Healing Word | Abjuration    |    -    |\n| Nondetection      | Abjuration    | M       |\n| Plant Growth      | Transmutation |    -    |\n| Sending           | Divination    |    -    |\n| Slow              | Transmutation | C       |\n| Speak with Dead   | Necromancy    |    -    |\n| Speak with Plants | Transmutation |    -    |\n| Stinking Cloud    | Conjuration   | C       |\n| Tiny Hut          | Evocation     | R       |\n| Tongues           | Divination    |    -    |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/bestow-curse"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/clairvoyance"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/fear"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/glyph-of-warding"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/hypnotic-pattern"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/major-image"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mass-healing-word"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/nondetection"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/plant-growth"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/sending"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/slow"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/speak-with-dead"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/speak-with-plants"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/stinking-cloud"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/tiny-hut"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/tongues"
+    }
+  ]
 }

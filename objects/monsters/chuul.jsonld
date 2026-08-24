@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.56",
     "heading": "Chuul",
-    "lineStart": 19681,
-    "lineEnd": 19715
+    "lineStart": 19605,
+    "lineEnd": 19639
   },
   "sizeTypeAlignment": "Large Aberration, Chaotic Evil",
   "sizeAndType": "Large Aberration",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.56",
         "heading": "Traits",
-        "lineStart": 19703,
-        "lineEnd": 19707
+        "lineStart": 19627,
+        "lineEnd": 19631
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.56",
         "heading": "Actions",
-        "lineStart": 19709,
-        "lineEnd": 19715
+        "lineStart": 19633,
+        "lineEnd": 19639
       }
     }
   ],
@@ -120,6 +120,17 @@
       "parseStatus": "parsed",
       "attackBonus": 6,
       "reachFeet": 10
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/paralyzed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
   ]
 }

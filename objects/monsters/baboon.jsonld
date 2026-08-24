@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.6",
     "heading": "Baboon",
-    "lineStart": 26851,
-    "lineEnd": 26875
+    "lineStart": 26775,
+    "lineEnd": 26799
   },
   "sizeTypeAlignment": "Small Beast, Unaligned",
   "sizeAndType": "Small Beast",
@@ -74,8 +74,8 @@
         "chapter": "Animals",
         "section": "13.6",
         "heading": "Traits",
-        "lineStart": 26869,
-        "lineEnd": 26871
+        "lineStart": 26793,
+        "lineEnd": 26795
       }
     },
     {
@@ -85,8 +85,8 @@
         "chapter": "Animals",
         "section": "13.6",
         "heading": "Actions",
-        "lineStart": 26873,
-        "lineEnd": 26875
+        "lineStart": 26797,
+        "lineEnd": 26799
       }
     }
   ],
@@ -112,6 +112,11 @@
       "parseStatus": "parsed",
       "attackBonus": 1,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
     }
   ]
 }

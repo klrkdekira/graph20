@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.37",
     "heading": "Bone Devil",
-    "lineStart": 19091,
-    "lineEnd": 19128
+    "lineStart": 19015,
+    "lineEnd": 19052
   },
   "sizeTypeAlignment": "Large Fiend (Devil), Lawful Evil",
   "sizeAndType": "Large Fiend (Devil)",
@@ -78,8 +78,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.37",
         "heading": "Traits",
-        "lineStart": 19114,
-        "lineEnd": 19118
+        "lineStart": 19038,
+        "lineEnd": 19042
       }
     },
     {
@@ -89,8 +89,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.37",
         "heading": "Actions",
-        "lineStart": 19120,
-        "lineEnd": 19128
+        "lineStart": 19044,
+        "lineEnd": 19052
       }
     }
   ],
@@ -142,6 +142,11 @@
       "parseStatus": "parsed",
       "attackBonus": 8,
       "reachFeet": 10
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
   ]
 }

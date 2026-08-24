@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.161",
     "heading": "Flesh to Stone",
-    "lineStart": 9424,
-    "lineEnd": 9437
+    "lineStart": 9354,
+    "lineEnd": 9367
   },
   "level": 6,
   "school": "Transmutation",
@@ -40,5 +40,13 @@
   "savingThrowAbility": "Constitution",
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/petrified"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
+    }
+  ]
 }

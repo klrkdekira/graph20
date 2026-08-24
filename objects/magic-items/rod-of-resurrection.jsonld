@@ -11,12 +11,20 @@
     "chapter": "Magic Items",
     "section": "10.232",
     "heading": "Rod of Resurrection",
-    "lineStart": 17094,
-    "lineEnd": 17100
+    "lineStart": 17018,
+    "lineEnd": 17024
   },
   "itemCategory": "Rod",
   "rarity": "Legendary",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Rod, Legendary (Requires Attunement)\n\nThe rod has 5 charges. While you hold it, you can cast one of the following spells from it: Heal (expends 1 charge) or Resurrection (expends 5 charges).\n\nThe rod regains 1 expended charge daily at dawn. If you expend the last charge, roll 1d20. On a 1, the rod disappears in a harmless burst of radiance."
+  "rulesText": "Rod, Legendary (Requires Attunement)\n\nThe rod has 5 charges. While you hold it, you can cast one of the following spells from it: Heal (expends 1 charge) or Resurrection (expends 5 charges).\n\nThe rod regains 1 expended charge daily at dawn. If you expend the last charge, roll 1d20. On a 1, the rod disappears in a harmless burst of radiance.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/heal"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/resurrection"
+    }
+  ]
 }

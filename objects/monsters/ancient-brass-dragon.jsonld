@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.42",
     "heading": "Ancient Brass Dragon",
-    "lineStart": 19240,
-    "lineEnd": 19288
+    "lineStart": 19164,
+    "lineEnd": 19212
   },
   "sizeTypeAlignment": "Gargantuan Dragon (Metallic), Chaotic Good",
   "sizeAndType": "Gargantuan Dragon (Metallic)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.42",
         "heading": "Traits",
-        "lineStart": 19260,
-        "lineEnd": 19262
+        "lineStart": 19184,
+        "lineEnd": 19186
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.42",
         "heading": "Actions",
-        "lineStart": 19264,
-        "lineEnd": 19278
+        "lineStart": 19188,
+        "lineEnd": 19202
       }
     },
     {
@@ -99,8 +99,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.42",
         "heading": "Legendary Actions",
-        "lineStart": 19280,
-        "lineEnd": 19288
+        "lineStart": 19204,
+        "lineEnd": 19212
       }
     }
   ],
@@ -135,6 +135,14 @@
       "parseStatus": "parsed",
       "attackBonus": 14,
       "reachFeet": 15
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
     }
   ]
 }

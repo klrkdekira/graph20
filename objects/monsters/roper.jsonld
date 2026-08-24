@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.203",
     "heading": "Roper",
-    "lineStart": 24405,
-    "lineEnd": 24440
+    "lineStart": 24329,
+    "lineEnd": 24364
   },
   "sizeTypeAlignment": "Large Aberration, Neutral Evil",
   "sizeAndType": "Large Aberration",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.203",
         "heading": "Traits",
-        "lineStart": 24426,
-        "lineEnd": 24428
+        "lineStart": 24350,
+        "lineEnd": 24352
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.203",
         "heading": "Actions",
-        "lineStart": 24430,
-        "lineEnd": 24440
+        "lineStart": 24354,
+        "lineEnd": 24364
       }
     }
   ],
@@ -122,6 +122,14 @@
       "path": "statSections[1].rulesText.paragraphs[2]",
       "parseStatus": "unparsed",
       "reason": "attack hit clause contained no recognized damage component"
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
   ]
 }

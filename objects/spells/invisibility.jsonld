@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.215",
     "heading": "Invisibility",
-    "lineStart": 10275,
-    "lineEnd": 10286
+    "lineStart": 10205,
+    "lineEnd": 10216
   },
   "level": 2,
   "school": "Illusion",
@@ -43,5 +43,10 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/invisible"
+    }
+  ]
 }

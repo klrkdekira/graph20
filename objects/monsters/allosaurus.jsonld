@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.2",
     "heading": "Allosaurus",
-    "lineStart": 26746,
-    "lineEnd": 26769
+    "lineStart": 26670,
+    "lineEnd": 26693
   },
   "sizeTypeAlignment": "Large Beast (Dinosaur), Unaligned",
   "sizeAndType": "Large Beast (Dinosaur)",
@@ -76,8 +76,8 @@
         "chapter": "Animals",
         "section": "13.2",
         "heading": "Actions",
-        "lineStart": 26765,
-        "lineEnd": 26769
+        "lineStart": 26689,
+        "lineEnd": 26693
       }
     }
   ],
@@ -124,6 +124,11 @@
       "parseStatus": "parsed",
       "attackBonus": 6,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

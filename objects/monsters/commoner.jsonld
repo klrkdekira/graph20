@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.61",
     "heading": "Commoner",
-    "lineStart": 19865,
-    "lineEnd": 19892
+    "lineStart": 19789,
+    "lineEnd": 19816
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -75,8 +75,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.61",
         "heading": "Traits",
-        "lineStart": 19886,
-        "lineEnd": 19888
+        "lineStart": 19810,
+        "lineEnd": 19812
       }
     },
     {
@@ -86,12 +86,17 @@
         "chapter": "Monsters A-Z",
         "section": "12.61",
         "heading": "Actions",
-        "lineStart": 19890,
-        "lineEnd": 19892
+        "lineStart": 19814,
+        "lineEnd": 19816
       }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 10\nInitiative +0 (10)\nHP 4 (1d8)\nSpeed 30 ft.\n\nGear Club\nSenses Passive Perception 10\nLanguages Common\nCR 0 (XP 10; PB +2)\n\nTraits\n\nTraining. The commoner has proficiency in one skill of the GM's choice and has Advantage whenever it makes an ability check using that skill.\n\nActions\n\nClub. Melee Attack Roll: +2, reach 5 ft. Hit: 2 (1d4) Bludgeoning damage.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/club"
+    }
+  ],
   "attacks": [
     {
       "name": "Club",

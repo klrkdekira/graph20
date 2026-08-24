@@ -11,8 +11,13 @@
     "chapter": "Rules Glossary",
     "section": "8.18",
     "heading": "Blinded [Condition]",
-    "lineStart": 12867,
-    "lineEnd": 12873
+    "lineStart": 12791,
+    "lineEnd": 12797
   },
-  "rulesText": "While you have the Blinded condition, you experience the following effects.\n\nCan't See. You can't see and automatically fail any ability check that requires sight.\n\nAttacks Affected. Attack rolls against you have Advantage, and your attack rolls have Disadvantage."
+  "rulesText": "While you have the Blinded condition, you experience the following effects.\n\nCan't See. You can't see and automatically fail any ability check that requires sight.\n\nAttacks Affected. Attack rolls against you have Advantage, and your attack rolls have Disadvantage.",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/blinded"
+    }
+  ]
 }

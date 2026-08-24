@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.2",
     "heading": "Aboleth",
-    "lineStart": 18068,
-    "lineEnd": 18123
+    "lineStart": 17992,
+    "lineEnd": 18047
   },
   "sizeTypeAlignment": "Large Aberration, Lawful Evil",
   "sizeAndType": "Large Aberration",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.2",
         "heading": "Traits",
-        "lineStart": 18089,
-        "lineEnd": 18101
+        "lineStart": 18013,
+        "lineEnd": 18025
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.2",
         "heading": "Actions",
-        "lineStart": 18103,
-        "lineEnd": 18115
+        "lineStart": 18027,
+        "lineEnd": 18039
       }
     },
     {
@@ -98,8 +98,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.2",
         "heading": "Legendary Actions",
-        "lineStart": 18117,
-        "lineEnd": 18123
+        "lineStart": 18041,
+        "lineEnd": 18047
       }
     }
   ],
@@ -125,6 +125,14 @@
       "parseStatus": "parsed",
       "attackBonus": 9,
       "reachFeet": 15
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
     }
   ]
 }

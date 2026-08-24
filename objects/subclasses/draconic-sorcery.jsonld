@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.27",
     "heading": "Sorcerer Subclass: Draconic Sorcery",
-    "lineStart": 4422,
-    "lineEnd": 4463
+    "lineStart": 4352,
+    "lineEnd": 4393
   },
   "parentClass": {
     "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
@@ -28,8 +28,8 @@
         "chapter": "Classes",
         "section": "3.25",
         "heading": "Level 3: Draconic Resilience",
-        "lineStart": 4428,
-        "lineEnd": 4432
+        "lineStart": 4358,
+        "lineEnd": 4362
       }
     },
     {
@@ -40,8 +40,8 @@
         "chapter": "Classes",
         "section": "3.25",
         "heading": "Level 3: Draconic Spells",
-        "lineStart": 4434,
-        "lineEnd": 4445
+        "lineStart": 4364,
+        "lineEnd": 4375
       },
       "relatedTables": [
         {
@@ -57,8 +57,8 @@
         "chapter": "Classes",
         "section": "3.25",
         "heading": "Level 6: Elemental Affinity",
-        "lineStart": 4447,
-        "lineEnd": 4451
+        "lineStart": 4377,
+        "lineEnd": 4381
       }
     },
     {
@@ -69,8 +69,8 @@
         "chapter": "Classes",
         "section": "3.25",
         "heading": "Level 14: Dragon Wings",
-        "lineStart": 4453,
-        "lineEnd": 4457
+        "lineStart": 4383,
+        "lineEnd": 4387
       }
     },
     {
@@ -81,8 +81,8 @@
         "chapter": "Classes",
         "section": "3.25",
         "heading": "Level 18: Dragon Companion",
-        "lineStart": 4459,
-        "lineEnd": 4463
+        "lineStart": 4389,
+        "lineEnd": 4393
       }
     }
   ]

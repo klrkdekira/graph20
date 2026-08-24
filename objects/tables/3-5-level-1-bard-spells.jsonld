@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.5",
     "heading": "Bard Spell List",
-    "lineStart": 1915,
-    "lineEnd": 1939
+    "lineStart": 1845,
+    "lineEnd": 1869
   },
   "columns": [
     "Spell",
@@ -343,5 +343,76 @@
       ]
     }
   ],
-  "rawText": "| Spell                | School        | Special |\n| :------------------- | :------------ | :------ |\n| Animal Friendship    | Enchantment   |    -    |\n| Bane                 | Enchantment   | C       |\n| Charm Person         | Enchantment   |    -    |\n| Color Spray          | Illusion      |    -    |\n| Command              | Enchantment   |    -    |\n| Comprehend Languages | Divination    | R       |\n| Cure Wounds          | Abjuration    |    -    |\n| Detect Magic         | Divination    | C, R    |\n| Disguise Self        | Illusion      |    -    |\n| Dissonant Whispers   | Enchantment   |    -    |\n| Faerie Fire          | Evocation     | C       |\n| Feather Fall         | Transmutation |    -    |\n| Healing Word         | Abjuration    |    -    |\n| Heroism              | Enchantment   | C       |\n| Hideous Laughter     | Enchantment   | C       |\n| Identify             | Divination    | R, M    |\n| Illusory Script      | Illusion      | R, M    |\n| Longstrider          | Transmutation |    -    |\n| Silent Image         | Illusion      | C       |\n| Sleep                | Enchantment   | C       |\n| Speak with Animals   | Divination    | R       |\n| Thunderwave          | Evocation     |    -    |\n| Unseen Servant       | Conjuration   | R       |"
+  "rawText": "| Spell                | School        | Special |\n| :------------------- | :------------ | :------ |\n| Animal Friendship    | Enchantment   |    -    |\n| Bane                 | Enchantment   | C       |\n| Charm Person         | Enchantment   |    -    |\n| Color Spray          | Illusion      |    -    |\n| Command              | Enchantment   |    -    |\n| Comprehend Languages | Divination    | R       |\n| Cure Wounds          | Abjuration    |    -    |\n| Detect Magic         | Divination    | C, R    |\n| Disguise Self        | Illusion      |    -    |\n| Dissonant Whispers   | Enchantment   |    -    |\n| Faerie Fire          | Evocation     | C       |\n| Feather Fall         | Transmutation |    -    |\n| Healing Word         | Abjuration    |    -    |\n| Heroism              | Enchantment   | C       |\n| Hideous Laughter     | Enchantment   | C       |\n| Identify             | Divination    | R, M    |\n| Illusory Script      | Illusion      | R, M    |\n| Longstrider          | Transmutation |    -    |\n| Silent Image         | Illusion      | C       |\n| Sleep                | Enchantment   | C       |\n| Speak with Animals   | Divination    | R       |\n| Thunderwave          | Evocation     |    -    |\n| Unseen Servant       | Conjuration   | R       |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/animal-friendship"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/bane"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/charm-person"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/color-spray"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/command"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/comprehend-languages"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/cure-wounds"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/disguise-self"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dissonant-whispers"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/faerie-fire"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/feather-fall"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/healing-word"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/heroism"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/hideous-laughter"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/identify"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/illusory-script"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/longstrider"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/silent-image"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/sleep"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/speak-with-animals"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/thunderwave"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/unseen-servant"
+    }
+  ]
 }

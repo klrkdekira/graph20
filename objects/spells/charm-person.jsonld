@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.71",
     "heading": "Charm Person",
-    "lineStart": 7982,
-    "lineEnd": 7993
+    "lineStart": 7912,
+    "lineEnd": 7923
   },
   "level": 1,
   "school": "Enchantment",
@@ -48,5 +48,10 @@
   "savingThrowAbility": "Wisdom",
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    }
+  ]
 }

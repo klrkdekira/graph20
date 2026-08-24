@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.209",
     "heading": "Imprisonment",
-    "lineStart": 10175,
-    "lineEnd": 10202
+    "lineStart": 10105,
+    "lineEnd": 10132
   },
   "level": 9,
   "school": "Abjuration",
@@ -36,5 +36,13 @@
   "savingThrowAbility": "Wisdom",
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
+    }
+  ]
 }

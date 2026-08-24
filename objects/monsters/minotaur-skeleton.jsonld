@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.222",
     "heading": "Minotaur Skeleton",
-    "lineStart": 24985,
-    "lineEnd": 25009
+    "lineStart": 24909,
+    "lineEnd": 24933
   },
   "sizeTypeAlignment": "Large Undead, Lawful Evil",
   "sizeAndType": "Large Undead",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.222",
         "heading": "Actions",
-        "lineStart": 25005,
-        "lineEnd": 25009
+        "lineStart": 24929,
+        "lineEnd": 24933
       }
     }
   ],
@@ -142,6 +142,11 @@
       "parseStatus": "parsed",
       "attackBonus": 6,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.144",
     "heading": "Invisible Stalker",
-    "lineStart": 22495,
-    "lineEnd": 22530
+    "lineStart": 22419,
+    "lineEnd": 22454
   },
   "sizeTypeAlignment": "Large Elemental, Neutral",
   "sizeAndType": "Large Elemental",
@@ -78,8 +78,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.144",
         "heading": "Traits",
-        "lineStart": 22518,
-        "lineEnd": 22522
+        "lineStart": 22442,
+        "lineEnd": 22446
       }
     },
     {
@@ -89,8 +89,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.144",
         "heading": "Actions",
-        "lineStart": 22524,
-        "lineEnd": 22530
+        "lineStart": 22448,
+        "lineEnd": 22454
       }
     }
   ],
@@ -142,6 +142,14 @@
       "parseStatus": "parsed",
       "attackBonus": 7,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/invisible"
     }
   ]
 }

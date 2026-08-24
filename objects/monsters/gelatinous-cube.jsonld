@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.96",
     "heading": "Gelatinous Cube",
-    "lineStart": 20999,
-    "lineEnd": 21034
+    "lineStart": 20923,
+    "lineEnd": 20958
   },
   "sizeTypeAlignment": "Large Ooze, Unaligned",
   "sizeAndType": "Large Ooze",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.96",
         "heading": "Traits",
-        "lineStart": 21020,
-        "lineEnd": 21028
+        "lineStart": 20944,
+        "lineEnd": 20952
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.96",
         "heading": "Actions",
-        "lineStart": 21030,
-        "lineEnd": 21034
+        "lineStart": 20954,
+        "lineEnd": 20958
       }
     }
   ],
@@ -134,6 +134,11 @@
       "parseStatus": "parsed",
       "attackBonus": 4,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
   ]
 }

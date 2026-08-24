@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.100",
     "heading": "Gibbering Mouther",
-    "lineStart": 21142,
-    "lineEnd": 21181
+    "lineStart": 21066,
+    "lineEnd": 21105
   },
   "sizeTypeAlignment": "Medium Aberration, Chaotic Neutral",
   "sizeAndType": "Medium Aberration",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.100",
         "heading": "Traits",
-        "lineStart": 21163,
-        "lineEnd": 21175
+        "lineStart": 21087,
+        "lineEnd": 21099
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.100",
         "heading": "Actions",
-        "lineStart": 21177,
-        "lineEnd": 21181
+        "lineStart": 21101,
+        "lineEnd": 21105
       }
     }
   ],
@@ -118,6 +118,17 @@
       "parseStatus": "parsed",
       "attackBonus": 2,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/blinded"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

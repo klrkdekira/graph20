@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.76",
     "heading": "Reef Shark",
-    "lineStart": 28711,
-    "lineEnd": 28738
+    "lineStart": 28635,
+    "lineEnd": 28662
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
@@ -76,8 +76,8 @@
         "chapter": "Animals",
         "section": "13.76",
         "heading": "Traits",
-        "lineStart": 28730,
-        "lineEnd": 28734
+        "lineStart": 28654,
+        "lineEnd": 28658
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Animals",
         "section": "13.76",
         "heading": "Actions",
-        "lineStart": 28736,
-        "lineEnd": 28738
+        "lineStart": 28660,
+        "lineEnd": 28662
       }
     }
   ],
@@ -114,6 +114,11 @@
       "parseStatus": "parsed",
       "attackBonus": 4,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
     }
   ]
 }

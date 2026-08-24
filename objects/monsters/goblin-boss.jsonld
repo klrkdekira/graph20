@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.108",
     "heading": "Goblin Boss",
-    "lineStart": 21353,
-    "lineEnd": 21388
+    "lineStart": 21277,
+    "lineEnd": 21312
   },
   "sizeTypeAlignment": "Small Fey (Goblinoid), Chaotic Neutral",
   "sizeAndType": "Small Fey (Goblinoid)",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.108",
         "heading": "Actions",
-        "lineStart": 21373,
-        "lineEnd": 21380
+        "lineStart": 21297,
+        "lineEnd": 21304
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.108",
         "heading": "Bonus Actions",
-        "lineStart": 21382,
-        "lineEnd": 21384
+        "lineStart": 21306,
+        "lineEnd": 21308
       }
     },
     {
@@ -98,12 +98,26 @@
         "chapter": "Monsters A-Z",
         "section": "12.108",
         "heading": "Reactions",
-        "lineStart": 21386,
-        "lineEnd": 21388
+        "lineStart": 21310,
+        "lineEnd": 21312
       }
     }
   ],
   "rulesText": "Small Fey (Goblinoid), Chaotic Neutral\n\nAC 17\nInitiative +2 (12)\nHP 21 (6d6)\nSpeed 30 ft.\n\nSkills Stealth +6\nGear Chain Shirt, Scimitar, Shield, Shortbow\nSenses Darkvision 60 ft.; Passive Perception 9\nLanguages Common, Goblin\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The goblin makes two attacks, using Scimitar or Shortbow in any combination.\n\nScimitar. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing damage, plus 2 (1d4) Slashing damage if the attack roll had Advantage.\n\nShortbow. Ranged Attack Roll: +4, range 80/320 ft.\nHit: 5 (1d6 + 2) Piercing damage, plus 2 (1d4) Piercing damage if the attack roll had Advantage.\n\nBonus Actions\n\nNimble Escape. The goblin takes the Disengage or Hide action.\n\nReactions\n\nRedirect Attack. Trigger: A creature the goblin can see makes an attack roll against it. Response: The goblin chooses a Small or Medium ally within 5 feet of itself. The goblin and that ally swap places, and the ally becomes the target of the attack instead.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/chain-shirt"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/scimitar"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/shield"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/shortbow"
+    }
+  ],
   "attacks": [
     {
       "name": "Scimitar",

@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.11",
     "heading": "Druid Spell List",
-    "lineStart": 2648,
-    "lineEnd": 2667
+    "lineStart": 2578,
+    "lineEnd": 2597
   },
   "columns": [
     "Spell",
@@ -273,5 +273,61 @@
       ]
     }
   ],
-  "rawText": "| Spell                         | School        | Special |\n| :---------------------------- | :------------ | :------ |\n| Animal Friendship             | Enchantment   |    -    |\n| Charm Person                  | Enchantment   |    -    |\n| Create or Destroy Water       | Transmutation |    -    |\n| Cure Wounds                   | Abjuration    |    -    |\n| Detect Magic                  | Divination    | C, R    |\n| Detect Poison and Disease     | Divination    | C, R    |\n| Entangle                      | Conjuration   | C       |\n| Faerie Fire                   | Evocation     | C       |\n| Fog Cloud                     | Conjuration   | C       |\n| Goodberry                     | Conjuration   |    -    |\n| Healing Word                  | Abjuration    |    -    |\n| Ice Knife                     | Conjuration   |    -    |\n| Jump                          | Transmutation |    -    |\n| Longstrider                   | Transmutation |    -    |\n| Protection from Evil and Good | Abjuration    | C, M    |\n| Purify Food and Drink         | Transmutation | R       |\n| Speak with Animals            | Divination    | R       |\n| Thunderwave                   | Evocation     |    -    |"
+  "rawText": "| Spell                         | School        | Special |\n| :---------------------------- | :------------ | :------ |\n| Animal Friendship             | Enchantment   |    -    |\n| Charm Person                  | Enchantment   |    -    |\n| Create or Destroy Water       | Transmutation |    -    |\n| Cure Wounds                   | Abjuration    |    -    |\n| Detect Magic                  | Divination    | C, R    |\n| Detect Poison and Disease     | Divination    | C, R    |\n| Entangle                      | Conjuration   | C       |\n| Faerie Fire                   | Evocation     | C       |\n| Fog Cloud                     | Conjuration   | C       |\n| Goodberry                     | Conjuration   |    -    |\n| Healing Word                  | Abjuration    |    -    |\n| Ice Knife                     | Conjuration   |    -    |\n| Jump                          | Transmutation |    -    |\n| Longstrider                   | Transmutation |    -    |\n| Protection from Evil and Good | Abjuration    | C, M    |\n| Purify Food and Drink         | Transmutation | R       |\n| Speak with Animals            | Divination    | R       |\n| Thunderwave                   | Evocation     |    -    |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/animal-friendship"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/charm-person"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/create-or-destroy-water"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/cure-wounds"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-poison-and-disease"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/entangle"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/faerie-fire"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/fog-cloud"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/goodberry"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/healing-word"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/ice-knife"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/jump"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/longstrider"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/protection-from-evil-and-good"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/purify-food-and-drink"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/speak-with-animals"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/thunderwave"
+    }
+  ]
 }

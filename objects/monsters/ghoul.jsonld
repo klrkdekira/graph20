@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.99",
     "heading": "Ghoul",
-    "lineStart": 21113,
-    "lineEnd": 21140
+    "lineStart": 21037,
+    "lineEnd": 21064
   },
   "sizeTypeAlignment": "Medium Undead, Chaotic Evil",
   "sizeAndType": "Medium Undead",
@@ -75,8 +75,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.99",
         "heading": "Actions",
-        "lineStart": 21134,
-        "lineEnd": 21140
+        "lineStart": 21058,
+        "lineEnd": 21064
       }
     }
   ],
@@ -143,6 +143,11 @@
       "parseStatus": "parsed",
       "attackBonus": 4,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/paralyzed"
     }
   ]
 }

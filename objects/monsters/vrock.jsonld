@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.249",
     "heading": "Vrock",
-    "lineStart": 25956,
-    "lineEnd": 25992
+    "lineStart": 25880,
+    "lineEnd": 25916
   },
   "sizeTypeAlignment": "Large Fiend (Demon), Chaotic Evil",
   "sizeAndType": "Large Fiend (Demon)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.249",
         "heading": "Traits",
-        "lineStart": 25978,
-        "lineEnd": 25982
+        "lineStart": 25902,
+        "lineEnd": 25906
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.249",
         "heading": "Actions",
-        "lineStart": 25984,
-        "lineEnd": 25992
+        "lineStart": 25908,
+        "lineEnd": 25916
       }
     }
   ],
@@ -129,6 +129,14 @@
       "parseStatus": "parsed",
       "attackBonus": 6,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/stunned"
     }
   ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.8",
     "heading": "Cleric Spell List",
-    "lineStart": 2248,
-    "lineEnd": 2256
+    "lineStart": 2178,
+    "lineEnd": 2186
   },
   "columns": [
     "Spell",
@@ -119,5 +119,28 @@
       ]
     }
   ],
-  "rawText": "| Spell           | School        | Special |\n| :-------------- | :------------ | :------ |\n| Guidance        | Divination    | C       |\n| Light           | Evocation     |    -    |\n| Mending         | Transmutation |    -    |\n| Resistance      | Abjuration    | C       |\n| Sacred Flame    | Evocation     |    -    |\n| Spare the Dying | Necromancy    |    -    |\n| Thaumaturgy     | Transmutation |    -    |"
+  "rawText": "| Spell           | School        | Special |\n| :-------------- | :------------ | :------ |\n| Guidance        | Divination    | C       |\n| Light           | Evocation     |    -    |\n| Mending         | Transmutation |    -    |\n| Resistance      | Abjuration    | C       |\n| Sacred Flame    | Evocation     |    -    |\n| Spare the Dying | Necromancy    |    -    |\n| Thaumaturgy     | Transmutation |    -    |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/guidance"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/light"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mending"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/resistance"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/sacred-flame"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/spare-the-dying"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/thaumaturgy"
+    }
+  ]
 }

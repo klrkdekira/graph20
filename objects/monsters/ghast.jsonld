@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.97",
     "heading": "Ghast",
-    "lineStart": 21036,
-    "lineEnd": 21066
+    "lineStart": 20960,
+    "lineEnd": 20990
   },
   "sizeTypeAlignment": "Medium Undead, Chaotic Evil",
   "sizeAndType": "Medium Undead",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.97",
         "heading": "Traits",
-        "lineStart": 21058,
-        "lineEnd": 21060
+        "lineStart": 20982,
+        "lineEnd": 20984
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.97",
         "heading": "Actions",
-        "lineStart": 21062,
-        "lineEnd": 21066
+        "lineStart": 20986,
+        "lineEnd": 20990
       }
     }
   ],
@@ -155,6 +155,14 @@
       "parseStatus": "parsed",
       "attackBonus": 5,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/paralyzed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
   ]
 }

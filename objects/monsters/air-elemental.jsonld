@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.3",
     "heading": "Air Elemental",
-    "lineStart": 18125,
-    "lineEnd": 18158
+    "lineStart": 18049,
+    "lineEnd": 18082
   },
   "sizeTypeAlignment": "Large Elemental, Neutral",
   "sizeAndType": "Large Elemental",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.3",
         "heading": "Traits",
-        "lineStart": 18147,
-        "lineEnd": 18149
+        "lineStart": 18071,
+        "lineEnd": 18073
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.3",
         "heading": "Actions",
-        "lineStart": 18151,
-        "lineEnd": 18158
+        "lineStart": 18075,
+        "lineEnd": 18082
       }
     }
   ],
@@ -141,6 +141,11 @@
       "parseStatus": "parsed",
       "attackBonus": 8,
       "reachFeet": 10
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

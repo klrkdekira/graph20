@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.79",
     "heading": "Cloak of Invisibility",
-    "lineStart": 15329,
-    "lineEnd": 15335
+    "lineStart": 15253,
+    "lineEnd": 15259
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Legendary",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Legendary (Requires Attunement)\n\nThis cloak has 3 charges and regains 1d3 expended charges daily at dawn. While wearing the cloak, you can take a Magic action to pull its hood over your\n\nhead and expend 1 charge to give yourself the Invisible condition for 1 hour. The effect ends early if you pull the hood down (no action required) or cease wearing the cloak."
+  "rulesText": "Wondrous Item, Legendary (Requires Attunement)\n\nThis cloak has 3 charges and regains 1d3 expended charges daily at dawn. While wearing the cloak, you can take a Magic action to pull its hood over your\n\nhead and expend 1 charge to give yourself the Invisible condition for 1 hour. The effect ends early if you pull the hood down (no action required) or cease wearing the cloak.",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/invisible"
+    }
+  ]
 }

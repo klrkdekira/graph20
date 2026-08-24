@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.149",
     "heading": "Find Steed",
-    "lineStart": 9223,
-    "lineEnd": 9240
+    "lineStart": 9153,
+    "lineEnd": 9170
   },
   "level": 2,
   "school": "Conjuration",
@@ -31,5 +31,10 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    }
+  ]
 }

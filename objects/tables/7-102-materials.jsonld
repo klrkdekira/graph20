@@ -1,0 +1,79 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/7-102-materials",
+  "@type": "Table",
+  "name": "Materials",
+  "slug": "7-102-materials",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.102",
+    "heading": "Creation",
+    "lineStart": 8438,
+    "lineEnd": 8444
+  },
+  "columns": [
+    "Material",
+    "Duration"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Vegetable matter"
+        },
+        {
+          "value": "24 hours"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Stone or crystal"
+        },
+        {
+          "value": "12 hours"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Precious metals"
+        },
+        {
+          "value": "1 hour"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Gems"
+        },
+        {
+          "value": "10 minutes"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Adamantine or mithral"
+        },
+        {
+          "value": "1 minute"
+        }
+      ]
+    }
+  ],
+  "rawText": "| Material              | Duration   |\n| :-------------------- | :--------- |\n| Vegetable matter      | 24 hours   |\n| Stone or crystal      | 12 hours   |\n| Precious metals       | 1 hour     |\n| Gems                  | 10 minutes |\n| Adamantine or mithral | 1 minute   |"
+}

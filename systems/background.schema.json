@@ -12,6 +12,7 @@
       "items": { "type": "string" }
     },
     "feat": { "type": "string", "minLength": 1 },
+    "grantsFeat": { "$ref": "common.schema.json#/$defs/NodeReference" },
     "skillProficiencies": { "type": "string", "minLength": 1 },
     "toolProficiency": { "type": "string", "minLength": 1 },
     "startingEquipment": { "type": "string", "minLength": 1 },

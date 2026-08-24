@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.32",
     "heading": "Wizard Spell List",
-    "lineStart": 5123,
-    "lineEnd": 5133
+    "lineStart": 5053,
+    "lineEnd": 5063
   },
   "columns": [
     "Spell",
@@ -147,5 +147,34 @@
       ]
     }
   ],
-  "rawText": "| Spell            | School        | Special |\n| :--------------- | :------------ | :------ |\n| Mage Hand        | Conjuration   |    -    |\n| Mending          | Transmutation |    -    |\n| Message          | Transmutation |    -    |\n| Minor Illusion   | Illusion      |    -    |\n| Poison Spray     | Necromancy    |    -    |\n| Prestidigitation | Transmutation |    -    |\n| Ray of Frost     | Evocation     |    -    |\n| Shocking Grasp   | Evocation     |    -    |\n| True Strike      | Divination    |    -    |"
+  "rawText": "| Spell            | School        | Special |\n| :--------------- | :------------ | :------ |\n| Mage Hand        | Conjuration   |    -    |\n| Mending          | Transmutation |    -    |\n| Message          | Transmutation |    -    |\n| Minor Illusion   | Illusion      |    -    |\n| Poison Spray     | Necromancy    |    -    |\n| Prestidigitation | Transmutation |    -    |\n| Ray of Frost     | Evocation     |    -    |\n| Shocking Grasp   | Evocation     |    -    |\n| True Strike      | Divination    |    -    |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mage-hand"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mending"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/message"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/minor-illusion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/poison-spray"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/prestidigitation"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/ray-of-frost"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/shocking-grasp"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/true-strike"
+    }
+  ]
 }

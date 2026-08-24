@@ -251,7 +251,11 @@ class Emitter:
                     idx += 1
                 table_index += 1
                 caption = pending_caption
-                name = caption or f"{block.title} Table {table_index}"
+                name = caption or (
+                    block.title
+                    if table_index == 1 and not any(item.strip() for item in prose_lines)
+                    else f"{block.title} Table {table_index}"
+                )
                 table = self.new_record(
                     "tables",
                     "Table",
@@ -271,7 +275,11 @@ class Emitter:
             elif line.startswith("<table>"):
                 table_index += 1
                 caption = pending_caption
-                name = caption or f"{block.title} Table {table_index}"
+                name = caption or (
+                    block.title
+                    if table_index == 1 and not any(item.strip() for item in prose_lines)
+                    else f"{block.title} Table {table_index}"
+                )
                 table = self.new_record(
                     "tables",
                     "Table",
@@ -337,9 +345,21 @@ class Emitter:
             record["school"] = match.group(1)
             class_list = match.group(2)
         record["classAvailability"] = [c.strip() for c in class_list.split(",")]
-        text_parts = [block.body]
-        for extra in extra_blocks:
-            text_parts.append(f"{extra.title}\n\n{extra.body}".strip())
+        text_parts = []
+        table_ids = []
+        for part_index, part in enumerate([block, *extra_blocks]):
+            part_locator = dict(
+                locator,
+                heading=part.title,
+                lineStart=part.line_start,
+                lineEnd=part.line_end,
+            )
+            prose, part_table_ids = self.extract_tables(part, part_locator)
+            table_ids.extend(part_table_ids)
+            if part_index == 0:
+                text_parts.append(prose)
+            else:
+                text_parts.append(f"{part.title}\n\n{prose}".strip())
         text = "\n\n".join(part for part in text_parts if part)
         for label, field in (
             ("Casting Time", "castingTime"),
@@ -351,6 +371,8 @@ class Emitter:
             if found:
                 record[field] = found.group(1).strip()
         record["rulesText"] = text
+        if table_ids:
+            record["relatedTables"] = [{"@id": table_id} for table_id in table_ids]
         return record
 
     # -- feats ---------------------------------------------------------------
@@ -1207,12 +1229,150 @@ def link_gear_rules(emitter: Emitter):
                 break
 
 
+def named_node_references(text, name_ids, flags=0):
+    """Return longest, non-overlapping exact-name references in source order."""
+    candidates = []
+    search_text = text.replace("’", "'")
+    for name, node_id in name_ids.items():
+        search_name = name.replace("’", "'")
+        pattern = rf"(?<![A-Za-z]){re.escape(search_name)}(?![A-Za-z])"
+        for match in re.finditer(pattern, search_text, flags):
+            candidates.append((match.start(), -len(name), match.end(), name, node_id))
+
+    occupied = []
+    references = []
+    seen_ids = set()
+    for start, _negative_length, end, _name, node_id in sorted(candidates):
+        if any(start < used_end and end > used_start for used_start, used_end in occupied):
+            continue
+        occupied.append((start, end))
+        if node_id not in seen_ids:
+            references.append({"@id": node_id})
+            seen_ids.add(node_id)
+    return references
+
+
+def record_strings(value):
+    """Yield record strings that can carry exact source-name mentions."""
+    if isinstance(value, dict):
+        for key, child in value.items():
+            if key not in ("@context", "@id", "source", "sourceLocator"):
+                yield from record_strings(child)
+    elif isinstance(value, list):
+        for child in value:
+            yield from record_strings(child)
+    elif isinstance(value, str):
+        yield value
+
+
+ACTIVE_ITEM_CAST_RE = re.compile(
+    r"\byou\b[^.!?\n]{0,120}?\bcast(?:s|ing)?\b|"
+    r"\b(?:the )?orb\b[^.!?\n]{0,80}?\bcasts?\b|"
+    r"\bto cast\b",
+    re.I,
+)
+
+
+def link_magic_item_spells(emitter: Emitter, spell_ids):
+    """Link spells an item explicitly lets its bearer or the item cast."""
+    for item in emitter.records["magic-items"]:
+        references = []
+        seen_ids = set()
+        sentences = re.split(r"\n\n|(?<=[.!?])\s+", item["rulesText"])
+        for sentence in sentences:
+            for active_cast in ACTIVE_ITEM_CAST_RE.finditer(sentence):
+                for reference in named_node_references(
+                    sentence[active_cast.end() :], spell_ids, flags=re.I
+                ):
+                    if reference["@id"] not in seen_ids:
+                        references.append(reference)
+                        seen_ids.add(reference["@id"])
+        if references:
+            item["castsSpell"] = references
+
+
+def link_class_spell_tables(emitter: Emitter, spell_ids):
+    """Link the spell-name cells in the eight printed class spell lists."""
+    for table in emitter.records["tables"]:
+        if (
+            table["sourceLocator"]["chapter"] != "Classes"
+            or table.get("columns", [])[:3] != ["Spell", "School", "Special"]
+        ):
+            continue
+        references = []
+        seen_ids = set()
+        for row in table["rows"]:
+            if not row["cells"]:
+                continue
+            for reference in named_node_references(row["cells"][0]["value"], spell_ids):
+                if reference["@id"] not in seen_ids:
+                    references.append(reference)
+                    seen_ids.add(reference["@id"])
+        if references:
+            table["listsSpell"] = references
+
+
+def link_background_feats(emitter: Emitter, feat_ids):
+    """Resolve the printed background feat, retaining its display string."""
+    names = sorted(feat_ids, key=len, reverse=True)
+    for background in emitter.records["backgrounds"]:
+        printed = background["feat"]
+        for name in names:
+            if re.match(rf"^{re.escape(name)}(?:\s|\(|$)", printed):
+                background["grantsFeat"] = {"@id": feat_ids[name]}
+                break
+
+
+def link_monster_gear(emitter: Emitter, equipment_ids):
+    """Resolve comma-delimited monster gear, including printed quantities."""
+    for monster in emitter.records["monsters"]:
+        references = []
+        seen_ids = set()
+        for token in monster.get("gear", "").split(", "):
+            name = re.sub(r"\s+\(\d+\)$", "", token)
+            candidates = [name]
+            if name.endswith("s"):
+                candidates.append(name[:-1])
+            for candidate in candidates:
+                node_id = equipment_ids.get(candidate)
+                if node_id and node_id not in seen_ids:
+                    references.append({"@id": node_id})
+                    seen_ids.add(node_id)
+                    break
+        if references:
+            monster["hasGear"] = references
+
+
+def link_condition_mentions(emitter: Emitter, condition_ids):
+    """Link exact '<Name> condition' phrases without inferring their effect."""
+    for collection, records in emitter.records.items():
+        if collection == "sources":
+            continue
+        for record in records:
+            text = "\n".join(record_strings(record))
+            references = []
+            for name, node_id in condition_ids.items():
+                if re.search(
+                    rf"(?<![A-Za-z]){re.escape(name)} condition\b", text
+                ):
+                    references.append({"@id": node_id})
+            if references:
+                record["mentionsCondition"] = references
+
+
 def enrich(emitter: Emitter):
     """Cross-link entities and add typed micro-format fields."""
     class_ids = {r["name"]: r["@id"] for r in emitter.records["classes"]}
-    condition_names = {r["name"]: r["@id"] for r in emitter.records["conditions"]}
+    condition_ids = {r["name"]: r["@id"] for r in emitter.records["conditions"]}
+    spell_ids = {r["name"]: r["@id"] for r in emitter.records["spells"]}
+    feat_ids = {r["name"]: r["@id"] for r in emitter.records["feats"]}
+    equipment_ids = {r["name"]: r["@id"] for r in emitter.records["equipment"]}
 
     link_gear_rules(emitter)
+    link_magic_item_spells(emitter, spell_ids)
+    link_class_spell_tables(emitter, spell_ids)
+    link_background_feats(emitter, feat_ids)
+    link_monster_gear(emitter, equipment_ids)
 
     for spell in emitter.records["spells"]:
         refs = [
@@ -1246,7 +1406,7 @@ def enrich(emitter: Emitter):
     for monster in emitter.records["monsters"]:
         linked = []
         immunities = monster.get("immunities", "")
-        for name, cid in sorted(condition_names.items()):
+        for name, cid in sorted(condition_ids.items()):
             if re.search(rf"\b{re.escape(name)}\b", immunities):
                 linked.append({"@id": cid})
         if linked:
@@ -1332,6 +1492,8 @@ def enrich(emitter: Emitter):
             monster["attacks"] = attacks
         if unparsed_attacks:
             monster["unparsedAttacks"] = unparsed_attacks
+
+    link_condition_mentions(emitter, condition_ids)
 
 
 def main():

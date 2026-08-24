@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.209",
     "heading": "Scout",
-    "lineStart": 24586,
-    "lineEnd": 24615
+    "lineStart": 24510,
+    "lineEnd": 24539
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -77,12 +77,23 @@
         "chapter": "Monsters A-Z",
         "section": "12.209",
         "heading": "Actions",
-        "lineStart": 24608,
-        "lineEnd": 24615
+        "lineStart": 24532,
+        "lineEnd": 24539
       }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 13\nInitiative +2 (12)\nHP 16 (3d8 + 3)\nSpeed 30 ft.\n\nSkills Nature +4, Perception +5, Stealth +6, Survival +5\nGear Leather Armor, Longbow, Shortsword\nSenses Passive Perception 15\nLanguages Common plus one other language\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nMultiattack. The scout makes two attacks, using Short-word and Longbow in any combination.\n\nShortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage.\n\nLongbow. Ranged Attack Roll: +4, range 150/600 ft.\nHit: 6 (1d8 + 2) Piercing damage.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/leather-armor"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/longbow"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/shortsword"
+    }
+  ],
   "attacks": [
     {
       "name": "Shortsword",

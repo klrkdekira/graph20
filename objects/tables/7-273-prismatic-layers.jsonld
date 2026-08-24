@@ -1,0 +1,112 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/7-273-prismatic-layers",
+  "@type": "Table",
+  "name": "Prismatic Layers",
+  "slug": "7-273-prismatic-layers",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.273",
+    "heading": "Prismatic Layers",
+    "lineStart": 11092,
+    "lineEnd": 11100
+  },
+  "columns": [
+    "Order",
+    "Effects"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "Red. Failed Save: 12d6 Fire damage. Successful Save: Half as much damage. Additional Effects: Nonmagical ranged attacks can’t pass through this layer, which is destroyed if it takes at least 25 Cold damage."
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "Orange. Failed Save: 12d6 Acid damage. Successful Save: Half as much damage. Additional Effects: Magical ranged attacks can’t pass through this layer, which is destroyed by a strong wind (such as the one created by Gust of Wind)."
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "Yellow. Failed Save: 12d6 Lightning damage. Successful Save: Half as much damage. Additional Effects: The layer is destroyed if it takes at least 60 Force damage."
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "Green. Failed Save: 12d6 Poison damage. Successful Save: Half as much damage. Additional Effects: A Passwall spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer."
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "Blue. Failed Save: 12d6 Cold damage. Successful Save: Half as much damage. Additional Effects: The layer is destroyed if it takes at least 25 Fire damage."
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "Indigo. Failed Save: The target has the Restrained condition and makes a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the Petrified condition until it is freed by an effect like the Greater Restoration spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind. Additional Effects: Spells can’t be cast through this layer, which is destroyed by Bright Light shed by the Daylight spell."
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "Violet. Failed Save: The target has the Blinded condition and makes a Wisdom saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (GM’s choice). Additional Effects: This layer is destroyed by Dispel Magic."
+        }
+      ]
+    }
+  ],
+  "rawText": "| Order | Effects                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |\n| :---- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| 1     | Red. Failed Save: 12d6 Fire damage. Successful Save: Half as much damage. Additional Effects: Nonmagical ranged attacks can’t pass through this layer, which is destroyed if it takes at least 25 Cold damage.                                                                                                                                                                                                                                                                                                                                                        |\n| 2     | Orange. Failed Save: 12d6 Acid damage. Successful Save: Half as much damage. Additional Effects: Magical ranged attacks can’t pass through this layer, which is destroyed by a strong wind (such as the one created by Gust of Wind).                                                                                                                                                                                                                                                                                                                                 |\n| 3     | Yellow. Failed Save: 12d6 Lightning damage. Successful Save: Half as much damage. Additional Effects: The layer is destroyed if it takes at least 60 Force damage.                                                                                                                                                                                                                                                                                                                                                                                                    |\n| 4     | Green. Failed Save: 12d6 Poison damage. Successful Save: Half as much damage. Additional Effects: A Passwall spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer.                                                                                                                                                                                                                                                                                                                                        |\n| 5     | Blue. Failed Save: 12d6 Cold damage. Successful Save: Half as much damage. Additional Effects: The layer is destroyed if it takes at least 25 Fire damage.                                                                                                                                                                                                                                                                                                                                                                                                            |\n| 6     | Indigo. Failed Save: The target has the Restrained condition and makes a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the Petrified condition until it is freed by an effect like the Greater Restoration spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind. Additional Effects: Spells can’t be cast through this layer, which is destroyed by Bright Light shed by the Daylight spell. |\n| 7     | Violet. Failed Save: The target has the Blinded condition and makes a Wisdom saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (GM’s choice). Additional Effects: This layer is destroyed by Dispel Magic.                                                                                                                                                                                                                        |",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/blinded"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/petrified"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
+    }
+  ]
+}

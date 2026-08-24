@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.17",
     "heading": "Crocodile",
-    "lineStart": 27130,
-    "lineEnd": 27155
+    "lineStart": 27054,
+    "lineEnd": 27079
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -76,8 +76,8 @@
         "chapter": "Animals",
         "section": "13.17",
         "heading": "Traits",
-        "lineStart": 27149,
-        "lineEnd": 27151
+        "lineStart": 27073,
+        "lineEnd": 27075
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Animals",
         "section": "13.17",
         "heading": "Actions",
-        "lineStart": 27153,
-        "lineEnd": 27155
+        "lineStart": 27077,
+        "lineEnd": 27079
       }
     }
   ],
@@ -114,6 +114,14 @@
       "parseStatus": "parsed",
       "attackBonus": 4,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
   ]
 }

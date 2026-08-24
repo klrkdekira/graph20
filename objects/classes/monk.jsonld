@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.15",
     "heading": "Monk",
-    "lineStart": 3041,
-    "lineEnd": 3257
+    "lineStart": 2971,
+    "lineEnd": 3187
   },
   "coreTraits": [
     {
@@ -62,8 +62,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 1: Martial Arts",
-        "lineStart": 3096,
-        "lineEnd": 3109
+        "lineStart": 3026,
+        "lineEnd": 3039
       }
     },
     {
@@ -74,8 +74,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 1: Unarmored Defense",
-        "lineStart": 3111,
-        "lineEnd": 3113
+        "lineStart": 3041,
+        "lineEnd": 3043
       }
     },
     {
@@ -86,8 +86,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 2: Monk's Focus",
-        "lineStart": 3115,
-        "lineEnd": 3131
+        "lineStart": 3045,
+        "lineEnd": 3061
       }
     },
     {
@@ -98,8 +98,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 2: Unarmored Movement",
-        "lineStart": 3133,
-        "lineEnd": 3135
+        "lineStart": 3063,
+        "lineEnd": 3065
       }
     },
     {
@@ -110,8 +110,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 2: Uncanny Metabolism",
-        "lineStart": 3137,
-        "lineEnd": 3141
+        "lineStart": 3067,
+        "lineEnd": 3071
       }
     },
     {
@@ -122,8 +122,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 3: Deflect Attacks",
-        "lineStart": 3143,
-        "lineEnd": 3147
+        "lineStart": 3073,
+        "lineEnd": 3077
       }
     },
     {
@@ -134,8 +134,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 3: Monk Subclass",
-        "lineStart": 3149,
-        "lineEnd": 3151
+        "lineStart": 3079,
+        "lineEnd": 3081
       }
     },
     {
@@ -146,8 +146,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 4: Ability Score Improvement",
-        "lineStart": 3153,
-        "lineEnd": 3157
+        "lineStart": 3083,
+        "lineEnd": 3087
       }
     },
     {
@@ -158,8 +158,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 4: Slow Fall",
-        "lineStart": 3159,
-        "lineEnd": 3161
+        "lineStart": 3089,
+        "lineEnd": 3091
       }
     },
     {
@@ -170,8 +170,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 5: Extra Attack",
-        "lineStart": 3163,
-        "lineEnd": 3165
+        "lineStart": 3093,
+        "lineEnd": 3095
       }
     },
     {
@@ -182,8 +182,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 5: Stunning Strike",
-        "lineStart": 3167,
-        "lineEnd": 3169
+        "lineStart": 3097,
+        "lineEnd": 3099
       }
     },
     {
@@ -194,8 +194,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 6: Empowered Strikes",
-        "lineStart": 3171,
-        "lineEnd": 3173
+        "lineStart": 3101,
+        "lineEnd": 3103
       }
     },
     {
@@ -206,8 +206,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 7: Evasion",
-        "lineStart": 3175,
-        "lineEnd": 3179
+        "lineStart": 3105,
+        "lineEnd": 3109
       }
     },
     {
@@ -218,8 +218,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 9: Acrobatic Movement",
-        "lineStart": 3181,
-        "lineEnd": 3183
+        "lineStart": 3111,
+        "lineEnd": 3113
       }
     },
     {
@@ -230,8 +230,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 10: Heightened Focus",
-        "lineStart": 3185,
-        "lineEnd": 3193
+        "lineStart": 3115,
+        "lineEnd": 3123
       }
     },
     {
@@ -242,8 +242,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 10: Self-Restoration",
-        "lineStart": 3195,
-        "lineEnd": 3199
+        "lineStart": 3125,
+        "lineEnd": 3129
       }
     },
     {
@@ -254,8 +254,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 13: Deflect Energy",
-        "lineStart": 3201,
-        "lineEnd": 3203
+        "lineStart": 3131,
+        "lineEnd": 3133
       }
     },
     {
@@ -266,8 +266,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 14: Disciplined Survivor",
-        "lineStart": 3205,
-        "lineEnd": 3209
+        "lineStart": 3135,
+        "lineEnd": 3139
       }
     },
     {
@@ -278,8 +278,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 15: Perfect Focus",
-        "lineStart": 3211,
-        "lineEnd": 3213
+        "lineStart": 3141,
+        "lineEnd": 3143
       }
     },
     {
@@ -290,8 +290,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 18: Superior Defense",
-        "lineStart": 3215,
-        "lineEnd": 3217
+        "lineStart": 3145,
+        "lineEnd": 3147
       }
     },
     {
@@ -302,8 +302,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 19: Epic Boon",
-        "lineStart": 3219,
-        "lineEnd": 3221
+        "lineStart": 3149,
+        "lineEnd": 3151
       }
     },
     {
@@ -314,8 +314,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 20: Body and Mind",
-        "lineStart": 3223,
-        "lineEnd": 3225
+        "lineStart": 3153,
+        "lineEnd": 3155
       }
     }
   ],
@@ -324,5 +324,13 @@
       "@id": "https://cheeleong.dev/graph20/objects/tables/3-15-monk-features"
     }
   ],
-  "rulesText": "Core Monk Traits\n\nBecoming a Monk ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Monk Traits table.\n- Gain the Monk's level 1 features, which are listed in the Monk Features table.\n\nAs a Multiclass Character\n\n- Gain the Hit Point Die trait from the Core Monk Traits table.\n- Gain the Monk's level 1 features, which are listed in the Monk Features table.\n\nMonk Class Features\n\nAs a Monk, you gain the following class features when you reach the specified Monk levels. These features are listed in the Monk Features table.\n\nMonk Features"
+  "rulesText": "Core Monk Traits\n\nBecoming a Monk ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Monk Traits table.\n- Gain the Monk's level 1 features, which are listed in the Monk Features table.\n\nAs a Multiclass Character\n\n- Gain the Hit Point Die trait from the Core Monk Traits table.\n- Gain the Monk's level 1 features, which are listed in the Monk Features table.\n\nMonk Class Features\n\nAs a Monk, you gain the following class features when you reach the specified Monk levels. These features are listed in the Monk Features table.\n\nMonk Features",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/stunned"
+    }
+  ]
 }

@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.71",
     "heading": "Cape of the Mountebank",
-    "lineStart": 15260,
-    "lineEnd": 15266
+    "lineStart": 15184,
+    "lineEnd": 15190
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Rare",
   "requiresAttunement": false,
-  "rulesText": "Wondrous Item, Rare\n\nThis cape smells faintly of brimstone. While wearing it, you can use it to cast Dimension Door as a Magic action. This property can't be used again until the next dawn.\n\nWhen you teleport with that spell, you leave behind a cloud of smoke. The space you left is Lightly Obscured by that smoke until the end of your next turn."
+  "rulesText": "Wondrous Item, Rare\n\nThis cape smells faintly of brimstone. While wearing it, you can use it to cast Dimension Door as a Magic action. This property can't be used again until the next dawn.\n\nWhen you teleport with that spell, you leave behind a cloud of smoke. The space you left is Lightly Obscured by that smoke until the end of your next turn.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dimension-door"
+    }
+  ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.265",
     "heading": "Will-o'-Wisp",
-    "lineStart": 26485,
-    "lineEnd": 26523
+    "lineStart": 26409,
+    "lineEnd": 26447
   },
   "sizeTypeAlignment": "Tiny Undead, Chaotic Evil",
   "sizeAndType": "Tiny Undead",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.265",
         "heading": "Traits",
-        "lineStart": 26507,
-        "lineEnd": 26513
+        "lineStart": 26431,
+        "lineEnd": 26437
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.265",
         "heading": "Actions",
-        "lineStart": 26515,
-        "lineEnd": 26517
+        "lineStart": 26439,
+        "lineEnd": 26441
       }
     },
     {
@@ -98,8 +98,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.265",
         "heading": "Bonus Actions",
-        "lineStart": 26519,
-        "lineEnd": 26523
+        "lineStart": 26443,
+        "lineEnd": 26447
       }
     }
   ],
@@ -151,6 +151,11 @@
       "parseStatus": "parsed",
       "attackBonus": 4,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/invisible"
     }
   ]
 }

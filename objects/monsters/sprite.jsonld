@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.230",
     "heading": "Sprite",
-    "lineStart": 25278,
-    "lineEnd": 25307
+    "lineStart": 25202,
+    "lineEnd": 25231
   },
   "sizeTypeAlignment": "Tiny Fey, Neutral Good",
   "sizeAndType": "Tiny Fey",
@@ -75,8 +75,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.230",
         "heading": "Actions",
-        "lineStart": 25299,
-        "lineEnd": 25307
+        "lineStart": 25223,
+        "lineEnd": 25231
       }
     }
   ],
@@ -120,6 +120,11 @@
         "normal": 40,
         "long": 160
       }
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
     }
   ]
 }

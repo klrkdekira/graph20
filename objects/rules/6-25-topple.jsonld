@@ -11,9 +11,14 @@
     "chapter": "Equipment",
     "section": "6.25",
     "heading": "Topple",
-    "lineStart": 6055,
-    "lineEnd": 6057
+    "lineStart": 5985,
+    "lineEnd": 5987
   },
   "section": "6.25",
-  "rulesText": "If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition."
+  "rulesText": "If you hit a creature with this weapon, you can force the creature to make a Constitution saving throw (DC 8 plus the ability modifier used to make the attack roll and your Proficiency Bonus). On a failed save, the creature has the Prone condition.",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    }
+  ]
 }

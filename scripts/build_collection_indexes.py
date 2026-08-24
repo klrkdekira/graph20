@@ -14,7 +14,7 @@ from srdlib import CHAPTERS, COLLECTIONS, dump_json, iter_object_files, load_jso
 
 RARITY_ORDER = [
     "Common", "Uncommon", "Rare", "Very Rare", "Legendary", "Artifact",
-    "Rarity Varies", "Varies",
+    "Multiple Rarities", "Rarity Varies", "Varies",
 ]
 FEAT_ORDER = ["Origin", "General", "Fighting Style", "Epic Boon"]
 
@@ -42,14 +42,12 @@ def entry_for(collection: str, record: dict):
         order = (cr_sort_key(cr) if cr else 99.0, name.lower())
     elif collection == "magic-items":
         rarity = record.get("rarity")
-        rarity_values = [entry["rarity"] for entry in record.get("rarities", [])]
         group = rarity or "Multiple Rarities"
         detail = record.get("categoryDetail")
         sub = record.get("itemCategory", "") + (f" ({detail})" if detail else "")
         if record.get("requiresAttunement"):
             sub += " · attunement"
-        first_rarity = rarity or rarity_values[0]
-        order = (RARITY_ORDER.index(first_rarity), name.lower())
+        order = (RARITY_ORDER.index(group) if group in RARITY_ORDER else 99, name.lower())
     elif collection == "feats":
         category = record.get("category", "General")
         group = f"{category} Feats"
@@ -84,9 +82,10 @@ def entry_for(collection: str, record: dict):
             sub = f"{record.get('damage', '')} · {record.get('mastery', '')}"
             order = (0, record.get("weaponCategory", ""), record.get("attackType", ""), name.lower())
         elif etype == "armor":
-            group = f"{record.get('armorCategory', '')} Armor".strip()
+            category = record.get("armorCategory", "")
+            group = "Shield" if category == "Shield" else f"{category} Armor".strip()
             sub = f"AC {record.get('armorClass', '')}"
-            order = (1, record.get("armorCategory", ""), "", name.lower())
+            order = (1, category, "", name.lower())
         else:
             group = "Adventuring Gear"
             cost = record.get("cost", {}).get("text", "")

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.221",
     "heading": "Warhorse Skeleton",
-    "lineStart": 24961,
-    "lineEnd": 24983
+    "lineStart": 24885,
+    "lineEnd": 24907
   },
   "sizeTypeAlignment": "Large Undead, Lawful Evil",
   "sizeAndType": "Large Undead",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.221",
         "heading": "Actions",
-        "lineStart": 24981,
-        "lineEnd": 24983
+        "lineStart": 24905,
+        "lineEnd": 24907
       }
     }
   ],
@@ -112,6 +112,11 @@
       "parseStatus": "parsed",
       "attackBonus": 6,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

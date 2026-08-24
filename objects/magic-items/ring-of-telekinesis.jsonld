@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.218",
     "heading": "Ring of Telekinesis",
-    "lineStart": 16906,
-    "lineEnd": 16910
+    "lineStart": 16830,
+    "lineEnd": 16834
   },
   "itemCategory": "Ring",
   "rarity": "Very Rare",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Ring, Very Rare (Requires Attunement)\n\nWhile wearing this ring, you can cast Telekinesis from it."
+  "rulesText": "Ring, Very Rare (Requires Attunement)\n\nWhile wearing this ring, you can cast Telekinesis from it.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/telekinesis"
+    }
+  ]
 }

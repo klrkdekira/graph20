@@ -657,6 +657,75 @@ Adventurers can't spend every hour adventuring. They need rest. Any creature can
             ),
         )
 
+    # 21c. Residual cross-record and split-table repairs (2026-08-25).
+    # Registered as `residual-structure-repairs-2026-08-25` in
+    # objects/sources/extraction-overrides.json.
+
+    # Figurine of Wondrous Power: its accompanying Giant Fly stat block was
+    # printed between the Ebony Fly and Golden Lions variant descriptions.
+    # Keeping that physical column-flow order makes the heading parser attach
+    # every later figurine variant to the monster. Move the verbatim stat block
+    # after the final Silver Raven variant so each record owns its prose.
+    giant_fly_match = re.search(
+        r"\n# Giant Fly\n\nLarge Beast, Unaligned\n\n"
+        r"AC 11\nInitiative \+1 \(11\)\nHP 19 \(3d10 \+ 3\)\n"
+        r"Speed 30 ft\., Fly 60 ft\.\n\n"
+        r"\| STR \| DEX \| CON \| INT \| WIS \| CHA \|.*?"
+        r"CR 0 \(XP 0; PB \+2\)\n",
+        res,
+        re.S,
+    )
+    golden_lions_pos = res.find("\nGolden Lions (Rare).")
+    if giant_fly_match and 0 <= golden_lions_pos > giant_fly_match.start():
+        giant_fly_block = giant_fly_match.group(0).strip("\n")
+        res = res[: giant_fly_match.start()] + res[giant_fly_match.end() :]
+        flame_tongue_anchor = "\n\n# Flame Tongue"
+        if flame_tongue_anchor not in res:
+            raise RuntimeError("Giant Fly repair anchor '# Flame Tongue' drifted")
+        res = res.replace(
+            flame_tongue_anchor,
+            f"\n\n{giant_fly_block}{flame_tongue_anchor}",
+            1,
+        )
+
+    # Trinkets: rows 35-100 were converted as plain paragraphs across two
+    # column-flow headings. They are already-present source text, so convert
+    # only their representation and append them to the existing GFM table.
+    trinket_start = res.find("\n\n# 1d100 Trinket\n\n35 ")
+    if trinket_start != -1:
+        trinket_end_marker = "\n\n---\n\n# Classes"
+        trinket_end = res.find(trinket_end_marker, trinket_start)
+        if trinket_end == -1:
+            raise RuntimeError("Trinkets repair anchor '# Classes' drifted")
+        trinket_fragment = res[trinket_start:trinket_end]
+        trinket_rows = re.findall(r"(?m)^(\d{2}) (.+)$", trinket_fragment)
+        expected_rolls = [f"{value:02d}" for value in range(35, 100)] + ["00"]
+        if [roll for roll, _ in trinket_rows] != expected_rolls:
+            raise RuntimeError("Trinkets continuation no longer contains rows 35-00")
+        rendered_rows = "\n".join(
+            f"| {roll} | {text} |" for roll, text in trinket_rows
+        )
+        res = res[:trinket_start] + "\n" + rendered_rows + res[trinket_end:]
+    res = re.sub(r"(?m)^(\| 34 .* \|)\n\n(?=\| 35 \|)", r"\1\n", res)
+
+    # Prismatic Spray: rows 5-8 suffered the same conversion artifact. Fold
+    # the four verbatim paragraphs into the preceding Prismatic Rays table.
+    rays_start = res.find("\n\n# 1d8 Ray\n\n5 ")
+    if rays_start != -1:
+        rays_end_marker = "\n\n# Prismatic Wall"
+        rays_end = res.find(rays_end_marker, rays_start)
+        if rays_end == -1:
+            raise RuntimeError("Prismatic Rays repair anchor drifted")
+        rays_fragment = res[rays_start:rays_end]
+        ray_rows = re.findall(r"(?m)^([5-8]) (.+)$", rays_fragment)
+        if [roll for roll, _ in ray_rows] != ["5", "6", "7", "8"]:
+            raise RuntimeError("Prismatic Rays continuation no longer contains rows 5-8")
+        rendered_rows = "\n".join(
+            f"| {roll} | {text} |" for roll, text in ray_rows
+        )
+        res = res[:rays_start] + "\n" + rendered_rows + res[rays_end:]
+    res = re.sub(r"(?m)^(\| 4 .* \|)\n\n(?=\| 5 \| Blue\.)", r"\1\n", res)
+
     # 22. Replace all em-dashes context-sensitively
     res_lines_em = []
     for line in res.splitlines():

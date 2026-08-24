@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.40",
     "heading": "Young Brass Dragon",
-    "lineStart": 19160,
-    "lineEnd": 19188
+    "lineStart": 19084,
+    "lineEnd": 19112
   },
   "sizeTypeAlignment": "Large Dragon (Metallic), Chaotic Good",
   "sizeAndType": "Large Dragon (Metallic)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.40",
         "heading": "Actions",
-        "lineStart": 19180,
-        "lineEnd": 19188
+        "lineStart": 19104,
+        "lineEnd": 19112
       }
     }
   ],
@@ -104,6 +104,14 @@
       "parseStatus": "parsed",
       "attackBonus": 7,
       "reachFeet": 10
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
     }
   ]
 }

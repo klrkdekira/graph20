@@ -11,9 +11,14 @@
     "chapter": "Gameplay Toolbox",
     "section": "9.43",
     "heading": "Harvesting Poison",
-    "lineStart": 14156,
-    "lineEnd": 14158
+    "lineStart": 14080,
+    "lineEnd": 14082
   },
   "section": "9.43",
-  "rulesText": "A character can attempt to harvest poison from a venomous creature that is dead or has the Incapacitated condition. The effort takes 1d6 minutes, after which the character makes a DC 20 Intelligence (Nature) check using a Poisoner's Kit. On a successful check, the character harvests enough poison for a single dose, and no additional poison can be harvested from that creature. On a failed check, the character is unable to extract any poison. If the character fails the check by 5 or more, the character is subjected to the creature's poison."
+  "rulesText": "A character can attempt to harvest poison from a venomous creature that is dead or has the Incapacitated condition. The effort takes 1d6 minutes, after which the character makes a DC 20 Intelligence (Nature) check using a Poisoner's Kit. On a successful check, the character harvests enough poison for a single dose, and no additional poison can be harvested from that creature. On a failed check, the character is unable to extract any poison. If the character fails the check by 5 or more, the character is subjected to the creature's poison.",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    }
+  ]
 }

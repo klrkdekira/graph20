@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.90",
     "heading": "Triceratops",
-    "lineStart": 29097,
-    "lineEnd": 29119
+    "lineStart": 29021,
+    "lineEnd": 29043
   },
   "sizeTypeAlignment": "Huge Beast (Dinosaur), Unaligned",
   "sizeAndType": "Huge Beast (Dinosaur)",
@@ -75,8 +75,8 @@
         "chapter": "Animals",
         "section": "13.90",
         "heading": "Actions",
-        "lineStart": 29115,
-        "lineEnd": 29119
+        "lineStart": 29039,
+        "lineEnd": 29043
       }
     }
   ],
@@ -111,6 +111,11 @@
       "parseStatus": "parsed",
       "attackBonus": 9,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

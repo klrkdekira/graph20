@@ -15,8 +15,8 @@
     "source": {
       "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
     },
-    "sourceDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
-    "corpusDigest": "sha256-0ecd7a6f735731009d57c38d2ebe9cdf204506b031323940b042810cd541f88f"
+    "sourceDigest": "sha256-e5a493bd086894a69972dc9b61422f1f51c05b3bd7e1691ab3b0917f8a24ab90",
+    "corpusDigest": "sha256-2d8fa2151ca0731e8b00ff6523cd82c95cc95074049cce363f77f689a94979ad"
   },
   "collections": [
     {
@@ -831,12 +831,6 @@
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/2-46-trinkets"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-47-1d100-trinket"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-48-1d100-trinket"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/2-5-write-your-level"
@@ -2853,10 +2847,46 @@
           "@id": "https://cheeleong.dev/graph20/objects/tables/6-99-holy-symbols"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/tables/7-102-materials"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/tables/7-11-schools-of-magic"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/tables/7-124-divine-word-effects"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/tables/7-272-prismatic-rays"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/tables/7-273-prismatic-layers"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/tables/7-287-reincarnate-table-1"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/tables/7-298-scrying-table-1"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/tables/7-298-scrying-table-2"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/tables/7-3-spell-preparation-by-class"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/tables/7-340-teleportation-outcome"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/tables/7-50-omens"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/tables/7-85-confusion-table-1"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/tables/7-97-precipitation-2"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/tables/7-97-precipitation"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/tables/8-103-food-needs-per-day"

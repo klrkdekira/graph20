@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.18",
     "heading": "Paladin Spell List",
-    "lineStart": 3478,
-    "lineEnd": 3483
+    "lineStart": 3408,
+    "lineEnd": 3413
   },
   "columns": [
     "Spell",
@@ -77,5 +77,19 @@
       ]
     }
   ],
-  "rawText": "| Spell           | School     | Special |\n| :-------------- | :--------- | :------ |\n| Aura of Life    | Abjuration | C       |\n| Banishment      | Abjuration | C       |\n| Death Ward      | Abjuration |    -    |\n| Locate Creature | Divination | C       |"
+  "rawText": "| Spell           | School     | Special |\n| :-------------- | :--------- | :------ |\n| Aura of Life    | Abjuration | C       |\n| Banishment      | Abjuration | C       |\n| Death Ward      | Abjuration |    -    |\n| Locate Creature | Divination | C       |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/aura-of-life"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/banishment"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/death-ward"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/locate-creature"
+    }
+  ]
 }

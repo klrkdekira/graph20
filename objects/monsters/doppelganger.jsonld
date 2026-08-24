@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.77",
     "heading": "Doppelganger",
-    "lineStart": 20353,
-    "lineEnd": 20387
+    "lineStart": 20277,
+    "lineEnd": 20311
   },
   "sizeTypeAlignment": "Medium Monstrosity, Neutral",
   "sizeAndType": "Medium Monstrosity",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.77",
         "heading": "Actions",
-        "lineStart": 20375,
-        "lineEnd": 20383
+        "lineStart": 20299,
+        "lineEnd": 20307
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.77",
         "heading": "Bonus Actions",
-        "lineStart": 20385,
-        "lineEnd": 20387
+        "lineStart": 20309,
+        "lineEnd": 20311
       }
     }
   ],
@@ -120,6 +120,11 @@
       "parseStatus": "parsed",
       "attackBonus": 6,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
     }
   ]
 }

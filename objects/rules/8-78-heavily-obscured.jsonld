@@ -11,9 +11,14 @@
     "chapter": "Rules Glossary",
     "section": "8.78",
     "heading": "Heavily Obscured",
-    "lineStart": 13267,
-    "lineEnd": 13269
+    "lineStart": 13191,
+    "lineEnd": 13193
   },
   "section": "8.78",
-  "rulesText": "You have the Blinded condition while trying to see something in a Heavily Obscured space. See also “Blinded,” “Darkness,” and “Playing the Game” (“Exploration”)."
+  "rulesText": "You have the Blinded condition while trying to see something in a Heavily Obscured space. See also “Blinded,” “Darkness,” and “Playing the Game” (“Exploration”).",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/blinded"
+    }
+  ]
 }

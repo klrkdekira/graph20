@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.21",
     "heading": "Ranger Spell List",
-    "lineStart": 3764,
-    "lineEnd": 3770
+    "lineStart": 3694,
+    "lineEnd": 3700
   },
   "columns": [
     "Spell",
@@ -91,5 +91,22 @@
       ]
     }
   ],
-  "rawText": "| Spell                   | School        | Special |\n| :---------------------- | :------------ | :------ |\n| Conjure Woodland Beings | Conjuration   | C       |\n| Dominate Beast          | Enchantment   | C       |\n| Freedom of Movement     | Abjuration    |    -    |\n| Locate Creature         | Divination    | C       |\n| Stoneskin               | Transmutation | C, M    |"
+  "rawText": "| Spell                   | School        | Special |\n| :---------------------- | :------------ | :------ |\n| Conjure Woodland Beings | Conjuration   | C       |\n| Dominate Beast          | Enchantment   | C       |\n| Freedom of Movement     | Abjuration    |    -    |\n| Locate Creature         | Divination    | C       |\n| Stoneskin               | Transmutation | C, M    |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/conjure-woodland-beings"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dominate-beast"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/freedom-of-movement"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/locate-creature"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/stoneskin"
+    }
+  ]
 }

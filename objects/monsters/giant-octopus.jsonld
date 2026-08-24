@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.41",
     "heading": "Giant Octopus",
-    "lineStart": 27758,
-    "lineEnd": 27787
+    "lineStart": 27682,
+    "lineEnd": 27711
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -76,8 +76,8 @@
         "chapter": "Animals",
         "section": "13.41",
         "heading": "Traits",
-        "lineStart": 27777,
-        "lineEnd": 27779
+        "lineStart": 27701,
+        "lineEnd": 27703
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Animals",
         "section": "13.41",
         "heading": "Actions",
-        "lineStart": 27781,
-        "lineEnd": 27783
+        "lineStart": 27705,
+        "lineEnd": 27707
       }
     },
     {
@@ -98,8 +98,8 @@
         "chapter": "Animals",
         "section": "13.41",
         "heading": "Reactions",
-        "lineStart": 27785,
-        "lineEnd": 27787
+        "lineStart": 27709,
+        "lineEnd": 27711
       }
     }
   ],
@@ -125,6 +125,14 @@
       "parseStatus": "parsed",
       "attackBonus": 5,
       "reachFeet": 10
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
   ]
 }

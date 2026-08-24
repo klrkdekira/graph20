@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.5",
     "heading": "Bard Spell List",
-    "lineStart": 1906,
-    "lineEnd": 1911
+    "lineStart": 1836,
+    "lineEnd": 1841
   },
   "columns": [
     "Spell",
@@ -77,5 +77,19 @@
       ]
     }
   ],
-  "rawText": "| Spell            | School        | Special |\n| :--------------- | :------------ | :------ |\n| Prestidigitation | Transmutation |    -    |\n| Starry Wisp      | Evocation     |    -    |\n| True Strike      | Divination    |    -    |\n| Vicious Mockery  | Enchantment   |    -    |"
+  "rawText": "| Spell            | School        | Special |\n| :--------------- | :------------ | :------ |\n| Prestidigitation | Transmutation |    -    |\n| Starry Wisp      | Evocation     |    -    |\n| True Strike      | Divination    |    -    |\n| Vicious Mockery  | Enchantment   |    -    |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/prestidigitation"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/starry-wisp"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/true-strike"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/vicious-mockery"
+    }
+  ]
 }

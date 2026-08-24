@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.49",
     "heading": "Astral Projection",
-    "lineStart": 7656,
-    "lineEnd": 7673
+    "lineStart": 7586,
+    "lineEnd": 7603
   },
   "level": 9,
   "school": "Necromancy",
@@ -39,5 +39,10 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
+    }
+  ]
 }

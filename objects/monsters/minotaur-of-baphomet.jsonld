@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.169",
     "heading": "Minotaur of Baphomet",
-    "lineStart": 23283,
-    "lineEnd": 23309
+    "lineStart": 23207,
+    "lineEnd": 23233
   },
   "sizeTypeAlignment": "Large Monstrosity, Chaotic Evil",
   "sizeAndType": "Large Monstrosity",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.169",
         "heading": "Actions",
-        "lineStart": 23304,
-        "lineEnd": 23309
+        "lineStart": 23228,
+        "lineEnd": 23233
       }
     }
   ],
@@ -142,6 +142,11 @@
       "parseStatus": "parsed",
       "attackBonus": 6,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

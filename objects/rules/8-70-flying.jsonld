@@ -11,9 +11,14 @@
     "chapter": "Rules Glossary",
     "section": "8.70",
     "heading": "Flying",
-    "lineStart": 13219,
-    "lineEnd": 13221
+    "lineStart": 13143,
+    "lineEnd": 13145
   },
   "section": "8.70",
-  "rulesText": "A variety of effects allow a creature to fly. While flying, you fall if you have the Incapacitated or Prone condition or your Fly Speed is reduced to 0. You can stay aloft in those circumstances if you can hover. See also “Falling” and “Fly Speed.”"
+  "rulesText": "A variety of effects allow a creature to fly. While flying, you fall if you have the Incapacitated or Prone condition or your Fly Speed is reduced to 0. You can stay aloft in those circumstances if you can hover. See also “Falling” and “Fly Speed.”",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    }
+  ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.46",
     "heading": "Adult Bronze Dragon",
-    "lineStart": 19360,
-    "lineEnd": 19412
+    "lineStart": 19284,
+    "lineEnd": 19336
   },
   "sizeTypeAlignment": "Huge Dragon (Metallic), Lawful Good",
   "sizeAndType": "Huge Dragon (Metallic)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.46",
         "heading": "Traits",
-        "lineStart": 19380,
-        "lineEnd": 19384
+        "lineStart": 19304,
+        "lineEnd": 19308
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.46",
         "heading": "Actions",
-        "lineStart": 19386,
-        "lineEnd": 19400
+        "lineStart": 19310,
+        "lineEnd": 19324
       }
     },
     {
@@ -99,8 +99,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.46",
         "heading": "Legendary Actions",
-        "lineStart": 19402,
-        "lineEnd": 19412
+        "lineStart": 19326,
+        "lineEnd": 19336
       }
     }
   ],
@@ -135,6 +135,14 @@
       "parseStatus": "parsed",
       "attackBonus": 12,
       "reachFeet": 10
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/deafened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

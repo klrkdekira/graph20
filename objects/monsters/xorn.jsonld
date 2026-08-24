@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.270",
     "heading": "Xorn",
-    "lineStart": 26646,
-    "lineEnd": 26684
+    "lineStart": 26570,
+    "lineEnd": 26608
   },
   "sizeTypeAlignment": "Medium Elemental, Neutral",
   "sizeAndType": "Medium Elemental",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.270",
         "heading": "Traits",
-        "lineStart": 26668,
-        "lineEnd": 26672
+        "lineStart": 26592,
+        "lineEnd": 26596
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.270",
         "heading": "Actions",
-        "lineStart": 26674,
-        "lineEnd": 26680
+        "lineStart": 26598,
+        "lineEnd": 26604
       }
     },
     {
@@ -99,8 +99,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.270",
         "heading": "Bonus Actions",
-        "lineStart": 26682,
-        "lineEnd": 26684
+        "lineStart": 26606,
+        "lineEnd": 26608
       }
     }
   ],

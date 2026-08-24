@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.194",
     "heading": "Quasit",
-    "lineStart": 24101,
-    "lineEnd": 24136
+    "lineStart": 24025,
+    "lineEnd": 24060
   },
   "sizeTypeAlignment": "Tiny Fiend (Demon), Chaotic Evil",
   "sizeAndType": "Tiny Fiend (Demon)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.194",
         "heading": "Traits",
-        "lineStart": 24124,
-        "lineEnd": 24126
+        "lineStart": 24048,
+        "lineEnd": 24050
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.194",
         "heading": "Actions",
-        "lineStart": 24128,
-        "lineEnd": 24136
+        "lineStart": 24052,
+        "lineEnd": 24060
       }
     }
   ],
@@ -120,6 +120,14 @@
       "parseStatus": "parsed",
       "attackBonus": 5,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
   ]
 }

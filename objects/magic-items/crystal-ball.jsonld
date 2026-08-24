@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.83",
     "heading": "Crystal Ball",
-    "lineStart": 15357,
-    "lineEnd": 15361
+    "lineStart": 15281,
+    "lineEnd": 15285
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Very Rare",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Very Rare (Requires Attunement)\n\nWhile touching this crystal orb, you can cast Scrying (save DC 17) with it."
+  "rulesText": "Wondrous Item, Very Rare (Requires Attunement)\n\nWhile touching this crystal orb, you can cast Scrying (save DC 17) with it.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/scrying"
+    }
+  ]
 }

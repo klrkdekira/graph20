@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.96",
     "heading": "Wolf",
-    "lineStart": 29242,
-    "lineEnd": 29267
+    "lineStart": 29166,
+    "lineEnd": 29191
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
@@ -76,8 +76,8 @@
         "chapter": "Animals",
         "section": "13.96",
         "heading": "Traits",
-        "lineStart": 29261,
-        "lineEnd": 29263
+        "lineStart": 29185,
+        "lineEnd": 29187
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Animals",
         "section": "13.96",
         "heading": "Actions",
-        "lineStart": 29265,
-        "lineEnd": 29267
+        "lineStart": 29189,
+        "lineEnd": 29191
       }
     }
   ],
@@ -114,6 +114,14 @@
       "parseStatus": "parsed",
       "attackBonus": 4,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

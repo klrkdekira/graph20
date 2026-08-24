@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.29",
     "heading": "Warlock Spell List",
-    "lineStart": 4821,
-    "lineEnd": 4834
+    "lineStart": 4751,
+    "lineEnd": 4764
   },
   "columns": [
     "Spell",
@@ -189,5 +189,43 @@
       ]
     }
   ],
-  "rawText": "| Spell                         | School        | Special |\n| :---------------------------- | :------------ | :------ |\n| Bane                          | Enchantment   | C       |\n| Charm Person                  | Enchantment   |    -    |\n| Comprehend Languages          | Divination    | R       |\n| Detect Magic                  | Divination    | C, R    |\n| Expeditious Retreat           | Transmutation | C       |\n| Hellish Rebuke                | Evocation     |    -    |\n| Hex                           | Enchantment   | C       |\n| Hideous Laughter              | Enchantment   | C       |\n| Illusory Script               | Illusion      | R, M    |\n| Protection from Evil and Good | Abjuration    | C, M    |\n| Speak with Animals            | Divination    | R       |\n| Unseen Servant                | Conjuration   | R       |"
+  "rawText": "| Spell                         | School        | Special |\n| :---------------------------- | :------------ | :------ |\n| Bane                          | Enchantment   | C       |\n| Charm Person                  | Enchantment   |    -    |\n| Comprehend Languages          | Divination    | R       |\n| Detect Magic                  | Divination    | C, R    |\n| Expeditious Retreat           | Transmutation | C       |\n| Hellish Rebuke                | Evocation     |    -    |\n| Hex                           | Enchantment   | C       |\n| Hideous Laughter              | Enchantment   | C       |\n| Illusory Script               | Illusion      | R, M    |\n| Protection from Evil and Good | Abjuration    | C, M    |\n| Speak with Animals            | Divination    | R       |\n| Unseen Servant                | Conjuration   | R       |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/bane"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/charm-person"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/comprehend-languages"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/expeditious-retreat"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/hellish-rebuke"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/hex"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/hideous-laughter"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/illusory-script"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/protection-from-evil-and-good"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/speak-with-animals"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/unseen-servant"
+    }
+  ]
 }

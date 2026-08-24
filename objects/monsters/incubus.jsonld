@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.143",
     "heading": "Incubus",
-    "lineStart": 22452,
-    "lineEnd": 22493
+    "lineStart": 22376,
+    "lineEnd": 22417
   },
   "sizeTypeAlignment": "Medium Fiend, Neutral Evil",
   "sizeAndType": "Medium Fiend",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.143",
         "heading": "Traits",
-        "lineStart": 22474,
-        "lineEnd": 22476
+        "lineStart": 22398,
+        "lineEnd": 22400
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.143",
         "heading": "Actions",
-        "lineStart": 22478,
-        "lineEnd": 22489
+        "lineStart": 22402,
+        "lineEnd": 22413
       }
     },
     {
@@ -99,8 +99,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.143",
         "heading": "Bonus Actions",
-        "lineStart": 22491,
-        "lineEnd": 22493
+        "lineStart": 22415,
+        "lineEnd": 22417
       }
     }
   ],
@@ -126,6 +126,11 @@
       "parseStatus": "parsed",
       "attackBonus": 7,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
     }
   ]
 }

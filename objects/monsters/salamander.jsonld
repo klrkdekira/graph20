@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.207",
     "heading": "Salamander",
-    "lineStart": 24520,
-    "lineEnd": 24553
+    "lineStart": 24444,
+    "lineEnd": 24477
   },
   "sizeTypeAlignment": "Large Elemental, Neutral Evil",
   "sizeAndType": "Large Elemental",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.207",
         "heading": "Traits",
-        "lineStart": 24543,
-        "lineEnd": 24545
+        "lineStart": 24467,
+        "lineEnd": 24469
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.207",
         "heading": "Actions",
-        "lineStart": 24547,
-        "lineEnd": 24553
+        "lineStart": 24471,
+        "lineEnd": 24477
       }
     }
   ],
@@ -128,6 +128,14 @@
         "normal": 20,
         "long": 60
       }
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
   ]
 }

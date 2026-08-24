@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/7-298-scrying-table-2",
+  "@type": "Table",
+  "name": "Scrying Table 2",
+  "slug": "7-298-scrying-table-2",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.298",
+    "heading": "Scrying",
+    "lineStart": 11456,
+    "lineEnd": 11460
+  },
+  "columns": [
+    "You Have the Target’s ...",
+    "Save Modifier"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Picture or other likeness"
+        },
+        {
+          "value": "-2"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Garment or other possession"
+        },
+        {
+          "value": "-4"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Body part, lock of hair, or bit of nail"
+        },
+        {
+          "value": "-10"
+        }
+      ]
+    }
+  ],
+  "rawText": "| You Have the Target’s ...               | Save Modifier |\n| :-------------------------------------- | :------------ |\n| Picture or other likeness               | -2            |\n| Garment or other possession             | -4            |\n| Body part, lock of hair, or bit of nail | -10           |"
+}

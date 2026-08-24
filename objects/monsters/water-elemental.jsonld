@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.253",
     "heading": "Water Elemental",
-    "lineStart": 26055,
-    "lineEnd": 26089
+    "lineStart": 25979,
+    "lineEnd": 26013
   },
   "sizeTypeAlignment": "Large Elemental, Neutral",
   "sizeAndType": "Large Elemental",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.253",
         "heading": "Traits",
-        "lineStart": 26077,
-        "lineEnd": 26081
+        "lineStart": 26001,
+        "lineEnd": 26005
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.253",
         "heading": "Actions",
-        "lineStart": 26083,
-        "lineEnd": 26089
+        "lineStart": 26007,
+        "lineEnd": 26013
       }
     }
   ],
@@ -141,6 +141,17 @@
       "parseStatus": "parsed",
       "attackBonus": 7,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
   ]
 }

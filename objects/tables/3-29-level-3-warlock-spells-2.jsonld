@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.29",
     "heading": "Warlock Spell List",
-    "lineStart": 4860,
-    "lineEnd": 4868
+    "lineStart": 4790,
+    "lineEnd": 4798
   },
   "columns": [
     "Spell",
@@ -119,5 +119,28 @@
       ]
     }
   ],
-  "rawText": "| Spell            | School        | Special |\n| :--------------- | :------------ | :------ |\n| Gaseous Form     | Transmutation | C       |\n| Hypnotic Pattern | Illusion      | C       |\n| Magic Circle     | Abjuration    | M       |\n| Major Image      | Illusion      | C       |\n| Remove Curse     | Abjuration    |    -    |\n| Tongues          | Divination    |    -    |\n| Vampiric Touch   | Necromancy    | C       |"
+  "rawText": "| Spell            | School        | Special |\n| :--------------- | :------------ | :------ |\n| Gaseous Form     | Transmutation | C       |\n| Hypnotic Pattern | Illusion      | C       |\n| Magic Circle     | Abjuration    | M       |\n| Major Image      | Illusion      | C       |\n| Remove Curse     | Abjuration    |    -    |\n| Tongues          | Divination    |    -    |\n| Vampiric Touch   | Necromancy    | C       |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/gaseous-form"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/hypnotic-pattern"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/magic-circle"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/major-image"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/remove-curse"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/tongues"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/vampiric-touch"
+    }
+  ]
 }

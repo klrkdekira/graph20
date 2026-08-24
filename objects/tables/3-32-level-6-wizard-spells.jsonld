@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.32",
     "heading": "Wizard Spell List",
-    "lineStart": 5309,
-    "lineEnd": 5329
+    "lineStart": 5239,
+    "lineEnd": 5259
   },
   "columns": [
     "Spell",
@@ -287,5 +287,64 @@
       ]
     }
   ],
-  "rawText": "| Spell                    | School        | Special |\n| :----------------------- | :------------ | :------ |\n| Chain Lightning          | Evocation     |    -    |\n| Circle of Death          | Necromancy    | M       |\n| Contingency              | Abjuration    | M       |\n| Create Undead            | Necromancy    | M       |\n| Disintegrate             | Transmutation |    -    |\n| Eyebite                  | Necromancy    | C       |\n| Flesh to Stone           | Transmutation | C       |\n| Freezing Sphere          | Evocation     |    -    |\n| Globe of Invulnerability | Abjuration    | C       |\n| Guards and Wards         | Abjuration    | M       |\n| Instant Summons          | Conjuration   | R, M    |\n| Irresistible Dance       | Enchantment   | C       |\n| Magic Jar                | Necromancy    | M       |\n| Mass Suggestion          | Enchantment   |    -    |\n| Move Earth               | Transmutation | C       |\n| Programmed Illusion      | Illusion      | M       |\n| Sunbeam                  | Evocation     | C       |\n| True Seeing              | Divination    | M       |\n| Wall of Ice              | Evocation     | C       |"
+  "rawText": "| Spell                    | School        | Special |\n| :----------------------- | :------------ | :------ |\n| Chain Lightning          | Evocation     |    -    |\n| Circle of Death          | Necromancy    | M       |\n| Contingency              | Abjuration    | M       |\n| Create Undead            | Necromancy    | M       |\n| Disintegrate             | Transmutation |    -    |\n| Eyebite                  | Necromancy    | C       |\n| Flesh to Stone           | Transmutation | C       |\n| Freezing Sphere          | Evocation     |    -    |\n| Globe of Invulnerability | Abjuration    | C       |\n| Guards and Wards         | Abjuration    | M       |\n| Instant Summons          | Conjuration   | R, M    |\n| Irresistible Dance       | Enchantment   | C       |\n| Magic Jar                | Necromancy    | M       |\n| Mass Suggestion          | Enchantment   |    -    |\n| Move Earth               | Transmutation | C       |\n| Programmed Illusion      | Illusion      | M       |\n| Sunbeam                  | Evocation     | C       |\n| True Seeing              | Divination    | M       |\n| Wall of Ice              | Evocation     | C       |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/chain-lightning"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/circle-of-death"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/contingency"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/create-undead"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/disintegrate"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/eyebite"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/flesh-to-stone"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/freezing-sphere"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/globe-of-invulnerability"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/guards-and-wards"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/instant-summons"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/irresistible-dance"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/magic-jar"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mass-suggestion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/move-earth"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/programmed-illusion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/sunbeam"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/true-seeing"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/wall-of-ice"
+    }
+  ]
 }

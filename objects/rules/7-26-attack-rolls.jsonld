@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.26",
     "heading": "Attack Rolls",
-    "lineStart": 7329,
-    "lineEnd": 7333
+    "lineStart": 7259,
+    "lineEnd": 7263
   },
   "section": "7.26",
   "rulesText": "Some spells require the caster to make an attack roll to determine whether the spell hits a target. Here's how to calculate the attack modifier for your spells:\n\nSpell attack modifier = your spellcasting ability modifier + your Proficiency Bonus"

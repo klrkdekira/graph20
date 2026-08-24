@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.185",
     "heading": "Pirate",
-    "lineStart": 23796,
-    "lineEnd": 23821
+    "lineStart": 23720,
+    "lineEnd": 23745
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -76,12 +76,20 @@
         "chapter": "Monsters A-Z",
         "section": "12.185",
         "heading": "Actions",
-        "lineStart": 23815,
-        "lineEnd": 23821
+        "lineStart": 23739,
+        "lineEnd": 23745
       }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 14\nInitiative +5 (15)\nHP 33 (6d8 + 6)\nSpeed 30 ft.\n\nGear Daggers (6), Leather Armor\nSenses Passive Perception 11\nLanguages Common plus one other language\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The pirate makes two Dagger attacks. It can replace one attack with a use of Enthralling Panache.\n\nDagger. Melee or Ranged Attack Roll: +5, reach 5 ft. or range 20/60 ft. Hit: 5 (1d4 + 3) Piercing damage.\n\nEnthralling Panache. Wisdom Saving Throw: DC 12, one creature the pirate can see within 30 feet. Failure: The target has the Charmed condition until the start of the pirate's next turn.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/dagger"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/leather-armor"
+    }
+  ],
   "attacks": [
     {
       "name": "Dagger",
@@ -107,6 +115,11 @@
         "normal": 20,
         "long": 60
       }
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
     }
   ]
 }

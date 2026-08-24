@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.368",
     "heading": "Wind Walk",
-    "lineStart": 12638,
-    "lineEnd": 12649
+    "lineStart": 12562,
+    "lineEnd": 12573
   },
   "level": 6,
   "school": "Transmutation",
@@ -31,5 +31,13 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/stunned"
+    }
+  ]
 }

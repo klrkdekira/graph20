@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.168",
     "heading": "Mimic",
-    "lineStart": 23247,
-    "lineEnd": 23281
+    "lineStart": 23171,
+    "lineEnd": 23205
   },
   "sizeTypeAlignment": "Medium Monstrosity, Neutral",
   "sizeAndType": "Medium Monstrosity",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.168",
         "heading": "Traits",
-        "lineStart": 23269,
-        "lineEnd": 23271
+        "lineStart": 23193,
+        "lineEnd": 23195
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.168",
         "heading": "Actions",
-        "lineStart": 23273,
-        "lineEnd": 23277
+        "lineStart": 23197,
+        "lineEnd": 23201
       }
     },
     {
@@ -99,8 +99,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.168",
         "heading": "Bonus Actions",
-        "lineStart": 23279,
-        "lineEnd": 23281
+        "lineStart": 23203,
+        "lineEnd": 23205
       }
     }
   ],
@@ -180,6 +180,11 @@
       "parseStatus": "parsed",
       "attackBonus": 5,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
     }
   ]
 }

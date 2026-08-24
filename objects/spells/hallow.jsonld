@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.188",
     "heading": "Hallow",
-    "lineStart": 9870,
-    "lineEnd": 9903
+    "lineStart": 9800,
+    "lineEnd": 9833
   },
   "level": 5,
   "school": "Abjuration",
@@ -31,5 +31,10 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    }
+  ]
 }

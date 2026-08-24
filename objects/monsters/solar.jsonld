@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.223",
     "heading": "Solar",
-    "lineStart": 25011,
-    "lineEnd": 25067
+    "lineStart": 24935,
+    "lineEnd": 24991
   },
   "sizeTypeAlignment": "Large Celestial (Angel), Lawful Good",
   "sizeAndType": "Large Celestial (Angel)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.223",
         "heading": "Traits",
-        "lineStart": 25033,
-        "lineEnd": 25041
+        "lineStart": 24957,
+        "lineEnd": 24965
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.223",
         "heading": "Actions",
-        "lineStart": 25043,
-        "lineEnd": 25055
+        "lineStart": 24967,
+        "lineEnd": 24979
       }
     },
     {
@@ -99,8 +99,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.223",
         "heading": "Bonus Actions",
-        "lineStart": 25057,
-        "lineEnd": 25059
+        "lineStart": 24981,
+        "lineEnd": 24983
       }
     },
     {
@@ -110,8 +110,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.223",
         "heading": "Legendary Actions",
-        "lineStart": 25061,
-        "lineEnd": 25067
+        "lineStart": 24985,
+        "lineEnd": 24991
       }
     }
   ],
@@ -163,6 +163,11 @@
       "rangeFeet": {
         "normal": 120
       }
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/blinded"
     }
   ]
 }

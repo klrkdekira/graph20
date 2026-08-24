@@ -11,11 +11,16 @@
     "chapter": "Feats",
     "section": "5.23",
     "heading": "Boon of the Night Spirit",
-    "lineStart": 5915,
-    "lineEnd": 5925
+    "lineStart": 5845,
+    "lineEnd": 5855
   },
   "category": "Epic Boon",
   "prerequisite": "Level 19+",
   "repeatable": false,
-  "rulesText": "Epic Boon Feat (Prerequisite: Level 19+)\n\nYou gain the following benefits.\n\nAbility Score Increase. Increase one ability score of your choice by 1, to a maximum of 30.\n\nMerge with Shadows. While within Dim Light or Darkness, you can give yourself the Invisible condition as a Bonus Action. The condition ends on you immediately after you take an action, a Bonus Action, or a Reaction.\n\nShadowy Form. While within Dim Light or Darkness, you have Resistance to all damage except Psychic and Radiant."
+  "rulesText": "Epic Boon Feat (Prerequisite: Level 19+)\n\nYou gain the following benefits.\n\nAbility Score Increase. Increase one ability score of your choice by 1, to a maximum of 30.\n\nMerge with Shadows. While within Dim Light or Darkness, you can give yourself the Invisible condition as a Bonus Action. The condition ends on you immediately after you take an action, a Bonus Action, or a Reaction.\n\nShadowy Form. While within Dim Light or Darkness, you have Resistance to all damage except Psychic and Radiant.",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/invisible"
+    }
+  ]
 }

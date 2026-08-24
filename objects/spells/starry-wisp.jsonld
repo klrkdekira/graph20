@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.327",
     "heading": "Starry Wisp",
-    "lineStart": 11944,
-    "lineEnd": 11955
+    "lineStart": 11868,
+    "lineEnd": 11879
   },
   "level": 0,
   "school": "Evocation",
@@ -45,5 +45,10 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/invisible"
+    }
+  ]
 }

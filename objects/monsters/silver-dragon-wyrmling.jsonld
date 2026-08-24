@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.215",
     "heading": "Silver Dragon Wyrmling",
-    "lineStart": 24769,
-    "lineEnd": 24798
+    "lineStart": 24693,
+    "lineEnd": 24722
   },
   "sizeTypeAlignment": "Medium Dragon (Metallic), Lawful Good",
   "sizeAndType": "Medium Dragon (Metallic)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.215",
         "heading": "Actions",
-        "lineStart": 24789,
-        "lineEnd": 24798
+        "lineStart": 24713,
+        "lineEnd": 24722
       }
     }
   ],
@@ -104,6 +104,14 @@
       "parseStatus": "parsed",
       "attackBonus": 6,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/paralyzed"
     }
   ]
 }

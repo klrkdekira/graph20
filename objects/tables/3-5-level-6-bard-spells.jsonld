@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.5",
     "heading": "Bard Spell List",
-    "lineStart": 2029,
-    "lineEnd": 2038
+    "lineStart": 1959,
+    "lineEnd": 1968
   },
   "columns": [
     "Spell",
@@ -133,5 +133,31 @@
       ]
     }
   ],
-  "rawText": "| Spell               | School      | Special |\n| :------------------ | :---------- | :------ |\n| Eyebite             | Necromancy  | C       |\n| Find the Path       | Divination  | C, M    |\n| Guards and Wards    | Abjuration  | M       |\n| Heroes’ Feast       | Conjuration | M       |\n| Irresistible Dance  | Enchantment | C       |\n| Mass Suggestion     | Enchantment |    -    |\n| Programmed Illusion | Illusion    | M       |\n| True Seeing         | Divination  | M       |"
+  "rawText": "| Spell               | School      | Special |\n| :------------------ | :---------- | :------ |\n| Eyebite             | Necromancy  | C       |\n| Find the Path       | Divination  | C, M    |\n| Guards and Wards    | Abjuration  | M       |\n| Heroes’ Feast       | Conjuration | M       |\n| Irresistible Dance  | Enchantment | C       |\n| Mass Suggestion     | Enchantment |    -    |\n| Programmed Illusion | Illusion    | M       |\n| True Seeing         | Divination  | M       |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/eyebite"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/find-the-path"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/guards-and-wards"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/heroes-feast"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/irresistible-dance"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mass-suggestion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/programmed-illusion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/true-seeing"
+    }
+  ]
 }

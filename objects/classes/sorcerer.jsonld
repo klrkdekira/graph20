@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.25",
     "heading": "Sorcerer",
-    "lineStart": 4009,
-    "lineEnd": 4463
+    "lineStart": 3939,
+    "lineEnd": 4393
   },
   "coreTraits": [
     {
@@ -61,8 +61,8 @@
         "chapter": "Classes",
         "section": "3.25",
         "heading": "Level 1: Spellcasting",
-        "lineStart": 4064,
-        "lineEnd": 4086
+        "lineStart": 3994,
+        "lineEnd": 4016
       }
     },
     {
@@ -73,8 +73,8 @@
         "chapter": "Classes",
         "section": "3.25",
         "heading": "Level 1: Innate Sorcery",
-        "lineStart": 4088,
-        "lineEnd": 4095
+        "lineStart": 4018,
+        "lineEnd": 4025
       }
     },
     {
@@ -85,8 +85,8 @@
         "chapter": "Classes",
         "section": "3.25",
         "heading": "Level 2: Font of Magic",
-        "lineStart": 4097,
-        "lineEnd": 4119
+        "lineStart": 4027,
+        "lineEnd": 4049
       },
       "relatedTables": [
         {
@@ -102,8 +102,8 @@
         "chapter": "Classes",
         "section": "3.25",
         "heading": "Level 2: Metamagic",
-        "lineStart": 4121,
-        "lineEnd": 4127
+        "lineStart": 4051,
+        "lineEnd": 4057
       }
     },
     {
@@ -114,8 +114,8 @@
         "chapter": "Classes",
         "section": "3.25",
         "heading": "Level 3: Sorcerer Subclass",
-        "lineStart": 4129,
-        "lineEnd": 4131
+        "lineStart": 4059,
+        "lineEnd": 4061
       }
     },
     {
@@ -126,8 +126,8 @@
         "chapter": "Classes",
         "section": "3.25",
         "heading": "Level 4: Ability Score Improvement",
-        "lineStart": 4133,
-        "lineEnd": 4135
+        "lineStart": 4063,
+        "lineEnd": 4065
       }
     },
     {
@@ -138,8 +138,8 @@
         "chapter": "Classes",
         "section": "3.25",
         "heading": "Level 5: Sorcerous Restoration",
-        "lineStart": 4137,
-        "lineEnd": 4139
+        "lineStart": 4067,
+        "lineEnd": 4069
       }
     },
     {
@@ -150,8 +150,8 @@
         "chapter": "Classes",
         "section": "3.25",
         "heading": "Level 7: Sorcery Incarnate",
-        "lineStart": 4141,
-        "lineEnd": 4145
+        "lineStart": 4071,
+        "lineEnd": 4075
       }
     },
     {
@@ -162,8 +162,8 @@
         "chapter": "Classes",
         "section": "3.25",
         "heading": "Level 19: Epic Boon",
-        "lineStart": 4147,
-        "lineEnd": 4149
+        "lineStart": 4077,
+        "lineEnd": 4079
       }
     },
     {
@@ -174,8 +174,8 @@
         "chapter": "Classes",
         "section": "3.25",
         "heading": "Level 20: Arcane Apotheosis",
-        "lineStart": 4151,
-        "lineEnd": 4153
+        "lineStart": 4081,
+        "lineEnd": 4083
       }
     }
   ],

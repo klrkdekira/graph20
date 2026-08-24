@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.204",
     "heading": "Hypnotic Pattern",
-    "lineStart": 10106,
-    "lineEnd": 10117
+    "lineStart": 10036,
+    "lineEnd": 10047
   },
   "level": 3,
   "school": "Illusion",
@@ -44,5 +44,13 @@
   "savingThrowAbility": "Wisdom",
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    }
+  ]
 }

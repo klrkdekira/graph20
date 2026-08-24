@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.21",
     "heading": "Ranger Spell List",
-    "lineStart": 3727,
-    "lineEnd": 3743
+    "lineStart": 3657,
+    "lineEnd": 3673
   },
   "columns": [
     "Spell",
@@ -231,5 +231,52 @@
       ]
     }
   ],
-  "rawText": "| Spell                    | School        | Special |\n| :----------------------- | :------------ | :------ |\n| Aid                      | Abjuration    |    -    |\n| Animal Messenger         | Enchantment   | R       |\n| Barkskin                 | Transmutation |    -    |\n| Darkvision               | Transmutation |    -    |\n| Enhance Ability          | Transmutation | C       |\n| Find Traps               | Divination    |    -    |\n| Gust of Wind             | Evocation     | C       |\n| Lesser Restoration       | Abjuration    |    -    |\n| Locate Animals or Plants | Divination    | R       |\n| Locate Object            | Divination    | C       |\n| Magic Weapon             | Transmutation |    -    |\n| Pass without Trace       | Abjuration    | C       |\n| Protection from Poison   | Abjuration    |    -    |\n| Silence                  | Illusion      | C, R    |\n| Spike Growth             | Transmutation | C       |"
+  "rawText": "| Spell                    | School        | Special |\n| :----------------------- | :------------ | :------ |\n| Aid                      | Abjuration    |    -    |\n| Animal Messenger         | Enchantment   | R       |\n| Barkskin                 | Transmutation |    -    |\n| Darkvision               | Transmutation |    -    |\n| Enhance Ability          | Transmutation | C       |\n| Find Traps               | Divination    |    -    |\n| Gust of Wind             | Evocation     | C       |\n| Lesser Restoration       | Abjuration    |    -    |\n| Locate Animals or Plants | Divination    | R       |\n| Locate Object            | Divination    | C       |\n| Magic Weapon             | Transmutation |    -    |\n| Pass without Trace       | Abjuration    | C       |\n| Protection from Poison   | Abjuration    |    -    |\n| Silence                  | Illusion      | C, R    |\n| Spike Growth             | Transmutation | C       |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/aid"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/animal-messenger"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/barkskin"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/darkvision"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/enhance-ability"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/find-traps"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/gust-of-wind"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/lesser-restoration"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/locate-animals-or-plants"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/locate-object"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/magic-weapon"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/pass-without-trace"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/protection-from-poison"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/silence"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/spike-growth"
+    }
+  ]
 }

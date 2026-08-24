@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.159",
     "heading": "Medusa",
-    "lineStart": 23019,
-    "lineEnd": 23052
+    "lineStart": 22943,
+    "lineEnd": 22976
   },
   "sizeTypeAlignment": "Medium Monstrosity, Lawful Evil",
   "sizeAndType": "Medium Monstrosity",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.159",
         "heading": "Actions",
-        "lineStart": 23040,
-        "lineEnd": 23048
+        "lineStart": 22964,
+        "lineEnd": 22972
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.159",
         "heading": "Bonus Actions",
-        "lineStart": 23050,
-        "lineEnd": 23052
+        "lineStart": 22974,
+        "lineEnd": 22976
       }
     }
   ],
@@ -167,6 +167,14 @@
       "rangeFeet": {
         "normal": 150
       }
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/petrified"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
   ]
 }

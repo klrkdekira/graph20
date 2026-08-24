@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.209",
     "heading": "Ring of Jumping",
-    "lineStart": 16810,
-    "lineEnd": 16814
+    "lineStart": 16734,
+    "lineEnd": 16738
   },
   "itemCategory": "Ring",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Ring, Uncommon (Requires Attunement)\n\nWhile wearing this ring, you can cast Jump from it, but can target only yourself when you do so."
+  "rulesText": "Ring, Uncommon (Requires Attunement)\n\nWhile wearing this ring, you can cast Jump from it, but can target only yourself when you do so.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/jump"
+    }
+  ]
 }

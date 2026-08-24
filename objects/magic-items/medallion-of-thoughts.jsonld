@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.160",
     "heading": "Medallion of Thoughts",
-    "lineStart": 16239,
-    "lineEnd": 16243
+    "lineStart": 16163,
+    "lineEnd": 16167
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nThe medallion has 5 charges. While wearing it, you can expend 1 charge to cast Detect Thoughts (save DC 13) from it. The medallion regains 1d4 expended charges daily at dawn."
+  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nThe medallion has 5 charges. While wearing it, you can expend 1 charge to cast Detect Thoughts (save DC 13) from it. The medallion regains 1d4 expended charges daily at dawn.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-thoughts"
+    }
+  ]
 }

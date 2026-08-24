@@ -11,13 +11,18 @@
     "chapter": "Magic Items",
     "section": "10.274",
     "heading": "Trident of Fish Command",
-    "lineStart": 17571,
-    "lineEnd": 17575
+    "lineStart": 17495,
+    "lineEnd": 17499
   },
   "itemCategory": "Weapon",
   "categoryDetail": "Trident",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Weapon (Trident), Uncommon (Requires Attunement)\n\nThis magic weapon has 3 charges, and it regains 1d3 expended charges daily at dawn. While you carry it, you can expend 1 charge to cast Dominate Beast (save DC 15) from it on a Beast that has a Swim Speed."
+  "rulesText": "Weapon (Trident), Uncommon (Requires Attunement)\n\nThis magic weapon has 3 charges, and it regains 1d3 expended charges daily at dawn. While you carry it, you can expend 1 charge to cast Dominate Beast (save DC 15) from it on a Beast that has a Swim Speed.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dominate-beast"
+    }
+  ]
 }

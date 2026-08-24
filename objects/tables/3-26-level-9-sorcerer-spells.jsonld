@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.26",
     "heading": "Sorcerer Spell List",
-    "lineStart": 4414,
-    "lineEnd": 4420
+    "lineStart": 4344,
+    "lineEnd": 4350
   },
   "columns": [
     "Spell",
@@ -91,5 +91,22 @@
       ]
     }
   ],
-  "rawText": "| Spell           | School        | Special |\n| :-------------- | :------------ | :------ |\n| Gate            | Conjuration   | C, M    |\n| Meteor Swarm    | Evocation     |    -    |\n| Power Word Kill | Enchantment   |    -    |\n| Time Stop       | Transmutation |    -    |\n| Wish            | Conjuration   |    -    |"
+  "rawText": "| Spell           | School        | Special |\n| :-------------- | :------------ | :------ |\n| Gate            | Conjuration   | C, M    |\n| Meteor Swarm    | Evocation     |    -    |\n| Power Word Kill | Enchantment   |    -    |\n| Time Stop       | Transmutation |    -    |\n| Wish            | Conjuration   |    -    |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/gate"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/meteor-swarm"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/power-word-kill"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/time-stop"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/wish"
+    }
+  ]
 }

@@ -326,6 +326,20 @@
       ]
     },
     {
+      "iri": "https://cheeleong.dev/graph20/vocab/#castsSpell",
+      "anchor": "castsSpell",
+      "jsonTerms": [
+        "castsSpell"
+      ],
+      "description": "Links the subject using the castsSpell relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "Spell"
+      ]
+    },
+    {
       "iri": "https://cheeleong.dev/graph20/vocab/#category",
       "anchor": "category",
       "jsonTerms": [
@@ -845,6 +859,34 @@
       ]
     },
     {
+      "iri": "https://cheeleong.dev/graph20/vocab/#grantsFeat",
+      "anchor": "grantsFeat",
+      "jsonTerms": [
+        "grantsFeat"
+      ],
+      "description": "Links the subject using the grantsFeat relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "Feat"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#hasGear",
+      "anchor": "hasGear",
+      "jsonTerms": [
+        "hasGear"
+      ],
+      "description": "Links the subject using the hasGear relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "Equipment"
+      ]
+    },
+    {
       "iri": "https://cheeleong.dev/graph20/vocab/#heading",
       "anchor": "heading",
       "jsonTerms": [
@@ -1041,6 +1083,20 @@
       ]
     },
     {
+      "iri": "https://cheeleong.dev/graph20/vocab/#listsSpell",
+      "anchor": "listsSpell",
+      "jsonTerms": [
+        "listsSpell"
+      ],
+      "description": "Links the subject using the listsSpell relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "Spell"
+      ]
+    },
+    {
       "iri": "https://cheeleong.dev/graph20/vocab/#long",
       "anchor": "long",
       "jsonTerms": [
@@ -1092,6 +1148,20 @@
         "Spell",
         "Subclass",
         "Table"
+      ]
+    },
+    {
+      "iri": "https://cheeleong.dev/graph20/vocab/#mentionsCondition",
+      "anchor": "mentionsCondition",
+      "jsonTerms": [
+        "mentionsCondition"
+      ],
+      "description": "Links the subject using the mentionsCondition relationship.",
+      "valueKinds": [
+        "IRI node reference"
+      ],
+      "ranges": [
+        "Condition"
       ]
     },
     {

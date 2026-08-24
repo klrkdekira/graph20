@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.29",
     "heading": "Giant Boar",
-    "lineStart": 27439,
-    "lineEnd": 27463
+    "lineStart": 27363,
+    "lineEnd": 27387
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -75,8 +75,8 @@
         "chapter": "Animals",
         "section": "13.29",
         "heading": "Traits",
-        "lineStart": 27457,
-        "lineEnd": 27459
+        "lineStart": 27381,
+        "lineEnd": 27383
       }
     },
     {
@@ -86,8 +86,8 @@
         "chapter": "Animals",
         "section": "13.29",
         "heading": "Actions",
-        "lineStart": 27461,
-        "lineEnd": 27463
+        "lineStart": 27385,
+        "lineEnd": 27387
       }
     }
   ],
@@ -122,6 +122,11 @@
       "parseStatus": "parsed",
       "attackBonus": 5,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

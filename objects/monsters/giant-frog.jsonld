@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.37",
     "heading": "Giant Frog",
-    "lineStart": 27649,
-    "lineEnd": 27680
+    "lineStart": 27573,
+    "lineEnd": 27604
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
@@ -75,8 +75,8 @@
         "chapter": "Animals",
         "section": "13.37",
         "heading": "Traits",
-        "lineStart": 27668,
-        "lineEnd": 27672
+        "lineStart": 27592,
+        "lineEnd": 27596
       }
     },
     {
@@ -86,8 +86,8 @@
         "chapter": "Animals",
         "section": "13.37",
         "heading": "Actions",
-        "lineStart": 27674,
-        "lineEnd": 27680
+        "lineStart": 27598,
+        "lineEnd": 27604
       }
     }
   ],
@@ -113,6 +113,14 @@
       "parseStatus": "parsed",
       "attackBonus": 3,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

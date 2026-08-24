@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.239",
     "heading": "Sending Stones",
-    "lineStart": 17158,
-    "lineEnd": 17164
+    "lineStart": 17082,
+    "lineEnd": 17088
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": false,
-  "rulesText": "Wondrous Item, Uncommon\n\nSending Stones come in pairs, with each stone carved to match the other so the pairing is easily recognized. While you touch one stone, you can cast Sending from it. The target is the bearer of the other stone. If no creature bears the other stone, you know that fact as soon as you use the stone, and you don't cast the spell.\n\nOnce Sending is cast using either stone, the stones can't be used again until the next dawn. If one of the stones in a pair is destroyed, the other one becomes nonmagical."
+  "rulesText": "Wondrous Item, Uncommon\n\nSending Stones come in pairs, with each stone carved to match the other so the pairing is easily recognized. While you touch one stone, you can cast Sending from it. The target is the bearer of the other stone. If no creature bears the other stone, you know that fact as soon as you use the stone, and you don't cast the spell.\n\nOnce Sending is cast using either stone, the stones can't be used again until the next dawn. If one of the stones in a pair is destroyed, the other one becomes nonmagical.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/sending"
+    }
+  ]
 }

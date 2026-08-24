@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.167",
     "heading": "Merrow",
-    "lineStart": 23213,
-    "lineEnd": 23245
+    "lineStart": 23137,
+    "lineEnd": 23169
   },
   "sizeTypeAlignment": "Large Monstrosity, Chaotic Evil",
   "sizeAndType": "Large Monstrosity",
@@ -75,8 +75,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.167",
         "heading": "Traits",
-        "lineStart": 23233,
-        "lineEnd": 23235
+        "lineStart": 23157,
+        "lineEnd": 23159
       }
     },
     {
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.167",
         "heading": "Actions",
-        "lineStart": 23237,
-        "lineEnd": 23245
+        "lineStart": 23161,
+        "lineEnd": 23169
       }
     }
   ],
@@ -159,6 +159,11 @@
         "normal": 20,
         "long": 60
       }
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
   ]
 }

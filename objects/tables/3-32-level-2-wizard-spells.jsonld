@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.32",
     "heading": "Wizard Spell List",
-    "lineStart": 5172,
-    "lineEnd": 5208
+    "lineStart": 5102,
+    "lineEnd": 5138
   },
   "columns": [
     "Spell",
@@ -511,5 +511,112 @@
       ]
     }
   ],
-  "rawText": "| Spell                 | School        | Special |\n| :-------------------- | :------------ | :------ |\n| Acid Arrow            | Evocation     |    -    |\n| Alter Self            | Transmutation | C       |\n| Arcane Lock           | Abjuration    | M       |\n| Arcanist’s Magic Aura | Illusion      |    -    |\n| Augury                | Divination    | R, M    |\n| Blindness/Deafness    | Transmutation |    -    |\n| Blur                  | Illusion      | C       |\n| Continual Flame       | Evocation     | M       |\n| Darkness              | Evocation     | C       |\n| Darkvision            | Transmutation |    -    |\n| Detect Thoughts       | Divination    | C       |\n| Dragon’s Breath       | Transmutation | C       |\n| Enhance Ability       | Transmutation | C       |\n| Enlarge/Reduce        | Transmutation | C       |\n| Flaming Sphere        | Evocation     | C       |\n| Gentle Repose         | Necromancy    | R, M    |\n| Gust of Wind          | Evocation     | C       |\n| Hold Person           | Enchantment   | C       |\n| Invisibility          | Illusion      | C       |\n| Knock                 | Transmutation |    -    |\n| Levitate              | Transmutation | C       |\n| Locate Object         | Divination    | C       |\n| Magic Mouth           | Illusion      | R, M    |\n| Magic Weapon          | Transmutation |    -    |\n| Mind Spike            | Divination    | C       |\n| Mirror Image          | Illusion      |    -    |\n| Misty Step            | Conjuration   |    -    |\n| Ray of Enfeeblement   | Necromancy    | C       |\n| Rope Trick            | Transmutation |    -    |\n| Scorching Ray         | Evocation     |    -    |\n| See Invisibility      | Divination    |    -    |\n| Shatter               | Evocation     |    -    |\n| Spider Climb          | Transmutation | C       |\n| Suggestion            | Enchantment   | C       |\n| Web                   | Conjuration   | C       |"
+  "rawText": "| Spell                 | School        | Special |\n| :-------------------- | :------------ | :------ |\n| Acid Arrow            | Evocation     |    -    |\n| Alter Self            | Transmutation | C       |\n| Arcane Lock           | Abjuration    | M       |\n| Arcanist’s Magic Aura | Illusion      |    -    |\n| Augury                | Divination    | R, M    |\n| Blindness/Deafness    | Transmutation |    -    |\n| Blur                  | Illusion      | C       |\n| Continual Flame       | Evocation     | M       |\n| Darkness              | Evocation     | C       |\n| Darkvision            | Transmutation |    -    |\n| Detect Thoughts       | Divination    | C       |\n| Dragon’s Breath       | Transmutation | C       |\n| Enhance Ability       | Transmutation | C       |\n| Enlarge/Reduce        | Transmutation | C       |\n| Flaming Sphere        | Evocation     | C       |\n| Gentle Repose         | Necromancy    | R, M    |\n| Gust of Wind          | Evocation     | C       |\n| Hold Person           | Enchantment   | C       |\n| Invisibility          | Illusion      | C       |\n| Knock                 | Transmutation |    -    |\n| Levitate              | Transmutation | C       |\n| Locate Object         | Divination    | C       |\n| Magic Mouth           | Illusion      | R, M    |\n| Magic Weapon          | Transmutation |    -    |\n| Mind Spike            | Divination    | C       |\n| Mirror Image          | Illusion      |    -    |\n| Misty Step            | Conjuration   |    -    |\n| Ray of Enfeeblement   | Necromancy    | C       |\n| Rope Trick            | Transmutation |    -    |\n| Scorching Ray         | Evocation     |    -    |\n| See Invisibility      | Divination    |    -    |\n| Shatter               | Evocation     |    -    |\n| Spider Climb          | Transmutation | C       |\n| Suggestion            | Enchantment   | C       |\n| Web                   | Conjuration   | C       |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/acid-arrow"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/alter-self"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/arcane-lock"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/arcanists-magic-aura"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/augury"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/blindness-deafness"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/blur"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/continual-flame"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/darkness"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/darkvision"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-thoughts"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dragons-breath"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/enhance-ability"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/enlarge-reduce"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/flaming-sphere"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/gentle-repose"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/gust-of-wind"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/hold-person"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/invisibility"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/knock"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/levitate"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/locate-object"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/magic-mouth"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/magic-weapon"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mind-spike"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mirror-image"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/misty-step"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/ray-of-enfeeblement"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/rope-trick"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/scorching-ray"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/see-invisibility"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/shatter"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/spider-climb"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/suggestion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/web"
+    }
+  ]
 }

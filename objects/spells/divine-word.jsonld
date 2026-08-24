@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.124",
     "heading": "Divine Word",
-    "lineStart": 8819,
-    "lineEnd": 8839
+    "lineStart": 8749,
+    "lineEnd": 8769
   },
   "level": 7,
   "school": "Evocation",
@@ -23,7 +23,12 @@
   "range": "30 feet",
   "components": "V",
   "duration": "Instantaneous",
-  "rulesText": "Level 7 Evocation (Cleric)\n\nCasting Time: Bonus Action\nRange: 30 feet\nComponents: V\nDuration: Instantaneous\n\nYou utter a word imbued with power from the Upper Planes. Each creature of your choice in range makes a Charisma saving throw. On a failed save, a target that has 50 Hit Points or fewer suffers an effect based on its current Hit Points, as shown in the Divine Word Effects table. Regardless of its Hit Points, a Celestial, an Elemental, a Fey, or a Fiend\n\ntarget that fails its save is forced back to its plane of origin (if it isn't there already) and can't return to the current plane for 24 hours by any means short of a Wish spell.\n\nDivine Word Effects\n\n| Hit Points | Effect                                                                   |\n| :--------- | :----------------------------------------------------------------------- |\n| 0–20       | The target dies.                                                         |\n| 21–30      | The target has the Blinded, Deafened, and Stunned conditions for 1 hour. |\n| 31–40      | The target has the Blinded and Deafened conditions for 10 minutes.       |\n| 41–50      | The target has the Deafened condition for 1 minute.                      |",
+  "rulesText": "Level 7 Evocation (Cleric)\n\nCasting Time: Bonus Action\nRange: 30 feet\nComponents: V\nDuration: Instantaneous\n\nYou utter a word imbued with power from the Upper Planes. Each creature of your choice in range makes a Charisma saving throw. On a failed save, a target that has 50 Hit Points or fewer suffers an effect based on its current Hit Points, as shown in the Divine Word Effects table. Regardless of its Hit Points, a Celestial, an Elemental, a Fey, or a Fiend\n\ntarget that fails its save is forced back to its plane of origin (if it isn't there already) and can't return to the current plane for 24 hours by any means short of a Wish spell.\n\nDivine Word Effects",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/7-124-divine-word-effects"
+    }
+  ],
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"

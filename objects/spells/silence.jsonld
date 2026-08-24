@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.312",
     "heading": "Silence",
-    "lineStart": 11729,
-    "lineEnd": 11738
+    "lineStart": 11653,
+    "lineEnd": 11662
   },
   "level": 2,
   "school": "Illusion",
@@ -39,5 +39,10 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": true
+  "ritual": true,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/deafened"
+    }
+  ]
 }

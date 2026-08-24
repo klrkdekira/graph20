@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.32",
     "heading": "Wizard Spell List",
-    "lineStart": 5333,
-    "lineEnd": 5349
+    "lineStart": 5263,
+    "lineEnd": 5279
   },
   "columns": [
     "Spell",
@@ -231,5 +231,52 @@
       ]
     }
   ],
-  "rawText": "| Spell                  | School        | Special |\n| :--------------------- | :------------ | :------ |\n| Arcane Sword           | Evocation     | C, M    |\n| Delayed Blast Fireball | Evocation     | C       |\n| Etherealness           | Conjuration   |    -    |\n| Finger of Death        | Necromancy    |    -    |\n| Forcecage              | Evocation     | C, M    |\n| Magnificent Mansion    | Conjuration   | M       |\n| Mirage Arcane          | Illusion      |    -    |\n| Plane Shift            | Conjuration   | M       |\n| Prismatic Spray        | Evocation     |    -    |\n| Project Image          | Illusion      | C, M    |\n| Reverse Gravity        | Transmutation | C       |\n| Sequester              | Transmutation | M       |\n| Simulacrum             | Illusion      | M       |\n| Symbol                 | Abjuration    | M       |\n| Teleport               | Conjuration   |    -    |"
+  "rawText": "| Spell                  | School        | Special |\n| :--------------------- | :------------ | :------ |\n| Arcane Sword           | Evocation     | C, M    |\n| Delayed Blast Fireball | Evocation     | C       |\n| Etherealness           | Conjuration   |    -    |\n| Finger of Death        | Necromancy    |    -    |\n| Forcecage              | Evocation     | C, M    |\n| Magnificent Mansion    | Conjuration   | M       |\n| Mirage Arcane          | Illusion      |    -    |\n| Plane Shift            | Conjuration   | M       |\n| Prismatic Spray        | Evocation     |    -    |\n| Project Image          | Illusion      | C, M    |\n| Reverse Gravity        | Transmutation | C       |\n| Sequester              | Transmutation | M       |\n| Simulacrum             | Illusion      | M       |\n| Symbol                 | Abjuration    | M       |\n| Teleport               | Conjuration   |    -    |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/arcane-sword"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/delayed-blast-fireball"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/etherealness"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/finger-of-death"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/forcecage"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/magnificent-mansion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mirage-arcane"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/plane-shift"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/prismatic-spray"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/project-image"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/reverse-gravity"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/sequester"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/simulacrum"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/symbol"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/teleport"
+    }
+  ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.191",
     "heading": "Priest",
-    "lineStart": 23991,
-    "lineEnd": 24028
+    "lineStart": 23915,
+    "lineEnd": 23952
   },
   "sizeTypeAlignment": "Medium or Small Humanoid (Cleric), Neutral",
   "sizeAndType": "Medium or Small Humanoid (Cleric)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.191",
         "heading": "Actions",
-        "lineStart": 24011,
-        "lineEnd": 24024
+        "lineStart": 23935,
+        "lineEnd": 23948
       }
     },
     {
@@ -88,12 +88,23 @@
         "chapter": "Monsters A-Z",
         "section": "12.191",
         "heading": "Bonus Actions",
-        "lineStart": 24026,
-        "lineEnd": 24028
+        "lineStart": 23950,
+        "lineEnd": 23952
       }
     }
   ],
   "rulesText": "Medium or Small Humanoid (Cleric), Neutral\n\nAC 13\nInitiative +0 (10)\nHP 38 (7d8 + 7)\nSpeed 30 ft.\n\nSkills Medicine +7, Perception +5, Religion +5\nGear Chain Shirt, Holy Symbol, Mace\nSenses Passive Perception 15\nLanguages Common plus one other language\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The priest makes two attacks, using Mace or Radiant Flame in any combination.\n\nMace. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage plus 5 (2d4) Radiant damage.\n\nRadiant Flame. Ranged Attack Roll: +5, range 60 ft.\nHit: 11 (2d10) Radiant damage.\n\nSpellcasting. The priest casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 13):\n\nAt Will: Light, Thaumaturgy\n\n1/Day: Spirit Guardians\n\nBonus Actions\n\nDivine Aid (3/Day). The priest casts Bless, Dispel Magic, Healing Word, or Lesser Restoration, using the same spellcasting ability as Spellcasting.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/chain-shirt"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/holy-symbol"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/mace"
+    }
+  ],
   "attacks": [
     {
       "name": "Mace",

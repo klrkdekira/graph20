@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.202",
     "heading": "Holy Aura",
-    "lineStart": 10080,
-    "lineEnd": 10089
+    "lineStart": 10010,
+    "lineEnd": 10019
   },
   "level": 8,
   "school": "Abjuration",
@@ -32,5 +32,10 @@
   "savingThrowAbility": "Constitution",
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/blinded"
+    }
+  ]
 }

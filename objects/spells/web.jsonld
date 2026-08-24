@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.366",
     "heading": "Web",
-    "lineStart": 12606,
-    "lineEnd": 12623
+    "lineStart": 12530,
+    "lineEnd": 12547
   },
   "level": 2,
   "school": "Conjuration",
@@ -46,5 +46,10 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
+    }
+  ]
 }

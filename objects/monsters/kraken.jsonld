@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.149",
     "heading": "Kraken",
-    "lineStart": 22638,
-    "lineEnd": 22688
+    "lineStart": 22562,
+    "lineEnd": 22612
   },
   "sizeTypeAlignment": "Gargantuan Monstrosity (Titan), Chaotic Evil",
   "sizeAndType": "Gargantuan Monstrosity (Titan)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.149",
         "heading": "Traits",
-        "lineStart": 22660,
-        "lineEnd": 22666
+        "lineStart": 22584,
+        "lineEnd": 22590
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.149",
         "heading": "Actions",
-        "lineStart": 22668,
-        "lineEnd": 22680
+        "lineStart": 22592,
+        "lineEnd": 22604
       }
     },
     {
@@ -99,8 +99,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.149",
         "heading": "Legendary Actions",
-        "lineStart": 22682,
-        "lineEnd": 22688
+        "lineStart": 22606,
+        "lineEnd": 22612
       }
     }
   ],
@@ -140,6 +140,17 @@
       "parseStatus": "parsed",
       "attackBonus": 17,
       "reachFeet": 30
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
   ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.237",
     "heading": "Tarrasque",
-    "lineStart": 25524,
-    "lineEnd": 25583
+    "lineStart": 25448,
+    "lineEnd": 25507
   },
   "sizeTypeAlignment": "Gargantuan Monstrosity (Titan), Unaligned",
   "sizeAndType": "Gargantuan Monstrosity (Titan)",
@@ -78,8 +78,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.237",
         "heading": "Traits",
-        "lineStart": 25547,
-        "lineEnd": 25555
+        "lineStart": 25471,
+        "lineEnd": 25479
       }
     },
     {
@@ -89,8 +89,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.237",
         "heading": "Actions",
-        "lineStart": 25557,
-        "lineEnd": 25569
+        "lineStart": 25481,
+        "lineEnd": 25493
       }
     },
     {
@@ -100,8 +100,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.237",
         "heading": "Bonus Actions",
-        "lineStart": 25571,
-        "lineEnd": 25575
+        "lineStart": 25495,
+        "lineEnd": 25499
       }
     },
     {
@@ -111,8 +111,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.237",
         "heading": "Legendary Actions",
-        "lineStart": 25577,
-        "lineEnd": 25583
+        "lineStart": 25501,
+        "lineEnd": 25507
       }
     }
   ],
@@ -197,6 +197,17 @@
       "parseStatus": "parsed",
       "attackBonus": 19,
       "reachFeet": 30
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
   ]
 }

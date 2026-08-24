@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.125",
     "heading": "Guardian Naga",
-    "lineStart": 21921,
-    "lineEnd": 21959
+    "lineStart": 21845,
+    "lineEnd": 21883
   },
   "sizeTypeAlignment": "Large Celestial, Lawful Good",
   "sizeAndType": "Large Celestial",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.125",
         "heading": "Traits",
-        "lineStart": 21943,
-        "lineEnd": 21945
+        "lineStart": 21867,
+        "lineEnd": 21869
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.125",
         "heading": "Actions",
-        "lineStart": 21947,
-        "lineEnd": 21959
+        "lineStart": 21871,
+        "lineEnd": 21883
       }
     }
   ],
@@ -138,6 +138,11 @@
       "parseStatus": "parsed",
       "attackBonus": 8,
       "reachFeet": 10
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/blinded"
     }
   ]
 }

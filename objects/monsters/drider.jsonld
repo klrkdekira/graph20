@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.80",
     "heading": "Drider",
-    "lineStart": 20452,
-    "lineEnd": 20491
+    "lineStart": 20376,
+    "lineEnd": 20415
   },
   "sizeTypeAlignment": "Large Monstrosity, Chaotic Evil",
   "sizeAndType": "Large Monstrosity",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.80",
         "heading": "Traits",
-        "lineStart": 20473,
-        "lineEnd": 20479
+        "lineStart": 20397,
+        "lineEnd": 20403
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.80",
         "heading": "Actions",
-        "lineStart": 20481,
-        "lineEnd": 20487
+        "lineStart": 20405,
+        "lineEnd": 20411
       }
     },
     {
@@ -98,8 +98,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.80",
         "heading": "Bonus Actions",
-        "lineStart": 20489,
-        "lineEnd": 20491
+        "lineStart": 20413,
+        "lineEnd": 20415
       }
     }
   ],

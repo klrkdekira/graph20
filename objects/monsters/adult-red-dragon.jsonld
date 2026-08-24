@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.199",
     "heading": "Adult Red Dragon",
-    "lineStart": 24239,
-    "lineEnd": 24285
+    "lineStart": 24163,
+    "lineEnd": 24209
   },
   "sizeTypeAlignment": "Huge Dragon (Chromatic), Chaotic Evil",
   "sizeAndType": "Huge Dragon (Chromatic)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.199",
         "heading": "Traits",
-        "lineStart": 24259,
-        "lineEnd": 24261
+        "lineStart": 24183,
+        "lineEnd": 24185
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.199",
         "heading": "Actions",
-        "lineStart": 24263,
-        "lineEnd": 24275
+        "lineStart": 24187,
+        "lineEnd": 24199
       }
     },
     {
@@ -99,8 +99,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.199",
         "heading": "Legendary Actions",
-        "lineStart": 24277,
-        "lineEnd": 24285
+        "lineStart": 24201,
+        "lineEnd": 24209
       }
     }
   ],

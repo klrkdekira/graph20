@@ -1409,142 +1409,72 @@ Trinkets
 | 32    | A knife that belonged to a relative                                                                   |
 | 33    | A glass vial filled with nail clippings                                                               |
 | 34    | A rectangular metal device with two tiny metal cups on one end that throws sparks when wet            |
-
-# 1d100 Trinket
-
-35 A white, sequined glove sized for a human
-
-36 A vest with one hundred tiny pockets
-
-37 A weightless stone
-
-38 A sketch of a goblin
-
-39 An empty glass vial that smells of perfume
-
-40 A gemstone that looks like a lump of coal when examined by anyone but you
-
-41 A scrap of cloth from an old banner
-
-42 A rank insignia from a lost legionnaire
-
-43 A silver bell without a clapper
-
-44 A mechanical canary inside a lamp
-
-45 A miniature chest carved to look like it has numerous feet on the bottom
-
-46 A dead sprite inside a clear glass bottle
-
-47 A metal can that has no opening but sounds as if it is filled with liquid, sand, spiders, or broken glass (your choice)
-
-48 A glass orb filled with water, in which swims a clockwork goldfish
-
-49 A silver spoon with an M engraved on the handle
-
-50 A whistle made from gold-colored wood
-
-51 A dead scarab beetle the size of your hand
-
-52 Two toy soldiers, one missing a head
-
-53 A small box filled with different-sized buttons
-
-54 A candle that can't be lit
-
-55 A miniature cage with no door
-
-56 An old key
-
-57 An indecipherable treasure map
-
-58 A hilt from a broken sword
-
-59 A rabbit's foot
-
-60 A glass eye
-
-61 A cameo of a hideous person
-
-62 A silver skull the size of a coin
-
-63 An alabaster mask
-
-64 A cone of sticky black incense that stinks
-
-65 A nightcap that gives you pleasant dreams when you wear it
-
-66 A single caltrop made from bone
-
-67 A gold monocle frame without the lens
-
-68 A l-inch cube, each side a different color
-
-69 A crystal doorknob
-
-70 A packet filled with pink dust
-
-71 A fragment of a beautiful song, written as musical notes on two pieces of parchment
-
-72 A silver teardrop earring containing a real teardrop
-
-# 1d100 Trinket
-
-73 An eggshell painted with scenes of misery in disturbing detail
-
-74 A fan that, when unfolded, shows a sleepy cat
-
-75 A set of bone pipes
-
-76 A four-leaf clover pressed inside a book discussing manners and etiquette
-
-77 A sheet of parchment upon which is drawn a mechanical contraption
-
-78 An ornate scabbard that fits no blade you have found
-
-79 An invitation to a party where a murder happened
-
-80 A bronze pentacle with an etching of a rat's head in its center
-
-81 A purple handkerchief embroidered with the name of an archmage
-
-82 Half a floor plan for a temple, a castle, or another structure
-
-83 A bit of folded cloth that, when unfolded, turns into a stylish cap
-
-84 A receipt of deposit at a bank in a far-off city
-
-85 A diary with seven missing pages
-
-86 An empty silver snuffbox bearing the inscription “dreams” on its lid
-
-87 An iron holy symbol devoted to an unknown god
-
-88 A book about a legendary hero's rise and fall, with the last chapter missing
-
-89 A vial of dragon blood
-
-90 An ancient arrow of elven design
-
-91 A needle that never bends
-
-92 An ornate brooch of dwarven design
-
-93 An empty wine bottle bearing a pretty label that says, "The Wizard of Wines Winery, Red Dragon Crush, 331422-W"
-
-94 A mosaic tile with a multicolored, glazed surface
-
-95 A petrified mouse
-
-96 A black pirate flag adorned with a dragon's skull and crossbones
-
-97 A tiny mechanical crab or spider that moves about when it's not being observed
-
-98 A glass jar containing lard with a label that reads, "Griffon Grease"
-
-99 A wooden box with a ceramic bottom that holds a living worm with a head on each end of its body
-
-00 A metal urn containing the ashes of a hero
+| 35 | A white, sequined glove sized for a human |
+| 36 | A vest with one hundred tiny pockets |
+| 37 | A weightless stone |
+| 38 | A sketch of a goblin |
+| 39 | An empty glass vial that smells of perfume |
+| 40 | A gemstone that looks like a lump of coal when examined by anyone but you |
+| 41 | A scrap of cloth from an old banner |
+| 42 | A rank insignia from a lost legionnaire |
+| 43 | A silver bell without a clapper |
+| 44 | A mechanical canary inside a lamp |
+| 45 | A miniature chest carved to look like it has numerous feet on the bottom |
+| 46 | A dead sprite inside a clear glass bottle |
+| 47 | A metal can that has no opening but sounds as if it is filled with liquid, sand, spiders, or broken glass (your choice) |
+| 48 | A glass orb filled with water, in which swims a clockwork goldfish |
+| 49 | A silver spoon with an M engraved on the handle |
+| 50 | A whistle made from gold-colored wood |
+| 51 | A dead scarab beetle the size of your hand |
+| 52 | Two toy soldiers, one missing a head |
+| 53 | A small box filled with different-sized buttons |
+| 54 | A candle that can't be lit |
+| 55 | A miniature cage with no door |
+| 56 | An old key |
+| 57 | An indecipherable treasure map |
+| 58 | A hilt from a broken sword |
+| 59 | A rabbit's foot |
+| 60 | A glass eye |
+| 61 | A cameo of a hideous person |
+| 62 | A silver skull the size of a coin |
+| 63 | An alabaster mask |
+| 64 | A cone of sticky black incense that stinks |
+| 65 | A nightcap that gives you pleasant dreams when you wear it |
+| 66 | A single caltrop made from bone |
+| 67 | A gold monocle frame without the lens |
+| 68 | A l-inch cube, each side a different color |
+| 69 | A crystal doorknob |
+| 70 | A packet filled with pink dust |
+| 71 | A fragment of a beautiful song, written as musical notes on two pieces of parchment |
+| 72 | A silver teardrop earring containing a real teardrop |
+| 73 | An eggshell painted with scenes of misery in disturbing detail |
+| 74 | A fan that, when unfolded, shows a sleepy cat |
+| 75 | A set of bone pipes |
+| 76 | A four-leaf clover pressed inside a book discussing manners and etiquette |
+| 77 | A sheet of parchment upon which is drawn a mechanical contraption |
+| 78 | An ornate scabbard that fits no blade you have found |
+| 79 | An invitation to a party where a murder happened |
+| 80 | A bronze pentacle with an etching of a rat's head in its center |
+| 81 | A purple handkerchief embroidered with the name of an archmage |
+| 82 | Half a floor plan for a temple, a castle, or another structure |
+| 83 | A bit of folded cloth that, when unfolded, turns into a stylish cap |
+| 84 | A receipt of deposit at a bank in a far-off city |
+| 85 | A diary with seven missing pages |
+| 86 | An empty silver snuffbox bearing the inscription “dreams” on its lid |
+| 87 | An iron holy symbol devoted to an unknown god |
+| 88 | A book about a legendary hero's rise and fall, with the last chapter missing |
+| 89 | A vial of dragon blood |
+| 90 | An ancient arrow of elven design |
+| 91 | A needle that never bends |
+| 92 | An ornate brooch of dwarven design |
+| 93 | An empty wine bottle bearing a pretty label that says, "The Wizard of Wines Winery, Red Dragon Crush, 331422-W" |
+| 94 | A mosaic tile with a multicolored, glazed surface |
+| 95 | A petrified mouse |
+| 96 | A black pirate flag adorned with a dragon's skull and crossbones |
+| 97 | A tiny mechanical crab or spider that moves about when it's not being observed |
+| 98 | A glass jar containing lard with a label that reads, "Griffon Grease" |
+| 99 | A wooden box with a ceramic bottom that holds a living worm with a head on each end of its body |
+| 00 | A metal urn containing the ashes of a hero |
 
 ---
 
@@ -11133,16 +11063,10 @@ Eight rays of light flash from you in a 60-foot Cone. Each creature in the Cone 
 | 2   | Orange. Failed Save: 12d6 Acid damage. Successful Save: Half as much damage.      |
 | 3   | Yellow. Failed Save: 12d6 Lightning damage. Successful Save: Half as much damage. |
 | 4   | Green. Failed Save: 12d6 Poison damage. Successful Save: Half as much damage.     |
-
-# 1d8 Ray
-
-5 Blue. Failed Save: 12d6 Cold damage. Successful Save: Half as much damage.
-
-6 Indigo. Failed Save: The target has the Restrained condition and makes a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the Petrified condition until it is freed by an effect like the Greater Restoration spell. The successes and failures needn't be consecutive; keep track of both until the target collects three of a kind.
-
-7 Violet. Failed Save: The target has the Blinded condition and makes a Wisdom saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (GM's choice).
-
-8 Special. The target is struck by two rays. Roll twice, rerolling any 8.
+| 5 | Blue. Failed Save: 12d6 Cold damage. Successful Save: Half as much damage. |
+| 6 | Indigo. Failed Save: The target has the Restrained condition and makes a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the Petrified condition until it is freed by an effect like the Greater Restoration spell. The successes and failures needn't be consecutive; keep track of both until the target collects three of a kind. |
+| 7 | Violet. Failed Save: The target has the Blinded condition and makes a Wisdom saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (GM's choice). |
+| 8 | Special. The target is struck by two rays. Roll twice, rerolling any 8. |
 
 # Prismatic Wall
 
@@ -15747,24 +15671,6 @@ Bronze Griffon (Rare). This bronze statuette is of a griffon rampant. It can bec
 
 Ebony Fly (Rare). This ebony statuette, carved in the likeness of a horsefly, can become a Giant Fly (see the accompanying stat block) for up to 12 hours and can be ridden as a mount. Once it has been used, it can't be used again until 2 days have passed.
 
-# Giant Fly
-
-Large Beast, Unaligned
-
-AC 11
-Initiative +1 (11)
-HP 19 (3d10 + 3)
-Speed 30 ft., Fly 60 ft.
-
-| STR | DEX | CON | INT | WIS | CHA |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| 14 (+2) | 13 (+1) | 13 (+1) | 2 (-4) | 10 (+0) | 3 (-4) |
-| Save: +2 | Save: +1 | Save: +1 | Save: -4 | Save: +0 | Save: -4 |
-
-Senses Darkvision 60 ft., Passive Perception 10
-Languages None
-CR 0 (XP 0; PB +2)
-
 Golden Lions (Rare). These gold statuettes of lions are always created in pairs. You can use one figurine or both simultaneously. Each can become a Lion for up to 1 hour. Once a lion has been used, it can't be used again until 7 days have passed.
 
 Ivory Goats (Rare). These ivory statuettes of goats are always created in sets of three. Each goat looks unique and functions differently from the others. Their properties are as follows:
@@ -15790,6 +15696,24 @@ Onyx Dog (Rare). This onyx statuette of a dog can become a Mastiff for up to 6 h
 Serpentine Owl (Rare). This serpentine statuette of an owl can become a Giant Owl for up to 8 hours. The owl can communicate telepathically with you at any range if you and it are on the same plane of existence. Once it has been used, it can't be used again until 2 days have passed.
 
 Silver Raven (Uncommon). This silver statuette of a raven can become a Raven for up to 12 hours. Once it has been used, it can't be used again until 2 days have passed. While in raven form, the figurine grants you the ability to cast Animal Messenger on it.
+
+# Giant Fly
+
+Large Beast, Unaligned
+
+AC 11
+Initiative +1 (11)
+HP 19 (3d10 + 3)
+Speed 30 ft., Fly 60 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| 14 (+2) | 13 (+1) | 13 (+1) | 2 (-4) | 10 (+0) | 3 (-4) |
+| Save: +2 | Save: +1 | Save: +1 | Save: -4 | Save: +0 | Save: -4 |
+
+Senses Darkvision 60 ft., Passive Perception 10
+Languages None
+CR 0 (XP 0; PB +2)
 
 # Flame Tongue
 

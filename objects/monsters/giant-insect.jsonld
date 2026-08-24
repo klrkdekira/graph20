@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.175",
     "heading": "Giant Insect",
-    "lineStart": 9642,
-    "lineEnd": 9674
+    "lineStart": 9572,
+    "lineEnd": 9604
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -63,8 +63,8 @@
         "chapter": "Spells",
         "section": "7.175",
         "heading": "Traits",
-        "lineStart": 9660,
-        "lineEnd": 9662
+        "lineStart": 9590,
+        "lineEnd": 9592
       }
     },
     {
@@ -74,8 +74,8 @@
         "chapter": "Spells",
         "section": "7.175",
         "heading": "Actions",
-        "lineStart": 9664,
-        "lineEnd": 9670
+        "lineStart": 9594,
+        "lineEnd": 9600
       }
     },
     {
@@ -85,8 +85,8 @@
         "chapter": "Spells",
         "section": "7.175",
         "heading": "Bonus Actions",
-        "lineStart": 9672,
-        "lineEnd": 9674
+        "lineStart": 9602,
+        "lineEnd": 9604
       }
     }
   ],
@@ -103,6 +103,11 @@
       "path": "statSections[1].rulesText.paragraphs[2]",
       "parseStatus": "unparsed",
       "reason": "attack paragraph did not match the supported header grammar"
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
   ]
 }

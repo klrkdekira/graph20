@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.13",
     "heading": "Fighter",
-    "lineStart": 2879,
-    "lineEnd": 3039
+    "lineStart": 2809,
+    "lineEnd": 2969
   },
   "coreTraits": [
     {
@@ -58,8 +58,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 1: Fighting Style",
-        "lineStart": 2933,
-        "lineEnd": 2937
+        "lineStart": 2863,
+        "lineEnd": 2867
       }
     },
     {
@@ -70,8 +70,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 1: Second Wind",
-        "lineStart": 2939,
-        "lineEnd": 2945
+        "lineStart": 2869,
+        "lineEnd": 2875
       }
     },
     {
@@ -82,8 +82,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 1: Weapon Mastery",
-        "lineStart": 2947,
-        "lineEnd": 2951
+        "lineStart": 2877,
+        "lineEnd": 2881
       }
     },
     {
@@ -94,8 +94,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 2: Action Surge",
-        "lineStart": 2953,
-        "lineEnd": 2957
+        "lineStart": 2883,
+        "lineEnd": 2887
       }
     },
     {
@@ -106,8 +106,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 2: Tactical Mind",
-        "lineStart": 2959,
-        "lineEnd": 2961
+        "lineStart": 2889,
+        "lineEnd": 2891
       }
     },
     {
@@ -118,8 +118,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 3: Fighter Subclass",
-        "lineStart": 2963,
-        "lineEnd": 2965
+        "lineStart": 2893,
+        "lineEnd": 2895
       }
     },
     {
@@ -130,8 +130,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 4: Ability Score Improvement",
-        "lineStart": 2967,
-        "lineEnd": 2969
+        "lineStart": 2897,
+        "lineEnd": 2899
       }
     },
     {
@@ -142,8 +142,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 5: Extra Attack",
-        "lineStart": 2971,
-        "lineEnd": 2973
+        "lineStart": 2901,
+        "lineEnd": 2903
       }
     },
     {
@@ -154,8 +154,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 5: Tactical Shift",
-        "lineStart": 2975,
-        "lineEnd": 2977
+        "lineStart": 2905,
+        "lineEnd": 2907
       }
     },
     {
@@ -166,8 +166,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 9: Indomitable",
-        "lineStart": 2979,
-        "lineEnd": 2983
+        "lineStart": 2909,
+        "lineEnd": 2913
       }
     },
     {
@@ -178,8 +178,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 9: Tactical Master",
-        "lineStart": 2985,
-        "lineEnd": 2987
+        "lineStart": 2915,
+        "lineEnd": 2917
       }
     },
     {
@@ -190,8 +190,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 11: Two Extra Attacks",
-        "lineStart": 2989,
-        "lineEnd": 2991
+        "lineStart": 2919,
+        "lineEnd": 2921
       }
     },
     {
@@ -202,8 +202,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 13: Studied Attacks",
-        "lineStart": 2993,
-        "lineEnd": 2995
+        "lineStart": 2923,
+        "lineEnd": 2925
       }
     },
     {
@@ -214,8 +214,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 19: Epic Boon",
-        "lineStart": 2997,
-        "lineEnd": 2999
+        "lineStart": 2927,
+        "lineEnd": 2929
       }
     },
     {
@@ -226,8 +226,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 20: Three Extra Attacks",
-        "lineStart": 3001,
-        "lineEnd": 3003
+        "lineStart": 2931,
+        "lineEnd": 2933
       }
     }
   ],

@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.26",
     "heading": "Sorcerer Spell List",
-    "lineStart": 4339,
-    "lineEnd": 4353
+    "lineStart": 4269,
+    "lineEnd": 4283
   },
   "columns": [
     "Spell",
@@ -203,5 +203,46 @@
       ]
     }
   ],
-  "rawText": "| Spell                | School        | Special |\n| :------------------- | :------------ | :------ |\n| Banishment           | Abjuration    | C       |\n| Blight               | Necromancy    |    -    |\n| Charm Monster        | Enchantment   |    -    |\n| Confusion            | Enchantment   | C       |\n| Dimension Door       | Conjuration   |    -    |\n| Dominate Beast       | Enchantment   | C       |\n| Fire Shield          | Evocation     |    -    |\n| Greater Invisibility | Illusion      | C       |\n| Ice Storm            | Evocation     |    -    |\n| Polymorph            | Transmutation | C       |\n| Stoneskin            | Transmutation | C, M    |\n| Vitriolic Sphere     | Evocation     |    -    |\n| Wall of Fire         | Evocation     | C       |"
+  "rawText": "| Spell                | School        | Special |\n| :------------------- | :------------ | :------ |\n| Banishment           | Abjuration    | C       |\n| Blight               | Necromancy    |    -    |\n| Charm Monster        | Enchantment   |    -    |\n| Confusion            | Enchantment   | C       |\n| Dimension Door       | Conjuration   |    -    |\n| Dominate Beast       | Enchantment   | C       |\n| Fire Shield          | Evocation     |    -    |\n| Greater Invisibility | Illusion      | C       |\n| Ice Storm            | Evocation     |    -    |\n| Polymorph            | Transmutation | C       |\n| Stoneskin            | Transmutation | C, M    |\n| Vitriolic Sphere     | Evocation     |    -    |\n| Wall of Fire         | Evocation     | C       |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/banishment"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/blight"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/charm-monster"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/confusion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dimension-door"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dominate-beast"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/fire-shield"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/greater-invisibility"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/ice-storm"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/polymorph"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/stoneskin"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/vitriolic-sphere"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/wall-of-fire"
+    }
+  ]
 }

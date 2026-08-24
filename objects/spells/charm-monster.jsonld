@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.70",
     "heading": "Charm Monster",
-    "lineStart": 7969,
-    "lineEnd": 7980
+    "lineStart": 7899,
+    "lineEnd": 7910
   },
   "level": 4,
   "school": "Enchantment",
@@ -48,5 +48,10 @@
   "savingThrowAbility": "Wisdom",
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    }
+  ]
 }

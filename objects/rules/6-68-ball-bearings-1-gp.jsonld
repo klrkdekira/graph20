@@ -11,9 +11,14 @@
     "chapter": "Equipment",
     "section": "6.68",
     "heading": "Ball Bearings (1 GP)",
-    "lineStart": 6538,
-    "lineEnd": 6540
+    "lineStart": 6468,
+    "lineEnd": 6470
   },
   "section": "6.68",
-  "rulesText": "As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-foot-square area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the Prone condition. It takes 10 minutes to recover the Ball Bearings."
+  "rulesText": "As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-foot-square area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the Prone condition. It takes 10 minutes to recover the Ball Bearings.",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    }
+  ]
 }

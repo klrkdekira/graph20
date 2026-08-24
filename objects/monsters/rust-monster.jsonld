@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.204",
     "heading": "Rust Monster",
-    "lineStart": 24442,
-    "lineEnd": 24478
+    "lineStart": 24366,
+    "lineEnd": 24402
   },
   "sizeTypeAlignment": "Medium Monstrosity, Unaligned",
   "sizeAndType": "Medium Monstrosity",
@@ -75,8 +75,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.204",
         "heading": "Traits",
-        "lineStart": 24462,
-        "lineEnd": 24464
+        "lineStart": 24386,
+        "lineEnd": 24388
       }
     },
     {
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.204",
         "heading": "Actions",
-        "lineStart": 24466,
-        "lineEnd": 24474
+        "lineStart": 24390,
+        "lineEnd": 24398
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.204",
         "heading": "Reactions",
-        "lineStart": 24476,
-        "lineEnd": 24478
+        "lineStart": 24400,
+        "lineEnd": 24402
       }
     }
   ],

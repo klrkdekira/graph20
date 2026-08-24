@@ -11,8 +11,8 @@
     "chapter": "Rules Glossary",
     "section": "8.42",
     "heading": "Cube [Area of Effect]",
-    "lineStart": 13039,
-    "lineEnd": 13043
+    "lineStart": 12963,
+    "lineEnd": 12967
   },
   "section": "8.42",
   "rulesText": "A Cube is an area of effect that extends in straight lines from a point of origin located anywhere on a face of the Cube. The effect that creates a Cube specifies its size, which is the length of each side.\n\nA Cube's point of origin isn't included in the area of effect unless its creator decides otherwise."

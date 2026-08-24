@@ -1,0 +1,68 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/7-50-omens",
+  "@type": "Table",
+  "name": "Omens",
+  "slug": "7-50-omens",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.50",
+    "heading": "Augury",
+    "lineStart": 7618,
+    "lineEnd": 7623
+  },
+  "columns": [
+    "Omen",
+    "For Results That Will Be ..."
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Weal"
+        },
+        {
+          "value": "Good"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Woe"
+        },
+        {
+          "value": "Bad"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Weal and woe"
+        },
+        {
+          "value": "Good and bad"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Indifference"
+        },
+        {
+          "value": "Neither good nor bad"
+        }
+      ]
+    }
+  ],
+  "rawText": "| Omen         | For Results That Will Be ... |\n| :----------- | :--------------------------- |\n| Weal         | Good                         |\n| Woe          | Bad                          |\n| Weal and woe | Good and bad                 |\n| Indifference | Neither good nor bad         |"
+}

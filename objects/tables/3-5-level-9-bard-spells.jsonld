@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.5",
     "heading": "Bard Spell List",
-    "lineStart": 2069,
-    "lineEnd": 2075
+    "lineStart": 1999,
+    "lineEnd": 2005
   },
   "columns": [
     "Spell",
@@ -91,5 +91,22 @@
       ]
     }
   ],
-  "rawText": "| Spell           | School        | Special |\n| :-------------- | :------------ | :------ |\n| Foresight       | Divination    |    -    |\n| Power Word Heal | Enchantment   |    -    |\n| Power Word Kill | Enchantment   |    -    |\n| Prismatic Wall  | Abjuration    |    -    |\n| True Polymorph  | Transmutation | C       |"
+  "rawText": "| Spell           | School        | Special |\n| :-------------- | :------------ | :------ |\n| Foresight       | Divination    |    -    |\n| Power Word Heal | Enchantment   |    -    |\n| Power Word Kill | Enchantment   |    -    |\n| Prismatic Wall  | Abjuration    |    -    |\n| True Polymorph  | Transmutation | C       |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/foresight"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/power-word-heal"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/power-word-kill"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/prismatic-wall"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/true-polymorph"
+    }
+  ]
 }

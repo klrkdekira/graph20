@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.78",
     "heading": "Dragon Turtle",
-    "lineStart": 20389,
-    "lineEnd": 20422
+    "lineStart": 20313,
+    "lineEnd": 20346
   },
   "sizeTypeAlignment": "Gargantuan Dragon, Neutral",
   "sizeAndType": "Gargantuan Dragon",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.78",
         "heading": "Traits",
-        "lineStart": 20410,
-        "lineEnd": 20412
+        "lineStart": 20334,
+        "lineEnd": 20336
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.78",
         "heading": "Actions",
-        "lineStart": 20414,
-        "lineEnd": 20422
+        "lineStart": 20338,
+        "lineEnd": 20346
       }
     }
   ],
@@ -144,6 +144,11 @@
       "parseStatus": "parsed",
       "attackBonus": 13,
       "reachFeet": 15
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

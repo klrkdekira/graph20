@@ -11,8 +11,8 @@
     "chapter": "Equipment",
     "section": "6.176",
     "heading": "Time",
-    "lineStart": 7106,
-    "lineEnd": 7114
+    "lineStart": 7036,
+    "lineEnd": 7044
   },
   "section": "6.176",
   "rulesText": "To determine how many days (working 8 hours a day) it takes to make an item, divide its purchase cost in GP by 10 (round a fraction up to a day). For\n\nexample, you need 5 days to make a Heavy Crossbow, which sells for 50 GP.\n\nIf an item requires multiple days, the days needn't be consecutive.\n\nCharacters can combine their efforts to shorten the crafting time. Divide the time needed to create an item by the number of characters working on it. Normally, only one other character can assist you, but the GM might allow more assistants."

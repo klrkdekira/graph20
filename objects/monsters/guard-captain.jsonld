@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.128",
     "heading": "Guard Captain",
-    "lineStart": 21987,
-    "lineEnd": 22013
+    "lineStart": 21911,
+    "lineEnd": 21937
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -77,12 +77,26 @@
         "chapter": "Monsters A-Z",
         "section": "12.128",
         "heading": "Actions",
-        "lineStart": 22007,
-        "lineEnd": 22013
+        "lineStart": 21931,
+        "lineEnd": 21937
       }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 18\nInitiative +4 (14)\nHP 75 (10d8 + 30)\nSpeed 30 ft.\n\nSkills Athletics +6, Perception +4\nGear Breastplate, Javelins (6), Longsword, Shield\nSenses Passive Perception 14\nLanguages Common\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The guard makes two attacks, using Javelin or Longsword in any combination.\n\nJavelin. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 30/120 ft. Hit: 14 (3d6 + 4) Piercing damage.\n\nLongsword. Melee Attack Roll: +6, reach 5 ft. Hit: 15 (2d10 + 4) Slashing damage.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/breastplate"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/javelin"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/longsword"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/shield"
+    }
+  ],
   "attacks": [
     {
       "name": "Javelin",

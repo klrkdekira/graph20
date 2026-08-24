@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.11",
     "heading": "Druid Spell List",
-    "lineStart": 2632,
-    "lineEnd": 2644
+    "lineStart": 2562,
+    "lineEnd": 2574
   },
   "columns": [
     "Spell",
@@ -175,5 +175,40 @@
       ]
     }
   ],
-  "rawText": "| Spell           | School        | Special |\n| :-------------- | :------------ | :------ |\n| Druidcraft      | Transmutation |    -    |\n| Elementalism    | Transmutation |    -    |\n| Guidance        | Divination    | C       |\n| Mending         | Transmutation |    -    |\n| Message         | Transmutation |    -    |\n| Poison Spray    | Necromancy    |    -    |\n| Produce Flame   | Conjuration   |    -    |\n| Resistance      | Abjuration    | C       |\n| Shillelagh      | Transmutation |    -    |\n| Spare the Dying | Necromancy    |    -    |\n| Starry Wisp     | Evocation     |    -    |"
+  "rawText": "| Spell           | School        | Special |\n| :-------------- | :------------ | :------ |\n| Druidcraft      | Transmutation |    -    |\n| Elementalism    | Transmutation |    -    |\n| Guidance        | Divination    | C       |\n| Mending         | Transmutation |    -    |\n| Message         | Transmutation |    -    |\n| Poison Spray    | Necromancy    |    -    |\n| Produce Flame   | Conjuration   |    -    |\n| Resistance      | Abjuration    | C       |\n| Shillelagh      | Transmutation |    -    |\n| Spare the Dying | Necromancy    |    -    |\n| Starry Wisp     | Evocation     |    -    |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/druidcraft"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/elementalism"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/guidance"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mending"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/message"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/poison-spray"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/produce-flame"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/resistance"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/shillelagh"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/spare-the-dying"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/starry-wisp"
+    }
+  ]
 }

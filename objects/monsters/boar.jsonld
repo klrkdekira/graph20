@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.11",
     "heading": "Boar",
-    "lineStart": 26975,
-    "lineEnd": 26999
+    "lineStart": 26899,
+    "lineEnd": 26923
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
@@ -75,8 +75,8 @@
         "chapter": "Animals",
         "section": "13.11",
         "heading": "Traits",
-        "lineStart": 26993,
-        "lineEnd": 26995
+        "lineStart": 26917,
+        "lineEnd": 26919
       }
     },
     {
@@ -86,8 +86,8 @@
         "chapter": "Animals",
         "section": "13.11",
         "heading": "Actions",
-        "lineStart": 26997,
-        "lineEnd": 26999
+        "lineStart": 26921,
+        "lineEnd": 26923
       }
     }
   ],
@@ -122,6 +122,11 @@
       "parseStatus": "parsed",
       "attackBonus": 3,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

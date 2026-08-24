@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.239",
     "heading": "Tough",
-    "lineStart": 25587,
-    "lineEnd": 25614
+    "lineStart": 25511,
+    "lineEnd": 25538
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.239",
         "heading": "Traits",
-        "lineStart": 25606,
-        "lineEnd": 25608
+        "lineStart": 25530,
+        "lineEnd": 25532
       }
     },
     {
@@ -87,12 +87,23 @@
         "chapter": "Monsters A-Z",
         "section": "12.239",
         "heading": "Actions",
-        "lineStart": 25610,
-        "lineEnd": 25614
+        "lineStart": 25534,
+        "lineEnd": 25538
       }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 12\nInitiative +1 (11)\nHP 32 (5d8 + 10)\nSpeed 30 ft.\n\nGear Heavy Crossbow, Leather Armor, Mace\nSenses Passive Perception 10\nLanguages Common\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nPack Tactics. The tough has Advantage on an attack roll against a creature if at least one of the tough's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nMace. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage.\n\nHeavy Crossbow. Ranged Attack Roll: +3, range 100/400 ft. Hit: 6 (1d10 + 1) Piercing damage.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/heavy-crossbow"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/leather-armor"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/mace"
+    }
+  ],
   "attacks": [
     {
       "name": "Mace",
@@ -138,6 +149,11 @@
         "normal": 100,
         "long": 400
       }
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
     }
   ]
 }

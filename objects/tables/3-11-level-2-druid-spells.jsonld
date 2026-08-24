@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.11",
     "heading": "Druid Spell List",
-    "lineStart": 2671,
-    "lineEnd": 2693
+    "lineStart": 2601,
+    "lineEnd": 2623
   },
   "columns": [
     "Spell",
@@ -315,5 +315,70 @@
       ]
     }
   ],
-  "rawText": "| Spell                    | School        | Special |\n| :----------------------- | :------------ | :------ |\n| Aid                      | Abjuration    |    -    |\n| Animal Messenger         | Enchantment   | R       |\n| Augury                   | Divination    | R, M    |\n| Barkskin                 | Transmutation |    -    |\n| Continual Flame          | Evocation     | M       |\n| Darkvision               | Transmutation |    -    |\n| Enhance Ability          | Transmutation | C       |\n| Enlarge/Reduce           | Transmutation | C       |\n| Find Traps               | Divination    |    -    |\n| Flame Blade              | Evocation     | C       |\n| Flaming Sphere           | Evocation     | C       |\n| Gust of Wind             | Evocation     | C       |\n| Heat Metal               | Transmutation | C       |\n| Hold Person              | Enchantment   | C       |\n| Lesser Restoration       | Abjuration    |    -    |\n| Locate Animals or Plants | Divination    | R       |\n| Locate Object            | Divination    | C       |\n| Moonbeam                 | Evocation     | C       |\n| Pass without Trace       | Abjuration    | C       |\n| Protection from Poison   | Abjuration    |    -    |\n| Spike Growth             | Transmutation | C       |"
+  "rawText": "| Spell                    | School        | Special |\n| :----------------------- | :------------ | :------ |\n| Aid                      | Abjuration    |    -    |\n| Animal Messenger         | Enchantment   | R       |\n| Augury                   | Divination    | R, M    |\n| Barkskin                 | Transmutation |    -    |\n| Continual Flame          | Evocation     | M       |\n| Darkvision               | Transmutation |    -    |\n| Enhance Ability          | Transmutation | C       |\n| Enlarge/Reduce           | Transmutation | C       |\n| Find Traps               | Divination    |    -    |\n| Flame Blade              | Evocation     | C       |\n| Flaming Sphere           | Evocation     | C       |\n| Gust of Wind             | Evocation     | C       |\n| Heat Metal               | Transmutation | C       |\n| Hold Person              | Enchantment   | C       |\n| Lesser Restoration       | Abjuration    |    -    |\n| Locate Animals or Plants | Divination    | R       |\n| Locate Object            | Divination    | C       |\n| Moonbeam                 | Evocation     | C       |\n| Pass without Trace       | Abjuration    | C       |\n| Protection from Poison   | Abjuration    |    -    |\n| Spike Growth             | Transmutation | C       |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/aid"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/animal-messenger"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/augury"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/barkskin"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/continual-flame"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/darkvision"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/enhance-ability"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/enlarge-reduce"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/find-traps"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/flame-blade"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/flaming-sphere"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/gust-of-wind"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/heat-metal"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/hold-person"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/lesser-restoration"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/locate-animals-or-plants"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/locate-object"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/moonbeam"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/pass-without-trace"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/protection-from-poison"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/spike-growth"
+    }
+  ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.72",
     "heading": "Cultist Fanatic",
-    "lineStart": 20158,
-    "lineEnd": 20194
+    "lineStart": 20082,
+    "lineEnd": 20118
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.72",
         "heading": "Actions",
-        "lineStart": 20178,
-        "lineEnd": 20190
+        "lineStart": 20102,
+        "lineEnd": 20114
       }
     },
     {
@@ -88,12 +88,20 @@
         "chapter": "Monsters A-Z",
         "section": "12.72",
         "heading": "Bonus Actions",
-        "lineStart": 20192,
-        "lineEnd": 20194
+        "lineStart": 20116,
+        "lineEnd": 20118
       }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 13\nInitiative +2 (12)\nHP 44 (8d8 + 8)\nSpeed 30 ft.\n\nSkills Deception +3, Persuasion +3, Religion +2\nGear Holy Symbol, Leather Armor\nSenses Passive Perception 12\nLanguages Common\nCR 2 (XP 450; PB +2)\n\nActions\n\nPact Blade. Melee Attack Roll: +4, reach 5 ft.\n\nHit: 6 (1d8 + 2) Slashing damage plus 7 (2d6) Necrotic damage.\n\nSpellcasting. The cultist casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 12, +4 to hit with spell attacks):\n\nAt Will: Light, Thaumaturgy\n\n2/Day: Command\n\n1/Day: Hold Person\n\nBonus Actions\n\nSpiritual Weapon (2/Day). The cultist casts the Spiritual Weapon spell, using the same spellcasting ability as Spellcasting.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/holy-symbol"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/leather-armor"
+    }
+  ],
   "attacks": [
     {
       "name": "Pact Blade",

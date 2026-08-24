@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.131",
     "heading": "Hat of Disguise",
-    "lineStart": 15920,
-    "lineEnd": 15924
+    "lineStart": 15844,
+    "lineEnd": 15848
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile wearing this hat, you can cast the Disguise Self spell. The spell ends if the hat is removed."
+  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile wearing this hat, you can cast the Disguise Self spell. The spell ends if the hat is removed.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/disguise-self"
+    }
+  ]
 }

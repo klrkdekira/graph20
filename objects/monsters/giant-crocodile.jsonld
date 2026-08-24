@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.33",
     "heading": "Giant Crocodile",
-    "lineStart": 27541,
-    "lineEnd": 27570
+    "lineStart": 27465,
+    "lineEnd": 27494
   },
   "sizeTypeAlignment": "Huge Beast, Unaligned",
   "sizeAndType": "Huge Beast",
@@ -76,8 +76,8 @@
         "chapter": "Animals",
         "section": "13.33",
         "heading": "Traits",
-        "lineStart": 27560,
-        "lineEnd": 27562
+        "lineStart": 27484,
+        "lineEnd": 27486
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Animals",
         "section": "13.33",
         "heading": "Actions",
-        "lineStart": 27564,
-        "lineEnd": 27570
+        "lineStart": 27488,
+        "lineEnd": 27494
       }
     }
   ],
@@ -135,6 +135,17 @@
       "parseStatus": "parsed",
       "attackBonus": 8,
       "reachFeet": 10
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
   ]
 }

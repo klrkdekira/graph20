@@ -11,8 +11,8 @@
     "chapter": "Character Origins",
     "section": "4.22",
     "heading": "Dwarf",
-    "lineStart": 5567,
-    "lineEnd": 5585
+    "lineStart": 5497,
+    "lineEnd": 5515
   },
   "creatureType": "Humanoid",
   "size": "Medium (about 4–5 feet tall)",
@@ -35,5 +35,10 @@
       "rulesText": "As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked.\n\nYou can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
     }
   ],
-  "rulesText": "Creature Type: Humanoid\n\nSize: Medium (about 4–5 feet tall)\n\nSpeed: 30 feet\n\nAs a Dwarf, you have these special traits.\n\nDarkvision. You have Darkvision with a range of 120 feet.\n\nDwarven Resilience. You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.\n\nDwarven Toughness. Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.\n\nStonecunning. As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked.\n\nYou can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+  "rulesText": "Creature Type: Humanoid\n\nSize: Medium (about 4–5 feet tall)\n\nSpeed: 30 feet\n\nAs a Dwarf, you have these special traits.\n\nDarkvision. You have Darkvision with a range of 120 feet.\n\nDwarven Resilience. You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.\n\nDwarven Toughness. Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.\n\nStonecunning. As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked.\n\nYou can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ]
 }

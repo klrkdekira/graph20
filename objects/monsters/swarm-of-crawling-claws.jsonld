@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.69",
     "heading": "Swarm of Crawling Claws",
-    "lineStart": 20104,
-    "lineEnd": 20130
+    "lineStart": 20028,
+    "lineEnd": 20054
   },
   "sizeTypeAlignment": "Medium Swarm of Tiny Undead, Neutral Evil",
   "sizeAndType": "Medium Swarm of Tiny Undead",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.69",
         "heading": "Traits",
-        "lineStart": 20124,
-        "lineEnd": 20126
+        "lineStart": 20048,
+        "lineEnd": 20050
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.69",
         "heading": "Actions",
-        "lineStart": 20128,
-        "lineEnd": 20130
+        "lineStart": 20052,
+        "lineEnd": 20054
       }
     }
   ],
@@ -159,6 +159,11 @@
       "parseStatus": "parsed",
       "attackBonus": 4,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

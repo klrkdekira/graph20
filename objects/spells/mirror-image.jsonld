@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.249",
     "heading": "Mirror Image",
-    "lineStart": 10778,
-    "lineEnd": 10791
+    "lineStart": 10708,
+    "lineEnd": 10721
   },
   "level": 2,
   "school": "Illusion",
@@ -43,5 +43,10 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/blinded"
+    }
+  ]
 }

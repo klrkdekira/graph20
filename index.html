@@ -556,37 +556,60 @@
   }
 
   fetch("objects/collection-index.json")
-    .then(function (r) { return r.json(); })
+    .then(function (r) {
+      if (!r.ok) throw new Error(r.status);
+      return r.json();
+    })
     .then(function (data) {
       colIndex = data.collections;
       window.addEventListener("hashchange", onRoute);
       onRoute();
+    })
+    .catch(function () {
+      detail.textContent = "";
+      detail.appendChild(el("p", "placeholder", "Could not load collection index."));
     });
 
+  var lastCollection = null;
+
   function onRoute() {
-    var hash = decodeURIComponent(location.hash.replace(/^#\/?/, ""));
+    var rawHash = location.hash.replace(/^#\/?/, "");
+    var hash = "";
+    try {
+      hash = decodeURIComponent(rawHash);
+    } catch (error) {
+      hash = rawHash;
+    }
     var parts = hash.split("/").filter(Boolean);
     if (parts[0] === "search") {
       route = { collection: null, slug: null, search: parts.slice(1).join("/") };
+      document.title = "Search: " + route.search + " · SRD 5.2.1 Reference";
       globalSearch.value = route.search;
       filter.value = "";
+      lastCollection = null;
       renderNav();
       runGlobalSearch(route.search);
       return;
     }
     route = { collection: parts[0] || null, slug: parts[1] || null, search: null };
     globalSearch.value = "";
+    if (lastCollection !== route.collection) {
+      filter.value = "";
+      lastCollection = route.collection;
+    }
     renderNav();
-    if (!route.collection || !colIndex[route.collection]) {
+    if (!route.collection || !colIndex || !colIndex[route.collection]) {
       route.collection = null;
+      document.title = "SRD 5.2.1 System JSON";
       renderList(null);
       renderLanding();
       return;
     }
-    renderList(route.collection);
+    renderList(route.collection, filter.value.trim());
     if (route.slug) {
       showRecord(route.collection, route.slug);
     } else {
+      document.title = (LABELS[route.collection] || route.collection) + " · SRD 5.2.1 Reference";
       renderCollectionIntro(route.collection);
     }
   }
@@ -594,6 +617,7 @@
   function renderNav() {
     nav.textContent = "";
     nav.appendChild(el("div", "navhead", "Browse"));
+    if (!colIndex) return;
     NAV_ORDER.forEach(function (name) {
       if (!colIndex[name]) return;
       var a = link("#/" + name, route.collection === name ? "active" : "");
@@ -711,6 +735,9 @@
           (matchedExcerpt ? " · " + matchedExcerpt : "")));
         items.appendChild(a);
       });
+    }).catch(function () {
+      items.textContent = "";
+      items.appendChild(el("p", "placeholder", "Could not load search index."));
     });
   }
   function intersect(a, b) {
@@ -892,6 +919,7 @@
       if (!r.ok) throw new Error(r.status);
       return r.json();
     }).then(function (record) {
+      document.title = (record.name || slug) + " · SRD 5.2.1 Reference";
       detail.textContent = "";
       var box = el("div", "record");
       var heading = el("div", "record-heading");
@@ -906,7 +934,7 @@
       var prov = el("p", "provenance");
       if (locator) prov.appendChild(document.createTextNode(
         "SRD 5.2.1 · " + locator.chapter + " §" + locator.section +
-        " · lines " + locator.lineStart + "–" + locator.lineEnd + " · "));
+        " · lines " + locator.lineStart + "–" + locator.lineEnd));
       if (locator) box.appendChild(prov);
 
       var recordLinks = el("div", "source-links");
@@ -1019,7 +1047,7 @@
       if (record.equipmentType === "weapon")
         return [record.weaponCategory, record.attackType, "Weapon ·", record.damage].filter(Boolean).join(" ");
       if (record.equipmentType === "armor")
-        return (record.armorCategory || "") + " Armor · AC " + record.armorClass;
+        return (record.armorCategory === "Shield" ? "Shield" : (record.armorCategory || "") + " Armor") + " · AC " + record.armorClass;
       return "Adventuring Gear";
     }
     if (record["@type"] === "Condition") return "Condition";
@@ -1053,11 +1081,13 @@
     ["abilityScores", "Ability Scores"], ["feat", "Feat"], ["skillProficiencies", "Skills"],
     ["toolProficiency", "Tool"], ["startingEquipment", "Starting Equipment"],
     ["creatureType", "Creature Type"], ["size", "Size"],
-    ["equipmentType", "Equipment Type"], ["weaponCategory", "Weapon Category"], ["attackType", "Attack Type"],
+    ["equipmentType", "Equipment Type"], ["weaponCategory", "Weapon Category"],
+    ["armorCategory", "Armor Category"], ["attackType", "Attack Type"],
     ["damageType", "Damage Type"], ["itemCategory", "Item Category"], ["rarity", "Rarity"],
     ["requiresAttunement", "Attunement Required"], ["attunementNote", "Attunement"],
     ["author", "Author"], ["srdVersion", "SRD Version"], ["license", "License"],
-    ["sourceFile", "Source File"], ["contentDigest", "Content Digest"], ["section", "Section"]
+    ["sourceFile", "Source File"], ["contentDigest", "Content Digest"], ["attributionStatement", "Attribution"],
+    ["section", "Section"]
   ];
   function renderFacts(box, record) {
     var grid = el("div", "facts");
@@ -1132,7 +1162,9 @@
     var relationFields = [
       ["classes", "Class"], ["subclasses", "Subclass"], ["parentClass", "Parent class"],
       ["fromTable", "Source table"], ["relatedRules", "Rule"],
-      ["conditionImmunities", "Condition"], ["spellList", "Spell"]
+      ["conditionImmunities", "Condition immunity"], ["mentionsCondition", "Condition"],
+      ["spellList", "Spell list"], ["listsSpell", "Listed spell"],
+      ["castsSpell", "Cast spell"], ["grantsFeat", "Granted feat"], ["hasGear", "Gear"]
     ];
     var section = el("section", "structured-section");
     section.appendChild(el("h3", "structured-title", "Connected records"));

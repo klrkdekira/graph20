@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.294",
     "heading": "Wind Fan",
-    "lineStart": 17765,
-    "lineEnd": 17769
+    "lineStart": 17689,
+    "lineEnd": 17693
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": false,
-  "rulesText": "Wondrous Item, Uncommon\n\nWhile holding this fan, you can cast Gust of Wind (save DC 13) from it. Each subsequent time the fan is used before the next dawn, it has a cumulative 20 percent chance of not working; if the fan fails to work, it tears into useless, nonmagical tatters."
+  "rulesText": "Wondrous Item, Uncommon\n\nWhile holding this fan, you can cast Gust of Wind (save DC 13) from it. Each subsequent time the fan is used before the next dawn, it has a cumulative 20 percent chance of not working; if the fan fails to work, it tears into useless, nonmagical tatters.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/gust-of-wind"
+    }
+  ]
 }

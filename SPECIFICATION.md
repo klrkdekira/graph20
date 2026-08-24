@@ -12,17 +12,17 @@ The corpus is reference data. Executable rules engines, character builders, camp
 
 `SRD_CC_v5.2.1.md` is the sole content source. It represents the System Reference Document 5.2.1 by Wizards of the Coast LLC under CC-BY-4.0. The required attribution statement is preserved exactly in the source record, manifest, README, and `llms-full.txt`.
 
-Each source-normalization event was compared directly with the official PDF text layer. Observed tokens, fixes, rationale, disposition, affected classes, and (for detector entries and the 2026-08-24 event) pre/post digests are registered in `objects/sources/extraction-overrides.json`. The obsolete open5e comparison cache was removed and no external dataset contributes retained assertions. Extraction never derives a missing ability modifier or saving throw: incomplete observed cells remain omitted, as verified through extraction, bundle generation, LLM projection, and repeated rebuilds.
+Each source-normalization event was compared directly with the official PDF text layer. Observed tokens, fixes, rationale, disposition, affected classes, and pre/post digests are registered in `objects/sources/extraction-overrides.json`. The obsolete open5e comparison cache was removed and no external dataset contributes retained assertions. Extraction never derives a missing ability modifier or saving throw: incomplete observed cells remain omitted, as verified through extraction, bundle generation, LLM projection, and repeated rebuilds.
 
 ## 3. Corpus scope
 
-The v0.4.0 clean build contains 2,097 records:
+The v0.4.0 clean build contains 2,107 records:
 
 | Collection | Count | Content |
 | --- | ---: | --- |
 | sources | 1 | Origin, version, license, attribution, canonical IRI, and SHA-256 digest |
-| rules | 738 | Source-faithful general rules and prose sections |
-| tables | 223 | Logical source tables with columns, ordered rows, raw source table text, and physical spans |
+| rules | 736 | Source-faithful general rules and prose sections |
+| tables | 235 | Logical source tables with columns, ordered rows, raw source table text, and physical spans |
 | classes / subclasses | 12 / 12 | Graph-safe core-trait entries, nested feature text and locators, and class relationships |
 | species / backgrounds | 9 / 4 | Typed origin fields plus source prose |
 | feats | 17 | Category, prerequisite, repeatability, and prose |
@@ -32,7 +32,7 @@ The v0.4.0 clean build contains 2,097 records:
 | magic-items | 258 | Complete rarity variants, complete-header attunement, tables, and prose |
 | monsters | 336 | Stats, observed ability entries, 423 parsed damaging attacks, six explicit unparsed attack dispositions, sections, and prose |
 
-The 223 Table records represent logical tables rather than PDF page fragments. Repeated continuation headers remain in `rawText` but are not promoted to data rows. Wand of Wonder is one ordered 18-row table; no emitted table is empty.
+The 235 Table records represent logical tables rather than PDF page fragments, including tables nested in spell records. Repeated continuation headers remain in `rawText` but are not promoted to data rows. Trinkets is one ordered 100-row table, Prismatic Rays is one ordered 8-row table, Wand of Wonder is one ordered 18-row table, and no emitted table is empty.
 
 ## 4. Data architecture
 
@@ -48,6 +48,8 @@ The 223 Table records represent logical tables rather than PDF page fragments. R
 | Class traits | Typed `{ "name", "value" }` entries, not arbitrary JSON-LD property maps |
 | Manifest | Graph-safe collection descriptors with member and schema node references |
 | Aggregates | Manifest, JSON-LD bundle, recursive LLM projection, recursive search index, collection index, vocabulary, and sitemap |
+
+Exact source-name matches produce typed relations without replacing their printed strings: class spell-list tables emit `listsSpell`, magic items emit `castsSpell` only for active casting clauses, `mentionsCondition` records exact “Name condition” phrases, backgrounds emit `grantsFeat`, and monster gear emits `hasGear`. All five predicates are IRI-coerced and therefore always carry node-reference objects.
 
 Every nested class/subclass feature and monster stat section carries or inherits a physical source locator. Ordinary entity locators start at their declared heading; Table and equipment locators start at their physical source table. Parent spans contain every nested feature span.
 
@@ -76,7 +78,7 @@ The occurrence-level ledger records stable keys, structural paths, source line/c
 
 `make check` rebuilds every artifact and runs distinct gates:
 
-- `coverage`: interval coverage only; currently all 18,050 non-blank content lines from line 29 onward are inside at least one locator. It does not claim ownership or fidelity.
+- `coverage`: interval coverage only; currently all 18,047 non-blank content lines from line 29 onward are inside at least one locator. It does not claim ownership or fidelity.
 - `anomalies`: every detector hit must have a reviewed registry disposition.
 - `fidelity`: headings/table starts, nested containment, raw tables, observed ability values, spell headers, rarity/attunement, attack dispositions, and contributing-source rights metadata.
 - `graph`: expands every record, manifest, and bundle; rejects lost compact properties/literals, bare IRI-coerced strings, missing entity types, and undocumented project terms.

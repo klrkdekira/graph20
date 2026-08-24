@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.248",
     "heading": "Vampire",
-    "lineStart": 25888,
-    "lineEnd": 25954
+    "lineStart": 25812,
+    "lineEnd": 25878
   },
   "sizeTypeAlignment": "Medium or Small Undead, Lawful Evil",
   "sizeAndType": "Medium or Small Undead",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.248",
         "heading": "Traits",
-        "lineStart": 25908,
-        "lineEnd": 25926
+        "lineStart": 25832,
+        "lineEnd": 25850
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.248",
         "heading": "Actions",
-        "lineStart": 25928,
-        "lineEnd": 25936
+        "lineStart": 25852,
+        "lineEnd": 25860
       }
     },
     {
@@ -99,8 +99,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.248",
         "heading": "Bonus Actions",
-        "lineStart": 25938,
-        "lineEnd": 25946
+        "lineStart": 25862,
+        "lineEnd": 25870
       }
     },
     {
@@ -110,8 +110,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.248",
         "heading": "Legendary Actions",
-        "lineStart": 25948,
-        "lineEnd": 25954
+        "lineStart": 25872,
+        "lineEnd": 25878
       }
     }
   ],
@@ -146,6 +146,20 @@
       "parseStatus": "parsed",
       "attackBonus": 9,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/paralyzed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
   ]
 }

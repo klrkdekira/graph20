@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.58",
     "heading": "Hyena",
-    "lineStart": 28227,
-    "lineEnd": 28252
+    "lineStart": 28151,
+    "lineEnd": 28176
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
@@ -76,8 +76,8 @@
         "chapter": "Animals",
         "section": "13.58",
         "heading": "Traits",
-        "lineStart": 28246,
-        "lineEnd": 28248
+        "lineStart": 28170,
+        "lineEnd": 28172
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Animals",
         "section": "13.58",
         "heading": "Actions",
-        "lineStart": 28250,
-        "lineEnd": 28252
+        "lineStart": 28174,
+        "lineEnd": 28176
       }
     }
   ],
@@ -113,6 +113,11 @@
       "parseStatus": "parsed",
       "attackBonus": 2,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
     }
   ]
 }

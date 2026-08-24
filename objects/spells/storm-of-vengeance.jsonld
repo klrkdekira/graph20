@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.331",
     "heading": "Storm of Vengeance",
-    "lineStart": 11992,
-    "lineEnd": 12011
+    "lineStart": 11916,
+    "lineEnd": 11935
   },
   "level": 9,
   "school": "Conjuration",
@@ -74,5 +74,10 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/deafened"
+    }
+  ]
 }

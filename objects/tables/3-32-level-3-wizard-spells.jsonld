@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.32",
     "heading": "Wizard Spell List",
-    "lineStart": 5212,
-    "lineEnd": 5219
+    "lineStart": 5142,
+    "lineEnd": 5149
   },
   "columns": [
     "Spell",
@@ -105,5 +105,25 @@
       ]
     }
   ],
-  "rawText": "| Spell        | School        | Special |\n| :----------- | :------------ | :------ |\n| Animate Dead | Necromancy    |    -    |\n| Bestow Curse | Necromancy    | C       |\n| Blink        | Transmutation |    -    |\n| Clairvoyance | Divination    | C, M    |\n| Counterspell | Abjuration    |    -    |\n| Dispel Magic | Abjuration    |    -    |"
+  "rawText": "| Spell        | School        | Special |\n| :----------- | :------------ | :------ |\n| Animate Dead | Necromancy    |    -    |\n| Bestow Curse | Necromancy    | C       |\n| Blink        | Transmutation |    -    |\n| Clairvoyance | Divination    | C, M    |\n| Counterspell | Abjuration    |    -    |\n| Dispel Magic | Abjuration    |    -    |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/animate-dead"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/bestow-curse"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/blink"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/clairvoyance"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/counterspell"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-magic"
+    }
+  ]
 }

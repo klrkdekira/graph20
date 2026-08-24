@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.51",
     "heading": "Bulette",
-    "lineStart": 19537,
-    "lineEnd": 19568
+    "lineStart": 19461,
+    "lineEnd": 19492
   },
   "sizeTypeAlignment": "Large Monstrosity, Unaligned",
   "sizeAndType": "Large Monstrosity",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.51",
         "heading": "Actions",
-        "lineStart": 19558,
-        "lineEnd": 19564
+        "lineStart": 19482,
+        "lineEnd": 19488
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.51",
         "heading": "Bonus Actions",
-        "lineStart": 19566,
-        "lineEnd": 19568
+        "lineStart": 19490,
+        "lineEnd": 19492
       }
     }
   ],
@@ -114,6 +114,11 @@
       "parseStatus": "parsed",
       "attackBonus": 7,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

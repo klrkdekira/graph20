@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.16",
     "heading": "Balor",
-    "lineStart": 18419,
-    "lineEnd": 18463
+    "lineStart": 18343,
+    "lineEnd": 18387
   },
   "sizeTypeAlignment": "Huge Fiend (Demon), Chaotic Evil",
   "sizeAndType": "Huge Fiend (Demon)",
@@ -78,8 +78,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.16",
         "heading": "Traits",
-        "lineStart": 18442,
-        "lineEnd": 18450
+        "lineStart": 18366,
+        "lineEnd": 18374
       }
     },
     {
@@ -89,8 +89,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.16",
         "heading": "Actions",
-        "lineStart": 18452,
-        "lineEnd": 18459
+        "lineStart": 18376,
+        "lineEnd": 18383
       }
     },
     {
@@ -100,8 +100,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.16",
         "heading": "Bonus Actions",
-        "lineStart": 18461,
-        "lineEnd": 18463
+        "lineStart": 18385,
+        "lineEnd": 18387
       }
     }
   ],
@@ -177,6 +177,11 @@
       "parseStatus": "parsed",
       "attackBonus": 14,
       "reachFeet": 10
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

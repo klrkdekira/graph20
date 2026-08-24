@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.75",
     "heading": "Circlet of Blasting",
-    "lineStart": 15297,
-    "lineEnd": 15301
+    "lineStart": 15221,
+    "lineEnd": 15225
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": false,
-  "rulesText": "Wondrous Item, Uncommon\n\nWhile wearing this circlet, you can cast Scorching Ray with it (+5 to hit). The circlet can't cast this spell again until the next dawn."
+  "rulesText": "Wondrous Item, Uncommon\n\nWhile wearing this circlet, you can cast Scorching Ray with it (+5 to hit). The circlet can't cast this spell again until the next dawn.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/scorching-ray"
+    }
+  ]
 }

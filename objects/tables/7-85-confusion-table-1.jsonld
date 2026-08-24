@@ -1,0 +1,57 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/7-85-confusion-table-1",
+  "@type": "Table",
+  "name": "Confusion Table 1",
+  "slug": "7-85-confusion-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.85",
+    "heading": "Confusion",
+    "lineStart": 8135,
+    "lineEnd": 8139
+  },
+  "columns": [
+    "1d10",
+    "Behavior for the Turn"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "The target doesn’t take an action, and it uses all its movement to move. Roll 1d4 for the direction: 1, north; 2, east; 3, south; or 4, west."
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "2–6"
+        },
+        {
+          "value": "The target doesn’t move or take actions."
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "7–8"
+        },
+        {
+          "value": "The target doesn’t move, and it takes the Attack action to make one melee attack against a random creature within reach. If none are within reach, the target takes no action."
+        }
+      ]
+    }
+  ],
+  "rawText": "| 1d10 | Behavior for the Turn                                                                                                                                                          |\n| :--- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| 1    | The target doesn’t take an action, and it uses all its movement to move. Roll 1d4 for the direction: 1, north; 2, east; 3, south; or 4, west.                                  |\n| 2–6  | The target doesn’t move or take actions.                                                                                                                                       |\n| 7–8  | The target doesn’t move, and it takes the Attack action to make one melee attack against a random creature within reach. If none are within reach, the target takes no action. |"
+}

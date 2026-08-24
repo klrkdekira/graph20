@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.122",
     "heading": "Grick",
-    "lineStart": 21840,
-    "lineEnd": 21867
+    "lineStart": 21764,
+    "lineEnd": 21791
   },
   "sizeTypeAlignment": "Medium Aberration, Unaligned",
   "sizeAndType": "Medium Aberration",
@@ -74,8 +74,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.122",
         "heading": "Actions",
-        "lineStart": 21861,
-        "lineEnd": 21867
+        "lineStart": 21785,
+        "lineEnd": 21791
       }
     }
   ],
@@ -122,6 +122,11 @@
       "parseStatus": "parsed",
       "attackBonus": 4,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
     }
   ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.47",
     "heading": "Giant Spider",
-    "lineStart": 27934,
-    "lineEnd": 27963
+    "lineStart": 27858,
+    "lineEnd": 27887
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -76,8 +76,8 @@
         "chapter": "Animals",
         "section": "13.47",
         "heading": "Traits",
-        "lineStart": 27953,
-        "lineEnd": 27957
+        "lineStart": 27877,
+        "lineEnd": 27881
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Animals",
         "section": "13.47",
         "heading": "Actions",
-        "lineStart": 27959,
-        "lineEnd": 27963
+        "lineStart": 27883,
+        "lineEnd": 27887
       }
     }
   ],
@@ -123,6 +123,11 @@
       "parseStatus": "parsed",
       "attackBonus": 5,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
   ]
 }

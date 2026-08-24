@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.216",
     "heading": "Young Silver Dragon",
-    "lineStart": 24800,
-    "lineEnd": 24830
+    "lineStart": 24724,
+    "lineEnd": 24754
   },
   "sizeTypeAlignment": "Large Dragon (Metallic), Lawful Good",
   "sizeAndType": "Large Dragon (Metallic)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.216",
         "heading": "Actions",
-        "lineStart": 24820,
-        "lineEnd": 24830
+        "lineStart": 24744,
+        "lineEnd": 24754
       }
     }
   ],
@@ -104,6 +104,14 @@
       "parseStatus": "parsed",
       "attackBonus": 10,
       "reachFeet": 10
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/paralyzed"
     }
   ]
 }

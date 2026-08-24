@@ -6,7 +6,7 @@
 [![Content License: CC BY 4.0](https://img.shields.io/badge/Content_License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Code License: MIT](https://img.shields.io/badge/Code_License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A source-faithful, machine-readable edition of the **System Reference Document 5.2.1**. The repository turns the CC-BY-4.0 source Markdown into 2,097 modular records across 13 collections, with:
+A source-faithful, machine-readable edition of the **System Reference Document 5.2.1**. The repository turns the CC-BY-4.0 source Markdown into 2,107 modular records across 13 collections, with:
 
 - JSON-LD 1.1 identity and graph relationships;
 - JSON Schema Draft 2020-12 contracts;
@@ -73,12 +73,12 @@ The example is abbreviated. The full record also retains `rulesText`, printed sp
 | Artifact | Purpose |
 | --- | --- |
 | [`objects/srd52-system-data.jsonld`](https://cheeleong.dev/graph20/objects/srd52-system-data.jsonld) | Manifest containing corpus metadata, source and corpus digests, collection descriptors, member links, and schema links. |
-| [`objects/srd52-system-data.bundle.jsonld`](https://cheeleong.dev/graph20/objects/srd52-system-data.bundle.jsonld) | All 2,097 records in one JSON-LD `@graph`. |
+| [`objects/srd52-system-data.bundle.jsonld`](https://cheeleong.dev/graph20/objects/srd52-system-data.bundle.jsonld) | All 2,107 records in one JSON-LD `@graph`. |
 | [`objects/search-index.json`](https://cheeleong.dev/graph20/objects/search-index.json) | Static inverted index over all records and nested text fragments. |
 | [`objects/collection-index.json`](https://cheeleong.dev/graph20/objects/collection-index.json) | Compact display and filter metadata such as spell level, monster CR, and item rarity. |
 | [`systems/context.jsonld`](https://cheeleong.dev/graph20/systems/context.jsonld) | Shared JSON-LD context, including IRI coercion rules. |
 | [`systems/*.schema.json`](systems/) | Draft 2020-12 schemas for records, aggregates, and verification reports. |
-| [`vocab/terms.json`](https://cheeleong.dev/graph20/vocab/terms.json) | Definitions for the 14 classes and 139 properties in the project vocabulary. |
+| [`vocab/terms.json`](https://cheeleong.dev/graph20/vocab/terms.json) | Definitions for the 14 classes and 144 properties in the project vocabulary. |
 | [`llms.txt`](https://cheeleong.dev/graph20/llms.txt) / [`llms-full.txt`](https://cheeleong.dev/graph20/llms-full.txt) | LLM-oriented entry point and full recursive text projection. |
 | [`objects/sources/source-coverage.json`](objects/sources/source-coverage.json) / [`source-review-ledger.json`](objects/sources/source-review-ledger.json) | Machine-readable coverage and semantic-review reports. |
 | [`datapackage.json`](datapackage.json) | Frictionless Data Package metadata and resource listing. |
@@ -90,8 +90,8 @@ The v0.4.0 build contains:
 | Collection | Records | What is represented |
 | --- | ---: | --- |
 | `sources` | 1 | Source identity, version, rights, attribution, and SHA-256 digest |
-| `rules` | 738 | General rules, chapters, and glossary prose |
-| `tables` | 223 | Logical tables with ordered rows, raw Markdown, and physical spans |
+| `rules` | 736 | General rules, chapters, and glossary prose |
+| `tables` | 235 | Logical tables with ordered rows, raw Markdown, and physical spans |
 | `classes` | 12 | Core traits, level progression, and nested features |
 | `subclasses` | 12 | Subclass features and parent-class links |
 | `species` | 9 | Creature type, size, speed, traits, and prose |
@@ -102,7 +102,7 @@ The v0.4.0 build contains:
 | `conditions` | 15 | Rules Glossary conditions and their effects |
 | `magic-items` | 258 | Rarity variants, attunement clauses, tables, and prose |
 | `monsters` | 336 | Stat blocks, traits, actions, attacks, and ability scores |
-| **Total** | **2,097** | **18,050 in-scope, non-blank source lines covered** |
+| **Total** | **2,107** | **18,047 in-scope, non-blank source lines covered** |
 
 ## Data model and guarantees
 
@@ -110,13 +110,14 @@ The project is designed for source-backed reference and retrieval workloads:
 
 - **Stable identity.** Every entity has a lowercase-kebab-case canonical `@id` under `https://cheeleong.dev/graph20/` and an `@type` defined by the shared context.
 - **Graph-safe links.** Semantic relationships use `{ "@id": "…" }` node references. `$ref` is reserved for JSON Schema composition.
+- **Source-backed relations.** Class spell-list tables use `listsSpell`; magic items use `castsSpell`; exact condition phrases use `mentionsCondition`; backgrounds use `grantsFeat`; and monster gear uses `hasGear`. Display strings remain alongside every link.
 - **Source-faithful prose.** `rulesText` and `description` preserve source wording. Typed sibling fields are indexes, not replacements for the prose.
 - **Physical provenance.** `sourceLocator` identifies the source chapter, section, heading, and inclusive line range. Nested class features and monster sections are locatable too.
 - **No invented values.** Extraction does not fill gaps in the source. A truncated table cell remains omitted rather than inferred.
 - **Reviewed normalization.** Source-conversion fixes are recorded in [`objects/sources/extraction-overrides.json`](objects/sources/extraction-overrides.json), including observed text, disposition, rationale, and affected records.
 - **Deterministic output.** Clean builds contain no timestamps or random ordering and must reproduce the checked-in artifacts byte for byte.
 
-The build currently reports 100% interval coverage of the 18,050 in-scope, non-blank source lines. Coverage means every line falls within at least one record locator; the separate fidelity, graph, schema, anomaly, and review gates test stronger claims.
+The build currently reports 100% interval coverage of the 18,047 in-scope, non-blank source lines. Coverage means every line falls within at least one record locator; the separate fidelity, graph, schema, anomaly, and review gates test stronger claims.
 
 See [SPECIFICATION.md](SPECIFICATION.md) for the source boundary, extraction grammar, architecture, and acceptance criteria. [CHECKLIST.md](CHECKLIST.md) tracks the replication blueprint, and [AUDIT.md](AUDIT.md) records resolved and open audit findings.
 

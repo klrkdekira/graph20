@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.53",
     "heading": "Centaur Trooper",
-    "lineStart": 19572,
-    "lineEnd": 19603
+    "lineStart": 19496,
+    "lineEnd": 19527
   },
   "sizeTypeAlignment": "Large Fey, Neutral Good",
   "sizeAndType": "Large Fey",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.53",
         "heading": "Actions",
-        "lineStart": 19592,
-        "lineEnd": 19599
+        "lineStart": 19516,
+        "lineEnd": 19523
       }
     },
     {
@@ -88,12 +88,23 @@
         "chapter": "Monsters A-Z",
         "section": "12.53",
         "heading": "Bonus Actions",
-        "lineStart": 19601,
-        "lineEnd": 19603
+        "lineStart": 19525,
+        "lineEnd": 19527
       }
     }
   ],
   "rulesText": "Large Fey, Neutral Good\n\nAC 16\nInitiative +2 (12)\nHP 45 (6d10 + 12)\nSpeed 50 ft.\n\nSkills Athletics +6, Perception +3\nGear Breastplate, Longbow, Pike\nSenses Passive Perception 13\nLanguages Elvish, Sylvan\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The centaur makes two attacks, using Pike or Longbow in any combination.\n\nPike. Melee Attack Roll: +6, reach 10 ft. Hit: 9 (1d10 + 4) Piercing damage.\n\nLongbow. Ranged Attack Roll: +4, range 150/600 ft.\nHit: 6 (1d8 + 2) Piercing damage.\n\nBonus Actions\n\nTrampling Charge (Recharge 5–6). The centaur moves up to its Speed without provoking Opportunity Attacks and can move through the spaces of Medium or smaller creatures. Each creature whose space the centaur enters is targeted once by the following effect. Strength Saving Throw: DC 14. Failure: 7 (1d6 + 4) Bludgeoning damage, and the target has the Prone condition.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/breastplate"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/longbow"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/pike"
+    }
+  ],
   "attacks": [
     {
       "name": "Pike",
@@ -139,6 +150,11 @@
         "normal": 150,
         "long": 600
       }
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

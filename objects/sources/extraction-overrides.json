@@ -25,6 +25,22 @@
       "status": "applied-to-source",
       "preRepairDigest": "sha256-31496ccb6d139f8b6262ccfab60ec772cb2f369e65eb30ed39aafc6996581058",
       "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e"
+    },
+    {
+      "id": "residual-structure-repairs-2026-08-25",
+      "scope": "SRD_CC_v5.2.1.md (Figurine of Wondrous Power ownership and Trinkets/Prismatic Rays table continuations)",
+      "observed": "Three residual two-column conversion artifacts: (1) the '# Giant Fly' stat block interrupted Figurine of Wondrous Power after its Ebony Fly variant, causing Golden Lions through Silver Raven to be owned by the monster record; (2) Trinkets rows 35-00 appeared as plain paragraphs under two phantom '# 1d100 Trinket' headings rather than continuing rows 01-34; (3) Prismatic Rays rows 5-8 appeared as plain paragraphs under a phantom '# 1d8 Ray' heading rather than continuing rows 1-4.",
+      "observedTokens": [
+        "# Giant Fly ... Golden Lions (Rare).",
+        "# 1d100 Trinket ... 35 A white, sequined glove sized for a human",
+        "# 1d100 Trinket ... 73 An eggshell painted with scenes of misery in disturbing detail",
+        "# 1d8 Ray ... 5 Blue. Failed Save: 12d6 Cold damage."
+      ],
+      "proposed": "Applied deterministically by scripts/repair_source.py (step 21c): relocate the verbatim Giant Fly stat block after the final Silver Raven variant, and losslessly represent the existing Trinkets rows 35-00 and Prismatic Rays rows 5-8 as continuations of their preceding GFM tables. The repair asserts the complete printed roll sequences and fails if its end anchors drift.",
+      "rationale": "The official source layout embeds an accompanying stat block and column continuations inside larger semantic entries. Relocating the stat block and joining the table rows changes only structural representation: no wording or missing value is invented, and the owning records regain the source text already present in the markdown.",
+      "status": "applied-to-source",
+      "preRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
+      "postRepairDigest": "sha256-e5a493bd086894a69972dc9b61422f1f51c05b3bd7e1691ab3b0917f8a24ab90"
     }
   ],
   "anomalyReviews": [
@@ -42,7 +58,7 @@
       "status": "resolved",
       "affectedCount": 33,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
+      "postRepairDigest": "sha256-e5a493bd086894a69972dc9b61422f1f51c05b3bd7e1691ab3b0917f8a24ab90",
       "expectedRemaining": 0
     },
     {
@@ -58,7 +74,7 @@
       "status": "resolved",
       "affectedCount": 15,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
+      "postRepairDigest": "sha256-e5a493bd086894a69972dc9b61422f1f51c05b3bd7e1691ab3b0917f8a24ab90",
       "expectedRemaining": 0
     },
     {
@@ -72,7 +88,7 @@
       "status": "resolved",
       "affectedCount": 12,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
+      "postRepairDigest": "sha256-e5a493bd086894a69972dc9b61422f1f51c05b3bd7e1691ab3b0917f8a24ab90",
       "expectedRemaining": 0
     },
     {
@@ -90,7 +106,7 @@
       "status": "resolved",
       "affectedCount": 5,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
+      "postRepairDigest": "sha256-e5a493bd086894a69972dc9b61422f1f51c05b3bd7e1691ab3b0917f8a24ab90",
       "expectedRemaining": 0
     },
     {
@@ -104,7 +120,7 @@
       "status": "resolved",
       "affectedCount": 36,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
+      "postRepairDigest": "sha256-e5a493bd086894a69972dc9b61422f1f51c05b3bd7e1691ab3b0917f8a24ab90",
       "expectedRemaining": 0
     },
     {
@@ -126,7 +142,7 @@
       "status": "resolved",
       "affectedCount": 18,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
+      "postRepairDigest": "sha256-e5a493bd086894a69972dc9b61422f1f51c05b3bd7e1691ab3b0917f8a24ab90",
       "expectedRemaining": 0
     },
     {
@@ -142,7 +158,7 @@
       "status": "resolved",
       "affectedCount": 4,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
+      "postRepairDigest": "sha256-e5a493bd086894a69972dc9b61422f1f51c05b3bd7e1691ab3b0917f8a24ab90",
       "expectedRemaining": 0
     },
     {
@@ -157,7 +173,7 @@
       "status": "resolved",
       "affectedCount": 135,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
+      "postRepairDigest": "sha256-e5a493bd086894a69972dc9b61422f1f51c05b3bd7e1691ab3b0917f8a24ab90",
       "expectedRemaining": 0
     },
     {
@@ -173,7 +189,7 @@
       "status": "resolved",
       "affectedCount": 34,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
+      "postRepairDigest": "sha256-e5a493bd086894a69972dc9b61422f1f51c05b3bd7e1691ab3b0917f8a24ab90",
       "expectedRemaining": 0
     },
     {
@@ -188,7 +204,7 @@
       "status": "resolved",
       "affectedCount": 14,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
+      "postRepairDigest": "sha256-e5a493bd086894a69972dc9b61422f1f51c05b3bd7e1691ab3b0917f8a24ab90",
       "expectedRemaining": 0
     },
     {
@@ -205,7 +221,7 @@
       "status": "resolved",
       "affectedCount": 4,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
+      "postRepairDigest": "sha256-e5a493bd086894a69972dc9b61422f1f51c05b3bd7e1691ab3b0917f8a24ab90",
       "expectedRemaining": 0
     },
     {
@@ -219,7 +235,7 @@
       "status": "resolved",
       "affectedCount": 606,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
+      "postRepairDigest": "sha256-e5a493bd086894a69972dc9b61422f1f51c05b3bd7e1691ab3b0917f8a24ab90",
       "expectedRemaining": 0
     }
   ]

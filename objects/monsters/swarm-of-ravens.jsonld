@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.87",
     "heading": "Swarm of Ravens",
-    "lineStart": 29011,
-    "lineEnd": 29040
+    "lineStart": 28935,
+    "lineEnd": 28964
   },
   "sizeTypeAlignment": "Medium Swarm of Tiny Beasts, Unaligned",
   "sizeAndType": "Medium Swarm of Tiny Beasts",
@@ -78,8 +78,8 @@
         "chapter": "Animals",
         "section": "13.87",
         "heading": "Traits",
-        "lineStart": 29032,
-        "lineEnd": 29034
+        "lineStart": 28956,
+        "lineEnd": 28958
       }
     },
     {
@@ -89,8 +89,8 @@
         "chapter": "Animals",
         "section": "13.87",
         "heading": "Actions",
-        "lineStart": 29036,
-        "lineEnd": 29040
+        "lineStart": 28960,
+        "lineEnd": 28964
       }
     }
   ],
@@ -151,6 +151,11 @@
       "parseStatus": "parsed",
       "attackBonus": 4,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/deafened"
     }
   ]
 }

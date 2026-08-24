@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.22",
     "heading": "Elephant",
-    "lineStart": 27256,
-    "lineEnd": 27282
+    "lineStart": 27180,
+    "lineEnd": 27206
   },
   "sizeTypeAlignment": "Huge Beast, Unaligned",
   "sizeAndType": "Huge Beast",
@@ -75,8 +75,8 @@
         "chapter": "Animals",
         "section": "13.22",
         "heading": "Actions",
-        "lineStart": 27274,
-        "lineEnd": 27278
+        "lineStart": 27198,
+        "lineEnd": 27202
       }
     },
     {
@@ -86,8 +86,8 @@
         "chapter": "Animals",
         "section": "13.22",
         "heading": "Bonus Actions",
-        "lineStart": 27280,
-        "lineEnd": 27282
+        "lineStart": 27204,
+        "lineEnd": 27206
       }
     }
   ],
@@ -113,6 +113,11 @@
       "parseStatus": "parsed",
       "attackBonus": 8,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

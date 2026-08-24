@@ -11,8 +11,16 @@
     "chapter": "Rules Glossary",
     "section": "8.109",
     "heading": "Paralyzed [Condition]",
-    "lineStart": 13492,
-    "lineEnd": 13504
+    "lineStart": 13416,
+    "lineEnd": 13428
   },
-  "rulesText": "While you have the Paralyzed condition, you experience the following effects.\n\nIncapacitated. You have the Incapacitated condition.\n\nSpeed 0. Your Speed is 0 and can't increase.\n\nSaving Throws Affected. You automatically fail Strength and Dexterity saving throws.\n\nAttacks Affected. Attack rolls against you have Advantage.\n\nAutomatic Critical Hits. Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you."
+  "rulesText": "While you have the Paralyzed condition, you experience the following effects.\n\nIncapacitated. You have the Incapacitated condition.\n\nSpeed 0. Your Speed is 0 and can't increase.\n\nSaving Throws Affected. You automatically fail Strength and Dexterity saving throws.\n\nAttacks Affected. Attack rolls against you have Advantage.\n\nAutomatic Critical Hits. Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/paralyzed"
+    }
+  ]
 }

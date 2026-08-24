@@ -15,5 +15,10 @@
     "lineEnd": 711
   },
   "section": "1.84",
-  "rulesText": "If an effect is about to move your mount against its will while you're on it, you must succeed on a DC 10 Dexterity saving throw or fall off, landing with the Prone condition (see “Rules Glossary”) in an unoccupied space within 5 feet of the mount.\n\nWhile mounted, you must make the same save if you're knocked Prone or the mount is."
+  "rulesText": "If an effect is about to move your mount against its will while you're on it, you must succeed on a DC 10 Dexterity saving throw or fall off, landing with the Prone condition (see “Rules Glossary”) in an unoccupied space within 5 feet of the mount.\n\nWhile mounted, you must make the same save if you're knocked Prone or the mount is.",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    }
+  ]
 }

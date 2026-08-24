@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.190",
     "heading": "Priest Acolyte",
-    "lineStart": 23956,
-    "lineEnd": 23989
+    "lineStart": 23880,
+    "lineEnd": 23913
   },
   "sizeTypeAlignment": "Medium or Small Humanoid (Cleric), Neutral",
   "sizeAndType": "Medium or Small Humanoid (Cleric)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.190",
         "heading": "Actions",
-        "lineStart": 23976,
-        "lineEnd": 23985
+        "lineStart": 23900,
+        "lineEnd": 23909
       }
     },
     {
@@ -88,12 +88,23 @@
         "chapter": "Monsters A-Z",
         "section": "12.190",
         "heading": "Bonus Actions",
-        "lineStart": 23987,
-        "lineEnd": 23989
+        "lineStart": 23911,
+        "lineEnd": 23913
       }
     }
   ],
   "rulesText": "Medium or Small Humanoid (Cleric), Neutral\n\nAC 13\nInitiative +0 (10)\nHP 11 (2d8 + 2)\nSpeed 30 ft.\n\nSkills Medicine +4, Religion +2\nGear Chain Shirt, Holy Symbol, Mace\nSenses Passive Perception 12\nLanguages Common\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nMace. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Bludgeoning damage plus 2 (1d4) Radiant damage.\n\nRadiant Flame. Ranged Attack Roll: +4, range 60 ft.\nHit: 7 (2d6) Radiant damage.\n\nSpellcasting. The priest casts one of the following spells, using Wisdom as the spellcasting ability:\n\nAt Will: Light, Thaumaturgy\n\nBonus Actions\n\nDivine Aid (1/Day). The priest casts Bless, Healing Word, or Sanctuary, using the same spellcasting ability as Spellcasting.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/chain-shirt"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/holy-symbol"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/mace"
+    }
+  ],
   "attacks": [
     {
       "name": "Mace",

@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.19",
     "heading": "Dire Wolf",
-    "lineStart": 27184,
-    "lineEnd": 27209
+    "lineStart": 27108,
+    "lineEnd": 27133
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -76,8 +76,8 @@
         "chapter": "Animals",
         "section": "13.19",
         "heading": "Traits",
-        "lineStart": 27203,
-        "lineEnd": 27205
+        "lineStart": 27127,
+        "lineEnd": 27129
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Animals",
         "section": "13.19",
         "heading": "Actions",
-        "lineStart": 27207,
-        "lineEnd": 27209
+        "lineStart": 27131,
+        "lineEnd": 27133
       }
     }
   ],
@@ -114,6 +114,14 @@
       "parseStatus": "parsed",
       "attackBonus": 5,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

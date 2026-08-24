@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.214",
     "heading": "Irresistible Dance",
-    "lineStart": 10262,
-    "lineEnd": 10273
+    "lineStart": 10192,
+    "lineEnd": 10203
   },
   "level": 6,
   "school": "Enchantment",
@@ -36,5 +36,10 @@
   "savingThrowAbility": "Wisdom",
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    }
+  ]
 }

@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.32",
     "heading": "Wizard Spell List",
-    "lineStart": 5137,
-    "lineEnd": 5168
+    "lineStart": 5067,
+    "lineEnd": 5098
   },
   "columns": [
     "Spell",
@@ -441,5 +441,97 @@
       ]
     }
   ],
-  "rawText": "| Spell                         | School        | Special |\n| :---------------------------- | :------------ | :------ |\n| Alarm                         | Abjuration    | R       |\n| Burning Hands                 | Evocation     |    -    |\n| Charm Person                  | Enchantment   |    -    |\n| Chromatic Orb                 | Evocation     | M       |\n| Color Spray                   | Illusion      |    -    |\n| Comprehend Languages          | Divination    | R       |\n| Detect Magic                  | Divination    | C, R    |\n| Disguise Self                 | Illusion      |    -    |\n| Expeditious Retreat           | Transmutation | C       |\n| False Life                    | Necromancy    |    -    |\n| Feather Fall                  | Transmutation |    -    |\n| Find Familiar                 | Conjuration   | R, M    |\n| Floating Disk                 | Conjuration   | R       |\n| Fog Cloud                     | Conjuration   | C       |\n| Grease                        | Conjuration   |    -    |\n| Hideous Laughter              | Enchantment   | C       |\n| Ice Knife                     | Conjuration   |    -    |\n| Identify                      | Divination    | R, M    |\n| Illusory Script               | Illusion      | R, M    |\n| Jump                          | Transmutation |    -    |\n| Longstrider                   | Transmutation |    -    |\n| Mage Armor                    | Abjuration    |    -    |\n| Magic Missile                 | Evocation     |    -    |\n| Protection from Evil and Good | Abjuration    | C, M    |\n| Ray of Sickness               | Necromancy    |    -    |\n| Shield                        | Abjuration    |    -    |\n| Silent Image                  | Illusion      | C       |\n| Sleep                         | Enchantment   | C       |\n| Thunderwave                   | Evocation     |    -    |\n| Unseen Servant                | Conjuration   | R       |"
+  "rawText": "| Spell                         | School        | Special |\n| :---------------------------- | :------------ | :------ |\n| Alarm                         | Abjuration    | R       |\n| Burning Hands                 | Evocation     |    -    |\n| Charm Person                  | Enchantment   |    -    |\n| Chromatic Orb                 | Evocation     | M       |\n| Color Spray                   | Illusion      |    -    |\n| Comprehend Languages          | Divination    | R       |\n| Detect Magic                  | Divination    | C, R    |\n| Disguise Self                 | Illusion      |    -    |\n| Expeditious Retreat           | Transmutation | C       |\n| False Life                    | Necromancy    |    -    |\n| Feather Fall                  | Transmutation |    -    |\n| Find Familiar                 | Conjuration   | R, M    |\n| Floating Disk                 | Conjuration   | R       |\n| Fog Cloud                     | Conjuration   | C       |\n| Grease                        | Conjuration   |    -    |\n| Hideous Laughter              | Enchantment   | C       |\n| Ice Knife                     | Conjuration   |    -    |\n| Identify                      | Divination    | R, M    |\n| Illusory Script               | Illusion      | R, M    |\n| Jump                          | Transmutation |    -    |\n| Longstrider                   | Transmutation |    -    |\n| Mage Armor                    | Abjuration    |    -    |\n| Magic Missile                 | Evocation     |    -    |\n| Protection from Evil and Good | Abjuration    | C, M    |\n| Ray of Sickness               | Necromancy    |    -    |\n| Shield                        | Abjuration    |    -    |\n| Silent Image                  | Illusion      | C       |\n| Sleep                         | Enchantment   | C       |\n| Thunderwave                   | Evocation     |    -    |\n| Unseen Servant                | Conjuration   | R       |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/alarm"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/burning-hands"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/charm-person"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/chromatic-orb"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/color-spray"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/comprehend-languages"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/disguise-self"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/expeditious-retreat"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/false-life"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/feather-fall"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/find-familiar"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/floating-disk"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/fog-cloud"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/grease"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/hideous-laughter"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/ice-knife"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/identify"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/illusory-script"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/jump"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/longstrider"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mage-armor"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/magic-missile"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/protection-from-evil-and-good"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/ray-of-sickness"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/shield"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/silent-image"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/sleep"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/thunderwave"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/unseen-servant"
+    }
+  ]
 }

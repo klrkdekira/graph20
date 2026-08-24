@@ -1,0 +1,73 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/7-124-divine-word-effects",
+  "@type": "Table",
+  "name": "Divine Word Effects",
+  "slug": "7-124-divine-word-effects",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.124",
+    "heading": "Divine Word",
+    "lineStart": 8764,
+    "lineEnd": 8769
+  },
+  "columns": [
+    "Hit Points",
+    "Effect"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "0–20"
+        },
+        {
+          "value": "The target dies."
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "21–30"
+        },
+        {
+          "value": "The target has the Blinded, Deafened, and Stunned conditions for 1 hour."
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "31–40"
+        },
+        {
+          "value": "The target has the Blinded and Deafened conditions for 10 minutes."
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "41–50"
+        },
+        {
+          "value": "The target has the Deafened condition for 1 minute."
+        }
+      ]
+    }
+  ],
+  "rawText": "| Hit Points | Effect                                                                   |\n| :--------- | :----------------------------------------------------------------------- |\n| 0–20       | The target dies.                                                         |\n| 21–30      | The target has the Blinded, Deafened, and Stunned conditions for 1 hour. |\n| 31–40      | The target has the Blinded and Deafened conditions for 10 minutes.       |\n| 41–50      | The target has the Deafened condition for 1 minute.                      |",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/deafened"
+    }
+  ]
+}

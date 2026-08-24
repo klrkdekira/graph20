@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.251",
     "heading": "Warrior Infantry",
-    "lineStart": 25996,
-    "lineEnd": 26021
+    "lineStart": 25920,
+    "lineEnd": 25945
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -75,8 +75,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.251",
         "heading": "Traits",
-        "lineStart": 26015,
-        "lineEnd": 26017
+        "lineStart": 25939,
+        "lineEnd": 25941
       }
     },
     {
@@ -86,12 +86,20 @@
         "chapter": "Monsters A-Z",
         "section": "12.251",
         "heading": "Actions",
-        "lineStart": 26019,
-        "lineEnd": 26021
+        "lineStart": 25943,
+        "lineEnd": 25945
       }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 13\nInitiative +0 (10)\nHP 9 (2d8)\nSpeed 30 ft.\n\nGear Chain Shirt, Spear\nSenses Passive Perception 10\nLanguages Common\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nPack Tactics. The warrior has Advantage on an attack roll against a creature if at least one of the warrior's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nSpear. Melee or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft. Hit: 4 (1d6 + 1) Piercing damage.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/chain-shirt"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/spear"
+    }
+  ],
   "attacks": [
     {
       "name": "Spear",
@@ -117,6 +125,11 @@
         "normal": 20,
         "long": 60
       }
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
     }
   ]
 }

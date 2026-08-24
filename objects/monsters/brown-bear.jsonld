@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.12",
     "heading": "Brown Bear",
-    "lineStart": 27001,
-    "lineEnd": 27026
+    "lineStart": 26925,
+    "lineEnd": 26950
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
@@ -76,8 +76,8 @@
         "chapter": "Animals",
         "section": "13.12",
         "heading": "Actions",
-        "lineStart": 27020,
-        "lineEnd": 27026
+        "lineStart": 26944,
+        "lineEnd": 26950
       }
     }
   ],
@@ -124,6 +124,11 @@
       "parseStatus": "parsed",
       "attackBonus": 5,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

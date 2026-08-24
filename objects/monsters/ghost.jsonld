@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.98",
     "heading": "Ghost",
-    "lineStart": 21068,
-    "lineEnd": 21111
+    "lineStart": 20992,
+    "lineEnd": 21035
   },
   "sizeTypeAlignment": "Medium Undead, Neutral",
   "sizeAndType": "Medium Undead",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.98",
         "heading": "Traits",
-        "lineStart": 21090,
-        "lineEnd": 21094
+        "lineStart": 21014,
+        "lineEnd": 21018
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.98",
         "heading": "Actions",
-        "lineStart": 21096,
-        "lineEnd": 21111
+        "lineStart": 21020,
+        "lineEnd": 21035
       }
     }
   ],
@@ -143,6 +143,14 @@
       "parseStatus": "parsed",
       "attackBonus": 5,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
     }
   ]
 }

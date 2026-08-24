@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.26",
     "heading": "Giant Ape",
-    "lineStart": 27362,
-    "lineEnd": 27391
+    "lineStart": 27286,
+    "lineEnd": 27315
   },
   "sizeTypeAlignment": "Huge Beast, Unaligned",
   "sizeAndType": "Huge Beast",
@@ -76,8 +76,8 @@
         "chapter": "Animals",
         "section": "13.26",
         "heading": "Actions",
-        "lineStart": 27381,
-        "lineEnd": 27387
+        "lineStart": 27305,
+        "lineEnd": 27311
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Animals",
         "section": "13.26",
         "heading": "Bonus Actions",
-        "lineStart": 27389,
-        "lineEnd": 27391
+        "lineStart": 27313,
+        "lineEnd": 27315
       }
     }
   ],
@@ -114,6 +114,11 @@
       "parseStatus": "parsed",
       "attackBonus": 9,
       "reachFeet": 10
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

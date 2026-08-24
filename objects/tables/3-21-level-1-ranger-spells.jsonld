@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.21",
     "heading": "Ranger Spell List",
-    "lineStart": 3709,
-    "lineEnd": 3723
+    "lineStart": 3639,
+    "lineEnd": 3653
   },
   "columns": [
     "Spell",
@@ -203,5 +203,46 @@
       ]
     }
   ],
-  "rawText": "| Spell                     | School        | Special |\n| :------------------------ | :------------ | :------ |\n| Alarm                     | Abjuration    | R       |\n| Animal Friendship         | Enchantment   |    -    |\n| Cure Wounds               | Abjuration    |    -    |\n| Detect Magic              | Divination    | C, R    |\n| Detect Poison and Disease | Divination    | C, R    |\n| Ensnaring Strike          | Conjuration   | C       |\n| Entangle                  | Conjuration   | C       |\n| Fog Cloud                 | Conjuration   | C       |\n| Goodberry                 | Conjuration   |    -    |\n| Hunter’s Mark             | Divination    | C       |\n| Jump                      | Transmutation |    -    |\n| Longstrider               | Transmutation |    -    |\n| Speak with Animals        | Divination    | R       |"
+  "rawText": "| Spell                     | School        | Special |\n| :------------------------ | :------------ | :------ |\n| Alarm                     | Abjuration    | R       |\n| Animal Friendship         | Enchantment   |    -    |\n| Cure Wounds               | Abjuration    |    -    |\n| Detect Magic              | Divination    | C, R    |\n| Detect Poison and Disease | Divination    | C, R    |\n| Ensnaring Strike          | Conjuration   | C       |\n| Entangle                  | Conjuration   | C       |\n| Fog Cloud                 | Conjuration   | C       |\n| Goodberry                 | Conjuration   |    -    |\n| Hunter’s Mark             | Divination    | C       |\n| Jump                      | Transmutation |    -    |\n| Longstrider               | Transmutation |    -    |\n| Speak with Animals        | Divination    | R       |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/alarm"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/animal-friendship"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/cure-wounds"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-poison-and-disease"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/ensnaring-strike"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/entangle"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/fog-cloud"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/goodberry"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/hunters-mark"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/jump"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/longstrider"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/speak-with-animals"
+    }
+  ]
 }

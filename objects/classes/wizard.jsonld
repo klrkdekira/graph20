@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.31",
     "heading": "Wizard",
-    "lineStart": 4971,
-    "lineEnd": 5417
+    "lineStart": 4901,
+    "lineEnd": 5347
   },
   "coreTraits": [
     {
@@ -61,8 +61,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 1: Spellcasting",
-        "lineStart": 5026,
-        "lineEnd": 5052
+        "lineStart": 4956,
+        "lineEnd": 4982
       }
     },
     {
@@ -73,8 +73,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 1: Ritual Adept",
-        "lineStart": 5054,
-        "lineEnd": 5058
+        "lineStart": 4984,
+        "lineEnd": 4988
       }
     },
     {
@@ -85,8 +85,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 1: Arcane Recovery",
-        "lineStart": 5060,
-        "lineEnd": 5064
+        "lineStart": 4990,
+        "lineEnd": 4994
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 2: Scholar",
-        "lineStart": 5066,
-        "lineEnd": 5068
+        "lineStart": 4996,
+        "lineEnd": 4998
       }
     },
     {
@@ -109,8 +109,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 3: Wizard Subclass",
-        "lineStart": 5070,
-        "lineEnd": 5072
+        "lineStart": 5000,
+        "lineEnd": 5002
       }
     },
     {
@@ -121,8 +121,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 4: Ability Score Improvement",
-        "lineStart": 5086,
-        "lineEnd": 5088
+        "lineStart": 5016,
+        "lineEnd": 5018
       }
     },
     {
@@ -133,8 +133,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 5: Memorize Spell",
-        "lineStart": 5090,
-        "lineEnd": 5092
+        "lineStart": 5020,
+        "lineEnd": 5022
       }
     },
     {
@@ -145,8 +145,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 18: Spell Mastery",
-        "lineStart": 5094,
-        "lineEnd": 5098
+        "lineStart": 5024,
+        "lineEnd": 5028
       }
     },
     {
@@ -157,8 +157,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 19: Epic Boon",
-        "lineStart": 5100,
-        "lineEnd": 5102
+        "lineStart": 5030,
+        "lineEnd": 5032
       }
     },
     {
@@ -169,8 +169,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 20: Signature Spells",
-        "lineStart": 5104,
-        "lineEnd": 5106
+        "lineStart": 5034,
+        "lineEnd": 5036
       }
     }
   ],

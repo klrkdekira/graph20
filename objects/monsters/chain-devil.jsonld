@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.54",
     "heading": "Chain Devil",
-    "lineStart": 19605,
-    "lineEnd": 19646
+    "lineStart": 19529,
+    "lineEnd": 19570
   },
   "sizeTypeAlignment": "Medium Fiend (Devil), Lawful Evil",
   "sizeAndType": "Medium Fiend (Devil)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.54",
         "heading": "Traits",
-        "lineStart": 19630,
-        "lineEnd": 19634
+        "lineStart": 19554,
+        "lineEnd": 19558
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.54",
         "heading": "Actions",
-        "lineStart": 19636,
-        "lineEnd": 19642
+        "lineStart": 19560,
+        "lineEnd": 19566
       }
     },
     {
@@ -99,8 +99,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.54",
         "heading": "Reactions",
-        "lineStart": 19644,
-        "lineEnd": 19646
+        "lineStart": 19568,
+        "lineEnd": 19570
       }
     }
   ],
@@ -131,6 +131,17 @@
       "parseStatus": "parsed",
       "attackBonus": 7,
       "reachFeet": 10
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
   ]
 }

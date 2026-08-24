@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.336",
     "heading": "Sunburst",
-    "lineStart": 12088,
-    "lineEnd": 12101
+    "lineStart": 12012,
+    "lineEnd": 12025
   },
   "level": 8,
   "school": "Evocation",
@@ -54,5 +54,10 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/blinded"
+    }
+  ]
 }

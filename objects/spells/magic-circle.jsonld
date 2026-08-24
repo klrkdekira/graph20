@@ -11,8 +11,8 @@
     "chapter": "Spells",
     "section": "7.229",
     "heading": "Magic Circle",
-    "lineStart": 10469,
-    "lineEnd": 10489
+    "lineStart": 10399,
+    "lineEnd": 10419
   },
   "level": 3,
   "school": "Abjuration",
@@ -44,5 +44,10 @@
   "savingThrowAbility": "Charisma",
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    }
+  ]
 }

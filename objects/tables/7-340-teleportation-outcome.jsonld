@@ -1,0 +1,147 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/7-340-teleportation-outcome",
+  "@type": "Table",
+  "name": "Teleportation Outcome",
+  "slug": "7-340-teleportation-outcome",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.340",
+    "heading": "Teleport",
+    "lineStart": 12109,
+    "lineEnd": 12116
+  },
+  "columns": [
+    "Familiarity",
+    "Mishap",
+    "Similar Area",
+    "Off Target",
+    "On Target"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Permanent circle"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "01–00"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Linked object"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "01–00"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Very familiar"
+        },
+        {
+          "value": "01–05"
+        },
+        {
+          "value": "06–13"
+        },
+        {
+          "value": "14–24"
+        },
+        {
+          "value": "25–00"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Seen casually"
+        },
+        {
+          "value": "01–33"
+        },
+        {
+          "value": "34–43"
+        },
+        {
+          "value": "44–53"
+        },
+        {
+          "value": "54–00"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Viewed once or described"
+        },
+        {
+          "value": "01–43"
+        },
+        {
+          "value": "44–53"
+        },
+        {
+          "value": "54–73"
+        },
+        {
+          "value": "74–00"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "False destination"
+        },
+        {
+          "value": "01–50"
+        },
+        {
+          "value": "51–00"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    }
+  ],
+  "rawText": "| Familiarity              | Mishap | Similar Area | Off Target | On Target |\n| :----------------------- | :----- | :----------- | :--------- | :-------- |\n| Permanent circle         |   -    |      -       |     -      | 01–00     |\n| Linked object            |   -    |      -       |     -      | 01–00     |\n| Very familiar            | 01–05  | 06–13        | 14–24      | 25–00     |\n| Seen casually            | 01–33  | 34–43        | 44–53      | 54–00     |\n| Viewed once or described | 01–43  | 44–53        | 54–73      | 74–00     |\n| False destination        | 01–50  | 51–00        |     -      |     -     |"
+}

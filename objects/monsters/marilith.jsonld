@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.158",
     "heading": "Marilith",
-    "lineStart": 22972,
-    "lineEnd": 23017
+    "lineStart": 22896,
+    "lineEnd": 22941
   },
   "sizeTypeAlignment": "Large Fiend (Demon), Chaotic Evil",
   "sizeAndType": "Large Fiend (Demon)",
@@ -78,8 +78,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.158",
         "heading": "Traits",
-        "lineStart": 22995,
-        "lineEnd": 23001
+        "lineStart": 22919,
+        "lineEnd": 22925
       }
     },
     {
@@ -89,8 +89,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.158",
         "heading": "Actions",
-        "lineStart": 23003,
-        "lineEnd": 23009
+        "lineStart": 22927,
+        "lineEnd": 22933
       }
     },
     {
@@ -100,8 +100,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.158",
         "heading": "Bonus Actions",
-        "lineStart": 23011,
-        "lineEnd": 23013
+        "lineStart": 22935,
+        "lineEnd": 22937
       }
     },
     {
@@ -111,8 +111,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.158",
         "heading": "Reactions",
-        "lineStart": 23015,
-        "lineEnd": 23017
+        "lineStart": 22939,
+        "lineEnd": 22941
       }
     }
   ],
@@ -152,6 +152,14 @@
       "parseStatus": "parsed",
       "attackBonus": 10,
       "reachFeet": 5
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
   ]
 }

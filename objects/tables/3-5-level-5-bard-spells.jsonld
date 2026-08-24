@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.5",
     "heading": "Bard Spell List",
-    "lineStart": 2007,
-    "lineEnd": 2025
+    "lineStart": 1937,
+    "lineEnd": 1955
   },
   "columns": [
     "Spell",
@@ -259,5 +259,58 @@
       ]
     }
   ],
-  "rawText": "| Spell                | School        | Special |\n| :------------------- | :------------ | :------ |\n| Animate Objects      | Transmutation | C       |\n| Awaken               | Transmutation | M       |\n| Dominate Person      | Enchantment   | C       |\n| Dream                | Illusion      |    -    |\n| Geas                 | Enchantment   |    -    |\n| Greater Restoration  | Abjuration    | M       |\n| Hold Monster         | Enchantment   | C       |\n| Legend Lore          | Divination    | M       |\n| Mass Cure Wounds     | Abjuration    |    -    |\n| Mislead              | Illusion      | C       |\n| Modify Memory        | Enchantment   | C       |\n| Planar Binding       | Abjuration    | M       |\n| Raise Dead           | Necromancy    | M       |\n| Scrying              | Divination    | C, M    |\n| Seeming              | Illusion      |    -    |\n| Telepathic Bond      | Divination    | R       |\n| Teleportation Circle | Conjuration   | M       |"
+  "rawText": "| Spell                | School        | Special |\n| :------------------- | :------------ | :------ |\n| Animate Objects      | Transmutation | C       |\n| Awaken               | Transmutation | M       |\n| Dominate Person      | Enchantment   | C       |\n| Dream                | Illusion      |    -    |\n| Geas                 | Enchantment   |    -    |\n| Greater Restoration  | Abjuration    | M       |\n| Hold Monster         | Enchantment   | C       |\n| Legend Lore          | Divination    | M       |\n| Mass Cure Wounds     | Abjuration    |    -    |\n| Mislead              | Illusion      | C       |\n| Modify Memory        | Enchantment   | C       |\n| Planar Binding       | Abjuration    | M       |\n| Raise Dead           | Necromancy    | M       |\n| Scrying              | Divination    | C, M    |\n| Seeming              | Illusion      |    -    |\n| Telepathic Bond      | Divination    | R       |\n| Teleportation Circle | Conjuration   | M       |",
+  "listsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/animate-objects"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/awaken"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dominate-person"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dream"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/geas"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/greater-restoration"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/hold-monster"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/legend-lore"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mass-cure-wounds"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mislead"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/modify-memory"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/planar-binding"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/raise-dead"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/scrying"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/seeming"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/telepathic-bond"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/teleportation-circle"
+    }
+  ]
 }

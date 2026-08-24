@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.148",
     "heading": "Kobold Warrior",
-    "lineStart": 22609,
-    "lineEnd": 22636
+    "lineStart": 22533,
+    "lineEnd": 22560
   },
   "sizeTypeAlignment": "Small Dragon, Neutral",
   "sizeAndType": "Small Dragon",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.148",
         "heading": "Traits",
-        "lineStart": 22628,
-        "lineEnd": 22632
+        "lineStart": 22552,
+        "lineEnd": 22556
       }
     },
     {
@@ -87,12 +87,17 @@
         "chapter": "Monsters A-Z",
         "section": "12.148",
         "heading": "Actions",
-        "lineStart": 22634,
-        "lineEnd": 22636
+        "lineStart": 22558,
+        "lineEnd": 22560
       }
     }
   ],
   "rulesText": "Small Dragon, Neutral\n\nAC 14\nInitiative +2 (12)\nHP 7 (3d6 - 3)\nSpeed 30 ft.\n\nGear Daggers (3)\nSenses Darkvision 60 ft.; Passive Perception 8\nLanguages Common, Draconic\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nPack Tactics. The kobold has Advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nSunlight Sensitivity. While in sunlight, the kobold has Disadvantage on ability checks and attack rolls.\n\nActions\n\nDagger. Melee or Ranged Attack Roll: +4, reach 5 ft. or range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/dagger"
+    }
+  ],
   "attacks": [
     {
       "name": "Dagger",
@@ -118,6 +123,11 @@
         "normal": 20,
         "long": 60
       }
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
     }
   ]
 }

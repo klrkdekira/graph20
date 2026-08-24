@@ -11,9 +11,17 @@
     "chapter": "Gameplay Toolbox",
     "section": "9.49",
     "heading": "Malice (250 GP)",
-    "lineStart": 14188,
-    "lineEnd": 14192
+    "lineStart": 14112,
+    "lineEnd": 14116
   },
   "section": "9.49",
-  "rulesText": "Inhaled Poison\n\nA creature subjected to Malice must succeed on a DC 15 Constitution saving throw or have the Poisoned condition for 1 hour. The creature also has the Blinded condition while Poisoned in this way."
+  "rulesText": "Inhaled Poison\n\nA creature subjected to Malice must succeed on a DC 15 Constitution saving throw or have the Poisoned condition for 1 hour. The creature also has the Blinded condition while Poisoned in this way.",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/blinded"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ]
 }

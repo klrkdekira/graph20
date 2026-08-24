@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.35",
     "heading": "Giant Elk",
-    "lineStart": 27598,
-    "lineEnd": 27620
+    "lineStart": 27522,
+    "lineEnd": 27544
   },
   "sizeTypeAlignment": "Huge Celestial, Neutral Good",
   "sizeAndType": "Huge Celestial",
@@ -77,8 +77,8 @@
         "chapter": "Animals",
         "section": "13.35",
         "heading": "Actions",
-        "lineStart": 27618,
-        "lineEnd": 27620
+        "lineStart": 27542,
+        "lineEnd": 27544
       }
     }
   ],
@@ -122,6 +122,11 @@
       "parseStatus": "parsed",
       "attackBonus": 6,
       "reachFeet": 10
+    }
+  ],
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
   ]
 }

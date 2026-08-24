@@ -11,8 +11,8 @@
     "chapter": "Classes",
     "section": "3.33",
     "heading": "Wizard Subclass: Evoker",
-    "lineStart": 5385,
-    "lineEnd": 5417
+    "lineStart": 5315,
+    "lineEnd": 5347
   },
   "parentClass": {
     "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
@@ -28,8 +28,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 3: Evocation Savant",
-        "lineStart": 5391,
-        "lineEnd": 5395
+        "lineStart": 5321,
+        "lineEnd": 5325
       }
     },
     {
@@ -40,8 +40,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 3: Potent Cantrip",
-        "lineStart": 5397,
-        "lineEnd": 5399
+        "lineStart": 5327,
+        "lineEnd": 5329
       }
     },
     {
@@ -52,8 +52,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 6: Sculpt Spells",
-        "lineStart": 5401,
-        "lineEnd": 5403
+        "lineStart": 5331,
+        "lineEnd": 5333
       }
     },
     {
@@ -64,8 +64,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 10: Empowered Evocation",
-        "lineStart": 5405,
-        "lineEnd": 5407
+        "lineStart": 5335,
+        "lineEnd": 5337
       }
     },
     {
@@ -76,8 +76,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 14: Overchannel",
-        "lineStart": 5409,
-        "lineEnd": 5417
+        "lineStart": 5339,
+        "lineEnd": 5347
       }
     }
   ]

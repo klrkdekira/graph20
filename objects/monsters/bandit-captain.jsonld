@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.19",
     "heading": "Bandit Captain",
-    "lineStart": 18492,
-    "lineEnd": 18522
+    "lineStart": 18416,
+    "lineEnd": 18446
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.19",
         "heading": "Actions",
-        "lineStart": 18512,
-        "lineEnd": 18518
+        "lineStart": 18436,
+        "lineEnd": 18442
       }
     },
     {
@@ -88,12 +88,23 @@
         "chapter": "Monsters A-Z",
         "section": "12.19",
         "heading": "Reactions",
-        "lineStart": 18520,
-        "lineEnd": 18522
+        "lineStart": 18444,
+        "lineEnd": 18446
       }
     }
   ],
   "rulesText": "Medium or Small Humanoid, Neutral\n\nAC 15\nInitiative +3 (13)\nHP 52 (8d8 + 16)\nSpeed 30 ft.\n\nSkills Athletics +4, Deception +4\nGear Pistol, Scimitar, Studded Leather Armor\nSenses Passive Perception 10\nLanguages Common, Thieves' Cant\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The bandit makes two attacks, using Scimitar and Pistol in any combination.\n\nScimitar. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing damage.\n\nPistol. Ranged Attack Roll: +5, range 30/90 ft. Hit: 8 (1d10 + 3) Piercing damage.\n\nReactions\n\nParry. Trigger: The bandit is hit by a melee attack roll while holding a weapon. Response: The bandit adds 2 to its AC against that attack, possibly causing it to miss.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/pistol"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/scimitar"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/studded-leather-armor"
+    }
+  ],
   "attacks": [
     {
       "name": "Scimitar",
