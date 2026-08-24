@@ -183,6 +183,13 @@
   .global-search button:active { box-shadow: inset 0 2px 5px rgba(0,0,0,.18); }
   .header-actions { display: flex; align-items: center; justify-content: flex-end; gap: .85rem; }
   .header-meta { color: var(--muted); font-size: .73rem; letter-spacing: .055em; text-transform: uppercase; white-space: nowrap; }
+  .header-repo {
+    display: inline-flex; align-items: center; justify-content: center; gap: .32rem;
+    min-height: 38px; padding: .4rem .72rem; border: 1px solid var(--border); border-radius: 9px;
+    background: var(--bg); color: var(--text); text-decoration: none; font-size: .75rem; font-weight: 700;
+  }
+  .header-repo::after { content: "↗"; color: var(--accent); font-size: .82rem; line-height: 1; }
+  .header-repo:hover { border-color: var(--accent); background: var(--panel); }
   .theme-toggle {
     display: inline-flex; align-items: center; gap: .42rem; min-height: 38px; padding: .4rem .72rem;
     border: 1px solid var(--border); border-radius: 9px; background: var(--bg); color: var(--text);
@@ -459,6 +466,7 @@
   </form>
   <div class="header-actions">
     <span class="header-meta">Open data · CC BY 4.0</span>
+    <a class="header-repo" href="https://github.com/klrkdekira/graph20" target="_blank" rel="noopener noreferrer" aria-label="Project repository on GitHub">GitHub</a>
     <button class="theme-toggle" id="theme-toggle" type="button">
       <span class="theme-icon" aria-hidden="true">☀</span>
       <span class="theme-label">Light</span>
