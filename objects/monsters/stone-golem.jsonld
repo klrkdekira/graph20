@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.234",
     "heading": "Stone Golem",
-    "lineStart": 25402,
-    "lineEnd": 25439
+    "lineStart": 25400,
+    "lineEnd": 25437
   },
   "sizeTypeAlignment": "Large Construct, Unaligned",
   "sizeAndType": "Large Construct",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.234",
         "heading": "Traits",
-        "lineStart": 25423,
-        "lineEnd": 25427
+        "lineStart": 25421,
+        "lineEnd": 25425
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.234",
         "heading": "Actions",
-        "lineStart": 25429,
-        "lineEnd": 25435
+        "lineStart": 25427,
+        "lineEnd": 25433
       }
     },
     {
@@ -98,8 +98,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.234",
         "heading": "Bonus Actions",
-        "lineStart": 25437,
-        "lineEnd": 25439
+        "lineStart": 25435,
+        "lineEnd": 25437
       }
     }
   ],

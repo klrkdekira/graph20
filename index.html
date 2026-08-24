@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="description" content="SRD 5.2.1 JSON-LD 1.1 reference corpus and JSON Schema Draft 2020-12 specifications." />
-<meta name="author" content="Chee Leong" />
+<meta name="author" content="Chee Leong Chow" />
 <meta name="theme-color" content="#202a31" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="SRD 5.2.1 System JSON" />
@@ -35,7 +35,7 @@
   "name": "SRD 5.2.1 System JSON",
   "description": "A source-faithful JSON-LD 1.1 reference corpus and JSON Schema Draft 2020-12 specifications for the System Reference Document 5.2.1.",
   "url": "https://cheeleong.dev/graph20/",
-  "creator": { "@type": "Person", "name": "Chee Leong" },
+  "creator": { "@type": "Person", "name": "Chee Leong Chow" },
   "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
   "isBasedOn": "https://cheeleong.dev/graph20/SRD_CC_v5.2.1.md",
   "inLanguage": "en",
@@ -520,7 +520,8 @@
     colIndex[collection].forEach(function (entry) {
       if (needle &&
           entry.name.toLowerCase().indexOf(needle) === -1 &&
-          entry.sub.toLowerCase().indexOf(needle) === -1) return;
+          entry.sub.toLowerCase().indexOf(needle) === -1 &&
+          (entry.group || "").toLowerCase().indexOf(needle) === -1) return;
       if (entry.group !== lastGroup) {
         items.appendChild(el("div", "group", entry.group));
         lastGroup = entry.group;
@@ -571,6 +572,11 @@
     detail.appendChild(el("p", "placeholder", "Full-text results for “" + query + "” are in the list."));
     ensureSearchIndex().then(function (idx) {
       var terms = query.toLowerCase().split(/\s+/).filter(function (t) { return t.length >= 3; });
+      if (!terms.length) {
+        items.textContent = "";
+        items.appendChild(el("p", "placeholder", "Search terms need at least 3 characters."));
+        return;
+      }
       var hits = null;
       terms.forEach(function (term) {
         var matched = {};
@@ -584,12 +590,16 @@
         hits = hits === null ? matched : intersect(hits, matched);
       });
       items.textContent = "";
-      var docs = Object.keys(hits || {}).map(Number).slice(0, 300);
+      var allDocs = Object.keys(hits || {}).map(Number);
+      var docs = allDocs.slice(0, 300);
       if (!docs.length) {
         items.appendChild(el("p", "placeholder", "No matches anywhere."));
         return;
       }
-      items.appendChild(el("div", "group", docs.length + " results"));
+      var countLabel = allDocs.length > docs.length
+        ? "First " + docs.length + " of " + allDocs.length + " results"
+        : docs.length + " results";
+      items.appendChild(el("div", "group", countLabel));
       docs.forEach(function (docIndex) {
         var doc = idx.documents[docIndex];
         var pathParts = doc.id.split("/"); // objects/<collection>/<slug>
@@ -626,7 +636,7 @@
 
     var meta = el("div", "landing-meta");
     [total.toLocaleString() + " records", NAV_ORDER.length + " collections", "JSON-LD 1.1",
-      "JSON Schema 2020-12", "v0.3.0"].forEach(function (label) {
+      "JSON Schema 2020-12", "v0.4.0"].forEach(function (label) {
       meta.appendChild(el("span", null, label));
     });
     box.appendChild(meta);
@@ -652,13 +662,13 @@
 
     var resources = el("div", "resource-grid");
     appendResourceGroup(resources, "Corpus downloads", "Primary data artifacts for applications and offline use.", [
-      ["objects/srd52-system-data.bundle.jsonld", "Self-contained bundle", "All records in one @graph · about 4 MB", "JSON-LD"],
+      ["objects/srd52-system-data.bundle.jsonld", "Self-contained bundle", "All records in one @graph · about 5 MB", "JSON-LD"],
       ["objects/srd52-system-data.jsonld", "Aggregate manifest", "Collection membership, schemas, and corpus digest", "JSON-LD"],
       ["datapackage.json", "Frictionless Data Package", "Portable dataset metadata and resource listing", "JSON"],
       ["SRD_CC_v5.2.1.md", "Authoritative source", "Local CC-BY-4.0 source markdown", "Markdown"]
     ]);
     appendResourceGroup(resources, "LLM and discovery", "Text projections and indexes for retrieval workflows.", [
-      ["llms-full.txt", "Full corpus context", "Single plain-text context file · about 1.5 MB", "Text"],
+      ["llms-full.txt", "Full corpus context", "Single plain-text context file · about 2 MB", "Text"],
       ["llms.txt", "LLM entry-point map", "Compact guide to corpus resources", "Text"],
       ["objects/search-index.json", "Full-text search index", "Static inverted token index used by this explorer", "JSON"],
       ["objects/collection-index.json", "Collection index", "Names, slugs, groups, and display metadata", "JSON"],
@@ -802,7 +812,7 @@
       var rawLink = link(path); rawLink.textContent = "Raw JSON-LD";
       recordLinks.appendChild(rawLink);
       if (locator && locator.lineStart) {
-        var sourceUrl = "https://github.com/klrkdekira/graph20/blob/main/SRD_CC_v5.2.1.md#L" +
+        var sourceUrl = "https://github.com/klrkdekira/graph20/blob/main/SRD_CC_v5.2.1.md?plain=1#L" +
           locator.lineStart + (locator.lineEnd ? "-L" + locator.lineEnd : "");
         var sourceLink = link(sourceUrl); sourceLink.textContent = "View source lines";
         sourceLink.target = "_blank"; sourceLink.rel = "noopener noreferrer";

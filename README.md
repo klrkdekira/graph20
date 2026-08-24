@@ -1,17 +1,17 @@
 # SRD 5.2.1 System JSON
 
 [![CI](https://github.com/klrkdekira/graph20/actions/workflows/ci.yml/badge.svg)](https://github.com/klrkdekira/graph20/actions/workflows/ci.yml)
-[![Version](https://img.shields.io/badge/version-0.3.0-blue.svg)](https://github.com/klrkdekira/graph20)
+[![Version](https://img.shields.io/badge/version-0.4.0-blue.svg)](https://github.com/klrkdekira/graph20)
 [![Source: D&D SRD 5.2.1](https://img.shields.io/badge/source-D%26D%20SRD%205.2.1-red.svg)](https://www.dndbeyond.com/srd)
-[![Records](https://img.shields.io/badge/records-2%2C092-success.svg)](https://cheeleong.dev/graph20/)
+[![Records](https://img.shields.io/badge/records-2%2C097-success.svg)](https://cheeleong.dev/graph20/)
 [![Collections](https://img.shields.io/badge/collections-13-informational.svg)](https://cheeleong.dev/graph20/)
-[![Source Coverage](https://img.shields.io/badge/source%20coverage-100%25%20(18%2C051%20lines)-brightgreen.svg)](https://cheeleong.dev/graph20/objects/sources/source-coverage.json)
+[![Source Coverage](https://img.shields.io/badge/source%20coverage-100%25%20(18%2C050%20lines)-brightgreen.svg)](https://cheeleong.dev/graph20/objects/sources/source-coverage.json)
 [![Review Ledger](https://img.shields.io/badge/review%20ledger-1%2C974%20signals%20(0%20pending)-brightgreen.svg)](https://cheeleong.dev/graph20/objects/sources/source-review-ledger.json)
 [![Build Determinism](https://img.shields.io/badge/build-100%25%20deterministic-brightgreen.svg)](https://cheeleong.dev/graph20/)
 [![JSON-LD 1.1](https://img.shields.io/badge/JSON--LD-1.1-blue.svg)](https://www.w3.org/TR/json-ld11/)
 [![JSON Schema](https://img.shields.io/badge/JSON_Schema-Draft_2020--12-blue.svg)](https://json-schema.org/draft/2020-12/release-notes)
 [![Vocabulary](https://img.shields.io/badge/vocabulary-139%20properties%20%7C%2014%20classes-blueviolet.svg)](https://cheeleong.dev/graph20/vocab/)
-[![Search Index](https://img.shields.io/badge/search%20index-7%2C556%20tokens-informational.svg)](https://cheeleong.dev/graph20/objects/search-index.json)
+[![Search Index](https://img.shields.io/badge/search%20index-7%2C559%20tokens-informational.svg)](https://cheeleong.dev/graph20/objects/search-index.json)
 [![Data Package](https://img.shields.io/badge/Data_Package-Frictionless-1f77b4.svg)](datapackage.json)
 [![Citation](https://img.shields.io/badge/citation-CFF%201.2.0-5c6bc0.svg)](CITATION.cff)
 [![llms.txt](https://img.shields.io/badge/llms.txt-full%20corpus-orange.svg)](https://cheeleong.dev/graph20/llms.txt)
@@ -23,12 +23,13 @@
 
 Machine-readable JSON-LD 1.1 reference corpus and JSON Schema Draft 2020-12 specifications for the System Reference Document 5.2.1 (D&D 5th Edition rules, CC-BY-4.0). The architecture replicates [wwn-system-json](https://cheeleong.dev/wwn-system-json/) per its replication playbook.
 
-The corpus provides 2,092 source-faithful records across 13 collections, covering rules, logical tables, character classes, subclasses, species, backgrounds, feats, equipment, spells, conditions, magic items, and monster stat blocks. Every record carries verbatim SRD prose, structured index fields, graph links, and line-level physical source provenance tracing back to the authoritative source markdown.
+The corpus provides 2,097 source-faithful records across 13 collections, covering rules, logical tables, character classes, subclasses, species, backgrounds, feats, equipment, spells, conditions, magic items, and monster stat blocks. Every record carries verbatim SRD prose, structured index fields, graph links, and line-level physical source provenance tracing back to the authoritative source markdown.
 
 - **Live Web Explorer**: [https://cheeleong.dev/graph20/](https://cheeleong.dev/graph20/)
 - **Vocabulary & Ontology**: [https://cheeleong.dev/graph20/vocab/](https://cheeleong.dev/graph20/vocab/)
-- **Technical Specification**: [SPECIFICATION.md](file:///Users/cheeleong/Codes/graph20/SPECIFICATION.md)
-- **Replication Checklist**: [CHECKLIST.md](file:///Users/cheeleong/Codes/graph20/CHECKLIST.md)
+- **Technical Specification**: [SPECIFICATION.md](SPECIFICATION.md)
+- **Replication Checklist**: [CHECKLIST.md](CHECKLIST.md)
+- **Gap Register**: [AUDIT.md](AUDIT.md) — fixed and open gaps from the 2026-08-24 corpus audit
 
 ---
 
@@ -42,15 +43,15 @@ The corpus provides 2,092 source-faithful records across 13 collections, coverin
 | **LLM Context (Full)** | [`llms-full.txt`](https://cheeleong.dev/graph20/llms-full.txt) | 52,000+ line single-file recursive text projection for LLM analysis. |
 | **LLM Guide** | [`llms.txt`](https://cheeleong.dev/graph20/llms.txt) | High-level index and entry point for LLM agents. |
 | **JSON-LD Manifest** | [`objects/srd52-system-data.jsonld`](https://cheeleong.dev/graph20/objects/srd52-system-data.jsonld) | Aggregate manifest with collection descriptors, member links, and source digests. |
-| **Single-File Bundle** | [`objects/srd52-system-data.bundle.jsonld`](https://cheeleong.dev/graph20/objects/srd52-system-data.bundle.jsonld) | Complete 2,092-record graph in a single JSON-LD `@graph` document. |
+| **Single-File Bundle** | [`objects/srd52-system-data.bundle.jsonld`](https://cheeleong.dev/graph20/objects/srd52-system-data.bundle.jsonld) | Complete 2,097-record graph in a single JSON-LD `@graph` document. |
 | **Inverted Search Index** | [`objects/search-index.json`](https://cheeleong.dev/graph20/objects/search-index.json) | Static inverted token search index with fragment excerpts. |
 | **Collection Index** | [`objects/collection-index.json`](https://cheeleong.dev/graph20/objects/collection-index.json) | Compact catalog metadata (names, levels, CRs, rarities, groupings) for UIs. |
 | **JSON-LD Context** | [`systems/context.jsonld`](https://cheeleong.dev/graph20/systems/context.jsonld) | JSON-LD 1.1 mapping for terms, types, and IRI coercions. |
-| **JSON Schemas** | [`systems/*.schema.json`](file:///Users/cheeleong/Codes/graph20/systems/) | Draft 2020-12 schemas for all 13 collections, bundles, manifest, and indexes. |
-| **Data Package** | [`datapackage.json`](file:///Users/cheeleong/Codes/graph20/datapackage.json) | Frictionless Data Package metadata and resource listings. |
+| **JSON Schemas** | [`systems/*.schema.json`](systems/) | Draft 2020-12 schemas for all 13 collections, bundles, manifest, and indexes. |
+| **Data Package** | [`datapackage.json`](datapackage.json) | Frictionless Data Package metadata and resource listings. |
 | **Source Review Ledger** | [`objects/sources/source-review-ledger.json`](https://cheeleong.dev/graph20/objects/sources/source-review-ledger.json) | 1,974 reviewed occurrence signals with zero pending items. |
-| **Extraction Overrides** | [`objects/sources/extraction-overrides.json`](file:///Users/cheeleong/Codes/graph20/objects/sources/extraction-overrides.json) | Log of verified source fixes against the official PDF text layer. |
-| **Source Coverage** | [`objects/sources/source-coverage.json`](file:///Users/cheeleong/Codes/graph20/objects/sources/source-coverage.json) | Verification report covering 100% (18,051 lines) of in-scope content. |
+| **Extraction Overrides** | [`objects/sources/extraction-overrides.json`](objects/sources/extraction-overrides.json) | Log of verified source fixes against the official PDF text layer. |
+| **Source Coverage** | [`objects/sources/source-coverage.json`](objects/sources/source-coverage.json) | Verification report covering 100% (18,050 lines) of in-scope content. |
 
 ---
 
@@ -62,7 +63,7 @@ graph20/
 ├── index.html                # Zero-dependency web explorer (browser UI)
 ├── llms.txt                  # High-level index for LLM agents
 ├── llms-full.txt             # Full-corpus recursive textual projection
-├── sitemap.xml               # XML sitemap covering all 2,100+ entities and pages
+├── sitemap.xml               # XML sitemap covering all 2,106 entities and pages
 ├── robots.txt                # Crawler directives
 ├── datapackage.json          # Frictionless Data Package definition
 ├── CITATION.cff              # Citation metadata (CFF 1.2.0)
@@ -77,11 +78,11 @@ graph20/
 │   ├── equipment/            # 133 Typed weapons, armor, and gear records
 │   ├── feats/                # 17 Feat records with prerequisites and benefits
 │   ├── magic-items/          # 258 Magic item records with rarity variants & attunement
-│   ├── monsters/             # 332 Monster stat blocks with typed attacks & abilities
+│   ├── monsters/             # 336 Monster stat blocks with typed attacks & abilities
 │   ├── rules/                # 738 General rules and prose section records
 │   ├── sources/              # 1 Source record, coverage, overrides, review ledger
 │   ├── species/              # 9 Character species records
-│   ├── spells/               # 338 Spell records with class links & typed mechanics
+│   ├── spells/               # 339 Spell records with class links & typed mechanics
 │   ├── subclasses/           # 12 Subclass records
 │   ├── tables/               # 223 Logical source table records (rawText + structured)
 │   ├── collection-index.json # Display metadata for rapid UI lookup and filtering
@@ -99,7 +100,7 @@ graph20/
 
 ---
 
-## Corpus Inventory (v0.3.0)
+## Corpus Inventory (v0.4.0)
 
 | Collection | Records | Schema | Description |
 | --- | ---: | --- | --- |
@@ -112,16 +113,16 @@ graph20/
 | `backgrounds` | 4 | `background.schema.json` | Ability scores, granted feats, tool proficiencies, and prose |
 | `feats` | 17 | `feat.schema.json` | Category, prerequisites, repeatability, benefits, and prose |
 | `equipment` | 133 | `equipment.schema.json` | Weapons, armor, gear with typed damage, properties, costs, and weights |
-| `spells` | 338 | `spell.schema.json` | Level, school, class links, printed headers, typed saves/damage/scaling |
+| `spells` | 339 | `spell.schema.json` | Level, school, class links, printed headers, typed saves/damage/scaling |
 | `conditions` | 15 | `condition.schema.json` | Glossary condition rules, bulleted effects, and locators |
 | `magic-items` | 258 | `magic-item.schema.json` | All rarity variants, attunement clauses/prerequisites, and tables |
-| `monsters` | 332 | `monster.schema.json` | Ability scores, 423 typed damaging attacks, 1 explicit non-damaging disposition, condition immunities |
-| **Total** | **2,092** | | **100% source line coverage (18,051 non-blank content lines)** |
+| `monsters` | 336 | `monster.schema.json` | Ability scores, 423 typed damaging attacks, 6 explicit unparsed dispositions, condition immunities |
+| **Total** | **2,097** | | **100% source line coverage (18,050 non-blank content lines)** |
 
 ### Semantic Graph Enrichment
 
-- **Spells**: Linked to class `@id` nodes (`castingClasses`), retaining all 4 printed spell headers (Level & School, Casting Time, Range, Components, Duration) alongside structured fields for saving throws, damage dice, damage types, healing, and upcast scaling.
-- **Monsters**: 332 complete stat blocks with observed ability entries, 423 parsed damaging attacks with typed modifiers/reach/damage components, 1 explicit non-damaging attack disposition (Roper *Tentacle*), condition-immunity node references, traits, and action sections.
+- **Spells**: Linked to class `@id` nodes (`castingClasses`), retaining all 5 printed spell headers (Level & School, Casting Time, Range, Components, Duration) alongside structured fields for saving throws, damage dice, damage types, healing, and upcast scaling.
+- **Monsters**: 336 complete stat blocks (including the 6 summoned-creature stat blocks printed in the Spells and Magic Items chapters) with observed ability entries, 423 parsed damaging attacks with typed modifiers/reach/damage components, 6 explicit unparsed attack dispositions (the Roper *Tentacle* plus 5 summon attacks whose bonus scales with the caster), condition-immunity node references, traits, and action sections.
 - **Classes & Subclasses**: Graph-safe typed trait entries (`name`, `value`), ordered level progressions, and nested feature structures retaining exact source line spans.
 - **Magic Items**: Complete retention of rarity variants, full attunement clauses with prerequisites, and embedded logical tables.
 - **Equipment**: Weapons, armor, and gear indexed from source tables with typed damage, damage types, mastery/armor properties, costs, and weights; semantic slugs decoded from conversion HTML markup.
@@ -134,7 +135,7 @@ graph20/
 - **JSON-LD 1.1**: Every entity carries a canonical `@id` under `https://cheeleong.dev/graph20/`, a `@type`, and references the shared context (`systems/context.jsonld`).
 - **Strict JSON Schemas**: Every collection, manifest, bundle, index, coverage report, and review ledger is validated against JSON Schema Draft 2020-12, rejecting unevaluated properties on leaf entities.
 - **Relational Integrity**: All semantic links use `{ "@id": "..." }` node references. Predicates declared as `@type: "@id"` in the context are never emitted as bare strings.
-- **Line-Level Physical Provenance**: Every entity and nested feature carries a `sourceLocator` (`chapter`, `section`, `heading`, `startLine`, `endLine`) tracing it directly to `SRD_CC_v5.2.1.md`.
+- **Line-Level Physical Provenance**: Every entity and nested feature carries a `sourceLocator` (`chapter`, `section`, `heading`, `lineStart`, `lineEnd`) tracing it directly to `SRD_CC_v5.2.1.md`.
 - **Zero Derived Values**: The parser never derives missing values or invents data (e.g. truncated ability modifier table cells stay omitted).
 - **Source Fidelity & Normalization**: The source markdown underwent a single documented normalization (`scripts/repair_source.py`) cross-referenced against the official PDF text layer. All observed anomalies and approved fixes are registered in `objects/sources/extraction-overrides.json`.
 - **Occurrence Review Ledger**: Occurrence-level review ledger tracks 1,974 semantic signals with policies in `reviews/semantic-review-policies.json`, maintaining zero pending signals across clean builds.
@@ -163,7 +164,7 @@ make check     # full rebuild + test suite + validation gates + determinism
 | Target | Command | Description |
 | --- | --- | --- |
 | `install` | `uv sync --group dev` | Synchronize Python dependencies. |
-| `extract` | `python scripts/extract_srd.py` | Deterministically extract 2,092 JSON-LD records from `SRD_CC_v5.2.1.md`. |
+| `extract` | `python scripts/extract_srd.py` | Deterministically extract 2,097 JSON-LD records from `SRD_CC_v5.2.1.md`. |
 | `manifest` | `python scripts/build_manifest.py` | Build the aggregate JSON-LD manifest (`objects/srd52-system-data.jsonld`). |
 | `bundle` | `python scripts/build_bundle.py` | Build the single-file JSON-LD graph bundle (`objects/srd52-system-data.bundle.jsonld`). |
 | `llms-full` | `python scripts/build_llms_full.py` | Generate single-file recursive text projection (`llms-full.txt`). |
@@ -198,7 +199,7 @@ The repository includes a dependency-free static web application in `index.html`
 
 ## Source, License, and Attribution
 
-Repository-authored code, schemas, and documentation are MIT licensed (see [`LICENSE`](file:///Users/cheeleong/Codes/graph20/LICENSE)). SRD content is used under CC-BY-4.0 with the required attribution:
+Repository-authored code, schemas, and documentation are MIT licensed (see [`LICENSE`](LICENSE)). SRD content is used under CC-BY-4.0 with the required attribution:
 
 > This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.
 

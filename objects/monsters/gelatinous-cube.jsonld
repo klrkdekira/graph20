@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.96",
     "heading": "Gelatinous Cube",
-    "lineStart": 21001,
-    "lineEnd": 21036
+    "lineStart": 20999,
+    "lineEnd": 21034
   },
   "sizeTypeAlignment": "Large Ooze, Unaligned",
   "sizeAndType": "Large Ooze",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.96",
         "heading": "Traits",
-        "lineStart": 21022,
-        "lineEnd": 21030
+        "lineStart": 21020,
+        "lineEnd": 21028
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.96",
         "heading": "Actions",
-        "lineStart": 21032,
-        "lineEnd": 21036
+        "lineStart": 21030,
+        "lineEnd": 21034
       }
     }
   ],

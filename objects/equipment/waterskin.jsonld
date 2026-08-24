@@ -10,7 +10,7 @@
   "sourceLocator": {
     "chapter": "Equipment",
     "section": "6.64",
-    "heading": "Ammunition (Varies)",
+    "heading": "Adventuring Gear",
     "lineStart": 6462,
     "lineEnd": 6504
   },
@@ -23,5 +23,10 @@
     "text": "2 SP",
     "currency": "SP",
     "amount": 2
-  }
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-142-waterskin-2-sp"
+    }
+  ]
 }

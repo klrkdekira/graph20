@@ -15,151 +15,211 @@
       "proposed": "No change: the catalog is complete relative to the source.",
       "status": "verified",
       "rationale": "Retracts the withdrawn `missing-epic-boon-feats` suspicion; kept as an audit record."
+    },
+    {
+      "id": "cross-column-splice-repairs-2026-08-24",
+      "scope": "SRD_CC_v5.2.1.md (two-column layout splice and wrapped spell-descriptor repairs)",
+      "observed": "Three residual two-column PDF layout artifacts: (1) the Dispel Magic spell descriptor 'Level 3 Abjuration (Bard, Cleric, Druid, Paladin, / Ranger, Sorcerer, Warlock, Wizard)' wrapped across a column break into two paragraphs, which hid the spell from descriptor detection and folded its full text into the preceding Dispel Evil and Good record; (2) the Tiefling species' Fiendish Legacies table was spliced into the Human species entry; (3) the Gameplay Toolbox Travel Terrain table was spliced into the '1: Choose Abilities' background-creation step.",
+      "proposed": "Applied deterministically by scripts/repair_source.py (step 21b): the Dispel Magic descriptor is rejoined into one printed line, and the Fiendish Legacies and Travel Terrain tables are relocated to the Tiefling Fiendish Legacy trait and the Travel Pace section that reference them. Verified against the official PDF, where the table content belongs to those entries.",
+      "rationale": "Each artifact attached verbatim content to the wrong entity: Dispel Magic was missing from the corpus entirely, the Tiefling record lacked the legacy table its trait references, and the Travel Terrain table was provenance-attributed to an unrelated background-creation heading.",
+      "status": "applied-to-source",
+      "preRepairDigest": "sha256-31496ccb6d139f8b6262ccfab60ec772cb2f369e65eb30ed39aafc6996581058",
+      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e"
     }
   ],
   "anomalyReviews": [
     {
       "id": "roman-numeral-currency",
       "pattern": "\\bI{1,2}\\s+(?:GP|SP|CP|EP|PP)\\b",
-      "observedTokens": ["I GP", "II GP", "I SP", "I CP"],
+      "observedTokens": [
+        "I GP",
+        "II GP",
+        "I SP",
+        "I CP"
+      ],
       "proposedFix": "Replace OCR I/II with the PDF text-layer digit in currency contexts.",
       "rationale": "The official PDF text layer prints Arabic digits in these positions.",
       "status": "resolved",
       "affectedCount": 33,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-31496ccb6d139f8b6262ccfab60ec772cb2f369e65eb30ed39aafc6996581058",
+      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
       "expectedRemaining": 0
     },
     {
       "id": "roman-numeral-time-and-damage",
       "pattern": "(?:Casting Time|Duration):\\s*I\\b|\\bdeals I (?:Bludgeoning|Piercing|Slashing) damage\\b",
-      "observedTokens": ["Casting Time: I minute", "Duration: I round", "deals I Bludgeoning damage"],
+      "observedTokens": [
+        "Casting Time: I minute",
+        "Duration: I round",
+        "deals I Bludgeoning damage"
+      ],
       "proposedFix": "Replace OCR I with the PDF text-layer digit in reviewed time and damage phrases.",
       "rationale": "The official PDF text layer prints 1 in these positions.",
       "status": "resolved",
       "affectedCount": 15,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-31496ccb6d139f8b6262ccfab60ec772cb2f369e65eb30ed39aafc6996581058",
+      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
       "expectedRemaining": 0
     },
     {
       "id": "singular-component-header",
       "pattern": "(?m)^Component:",
-      "observedTokens": ["Component:"],
+      "observedTokens": [
+        "Component:"
+      ],
       "proposedFix": "Use the source-faithful Components header.",
       "rationale": "The official PDF and the spell header grammar use Components.",
       "status": "resolved",
       "affectedCount": 12,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-31496ccb6d139f8b6262ccfab60ec772cb2f369e65eb30ed39aafc6996581058",
+      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
       "expectedRemaining": 0
     },
     {
       "id": "glued-conversion-tokens",
       "pattern": "(?:castLightning|castPolymorph|aBlack Bear|aGiant Wasp|aFrog)",
-      "observedTokens": ["castLightning", "castPolymorph", "aBlack Bear", "aGiant Wasp", "aFrog"],
+      "observedTokens": [
+        "castLightning",
+        "castPolymorph",
+        "aBlack Bear",
+        "aGiant Wasp",
+        "aFrog"
+      ],
       "proposedFix": "Restore spaces present in the official PDF text layer.",
       "rationale": "These were column/OCR joins, not printed compound words.",
       "status": "resolved",
       "affectedCount": 5,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-31496ccb6d139f8b6262ccfab60ec772cb2f369e65eb30ed39aafc6996581058",
+      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
       "expectedRemaining": 0
     },
     {
       "id": "html-apostrophe-entity",
       "pattern": "&#x27;",
-      "observedTokens": ["&#x27;"],
+      "observedTokens": [
+        "&#x27;"
+      ],
       "proposedFix": "Decode the apostrophe entity to the printed typographic apostrophe.",
       "rationale": "The literal entity was conversion markup and displayed incorrectly.",
       "status": "resolved",
       "affectedCount": 36,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-31496ccb6d139f8b6262ccfab60ec772cb2f369e65eb30ed39aafc6996581058",
+      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
       "expectedRemaining": 0
     },
     {
       "id": "reviewed-ocr-hyphenation",
       "pattern": "(?:dul-\\s*cimer|si-\\s*phon|Un-armed|spell-cast(?:ing|er|ers)?|addi-tional|advan-tage|disadvan-tage|con-centration|po-tions|ex-pending)",
-      "observedTokens": ["dul-cimer", "si-phon", "Un-armed", "spell-casting", "addi-tional", "advan-tage", "con-centration", "po-tions", "ex-pending"],
+      "observedTokens": [
+        "dul-cimer",
+        "si-phon",
+        "Un-armed",
+        "spell-casting",
+        "addi-tional",
+        "advan-tage",
+        "con-centration",
+        "po-tions",
+        "ex-pending"
+      ],
       "proposedFix": "Rejoin only the reviewed words confirmed by the PDF text layer.",
       "rationale": "These hyphens occur at conversion boundaries and are absent from the official text layer.",
       "status": "resolved",
       "affectedCount": 18,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-31496ccb6d139f8b6262ccfab60ec772cb2f369e65eb30ed39aafc6996581058",
+      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
       "expectedRemaining": 0
     },
     {
       "id": "roman-numbered-heading",
       "pattern": "(?m)^# (?:Step I:|I: Choose|Tier I \\()",
-      "observedTokens": ["# Step I:", "# I: Choose", "# Tier I ("],
+      "observedTokens": [
+        "# Step I:",
+        "# I: Choose",
+        "# Tier I ("
+      ],
       "proposedFix": "Restore the Arabic numeral printed in the official heading.",
       "rationale": "The glyph was an OCR confusion between 1 and capital I.",
       "status": "resolved",
       "affectedCount": 4,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-31496ccb6d139f8b6262ccfab60ec772cb2f369e65eb30ed39aafc6996581058",
+      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
       "expectedRemaining": 0
     },
     {
       "id": "roman-dice-and-bonus-glyphs",
       "pattern": "\\bId\\d+\\b|\\+I\\b",
-      "observedTokens": ["Id6", "+I"],
+      "observedTokens": [
+        "Id6",
+        "+I"
+      ],
       "proposedFix": "Restore the digit 1 printed in dice and signed-bonus tokens.",
       "rationale": "The official PDF text layer distinguishes the numeral from capital I.",
       "status": "resolved",
       "affectedCount": 135,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-31496ccb6d139f8b6262ccfab60ec772cb2f369e65eb30ed39aafc6996581058",
+      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
       "expectedRemaining": 0
     },
     {
       "id": "latex-conversion-markup",
       "pattern": "\\\\(?:frac|mathbf|begin)\\b",
-      "observedTokens": ["\\frac", "\\mathbf", "\\begin"],
+      "observedTokens": [
+        "\\frac",
+        "\\mathbf",
+        "\\begin"
+      ],
       "proposedFix": "Replace conversion-only LaTeX with the official text-layer value.",
       "rationale": "The commands were introduced by PDF conversion and are not SRD prose.",
       "status": "resolved",
       "affectedCount": 34,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-31496ccb6d139f8b6262ccfab60ec772cb2f369e65eb30ed39aafc6996581058",
+      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
       "expectedRemaining": 0
     },
     {
       "id": "escaped-list-markup",
       "pattern": "(?m)^\\\\[-*]\\s+",
-      "observedTokens": ["\\-", "\\*"],
+      "observedTokens": [
+        "\\-",
+        "\\*"
+      ],
       "proposedFix": "Restore ordinary Markdown list markers.",
       "rationale": "The escape characters were conversion artifacts.",
       "status": "resolved",
       "affectedCount": 14,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-31496ccb6d139f8b6262ccfab60ec772cb2f369e65eb30ed39aafc6996581058",
+      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
       "expectedRemaining": 0
     },
     {
       "id": "spurious-stat-headings",
       "pattern": "(?m)^# (?:Components:|Resistances (?:Cold|Acid)$|Senses Passive Perception 10$)",
-      "observedTokens": ["# Components:", "# Resistances Cold", "# Resistances Acid", "# Senses Passive Perception 10"],
+      "observedTokens": [
+        "# Components:",
+        "# Resistances Cold",
+        "# Resistances Acid",
+        "# Senses Passive Perception 10"
+      ],
       "proposedFix": "Fold the promoted stat/header line back into its owning entity.",
       "rationale": "The official document prints these as stat lines rather than entity headings.",
       "status": "resolved",
       "affectedCount": 4,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-31496ccb6d139f8b6262ccfab60ec772cb2f369e65eb30ed39aafc6996581058",
+      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
       "expectedRemaining": 0
     },
     {
       "id": "raw-html-table-markup",
       "pattern": "<table>",
-      "observedTokens": ["<table>"],
+      "observedTokens": [
+        "<table>"
+      ],
       "proposedFix": "Represent the reviewed source table as a lossless GFM table.",
       "rationale": "The normalization event converted every source table consistently while preserving cells and order.",
       "status": "resolved",
       "affectedCount": 606,
       "preRepairDigest": "sha256-c7119f099c3a62baee84ceb413790d4facf7c634a22bb406ca19c85020ccee12",
-      "postRepairDigest": "sha256-31496ccb6d139f8b6262ccfab60ec772cb2f369e65eb30ed39aafc6996581058",
+      "postRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
       "expectedRemaining": 0
     }
   ]

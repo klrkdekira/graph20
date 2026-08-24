@@ -10,7 +10,7 @@
   "sourceLocator": {
     "chapter": "Equipment",
     "section": "6.64",
-    "heading": "Ammunition (Varies)",
+    "heading": "Adventuring Gear",
     "lineStart": 6418,
     "lineEnd": 6460
   },
@@ -23,5 +23,10 @@
     "text": "4 SP",
     "currency": "SP",
     "amount": 4
-  }
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-70-basket-4-sp"
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
   "@id": "https://cheeleong.dev/graph20/objects/srd52-system-data",
   "@type": "SRDSystemData",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "metadata": {
     "title": "SRD 5.2.1 System JSON",
     "author": "Wizards of the Coast LLC",
@@ -15,8 +15,8 @@
     "source": {
       "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
     },
-    "sourceDigest": "sha256-31496ccb6d139f8b6262ccfab60ec772cb2f369e65eb30ed39aafc6996581058",
-    "corpusDigest": "sha256-b86549c75d8ad1acc202d5d55eeb1821bab9dce69839bf4cb63ba6c77759bcf6"
+    "sourceDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
+    "corpusDigest": "sha256-186fc8beecf6bc249e93021aa17958f7df3f2cf153315dd746f55e4fd2cbc639"
   },
   "collections": [
     {
@@ -2904,6 +2904,9 @@
           "@id": "https://cheeleong.dev/graph20/objects/tables/8-92-influence-checks"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/tables/9-2-travel-terrain"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/tables/9-38-sample-fear-dcs"
         },
         {
@@ -2926,9 +2929,6 @@
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/tables/9-73-xp-budget-per-character"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/9-9-travel-terrain"
         }
       ],
       "schemaReference": {
@@ -3824,6 +3824,9 @@
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-evil-and-good"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-magic"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/spells/dissonant-whispers"
@@ -5500,6 +5503,9 @@
           "@id": "https://cheeleong.dev/graph20/objects/monsters/animated-flying-sword"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/monsters/animated-object"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/monsters/animated-rug-of-smothering"
         },
         {
@@ -5686,6 +5692,9 @@
           "@id": "https://cheeleong.dev/graph20/objects/monsters/doppelganger"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/monsters/draconic-spirit"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/monsters/draft-horse"
         },
         {
@@ -5807,6 +5816,9 @@
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/monsters/giant-hyena"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/monsters/giant-insect"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/monsters/giant-lizard"
@@ -6074,6 +6086,9 @@
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/monsters/oni"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/monsters/otherworldly-steed"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/monsters/otyugh"

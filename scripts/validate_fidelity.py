@@ -71,6 +71,23 @@ def main():
 
         span = source_span(lines, locator)
         if collection == "spells":
+            descriptor = (
+                f"{record['school']} Cantrip ("
+                if record["level"] == 0
+                else f"Level {record['level']} {record['school']} ("
+            )
+            if descriptor not in span:
+                errors.append(f"{path}: level/school descriptor is not printed in its source span")
+
+        if collection == "equipment":
+            for field in ("name", "damage", "armorClass", "weight", "mastery"):
+                value = record.get(field)
+                if value and value not in span:
+                    errors.append(f"{path}: {field} is not printed in its source table span")
+            if "cost" in record and record["cost"]["text"] not in span:
+                errors.append(f"{path}: cost is not printed in its source table span")
+
+        if collection == "spells":
             for label, field in (
                 ("Casting Time", "castingTime"),
                 ("Range", "range"),

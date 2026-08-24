@@ -10,7 +10,7 @@
   "sourceLocator": {
     "chapter": "Equipment",
     "section": "6.64",
-    "heading": "Ammunition (Varies)",
+    "heading": "Adventuring Gear",
     "lineStart": 6418,
     "lineEnd": 6460
   },
@@ -23,5 +23,10 @@
     "text": "50 GP",
     "currency": "GP",
     "amount": 50
-  }
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-63-alchemists-fire-50-gp"
+    }
+  ]
 }

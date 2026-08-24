@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.190",
     "heading": "Priest Acolyte",
-    "lineStart": 23958,
-    "lineEnd": 23991
+    "lineStart": 23956,
+    "lineEnd": 23989
   },
   "sizeTypeAlignment": "Medium or Small Humanoid (Cleric), Neutral",
   "sizeAndType": "Medium or Small Humanoid (Cleric)",
@@ -77,8 +77,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.190",
         "heading": "Actions",
-        "lineStart": 23978,
-        "lineEnd": 23987
+        "lineStart": 23976,
+        "lineEnd": 23985
       }
     },
     {
@@ -88,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.190",
         "heading": "Bonus Actions",
-        "lineStart": 23989,
-        "lineEnd": 23991
+        "lineStart": 23987,
+        "lineEnd": 23989
       }
     }
   ],

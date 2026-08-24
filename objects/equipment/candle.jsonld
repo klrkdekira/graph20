@@ -10,7 +10,7 @@
   "sourceLocator": {
     "chapter": "Equipment",
     "section": "6.64",
-    "heading": "Ammunition (Varies)",
+    "heading": "Adventuring Gear",
     "lineStart": 6418,
     "lineEnd": 6460
   },
@@ -22,5 +22,10 @@
     "text": "1 CP",
     "currency": "CP",
     "amount": 1
-  }
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-80-candle-1-cp"
+    }
+  ]
 }

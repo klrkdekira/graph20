@@ -40,7 +40,7 @@ def build(root: Path) -> None:
         "@context": CONTEXT_IRI,
         "@id": f"{BASE}objects/{MANIFEST_NAME.removesuffix('.jsonld')}",
         "@type": "SRDSystemData",
-        "version": "0.3.0",
+        "version": "0.4.0",
         "metadata": {
             "title": "SRD 5.2.1 System JSON",
             "author": source_record["author"],

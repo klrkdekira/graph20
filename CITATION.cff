@@ -5,9 +5,13 @@ type: dataset
 authors:
   - family-names: "Chow"
     given-names: "Chee Leong"
-version: "0.3.0"
-license: "CC-BY-4.0"
+version: "0.4.0"
+date-released: "2026-08-24"
+license:
+  - CC-BY-4.0
+  - MIT
 url: "https://cheeleong.dev/graph20/"
+repository-code: "https://github.com/klrkdekira/graph20"
 abstract: >-
   A source-faithful JSON-LD 1.1 reference corpus and JSON Schema Draft
   2020-12 specifications for the System Reference Document 5.2.1 by

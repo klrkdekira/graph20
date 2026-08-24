@@ -16,7 +16,7 @@
 
 ## Extraction and traceability
 
-- [x] The clean corpus contains 2,092 records: 1 source, 738 rules, 223 logical tables, 12 classes, 12 subclasses, 9 species, 4 backgrounds, 17 feats, 133 equipment, 338 spells, 15 conditions, 258 magic items, and 332 monsters.
+- [x] The clean corpus contains 2,097 records: 1 source, 738 rules, 223 logical tables, 12 classes, 12 subclasses, 9 species, 4 backgrounds, 17 feats, 133 equipment, 339 spells, 15 conditions, 258 magic items, and 336 monsters.
 - [x] Ordinary entity locators start at their heading; Table/equipment locators start at the physical table; nested feature/stat spans remain inside their owner.
 - [x] Tables retain `rawText`, continuation headers are not promoted to rows, Wand of Wonder is one 18-row table, and no table is empty.
 - [x] Every spell has casting time, range, components, and duration; all magic-item rarity variants and full-header attunement are retained.
@@ -35,4 +35,4 @@
 - [x] Interval coverage, anomaly disposition, source fidelity, graph expansion, semantic review, structural validation, schema validation, and determinism are separate gates with documented meanings.
 - [x] Schemas validate records, manifest, bundle, search index, collection index, coverage report, and review ledger; structural checks also cover sitemap and vocabulary targets.
 - [x] Determinism covers two clean builds and checked-in `objects/`, `llms-full.txt`, `vocab/`, and `sitemap.xml`, including curated review-policy inputs.
-- [x] `README.md`, `SPECIFICATION.md`, manifest version, inventory counts, generated command summaries, and this checklist agree with the clean v0.3.0 build.
+- [x] `README.md`, `SPECIFICATION.md`, manifest version, inventory counts, generated command summaries, and this checklist agree with the clean v0.4.0 build.

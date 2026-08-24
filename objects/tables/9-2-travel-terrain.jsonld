@@ -1,18 +1,18 @@
 {
   "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
-  "@id": "https://cheeleong.dev/graph20/objects/tables/9-9-travel-terrain",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/9-2-travel-terrain",
   "@type": "Table",
   "name": "Travel Terrain",
-  "slug": "9-9-travel-terrain",
+  "slug": "9-2-travel-terrain",
   "source": {
     "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
   },
   "sourceLocator": {
     "chapter": "Gameplay Toolbox",
-    "section": "9.9",
-    "heading": "1: Choose Abilities",
-    "lineStart": 13921,
-    "lineEnd": 13933
+    "section": "9.2",
+    "heading": "Travel Pace",
+    "lineStart": 13875,
+    "lineEnd": 13887
   },
   "columns": [
     "Terrain",

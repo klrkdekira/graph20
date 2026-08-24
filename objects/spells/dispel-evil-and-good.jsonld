@@ -9,10 +9,10 @@
   },
   "sourceLocator": {
     "chapter": "Spells",
-    "section": "7.117",
+    "section": "7.118",
     "heading": "Dispel Evil and Good",
     "lineStart": 8741,
-    "lineEnd": 8769
+    "lineEnd": 8754
   },
   "level": 5,
   "school": "Abjuration",
@@ -24,7 +24,7 @@
   "range": "Self",
   "components": "V, S, M (powdered silver and iron)",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Level 5 Abjuration (Cleric, Paladin)\n\nCasting Time: Action\nRange: Self\nComponents: V, S, M (powdered silver and iron)\nDuration: Concentration, up to 1 minute\n\nFor the duration, Celestials, Elementals, Fey, Fiends, and Undead have Disadvantage on attack rolls against you. You can end the spell early by using either of the following special functions.\n\nBreak Enchantment. As a Magic action, you touch a creature that is possessed by or has the Charmed or Frightened condition from one or more creatures of the types above. The target is no longer possessed, Charmed, or Frightened by such creatures.\n\nDismissal. As a Magic action, you target one creature you can see within 5 feet of you that has one of the creature types above. The target must succeed on a Charisma saving throw or be sent back to its home plane if it isn't there already. If they aren't on their home plane, Undead are sent to the Shadowfell, and Fey are sent to the Feywild.\n\nDispel Magic\n\nLevel 3 Abjuration (Bard, Cleric, Druid, Paladin,\n\nRanger, Sorcerer, Warlock, Wizard)\n\nCasting Time: Action\nRange: 120 feet\nComponents: V, S\nDuration: Instantaneous\n\nChoose one creature, object, or magical effect within range. Any ongoing spell of level 3 or lower on the target ends. For each ongoing spell of level 4 or higher on the target, make an ability check using your spellcasting ability (DC 10 plus that spell's level). On a successful check, the spell ends.\n\nUsing a Higher-Level Spell Slot. You automatically end a spell on the target if the spell's level is equal to or less than the level of the spell slot you use.",
+  "rulesText": "Level 5 Abjuration (Cleric, Paladin)\n\nCasting Time: Action\nRange: Self\nComponents: V, S, M (powdered silver and iron)\nDuration: Concentration, up to 1 minute\n\nFor the duration, Celestials, Elementals, Fey, Fiends, and Undead have Disadvantage on attack rolls against you. You can end the spell early by using either of the following special functions.\n\nBreak Enchantment. As a Magic action, you touch a creature that is possessed by or has the Charmed or Frightened condition from one or more creatures of the types above. The target is no longer possessed, Charmed, or Frightened by such creatures.\n\nDismissal. As a Magic action, you target one creature you can see within 5 feet of you that has one of the creature types above. The target must succeed on a Charisma saving throw or be sent back to its home plane if it isn't there already. If they aren't on their home plane, Undead are sent to the Shadowfell, and Fey are sent to the Feywild.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
@@ -34,7 +34,7 @@
     }
   ],
   "savingThrowAbility": "Charisma",
-  "scalesWithSlotLevel": true,
+  "scalesWithSlotLevel": false,
   "concentration": true,
   "ritual": false
 }

@@ -10,7 +10,7 @@
   "sourceLocator": {
     "chapter": "Equipment",
     "section": "6.64",
-    "heading": "Ammunition (Varies)",
+    "heading": "Adventuring Gear",
     "lineStart": 6418,
     "lineEnd": 6460
   },
@@ -18,5 +18,10 @@
   "fromTable": {
     "@id": "https://cheeleong.dev/graph20/objects/tables/6-64-adventuring-gear"
   },
-  "weight": "Varies"
+  "weight": "Varies",
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-7-ammunition"
+    }
+  ]
 }

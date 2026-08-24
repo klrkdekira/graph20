@@ -3,7 +3,7 @@
   "title": "SRD 5.2.1 System JSON",
   "description": "A source-faithful JSON-LD 1.1 reference corpus and JSON Schema Draft 2020-12 specifications for the System Reference Document 5.2.1.",
   "homepage": "https://cheeleong.dev/graph20/",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "licenses": [
     {
       "name": "CC-BY-4.0",
@@ -16,9 +16,10 @@
       "path": "https://opensource.org/license/mit/"
     }
   ],
+  "repository": "https://github.com/klrkdekira/graph20",
   "contributors": [
-    { "title": "Chee Leong", "role": "author" },
-    { "title": "Wizards of the Coast LLC", "role": "wrangler", "path": "https://www.dndbeyond.com/srd" }
+    { "title": "Chee Leong Chow", "role": "author" },
+    { "title": "Wizards of the Coast LLC", "role": "author", "path": "https://www.dndbeyond.com/srd" }
   ],
   "resources": [
     {
@@ -56,6 +57,48 @@
       "path": "SRD_CC_v5.2.1.md",
       "format": "md",
       "mediatype": "text/markdown"
+    },
+    {
+      "name": "jsonld-context",
+      "path": "systems/context.jsonld",
+      "format": "jsonld",
+      "mediatype": "application/ld+json"
+    },
+    {
+      "name": "vocabulary-terms",
+      "path": "vocab/terms.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "llms-guide",
+      "path": "llms.txt",
+      "format": "txt",
+      "mediatype": "text/plain"
+    },
+    {
+      "name": "sitemap",
+      "path": "sitemap.xml",
+      "format": "xml",
+      "mediatype": "application/xml"
+    },
+    {
+      "name": "source-coverage",
+      "path": "objects/sources/source-coverage.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "source-review-ledger",
+      "path": "objects/sources/source-review-ledger.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "extraction-overrides",
+      "path": "objects/sources/extraction-overrides.json",
+      "format": "json",
+      "mediatype": "application/json"
     }
   ]
 }

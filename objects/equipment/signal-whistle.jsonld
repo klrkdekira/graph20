@@ -10,7 +10,7 @@
   "sourceLocator": {
     "chapter": "Equipment",
     "section": "6.64",
-    "heading": "Ammunition (Varies)",
+    "heading": "Adventuring Gear",
     "lineStart": 6462,
     "lineEnd": 6504
   },
@@ -22,5 +22,10 @@
     "text": "5 CP",
     "currency": "CP",
     "amount": 5
-  }
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-133-signal-whistle-5-cp"
+    }
+  ]
 }

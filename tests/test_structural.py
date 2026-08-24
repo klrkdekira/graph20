@@ -88,18 +88,19 @@ class TestCatalogs(unittest.TestCase):
     def test_collection_counts(self):
         counts = {c: len(records_of(c)) for c in COLLECTIONS}
         self.assertEqual(counts["sources"], 1)
-        self.assertEqual(counts["spells"], 338)
+        self.assertEqual(counts["spells"], 339)
         self.assertEqual(counts["feats"], 17)
         self.assertEqual(counts["magic-items"], 258)
-        self.assertEqual(counts["monsters"], 332)
+        self.assertEqual(counts["monsters"], 336)
         self.assertEqual(counts["classes"], 12)
         self.assertEqual(counts["subclasses"], 12)
         self.assertEqual(counts["species"], 9)
         self.assertEqual(counts["backgrounds"], 4)
         self.assertEqual(counts["conditions"], 15)
-        self.assertGreater(counts["equipment"], 120)
-        self.assertGreater(counts["rules"], 700)
-        self.assertGreater(counts["tables"], 200)
+        self.assertEqual(counts["equipment"], 133)
+        self.assertEqual(counts["rules"], 738)
+        self.assertEqual(counts["tables"], 223)
+        self.assertEqual(sum(counts.values()), 2097)
 
     def test_class_fixture_barbarian(self):
         cls = load_json(ROOT / "objects/classes/barbarian.jsonld")
@@ -263,8 +264,11 @@ class TestCatalogs(unittest.TestCase):
             parsed_count += len(monster.get("attacks", []))
             unparsed_count += len(monster.get("unparsedAttacks", []))
         self.assertEqual(candidate_count, parsed_count + unparsed_count)
+        # The 5 unparsed summon attacks (plus the Roper's Tentacle) use
+        # non-numeric bonuses ("Bonus equals your spell attack modifier")
+        # or no damage clause; they are recorded as explicit dispositions.
         self.assertEqual(parsed_count, 423)
-        self.assertEqual(unparsed_count, 1)
+        self.assertEqual(unparsed_count, 6)
 
     def test_table_continuation_and_headerless_regressions(self):
         wand = next(t for t in records_of("tables") if t["name"] == "Wand of Wonder Effects")

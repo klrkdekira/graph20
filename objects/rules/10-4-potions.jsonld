@@ -11,8 +11,8 @@
     "chapter": "Magic Items",
     "section": "10.4",
     "heading": "Potions",
-    "lineStart": 14581,
-    "lineEnd": 14602
+    "lineStart": 14579,
+    "lineEnd": 14600
   },
   "section": "10.4",
   "rulesText": "An item in the Potion category might be a magical brew that must be imbibed or an oil that must be applied to a creature or an object. A typical potion consists of 1 ounce of liquid in a vial.\n\nUsing a Potion. Potions are consumable items. Drinking a potion or administering it to another creature requires a Bonus Action. Applying an oil might take longer as specified in its description. Once used, a potion takes effect immediately, and it is used up.\n\nMixing Potions. A character might drink one potion while still under the effects of another or pour several potions into a single container. The strange ingredients used in creating potions can result in unpredictable interactions.\n\nWhen a character mixes two potions together, roll on the Potion Miscibility table. If more than two are combined, roll again for each subsequent potion, combining the results. Unless the effects are immediately obvious, reveal them only when they become evident.\n\nPotion Miscibility",

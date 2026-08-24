@@ -1,6 +1,6 @@
 # SRD 5.2.1 System JSON
 
-> Machine-readable JSON-LD 1.1 reference corpus for the System Reference Document 5.2.1 (D&D fifth edition rules, CC-BY-4.0), with JSON Schema Draft 2020-12 validation. 2,092 records: rules, logical tables, classes, subclasses, species, backgrounds, feats, equipment, spells, conditions, magic items, and monster stat blocks — each with source-faithful prose, typed sibling fields, graph links, and physical line provenance.
+> Machine-readable JSON-LD 1.1 reference corpus for the System Reference Document 5.2.1 (D&D fifth edition rules, CC-BY-4.0), with JSON Schema Draft 2020-12 validation. 2,097 records: rules, logical tables, classes, subclasses, species, backgrounds, feats, equipment, spells, conditions, magic items, and monster stat blocks — each with source-faithful prose, typed sibling fields, graph links, and physical line provenance.
 
 Attribution: This work includes material from the System Reference Document 5.2.1 ("SRD 5.2.1") by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd, licensed CC-BY-4.0.
 
@@ -11,17 +11,18 @@ Attribution: This work includes material from the System Reference Document 5.2.
 - [Single-file bundle](https://cheeleong.dev/graph20/objects/srd52-system-data.bundle.jsonld): every record in one @graph
 - [Search index](https://cheeleong.dev/graph20/objects/search-index.json): static inverted token index
 - [JSON-LD context](https://cheeleong.dev/graph20/systems/context.jsonld)
+- [Vocabulary terms](https://cheeleong.dev/graph20/vocab/terms.json): every class and property with definitions
 
 ## Collections
 
 Record URLs follow `objects/<collection>/<slug>.jsonld`; the full per-collection @id lists are in the manifest, and display metadata (name, level/CR/rarity, grouping) is in [collection-index.json](https://cheeleong.dev/graph20/objects/collection-index.json).
 
-- Spells: 338, e.g. [fireball](https://cheeleong.dev/graph20/objects/spells/fireball.jsonld)
-- Monsters: 332 stat blocks, e.g. [fire-giant](https://cheeleong.dev/graph20/objects/monsters/fire-giant.jsonld)
+- Spells: 339, e.g. [fireball](https://cheeleong.dev/graph20/objects/spells/fireball.jsonld)
+- Monsters: 336 stat blocks, e.g. [fire-giant](https://cheeleong.dev/graph20/objects/monsters/fire-giant.jsonld)
 - Magic items: 258, e.g. [animated-shield](https://cheeleong.dev/graph20/objects/magic-items/animated-shield.jsonld)
 - Classes: 12 · Subclasses: 12 · Species: 9 · Backgrounds: 4 · Feats: 17 · Conditions: 15
 - Equipment: 133 typed weapons/armor/gear, e.g. [longsword](https://cheeleong.dev/graph20/objects/equipment/longsword.jsonld)
-- Rules: 738 · Tables: 223
+- Rules: 738 · Tables: 223 · Sources: 1 (license and provenance record)
 
 ## Documentation
 

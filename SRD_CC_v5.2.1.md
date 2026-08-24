@@ -5700,14 +5700,6 @@ Skillful. You gain proficiency in one skill of your choice.
 
 Versatile. You gain an Origin feat of your choice (see "Feats"). Skilled is recommended.
 
-Fiendish Legacies
-
-| Legacy   | Level 1                                                                       | Level 3         | Level 5             |
-| :------- | :---------------------------------------------------------------------------- | :-------------- | :------------------ |
-| Abyssal  | You have Resistance to Poison damage.You also know the Poison Spray cantrip.  | Ray of Sickness | Hold Person         |
-| Chthonic | You have Resistance to Necrotic damage.You also know the Chill Touch cantrip. | False Life      | Ray of Enfeeblement |
-| Infernal | You have Resistance to Fire damage.You also know the Fire Bolt cantrip.       | Hellish Rebuke  | Darkness            |
-
 # Orc
 
 Creature Type: Humanoid
@@ -5743,6 +5735,14 @@ Fiendish Legacy. You are the recipient of a legacy that grants you supernatural 
 When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.
 
 Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).
+
+Fiendish Legacies
+
+| Legacy   | Level 1                                                                       | Level 3         | Level 5             |
+| :------- | :---------------------------------------------------------------------------- | :-------------- | :------------------ |
+| Abyssal  | You have Resistance to Poison damage.You also know the Poison Spray cantrip.  | Ray of Sickness | Hold Person         |
+| Chthonic | You have Resistance to Necrotic damage.You also know the Chill Touch cantrip. | False Life      | Ray of Enfeeblement |
+| Infernal | You have Resistance to Fire damage.You also know the Fire Bolt cantrip.       | Hellish Rebuke  | Darkness            |
 
 Otherworldly Presence. You know the Thaumaturgy cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait.
 
@@ -8755,9 +8755,7 @@ Dismissal. As a Magic action, you target one creature you can see within 5 feet 
 
 # Dispel Magic
 
-Level 3 Abjuration (Bard, Cleric, Druid, Paladin,
-
-Ranger, Sorcerer, Warlock, Wizard)
+Level 3 Abjuration (Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard)
 
 Casting Time: Action
 Range: 120 feet
@@ -13872,6 +13870,25 @@ A weapon attack is an attack roll made with a weapon. See also "Weapon."
 
 A group of characters can travel overland at a Normal, Fast, or Slow pace, as described in “Playing the Game.” During any journey stage, the predominant terrain determines the characters’ maximum travel pace, as shown in the Maximum Pace column of the Travel Terrain table. Certain factors can affect a group’s travel pace.
 
+Travel Terrain
+
+| Terrain    | Maximum Pace | Encounter Distance | Foraging DC | Navigation DC | Search DC |
+| :--------- | :----------- | :----------------- | :---------- | :------------ | :-------- |
+| Arctic     | Fast*        | 6d6 × 10 feet      | 20          | 10            | 10        |
+| Coastal    | Normal       | 2d10 × 10 feet     | 10          | 5             | 15        |
+| Desert     | Normal       | 6d6 × 10 feet      | 20          | 10            | 10        |
+| Forest     | Normal       | 2d8 × 10 feet      | 10          | 15            | 15        |
+| Grassland  | Fast         | 6d6 × 10 feet      | 15          | 5             | 15        |
+| Hill       | Normal       | 2d10 × 10 feet     | 15          | 10            | 15        |
+| Mountain   | Slow         | 4d10 × 10 feet     | 20          | 15            | 20        |
+| Swamp      | Slow         | 2d8 × 10 feet      | 10          | 15            | 20        |
+| Underdark  | Normal       | 2d6 × 10 feet      | 20          | 10            | 20        |
+| Urban      | Normal       | 2d6 × 10 feet      | 20          | 15            | 15        |
+| Waterborne | Special†     | 6d6 × 10 feet      | 15          | 10            | 15        |
+
+*Appropriate equipment (such as skis) is necessary to keep up a Fast pace in Arctic terrain.
+† Characters' rate of travel while waterborne depends on the vehicle carrying them; see “Vehicles.”
+
 # Good Roads
 
 The presence of a good road increases the group's maximum pace by one step (from Slow to Normal or from Normal to Fast).
@@ -13915,25 +13932,6 @@ Choose three abilities that seem appropriate for the background:
 Strength or Dexterity. These abilities are ideal for a background involving physical exertion.
 
 Constitution. This ability is ideal for a background that involves endurance or long hours of activity.
-
-Travel Terrain
-
-| Terrain    | Maximum Pace | Encounter Distance | Foraging DC | Navigation DC | Search DC |
-| :--------- | :----------- | :----------------- | :---------- | :------------ | :-------- |
-| Arctic     | Fast*        | 6d6 × 10 feet      | 20          | 10            | 10        |
-| Coastal    | Normal       | 2d10 × 10 feet     | 10          | 5             | 15        |
-| Desert     | Normal       | 6d6 × 10 feet      | 20          | 10            | 10        |
-| Forest     | Normal       | 2d8 × 10 feet      | 10          | 15            | 15        |
-| Grassland  | Fast         | 6d6 × 10 feet      | 15          | 5             | 15        |
-| Hill       | Normal       | 2d10 × 10 feet     | 15          | 10            | 15        |
-| Mountain   | Slow         | 4d10 × 10 feet     | 20          | 15            | 20        |
-| Swamp      | Slow         | 2d8 × 10 feet      | 10          | 15            | 20        |
-| Underdark  | Normal       | 2d6 × 10 feet      | 20          | 10            | 20        |
-| Urban      | Normal       | 2d6 × 10 feet      | 20          | 15            | 15        |
-| Waterborne | Special†     | 6d6 × 10 feet      | 15          | 10            | 15        |
-
-*Appropriate equipment (such as skis) is necessary to keep up a Fast pace in Arctic terrain.
-† Characters' rate of travel while waterborne depends on the vehicle carrying them; see “Vehicles.”
 
 Intelligence or Wisdom. One or both abilities are ideal for a background that focuses on cerebral or spiritual matters.
 

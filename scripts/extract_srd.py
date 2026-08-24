@@ -465,11 +465,16 @@ class Emitter:
             if found:
                 record["challenge"] = found.group(1).strip()
         if "armorClass" in record:
-            digits = re.match(r"^(\d+)", record["armorClass"])
+            # Summoned-creature stat blocks scale with spell level
+            # (e.g. "10 + 1 per spell level"); a scalar index would misstate
+            # the printed value, so only unconditional ACs are typed.
+            digits = re.match(r"^(\d+)\b(?!\s*\+)", record["armorClass"])
             if digits:
                 record["armorClassValue"] = int(digits.group(1))
         if "hitPoints" in record:
-            hp = re.match(r"^(\d+)(?:\s*\(([^)]+)\))?", record["hitPoints"])
+            # Same rule for HP: size- or spell-level-conditional totals
+            # (e.g. "10 (Medium or smaller), 20 (Large)") stay prose-only.
+            hp = re.fullmatch(r"(\d+)(?:\s*\(([^)]+)\))?", record["hitPoints"])
             if hp:
                 record["hitPointsValue"] = int(hp.group(1))
                 if hp.group(2):
@@ -888,7 +893,10 @@ def run_extraction(root: Path):
                     nxt.chapter != chapter
                     or SPELL_LEVEL_RE.match(nfirst)
                     or CANTRIP_RE.match(nfirst)
+                    or MONSTER_RE.match(nfirst)
                 ):
+                    # A stat block for a summoned creature (e.g. Animated
+                    # Object) is promoted to its own Monster record below.
                     break
                 extras.append(nxt)
                 index += 1
@@ -935,7 +943,7 @@ def run_extraction(root: Path):
             emitter.emit_magic_item(block, extras)
             continue
 
-        if chapter in ("Monsters A-Z", "Animals", "Magic Items") and MONSTER_RE.match(first):
+        if chapter in ("Monsters A-Z", "Animals", "Magic Items", "Spells") and MONSTER_RE.match(first):
             # The stat block is normally preceded by a duplicate name heading
             # with an empty body; merge it for provenance.
             name_block = None
@@ -1061,6 +1069,9 @@ def build_equipment(emitter: Emitter):
 
     def new_item(name, table, equipment_type):
         locator = dict(table["sourceLocator"])
+        # The physical table sits under an unrelated column-flow heading
+        # (e.g. "Vex"); the table's own caption is the meaningful heading.
+        locator["heading"] = table["name"]
         record = emitter.new_record(
             "equipment", "Equipment", name, slugify(name), locator
         )
@@ -1158,10 +1169,45 @@ SAVE_RE = re.compile(
 SPELL_DAMAGE_RE = re.compile(r"\b(\d+d\d+(?: ?[+-] ?\d+)?) ([A-Z][a-z]+) damage")
 
 
+def link_gear_rules(emitter: Emitter):
+    """Link each gear item to the Equipment-chapter Rule describing it.
+
+    The gear tables carry stats only; the prose descriptions were emitted as
+    separate Rule records (e.g. "Torch (1 CP)"). Names are matched after
+    normalizing typographic apostrophes, first on the full rule name, then on
+    the rule name with its trailing price parenthetical stripped, then with
+    the item's own variant parenthetical stripped too. Ambiguous matches are
+    never linked.
+    """
+    strip_paren = lambda text: re.sub(r"\s*\([^)]*\)$", "", text)
+    full_names = {}
+    base_names = {}
+    for rule in emitter.records["rules"]:
+        if rule["sourceLocator"]["chapter"] != "Equipment":
+            continue
+        norm = rule["name"].replace("’", "'")
+        full_names.setdefault(norm, []).append(rule["@id"])
+        base_names.setdefault(strip_paren(norm), []).append(rule["@id"])
+    for item in emitter.records["equipment"]:
+        if item["equipmentType"] != "gear":
+            continue
+        name = item["name"].replace("’", "'")
+        for candidates in (
+            full_names.get(name, []),
+            base_names.get(name, []),
+            base_names.get(strip_paren(name), []),
+        ):
+            if len(candidates) == 1:
+                item["relatedRules"] = [{"@id": candidates[0]}]
+                break
+
+
 def enrich(emitter: Emitter):
     """Cross-link entities and add typed micro-format fields."""
     class_ids = {r["name"]: r["@id"] for r in emitter.records["classes"]}
     condition_names = {r["name"]: r["@id"] for r in emitter.records["conditions"]}
+
+    link_gear_rules(emitter)
 
     for spell in emitter.records["spells"]:
         refs = [

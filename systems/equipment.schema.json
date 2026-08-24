@@ -6,6 +6,13 @@
   "properties": {
     "@type": { "const": "Equipment" },
     "equipmentType": { "enum": ["weapon", "armor", "gear"] },
+    "relatedRules": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "common.schema.json#/$defs/NodeReference"
+      }
+    },
     "fromTable": { "$ref": "common.schema.json#/$defs/NodeReference" },
     "weight": { "type": "string", "minLength": 1 },
     "cost": { "$ref": "common.schema.json#/$defs/Cost" },

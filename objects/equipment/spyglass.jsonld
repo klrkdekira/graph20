@@ -10,7 +10,7 @@
   "sourceLocator": {
     "chapter": "Equipment",
     "section": "6.64",
-    "heading": "Ammunition (Varies)",
+    "heading": "Adventuring Gear",
     "lineStart": 6462,
     "lineEnd": 6504
   },
@@ -23,5 +23,10 @@
     "text": "1,000 GP",
     "currency": "GP",
     "amount": 1000
-  }
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-136-spyglass-1-000-gp"
+    }
+  ]
 }

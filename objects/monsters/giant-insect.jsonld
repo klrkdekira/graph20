@@ -1,0 +1,108 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/monsters/giant-insect",
+  "@type": "Monster",
+  "name": "Giant Insect",
+  "slug": "giant-insect",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Spells",
+    "section": "7.175",
+    "heading": "Giant Insect",
+    "lineStart": 9642,
+    "lineEnd": 9674
+  },
+  "sizeTypeAlignment": "Large Beast, Unaligned",
+  "sizeAndType": "Large Beast",
+  "alignment": "Unaligned",
+  "armorClass": "11 + the spell's level",
+  "hitPoints": "30 + 10 for each spell level above 4",
+  "speed": "40 ft., Climb 40 ft., Fly 40 ft. (Wasp only)",
+  "senses": "Darkvision 60 ft.; Passive Perception 12",
+  "languages": "Understands the languages you know",
+  "challenge": "None (XP 0; PB equals your Proficiency Bonus)",
+  "abilities": {
+    "str": {
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "dex": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "con": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "int": {
+      "score": 4,
+      "modifier": -3,
+      "savingThrow": -3
+    },
+    "wis": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "cha": {
+      "score": 3,
+      "modifier": -4,
+      "savingThrow": -4
+    }
+  },
+  "statSections": [
+    {
+      "name": "Traits",
+      "rulesText": "Spider Climb. The insect can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
+      "sourceLocator": {
+        "chapter": "Spells",
+        "section": "7.175",
+        "heading": "Traits",
+        "lineStart": 9660,
+        "lineEnd": 9662
+      }
+    },
+    {
+      "name": "Actions",
+      "rulesText": "Multiattack. The insect makes a number of attacks equal to half this spell's level (round down).\n\nPoison Jab. Melee Attack Roll: Bonus equals your spell attack modifier, reach 10 ft. Hit: 1d6 + 3 plus the spell's level Piercing damage plus 1d4 Poison damage.\n\nWeb Bolt (Spider Only). Ranged Attack Roll: Bonus equals your spell attack modifier, range 60 ft. Hit: 1d10 + 3 plus the spell's level Bludgeoning damage, and the target's Speed is reduced to 0 until the start of the insect's next turn.",
+      "sourceLocator": {
+        "chapter": "Spells",
+        "section": "7.175",
+        "heading": "Actions",
+        "lineStart": 9664,
+        "lineEnd": 9670
+      }
+    },
+    {
+      "name": "Bonus Actions",
+      "rulesText": "Venomous Spew (Centipede Only). Constitution Saving Throw: Your spell save DC, one creature the insect can see within 10 feet. Failure: The target has the Poisoned condition until the start of the insect's next turn.",
+      "sourceLocator": {
+        "chapter": "Spells",
+        "section": "7.175",
+        "heading": "Bonus Actions",
+        "lineStart": 9672,
+        "lineEnd": 9674
+      }
+    }
+  ],
+  "rulesText": "Large Beast, Unaligned\n\nAC 11 + the spell's level\n\nHP 30 + 10 for each spell level above 4\nSpeed 40 ft., Climb 40 ft., Fly 40 ft. (Wasp only)\n\nSenses Darkvision 60 ft.; Passive Perception 12\nLanguages Understands the languages you know\nCR None (XP 0; PB equals your Proficiency Bonus)\n\nTraits\n\nSpider Climb. The insect can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nActions\n\nMultiattack. The insect makes a number of attacks equal to half this spell's level (round down).\n\nPoison Jab. Melee Attack Roll: Bonus equals your spell attack modifier, reach 10 ft. Hit: 1d6 + 3 plus the spell's level Piercing damage plus 1d4 Poison damage.\n\nWeb Bolt (Spider Only). Ranged Attack Roll: Bonus equals your spell attack modifier, range 60 ft. Hit: 1d10 + 3 plus the spell's level Bludgeoning damage, and the target's Speed is reduced to 0 until the start of the insect's next turn.\n\nBonus Actions\n\nVenomous Spew (Centipede Only). Constitution Saving Throw: Your spell save DC, one creature the insect can see within 10 feet. Failure: The target has the Poisoned condition until the start of the insect's next turn.",
+  "unparsedAttacks": [
+    {
+      "sourceText": "Poison Jab. Melee Attack Roll: Bonus equals your spell attack modifier, reach 10 ft. Hit: 1d6 + 3 plus the spell's level Piercing damage plus 1d4 Poison damage.",
+      "path": "statSections[1].rulesText.paragraphs[1]",
+      "parseStatus": "unparsed",
+      "reason": "attack paragraph did not match the supported header grammar"
+    },
+    {
+      "sourceText": "Web Bolt (Spider Only). Ranged Attack Roll: Bonus equals your spell attack modifier, range 60 ft. Hit: 1d10 + 3 plus the spell's level Bludgeoning damage, and the target's Speed is reduced to 0 until the start of the insect's next turn.",
+      "path": "statSections[1].rulesText.paragraphs[2]",
+      "parseStatus": "unparsed",
+      "reason": "attack paragraph did not match the supported header grammar"
+    }
+  ]
+}

@@ -962,6 +962,7 @@
   <url><loc>https://cheeleong.dev/graph20/objects/tables/8-56-water-needs-per-day.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/8-6-action-table-1.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/8-92-influence-checks.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/tables/9-2-travel-terrain.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/9-38-sample-fear-dcs.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/9-39-sample-mental-stress-effects.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/9-62-collapsing-roof-table-1.jsonld</loc></url>
@@ -970,7 +971,6 @@
   <url><loc>https://cheeleong.dev/graph20/objects/tables/9-67-poisoned-needle-table-1.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/9-69-spiked-pit-table-1.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/tables/9-73-xp-budget-per-character.jsonld</loc></url>
-  <url><loc>https://cheeleong.dev/graph20/objects/tables/9-9-travel-terrain.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/classes/barbarian.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/classes/bard.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/classes/cleric.jsonld</loc></url>
@@ -1246,6 +1246,7 @@
   <url><loc>https://cheeleong.dev/graph20/objects/spells/disguise-self.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/spells/disintegrate.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/spells/dispel-evil-and-good.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/spells/dispel-magic.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/spells/dissonant-whispers.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/spells/divination.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/spells/divine-favor.jsonld</loc></url>
@@ -1794,6 +1795,7 @@
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/ancient-white-dragon.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/animated-armor.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/animated-flying-sword.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/monsters/animated-object.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/animated-rug-of-smothering.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/ankheg.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/ankylosaurus.jsonld</loc></url>
@@ -1856,6 +1858,7 @@
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/dire-wolf.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/djinni.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/doppelganger.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/monsters/draconic-spirit.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/draft-horse.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/dragon-turtle.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/dretch.jsonld</loc></url>
@@ -1897,6 +1900,7 @@
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/giant-frog.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/giant-goat.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/giant-hyena.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/monsters/giant-insect.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/giant-lizard.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/giant-octopus.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/giant-owl.jsonld</loc></url>
@@ -1986,6 +1990,7 @@
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/ogre-zombie.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/ogre.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/oni.jsonld</loc></url>
+  <url><loc>https://cheeleong.dev/graph20/objects/monsters/otherworldly-steed.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/otyugh.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/owl.jsonld</loc></url>
   <url><loc>https://cheeleong.dev/graph20/objects/monsters/owlbear.jsonld</loc></url>

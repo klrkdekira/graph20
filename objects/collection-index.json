@@ -5394,9 +5394,9 @@
         "group": "Rules Glossary"
       },
       {
-        "slug": "9-9-travel-terrain",
+        "slug": "9-2-travel-terrain",
         "name": "Travel Terrain",
-        "sub": "§9.9",
+        "sub": "§9.2",
         "group": "Gameplay Toolbox"
       },
       {
@@ -7817,6 +7817,12 @@
         "slug": "daylight",
         "name": "Daylight",
         "sub": "Evocation · Cleric, Druid, Paladin, Ranger, Sorcerer",
+        "group": "Level 3"
+      },
+      {
+        "slug": "dispel-magic",
+        "name": "Dispel Magic",
+        "sub": "Abjuration · Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard",
         "group": "Level 3"
       },
       {
@@ -12572,9 +12578,33 @@
         "group": "CR 30"
       },
       {
+        "slug": "animated-object",
+        "name": "Animated Object",
+        "sub": "Huge or Smaller Construct, Unaligned",
+        "group": "CR —"
+      },
+      {
         "slug": "avatar-of-death",
         "name": "Avatar of Death",
         "sub": "Medium Undead, Neutral evil",
+        "group": "CR —"
+      },
+      {
+        "slug": "draconic-spirit",
+        "name": "Draconic Spirit",
+        "sub": "Large Dragon, Neutral",
+        "group": "CR —"
+      },
+      {
+        "slug": "giant-insect",
+        "name": "Giant Insect",
+        "sub": "Large Beast, Unaligned",
+        "group": "CR —"
+      },
+      {
+        "slug": "otherworldly-steed",
+        "name": "Otherworldly Steed",
+        "sub": "Large Celestial, Fey, or Fiend (Your Choice), Neutral",
         "group": "CR —"
       }
     ]

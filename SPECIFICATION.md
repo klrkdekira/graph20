@@ -1,6 +1,6 @@
 # SRD 5.2.1 System JSON — Technical Specification
 
-Status: v0.3.0. The source-boundary, graph-fidelity, physical-provenance, table, recursive-ingestion, typed-extraction, review, verification, vocabulary, and documentation requirements are implemented and enforced by `make check`.
+Status: v0.4.0. The source-boundary, graph-fidelity, physical-provenance, table, recursive-ingestion, typed-extraction, review, verification, vocabulary, and documentation requirements are implemented and enforced by `make check`.
 
 ## 1. Objective
 
@@ -16,7 +16,7 @@ The historical source-normalization event was compared directly with the officia
 
 ## 3. Corpus scope
 
-The v0.3.0 clean build contains 2,092 records:
+The v0.4.0 clean build contains 2,097 records:
 
 | Collection | Count | Content |
 | --- | ---: | --- |
@@ -27,10 +27,10 @@ The v0.3.0 clean build contains 2,092 records:
 | species / backgrounds | 9 / 4 | Typed origin fields plus source prose |
 | feats | 17 | Category, prerequisite, repeatability, and prose |
 | equipment | 133 | Weapons, armor, and gear indexed from source tables |
-| spells | 338 | Level, school, classes, all four printed headers, typed enrichment, and prose |
+| spells | 339 | Level, school, classes, all five printed headers, typed enrichment, and prose |
 | conditions | 15 | Rules Glossary conditions |
 | magic-items | 258 | Complete rarity variants, complete-header attunement, tables, and prose |
-| monsters | 332 | Stats, observed ability entries, 423 parsed damaging attacks, one explicit non-damaging attack parse disposition, sections, and prose |
+| monsters | 336 | Stats, observed ability entries, 423 parsed damaging attacks, six explicit unparsed attack dispositions, sections, and prose |
 
 The 223 Table records represent logical tables rather than PDF page fragments. Repeated continuation headers remain in `rawText` but are not promoted to data rows. Wand of Wonder is one ordered 18-row table; no emitted table is empty.
 
@@ -76,7 +76,7 @@ The occurrence-level ledger records stable keys, structural paths, source line/c
 
 `make check` rebuilds every artifact and runs distinct gates:
 
-- `coverage`: interval coverage only; currently all 18,051 non-blank content lines from line 29 onward are inside at least one locator. It does not claim ownership or fidelity.
+- `coverage`: interval coverage only; currently all 18,050 non-blank content lines from line 29 onward are inside at least one locator. It does not claim ownership or fidelity.
 - `anomalies`: every detector hit must have a reviewed registry disposition.
 - `fidelity`: headings/table starts, nested containment, raw tables, observed ability values, spell headers, rarity/attunement, attack dispositions, and contributing-source rights metadata.
 - `graph`: expands every record, manifest, and bundle; rejects lost compact properties/literals, bare IRI-coerced strings, missing entity types, and undocumented project terms.

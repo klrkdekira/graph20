@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.104",
     "heading": "Gnoll Warrior",
-    "lineStart": 21264,
-    "lineEnd": 21292
+    "lineStart": 21262,
+    "lineEnd": 21290
   },
   "sizeTypeAlignment": "Medium Fiend, Chaotic Evil",
   "sizeAndType": "Medium Fiend",
@@ -74,8 +74,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.104",
         "heading": "Actions",
-        "lineStart": 21282,
-        "lineEnd": 21288
+        "lineStart": 21280,
+        "lineEnd": 21286
       }
     },
     {
@@ -85,8 +85,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.104",
         "heading": "Bonus Actions",
-        "lineStart": 21290,
-        "lineEnd": 21292
+        "lineStart": 21288,
+        "lineEnd": 21290
       }
     }
   ],

@@ -11,8 +11,8 @@
     "chapter": "Gameplay Toolbox",
     "section": "9.47",
     "heading": "Crawler Mucus (200 GP)",
-    "lineStart": 14178,
-    "lineEnd": 14182
+    "lineStart": 14176,
+    "lineEnd": 14180
   },
   "section": "9.47",
   "rulesText": "Contact Poison\n\nA creature subjected to Crawler Mucus must succeed on a DC 13 Constitution saving throw or have the Poisoned condition for 1 minute. The creature also has the Paralyzed condition while Poisoned in this way. The creature repeats the save at the end of each of its turns, ending the effect on itself on a success."

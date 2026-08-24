@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.154",
     "heading": "Mage",
-    "lineStart": 22823,
-    "lineEnd": 22863
+    "lineStart": 22821,
+    "lineEnd": 22861
   },
   "sizeTypeAlignment": "Medium or Small Humanoid (Wizard), Neutral",
   "sizeAndType": "Medium or Small Humanoid (Wizard)",
@@ -76,8 +76,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.154",
         "heading": "Actions",
-        "lineStart": 22843,
-        "lineEnd": 22855
+        "lineStart": 22841,
+        "lineEnd": 22853
       }
     },
     {
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.154",
         "heading": "Bonus Actions",
-        "lineStart": 22857,
-        "lineEnd": 22859
+        "lineStart": 22855,
+        "lineEnd": 22857
       }
     },
     {
@@ -98,8 +98,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.154",
         "heading": "Reactions",
-        "lineStart": 22861,
-        "lineEnd": 22863
+        "lineStart": 22859,
+        "lineEnd": 22861
       }
     }
   ],

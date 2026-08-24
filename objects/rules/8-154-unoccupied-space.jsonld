@@ -11,8 +11,8 @@
     "chapter": "Rules Glossary",
     "section": "8.154",
     "heading": "Unoccupied Space",
-    "lineStart": 13847,
-    "lineEnd": 13849
+    "lineStart": 13845,
+    "lineEnd": 13847
   },
   "section": "8.154",
   "rulesText": "A space is unoccupied if no creatures are in it and it isn't completely filled by objects."

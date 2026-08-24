@@ -11,8 +11,8 @@
     "chapter": "Gameplay Toolbox",
     "section": "9.26",
     "heading": "Sewer Plague",
-    "lineStart": 14028,
-    "lineEnd": 14040
+    "lineStart": 14026,
+    "lineEnd": 14038
   },
   "section": "9.26",
   "rulesText": "Magical Contagion\n\nFouled potions and alchemical waste can give rise to Sewer Plague, which incubates in sewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including otyu-ghs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into contact with contaminated filth or offal must succeed on a DC 11 Constitution saving throw or become infected with Sewer Plague. A creature suffers the following effects 1d4 days after infection:\n\nFatigue. The creature gains 1 Exhaustion level.\n\nWeakness. While the creature has any Exhaustion levels, it regains only half the normal number of Hit Points from spending Hit Point Dice.\n\nRestlessness. While the creature has any Exhaustion levels, finishing a Long Rest neither restores lost Hit Points nor reduces the creature's Exhaustion level.\n\nFighting the Contagion. Daily at dawn, an infected creature makes a DC 11 Constitution saving throw. On a failed save, the creature gains 1 Exhaustion level as its fatigue worsens. On a successful save, the creature's Exhaustion level decreases by 1. If the creature's Exhaustion level is reduced to 0, the contagion ends on the creature."

@@ -598,6 +598,65 @@ Adventurers can't spend every hour adventuring. They need rest. Any creature can
     res = re.sub(r"(?m)^(Range: [^\n]+)\n\n(Components: [^\n]+)", r"\1\n\2", res)
     res = re.sub(r"(?m)^(Components: [^\n]+)\n\n(Duration: [^\n]+)", r"\1\n\2", res)
 
+    # 21b. Cross-column relocation and wrapped-descriptor repairs (2026-08-24).
+    # Registered as `cross-column-splice-repairs-2026-08-24` in
+    # objects/sources/extraction-overrides.json.
+
+    # Dispel Magic: the spell descriptor's class parenthetical wraps across a
+    # column break, splitting one printed line into two paragraphs and hiding
+    # the spell from descriptor detection.
+    res = res.replace(
+        "# Dispel Magic\n\n"
+        "Level 3 Abjuration (Bard, Cleric, Druid, Paladin,\n\n"
+        "Ranger, Sorcerer, Warlock, Wizard)",
+        "# Dispel Magic\n\n"
+        "Level 3 Abjuration (Bard, Cleric, Druid, Paladin, "
+        "Ranger, Sorcerer, Warlock, Wizard)",
+    )
+
+    # Fiendish Legacies: the two-column page layout drops the Tiefling's
+    # legacy table into the Human species entry. Restore it to the Tiefling's
+    # Fiendish Legacy trait, which references it.
+    legacy_anchor = (
+        "Intelligence, Wisdom, or Charisma is your spellcasting ability for "
+        "the spells you cast with this trait (choose the ability when you "
+        "select the legacy).\n\nOtherworldly Presence."
+    )
+    legacy_match = re.search(
+        r"\nFiendish Legacies\n\n\| Legacy.*?\n(?=\n# Orc\n)", res, re.S
+    )
+    if legacy_match and legacy_anchor in res:
+        legacy_table = legacy_match.group(0).strip("\n")
+        res = res[: legacy_match.start()] + res[legacy_match.end() :]
+        res = res.replace(
+            legacy_anchor,
+            legacy_anchor.replace(
+                "\n\nOtherworldly Presence.",
+                f"\n\n{legacy_table}\n\nOtherworldly Presence.",
+            ),
+        )
+
+    # Travel Terrain: the same layout artifact drops the Gameplay Toolbox
+    # travel table into the "1: Choose Abilities" background-creation step.
+    # Restore it to the Travel Pace section, which references it.
+    travel_anchor = (
+        "as shown in the Maximum Pace column of the Travel Terrain table. "
+        "Certain factors can affect a group’s travel pace.\n\n# Good Roads"
+    )
+    travel_match = re.search(
+        r"\nTravel Terrain\n\n\| Terrain.*?\n† Characters[^\n]*\n", res, re.S
+    )
+    if travel_match and travel_anchor in res:
+        travel_table = travel_match.group(0).strip("\n")
+        res = res[: travel_match.start()] + res[travel_match.end() :]
+        res = res.replace(
+            travel_anchor,
+            travel_anchor.replace(
+                "\n\n# Good Roads",
+                f"\n\n{travel_table}\n\n# Good Roads",
+            ),
+        )
+
     # 22. Replace all em-dashes context-sensitively
     res_lines_em = []
     for line in res.splitlines():

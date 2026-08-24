@@ -6,7 +6,7 @@
     "lineEnd": 28,
     "reason": "Legal Information and Contents navigation preamble; license and attribution preserved in the source record."
   },
-  "contentLines": 18051,
+  "contentLines": 18050,
   "uncoveredLines": [],
   "recordCounts": {
     "rules": 738,
@@ -17,10 +17,10 @@
     "backgrounds": 4,
     "feats": 17,
     "equipment": 133,
-    "spells": 338,
+    "spells": 339,
     "conditions": 15,
     "magic-items": 258,
-    "monsters": 332
+    "monsters": 336
   },
-  "recordsWithLocators": 2091
+  "recordsWithLocators": 2096
 }

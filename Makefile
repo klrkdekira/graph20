@@ -78,4 +78,8 @@ schema:
 determinism:
 	$(UV) run python scripts/check_determinism.py
 
-check: extract manifest bundle llms-full search-index collection-index coverage review vocab sitemap anomalies test validate fidelity graph schema determinism
+# determinism runs FIRST so the checked-in artifacts are compared against a
+# clean build BEFORE the in-place regeneration targets overwrite them; a
+# stale or hand-edited committed artifact fails the gate instead of being
+# silently rewritten.
+check: determinism extract manifest bundle llms-full search-index collection-index coverage review vocab sitemap anomalies test validate fidelity graph schema

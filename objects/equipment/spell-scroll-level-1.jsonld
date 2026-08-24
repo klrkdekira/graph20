@@ -10,7 +10,7 @@
   "sourceLocator": {
     "chapter": "Equipment",
     "section": "6.64",
-    "heading": "Ammunition (Varies)",
+    "heading": "Adventuring Gear",
     "lineStart": 6462,
     "lineEnd": 6504
   },
@@ -22,5 +22,10 @@
     "text": "50 GP",
     "currency": "GP",
     "amount": 50
-  }
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-134-spell-scroll-cantrip-30-gp-level-1-50-gp"
+    }
+  ]
 }
