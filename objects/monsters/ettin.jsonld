@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.87",
     "heading": "Ettin",
-    "lineStart": 20665,
-    "lineEnd": 20694
+    "lineStart": 20585,
+    "lineEnd": 20614
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/ettin/"
   },
   "sizeTypeAlignment": "Large Giant, Chaotic Evil",
   "sizeAndType": "Large Giant",
+  "size": "Large",
+  "creatureType": "Giant",
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "12",
   "initiative": "-1 (9)",
@@ -78,8 +84,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.87",
         "heading": "Actions",
-        "lineStart": 20688,
-        "lineEnd": 20694
+        "lineStart": 20608,
+        "lineEnd": 20614
       }
     }
   ],
@@ -110,6 +116,36 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 14,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Giant"
+  ],
+  "gearItems": [
+    {
+      "name": "Battleaxe"
+    },
+    {
+      "name": "Morningstar"
     }
   ],
   "attacks": [

@@ -1,0 +1,26 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/invocations/repelling-blast",
+  "@type": "EldritchInvocation",
+  "name": "Repelling Blast",
+  "slug": "repelling-blast",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.28",
+    "heading": "Repelling Blast",
+    "lineStart": 4688,
+    "lineEnd": 4694
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/invocations/repelling-blast/"
+  },
+  "prerequisite": "Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll",
+  "repeatable": true,
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+  },
+  "rulesText": "Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll\n\nChoose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.\n\nRepeatable. You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip."
+}

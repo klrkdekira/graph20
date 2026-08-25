@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.213",
     "heading": "Ring of Resistance",
-    "lineStart": 16764,
-    "lineEnd": 16781
+    "lineStart": 16720,
+    "lineEnd": 16737
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/ring-of-resistance/"
   },
   "itemCategory": "Ring",
   "rarity": "Rare",
@@ -22,5 +25,7 @@
       "@id": "https://cheeleong.dev/graph20/objects/tables/10-213-ring-of-resistance-table-1"
     }
   ],
-  "rulesText": "Ring, Rare\n\nYou have Resistance to one damage type while wearing this ring. The gemstone in the ring indicates the type, which the GM chooses or determines randomly by rolling on the following table."
+  "rulesText": "Ring, Rare\n\nYou have Resistance to one damage type while wearing this ring. The gemstone in the ring indicates the type, which the GM chooses or determines randomly by rolling on the following table.",
+  "isCursed": false,
+  "isSentient": false
 }

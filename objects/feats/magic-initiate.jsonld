@@ -11,8 +11,11 @@
     "chapter": "Feats",
     "section": "5.6",
     "heading": "Magic Initiate",
-    "lineStart": 5711,
-    "lineEnd": 5723
+    "lineStart": 5687,
+    "lineEnd": 5699
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/feats/magic-initiate/"
   },
   "category": "Origin",
   "repeatable": true,

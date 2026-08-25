@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.243",
     "heading": "Troll Limb",
-    "lineStart": 25645,
-    "lineEnd": 25671
+    "lineStart": 25565,
+    "lineEnd": 25591
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/troll-limb/"
   },
   "sizeTypeAlignment": "Small Giant, Chaotic Evil",
   "sizeAndType": "Small Giant",
+  "size": "Small",
+  "creatureType": "Giant",
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "13",
   "initiative": "+1 (11)",
@@ -74,8 +80,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.243",
         "heading": "Traits",
-        "lineStart": 25663,
-        "lineEnd": 25667
+        "lineStart": 25583,
+        "lineEnd": 25587
       }
     },
     {
@@ -85,12 +91,25 @@
         "chapter": "Monsters A-Z",
         "section": "12.243",
         "heading": "Actions",
-        "lineStart": 25669,
-        "lineEnd": 25671
+        "lineStart": 25589,
+        "lineEnd": 25591
       }
     }
   ],
   "rulesText": "Small Giant, Chaotic Evil\n\nAC 13\nInitiative +1 (11)\nHP 14 (4d6)\nSpeed 20 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 9\nLanguages None\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nRegeneration. The limb regains 5 Hit Points at the start of each of its turns. If the limb takes Acid or Fire damage, this trait doesn't function on the limb's next turn. The limb dies only if it starts its turn with 0 Hit Points and doesn't regenerate.\n\nTroll Spawn. The limb uncannily has the same senses as a whole troll. If the limb isn't destroyed within 24 hours, roll 1d12. On a 12, the limb turns into a Troll. Otherwise, the limb withers away.\n\nActions\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (2d4 + 4) Slashing damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 20
+    }
+  ],
+  "passivePerception": 9,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Rend",

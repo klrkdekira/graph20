@@ -1,0 +1,23 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-18-cursed-magic-items",
+  "@type": "Rule",
+  "name": "Cursed Magic Items",
+  "slug": "9-18-cursed-magic-items",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.18",
+    "heading": "Cursed Magic Items",
+    "lineStart": 13866,
+    "lineEnd": 13868
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/9-18-cursed-magic-items/"
+  },
+  "section": "9.18",
+  "rulesText": "Cursed magic items are created deliberately or originate as the result of supernatural events. Such items are detailed in “Magic Items.”",
+  "ruleCategory": "Curse"
+}

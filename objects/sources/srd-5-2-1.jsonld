@@ -15,5 +15,8 @@
     "@id": "https://www.dndbeyond.com/srd"
   },
   "sourceFile": "SRD_CC_v5.2.1.md",
-  "contentDigest": "sha256-e5a493bd086894a69972dc9b61422f1f51c05b3bd7e1691ab3b0917f8a24ab90"
+  "contentDigest": "sha256-8f037a5af23df22ea362d359e9b98563281a0359196e64c9ff4b85a1792205e6",
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/sources/srd-5-2-1/"
+  }
 }

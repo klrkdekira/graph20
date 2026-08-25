@@ -14,8 +14,11 @@
     "lineStart": 250,
     "lineEnd": 263
   },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-27-proficiency/"
+  },
   "section": "1.27",
-  "rulesText": "Characters and monsters are good at various things. Some are skilled with many weapons, while others can use only a few. Some are better at understanding people's motives, and others are better at unlocking the secrets of the multiverse. All creatures have a Proficiency Bonus, which reflects the impact that training has on the creature's capabilities. A character's Proficiency Bonus increases as the character gains levels (described in “Character Creation”). A monster's Proficiency Bonus is based on its Challenge Rating (see “Rules Glossary”). The Proficiency Bonus table shows how the bonus is determined.\n\nThis bonus is applied to a D20 Test when the creature has proficiency in a skill, in a saving throw, or with an item that the creature uses to make the D20 Test. The bonus is also used for spell attacks and for calculating the DC of saving throws for spells.\n\nProficiency Bonus",
+  "rulesText": "Characters and monsters are good at various things. Some are skilled with many weapons, while others can use only a few. Some are better at understanding people's motives, and others are better at unlocking the secrets of the multiverse. All creatures have a Proficiency Bonus, which reflects the impact that training has on the creature's capabilities. A character's Proficiency Bonus increases as the character gains levels (described in “Character Creation”). A monster's Proficiency Bonus is based on its Challenge Rating (see “Rules Glossary”). The Proficiency Bonus table shows how the bonus is determined.\n\nThis bonus is applied to a D20 Test when the creature has proficiency in a skill, in a saving throw, or with an item that the creature uses to make the D20 Test. The bonus is also used for spell attacks and for calculating the DC of saving throws for spells.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/1-27-proficiency-bonus"

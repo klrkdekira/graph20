@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.348",
     "heading": "Tree Stride",
-    "lineStart": 12244,
-    "lineEnd": 12255
+    "lineStart": 12215,
+    "lineEnd": 12226
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/tree-stride/"
   },
   "level": 5,
   "school": "Conjuration",
@@ -35,5 +38,23 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

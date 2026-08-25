@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.15",
     "heading": "Two-Handed",
-    "lineStart": 5945,
-    "lineEnd": 5947
+    "lineStart": 5921,
+    "lineEnd": 5923
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-15-two-handed/"
   },
   "section": "6.15",
   "rulesText": "A Two-Handed weapon requires two hands when you attack with it."

@@ -11,8 +11,11 @@
     "chapter": "Rules Glossary",
     "section": "8.39",
     "heading": "Creature",
-    "lineStart": 12942,
-    "lineEnd": 12944
+    "lineStart": 12909,
+    "lineEnd": 12911
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-39-creature/"
   },
   "section": "8.39",
   "rulesText": "Any being in the game, including a player's character, is a creature. See also \"Creature Type.\""

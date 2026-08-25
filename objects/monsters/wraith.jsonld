@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.268",
     "heading": "Wraith",
-    "lineStart": 26507,
-    "lineEnd": 26539
+    "lineStart": 26421,
+    "lineEnd": 26453
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/wraith/"
   },
   "sizeTypeAlignment": "Medium or Small Undead, Neutral Evil",
   "sizeAndType": "Medium or Small Undead",
+  "size": "Medium or Small",
+  "creatureType": "Undead",
+  "monsterCategory": "Monster",
   "alignment": "Neutral Evil",
   "armorClass": "13",
   "initiative": "+3 (13)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.268",
         "heading": "Traits",
-        "lineStart": 26529,
-        "lineEnd": 26533
+        "lineStart": 26443,
+        "lineEnd": 26447
       }
     },
     {
@@ -88,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.268",
         "heading": "Actions",
-        "lineStart": 26535,
-        "lineEnd": 26539
+        "lineStart": 26449,
+        "lineEnd": 26453
       }
     }
   ],
@@ -122,6 +128,39 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 5
+    },
+    {
+      "mode": "Fly",
+      "feet": 60,
+      "hover": true
+    }
+  ],
+  "passivePerception": 12,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Common plus two other languages"
+  ],
+  "damageImmunities": [
+    "Necrotic",
+    "Poison"
+  ],
+  "damageResistances": [
+    "Acid",
+    "Bludgeoning",
+    "Cold",
+    "Fire",
+    "Piercing",
+    "Slashing"
   ],
   "attacks": [
     {

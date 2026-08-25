@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.36",
     "heading": "Ancient Blue Dragon",
-    "lineStart": 18967,
-    "lineEnd": 19013
+    "lineStart": 18893,
+    "lineEnd": 18939
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/ancient-blue-dragon/"
   },
   "sizeTypeAlignment": "Gargantuan Dragon (Chromatic), Lawful Evil",
   "sizeAndType": "Gargantuan Dragon (Chromatic)",
+  "size": "Gargantuan",
+  "creatureType": "Dragon",
+  "descriptiveTags": [
+    "Chromatic"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "22",
   "initiative": "+14 (24)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.36",
         "heading": "Traits",
-        "lineStart": 18987,
-        "lineEnd": 18989
+        "lineStart": 18913,
+        "lineEnd": 18915
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.36",
         "heading": "Actions",
-        "lineStart": 18991,
-        "lineEnd": 19003
+        "lineStart": 18917,
+        "lineEnd": 18929
       }
     },
     {
@@ -99,12 +108,115 @@
         "chapter": "Monsters A-Z",
         "section": "12.36",
         "heading": "Legendary Actions",
-        "lineStart": 19005,
-        "lineEnd": 19013
+        "lineStart": 18931,
+        "lineEnd": 18939
       }
     }
   ],
   "rulesText": "Gargantuan Dragon (Chromatic), Lawful Evil\n\nAC 22\nInitiative +14 (24)\nHP 481 (26d20 + 208)\nSpeed 40 ft., Burrow 40 ft., Fly 80 ft.\n\nSkills Perception +17, Stealth +7\nImmunities Lightning\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 27\nLanguages Common, Draconic\nCR 23 (XP 50,000, or 62,000 in lair; PB +7)\n\nTraits\n\nLegendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast Shatter (level 3 version).\n\nRend. Melee Attack Roll: +16, reach 15 ft. Hit: 18 (2d8 + 9) Slashing damage plus 11 (2d10) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 23, each creature in a 120-foot-long, 10-foot-wide Line. Failure: 88 (16d10) Lightning damage. Success: Half damage.\n\nSpellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 22):\n\nAt Will: Detect Magic, Invisibility, Mage Hand, Shatter (level 3 version)\n\n1/Day Each: Scrying, Sending\n\nLegendary Actions\n\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nCloaked Flight. The dragon uses Spellcasting to cast Invisibility on itself, and it can fly up to half its Fly Speed. The dragon can't take this action again until the start of its next turn.\n\nSonic Boom. The dragon uses Spellcasting to cast Shatter (level 3 version). The dragon can't take this action again until the start of its next turn.\n\nTail Swipe. The dragon makes one Rend attack.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Burrow",
+      "feet": 40
+    },
+    {
+      "mode": "Fly",
+      "feet": 80
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 17
+    },
+    {
+      "name": "Stealth",
+      "bonus": 7
+    }
+  ],
+  "passivePerception": 27,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 60
+    },
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Common",
+    "Draconic"
+  ],
+  "damageImmunities": [
+    "Lightning"
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 22):\n\nAt Will: Detect Magic, Invisibility, Mage Hand, Shatter (level 3 version)\n\n1/Day Each: Scrying, Sending",
+      "path": "statSections[1].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Detect Magic, Invisibility, Mage Hand, Shatter (level 3 version)",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/invisibility"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/mage-hand"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/shatter"
+            }
+          ]
+        },
+        {
+          "frequency": "1/Day Each",
+          "spellsText": "Scrying, Sending",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/scrying"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/sending"
+            }
+          ]
+        }
+      ],
+      "ability": "Charisma",
+      "saveDC": 22
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/invisibility"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mage-hand"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/shatter"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/scrying"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/sending"
+    }
+  ],
   "attacks": [
     {
       "name": "Rend",

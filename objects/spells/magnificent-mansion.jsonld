@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.234",
     "heading": "Magnificent Mansion",
-    "lineStart": 10487,
-    "lineEnd": 10504
+    "lineStart": 10458,
+    "lineEnd": 10475
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/magnificent-mansion/"
   },
   "level": 7,
   "school": "Conjuration",
@@ -35,5 +38,31 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "300 feet",
+    "kind": "Distance",
+    "distanceFeet": 300
+  },
+  "durationDetails": {
+    "text": "24 hours",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 24,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a miniature door worth 15+ GP)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a miniature door worth 15+ GP",
+    "consumed": false,
+    "materialCost": {
+      "text": "15 GP",
+      "currency": "GP",
+      "amount": 15
+    }
+  }
 }

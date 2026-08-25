@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.74",
     "heading": "Chime of Opening",
-    "lineStart": 15213,
-    "lineEnd": 15219
+    "lineStart": 15175,
+    "lineEnd": 15181
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/chime-of-opening/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Rare",
@@ -22,5 +25,7 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/knock"
     }
-  ]
+  ],
+  "isCursed": false,
+  "isSentient": false
 }

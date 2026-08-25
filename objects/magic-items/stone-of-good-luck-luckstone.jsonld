@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.262",
     "heading": "Stone of Good Luck (Luckstone)",
-    "lineStart": 17404,
-    "lineEnd": 17408
+    "lineStart": 17345,
+    "lineEnd": 17349
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/stone-of-good-luck-luckstone/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile this polished agate is on your person, you gain a +1 bonus to ability checks and saving throws."
+  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile this polished agate is on your person, you gain a +1 bonus to ability checks and saving throws.",
+  "isCursed": false,
+  "isSentient": false
 }

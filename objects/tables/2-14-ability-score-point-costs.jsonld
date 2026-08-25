@@ -11,8 +11,12 @@
     "chapter": "Character Creation",
     "section": "2.14",
     "heading": "Generate Your Scores",
-    "lineStart": 1020,
-    "lineEnd": 1025
+    "lineStart": 1015,
+    "lineEnd": 1020,
+    "caption": "Ability Score Point Costs"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/2-14-ability-score-point-costs/"
   },
   "columns": [
     "Score",

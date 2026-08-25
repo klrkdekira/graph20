@@ -12,7 +12,11 @@
     "section": "1.14",
     "heading": "Ability Modifier",
     "lineStart": 161,
-    "lineEnd": 168
+    "lineEnd": 168,
+    "caption": "Saving Throw Examples"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/1-14-saving-throw-examples/"
   },
   "columns": [
     "Ability",

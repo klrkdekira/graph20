@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.99",
     "heading": "Ghoul",
-    "lineStart": 21037,
-    "lineEnd": 21064
+    "lineStart": 20957,
+    "lineEnd": 20984
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/ghoul/"
   },
   "sizeTypeAlignment": "Medium Undead, Chaotic Evil",
   "sizeAndType": "Medium Undead",
+  "size": "Medium",
+  "creatureType": "Undead",
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "12",
   "initiative": "+2 (12)",
@@ -75,8 +81,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.99",
         "heading": "Actions",
-        "lineStart": 21058,
-        "lineEnd": 21064
+        "lineStart": 20978,
+        "lineEnd": 20984
       }
     }
   ],
@@ -91,6 +97,25 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Common"
+  ],
+  "damageImmunities": [
+    "Poison"
   ],
   "attacks": [
     {

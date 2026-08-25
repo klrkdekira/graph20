@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.58",
     "heading": "Cloaker",
-    "lineStart": 19683,
-    "lineEnd": 19723
+    "lineStart": 19606,
+    "lineEnd": 19646
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/cloaker/"
   },
   "sizeTypeAlignment": "Large Aberration, Chaotic Neutral",
   "sizeAndType": "Large Aberration",
+  "size": "Large",
+  "creatureType": "Aberration",
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Neutral",
   "armorClass": "14",
   "initiative": "+5 (15)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.58",
         "heading": "Traits",
-        "lineStart": 19705,
-        "lineEnd": 19707
+        "lineStart": 19628,
+        "lineEnd": 19630
       }
     },
     {
@@ -88,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.58",
         "heading": "Actions",
-        "lineStart": 19709,
-        "lineEnd": 19717
+        "lineStart": 19632,
+        "lineEnd": 19640
       }
     },
     {
@@ -99,8 +105,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.58",
         "heading": "Bonus Actions",
-        "lineStart": 19719,
-        "lineEnd": 19723
+        "lineStart": 19642,
+        "lineEnd": 19646
       }
     }
   ],
@@ -109,6 +115,33 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 10
+    },
+    {
+      "mode": "Fly",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Stealth",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 12,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Deep Speech",
+    "Undercommon"
   ],
   "attacks": [
     {

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.181",
     "heading": "Greater Invisibility",
-    "lineStart": 9687,
-    "lineEnd": 9696
+    "lineStart": 9658,
+    "lineEnd": 9667
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/greater-invisibility/"
   },
   "level": 4,
   "school": "Illusion",
@@ -40,6 +43,24 @@
   "scalesWithSlotLevel": false,
   "concentration": true,
   "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/invisible"

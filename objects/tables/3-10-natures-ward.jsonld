@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.10",
     "heading": "Level 10: Nature's Ward",
-    "lineStart": 2798,
-    "lineEnd": 2801
+    "lineStart": 2788,
+    "lineEnd": 2791,
+    "caption": "Nature's Ward"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-10-natures-ward/"
   },
   "columns": [
     "Land Type",

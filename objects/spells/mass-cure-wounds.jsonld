@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.236",
     "heading": "Mass Cure Wounds",
-    "lineStart": 10525,
-    "lineEnd": 10536
+    "lineStart": 10496,
+    "lineEnd": 10507
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/mass-cure-wounds/"
   },
   "level": 5,
   "school": "Abjuration",
@@ -39,5 +42,36 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "Choose up to six creatures in a 30-foot-radius Sphere centered on that point.",
+      "radiusFeet": 30
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+    }
+  ]
 }

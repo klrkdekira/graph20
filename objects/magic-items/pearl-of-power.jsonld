@@ -11,12 +11,18 @@
     "chapter": "Magic Items",
     "section": "10.173",
     "heading": "Pearl of Power",
-    "lineStart": 16390,
-    "lineEnd": 16394
+    "lineStart": 16346,
+    "lineEnd": 16350
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/pearl-of-power/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement by a Spellcaster",
-  "rulesText": "Wondrous Item, Uncommon (Requires Attunement by a Spellcaster)\n\nWhile this pearl is on your person, you can take a Magic action to regain one expended spell slot of level 3 or lower. Once you use the pearl, it can't be used again until the next dawn."
+  "rulesText": "Wondrous Item, Uncommon (Requires Attunement by a Spellcaster)\n\nWhile this pearl is on your person, you can take a Magic action to regain one expended spell slot of level 3 or lower. Once you use the pearl, it can't be used again until the next dawn.",
+  "isCursed": false,
+  "isSentient": false,
+  "attunementRestriction": "Requires Attunement by a Spellcaster"
 }

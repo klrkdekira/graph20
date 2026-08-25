@@ -1,0 +1,60 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/airship",
+  "@type": "Equipment",
+  "name": "Airship",
+  "slug": "airship",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.148",
+    "heading": "Speed",
+    "lineStart": 6836,
+    "lineEnd": 6844,
+    "caption": "Airborne and Waterborne Vehicles"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/airship/"
+  },
+  "equipmentType": "vehicle",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-148-airborne-and-waterborne-vehicles"
+  },
+  "attributes": [
+    {
+      "name": "Speed",
+      "value": "8 mph"
+    },
+    {
+      "name": "Crew",
+      "value": "10"
+    },
+    {
+      "name": "Passengers",
+      "value": "20"
+    },
+    {
+      "name": "Cargo (Tons)",
+      "value": "1"
+    },
+    {
+      "name": "AC",
+      "value": "13"
+    },
+    {
+      "name": "HP",
+      "value": "300"
+    },
+    {
+      "name": "Cost",
+      "value": "40,000 GP"
+    }
+  ],
+  "cost": {
+    "text": "40,000 GP",
+    "currency": "GP",
+    "amount": 40000
+  }
+}

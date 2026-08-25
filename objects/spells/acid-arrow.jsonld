@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.30",
     "heading": "Acid Arrow",
-    "lineStart": 7275,
-    "lineEnd": 7286
+    "lineStart": 7248,
+    "lineEnd": 7259
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/acid-arrow/"
   },
   "level": 2,
   "school": "Evocation",
@@ -49,5 +52,23 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "90 feet",
+    "kind": "Distance",
+    "distanceFeet": 90
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (powdered rhubarb leaf)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "powdered rhubarb leaf",
+    "consumed": false
+  }
 }

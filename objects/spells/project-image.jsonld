@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.277",
     "heading": "Project Image",
-    "lineStart": 11160,
-    "lineEnd": 11175
+    "lineStart": 11131,
+    "lineEnd": 11146
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/project-image/"
   },
   "level": 7,
   "school": "Illusion",
@@ -35,5 +38,31 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "500 miles",
+    "kind": "Distance",
+    "distanceMiles": 500
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 day",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "day"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a statuette of yourself worth 5+ GP)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a statuette of yourself worth 5+ GP",
+    "consumed": false,
+    "materialCost": {
+      "text": "5 GP",
+      "currency": "GP",
+      "amount": 5
+    }
+  }
 }

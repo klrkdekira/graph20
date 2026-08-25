@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.30",
     "heading": "Shield",
-    "lineStart": 6060,
-    "lineEnd": 6062
+    "lineStart": 6036,
+    "lineEnd": 6038
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-30-shield/"
   },
   "section": "6.30",
   "rulesText": "You gain the Armor Class benefit of a Shield only if you have training with it."

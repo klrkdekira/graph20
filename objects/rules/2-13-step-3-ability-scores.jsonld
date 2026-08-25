@@ -11,8 +11,11 @@
     "chapter": "Character Creation",
     "section": "2.13",
     "heading": "Step 3: Ability Scores",
-    "lineStart": 1004,
-    "lineEnd": 1006
+    "lineStart": 999,
+    "lineEnd": 1001
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/2-13-step-3-ability-scores/"
   },
   "section": "2.13",
   "rulesText": "To determine your character's ability scores, you first generate a set of six numbers using the instructions below and then assign them to your six abilities. \"Playing the Game\" explains what each ability means."

@@ -1,0 +1,31 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/actions/ready",
+  "@type": "Action",
+  "name": "Ready",
+  "slug": "ready",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.120",
+    "heading": "Ready [Action]",
+    "lineStart": 13456,
+    "lineEnd": 13464
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/actions/ready/"
+  },
+  "rulesText": "You take the Ready action to wait for a particular circumstance before you act. To do so, you take this action on your turn, which lets you act by taking a Reaction before the start of your next turn.\n\nFirst, you decide what perceivable circumstance will trigger your Reaction. Then, you choose the action you will take in response to that trigger, or you choose to move up to your Speed in response to it. Examples include “If the cultist steps on the trapdoor, I'll pull the lever that opens it,\" and \"If the zombie steps next to me, I move away.\"\n\nWhen the trigger occurs, you can either take your Reaction right after the trigger finishes or ignore the trigger.\n\nWhen you Ready a spell, you cast it as normal (expending any resources used to cast it) but hold its energy, which you release with your Reaction when the trigger occurs. To be readied, a spell must have a casting time of an action, and holding on to the spell's magic requires Concentration, which you can maintain up to the start of your next turn. If your Concentration is broken, the spell dissipates without taking effect.",
+  "effects": [
+    {
+      "name": "You take the Ready action to wait for a particular circumstance before you act",
+      "rulesText": "To do so, you take this action on your turn, which lets you act by taking a Reaction before the start of your next turn."
+    },
+    {
+      "name": "First, you decide what perceivable circumstance will trigger your Reaction",
+      "rulesText": "Then, you choose the action you will take in response to that trigger, or you choose to move up to your Speed in response to it. Examples include “If the cultist steps on the trapdoor, I'll pull the lever that opens it,\" and \"If the zombie steps next to me, I move away.\""
+    }
+  ]
+}

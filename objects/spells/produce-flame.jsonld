@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.275",
     "heading": "Produce Flame",
-    "lineStart": 11128,
-    "lineEnd": 11141
+    "lineStart": 11099,
+    "lineEnd": 11112
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/produce-flame/"
   },
   "level": 0,
   "school": "Conjuration",
@@ -41,5 +44,23 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "10 minutes",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

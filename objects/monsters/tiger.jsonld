@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.89",
     "heading": "Tiger",
-    "lineStart": 28994,
-    "lineEnd": 29019
+    "lineStart": 28905,
+    "lineEnd": 28930
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/tiger/"
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
+  "size": "Large",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "13",
   "initiative": "+3 (13)",
@@ -76,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.89",
         "heading": "Actions",
-        "lineStart": 29013,
-        "lineEnd": 29015
+        "lineStart": 28924,
+        "lineEnd": 28926
       }
     },
     {
@@ -87,12 +93,35 @@
         "chapter": "Animals",
         "section": "13.89",
         "heading": "Bonus Actions",
-        "lineStart": 29017,
-        "lineEnd": 29019
+        "lineStart": 28928,
+        "lineEnd": 28930
       }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 30 (4d10 + 8)\nSpeed 40 ft.\n\nSkills Perception +3, Stealth +7\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages None\nCR 1 (XP 200; PB +2)\n\nActions\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.\n\nBonus Actions\n\nNimble Escape. The tiger takes the Disengage or Hide action.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 3
+    },
+    {
+      "name": "Stealth",
+      "bonus": 7
+    }
+  ],
+  "passivePerception": 13,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Rend",

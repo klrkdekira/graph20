@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.141",
     "heading": "Vial (1 GP)",
-    "lineStart": 6798,
-    "lineEnd": 6800
+    "lineStart": 6771,
+    "lineEnd": 6773
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-141-vial-1-gp/"
   },
   "section": "6.141",
   "rulesText": "A Vial holds up to 4 ounces."

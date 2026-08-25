@@ -11,8 +11,13 @@
     "chapter": "Equipment",
     "section": "6.52",
     "heading": "Other Tools",
-    "lineStart": 6254,
-    "lineEnd": 6254
+    "lineStart": 6230,
+    "lineEnd": 6230
   },
-  "section": "6.52"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-52-other-tools/"
+  },
+  "section": "6.52",
+  "rulesText": "Other Tools",
+  "headingOnly": true
 }

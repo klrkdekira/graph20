@@ -11,8 +11,11 @@
     "chapter": "Monsters",
     "section": "11.11",
     "heading": "Speed",
-    "lineStart": 17814,
-    "lineEnd": 17816
+    "lineStart": 17755,
+    "lineEnd": 17757
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/11-11-speed/"
   },
   "section": "11.11",
   "rulesText": "The Speed entry specifies a monster's Speed. Some monsters have one or more of the following speeds: Burrow, Climb, Fly, Swim. Rules for Speed and these specials speeds appear in “Rules Glossary.”"

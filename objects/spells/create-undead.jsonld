@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.101",
     "heading": "Create Undead",
-    "lineStart": 8404,
-    "lineEnd": 8421
+    "lineStart": 8375,
+    "lineEnd": 8392
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/create-undead/"
   },
   "level": 6,
   "school": "Necromancy",
@@ -39,5 +42,23 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "10 feet",
+    "kind": "Distance",
+    "distanceFeet": 10
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (one 150+ GP black onyx stone for each corpse)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "one 150+ GP black onyx stone for each corpse",
+    "consumed": false
+  }
 }

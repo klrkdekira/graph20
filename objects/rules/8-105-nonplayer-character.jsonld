@@ -11,9 +11,22 @@
     "chapter": "Rules Glossary",
     "section": "8.105",
     "heading": "Nonplayer Character",
-    "lineStart": 13400,
-    "lineEnd": 13402
+    "lineStart": 13364,
+    "lineEnd": 13366
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-105-nonplayer-character/"
   },
   "section": "8.105",
-  "rulesText": "A nonplayer character (NPC) is a monster that has a personal name and a distinct personality. See also \"Monster.\""
+  "rulesText": "A nonplayer character (NPC) is a monster that has a personal name and a distinct personality. See also \"Monster.\"",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-104-monster"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-104-monster"
+    }
+  ]
 }

@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.17",
     "heading": "Bandits",
-    "lineStart": 18389,
-    "lineEnd": 18389
+    "lineStart": 18321,
+    "lineEnd": 18321
   },
-  "section": "12.17"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-17-bandits/"
+  },
+  "section": "12.17",
+  "rulesText": "Bandits",
+  "headingOnly": true
 }

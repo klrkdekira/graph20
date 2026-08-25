@@ -7,6 +7,18 @@
     "@type": { "const": "Rule" },
     "section": { "type": "string", "pattern": "^\\d+\\.\\d+$" },
     "rulesText": { "type": "string", "minLength": 1 },
+    "headingOnly": { "type": "boolean" },
+    "ruleCategory": { "enum": ["Trap", "Poison", "Disease", "Curse", "MentalEffect", "EnvironmentalEffect"] },
+    "fixedDCs": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "common.schema.json#/$defs/FixedDC" }
+    },
+    "damage": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "common.schema.json#/$defs/SpellDamage" }
+    },
     "relatedRules": {
       "type": "array",
       "items": { "$ref": "common.schema.json#/$defs/NodeReference" }
@@ -17,6 +29,6 @@
       "items": { "$ref": "common.schema.json#/$defs/NodeReference" }
     }
   },
-  "required": ["section"],
+  "required": ["section", "rulesText"],
   "unevaluatedProperties": false
 }

@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.147",
     "heading": "Kobold",
-    "lineStart": 22531,
-    "lineEnd": 22531
+    "lineStart": 22451,
+    "lineEnd": 22451
   },
-  "section": "12.147"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-147-kobold/"
+  },
+  "section": "12.147",
+  "rulesText": "Kobold",
+  "headingOnly": true
 }

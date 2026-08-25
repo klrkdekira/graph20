@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.103",
     "heading": "Gnoll",
-    "lineStart": 21184,
-    "lineEnd": 21184
+    "lineStart": 21104,
+    "lineEnd": 21104
   },
-  "section": "12.103"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-103-gnoll/"
+  },
+  "section": "12.103",
+  "rulesText": "Gnoll",
+  "headingOnly": true
 }

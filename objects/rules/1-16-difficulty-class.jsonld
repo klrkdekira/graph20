@@ -14,6 +14,9 @@
     "lineStart": 174,
     "lineEnd": 176
   },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-16-difficulty-class/"
+  },
   "section": "1.16",
   "rulesText": "The Difficulty Class for a saving throw is determined by the effect that causes it or by the GM. For example, if a spell forces you to make a save, the DC is determined by the caster's spellcasting ability and Proficiency Bonus. Monster abilities that call for saves specify the DC."
 }

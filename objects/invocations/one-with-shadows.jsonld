@@ -1,0 +1,37 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/invocations/one-with-shadows",
+  "@type": "EldritchInvocation",
+  "name": "One with Shadows",
+  "slug": "one-with-shadows",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.28",
+    "heading": "One with Shadows",
+    "lineStart": 4650,
+    "lineEnd": 4654
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/invocations/one-with-shadows/"
+  },
+  "prerequisite": "Level 5+ Warlock",
+  "repeatable": false,
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+  },
+  "rulesText": "Prerequisite: Level 5+ Warlock\n\nWhile you're in an area of Dim Light or Darkness, you can cast Invisibility on yourself without expending a spell slot.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/light"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/darkness"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/invisibility"
+    }
+  ]
+}

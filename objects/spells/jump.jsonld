@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.216",
     "heading": "Jump",
-    "lineStart": 10218,
-    "lineEnd": 10229
+    "lineStart": 10189,
+    "lineEnd": 10200
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/jump/"
   },
   "level": 1,
   "school": "Transmutation",
@@ -43,5 +46,25 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "1 minute",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a grasshopper's hind leg)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a grasshopper's hind leg",
+    "consumed": false
+  }
 }

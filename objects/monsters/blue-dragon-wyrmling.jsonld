@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.33",
     "heading": "Blue Dragon Wyrmling",
-    "lineStart": 18863,
-    "lineEnd": 18889
+    "lineStart": 18789,
+    "lineEnd": 18815
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/blue-dragon-wyrmling/"
   },
   "sizeTypeAlignment": "Medium Dragon (Chromatic), Lawful Evil",
   "sizeAndType": "Medium Dragon (Chromatic)",
+  "size": "Medium",
+  "creatureType": "Dragon",
+  "descriptiveTags": [
+    "Chromatic"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "17",
   "initiative": "+2 (12)",
@@ -77,12 +86,53 @@
         "chapter": "Monsters A-Z",
         "section": "12.33",
         "heading": "Actions",
-        "lineStart": 18883,
-        "lineEnd": 18889
+        "lineStart": 18809,
+        "lineEnd": 18815
       }
     }
   ],
   "rulesText": "Medium Dragon (Chromatic), Lawful Evil\n\nAC 17\nInitiative +2 (12)\nHP 65 (10d8 + 20)\nSpeed 30 ft., Burrow 15 ft., Fly 60 ft.\n\nSkills Perception +4, Stealth +2\nImmunities Lightning\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14\nLanguages Draconic\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 + 3) Slashing damage plus 3 (1d6) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 12, each creature in a 30-foot-long, 5-foot-wide Line. Failure: 21 (6d6) Lightning damage. Success: Half damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Burrow",
+      "feet": 15
+    },
+    {
+      "mode": "Fly",
+      "feet": 60
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 4
+    },
+    {
+      "name": "Stealth",
+      "bonus": 2
+    }
+  ],
+  "passivePerception": 14,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 10
+    },
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Draconic"
+  ],
+  "damageImmunities": [
+    "Lightning"
+  ],
   "attacks": [
     {
       "name": "Rend",

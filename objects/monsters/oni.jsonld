@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.179",
     "heading": "Oni",
-    "lineStart": 23552,
-    "lineEnd": 23595
+    "lineStart": 23472,
+    "lineEnd": 23515
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/oni/"
   },
   "sizeTypeAlignment": "Large Fiend, Lawful Evil",
   "sizeAndType": "Large Fiend",
+  "size": "Large",
+  "creatureType": "Fiend",
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "17",
   "initiative": "+0 (10)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.179",
         "heading": "Traits",
-        "lineStart": 23574,
-        "lineEnd": 23576
+        "lineStart": 23494,
+        "lineEnd": 23496
       }
     },
     {
@@ -88,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.179",
         "heading": "Actions",
-        "lineStart": 23578,
-        "lineEnd": 23591
+        "lineStart": 23498,
+        "lineEnd": 23511
       }
     },
     {
@@ -99,12 +105,94 @@
         "chapter": "Monsters A-Z",
         "section": "12.179",
         "heading": "Bonus Actions",
-        "lineStart": 23593,
-        "lineEnd": 23595
+        "lineStart": 23513,
+        "lineEnd": 23515
       }
     }
   ],
   "rulesText": "Large Fiend, Lawful Evil\n\nAC 17\nInitiative +0 (10)\nHP 119 (14d10 + 42)\nSpeed 30 ft., Fly 30 ft. (hover)\n\nSkills Arcana +5, Deception +8, Perception +4\nResistances Cold\nSenses Darkvision 60 ft.; Passive Perception 14\nLanguages Common, Giant\nCR 7 (XP 2,900; PB +3)\n\nTraits\n\nRegeneration. The oni regains 10 Hit Points at the start of each of its turns if it has at least 1 Hit Point.\n\nActions\n\nMultiattack. The oni makes two Claw or Nightmare Ray attacks. It can replace one attack with a use of Spellcasting.\n\nClaw. Melee Attack Roll: +7, reach 10 ft. Hit: 10 (1d12 + 4) Slashing damage plus 9 (2d8) Necrotic damage.\n\nNightmare Ray. Ranged Attack Roll: +5, range 60 ft.\nHit: 9 (2d6 + 2) Psychic damage, and the target has the Frightened condition until the start of the oni's next turn.\n\nShape-Shift. The oni shape-shifts into a Small or Medium Humanoid or a Large Giant, or it returns to its true form. Other than its size, its game statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed.\n\nSpellcasting. The oni casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 13):\n\n1/Day Each: Charm Person (level 2 version), Darkness, Gaseous Form, Sleep\n\nBonus Actions\n\nInvisibility. The oni casts Invisibility on itself, requiring no spell components and using the same spellcasting ability as Spellcasting.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Fly",
+      "feet": 30,
+      "hover": true
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Arcana",
+      "bonus": 5
+    },
+    {
+      "name": "Deception",
+      "bonus": 8
+    },
+    {
+      "name": "Perception",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 14,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Common",
+    "Giant"
+  ],
+  "damageResistances": [
+    "Cold"
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The oni casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 13):\n\n1/Day Each: Charm Person (level 2 version), Darkness, Gaseous Form, Sleep",
+      "path": "statSections[1].rulesText",
+      "entries": [
+        {
+          "frequency": "1/Day Each",
+          "spellsText": "Charm Person (level 2 version), Darkness, Gaseous Form, Sleep",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/charm-person"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/darkness"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/gaseous-form"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/sleep"
+            }
+          ]
+        }
+      ],
+      "ability": "Charisma",
+      "saveDC": 13
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/charm-person"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/darkness"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/gaseous-form"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/sleep"
+    }
+  ],
   "attacks": [
     {
       "name": "Claw",

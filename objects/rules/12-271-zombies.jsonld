@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.271",
     "heading": "Zombies",
-    "lineStart": 26610,
-    "lineEnd": 26610
+    "lineStart": 26524,
+    "lineEnd": 26524
   },
-  "section": "12.271"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-271-zombies/"
+  },
+  "section": "12.271",
+  "rulesText": "Zombies",
+  "headingOnly": true
 }

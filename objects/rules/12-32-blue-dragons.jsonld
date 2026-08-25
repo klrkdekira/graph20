@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.32",
     "heading": "Blue Dragons",
-    "lineStart": 18861,
-    "lineEnd": 18861
+    "lineStart": 18787,
+    "lineEnd": 18787
   },
-  "section": "12.32"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-32-blue-dragons/"
+  },
+  "section": "12.32",
+  "rulesText": "Blue Dragons",
+  "headingOnly": true
 }

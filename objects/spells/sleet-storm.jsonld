@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.316",
     "heading": "Sleet Storm",
-    "lineStart": 11709,
-    "lineEnd": 11720
+    "lineStart": 11680,
+    "lineEnd": 11691
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/sleet-storm/"
   },
   "level": 3,
   "school": "Conjuration",
@@ -38,9 +41,59 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "Ground in the Cylinder is Difficult Terrain. When a creature enters the Cylinder for the first time on a turn or starts its turn there, it must succeed on a Dexterity saving throw or have the Prone condition and lose Concentration."
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": true,
   "ritual": false,
+  "rangeDetails": {
+    "text": "150 feet",
+    "kind": "Distance",
+    "distanceFeet": 150
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a miniature umbrella)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a miniature umbrella",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cylinder",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cylinder"
+      },
+      "sourceText": "Until the spell ends, sleet falls in a 40-foot-tall, 20-foot-radius Cylinder centered on a point you choose within range.",
+      "radiusFeet": 20,
+      "heightFeet": 40
+    },
+    {
+      "shape": "Cylinder",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cylinder"
+      },
+      "sourceText": "Ground in the Cylinder is Difficult Terrain."
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cylinder"
+    }
+  ],
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"

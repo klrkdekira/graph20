@@ -11,8 +11,13 @@
     "chapter": "Gameplay Toolbox",
     "section": "9.1",
     "heading": "Gameplay Toolbox",
-    "lineStart": 13791,
-    "lineEnd": 13791
+    "lineStart": 13755,
+    "lineEnd": 13755
   },
-  "section": "9.1"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/9-1-gameplay-toolbox/"
+  },
+  "section": "9.1",
+  "rulesText": "Gameplay Toolbox",
+  "headingOnly": true
 }

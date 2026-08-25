@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.233",
     "heading": "Magic Weapon",
-    "lineStart": 10474,
-    "lineEnd": 10485
+    "lineStart": 10445,
+    "lineEnd": 10456
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/magic-weapon/"
   },
   "level": 2,
   "school": "Transmutation",
@@ -43,5 +46,23 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "1 hour",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

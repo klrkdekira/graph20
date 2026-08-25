@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.37",
     "heading": "Animal Shapes",
-    "lineStart": 7378,
-    "lineEnd": 7393
+    "lineStart": 7351,
+    "lineEnd": 7366
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/animal-shapes/"
   },
   "level": 8,
   "school": "Transmutation",
@@ -31,5 +34,24 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "24 hours",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 24,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

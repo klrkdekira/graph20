@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.32",
     "heading": "Wizard Spell List",
-    "lineStart": 5263,
-    "lineEnd": 5279
+    "lineStart": 5239,
+    "lineEnd": 5255,
+    "caption": "Level 7 Wizard Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-32-level-7-wizard-spells/"
   },
   "columns": [
     "Spell",

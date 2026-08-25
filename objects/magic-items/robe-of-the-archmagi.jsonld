@@ -11,12 +11,29 @@
     "chapter": "Magic Items",
     "section": "10.227",
     "heading": "Robe of the Archmagi",
-    "lineStart": 16902,
-    "lineEnd": 16914
+    "lineStart": 16858,
+    "lineEnd": 16870
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/robe-of-the-archmagi/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Legendary",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement by a Sorcerer, Warlock, or Wizard",
-  "rulesText": "Wondrous Item, Legendary (Requires Attunement by a Sorcerer, Warlock, or Wizard)\n\nThis elegant garment is made from exquisite cloth and adorned with runes.\n\nYou gain these benefits while wearing the robe.\n\nArmor. If you aren't wearing armor, your base Armor Class is 15 plus your Dexterity modifier.\n\nMagic Resistance. You have Advantage on saving throws against spells and other magical effects.\n\nWar Mage. Your spell save DC and spell attack bonus each increase by 2."
+  "rulesText": "Wondrous Item, Legendary (Requires Attunement by a Sorcerer, Warlock, or Wizard)\n\nThis elegant garment is made from exquisite cloth and adorned with runes.\n\nYou gain these benefits while wearing the robe.\n\nArmor. If you aren't wearing armor, your base Armor Class is 15 plus your Dexterity modifier.\n\nMagic Resistance. You have Advantage on saving throws against spells and other magical effects.\n\nWar Mage. Your spell save DC and spell attack bonus each increase by 2.",
+  "isCursed": false,
+  "isSentient": false,
+  "attunementClasses": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "attunementRestriction": "Requires Attunement by a Sorcerer, Warlock, or Wizard"
 }

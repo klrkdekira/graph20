@@ -11,8 +11,12 @@
     "chapter": "Rules Glossary",
     "section": "8.35",
     "heading": "Condition",
-    "lineStart": 12919,
-    "lineEnd": 12924
+    "lineStart": 12886,
+    "lineEnd": 12891,
+    "caption": "Condition Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/8-35-condition-table-1/"
   },
   "columns": [
     "Blinded",

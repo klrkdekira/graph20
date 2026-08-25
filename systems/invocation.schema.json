@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/graph20/systems/invocation.schema.json",
+  "title": "SRD 5.2.1 Eldritch Invocation",
+  "$ref": "common.schema.json#/$defs/EntityBase",
+  "properties": {
+    "@type": { "const": "EldritchInvocation" },
+    "parentClass": { "$ref": "common.schema.json#/$defs/NodeReference" },
+    "prerequisite": { "type": "string", "minLength": 1 },
+    "repeatable": { "type": "boolean" },
+    "rulesText": { "type": "string", "minLength": 1 }
+  },
+  "required": ["parentClass", "repeatable", "rulesText"],
+  "unevaluatedProperties": false
+}

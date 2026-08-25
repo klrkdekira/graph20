@@ -11,8 +11,11 @@
     "chapter": "Monsters",
     "section": "11.20",
     "heading": "Senses",
-    "lineStart": 17862,
-    "lineEnd": 17864
+    "lineStart": 17803,
+    "lineEnd": 17805
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/11-20-senses/"
   },
   "section": "11.20",
   "rulesText": "The Senses entry specifies a monster's Passive Perception score, as well as any special senses the monster possesses. Passive Perception and special senses are described in “Rules Glossary.”"

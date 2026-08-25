@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.131",
     "heading": "Hat of Disguise",
-    "lineStart": 15844,
-    "lineEnd": 15848
+    "lineStart": 15806,
+    "lineEnd": 15810
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/hat-of-disguise/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
@@ -23,5 +26,7 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/disguise-self"
     }
-  ]
+  ],
+  "isCursed": false,
+  "isSentient": false
 }

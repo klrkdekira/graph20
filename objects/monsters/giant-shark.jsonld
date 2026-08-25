@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.46",
     "heading": "Giant Shark",
-    "lineStart": 27829,
-    "lineEnd": 27856
+    "lineStart": 27743,
+    "lineEnd": 27770
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/giant-shark/"
   },
   "sizeTypeAlignment": "Huge Beast, Unaligned",
   "sizeAndType": "Huge Beast",
+  "size": "Huge",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "13",
   "initiative": "+3 (13)",
@@ -76,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.46",
         "heading": "Traits",
-        "lineStart": 27848,
-        "lineEnd": 27850
+        "lineStart": 27762,
+        "lineEnd": 27764
       }
     },
     {
@@ -87,12 +93,35 @@
         "chapter": "Animals",
         "section": "13.46",
         "heading": "Actions",
-        "lineStart": 27852,
-        "lineEnd": 27856
+        "lineStart": 27766,
+        "lineEnd": 27770
       }
     }
   ],
   "rulesText": "Huge Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 92 (8d12 + 40)\nSpeed 5 ft., Swim 60 ft.\n\nSkills Perception +3\nSenses Blindsight 60 ft.; Passive Perception 13\nLanguages None\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nWater Breathing. The shark can breathe only underwater.\n\nActions\n\nMultiattack. The shark makes two Bite attacks.\n\nBite. Melee Attack Roll: +9 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 22 (3d10 + 6) Piercing damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 5
+    },
+    {
+      "mode": "Swim",
+      "feet": 60
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 3
+    }
+  ],
+  "passivePerception": 13,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Bite",

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.117",
     "heading": "Disintegrate",
-    "lineStart": 8654,
-    "lineEnd": 8669
+    "lineStart": 8625,
+    "lineEnd": 8640
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/disintegrate/"
   },
   "level": 6,
   "school": "Transmutation",
@@ -34,6 +37,15 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "A creature targeted by this spell makes a Dexterity saving throw. On a failed save, the target takes 10d6 + 40 Force damage. If this damage reduces it to 0 Hit Points, it and everything nonmagical it is wearing and carrying are disintegrated into gray dust. The target can be revived only by a True Resurrection or a Wish spell.",
+      "outcomes": [
+        "FailureEffect"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Force",
@@ -47,5 +59,37 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a lodestone and dust)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a lodestone and dust",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cube",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+      },
+      "sourceText": "If such a target is Huge or larger, this spell disintegrates a 10-foot-Cube portion of it."
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+    }
+  ]
 }

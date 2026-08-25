@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.238",
     "heading": "Toughs",
-    "lineStart": 25509,
-    "lineEnd": 25509
+    "lineStart": 25429,
+    "lineEnd": 25429
   },
-  "section": "12.238"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-238-toughs/"
+  },
+  "section": "12.238",
+  "rulesText": "Toughs",
+  "headingOnly": true
 }

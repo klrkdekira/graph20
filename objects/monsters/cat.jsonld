@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.14",
     "heading": "Cat",
-    "lineStart": 26974,
-    "lineEnd": 26999
+    "lineStart": 26888,
+    "lineEnd": 26913
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/cat/"
   },
   "sizeTypeAlignment": "Tiny Beast, Unaligned",
   "sizeAndType": "Tiny Beast",
+  "size": "Tiny",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "12",
   "initiative": "+2 (12)",
@@ -75,8 +81,8 @@
         "chapter": "Animals",
         "section": "13.14",
         "heading": "Traits",
-        "lineStart": 26993,
-        "lineEnd": 26995
+        "lineStart": 26907,
+        "lineEnd": 26909
       }
     },
     {
@@ -86,12 +92,39 @@
         "chapter": "Animals",
         "section": "13.14",
         "heading": "Actions",
-        "lineStart": 26997,
-        "lineEnd": 26999
+        "lineStart": 26911,
+        "lineEnd": 26913
       }
     }
   ],
   "rulesText": "Tiny Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 2 (1d4)\nSpeed 40 ft., Climb 40 ft.\n\nSkills Perception +3, Stealth +4\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nJumper. The cat's jump distance is determined using its Dexterity rather than its Strength.\n\nActions\n\nScratch. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Slashing damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Climb",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 3
+    },
+    {
+      "name": "Stealth",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 13,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Scratch",

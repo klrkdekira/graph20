@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/actions/dash",
+  "@type": "Action",
+  "name": "Dash",
+  "slug": "dash",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.52",
+    "heading": "Dash [Action]",
+    "lineStart": 12992,
+    "lineEnd": 12996
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/actions/dash/"
+  },
+  "rulesText": "When you take the Dash action, you gain extra movement for the current turn. The increase equals your Speed after applying any modifiers. With a Speed of 30 feet, for example, you can move up to 60 feet on your turn if you Dash. If your Speed of 30 feet is reduced to 15 feet, you can move up to 30 feet this turn if you Dash.\n\nIf you have a special speed, such as a Fly Speed or Swim Speed, you can use that speed instead of your Speed when you take this action. You choose which speed to use each time you take it. See also “Speed.”",
+  "effects": [
+    {
+      "name": "When you take the Dash action, you gain extra movement for the current turn",
+      "rulesText": "The increase equals your Speed after applying any modifiers. With a Speed of 30 feet, for example, you can move up to 60 feet on your turn if you Dash. If your Speed of 30 feet is reduced to 15 feet, you can move up to 30 feet this turn if you Dash."
+    }
+  ]
+}

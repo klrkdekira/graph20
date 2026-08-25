@@ -11,8 +11,12 @@
     "chapter": "Character Creation",
     "section": "2.17",
     "heading": "Determine Ability Modifiers",
-    "lineStart": 1064,
-    "lineEnd": 1070
+    "lineStart": 1059,
+    "lineEnd": 1065,
+    "caption": "Ability Scores and Modifiers"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/2-17-ability-scores-and-modifiers/"
   },
   "columns": [
     "Score",

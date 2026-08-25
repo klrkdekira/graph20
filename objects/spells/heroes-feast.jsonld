@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.196",
     "heading": "Heroes' Feast",
-    "lineStart": 9928,
-    "lineEnd": 9939
+    "lineStart": 9899,
+    "lineEnd": 9910
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/heroes-feast/"
   },
   "level": 6,
   "school": "Conjuration",
@@ -39,5 +42,42 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a gem-encrusted bowl worth 1,000+ GP, which the spell consumes)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a gem-encrusted bowl worth 1,000+ GP, which the spell consumes",
+    "consumed": true,
+    "materialCost": {
+      "text": "1,000 GP",
+      "currency": "GP",
+      "amount": 1000
+    }
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cube",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+      },
+      "sourceText": "You conjure a feast that appears on a surface in an unoccupied 10-foot Cube next to you.",
+      "sizeFeet": 10
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+    }
+  ]
 }

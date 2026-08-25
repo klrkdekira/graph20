@@ -11,8 +11,12 @@
     "chapter": "Equipment",
     "section": "6.146",
     "heading": "Saddles",
-    "lineStart": 6826,
-    "lineEnd": 6835
+    "lineStart": 6799,
+    "lineEnd": 6808,
+    "caption": "Mounts and Other Animals"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/6-146-mounts-and-other-animals/"
   },
   "columns": [
     "Item",

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.2",
     "heading": "Gaining Spells",
-    "lineStart": 7085,
-    "lineEnd": 7087
+    "lineStart": 7058,
+    "lineEnd": 7060
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/7-2-gaining-spells/"
   },
   "section": "7.2",
   "rulesText": "Before you can cast a spell, you must have the spell prepared in your mind or have access to the spell from a magic item, such as a Spell Scroll. Your features specify which spells you have access to, if any; whether you always have certain spells prepared; and whether you can change the list of spells you have prepared."

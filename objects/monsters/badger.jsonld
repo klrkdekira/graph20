@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.7",
     "heading": "Badger",
-    "lineStart": 26801,
-    "lineEnd": 26823
+    "lineStart": 26715,
+    "lineEnd": 26737
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/badger/"
   },
   "sizeTypeAlignment": "Tiny Beast, Unaligned",
   "sizeAndType": "Tiny Beast",
+  "size": "Tiny",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "11",
   "initiative": "+0 (10)",
@@ -77,12 +83,38 @@
         "chapter": "Animals",
         "section": "13.7",
         "heading": "Actions",
-        "lineStart": 26821,
-        "lineEnd": 26823
+        "lineStart": 26735,
+        "lineEnd": 26737
       }
     }
   ],
   "rulesText": "Tiny Beast, Unaligned\n\nAC 11\nInitiative +0 (10)\nHP 5 (1d4 + 3)\nSpeed 20 ft., Burrow 5 ft.\n\nSkills Perception +3\nResistances Poison\nSenses Darkvision 30 ft.; Passive Perception 13\nLanguages None\nCR 0 (XP 10; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 20
+    },
+    {
+      "mode": "Burrow",
+      "feet": 5
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 3
+    }
+  ],
+  "passivePerception": 13,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 30
+    }
+  ],
+  "damageResistances": [
+    "Poison"
+  ],
   "attacks": [
     {
       "name": "Bite",

@@ -1,0 +1,31 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/invocations/visions-of-distant-realms",
+  "@type": "EldritchInvocation",
+  "name": "Visions of Distant Realms",
+  "slug": "visions-of-distant-realms",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.28",
+    "heading": "Visions of Distant Realms",
+    "lineStart": 4702,
+    "lineEnd": 4706
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/invocations/visions-of-distant-realms/"
+  },
+  "prerequisite": "Level 9+ Warlock",
+  "repeatable": false,
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+  },
+  "rulesText": "Prerequisite: Level 9+ Warlock\n\nYou can cast Arcane Eye without expending a spell slot.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/arcane-eye"
+    }
+  ]
+}

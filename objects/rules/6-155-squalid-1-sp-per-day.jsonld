@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.155",
     "heading": "Squalid (1 SP per Day)",
-    "lineStart": 6901,
-    "lineEnd": 6903
+    "lineStart": 6874,
+    "lineEnd": 6876
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-155-squalid-1-sp-per-day/"
   },
   "section": "6.155",
   "rulesText": "You spend the bare minimum for your necessities. You might be exposed to unhealthy conditions and opportunistic criminals."

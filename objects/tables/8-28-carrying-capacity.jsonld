@@ -11,8 +11,12 @@
     "chapter": "Rules Glossary",
     "section": "8.28",
     "heading": "Carrying Capacity",
-    "lineStart": 12871,
-    "lineEnd": 12877
+    "lineStart": 12838,
+    "lineEnd": 12844,
+    "caption": "Carrying Capacity"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/8-28-carrying-capacity/"
   },
   "columns": [
     "Creature Size",

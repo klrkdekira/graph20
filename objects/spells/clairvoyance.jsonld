@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.75",
     "heading": "Clairvoyance",
-    "lineStart": 7968,
-    "lineEnd": 7981
+    "lineStart": 7939,
+    "lineEnd": 7952
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/clairvoyance/"
   },
   "level": 3,
   "school": "Divination",
@@ -43,5 +46,31 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "1 mile",
+    "kind": "Distance",
+    "distanceMiles": 1
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a focus worth 100+ GP, either a jeweled horn for hearing or a glass eye for seeing)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a focus worth 100+ GP, either a jeweled horn for hearing or a glass eye for seeing",
+    "consumed": false,
+    "materialCost": {
+      "text": "100 GP",
+      "currency": "GP",
+      "amount": 100
+    }
+  }
 }

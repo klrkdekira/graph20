@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.2",
     "heading": "Magic Item Categories",
-    "lineStart": 14485,
-    "lineEnd": 14495
+    "lineStart": 14447,
+    "lineEnd": 14457,
+    "caption": "Magic Item Categories"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-2-magic-item-categories/"
   },
   "columns": [
     "Category",

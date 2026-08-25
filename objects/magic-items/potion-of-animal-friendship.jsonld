@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.182",
     "heading": "Potion of Animal Friendship",
-    "lineStart": 16466,
-    "lineEnd": 16472
+    "lineStart": 16422,
+    "lineEnd": 16428
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/potion-of-animal-friendship/"
   },
   "itemCategory": "Potion",
   "rarity": "Uncommon",
@@ -22,5 +25,7 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/animal-friendship"
     }
-  ]
+  ],
+  "isCursed": false,
+  "isSentient": false
 }

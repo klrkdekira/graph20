@@ -11,8 +11,13 @@
     "chapter": "Spells",
     "section": "7.29",
     "heading": "Spell Descriptions",
-    "lineStart": 7273,
-    "lineEnd": 7273
+    "lineStart": 7246,
+    "lineEnd": 7246
   },
-  "section": "7.29"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/7-29-spell-descriptions/"
+  },
+  "section": "7.29",
+  "rulesText": "Spell Descriptions",
+  "headingOnly": true
 }

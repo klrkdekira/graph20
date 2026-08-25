@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.77",
     "heading": "Bucket (5 CP)",
-    "lineStart": 6504,
-    "lineEnd": 6506
+    "lineStart": 6477,
+    "lineEnd": 6479
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-77-bucket-5-cp/"
   },
   "section": "6.77",
   "rulesText": "A Bucket holds up to half a cubic foot of contents."

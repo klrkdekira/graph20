@@ -11,9 +11,28 @@
     "chapter": "Rules Glossary",
     "section": "8.93",
     "heading": "Initiative",
-    "lineStart": 13299,
-    "lineEnd": 13303
+    "lineStart": 13263,
+    "lineEnd": 13267
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-93-initiative/"
   },
   "section": "8.93",
-  "rulesText": "Initiative determines the order of turns during combat. The combat rules in “Playing the Game” explain how to roll Initiative.\n\nSometimes a GM might have combatants use their Initiative scores instead of rolling Initiative. Your Initiative score equals 10 plus your Dexterity modifier. If you have Advantage on Initiative rolls, increase your Initiative score by 5. If you have Disadvantage on those rolls, decrease that score by 5. See also “Playing the Game” (“Combat”)."
+  "rulesText": "Initiative determines the order of turns during combat. The combat rules in “Playing the Game” explain how to roll Initiative.\n\nSometimes a GM might have combatants use their Initiative scores instead of rolling Initiative. Your Initiative score equals 10 plus your Dexterity modifier. If you have Advantage on Initiative rolls, increase your Initiative score by 5. If you have Disadvantage on those rolls, decrease that score by 5. See also “Playing the Game” (“Combat”).",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-59-combat"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-59-combat"
+    }
+  ]
 }

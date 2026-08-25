@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.237",
     "heading": "Mass Heal",
-    "lineStart": 10538,
-    "lineEnd": 10547
+    "lineStart": 10509,
+    "lineEnd": 10518
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/mass-heal/"
   },
   "level": 9,
   "school": "Abjuration",
@@ -31,5 +34,21 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

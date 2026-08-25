@@ -11,9 +11,22 @@
     "chapter": "Rules Glossary",
     "section": "8.71",
     "heading": "Fly Speed",
-    "lineStart": 13147,
-    "lineEnd": 13149
+    "lineStart": 13111,
+    "lineEnd": 13113
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-71-fly-speed/"
   },
   "section": "8.71",
-  "rulesText": "A Fly Speed can be used to travel through the air. While you have a Fly Speed, you can stay aloft until you land, fall, or die. See also “Flying” and “Speed.”"
+  "rulesText": "A Fly Speed can be used to travel through the air. While you have a Fly Speed, you can stay aloft until you land, fall, or die. See also “Flying” and “Speed.”",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-70-flying"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-70-flying"
+    }
+  ]
 }

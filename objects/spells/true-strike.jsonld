@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.352",
     "heading": "True Strike",
-    "lineStart": 12310,
-    "lineEnd": 12321
+    "lineStart": 12281,
+    "lineEnd": 12292
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/true-strike/"
   },
   "level": 0,
   "school": "Divination",
@@ -43,5 +46,22 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "S, M (a weapon with which you have proficiency and that is worth I+ CP)",
+    "verbal": false,
+    "somatic": true,
+    "material": true,
+    "materialText": "a weapon with which you have proficiency and that is worth I+ CP",
+    "consumed": false
+  }
 }

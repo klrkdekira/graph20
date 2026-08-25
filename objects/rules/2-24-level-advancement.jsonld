@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/2-24-level-advancement",
+  "@type": "Rule",
+  "name": "Level Advancement",
+  "slug": "2-24-level-advancement",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.24",
+    "heading": "Level Advancement",
+    "lineStart": 1162,
+    "lineEnd": 1191
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/2-24-level-advancement/"
+  },
+  "section": "2.24",
+  "rulesText": "While going on adventures, your character gains experience, represented by Experience Points (XP). A character who reaches a specified Experience Point total advances in capability. This advancement is called gaining a level.\n\nThe Character Advancement table lists the XP you need to advance to a level and the Proficiency Bonus for a character of that level. When your XP total equals or exceeds a number in the Experience Points column, you reach the corresponding level.",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/2-24-character-advancement"
+    }
+  ]
+}

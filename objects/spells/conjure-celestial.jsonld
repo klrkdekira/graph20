@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.87",
     "heading": "Conjure Celestial",
-    "lineStart": 8166,
-    "lineEnd": 8185
+    "lineStart": 8137,
+    "lineEnd": 8156
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/conjure-celestial/"
   },
   "level": 7,
   "school": "Conjuration",
@@ -30,6 +33,16 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "Searing Light. The target makes a Dexterity saving throw, taking 6d12 Radiant damage on a failed save or half as much damage on a successful one.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Radiant",
@@ -42,5 +55,54 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "90 feet",
+    "kind": "Distance",
+    "distanceFeet": 90
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cylinder",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cylinder"
+      },
+      "sourceText": "You conjure a spirit from the Upper Planes, which manifests as a pillar of light in a 10-foot-radius, 40-foot-high Cylinder centered on a point within range.",
+      "radiusFeet": 10,
+      "heightFeet": 40
+    },
+    {
+      "shape": "Cylinder",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cylinder"
+      },
+      "sourceText": "Until the spell ends, Bright Light fills the Cylinder, and when you move on your turn, you can also move the Cylinder up to 30 feet."
+    },
+    {
+      "shape": "Cylinder",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cylinder"
+      },
+      "sourceText": "Whenever the Cylinder moves into the space of a creature you can see and whenever a creature you can see enters the Cylinder or ends its turn there, you can bathe it in one of the lights."
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cylinder"
+    }
+  ]
 }

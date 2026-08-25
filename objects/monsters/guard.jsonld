@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.127",
     "heading": "Guard",
-    "lineStart": 21887,
-    "lineEnd": 21909
+    "lineStart": 21807,
+    "lineEnd": 21829
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/guard/"
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
+  "size": "Medium or Small",
+  "creatureType": "Humanoid",
+  "monsterCategory": "NPC",
   "alignment": "Neutral",
   "armorClass": "16",
   "initiative": "+1 (11)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.127",
         "heading": "Actions",
-        "lineStart": 21907,
-        "lineEnd": 21909
+        "lineStart": 21827,
+        "lineEnd": 21829
       }
     }
   ],
@@ -92,6 +98,33 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/spear"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 2
+    }
+  ],
+  "passivePerception": 12,
+  "languageList": [
+    "Common"
+  ],
+  "gearItems": [
+    {
+      "name": "Chain Shirt"
+    },
+    {
+      "name": "Shield"
+    },
+    {
+      "name": "Spear"
     }
   ],
   "attacks": [

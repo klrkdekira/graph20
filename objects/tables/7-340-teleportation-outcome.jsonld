@@ -11,8 +11,12 @@
     "chapter": "Spells",
     "section": "7.340",
     "heading": "Teleport",
-    "lineStart": 12109,
-    "lineEnd": 12116
+    "lineStart": 12080,
+    "lineEnd": 12087,
+    "caption": "Teleportation Outcome"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/7-340-teleportation-outcome/"
   },
   "columns": [
     "Familiarity",

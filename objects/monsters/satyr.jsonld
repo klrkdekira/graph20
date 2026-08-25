@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.208",
     "heading": "Satyr",
-    "lineStart": 24479,
-    "lineEnd": 24508
+    "lineStart": 24399,
+    "lineEnd": 24428
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/satyr/"
   },
   "sizeTypeAlignment": "Medium Fey, Chaotic Neutral",
   "sizeAndType": "Medium Fey",
+  "size": "Medium",
+  "creatureType": "Fey",
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Neutral",
   "armorClass": "13",
   "initiative": "+3 (13)",
@@ -75,8 +81,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.208",
         "heading": "Traits",
-        "lineStart": 24500,
-        "lineEnd": 24502
+        "lineStart": 24420,
+        "lineEnd": 24422
       }
     },
     {
@@ -86,12 +92,38 @@
         "chapter": "Monsters A-Z",
         "section": "12.208",
         "heading": "Actions",
-        "lineStart": 24504,
-        "lineEnd": 24508
+        "lineStart": 24424,
+        "lineEnd": 24428
       }
     }
   ],
   "rulesText": "Medium Fey, Chaotic Neutral\n\nAC 13\nInitiative +3 (13)\nHP 31 (7d8)\nSpeed 40 ft.\n\nSkills Perception +2, Performance +6, Stealth +5\nSenses Passive Perception 12\nLanguages Common, Elvish, Sylvan\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nMagic Resistance. The satyr has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nHooves. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, the satyr pushes the target up to 10 feet straight away from itself.\n\nMockery. Wisdom Saving Throw: DC 12, one creature the satyr can see within 90 feet. Failure: 5 (1d6 + 2) Psychic damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 2
+    },
+    {
+      "name": "Performance",
+      "bonus": 6
+    },
+    {
+      "name": "Stealth",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 12,
+  "languageList": [
+    "Common",
+    "Elvish",
+    "Sylvan"
+  ],
   "attacks": [
     {
       "name": "Hooves",

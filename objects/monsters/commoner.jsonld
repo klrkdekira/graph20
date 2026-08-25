@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.61",
     "heading": "Commoner",
-    "lineStart": 19789,
-    "lineEnd": 19816
+    "lineStart": 19712,
+    "lineEnd": 19739
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/commoner/"
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
+  "size": "Medium or Small",
+  "creatureType": "Humanoid",
+  "monsterCategory": "Monster",
   "alignment": "Neutral",
   "armorClass": "10",
   "initiative": "+0 (10)",
@@ -75,8 +81,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.61",
         "heading": "Traits",
-        "lineStart": 19810,
-        "lineEnd": 19812
+        "lineStart": 19733,
+        "lineEnd": 19735
       }
     },
     {
@@ -86,8 +92,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.61",
         "heading": "Actions",
-        "lineStart": 19814,
-        "lineEnd": 19816
+        "lineStart": 19737,
+        "lineEnd": 19739
       }
     }
   ],
@@ -95,6 +101,21 @@
   "hasGear": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/club"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 10,
+  "languageList": [
+    "Common"
+  ],
+  "gearItems": [
+    {
+      "name": "Club"
     }
   ],
   "attacks": [

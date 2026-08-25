@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.88",
     "heading": "Cubic Gate",
-    "lineStart": 15324,
-    "lineEnd": 15334
+    "lineStart": 15286,
+    "lineEnd": 15296
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/cubic-gate/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Legendary",
@@ -25,5 +28,12 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/plane-shift"
     }
-  ]
+  ],
+  "charges": {
+    "capacityText": "3",
+    "capacity": 3,
+    "rechargeText": "The cube has 3 charges and regains 1d3 expended charges daily at dawn."
+  },
+  "isCursed": false,
+  "isSentient": false
 }

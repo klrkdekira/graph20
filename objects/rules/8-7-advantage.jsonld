@@ -11,9 +11,28 @@
     "chapter": "Rules Glossary",
     "section": "8.7",
     "heading": "Advantage",
-    "lineStart": 12725,
-    "lineEnd": 12727
+    "lineStart": 12692,
+    "lineEnd": 12694
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-7-advantage/"
   },
   "section": "8.7",
-  "rulesText": "If you have Advantage on a D20 Test, roll two d20s, and use the higher roll. A roll can't be affected by more than one Advantage, and Advantage and Disadvantage on the same roll cancel each other. See also \"Playing the Game\" (\"D20 Tests\")."
+  "rulesText": "If you have Advantage on a D20 Test, roll two d20s, and use the higher roll. A roll can't be affected by more than one Advantage, and Advantage and Disadvantage on the same roll cancel each other. See also \"Playing the Game\" (\"D20 Tests\").",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-8-d20-tests"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-8-d20-tests"
+    }
+  ]
 }

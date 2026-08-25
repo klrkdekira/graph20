@@ -11,17 +11,23 @@
     "chapter": "Monsters A-Z",
     "section": "12.7",
     "heading": "Animated Rug of Smothering",
-    "lineStart": 18134,
-    "lineEnd": 18160
+    "lineStart": 18072,
+    "lineEnd": 18095
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/animated-rug-of-smothering/"
   },
   "sizeTypeAlignment": "Large Construct, Unaligned",
   "sizeAndType": "Large Construct",
+  "size": "Large",
+  "creatureType": "Construct",
+  "monsterCategory": "Monster",
   "alignment": "Unaligned",
   "armorClass": "12",
   "initiative": "+4 (14)",
   "hitPoints": "27 (5d10)",
   "speed": "10 ft.",
-  "immunities": "Poison, Psychic; Charmed, Deafened,",
+  "immunities": "Poison, Psychic; Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned",
   "senses": "Blindsight 60 ft.; Passive Perception 6",
   "languages": "None",
   "challenge": "2 (XP 450; PB +2)",
@@ -75,19 +81,51 @@
         "chapter": "Monsters A-Z",
         "section": "12.7",
         "heading": "Actions",
-        "lineStart": 18156,
-        "lineEnd": 18160
+        "lineStart": 18091,
+        "lineEnd": 18095
       }
     }
   ],
-  "rulesText": "Large Construct, Unaligned\n\nAC 12\nInitiative +4 (14)\nHP 27 (5d10)\nSpeed 10 ft.\n\nImmunities Poison, Psychic; Charmed, Deafened,\n\nExhaustion, Frightened, Paralyzed, Petrified, Poisoned\n\nSenses Blindsight 60 ft.; Passive Perception 6\nLanguages None\nCR 2 (XP 450; PB +2)\n\nActions\n\nSmother. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, the rug can give it the Grappled condition (escape DC 13) instead of dealing damage. Until the grapple ends, the target has the Blinded and Restrained conditions, is suffocating, and takes 10 (2d6 + 3) Bludgeoning damage at the start of each of its turns. The rug can smother only one creature at a time.\n\nWhile grappling the target, the rug can't take this action, the rug halves the damage it takes (round down), and the target takes the same amount of damage.",
+  "rulesText": "Large Construct, Unaligned\n\nAC 12\nInitiative +4 (14)\nHP 27 (5d10)\nSpeed 10 ft.\n\nImmunities Poison, Psychic; Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned\nSenses Blindsight 60 ft.; Passive Perception 6\nLanguages None\nCR 2 (XP 450; PB +2)\n\nActions\n\nSmother. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, the rug can give it the Grappled condition (escape DC 13) instead of dealing damage. Until the grapple ends, the target has the Blinded and Restrained conditions, is suffocating, and takes 10 (2d6 + 3) Bludgeoning damage at the start of each of its turns. The rug can smother only one creature at a time.\n\nWhile grappling the target, the rug can't take this action, the rug halves the damage it takes (round down), and the target takes the same amount of damage.",
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/deafened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/exhaustion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/paralyzed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/petrified"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 10
+    }
+  ],
+  "passivePerception": 6,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 60
+    }
+  ],
+  "damageImmunities": [
+    "Poison",
+    "Psychic"
   ],
   "attacks": [
     {

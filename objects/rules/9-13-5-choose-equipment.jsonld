@@ -11,8 +11,11 @@
     "chapter": "Gameplay Toolbox",
     "section": "9.13",
     "heading": "5: Choose Equipment",
-    "lineStart": 13876,
-    "lineEnd": 13878
+    "lineStart": 13840,
+    "lineEnd": 13842
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/9-13-5-choose-equipment/"
   },
   "section": "9.13",
   "rulesText": "Assemble a package of equipment worth 50 GP (including unspent gold). Don't include Martial weapons or armor, as characters get them from their class choices."

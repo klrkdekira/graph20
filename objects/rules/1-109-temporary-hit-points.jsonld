@@ -11,8 +11,11 @@
     "chapter": "Playing the Game",
     "section": "1.109",
     "heading": "Temporary Hit Points",
-    "lineStart": 839,
-    "lineEnd": 841
+    "lineStart": 837,
+    "lineEnd": 839
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-109-temporary-hit-points/"
   },
   "section": "1.109",
   "rulesText": "Some spells and other effects confer Temporary Hit Points, which are a buffer against losing actual Hit Points, as explained below."

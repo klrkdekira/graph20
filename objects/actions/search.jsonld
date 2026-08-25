@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/actions/search",
+  "@type": "Action",
+  "name": "Search",
+  "slug": "search",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.127",
+    "heading": "Search [Action]",
+    "lineStart": 13496,
+    "lineEnd": 13507
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/actions/search/"
+  },
+  "rulesText": "When you take the Search action, you make a Wisdom check to discern something that isn't obvious. The Search table suggests which skills are applicable when you take this action, depending on what you're trying to detect.\n\nSearch\n\n| Skill      | Thing to Detect                      |\n| :--------- | :----------------------------------- |\n| Insight    | Creature’s state of mind             |\n| Medicine   | Creature’s ailment or cause of death |\n| Perception | Concealed creature or object         |\n| Survival   | Tracks or food                       |"
+}

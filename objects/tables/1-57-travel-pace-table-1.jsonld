@@ -12,7 +12,11 @@
     "section": "1.57",
     "heading": "Travel Pace",
     "lineStart": 498,
-    "lineEnd": 502
+    "lineEnd": 502,
+    "caption": "Travel Pace Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/1-57-travel-pace-table-1/"
   },
   "columns": [
     "Pace",

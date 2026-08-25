@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.22",
     "heading": "Elephant",
-    "lineStart": 27180,
-    "lineEnd": 27206
+    "lineStart": 27094,
+    "lineEnd": 27120
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/elephant/"
   },
   "sizeTypeAlignment": "Huge Beast, Unaligned",
   "sizeAndType": "Huge Beast",
+  "size": "Huge",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "12",
   "initiative": "-1 (9)",
@@ -75,8 +81,8 @@
         "chapter": "Animals",
         "section": "13.22",
         "heading": "Actions",
-        "lineStart": 27198,
-        "lineEnd": 27202
+        "lineStart": 27112,
+        "lineEnd": 27116
       }
     },
     {
@@ -86,12 +92,19 @@
         "chapter": "Animals",
         "section": "13.22",
         "heading": "Bonus Actions",
-        "lineStart": 27204,
-        "lineEnd": 27206
+        "lineStart": 27118,
+        "lineEnd": 27120
       }
     }
   ],
   "rulesText": "Huge Beast, Unaligned\n\nAC 12\nInitiative -1 (9)\nHP 76 (8d12 + 24)\nSpeed 40 ft.\n\nSenses Passive Perception 10\nLanguages None\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The elephant makes two Gore attacks.\n\nGore. Melee Attack Roll: +8, reach 5 ft. Hit: 15 (2d8 + 6) Piercing damage. If the target is a Huge or smaller creature and the elephant moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.\n\nBonus Actions\n\nTrample. Dexterity Saving Throw: DC 16, one creature within 5 feet that has the Prone condition. Failure: 17 (2d10 + 6) Bludgeoning damage. Success: Half damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "passivePerception": 10,
   "attacks": [
     {
       "name": "Gore",

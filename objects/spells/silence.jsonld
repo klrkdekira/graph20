@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.312",
     "heading": "Silence",
-    "lineStart": 11653,
-    "lineEnd": 11662
+    "lineStart": 11624,
+    "lineEnd": 11633
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/silence/"
   },
   "level": 2,
   "school": "Illusion",
@@ -40,6 +43,40 @@
   "scalesWithSlotLevel": false,
   "concentration": true,
   "ritual": true,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "For the duration, no sound can be created within or pass through a 20-foot-radius Sphere centered on a point you choose within range.",
+      "radiusFeet": 20
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+    }
+  ],
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/deafened"

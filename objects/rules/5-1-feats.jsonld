@@ -11,8 +11,13 @@
     "chapter": "Feats",
     "section": "5.1",
     "heading": "Feats",
-    "lineStart": 5681,
-    "lineEnd": 5681
+    "lineStart": 5657,
+    "lineEnd": 5657
   },
-  "section": "5.1"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/5-1-feats/"
+  },
+  "section": "5.1",
+  "rulesText": "Feats",
+  "headingOnly": true
 }

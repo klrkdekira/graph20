@@ -1,0 +1,31 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/actions/magic",
+  "@type": "Action",
+  "name": "Magic",
+  "slug": "magic",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.101",
+    "heading": "Magic [Action]",
+    "lineStart": 13336,
+    "lineEnd": 13340
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/actions/magic/"
+  },
+  "rulesText": "When you take the Magic action, you cast a spell that has a casting time of an action or use a feature or magic item that requires a Magic action to be activated.\n\nIf you cast a spell that has a casting time of 1 minute or longer, you must take the Magic action on each turn of that casting, and you must maintain Concentration while you do so. If your Concentration is broken, the spell fails, but you don't expend a spell slot. See also “Concentration.”",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-34-concentration"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-34-concentration"
+    }
+  ]
+}

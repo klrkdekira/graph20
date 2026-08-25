@@ -11,11 +11,14 @@
     "chapter": "Spells",
     "section": "7.3",
     "heading": "Preparing Spells",
-    "lineStart": 7089,
-    "lineEnd": 7106
+    "lineStart": 7062,
+    "lineEnd": 7079
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/7-3-preparing-spells/"
   },
   "section": "7.3",
-  "rulesText": "If you have a list of level 1+ spells you prepare, your spellcasting feature specifies when you can change the list and the number of spells you can change, as summarized in the Spell Preparation by Class table.\n\nSpell Preparation by Class\n\nMost spellcasting monsters don't change their lists of prepared spells, but the GM is free to alter them.",
+  "rulesText": "If you have a list of level 1+ spells you prepare, your spellcasting feature specifies when you can change the list and the number of spells you can change, as summarized in the Spell Preparation by Class table.\n\nMost spellcasting monsters don't change their lists of prepared spells, but the GM is free to alter them.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/7-3-spell-preparation-by-class"

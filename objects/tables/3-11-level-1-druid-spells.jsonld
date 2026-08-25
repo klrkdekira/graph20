@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.11",
     "heading": "Druid Spell List",
-    "lineStart": 2578,
-    "lineEnd": 2597
+    "lineStart": 2568,
+    "lineEnd": 2587,
+    "caption": "Level 1 Druid Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-11-level-1-druid-spells/"
   },
   "columns": [
     "Spell",

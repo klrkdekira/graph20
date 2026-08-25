@@ -11,10 +11,19 @@
     "chapter": "Rules Glossary",
     "section": "8.54",
     "heading": "Deafened [Condition]",
-    "lineStart": 13040,
-    "lineEnd": 13044
+    "lineStart": 13004,
+    "lineEnd": 13008
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/conditions/deafened/"
   },
   "rulesText": "While you have the Deafened condition, you experience the following effect.\n\nCan't Hear. You can't hear and automatically fail any ability check that requires hearing.",
+  "effects": [
+    {
+      "name": "Can't Hear",
+      "rulesText": "You can't hear and automatically fail any ability check that requires hearing."
+    }
+  ],
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/deafened"

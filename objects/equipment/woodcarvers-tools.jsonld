@@ -1,0 +1,39 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/woodcarvers-tools",
+  "@type": "Equipment",
+  "name": "Woodcarver's Tools",
+  "slug": "woodcarvers-tools",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.51",
+    "heading": "Woodcarver's Tools (1 GP)",
+    "lineStart": 6220,
+    "lineEnd": 6228
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/woodcarvers-tools/"
+  },
+  "equipmentType": "tool",
+  "fromRule": {
+    "@id": "https://cheeleong.dev/graph20/objects/rules/6-51-woodcarvers-tools-1-gp"
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-51-woodcarvers-tools-1-gp"
+    }
+  ],
+  "cost": {
+    "text": "1 GP",
+    "currency": "GP",
+    "amount": 1
+  },
+  "ability": "Dexterity",
+  "weight": "5 lb.",
+  "weightPounds": 5,
+  "utilize": "Carve a pattern in wood (DC 10)",
+  "craft": "Club, Greatclub, Quarterstaff, Ranged weapons (except Pistol, Musket, and Sling), Arcane Focus, Arrows, Bolts, Druidic Focus, Ink Pen, Needles"
+}

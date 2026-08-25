@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.202",
     "heading": "Holy Aura",
-    "lineStart": 10010,
-    "lineEnd": 10019
+    "lineStart": 9981,
+    "lineEnd": 9990
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/holy-aura/"
   },
   "level": 8,
   "school": "Abjuration",
@@ -30,9 +33,55 @@
     }
   ],
   "savingThrowAbility": "Constitution",
+  "savingThrows": [
+    {
+      "ability": "Constitution",
+      "sourceText": "For the duration, you emit an aura in a 30-foot Emanation. While in the aura, creatures of your choice have Advantage on all saving throws, and other creatures have Disadvantage on attack rolls against them. In addition, when a Fiend or an Undead hits an affected creature with a melee attack roll, the attacker must succeed on a Constitution saving throw or have the Blinded condition until the end of its next turn."
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": true,
   "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a reliquary worth 1,000+ GP)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a reliquary worth 1,000+ GP",
+    "consumed": false,
+    "materialCost": {
+      "text": "1,000 GP",
+      "currency": "GP",
+      "amount": 1000
+    }
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Emanation",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+      },
+      "sourceText": "For the duration, you emit an aura in a 30-foot Emanation.",
+      "sizeFeet": 30
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+    }
+  ],
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/blinded"

@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.191",
     "heading": "Priest",
-    "lineStart": 23915,
-    "lineEnd": 23952
+    "lineStart": 23835,
+    "lineEnd": 23872
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/priest/"
   },
   "sizeTypeAlignment": "Medium or Small Humanoid (Cleric), Neutral",
   "sizeAndType": "Medium or Small Humanoid (Cleric)",
+  "size": "Medium or Small",
+  "creatureType": "Humanoid",
+  "descriptiveTags": [
+    "Cleric"
+  ],
+  "monsterCategory": "NPC",
   "alignment": "Neutral",
   "armorClass": "13",
   "initiative": "+0 (10)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.191",
         "heading": "Actions",
-        "lineStart": 23935,
-        "lineEnd": 23948
+        "lineStart": 23855,
+        "lineEnd": 23868
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.191",
         "heading": "Bonus Actions",
-        "lineStart": 23950,
-        "lineEnd": 23952
+        "lineStart": 23870,
+        "lineEnd": 23872
       }
     }
   ],
@@ -103,6 +112,84 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/mace"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Medicine",
+      "bonus": 7
+    },
+    {
+      "name": "Perception",
+      "bonus": 5
+    },
+    {
+      "name": "Religion",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 15,
+  "languageList": [
+    "Common plus one other language"
+  ],
+  "gearItems": [
+    {
+      "name": "Chain Shirt"
+    },
+    {
+      "name": "Holy Symbol"
+    },
+    {
+      "name": "Mace"
+    }
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The priest casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 13):\n\nAt Will: Light, Thaumaturgy\n\n1/Day: Spirit Guardians",
+      "path": "statSections[0].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Light, Thaumaturgy",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/light"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/thaumaturgy"
+            }
+          ]
+        },
+        {
+          "frequency": "1/Day",
+          "spellsText": "Spirit Guardians",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/spirit-guardians"
+            }
+          ]
+        }
+      ],
+      "ability": "Wisdom",
+      "saveDC": 13
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/light"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/thaumaturgy"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/spirit-guardians"
     }
   ],
   "attacks": [

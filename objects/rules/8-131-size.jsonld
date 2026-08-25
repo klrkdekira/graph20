@@ -11,9 +11,28 @@
     "chapter": "Rules Glossary",
     "section": "8.131",
     "heading": "Size",
-    "lineStart": 13571,
-    "lineEnd": 13573
+    "lineStart": 13535,
+    "lineEnd": 13537
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-131-size/"
   },
   "section": "8.131",
-  "rulesText": "A creature or an object belongs to a size category: Tiny, Small, Medium, Large, Huge, or Gargantuan. A creature's size determines how much space the creature occupies in combat. An object's size affects its Hit Points. See also \"Breaking Objects\" and \"Playing the Game\" (\"Combat\")."
+  "rulesText": "A creature or an object belongs to a size category: Tiny, Small, Medium, Large, Huge, or Gargantuan. A creature's size determines how much space the creature occupies in combat. An object's size affects its Hit Points. See also \"Breaking Objects\" and \"Playing the Game\" (\"Combat\").",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-59-combat"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-59-combat"
+    }
+  ]
 }

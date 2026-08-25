@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.335",
     "heading": "Sunbeam",
-    "lineStart": 11997,
-    "lineEnd": 12010
+    "lineStart": 11968,
+    "lineEnd": 11981
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/sunbeam/"
   },
   "level": 6,
   "school": "Evocation",
@@ -42,6 +45,16 @@
     }
   ],
   "savingThrowAbility": "Constitution",
+  "savingThrows": [
+    {
+      "ability": "Constitution",
+      "sourceText": "You launch a sunbeam in a 5-foot-wide, 60-foot-long Line. Each creature in the Line makes a Constitution saving throw. On a failed save, a creature takes 6d8 Radiant damage and has the Blinded condition until the start of your next turn. On a successful save, it takes half as much damage only.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Radiant",
@@ -55,6 +68,49 @@
   "scalesWithSlotLevel": false,
   "concentration": true,
   "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a magnifying glass)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a magnifying glass",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Line",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/line"
+      },
+      "sourceText": "You launch a sunbeam in a 5-foot-wide, 60-foot-long Line.",
+      "lengthFeet": 60,
+      "widthFeet": 5
+    },
+    {
+      "shape": "Line",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/line"
+      },
+      "sourceText": "Until the spell ends, you can take a Magic action to create a new Line of radiance."
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/line"
+    }
+  ],
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/blinded"

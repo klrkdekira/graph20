@@ -1,0 +1,40 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/elephant",
+  "@type": "Equipment",
+  "name": "Elephant",
+  "slug": "elephant",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.146",
+    "heading": "Saddles",
+    "lineStart": 6799,
+    "lineEnd": 6808,
+    "caption": "Mounts and Other Animals"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/elephant/"
+  },
+  "equipmentType": "mount",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-146-mounts-and-other-animals"
+  },
+  "attributes": [
+    {
+      "name": "Carrying Capacity",
+      "value": "1,320 lb."
+    },
+    {
+      "name": "Cost",
+      "value": "200 GP"
+    }
+  ],
+  "cost": {
+    "text": "200 GP",
+    "currency": "GP",
+    "amount": 200
+  }
+}

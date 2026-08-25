@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.105",
     "heading": "Darkness",
-    "lineStart": 8474,
-    "lineEnd": 8487
+    "lineStart": 8445,
+    "lineEnd": 8458
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/darkness/"
   },
   "level": 2,
   "school": "Evocation",
@@ -39,5 +42,52 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, M (bat fur and a piece of coal)",
+    "verbal": true,
+    "somatic": false,
+    "material": true,
+    "materialText": "bat fur and a piece of coal",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "For the duration, magical Darkness spreads from a point within range and fills a 15-foot-radius Sphere.",
+      "radiusFeet": 15
+    },
+    {
+      "shape": "Emanation",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+      },
+      "sourceText": "Alternatively, you cast the spell on an object that isn't being worn or carried, causing the Darkness to fill a 15-foot Emanation originating from that object.",
+      "sizeFeet": 15
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+    }
+  ]
 }

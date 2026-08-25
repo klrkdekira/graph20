@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.221",
     "heading": "Warhorse Skeleton",
-    "lineStart": 24885,
-    "lineEnd": 24907
+    "lineStart": 24805,
+    "lineEnd": 24827
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/warhorse-skeleton/"
   },
   "sizeTypeAlignment": "Large Undead, Lawful Evil",
   "sizeAndType": "Large Undead",
+  "size": "Large",
+  "creatureType": "Undead",
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "13",
   "initiative": "+1 (11)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.221",
         "heading": "Actions",
-        "lineStart": 24905,
-        "lineEnd": 24907
+        "lineStart": 24825,
+        "lineEnd": 24827
       }
     }
   ],
@@ -90,6 +96,25 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 60
+    }
+  ],
+  "passivePerception": 9,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "damageImmunities": [
+    "Poison"
+  ],
+  "damageVulnerabilities": [
+    "Bludgeoning"
   ],
   "attacks": [
     {

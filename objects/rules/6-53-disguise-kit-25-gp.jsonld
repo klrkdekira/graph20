@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.53",
     "heading": "Disguise Kit (25 GP)",
-    "lineStart": 6256,
-    "lineEnd": 6264
+    "lineStart": 6232,
+    "lineEnd": 6240
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-53-disguise-kit-25-gp/"
   },
   "section": "6.53",
   "rulesText": "Ability: Charisma\n\nWeight: 3 lb.\n\nUtilize: Apply makeup (DC 10)\n\nCraft: Costume"

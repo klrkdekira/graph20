@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.96",
     "heading": "Wolf",
-    "lineStart": 29166,
-    "lineEnd": 29191
+    "lineStart": 29077,
+    "lineEnd": 29102
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/wolf/"
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
+  "size": "Medium",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "12",
   "initiative": "+2 (12)",
@@ -76,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.96",
         "heading": "Traits",
-        "lineStart": 29185,
-        "lineEnd": 29187
+        "lineStart": 29096,
+        "lineEnd": 29098
       }
     },
     {
@@ -87,12 +93,35 @@
         "chapter": "Animals",
         "section": "13.96",
         "heading": "Actions",
-        "lineStart": 29189,
-        "lineEnd": 29191
+        "lineStart": 29100,
+        "lineEnd": 29102
       }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 11 (2d8 + 2)\nSpeed 40 ft.\n\nSkills Perception +5, Stealth +4\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nPack Tactics. The wolf has Advantage on attack rolls against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 5
+    },
+    {
+      "name": "Stealth",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 15,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Bite",

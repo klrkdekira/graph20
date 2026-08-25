@@ -10,9 +10,13 @@
   "sourceLocator": {
     "chapter": "Equipment",
     "section": "6.31",
-    "heading": "Armor",
-    "lineStart": 6070,
-    "lineEnd": 6088
+    "heading": "One at a Time",
+    "lineStart": 6046,
+    "lineEnd": 6064,
+    "caption": "Armor"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/splint-armor/"
   },
   "equipmentType": "armor",
   "fromTable": {
@@ -24,6 +28,7 @@
   "strengthRequirement": "Str 15",
   "stealthEffect": "Disadvantage",
   "weight": "60 lb.",
+  "weightPounds": 60,
   "cost": {
     "text": "200 GP",
     "currency": "GP",

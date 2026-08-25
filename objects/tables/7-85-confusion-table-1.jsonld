@@ -11,8 +11,12 @@
     "chapter": "Spells",
     "section": "7.85",
     "heading": "Confusion",
-    "lineStart": 8135,
-    "lineEnd": 8139
+    "lineStart": 8106,
+    "lineEnd": 8110,
+    "caption": "Confusion Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/7-85-confusion-table-1/"
   },
   "columns": [
     "1d10",

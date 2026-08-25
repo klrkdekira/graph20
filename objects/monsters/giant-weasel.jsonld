@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.52",
     "heading": "Giant Weasel",
-    "lineStart": 27996,
-    "lineEnd": 28017
+    "lineStart": 27910,
+    "lineEnd": 27931
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/giant-weasel/"
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
+  "size": "Medium",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "13",
   "initiative": "+3 (13)",
@@ -75,12 +81,43 @@
         "chapter": "Animals",
         "section": "13.52",
         "heading": "Actions",
-        "lineStart": 28015,
-        "lineEnd": 28017
+        "lineStart": 27929,
+        "lineEnd": 27931
       }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 9 (2d8)\nSpeed 40 ft., Climb 30 ft.\n\nSkills Acrobatics +5, Perception +3, Stealth +5\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages None\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Climb",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Acrobatics",
+      "bonus": 5
+    },
+    {
+      "name": "Perception",
+      "bonus": 3
+    },
+    {
+      "name": "Stealth",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 13,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Bite",

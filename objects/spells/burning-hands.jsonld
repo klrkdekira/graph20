@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.66",
     "heading": "Burning Hands",
-    "lineStart": 7836,
-    "lineEnd": 7849
+    "lineStart": 7807,
+    "lineEnd": 7820
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/burning-hands/"
   },
   "level": 1,
   "school": "Evocation",
@@ -34,6 +37,16 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "A thin sheet of flames shoots forth from you. Each creature in a 15-foot Cone makes a Dexterity saving throw, taking 3d6 Fire damage on a failed save or half as much damage on a successful one.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Fire",
@@ -46,5 +59,42 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cone",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cone"
+      },
+      "sourceText": "Each creature in a 15-foot Cone makes a Dexterity saving throw, taking 3d6 Fire damage on a failed save or half as much damage on a successful one.",
+      "sizeFeet": 15
+    },
+    {
+      "shape": "Cone",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cone"
+      },
+      "sourceText": "Flammable objects in the Cone that aren't being worn or carried start burning."
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cone"
+    }
+  ]
 }

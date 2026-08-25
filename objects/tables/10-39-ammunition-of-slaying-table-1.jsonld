@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.39",
     "heading": "Ammunition of Slaying",
-    "lineStart": 14818,
-    "lineEnd": 14826
+    "lineStart": 14780,
+    "lineEnd": 14788,
+    "caption": "Ammunition of Slaying Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-39-ammunition-of-slaying-table-1/"
   },
   "columns": [
     "1d100",

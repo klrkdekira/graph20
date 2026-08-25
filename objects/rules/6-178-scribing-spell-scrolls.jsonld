@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.178",
     "heading": "Scribing Spell Scrolls",
-    "lineStart": 7050,
-    "lineEnd": 7052
+    "lineStart": 7023,
+    "lineEnd": 7025
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-178-scribing-spell-scrolls/"
   },
   "section": "6.178",
   "rulesText": "A spellcaster can transfer a spell to a scroll and create a Spell Scroll, using the rules below."

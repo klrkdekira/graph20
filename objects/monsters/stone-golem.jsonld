@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.234",
     "heading": "Stone Golem",
-    "lineStart": 25324,
-    "lineEnd": 25361
+    "lineStart": 25244,
+    "lineEnd": 25281
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/stone-golem/"
   },
   "sizeTypeAlignment": "Large Construct, Unaligned",
   "sizeAndType": "Large Construct",
+  "size": "Large",
+  "creatureType": "Construct",
+  "monsterCategory": "Monster",
   "alignment": "Unaligned",
   "armorClass": "18",
   "initiative": "+3 (13)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.234",
         "heading": "Traits",
-        "lineStart": 25345,
-        "lineEnd": 25349
+        "lineStart": 25265,
+        "lineEnd": 25269
       }
     },
     {
@@ -87,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.234",
         "heading": "Actions",
-        "lineStart": 25351,
-        "lineEnd": 25357
+        "lineStart": 25271,
+        "lineEnd": 25277
       }
     },
     {
@@ -98,8 +104,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.234",
         "heading": "Bonus Actions",
-        "lineStart": 25359,
-        "lineEnd": 25361
+        "lineStart": 25279,
+        "lineEnd": 25281
       }
     }
   ],
@@ -123,6 +129,26 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Understands Common plus two other languages but can't speak"
+  ],
+  "damageImmunities": [
+    "Poison",
+    "Psychic"
   ],
   "attacks": [
     {

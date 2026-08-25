@@ -11,11 +11,20 @@
     "chapter": "Animals",
     "section": "13.5",
     "heading": "Archelon",
-    "lineStart": 26746,
-    "lineEnd": 26773
+    "lineStart": 26660,
+    "lineEnd": 26687
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/archelon/"
   },
   "sizeTypeAlignment": "Huge Beast (Dinosaur), Unaligned",
   "sizeAndType": "Huge Beast (Dinosaur)",
+  "size": "Huge",
+  "creatureType": "Beast",
+  "descriptiveTags": [
+    "Dinosaur"
+  ],
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "17",
   "initiative": "+3 (13)",
@@ -76,8 +85,8 @@
         "chapter": "Animals",
         "section": "13.5",
         "heading": "Traits",
-        "lineStart": 26765,
-        "lineEnd": 26767
+        "lineStart": 26679,
+        "lineEnd": 26681
       }
     },
     {
@@ -87,12 +96,29 @@
         "chapter": "Animals",
         "section": "13.5",
         "heading": "Actions",
-        "lineStart": 26769,
-        "lineEnd": 26773
+        "lineStart": 26683,
+        "lineEnd": 26687
       }
     }
   ],
   "rulesText": "Huge Beast (Dinosaur), Unaligned\n\nAC 17\nInitiative +3 (13)\nHP 90 (12d12 + 12)\nSpeed 20 ft., Swim 80 ft.\n\nSkills Stealth +5\nSenses Passive Perception 12\nLanguages None\nCR 4 (XP 1,100; PB +2)\n\nTraits\n\nAmphibious. The archelon can breathe air and water.\n\nActions\n\nMultiattack. The archelon makes two Bite attacks.\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 14 (3d6 + 4) Piercing damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 20
+    },
+    {
+      "mode": "Swim",
+      "feet": 80
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Stealth",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 12,
   "attacks": [
     {
       "name": "Bite",

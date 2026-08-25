@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.14",
     "heading": "One Spell with a Spell Slot per Turn",
-    "lineStart": 7175,
-    "lineEnd": 7177
+    "lineStart": 7148,
+    "lineEnd": 7150
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/7-14-one-spell-with-a-spell-slot-per-turn/"
   },
   "section": "7.14",
   "rulesText": "On a turn, you can expend only one spell slot to cast a spell. This rule means you can't, for example, cast a spell with a spell slot using the Magic action and another one using a Bonus Action on the same turn."

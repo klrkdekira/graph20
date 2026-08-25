@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.289",
     "heading": "Resilient Sphere",
-    "lineStart": 11320,
-    "lineEnd": 11335
+    "lineStart": 11291,
+    "lineEnd": 11306
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/resilient-sphere/"
   },
   "level": 4,
   "school": "Abjuration",
@@ -30,7 +33,34 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "A shimmering sphere encloses a Large or smaller creature or object within range. An unwilling creature must succeed on a Dexterity saving throw or be enclosed for the duration."
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a glass sphere)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a glass sphere",
+    "consumed": false
+  }
 }

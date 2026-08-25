@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.279",
     "heading": "Protection from Evil and Good",
-    "lineStart": 11188,
-    "lineEnd": 11197
+    "lineStart": 11159,
+    "lineEnd": 11168
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/protection-from-evil-and-good/"
   },
   "level": 1,
   "school": "Abjuration",
@@ -47,5 +50,27 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Concentration up to 10 minutes",
+    "concentration": true,
+    "kind": "Special"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a flask of Holy Water worth 25+ GP, which the spell consumes)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a flask of Holy Water worth 25+ GP, which the spell consumes",
+    "consumed": true,
+    "materialCost": {
+      "text": "25 GP",
+      "currency": "GP",
+      "amount": 25
+    }
+  }
 }

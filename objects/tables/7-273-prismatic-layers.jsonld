@@ -11,8 +11,12 @@
     "chapter": "Spells",
     "section": "7.273",
     "heading": "Prismatic Layers",
-    "lineStart": 11092,
-    "lineEnd": 11100
+    "lineStart": 11063,
+    "lineEnd": 11071,
+    "caption": "Prismatic Layers"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/7-273-prismatic-layers/"
   },
   "columns": [
     "Order",

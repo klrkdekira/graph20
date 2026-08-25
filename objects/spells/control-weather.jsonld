@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.97",
     "heading": "Control Weather",
-    "lineStart": 8328,
-    "lineEnd": 8363
+    "lineStart": 8299,
+    "lineEnd": 8334
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/control-weather/"
   },
   "level": 8,
   "school": "Transmutation",
@@ -25,13 +28,13 @@
   "range": "Self",
   "components": "V, S, M (burning incense)",
   "duration": "Concentration, up to 8 hours",
-  "rulesText": "Level 8 Transmutation (Cleric, Druid, Wizard)\n\nCasting Time: 10 minutes\nRange: Self\nComponents: V, S, M (burning incense)\nDuration: Concentration, up to 8 hours\n\nYou take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell, and it ends early if you go indoors.\n\nWhen you cast the spell, you change the current weather conditions, which are determined by the GM. You can change precipitation, temperature, and wind. It takes 1d4 × 10 minutes for the new\n\nconditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.\n\nWhen you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction.\n\nPrecipitation",
+  "rulesText": "Level 8 Transmutation (Cleric, Druid, Wizard)\n\nCasting Time: 10 minutes\nRange: Self\nComponents: V, S, M (burning incense)\nDuration: Concentration, up to 8 hours\n\nYou take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell, and it ends early if you go indoors.\n\nWhen you cast the spell, you change the current weather conditions, which are determined by the GM. You can change precipitation, temperature, and wind. It takes 1d4 × 10 minutes for the new\n\nconditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.\n\nWhen you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/7-97-precipitation"
     },
     {
-      "@id": "https://cheeleong.dev/graph20/objects/tables/7-97-precipitation-2"
+      "@id": "https://cheeleong.dev/graph20/objects/tables/7-97-control-weather-table-2"
     }
   ],
   "classes": [
@@ -47,5 +50,25 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 8 hours",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 8,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (burning incense)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "burning incense",
+    "consumed": false
+  }
 }

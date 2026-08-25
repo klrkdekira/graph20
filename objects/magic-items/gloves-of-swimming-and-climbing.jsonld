@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.126",
     "heading": "Gloves of Swimming and Climbing",
-    "lineStart": 15798,
-    "lineEnd": 15802
+    "lineStart": 15760,
+    "lineEnd": 15764
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/gloves-of-swimming-and-climbing/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile wearing these gloves, you have a Climb Speed and a Swim Speed equal to your Speed, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim."
+  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile wearing these gloves, you have a Climb Speed and a Swim Speed equal to your Speed, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.",
+  "isCursed": false,
+  "isSentient": false
 }

@@ -11,11 +11,14 @@
     "chapter": "Monsters",
     "section": "11.25",
     "heading": "Proficiency Bonus",
-    "lineStart": 17909,
-    "lineEnd": 17920
+    "lineStart": 17847,
+    "lineEnd": 17858
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/11-25-proficiency-bonus/"
   },
   "section": "11.25",
-  "rulesText": "A monster's Proficiency Bonus (PB) is determined by its CR, as shown in the Proficiency Bonus by Challenge Rating table, and is reflected in saving throws, skills, and other statistics where the monster's exceptional aptitude is a factor.\n\nProficiency Bonus by Challenge Rating",
+  "rulesText": "A monster's Proficiency Bonus (PB) is determined by its CR, as shown in the Proficiency Bonus by Challenge Rating table, and is reflected in saving throws, skills, and other statistics where the monster's exceptional aptitude is a factor.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/11-25-proficiency-bonus-by-challenge-rating"

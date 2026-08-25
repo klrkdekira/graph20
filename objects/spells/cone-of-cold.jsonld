@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.84",
     "heading": "Cone of Cold",
-    "lineStart": 8109,
-    "lineEnd": 8122
+    "lineStart": 8080,
+    "lineEnd": 8093
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/cone-of-cold/"
   },
   "level": 5,
   "school": "Evocation",
@@ -38,6 +41,16 @@
     }
   ],
   "savingThrowAbility": "Constitution",
+  "savingThrows": [
+    {
+      "ability": "Constitution",
+      "sourceText": "Constitution saving throw, taking 8d8 Cold damage on a failed save or half as much damage on a successful one. A creature killed by this spell becomes a frozen statue until it thaws.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Cold",
@@ -50,5 +63,37 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a small crystal or glass cone)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a small crystal or glass cone",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cone",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cone"
+      },
+      "sourceText": "Each creature in a 60-foot Cone originating from you makes a",
+      "sizeFeet": 60
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cone"
+    }
+  ]
 }

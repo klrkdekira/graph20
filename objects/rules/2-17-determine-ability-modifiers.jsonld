@@ -11,11 +11,14 @@
     "chapter": "Character Creation",
     "section": "2.17",
     "heading": "Determine Ability Modifiers",
-    "lineStart": 1058,
-    "lineEnd": 1070
+    "lineStart": 1053,
+    "lineEnd": 1065
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/2-17-determine-ability-modifiers/"
   },
   "section": "2.17",
-  "rulesText": "Finally, determine your ability modifiers using the Ability Scores and Modifiers table. Write the modifier next to each of your scores.\n\nAbility Scores and Modifiers",
+  "rulesText": "Finally, determine your ability modifiers using the Ability Scores and Modifiers table. Write the modifier next to each of your scores.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/2-17-ability-scores-and-modifiers"

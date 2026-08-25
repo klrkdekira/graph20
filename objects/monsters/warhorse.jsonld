@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.94",
     "heading": "Warhorse",
-    "lineStart": 29121,
-    "lineEnd": 29141
+    "lineStart": 29032,
+    "lineEnd": 29052
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/warhorse/"
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
+  "size": "Large",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "11",
   "initiative": "+1 (11)",
@@ -75,12 +81,19 @@
         "chapter": "Animals",
         "section": "13.94",
         "heading": "Actions",
-        "lineStart": 29139,
-        "lineEnd": 29141
+        "lineStart": 29050,
+        "lineEnd": 29052
       }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 11\nInitiative +1 (11)\nHP 19 (3d10 + 3)\nSpeed 60 ft.\n\nSenses Passive Perception 11\nLanguages None\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nHooves. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (2d4 + 4) Bludgeoning damage. If the target is a Large or smaller creature and the horse moved 20+ feet straight toward it immediately before the hit, the target takes an extra 5 (2d4) Bludgeoning damage and has the Prone condition.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 60
+    }
+  ],
+  "passivePerception": 11,
   "attacks": [
     {
       "name": "Hooves",

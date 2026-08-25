@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.85",
     "heading": "Confusion",
-    "lineStart": 8124,
-    "lineEnd": 8145
+    "lineStart": 8095,
+    "lineEnd": 8116
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/confusion/"
   },
   "level": 4,
   "school": "Enchantment",
@@ -47,7 +50,56 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "Each creature in a 10-foot-radius Sphere centered on a point you choose within range must succeed on a Wisdom saving throw, or that target can't take Bonus Actions or Reactions and must roll 1d10 at the start of each of its turns to determine its behavior for that turn, consulting the table below."
+    }
+  ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "90 feet",
+    "kind": "Distance",
+    "distanceFeet": 90
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (three nut shells)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "three nut shells",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "Each creature in a 10-foot-radius Sphere centered on a point you choose within range must succeed on a Wisdom saving throw, or that target can't take Bonus Actions or Reactions and must roll 1d10 at the start of each of its turns to determine its behavior for that turn, consulting the table below.",
+      "radiusFeet": 10
+    },
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "The Sphere's radius increases by 5 feet for each spell slot level above 4."
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+    }
+  ]
 }

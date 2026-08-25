@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.37",
     "heading": "Giant Frog",
-    "lineStart": 27573,
-    "lineEnd": 27604
+    "lineStart": 27487,
+    "lineEnd": 27518
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/giant-frog/"
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
+  "size": "Medium",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "11",
   "initiative": "+1 (11)",
@@ -75,8 +81,8 @@
         "chapter": "Animals",
         "section": "13.37",
         "heading": "Traits",
-        "lineStart": 27592,
-        "lineEnd": 27596
+        "lineStart": 27506,
+        "lineEnd": 27510
       }
     },
     {
@@ -86,12 +92,39 @@
         "chapter": "Animals",
         "section": "13.37",
         "heading": "Actions",
-        "lineStart": 27598,
-        "lineEnd": 27604
+        "lineStart": 27512,
+        "lineEnd": 27518
       }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 11\nInitiative +1 (11)\nHP 18 (4d8)\nSpeed 30 ft., Swim 30 ft.\n\nSkills Perception +2, Stealth +4\nSenses Darkvision 30 ft.; Passive Perception 12\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nAmphibious. The frog can breathe air and water.\n\nStanding Leap. The frog's Long Jump is up to 20 feet and its High Jump is up to 10 feet with or without a running start.\n\nActions\n\nBite. Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 11).\n\nSwallow. The frog swallows a Small or smaller target it is grappling. While swallowed, the target isn't Grappled but has the Blinded and Restrained conditions, and it has Total Cover against attacks and other effects outside the frog. While swallowing the target, the frog can't use Bite, and if the frog dies, the swallowed target is no longer Restrained and can escape from the corpse using 5 feet of movement, exiting with the Prone condition.\n\nAt the end of the frog's next turn, the swallowed target takes 5 (2d4) Acid damage. If that damage doesn't kill it, the frog disgorges it, causing it to exit Prone.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Swim",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 2
+    },
+    {
+      "name": "Stealth",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 12,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 30
+    }
+  ],
   "attacks": [
     {
       "name": "Bite",

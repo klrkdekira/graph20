@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.184",
     "heading": "Pirates",
-    "lineStart": 23718,
-    "lineEnd": 23718
+    "lineStart": 23638,
+    "lineEnd": 23638
   },
-  "section": "12.184"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-184-pirates/"
+  },
+  "section": "12.184",
+  "rulesText": "Pirates",
+  "headingOnly": true
 }

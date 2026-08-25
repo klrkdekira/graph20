@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.266",
     "heading": "Winter Wolf",
-    "lineStart": 26449,
-    "lineEnd": 26480
+    "lineStart": 26363,
+    "lineEnd": 26394
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/winter-wolf/"
   },
   "sizeTypeAlignment": "Large Monstrosity, Neutral Evil",
   "sizeAndType": "Large Monstrosity",
+  "size": "Large",
+  "creatureType": "Monstrosity",
+  "monsterCategory": "Monster",
   "alignment": "Neutral Evil",
   "armorClass": "13",
   "initiative": "+1 (11)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.266",
         "heading": "Traits",
-        "lineStart": 26471,
-        "lineEnd": 26473
+        "lineStart": 26385,
+        "lineEnd": 26387
       }
     },
     {
@@ -88,12 +94,36 @@
         "chapter": "Monsters A-Z",
         "section": "12.266",
         "heading": "Actions",
-        "lineStart": 26475,
-        "lineEnd": 26480
+        "lineStart": 26389,
+        "lineEnd": 26394
       }
     }
   ],
   "rulesText": "Large Monstrosity, Neutral Evil\n\nAC 13\nInitiative +1 (11)\nHP 75 (10d10 + 20)\nSpeed 50 ft.\n\nSkills Perception +5, Stealth +5\nImmunities Cold\nSenses Passive Perception 15\nLanguages Common, Giant\nCR 3 (XP 700; PB +2)\n\nTraits\n\nPack Tactics. The wolf has Advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 11 (2d6 + 4) Piercing damage. If the target is a Large or smaller creature, it has the Prone condition.\n\nCold Breath (Recharge 5–6). Constitution Saving\nThrow: DC 12, each creature in a 15-foot Cone. Failure: 18 (4d8) Cold damage. Success: Half damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 50
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 5
+    },
+    {
+      "name": "Stealth",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 15,
+  "languageList": [
+    "Common",
+    "Giant"
+  ],
+  "damageImmunities": [
+    "Cold"
+  ],
   "attacks": [
     {
       "name": "Bite",

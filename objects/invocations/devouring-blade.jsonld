@@ -1,0 +1,26 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/invocations/devouring-blade",
+  "@type": "EldritchInvocation",
+  "name": "Devouring Blade",
+  "slug": "devouring-blade",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.28",
+    "heading": "Devouring Blade",
+    "lineStart": 4540,
+    "lineEnd": 4544
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/invocations/devouring-blade/"
+  },
+  "prerequisite": "Level 12+ Warlock, Thirsting Blade Invocation",
+  "repeatable": false,
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+  },
+  "rulesText": "Prerequisite: Level 12+ Warlock, Thirsting Blade Invocation\n\nThe Extra Attack of your Thirsting Blade invocation confers two extra attacks rather than one."
+}

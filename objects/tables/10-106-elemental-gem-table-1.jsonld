@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.106",
     "heading": "Elemental Gem",
-    "lineStart": 15562,
-    "lineEnd": 15567
+    "lineStart": 15524,
+    "lineEnd": 15529,
+    "caption": "Elemental Gem Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-106-elemental-gem-table-1/"
   },
   "columns": [
     "Gem",

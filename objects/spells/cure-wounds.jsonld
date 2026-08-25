@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.103",
     "heading": "Cure Wounds",
-    "lineStart": 8448,
-    "lineEnd": 8459
+    "lineStart": 8419,
+    "lineEnd": 8430
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/cure-wounds/"
   },
   "level": 1,
   "school": "Abjuration",
@@ -47,5 +50,20 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

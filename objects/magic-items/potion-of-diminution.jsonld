@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.185",
     "heading": "Potion of Diminution",
-    "lineStart": 16490,
-    "lineEnd": 16496
+    "lineStart": 16446,
+    "lineEnd": 16452
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/potion-of-diminution/"
   },
   "itemCategory": "Potion",
   "rarity": "Rare",
   "requiresAttunement": false,
-  "rulesText": "Potion, Rare\n\nWhen you drink this potion, you gain the “reduce” effect of the Enlarge/Reduce spell for 1d4 hours (no Concentration required).\n\nThe red in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process."
+  "rulesText": "Potion, Rare\n\nWhen you drink this potion, you gain the “reduce” effect of the Enlarge/Reduce spell for 1d4 hours (no Concentration required).\n\nThe red in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process.",
+  "isCursed": false,
+  "isSentient": false
 }

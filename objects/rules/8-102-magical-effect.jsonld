@@ -11,8 +11,11 @@
     "chapter": "Rules Glossary",
     "section": "8.102",
     "heading": "Magical Effect",
-    "lineStart": 13378,
-    "lineEnd": 13380
+    "lineStart": 13342,
+    "lineEnd": 13344
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-102-magical-effect/"
   },
   "section": "8.102",
   "rulesText": "An effect is magical if it is created by a spell, a magic item, or a phenomenon that a rule labels as magical."

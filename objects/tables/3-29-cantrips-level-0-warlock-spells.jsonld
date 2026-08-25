@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.29",
     "heading": "Warlock Spell List",
-    "lineStart": 4739,
-    "lineEnd": 4747
+    "lineStart": 4726,
+    "lineEnd": 4734,
+    "caption": "Cantrips (Level 0 Warlock Spells)"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-29-cantrips-level-0-warlock-spells/"
   },
   "columns": [
     "Spell",

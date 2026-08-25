@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.153",
     "heading": "Finger of Death",
-    "lineStart": 9238,
-    "lineEnd": 9249
+    "lineStart": 9209,
+    "lineEnd": 9220
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/finger-of-death/"
   },
   "level": 7,
   "school": "Necromancy",
@@ -38,6 +41,16 @@
     }
   ],
   "savingThrowAbility": "Constitution",
+  "savingThrows": [
+    {
+      "ability": "Constitution",
+      "sourceText": "You unleash negative energy toward a creature you can see within range. The target makes a Constitution saving throw, taking 7d8 + 30 Necrotic damage on a failed save or half as much damage on a successful one.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Necrotic",
@@ -51,5 +64,21 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

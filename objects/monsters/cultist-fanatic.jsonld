@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.72",
     "heading": "Cultist Fanatic",
-    "lineStart": 20082,
-    "lineEnd": 20118
+    "lineStart": 20002,
+    "lineEnd": 20038
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/cultist-fanatic/"
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
+  "size": "Medium or Small",
+  "creatureType": "Humanoid",
+  "monsterCategory": "Monster",
   "alignment": "Neutral",
   "armorClass": "13",
   "initiative": "+2 (12)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.72",
         "heading": "Actions",
-        "lineStart": 20102,
-        "lineEnd": 20114
+        "lineStart": 20022,
+        "lineEnd": 20034
       }
     },
     {
@@ -88,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.72",
         "heading": "Bonus Actions",
-        "lineStart": 20116,
-        "lineEnd": 20118
+        "lineStart": 20036,
+        "lineEnd": 20038
       }
     }
   ],
@@ -100,6 +106,94 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/leather-armor"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Deception",
+      "bonus": 3
+    },
+    {
+      "name": "Persuasion",
+      "bonus": 3
+    },
+    {
+      "name": "Religion",
+      "bonus": 2
+    }
+  ],
+  "passivePerception": 12,
+  "languageList": [
+    "Common"
+  ],
+  "gearItems": [
+    {
+      "name": "Holy Symbol"
+    },
+    {
+      "name": "Leather Armor"
+    }
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The cultist casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 12, +4 to hit with spell attacks):\n\nAt Will: Light, Thaumaturgy\n\n2/Day: Command\n\n1/Day: Hold Person",
+      "path": "statSections[0].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Light, Thaumaturgy",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/light"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/thaumaturgy"
+            }
+          ]
+        },
+        {
+          "frequency": "2/Day",
+          "spellsText": "Command",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/command"
+            }
+          ]
+        },
+        {
+          "frequency": "1/Day",
+          "spellsText": "Hold Person",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/hold-person"
+            }
+          ]
+        }
+      ],
+      "ability": "Wisdom",
+      "saveDC": 12,
+      "attackBonus": 4
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/light"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/thaumaturgy"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/command"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/hold-person"
     }
   ],
   "attacks": [

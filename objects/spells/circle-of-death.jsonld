@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.74",
     "heading": "Circle of Death",
-    "lineStart": 7955,
-    "lineEnd": 7966
+    "lineStart": 7926,
+    "lineEnd": 7937
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/circle-of-death/"
   },
   "level": 6,
   "school": "Necromancy",
@@ -38,6 +41,16 @@
     }
   ],
   "savingThrowAbility": "Constitution",
+  "savingThrows": [
+    {
+      "ability": "Constitution",
+      "sourceText": "Negative energy ripples out in a 60-foot-radius Sphere from a point you choose within range. Each creature in that area makes a Constitution saving throw, taking 8d8 Necrotic damage on a failed save or half as much damage on a successful one.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Necrotic",
@@ -50,5 +63,43 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "150 feet",
+    "kind": "Distance",
+    "distanceFeet": 150
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (the powder of a crushed black pearl worth 500+ GP)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "the powder of a crushed black pearl worth 500+ GP",
+    "consumed": false,
+    "materialCost": {
+      "text": "500 GP",
+      "currency": "GP",
+      "amount": 500
+    }
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "Negative energy ripples out in a 60-foot-radius Sphere from a point you choose within range.",
+      "radiusFeet": 60
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+    }
+  ]
 }

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.90",
     "heading": "Conjure Minor Elementals",
-    "lineStart": 8219,
-    "lineEnd": 8232
+    "lineStart": 8190,
+    "lineEnd": 8203
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/conjure-minor-elementals/"
   },
   "level": 4,
   "school": "Conjuration",
@@ -35,5 +38,45 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Emanation",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+      },
+      "sourceText": "You conjure spirits from the Elemental Planes that flit around you in a 15-foot Emanation for the duration.",
+      "sizeFeet": 15
+    },
+    {
+      "shape": "Emanation",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+      },
+      "sourceText": "In addition, the ground in the Emanation is Difficult Terrain for your enemies."
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+    }
+  ]
 }

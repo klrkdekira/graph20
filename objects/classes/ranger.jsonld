@@ -11,8 +11,11 @@
     "chapter": "Classes",
     "section": "3.20",
     "heading": "Ranger",
-    "lineStart": 3478,
-    "lineEnd": 3742
+    "lineStart": 3468,
+    "lineEnd": 3732
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/classes/ranger/"
   },
   "coreTraits": [
     {
@@ -61,8 +64,8 @@
         "chapter": "Classes",
         "section": "3.20",
         "heading": "Level 1: Spellcasting",
-        "lineStart": 3533,
-        "lineEnd": 3549
+        "lineStart": 3523,
+        "lineEnd": 3539
       }
     },
     {
@@ -73,8 +76,8 @@
         "chapter": "Classes",
         "section": "3.20",
         "heading": "Level 1: Favored Enemy",
-        "lineStart": 3551,
-        "lineEnd": 3555
+        "lineStart": 3541,
+        "lineEnd": 3545
       }
     },
     {
@@ -85,8 +88,8 @@
         "chapter": "Classes",
         "section": "3.20",
         "heading": "Level 1: Weapon Mastery",
-        "lineStart": 3557,
-        "lineEnd": 3563
+        "lineStart": 3547,
+        "lineEnd": 3553
       }
     },
     {
@@ -97,8 +100,8 @@
         "chapter": "Classes",
         "section": "3.20",
         "heading": "Level 2: Deft Explorer",
-        "lineStart": 3565,
-        "lineEnd": 3571
+        "lineStart": 3555,
+        "lineEnd": 3561
       }
     },
     {
@@ -109,8 +112,8 @@
         "chapter": "Classes",
         "section": "3.20",
         "heading": "Level 2: Fighting Style",
-        "lineStart": 3573,
-        "lineEnd": 3577
+        "lineStart": 3563,
+        "lineEnd": 3567
       }
     },
     {
@@ -121,8 +124,8 @@
         "chapter": "Classes",
         "section": "3.20",
         "heading": "Level 3: Ranger Subclass",
-        "lineStart": 3579,
-        "lineEnd": 3581
+        "lineStart": 3569,
+        "lineEnd": 3571
       }
     },
     {
@@ -133,8 +136,8 @@
         "chapter": "Classes",
         "section": "3.20",
         "heading": "Level 4: Ability Score Improvement",
-        "lineStart": 3583,
-        "lineEnd": 3585
+        "lineStart": 3573,
+        "lineEnd": 3575
       }
     },
     {
@@ -145,8 +148,8 @@
         "chapter": "Classes",
         "section": "3.20",
         "heading": "Level 5: Extra Attack",
-        "lineStart": 3587,
-        "lineEnd": 3589
+        "lineStart": 3577,
+        "lineEnd": 3579
       }
     },
     {
@@ -157,8 +160,8 @@
         "chapter": "Classes",
         "section": "3.20",
         "heading": "Level 6: Roving",
-        "lineStart": 3591,
-        "lineEnd": 3593
+        "lineStart": 3581,
+        "lineEnd": 3583
       }
     },
     {
@@ -169,8 +172,8 @@
         "chapter": "Classes",
         "section": "3.20",
         "heading": "Level 9: Expertise",
-        "lineStart": 3595,
-        "lineEnd": 3597
+        "lineStart": 3585,
+        "lineEnd": 3587
       }
     },
     {
@@ -181,8 +184,8 @@
         "chapter": "Classes",
         "section": "3.20",
         "heading": "Level 10: Tireless",
-        "lineStart": 3599,
-        "lineEnd": 3605
+        "lineStart": 3589,
+        "lineEnd": 3595
       }
     },
     {
@@ -193,8 +196,8 @@
         "chapter": "Classes",
         "section": "3.20",
         "heading": "Level 13: Relentless Hunter",
-        "lineStart": 3607,
-        "lineEnd": 3609
+        "lineStart": 3597,
+        "lineEnd": 3599
       }
     },
     {
@@ -205,8 +208,8 @@
         "chapter": "Classes",
         "section": "3.20",
         "heading": "Level 14: Nature's Veil",
-        "lineStart": 3611,
-        "lineEnd": 3615
+        "lineStart": 3601,
+        "lineEnd": 3605
       }
     },
     {
@@ -217,8 +220,8 @@
         "chapter": "Classes",
         "section": "3.20",
         "heading": "Level 17: Precise Hunter",
-        "lineStart": 3617,
-        "lineEnd": 3619
+        "lineStart": 3607,
+        "lineEnd": 3609
       }
     },
     {
@@ -229,8 +232,8 @@
         "chapter": "Classes",
         "section": "3.20",
         "heading": "Level 18: Feral Senses",
-        "lineStart": 3621,
-        "lineEnd": 3623
+        "lineStart": 3611,
+        "lineEnd": 3613
       }
     },
     {
@@ -241,8 +244,8 @@
         "chapter": "Classes",
         "section": "3.20",
         "heading": "Level 19: Epic Boon",
-        "lineStart": 3625,
-        "lineEnd": 3627
+        "lineStart": 3615,
+        "lineEnd": 3617
       }
     },
     {
@@ -253,8 +256,8 @@
         "chapter": "Classes",
         "section": "3.20",
         "heading": "Level 20: Foe Slayer",
-        "lineStart": 3629,
-        "lineEnd": 3631
+        "lineStart": 3619,
+        "lineEnd": 3621
       }
     }
   ],
@@ -263,7 +266,7 @@
       "@id": "https://cheeleong.dev/graph20/objects/tables/3-20-ranger-features"
     }
   ],
-  "rulesText": "Core Ranger Traits\n\nBecoming a Ranger ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Ranger Traits table.\n- Gain the Ranger's level 1 features, which are listed in the Ranger Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Ranger Traits table: Hit Point Die, proficiency with Martial weapons, proficiency in one skill of your choice from the Ranger's skill list, and training with Light and Medium armor and Shields.\n- Gain the Ranger's level 1 features, which are listed in the Ranger Features table. See the multiclassing rules in “Character Creation” to determine your available spell slots.\n\nRanger Class Features\n\nAs a Ranger, you gain the following class features when you reach the specified Ranger levels. These features are listed in the Ranger Features table.\n\nRanger Features",
+  "rulesText": "Core Ranger Traits\n\nBecoming a Ranger ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Ranger Traits table.\n- Gain the Ranger's level 1 features, which are listed in the Ranger Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Ranger Traits table: Hit Point Die, proficiency with Martial weapons, proficiency in one skill of your choice from the Ranger's skill list, and training with Light and Medium armor and Shields.\n- Gain the Ranger's level 1 features, which are listed in the Ranger Features table. See the multiclassing rules in “Character Creation” to determine your available spell slots.\n\nRanger Class Features\n\nAs a Ranger, you gain the following class features when you reach the specified Ranger levels. These features are listed in the Ranger Features table.",
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/invisible"

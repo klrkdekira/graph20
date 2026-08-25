@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.190",
     "heading": "Potions of Healing",
-    "lineStart": 16546,
-    "lineEnd": 16551
+    "lineStart": 16502,
+    "lineEnd": 16507,
+    "caption": "Potions of Healing Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-190-potions-of-healing-table-1/"
   },
   "columns": [
     "Potion",

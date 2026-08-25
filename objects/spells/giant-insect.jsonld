@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.174",
     "heading": "Giant Insect",
-    "lineStart": 9557,
-    "lineEnd": 9570
+    "lineStart": 9528,
+    "lineEnd": 9541
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/giant-insect/"
   },
   "level": 4,
   "school": "Conjuration",
@@ -24,6 +27,11 @@
   "components": "V, S",
   "duration": "Concentration, up to 10 minutes",
   "rulesText": "Level 4 Conjuration (Druid)\n\nCasting Time: Action\nRange: 60 feet\nComponents: V, S\nDuration: Concentration, up to 10 minutes\n\nYou summon a giant centipede, spider, or wasp (chosen when you cast the spell). It manifests in an unoccupied space you can see within range and uses the Giant Insect stat block. The form you choose determines certain details in its stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.\n\nThe creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its movement to avoid danger.\n\nUsing a Higher-Level Spell Slot. Use the spell slot's level for the spell's level in the stat block.",
+  "summons": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/monsters/giant-insect"
+    }
+  ],
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
@@ -31,5 +39,24 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

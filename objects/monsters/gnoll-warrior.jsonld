@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.104",
     "heading": "Gnoll Warrior",
-    "lineStart": 21186,
-    "lineEnd": 21214
+    "lineStart": 21106,
+    "lineEnd": 21134
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/gnoll-warrior/"
   },
   "sizeTypeAlignment": "Medium Fiend, Chaotic Evil",
   "sizeAndType": "Medium Fiend",
+  "size": "Medium",
+  "creatureType": "Fiend",
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "15",
   "initiative": "+1 (11)",
@@ -74,8 +80,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.104",
         "heading": "Actions",
-        "lineStart": 21204,
-        "lineEnd": 21210
+        "lineStart": 21124,
+        "lineEnd": 21130
       }
     },
     {
@@ -85,12 +91,28 @@
         "chapter": "Monsters A-Z",
         "section": "12.104",
         "heading": "Bonus Actions",
-        "lineStart": 21212,
-        "lineEnd": 21214
+        "lineStart": 21132,
+        "lineEnd": 21134
       }
     }
   ],
   "rulesText": "Medium Fiend, Chaotic Evil\n\nAC 15\nInitiative +1 (11)\nHP 27 (6d8)\nSpeed 30 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Gnoll\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nRend. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage.\n\nBone Bow. Ranged Attack Roll: +3, range 150/600 ft.\n\nHit: 6 (1d10 + 1) Piercing damage.\n\nBonus Actions\n\nRampage (1/Day). Immediately after dealing damage to a creature that is already Bloodied, the gnoll moves up to half its Speed, and it makes one Rend attack.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Gnoll"
+  ],
   "attacks": [
     {
       "name": "Rend",

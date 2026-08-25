@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.20",
     "heading": "Ranger Class Features",
-    "lineStart": 3509,
-    "lineEnd": 3531
+    "lineStart": 3499,
+    "lineEnd": 3521,
+    "caption": "Ranger Features"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-20-ranger-features/"
   },
   "columns": [
     "Level",

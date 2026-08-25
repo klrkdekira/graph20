@@ -53,6 +53,12 @@
       "mediatype": "application/json"
     },
     {
+      "name": "build-metrics",
+      "path": "objects/build-metrics.json",
+      "format": "json",
+      "mediatype": "application/json"
+    },
+    {
       "name": "source",
       "path": "SRD_CC_v5.2.1.md",
       "format": "md",

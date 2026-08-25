@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.252",
     "heading": "Staff of Healing",
-    "lineStart": 17242,
-    "lineEnd": 17246
+    "lineStart": 17183,
+    "lineEnd": 17187,
+    "caption": "Staff of Healing Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-252-staff-of-healing-table-1/"
   },
   "columns": [
     "Spell",

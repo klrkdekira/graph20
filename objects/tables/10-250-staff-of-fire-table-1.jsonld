@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.250",
     "heading": "Staff of Fire",
-    "lineStart": 17214,
-    "lineEnd": 17217
+    "lineStart": 17155,
+    "lineEnd": 17158,
+    "caption": "Staff of Fire Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-250-staff-of-fire-table-1/"
   },
   "columns": [
     "Spell",

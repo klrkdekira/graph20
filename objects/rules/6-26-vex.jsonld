@@ -11,11 +11,14 @@
     "chapter": "Equipment",
     "section": "6.26",
     "heading": "Vex",
-    "lineStart": 5989,
-    "lineEnd": 6038
+    "lineStart": 5965,
+    "lineEnd": 6014
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-26-vex/"
   },
   "section": "6.26",
-  "rulesText": "If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.\n\nWeapons",
+  "rulesText": "If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/6-26-weapons"

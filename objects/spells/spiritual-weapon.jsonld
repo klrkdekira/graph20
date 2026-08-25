@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.326",
     "heading": "Spiritual Weapon",
-    "lineStart": 11853,
-    "lineEnd": 11866
+    "lineStart": 11824,
+    "lineEnd": 11837
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/spiritual-weapon/"
   },
   "level": 2,
   "school": "Evocation",
@@ -31,5 +34,24 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

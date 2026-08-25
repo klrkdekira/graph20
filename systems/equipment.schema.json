@@ -5,7 +5,7 @@
   "$ref": "common.schema.json#/$defs/EntityBase",
   "properties": {
     "@type": { "const": "Equipment" },
-    "equipmentType": { "enum": ["weapon", "armor", "gear"] },
+    "equipmentType": { "enum": ["weapon", "armor", "gear", "tool", "mount", "vehicle", "service", "focus", "ammunition"] },
     "relatedRules": {
       "type": "array",
       "minItems": 1,
@@ -14,8 +14,30 @@
       }
     },
     "fromTable": { "$ref": "common.schema.json#/$defs/NodeReference" },
+    "fromRule": { "$ref": "common.schema.json#/$defs/NodeReference" },
     "weight": { "type": "string", "minLength": 1 },
+    "weightPounds": { "type": "number", "minimum": 0 },
     "cost": { "$ref": "common.schema.json#/$defs/Cost" },
+    "attributes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "value": { "type": "string", "minLength": 1 }
+        },
+        "required": ["name", "value"],
+        "unevaluatedProperties": false
+      }
+    },
+    "ability": { "type": "string", "minLength": 1 },
+    "utilize": { "type": "string", "minLength": 1 },
+    "craft": { "type": "string", "minLength": 1 },
+    "variants": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+    "quantity": { "type": "string", "minLength": 1 },
+    "storage": { "type": "string", "minLength": 1 },
+    "serviceLevel": { "type": "string", "minLength": 1 },
     "weaponCategory": { "enum": ["Simple", "Martial"] },
     "attackType": { "enum": ["Melee", "Ranged"] },
     "damage": { "type": "string", "minLength": 1 },
@@ -33,7 +55,11 @@
     "strengthRequirement": { "type": "string", "minLength": 1 },
     "stealthEffect": { "type": "string", "minLength": 1 }
   },
-  "required": ["equipmentType", "fromTable"],
+  "required": ["equipmentType"],
+  "oneOf": [
+    { "required": ["fromTable"], "not": { "required": ["fromRule"] } },
+    { "required": ["fromRule"], "not": { "required": ["fromTable"] } }
+  ],
   "allOf": [
     {
       "if": { "properties": { "equipmentType": { "const": "weapon" } } },

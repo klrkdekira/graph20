@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.116",
     "heading": "Disguise Self",
-    "lineStart": 8639,
-    "lineEnd": 8652
+    "lineStart": 8610,
+    "lineEnd": 8623
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/disguise-self/"
   },
   "level": 1,
   "school": "Illusion",
@@ -39,5 +42,23 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "1 hour",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

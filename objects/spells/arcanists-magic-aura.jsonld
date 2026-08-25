@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.48",
     "heading": "Arcanist's Magic Aura",
-    "lineStart": 7571,
-    "lineEnd": 7584
+    "lineStart": 7544,
+    "lineEnd": 7557
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/arcanists-magic-aura/"
   },
   "level": 2,
   "school": "Illusion",
@@ -31,5 +34,25 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "24 hours",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 24,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a small square of silk)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a small square of silk",
+    "consumed": false
+  }
 }

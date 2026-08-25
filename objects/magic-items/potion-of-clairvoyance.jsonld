@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.183",
     "heading": "Potion of Clairvoyance",
-    "lineStart": 16474,
-    "lineEnd": 16480
+    "lineStart": 16430,
+    "lineEnd": 16436
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/potion-of-clairvoyance/"
   },
   "itemCategory": "Potion",
   "rarity": "Rare",
   "requiresAttunement": false,
-  "rulesText": "Potion, Rare\n\nWhen you drink this potion, you gain the effect of the Clairvoyance spell (no Concentration required).\n\nAn eyeball bobs in this potion's yellowish liquid but vanishes when the potion is opened."
+  "rulesText": "Potion, Rare\n\nWhen you drink this potion, you gain the effect of the Clairvoyance spell (no Concentration required).\n\nAn eyeball bobs in this potion's yellowish liquid but vanishes when the potion is opened.",
+  "isCursed": false,
+  "isSentient": false
 }

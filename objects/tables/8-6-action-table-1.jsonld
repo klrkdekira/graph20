@@ -11,8 +11,12 @@
     "chapter": "Rules Glossary",
     "section": "8.6",
     "heading": "Action",
-    "lineStart": 12720,
-    "lineEnd": 12723
+    "lineStart": 12687,
+    "lineEnd": 12690,
+    "caption": "Action Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/8-6-action-table-1/"
   },
   "columns": [
     "Attack",

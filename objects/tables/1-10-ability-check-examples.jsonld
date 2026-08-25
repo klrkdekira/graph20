@@ -12,7 +12,11 @@
     "section": "1.10",
     "heading": "Ability Modifier",
     "lineStart": 123,
-    "lineEnd": 130
+    "lineEnd": 130,
+    "caption": "Ability Check Examples"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/1-10-ability-check-examples/"
   },
   "columns": [
     "Ability",

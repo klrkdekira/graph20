@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.148",
     "heading": "Find Familiar",
-    "lineStart": 9130,
-    "lineEnd": 9151
+    "lineStart": 9101,
+    "lineEnd": 9122
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/find-familiar/"
   },
   "level": 1,
   "school": "Conjuration",
@@ -31,5 +34,28 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": true
+  "ritual": true,
+  "rangeDetails": {
+    "text": "10 feet",
+    "kind": "Distance",
+    "distanceFeet": 10
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (burning incense worth 10+ GP, which the spell consumes)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "burning incense worth 10+ GP, which the spell consumes",
+    "consumed": true,
+    "materialCost": {
+      "text": "10 GP",
+      "currency": "GP",
+      "amount": 10
+    }
+  }
 }

@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.63",
     "heading": "Boots of the Winterlands",
-    "lineStart": 15111,
-    "lineEnd": 15119
+    "lineStart": 15073,
+    "lineEnd": 15081
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/boots-of-the-winterlands/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nThese furred boots are snug and feel warm. While wearing them, you gain the following benefits.\n\nCold Resistance. You have Resistance to Cold damage and can tolerate temperatures of 0 degrees Fahrenheit or lower without any additional protection.\n\nWinter Strider. You ignore Difficult Terrain created by ice or snow."
+  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nThese furred boots are snug and feel warm. While wearing them, you gain the following benefits.\n\nCold Resistance. You have Resistance to Cold damage and can tolerate temperatures of 0 degrees Fahrenheit or lower without any additional protection.\n\nWinter Strider. You ignore Difficult Terrain created by ice or snow.",
+  "isCursed": false,
+  "isSentient": false
 }

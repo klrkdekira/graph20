@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-74-troubleshooting",
+  "@type": "Rule",
+  "name": "Troubleshooting",
+  "slug": "9-74-troubleshooting",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.74",
+    "heading": "Troubleshooting",
+    "lineStart": 14407,
+    "lineEnd": 14409
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/9-74-troubleshooting/"
+  },
+  "section": "9.74",
+  "rulesText": "When creating and running combat encounters, keep the following in mind."
+}

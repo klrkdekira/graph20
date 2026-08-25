@@ -1,0 +1,1128 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/2-45-trinkets",
+  "@type": "Table",
+  "name": "Trinkets",
+  "slug": "2-45-trinkets",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.45",
+    "heading": "Trinkets",
+    "lineStart": 1369,
+    "lineEnd": 1470,
+    "caption": "Trinkets"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/2-45-trinkets/"
+  },
+  "columns": [
+    "1d100",
+    "Trinket"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "01"
+        },
+        {
+          "value": "A mummified goblin hand"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "02"
+        },
+        {
+          "value": "A crystal that faintly glows in moonlight"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "03"
+        },
+        {
+          "value": "A gold coin minted in an unknown land"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "04"
+        },
+        {
+          "value": "A diary written in a language you don’t know"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "05"
+        },
+        {
+          "value": "A brass ring that never tarnishes"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "06"
+        },
+        {
+          "value": "An old chess piece made from glass"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "07"
+        },
+        {
+          "value": "A pair of knucklebone dice, each with a skull symbol on the side that would normally show six pips"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "08"
+        },
+        {
+          "value": "A small idol depicting a nightmarish creature that gives you unsettling dreams when you sleep near it"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "09"
+        },
+        {
+          "value": "A lock of someone’s hair"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "The deed for a parcel of land in a realm unknown to you"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "A l-ounce block made from an unknown material"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "12"
+        },
+        {
+          "value": "A small cloth doll skewered with needles"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "13"
+        },
+        {
+          "value": "A tooth from an unknown beast"
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "cells": [
+        {
+          "value": "14"
+        },
+        {
+          "value": "An enormous scale, perhaps from a dragon"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "cells": [
+        {
+          "value": "15"
+        },
+        {
+          "value": "A bright-green feather"
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "cells": [
+        {
+          "value": "16"
+        },
+        {
+          "value": "An old divination card bearing your likeness"
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "cells": [
+        {
+          "value": "17"
+        },
+        {
+          "value": "A glass orb filled with moving smoke"
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "cells": [
+        {
+          "value": "18"
+        },
+        {
+          "value": "A l-pound egg with a bright-red shell"
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "cells": [
+        {
+          "value": "19"
+        },
+        {
+          "value": "A pipe that blows bubbles"
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "cells": [
+        {
+          "value": "20"
+        },
+        {
+          "value": "A glass jar containing a bit of flesh floating in pickling fluid"
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "cells": [
+        {
+          "value": "21"
+        },
+        {
+          "value": "A gnome-crafted music box that plays a song you dimly remember from your childhood"
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "cells": [
+        {
+          "value": "22"
+        },
+        {
+          "value": "A wooden statuette of a smug halfling"
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "cells": [
+        {
+          "value": "23"
+        },
+        {
+          "value": "A brass orb etched with strange runes"
+        }
+      ]
+    },
+    {
+      "position": 24,
+      "cells": [
+        {
+          "value": "24"
+        },
+        {
+          "value": "A multicolored stone disk"
+        }
+      ]
+    },
+    {
+      "position": 25,
+      "cells": [
+        {
+          "value": "25"
+        },
+        {
+          "value": "A silver icon of a raven"
+        }
+      ]
+    },
+    {
+      "position": 26,
+      "cells": [
+        {
+          "value": "26"
+        },
+        {
+          "value": "A bag containing forty-seven teeth, one of which is rotten"
+        }
+      ]
+    },
+    {
+      "position": 27,
+      "cells": [
+        {
+          "value": "27"
+        },
+        {
+          "value": "A shard of obsidian that always feels warm to the touch"
+        }
+      ]
+    },
+    {
+      "position": 28,
+      "cells": [
+        {
+          "value": "28"
+        },
+        {
+          "value": "A dragon’s talon strung on a leather necklace"
+        }
+      ]
+    },
+    {
+      "position": 29,
+      "cells": [
+        {
+          "value": "29"
+        },
+        {
+          "value": "A pair of old socks"
+        }
+      ]
+    },
+    {
+      "position": 30,
+      "cells": [
+        {
+          "value": "30"
+        },
+        {
+          "value": "A blank book whose pages refuse to hold ink, chalk, graphite, or any other marking"
+        }
+      ]
+    },
+    {
+      "position": 31,
+      "cells": [
+        {
+          "value": "31"
+        },
+        {
+          "value": "A silver badge that is a five-pointed star"
+        }
+      ]
+    },
+    {
+      "position": 32,
+      "cells": [
+        {
+          "value": "32"
+        },
+        {
+          "value": "A knife that belonged to a relative"
+        }
+      ]
+    },
+    {
+      "position": 33,
+      "cells": [
+        {
+          "value": "33"
+        },
+        {
+          "value": "A glass vial filled with nail clippings"
+        }
+      ]
+    },
+    {
+      "position": 34,
+      "cells": [
+        {
+          "value": "34"
+        },
+        {
+          "value": "A rectangular metal device with two tiny metal cups on one end that throws sparks when wet"
+        }
+      ]
+    },
+    {
+      "position": 35,
+      "cells": [
+        {
+          "value": "35"
+        },
+        {
+          "value": "A white, sequined glove sized for a human"
+        }
+      ]
+    },
+    {
+      "position": 36,
+      "cells": [
+        {
+          "value": "36"
+        },
+        {
+          "value": "A vest with one hundred tiny pockets"
+        }
+      ]
+    },
+    {
+      "position": 37,
+      "cells": [
+        {
+          "value": "37"
+        },
+        {
+          "value": "A weightless stone"
+        }
+      ]
+    },
+    {
+      "position": 38,
+      "cells": [
+        {
+          "value": "38"
+        },
+        {
+          "value": "A sketch of a goblin"
+        }
+      ]
+    },
+    {
+      "position": 39,
+      "cells": [
+        {
+          "value": "39"
+        },
+        {
+          "value": "An empty glass vial that smells of perfume"
+        }
+      ]
+    },
+    {
+      "position": 40,
+      "cells": [
+        {
+          "value": "40"
+        },
+        {
+          "value": "A gemstone that looks like a lump of coal when examined by anyone but you"
+        }
+      ]
+    },
+    {
+      "position": 41,
+      "cells": [
+        {
+          "value": "41"
+        },
+        {
+          "value": "A scrap of cloth from an old banner"
+        }
+      ]
+    },
+    {
+      "position": 42,
+      "cells": [
+        {
+          "value": "42"
+        },
+        {
+          "value": "A rank insignia from a lost legionnaire"
+        }
+      ]
+    },
+    {
+      "position": 43,
+      "cells": [
+        {
+          "value": "43"
+        },
+        {
+          "value": "A silver bell without a clapper"
+        }
+      ]
+    },
+    {
+      "position": 44,
+      "cells": [
+        {
+          "value": "44"
+        },
+        {
+          "value": "A mechanical canary inside a lamp"
+        }
+      ]
+    },
+    {
+      "position": 45,
+      "cells": [
+        {
+          "value": "45"
+        },
+        {
+          "value": "A miniature chest carved to look like it has numerous feet on the bottom"
+        }
+      ]
+    },
+    {
+      "position": 46,
+      "cells": [
+        {
+          "value": "46"
+        },
+        {
+          "value": "A dead sprite inside a clear glass bottle"
+        }
+      ]
+    },
+    {
+      "position": 47,
+      "cells": [
+        {
+          "value": "47"
+        },
+        {
+          "value": "A metal can that has no opening but sounds as if it is filled with liquid, sand, spiders, or broken glass (your choice)"
+        }
+      ]
+    },
+    {
+      "position": 48,
+      "cells": [
+        {
+          "value": "48"
+        },
+        {
+          "value": "A glass orb filled with water, in which swims a clockwork goldfish"
+        }
+      ]
+    },
+    {
+      "position": 49,
+      "cells": [
+        {
+          "value": "49"
+        },
+        {
+          "value": "A silver spoon with an M engraved on the handle"
+        }
+      ]
+    },
+    {
+      "position": 50,
+      "cells": [
+        {
+          "value": "50"
+        },
+        {
+          "value": "A whistle made from gold-colored wood"
+        }
+      ]
+    },
+    {
+      "position": 51,
+      "cells": [
+        {
+          "value": "51"
+        },
+        {
+          "value": "A dead scarab beetle the size of your hand"
+        }
+      ]
+    },
+    {
+      "position": 52,
+      "cells": [
+        {
+          "value": "52"
+        },
+        {
+          "value": "Two toy soldiers, one missing a head"
+        }
+      ]
+    },
+    {
+      "position": 53,
+      "cells": [
+        {
+          "value": "53"
+        },
+        {
+          "value": "A small box filled with different-sized buttons"
+        }
+      ]
+    },
+    {
+      "position": 54,
+      "cells": [
+        {
+          "value": "54"
+        },
+        {
+          "value": "A candle that can't be lit"
+        }
+      ]
+    },
+    {
+      "position": 55,
+      "cells": [
+        {
+          "value": "55"
+        },
+        {
+          "value": "A miniature cage with no door"
+        }
+      ]
+    },
+    {
+      "position": 56,
+      "cells": [
+        {
+          "value": "56"
+        },
+        {
+          "value": "An old key"
+        }
+      ]
+    },
+    {
+      "position": 57,
+      "cells": [
+        {
+          "value": "57"
+        },
+        {
+          "value": "An indecipherable treasure map"
+        }
+      ]
+    },
+    {
+      "position": 58,
+      "cells": [
+        {
+          "value": "58"
+        },
+        {
+          "value": "A hilt from a broken sword"
+        }
+      ]
+    },
+    {
+      "position": 59,
+      "cells": [
+        {
+          "value": "59"
+        },
+        {
+          "value": "A rabbit's foot"
+        }
+      ]
+    },
+    {
+      "position": 60,
+      "cells": [
+        {
+          "value": "60"
+        },
+        {
+          "value": "A glass eye"
+        }
+      ]
+    },
+    {
+      "position": 61,
+      "cells": [
+        {
+          "value": "61"
+        },
+        {
+          "value": "A cameo of a hideous person"
+        }
+      ]
+    },
+    {
+      "position": 62,
+      "cells": [
+        {
+          "value": "62"
+        },
+        {
+          "value": "A silver skull the size of a coin"
+        }
+      ]
+    },
+    {
+      "position": 63,
+      "cells": [
+        {
+          "value": "63"
+        },
+        {
+          "value": "An alabaster mask"
+        }
+      ]
+    },
+    {
+      "position": 64,
+      "cells": [
+        {
+          "value": "64"
+        },
+        {
+          "value": "A cone of sticky black incense that stinks"
+        }
+      ]
+    },
+    {
+      "position": 65,
+      "cells": [
+        {
+          "value": "65"
+        },
+        {
+          "value": "A nightcap that gives you pleasant dreams when you wear it"
+        }
+      ]
+    },
+    {
+      "position": 66,
+      "cells": [
+        {
+          "value": "66"
+        },
+        {
+          "value": "A single caltrop made from bone"
+        }
+      ]
+    },
+    {
+      "position": 67,
+      "cells": [
+        {
+          "value": "67"
+        },
+        {
+          "value": "A gold monocle frame without the lens"
+        }
+      ]
+    },
+    {
+      "position": 68,
+      "cells": [
+        {
+          "value": "68"
+        },
+        {
+          "value": "A l-inch cube, each side a different color"
+        }
+      ]
+    },
+    {
+      "position": 69,
+      "cells": [
+        {
+          "value": "69"
+        },
+        {
+          "value": "A crystal doorknob"
+        }
+      ]
+    },
+    {
+      "position": 70,
+      "cells": [
+        {
+          "value": "70"
+        },
+        {
+          "value": "A packet filled with pink dust"
+        }
+      ]
+    },
+    {
+      "position": 71,
+      "cells": [
+        {
+          "value": "71"
+        },
+        {
+          "value": "A fragment of a beautiful song, written as musical notes on two pieces of parchment"
+        }
+      ]
+    },
+    {
+      "position": 72,
+      "cells": [
+        {
+          "value": "72"
+        },
+        {
+          "value": "A silver teardrop earring containing a real teardrop"
+        }
+      ]
+    },
+    {
+      "position": 73,
+      "cells": [
+        {
+          "value": "73"
+        },
+        {
+          "value": "An eggshell painted with scenes of misery in disturbing detail"
+        }
+      ]
+    },
+    {
+      "position": 74,
+      "cells": [
+        {
+          "value": "74"
+        },
+        {
+          "value": "A fan that, when unfolded, shows a sleepy cat"
+        }
+      ]
+    },
+    {
+      "position": 75,
+      "cells": [
+        {
+          "value": "75"
+        },
+        {
+          "value": "A set of bone pipes"
+        }
+      ]
+    },
+    {
+      "position": 76,
+      "cells": [
+        {
+          "value": "76"
+        },
+        {
+          "value": "A four-leaf clover pressed inside a book discussing manners and etiquette"
+        }
+      ]
+    },
+    {
+      "position": 77,
+      "cells": [
+        {
+          "value": "77"
+        },
+        {
+          "value": "A sheet of parchment upon which is drawn a mechanical contraption"
+        }
+      ]
+    },
+    {
+      "position": 78,
+      "cells": [
+        {
+          "value": "78"
+        },
+        {
+          "value": "An ornate scabbard that fits no blade you have found"
+        }
+      ]
+    },
+    {
+      "position": 79,
+      "cells": [
+        {
+          "value": "79"
+        },
+        {
+          "value": "An invitation to a party where a murder happened"
+        }
+      ]
+    },
+    {
+      "position": 80,
+      "cells": [
+        {
+          "value": "80"
+        },
+        {
+          "value": "A bronze pentacle with an etching of a rat's head in its center"
+        }
+      ]
+    },
+    {
+      "position": 81,
+      "cells": [
+        {
+          "value": "81"
+        },
+        {
+          "value": "A purple handkerchief embroidered with the name of an archmage"
+        }
+      ]
+    },
+    {
+      "position": 82,
+      "cells": [
+        {
+          "value": "82"
+        },
+        {
+          "value": "Half a floor plan for a temple, a castle, or another structure"
+        }
+      ]
+    },
+    {
+      "position": 83,
+      "cells": [
+        {
+          "value": "83"
+        },
+        {
+          "value": "A bit of folded cloth that, when unfolded, turns into a stylish cap"
+        }
+      ]
+    },
+    {
+      "position": 84,
+      "cells": [
+        {
+          "value": "84"
+        },
+        {
+          "value": "A receipt of deposit at a bank in a far-off city"
+        }
+      ]
+    },
+    {
+      "position": 85,
+      "cells": [
+        {
+          "value": "85"
+        },
+        {
+          "value": "A diary with seven missing pages"
+        }
+      ]
+    },
+    {
+      "position": 86,
+      "cells": [
+        {
+          "value": "86"
+        },
+        {
+          "value": "An empty silver snuffbox bearing the inscription “dreams” on its lid"
+        }
+      ]
+    },
+    {
+      "position": 87,
+      "cells": [
+        {
+          "value": "87"
+        },
+        {
+          "value": "An iron holy symbol devoted to an unknown god"
+        }
+      ]
+    },
+    {
+      "position": 88,
+      "cells": [
+        {
+          "value": "88"
+        },
+        {
+          "value": "A book about a legendary hero's rise and fall, with the last chapter missing"
+        }
+      ]
+    },
+    {
+      "position": 89,
+      "cells": [
+        {
+          "value": "89"
+        },
+        {
+          "value": "A vial of dragon blood"
+        }
+      ]
+    },
+    {
+      "position": 90,
+      "cells": [
+        {
+          "value": "90"
+        },
+        {
+          "value": "An ancient arrow of elven design"
+        }
+      ]
+    },
+    {
+      "position": 91,
+      "cells": [
+        {
+          "value": "91"
+        },
+        {
+          "value": "A needle that never bends"
+        }
+      ]
+    },
+    {
+      "position": 92,
+      "cells": [
+        {
+          "value": "92"
+        },
+        {
+          "value": "An ornate brooch of dwarven design"
+        }
+      ]
+    },
+    {
+      "position": 93,
+      "cells": [
+        {
+          "value": "93"
+        },
+        {
+          "value": "An empty wine bottle bearing a pretty label that says, \"The Wizard of Wines Winery, Red Dragon Crush, 331422-W\""
+        }
+      ]
+    },
+    {
+      "position": 94,
+      "cells": [
+        {
+          "value": "94"
+        },
+        {
+          "value": "A mosaic tile with a multicolored, glazed surface"
+        }
+      ]
+    },
+    {
+      "position": 95,
+      "cells": [
+        {
+          "value": "95"
+        },
+        {
+          "value": "A petrified mouse"
+        }
+      ]
+    },
+    {
+      "position": 96,
+      "cells": [
+        {
+          "value": "96"
+        },
+        {
+          "value": "A black pirate flag adorned with a dragon's skull and crossbones"
+        }
+      ]
+    },
+    {
+      "position": 97,
+      "cells": [
+        {
+          "value": "97"
+        },
+        {
+          "value": "A tiny mechanical crab or spider that moves about when it's not being observed"
+        }
+      ]
+    },
+    {
+      "position": 98,
+      "cells": [
+        {
+          "value": "98"
+        },
+        {
+          "value": "A glass jar containing lard with a label that reads, \"Griffon Grease\""
+        }
+      ]
+    },
+    {
+      "position": 99,
+      "cells": [
+        {
+          "value": "99"
+        },
+        {
+          "value": "A wooden box with a ceramic bottom that holds a living worm with a head on each end of its body"
+        }
+      ]
+    },
+    {
+      "position": 100,
+      "cells": [
+        {
+          "value": "00"
+        },
+        {
+          "value": "A metal urn containing the ashes of a hero"
+        }
+      ]
+    }
+  ],
+  "rawText": "| 1d100 | Trinket                                                                                               |\n| :---- | :---------------------------------------------------------------------------------------------------- |\n| 01    | A mummified goblin hand                                                                               |\n| 02    | A crystal that faintly glows in moonlight                                                             |\n| 03    | A gold coin minted in an unknown land                                                                 |\n| 04    | A diary written in a language you don’t know                                                          |\n| 05    | A brass ring that never tarnishes                                                                     |\n| 06    | An old chess piece made from glass                                                                    |\n| 07    | A pair of knucklebone dice, each with a skull symbol on the side that would normally show six pips    |\n| 08    | A small idol depicting a nightmarish creature that gives you unsettling dreams when you sleep near it |\n| 09    | A lock of someone’s hair                                                                              |\n| 10    | The deed for a parcel of land in a realm unknown to you                                               |\n| 11    | A l-ounce block made from an unknown material                                                         |\n| 12    | A small cloth doll skewered with needles                                                              |\n| 13    | A tooth from an unknown beast                                                                         |\n| 14    | An enormous scale, perhaps from a dragon                                                              |\n| 15    | A bright-green feather                                                                                |\n| 16    | An old divination card bearing your likeness                                                          |\n| 17    | A glass orb filled with moving smoke                                                                  |\n| 18    | A l-pound egg with a bright-red shell                                                                 |\n| 19    | A pipe that blows bubbles                                                                             |\n| 20    | A glass jar containing a bit of flesh floating in pickling fluid                                      |\n| 21    | A gnome-crafted music box that plays a song you dimly remember from your childhood                    |\n| 22    | A wooden statuette of a smug halfling                                                                 |\n| 23    | A brass orb etched with strange runes                                                                 |\n| 24    | A multicolored stone disk                                                                             |\n| 25    | A silver icon of a raven                                                                              |\n| 26    | A bag containing forty-seven teeth, one of which is rotten                                            |\n| 27    | A shard of obsidian that always feels warm to the touch                                               |\n| 28    | A dragon’s talon strung on a leather necklace                                                         |\n| 29    | A pair of old socks                                                                                   |\n| 30    | A blank book whose pages refuse to hold ink, chalk, graphite, or any other marking                    |\n| 31    | A silver badge that is a five-pointed star                                                            |\n| 32    | A knife that belonged to a relative                                                                   |\n| 33    | A glass vial filled with nail clippings                                                               |\n| 34    | A rectangular metal device with two tiny metal cups on one end that throws sparks when wet            |\n| 35 | A white, sequined glove sized for a human |\n| 36 | A vest with one hundred tiny pockets |\n| 37 | A weightless stone |\n| 38 | A sketch of a goblin |\n| 39 | An empty glass vial that smells of perfume |\n| 40 | A gemstone that looks like a lump of coal when examined by anyone but you |\n| 41 | A scrap of cloth from an old banner |\n| 42 | A rank insignia from a lost legionnaire |\n| 43 | A silver bell without a clapper |\n| 44 | A mechanical canary inside a lamp |\n| 45 | A miniature chest carved to look like it has numerous feet on the bottom |\n| 46 | A dead sprite inside a clear glass bottle |\n| 47 | A metal can that has no opening but sounds as if it is filled with liquid, sand, spiders, or broken glass (your choice) |\n| 48 | A glass orb filled with water, in which swims a clockwork goldfish |\n| 49 | A silver spoon with an M engraved on the handle |\n| 50 | A whistle made from gold-colored wood |\n| 51 | A dead scarab beetle the size of your hand |\n| 52 | Two toy soldiers, one missing a head |\n| 53 | A small box filled with different-sized buttons |\n| 54 | A candle that can't be lit |\n| 55 | A miniature cage with no door |\n| 56 | An old key |\n| 57 | An indecipherable treasure map |\n| 58 | A hilt from a broken sword |\n| 59 | A rabbit's foot |\n| 60 | A glass eye |\n| 61 | A cameo of a hideous person |\n| 62 | A silver skull the size of a coin |\n| 63 | An alabaster mask |\n| 64 | A cone of sticky black incense that stinks |\n| 65 | A nightcap that gives you pleasant dreams when you wear it |\n| 66 | A single caltrop made from bone |\n| 67 | A gold monocle frame without the lens |\n| 68 | A l-inch cube, each side a different color |\n| 69 | A crystal doorknob |\n| 70 | A packet filled with pink dust |\n| 71 | A fragment of a beautiful song, written as musical notes on two pieces of parchment |\n| 72 | A silver teardrop earring containing a real teardrop |\n| 73 | An eggshell painted with scenes of misery in disturbing detail |\n| 74 | A fan that, when unfolded, shows a sleepy cat |\n| 75 | A set of bone pipes |\n| 76 | A four-leaf clover pressed inside a book discussing manners and etiquette |\n| 77 | A sheet of parchment upon which is drawn a mechanical contraption |\n| 78 | An ornate scabbard that fits no blade you have found |\n| 79 | An invitation to a party where a murder happened |\n| 80 | A bronze pentacle with an etching of a rat's head in its center |\n| 81 | A purple handkerchief embroidered with the name of an archmage |\n| 82 | Half a floor plan for a temple, a castle, or another structure |\n| 83 | A bit of folded cloth that, when unfolded, turns into a stylish cap |\n| 84 | A receipt of deposit at a bank in a far-off city |\n| 85 | A diary with seven missing pages |\n| 86 | An empty silver snuffbox bearing the inscription “dreams” on its lid |\n| 87 | An iron holy symbol devoted to an unknown god |\n| 88 | A book about a legendary hero's rise and fall, with the last chapter missing |\n| 89 | A vial of dragon blood |\n| 90 | An ancient arrow of elven design |\n| 91 | A needle that never bends |\n| 92 | An ornate brooch of dwarven design |\n| 93 | An empty wine bottle bearing a pretty label that says, \"The Wizard of Wines Winery, Red Dragon Crush, 331422-W\" |\n| 94 | A mosaic tile with a multicolored, glazed surface |\n| 95 | A petrified mouse |\n| 96 | A black pirate flag adorned with a dragon's skull and crossbones |\n| 97 | A tiny mechanical crab or spider that moves about when it's not being observed |\n| 98 | A glass jar containing lard with a label that reads, \"Griffon Grease\" |\n| 99 | A wooden box with a ceramic bottom that holds a living worm with a head on each end of its body |\n| 00 | A metal urn containing the ashes of a hero |"
+}

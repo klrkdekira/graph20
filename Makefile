@@ -1,20 +1,28 @@
-.PHONY: help install extract manifest bundle llms-full search-index collection-index coverage review review-stats vocab sitemap anomalies fidelity graph test validate schema determinism check
+.PHONY: help install source-check extract manifest bundle llms llms-full search-index collection-index coverage review review-stats vocab record-pages sitemap metrics anomalies fidelity graph test validate schema determinism check
 
 UV ?= uv
 
 help:
 	@echo "Available targets:"
 	@echo "  install      Sync uv development dependencies"
+	@echo "  source-check Assert registered source repairs are complete and idempotent"
 	@echo "  extract      Re-extract objects/ from SRD_CC_v5.2.1.md"
 	@echo "  manifest     Rebuild the aggregate JSON-LD manifest"
 	@echo "  bundle       Build the single-file JSON-LD corpus"
+	@echo "  llms         Regenerate llms.txt from the manifest"
 	@echo "  llms-full    Regenerate llms-full.txt"
 	@echo "  search-index Regenerate objects/search-index.json"
+	@echo "  collection-index Regenerate compact explorer browse metadata"
 	@echo "  coverage     Check interval coverage only (not extraction fidelity)"
+	@echo "  review       Rebuild the reviewed occurrence ledger; reject pending signals"
+	@echo "  review-stats Summarize review-ledger dispositions"
+	@echo "  vocab        Rebuild vocabulary terms and HTML reference"
+	@echo "  record-pages Build crawlable HTML counterparts for every record"
+	@echo "  sitemap      Regenerate the exact published URL inventory"
+	@echo "  metrics      Generate asserted build metrics from emitted artifacts"
 	@echo "  anomalies    Reject unreviewed source-conversion anomaly candidates"
 	@echo "  fidelity     Check locator ownership and typed/source fidelity"
 	@echo "  graph        Expand the complete JSON-LD graph and reject data loss"
-	@echo "  review       Rebuild the reviewed occurrence ledger; reject pending signals"
 	@echo "  test         Run the structural test suite"
 	@echo "  validate     Dependency-free structural validation"
 	@echo "  schema       Validate records against JSON Schemas"
@@ -24,6 +32,9 @@ help:
 install:
 	$(UV) sync --group dev
 
+source-check:
+	$(UV) run python scripts/repair_source.py --dry-run
+
 extract:
 	$(UV) run python scripts/extract_srd.py --root .
 
@@ -32,6 +43,9 @@ manifest:
 
 bundle:
 	$(UV) run python scripts/build_bundle.py --root .
+
+llms:
+	$(UV) run python scripts/build_llms.py --root .
 
 llms-full:
 	$(UV) run python scripts/build_llms_full.py --root .
@@ -56,6 +70,12 @@ vocab:
 
 sitemap:
 	$(UV) run python scripts/build_sitemap.py --root .
+
+record-pages:
+	$(UV) run python scripts/build_record_pages.py --root .
+
+metrics:
+	$(UV) run python scripts/build_metrics.py --root .
 
 anomalies:
 	$(UV) run python scripts/check_anomalies.py --root .
@@ -82,4 +102,4 @@ determinism:
 # clean build BEFORE the in-place regeneration targets overwrite them; a
 # stale or hand-edited committed artifact fails the gate instead of being
 # silently rewritten.
-check: determinism extract manifest bundle llms-full search-index collection-index coverage review vocab sitemap anomalies test validate fidelity graph schema
+check: source-check determinism extract manifest bundle llms llms-full search-index collection-index coverage review vocab record-pages sitemap metrics anomalies test validate fidelity graph schema

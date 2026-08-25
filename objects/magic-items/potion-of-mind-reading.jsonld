@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.195",
     "heading": "Potion of Mind Reading",
-    "lineStart": 16583,
-    "lineEnd": 16589
+    "lineStart": 16539,
+    "lineEnd": 16545
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/potion-of-mind-reading/"
   },
   "itemCategory": "Potion",
   "rarity": "Rare",
   "requiresAttunement": false,
-  "rulesText": "Potion, Rare\n\nWhen you drink this potion, you gain the effect of the Detect Thoughts spell (save DC 13) for 10 minutes (no Concentration required).\n\nThis potion's dense, purple liquid has an ovoid cloud of pink floating in it."
+  "rulesText": "Potion, Rare\n\nWhen you drink this potion, you gain the effect of the Detect Thoughts spell (save DC 13) for 10 minutes (no Concentration required).\n\nThis potion's dense, purple liquid has an ovoid cloud of pink floating in it.",
+  "isCursed": false,
+  "isSentient": false
 }

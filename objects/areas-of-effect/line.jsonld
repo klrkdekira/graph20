@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/line",
+  "@type": "AreaOfEffect",
+  "name": "Line",
+  "slug": "line",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.98",
+    "heading": "Line [Area of Effect]",
+    "lineStart": 13293,
+    "lineEnd": 13297
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/areas-of-effect/line/"
+  },
+  "rulesText": "A Line is an area of effect that extends from a point of origin in a straight path along its length and covers an area defined by its width. The effect that creates a Line specifies its length and width.\n\nA Line's point of origin isn't included in the area of effect unless its creator decides otherwise."
+}

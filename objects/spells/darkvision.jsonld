@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.106",
     "heading": "Darkvision",
-    "lineStart": 8489,
-    "lineEnd": 8498
+    "lineStart": 8460,
+    "lineEnd": 8469
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/darkvision/"
   },
   "level": 2,
   "school": "Transmutation",
@@ -43,5 +46,25 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "8 hours",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 8,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a dried carrot)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a dried carrot",
+    "consumed": false
+  }
 }

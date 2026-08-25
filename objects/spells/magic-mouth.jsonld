@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.232",
     "heading": "Magic Mouth",
-    "lineStart": 10459,
-    "lineEnd": 10472
+    "lineStart": 10430,
+    "lineEnd": 10443
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/magic-mouth/"
   },
   "level": 2,
   "school": "Illusion",
@@ -35,5 +38,28 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": true
+  "ritual": true,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "Until dispelled",
+    "concentration": false,
+    "kind": "UntilDispelled"
+  },
+  "componentDetails": {
+    "text": "V, S, M (jade dust worth 10+ GP, which the spell consumes)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "jade dust worth 10+ GP, which the spell consumes",
+    "consumed": true,
+    "materialCost": {
+      "text": "10 GP",
+      "currency": "GP",
+      "amount": 10
+    }
+  }
 }

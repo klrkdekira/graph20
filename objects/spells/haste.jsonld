@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.191",
     "heading": "Haste",
-    "lineStart": 9861,
-    "lineEnd": 9872
+    "lineStart": 9832,
+    "lineEnd": 9843
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/haste/"
   },
   "level": 3,
   "school": "Transmutation",
@@ -34,7 +37,34 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "Choose a willing creature that you can see within range. Until the spell ends, the target's Speed is doubled, it gains a +2 bonus to Armor Class, it has Advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used to take only the Attack (one attack only), Dash, Disengage, Hide, or Utilize action."
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a shaving of licorice root)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a shaving of licorice root",
+    "consumed": false
+  }
 }

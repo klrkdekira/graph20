@@ -11,8 +11,11 @@
     "chapter": "Character Origins",
     "section": "4.8",
     "heading": "Equipment",
-    "lineStart": 5377,
-    "lineEnd": 5379
+    "lineStart": 5353,
+    "lineEnd": 5355
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/4-8-equipment/"
   },
   "section": "4.8",
   "rulesText": "Each background offers a choice between a package of equipment and 50 GP."

@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.48",
     "heading": "Smith's Tools (20 GP)",
-    "lineStart": 6216,
-    "lineEnd": 6222
+    "lineStart": 6192,
+    "lineEnd": 6198
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-48-smiths-tools-20-gp/"
   },
   "section": "6.48",
   "rulesText": "Ability: Strength Weight: 8 lb.\n\nUtilize: Pry open a door or container (DC 20)\n\nCraft: Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, Ball Bearings, Bucket, Caltrops, Chain, Crowbar, Firearm Bullets, Grappling Hook, Iron Pot, Iron Spikes, Sling Bullets"

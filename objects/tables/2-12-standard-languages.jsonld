@@ -11,8 +11,12 @@
     "chapter": "Character Creation",
     "section": "2.12",
     "heading": "Choose Languages",
-    "lineStart": 977,
-    "lineEnd": 988
+    "lineStart": 972,
+    "lineEnd": 983,
+    "caption": "Standard Languages"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/2-12-standard-languages/"
   },
   "columns": [
     "1d12",

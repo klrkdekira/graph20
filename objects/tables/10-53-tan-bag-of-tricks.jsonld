@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.53",
     "heading": "Bag of Tricks",
-    "lineStart": 15012,
-    "lineEnd": 15017
+    "lineStart": 14974,
+    "lineEnd": 14979,
+    "caption": "Tan Bag of Tricks"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-53-tan-bag-of-tricks/"
   },
   "columns": [
     "1d8",

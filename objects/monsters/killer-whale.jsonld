@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.60",
     "heading": "Killer Whale",
-    "lineStart": 28203,
-    "lineEnd": 28228
+    "lineStart": 28114,
+    "lineEnd": 28139
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/killer-whale/"
   },
   "sizeTypeAlignment": "Huge Beast, Unaligned",
   "sizeAndType": "Huge Beast",
+  "size": "Huge",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "12",
   "initiative": "+2 (12)",
@@ -76,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.60",
         "heading": "Traits",
-        "lineStart": 28222,
-        "lineEnd": 28224
+        "lineStart": 28133,
+        "lineEnd": 28135
       }
     },
     {
@@ -87,12 +93,39 @@
         "chapter": "Animals",
         "section": "13.60",
         "heading": "Actions",
-        "lineStart": 28226,
-        "lineEnd": 28228
+        "lineStart": 28137,
+        "lineEnd": 28139
       }
     }
   ],
   "rulesText": "Huge Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 90 (12d12 + 12)\nSpeed 5 ft., Swim 60 ft.\n\nSkills Perception +3, Stealth +4\nSenses Blindsight 120 ft.; Passive Perception 13\nLanguages None\nCR 3 (XP 700; PB +2)\n\nTraits\n\nHold Breath. The whale can hold its breath for 30 minutes.\n\nActions\n\nBite. Melee Attack Roll: +6, reach 5 ft. Hit: 21 (5d6 + 4) Piercing damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 5
+    },
+    {
+      "mode": "Swim",
+      "feet": 60
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 3
+    },
+    {
+      "name": "Stealth",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 13,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 120
+    }
+  ],
   "attacks": [
     {
       "name": "Bite",

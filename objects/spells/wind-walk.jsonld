@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.368",
     "heading": "Wind Walk",
-    "lineStart": 12562,
-    "lineEnd": 12573
+    "lineStart": 12529,
+    "lineEnd": 12540
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/wind-walk/"
   },
   "level": 6,
   "school": "Transmutation",
@@ -32,6 +35,27 @@
   "scalesWithSlotLevel": false,
   "concentration": false,
   "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "8 hours",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 8,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a candle)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a candle",
+    "consumed": false
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"

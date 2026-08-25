@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.181",
     "heading": "Owlbear",
-    "lineStart": 23627,
-    "lineEnd": 23652
+    "lineStart": 23547,
+    "lineEnd": 23572
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/owlbear/"
   },
   "sizeTypeAlignment": "Large Monstrosity, Unaligned",
   "sizeAndType": "Large Monstrosity",
+  "size": "Large",
+  "creatureType": "Monstrosity",
+  "monsterCategory": "Monster",
   "alignment": "Unaligned",
   "armorClass": "13",
   "initiative": "+1 (11)",
@@ -76,12 +82,35 @@
         "chapter": "Monsters A-Z",
         "section": "12.181",
         "heading": "Actions",
-        "lineStart": 23648,
-        "lineEnd": 23652
+        "lineStart": 23568,
+        "lineEnd": 23572
       }
     }
   ],
   "rulesText": "Large Monstrosity, Unaligned\n\nAC 13\nInitiative +1 (11)\nHP 59 (7d10 + 21)\nSpeed 40 ft., Climb 40 ft.\n\nSkills Perception +5\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages None\nCR 3 (XP 700; PB +2)\n\nActions\n\nMultiattack. The owlbear makes two Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 5 ft. Hit: 14 (2d8 + 5) Slashing damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Climb",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 15,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Rend",

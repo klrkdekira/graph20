@@ -11,17 +11,17 @@
     "chapter": "Character Creation",
     "section": "2.4",
     "heading": "Step 1: Choose Class",
-    "lineStart": 879,
-    "lineEnd": 901
+    "lineStart": 877,
+    "lineEnd": 896
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/2-4-step-1-choose-class/"
   },
   "section": "2.4",
-  "rulesText": "Choose a class, and write it on your character sheet. The Class Overview table summarizes the classes. See “Classes” for the classes’ details.\n\nClass Overview",
+  "rulesText": "Choose a class, and write it on your character sheet. The Class Overview table summarizes the classes. See “Classes” for the classes’ details.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/2-4-class-overview"
-    },
-    {
-      "@id": "https://cheeleong.dev/graph20/objects/tables/2-4-class-overview-2"
     }
   ]
 }

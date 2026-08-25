@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.361",
     "heading": "Wall of Stone",
-    "lineStart": 12453,
-    "lineEnd": 12472
+    "lineStart": 12420,
+    "lineEnd": 12439
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/wall-of-stone/"
   },
   "level": 5,
   "school": "Evocation",
@@ -38,7 +41,37 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (you choose which side). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use its Reaction to move up to its Speed so that it is no longer enclosed by the wall.",
+      "outcomes": [
+        "Partial"
+      ]
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a cube of granite)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a cube of granite",
+    "consumed": false
+  }
 }

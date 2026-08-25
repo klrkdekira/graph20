@@ -11,8 +11,11 @@
     "chapter": "Character Origins",
     "section": "4.26",
     "heading": "Halfling",
-    "lineStart": 5599,
-    "lineEnd": 5615
+    "lineStart": 5575,
+    "lineEnd": 5591
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/species/halfling/"
   },
   "creatureType": "Humanoid",
   "size": "Small (about 2–3 feet tall)",

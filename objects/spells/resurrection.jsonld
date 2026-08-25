@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.291",
     "heading": "Resurrection",
-    "lineStart": 11348,
-    "lineEnd": 11363
+    "lineStart": 11319,
+    "lineEnd": 11334
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/resurrection/"
   },
   "level": 7,
   "school": "Necromancy",
@@ -35,5 +38,27 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a diamond worth 1,000+ GP, which the spell consumes)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a diamond worth 1,000+ GP, which the spell consumes",
+    "consumed": true,
+    "materialCost": {
+      "text": "1,000 GP",
+      "currency": "GP",
+      "amount": 1000
+    }
+  }
 }

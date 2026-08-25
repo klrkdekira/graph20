@@ -11,11 +11,20 @@
     "chapter": "Animals",
     "section": "13.84",
     "heading": "Swarm of Insects",
-    "lineStart": 28847,
-    "lineEnd": 28875
+    "lineStart": 28758,
+    "lineEnd": 28786
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/swarm-of-insects/"
   },
   "sizeTypeAlignment": "Medium Swarm of Tiny Beasts, Unaligned",
   "sizeAndType": "Medium Swarm of Tiny Beasts",
+  "size": "Medium",
+  "creatureType": "Beast",
+  "descriptiveTags": [
+    "Swarm of Tiny Beasts"
+  ],
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "11",
   "initiative": "+1 (11)",
@@ -77,8 +86,8 @@
         "chapter": "Animals",
         "section": "13.84",
         "heading": "Traits",
-        "lineStart": 28867,
-        "lineEnd": 28871
+        "lineStart": 28778,
+        "lineEnd": 28782
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Animals",
         "section": "13.84",
         "heading": "Actions",
-        "lineStart": 28873,
-        "lineEnd": 28875
+        "lineStart": 28784,
+        "lineEnd": 28786
       }
     }
   ],
@@ -119,6 +128,28 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/stunned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 20
+    },
+    {
+      "mode": "Fly",
+      "feet": 20
+    }
+  ],
+  "passivePerception": 8,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 30
+    }
+  ],
+  "damageResistances": [
+    "Bludgeoning",
+    "Piercing",
+    "Slashing"
   ],
   "attacks": [
     {

@@ -11,8 +11,11 @@
     "chapter": "Monsters",
     "section": "11.6",
     "heading": "Descriptive Tags",
-    "lineStart": 17773,
-    "lineEnd": 17775
+    "lineStart": 17714,
+    "lineEnd": 17716
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/11-6-descriptive-tags/"
   },
   "section": "11.6",
   "rulesText": "A monster might have one or more tags in parentheses following its type. Such tags provide additional categorization and have no rules of their own, but certain game effects might refer to them."

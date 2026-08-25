@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.302",
     "heading": "Seeming",
-    "lineStart": 11507,
-    "lineEnd": 11524
+    "lineStart": 11478,
+    "lineEnd": 11495
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/seeming/"
   },
   "level": 5,
   "school": "Illusion",
@@ -38,7 +41,32 @@
     }
   ],
   "savingThrowAbility": "Charisma",
+  "savingThrows": [
+    {
+      "ability": "Charisma",
+      "sourceText": "You give an illusory appearance to each creature of your choice that you can see within range. An unwilling target can make a Charisma saving throw, and if it succeeds, it is unaffected by this spell."
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "8 hours",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 8,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.244",
     "heading": "Slippers of Spider Climbing",
-    "lineStart": 17122,
-    "lineEnd": 17126
+    "lineStart": 17066,
+    "lineEnd": 17070
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/slippers-of-spider-climbing/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile you wear these light shoes, you can move up, down, and across vertical surfaces and along ceilings, while leaving your hands free. You have a Climb Speed equal to your Speed. However, the slippers don't allow you to move this way on a slippery surface, such as one covered by ice or oil."
+  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile you wear these light shoes, you can move up, down, and across vertical surfaces and along ceilings, while leaving your hands free. You have a Climb Speed equal to your Speed. However, the slippers don't allow you to move this way on a slippery surface, such as one covered by ice or oil.",
+  "isCursed": false,
+  "isSentient": false
 }

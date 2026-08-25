@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.338",
     "heading": "Telekinesis",
-    "lineStart": 12062,
-    "lineEnd": 12079
+    "lineStart": 12033,
+    "lineEnd": 12050
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/telekinesis/"
   },
   "level": 5,
   "school": "Transmutation",
@@ -34,9 +37,38 @@
     }
   ],
   "savingThrowAbility": "Strength",
+  "savingThrows": [
+    {
+      "ability": "Strength",
+      "sourceText": "Creature. You can try to move a Huge or smaller creature. The target must succeed on a Strength saving throw, or you move it up to 30 feet in any direction within the spell's range. Until the end of your next turn, the creature has the Restrained condition, and if you lift it into the air, it is suspended there. It falls at the end of your next turn unless you use this option on it again and it fails the save."
+    },
+    {
+      "ability": "Strength",
+      "sourceText": "If the object is worn or carried by a creature, that creature must succeed on a Strength saving throw, or you pull the object away and move it up to 30 feet in any direction within the spell's range."
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": true,
   "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"

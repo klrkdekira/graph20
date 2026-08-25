@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.150",
     "heading": "Lamia",
-    "lineStart": 22614,
-    "lineEnd": 22651
+    "lineStart": 22534,
+    "lineEnd": 22571
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/lamia/"
   },
   "sizeTypeAlignment": "Large Fiend, Chaotic Evil",
   "sizeAndType": "Large Fiend",
+  "size": "Large",
+  "creatureType": "Fiend",
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "13",
   "initiative": "+1 (11)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.150",
         "heading": "Actions",
-        "lineStart": 22635,
-        "lineEnd": 22647
+        "lineStart": 22555,
+        "lineEnd": 22567
       }
     },
     {
@@ -87,12 +93,98 @@
         "chapter": "Monsters A-Z",
         "section": "12.150",
         "heading": "Bonus Actions",
-        "lineStart": 22649,
-        "lineEnd": 22651
+        "lineStart": 22569,
+        "lineEnd": 22571
       }
     }
   ],
   "rulesText": "Large Fiend, Chaotic Evil\n\nAC 13\nInitiative +1 (11)\nHP 97 (13d10 + 26)\nSpeed 40 ft.\n\nSkills Deception +7, Insight +4, Stealth +5\nSenses Darkvision 60 ft.; Passive Perception 12\nLanguages Abyssal, Common\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The lamia makes two Claw attacks. It can replace one attack with a use of Corrupting Touch.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage plus 7 (2d6) Psychic damage.\n\nCorrupting Touch. Wisdom Saving Throw: DC 13, one creature the lamia can see within 5 feet. Failure: 13 (3d8) Psychic damage, and the target is cursed for 1 hour. Until the curse ends, the target has the Charmed and Poisoned conditions.\n\nSpellcasting. The lamia casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 13):\n\nAt Will: Disguise Self (can appear as a Large or Medium biped), Minor Illusion\n\n1/Day Each: Geas, Major Image, Scrying\n\nBonus Actions\n\nLeap. The lamia jumps up to 30 feet by spending 10 feet of movement.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Deception",
+      "bonus": 7
+    },
+    {
+      "name": "Insight",
+      "bonus": 4
+    },
+    {
+      "name": "Stealth",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 12,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Abyssal",
+    "Common"
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The lamia casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 13):\n\nAt Will: Disguise Self (can appear as a Large or Medium biped), Minor Illusion\n\n1/Day Each: Geas, Major Image, Scrying",
+      "path": "statSections[0].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Disguise Self (can appear as a Large or Medium biped), Minor Illusion",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/disguise-self"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/minor-illusion"
+            }
+          ]
+        },
+        {
+          "frequency": "1/Day Each",
+          "spellsText": "Geas, Major Image, Scrying",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/geas"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/major-image"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/scrying"
+            }
+          ]
+        }
+      ],
+      "ability": "Charisma",
+      "saveDC": 13
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/disguise-self"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/minor-illusion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/geas"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/major-image"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/scrying"
+    }
+  ],
   "attacks": [
     {
       "name": "Claw",

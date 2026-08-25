@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.59",
     "heading": "Black Tentacles",
-    "lineStart": 7741,
-    "lineEnd": 7754
+    "lineStart": 7712,
+    "lineEnd": 7725
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/black-tentacles/"
   },
   "level": 4,
   "school": "Conjuration",
@@ -30,6 +33,15 @@
     }
   ],
   "savingThrowAbility": "Strength",
+  "savingThrows": [
+    {
+      "ability": "Strength",
+      "sourceText": "Each creature in that area makes a Strength saving throw. On a failed save, it takes 3d6 Bludgeoning damage, and it has the Restrained condition until the spell ends. A creature also makes that save if it enters the area or ends it turn there. A creature makes that save only once per turn.",
+      "outcomes": [
+        "FailureEffect"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Bludgeoning",
@@ -43,6 +55,27 @@
   "scalesWithSlotLevel": false,
   "concentration": true,
   "ritual": false,
+  "rangeDetails": {
+    "text": "90 feet",
+    "kind": "Distance",
+    "distanceFeet": 90
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a tentacle)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a tentacle",
+    "consumed": false
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"

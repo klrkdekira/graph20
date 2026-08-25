@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.218",
     "heading": "Ring of Telekinesis",
-    "lineStart": 16830,
-    "lineEnd": 16834
+    "lineStart": 16786,
+    "lineEnd": 16790
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/ring-of-telekinesis/"
   },
   "itemCategory": "Ring",
   "rarity": "Very Rare",
@@ -23,5 +26,7 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/telekinesis"
     }
-  ]
+  ],
+  "isCursed": false,
+  "isSentient": false
 }

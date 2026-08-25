@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.281",
     "heading": "Purify Food and Drink",
-    "lineStart": 11210,
-    "lineEnd": 11219
+    "lineStart": 11181,
+    "lineEnd": 11190
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/purify-food-and-drink/"
   },
   "level": 1,
   "school": "Transmutation",
@@ -39,5 +42,36 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": true
+  "ritual": true,
+  "rangeDetails": {
+    "text": "10 feet",
+    "kind": "Distance",
+    "distanceFeet": 10
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "You remove poison and rot from nonmagical food and drink in a 5-foot-radius Sphere centered on a point within range.",
+      "radiusFeet": 5
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+    }
+  ]
 }

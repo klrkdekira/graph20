@@ -1,0 +1,26 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/invocations/lessons-of-the-first-ones",
+  "@type": "EldritchInvocation",
+  "name": "Lessons of the First Ones",
+  "slug": "lessons-of-the-first-ones",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.28",
+    "heading": "Lessons of the First Ones",
+    "lineStart": 4618,
+    "lineEnd": 4624
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/invocations/lessons-of-the-first-ones/"
+  },
+  "prerequisite": "Level 2+ Warlock",
+  "repeatable": true,
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+  },
+  "rulesText": "Prerequisite: Level 2+ Warlock\n\nYou have received knowledge from an elder entity of the multiverse, allowing you to gain one Origin feat of your choice (see “Feats”).\n\nRepeatable. You can gain this invocation more than once. Each time you do so, choose a different Origin feat."
+}

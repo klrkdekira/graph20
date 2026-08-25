@@ -63,6 +63,15 @@ def entry_for(collection: str, record: dict):
         group = parent
         sub = f"{parent} subclass"
         order = (parent, name.lower())
+    elif collection == "invocations":
+        group = "Warlock"
+        sub = record.get("prerequisite", "Eldritch Invocation")
+        order = (record.get("minimumWarlockLevel", 0), name.lower())
+    elif collection == "metamagic-options":
+        group = "Sorcerer"
+        cost = record.get("sorceryPointCost")
+        sub = f"{cost} Sorcery Point" + ("s" if cost != 1 else "") if cost else "Metamagic"
+        order = (cost or 0, name.lower())
     elif collection == "species":
         group = "Species"
         sub = f"{record.get('size', '')} · {record.get('speed', '')}"
@@ -87,10 +96,29 @@ def entry_for(collection: str, record: dict):
             sub = f"AC {record.get('armorClass', '')}"
             order = (1, category, "", name.lower())
         else:
-            group = "Adventuring Gear"
+            group = {
+                "tool": "Tools",
+                "mount": "Mounts",
+                "vehicle": "Vehicles",
+                "tack": "Tack and Harness",
+                "hireling": "Hirelings",
+                "service": "Services",
+                "food-lodging": "Food, Drink, and Lodging",
+                "spellcasting-focus": "Spellcasting Focuses",
+                "ammunition": "Ammunition",
+            }.get(etype, "Adventuring Gear")
             cost = record.get("cost", {}).get("text", "")
-            sub = cost
-            order = (2, "", "", name.lower())
+            sub = " · ".join(filter(None, (record.get("ability"), cost)))
+            order = (2, group, "", name.lower())
+    elif collection in ("actions", "areas-of-effect", "attitudes", "hazards"):
+        group = {
+            "actions": "Actions",
+            "areas-of-effect": "Areas of Effect",
+            "attitudes": "Attitudes",
+            "hazards": "Hazards",
+        }[collection]
+        sub = f"Rules Glossary · §{locator.get('section', '')}"
+        order = (locator.get("lineStart", 0), name.lower())
     elif collection in ("rules", "tables"):
         chapter = locator.get("chapter", "")
         group = chapter

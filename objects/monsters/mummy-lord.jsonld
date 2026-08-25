@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.172",
     "heading": "Mummy Lord",
-    "lineStart": 23266,
-    "lineEnd": 23323
+    "lineStart": 23186,
+    "lineEnd": 23243
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/mummy-lord/"
   },
   "sizeTypeAlignment": "Medium or Small Undead (Cleric), Lawful Evil",
   "sizeAndType": "Medium or Small Undead (Cleric)",
+  "size": "Medium or Small",
+  "creatureType": "Undead",
+  "descriptiveTags": [
+    "Cleric"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "17",
   "initiative": "+10 (20)",
@@ -78,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.172",
         "heading": "Traits",
-        "lineStart": 23287,
-        "lineEnd": 23293
+        "lineStart": 23207,
+        "lineEnd": 23213
       }
     },
     {
@@ -89,8 +98,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.172",
         "heading": "Actions",
-        "lineStart": 23295,
-        "lineEnd": 23309
+        "lineStart": 23215,
+        "lineEnd": 23229
       }
     },
     {
@@ -100,8 +109,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.172",
         "heading": "Reactions",
-        "lineStart": 23311,
-        "lineEnd": 23313
+        "lineStart": 23231,
+        "lineEnd": 23233
       }
     },
     {
@@ -111,8 +120,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.172",
         "heading": "Legendary Actions",
-        "lineStart": 23315,
-        "lineEnd": 23323
+        "lineStart": 23235,
+        "lineEnd": 23243
       }
     }
   ],
@@ -132,6 +141,99 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "History",
+      "bonus": 5
+    },
+    {
+      "name": "Perception",
+      "bonus": 9
+    },
+    {
+      "name": "Religion",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 19,
+  "senseModes": [
+    {
+      "name": "Truesight",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Common plus three other languages"
+  ],
+  "damageImmunities": [
+    "Necrotic",
+    "Poison"
+  ],
+  "damageVulnerabilities": [
+    "Fire"
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The mummy casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 17, +9 to hit with spell attacks):\n\nAt Will: Dispel Magic, Thaumaturgy\n\n1/Day Each: Animate Dead, Harm, Insect Plague (level 7 version)",
+      "path": "statSections[1].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Dispel Magic, Thaumaturgy",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-magic"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/thaumaturgy"
+            }
+          ]
+        },
+        {
+          "frequency": "1/Day Each",
+          "spellsText": "Animate Dead, Harm, Insect Plague (level 7 version)",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/animate-dead"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/harm"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/insect-plague"
+            }
+          ]
+        }
+      ],
+      "ability": "Wisdom",
+      "saveDC": 17,
+      "attackBonus": 9
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/thaumaturgy"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/animate-dead"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/harm"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/insect-plague"
     }
   ],
   "attacks": [

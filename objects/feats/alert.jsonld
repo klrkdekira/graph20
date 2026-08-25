@@ -11,8 +11,11 @@
     "chapter": "Feats",
     "section": "5.5",
     "heading": "Alert",
-    "lineStart": 5701,
-    "lineEnd": 5709
+    "lineStart": 5677,
+    "lineEnd": 5685
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/feats/alert/"
   },
   "category": "Origin",
   "repeatable": false,

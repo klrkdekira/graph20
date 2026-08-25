@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-72-step-2-determine-your-xp-budget",
+  "@type": "Rule",
+  "name": "Step 2: Determine Your XP Budget",
+  "slug": "9-72-step-2-determine-your-xp-budget",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.72",
+    "heading": "Step 2: Determine Your XP Budget",
+    "lineStart": 14358,
+    "lineEnd": 14386
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/9-72-step-2-determine-your-xp-budget/"
+  },
+  "section": "9.72",
+  "rulesText": "Using the XP Budget per Character table, cross-reference the party's level with the desired encounter difficulty. Multiply the number in the table by the number of characters in the party to get your XP budget for the encounter.",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/9-72-xp-budget-per-character"
+    }
+  ]
+}

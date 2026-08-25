@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.92",
     "heading": "Deck of Illusions",
-    "lineStart": 15382,
-    "lineEnd": 15416
+    "lineStart": 15344,
+    "lineEnd": 15378,
+    "caption": "Deck of Illusions"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-92-deck-of-illusions/"
   },
   "columns": [
     "1d100",

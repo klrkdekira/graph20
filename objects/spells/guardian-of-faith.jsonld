@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.183",
     "heading": "Guardian of Faith",
-    "lineStart": 9715,
-    "lineEnd": 9726
+    "lineStart": 9686,
+    "lineEnd": 9697
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/guardian-of-faith/"
   },
   "level": 4,
   "school": "Conjuration",
@@ -30,7 +33,36 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "Any enemy that moves to a space within 10 feet of the guardian for the first time on a turn or starts its turn there makes a Dexterity saving throw, taking 20 Radiant damage on a failed save or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "8 hours",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 8,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V",
+    "verbal": true,
+    "somatic": false,
+    "material": false
+  }
 }

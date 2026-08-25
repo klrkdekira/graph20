@@ -11,8 +11,11 @@
     "chapter": "Feats",
     "section": "5.10",
     "heading": "Ability Score Improvement",
-    "lineStart": 5741,
-    "lineEnd": 5747
+    "lineStart": 5717,
+    "lineEnd": 5723
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/feats/ability-score-improvement/"
   },
   "category": "General",
   "prerequisite": "Level 4+",

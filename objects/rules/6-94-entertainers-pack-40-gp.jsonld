@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.94",
     "heading": "Entertainer's Pack (40 GP)",
-    "lineStart": 6582,
-    "lineEnd": 6584
+    "lineStart": 6555,
+    "lineEnd": 6557
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-94-entertainers-pack-40-gp/"
   },
   "section": "6.94",
   "rulesText": "An Entertainer's Pack contains the following items: Backpack, Bedroll, Bell, Bullseye Lantern, 3 Costumes, Mirror, 8 flasks of Oil, 9 days of Rations, Tinderbox, and Waterskin."

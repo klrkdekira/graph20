@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.207",
     "heading": "Salamander",
-    "lineStart": 24444,
-    "lineEnd": 24477
+    "lineStart": 24364,
+    "lineEnd": 24397
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/salamander/"
   },
   "sizeTypeAlignment": "Large Elemental, Neutral Evil",
   "sizeAndType": "Large Elemental",
+  "size": "Large",
+  "creatureType": "Elemental",
+  "monsterCategory": "Monster",
   "alignment": "Neutral Evil",
   "armorClass": "15",
   "initiative": "+2 (12)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.207",
         "heading": "Traits",
-        "lineStart": 24467,
-        "lineEnd": 24469
+        "lineStart": 24387,
+        "lineEnd": 24389
       }
     },
     {
@@ -88,12 +94,38 @@
         "chapter": "Monsters A-Z",
         "section": "12.207",
         "heading": "Actions",
-        "lineStart": 24471,
-        "lineEnd": 24477
+        "lineStart": 24391,
+        "lineEnd": 24397
       }
     }
   ],
   "rulesText": "Large Elemental, Neutral Evil\n\nAC 15\nInitiative +2 (12)\nHP 90 (12d10 + 24)\nSpeed 30 ft., Climb 30 ft.\n\nVulnerabilities Cold\nImmunities Fire\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Primordial (Ignan)\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nFire Aura. At the end of each of the salamander's turns, each creature of the salamander's choice in a 5-foot Emanation originating from the salamander takes 7 (2d6) Fire damage.\n\nActions\n\nMultiattack. The salamander makes two Flame Spear attacks. It can replace one attack with a use of Constrict.\n\nFlame Spear. Melee or Ranged Attack Roll: +7, reach 5 ft. or range 20/60 ft. Hit: 13 (2d8 + 4) Piercing damage plus 7 (2d6) Fire damage. Hit or Miss: The spear magically returns to the salamander's hand immediately after a ranged attack.\n\nConstrict. Strength Saving Throw: DC 15, one Large or smaller creature the salamander can see within 10 feet. Failure: 11 (2d6 + 4) Bludgeoning damage plus 7 (2d6) Fire damage. The target has the Grappled condition (escape DC 14), and it has the Restrained condition until the grapple ends.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Climb",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Primordial (Ignan)"
+  ],
+  "damageImmunities": [
+    "Fire"
+  ],
+  "damageVulnerabilities": [
+    "Cold"
+  ],
   "attacks": [
     {
       "name": "Flame Spear",

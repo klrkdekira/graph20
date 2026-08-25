@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.358",
     "heading": "Wall of Fire",
-    "lineStart": 12401,
-    "lineEnd": 12417
+    "lineStart": 12371,
+    "lineEnd": 12386
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/wall-of-fire/"
   },
   "level": 4,
   "school": "Evocation",
@@ -25,7 +28,7 @@
   "range": "120 feet",
   "components": "V, S, M (a piece of charcoal)",
   "duration": "Concentration, up to 1 minute",
-  "rulesText": "Level 4 Evocation (Druid, Sorcerer, Wizard)\n\nCasting Time: Action\n\nRange: 120 feet\nComponents: V, S, M (a piece of charcoal)\nDuration: Concentration, up to 1 minute\n\nYou create a wall of fire on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration.\n\nWhen the wall appears, each creature in its area makes a Dexterity saving throw, taking 5d8 Fire damage on a failed save or half as much damage on a successful one.\n\nOne side of the wall, selected by you when you cast this spell, deals 5d8 Fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 4.",
+  "rulesText": "Level 4 Evocation (Druid, Sorcerer, Wizard)\n\nCasting Time: Action\nRange: 120 feet\nComponents: V, S, M (a piece of charcoal)\nDuration: Concentration, up to 1 minute\n\nYou create a wall of fire on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration.\n\nWhen the wall appears, each creature in its area makes a Dexterity saving throw, taking 5d8 Fire damage on a failed save or half as much damage on a successful one.\n\nOne side of the wall, selected by you when you cast this spell, deals 5d8 Fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.\n\nUsing a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 4.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
@@ -38,6 +41,16 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "When the wall appears, each creature in its area makes a Dexterity saving throw, taking 5d8 Fire damage on a failed save or half as much damage on a successful one.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Fire",
@@ -50,5 +63,26 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a piece of charcoal)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a piece of charcoal",
+    "consumed": false
+  }
 }

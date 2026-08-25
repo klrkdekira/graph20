@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.278",
     "heading": "Wand of Binding",
-    "lineStart": 17523,
-    "lineEnd": 17536
+    "lineStart": 17464,
+    "lineEnd": 17477
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/wand-of-binding/"
   },
   "itemCategory": "Wand",
   "rarity": "Rare",
@@ -23,5 +26,12 @@
       "@id": "https://cheeleong.dev/graph20/objects/tables/10-278-wand-of-binding-table-1"
     }
   ],
-  "rulesText": "Wand, Rare (Requires Attunement)\n\nThis wand has 7 charges.\n\nSpells. While holding the wand, you can cast one of the spells (save DC 17) on the following table from it. The table indicates how many charges you must expend to cast the spell.\n\nRegaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed."
+  "rulesText": "Wand, Rare (Requires Attunement)\n\nThis wand has 7 charges.\n\nSpells. While holding the wand, you can cast one of the spells (save DC 17) on the following table from it. The table indicates how many charges you must expend to cast the spell.\n\nRegaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.",
+  "charges": {
+    "capacityText": "7",
+    "capacity": 7,
+    "rechargeText": "The wand regains 1d6 + 1 expended charges daily at dawn."
+  },
+  "isCursed": false,
+  "isSentient": false
 }

@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.5",
     "heading": "Bard Spell List",
-    "lineStart": 1827,
-    "lineEnd": 1834
+    "lineStart": 1820,
+    "lineEnd": 1831,
+    "caption": "Cantrips (Level 0 Bard Spells)"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-5-cantrips-level-0-bard-spells/"
   },
   "columns": [
     "Spell",
@@ -103,9 +107,65 @@
           "value": "-"
         }
       ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Prestidigitation"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Starry Wisp"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "True Strike"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Vicious Mockery"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "-"
+        }
+      ]
     }
   ],
-  "rawText": "| Spell          | School        | Special |\n| :------------- | :------------ | :------ |\n| Dancing Lights | Illusion      | C       |\n| Light          | Evocation     |    -    |\n| Mage Hand      | Conjuration   |    -    |\n| Mending        | Transmutation |    -    |\n| Message        | Transmutation |    -    |\n| Minor Illusion | Illusion      |    -    |",
+  "rawText": "| Spell          | School        | Special |\n| :------------- | :------------ | :------ |\n| Dancing Lights | Illusion      | C       |\n| Light          | Evocation     |    -    |\n| Mage Hand      | Conjuration   |    -    |\n| Mending        | Transmutation |    -    |\n| Message        | Transmutation |    -    |\n| Minor Illusion | Illusion      |    -    |\n| Prestidigitation | Transmutation |    -    |\n| Starry Wisp      | Evocation     |    -    |\n| True Strike      | Divination    |    -    |\n| Vicious Mockery  | Enchantment   |    -    |",
   "listsSpell": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/dancing-lights"
@@ -124,6 +184,18 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/minor-illusion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/prestidigitation"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/starry-wisp"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/true-strike"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/vicious-mockery"
     }
   ]
 }

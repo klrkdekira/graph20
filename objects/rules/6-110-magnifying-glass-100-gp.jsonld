@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.110",
     "heading": "Magnifying Glass (100 GP)",
-    "lineStart": 6658,
-    "lineEnd": 6660
+    "lineStart": 6631,
+    "lineEnd": 6633
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-110-magnifying-glass-100-gp/"
   },
   "section": "6.110",
   "rulesText": "A Magnifying Glass grants Advantage on any ability check made to appraise or inspect a highly detailed item. Lighting a fire with a Magnifying Glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite."

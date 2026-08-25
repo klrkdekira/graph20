@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.32",
     "heading": "Wizard Spell List",
-    "lineStart": 5142,
-    "lineEnd": 5149
+    "lineStart": 5121,
+    "lineEnd": 5151,
+    "caption": "Level 3 Wizard Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-32-level-3-wizard-spells/"
   },
   "columns": [
     "Spell",
@@ -103,9 +107,331 @@
           "value": "-"
         }
       ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Fear"
+        },
+        {
+          "value": "Illusion"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Fireball"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Fly"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Gaseous Form"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "Glyph of Warding"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "Haste"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "Hypnotic Pattern"
+        },
+        {
+          "value": "Illusion"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "cells": [
+        {
+          "value": "Lightning Bolt"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "cells": [
+        {
+          "value": "Magic Circle"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "cells": [
+        {
+          "value": "Major Image"
+        },
+        {
+          "value": "Illusion"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "cells": [
+        {
+          "value": "Nondetection"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "cells": [
+        {
+          "value": "Phantom Steed"
+        },
+        {
+          "value": "Illusion"
+        },
+        {
+          "value": "R"
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "cells": [
+        {
+          "value": "Protection from Energy"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "cells": [
+        {
+          "value": "Remove Curse"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "cells": [
+        {
+          "value": "Sending"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "cells": [
+        {
+          "value": "Sleet Storm"
+        },
+        {
+          "value": "Conjuration"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "cells": [
+        {
+          "value": "Slow"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 24,
+      "cells": [
+        {
+          "value": "Speak with Dead"
+        },
+        {
+          "value": "Necromancy"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 25,
+      "cells": [
+        {
+          "value": "Stinking Cloud"
+        },
+        {
+          "value": "Conjuration"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 26,
+      "cells": [
+        {
+          "value": "Tiny Hut"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "R"
+        }
+      ]
+    },
+    {
+      "position": 27,
+      "cells": [
+        {
+          "value": "Tongues"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 28,
+      "cells": [
+        {
+          "value": "Vampiric Touch"
+        },
+        {
+          "value": "Necromancy"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 29,
+      "cells": [
+        {
+          "value": "Water Breathing"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "R"
+        }
+      ]
     }
   ],
-  "rawText": "| Spell        | School        | Special |\n| :----------- | :------------ | :------ |\n| Animate Dead | Necromancy    |    -    |\n| Bestow Curse | Necromancy    | C       |\n| Blink        | Transmutation |    -    |\n| Clairvoyance | Divination    | C, M    |\n| Counterspell | Abjuration    |    -    |\n| Dispel Magic | Abjuration    |    -    |",
+  "rawText": "| Spell        | School        | Special |\n| :----------- | :------------ | :------ |\n| Animate Dead | Necromancy    |    -    |\n| Bestow Curse | Necromancy    | C       |\n| Blink        | Transmutation |    -    |\n| Clairvoyance | Divination    | C, M    |\n| Counterspell | Abjuration    |    -    |\n| Dispel Magic | Abjuration    |    -    |\n| Fear                   | Illusion      | C       |\n| Fireball               | Evocation     |    -    |\n| Fly                    | Transmutation | C       |\n| Gaseous Form           | Transmutation | C       |\n| Glyph of Warding       | Abjuration    | M       |\n| Haste                  | Transmutation | C       |\n| Hypnotic Pattern       | Illusion      | C       |\n| Lightning Bolt         | Evocation     |    -    |\n| Magic Circle           | Abjuration    | M       |\n| Major Image            | Illusion      | C       |\n| Nondetection           | Abjuration    | M       |\n| Phantom Steed          | Illusion      | R       |\n| Protection from Energy | Abjuration    | C       |\n| Remove Curse           | Abjuration    |    -    |\n| Sending                | Divination    |    -    |\n| Sleet Storm            | Conjuration   | C       |\n| Slow                   | Transmutation | C       |\n| Speak with Dead        | Necromancy    |    -    |\n| Stinking Cloud         | Conjuration   | C       |\n| Tiny Hut               | Evocation     | R       |\n| Tongues                | Divination    |    -    |\n| Vampiric Touch         | Necromancy    | C       |\n| Water Breathing        | Transmutation | R       |",
   "listsSpell": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/animate-dead"
@@ -124,6 +450,75 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/fear"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/fireball"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/fly"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/gaseous-form"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/glyph-of-warding"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/haste"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/hypnotic-pattern"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/lightning-bolt"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/magic-circle"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/major-image"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/nondetection"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/phantom-steed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/protection-from-energy"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/remove-curse"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/sending"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/sleet-storm"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/slow"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/speak-with-dead"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/stinking-cloud"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/tiny-hut"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/tongues"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/vampiric-touch"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/water-breathing"
     }
   ]
 }

@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.66",
     "heading": "Octopus",
-    "lineStart": 28366,
-    "lineEnd": 28397
+    "lineStart": 28277,
+    "lineEnd": 28308
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/octopus/"
   },
   "sizeTypeAlignment": "Small Beast, Unaligned",
   "sizeAndType": "Small Beast",
+  "size": "Small",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "12",
   "initiative": "+2 (12)",
@@ -75,8 +81,8 @@
         "chapter": "Animals",
         "section": "13.66",
         "heading": "Traits",
-        "lineStart": 28385,
-        "lineEnd": 28389
+        "lineStart": 28296,
+        "lineEnd": 28300
       }
     },
     {
@@ -86,8 +92,8 @@
         "chapter": "Animals",
         "section": "13.66",
         "heading": "Actions",
-        "lineStart": 28391,
-        "lineEnd": 28393
+        "lineStart": 28302,
+        "lineEnd": 28304
       }
     },
     {
@@ -97,12 +103,39 @@
         "chapter": "Animals",
         "section": "13.66",
         "heading": "Reactions",
-        "lineStart": 28395,
-        "lineEnd": 28397
+        "lineStart": 28306,
+        "lineEnd": 28308
       }
     }
   ],
   "rulesText": "Small Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 3 (1d6)\nSpeed 5 ft., Swim 30 ft.\n\nSkills Perception +2, Stealth +6\nSenses Darkvision 30 ft.; Passive Perception 12\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nCompression. The octopus can move through a space as narrow as 1 inch without expending extra movement to do so.\n\nWater Breathing. The octopus can breathe only underwater.\n\nActions\n\nTentacles. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Bludgeoning damage.\n\nReactions\n\nInk Cloud (1/Day). Trigger: A creature ends its turn within 5 feet of the octopus while underwater. Response: The octopus releases ink that fills a 5-foot Cube centered on itself, and the octopus moves up to its Swim Speed. The Cube is Heavily Obscured for 1 minute or until a strong current or similar effect disperses the ink.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 5
+    },
+    {
+      "mode": "Swim",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 2
+    },
+    {
+      "name": "Stealth",
+      "bonus": 6
+    }
+  ],
+  "passivePerception": 12,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 30
+    }
+  ],
   "attacks": [
     {
       "name": "Tentacles",

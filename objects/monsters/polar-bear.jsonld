@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.71",
     "heading": "Polar Bear",
-    "lineStart": 28506,
-    "lineEnd": 28530
+    "lineStart": 28417,
+    "lineEnd": 28441
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/polar-bear/"
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
+  "size": "Large",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "12",
   "initiative": "+2 (12)",
@@ -77,12 +83,42 @@
         "chapter": "Animals",
         "section": "13.71",
         "heading": "Actions",
-        "lineStart": 28526,
-        "lineEnd": 28530
+        "lineStart": 28437,
+        "lineEnd": 28441
       }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 42 (5d10 + 15)\nSpeed 40 ft., Swim 40 ft.\n\nSkills Perception +5, Stealth +4\nResistances Cold\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages None\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The bear makes two Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 5 ft. Hit: 9 (1d8 + 5) Slashing damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Swim",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 5
+    },
+    {
+      "name": "Stealth",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 15,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "damageResistances": [
+    "Cold"
+  ],
   "attacks": [
     {
       "name": "Rend",

@@ -11,9 +11,28 @@
     "chapter": "Rules Glossary",
     "section": "8.149",
     "heading": "Temporary Hit Points",
-    "lineStart": 13717,
-    "lineEnd": 13719
+    "lineStart": 13681,
+    "lineEnd": 13683
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-149-temporary-hit-points/"
   },
   "section": "8.149",
-  "rulesText": "Temporary Hit Points are granted by certain effects and act as a buffer against losing real Hit Points. See also “Playing the Game” (“Damage and Healing”)."
+  "rulesText": "Temporary Hit Points are granted by certain effects and act as a buffer against losing real Hit Points. See also “Playing the Game” (“Damage and Healing”).",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-88-damage-and-healing"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-88-damage-and-healing"
+    }
+  ]
 }

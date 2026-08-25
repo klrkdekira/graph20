@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.125",
     "heading": "Gloves of Missile Snaring",
-    "lineStart": 15792,
-    "lineEnd": 15796
+    "lineStart": 15754,
+    "lineEnd": 15758
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/gloves-of-missile-snaring/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nIf you're hit by an attack roll made with a Ranged or Thrown weapon while wearing these gloves, you can take a Reaction to reduce the damage by 1d10 plus your Dexterity modifier if you have a free hand. If you reduce the damage to 0, you can catch the ammunition or weapon if it is small enough for you to hold in that hand."
+  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nIf you're hit by an attack roll made with a Ranged or Thrown weapon while wearing these gloves, you can take a Reaction to reduce the damage by 1d10 plus your Dexterity modifier if you have a free hand. If you reduce the damage to 0, you can catch the ammunition or weapon if it is small enough for you to hold in that hand.",
+  "isCursed": false,
+  "isSentient": false
 }

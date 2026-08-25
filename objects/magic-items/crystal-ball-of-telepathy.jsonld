@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.85",
     "heading": "Crystal Ball of Telepathy",
-    "lineStart": 15293,
-    "lineEnd": 15297
+    "lineStart": 15255,
+    "lineEnd": 15259
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/crystal-ball-of-telepathy/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Legendary",
@@ -26,5 +29,7 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/suggestion"
     }
-  ]
+  ],
+  "isCursed": false,
+  "isSentient": false
 }

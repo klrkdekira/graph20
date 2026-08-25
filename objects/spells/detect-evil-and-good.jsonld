@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.111",
     "heading": "Detect Evil and Good",
-    "lineStart": 8564,
-    "lineEnd": 8575
+    "lineStart": 8535,
+    "lineEnd": 8546
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/detect-evil-and-good/"
   },
   "level": 1,
   "school": "Divination",
@@ -35,5 +38,23 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

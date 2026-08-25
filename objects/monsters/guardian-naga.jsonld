@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.125",
     "heading": "Guardian Naga",
-    "lineStart": 21845,
-    "lineEnd": 21883
+    "lineStart": 21765,
+    "lineEnd": 21803
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/guardian-naga/"
   },
   "sizeTypeAlignment": "Large Celestial, Lawful Good",
   "sizeAndType": "Large Celestial",
+  "size": "Large",
+  "creatureType": "Celestial",
+  "monsterCategory": "Monster",
   "alignment": "Lawful Good",
   "armorClass": "18",
   "initiative": "+4 (14)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.125",
         "heading": "Traits",
-        "lineStart": 21867,
-        "lineEnd": 21869
+        "lineStart": 21787,
+        "lineEnd": 21789
       }
     },
     {
@@ -88,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.125",
         "heading": "Actions",
-        "lineStart": 21871,
-        "lineEnd": 21883
+        "lineStart": 21791,
+        "lineEnd": 21803
       }
     }
   ],
@@ -106,6 +112,109 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Climb",
+      "feet": 40
+    },
+    {
+      "mode": "Swim",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Arcana",
+      "bonus": 11
+    },
+    {
+      "name": "History",
+      "bonus": 11
+    },
+    {
+      "name": "Religion",
+      "bonus": 11
+    }
+  ],
+  "passivePerception": 14,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Celestial",
+    "Common"
+  ],
+  "damageImmunities": [
+    "Poison"
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The naga casts one of the following spells, requiring no Somatic or Material components and using Wisdom as the spellcasting ability (spell save DC 16):\n\nAt Will: Thaumaturgy\n\n1/Day Each: Clairvoyance, Cure Wounds (level 6 version), Flame Strike (level 6 version), Geas, True Seeing",
+      "path": "statSections[1].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Thaumaturgy",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/thaumaturgy"
+            }
+          ]
+        },
+        {
+          "frequency": "1/Day Each",
+          "spellsText": "Clairvoyance, Cure Wounds (level 6 version), Flame Strike (level 6 version), Geas, True Seeing",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/clairvoyance"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/cure-wounds"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/flame-strike"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/geas"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/true-seeing"
+            }
+          ]
+        }
+      ],
+      "ability": "Wisdom",
+      "saveDC": 16
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/thaumaturgy"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/clairvoyance"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/cure-wounds"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/flame-strike"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/geas"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/true-seeing"
     }
   ],
   "attacks": [

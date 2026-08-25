@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.136",
     "heading": "Hobgoblin Warrior",
-    "lineStart": 22139,
-    "lineEnd": 22167
+    "lineStart": 22059,
+    "lineEnd": 22087
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/hobgoblin-warrior/"
   },
   "sizeTypeAlignment": "Medium Fey (Goblinoid), Lawful Evil",
   "sizeAndType": "Medium Fey (Goblinoid)",
+  "size": "Medium",
+  "creatureType": "Fey",
+  "descriptiveTags": [
+    "Goblinoid"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "18",
   "initiative": "+3 (13)",
@@ -76,8 +85,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.136",
         "heading": "Traits",
-        "lineStart": 22158,
-        "lineEnd": 22160
+        "lineStart": 22078,
+        "lineEnd": 22080
       }
     },
     {
@@ -87,8 +96,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.136",
         "heading": "Actions",
-        "lineStart": 22162,
-        "lineEnd": 22167
+        "lineStart": 22082,
+        "lineEnd": 22087
       }
     }
   ],
@@ -105,6 +114,37 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/shield"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Common",
+    "Goblin"
+  ],
+  "gearItems": [
+    {
+      "name": "Half Plate Armor"
+    },
+    {
+      "name": "Longbow"
+    },
+    {
+      "name": "Longsword"
+    },
+    {
+      "name": "Shield"
     }
   ],
   "attacks": [

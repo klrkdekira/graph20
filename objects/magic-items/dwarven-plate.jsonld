@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.102",
     "heading": "Dwarven Plate",
-    "lineStart": 15524,
-    "lineEnd": 15526
+    "lineStart": 15486,
+    "lineEnd": 15488
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/dwarven-plate/"
   },
   "itemCategory": "Armor",
   "categoryDetail": "Half Plate Armor or Plate Armor",
   "rarity": "Very Rare",
   "requiresAttunement": false,
-  "rulesText": "Armor (Half Plate Armor or Plate Armor), Very Rare While wearing this armor, you gain a +2 bonus to Armor Class. In addition, if an effect moves you against your will along the ground, you can take a Reaction to reduce the distance you are moved by up to 10 feet."
+  "rulesText": "Armor (Half Plate Armor or Plate Armor), Very Rare While wearing this armor, you gain a +2 bonus to Armor Class. In addition, if an effect moves you against your will along the ground, you can take a Reaction to reduce the distance you are moved by up to 10 feet.",
+  "isCursed": false,
+  "isSentient": false
 }

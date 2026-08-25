@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.30",
     "heading": "Giant Centipede",
-    "lineStart": 27389,
-    "lineEnd": 27409
+    "lineStart": 27303,
+    "lineEnd": 27323
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/giant-centipede/"
   },
   "sizeTypeAlignment": "Small Beast, Unaligned",
   "sizeAndType": "Small Beast",
+  "size": "Small",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "14",
   "initiative": "+2 (12)",
@@ -75,12 +81,29 @@
         "chapter": "Animals",
         "section": "13.30",
         "heading": "Actions",
-        "lineStart": 27407,
-        "lineEnd": 27409
+        "lineStart": 27321,
+        "lineEnd": 27323
       }
     }
   ],
   "rulesText": "Small Beast, Unaligned\n\nAC 14\nInitiative +2 (12)\nHP 9 (2d6 + 2)\nSpeed 30 ft., Climb 30 ft.\n\nSenses Blindsight 30 ft.; Passive Perception 8\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage, and the target has the Poisoned condition until the start of the centipede's next turn.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Climb",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 8,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 30
+    }
+  ],
   "attacks": [
     {
       "name": "Bite",

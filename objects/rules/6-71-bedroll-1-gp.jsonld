@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.71",
     "heading": "Bedroll (1 GP)",
-    "lineStart": 6480,
-    "lineEnd": 6482
+    "lineStart": 6453,
+    "lineEnd": 6455
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-71-bedroll-1-gp/"
   },
   "section": "6.71",
   "rulesText": "A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against extreme cold (see “Gameplay Toolbox”)."

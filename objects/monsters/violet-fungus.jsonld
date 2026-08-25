@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.94",
     "heading": "Violet Fungus",
-    "lineStart": 20866,
-    "lineEnd": 20889
+    "lineStart": 20786,
+    "lineEnd": 20809
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/violet-fungus/"
   },
   "sizeTypeAlignment": "Medium Plant, Unaligned",
   "sizeAndType": "Medium Plant",
+  "size": "Medium",
+  "creatureType": "Plant",
+  "monsterCategory": "Monster",
   "alignment": "Unaligned",
   "armorClass": "5",
   "initiative": "-5 (5)",
@@ -75,8 +81,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.94",
         "heading": "Actions",
-        "lineStart": 20885,
-        "lineEnd": 20889
+        "lineStart": 20805,
+        "lineEnd": 20809
       }
     }
   ],
@@ -93,6 +99,19 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 5
+    }
+  ],
+  "passivePerception": 6,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 30
     }
   ],
   "attacks": [

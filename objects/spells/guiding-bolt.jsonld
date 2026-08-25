@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.186",
     "heading": "Guiding Bolt",
-    "lineStart": 9768,
-    "lineEnd": 9781
+    "lineStart": 9739,
+    "lineEnd": 9752
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/guiding-bolt/"
   },
   "level": 1,
   "school": "Evocation",
@@ -41,5 +44,24 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "1 round",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "round"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

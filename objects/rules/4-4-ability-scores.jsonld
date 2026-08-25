@@ -11,8 +11,11 @@
     "chapter": "Character Origins",
     "section": "4.4",
     "heading": "Ability Scores",
-    "lineStart": 5359,
-    "lineEnd": 5361
+    "lineStart": 5335,
+    "lineEnd": 5337
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/4-4-ability-scores/"
   },
   "section": "4.4",
   "rulesText": "A background lists three of your character's ability scores. Increase one by 2 and another one by 1, or increase all three by 1. None of these increases can raise a score above 20."

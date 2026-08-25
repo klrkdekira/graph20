@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.40",
     "heading": "Amulet of Health",
-    "lineStart": 14828,
-    "lineEnd": 14832
+    "lineStart": 14790,
+    "lineEnd": 14794
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/amulet-of-health/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Rare",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Rare (Requires Attunement)\n\nYour Constitution is 19 while you wear this amulet. It has no effect on you if your Constitution is 19 or higher without it."
+  "rulesText": "Wondrous Item, Rare (Requires Attunement)\n\nYour Constitution is 19 while you wear this amulet. It has no effect on you if your Constitution is 19 or higher without it.",
+  "isCursed": false,
+  "isSentient": false
 }

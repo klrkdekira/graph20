@@ -1,0 +1,26 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/metamagic-options/subtle-spell",
+  "@type": "MetamagicOption",
+  "name": "Subtle Spell",
+  "slug": "subtle-spell",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.25",
+    "heading": "Subtle Spell",
+    "lineStart": 4129,
+    "lineEnd": 4133
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/metamagic-options/subtle-spell/"
+  },
+  "cost": "1 Sorcery Point",
+  "sorceryPointCost": 1,
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+  },
+  "rulesText": "Cost: 1 Sorcery Point\n\nWhen you cast a spell, you can spend 1 Sorcery Point to cast it without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell."
+}

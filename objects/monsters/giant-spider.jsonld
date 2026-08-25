@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.47",
     "heading": "Giant Spider",
-    "lineStart": 27858,
-    "lineEnd": 27887
+    "lineStart": 27772,
+    "lineEnd": 27801
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/giant-spider/"
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
+  "size": "Large",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "14",
   "initiative": "+3 (13)",
@@ -76,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.47",
         "heading": "Traits",
-        "lineStart": 27877,
-        "lineEnd": 27881
+        "lineStart": 27791,
+        "lineEnd": 27795
       }
     },
     {
@@ -87,12 +93,39 @@
         "chapter": "Animals",
         "section": "13.47",
         "heading": "Actions",
-        "lineStart": 27883,
-        "lineEnd": 27887
+        "lineStart": 27797,
+        "lineEnd": 27801
       }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 14\nInitiative +3 (13)\nHP 26 (4d10 + 4)\nSpeed 30 ft., Climb 30 ft.\n\nSkills Perception +4, Stealth +7\nSenses Darkvision 60 ft.; Passive Perception 14\nLanguages None\nCR 1 (XP 200; PB +2)\n\nTraits\n\nSpider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nWeb Walker. The spider ignores movement restrictions caused by webs, and it knows the location of any other creature in contact with the same web.\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 7 (2d6) Poison damage.\n\nWeb (Recharge 5–6). Dexterity Saving Throw: DC 13, one creature the spider can see within 60 feet. Failure: The target has the Restrained condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Poison and Psychic damage).",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Climb",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 4
+    },
+    {
+      "name": "Stealth",
+      "bonus": 7
+    }
+  ],
+  "passivePerception": 14,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Bite",

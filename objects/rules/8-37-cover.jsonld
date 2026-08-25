@@ -11,9 +11,28 @@
     "chapter": "Rules Glossary",
     "section": "8.37",
     "heading": "Cover",
-    "lineStart": 12934,
-    "lineEnd": 12936
+    "lineStart": 12901,
+    "lineEnd": 12903
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-37-cover/"
   },
   "section": "8.37",
-  "rulesText": "Cover provides a degree of protection to a target behind it. There are three degrees of cover, each of which provides a different benefit to a target: Half Cover (+2 bonus to AC and Dexterity saving throws), Three-Quarters Cover (+5 bonus to AC and Dexterity saving throws), and Total Cover (can't be targeted directly). If behind more than one degree of cover, a target benefits only from the most protective degree. See also “Playing the Game” (“Combat”)."
+  "rulesText": "Cover provides a degree of protection to a target behind it. There are three degrees of cover, each of which provides a different benefit to a target: Half Cover (+2 bonus to AC and Dexterity saving throws), Three-Quarters Cover (+5 bonus to AC and Dexterity saving throws), and Total Cover (can't be targeted directly). If behind more than one degree of cover, a target benefits only from the most protective degree. See also “Playing the Game” (“Combat”).",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-59-combat"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-59-combat"
+    }
+  ]
 }

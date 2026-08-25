@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.50",
     "heading": "Augury",
-    "lineStart": 7605,
-    "lineEnd": 7627
+    "lineStart": 7578,
+    "lineEnd": 7600
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/augury/"
   },
   "level": 2,
   "school": "Divination",
@@ -25,7 +28,7 @@
   "range": "Self",
   "components": "V, S, M (specially marked sticks, bones, cards, or other divinatory tokens worth 25+ GP)",
   "duration": "Instantaneous",
-  "rulesText": "Level 2 Divination (Cleric, Druid, Wizard)\n\nCasting Time: 1 minute or Ritual\nRange: Self\nComponents: V, S, M (specially marked sticks, bones, cards, or other divinatory tokens worth 25+ GP)\nDuration: Instantaneous\n\nYou receive an omen from an otherworldly entity about the results of a course of action that you plan to take within the next 30 minutes. The GM chooses the omen from the Omens table.\n\nOmens\n\nThe spell doesn't account for circumstances, such as other spells, that might change the results.\n\nIf you cast the spell more than once before finishing a Long Rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer.",
+  "rulesText": "Level 2 Divination (Cleric, Druid, Wizard)\n\nCasting Time: 1 minute or Ritual\nRange: Self\nComponents: V, S, M (specially marked sticks, bones, cards, or other divinatory tokens worth 25+ GP)\nDuration: Instantaneous\n\nYou receive an omen from an otherworldly entity about the results of a course of action that you plan to take within the next 30 minutes. The GM chooses the omen from the Omens table.\n\nThe spell doesn't account for circumstances, such as other spells, that might change the results.\n\nIf you cast the spell more than once before finishing a Long Rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/7-50-omens"
@@ -44,5 +47,27 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": true
+  "ritual": true,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (specially marked sticks, bones, cards, or other divinatory tokens worth 25+ GP)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "specially marked sticks, bones, cards, or other divinatory tokens worth 25+ GP",
+    "consumed": false,
+    "materialCost": {
+      "text": "25 GP",
+      "currency": "GP",
+      "amount": 25
+    }
+  }
 }

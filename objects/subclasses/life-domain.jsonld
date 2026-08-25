@@ -11,8 +11,11 @@
     "chapter": "Classes",
     "section": "3.9",
     "heading": "Cleric Subclass: Life Domain",
-    "lineStart": 2335,
-    "lineEnd": 2370
+    "lineStart": 2325,
+    "lineEnd": 2360
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/subclasses/life-domain/"
   },
   "parentClass": {
     "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
@@ -28,20 +31,20 @@
         "chapter": "Classes",
         "section": "3.7",
         "heading": "Level 3: Disciple of Life",
-        "lineStart": 2343,
-        "lineEnd": 2345
+        "lineStart": 2333,
+        "lineEnd": 2335
       }
     },
     {
       "level": 3,
       "name": "Life Domain Spells",
-      "rulesText": "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Life Domain Spells table, you thereafter always have the listed spells prepared.\n\nLife Domain Spells",
+      "rulesText": "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Life Domain Spells table, you thereafter always have the listed spells prepared.",
       "sourceLocator": {
         "chapter": "Classes",
         "section": "3.7",
         "heading": "Level 3: Life Domain Spells",
-        "lineStart": 2347,
-        "lineEnd": 2358
+        "lineStart": 2337,
+        "lineEnd": 2348
       },
       "relatedTables": [
         {
@@ -57,8 +60,8 @@
         "chapter": "Classes",
         "section": "3.7",
         "heading": "Level 3: Preserve Life",
-        "lineStart": 2360,
-        "lineEnd": 2362
+        "lineStart": 2350,
+        "lineEnd": 2352
       }
     },
     {
@@ -69,8 +72,8 @@
         "chapter": "Classes",
         "section": "3.7",
         "heading": "Level 6: Blessed Healer",
-        "lineStart": 2364,
-        "lineEnd": 2366
+        "lineStart": 2354,
+        "lineEnd": 2356
       }
     },
     {
@@ -81,8 +84,8 @@
         "chapter": "Classes",
         "section": "3.7",
         "heading": "Level 17: Supreme Healing",
-        "lineStart": 2368,
-        "lineEnd": 2370
+        "lineStart": 2358,
+        "lineEnd": 2360
       }
     }
   ]

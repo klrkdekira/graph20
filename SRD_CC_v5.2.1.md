@@ -628,21 +628,19 @@ You can't willingly end a move in a space occupied by another creature. If you s
 
 # Making an Attack
 
-When you take the Attack action, you make an attack. Some other actions, Bonus Actions, and Reactions also let you make an attack. Whether you strike with a Melee weapon, fire a Ranged weapon,
+When you take the Attack action, you make an attack. Some other actions, Bonus Actions, and Reactions also let you make an attack. Whether you strike with a Melee weapon, fire a Ranged weapon, or make an attack roll as part of a spell, an attack has the following structure:
 
-# UNSEEN ATTACKERS AND TARGETS
+1: Choose a Target. Pick a target within your attack's range: a creature, an object, or a location.
+2: Determine Modifiers. The GM determines whether the target has Cover (see the next section) and whether you have Advantage or Disadvantage against the target. In addition, spells, special abilities, and other effects can apply penalties or bonuses to your attack roll.
+3: Resolve the Attack. Make the attack roll, as detailed earlier in “Playing the Game.” On a hit, you roll damage unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage.
+
+# Unseen Attackers and Targets
 
 When you make an attack roll against a target you can't see, you have Disadvantage on the roll. This is true whether you're guessing the target's location or targeting a creature you can hear but not see. If the target isn't in the location you targeted, you miss.
 
 When a creature can't see you, you have Advantage on attack rolls against it.
 
 If you are hidden when you make an attack roll, you give away your location when the attack hits or misses.
-
-or make an attack roll as part of a spell, an attack has the following structure:
-
-1: Choose a Target. Pick a target within your attack's range: a creature, an object, or a location.
-2: Determine Modifiers. The GM determines whether the target has Cover (see the next section) and whether you have Advantage or Disadvantage against the target. In addition, spells, special abilities, and other effects can apply penalties or bonuses to your attack roll.
-3: Resolve the Attack. Make the attack roll, as detailed earlier in “Playing the Game.” On a hit, you roll damage unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage.
 
 # Cover
 
@@ -892,9 +890,6 @@ Class Overview
 | Monk      | Unarmed combat | Dexterity and Wisdom  | High       |
 | Paladin   | Defense        | Strength and Charisma | Average    |
 | Ranger    | Survival       | Dexterity and Wisdom  | Average    |
-
-| Class    | Likes ...   | Primary Ability | Complexity |
-| :------- | :---------- | :-------------- | :--------- |
 | Rogue    | Stealth     | Dexterity       | Low        |
 | Sorcerer | Power       | Charisma        | High       |
 | Warlock  | Occult lore | Charisma        | High       |
@@ -1089,13 +1084,7 @@ Chaotic Good (CG). Chaotic Good creatures act as their conscience directs with l
 
 Lawful Neutral (LN). Lawful Neutral individuals act in accordance with law, tradition, or personal codes. Someone who follows a disciplined rule of life - and isn’t swayed either by the demands of those in need or by the temptations of evil - is probably Lawful Neutral.
 
-Neutral (N). Neutral is the alignment of those who prefer to avoid moral questions and don't take sides,
-
-# UNALIGNED CREATURES
-
-Most creatures that lack the capacity for rational thought don't have alignments; they are unaligned. Sharks are savage predators, for example, but they aren't evil; they are unaligned.
-
-doing what seems best at the time. Someone who's bored by moral debate is probably Neutral.
+Neutral (N). Neutral is the alignment of those who prefer to avoid moral questions and don't take sides, doing what seems best at the time. Someone who's bored by moral debate is probably Neutral.
 
 Chaotic Neutral (CN). Chaotic Neutral creatures follow their whims, valuing their personal freedom above all else. A scoundrel who wanders the land living by their wits is probably Chaotic Neutral.
 
@@ -1104,6 +1093,10 @@ Lawful Evil (LE). Lawful Evil creatures methodically take what they want within 
 Neutral Evil (NE). Neutral Evil is the alignment of those who are untroubled by the harm they cause as they pursue their desires. A criminal who robs and murders as they please is probably Neutral Evil.
 
 Chaotic Evil (CE). Chaotic Evil creatures act with arbitrary violence, spurred by their hatred or bloodlust. A villain pursuing schemes of vengeance and havoc is probably Chaotic Evil.
+
+# Unaligned Creatures
+
+Most creatures that lack the capacity for rational thought don't have alignments; they are unaligned. Sharks are savage predators, for example, but they aren't evil; they are unaligned.
 
 # Step 5: Character Creation Details
 
@@ -1125,7 +1118,7 @@ Skills. For skills you have proficiency in, add your Proficiency Bonus to the ab
 
 Passive Perception. Sometimes your GM will determine whether your character notices something without asking you to make a Wisdom (Perception) check; the GM uses your Passive Perception instead. Passive Perception is a score that reflects a general awareness of your surroundings when you're not actively looking for something. Use this formula to determine your Passive Perception score:
 
-# Passive Perception = 10 + Wisdom (Perception) check modifier
+Passive Perception = 10 + Wisdom (Perception) check modifier
 
 Include all modifiers that apply to your Wisdom (Perception) checks. For example, if your character has a Wisdom of 15 and proficiency in the Perception skill, you have a Passive Perception of 14 (10 + 2 for your Wisdom modifier + 2 for proficiency).
 
@@ -1832,9 +1825,6 @@ Cantrips (Level 0 Bard Spells)
 | Mending        | Transmutation |    -    |
 | Message        | Transmutation |    -    |
 | Minor Illusion | Illusion      |    -    |
-
-| Spell            | School        | Special |
-| :--------------- | :------------ | :------ |
 | Prestidigitation | Transmutation |    -    |
 | Starry Wisp      | Evocation     |    -    |
 | True Strike      | Divination    |    -    |
@@ -4221,9 +4211,6 @@ Level 2 Sorcerer Spells
 | Flame Blade        | Evocation     | C       |
 | Flaming Sphere     | Evocation     | C       |
 | Gust of Wind       | Evocation     | C       |
-
-| Spell            | School        | Special |
-| :--------------- | :------------ | :------ |
 | Hold Person      | Enchantment   | C       |
 | Invisibility     | Illusion      | C       |
 | Knock            | Transmutation |    -    |
@@ -4786,9 +4773,6 @@ Level 3 Warlock Spells
 | Dispel Magic | Abjuration    |    -    |
 | Fear         | Illusion      | C       |
 | Fly          | Transmutation | C       |
-
-| Spell            | School        | Special |
-| :--------------- | :------------ | :------ |
 | Gaseous Form     | Transmutation | C       |
 | Hypnotic Pattern | Illusion      | C       |
 | Magic Circle     | Abjuration    | M       |
@@ -4999,9 +4983,9 @@ While studying magic, you also specialized in another field of study. Choose one
 
 # Level 3: Wizard Subclass
 
-You gain a Wizard subclass of your choice. The Evoker subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Wizard levels. For the rest
+You gain a Wizard subclass of your choice. The Evoker subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Wizard levels. For the rest of your career, you gain each of your subclass's features that are of your Wizard level or lower.
 
-# EXPANDING AND REPLACING A SPELLBOOK
+# Expanding and Replacing a Spellbook
 
 The spells you add to your spellbook as you gain levels reflect your ongoing magical research, but you might find other spells during your adventures that you can add to the book. You could discover a Wizard spell on a Spell Scroll, for example, and then copy it into your spellbook.
 
@@ -5010,8 +4994,6 @@ Copying a Spell into the Book. When you find a level I+ Wizard spell, you can co
 Copying the Book. You can copy a spell from your spellbook into another book. This is like copying a new spell into your spellbook but faster, since you already know how to cast the spell. You need spend only 1 hour and 10 GP for each level of the copied spell.
 
 If you lose your spellbook, you can use the same procedure to transcribe the Wizard spells that you have prepared into a new spellbook. Filling out the remainder of the new book requires you to find new spells to do so. For this reason, many wizards keep a backup spellbook.
-
-of your career, you gain each of your subclass's features that are of your Wizard level or lower.
 
 # Level 4: Ability Score Improvement
 
@@ -5049,9 +5031,6 @@ Cantrips (Level 0 Wizard Spells)
 | Elementalism   | Transmutation |    -    |
 | Fire Bolt      | Evocation     |    -    |
 | Light          | Evocation     |    -    |
-
-| Spell            | School        | Special |
-| :--------------- | :------------ | :------ |
 | Mage Hand        | Conjuration   |    -    |
 | Mending          | Transmutation |    -    |
 | Message          | Transmutation |    -    |
@@ -5147,9 +5126,6 @@ Level 3 Wizard Spells
 | Clairvoyance | Divination    | C, M    |
 | Counterspell | Abjuration    |    -    |
 | Dispel Magic | Abjuration    |    -    |
-
-| Spell                  | School        | Special |
-| :--------------------- | :------------ | :------ |
 | Fear                   | Illusion      | C       |
 | Fireball               | Evocation     |    -    |
 | Fly                    | Transmutation | C       |
@@ -5670,9 +5646,9 @@ Fiendish Legacies
 
 | Legacy   | Level 1                                                                       | Level 3         | Level 5             |
 | :------- | :---------------------------------------------------------------------------- | :-------------- | :------------------ |
-| Abyssal  | You have Resistance to Poison damage.You also know the Poison Spray cantrip.  | Ray of Sickness | Hold Person         |
-| Chthonic | You have Resistance to Necrotic damage.You also know the Chill Touch cantrip. | False Life      | Ray of Enfeeblement |
-| Infernal | You have Resistance to Fire damage.You also know the Fire Bolt cantrip.       | Hellish Rebuke  | Darkness            |
+| Abyssal  | You have Resistance to Poison damage. You also know the Poison Spray cantrip.  | Ray of Sickness | Hold Person         |
+| Chthonic | You have Resistance to Necrotic damage. You also know the Chill Touch cantrip. | False Life      | Ray of Enfeeblement |
+| Infernal | You have Resistance to Fire damage. You also know the Fire Bolt cantrip.       | Hellish Rebuke  | Darkness            |
 
 Otherworldly Presence. You know the Thaumaturgy cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait.
 
@@ -6388,9 +6364,6 @@ Adventuring Gear
 | Holy Water          | 1 lb.      | 25 GP  |
 | Hunting Trap        | 25 lb.     | 5 GP   |
 | Ink                 |     -      | 10 GP  |
-
-| Item                   | Weight       | Cost     |
-| :--------------------- | :----------- | :------- |
 | Ink Pen                |      -       | 2 CP     |
 | Jug                    | 4 lb.        | 2 CP     |
 | Ladder                 | 25 lb.       | 1 SP     |
@@ -7648,9 +7621,7 @@ Duration: Instantaneous
 
 You spend the casting time tracing magical pathways within a precious gemstone, and then touch the target. The target must be either a Beast or Plant creature with an Intelligence of 3 or less or a natural plant that isn't a creature. The target gains
 
-an Intelligence of 10 and the ability to speak one language you know. If the target is a natural plant, it becomes a Plant creature and gains the ability to move its limbs, roots, vines, creepers, and so forth, and it gains senses similar to a human's. The GM chooses statistics appropriate for the awakened Plant, such as the statistics for the Awakened
-
-# Shrub or Awakened Tree in "Monsters."
+an Intelligence of 10 and the ability to speak one language you know. If the target is a natural plant, it becomes a Plant creature and gains the ability to move its limbs, roots, vines, creepers, and so forth, and it gains senses similar to a human's. The GM chooses statistics appropriate for the awakened Plant, such as the statistics for the Awakened Shrub or Awakened Tree in "Monsters."
 
 The awakened target has the Charmed condition for 30 days or until you or your allies deal damage to it. When that condition ends, the awakened creature chooses its attitude toward you.
 
@@ -12388,8 +12359,7 @@ Cantrip Upgrade. The damage increases by 1d6 when you reach levels 5 (2d6), 11 (
 
 Level 4 Evocation (Sorcerer, Wizard)
 
-# Casting Time: Action
-
+Casting Time: Action
 Range: 150 feet
 Components: V, S, M (a drop of bile)
 Duration: Instantaneous
@@ -12402,8 +12372,7 @@ Using a Higher-Level Spell Slot. The initial damage increases by 2d4 for each sp
 
 Level 4 Evocation (Druid, Sorcerer, Wizard)
 
-# Casting Time: Action
-
+Casting Time: Action
 Range: 120 feet
 Components: V, S, M (a piece of charcoal)
 Duration: Concentration, up to 1 minute
@@ -12420,8 +12389,7 @@ Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot
 
 Level 5 Evocation (Wizard)
 
-# Casting Time: Action
-
+Casting Time: Action
 Range: 120 feet
 Components: V, S, M (a shard of glass)
 Duration: Concentration, up to 10 minutes
@@ -12434,8 +12402,7 @@ Nothing can physically pass through the wall. It is immune to all damage and can
 
 Level 6 Evocation (Wizard)
 
-# Casting Time: Action
-
+Casting Time: Action
 Range: 120 feet
 Components: V, S, M (a piece of quartz)
 Duration: Concentration, up to 10 minutes
@@ -13006,9 +12973,6 @@ Damage Types
 | Fire        | Flames, unbearable heat              |
 | Force       | Pure magical energy                  |
 | Lightning   | Electricity                          |
-
-| Type     | Examples                       |
-| :------- | :----------------------------- |
 | Necrotic | Life-draining energy           |
 | Piercing | Fangs, puncturing objects      |
 | Poison   | Toxic gas, venom               |
@@ -13877,9 +13841,7 @@ Choose one tool used in the practice of the background or often associated with 
 
 Assemble a package of equipment worth 50 GP (including unspent gold). Don't include Martial weapons or armor, as characters get them from their class choices.
 
-# Curses and
-
-# Magical Contagions
+# Curses and Magical Contagions
 
 A curse is a magical burden that lasts for a specified time or until it is ended by some means. A magical contagion is an adverse effect of magical origin that is contagious by definition.
 
@@ -16222,9 +16184,6 @@ Mysterious Deck
 | 49–56               | 61–64               | Rogue   |
 | 57–64               | 65–68               | Ruin    |
 |          -          | 69–73               | Sage    |
-
-| 1d100(13-Card Deck) | 1d100(22-Card Deck) | Card   |
-| :------------------ | :------------------ | :----- |
 | 65–72               | 74–77               | Skull  |
 | 73–80               | 78–82               | Star   |
 | 81–88               | 83–87               | Sun    |
@@ -16292,10 +16251,7 @@ Speed 60 ft., Fly 60 ft. (hover)
 | 16 (+3) | 16 (+3) | 16 (+3) | 16 (+3) | 16 (+3) | 16 (+3) |
 | Save: +3 | Save: +3 | Save: +3 | Save: +3 | Save: +3 | Save: +3 |
 
-Immunities Necrotic, Poison; Charmed, Exhaustion,
-
-Frightened, Paralyzed, Petrified, Poisoned, Unconscious
-
+Immunities Necrotic, Poison; Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned, Unconscious
 Senses Truesight 60 ft., Passive Perception 13
 Languages All languages known to its summoner
 CR None (XP 0; PB equals its summoner's)
@@ -16931,35 +16887,23 @@ The robe has two of each of the following patches:
 
 In addition, the robe has 4d4 other patches. The GM chooses the patches or determines them randomly by rolling on the following table.
 
-1d100 Patch
+Robe of Useful Items Patches
 
-01-08 Bag of 100 GP
-
-09–15 Silver coffer (1 foot long, 6 inches wide and deep) worth 500 GP
-
-16–22 Iron door (up to 10 feet wide and 10 feet high, barred on one side of your choice), which you can place in an opening you can reach; it conforms to fit the opening, attaching and hinging itself
-
-23–30 10 gems worth 100 GP each
-
-31–44 Wooden ladder (24 feet long)
-
-45–51 Riding Horse with a Riding Saddle
-
-52–59 Open pit (a 10-foot Cube), which you can place on the ground within 10 feet of yourself
-
-60–68 4 Potions of Healing
-
-69–75 Rowboat (12 feet long)
-
-76–83 Spell Scroll containing one spell of level 1, 2, or 3 (your choice)
-
-1d100 Patch
-
-84–90 2 Mastiffs
-
-91–96 Window (2 feet by 4 feet, up to 2 feet deep), which you can place on a vertical surface you can reach
-
-97–00 Portable Ram
+| 1d100 | Patch |
+| :---- | :---- |
+| 01-08 | Bag of 100 GP |
+| 09–15 | Silver coffer (1 foot long, 6 inches wide and deep) worth 500 GP |
+| 16–22 | Iron door (up to 10 feet wide and 10 feet high, barred on one side of your choice), which you can place in an opening you can reach; it conforms to fit the opening, attaching and hinging itself |
+| 23–30 | 10 gems worth 100 GP each |
+| 31–44 | Wooden ladder (24 feet long) |
+| 45–51 | Riding Horse with a Riding Saddle |
+| 52–59 | Open pit (a 10-foot Cube), which you can place on the ground within 10 feet of yourself |
+| 60–68 | 4 Potions of Healing |
+| 69–75 | Rowboat (12 feet long) |
+| 76–83 | Spell Scroll containing one spell of level 1, 2, or 3 (your choice) |
+| 84–90 | 2 Mastiffs |
+| 91–96 | Window (2 feet by 4 feet, up to 2 feet deep), which you can place on a vertical surface you can reach |
+| 97–00 | Portable Ram |
 
 # Rod of Absorption
 
@@ -17155,9 +17099,6 @@ The level of the spell on the scroll determines the spell's saving throw DC and 
 | 1           | Common   | 13      | +5           |
 | 2           | Uncommon | 13      | +5           |
 | 3           | Uncommon | 15      | +7           |
-
-| Spell Level | Rarity    | Save DC | Attack Bonus |
-| :---------- | :-------- | :------ | :----------- |
 | 4           | Rare      | 15      | +7           |
 | 5           | Rare      | 17      | +9           |
 | 6           | Very Rare | 17      | +9           |
@@ -17181,13 +17122,13 @@ While in control of the sphere, you can take a Bonus Action to cause it to move 
 
 Sphere Interactions. If the sphere comes into contact with a planar portal (such as that created by the Gate spell) or an extradimensional space (such as that within a Portable Hole), the GM determines randomly what happens using the following table.
 
-1d100 Result
+Sphere Interactions
 
-01–50 The sphere is destroyed.
-
-51–85 The sphere moves through the portal or into the extradimensional space.
-
-86–00 A spatial rift sends the sphere and each creature and object within 180 feet of the sphere to a random plane of existence.
+| 1d100 | Result |
+| :---- | :----- |
+| 01–50 | The sphere is destroyed. |
+| 51–85 | The sphere moves through the portal or into the extradimensional space. |
+| 86–00 | A spatial rift sends the sphere and each creature and object within 180 feet of the sphere to a random plane of existence. |
 
 # Staff of Charming
 
@@ -17899,9 +17840,6 @@ Experience Points by Challenge Rating
 | 8   | 3,900   | 25  | 75,000  |
 | 9   | 5,000   | 26  | 90,000  |
 | 10  | 5,900   | 27  | 105,000 |
-
-| CR  | XP     | CR  | XP      |
-| :--- | :----- | :--- | :------ |
 | 11  | 7,200  | 28  | 120,000 |
 | 12  | 8,400  | 29  | 135,000 |
 | 13  | 10,000 | 30  | 155,000 |
@@ -18145,10 +18083,7 @@ Speed 10 ft.
 | 3 (-4) | 8 (-1) | 11 (+0) | 10 (+0) | 10 (+0) | 6 (-2) |
 | Save: -4 | Save: -1 | Save: +0 | Save: +0 | Save: +0 | Save: -2 |
 
-Immunities Poison, Psychic; Charmed, Deafened,
-
-Exhaustion, Frightened, Paralyzed, Petrified, Poisoned
-
+Immunities Poison, Psychic; Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned
 Senses Blindsight 60 ft.; Passive Perception 6
 Languages None
 CR 2 (XP 450; PB +2)
@@ -18175,10 +18110,7 @@ Speed 30 ft., Burrow 10 ft.
 | 17 (+3) | 11 (+0) | 14 (+2) | 1 (-5) | 13 (+1) | 6 (-2) |
 | Save: +3 | Save: +0 | Save: +2 | Save: -5 | Save: +1 | Save: -2 |
 
-Senses Darkvision 60 ft., Tremorsense 60 ft.;
-
-Passive Perception 11
-
+Senses Darkvision 60 ft., Tremorsense 60 ft.; Passive Perception 11
 Languages None
 CR 2 (XP 450; PB +2)
 
@@ -18636,10 +18568,7 @@ Speed 30 ft., Fly 60 ft., Swim 30 ft.
 
 Skills Perception +4, Stealth +4
 Immunities Acid
-Senses Blindsight 10 ft., Darkvision 60 ft.;
-
-Passive Perception 14
-
+Senses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14
 Languages Draconic
 CR 2 (XP 450; PB +2)
 
@@ -18671,10 +18600,7 @@ Speed 40 ft., Fly 80 ft., Swim 40 ft.
 
 Skills Perception +6, Stealth +5
 Immunities Acid
-Senses Blindsight 30 ft., Darkvision 120 ft.;
-
-Passive Perception 16
-
+Senses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 16
 Languages Common, Draconic
 CR 7 (XP 2,900; PB +3)
 
@@ -19351,10 +19277,7 @@ Speed 40 ft., Fly 80 ft., Swim 40 ft.
 
 Skills Insight +10, Perception +17, Stealth +7
 Immunities Lightning
-Senses Blindsight 60 ft., Darkvision 120 ft.;
-
-Passive Perception 27
-
+Senses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 27
 Languages Common, Draconic
 CR 22 (XP 41,000, or 50,000 in lair; PB +7)
 
@@ -19941,10 +19864,7 @@ Speed 40 ft., Climb 40 ft., Fly 80 ft.
 
 Skills Deception +13, Perception +17, Stealth +8
 Immunities Acid
-Senses Blindsight 60 ft., Darkvision 120 ft.;
-
-Passive Perception 27
-
+Senses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 27
 Languages Common, Draconic
 CR 21 (XP 33,000, or 41,000 in lair; PB +7)
 
@@ -21726,8 +21646,8 @@ Pounce. The dragon moves up to half its Speed, and it makes one Rend attack.
 
 Medium Fey, Neutral Evil
 
-AC 17 Initiative +1 (11)
-
+AC 17
+Initiative +1 (11)
 HP 82 (11d8 + 33)
 Speed 30 ft., Swim 30 ft.
 
@@ -21767,8 +21687,8 @@ At Will: Dancing Lights, Disguise Self (24-hour duration), Invisibility (self on
 
 Medium Aberration, Unaligned
 
-AC 14 Initiative +2 (12)
-
+AC 14
+Initiative +2 (12)
 HP 54 (12d8)
 Speed 30 ft., Climb 30 ft.
 
@@ -21796,8 +21716,8 @@ Tentacles. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (1d10 + 2) Slashing damage.
 
 Large Monstrosity, Unaligned
 
-AC 12 Initiative +2 (12)
-
+AC 12
+Initiative +2 (12)
 HP 59 (7d10 + 21)
 Speed 30 ft., Fly 80 ft.
 
@@ -26220,10 +26140,7 @@ Speed 30 ft., Burrow 15 ft., Fly 60 ft., Swim 30 ft.
 
 Skills Perception +4, Stealth +2
 Immunities Cold
-Senses Blindsight 10 ft., Darkvision 60 ft.;
-
-Passive Perception 14
-
+Senses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14
 Languages Draconic
 CR 2 (XP 450; PB +2)
 
@@ -26334,10 +26251,7 @@ Speed 40 ft., Burrow 40 ft., Fly 80 ft., Swim 40 ft.
 
 Skills Perception +13, Stealth +6
 Immunities Cold
-Senses Blindsight 60 ft., Darkvision 120 ft.;
-
-Passive Perception 23
-
+Senses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 23
 Languages Common, Draconic
 CR 20 (XP 25,000, or 33,000 in lair; PB +6)
 
@@ -28031,10 +27945,7 @@ Speed 40 ft., Climb 40 ft.
 | Save: +1 | Save: +3 | Save: +1 | Save: -4 | Save: +1 | Save: -3 |
 
 Skills Perception +3, Stealth +7
-Senses Blindsight 10 ft., Darkvision 60 ft.;
-
-Passive Perception 13
-
+Senses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 13
 Languages None
 CR 1/4 (XP 50; PB +2)
 

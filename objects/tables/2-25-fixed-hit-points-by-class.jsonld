@@ -1,0 +1,72 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/2-25-fixed-hit-points-by-class",
+  "@type": "Table",
+  "name": "Fixed Hit Points by Class",
+  "slug": "2-25-fixed-hit-points-by-class",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.25",
+    "heading": "Gaining a Level",
+    "lineStart": 1202,
+    "lineEnd": 1207,
+    "caption": "Fixed Hit Points by Class"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/2-25-fixed-hit-points-by-class/"
+  },
+  "columns": [
+    "Class",
+    "Hit Points per Level"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "Barbarian"
+        },
+        {
+          "value": "7 + Con. modifier"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "Fighter, Paladin, or Ranger"
+        },
+        {
+          "value": "6 + Con. modifier"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "Bard, Cleric, Druid, Monk, Rogue, or Warlock"
+        },
+        {
+          "value": "5 + Con. modifier"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "Sorcerer or Wizard"
+        },
+        {
+          "value": "4 + Con. modifier"
+        }
+      ]
+    }
+  ],
+  "rawText": "| Class                                        | Hit Points per Level |\n| :------------------------------------------- | :------------------- |\n| Barbarian                                    | 7 + Con. modifier    |\n| Fighter, Paladin, or Ranger                  | 6 + Con. modifier    |\n| Bard, Cleric, Druid, Monk, Rogue, or Warlock | 5 + Con. modifier    |\n| Sorcerer or Wizard                           | 4 + Con. modifier    |"
+}

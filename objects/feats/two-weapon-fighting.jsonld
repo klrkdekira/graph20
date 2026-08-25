@@ -11,8 +11,11 @@
     "chapter": "Feats",
     "section": "5.16",
     "heading": "Two-Weapon Fighting",
-    "lineStart": 5783,
-    "lineEnd": 5787
+    "lineStart": 5759,
+    "lineEnd": 5763
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/feats/two-weapon-fighting/"
   },
   "category": "Fighting Style",
   "prerequisite": "Fighting Style Feature",

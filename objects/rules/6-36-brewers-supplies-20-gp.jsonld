@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.36",
     "heading": "Brewer's Supplies (20 GP)",
-    "lineStart": 6120,
-    "lineEnd": 6126
+    "lineStart": 6096,
+    "lineEnd": 6102
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-36-brewers-supplies-20-gp/"
   },
   "section": "6.36",
   "rulesText": "Ability: Intelligence Weight: 9 lb.\n\nUtilize: Detect poisoned drink (DC 15), or identify alcohol (DC 10)\n\nCraft: Antitoxin"

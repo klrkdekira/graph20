@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.226",
     "heading": "Longstrider",
-    "lineStart": 10358,
-    "lineEnd": 10369
+    "lineStart": 10329,
+    "lineEnd": 10340
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/longstrider/"
   },
   "level": 1,
   "school": "Transmutation",
@@ -43,5 +46,25 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "1 hour",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a pinch of dirt)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a pinch of dirt",
+    "consumed": false
+  }
 }

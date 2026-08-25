@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.96",
     "heading": "Dragon Orb",
-    "lineStart": 15446,
-    "lineEnd": 15468
+    "lineStart": 15408,
+    "lineEnd": 15430
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/dragon-orb/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Artifact",
@@ -29,6 +32,13 @@
       "@id": "https://cheeleong.dev/graph20/objects/spells/suggestion"
     }
   ],
+  "charges": {
+    "capacityText": "7",
+    "capacity": 7,
+    "rechargeText": "The orb has 7 charges and regains 1d4 + 3 expended charges daily at dawn."
+  },
+  "isCursed": false,
+  "isSentient": false,
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"

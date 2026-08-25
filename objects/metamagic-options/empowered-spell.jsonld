@@ -1,0 +1,26 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/metamagic-options/empowered-spell",
+  "@type": "MetamagicOption",
+  "name": "Empowered Spell",
+  "slug": "empowered-spell",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.25",
+    "heading": "Empowered Spell",
+    "lineStart": 4093,
+    "lineEnd": 4099
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/metamagic-options/empowered-spell/"
+  },
+  "cost": "1 Sorcery Point",
+  "sorceryPointCost": 1,
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+  },
+  "rulesText": "Cost: 1 Sorcery Point\n\nWhen you roll damage for a spell, you can spend 1 Sorcery Point to reroll a number of the damage dice up to your Charisma modifier (minimum of one), and you must use the new rolls.\n\nYou can use Empowered Spell even if you've already used a different Metamagic option during the casting of the spell."
+}

@@ -11,13 +11,18 @@
     "chapter": "Magic Items",
     "section": "10.246",
     "heading": "Spellguard Shield",
-    "lineStart": 17136,
-    "lineEnd": 17140
+    "lineStart": 17080,
+    "lineEnd": 17084
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/spellguard-shield/"
   },
   "itemCategory": "Armor",
   "categoryDetail": "Shield",
   "rarity": "Very Rare",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Armor (Shield), Very Rare (Requires Attunement)\n\nWhile holding this Shield, you have Advantage on saving throws against spells and other magical effects, and spell attack rolls have Disadvantage against you."
+  "rulesText": "Armor (Shield), Very Rare (Requires Attunement)\n\nWhile holding this Shield, you have Advantage on saving throws against spells and other magical effects, and spell attack rolls have Disadvantage against you.",
+  "isCursed": false,
+  "isSentient": false
 }

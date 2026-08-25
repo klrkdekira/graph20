@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.219",
     "heading": "Skeletons",
-    "lineStart": 24856,
-    "lineEnd": 24856
+    "lineStart": 24776,
+    "lineEnd": 24776
   },
-  "section": "12.219"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-219-skeletons/"
+  },
+  "section": "12.219",
+  "rulesText": "Skeletons",
+  "headingOnly": true
 }

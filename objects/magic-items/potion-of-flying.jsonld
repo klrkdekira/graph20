@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.186",
     "heading": "Potion of Flying",
-    "lineStart": 16498,
-    "lineEnd": 16504
+    "lineStart": 16454,
+    "lineEnd": 16460
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/potion-of-flying/"
   },
   "itemCategory": "Potion",
   "rarity": "Very Rare",
   "requiresAttunement": false,
-  "rulesText": "Potion, Very Rare\n\nWhen you drink this potion, you gain a Fly Speed equal to your Speed for 1 hour and can hover. If you're in the air when the potion wears off, you fall unless you have some other means of staying aloft.\n\nThis potion's clear liquid floats at the top of its container and has cloudy white impurities drifting in it."
+  "rulesText": "Potion, Very Rare\n\nWhen you drink this potion, you gain a Fly Speed equal to your Speed for 1 hour and can hover. If you're in the air when the potion wears off, you fall unless you have some other means of staying aloft.\n\nThis potion's clear liquid floats at the top of its container and has cloudy white impurities drifting in it.",
+  "isCursed": false,
+  "isSentient": false
 }

@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.93",
     "heading": "Dungeoneer's Pack (12 GP)",
-    "lineStart": 6576,
-    "lineEnd": 6580
+    "lineStart": 6549,
+    "lineEnd": 6553
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-93-dungeoneers-pack-12-gp/"
   },
   "section": "6.93",
   "rulesText": "A Dungeoneer's Pack contains the following items: Backpack, Caltrops, Crowbar, 2 flasks of Oil, 10\n\ndays of Rations, Rope, Tinderbox, 10 Torches, and Waterskin."

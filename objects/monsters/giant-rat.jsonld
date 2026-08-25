@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.43",
     "heading": "Giant Rat",
-    "lineStart": 27746,
-    "lineEnd": 27771
+    "lineStart": 27660,
+    "lineEnd": 27685
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/giant-rat/"
   },
   "sizeTypeAlignment": "Small Beast, Unaligned",
   "sizeAndType": "Small Beast",
+  "size": "Small",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "13",
   "initiative": "+3 (13)",
@@ -75,8 +81,8 @@
         "chapter": "Animals",
         "section": "13.43",
         "heading": "Traits",
-        "lineStart": 27765,
-        "lineEnd": 27767
+        "lineStart": 27679,
+        "lineEnd": 27681
       }
     },
     {
@@ -86,12 +92,35 @@
         "chapter": "Animals",
         "section": "13.43",
         "heading": "Actions",
-        "lineStart": 27769,
-        "lineEnd": 27771
+        "lineStart": 27683,
+        "lineEnd": 27685
       }
     }
   ],
   "rulesText": "Small Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 7 (2d6)\nSpeed 30 ft., Climb 30 ft.\n\nSkills Perception +2\nSenses Darkvision 60 ft.; Passive Perception 12\nLanguages None\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nPack Tactics. The rat has Advantage on an attack roll against a creature if at least one of the rat's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 feet. Hit: 5 (1d4 + 3) Piercing damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Climb",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 2
+    }
+  ],
+  "passivePerception": 12,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Bite",

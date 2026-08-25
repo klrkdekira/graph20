@@ -14,6 +14,9 @@
     "lineStart": 200,
     "lineEnd": 210
   },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-20-armor-class/"
+  },
   "section": "1.20",
   "rulesText": "A creature's Armor Class represents how well the creature avoids being wounded in combat. The AC of a character is determined at character creation (see “Character Creation”), whereas the AC of a monster appears in its stat block.\n\nCalculating AC. All creatures start with the same base AC calculation:\n\nBase AC = 10 + the creature's Dexterity modifier\n\nA creature's AC can then be modified by armor, magic items, spells, and more.\n\nOnly One Base AC. Some spells and class features give characters a different way to calculate their AC. A character with multiple features that give different ways to calculate AC must choose which one to use; only one base calculation can be in effect for a creature."
 }

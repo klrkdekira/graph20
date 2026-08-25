@@ -10,6 +10,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import tomllib
 from pathlib import Path
 from typing import Iterator
 
@@ -20,6 +21,7 @@ SOURCE_FILE = "SRD_CC_v5.2.1.md"
 SYSTEM_SLUG = "srd52"
 MANIFEST_NAME = f"{SYSTEM_SLUG}-system-data.jsonld"
 BUNDLE_NAME = f"{SYSTEM_SLUG}-system-data.bundle.jsonld"
+BUILD_METRICS_NAME = "build-metrics.json"
 
 ATTRIBUTION_STATEMENT = (
     "This work includes material from the System Reference Document 5.2.1 "
@@ -32,9 +34,15 @@ ATTRIBUTION_STATEMENT = (
 COLLECTIONS = [
     "sources",
     "rules",
+    "actions",
+    "areas-of-effect",
+    "attitudes",
+    "hazards",
     "tables",
     "classes",
     "subclasses",
+    "invocations",
+    "metamagic-options",
     "species",
     "backgrounds",
     "feats",
@@ -48,9 +56,15 @@ COLLECTIONS = [
 COLLECTION_TYPES = {
     "sources": "Source",
     "rules": "Rule",
+    "actions": "Action",
+    "areas-of-effect": "AreaOfEffect",
+    "attitudes": "Attitude",
+    "hazards": "Hazard",
     "tables": "Table",
     "classes": "CharacterClass",
     "subclasses": "Subclass",
+    "invocations": "EldritchInvocation",
+    "metamagic-options": "MetamagicOption",
     "species": "Species",
     "backgrounds": "Background",
     "feats": "Feat",
@@ -64,9 +78,15 @@ COLLECTION_TYPES = {
 SCHEMA_FOR_COLLECTION = {
     "sources": "source.schema.json",
     "rules": "rule.schema.json",
+    "actions": "action.schema.json",
+    "areas-of-effect": "area-of-effect.schema.json",
+    "attitudes": "attitude.schema.json",
+    "hazards": "hazard.schema.json",
     "tables": "table.schema.json",
     "classes": "class.schema.json",
     "subclasses": "subclass.schema.json",
+    "invocations": "invocation.schema.json",
+    "metamagic-options": "metamagic-option.schema.json",
     "species": "species.schema.json",
     "backgrounds": "background.schema.json",
     "feats": "feat.schema.json",
@@ -75,6 +95,14 @@ SCHEMA_FOR_COLLECTION = {
     "conditions": "condition.schema.json",
     "magic-items": "magic-item.schema.json",
     "monsters": "monster.schema.json",
+}
+
+SEMANTIC_RELATIONS = {
+    "seeAlso", "relatedRules", "relatedTables", "classes", "subclasses",
+    "parentClass", "spellList", "fromTable", "fromRule",
+    "conditionImmunities", "listsSpell", "castsSpell", "mentionsCondition",
+    "grantsFeat", "hasGear", "summons", "areaShapes", "grantsTool",
+    "grantsEquipment", "eldritchInvocations", "metamagicOptions", "hasPart",
 }
 
 CLASS_NAMES = [
@@ -111,6 +139,11 @@ def slugify(text: str) -> str:
 
 def sha256_of(path: Path) -> str:
     return "sha256-" + hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def project_version(root: Path) -> str:
+    """Return the one repository version declared in pyproject.toml."""
+    return tomllib.loads((root / "pyproject.toml").read_text(encoding="utf-8"))["project"]["version"]
 
 
 def dump_json(path: Path, data) -> None:

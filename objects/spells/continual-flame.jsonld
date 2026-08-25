@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.95",
     "heading": "Continual Flame",
-    "lineStart": 8294,
-    "lineEnd": 8303
+    "lineStart": 8265,
+    "lineEnd": 8274
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/continual-flame/"
   },
   "level": 2,
   "school": "Evocation",
@@ -39,5 +42,27 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Until dispelled",
+    "concentration": false,
+    "kind": "UntilDispelled"
+  },
+  "componentDetails": {
+    "text": "V, S, M (ruby dust worth 50+ GP, which the spell consumes)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "ruby dust worth 50+ GP, which the spell consumes",
+    "consumed": true,
+    "materialCost": {
+      "text": "50 GP",
+      "currency": "GP",
+      "amount": 50
+    }
+  }
 }

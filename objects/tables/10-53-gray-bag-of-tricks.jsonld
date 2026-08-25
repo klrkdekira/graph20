@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.53",
     "heading": "Bag of Tricks",
-    "lineStart": 14994,
-    "lineEnd": 14999
+    "lineStart": 14956,
+    "lineEnd": 14961,
+    "caption": "Gray Bag of Tricks"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-53-gray-bag-of-tricks/"
   },
   "columns": [
     "1d8",

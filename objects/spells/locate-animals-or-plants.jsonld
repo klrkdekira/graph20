@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.223",
     "heading": "Locate Animals or Plants",
-    "lineStart": 10317,
-    "lineEnd": 10326
+    "lineStart": 10288,
+    "lineEnd": 10297
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/locate-animals-or-plants/"
   },
   "level": 2,
   "school": "Divination",
@@ -39,5 +42,22 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": true
+  "ritual": true,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (fur from a bloodhound)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "fur from a bloodhound",
+    "consumed": false
+  }
 }

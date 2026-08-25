@@ -4,17 +4,41 @@ on:
   push:
     branches: [main]
   pull_request:
+  schedule:
+    - cron: "17 3 * * 1"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   check:
+    if: github.event_name != 'schedule'
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.12", "3.13"]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v5
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9 # v9.0.0
         with:
-          python-version: "3.12"
-      - run: uv sync --group dev
+          python-version: ${{ matrix.python-version }}
+          version: "0.11.28"
+      - run: uv sync --locked --group dev
       - run: make check
       # The pipeline regenerates artifacts in place; a dirty tree here means
       # the committed generated files did not match a clean build.
       - run: git diff --exit-code && test -z "$(git status --porcelain)"
+
+  production-mime:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify JSON-LD response media type
+        run: |
+          headers="$(curl -fsSIL https://cheeleong.dev/graph20/objects/spells/fireball.jsonld)"
+          grep -qi '^content-type: application/ld+json' <<<"$headers"

@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.272",
     "heading": "Zombie",
-    "lineStart": 26612,
-    "lineEnd": 26637
+    "lineStart": 26526,
+    "lineEnd": 26551
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/zombie/"
   },
   "sizeTypeAlignment": "Medium Undead, Neutral Evil",
   "sizeAndType": "Medium Undead",
+  "size": "Medium",
+  "creatureType": "Undead",
+  "monsterCategory": "Monster",
   "alignment": "Neutral Evil",
   "armorClass": "8",
   "initiative": "-2 (8)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.272",
         "heading": "Traits",
-        "lineStart": 26631,
-        "lineEnd": 26633
+        "lineStart": 26545,
+        "lineEnd": 26547
       }
     },
     {
@@ -87,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.272",
         "heading": "Actions",
-        "lineStart": 26635,
-        "lineEnd": 26637
+        "lineStart": 26549,
+        "lineEnd": 26551
       }
     }
   ],
@@ -100,6 +106,25 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 20
+    }
+  ],
+  "passivePerception": 8,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Understands Common plus one other language but can't speak"
+  ],
+  "damageImmunities": [
+    "Poison"
   ],
   "attacks": [
     {

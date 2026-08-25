@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.323",
     "heading": "Spider Climb",
-    "lineStart": 11810,
-    "lineEnd": 11821
+    "lineStart": 11781,
+    "lineEnd": 11792
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/spider-climb/"
   },
   "level": 2,
   "school": "Transmutation",
@@ -39,5 +42,25 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 hour",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a drop of bitumen and a spider)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a drop of bitumen and a spider",
+    "consumed": false
+  }
 }

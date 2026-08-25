@@ -1,0 +1,39 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/smiths-tools",
+  "@type": "Equipment",
+  "name": "Smith's Tools",
+  "slug": "smiths-tools",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.48",
+    "heading": "Smith's Tools (20 GP)",
+    "lineStart": 6192,
+    "lineEnd": 6198
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/smiths-tools/"
+  },
+  "equipmentType": "tool",
+  "fromRule": {
+    "@id": "https://cheeleong.dev/graph20/objects/rules/6-48-smiths-tools-20-gp"
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-48-smiths-tools-20-gp"
+    }
+  ],
+  "cost": {
+    "text": "20 GP",
+    "currency": "GP",
+    "amount": 20
+  },
+  "ability": "Strength",
+  "weight": "8 lb.",
+  "weightPounds": 8,
+  "utilize": "Pry open a door or container (DC 20)",
+  "craft": "Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, Ball Bearings, Bucket, Caltrops, Chain, Crowbar, Firearm Bullets, Grappling Hook, Iron Pot, Iron Spikes, Sling Bullets"
+}

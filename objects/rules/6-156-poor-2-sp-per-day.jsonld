@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.156",
     "heading": "Poor (2 SP per Day)",
-    "lineStart": 6905,
-    "lineEnd": 6907
+    "lineStart": 6878,
+    "lineEnd": 6880
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-156-poor-2-sp-per-day/"
   },
   "section": "6.156",
   "rulesText": "You spend frugally for your necessities."

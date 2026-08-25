@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.13",
     "heading": "Camel",
-    "lineStart": 26952,
-    "lineEnd": 26972
+    "lineStart": 26866,
+    "lineEnd": 26886
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/camel/"
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
+  "size": "Large",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "10",
   "initiative": "-1 (9)",
@@ -75,12 +81,25 @@
         "chapter": "Animals",
         "section": "13.13",
         "heading": "Actions",
-        "lineStart": 26970,
-        "lineEnd": 26972
+        "lineStart": 26884,
+        "lineEnd": 26886
       }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 10\nInitiative -1 (9)\nHP 17 (2d10 + 6)\nSpeed 50 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages None\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 50
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Bite",

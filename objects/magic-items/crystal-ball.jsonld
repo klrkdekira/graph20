@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.83",
     "heading": "Crystal Ball",
-    "lineStart": 15281,
-    "lineEnd": 15285
+    "lineStart": 15243,
+    "lineEnd": 15247
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/crystal-ball/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Very Rare",
@@ -23,5 +26,7 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/scrying"
     }
-  ]
+  ],
+  "isCursed": false,
+  "isSentient": false
 }

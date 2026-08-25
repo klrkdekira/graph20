@@ -11,8 +11,11 @@
     "chapter": "Playing the Game",
     "section": "1.93",
     "heading": "Saving Throws and Damage",
-    "lineStart": 753,
-    "lineEnd": 755
+    "lineStart": 751,
+    "lineEnd": 753
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-93-saving-throws-and-damage/"
   },
   "section": "1.93",
   "rulesText": "Damage dealt via saving throws uses these rules."

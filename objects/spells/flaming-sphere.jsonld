@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.160",
     "heading": "Flaming Sphere",
-    "lineStart": 9337,
-    "lineEnd": 9352
+    "lineStart": 9308,
+    "lineEnd": 9323
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/flaming-sphere/"
   },
   "level": 2,
   "school": "Conjuration",
@@ -38,6 +41,16 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "You create a 5-foot-diameter sphere of fire in an unoccupied space on the ground within range. It lasts for the duration. Any creature that ends its turn within 5 feet of the sphere makes a Dexterity saving throw, taking 2d6 Fire damage on a failed save or half as much damage on a successful one.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Fire",
@@ -50,5 +63,26 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a ball of wax)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a ball of wax",
+    "consumed": false
+  }
 }

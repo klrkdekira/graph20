@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.42",
     "heading": "Antimagic Field",
-    "lineStart": 7469,
-    "lineEnd": 7484
+    "lineStart": 7442,
+    "lineEnd": 7457
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/antimagic-field/"
   },
   "level": 8,
   "school": "Abjuration",
@@ -35,5 +38,40 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 hour",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (iron filings)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "iron filings",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Emanation",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+      },
+      "sourceText": "An aura of antimagic surrounds you in 10-foot Emanation.",
+      "sizeFeet": 10
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+    }
+  ]
 }

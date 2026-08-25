@@ -1,0 +1,64 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/longship",
+  "@type": "Equipment",
+  "name": "Longship",
+  "slug": "longship",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.148",
+    "heading": "Speed",
+    "lineStart": 6836,
+    "lineEnd": 6844,
+    "caption": "Airborne and Waterborne Vehicles"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/longship/"
+  },
+  "equipmentType": "vehicle",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-148-airborne-and-waterborne-vehicles"
+  },
+  "attributes": [
+    {
+      "name": "Speed",
+      "value": "3 mph"
+    },
+    {
+      "name": "Crew",
+      "value": "40"
+    },
+    {
+      "name": "Passengers",
+      "value": "150"
+    },
+    {
+      "name": "Cargo (Tons)",
+      "value": "10"
+    },
+    {
+      "name": "AC",
+      "value": "15"
+    },
+    {
+      "name": "HP",
+      "value": "300"
+    },
+    {
+      "name": "Damage Threshold",
+      "value": "15"
+    },
+    {
+      "name": "Cost",
+      "value": "10,000 GP"
+    }
+  ],
+  "cost": {
+    "text": "10,000 GP",
+    "currency": "GP",
+    "amount": 10000
+  }
+}

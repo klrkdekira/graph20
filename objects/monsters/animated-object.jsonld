@@ -11,11 +11,17 @@
     "chapter": "Spells",
     "section": "7.40",
     "heading": "Animated Object",
-    "lineStart": 7431,
-    "lineEnd": 7452
+    "lineStart": 7404,
+    "lineEnd": 7425
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/animated-object/"
   },
   "sizeTypeAlignment": "Huge or Smaller Construct, Unaligned",
   "sizeAndType": "Huge or Smaller Construct",
+  "size": "Huge or Smaller",
+  "creatureType": "Construct",
+  "monsterCategory": "Monster",
   "alignment": "Unaligned",
   "armorClass": "15",
   "hitPoints": "10 (Medium or smaller), 20 (Large), 40 (Huge)",
@@ -65,8 +71,8 @@
         "chapter": "Spells",
         "section": "7.40",
         "heading": "Actions",
-        "lineStart": 7450,
-        "lineEnd": 7452
+        "lineStart": 7423,
+        "lineEnd": 7425
       }
     }
   ],
@@ -87,6 +93,26 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 6,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 30
+    }
+  ],
+  "languageList": [
+    "Understands the languages you know"
+  ],
+  "damageImmunities": [
+    "Poison",
+    "Psychic"
   ],
   "unparsedAttacks": [
     {

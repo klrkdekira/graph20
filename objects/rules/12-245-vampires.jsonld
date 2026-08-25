@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.245",
     "heading": "Vampires",
-    "lineStart": 25728,
-    "lineEnd": 25728
+    "lineStart": 25648,
+    "lineEnd": 25648
   },
-  "section": "12.245"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-245-vampires/"
+  },
+  "section": "12.245",
+  "rulesText": "Vampires",
+  "headingOnly": true
 }

@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.80",
     "heading": "Drider",
-    "lineStart": 20376,
-    "lineEnd": 20415
+    "lineStart": 20296,
+    "lineEnd": 20335
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/drider/"
   },
   "sizeTypeAlignment": "Large Monstrosity, Chaotic Evil",
   "sizeAndType": "Large Monstrosity",
+  "size": "Large",
+  "creatureType": "Monstrosity",
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "19",
   "initiative": "+4 (14)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.80",
         "heading": "Traits",
-        "lineStart": 20397,
-        "lineEnd": 20403
+        "lineStart": 20317,
+        "lineEnd": 20323
       }
     },
     {
@@ -87,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.80",
         "heading": "Actions",
-        "lineStart": 20405,
-        "lineEnd": 20411
+        "lineStart": 20325,
+        "lineEnd": 20331
       }
     },
     {
@@ -98,12 +104,43 @@
         "chapter": "Monsters A-Z",
         "section": "12.80",
         "heading": "Bonus Actions",
-        "lineStart": 20413,
-        "lineEnd": 20415
+        "lineStart": 20333,
+        "lineEnd": 20335
       }
     }
   ],
   "rulesText": "Large Monstrosity, Chaotic Evil\n\nAC 19\nInitiative +4 (14)\nHP 123 (13d10 + 52)\nSpeed 30 ft., Climb 30 ft.\n\nSkills Perception +6, Stealth +10\nSenses Darkvision 120 ft.; Passive Perception 16\nLanguages Elvish, Undercommon\nCR 6 (XP 2,300; PB +3)\n\nTraits\n\nSpider Climb. The drider can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nSunlight Sensitivity. While in sunlight, the drider has Disadvantage on ability checks and attack rolls.\n\nWeb Walker. The drider ignores movement restrictions caused by webs, and the drider knows the location of any other creature in contact with the same web.\n\nActions\n\nMultiattack. The drider makes three attacks, using Foreleg or Poison Burst in any combination.\n\nForeleg. Melee Attack Roll: +7, reach 10 ft. Hit: 13 (2d8 + 4) Piercing damage.\n\nPoison Burst. Ranged Attack Roll: +6, range 120 ft. Hit: 13 (3d6 + 3) Poison damage.\n\nBonus Actions\n\nMagic of the Spider Queen (Recharge 5–6). The drider casts Darkness, Faerie Fire, or Web, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 14).",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Climb",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 6
+    },
+    {
+      "name": "Stealth",
+      "bonus": 10
+    }
+  ],
+  "passivePerception": 16,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Elvish",
+    "Undercommon"
+  ],
   "attacks": [
     {
       "name": "Foreleg",

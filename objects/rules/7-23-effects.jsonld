@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.23",
     "heading": "Effects",
-    "lineStart": 7233,
-    "lineEnd": 7235
+    "lineStart": 7206,
+    "lineEnd": 7208
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/7-23-effects/"
   },
   "section": "7.23",
   "rulesText": "The effects of a spell are detailed after its duration entry. Those details present exactly what the spell does, which ignores mundane physical laws; any outcomes beyond those effects are under the GM's purview. Whatever the effects, they typically deal with targets, saving throws, attack rolls, or all three, each of which is detailed below."

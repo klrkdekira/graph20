@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.263",
     "heading": "Ancient White Dragon",
-    "lineStart": 26321,
-    "lineEnd": 26366
+    "lineStart": 26238,
+    "lineEnd": 26280
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/ancient-white-dragon/"
   },
   "sizeTypeAlignment": "Gargantuan Dragon (Chromatic), Chaotic Evil",
   "sizeAndType": "Gargantuan Dragon (Chromatic)",
+  "size": "Gargantuan",
+  "creatureType": "Dragon",
+  "descriptiveTags": [
+    "Chromatic"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "20",
   "initiative": "+12 (22)",
@@ -23,7 +32,7 @@
   "speed": "40 ft., Burrow 40 ft., Fly 80 ft., Swim 40 ft.",
   "skills": "Perception +13, Stealth +6",
   "immunities": "Cold",
-  "senses": "Blindsight 60 ft., Darkvision 120 ft.;",
+  "senses": "Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 23",
   "languages": "Common, Draconic",
   "challenge": "20 (XP 25,000, or 33,000 in lair; PB +6)",
   "armorClassValue": 20,
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.263",
         "heading": "Traits",
-        "lineStart": 26344,
-        "lineEnd": 26348
+        "lineStart": 26258,
+        "lineEnd": 26262
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.263",
         "heading": "Actions",
-        "lineStart": 26350,
-        "lineEnd": 26356
+        "lineStart": 26264,
+        "lineEnd": 26270
       }
     },
     {
@@ -99,12 +108,58 @@
         "chapter": "Monsters A-Z",
         "section": "12.263",
         "heading": "Legendary Actions",
-        "lineStart": 26358,
-        "lineEnd": 26366
+        "lineStart": 26272,
+        "lineEnd": 26280
       }
     }
   ],
-  "rulesText": "Gargantuan Dragon (Chromatic), Chaotic Evil\n\nAC 20\nInitiative +12 (22)\nHP 333 (18d20 + 144)\nSpeed 40 ft., Burrow 40 ft., Fly 80 ft., Swim 40 ft.\n\nSkills Perception +13, Stealth +6\nImmunities Cold\nSenses Blindsight 60 ft., Darkvision 120 ft.;\n\nPassive Perception 23\n\nLanguages Common, Draconic\nCR 20 (XP 25,000, or 33,000 in lair; PB +6)\n\nTraits\n\nIce Walk. The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn't cost it extra movement.\n\nLegendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +14, reach 15 ft. Hit: 17 (2d8 + 8) Slashing damage plus 7 (2d6) Cold damage.\n\nCold Breath (Recharge 5–6). Constitution Saving Throw: DC 22, each creature in a 90-foot Cone. Failure: 63 (14d8) Cold damage. Success: Half damage.\n\nLegendary Actions\n\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nFreezing Burst. Constitution Saving Throw: DC 20, each creature in a 30-foot-radius Sphere centered on a point the dragon can see within 120 feet. Failure: 14 (4d6) Cold damage, and the target's Speed is 0 until the end of the target's next turn. Failure or Success: The dragon can't take this action again until the start of its next turn.\n\nFrightful Presence. The dragon casts Fear, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 18). The dragon can't take this action again until the start of its next turn.\n\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.",
+  "rulesText": "Gargantuan Dragon (Chromatic), Chaotic Evil\n\nAC 20\nInitiative +12 (22)\nHP 333 (18d20 + 144)\nSpeed 40 ft., Burrow 40 ft., Fly 80 ft., Swim 40 ft.\n\nSkills Perception +13, Stealth +6\nImmunities Cold\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 23\nLanguages Common, Draconic\nCR 20 (XP 25,000, or 33,000 in lair; PB +6)\n\nTraits\n\nIce Walk. The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn't cost it extra movement.\n\nLegendary Resistance (4/Day, or 5/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +14, reach 15 ft. Hit: 17 (2d8 + 8) Slashing damage plus 7 (2d6) Cold damage.\n\nCold Breath (Recharge 5–6). Constitution Saving Throw: DC 22, each creature in a 90-foot Cone. Failure: 63 (14d8) Cold damage. Success: Half damage.\n\nLegendary Actions\n\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nFreezing Burst. Constitution Saving Throw: DC 20, each creature in a 30-foot-radius Sphere centered on a point the dragon can see within 120 feet. Failure: 14 (4d6) Cold damage, and the target's Speed is 0 until the end of the target's next turn. Failure or Success: The dragon can't take this action again until the start of its next turn.\n\nFrightful Presence. The dragon casts Fear, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 18). The dragon can't take this action again until the start of its next turn.\n\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Burrow",
+      "feet": 40
+    },
+    {
+      "mode": "Fly",
+      "feet": 80
+    },
+    {
+      "mode": "Swim",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 13
+    },
+    {
+      "name": "Stealth",
+      "bonus": 6
+    }
+  ],
+  "passivePerception": 23,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 60
+    },
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Common",
+    "Draconic"
+  ],
+  "damageImmunities": [
+    "Cold"
+  ],
   "attacks": [
     {
       "name": "Rend",

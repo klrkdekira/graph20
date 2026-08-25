@@ -11,8 +11,11 @@
     "chapter": "Feats",
     "section": "5.18",
     "heading": "Boon of Combat Prowess",
-    "lineStart": 5791,
-    "lineEnd": 5799
+    "lineStart": 5767,
+    "lineEnd": 5775
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/feats/boon-of-combat-prowess/"
   },
   "category": "Epic Boon",
   "prerequisite": "Level 19+",

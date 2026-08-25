@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.9",
     "heading": "Black Bear",
-    "lineStart": 26847,
-    "lineEnd": 26870
+    "lineStart": 26761,
+    "lineEnd": 26784
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/black-bear/"
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
+  "size": "Medium",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "11",
   "initiative": "+1 (11)",
@@ -76,12 +82,39 @@
         "chapter": "Animals",
         "section": "13.9",
         "heading": "Actions",
-        "lineStart": 26866,
-        "lineEnd": 26870
+        "lineStart": 26780,
+        "lineEnd": 26784
       }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 11\nInitiative +1 (11)\nHP 19 (3d8 + 6)\nSpeed 30 ft., Climb 30 ft., Swim 30 ft.\n\nSkills Perception +5\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages None\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nMultiattack. The bear makes two Rend attacks.\n\nRend. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Slashing damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Climb",
+      "feet": 30
+    },
+    {
+      "mode": "Swim",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 15,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Rend",

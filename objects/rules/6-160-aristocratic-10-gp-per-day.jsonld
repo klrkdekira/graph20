@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.160",
     "heading": "Aristocratic (10 GP per Day)",
-    "lineStart": 6921,
-    "lineEnd": 6923
+    "lineStart": 6894,
+    "lineEnd": 6896
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-160-aristocratic-10-gp-per-day/"
   },
   "section": "6.160",
   "rulesText": "You pay for the best and might have a staff that supports your lifestyle. Others notice your wealth and might encourage you to share it, either legally or otherwise."

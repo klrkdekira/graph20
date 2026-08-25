@@ -1,0 +1,26 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/metamagic-options/quickened-spell",
+  "@type": "MetamagicOption",
+  "name": "Quickened Spell",
+  "slug": "quickened-spell",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.25",
+    "heading": "Quickened Spell",
+    "lineStart": 4115,
+    "lineEnd": 4119
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/metamagic-options/quickened-spell/"
+  },
+  "cost": "2 Sorcery Points",
+  "sorceryPointCost": 2,
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+  },
+  "rulesText": "Cost: 2 Sorcery Points\n\nWhen you cast a spell that has a casting time of an action, you can spend 2 Sorcery Points to change the casting time to a Bonus Action for this casting. You can't modify a spell in this way if you've already cast a level 1+ spell on the current turn, nor can you cast a level 1+ spell on this turn after modifying a spell in this way."
+}

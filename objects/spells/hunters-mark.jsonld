@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.203",
     "heading": "Hunter's Mark",
-    "lineStart": 10021,
-    "lineEnd": 10034
+    "lineStart": 9992,
+    "lineEnd": 10005
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/hunters-mark/"
   },
   "level": 1,
   "school": "Divination",
@@ -41,5 +44,24 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "90 feet",
+    "kind": "Distance",
+    "distanceFeet": 90
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 hour",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V",
+    "verbal": true,
+    "somatic": false,
+    "material": false
+  }
 }

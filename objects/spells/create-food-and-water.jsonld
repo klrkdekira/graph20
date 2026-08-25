@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.99",
     "heading": "Create Food and Water",
-    "lineStart": 8376,
-    "lineEnd": 8385
+    "lineStart": 8347,
+    "lineEnd": 8356
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/create-food-and-water/"
   },
   "level": 3,
   "school": "Conjuration",
@@ -35,5 +38,21 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

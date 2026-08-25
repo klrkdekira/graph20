@@ -21,7 +21,8 @@
     "attributionStatement": { "type": "string", "minLength": 1 },
     "canonicalUrl": { "$ref": "common.schema.json#/$defs/NodeReference" },
     "sourceFile": { "type": "string", "minLength": 1 },
-    "contentDigest": { "type": "string", "pattern": "^sha256-[0-9a-f]{64}$" }
+    "contentDigest": { "type": "string", "pattern": "^sha256-[0-9a-f]{64}$" },
+    "htmlPage": { "$ref": "common.schema.json#/$defs/NodeReference" }
   },
   "required": [
     "@context",
@@ -36,7 +37,8 @@
     "attributionStatement",
     "canonicalUrl",
     "sourceFile",
-    "contentDigest"
+    "contentDigest",
+    "htmlPage"
   ],
   "unevaluatedProperties": false
 }

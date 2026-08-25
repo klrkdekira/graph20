@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.69",
     "heading": "Swarm of Crawling Claws",
-    "lineStart": 20028,
-    "lineEnd": 20054
+    "lineStart": 19948,
+    "lineEnd": 19974
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/swarm-of-crawling-claws/"
   },
   "sizeTypeAlignment": "Medium Swarm of Tiny Undead, Neutral Evil",
   "sizeAndType": "Medium Swarm of Tiny Undead",
+  "size": "Medium",
+  "creatureType": "Undead",
+  "descriptiveTags": [
+    "Swarm of Tiny Undead"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Neutral Evil",
   "armorClass": "12",
   "initiative": "+2 (12)",
@@ -76,8 +85,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.69",
         "heading": "Traits",
-        "lineStart": 20048,
-        "lineEnd": 20050
+        "lineStart": 19968,
+        "lineEnd": 19970
       }
     },
     {
@@ -87,8 +96,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.69",
         "heading": "Actions",
-        "lineStart": 20052,
-        "lineEnd": 20054
+        "lineStart": 19972,
+        "lineEnd": 19974
       }
     }
   ],
@@ -127,6 +136,35 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/stunned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Climb",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 30
+    }
+  ],
+  "languageList": [
+    "Understands Common but can't speak"
+  ],
+  "damageImmunities": [
+    "Necrotic",
+    "Poison"
+  ],
+  "damageResistances": [
+    "Bludgeoning",
+    "Piercing",
+    "Slashing"
   ],
   "attacks": [
     {

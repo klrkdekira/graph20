@@ -11,8 +11,11 @@
     "chapter": "Monsters",
     "section": "11.8",
     "heading": "Armor Class",
-    "lineStart": 17783,
-    "lineEnd": 17785
+    "lineStart": 17724,
+    "lineEnd": 17726
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/11-8-armor-class/"
   },
   "section": "11.8",
   "rulesText": "A monster's Armor Class (AC) includes its natural armor, Dexterity, gear, and other defenses. See \"Playing the Game\" for information on Armor Class."

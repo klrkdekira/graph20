@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.274",
     "heading": "Trident of Fish Command",
-    "lineStart": 17495,
-    "lineEnd": 17499
+    "lineStart": 17436,
+    "lineEnd": 17440
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/trident-of-fish-command/"
   },
   "itemCategory": "Weapon",
   "categoryDetail": "Trident",
@@ -24,5 +27,12 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/dominate-beast"
     }
-  ]
+  ],
+  "charges": {
+    "capacityText": "3",
+    "capacity": 3,
+    "rechargeText": "This magic weapon has 3 charges, and it regains 1d3 expended charges daily at dawn."
+  },
+  "isCursed": false,
+  "isSentient": false
 }

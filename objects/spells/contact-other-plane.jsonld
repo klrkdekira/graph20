@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.92",
     "heading": "Contact Other Plane",
-    "lineStart": 8251,
-    "lineEnd": 8262
+    "lineStart": 8222,
+    "lineEnd": 8233
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/contact-other-plane/"
   },
   "level": 5,
   "school": "Divination",
@@ -34,6 +37,16 @@
     }
   ],
   "savingThrowAbility": "Intelligence",
+  "savingThrows": [
+    {
+      "ability": "Intelligence",
+      "sourceText": "You mentally contact a demigod, the spirit of a long-dead sage, or some other knowledgeable entity from another plane. Contacting this otherworldly intelligence can break your mind. When you cast this spell, make a DC 15 Intelligence saving throw. On a successful save, you can ask the entity up to five questions. You must ask your questions before the spell ends. The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “ir-relevant,” or “unclear” (if the entity doesn’t know the answer to the question). If a one-word answer would be misleading, the GM might instead offer a short phrase as an answer.",
+      "fixedDC": 15,
+      "outcomes": [
+        "Partial"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Psychic",
@@ -47,6 +60,24 @@
   "scalesWithSlotLevel": false,
   "concentration": false,
   "ritual": true,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "1 minute",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V",
+    "verbal": true,
+    "somatic": false,
+    "material": false
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"

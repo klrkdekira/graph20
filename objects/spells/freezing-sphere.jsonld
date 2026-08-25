@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.169",
     "heading": "Freezing Sphere",
-    "lineStart": 9474,
-    "lineEnd": 9489
+    "lineStart": 9445,
+    "lineEnd": 9460
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/freezing-sphere/"
   },
   "level": 6,
   "school": "Evocation",
@@ -34,6 +37,16 @@
     }
   ],
   "savingThrowAbility": "Constitution",
+  "savingThrows": [
+    {
+      "ability": "Constitution",
+      "sourceText": "A frigid globe streaks from you to a point of your choice within range, where it explodes in a 60-foot-radius Sphere. Each creature in that area makes a Constitution saving throw, taking 10d6 Cold damage on failed save or half as much damage on a successful one.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Cold",
@@ -47,6 +60,39 @@
   "scalesWithSlotLevel": true,
   "concentration": false,
   "ritual": false,
+  "rangeDetails": {
+    "text": "300 feet",
+    "kind": "Distance",
+    "distanceFeet": 300
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a miniature crystal sphere)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a miniature crystal sphere",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "A frigid globe streaks from you to a point of your choice within range, where it explodes in a 60-foot-radius Sphere.",
+      "radiusFeet": 60
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+    }
+  ],
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"

@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.23",
     "heading": "Elk",
-    "lineStart": 27208,
-    "lineEnd": 27229
+    "lineStart": 27122,
+    "lineEnd": 27143
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/elk/"
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
+  "size": "Large",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "10",
   "initiative": "+0 (10)",
@@ -75,12 +81,31 @@
         "chapter": "Animals",
         "section": "13.23",
         "heading": "Actions",
-        "lineStart": 27227,
-        "lineEnd": 27229
+        "lineStart": 27141,
+        "lineEnd": 27143
       }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 10\nInitiative +0 (10)\nHP 11 (2d10)\nSpeed 50 ft.\n\nSkills Perception +2\nSenses Darkvision 60 ft.; Passive Perception 12\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nRam. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Bludgeoning damage and has the Prone condition.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 50
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 2
+    }
+  ],
+  "passivePerception": 12,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Ram",

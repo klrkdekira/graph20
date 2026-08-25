@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.296",
     "heading": "Sanctuary",
-    "lineStart": 11415,
-    "lineEnd": 11424
+    "lineStart": 11386,
+    "lineEnd": 11395
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/sanctuary/"
   },
   "level": 1,
   "school": "Abjuration",
@@ -30,7 +33,34 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "You ward a creature within range. Until the spell ends, any creature who targets the warded creature with an attack roll or a damaging spell must succeed on a Wisdom saving throw or either choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from areas of effect. The spell ends if the warded creature makes an attack roll, casts a spell, or deals damage."
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "1 minute",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a shard of glass from a mirror)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a shard of glass from a mirror",
+    "consumed": false
+  }
 }

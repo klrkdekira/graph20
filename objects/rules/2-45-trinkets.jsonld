@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/2-45-trinkets",
+  "@type": "Rule",
+  "name": "Trinkets",
+  "slug": "2-45-trinkets",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.45",
+    "heading": "Trinkets",
+    "lineStart": 1363,
+    "lineEnd": 1472
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/2-45-trinkets/"
+  },
+  "section": "2.45",
+  "rulesText": "When you make your character, you can roll once on the Trinkets table to gain a Tiny trinket, a simple item lightly touched by mystery. The GM might also use this table. It can help stock a room in a dungeon or fill a creature's pockets.",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/2-45-trinkets"
+    }
+  ]
+}

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.251",
     "heading": "Misty Step",
-    "lineStart": 10738,
-    "lineEnd": 10747
+    "lineStart": 10709,
+    "lineEnd": 10718
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/misty-step/"
   },
   "level": 2,
   "school": "Conjuration",
@@ -39,5 +42,20 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V",
+    "verbal": true,
+    "somatic": false,
+    "material": false
+  }
 }

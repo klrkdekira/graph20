@@ -10,9 +10,13 @@
   "sourceLocator": {
     "chapter": "Equipment",
     "section": "6.31",
-    "heading": "Armor",
-    "lineStart": 6070,
-    "lineEnd": 6088
+    "heading": "One at a Time",
+    "lineStart": 6046,
+    "lineEnd": 6064,
+    "caption": "Armor"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/shield/"
   },
   "equipmentType": "armor",
   "fromTable": {
@@ -22,6 +26,7 @@
   "donDoffTime": "Utilize Action to Don or Doff",
   "armorClass": "+2",
   "weight": "6 lb.",
+  "weightPounds": 6,
   "cost": {
     "text": "10 GP",
     "currency": "GP",

@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.59",
     "heading": "Boots of Elvenkind",
-    "lineStart": 15083,
-    "lineEnd": 15087
+    "lineStart": 15045,
+    "lineEnd": 15049
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/boots-of-elvenkind/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": false,
-  "rulesText": "Wondrous Item, Uncommon\n\nWhile you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have Advantage on Dexterity (Stealth) checks."
+  "rulesText": "Wondrous Item, Uncommon\n\nWhile you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have Advantage on Dexterity (Stealth) checks.",
+  "isCursed": false,
+  "isSentient": false
 }

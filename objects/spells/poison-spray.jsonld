@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.265",
     "heading": "Poison Spray",
-    "lineStart": 10946,
-    "lineEnd": 10957
+    "lineStart": 10917,
+    "lineEnd": 10928
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/poison-spray/"
   },
   "level": 0,
   "school": "Necromancy",
@@ -53,5 +56,21 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

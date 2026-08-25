@@ -11,8 +11,11 @@
     "chapter": "Character Creation",
     "section": "2.16",
     "heading": "Adjust Ability Scores",
-    "lineStart": 1050,
-    "lineEnd": 1056
+    "lineStart": 1045,
+    "lineEnd": 1051
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/2-16-adjust-ability-scores/"
   },
   "section": "2.16",
   "rulesText": "After assigning your ability scores, adjust them according to your background. Your background lists three abilities; increase one of those scores by 2 and\n\na different one by 1, or increase all three by 1. None of these increases can raise a score above 20.\n\nSome players like to increase their class's primary ability, while others prefer to increase a low score."

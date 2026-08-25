@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.210",
     "heading": "Incendiary Cloud",
-    "lineStart": 10134,
-    "lineEnd": 10147
+    "lineStart": 10105,
+    "lineEnd": 10118
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/incendiary-cloud/"
   },
   "level": 8,
   "school": "Conjuration",
@@ -38,6 +41,16 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "When the cloud appears, each creature in it makes a Dexterity saving throw, taking 10d8 Fire damage on a failed save or half as much damage on a successful one. A creature must also make this save when the Sphere moves into its space and when it enters the Sphere or ends its turn there. A creature makes this save only once per turn.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Fire",
@@ -50,5 +63,46 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "150 feet",
+    "kind": "Distance",
+    "distanceFeet": 150
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "A swirling cloud of embers and smoke fills a 20-foot-radius Sphere centered on a point within range.",
+      "radiusFeet": 20
+    },
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "A creature must also make this save when the Sphere moves into its space and when it enters the Sphere or ends its turn there."
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+    }
+  ]
 }

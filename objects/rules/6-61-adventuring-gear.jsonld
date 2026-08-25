@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.61",
     "heading": "Adventuring Gear",
-    "lineStart": 6330,
-    "lineEnd": 6332
+    "lineStart": 6306,
+    "lineEnd": 6308
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-61-adventuring-gear/"
   },
   "section": "6.61",
   "rulesText": "The Adventuring Gear table in this section includes gear that adventurers often find useful. These items are described here in alphabetical order, with an item's price appearing after its name."

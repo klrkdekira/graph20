@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.83",
     "heading": "Earth Elemental",
-    "lineStart": 20500,
-    "lineEnd": 20534
+    "lineStart": 20420,
+    "lineEnd": 20454
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/earth-elemental/"
   },
   "sizeTypeAlignment": "Large Elemental, Neutral",
   "sizeAndType": "Large Elemental",
+  "size": "Large",
+  "creatureType": "Elemental",
+  "monsterCategory": "Monster",
   "alignment": "Neutral",
   "armorClass": "17",
   "initiative": "-1 (9)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.83",
         "heading": "Traits",
-        "lineStart": 20522,
-        "lineEnd": 20526
+        "lineStart": 20442,
+        "lineEnd": 20446
       }
     },
     {
@@ -88,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.83",
         "heading": "Actions",
-        "lineStart": 20528,
-        "lineEnd": 20534
+        "lineStart": 20448,
+        "lineEnd": 20454
       }
     }
   ],
@@ -110,6 +116,36 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Burrow",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    },
+    {
+      "name": "Tremorsense",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Primordial (Terran)"
+  ],
+  "damageImmunities": [
+    "Poison"
+  ],
+  "damageVulnerabilities": [
+    "Thunder"
   ],
   "attacks": [
     {

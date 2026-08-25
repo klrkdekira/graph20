@@ -11,14 +11,19 @@
     "chapter": "Magic Items",
     "section": "10.175",
     "heading": "Periapt of Proof against Poison",
-    "lineStart": 16404,
-    "lineEnd": 16408
+    "lineStart": 16360,
+    "lineEnd": 16364
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/periapt-of-proof-against-poison/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Rare",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
   "rulesText": "Wondrous Item, Rare (Requires Attunement)\n\nThis delicate silver chain has a brilliant-cut black gem pendant. While you wear it, you have Immunity to the Poisoned condition and Poison damage.",
+  "isCursed": false,
+  "isSentient": false,
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"

@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.32",
     "heading": "Wizard Spell List",
-    "lineStart": 5179,
-    "lineEnd": 5206
+    "lineStart": 5155,
+    "lineEnd": 5182,
+    "caption": "Level 4 Wizard Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-32-level-4-wizard-spells/"
   },
   "columns": [
     "Spell",

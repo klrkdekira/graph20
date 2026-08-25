@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.147",
     "heading": "Feather Fall",
-    "lineStart": 9119,
-    "lineEnd": 9128
+    "lineStart": 9090,
+    "lineEnd": 9099
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/feather-fall/"
   },
   "level": 1,
   "school": "Transmutation",
@@ -39,5 +42,26 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "1 minute",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, M (a small feather or piece of down)",
+    "verbal": true,
+    "somatic": false,
+    "material": true,
+    "materialText": "a small feather or piece of down",
+    "consumed": false
+  }
 }

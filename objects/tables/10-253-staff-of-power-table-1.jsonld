@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.253",
     "heading": "Staff of Power",
-    "lineStart": 17258,
-    "lineEnd": 17268
+    "lineStart": 17199,
+    "lineEnd": 17209,
+    "caption": "Staff of Power Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-253-staff-of-power-table-1/"
   },
   "columns": [
     "Spell",

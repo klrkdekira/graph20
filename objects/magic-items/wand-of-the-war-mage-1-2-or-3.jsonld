@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.288",
     "heading": "Wand of the War Mage, +1, +2, or +3",
-    "lineStart": 17613,
-    "lineEnd": 17617
+    "lineStart": 17554,
+    "lineEnd": 17558
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/wand-of-the-war-mage-1-2-or-3/"
   },
   "itemCategory": "Wand",
   "rarities": [
@@ -31,5 +34,8 @@
   ],
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement by a Spellcaster",
-  "rulesText": "Wand, Uncommon (+1), Rare (+2), or Very Rare (+3) (Requires Attunement by a Spellcaster)\n\nWhile holding this wand, you gain a bonus to spell attack rolls determined by the wand's rarity. In addition, you ignore Half Cover when making a spell attack roll."
+  "rulesText": "Wand, Uncommon (+1), Rare (+2), or Very Rare (+3) (Requires Attunement by a Spellcaster)\n\nWhile holding this wand, you gain a bonus to spell attack rolls determined by the wand's rarity. In addition, you ignore Half Cover when making a spell attack roll.",
+  "isCursed": false,
+  "isSentient": false,
+  "attunementRestriction": "Requires Attunement by a Spellcaster"
 }

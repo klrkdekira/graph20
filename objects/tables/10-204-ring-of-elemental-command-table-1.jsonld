@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.204",
     "heading": "Ring of Elemental Command",
-    "lineStart": 16703,
-    "lineEnd": 16708
+    "lineStart": 16659,
+    "lineEnd": 16664,
+    "caption": "Ring of Elemental Command Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-204-ring-of-elemental-command-table-1/"
   },
   "columns": [
     "Plane",

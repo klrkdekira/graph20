@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-76-adjustments",
+  "@type": "Rule",
+  "name": "Adjustments",
+  "slug": "9-76-adjustments",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.76",
+    "heading": "Adjustments",
+    "lineStart": 14415,
+    "lineEnd": 14417
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/9-76-adjustments/"
+  },
+  "section": "9.76",
+  "rulesText": "A player's absence might warrant removing creatures from an encounter to keep it at the intended difficulty. Also, die rolls and other factors can result in an encounter being easier or harder than intended. You can adjust an encounter on the fly, such as by having creatures flee (making the encounter easier) or adding reinforcements (making the encounter harder)."
+}

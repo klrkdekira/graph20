@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.197",
     "heading": "Red Dragon Wyrmling",
-    "lineStart": 24107,
-    "lineEnd": 24133
+    "lineStart": 24027,
+    "lineEnd": 24053
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/red-dragon-wyrmling/"
   },
   "sizeTypeAlignment": "Medium Dragon (Chromatic), Chaotic Evil",
   "sizeAndType": "Medium Dragon (Chromatic)",
+  "size": "Medium",
+  "creatureType": "Dragon",
+  "descriptiveTags": [
+    "Chromatic"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "17",
   "initiative": "+2 (12)",
@@ -77,12 +86,53 @@
         "chapter": "Monsters A-Z",
         "section": "12.197",
         "heading": "Actions",
-        "lineStart": 24127,
-        "lineEnd": 24133
+        "lineStart": 24047,
+        "lineEnd": 24053
       }
     }
   ],
   "rulesText": "Medium Dragon (Chromatic), Chaotic Evil\n\nAC 17\nInitiative +2 (12)\nHP 75 (10d8 + 30)\nSpeed 30 ft., Climb 30 ft., Fly 60 ft.\n\nSkills Perception +4, Stealth +2\nImmunities Fire\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14\nLanguages Draconic\nCR 4 (XP 1,100; PB +2)\n\nActions\n\nMultiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (1d10 + 4) Slashing damage plus 3 (1d6) Fire damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 13, each creature in a 15-foot Cone. Failure: 24 (7d6) Fire damage. Success: Half damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Climb",
+      "feet": 30
+    },
+    {
+      "mode": "Fly",
+      "feet": 60
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 4
+    },
+    {
+      "name": "Stealth",
+      "bonus": 2
+    }
+  ],
+  "passivePerception": 14,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 10
+    },
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Draconic"
+  ],
+  "damageImmunities": [
+    "Fire"
+  ],
   "attacks": [
     {
       "name": "Rend",

@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.1",
     "heading": "Magic Items",
-    "lineStart": 14475,
-    "lineEnd": 14477
+    "lineStart": 14437,
+    "lineEnd": 14439
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/10-1-magic-items/"
   },
   "section": "10.1",
   "rulesText": "Magic items are gleaned from the hoards of felled monsters or discovered in long-lost vaults. Such items grant capabilities a character could rarely have otherwise, or they complement their owner's capabilities in wondrous ways."

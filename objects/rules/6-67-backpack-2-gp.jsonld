@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.67",
     "heading": "Backpack (2 GP)",
-    "lineStart": 6464,
-    "lineEnd": 6466
+    "lineStart": 6437,
+    "lineEnd": 6439
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-67-backpack-2-gp/"
   },
   "section": "6.67",
   "rulesText": "A Backpack holds up to 30 pounds within 1 cubic foot. It can also serve as a saddlebag."

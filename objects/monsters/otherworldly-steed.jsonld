@@ -11,11 +11,17 @@
     "chapter": "Spells",
     "section": "7.150",
     "heading": "Otherworldly Steed",
-    "lineStart": 9172,
-    "lineEnd": 9208
+    "lineStart": 9143,
+    "lineEnd": 9179
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/otherworldly-steed/"
   },
   "sizeTypeAlignment": "Large Celestial, Fey, or Fiend (Your Choice), Neutral",
   "sizeAndType": "Large Celestial",
+  "size": "Large",
+  "creatureType": "Celestial",
+  "monsterCategory": "Monster",
   "alignment": "Fey, or Fiend (Your Choice), Neutral",
   "armorClass": "10 + 1 per spell level",
   "hitPoints": "5 + 10 per spell level (the steed has a number of Hit Dice [d10s] equal to the spell's level)",
@@ -63,8 +69,8 @@
         "chapter": "Spells",
         "section": "7.150",
         "heading": "Traits",
-        "lineStart": 9190,
-        "lineEnd": 9192
+        "lineStart": 9161,
+        "lineEnd": 9163
       }
     },
     {
@@ -74,8 +80,8 @@
         "chapter": "Spells",
         "section": "7.150",
         "heading": "Actions",
-        "lineStart": 9194,
-        "lineEnd": 9196
+        "lineStart": 9165,
+        "lineEnd": 9167
       }
     },
     {
@@ -85,12 +91,26 @@
         "chapter": "Spells",
         "section": "7.150",
         "heading": "Bonus Actions",
-        "lineStart": 9198,
-        "lineEnd": 9208
+        "lineStart": 9169,
+        "lineEnd": 9179
       }
     }
   ],
   "rulesText": "Large Celestial, Fey, or Fiend (Your Choice), Neutral\n\nAC 10 + 1 per spell level\n\nHP 5 + 10 per spell level (the steed has a number of Hit Dice [d10s] equal to the spell's level)\nSpeed 60 ft., Fly 60 ft. (requires level 4+ spell)\n\nSenses Passive Perception 11\nLanguages Telepathy 1 mile (works only with you)\nCR None (XP 0; PB equals your Proficiency Bonus)\n\nTraits\n\nLife Bond. When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you're within 5 feet of it.\n\nActions\n\nOtherworldly Slam. Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft. Hit: 1d8 plus the spell's level of Radiant (Celestial), Psychic (Fey), or Necrotic (Fiend) damage.\n\nBonus Actions\n\nFell Glare (Fiend Only; Recharges after a Long Rest).\n\nWisdom Saving Throw: DC equals your spell save DC, one creature within 60 feet the steed can see. Failure: The target has the Frightened condition until the end of your next turn.\n\nFey Step (Fey Only; Recharges after a Long Rest). The steed teleports, along with its rider, to an unoccupied space of your choice up to 60 feet away from itself.\n\nHealing Touch (Celestial Only; Recharges after a Long\n\nRest). One creature within 5 feet of the steed regains a number of Hit Points equal to 2d8 plus the spell's level.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 60
+    },
+    {
+      "mode": "Fly",
+      "feet": 60
+    }
+  ],
+  "passivePerception": 11,
+  "languageList": [
+    "Telepathy 1 mile (works only with you)"
+  ],
   "unparsedAttacks": [
     {
       "sourceText": "Otherworldly Slam. Melee Attack Roll: Bonus equals your spell attack modifier, reach 5 ft. Hit: 1d8 plus the spell's level of Radiant (Celestial), Psychic (Fey), or Necrotic (Fiend) damage.",

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.41",
     "heading": "Antilife Shell",
-    "lineStart": 7454,
-    "lineEnd": 7467
+    "lineStart": 7427,
+    "lineEnd": 7440
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/antilife-shell/"
   },
   "level": 5,
   "school": "Abjuration",
@@ -31,5 +34,38 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 hour",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Emanation",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+      },
+      "sourceText": "An aura extends from you in a 10-foot Emanation for the duration.",
+      "sizeFeet": 10
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+    }
+  ]
 }

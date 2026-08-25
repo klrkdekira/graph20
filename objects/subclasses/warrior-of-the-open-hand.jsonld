@@ -11,8 +11,11 @@
     "chapter": "Classes",
     "section": "3.16",
     "heading": "Monk Subclass: Warrior of the Open Hand",
-    "lineStart": 3157,
-    "lineEnd": 3187
+    "lineStart": 3147,
+    "lineEnd": 3177
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/subclasses/warrior-of-the-open-hand/"
   },
   "parentClass": {
     "@id": "https://cheeleong.dev/graph20/objects/classes/monk"
@@ -28,8 +31,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 3: Open Hand Technique",
-        "lineStart": 3163,
-        "lineEnd": 3171
+        "lineStart": 3153,
+        "lineEnd": 3161
       }
     },
     {
@@ -40,8 +43,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 6: Wholeness of Body",
-        "lineStart": 3173,
-        "lineEnd": 3177
+        "lineStart": 3163,
+        "lineEnd": 3167
       }
     },
     {
@@ -52,8 +55,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 11: Fleet Step",
-        "lineStart": 3179,
-        "lineEnd": 3181
+        "lineStart": 3169,
+        "lineEnd": 3171
       }
     },
     {
@@ -64,8 +67,8 @@
         "chapter": "Classes",
         "section": "3.15",
         "heading": "Level 17: Quivering Palm",
-        "lineStart": 3183,
-        "lineEnd": 3187
+        "lineStart": 3173,
+        "lineEnd": 3177
       }
     }
   ],

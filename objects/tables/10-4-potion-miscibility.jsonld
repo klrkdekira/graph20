@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.4",
     "heading": "Potions",
-    "lineStart": 14515,
-    "lineEnd": 14524
+    "lineStart": 14477,
+    "lineEnd": 14486,
+    "caption": "Potion Miscibility"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-4-potion-miscibility/"
   },
   "columns": [
     "1d100",

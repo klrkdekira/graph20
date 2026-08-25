@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.17",
     "heading": "Mastery Properties",
-    "lineStart": 5953,
-    "lineEnd": 5955
+    "lineStart": 5929,
+    "lineEnd": 5931
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-17-mastery-properties/"
   },
   "section": "6.17",
   "rulesText": "Each weapon has a mastery property, which is usable only by a character who has a feature, such as Weapon Mastery, that unlocks the property for the character. The properties are defined below."

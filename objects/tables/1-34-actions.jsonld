@@ -12,7 +12,11 @@
     "section": "1.34",
     "heading": "Actions",
     "lineStart": 330,
-    "lineEnd": 343
+    "lineEnd": 343,
+    "caption": "Actions"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/1-34-actions/"
   },
   "columns": [
     "Action",

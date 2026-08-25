@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.128",
     "heading": "Guard Captain",
-    "lineStart": 21911,
-    "lineEnd": 21937
+    "lineStart": 21831,
+    "lineEnd": 21857
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/guard-captain/"
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
+  "size": "Medium or Small",
+  "creatureType": "Humanoid",
+  "monsterCategory": "NPC",
   "alignment": "Neutral",
   "armorClass": "18",
   "initiative": "+4 (14)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.128",
         "heading": "Actions",
-        "lineStart": 21931,
-        "lineEnd": 21937
+        "lineStart": 21851,
+        "lineEnd": 21857
       }
     }
   ],
@@ -95,6 +101,41 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/shield"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Athletics",
+      "bonus": 6
+    },
+    {
+      "name": "Perception",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 14,
+  "languageList": [
+    "Common"
+  ],
+  "gearItems": [
+    {
+      "name": "Breastplate"
+    },
+    {
+      "name": "Javelins",
+      "quantity": 6
+    },
+    {
+      "name": "Longsword"
+    },
+    {
+      "name": "Shield"
     }
   ],
   "attacks": [

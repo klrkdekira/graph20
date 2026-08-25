@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.255",
     "heading": "Staff of Swarming Insects",
-    "lineStart": 17284,
-    "lineEnd": 17301
+    "lineStart": 17225,
+    "lineEnd": 17242
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/staff-of-swarming-insects/"
   },
   "itemCategory": "Staff",
   "rarity": "Rare",
@@ -23,5 +26,33 @@
       "@id": "https://cheeleong.dev/graph20/objects/tables/10-255-staff-of-swarming-insects-table-1"
     }
   ],
-  "rulesText": "Staff, Rare (Requires Attunement by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard)\n\nThis staff has 10 charges.\n\nInsect Cloud. While holding the staff, you can take a Magic action and expend 1 charge to cause a swarm of harmless flying insects to fill a 30-foot Emanation originating from you. The insects remain for 10 minutes, making the area Heavily\n\nObscured for creatures other than you. A strong wind (like that created by Gust of Wind) disperses the swarm and ends the effect.\n\nSpells. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC and spell attack modifier. The table indicates how many charges you must expend to cast the spell.\n\nRegaining Charges. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, a swarm of insects consumes and destroys the staff, then disperses."
+  "rulesText": "Staff, Rare (Requires Attunement by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard)\n\nThis staff has 10 charges.\n\nInsect Cloud. While holding the staff, you can take a Magic action and expend 1 charge to cause a swarm of harmless flying insects to fill a 30-foot Emanation originating from you. The insects remain for 10 minutes, making the area Heavily\n\nObscured for creatures other than you. A strong wind (like that created by Gust of Wind) disperses the swarm and ends the effect.\n\nSpells. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC and spell attack modifier. The table indicates how many charges you must expend to cast the spell.\n\nRegaining Charges. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, a swarm of insects consumes and destroys the staff, then disperses.",
+  "charges": {
+    "capacityText": "10",
+    "capacity": 10,
+    "rechargeText": "The staff regains 1d6 + 4 expended charges daily at dawn."
+  },
+  "isCursed": false,
+  "isSentient": false,
+  "attunementClasses": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "attunementRestriction": "Requires Attunement by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard"
 }

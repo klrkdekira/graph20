@@ -11,9 +11,34 @@
     "chapter": "Rules Glossary",
     "section": "8.97",
     "heading": "Lightly Obscured",
-    "lineStart": 13325,
-    "lineEnd": 13327
+    "lineStart": 13289,
+    "lineEnd": 13291
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-97-lightly-obscured/"
   },
   "section": "8.97",
-  "rulesText": "You have Disadvantage on Wisdom (Perception) checks to see something in a Lightly Obscured space. See also “Dim Light” and “Playing the Game” (“Exploration”)."
+  "rulesText": "You have Disadvantage on Wisdom (Perception) checks to see something in a Lightly Obscured space. See also “Dim Light” and “Playing the Game” (“Exploration”).",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-59-dim-light"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-41-exploration"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-59-dim-light"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-41-exploration"
+    }
+  ]
 }

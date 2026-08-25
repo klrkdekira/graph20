@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.5",
     "heading": "Bard Spell List",
-    "lineStart": 1959,
-    "lineEnd": 1968
+    "lineStart": 1949,
+    "lineEnd": 1958,
+    "caption": "Level 6 Bard Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-5-level-6-bard-spells/"
   },
   "columns": [
     "Spell",

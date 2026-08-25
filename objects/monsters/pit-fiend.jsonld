@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.187",
     "heading": "Pit Fiend",
-    "lineStart": 23783,
-    "lineEnd": 23826
+    "lineStart": 23703,
+    "lineEnd": 23746
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/pit-fiend/"
   },
   "sizeTypeAlignment": "Large Fiend (Devil), Lawful Evil",
   "sizeAndType": "Large Fiend (Devil)",
+  "size": "Large",
+  "creatureType": "Fiend",
+  "descriptiveTags": [
+    "Devil"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "21",
   "initiative": "+14 (24)",
@@ -78,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.187",
         "heading": "Traits",
-        "lineStart": 23806,
-        "lineEnd": 23814
+        "lineStart": 23726,
+        "lineEnd": 23734
       }
     },
     {
@@ -89,8 +98,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.187",
         "heading": "Actions",
-        "lineStart": 23816,
-        "lineEnd": 23826
+        "lineStart": 23736,
+        "lineEnd": 23746
       }
     }
   ],
@@ -98,6 +107,81 @@
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Fly",
+      "feet": 60
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 10
+    },
+    {
+      "name": "Persuasion",
+      "bonus": 19
+    }
+  ],
+  "passivePerception": 20,
+  "senseModes": [
+    {
+      "name": "Truesight",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Infernal",
+    "telepathy 120 ft."
+  ],
+  "damageImmunities": [
+    "Fire",
+    "Poison"
+  ],
+  "damageResistances": [
+    "Cold"
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Hellfire Spellcasting (Recharge 4–6). The pit fiend casts Fireball (level 5 version) twice, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 21). It can replace one Fireball with Hold Monster (level 7 version) or Wall of Fire.",
+      "path": "statSections[1].rulesText",
+      "entries": [
+        {
+          "frequency": "Hellfire Spellcasting (Recharge 4–6)",
+          "spellsText": "Hellfire Spellcasting (Recharge 4–6). The pit fiend casts Fireball (level 5 version) twice, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 21). It can replace one Fireball with Hold Monster (level 7 version) or Wall of Fire.",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/fireball"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/hold-monster"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/wall-of-fire"
+            }
+          ]
+        }
+      ],
+      "ability": "Charisma",
+      "saveDC": 21
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/fireball"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/hold-monster"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/wall-of-fire"
     }
   ],
   "attacks": [

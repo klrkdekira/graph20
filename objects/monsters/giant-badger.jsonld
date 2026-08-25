@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.27",
     "heading": "Giant Badger",
-    "lineStart": 27317,
-    "lineEnd": 27339
+    "lineStart": 27231,
+    "lineEnd": 27253
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/giant-badger/"
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
+  "size": "Medium",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "13",
   "initiative": "+0 (10)",
@@ -77,12 +83,38 @@
         "chapter": "Animals",
         "section": "13.27",
         "heading": "Actions",
-        "lineStart": 27337,
-        "lineEnd": 27339
+        "lineStart": 27251,
+        "lineEnd": 27253
       }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 13\nInitiative +0 (10)\nHP 15 (2d8 + 6)\nSpeed 30 ft., Burrow 10 ft.\n\nSkills Perception +3\nResistances Poison\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Piercing damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Burrow",
+      "feet": 10
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 3
+    }
+  ],
+  "passivePerception": 13,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "damageResistances": [
+    "Poison"
+  ],
   "attacks": [
     {
       "name": "Bite",

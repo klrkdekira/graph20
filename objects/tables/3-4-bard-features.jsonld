@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.4",
     "heading": "Bard Class Features",
-    "lineStart": 1713,
-    "lineEnd": 1735
+    "lineStart": 1706,
+    "lineEnd": 1728,
+    "caption": "Bard Features"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-4-bard-features/"
   },
   "columns": [
     "Level",

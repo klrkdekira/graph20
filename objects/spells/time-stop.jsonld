@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.344",
     "heading": "Time Stop",
-    "lineStart": 12190,
-    "lineEnd": 12201
+    "lineStart": 12161,
+    "lineEnd": 12172
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/time-stop/"
   },
   "level": 9,
   "school": "Transmutation",
@@ -35,5 +38,20 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V",
+    "verbal": true,
+    "somatic": false,
+    "material": false
+  }
 }

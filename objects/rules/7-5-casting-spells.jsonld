@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.5",
     "heading": "Casting Spells",
-    "lineStart": 7112,
-    "lineEnd": 7114
+    "lineStart": 7085,
+    "lineEnd": 7087
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/7-5-casting-spells/"
   },
   "section": "7.5",
   "rulesText": "Each spell description has a series of entries that provide the details needed to cast the spell. The following sections explain each of those entries, which follow a spell's name."

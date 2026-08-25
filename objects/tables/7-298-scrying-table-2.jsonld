@@ -11,8 +11,12 @@
     "chapter": "Spells",
     "section": "7.298",
     "heading": "Scrying",
-    "lineStart": 11456,
-    "lineEnd": 11460
+    "lineStart": 11427,
+    "lineEnd": 11431,
+    "caption": "Scrying Table 2"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/7-298-scrying-table-2/"
   },
   "columns": [
     "You Have the Target’s ...",

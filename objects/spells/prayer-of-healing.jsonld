@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.270",
     "heading": "Prayer of Healing",
-    "lineStart": 11011,
-    "lineEnd": 11022
+    "lineStart": 10982,
+    "lineEnd": 10993
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/prayer-of-healing/"
   },
   "level": 2,
   "school": "Abjuration",
@@ -35,5 +38,21 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V",
+    "verbal": true,
+    "somatic": false,
+    "material": false
+  }
 }

@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.227",
     "heading": "Sphinx of Lore",
-    "lineStart": 25059,
-    "lineEnd": 25106
+    "lineStart": 24979,
+    "lineEnd": 25026
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/sphinx-of-lore/"
   },
   "sizeTypeAlignment": "Large Celestial, Lawful Neutral",
   "sizeAndType": "Large Celestial",
+  "size": "Large",
+  "creatureType": "Celestial",
+  "monsterCategory": "Monster",
   "alignment": "Lawful Neutral",
   "armorClass": "17",
   "initiative": "+10 (20)",
@@ -78,8 +84,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.227",
         "heading": "Traits",
-        "lineStart": 25080,
-        "lineEnd": 25084
+        "lineStart": 25000,
+        "lineEnd": 25004
       }
     },
     {
@@ -89,8 +95,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.227",
         "heading": "Actions",
-        "lineStart": 25086,
-        "lineEnd": 25098
+        "lineStart": 25006,
+        "lineEnd": 25018
       }
     },
     {
@@ -100,8 +106,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.227",
         "heading": "Legendary Actions",
-        "lineStart": 25100,
-        "lineEnd": 25106
+        "lineStart": 25020,
+        "lineEnd": 25026
       }
     }
   ],
@@ -112,6 +118,143 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Fly",
+      "feet": 60
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Arcana",
+      "bonus": 12
+    },
+    {
+      "name": "History",
+      "bonus": 12
+    },
+    {
+      "name": "Perception",
+      "bonus": 8
+    },
+    {
+      "name": "Religion",
+      "bonus": 12
+    }
+  ],
+  "passivePerception": 18,
+  "senseModes": [
+    {
+      "name": "Truesight",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Celestial",
+    "Common"
+  ],
+  "damageImmunities": [
+    "Psychic"
+  ],
+  "damageResistances": [
+    "Necrotic",
+    "Radiant"
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The sphinx casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save DC 16):\n\nAt Will: Detect Magic, Identify, Mage Hand, Minor Illusion, Prestidigitation\n\n1/Day Each: Dispel Magic, Legend Lore, Locate Object, Plane Shift, Remove Curse, Tongues",
+      "path": "statSections[1].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Detect Magic, Identify, Mage Hand, Minor Illusion, Prestidigitation",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/identify"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/mage-hand"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/minor-illusion"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/prestidigitation"
+            }
+          ]
+        },
+        {
+          "frequency": "1/Day Each",
+          "spellsText": "Dispel Magic, Legend Lore, Locate Object, Plane Shift, Remove Curse, Tongues",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-magic"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/legend-lore"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/locate-object"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/plane-shift"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/remove-curse"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/tongues"
+            }
+          ]
+        }
+      ],
+      "ability": "Intelligence",
+      "saveDC": 16
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/identify"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mage-hand"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/minor-illusion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/prestidigitation"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/legend-lore"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/locate-object"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/plane-shift"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/remove-curse"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/tongues"
     }
   ],
   "attacks": [

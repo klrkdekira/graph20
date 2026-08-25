@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.105",
     "heading": "Ladder (1 SP)",
-    "lineStart": 6638,
-    "lineEnd": 6640
+    "lineStart": 6611,
+    "lineEnd": 6613
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-105-ladder-1-sp/"
   },
   "section": "6.105",
   "rulesText": "A Ladder is 10 feet tall. You must climb to move up or down it."

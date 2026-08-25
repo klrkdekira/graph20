@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.194",
     "heading": "Heat Metal",
-    "lineStart": 9900,
-    "lineEnd": 9913
+    "lineStart": 9871,
+    "lineEnd": 9884
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/heat-metal/"
   },
   "level": 2,
   "school": "Transmutation",
@@ -34,6 +37,12 @@
     }
   ],
   "savingThrowAbility": "Constitution",
+  "savingThrows": [
+    {
+      "ability": "Constitution",
+      "sourceText": "If a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn't drop the object, it has Disadvantage on attack rolls and ability checks until the start of your next turn."
+    }
+  ],
   "damage": [
     {
       "damageType": "Fire",
@@ -46,5 +55,26 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a piece of iron and a flame)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a piece of iron and a flame",
+    "consumed": false
+  }
 }

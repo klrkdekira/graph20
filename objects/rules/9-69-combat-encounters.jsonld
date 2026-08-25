@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-69-combat-encounters",
+  "@type": "Rule",
+  "name": "Combat Encounters",
+  "slug": "9-69-combat-encounters",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.69",
+    "heading": "Combat Encounters",
+    "lineStart": 14332,
+    "lineEnd": 14342
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/9-69-combat-encounters/"
+  },
+  "section": "9.69",
+  "rulesText": "The following features can make a combat encounter more interesting or challenging:\n\nChanges in Elevation. Terrain features that provide a change of elevation (such as stacks of empty crates, ledges, and balconies) reward clever positioning and encourage characters to jump, climb, fly, or teleport.\n\nDefensive Positions. Enemies in hard-to-reach locations or defensive positions force characters who normally attack at range to move around.\n\nMixed Monster Groups. When different types of monsters work together, they can combine their abilities - just like characters with different classes and origins. A diverse force is more powerful.\n\nReasons to Move. Use features that encourage characters and their enemies to move around, such as chandeliers, kegs of gunpowder or oil, and rolling stone traps."
+}

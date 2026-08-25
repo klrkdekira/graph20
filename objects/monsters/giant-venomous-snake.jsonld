@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.49",
     "heading": "Giant Venomous Snake",
-    "lineStart": 27919,
-    "lineEnd": 27940
+    "lineStart": 27833,
+    "lineEnd": 27854
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/giant-venomous-snake/"
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
+  "size": "Medium",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "14",
   "initiative": "+4 (14)",
@@ -76,12 +82,35 @@
         "chapter": "Animals",
         "section": "13.49",
         "heading": "Actions",
-        "lineStart": 27938,
-        "lineEnd": 27940
+        "lineStart": 27852,
+        "lineEnd": 27854
       }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 14\nInitiative +4 (14)\nHP 11 (2d8 + 2)\nSpeed 40 ft., Swim 40 ft.\n\nSkills Perception +2\nSenses Blindsight 10 ft.; Passive Perception 12\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +6, reach 10 ft. Hit: 6 (1d4 + 4) Piercing damage plus 4 (1d8) Poison damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Swim",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 2
+    }
+  ],
+  "passivePerception": 12,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 10
+    }
+  ],
   "attacks": [
     {
       "name": "Bite",

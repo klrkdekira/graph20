@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.146",
     "heading": "Knight",
-    "lineStart": 22497,
-    "lineEnd": 22529
+    "lineStart": 22417,
+    "lineEnd": 22449
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/knight/"
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
+  "size": "Medium or Small",
+  "creatureType": "Humanoid",
+  "monsterCategory": "Monster",
   "alignment": "Neutral",
   "armorClass": "18",
   "initiative": "+0 (10)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.146",
         "heading": "Actions",
-        "lineStart": 22519,
-        "lineEnd": 22525
+        "lineStart": 22439,
+        "lineEnd": 22445
       }
     },
     {
@@ -88,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.146",
         "heading": "Reactions",
-        "lineStart": 22527,
-        "lineEnd": 22529
+        "lineStart": 22447,
+        "lineEnd": 22449
       }
     }
   ],
@@ -108,6 +114,27 @@
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 10,
+  "languageList": [
+    "Common plus one other language"
+  ],
+  "gearItems": [
+    {
+      "name": "Greatsword"
+    },
+    {
+      "name": "Heavy Crossbow"
+    },
+    {
+      "name": "Plate Armor"
     }
   ],
   "attacks": [

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.19",
     "heading": "Verbal (V)",
-    "lineStart": 7207,
-    "lineEnd": 7209
+    "lineStart": 7180,
+    "lineEnd": 7182
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/7-19-verbal-v/"
   },
   "section": "7.19",
   "rulesText": "A Verbal component is the chanting of esoteric words that sound like nonsense to the uninitiated. The words must be uttered in a normal speaking voice. The words themselves aren't the source of the spell's power; rather, the particular combination of sounds, with specific pitch and resonance, sets the threads of magic in motion. Thus, a creature who is gagged or in an area of magical silence can't cast a spell with a Verbal component."

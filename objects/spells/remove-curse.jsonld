@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.288",
     "heading": "Remove Curse",
-    "lineStart": 11309,
-    "lineEnd": 11318
+    "lineStart": 11280,
+    "lineEnd": 11289
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/remove-curse/"
   },
   "level": 3,
   "school": "Abjuration",
@@ -43,5 +46,20 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

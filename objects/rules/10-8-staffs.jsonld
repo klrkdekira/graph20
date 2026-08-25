@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.8",
     "heading": "Staffs",
-    "lineStart": 14544,
-    "lineEnd": 14548
+    "lineStart": 14506,
+    "lineEnd": 14510
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/10-8-staffs/"
   },
   "section": "10.8",
   "rulesText": "Items in the Staff category vary widely in appearance: some are of nearly equal diameter throughout and smooth, others are gnarled and twisted, some are made of wood, and others are composed of polished metal or crystal. A staff weighs between 2 and 7 pounds and serves well as a walking stick or cane.\n\nUnless its description notes otherwise, a staff can be used as a nonmagical Quarterstaff and an Arcane Focus."

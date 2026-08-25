@@ -11,8 +11,11 @@
     "chapter": "Rules Glossary",
     "section": "8.80",
     "heading": "Heroic Inspiration",
-    "lineStart": 13205,
-    "lineEnd": 13209
+    "lineStart": 13169,
+    "lineEnd": 13173
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-80-heroic-inspiration/"
   },
   "section": "8.80",
   "rulesText": "If you (a player character) have Heroic Inspiration, you can expend it to reroll any die immediately after rolling it, and you must use the new roll.\n\nIf you gain Heroic Inspiration but already have it, it's lost unless you give it to a player character who lacks it."

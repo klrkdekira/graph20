@@ -11,9 +11,28 @@
     "chapter": "Rules Glossary",
     "section": "8.5",
     "heading": "Ability Score and Modifier",
-    "lineStart": 12712,
-    "lineEnd": 12714
+    "lineStart": 12679,
+    "lineEnd": 12681
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-5-ability-score-and-modifier/"
   },
   "section": "8.5",
-  "rulesText": "A creature has six ability scores - Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma - each of which has a corresponding modifier. Add the modifier when you make a D20 Test with the corresponding ability or when a rule asks you to do so. See also “Playing the Game” (“The Six Abilities”)."
+  "rulesText": "A creature has six ability scores - Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma - each of which has a corresponding modifier. Add the modifier when you make a D20 Test with the corresponding ability or when a rule asks you to do so. See also “Playing the Game” (“The Six Abilities”).",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-4-the-six-abilities"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-4-the-six-abilities"
+    }
+  ]
 }

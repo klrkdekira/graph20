@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.65",
     "heading": "Blur",
-    "lineStart": 7825,
-    "lineEnd": 7834
+    "lineStart": 7796,
+    "lineEnd": 7805
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/blur/"
   },
   "level": 2,
   "school": "Illusion",
@@ -35,5 +38,23 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V",
+    "verbal": true,
+    "somatic": false,
+    "material": false
+  }
 }

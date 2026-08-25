@@ -1,0 +1,39 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/glassblowers-tools",
+  "@type": "Equipment",
+  "name": "Glassblower's Tools",
+  "slug": "glassblowers-tools",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.42",
+    "heading": "Glassblower's Tools (30 GP)",
+    "lineStart": 6144,
+    "lineEnd": 6150
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/glassblowers-tools/"
+  },
+  "equipmentType": "tool",
+  "fromRule": {
+    "@id": "https://cheeleong.dev/graph20/objects/rules/6-42-glassblowers-tools-30-gp"
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-42-glassblowers-tools-30-gp"
+    }
+  ],
+  "cost": {
+    "text": "30 GP",
+    "currency": "GP",
+    "amount": 30
+  },
+  "ability": "Intelligence",
+  "weight": "5 lb.",
+  "weightPounds": 5,
+  "utilize": "Discern what a glass object held in the past 24 hours (DC 15)",
+  "craft": "Glass Bottle, Magnifying Glass, Spyglass, Vial"
+}

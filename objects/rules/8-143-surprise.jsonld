@@ -11,9 +11,28 @@
     "chapter": "Rules Glossary",
     "section": "8.143",
     "heading": "Surprise",
-    "lineStart": 13683,
-    "lineEnd": 13685
+    "lineStart": 13647,
+    "lineEnd": 13649
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-143-surprise/"
   },
   "section": "8.143",
-  "rulesText": "If a creature is caught unawares by the start of combat, that creature is surprised, which causes it to have Disadvantage on its Initiative roll. See also “Playing the Game” (“Combat”)."
+  "rulesText": "If a creature is caught unawares by the start of combat, that creature is surprised, which causes it to have Disadvantage on its Initiative roll. See also “Playing the Game” (“Combat”).",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-59-combat"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-59-combat"
+    }
+  ]
 }

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.55",
     "heading": "Barkskin",
-    "lineStart": 7685,
-    "lineEnd": 7694
+    "lineStart": 7656,
+    "lineEnd": 7665
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/barkskin/"
   },
   "level": 2,
   "school": "Transmutation",
@@ -35,5 +38,25 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "1 hour",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a handful of bark)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a handful of bark",
+    "consumed": false
+  }
 }

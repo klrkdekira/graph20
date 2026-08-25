@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.247",
     "heading": "Minor Illusion",
-    "lineStart": 10672,
-    "lineEnd": 10687
+    "lineStart": 10643,
+    "lineEnd": 10658
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/minor-illusion/"
   },
   "level": 0,
   "school": "Illusion",
@@ -43,5 +46,41 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "1 minute",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "S, M (a bit of fleece)",
+    "verbal": false,
+    "somatic": true,
+    "material": true,
+    "materialText": "a bit of fleece",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cube",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+      },
+      "sourceText": "If you create an image of an object - such as a chair, muddy footprints, or a small chest - it must be no larger than a 5-foot Cube.",
+      "sizeFeet": 5
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+    }
+  ]
 }

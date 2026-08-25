@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/2-28-tier-2-levels-5-10",
+  "@type": "Rule",
+  "name": "Tier 2 (Levels 5–10)",
+  "slug": "2-28-tier-2-levels-5-10",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.28",
+    "heading": "Tier 2 (Levels 5–10)",
+    "lineStart": 1225,
+    "lineEnd": 1227
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/2-28-tier-2-levels-5-10/"
+  },
+  "section": "2.28",
+  "rulesText": "In tier 2, characters are full-fledged adventurers. Spellcasters gain iconic spells such as Fireball, Lightning Bolt, and Raise Dead. Most weapon-focused classes gain the ability to make multiple attacks in a round. The characters now face dangers that threaten cities and kingdoms."
+}

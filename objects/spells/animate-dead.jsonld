@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.38",
     "heading": "Animate Dead",
-    "lineStart": 7395,
-    "lineEnd": 7410
+    "lineStart": 7368,
+    "lineEnd": 7383
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/animate-dead/"
   },
   "level": 3,
   "school": "Necromancy",
@@ -35,5 +38,23 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "10 feet",
+    "kind": "Distance",
+    "distanceFeet": 10
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a drop of blood, a piece of flesh, and a pinch of bone dust)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a drop of blood, a piece of flesh, and a pinch of bone dust",
+    "consumed": false
+  }
 }

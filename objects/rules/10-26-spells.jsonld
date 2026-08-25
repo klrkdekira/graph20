@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.26",
     "heading": "Spells",
-    "lineStart": 14670,
-    "lineEnd": 14672
+    "lineStart": 14632,
+    "lineEnd": 14634
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/10-26-spells/"
   },
   "section": "10.26",
   "rulesText": "If a magic item allows its user to cast any spells from it, you must have all those spells prepared every day you spend crafting the item."

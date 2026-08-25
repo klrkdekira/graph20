@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.116",
     "heading": "Paper (2 SP)",
-    "lineStart": 6694,
-    "lineEnd": 6696
+    "lineStart": 6667,
+    "lineEnd": 6669
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-116-paper-2-sp/"
   },
   "section": "6.116",
   "rulesText": "One sheet of Paper can hold about 250 handwritten words."

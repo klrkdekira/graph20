@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.95",
     "heading": "Weasel",
-    "lineStart": 29143,
-    "lineEnd": 29164
+    "lineStart": 29054,
+    "lineEnd": 29075
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/weasel/"
   },
   "sizeTypeAlignment": "Tiny Beast, Unaligned",
   "sizeAndType": "Tiny Beast",
+  "size": "Tiny",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "13",
   "initiative": "+3 (13)",
@@ -76,12 +82,43 @@
         "chapter": "Animals",
         "section": "13.95",
         "heading": "Actions",
-        "lineStart": 29162,
-        "lineEnd": 29164
+        "lineStart": 29073,
+        "lineEnd": 29075
       }
     }
   ],
   "rulesText": "Tiny Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 1 (1d4 - 1)\nSpeed 30 ft., Climb 30 ft.\n\nSkills Acrobatics +5, Perception +3, Stealth +5\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages None\nCR 0 (XP 10; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 1 Piercing damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Climb",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Acrobatics",
+      "bonus": 5
+    },
+    {
+      "name": "Perception",
+      "bonus": 3
+    },
+    {
+      "name": "Stealth",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 13,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Bite",

@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.19",
     "heading": "Charges",
-    "lineStart": 14622,
-    "lineEnd": 14624
+    "lineStart": 14584,
+    "lineEnd": 14586
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/10-19-charges/"
   },
   "section": "10.19",
   "rulesText": "Some magic items have charges that must be expended to activate their properties. The number of charges an item has remaining is revealed when the Identify spell is cast on it. A creature attuned to an item knows how many charges the item has and how many it regains."

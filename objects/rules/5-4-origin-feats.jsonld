@@ -11,8 +11,13 @@
     "chapter": "Feats",
     "section": "5.4",
     "heading": "Origin Feats",
-    "lineStart": 5699,
-    "lineEnd": 5699
+    "lineStart": 5675,
+    "lineEnd": 5675
   },
-  "section": "5.4"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/5-4-origin-feats/"
+  },
+  "section": "5.4",
+  "rulesText": "Origin Feats",
+  "headingOnly": true
 }

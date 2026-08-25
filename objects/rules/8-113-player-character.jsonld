@@ -11,9 +11,22 @@
     "chapter": "Rules Glossary",
     "section": "8.113",
     "heading": "Player Character",
-    "lineStart": 13458,
-    "lineEnd": 13460
+    "lineStart": 13422,
+    "lineEnd": 13424
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-113-player-character/"
   },
   "section": "8.113",
-  "rulesText": "A player character is a character controlled by a player. See also “Character Creation.”"
+  "rulesText": "A player character is a character controlled by a player. See also “Character Creation.”",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/2-1-character-creation"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/2-1-character-creation"
+    }
+  ]
 }

@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.59",
     "heading": "Poisoner's Kit (50 GP)",
-    "lineStart": 6312,
-    "lineEnd": 6320
+    "lineStart": 6288,
+    "lineEnd": 6296
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-59-poisoners-kit-50-gp/"
   },
   "section": "6.59",
   "rulesText": "Ability: Intelligence\n\nWeight: 2 lb.\n\nUtilize: Detect a poisoned object (DC 10)\n\nCraft: Basic Poison"

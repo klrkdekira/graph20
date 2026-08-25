@@ -11,9 +11,28 @@
     "chapter": "Rules Glossary",
     "section": "8.55",
     "heading": "Death Saving Throw",
-    "lineStart": 13046,
-    "lineEnd": 13048
+    "lineStart": 13010,
+    "lineEnd": 13012
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-55-death-saving-throw/"
   },
   "section": "8.55",
-  "rulesText": "A player character must make a Death Saving Throw (also called a Death Save) if they start their turn with 0 Hit Points. See also “Playing the Game” (“Damage and Healing”)."
+  "rulesText": "A player character must make a Death Saving Throw (also called a Death Save) if they start their turn with 0 Hit Points. See also “Playing the Game” (“Damage and Healing”).",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-88-damage-and-healing"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-88-damage-and-healing"
+    }
+  ]
 }

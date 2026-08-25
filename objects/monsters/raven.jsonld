@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.75",
     "heading": "Raven",
-    "lineStart": 28608,
-    "lineEnd": 28633
+    "lineStart": 28519,
+    "lineEnd": 28544
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/raven/"
   },
   "sizeTypeAlignment": "Tiny Beast, Unaligned",
   "sizeAndType": "Tiny Beast",
+  "size": "Tiny",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "12",
   "initiative": "+2 (12)",
@@ -75,8 +81,8 @@
         "chapter": "Animals",
         "section": "13.75",
         "heading": "Traits",
-        "lineStart": 28627,
-        "lineEnd": 28629
+        "lineStart": 28538,
+        "lineEnd": 28540
       }
     },
     {
@@ -86,12 +92,29 @@
         "chapter": "Animals",
         "section": "13.75",
         "heading": "Actions",
-        "lineStart": 28631,
-        "lineEnd": 28633
+        "lineStart": 28542,
+        "lineEnd": 28544
       }
     }
   ],
   "rulesText": "Tiny Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 2 (1d4)\nSpeed 10 ft., Fly 50 ft.\n\nSkills Perception +3\nSenses Passive Perception 13\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nMimicry. The raven can mimic simple sounds it has heard, such as a whisper or chitter. A hearer can discern the sounds are imitations with a successful DC 10 Wisdom (Insight) check.\n\nActions\n\nBeak. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 10
+    },
+    {
+      "mode": "Fly",
+      "feet": 50
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 3
+    }
+  ],
+  "passivePerception": 13,
   "attacks": [
     {
       "name": "Beak",

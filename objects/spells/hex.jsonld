@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.198",
     "heading": "Hex",
-    "lineStart": 9954,
-    "lineEnd": 9967
+    "lineStart": 9925,
+    "lineEnd": 9938
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/hex/"
   },
   "level": 1,
   "school": "Enchantment",
@@ -41,5 +44,26 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "90 feet",
+    "kind": "Distance",
+    "distanceFeet": 90
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 hour",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (the petrified eye of a newt)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "the petrified eye of a newt",
+    "consumed": false
+  }
 }

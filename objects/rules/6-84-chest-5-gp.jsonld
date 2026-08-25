@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.84",
     "heading": "Chest (5 GP)",
-    "lineStart": 6532,
-    "lineEnd": 6534
+    "lineStart": 6505,
+    "lineEnd": 6507
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-84-chest-5-gp/"
   },
   "section": "6.84",
   "rulesText": "A Chest holds up to 12 cubic feet of contents."

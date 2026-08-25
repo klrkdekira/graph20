@@ -1,0 +1,26 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/invocations/witch-sight",
+  "@type": "EldritchInvocation",
+  "name": "Witch Sight",
+  "slug": "witch-sight",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.28",
+    "heading": "Witch Sight",
+    "lineStart": 4714,
+    "lineEnd": 4718
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/invocations/witch-sight/"
+  },
+  "prerequisite": "Level 15+ Warlock",
+  "repeatable": false,
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+  },
+  "rulesText": "Prerequisite: Level 15+ Warlock\n\nYou have Truesight with a range of 30 feet."
+}

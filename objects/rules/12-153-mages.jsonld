@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.153",
     "heading": "Mages",
-    "lineStart": 22743,
-    "lineEnd": 22743
+    "lineStart": 22663,
+    "lineEnd": 22663
   },
-  "section": "12.153"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-153-mages/"
+  },
+  "section": "12.153",
+  "rulesText": "Mages",
+  "headingOnly": true
 }

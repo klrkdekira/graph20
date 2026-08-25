@@ -11,13 +11,18 @@
     "chapter": "Magic Items",
     "section": "10.177",
     "heading": "Philter of Love",
-    "lineStart": 16420,
-    "lineEnd": 16426
+    "lineStart": 16376,
+    "lineEnd": 16382
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/philter-of-love/"
   },
   "itemCategory": "Potion",
   "rarity": "Uncommon",
   "requiresAttunement": false,
   "rulesText": "Potion, Uncommon\n\nThe next time you see a creature within 10 minutes after drinking this philter, you are charmed by that creature and have the Charmed condition for 1 hour.\n\nThis rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart.",
+  "isCursed": false,
+  "isSentient": false,
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"

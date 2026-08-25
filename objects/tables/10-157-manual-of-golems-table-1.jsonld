@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.157",
     "heading": "Manual of Golems",
-    "lineStart": 16136,
-    "lineEnd": 16141
+    "lineStart": 16098,
+    "lineEnd": 16103,
+    "caption": "Manual of Golems Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-157-manual-of-golems-table-1/"
   },
   "columns": [
     "1d20",

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.4",
     "heading": "Always-Prepared Spells",
-    "lineStart": 7108,
-    "lineEnd": 7110
+    "lineStart": 7081,
+    "lineEnd": 7083
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/7-4-always-prepared-spells/"
   },
   "section": "7.4",
   "rulesText": "Certain features might give you a spell that you always have prepared. If you also have a list of prepared spells that you can change, a spell that you always have prepared doesn't count against the number of spells on that list."

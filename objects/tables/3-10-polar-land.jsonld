@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.10",
     "heading": "Level 3: Circle of the Land Spells",
-    "lineStart": 2755,
-    "lineEnd": 2760
+    "lineStart": 2745,
+    "lineEnd": 2750,
+    "caption": "Polar Land"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-10-polar-land/"
   },
   "columns": [
     "Druid Level",

@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.187",
     "heading": "Potion of Gaseous Form",
-    "lineStart": 16506,
-    "lineEnd": 16512
+    "lineStart": 16462,
+    "lineEnd": 16468
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/potion-of-gaseous-form/"
   },
   "itemCategory": "Potion",
   "rarity": "Rare",
   "requiresAttunement": false,
-  "rulesText": "Potion, Rare\n\nWhen you drink this potion, you gain the effect of the Gaseous Form spell for 1 hour (no Concentration required) or until you end the effect as a Bonus Action.\n\nThis potion's container seems to hold fog that moves and pours like water."
+  "rulesText": "Potion, Rare\n\nWhen you drink this potion, you gain the effect of the Gaseous Form spell for 1 hour (no Concentration required) or until you end the effect as a Bonus Action.\n\nThis potion's container seems to hold fog that moves and pours like water.",
+  "isCursed": false,
+  "isSentient": false
 }

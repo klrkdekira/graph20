@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.269",
     "heading": "Wyvern",
-    "lineStart": 26541,
-    "lineEnd": 26568
+    "lineStart": 26455,
+    "lineEnd": 26482
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/wyvern/"
   },
   "sizeTypeAlignment": "Large Dragon, Unaligned",
   "sizeAndType": "Large Dragon",
+  "size": "Large",
+  "creatureType": "Dragon",
+  "monsterCategory": "Monster",
   "alignment": "Unaligned",
   "armorClass": "14",
   "initiative": "+0 (10)",
@@ -76,12 +82,35 @@
         "chapter": "Monsters A-Z",
         "section": "12.269",
         "heading": "Actions",
-        "lineStart": 26562,
-        "lineEnd": 26568
+        "lineStart": 26476,
+        "lineEnd": 26482
       }
     }
   ],
   "rulesText": "Large Dragon, Unaligned\n\nAC 14\nInitiative +0 (10)\nHP 127 (15d10 + 45)\nSpeed 30 ft., Fly 80 ft.\n\nSkills Perception +4\nSenses Darkvision 120 ft.; Passive Perception 14\nLanguages None\nCR 6 (XP 2,300; PB +3)\n\nActions\n\nMultiattack. The wyvern makes one Bite attack and one Sting attack.\n\nBite. Melee Attack Roll: +7, reach 5 ft. Hit: 13 (2d8 + 4) Piercing damage.\n\nSting. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage plus 24 (7d6) Poison damage, and the target has the Poisoned condition until the start of the wyvern's next turn.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Fly",
+      "feet": 80
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 14,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
   "attacks": [
     {
       "name": "Bite",

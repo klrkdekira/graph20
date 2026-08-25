@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.24",
     "heading": "Berserker",
-    "lineStart": 18592,
-    "lineEnd": 18619
+    "lineStart": 18524,
+    "lineEnd": 18551
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/berserker/"
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
+  "size": "Medium or Small",
+  "creatureType": "Humanoid",
+  "monsterCategory": "Monster",
   "alignment": "Neutral",
   "armorClass": "13",
   "initiative": "+1 (11)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.24",
         "heading": "Traits",
-        "lineStart": 18613,
-        "lineEnd": 18615
+        "lineStart": 18545,
+        "lineEnd": 18547
       }
     },
     {
@@ -87,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.24",
         "heading": "Actions",
-        "lineStart": 18617,
-        "lineEnd": 18619
+        "lineStart": 18549,
+        "lineEnd": 18551
       }
     }
   ],
@@ -99,6 +105,24 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/hide-armor"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 10,
+  "languageList": [
+    "Common"
+  ],
+  "gearItems": [
+    {
+      "name": "Greataxe"
+    },
+    {
+      "name": "Hide Armor"
     }
   ],
   "attacks": [

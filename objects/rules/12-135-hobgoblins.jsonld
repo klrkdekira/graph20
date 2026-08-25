@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.135",
     "heading": "Hobgoblins",
-    "lineStart": 22137,
-    "lineEnd": 22137
+    "lineStart": 22057,
+    "lineEnd": 22057
   },
-  "section": "12.135"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-135-hobgoblins/"
+  },
+  "section": "12.135",
+  "rulesText": "Hobgoblins",
+  "headingOnly": true
 }

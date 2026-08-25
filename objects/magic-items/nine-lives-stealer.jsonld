@@ -11,13 +11,27 @@
     "chapter": "Magic Items",
     "section": "10.168",
     "heading": "Nine Lives Stealer",
-    "lineStart": 16344,
-    "lineEnd": 16350
+    "lineStart": 16300,
+    "lineEnd": 16306
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/nine-lives-stealer/"
   },
   "itemCategory": "Weapon",
   "categoryDetail": "Any Simple or Martial",
   "rarity": "Very Rare",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Weapon (Any Simple or Martial), Very Rare (Requires Attunement)\n\nYou gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.\n\nLife Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property."
+  "rulesText": "Weapon (Any Simple or Martial), Very Rare (Requires Attunement)\n\nYou gain a +2 bonus to attack rolls and damage rolls made with this magic weapon.\n\nLife Stealing. The weapon has 1d8 + 1 charges. When you attack a creature that has fewer than 100 Hit Points with this weapon and roll a 20 on the d20 for the attack roll, the creature must succeed on a DC 15 Constitution saving throw or be slain instantly as the sword tears its life force from its body. Constructs and Undead succeed on the save automatically. The weapon loses 1 charge if the creature is slain. When the weapon has no charges remaining, it loses this property.",
+  "charges": {
+    "capacityText": "1d8 + 1",
+    "capacityRoll": {
+      "expression": "1d8+1",
+      "count": 1,
+      "sides": 8,
+      "modifier": 1
+    }
+  },
+  "isCursed": false,
+  "isSentient": false
 }

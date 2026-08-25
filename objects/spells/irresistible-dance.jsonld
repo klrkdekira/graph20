@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.214",
     "heading": "Irresistible Dance",
-    "lineStart": 10192,
-    "lineEnd": 10203
+    "lineStart": 10163,
+    "lineEnd": 10174
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/irresistible-dance/"
   },
   "level": 6,
   "school": "Enchantment",
@@ -34,9 +37,45 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "One creature that you can see within range must make a Wisdom saving throw. On a successful save, the target dances comically until the end of its next turn, during which it must spend all its movement to dance in place.",
+      "outcomes": [
+        "Partial"
+      ]
+    },
+    {
+      "ability": "Dexterity",
+      "sourceText": "On a failed save, the target has the Charmed condition for the duration. While Charmed, the target dances comically, must use all its movement to dance in place, and has Disadvantage on Dexterity saving throws and attack rolls, and other creatures have Advantage on attack rolls against it. On each of its turns, the target can take an action to collect itself and repeat the save, ending the spell on itself on a success.",
+      "outcomes": [
+        "FailureEffect",
+        "Partial"
+      ]
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": true,
   "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V",
+    "verbal": true,
+    "somatic": false,
+    "material": false
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"

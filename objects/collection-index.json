@@ -443,7 +443,7 @@
       },
       {
         "slug": "1-73-unseen-attackers-and-targets",
-        "name": "UNSEEN ATTACKERS AND TARGETS",
+        "name": "Unseen Attackers and Targets",
         "sub": "§1.73",
         "group": "Playing the Game"
       },
@@ -803,7 +803,7 @@
       },
       {
         "slug": "2-20-unaligned-creatures",
-        "name": "UNALIGNED CREATURES",
+        "name": "Unaligned Creatures",
         "sub": "§2.20",
         "group": "Character Creation"
       },
@@ -826,141 +826,135 @@
         "group": "Character Creation"
       },
       {
-        "slug": "2-24-passive-perception-10-wisdom-perception-check-modifier",
-        "name": "Passive Perception = 10 + Wisdom (Perception) check modifier",
+        "slug": "2-24-level-advancement",
+        "name": "Level Advancement",
         "sub": "§2.24",
         "group": "Character Creation"
       },
       {
-        "slug": "2-25-level-advancement",
-        "name": "Level Advancement",
+        "slug": "2-25-gaining-a-level",
+        "name": "Gaining a Level",
         "sub": "§2.25",
         "group": "Character Creation"
       },
       {
-        "slug": "2-26-gaining-a-level",
-        "name": "Gaining a Level",
+        "slug": "2-26-tiers-of-play",
+        "name": "Tiers of Play",
         "sub": "§2.26",
         "group": "Character Creation"
       },
       {
-        "slug": "2-27-tiers-of-play",
-        "name": "Tiers of Play",
+        "slug": "2-27-tier-1-levels-1-4",
+        "name": "Tier 1 (Levels 1–4)",
         "sub": "§2.27",
         "group": "Character Creation"
       },
       {
-        "slug": "2-28-tier-1-levels-1-4",
-        "name": "Tier 1 (Levels 1–4)",
+        "slug": "2-28-tier-2-levels-5-10",
+        "name": "Tier 2 (Levels 5–10)",
         "sub": "§2.28",
         "group": "Character Creation"
       },
       {
-        "slug": "2-29-tier-2-levels-5-10",
-        "name": "Tier 2 (Levels 5–10)",
+        "slug": "2-29-tier-3-levels-11-16",
+        "name": "Tier 3 (Levels 11–16)",
         "sub": "§2.29",
         "group": "Character Creation"
       },
       {
-        "slug": "2-30-tier-3-levels-11-16",
-        "name": "Tier 3 (Levels 11–16)",
+        "slug": "2-30-tier-4-levels-17-20",
+        "name": "Tier 4 (Levels 17–20)",
         "sub": "§2.30",
         "group": "Character Creation"
       },
       {
-        "slug": "2-31-tier-4-levels-17-20",
-        "name": "Tier 4 (Levels 17–20)",
+        "slug": "2-31-starting-at-higher-levels",
+        "name": "Starting at Higher Levels",
         "sub": "§2.31",
         "group": "Character Creation"
       },
       {
-        "slug": "2-32-starting-at-higher-levels",
-        "name": "Starting at Higher Levels",
+        "slug": "2-32-creating-your-character",
+        "name": "Creating Your Character",
         "sub": "§2.32",
         "group": "Character Creation"
       },
       {
-        "slug": "2-33-creating-your-character",
-        "name": "Creating Your Character",
+        "slug": "2-33-bonus-feats-at-level-20",
+        "name": "Bonus Feats at Level 20",
         "sub": "§2.33",
         "group": "Character Creation"
       },
       {
-        "slug": "2-34-bonus-feats-at-level-20",
-        "name": "Bonus Feats at Level 20",
+        "slug": "2-34-starting-equipment",
+        "name": "Starting Equipment",
         "sub": "§2.34",
         "group": "Character Creation"
       },
       {
-        "slug": "2-35-starting-equipment",
-        "name": "Starting Equipment",
+        "slug": "2-35-multiclassing",
+        "name": "Multiclassing",
         "sub": "§2.35",
         "group": "Character Creation"
       },
       {
-        "slug": "2-36-multiclassing",
-        "name": "Multiclassing",
+        "slug": "2-36-prerequisites",
+        "name": "Prerequisites",
         "sub": "§2.36",
         "group": "Character Creation"
       },
       {
-        "slug": "2-37-prerequisites",
-        "name": "Prerequisites",
+        "slug": "2-37-experience-points",
+        "name": "Experience Points",
         "sub": "§2.37",
         "group": "Character Creation"
       },
       {
-        "slug": "2-38-experience-points",
-        "name": "Experience Points",
+        "slug": "2-38-hit-points-and-hit-point-dice",
+        "name": "Hit Points and Hit Point Dice",
         "sub": "§2.38",
         "group": "Character Creation"
       },
       {
-        "slug": "2-39-hit-points-and-hit-point-dice",
-        "name": "Hit Points and Hit Point Dice",
+        "slug": "2-39-proficiency-bonus",
+        "name": "Proficiency Bonus",
         "sub": "§2.39",
         "group": "Character Creation"
       },
       {
-        "slug": "2-40-proficiency-bonus",
-        "name": "Proficiency Bonus",
+        "slug": "2-40-proficiencies",
+        "name": "Proficiencies",
         "sub": "§2.40",
         "group": "Character Creation"
       },
       {
-        "slug": "2-41-proficiencies",
-        "name": "Proficiencies",
+        "slug": "2-41-class-features",
+        "name": "Class Features",
         "sub": "§2.41",
         "group": "Character Creation"
       },
       {
-        "slug": "2-42-class-features",
-        "name": "Class Features",
+        "slug": "2-42-armor-class",
+        "name": "Armor Class",
         "sub": "§2.42",
         "group": "Character Creation"
       },
       {
-        "slug": "2-43-armor-class",
-        "name": "Armor Class",
+        "slug": "2-43-extra-attack",
+        "name": "Extra Attack",
         "sub": "§2.43",
         "group": "Character Creation"
       },
       {
-        "slug": "2-44-extra-attack",
-        "name": "Extra Attack",
+        "slug": "2-44-spellcasting",
+        "name": "Spellcasting",
         "sub": "§2.44",
         "group": "Character Creation"
       },
       {
-        "slug": "2-45-spellcasting",
-        "name": "Spellcasting",
-        "sub": "§2.45",
-        "group": "Character Creation"
-      },
-      {
-        "slug": "2-46-trinkets",
+        "slug": "2-45-trinkets",
         "name": "Trinkets",
-        "sub": "§2.46",
+        "sub": "§2.45",
         "group": "Character Creation"
       },
       {
@@ -2494,12 +2488,6 @@
         "group": "Rules Glossary"
       },
       {
-        "slug": "8-14-attack-action",
-        "name": "Attack [Action]",
-        "sub": "§8.14",
-        "group": "Rules Glossary"
-      },
-      {
         "slug": "8-15-attack-roll",
         "name": "Attack Roll",
         "sub": "§8.15",
@@ -2545,12 +2533,6 @@
         "slug": "8-23-bright-light",
         "name": "Bright Light",
         "sub": "§8.23",
-        "group": "Rules Glossary"
-      },
-      {
-        "slug": "8-24-burning-hazard",
-        "name": "Burning [Hazard]",
-        "sub": "§8.24",
         "group": "Rules Glossary"
       },
       {
@@ -2614,12 +2596,6 @@
         "group": "Rules Glossary"
       },
       {
-        "slug": "8-36-cone-area-of-effect",
-        "name": "Cone [Area of Effect]",
-        "sub": "§8.36",
-        "group": "Rules Glossary"
-      },
-      {
         "slug": "8-37-cover",
         "name": "Cover",
         "sub": "§8.37",
@@ -2650,21 +2626,9 @@
         "group": "Rules Glossary"
       },
       {
-        "slug": "8-42-cube-area-of-effect",
-        "name": "Cube [Area of Effect]",
-        "sub": "§8.42",
-        "group": "Rules Glossary"
-      },
-      {
         "slug": "8-43-curses",
         "name": "Curses",
         "sub": "§8.43",
-        "group": "Rules Glossary"
-      },
-      {
-        "slug": "8-44-cylinder-area-of-effect",
-        "name": "Cylinder [Area of Effect]",
-        "sub": "§8.44",
         "group": "Rules Glossary"
       },
       {
@@ -2710,12 +2674,6 @@
         "group": "Rules Glossary"
       },
       {
-        "slug": "8-52-dash-action",
-        "name": "Dash [Action]",
-        "sub": "§8.52",
-        "group": "Rules Glossary"
-      },
-      {
         "slug": "8-53-dead",
         "name": "Dead",
         "sub": "§8.53",
@@ -2725,12 +2683,6 @@
         "slug": "8-55-death-saving-throw",
         "name": "Death Saving Throw",
         "sub": "§8.55",
-        "group": "Rules Glossary"
-      },
-      {
-        "slug": "8-56-dehydration-hazard",
-        "name": "Dehydration [Hazard]",
-        "sub": "§8.56",
         "group": "Rules Glossary"
       },
       {
@@ -2758,24 +2710,6 @@
         "group": "Rules Glossary"
       },
       {
-        "slug": "8-61-disengage-action",
-        "name": "Disengage [Action]",
-        "sub": "§8.61",
-        "group": "Rules Glossary"
-      },
-      {
-        "slug": "8-62-dodge-action",
-        "name": "Dodge [Action]",
-        "sub": "§8.62",
-        "group": "Rules Glossary"
-      },
-      {
-        "slug": "8-63-emanation-area-of-effect",
-        "name": "Emanation [Area of Effect]",
-        "sub": "§8.63",
-        "group": "Rules Glossary"
-      },
-      {
         "slug": "8-64-encounter",
         "name": "Encounter",
         "sub": "§8.64",
@@ -2800,12 +2734,6 @@
         "group": "Rules Glossary"
       },
       {
-        "slug": "8-69-falling-hazard",
-        "name": "Falling [Hazard]",
-        "sub": "§8.69",
-        "group": "Rules Glossary"
-      },
-      {
         "slug": "8-70-flying",
         "name": "Flying",
         "sub": "§8.70",
@@ -2815,12 +2743,6 @@
         "slug": "8-71-fly-speed",
         "name": "Fly Speed",
         "sub": "§8.71",
-        "group": "Rules Glossary"
-      },
-      {
-        "slug": "8-72-friendly-attitude",
-        "name": "Friendly [Attitude]",
-        "sub": "§8.72",
         "group": "Rules Glossary"
       },
       {
@@ -2848,21 +2770,9 @@
         "group": "Rules Glossary"
       },
       {
-        "slug": "8-79-help-action",
-        "name": "Help [Action]",
-        "sub": "§8.79",
-        "group": "Rules Glossary"
-      },
-      {
         "slug": "8-80-heroic-inspiration",
         "name": "Heroic Inspiration",
         "sub": "§8.80",
-        "group": "Rules Glossary"
-      },
-      {
-        "slug": "8-81-hide-action",
-        "name": "Hide [Action]",
-        "sub": "§8.81",
         "group": "Rules Glossary"
       },
       {
@@ -2881,12 +2791,6 @@
         "slug": "8-84-hit-points",
         "name": "Hit Points",
         "sub": "§8.84",
-        "group": "Rules Glossary"
-      },
-      {
-        "slug": "8-85-hostile-attitude",
-        "name": "Hostile [Attitude]",
-        "sub": "§8.85",
         "group": "Rules Glossary"
       },
       {
@@ -2914,18 +2818,6 @@
         "group": "Rules Glossary"
       },
       {
-        "slug": "8-91-indifferent-attitude",
-        "name": "Indifferent [Attitude]",
-        "sub": "§8.91",
-        "group": "Rules Glossary"
-      },
-      {
-        "slug": "8-92-influence-action",
-        "name": "Influence [Action]",
-        "sub": "§8.92",
-        "group": "Rules Glossary"
-      },
-      {
         "slug": "8-93-initiative",
         "name": "Initiative",
         "sub": "§8.93",
@@ -2950,12 +2842,6 @@
         "group": "Rules Glossary"
       },
       {
-        "slug": "8-98-line-area-of-effect",
-        "name": "Line [Area of Effect]",
-        "sub": "§8.98",
-        "group": "Rules Glossary"
-      },
-      {
         "slug": "8-99-long-jump",
         "name": "Long Jump",
         "sub": "§8.99",
@@ -2968,21 +2854,9 @@
         "group": "Rules Glossary"
       },
       {
-        "slug": "8-101-magic-action",
-        "name": "Magic [Action]",
-        "sub": "§8.101",
-        "group": "Rules Glossary"
-      },
-      {
         "slug": "8-102-magical-effect",
         "name": "Magical Effect",
         "sub": "§8.102",
-        "group": "Rules Glossary"
-      },
-      {
-        "slug": "8-103-malnutrition-hazard",
-        "name": "Malnutrition [Hazard]",
-        "sub": "§8.103",
         "group": "Rules Glossary"
       },
       {
@@ -3058,12 +2932,6 @@
         "group": "Rules Glossary"
       },
       {
-        "slug": "8-120-ready-action",
-        "name": "Ready [Action]",
-        "sub": "§8.120",
-        "group": "Rules Glossary"
-      },
-      {
         "slug": "8-121-resistance",
         "name": "Resistance",
         "sub": "§8.121",
@@ -3091,12 +2959,6 @@
         "slug": "8-126-saving-throw",
         "name": "Saving Throw",
         "sub": "§8.126",
-        "group": "Rules Glossary"
-      },
-      {
-        "slug": "8-127-search-action",
-        "name": "Search [Action]",
-        "sub": "§8.127",
         "group": "Rules Glossary"
       },
       {
@@ -3154,12 +3016,6 @@
         "group": "Rules Glossary"
       },
       {
-        "slug": "8-137-sphere-area-of-effect",
-        "name": "Sphere [Area of Effect]",
-        "sub": "§8.137",
-        "group": "Rules Glossary"
-      },
-      {
         "slug": "8-138-stable",
         "name": "Stable",
         "sub": "§8.138",
@@ -3169,18 +3025,6 @@
         "slug": "8-139-stat-block",
         "name": "Stat Block",
         "sub": "§8.139",
-        "group": "Rules Glossary"
-      },
-      {
-        "slug": "8-140-study-action",
-        "name": "Study [Action]",
-        "sub": "§8.140",
-        "group": "Rules Glossary"
-      },
-      {
-        "slug": "8-142-suffocation-hazard",
-        "name": "Suffocation [Hazard]",
-        "sub": "§8.142",
         "group": "Rules Glossary"
       },
       {
@@ -3247,12 +3091,6 @@
         "slug": "8-154-unoccupied-space",
         "name": "Unoccupied Space",
         "sub": "§8.154",
-        "group": "Rules Glossary"
-      },
-      {
-        "slug": "8-155-utilize-action",
-        "name": "Utilize [Action]",
-        "sub": "§8.155",
         "group": "Rules Glossary"
       },
       {
@@ -3352,411 +3190,405 @@
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-14-curses-and",
-        "name": "Curses and",
+        "slug": "9-14-curses-and-magical-contagions",
+        "name": "Curses and Magical Contagions",
         "sub": "§9.14",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-15-magical-contagions",
-        "name": "Magical Contagions",
+        "slug": "9-15-curses",
+        "name": "Curses",
         "sub": "§9.15",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-16-curses",
-        "name": "Curses",
+        "slug": "9-16-bestow-curse",
+        "name": "Bestow Curse",
         "sub": "§9.16",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-17-bestow-curse",
-        "name": "Bestow Curse",
+        "slug": "9-17-cursed-creatures",
+        "name": "Cursed Creatures",
         "sub": "§9.17",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-18-cursed-creatures",
-        "name": "Cursed Creatures",
+        "slug": "9-18-cursed-magic-items",
+        "name": "Cursed Magic Items",
         "sub": "§9.18",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-19-cursed-magic-items",
-        "name": "Cursed Magic Items",
+        "slug": "9-19-narrative-curses",
+        "name": "Narrative Curses",
         "sub": "§9.19",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-20-narrative-curses",
-        "name": "Narrative Curses",
+        "slug": "9-20-environmental-curses",
+        "name": "Environmental Curses",
         "sub": "§9.20",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-21-environmental-curses",
-        "name": "Environmental Curses",
+        "slug": "9-21-magical-contagions",
+        "name": "Magical Contagions",
         "sub": "§9.21",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-22-magical-contagions",
-        "name": "Magical Contagions",
+        "slug": "9-22-rest-and-recuperation",
+        "name": "Rest and Recuperation",
         "sub": "§9.22",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-23-rest-and-recuperation",
-        "name": "Rest and Recuperation",
+        "slug": "9-23-example-contagions",
+        "name": "Example Contagions",
         "sub": "§9.23",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-24-example-contagions",
-        "name": "Example Contagions",
+        "slug": "9-24-cackle-fever",
+        "name": "Cackle Fever",
         "sub": "§9.24",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-25-cackle-fever",
-        "name": "Cackle Fever",
+        "slug": "9-25-sewer-plague",
+        "name": "Sewer Plague",
         "sub": "§9.25",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-26-sewer-plague",
-        "name": "Sewer Plague",
+        "slug": "9-26-sight-rot",
+        "name": "Sight Rot",
         "sub": "§9.26",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-27-sight-rot",
-        "name": "Sight Rot",
+        "slug": "9-27-environmental-effects-deep-water",
+        "name": "Environmental Effects Deep Water",
         "sub": "§9.27",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-28-environmental-effects-deep-water",
-        "name": "Environmental Effects Deep Water",
+        "slug": "9-28-extreme-cold",
+        "name": "Extreme Cold",
         "sub": "§9.28",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-29-extreme-cold",
-        "name": "Extreme Cold",
+        "slug": "9-29-extreme-heat",
+        "name": "Extreme Heat",
         "sub": "§9.29",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-30-extreme-heat",
-        "name": "Extreme Heat",
+        "slug": "9-30-frigid-water",
+        "name": "Frigid Water",
         "sub": "§9.30",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-31-frigid-water",
-        "name": "Frigid Water",
+        "slug": "9-31-heavy-precipitation",
+        "name": "Heavy Precipitation",
         "sub": "§9.31",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-32-heavy-precipitation",
-        "name": "Heavy Precipitation",
+        "slug": "9-32-high-altitude",
+        "name": "High Altitude",
         "sub": "§9.32",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-33-high-altitude",
-        "name": "High Altitude",
+        "slug": "9-33-slippery-ice",
+        "name": "Slippery Ice",
         "sub": "§9.33",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-34-slippery-ice",
-        "name": "Slippery Ice",
+        "slug": "9-34-strong-wind",
+        "name": "Strong Wind",
         "sub": "§9.34",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-35-strong-wind",
-        "name": "Strong Wind",
+        "slug": "9-35-thin-ice",
+        "name": "Thin Ice",
         "sub": "§9.35",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-36-thin-ice",
-        "name": "Thin Ice",
+        "slug": "9-36-fear-and-mental-stress",
+        "name": "Fear and Mental Stress",
         "sub": "§9.36",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-37-fear-and-mental-stress",
-        "name": "Fear and Mental Stress",
+        "slug": "9-37-fear-effects",
+        "name": "Fear Effects",
         "sub": "§9.37",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-38-fear-effects",
-        "name": "Fear Effects",
+        "slug": "9-38-mental-stress-effects",
+        "name": "Mental Stress Effects",
         "sub": "§9.38",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-39-mental-stress-effects",
-        "name": "Mental Stress Effects",
+        "slug": "9-39-prolonged-effects",
+        "name": "Prolonged Effects",
         "sub": "§9.39",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-40-prolonged-effects",
-        "name": "Prolonged Effects",
+        "slug": "9-40-poison",
+        "name": "Poison",
         "sub": "§9.40",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-41-poison",
-        "name": "Poison",
+        "slug": "9-41-purchasing-poison",
+        "name": "Purchasing Poison",
         "sub": "§9.41",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-42-purchasing-poison",
-        "name": "Purchasing Poison",
+        "slug": "9-42-harvesting-poison",
+        "name": "Harvesting Poison",
         "sub": "§9.42",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-43-harvesting-poison",
-        "name": "Harvesting Poison",
+        "slug": "9-43-sample-poisons",
+        "name": "Sample Poisons",
         "sub": "§9.43",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-44-sample-poisons",
-        "name": "Sample Poisons",
+        "slug": "9-44-assassins-blood-150-gp",
+        "name": "Assassin's Blood (150 GP)",
         "sub": "§9.44",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-45-assassins-blood-150-gp",
-        "name": "Assassin's Blood (150 GP)",
+        "slug": "9-45-burnt-othur-fumes-500-gp",
+        "name": "Burnt Othur Fumes (500 GP)",
         "sub": "§9.45",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-46-burnt-othur-fumes-500-gp",
-        "name": "Burnt Othur Fumes (500 GP)",
+        "slug": "9-46-crawler-mucus-200-gp",
+        "name": "Crawler Mucus (200 GP)",
         "sub": "§9.46",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-47-crawler-mucus-200-gp",
-        "name": "Crawler Mucus (200 GP)",
+        "slug": "9-47-essence-of-ether-300-gp",
+        "name": "Essence of Ether (300 GP)",
         "sub": "§9.47",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-48-essence-of-ether-300-gp",
-        "name": "Essence of Ether (300 GP)",
+        "slug": "9-48-malice-250-gp",
+        "name": "Malice (250 GP)",
         "sub": "§9.48",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-49-malice-250-gp",
-        "name": "Malice (250 GP)",
+        "slug": "9-49-midnight-tears-1-500-gp",
+        "name": "Midnight Tears (1,500 GP)",
         "sub": "§9.49",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-50-midnight-tears-1-500-gp",
-        "name": "Midnight Tears (1,500 GP)",
+        "slug": "9-50-oil-of-taggit-400-gp",
+        "name": "Oil of Taggit (400 GP)",
         "sub": "§9.50",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-51-oil-of-taggit-400-gp",
-        "name": "Oil of Taggit (400 GP)",
+        "slug": "9-51-pale-tincture-250-gp",
+        "name": "Pale Tincture (250 GP)",
         "sub": "§9.51",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-52-pale-tincture-250-gp",
-        "name": "Pale Tincture (250 GP)",
+        "slug": "9-52-purple-worm-poison-2-000-gp",
+        "name": "Purple Worm Poison (2,000 GP)",
         "sub": "§9.52",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-53-purple-worm-poison-2-000-gp",
-        "name": "Purple Worm Poison (2,000 GP)",
+        "slug": "9-53-serpent-venom-200-gp",
+        "name": "Serpent Venom (200 GP)",
         "sub": "§9.53",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-54-serpent-venom-200-gp",
-        "name": "Serpent Venom (200 GP)",
+        "slug": "9-54-spiders-sting-200-gp",
+        "name": "Spider's Sting (200 GP)",
         "sub": "§9.54",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-55-spiders-sting-200-gp",
-        "name": "Spider's Sting (200 GP)",
+        "slug": "9-55-torpor-600-gp",
+        "name": "Torpor (600 GP)",
         "sub": "§9.55",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-56-torpor-600-gp",
-        "name": "Torpor (600 GP)",
+        "slug": "9-56-truth-serum-150-gp",
+        "name": "Truth Serum (150 GP)",
         "sub": "§9.56",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-57-truth-serum-150-gp",
-        "name": "Truth Serum (150 GP)",
+        "slug": "9-57-wyvern-poison-1-200-gp",
+        "name": "Wyvern Poison (1,200 GP)",
         "sub": "§9.57",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-58-wyvern-poison-1-200-gp",
-        "name": "Wyvern Poison (1,200 GP)",
+        "slug": "9-58-traps",
+        "name": "Traps",
         "sub": "§9.58",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-59-traps",
-        "name": "Traps",
+        "slug": "9-59-parts-of-a-trap",
+        "name": "Parts of a Trap",
         "sub": "§9.59",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-60-parts-of-a-trap",
-        "name": "Parts of a Trap",
+        "slug": "9-60-example-traps",
+        "name": "Example Traps",
         "sub": "§9.60",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-61-example-traps",
-        "name": "Example Traps",
+        "slug": "9-61-collapsing-roof",
+        "name": "Collapsing Roof",
         "sub": "§9.61",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-62-collapsing-roof",
-        "name": "Collapsing Roof",
+        "slug": "9-62-falling-net",
+        "name": "Falling Net",
         "sub": "§9.62",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-63-falling-net",
-        "name": "Falling Net",
+        "slug": "9-63-fire-casting-statue",
+        "name": "Fire-Casting Statue",
         "sub": "§9.63",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-64-fire-casting-statue",
-        "name": "Fire-Casting Statue",
+        "slug": "9-64-hidden-pit",
+        "name": "Hidden Pit",
         "sub": "§9.64",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-65-hidden-pit",
-        "name": "Hidden Pit",
+        "slug": "9-65-poisoned-darts",
+        "name": "Poisoned Darts",
         "sub": "§9.65",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-66-poisoned-darts",
-        "name": "Poisoned Darts",
+        "slug": "9-66-poisoned-needle",
+        "name": "Poisoned Needle",
         "sub": "§9.66",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-67-poisoned-needle",
-        "name": "Poisoned Needle",
+        "slug": "9-67-rolling-stone",
+        "name": "Rolling Stone",
         "sub": "§9.67",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-68-rolling-stone",
-        "name": "Rolling Stone",
+        "slug": "9-68-spiked-pit",
+        "name": "Spiked Pit",
         "sub": "§9.68",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-69-spiked-pit",
-        "name": "Spiked Pit",
+        "slug": "9-69-combat-encounters",
+        "name": "Combat Encounters",
         "sub": "§9.69",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-70-combat-encounters",
-        "name": "Combat Encounters",
+        "slug": "9-70-combat-encounter-difficulty",
+        "name": "Combat Encounter Difficulty",
         "sub": "§9.70",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-71-combat-encounter-difficulty",
-        "name": "Combat Encounter Difficulty",
+        "slug": "9-71-step-1-choose-a-difficulty",
+        "name": "Step 1: Choose a Difficulty",
         "sub": "§9.71",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-72-step-1-choose-a-difficulty",
-        "name": "Step 1: Choose a Difficulty",
+        "slug": "9-72-step-2-determine-your-xp-budget",
+        "name": "Step 2: Determine Your XP Budget",
         "sub": "§9.72",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-73-step-2-determine-your-xp-budget",
-        "name": "Step 2: Determine Your XP Budget",
+        "slug": "9-73-step-3-spend-your-budget",
+        "name": "Step 3: Spend Your Budget",
         "sub": "§9.73",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-74-step-3-spend-your-budget",
-        "name": "Step 3: Spend Your Budget",
+        "slug": "9-74-troubleshooting",
+        "name": "Troubleshooting",
         "sub": "§9.74",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-75-troubleshooting",
-        "name": "Troubleshooting",
+        "slug": "9-75-many-creatures",
+        "name": "Many Creatures",
         "sub": "§9.75",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-76-many-creatures",
-        "name": "Many Creatures",
+        "slug": "9-76-adjustments",
+        "name": "Adjustments",
         "sub": "§9.76",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-77-adjustments",
-        "name": "Adjustments",
+        "slug": "9-77-cr-0-creatures",
+        "name": "CR 0 Creatures",
         "sub": "§9.77",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-78-cr-0-creatures",
-        "name": "CR 0 Creatures",
+        "slug": "9-78-number-of-stat-blocks",
+        "name": "Number of Stat Blocks",
         "sub": "§9.78",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-79-number-of-stat-blocks",
-        "name": "Number of Stat Blocks",
+        "slug": "9-79-powerful-creatures",
+        "name": "Powerful Creatures",
         "sub": "§9.79",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-80-powerful-creatures",
-        "name": "Powerful Creatures",
-        "sub": "§9.80",
-        "group": "Gameplay Toolbox"
-      },
-      {
-        "slug": "9-81-unusual-features",
+        "slug": "9-80-unusual-features",
         "name": "Unusual Features",
-        "sub": "§9.81",
+        "sub": "§9.80",
         "group": "Gameplay Toolbox"
       },
       {
@@ -4426,6 +4258,170 @@
         "group": "Animals"
       }
     ],
+    "actions": [
+      {
+        "slug": "attack",
+        "name": "Attack",
+        "sub": "Rules Glossary · §8.14",
+        "group": "Actions"
+      },
+      {
+        "slug": "dash",
+        "name": "Dash",
+        "sub": "Rules Glossary · §8.52",
+        "group": "Actions"
+      },
+      {
+        "slug": "disengage",
+        "name": "Disengage",
+        "sub": "Rules Glossary · §8.61",
+        "group": "Actions"
+      },
+      {
+        "slug": "dodge",
+        "name": "Dodge",
+        "sub": "Rules Glossary · §8.62",
+        "group": "Actions"
+      },
+      {
+        "slug": "help",
+        "name": "Help",
+        "sub": "Rules Glossary · §8.79",
+        "group": "Actions"
+      },
+      {
+        "slug": "hide",
+        "name": "Hide",
+        "sub": "Rules Glossary · §8.81",
+        "group": "Actions"
+      },
+      {
+        "slug": "influence",
+        "name": "Influence",
+        "sub": "Rules Glossary · §8.92",
+        "group": "Actions"
+      },
+      {
+        "slug": "magic",
+        "name": "Magic",
+        "sub": "Rules Glossary · §8.101",
+        "group": "Actions"
+      },
+      {
+        "slug": "ready",
+        "name": "Ready",
+        "sub": "Rules Glossary · §8.120",
+        "group": "Actions"
+      },
+      {
+        "slug": "search",
+        "name": "Search",
+        "sub": "Rules Glossary · §8.127",
+        "group": "Actions"
+      },
+      {
+        "slug": "study",
+        "name": "Study",
+        "sub": "Rules Glossary · §8.140",
+        "group": "Actions"
+      },
+      {
+        "slug": "utilize",
+        "name": "Utilize",
+        "sub": "Rules Glossary · §8.155",
+        "group": "Actions"
+      }
+    ],
+    "areas-of-effect": [
+      {
+        "slug": "cone",
+        "name": "Cone",
+        "sub": "Rules Glossary · §8.36",
+        "group": "Areas of Effect"
+      },
+      {
+        "slug": "cube",
+        "name": "Cube",
+        "sub": "Rules Glossary · §8.42",
+        "group": "Areas of Effect"
+      },
+      {
+        "slug": "cylinder",
+        "name": "Cylinder",
+        "sub": "Rules Glossary · §8.44",
+        "group": "Areas of Effect"
+      },
+      {
+        "slug": "emanation",
+        "name": "Emanation",
+        "sub": "Rules Glossary · §8.63",
+        "group": "Areas of Effect"
+      },
+      {
+        "slug": "line",
+        "name": "Line",
+        "sub": "Rules Glossary · §8.98",
+        "group": "Areas of Effect"
+      },
+      {
+        "slug": "sphere",
+        "name": "Sphere",
+        "sub": "Rules Glossary · §8.137",
+        "group": "Areas of Effect"
+      }
+    ],
+    "attitudes": [
+      {
+        "slug": "friendly",
+        "name": "Friendly",
+        "sub": "Rules Glossary · §8.72",
+        "group": "Attitudes"
+      },
+      {
+        "slug": "hostile",
+        "name": "Hostile",
+        "sub": "Rules Glossary · §8.85",
+        "group": "Attitudes"
+      },
+      {
+        "slug": "indifferent",
+        "name": "Indifferent",
+        "sub": "Rules Glossary · §8.91",
+        "group": "Attitudes"
+      }
+    ],
+    "hazards": [
+      {
+        "slug": "burning",
+        "name": "Burning",
+        "sub": "Rules Glossary · §8.24",
+        "group": "Hazards"
+      },
+      {
+        "slug": "dehydration",
+        "name": "Dehydration",
+        "sub": "Rules Glossary · §8.56",
+        "group": "Hazards"
+      },
+      {
+        "slug": "falling",
+        "name": "Falling",
+        "sub": "Rules Glossary · §8.69",
+        "group": "Hazards"
+      },
+      {
+        "slug": "malnutrition",
+        "name": "Malnutrition",
+        "sub": "Rules Glossary · §8.103",
+        "group": "Hazards"
+      },
+      {
+        "slug": "suffocation",
+        "name": "Suffocation",
+        "sub": "Rules Glossary · §8.142",
+        "group": "Hazards"
+      }
+    ],
     "tables": [
       {
         "slug": "1-4-ability-descriptions",
@@ -4518,12 +4514,6 @@
         "group": "Character Creation"
       },
       {
-        "slug": "2-4-class-overview-2",
-        "name": "Class Overview",
-        "sub": "§2.4",
-        "group": "Character Creation"
-      },
-      {
         "slug": "2-8-ability-scores-and-backgrounds",
         "name": "Ability Scores and Backgrounds",
         "sub": "§2.8",
@@ -4560,39 +4550,39 @@
         "group": "Character Creation"
       },
       {
-        "slug": "2-24-level-1-hit-points-by-class",
+        "slug": "2-23-level-1-hit-points-by-class",
         "name": "Level 1 Hit Points by Class",
+        "sub": "§2.23",
+        "group": "Character Creation"
+      },
+      {
+        "slug": "2-24-character-advancement",
+        "name": "Character Advancement",
         "sub": "§2.24",
         "group": "Character Creation"
       },
       {
-        "slug": "2-25-character-advancement",
-        "name": "Character Advancement",
+        "slug": "2-25-fixed-hit-points-by-class",
+        "name": "Fixed Hit Points by Class",
         "sub": "§2.25",
         "group": "Character Creation"
       },
       {
-        "slug": "2-26-fixed-hit-points-by-class",
-        "name": "Fixed Hit Points by Class",
-        "sub": "§2.26",
-        "group": "Character Creation"
-      },
-      {
-        "slug": "2-33-starting-equipment-at-higher-levels",
+        "slug": "2-32-starting-equipment-at-higher-levels",
         "name": "Starting Equipment at Higher Levels",
-        "sub": "§2.33",
+        "sub": "§2.32",
         "group": "Character Creation"
       },
       {
-        "slug": "2-45-spell-slots-per-spell-level",
+        "slug": "2-44-spell-slots-per-spell-level",
         "name": "Spell Slots per Spell Level",
-        "sub": "§2.45",
+        "sub": "§2.44",
         "group": "Character Creation"
       },
       {
-        "slug": "2-46-trinkets",
+        "slug": "2-45-trinkets",
         "name": "Trinkets",
-        "sub": "§2.46",
+        "sub": "§2.45",
         "group": "Character Creation"
       },
       {
@@ -4609,12 +4599,6 @@
       },
       {
         "slug": "3-5-cantrips-level-0-bard-spells",
-        "name": "Cantrips (Level 0 Bard Spells)",
-        "sub": "§3.5",
-        "group": "Classes"
-      },
-      {
-        "slug": "3-5-cantrips-level-0-bard-spells-2",
         "name": "Cantrips (Level 0 Bard Spells)",
         "sub": "§3.5",
         "group": "Classes"
@@ -4974,12 +4958,6 @@
         "group": "Classes"
       },
       {
-        "slug": "3-26-level-2-sorcerer-spells-2",
-        "name": "Level 2 Sorcerer Spells",
-        "sub": "§3.26",
-        "group": "Classes"
-      },
-      {
         "slug": "3-26-level-3-sorcerer-spells",
         "name": "Level 3 Sorcerer Spells",
         "sub": "§3.26",
@@ -5058,12 +5036,6 @@
         "group": "Classes"
       },
       {
-        "slug": "3-29-level-3-warlock-spells-2",
-        "name": "Level 3 Warlock Spells",
-        "sub": "§3.29",
-        "group": "Classes"
-      },
-      {
         "slug": "3-29-level-4-warlock-spells",
         "name": "Level 4 Warlock Spells",
         "sub": "§3.29",
@@ -5118,12 +5090,6 @@
         "group": "Classes"
       },
       {
-        "slug": "3-32-cantrips-level-0-wizard-spells-2",
-        "name": "Cantrips (Level 0 Wizard Spells)",
-        "sub": "§3.32",
-        "group": "Classes"
-      },
-      {
         "slug": "3-32-level-1-wizard-spells",
         "name": "Level 1 Wizard Spells",
         "sub": "§3.32",
@@ -5137,12 +5103,6 @@
       },
       {
         "slug": "3-32-level-3-wizard-spells",
-        "name": "Level 3 Wizard Spells",
-        "sub": "§3.32",
-        "group": "Classes"
-      },
-      {
-        "slug": "3-32-level-3-wizard-spells-2",
         "name": "Level 3 Wizard Spells",
         "sub": "§3.32",
         "group": "Classes"
@@ -5184,6 +5144,24 @@
         "group": "Classes"
       },
       {
+        "slug": "4-21-draconic-ancestors",
+        "name": "Draconic Ancestors",
+        "sub": "§4.21",
+        "group": "Character Origins"
+      },
+      {
+        "slug": "4-23-elven-lineages",
+        "name": "Elven Lineages",
+        "sub": "§4.23",
+        "group": "Character Origins"
+      },
+      {
+        "slug": "4-29-fiendish-legacies",
+        "name": "Fiendish Legacies",
+        "sub": "§4.29",
+        "group": "Character Origins"
+      },
+      {
         "slug": "6-2-coin-values",
         "name": "Coin Values",
         "sub": "§6.2",
@@ -5203,12 +5181,6 @@
       },
       {
         "slug": "6-64-adventuring-gear",
-        "name": "Adventuring Gear",
-        "sub": "§6.64",
-        "group": "Equipment"
-      },
-      {
-        "slug": "6-64-adventuring-gear-2",
         "name": "Adventuring Gear",
         "sub": "§6.64",
         "group": "Equipment"
@@ -5310,8 +5282,8 @@
         "group": "Spells"
       },
       {
-        "slug": "7-97-precipitation-2",
-        "name": "Precipitation",
+        "slug": "7-97-control-weather-table-2",
+        "name": "Control Weather Table 2",
         "sub": "§7.97",
         "group": "Spells"
       },
@@ -5418,93 +5390,57 @@
         "group": "Rules Glossary"
       },
       {
-        "slug": "8-49-damage-types-2",
-        "name": "Damage Types",
-        "sub": "§8.49",
-        "group": "Rules Glossary"
-      },
-      {
-        "slug": "8-56-water-needs-per-day",
-        "name": "Water Needs per Day",
-        "sub": "§8.56",
-        "group": "Rules Glossary"
-      },
-      {
-        "slug": "8-92-influence-checks",
-        "name": "Influence Checks",
-        "sub": "§8.92",
-        "group": "Rules Glossary"
-      },
-      {
-        "slug": "8-103-food-needs-per-day",
-        "name": "Food Needs per Day",
-        "sub": "§8.103",
-        "group": "Rules Glossary"
-      },
-      {
-        "slug": "8-127-search",
-        "name": "Search",
-        "sub": "§8.127",
-        "group": "Rules Glossary"
-      },
-      {
-        "slug": "8-140-areas-of-knowledge",
-        "name": "Areas of Knowledge",
-        "sub": "§8.140",
-        "group": "Rules Glossary"
-      },
-      {
         "slug": "9-2-travel-terrain",
         "name": "Travel Terrain",
         "sub": "§9.2",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-38-sample-fear-dcs",
+        "slug": "9-37-sample-fear-dcs",
         "name": "Sample Fear DCs",
+        "sub": "§9.37",
+        "group": "Gameplay Toolbox"
+      },
+      {
+        "slug": "9-38-sample-mental-stress-effects",
+        "name": "Sample Mental Stress Effects",
         "sub": "§9.38",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-39-sample-mental-stress-effects",
-        "name": "Sample Mental Stress Effects",
-        "sub": "§9.39",
-        "group": "Gameplay Toolbox"
-      },
-      {
-        "slug": "9-62-collapsing-roof-table-1",
+        "slug": "9-61-collapsing-roof-table-1",
         "name": "Collapsing Roof Table 1",
-        "sub": "§9.62",
+        "sub": "§9.61",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-64-fire-casting-statue-table-1",
+        "slug": "9-63-fire-casting-statue-table-1",
         "name": "Fire-Casting Statue Table 1",
+        "sub": "§9.63",
+        "group": "Gameplay Toolbox"
+      },
+      {
+        "slug": "9-64-hidden-pit-table-1",
+        "name": "Hidden Pit Table 1",
         "sub": "§9.64",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-65-hidden-pit-table-1",
-        "name": "Hidden Pit Table 1",
-        "sub": "§9.65",
-        "group": "Gameplay Toolbox"
-      },
-      {
-        "slug": "9-67-poisoned-needle-table-1",
+        "slug": "9-66-poisoned-needle-table-1",
         "name": "Poisoned Needle Table 1",
-        "sub": "§9.67",
+        "sub": "§9.66",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-69-spiked-pit-table-1",
+        "slug": "9-68-spiked-pit-table-1",
         "name": "Spiked Pit Table 1",
-        "sub": "§9.69",
+        "sub": "§9.68",
         "group": "Gameplay Toolbox"
       },
       {
-        "slug": "9-73-xp-budget-per-character",
+        "slug": "9-72-xp-budget-per-character",
         "name": "XP Budget per Character",
-        "sub": "§9.73",
+        "sub": "§9.72",
         "group": "Gameplay Toolbox"
       },
       {
@@ -5694,12 +5630,6 @@
         "group": "Magic Items"
       },
       {
-        "slug": "10-163-mysterious-deck-2",
-        "name": "Mysterious Deck",
-        "sub": "§10.163",
-        "group": "Magic Items"
-      },
-      {
         "slug": "10-167-necklace-of-prayer-beads-table-1",
         "name": "Necklace of Prayer Beads Table 1",
         "sub": "§10.167",
@@ -5742,15 +5672,21 @@
         "group": "Magic Items"
       },
       {
+        "slug": "10-228-robe-of-useful-items-patches",
+        "name": "Robe of Useful Items Patches",
+        "sub": "§10.228",
+        "group": "Magic Items"
+      },
+      {
         "slug": "10-247-spell-scroll-table-1",
         "name": "Spell Scroll Table 1",
         "sub": "§10.247",
         "group": "Magic Items"
       },
       {
-        "slug": "10-247-spell-scroll-table-2",
-        "name": "Spell Scroll Table 2",
-        "sub": "§10.247",
+        "slug": "10-248-sphere-interactions",
+        "name": "Sphere Interactions",
+        "sub": "§10.248",
         "group": "Magic Items"
       },
       {
@@ -5821,12 +5757,6 @@
       },
       {
         "slug": "11-24-experience-points-by-challenge-rating",
-        "name": "Experience Points by Challenge Rating",
-        "sub": "§11.24",
-        "group": "Monsters"
-      },
-      {
-        "slug": "11-24-experience-points-by-challenge-rating-2",
         "name": "Experience Points by Challenge Rating",
         "sub": "§11.24",
         "group": "Monsters"
@@ -5984,6 +5914,238 @@
         "name": "Evoker",
         "sub": "Wizard subclass",
         "group": "Wizard"
+      }
+    ],
+    "invocations": [
+      {
+        "slug": "agonizing-blast",
+        "name": "Agonizing Blast",
+        "sub": "Level 2+ Warlock, a Warlock Cantrip That Deals Damage",
+        "group": "Warlock"
+      },
+      {
+        "slug": "armor-of-shadows",
+        "name": "Armor of Shadows",
+        "sub": "Eldritch Invocation",
+        "group": "Warlock"
+      },
+      {
+        "slug": "ascendant-step",
+        "name": "Ascendant Step",
+        "sub": "Level 5+ Warlock",
+        "group": "Warlock"
+      },
+      {
+        "slug": "devils-sight",
+        "name": "Devil's Sight",
+        "sub": "Level 2+ Warlock",
+        "group": "Warlock"
+      },
+      {
+        "slug": "devouring-blade",
+        "name": "Devouring Blade",
+        "sub": "Level 12+ Warlock, Thirsting Blade Invocation",
+        "group": "Warlock"
+      },
+      {
+        "slug": "eldritch-mind",
+        "name": "Eldritch Mind",
+        "sub": "Eldritch Invocation",
+        "group": "Warlock"
+      },
+      {
+        "slug": "eldritch-smite",
+        "name": "Eldritch Smite",
+        "sub": "Level 5+ Warlock, Pact of the Blade Invocation",
+        "group": "Warlock"
+      },
+      {
+        "slug": "eldritch-spear",
+        "name": "Eldritch Spear",
+        "sub": "Level 2+ Warlock, a Warlock Cantrip That Deals Damage",
+        "group": "Warlock"
+      },
+      {
+        "slug": "fiendish-vigor",
+        "name": "Fiendish Vigor",
+        "sub": "Level 2+ Warlock",
+        "group": "Warlock"
+      },
+      {
+        "slug": "gaze-of-two-minds",
+        "name": "Gaze of Two Minds",
+        "sub": "Level 5+ Warlock",
+        "group": "Warlock"
+      },
+      {
+        "slug": "gift-of-the-depths",
+        "name": "Gift of the Depths",
+        "sub": "Level 5+ Warlock",
+        "group": "Warlock"
+      },
+      {
+        "slug": "gift-of-the-protectors",
+        "name": "Gift of the Protectors",
+        "sub": "Level 9+ Warlock, Pact of the Tome Invocation",
+        "group": "Warlock"
+      },
+      {
+        "slug": "investment-of-the-chain-master",
+        "name": "Investment of the Chain Master",
+        "sub": "Level 5+ Warlock, Pact of the Chain Invocation",
+        "group": "Warlock"
+      },
+      {
+        "slug": "lessons-of-the-first-ones",
+        "name": "Lessons of the First Ones",
+        "sub": "Level 2+ Warlock",
+        "group": "Warlock"
+      },
+      {
+        "slug": "lifedrinker",
+        "name": "Lifedrinker",
+        "sub": "Level 9+ Warlock, Pact of the Blade Invocation",
+        "group": "Warlock"
+      },
+      {
+        "slug": "mask-of-many-faces",
+        "name": "Mask of Many Faces",
+        "sub": "Level 2+ Warlock",
+        "group": "Warlock"
+      },
+      {
+        "slug": "master-of-myriad-forms",
+        "name": "Master of Myriad Forms",
+        "sub": "Level 5+ Warlock",
+        "group": "Warlock"
+      },
+      {
+        "slug": "misty-visions",
+        "name": "Misty Visions",
+        "sub": "Level 2+ Warlock",
+        "group": "Warlock"
+      },
+      {
+        "slug": "one-with-shadows",
+        "name": "One with Shadows",
+        "sub": "Level 5+ Warlock",
+        "group": "Warlock"
+      },
+      {
+        "slug": "otherworldly-leap",
+        "name": "Otherworldly Leap",
+        "sub": "Level 2+ Warlock",
+        "group": "Warlock"
+      },
+      {
+        "slug": "pact-of-the-blade",
+        "name": "Pact of the Blade",
+        "sub": "Eldritch Invocation",
+        "group": "Warlock"
+      },
+      {
+        "slug": "pact-of-the-chain",
+        "name": "Pact of the Chain",
+        "sub": "Eldritch Invocation",
+        "group": "Warlock"
+      },
+      {
+        "slug": "pact-of-the-tome",
+        "name": "Pact of the Tome",
+        "sub": "Eldritch Invocation",
+        "group": "Warlock"
+      },
+      {
+        "slug": "repelling-blast",
+        "name": "Repelling Blast",
+        "sub": "Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll",
+        "group": "Warlock"
+      },
+      {
+        "slug": "thirsting-blade",
+        "name": "Thirsting Blade",
+        "sub": "Level 5+ Warlock, Pact of the Blade Invocation",
+        "group": "Warlock"
+      },
+      {
+        "slug": "visions-of-distant-realms",
+        "name": "Visions of Distant Realms",
+        "sub": "Level 9+ Warlock",
+        "group": "Warlock"
+      },
+      {
+        "slug": "whispers-of-the-grave",
+        "name": "Whispers of the Grave",
+        "sub": "Level 7+ Warlock",
+        "group": "Warlock"
+      },
+      {
+        "slug": "witch-sight",
+        "name": "Witch Sight",
+        "sub": "Level 15+ Warlock",
+        "group": "Warlock"
+      }
+    ],
+    "metamagic-options": [
+      {
+        "slug": "careful-spell",
+        "name": "Careful Spell",
+        "sub": "1 Sorcery Point",
+        "group": "Sorcerer"
+      },
+      {
+        "slug": "distant-spell",
+        "name": "Distant Spell",
+        "sub": "1 Sorcery Point",
+        "group": "Sorcerer"
+      },
+      {
+        "slug": "empowered-spell",
+        "name": "Empowered Spell",
+        "sub": "1 Sorcery Point",
+        "group": "Sorcerer"
+      },
+      {
+        "slug": "extended-spell",
+        "name": "Extended Spell",
+        "sub": "1 Sorcery Point",
+        "group": "Sorcerer"
+      },
+      {
+        "slug": "seeking-spell",
+        "name": "Seeking Spell",
+        "sub": "1 Sorcery Point",
+        "group": "Sorcerer"
+      },
+      {
+        "slug": "subtle-spell",
+        "name": "Subtle Spell",
+        "sub": "1 Sorcery Point",
+        "group": "Sorcerer"
+      },
+      {
+        "slug": "transmuted-spell",
+        "name": "Transmuted Spell",
+        "sub": "1 Sorcery Point",
+        "group": "Sorcerer"
+      },
+      {
+        "slug": "twinned-spell",
+        "name": "Twinned Spell",
+        "sub": "1 Sorcery Point",
+        "group": "Sorcerer"
+      },
+      {
+        "slug": "heightened-spell",
+        "name": "Heightened Spell",
+        "sub": "2 Sorcery Points",
+        "group": "Sorcerer"
+      },
+      {
+        "slug": "quickened-spell",
+        "name": "Quickened Spell",
+        "sub": "2 Sorcery Points",
+        "group": "Sorcerer"
       }
     ],
     "species": [
@@ -6498,6 +6660,12 @@
         "group": "Adventuring Gear"
       },
       {
+        "slug": "amulet-worn-or-held",
+        "name": "Amulet (worn or held)",
+        "sub": "5 GP",
+        "group": "Adventuring Gear"
+      },
+      {
         "slug": "antitoxin",
         "name": "Antitoxin",
         "sub": "50 GP",
@@ -6594,6 +6762,18 @@
         "group": "Adventuring Gear"
       },
       {
+        "slug": "carriage",
+        "name": "Carriage",
+        "sub": "100 GP",
+        "group": "Adventuring Gear"
+      },
+      {
+        "slug": "cart",
+        "name": "Cart",
+        "sub": "15 GP",
+        "group": "Adventuring Gear"
+      },
+      {
         "slug": "case-crossbow-bolt",
         "name": "Case, Crossbow Bolt",
         "sub": "1 GP",
@@ -6609,6 +6789,12 @@
         "slug": "chain",
         "name": "Chain",
         "sub": "5 GP",
+        "group": "Adventuring Gear"
+      },
+      {
+        "slug": "chariot",
+        "name": "Chariot",
+        "sub": "250 GP",
         "group": "Adventuring Gear"
       },
       {
@@ -6654,6 +6840,12 @@
         "group": "Adventuring Gear"
       },
       {
+        "slug": "crystal",
+        "name": "Crystal",
+        "sub": "10 GP",
+        "group": "Adventuring Gear"
+      },
+      {
         "slug": "diplomats-pack",
         "name": "Diplomat’s Pack",
         "sub": "39 GP",
@@ -6672,15 +6864,33 @@
         "group": "Adventuring Gear"
       },
       {
+        "slug": "emblem-borne-on-fabric-or-a-shield",
+        "name": "Emblem (borne on fabric or a Shield)",
+        "sub": "5 GP",
+        "group": "Adventuring Gear"
+      },
+      {
         "slug": "entertainers-pack",
         "name": "Entertainer’s Pack",
         "sub": "40 GP",
         "group": "Adventuring Gear"
       },
       {
+        "slug": "exotic",
+        "name": "Exotic",
+        "sub": "60 GP",
+        "group": "Adventuring Gear"
+      },
+      {
         "slug": "explorers-pack",
         "name": "Explorer’s Pack",
         "sub": "10 GP",
+        "group": "Adventuring Gear"
+      },
+      {
+        "slug": "feed-per-day",
+        "name": "Feed per day",
+        "sub": "5 CP",
         "group": "Adventuring Gear"
       },
       {
@@ -6786,6 +6996,12 @@
         "group": "Adventuring Gear"
       },
       {
+        "slug": "military",
+        "name": "Military",
+        "sub": "20 GP",
+        "group": "Adventuring Gear"
+      },
+      {
         "slug": "mirror",
         "name": "Mirror",
         "sub": "5 GP",
@@ -6801,6 +7017,12 @@
         "slug": "oil",
         "name": "Oil",
         "sub": "1 SP",
+        "group": "Adventuring Gear"
+      },
+      {
+        "slug": "orb",
+        "name": "Orb",
+        "sub": "20 GP",
         "group": "Adventuring Gear"
       },
       {
@@ -6876,9 +7098,27 @@
         "group": "Adventuring Gear"
       },
       {
+        "slug": "reliquary-held",
+        "name": "Reliquary (held)",
+        "sub": "5 GP",
+        "group": "Adventuring Gear"
+      },
+      {
+        "slug": "riding",
+        "name": "Riding",
+        "sub": "10 GP",
+        "group": "Adventuring Gear"
+      },
+      {
         "slug": "robe",
         "name": "Robe",
         "sub": "1 GP",
+        "group": "Adventuring Gear"
+      },
+      {
+        "slug": "rod",
+        "name": "Rod",
+        "sub": "10 GP",
         "group": "Adventuring Gear"
       },
       {
@@ -6891,6 +7131,12 @@
         "slug": "sack",
         "name": "Sack",
         "sub": "1 CP",
+        "group": "Adventuring Gear"
+      },
+      {
+        "slug": "saddle",
+        "name": "Saddle",
+        "sub": "",
         "group": "Adventuring Gear"
       },
       {
@@ -6912,6 +7158,12 @@
         "group": "Adventuring Gear"
       },
       {
+        "slug": "sled",
+        "name": "Sled",
+        "sub": "20 GP",
+        "group": "Adventuring Gear"
+      },
+      {
         "slug": "spell-scroll-cantrip",
         "name": "Spell Scroll (Cantrip)",
         "sub": "30 GP",
@@ -6930,9 +7182,27 @@
         "group": "Adventuring Gear"
       },
       {
+        "slug": "sprig-of-mistletoe",
+        "name": "Sprig of mistletoe",
+        "sub": "1 GP",
+        "group": "Adventuring Gear"
+      },
+      {
         "slug": "spyglass",
         "name": "Spyglass",
         "sub": "1,000 GP",
+        "group": "Adventuring Gear"
+      },
+      {
+        "slug": "stabling-per-day",
+        "name": "Stabling per day",
+        "sub": "5 SP",
+        "group": "Adventuring Gear"
+      },
+      {
+        "slug": "staff-also-a-quarterstaff",
+        "name": "Staff (also a Quarterstaff)",
+        "sub": "5 GP",
         "group": "Adventuring Gear"
       },
       {
@@ -6966,10 +7236,466 @@
         "group": "Adventuring Gear"
       },
       {
+        "slug": "wagon",
+        "name": "Wagon",
+        "sub": "35 GP",
+        "group": "Adventuring Gear"
+      },
+      {
+        "slug": "wand",
+        "name": "Wand",
+        "sub": "10 GP",
+        "group": "Adventuring Gear"
+      },
+      {
         "slug": "waterskin",
         "name": "Waterskin",
         "sub": "2 SP",
         "group": "Adventuring Gear"
+      },
+      {
+        "slug": "wooden-staff-also-a-quarterstaff",
+        "name": "Wooden staff (also a Quarterstaff)",
+        "sub": "5 GP",
+        "group": "Adventuring Gear"
+      },
+      {
+        "slug": "yew-wand",
+        "name": "Yew wand",
+        "sub": "10 GP",
+        "group": "Adventuring Gear"
+      },
+      {
+        "slug": "arrows",
+        "name": "Arrows",
+        "sub": "1 GP",
+        "group": "Ammunition"
+      },
+      {
+        "slug": "bolts",
+        "name": "Bolts",
+        "sub": "1 GP",
+        "group": "Ammunition"
+      },
+      {
+        "slug": "bullets-firearm",
+        "name": "Bullets, Firearm",
+        "sub": "3 GP",
+        "group": "Ammunition"
+      },
+      {
+        "slug": "bullets-sling",
+        "name": "Bullets, Sling",
+        "sub": "4 CP",
+        "group": "Ammunition"
+      },
+      {
+        "slug": "needles",
+        "name": "Needles",
+        "sub": "1 GP",
+        "group": "Ammunition"
+      },
+      {
+        "slug": "camel",
+        "name": "Camel",
+        "sub": "50 GP",
+        "group": "Mounts"
+      },
+      {
+        "slug": "elephant",
+        "name": "Elephant",
+        "sub": "200 GP",
+        "group": "Mounts"
+      },
+      {
+        "slug": "horse-draft",
+        "name": "Horse, Draft",
+        "sub": "50 GP",
+        "group": "Mounts"
+      },
+      {
+        "slug": "horse-riding",
+        "name": "Horse, Riding",
+        "sub": "75 GP",
+        "group": "Mounts"
+      },
+      {
+        "slug": "mastiff",
+        "name": "Mastiff",
+        "sub": "25 GP",
+        "group": "Mounts"
+      },
+      {
+        "slug": "mule",
+        "name": "Mule",
+        "sub": "8 GP",
+        "group": "Mounts"
+      },
+      {
+        "slug": "pony",
+        "name": "Pony",
+        "sub": "30 GP",
+        "group": "Mounts"
+      },
+      {
+        "slug": "warhorse",
+        "name": "Warhorse",
+        "sub": "400 GP",
+        "group": "Mounts"
+      },
+      {
+        "slug": "ale-mug",
+        "name": "Ale (mug)",
+        "sub": "4 CP",
+        "group": "Services"
+      },
+      {
+        "slug": "aristocratic-2",
+        "name": "Aristocratic",
+        "sub": "6 SP",
+        "group": "Services"
+      },
+      {
+        "slug": "aristocratic",
+        "name": "Aristocratic",
+        "sub": "4 GP",
+        "group": "Services"
+      },
+      {
+        "slug": "bread-loaf",
+        "name": "Bread (loaf)",
+        "sub": "2 CP",
+        "group": "Services"
+      },
+      {
+        "slug": "cheese-wedge",
+        "name": "Cheese (wedge)",
+        "sub": "1 SP",
+        "group": "Services"
+      },
+      {
+        "slug": "comfortable-2",
+        "name": "Comfortable",
+        "sub": "2 SP",
+        "group": "Services"
+      },
+      {
+        "slug": "comfortable",
+        "name": "Comfortable",
+        "sub": "8 SP",
+        "group": "Services"
+      },
+      {
+        "slug": "common",
+        "name": "Common",
+        "sub": "2 SP",
+        "group": "Services"
+      },
+      {
+        "slug": "fine",
+        "name": "Fine",
+        "sub": "10 GP",
+        "group": "Services"
+      },
+      {
+        "slug": "messenger",
+        "name": "Messenger",
+        "sub": "",
+        "group": "Services"
+      },
+      {
+        "slug": "modest-2",
+        "name": "Modest",
+        "sub": "1 SP",
+        "group": "Services"
+      },
+      {
+        "slug": "modest",
+        "name": "Modest",
+        "sub": "5 SP",
+        "group": "Services"
+      },
+      {
+        "slug": "poor-2",
+        "name": "Poor",
+        "sub": "2 CP",
+        "group": "Services"
+      },
+      {
+        "slug": "poor",
+        "name": "Poor",
+        "sub": "1 SP",
+        "group": "Services"
+      },
+      {
+        "slug": "skilled-hireling",
+        "name": "Skilled hireling",
+        "sub": "",
+        "group": "Services"
+      },
+      {
+        "slug": "spellcasting-service-1",
+        "name": "Spellcasting Service: 1",
+        "sub": "50 GP",
+        "group": "Services"
+      },
+      {
+        "slug": "spellcasting-service-2",
+        "name": "Spellcasting Service: 2",
+        "sub": "200 GP",
+        "group": "Services"
+      },
+      {
+        "slug": "spellcasting-service-3",
+        "name": "Spellcasting Service: 3",
+        "sub": "300 GP",
+        "group": "Services"
+      },
+      {
+        "slug": "spellcasting-service-4-5",
+        "name": "Spellcasting Service: 4–5",
+        "sub": "2,000 GP",
+        "group": "Services"
+      },
+      {
+        "slug": "spellcasting-service-6-8",
+        "name": "Spellcasting Service: 6–8",
+        "sub": "20,000 GP",
+        "group": "Services"
+      },
+      {
+        "slug": "spellcasting-service-9",
+        "name": "Spellcasting Service: 9",
+        "sub": "100,000 GP",
+        "group": "Services"
+      },
+      {
+        "slug": "spellcasting-service-cantrip",
+        "name": "Spellcasting Service: Cantrip",
+        "sub": "30 GP",
+        "group": "Services"
+      },
+      {
+        "slug": "squalid-2",
+        "name": "Squalid",
+        "sub": "1 CP",
+        "group": "Services"
+      },
+      {
+        "slug": "squalid",
+        "name": "Squalid",
+        "sub": "7 CP",
+        "group": "Services"
+      },
+      {
+        "slug": "untrained-hireling",
+        "name": "Untrained hireling",
+        "sub": "",
+        "group": "Services"
+      },
+      {
+        "slug": "wealthy-2",
+        "name": "Wealthy",
+        "sub": "3 SP",
+        "group": "Services"
+      },
+      {
+        "slug": "wealthy",
+        "name": "Wealthy",
+        "sub": "2 GP",
+        "group": "Services"
+      },
+      {
+        "slug": "alchemists-supplies",
+        "name": "Alchemist's Supplies",
+        "sub": "Intelligence · 50 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "brewers-supplies",
+        "name": "Brewer's Supplies",
+        "sub": "Intelligence · 20 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "calligraphers-supplies",
+        "name": "Calligrapher's Supplies",
+        "sub": "Dexterity · 10 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "carpenters-tools",
+        "name": "Carpenter's Tools",
+        "sub": "Strength · 8 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "cartographers-tools",
+        "name": "Cartographer's Tools",
+        "sub": "Wisdom · 15 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "cobblers-tools",
+        "name": "Cobbler's Tools",
+        "sub": "Dexterity · 5 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "cooks-utensils",
+        "name": "Cook's Utensils",
+        "sub": "Wisdom · 1 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "disguise-kit",
+        "name": "Disguise Kit",
+        "sub": "Charisma · 25 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "forgery-kit",
+        "name": "Forgery Kit",
+        "sub": "Dexterity · 15 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "gaming-set",
+        "name": "Gaming Set",
+        "sub": "Wisdom",
+        "group": "Tools"
+      },
+      {
+        "slug": "glassblowers-tools",
+        "name": "Glassblower's Tools",
+        "sub": "Intelligence · 30 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "herbalism-kit",
+        "name": "Herbalism Kit",
+        "sub": "Intelligence · 5 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "jewelers-tools",
+        "name": "Jeweler's Tools",
+        "sub": "Intelligence · 25 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "leatherworkers-tools",
+        "name": "Leatherworker's Tools",
+        "sub": "Dexterity · 5 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "masons-tools",
+        "name": "Mason's Tools",
+        "sub": "Strength · 10 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "musical-instrument",
+        "name": "Musical Instrument",
+        "sub": "Charisma",
+        "group": "Tools"
+      },
+      {
+        "slug": "navigators-tools",
+        "name": "Navigator's Tools",
+        "sub": "Wisdom · 25 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "painters-supplies",
+        "name": "Painter's Supplies",
+        "sub": "Wisdom · 10 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "poisoners-kit",
+        "name": "Poisoner's Kit",
+        "sub": "Intelligence · 50 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "potters-tools",
+        "name": "Potter's Tools",
+        "sub": "Intelligence · 10 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "smiths-tools",
+        "name": "Smith's Tools",
+        "sub": "Strength · 20 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "thieves-tools",
+        "name": "Thieves' Tools",
+        "sub": "Dexterity · 25 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "tinkers-tools",
+        "name": "Tinker's Tools",
+        "sub": "Dexterity · 50 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "weavers-tools",
+        "name": "Weaver's Tools",
+        "sub": "Dexterity · 1 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "woodcarvers-tools",
+        "name": "Woodcarver's Tools",
+        "sub": "Dexterity · 1 GP",
+        "group": "Tools"
+      },
+      {
+        "slug": "airship",
+        "name": "Airship",
+        "sub": "40,000 GP",
+        "group": "Vehicles"
+      },
+      {
+        "slug": "galley",
+        "name": "Galley",
+        "sub": "30,000 GP",
+        "group": "Vehicles"
+      },
+      {
+        "slug": "keelboat",
+        "name": "Keelboat",
+        "sub": "3,000 GP",
+        "group": "Vehicles"
+      },
+      {
+        "slug": "longship",
+        "name": "Longship",
+        "sub": "10,000 GP",
+        "group": "Vehicles"
+      },
+      {
+        "slug": "rowboat",
+        "name": "Rowboat",
+        "sub": "50 GP",
+        "group": "Vehicles"
+      },
+      {
+        "slug": "sailing-ship",
+        "name": "Sailing Ship",
+        "sub": "10,000 GP",
+        "group": "Vehicles"
+      },
+      {
+        "slug": "warship",
+        "name": "Warship",
+        "sub": "25,000 GP",
+        "group": "Vehicles"
       }
     ],
     "spells": [

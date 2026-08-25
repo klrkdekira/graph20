@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.70",
     "heading": "Candle of Invocation",
-    "lineStart": 15161,
-    "lineEnd": 15182
+    "lineStart": 15123,
+    "lineEnd": 15144
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/candle-of-invocation/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Very Rare",
@@ -28,5 +31,7 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/gate"
     }
-  ]
+  ],
+  "isCursed": false,
+  "isSentient": false
 }

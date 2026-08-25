@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.154",
     "heading": "Mage",
-    "lineStart": 22745,
-    "lineEnd": 22785
+    "lineStart": 22665,
+    "lineEnd": 22705
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/mage/"
   },
   "sizeTypeAlignment": "Medium or Small Humanoid (Wizard), Neutral",
   "sizeAndType": "Medium or Small Humanoid (Wizard)",
+  "size": "Medium or Small",
+  "creatureType": "Humanoid",
+  "descriptiveTags": [
+    "Wizard"
+  ],
+  "monsterCategory": "NPC",
   "alignment": "Neutral",
   "armorClass": "15",
   "initiative": "+2 (12)",
@@ -76,8 +85,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.154",
         "heading": "Actions",
-        "lineStart": 22765,
-        "lineEnd": 22777
+        "lineStart": 22685,
+        "lineEnd": 22697
       }
     },
     {
@@ -87,8 +96,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.154",
         "heading": "Bonus Actions",
-        "lineStart": 22779,
-        "lineEnd": 22781
+        "lineStart": 22699,
+        "lineEnd": 22701
       }
     },
     {
@@ -98,12 +107,131 @@
         "chapter": "Monsters A-Z",
         "section": "12.154",
         "heading": "Reactions",
-        "lineStart": 22783,
-        "lineEnd": 22785
+        "lineStart": 22703,
+        "lineEnd": 22705
       }
     }
   ],
   "rulesText": "Medium or Small Humanoid (Wizard), Neutral\n\nAC 15\nInitiative +2 (12)\nHP 81 (18d8)\nSpeed 30 ft.\n\nSkills Arcana +6, History +6, Perception +4\nGear Wand\nSenses Passive Perception 14\nLanguages Common plus three other languages\nCR 6 (XP 2,300; PB +3)\n\nActions\n\nMultiattack. The mage makes three Arcane Burst attacks.\n\nArcane Burst. Melee or Ranged Attack Roll: +6, reach 5 ft. or range 120 ft. Hit: 16 (3d8 + 3) Force damage.\n\nSpellcasting. The mage casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 14):\n\nAt Will: Detect Magic, Light, Mage Armor (included in AC), Mage Hand, Prestidigitation\n\n2/Day Each: Fireball (level 4 version), Invisibility\n\n1/Day Each: Cone of Cold, Fly\n\nBonus Actions\n\nMisty Step (3/Day). The mage casts Misty Step, using the same spellcasting ability as Spellcasting.\n\nReactions\n\nProtective Magic (3/Day). The mage casts Counterspell or Shield in response to the spell's trigger, using the same spellcasting ability as Spellcasting.",
+  "hasGear": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/wand"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Arcana",
+      "bonus": 6
+    },
+    {
+      "name": "History",
+      "bonus": 6
+    },
+    {
+      "name": "Perception",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 14,
+  "languageList": [
+    "Common plus three other languages"
+  ],
+  "gearItems": [
+    {
+      "name": "Wand"
+    }
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The mage casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 14):\n\nAt Will: Detect Magic, Light, Mage Armor (included in AC), Mage Hand, Prestidigitation\n\n2/Day Each: Fireball (level 4 version), Invisibility\n\n1/Day Each: Cone of Cold, Fly",
+      "path": "statSections[0].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Detect Magic, Light, Mage Armor (included in AC), Mage Hand, Prestidigitation",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/light"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/mage-armor"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/mage-hand"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/prestidigitation"
+            }
+          ]
+        },
+        {
+          "frequency": "2/Day Each",
+          "spellsText": "Fireball (level 4 version), Invisibility",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/fireball"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/invisibility"
+            }
+          ]
+        },
+        {
+          "frequency": "1/Day Each",
+          "spellsText": "Cone of Cold, Fly",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/cone-of-cold"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/fly"
+            }
+          ]
+        }
+      ],
+      "ability": "Intelligence",
+      "saveDC": 14
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/light"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mage-armor"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mage-hand"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/prestidigitation"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/fireball"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/invisibility"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/cone-of-cold"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/fly"
+    }
+  ],
   "attacks": [
     {
       "name": "Arcane Burst",

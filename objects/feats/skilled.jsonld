@@ -11,8 +11,11 @@
     "chapter": "Feats",
     "section": "5.8",
     "heading": "Skilled",
-    "lineStart": 5731,
-    "lineEnd": 5737
+    "lineStart": 5707,
+    "lineEnd": 5713
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/feats/skilled/"
   },
   "category": "Origin",
   "repeatable": true,

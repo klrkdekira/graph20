@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.257",
     "heading": "Weretiger",
-    "lineStart": 26127,
-    "lineEnd": 26163
+    "lineStart": 26047,
+    "lineEnd": 26083
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/weretiger/"
   },
   "sizeTypeAlignment": "Medium or Small Monstrosity (Lycanthrope), Neutral",
   "sizeAndType": "Medium or Small Monstrosity (Lycanthrope)",
+  "size": "Medium or Small",
+  "creatureType": "Monstrosity",
+  "descriptiveTags": [
+    "Lycanthrope"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Neutral",
   "armorClass": "12",
   "initiative": "+2 (12)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.257",
         "heading": "Actions",
-        "lineStart": 26149,
-        "lineEnd": 26157
+        "lineStart": 26069,
+        "lineEnd": 26077
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.257",
         "heading": "Bonus Actions",
-        "lineStart": 26159,
-        "lineEnd": 26163
+        "lineStart": 26079,
+        "lineEnd": 26083
       }
     }
   ],
@@ -97,6 +106,41 @@
   "hasGear": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/longbow"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 5
+    },
+    {
+      "name": "Stealth",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 15,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Common (can't speak in tiger form)"
+  ],
+  "gearItems": [
+    {
+      "name": "Longbow"
     }
   ],
   "attacks": [

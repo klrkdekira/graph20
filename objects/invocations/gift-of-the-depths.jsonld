@@ -1,0 +1,31 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/invocations/gift-of-the-depths",
+  "@type": "EldritchInvocation",
+  "name": "Gift of the Depths",
+  "slug": "gift-of-the-depths",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.28",
+    "heading": "Gift of the Depths",
+    "lineStart": 4580,
+    "lineEnd": 4586
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/invocations/gift-of-the-depths/"
+  },
+  "prerequisite": "Level 5+ Warlock",
+  "repeatable": false,
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+  },
+  "rulesText": "Prerequisite: Level 5+ Warlock\n\nYou can breathe underwater, and you gain a Swim Speed equal to your Speed.\n\nYou can also cast Water Breathing once without expending a spell slot. You regain the ability to cast it in this way again when you finish a Long Rest.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/water-breathing"
+    }
+  ]
+}

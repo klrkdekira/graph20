@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.54",
     "heading": "Chain Devil",
-    "lineStart": 19529,
-    "lineEnd": 19570
+    "lineStart": 19452,
+    "lineEnd": 19493
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/chain-devil/"
   },
   "sizeTypeAlignment": "Medium Fiend (Devil), Lawful Evil",
   "sizeAndType": "Medium Fiend (Devil)",
+  "size": "Medium",
+  "creatureType": "Fiend",
+  "descriptiveTags": [
+    "Devil"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "15",
   "initiative": "+5 (15)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.54",
         "heading": "Traits",
-        "lineStart": 19554,
-        "lineEnd": 19558
+        "lineStart": 19477,
+        "lineEnd": 19481
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.54",
         "heading": "Actions",
-        "lineStart": 19560,
-        "lineEnd": 19566
+        "lineStart": 19483,
+        "lineEnd": 19489
       }
     },
     {
@@ -99,8 +108,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.54",
         "heading": "Reactions",
-        "lineStart": 19568,
-        "lineEnd": 19570
+        "lineStart": 19491,
+        "lineEnd": 19493
       }
     }
   ],
@@ -109,6 +118,32 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Infernal",
+    "telepathy 120 ft."
+  ],
+  "damageImmunities": [
+    "Fire",
+    "Poison"
+  ],
+  "damageResistances": [
+    "Bludgeoning",
+    "Cold",
+    "Piercing",
+    "Slashing"
   ],
   "attacks": [
     {

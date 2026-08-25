@@ -11,8 +11,12 @@
     "chapter": "Equipment",
     "section": "6.162",
     "heading": "Hirelings",
-    "lineStart": 6950,
-    "lineEnd": 6954
+    "lineStart": 6923,
+    "lineEnd": 6927,
+    "caption": "Hirelings"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/6-162-hirelings/"
   },
   "columns": [
     "Service",

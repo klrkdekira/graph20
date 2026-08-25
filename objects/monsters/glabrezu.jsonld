@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.101",
     "heading": "Glabrezu",
-    "lineStart": 21107,
-    "lineEnd": 21148
+    "lineStart": 21027,
+    "lineEnd": 21068
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/glabrezu/"
   },
   "sizeTypeAlignment": "Large Fiend (Demon), Chaotic Evil",
   "sizeAndType": "Large Fiend (Demon)",
+  "size": "Large",
+  "creatureType": "Fiend",
+  "descriptiveTags": [
+    "Demon"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "17",
   "initiative": "+6 (16)",
@@ -78,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.101",
         "heading": "Traits",
-        "lineStart": 21130,
-        "lineEnd": 21134
+        "lineStart": 21050,
+        "lineEnd": 21054
       }
     },
     {
@@ -89,8 +98,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.101",
         "heading": "Actions",
-        "lineStart": 21136,
-        "lineEnd": 21148
+        "lineStart": 21056,
+        "lineEnd": 21068
       }
     }
   ],
@@ -98,6 +107,102 @@
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Deception",
+      "bonus": 7
+    },
+    {
+      "name": "Perception",
+      "bonus": 7
+    }
+  ],
+  "passivePerception": 17,
+  "senseModes": [
+    {
+      "name": "Truesight",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Abyssal",
+    "telepathy 120 ft."
+  ],
+  "damageImmunities": [
+    "Poison"
+  ],
+  "damageResistances": [
+    "Cold",
+    "Fire",
+    "Lightning"
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The glabrezu casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save DC 16):\n\nAt Will: Darkness, Detect Magic, Dispel Magic\n\n1/Day Each: Confusion, Fly, Power Word Stun",
+      "path": "statSections[1].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Darkness, Detect Magic, Dispel Magic",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/darkness"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-magic"
+            }
+          ]
+        },
+        {
+          "frequency": "1/Day Each",
+          "spellsText": "Confusion, Fly, Power Word Stun",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/confusion"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/fly"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/power-word-stun"
+            }
+          ]
+        }
+      ],
+      "ability": "Intelligence",
+      "saveDC": 16
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/darkness"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/confusion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/fly"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/power-word-stun"
     }
   ],
   "attacks": [

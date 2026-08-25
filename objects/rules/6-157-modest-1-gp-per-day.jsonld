@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.157",
     "heading": "Modest (1 GP per Day)",
-    "lineStart": 6909,
-    "lineEnd": 6911
+    "lineStart": 6882,
+    "lineEnd": 6884
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-157-modest-1-gp-per-day/"
   },
   "section": "6.157",
   "rulesText": "You support yourself at an average level."

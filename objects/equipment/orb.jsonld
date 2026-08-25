@@ -1,0 +1,42 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/orb",
+  "@type": "Equipment",
+  "name": "Orb",
+  "slug": "orb",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.66",
+    "heading": "Arcane Focus (Varies)",
+    "lineStart": 6429,
+    "lineEnd": 6435,
+    "caption": "Arcane Focuses"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/orb/"
+  },
+  "equipmentType": "focus",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-66-arcane-focuses"
+  },
+  "attributes": [
+    {
+      "name": "Weight",
+      "value": "3 lb."
+    },
+    {
+      "name": "Cost",
+      "value": "20 GP"
+    }
+  ],
+  "weight": "3 lb.",
+  "weightPounds": 3,
+  "cost": {
+    "text": "20 GP",
+    "currency": "GP",
+    "amount": 20
+  }
+}

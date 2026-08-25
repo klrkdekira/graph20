@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.154",
     "heading": "Mantle of Spell Resistance",
-    "lineStart": 16108,
-    "lineEnd": 16112
+    "lineStart": 16070,
+    "lineEnd": 16074
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/mantle-of-spell-resistance/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Rare",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Rare (Requires Attunement)\n\nYou have Advantage on saving throws against spells while you wear this cloak."
+  "rulesText": "Wondrous Item, Rare (Requires Attunement)\n\nYou have Advantage on saving throws against spells while you wear this cloak.",
+  "isCursed": false,
+  "isSentient": false
 }

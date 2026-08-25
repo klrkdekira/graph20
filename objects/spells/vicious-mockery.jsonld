@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.356",
     "heading": "Vicious Mockery",
-    "lineStart": 12374,
-    "lineEnd": 12385
+    "lineStart": 12345,
+    "lineEnd": 12356
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/vicious-mockery/"
   },
   "level": 0,
   "school": "Enchantment",
@@ -30,6 +33,12 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "You unleash a string of insults laced with subtle enchantments at one creature you can see or hear within range. The target must succeed on a Wisdom saving throw or take 1d6 Psychic damage and have Disadvantage on the next attack roll it makes before the end of its next turn."
+    }
+  ],
   "damage": [
     {
       "damageType": "Psychic",
@@ -42,5 +51,21 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V",
+    "verbal": true,
+    "somatic": false,
+    "material": false
+  }
 }

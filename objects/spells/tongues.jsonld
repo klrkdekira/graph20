@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.346",
     "heading": "Tongues",
-    "lineStart": 12220,
-    "lineEnd": 12231
+    "lineStart": 12191,
+    "lineEnd": 12202
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/tongues/"
   },
   "level": 3,
   "school": "Divination",
@@ -47,5 +50,25 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "1 hour",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, M (a miniature ziggurat)",
+    "verbal": true,
+    "somatic": false,
+    "material": true,
+    "materialText": "a miniature ziggurat",
+    "consumed": false
+  }
 }

@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.145",
     "heading": "Barding",
-    "lineStart": 6814,
-    "lineEnd": 6818
+    "lineStart": 6787,
+    "lineEnd": 6791
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-145-barding/"
   },
   "section": "6.145",
   "rulesText": "Barding is armor designed for a mount. Any type of armor on the Armor table in “Equipment” can\n\nbe purchased as barding. The cost is four times the normal cost, and it weighs twice as much."

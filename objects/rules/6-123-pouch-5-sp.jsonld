@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.123",
     "heading": "Pouch (5 SP)",
-    "lineStart": 6722,
-    "lineEnd": 6724
+    "lineStart": 6695,
+    "lineEnd": 6697
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-123-pouch-5-sp/"
   },
   "section": "6.123",
   "rulesText": "A Pouch holds up to 6 pounds within one-fifth of a cubic foot."

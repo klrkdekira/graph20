@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.162",
     "heading": "Mithral Armor",
-    "lineStart": 16189,
-    "lineEnd": 16193
+    "lineStart": 16151,
+    "lineEnd": 16155
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/mithral-armor/"
   },
   "itemCategory": "Armor",
   "categoryDetail": "Any Medium or Heavy, Except Hide Armor",
   "rarity": "Uncommon",
   "requiresAttunement": false,
-  "rulesText": "Armor (Any Medium or Heavy, Except Hide Armor), Uncommon\n\nMithral is a light, flexible metal. Armor made of this substance can be worn under normal clothes. If the armor normally imposes Disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn't."
+  "rulesText": "Armor (Any Medium or Heavy, Except Hide Armor), Uncommon\n\nMithral is a light, flexible metal. Armor made of this substance can be worn under normal clothes. If the armor normally imposes Disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn't.",
+  "isCursed": false,
+  "isSentient": false
 }

@@ -1,0 +1,39 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/jewelers-tools",
+  "@type": "Equipment",
+  "name": "Jeweler's Tools",
+  "slug": "jewelers-tools",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.43",
+    "heading": "Jeweler's Tools (25 GP)",
+    "lineStart": 6152,
+    "lineEnd": 6158
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/jewelers-tools/"
+  },
+  "equipmentType": "tool",
+  "fromRule": {
+    "@id": "https://cheeleong.dev/graph20/objects/rules/6-43-jewelers-tools-25-gp"
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-43-jewelers-tools-25-gp"
+    }
+  ],
+  "cost": {
+    "text": "25 GP",
+    "currency": "GP",
+    "amount": 25
+  },
+  "ability": "Intelligence",
+  "weight": "2 lb.",
+  "weightPounds": 2,
+  "utilize": "Discern a gem's value (DC 15)",
+  "craft": "Arcane Focus, Holy Symbol"
+}

@@ -14,8 +14,11 @@
     "lineStart": 64,
     "lineEnd": 78
   },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-5-ability-scores/"
+  },
   "section": "1.5",
-  "rulesText": "Each ability has a score from 1 to 20, although some monsters have a score as high as 30. The score represents the magnitude of an ability. The Ability Scores table summarizes what the scores mean.\n\nAbility Scores",
+  "rulesText": "Each ability has a score from 1 to 20, although some monsters have a score as high as 30. The score represents the magnitude of an ability. The Ability Scores table summarizes what the scores mean.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/1-5-ability-scores"

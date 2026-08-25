@@ -10,9 +10,13 @@
   "sourceLocator": {
     "chapter": "Equipment",
     "section": "6.26",
-    "heading": "Weapons",
-    "lineStart": 5995,
-    "lineEnd": 6038
+    "heading": "Vex",
+    "lineStart": 5971,
+    "lineEnd": 6014,
+    "caption": "Weapons"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/rapier/"
   },
   "equipmentType": "weapon",
   "fromTable": {
@@ -32,6 +36,7 @@
   ],
   "mastery": "Vex",
   "weight": "2 lb.",
+  "weightPounds": 2,
   "cost": {
     "text": "25 GP",
     "currency": "GP",

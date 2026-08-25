@@ -1,0 +1,30 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-46-crawler-mucus-200-gp",
+  "@type": "Rule",
+  "name": "Crawler Mucus (200 GP)",
+  "slug": "9-46-crawler-mucus-200-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.46",
+    "heading": "Crawler Mucus (200 GP)",
+    "lineStart": 14062,
+    "lineEnd": 14066
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/9-46-crawler-mucus-200-gp/"
+  },
+  "section": "9.46",
+  "rulesText": "Contact Poison\n\nA creature subjected to Crawler Mucus must succeed on a DC 13 Constitution saving throw or have the Poisoned condition for 1 minute. The creature also has the Paralyzed condition while Poisoned in this way. The creature repeats the save at the end of each of its turns, ending the effect on itself on a success.",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/paralyzed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ]
+}

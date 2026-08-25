@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.49",
     "heading": "Tinker's Tools (50 GP)",
-    "lineStart": 6224,
-    "lineEnd": 6232
+    "lineStart": 6200,
+    "lineEnd": 6208
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-49-tinkers-tools-50-gp/"
   },
   "section": "6.49",
   "rulesText": "Ability: Dexterity\n\nWeight: 10 lb.\n\nUtilize: Assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20)\n\nCraft: Musket, Pistol, Bell, Bullseye Lantern, Flask, Hooded Lantern, Hunting Trap, Lock, Manacles, Mirror, Shovel, Signal Whistle, Tinderbox"

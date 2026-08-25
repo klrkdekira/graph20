@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.271",
     "heading": "Prestidigitation",
-    "lineStart": 11024,
-    "lineEnd": 11045
+    "lineStart": 10995,
+    "lineEnd": 11016
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/prestidigitation/"
   },
   "level": 0,
   "school": "Transmutation",
@@ -43,5 +46,21 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "10 feet",
+    "kind": "Distance",
+    "distanceFeet": 10
+  },
+  "durationDetails": {
+    "text": "Up to 1 hour",
+    "concentration": false,
+    "kind": "Special"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

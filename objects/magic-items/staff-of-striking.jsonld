@@ -11,12 +11,22 @@
     "chapter": "Magic Items",
     "section": "10.254",
     "heading": "Staff of Striking",
-    "lineStart": 17274,
-    "lineEnd": 17282
+    "lineStart": 17215,
+    "lineEnd": 17223
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/staff-of-striking/"
   },
   "itemCategory": "Staff",
   "rarity": "Very Rare",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Staff, Very Rare (Requires Attunement)\n\nThis staff can be wielded as a magic Quarterstaff that grants a +3 bonus to attack rolls and damage rolls made with it.\n\nThe staff has 10 charges. When you hit with a melee attack using it, you can expend up to 3 charges. For each charge you expend, the target takes an extra 1d6 Force damage.\n\nRegaining Charges. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff becomes a nonmagical Quarterstaff."
+  "rulesText": "Staff, Very Rare (Requires Attunement)\n\nThis staff can be wielded as a magic Quarterstaff that grants a +3 bonus to attack rolls and damage rolls made with it.\n\nThe staff has 10 charges. When you hit with a melee attack using it, you can expend up to 3 charges. For each charge you expend, the target takes an extra 1d6 Force damage.\n\nRegaining Charges. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff becomes a nonmagical Quarterstaff.",
+  "charges": {
+    "capacityText": "10",
+    "capacity": 10,
+    "rechargeText": "The staff regains 1d6 + 4 expended charges daily at dawn."
+  },
+  "isCursed": false,
+  "isSentient": false
 }

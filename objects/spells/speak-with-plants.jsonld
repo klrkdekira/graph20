@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.322",
     "heading": "Speak with Plants",
-    "lineStart": 11791,
-    "lineEnd": 11808
+    "lineStart": 11762,
+    "lineEnd": 11779
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/speak-with-plants/"
   },
   "level": 3,
   "school": "Transmutation",
@@ -39,5 +42,38 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "10 minutes",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Emanation",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+      },
+      "sourceText": "You imbue plants in an immobile 30-foot Emanation with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands.",
+      "sizeFeet": 30
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+    }
+  ]
 }

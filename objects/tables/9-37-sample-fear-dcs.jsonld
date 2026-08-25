@@ -1,0 +1,61 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/9-37-sample-fear-dcs",
+  "@type": "Table",
+  "name": "Sample Fear DCs",
+  "slug": "9-37-sample-fear-dcs",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.37",
+    "heading": "Fear Effects",
+    "lineStart": 13988,
+    "lineEnd": 13992,
+    "caption": "Sample Fear DCs"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/9-37-sample-fear-dcs/"
+  },
+  "columns": [
+    "Example",
+    "Save DC"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "When the characters open a sarcophagus, a harmless yet terrifying apparition appears."
+        },
+        {
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "A character triggers a magical trap that creates an illusory manifestation of that character’s worst fears, visible only to that character."
+        },
+        {
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "A portal to the Abyss opens, revealing a nightmarish realm of torment and slaughter."
+        },
+        {
+          "value": "20"
+        }
+      ]
+    }
+  ],
+  "rawText": "| Example                                                                                                                                     | Save DC |\n| :------------------------------------------------------------------------------------------------------------------------------------------ | :------ |\n| When the characters open a sarcophagus, a harmless yet terrifying apparition appears.                                                       | 10      |\n| A character triggers a magical trap that creates an illusory manifestation of that character’s worst fears, visible only to that character. | 15      |\n| A portal to the Abyss opens, revealing a nightmarish realm of torment and slaughter.                                                        | 20      |"
+}

@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.118",
     "heading": "Young Green Dragon",
-    "lineStart": 21591,
-    "lineEnd": 21623
+    "lineStart": 21511,
+    "lineEnd": 21543
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/young-green-dragon/"
   },
   "sizeTypeAlignment": "Large Dragon (Chromatic), Lawful Evil",
   "sizeAndType": "Large Dragon (Chromatic)",
+  "size": "Large",
+  "creatureType": "Dragon",
+  "descriptiveTags": [
+    "Chromatic"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "18",
   "initiative": "+4 (14)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.118",
         "heading": "Traits",
-        "lineStart": 21611,
-        "lineEnd": 21613
+        "lineStart": 21531,
+        "lineEnd": 21533
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.118",
         "heading": "Actions",
-        "lineStart": 21615,
-        "lineEnd": 21623
+        "lineStart": 21535,
+        "lineEnd": 21543
       }
     }
   ],
@@ -98,6 +107,52 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Fly",
+      "feet": 80
+    },
+    {
+      "mode": "Swim",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Deception",
+      "bonus": 5
+    },
+    {
+      "name": "Perception",
+      "bonus": 7
+    },
+    {
+      "name": "Stealth",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 17,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 30
+    },
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Common",
+    "Draconic"
+  ],
+  "damageImmunities": [
+    "Poison"
   ],
   "attacks": [
     {

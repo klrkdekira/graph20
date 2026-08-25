@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.68",
     "heading": "Crawling Claw",
-    "lineStart": 20026,
-    "lineEnd": 20026
+    "lineStart": 19946,
+    "lineEnd": 19946
   },
-  "section": "12.68"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-68-crawling-claw/"
+  },
+  "section": "12.68",
+  "rulesText": "Crawling Claw",
+  "headingOnly": true
 }

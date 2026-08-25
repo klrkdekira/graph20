@@ -1,0 +1,42 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/amulet-worn-or-held",
+  "@type": "Equipment",
+  "name": "Amulet (worn or held)",
+  "slug": "amulet-worn-or-held",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.99",
+    "heading": "Holy Symbol (Varies)",
+    "lineStart": 6583,
+    "lineEnd": 6587,
+    "caption": "Holy Symbols"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/amulet-worn-or-held/"
+  },
+  "equipmentType": "focus",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-99-holy-symbols"
+  },
+  "attributes": [
+    {
+      "name": "Weight",
+      "value": "1 lb."
+    },
+    {
+      "name": "Cost",
+      "value": "5 GP"
+    }
+  ],
+  "weight": "1 lb.",
+  "weightPounds": 1,
+  "cost": {
+    "text": "5 GP",
+    "currency": "GP",
+    "amount": 5
+  }
+}

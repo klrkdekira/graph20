@@ -11,9 +11,22 @@
     "chapter": "Rules Glossary",
     "section": "8.83",
     "heading": "Hit Point Dice",
-    "lineStart": 13225,
-    "lineEnd": 13227
+    "lineStart": 13189,
+    "lineEnd": 13191
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-83-hit-point-dice/"
   },
   "section": "8.83",
-  "rulesText": "Hit Point Dice, or Hit Dice for short, help determine a player character's Hit Point maximum, as explained in “Character Creation.” Most monsters also have Hit Dice. A creature can spend Hit Dice during a Short Rest to regain Hit Points. See also “Short Rest.”"
+  "rulesText": "Hit Point Dice, or Hit Dice for short, help determine a player character's Hit Point maximum, as explained in “Character Creation.” Most monsters also have Hit Dice. A creature can spend Hit Dice during a Short Rest to regain Hit Points. See also “Short Rest.”",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-129-short-rest"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-129-short-rest"
+    }
+  ]
 }

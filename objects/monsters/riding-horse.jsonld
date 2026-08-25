@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.78",
     "heading": "Riding Horse",
-    "lineStart": 28686,
-    "lineEnd": 28706
+    "lineStart": 28597,
+    "lineEnd": 28617
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/riding-horse/"
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
+  "size": "Large",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "11",
   "initiative": "+1 (11)",
@@ -75,12 +81,19 @@
         "chapter": "Animals",
         "section": "13.78",
         "heading": "Actions",
-        "lineStart": 28704,
-        "lineEnd": 28706
+        "lineStart": 28615,
+        "lineEnd": 28617
       }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 11\nInitiative +1 (11)\nHP 13 (2d10 + 2)\nSpeed 60 ft.\n\nSenses Passive Perception 10\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nHooves. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 60
+    }
+  ],
+  "passivePerception": 10,
   "attacks": [
     {
       "name": "Hooves",

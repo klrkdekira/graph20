@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.15",
     "heading": "Monk Class Features",
-    "lineStart": 3003,
-    "lineEnd": 3024
+    "lineStart": 2993,
+    "lineEnd": 3014,
+    "caption": "Monk Features"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-15-monk-features/"
   },
   "columns": [
     "Level",

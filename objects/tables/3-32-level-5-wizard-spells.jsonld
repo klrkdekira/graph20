@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.32",
     "heading": "Wizard Spell List",
-    "lineStart": 5210,
-    "lineEnd": 5235
+    "lineStart": 5186,
+    "lineEnd": 5211,
+    "caption": "Level 5 Wizard Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-32-level-5-wizard-spells/"
   },
   "columns": [
     "Spell",

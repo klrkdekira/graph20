@@ -14,9 +14,16 @@ from srdlib import (
     BUNDLE_NAME,
     COLLECTION_TYPES,
     MANIFEST_NAME,
+    SEMANTIC_RELATIONS,
     iter_object_files,
     load_json,
 )
+
+REVERSE_TARGETS_REQUIRED = {
+    "srd:listsSpell", "srd:castsSpell", "srd:summons",
+    "srd:mentionsCondition", "srd:grantsFeat", "srd:hasGear",
+    "dcterms:hasPart",
+}
 
 
 def walk(value):
@@ -66,7 +73,11 @@ def literal_values(value, parent_key=None):
 
 def resolve_term(term, context):
     definition = context.get(term)
-    iri = definition.get("@id") if isinstance(definition, dict) else definition
+    iri = (
+        definition.get("@id") or definition.get("@reverse")
+        if isinstance(definition, dict)
+        else definition
+    )
     if not iri:
         iri = context["@vocab"] + term
     if ":" in iri and not iri.startswith(("http://", "https://")):
@@ -103,7 +114,11 @@ def main():
         if isinstance(definition, dict) and definition.get("@type") == "@id"
     }
     errors = []
-    documents = [(str(path), load_json(path)) for _, path in iter_object_files(root)]
+    record_documents = [
+        (collection, str(path), load_json(path))
+        for collection, path in iter_object_files(root)
+    ]
+    documents = [(label, document) for _, label, document in record_documents]
     documents.extend(
         (name, load_json(root / "objects" / name))
         for name in (MANIFEST_NAME, BUNDLE_NAME)
@@ -157,13 +172,63 @@ def main():
     if undocumented:
         errors.append(f"expanded project terms missing vocabulary definitions: {sorted(undocumented)}")
 
+    entity_records = [
+        (collection, document)
+        for collection, _, document in record_documents
+        if collection != "sources"
+    ]
+    linked_records = [
+        document for _, document in entity_records
+        if SEMANTIC_RELATIONS.intersection(document)
+    ]
+    coverage = len(linked_records) / len(entity_records)
+    if coverage < 0.55:
+        errors.append(
+            f"semantic outbound-link coverage {coverage:.1%} is below the 55% policy"
+        )
+    used_relations = {
+        field for _, document in entity_records for field in SEMANTIC_RELATIONS
+        if field in document
+    }
+    if len(used_relations) < 20:
+        errors.append(
+            f"only {len(used_relations)} semantic predicates are emitted; policy requires 20"
+        )
+    incoming_collections = set()
+    for _, document in entity_records:
+        for field in SEMANTIC_RELATIONS.intersection(document):
+            values = document[field] if isinstance(document[field], list) else [document[field]]
+            for value in values:
+                if not isinstance(value, dict) or "@id" not in value:
+                    continue
+                marker = BASE + "objects/"
+                if value["@id"].startswith(marker):
+                    incoming_collections.add(
+                        value["@id"].removeprefix(marker).split("/", 1)[0]
+                    )
+    required_incoming = set(COLLECTION_TYPES) - {"sources"}
+    missing_incoming = required_incoming - incoming_collections
+    if missing_incoming:
+        errors.append(
+            f"collections with no incoming semantic edge: {sorted(missing_incoming)}"
+        )
+    reverse_targets = {
+        definition.get("@reverse")
+        for definition in context.values()
+        if isinstance(definition, dict) and definition.get("@reverse")
+    }
+    missing_reverse = REVERSE_TARGETS_REQUIRED - reverse_targets
+    if missing_reverse:
+        errors.append(f"required reverse relation aliases missing: {sorted(missing_reverse)}")
+
     if errors:
         print("\n".join(errors[:50]))
         print(f"FAIL: {len(errors)} JSON-LD graph-fidelity errors")
         sys.exit(1)
     print(
         f"graph: expanded {len(documents) - 2} records, manifest, and bundle; "
-        f"all {len(iri_terms)} IRI-coerced terms use node references"
+        f"all {len(iri_terms)} IRI-coerced terms use node references; "
+        f"{coverage:.1%} semantic-link coverage across {len(used_relations)} predicates"
     )
 
 

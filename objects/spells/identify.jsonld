@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.207",
     "heading": "Identify",
-    "lineStart": 10077,
-    "lineEnd": 10088
+    "lineStart": 10048,
+    "lineEnd": 10059
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/identify/"
   },
   "level": 1,
   "school": "Divination",
@@ -35,5 +38,27 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": true
+  "ritual": true,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a pearl worth 100+ GP)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a pearl worth 100+ GP",
+    "consumed": false,
+    "materialCost": {
+      "text": "100 GP",
+      "currency": "GP",
+      "amount": 100
+    }
+  }
 }

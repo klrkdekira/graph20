@@ -1,0 +1,56 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/rowboat",
+  "@type": "Equipment",
+  "name": "Rowboat",
+  "slug": "rowboat",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.148",
+    "heading": "Speed",
+    "lineStart": 6836,
+    "lineEnd": 6844,
+    "caption": "Airborne and Waterborne Vehicles"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/rowboat/"
+  },
+  "equipmentType": "vehicle",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-148-airborne-and-waterborne-vehicles"
+  },
+  "attributes": [
+    {
+      "name": "Speed",
+      "value": "1 1/2 mph"
+    },
+    {
+      "name": "Crew",
+      "value": "1"
+    },
+    {
+      "name": "Passengers",
+      "value": "3"
+    },
+    {
+      "name": "AC",
+      "value": "11"
+    },
+    {
+      "name": "HP",
+      "value": "50"
+    },
+    {
+      "name": "Cost",
+      "value": "50 GP"
+    }
+  ],
+  "cost": {
+    "text": "50 GP",
+    "currency": "GP",
+    "amount": 50
+  }
+}

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.15",
     "heading": "Reaction and Bonus Action Triggers",
-    "lineStart": 7179,
-    "lineEnd": 7181
+    "lineStart": 7152,
+    "lineEnd": 7154
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/7-15-reaction-and-bonus-action-triggers/"
   },
   "section": "7.15",
   "rulesText": "A spell that has a casting time of a Reaction is cast in response to a trigger that is defined in the spell's Casting Time entry. Some spells that have a casting time of a Bonus Action are also cast in response to a trigger defined in the spell."

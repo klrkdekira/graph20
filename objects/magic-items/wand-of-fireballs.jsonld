@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.281",
     "heading": "Wand of Fireballs",
-    "lineStart": 17561,
-    "lineEnd": 17567
+    "lineStart": 17502,
+    "lineEnd": 17508
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/wand-of-fireballs/"
   },
   "itemCategory": "Wand",
   "rarity": "Rare",
@@ -23,5 +26,13 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/fireball"
     }
-  ]
+  ],
+  "charges": {
+    "capacityText": "7",
+    "capacity": 7,
+    "rechargeText": "The wand regains 1d6 + 1 expended charges daily at dawn."
+  },
+  "isCursed": false,
+  "isSentient": false,
+  "attunementRestriction": "Requires Attunement by a Spellcaster"
 }

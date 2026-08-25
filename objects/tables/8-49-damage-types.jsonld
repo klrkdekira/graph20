@@ -11,8 +11,12 @@
     "chapter": "Rules Glossary",
     "section": "8.49",
     "heading": "Damage Types",
-    "lineStart": 13001,
-    "lineEnd": 13008
+    "lineStart": 12968,
+    "lineEnd": 12982,
+    "caption": "Damage Types"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/8-49-damage-types/"
   },
   "columns": [
     "Type",
@@ -84,7 +88,84 @@
           "value": "Electricity"
         }
       ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Necrotic"
+        },
+        {
+          "value": "Life-draining energy"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Piercing"
+        },
+        {
+          "value": "Fangs, puncturing objects"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Poison"
+        },
+        {
+          "value": "Toxic gas, venom"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Psychic"
+        },
+        {
+          "value": "Mind-rending energy"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "Radiant"
+        },
+        {
+          "value": "Holy energy, searing radiation"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "Slashing"
+        },
+        {
+          "value": "Claws, cutting objects"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "Thunder"
+        },
+        {
+          "value": "Concussive sound"
+        }
+      ]
     }
   ],
-  "rawText": "| Type        | Examples                             |\n| :---------- | :----------------------------------- |\n| Acid        | Corrosive liquids, digestive enzymes |\n| Bludgeoning | Blunt objects, constriction, falling |\n| Cold        | Freezing water, icy blasts           |\n| Fire        | Flames, unbearable heat              |\n| Force       | Pure magical energy                  |\n| Lightning   | Electricity                          |"
+  "rawText": "| Type        | Examples                             |\n| :---------- | :----------------------------------- |\n| Acid        | Corrosive liquids, digestive enzymes |\n| Bludgeoning | Blunt objects, constriction, falling |\n| Cold        | Freezing water, icy blasts           |\n| Fire        | Flames, unbearable heat              |\n| Force       | Pure magical energy                  |\n| Lightning   | Electricity                          |\n| Necrotic | Life-draining energy           |\n| Piercing | Fangs, puncturing objects      |\n| Poison   | Toxic gas, venom               |\n| Psychic  | Mind-rending energy            |\n| Radiant  | Holy energy, searing radiation |\n| Slashing | Claws, cutting objects         |\n| Thunder  | Concussive sound               |"
 }

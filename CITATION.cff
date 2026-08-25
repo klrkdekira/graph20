@@ -16,8 +16,9 @@ abstract: >-
   A source-faithful JSON-LD 1.1 reference corpus and JSON Schema Draft
   2020-12 specifications for the System Reference Document 5.2.1 by
   Wizards of the Coast LLC (CC-BY-4.0). Includes rules, tables, classes,
-  subclasses, species, backgrounds, feats, equipment, spells, conditions,
-  magic items, and monster stat blocks with line-level source provenance.
+  subclasses, class options, species, backgrounds, feats, equipment, spells,
+  glossary entities, conditions, magic items, and monster stat blocks with
+  line-level source provenance.
 references:
   - type: manual
     title: "System Reference Document 5.2.1"

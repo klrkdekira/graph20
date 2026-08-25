@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.231",
     "heading": "Spy",
-    "lineStart": 25233,
-    "lineEnd": 25263
+    "lineStart": 25153,
+    "lineEnd": 25183
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/spy/"
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
+  "size": "Medium or Small",
+  "creatureType": "Humanoid",
+  "monsterCategory": "Monster",
   "alignment": "Neutral",
   "armorClass": "12",
   "initiative": "+4 (14)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.231",
         "heading": "Actions",
-        "lineStart": 25255,
-        "lineEnd": 25259
+        "lineStart": 25175,
+        "lineEnd": 25179
       }
     },
     {
@@ -87,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.231",
         "heading": "Bonus Actions",
-        "lineStart": 25261,
-        "lineEnd": 25263
+        "lineStart": 25181,
+        "lineEnd": 25183
       }
     }
   ],
@@ -99,6 +105,60 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/shortsword"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/thieves-tools"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Climb",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Deception",
+      "bonus": 5
+    },
+    {
+      "name": "Insight",
+      "bonus": 4
+    },
+    {
+      "name": "Investigation",
+      "bonus": 5
+    },
+    {
+      "name": "Perception",
+      "bonus": 6
+    },
+    {
+      "name": "Sleight of Hand",
+      "bonus": 4
+    },
+    {
+      "name": "Stealth",
+      "bonus": 6
+    }
+  ],
+  "passivePerception": 16,
+  "languageList": [
+    "Common plus one other language"
+  ],
+  "gearItems": [
+    {
+      "name": "Hand Crossbow"
+    },
+    {
+      "name": "Shortsword"
+    },
+    {
+      "name": "Thieves' Tools"
     }
   ],
   "attacks": [

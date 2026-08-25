@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.149",
     "heading": "Kraken",
-    "lineStart": 22562,
-    "lineEnd": 22612
+    "lineStart": 22482,
+    "lineEnd": 22532
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/kraken/"
   },
   "sizeTypeAlignment": "Gargantuan Monstrosity (Titan), Chaotic Evil",
   "sizeAndType": "Gargantuan Monstrosity (Titan)",
+  "size": "Gargantuan",
+  "creatureType": "Monstrosity",
+  "descriptiveTags": [
+    "Titan"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "18",
   "initiative": "+14 (24)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.149",
         "heading": "Traits",
-        "lineStart": 22584,
-        "lineEnd": 22590
+        "lineStart": 22504,
+        "lineEnd": 22510
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.149",
         "heading": "Actions",
-        "lineStart": 22592,
-        "lineEnd": 22604
+        "lineStart": 22512,
+        "lineEnd": 22524
       }
     },
     {
@@ -99,8 +108,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.149",
         "heading": "Legendary Actions",
-        "lineStart": 22606,
-        "lineEnd": 22612
+        "lineStart": 22526,
+        "lineEnd": 22532
       }
     }
   ],
@@ -118,6 +127,44 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Swim",
+      "feet": 120
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "History",
+      "bonus": 13
+    },
+    {
+      "name": "Perception",
+      "bonus": 11
+    }
+  ],
+  "passivePerception": 21,
+  "senseModes": [
+    {
+      "name": "Truesight",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Understands Abyssal",
+    "Celestial",
+    "Infernal",
+    "and Primordial but can't speak",
+    "telepathy 120 ft."
+  ],
+  "damageImmunities": [
+    "Cold",
+    "Lightning"
   ],
   "attacks": [
     {

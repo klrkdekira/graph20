@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.190",
     "heading": "Potions of Healing",
-    "lineStart": 16538,
-    "lineEnd": 16551
+    "lineStart": 16494,
+    "lineEnd": 16507
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/potions-of-healing/"
   },
   "itemCategory": "Potion",
   "rarity": "Rarity Varies",
@@ -22,5 +25,7 @@
       "@id": "https://cheeleong.dev/graph20/objects/tables/10-190-potions-of-healing-table-1"
     }
   ],
-  "rulesText": "Potion, Rarity Varies\n\nYou regain Hit Points when you drink this potion. The number of Hit Points depends on the potion's rarity, as shown in the table below.\n\nWhatever its potency, the potion's red liquid glimmers when agitated."
+  "rulesText": "Potion, Rarity Varies\n\nYou regain Hit Points when you drink this potion. The number of Hit Points depends on the potion's rarity, as shown in the table below.\n\nWhatever its potency, the potion's red liquid glimmers when agitated.",
+  "isCursed": false,
+  "isSentient": false
 }

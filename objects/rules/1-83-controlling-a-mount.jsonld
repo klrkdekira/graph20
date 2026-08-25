@@ -11,8 +11,11 @@
     "chapter": "Playing the Game",
     "section": "1.83",
     "heading": "Controlling a Mount",
-    "lineStart": 699,
-    "lineEnd": 705
+    "lineStart": 697,
+    "lineEnd": 703
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-83-controlling-a-mount/"
   },
   "section": "1.83",
   "rulesText": "You can control a mount only if it has been trained to accept a rider. Domesticated horses, mules, and similar creatures have such training.\n\nThe Initiative of a controlled mount changes to match yours when you mount it. It moves on your turn as you direct it, and it has only three action options during that turn: Dash, Disengage, and Dodge. A controlled mount can move and act even on the turn that you mount it.\n\nIn contrast, an independent mount - one that lets you ride but ignores your control - retains its place in the Initiative order and moves and acts as it likes."

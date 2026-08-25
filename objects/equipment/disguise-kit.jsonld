@@ -1,0 +1,39 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/disguise-kit",
+  "@type": "Equipment",
+  "name": "Disguise Kit",
+  "slug": "disguise-kit",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.53",
+    "heading": "Disguise Kit (25 GP)",
+    "lineStart": 6232,
+    "lineEnd": 6240
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/disguise-kit/"
+  },
+  "equipmentType": "tool",
+  "fromRule": {
+    "@id": "https://cheeleong.dev/graph20/objects/rules/6-53-disguise-kit-25-gp"
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-53-disguise-kit-25-gp"
+    }
+  ],
+  "cost": {
+    "text": "25 GP",
+    "currency": "GP",
+    "amount": 25
+  },
+  "ability": "Charisma",
+  "weight": "3 lb.",
+  "weightPounds": 3,
+  "utilize": "Apply makeup (DC 10)",
+  "craft": "Costume"
+}

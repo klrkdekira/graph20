@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.14",
     "heading": "Magic Item Values by Rarity",
-    "lineStart": 14594,
-    "lineEnd": 14598
+    "lineStart": 14556,
+    "lineEnd": 14560,
+    "caption": "Magic Item Rarities and Values"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-14-magic-item-rarities-and-values/"
   },
   "columns": [
     "Rarity",

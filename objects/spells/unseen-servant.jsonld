@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.354",
     "heading": "Unseen Servant",
-    "lineStart": 12342,
-    "lineEnd": 12355
+    "lineStart": 12313,
+    "lineEnd": 12326
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/unseen-servant/"
   },
   "level": 1,
   "school": "Conjuration",
@@ -39,5 +42,26 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": true
+  "ritual": true,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "1 hour",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a bit of string and of wood)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a bit of string and of wood",
+    "consumed": false
+  }
 }

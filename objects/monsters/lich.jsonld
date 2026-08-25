@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.152",
     "heading": "Lich",
-    "lineStart": 22683,
-    "lineEnd": 22741
+    "lineStart": 22603,
+    "lineEnd": 22661
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/lich/"
   },
   "sizeTypeAlignment": "Medium Undead (Wizard), Neutral Evil",
   "sizeAndType": "Medium Undead (Wizard)",
+  "size": "Medium",
+  "creatureType": "Undead",
+  "descriptiveTags": [
+    "Wizard"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Neutral Evil",
   "armorClass": "20",
   "initiative": "+17 (27)",
@@ -79,8 +88,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.152",
         "heading": "Traits",
-        "lineStart": 22707,
-        "lineEnd": 22711
+        "lineStart": 22627,
+        "lineEnd": 22631
       }
     },
     {
@@ -90,8 +99,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.152",
         "heading": "Actions",
-        "lineStart": 22713,
-        "lineEnd": 22727
+        "lineStart": 22633,
+        "lineEnd": 22647
       }
     },
     {
@@ -101,8 +110,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.152",
         "heading": "Reactions",
-        "lineStart": 22729,
-        "lineEnd": 22731
+        "lineStart": 22649,
+        "lineEnd": 22651
       }
     },
     {
@@ -112,8 +121,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.152",
         "heading": "Legendary Actions",
-        "lineStart": 22733,
-        "lineEnd": 22741
+        "lineStart": 22653,
+        "lineEnd": 22661
       }
     }
   ],
@@ -138,6 +147,174 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Arcana",
+      "bonus": 19
+    },
+    {
+      "name": "History",
+      "bonus": 12
+    },
+    {
+      "name": "Insight",
+      "bonus": 9
+    },
+    {
+      "name": "Perception",
+      "bonus": 9
+    }
+  ],
+  "passivePerception": 19,
+  "senseModes": [
+    {
+      "name": "Truesight",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "All"
+  ],
+  "damageImmunities": [
+    "Necrotic",
+    "Poison"
+  ],
+  "damageResistances": [
+    "Cold",
+    "Lightning"
+  ],
+  "gearItems": [
+    {
+      "name": "Component Pouch"
+    }
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The lich casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 20):\n\nAt Will: Detect Magic, Detect Thoughts, Dispel Magic, Fireball (level 5 version), Invisibility, Lightning Bolt (level 5 version), Mage Hand, Prestidigitation\n\n2/Day Each: Animate Dead, Dimension Door, Plane Shift\n\n1/Day Each: Chain Lightning, Finger of Death, Power Word Kill, Scrying",
+      "path": "statSections[1].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Detect Magic, Detect Thoughts, Dispel Magic, Fireball (level 5 version), Invisibility, Lightning Bolt (level 5 version), Mage Hand, Prestidigitation",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/detect-thoughts"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-magic"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/fireball"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/invisibility"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/lightning-bolt"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/mage-hand"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/prestidigitation"
+            }
+          ]
+        },
+        {
+          "frequency": "2/Day Each",
+          "spellsText": "Animate Dead, Dimension Door, Plane Shift",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/animate-dead"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/dimension-door"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/plane-shift"
+            }
+          ]
+        },
+        {
+          "frequency": "1/Day Each",
+          "spellsText": "Chain Lightning, Finger of Death, Power Word Kill, Scrying",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/chain-lightning"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/finger-of-death"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/power-word-kill"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/scrying"
+            }
+          ]
+        }
+      ],
+      "ability": "Intelligence",
+      "saveDC": 20
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-thoughts"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/fireball"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/invisibility"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/lightning-bolt"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mage-hand"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/prestidigitation"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/animate-dead"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dimension-door"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/plane-shift"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/chain-lightning"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/finger-of-death"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/power-word-kill"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/scrying"
     }
   ],
   "attacks": [

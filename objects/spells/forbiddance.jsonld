@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.165",
     "heading": "Forbiddance",
-    "lineStart": 9410,
-    "lineEnd": 9425
+    "lineStart": 9381,
+    "lineEnd": 9396
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/forbiddance/"
   },
   "level": 6,
   "school": "Abjuration",
@@ -31,5 +34,30 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": true
+  "ritual": true,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "1 day",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "day"
+  },
+  "componentDetails": {
+    "text": "V, S, M (ruby dust worth 1,000+ GP)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "ruby dust worth 1,000+ GP",
+    "consumed": false,
+    "materialCost": {
+      "text": "1,000 GP",
+      "currency": "GP",
+      "amount": 1000
+    }
+  }
 }

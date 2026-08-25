@@ -11,9 +11,22 @@
     "chapter": "Rules Glossary",
     "section": "8.145",
     "heading": "Swim Speed",
-    "lineStart": 13691,
-    "lineEnd": 13693
+    "lineStart": 13655,
+    "lineEnd": 13657
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-145-swim-speed/"
   },
   "section": "8.145",
-  "rulesText": "A Swim Speed can be used to swim without expending the extra movement normally associated with swimming. See also “Swimming” and “Speed.”"
+  "rulesText": "A Swim Speed can be used to swim without expending the extra movement normally associated with swimming. See also “Swimming” and “Speed.”",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-144-swimming"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-144-swimming"
+    }
+  ]
 }

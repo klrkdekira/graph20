@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.164",
     "heading": "Fog Cloud",
-    "lineStart": 9397,
-    "lineEnd": 9408
+    "lineStart": 9368,
+    "lineEnd": 9379
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/fog-cloud/"
   },
   "level": 1,
   "school": "Conjuration",
@@ -43,5 +46,39 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 hour",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "You create a 20-foot-radius Sphere of fog centered on a point within range.",
+      "radiusFeet": 20
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+    }
+  ]
 }

@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.116",
     "heading": "Green Dragons",
-    "lineStart": 21557,
-    "lineEnd": 21557
+    "lineStart": 21477,
+    "lineEnd": 21477
   },
-  "section": "12.116"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-116-green-dragons/"
+  },
+  "section": "12.116",
+  "rulesText": "Green Dragons",
+  "headingOnly": true
 }

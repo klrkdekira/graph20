@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.11",
     "heading": "Boar",
-    "lineStart": 26899,
-    "lineEnd": 26923
+    "lineStart": 26813,
+    "lineEnd": 26837
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/boar/"
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
+  "size": "Medium",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "11",
   "initiative": "+0 (10)",
@@ -75,8 +81,8 @@
         "chapter": "Animals",
         "section": "13.11",
         "heading": "Traits",
-        "lineStart": 26917,
-        "lineEnd": 26919
+        "lineStart": 26831,
+        "lineEnd": 26833
       }
     },
     {
@@ -86,12 +92,19 @@
         "chapter": "Animals",
         "section": "13.11",
         "heading": "Actions",
-        "lineStart": 26921,
-        "lineEnd": 26923
+        "lineStart": 26835,
+        "lineEnd": 26837
       }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 11\nInitiative +0 (10)\nHP 13 (2d8 + 4)\nSpeed 40 ft.\n\nSenses Passive Perception 9\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nBloodied Fury. While Bloodied, the boar has Advantage on attack rolls.\n\nActions\n\nGore. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Piercing damage and has the Prone condition.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "passivePerception": 9,
   "attacks": [
     {
       "name": "Gore",

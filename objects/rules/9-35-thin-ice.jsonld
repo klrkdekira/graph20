@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-35-thin-ice",
+  "@type": "Rule",
+  "name": "Thin Ice",
+  "slug": "9-35-thin-ice",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.35",
+    "heading": "Thin Ice",
+    "lineStart": 13972,
+    "lineEnd": 13974
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/9-35-thin-ice/"
+  },
+  "section": "9.35",
+  "rulesText": "Thin ice has a weight tolerance of 3d10 × 10 pounds per 10-foot-square area. Whenever the total weight on an area of thin ice exceeds its tolerance, the ice in that area breaks. All creatures on broken ice fall through. Below the ice is frigid water (see “Frigid Water” above)."
+}

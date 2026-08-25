@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.90",
     "heading": "Crowbar (2 GP)",
-    "lineStart": 6556,
-    "lineEnd": 6558
+    "lineStart": 6529,
+    "lineEnd": 6531
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-90-crowbar-2-gp/"
   },
   "section": "6.90",
   "rulesText": "Using a Crowbar gives you Advantage on Strength checks where the Crowbar's leverage can be applied."

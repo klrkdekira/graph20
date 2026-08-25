@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.37",
     "heading": "Bone Devil",
-    "lineStart": 19015,
-    "lineEnd": 19052
+    "lineStart": 18941,
+    "lineEnd": 18978
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/bone-devil/"
   },
   "sizeTypeAlignment": "Large Fiend (Devil), Lawful Evil",
   "sizeAndType": "Large Fiend (Devil)",
+  "size": "Large",
+  "creatureType": "Fiend",
+  "descriptiveTags": [
+    "Devil"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "16",
   "initiative": "+7 (17)",
@@ -78,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.37",
         "heading": "Traits",
-        "lineStart": 19038,
-        "lineEnd": 19042
+        "lineStart": 18964,
+        "lineEnd": 18968
       }
     },
     {
@@ -89,8 +98,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.37",
         "heading": "Actions",
-        "lineStart": 19044,
-        "lineEnd": 19052
+        "lineStart": 18970,
+        "lineEnd": 18978
       }
     }
   ],
@@ -99,6 +108,44 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Fly",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Deception",
+      "bonus": 7
+    },
+    {
+      "name": "Insight",
+      "bonus": 6
+    }
+  ],
+  "passivePerception": 12,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Infernal",
+    "telepathy 120 ft."
+  ],
+  "damageImmunities": [
+    "Fire",
+    "Poison"
+  ],
+  "damageResistances": [
+    "Cold"
   ],
   "attacks": [
     {

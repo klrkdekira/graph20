@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.345",
     "heading": "Tiny Hut",
-    "lineStart": 12203,
-    "lineEnd": 12218
+    "lineStart": 12174,
+    "lineEnd": 12189
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/tiny-hut/"
   },
   "level": 3,
   "school": "Evocation",
@@ -35,5 +38,61 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": true
+  "ritual": true,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "8 hours",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 8,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a crystal bead)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a crystal bead",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Emanation",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+      },
+      "sourceText": "A 10-foot Emanation springs into existence around you and remains stationary for the duration.",
+      "sizeFeet": 10
+    },
+    {
+      "shape": "Emanation",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+      },
+      "sourceText": "Creatures and objects within the Emanation when you cast the spell can move through it freely."
+    },
+    {
+      "shape": "Emanation",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+      },
+      "sourceText": "The atmosphere inside the Emanation is comfortable and dry, regardless of the weather outside."
+    },
+    {
+      "shape": "Emanation",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+      },
+      "sourceText": "The spell ends early if you leave the Emanation or if you cast it again."
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+    }
+  ]
 }

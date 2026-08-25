@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.195",
     "heading": "Hellish Rebuke",
-    "lineStart": 9915,
-    "lineEnd": 9926
+    "lineStart": 9886,
+    "lineEnd": 9897
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/hellish-rebuke/"
   },
   "level": 1,
   "school": "Evocation",
@@ -30,6 +33,16 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "The creature that damaged you is momentarily surrounded by green flames. It makes a Dexterity saving throw, taking 2d10 Fire damage on a failed save or half as much damage on a successful one.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Fire",
@@ -42,5 +55,21 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

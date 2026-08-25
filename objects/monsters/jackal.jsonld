@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.59",
     "heading": "Jackal",
-    "lineStart": 28178,
-    "lineEnd": 28201
+    "lineStart": 28089,
+    "lineEnd": 28112
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/jackal/"
   },
   "sizeTypeAlignment": "Small Beast, Unaligned",
   "sizeAndType": "Small Beast",
+  "size": "Small",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "12",
   "initiative": "+2 (12)",
@@ -75,12 +81,35 @@
         "chapter": "Animals",
         "section": "13.59",
         "heading": "Actions",
-        "lineStart": 28197,
-        "lineEnd": 28201
+        "lineStart": 28108,
+        "lineEnd": 28112
       }
     }
   ],
   "rulesText": "Small Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 3 (1d6)\nSpeed 40 ft.\n\nSkills Perception +5, Stealth +4\nSenses Darkvision 90 ft.; Passive Perception 15\nLanguages None\nCR 0 (XP 10; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +1, reach 5 ft. Hit: 1 (1d4 - 1)\n\nPiercing damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 5
+    },
+    {
+      "name": "Stealth",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 15,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 90
+    }
+  ],
   "attacks": [
     {
       "name": "Bite",

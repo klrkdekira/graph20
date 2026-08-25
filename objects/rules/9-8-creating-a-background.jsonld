@@ -11,8 +11,11 @@
     "chapter": "Gameplay Toolbox",
     "section": "9.8",
     "heading": "Creating a Background",
-    "lineStart": 13846,
-    "lineEnd": 13850
+    "lineStart": 13810,
+    "lineEnd": 13814
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/9-8-creating-a-background/"
   },
   "section": "9.8",
   "rulesText": "A character's background represents what the character did prior to becoming an adventurer. Creating a unique background or customizing an existing one can reflect the particular theme of your campaign or elements of your world. You can also create a background to help a player craft the story they have in mind for their character.\n\nThis section describes, step by step, how you can create backgrounds tailored for your world and the heroes in it."

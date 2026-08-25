@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.35",
     "heading": "Alchemist's Supplies (50 GP)",
-    "lineStart": 6112,
-    "lineEnd": 6118
+    "lineStart": 6088,
+    "lineEnd": 6094
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-35-alchemists-supplies-50-gp/"
   },
   "section": "6.35",
   "rulesText": "Ability: Intelligence Weight: 8 lb.\n\nUtilize: Identify a substance (DC 15), or start a fire (DC 15)\n\nCraft: Acid, Alchemist's Fire, Component Pouch, Oil, Paper, Perfume"

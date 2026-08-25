@@ -1,0 +1,73 @@
+{
+  "version": "0.4.0",
+  "recordCount": 2226,
+  "entityRecordCount": 2225,
+  "collectionCount": 19,
+  "collectionCounts": {
+    "sources": 1,
+    "rules": 708,
+    "actions": 12,
+    "areas-of-effect": 6,
+    "attitudes": 3,
+    "hazards": 5,
+    "tables": 224,
+    "classes": 12,
+    "subclasses": 12,
+    "invocations": 28,
+    "metamagic-options": 10,
+    "species": 9,
+    "backgrounds": 4,
+    "feats": 17,
+    "equipment": 227,
+    "spells": 339,
+    "conditions": 15,
+    "magic-items": 258,
+    "monsters": 336
+  },
+  "sourceContentLines": 18016,
+  "vocabulary": {
+    "classCount": 20,
+    "propertyCount": 222
+  },
+  "search": {
+    "documentCount": 2226,
+    "tokenCount": 7591,
+    "byteSize": 18779534
+  },
+  "review": {
+    "signalCount": 1988,
+    "pendingCount": 0
+  },
+  "llmsFullPhysicalLines": 59171,
+  "sitemapUrlCount": 2235,
+  "recordPageCount": 2226,
+  "semanticGraph": {
+    "linkedEntityCount": 1282,
+    "coveragePercent": 57.6,
+    "predicateCount": 22,
+    "relationCounts": {
+      "areaShapes": 81,
+      "castsSpell": 359,
+      "classes": 879,
+      "conditionImmunities": 386,
+      "eldritchInvocations": 28,
+      "fromRule": 25,
+      "fromTable": 202,
+      "grantsEquipment": 18,
+      "grantsFeat": 4,
+      "grantsTool": 4,
+      "hasGear": 100,
+      "hasPart": 271,
+      "listsSpell": 875,
+      "mentionsCondition": 506,
+      "metamagicOptions": 10,
+      "parentClass": 50,
+      "relatedRules": 234,
+      "relatedTables": 213,
+      "seeAlso": 131,
+      "spellList": 8,
+      "subclasses": 12,
+      "summons": 4
+    }
+  }
+}

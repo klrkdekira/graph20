@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.305",
     "heading": "Shapechange",
-    "lineStart": 11556,
-    "lineEnd": 11571
+    "lineStart": 11527,
+    "lineEnd": 11542
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/shapechange/"
   },
   "level": 9,
   "school": "Transmutation",
@@ -35,5 +38,30 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 hour",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a jade circlet worth 1,500+ GP)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a jade circlet worth 1,500+ GP",
+    "consumed": false,
+    "materialCost": {
+      "text": "1,500 GP",
+      "currency": "GP",
+      "amount": 1500
+    }
+  }
 }

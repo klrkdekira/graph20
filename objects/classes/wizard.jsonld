@@ -11,8 +11,11 @@
     "chapter": "Classes",
     "section": "3.31",
     "heading": "Wizard",
-    "lineStart": 4901,
-    "lineEnd": 5347
+    "lineStart": 4885,
+    "lineEnd": 5323
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/classes/wizard/"
   },
   "coreTraits": [
     {
@@ -61,8 +64,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 1: Spellcasting",
-        "lineStart": 4956,
-        "lineEnd": 4982
+        "lineStart": 4940,
+        "lineEnd": 4966
       }
     },
     {
@@ -73,8 +76,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 1: Ritual Adept",
-        "lineStart": 4984,
-        "lineEnd": 4988
+        "lineStart": 4968,
+        "lineEnd": 4972
       }
     },
     {
@@ -85,8 +88,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 1: Arcane Recovery",
-        "lineStart": 4990,
-        "lineEnd": 4994
+        "lineStart": 4974,
+        "lineEnd": 4978
       }
     },
     {
@@ -97,20 +100,20 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 2: Scholar",
-        "lineStart": 4996,
-        "lineEnd": 4998
+        "lineStart": 4980,
+        "lineEnd": 4982
       }
     },
     {
       "level": 3,
       "name": "Wizard Subclass",
-      "rulesText": "You gain a Wizard subclass of your choice. The Evoker subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Wizard levels. For the rest",
+      "rulesText": "You gain a Wizard subclass of your choice. The Evoker subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Wizard levels. For the rest of your career, you gain each of your subclass's features that are of your Wizard level or lower.",
       "sourceLocator": {
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 3: Wizard Subclass",
-        "lineStart": 5000,
-        "lineEnd": 5002
+        "lineStart": 4984,
+        "lineEnd": 4986
       }
     },
     {
@@ -121,8 +124,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 4: Ability Score Improvement",
-        "lineStart": 5016,
-        "lineEnd": 5018
+        "lineStart": 4998,
+        "lineEnd": 5000
       }
     },
     {
@@ -133,8 +136,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 5: Memorize Spell",
-        "lineStart": 5020,
-        "lineEnd": 5022
+        "lineStart": 5002,
+        "lineEnd": 5004
       }
     },
     {
@@ -145,8 +148,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 18: Spell Mastery",
-        "lineStart": 5024,
-        "lineEnd": 5028
+        "lineStart": 5006,
+        "lineEnd": 5010
       }
     },
     {
@@ -157,8 +160,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 19: Epic Boon",
-        "lineStart": 5030,
-        "lineEnd": 5032
+        "lineStart": 5012,
+        "lineEnd": 5014
       }
     },
     {
@@ -169,8 +172,8 @@
         "chapter": "Classes",
         "section": "3.31",
         "heading": "Level 20: Signature Spells",
-        "lineStart": 5034,
-        "lineEnd": 5036
+        "lineStart": 5016,
+        "lineEnd": 5018
       }
     }
   ],
@@ -179,5 +182,5 @@
       "@id": "https://cheeleong.dev/graph20/objects/tables/3-31-wizard-features"
     }
   ],
-  "rulesText": "Core Wizard Traits\n\nBecoming a Wizard ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Wizard Traits table.\n- Gain the Wizard's level 1 features, which are listed in the Wizard Features table.\n\nAs a Multiclass Character\n\n- Gain the Hit Point Die from the Core Wizard Traits table.\n- Gain the Wizard's level 1 features, which are listed in the Wizard Features table. See the multiclassing rules in “Character Creation” to determine your available spell slots.\n\nWizard Class Features\n\nAs a Wizard, you gain the following class features when you reach the specified Wizard levels. These features are listed in the Wizard Features table.\n\nWizard Features\n\nEXPANDING AND REPLACING A SPELLBOOK\n\nThe spells you add to your spellbook as you gain levels reflect your ongoing magical research, but you might find other spells during your adventures that you can add to the book. You could discover a Wizard spell on a Spell Scroll, for example, and then copy it into your spellbook.\n\nCopying a Spell into the Book. When you find a level I+ Wizard spell, you can copy it into your spellbook if it's of a level you can prepare and if you have time to copy it. For each level of the spell, the transcription takes 2 hours and costs 50 GP. Afterward you can prepare the spell like the other spells in your spellbook.\n\nCopying the Book. You can copy a spell from your spellbook into another book. This is like copying a new spell into your spellbook but faster, since you already know how to cast the spell. You need spend only 1 hour and 10 GP for each level of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the Wizard spells that you have prepared into a new spellbook. Filling out the remainder of the new book requires you to find new spells to do so. For this reason, many wizards keep a backup spellbook.\n\nof your career, you gain each of your subclass's features that are of your Wizard level or lower."
+  "rulesText": "Core Wizard Traits\n\nBecoming a Wizard ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Wizard Traits table.\n- Gain the Wizard's level 1 features, which are listed in the Wizard Features table.\n\nAs a Multiclass Character\n\n- Gain the Hit Point Die from the Core Wizard Traits table.\n- Gain the Wizard's level 1 features, which are listed in the Wizard Features table. See the multiclassing rules in “Character Creation” to determine your available spell slots.\n\nWizard Class Features\n\nAs a Wizard, you gain the following class features when you reach the specified Wizard levels. These features are listed in the Wizard Features table.\n\nExpanding and Replacing a Spellbook\n\nThe spells you add to your spellbook as you gain levels reflect your ongoing magical research, but you might find other spells during your adventures that you can add to the book. You could discover a Wizard spell on a Spell Scroll, for example, and then copy it into your spellbook.\n\nCopying a Spell into the Book. When you find a level I+ Wizard spell, you can copy it into your spellbook if it's of a level you can prepare and if you have time to copy it. For each level of the spell, the transcription takes 2 hours and costs 50 GP. Afterward you can prepare the spell like the other spells in your spellbook.\n\nCopying the Book. You can copy a spell from your spellbook into another book. This is like copying a new spell into your spellbook but faster, since you already know how to cast the spell. You need spend only 1 hour and 10 GP for each level of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the Wizard spells that you have prepared into a new spellbook. Filling out the remainder of the new book requires you to find new spells to do so. For this reason, many wizards keep a backup spellbook."
 }

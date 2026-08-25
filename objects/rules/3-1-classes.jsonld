@@ -11,8 +11,13 @@
     "chapter": "Classes",
     "section": "3.1",
     "heading": "Classes",
-    "lineStart": 1481,
-    "lineEnd": 1481
+    "lineStart": 1474,
+    "lineEnd": 1474
   },
-  "section": "3.1"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/3-1-classes/"
+  },
+  "section": "3.1",
+  "rulesText": "Classes",
+  "headingOnly": true
 }

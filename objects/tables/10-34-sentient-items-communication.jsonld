@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.34",
     "heading": "Special Purpose",
-    "lineStart": 14742,
-    "lineEnd": 14746
+    "lineStart": 14704,
+    "lineEnd": 14708,
+    "caption": "Sentient Item's Communication"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-34-sentient-items-communication/"
   },
   "columns": [
     "1d10",

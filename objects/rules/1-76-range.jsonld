@@ -11,8 +11,11 @@
     "chapter": "Playing the Game",
     "section": "1.76",
     "heading": "Range",
-    "lineStart": 665,
-    "lineEnd": 669
+    "lineStart": 663,
+    "lineEnd": 667
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-76-range/"
   },
   "section": "1.76",
   "rulesText": "You can make ranged attacks only against targets within a specified range. If a ranged attack, such as one made with a spell, has a single range, you can't attack a target beyond this range.\n\nSome ranged attacks, such as those made with a Longbow, have two ranges. The smaller number is the normal range, and the larger number is the long range. Your attack roll has Disadvantage when your target is beyond normal range, and you can't attack a target beyond long range."

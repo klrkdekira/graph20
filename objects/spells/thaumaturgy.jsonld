@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.342",
     "heading": "Thaumaturgy",
-    "lineStart": 12152,
-    "lineEnd": 12173
+    "lineStart": 12123,
+    "lineEnd": 12144
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/thaumaturgy/"
   },
   "level": 0,
   "school": "Transmutation",
@@ -31,5 +34,21 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "Up to 1 minute",
+    "concentration": false,
+    "kind": "Special"
+  },
+  "componentDetails": {
+    "text": "V",
+    "verbal": true,
+    "somatic": false,
+    "material": false
+  }
 }

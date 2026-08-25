@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.321",
     "heading": "Speak with Dead",
-    "lineStart": 11778,
-    "lineEnd": 11789
+    "lineStart": 11749,
+    "lineEnd": 11760
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/speak-with-dead/"
   },
   "level": 3,
   "school": "Necromancy",
@@ -39,5 +42,26 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "10 feet",
+    "kind": "Distance",
+    "distanceFeet": 10
+  },
+  "durationDetails": {
+    "text": "10 minutes",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (burning incense)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "burning incense",
+    "consumed": false
+  }
 }

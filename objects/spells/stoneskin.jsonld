@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.330",
     "heading": "Stoneskin",
-    "lineStart": 11905,
-    "lineEnd": 11914
+    "lineStart": 11876,
+    "lineEnd": 11885
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/stoneskin/"
   },
   "level": 4,
   "school": "Transmutation",
@@ -43,5 +46,30 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 hour",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (diamond dust worth 100+ GP, which the spell consumes)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "diamond dust worth 100+ GP, which the spell consumes",
+    "consumed": true,
+    "materialCost": {
+      "text": "100 GP",
+      "currency": "GP",
+      "amount": 100
+    }
+  }
 }

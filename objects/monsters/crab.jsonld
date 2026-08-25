@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.16",
     "heading": "Crab",
-    "lineStart": 27027,
-    "lineEnd": 27052
+    "lineStart": 26941,
+    "lineEnd": 26966
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/crab/"
   },
   "sizeTypeAlignment": "Tiny Beast, Unaligned",
   "sizeAndType": "Tiny Beast",
+  "size": "Tiny",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "11",
   "initiative": "+0 (10)",
@@ -76,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.16",
         "heading": "Traits",
-        "lineStart": 27046,
-        "lineEnd": 27048
+        "lineStart": 26960,
+        "lineEnd": 26962
       }
     },
     {
@@ -87,12 +93,35 @@
         "chapter": "Animals",
         "section": "13.16",
         "heading": "Actions",
-        "lineStart": 27050,
-        "lineEnd": 27052
+        "lineStart": 26964,
+        "lineEnd": 26966
       }
     }
   ],
   "rulesText": "Tiny Beast, Unaligned\n\nAC 11\nInitiative +0 (10)\nHP 3 (1d4 + 1)\nSpeed 20 ft., Swim 20 ft.\n\nSkills Stealth +2\nSenses Blindsight 30 ft.; Passive Perception 9\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nAmphibious. The crab can breathe air and water.\n\nActions\n\nClaw. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Bludgeoning damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 20
+    },
+    {
+      "mode": "Swim",
+      "feet": 20
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Stealth",
+      "bonus": 2
+    }
+  ],
+  "passivePerception": 9,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 30
+    }
+  ],
   "attacks": [
     {
       "name": "Claw",

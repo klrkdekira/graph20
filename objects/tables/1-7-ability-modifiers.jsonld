@@ -12,7 +12,11 @@
     "section": "1.7",
     "heading": "Round Down",
     "lineStart": 90,
-    "lineEnd": 99
+    "lineEnd": 99,
+    "caption": "Ability Modifiers"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/1-7-ability-modifiers/"
   },
   "columns": [
     "Score",

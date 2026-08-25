@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.319",
     "heading": "Spare the Dying",
-    "lineStart": 11752,
-    "lineEnd": 11763
+    "lineStart": 11723,
+    "lineEnd": 11734
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/spare-the-dying/"
   },
   "level": 0,
   "school": "Necromancy",
@@ -35,5 +38,21 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "15 feet",
+    "kind": "Distance",
+    "distanceFeet": 15
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

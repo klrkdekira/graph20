@@ -11,9 +11,12 @@
     "chapter": "Playing the Game",
     "section": "1.113",
     "heading": "They're Not Hit Points or Healing",
-    "lineStart": 855,
-    "lineEnd": 861
+    "lineStart": 853,
+    "lineEnd": 859
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-113-theyre-not-hit-points-or-healing/"
   },
   "section": "1.113",
-  "rulesText": "Temporary Hit Points can't be added to your Hit Points, healing can't restore them, and receiving Temporary Hit Points doesn't count as healing. Because Temporary Hit Points aren't Hit Points, a creature can be at full Hit Points and receive Temporary Hit Points.\n\nIf you have 0 Hit Points, receiving Temporary Hit Points doesn't restore you to consciousness. Only true healing can save you.\n\n---"
+  "rulesText": "Temporary Hit Points can't be added to your Hit Points, healing can't restore them, and receiving Temporary Hit Points doesn't count as healing. Because Temporary Hit Points aren't Hit Points, a creature can be at full Hit Points and receive Temporary Hit Points.\n\nIf you have 0 Hit Points, receiving Temporary Hit Points doesn't restore you to consciousness. Only true healing can save you."
 }

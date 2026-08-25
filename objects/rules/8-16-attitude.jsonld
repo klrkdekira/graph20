@@ -11,9 +11,40 @@
     "chapter": "Rules Glossary",
     "section": "8.16",
     "heading": "Attitude",
-    "lineStart": 12783,
-    "lineEnd": 12785
+    "lineStart": 12750,
+    "lineEnd": 12752
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-16-attitude/"
   },
   "section": "8.16",
-  "rulesText": "A monster has a starting attitude toward a player character: Friendly, Hostile, or Indifferent. See also \"Friendly,\" \"Hostile,\" \"Indifferent,\" and \"Influence.\""
+  "rulesText": "A monster has a starting attitude toward a player character: Friendly, Hostile, or Indifferent. See also \"Friendly,\" \"Hostile,\" \"Indifferent,\" and \"Influence.\"",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/attitudes/friendly"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/attitudes/hostile"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/attitudes/indifferent"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/actions/influence"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/attitudes/friendly"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/attitudes/hostile"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/attitudes/indifferent"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/actions/influence"
+    }
+  ]
 }

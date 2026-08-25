@@ -11,12 +11,22 @@
     "chapter": "Magic Items",
     "section": "10.122",
     "heading": "Gem of Seeing",
-    "lineStart": 15770,
-    "lineEnd": 15776
+    "lineStart": 15732,
+    "lineEnd": 15738
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/gem-of-seeing/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Rare",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Rare (Requires Attunement)\n\nThis gem has 3 charges. As a Magic action, you can expend 1 charge. For the next 10 minutes, you have Truesight out to 120 feet when you peer through the gem.\n\nThe gem regains 1d3 expended charges daily at dawn."
+  "rulesText": "Wondrous Item, Rare (Requires Attunement)\n\nThis gem has 3 charges. As a Magic action, you can expend 1 charge. For the next 10 minutes, you have Truesight out to 120 feet when you peer through the gem.\n\nThe gem regains 1d3 expended charges daily at dawn.",
+  "charges": {
+    "capacityText": "3",
+    "capacity": 3,
+    "rechargeText": "The gem regains 1d3 expended charges daily at dawn."
+  },
+  "isCursed": false,
+  "isSentient": false
 }

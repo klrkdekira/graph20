@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.254",
     "heading": "Move Earth",
-    "lineStart": 10785,
-    "lineEnd": 10800
+    "lineStart": 10756,
+    "lineEnd": 10771
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/move-earth/"
   },
   "level": 6,
   "school": "Transmutation",
@@ -39,5 +42,26 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 2 hours",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 2,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a miniature shovel)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a miniature shovel",
+    "consumed": false
+  }
 }

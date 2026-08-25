@@ -11,8 +11,13 @@
     "chapter": "Feats",
     "section": "5.9",
     "heading": "General Feats",
-    "lineStart": 5739,
-    "lineEnd": 5739
+    "lineStart": 5715,
+    "lineEnd": 5715
   },
-  "section": "5.9"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/5-9-general-feats/"
+  },
+  "section": "5.9",
+  "rulesText": "General Feats",
+  "headingOnly": true
 }

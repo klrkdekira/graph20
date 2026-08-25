@@ -1,0 +1,37 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/attitudes/friendly",
+  "@type": "Attitude",
+  "name": "Friendly",
+  "slug": "friendly",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.72",
+    "heading": "Friendly [Attitude]",
+    "lineStart": 13115,
+    "lineEnd": 13117
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/attitudes/friendly/"
+  },
+  "rulesText": "A Friendly creature views you favorably. You have Advantage on an ability check to influence a Friendly creature. See also “Influence.”",
+  "effects": [
+    {
+      "name": "A Friendly creature views you favorably",
+      "rulesText": "You have Advantage on an ability check to influence a Friendly creature. See also “Influence.”"
+    }
+  ],
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/actions/influence"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/actions/influence"
+    }
+  ]
+}

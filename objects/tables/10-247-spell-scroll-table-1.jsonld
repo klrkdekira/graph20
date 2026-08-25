@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.247",
     "heading": "Spell Scroll",
-    "lineStart": 17152,
-    "lineEnd": 17157
+    "lineStart": 17096,
+    "lineEnd": 17107,
+    "caption": "Spell Scroll Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-247-spell-scroll-table-1/"
   },
   "columns": [
     "Spell Level",
@@ -88,7 +92,109 @@
           "value": "+7"
         }
       ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "Rare"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "+7"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "Rare"
+        },
+        {
+          "value": "17"
+        },
+        {
+          "value": "+9"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "Very Rare"
+        },
+        {
+          "value": "17"
+        },
+        {
+          "value": "+9"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "Very Rare"
+        },
+        {
+          "value": "18"
+        },
+        {
+          "value": "+10"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "Very Rare"
+        },
+        {
+          "value": "18"
+        },
+        {
+          "value": "+10"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "Legendary"
+        },
+        {
+          "value": "19"
+        },
+        {
+          "value": "+11"
+        }
+      ]
     }
   ],
-  "rawText": "| Spell Level | Rarity   | Save DC | Attack Bonus |\n| :---------- | :------- | :------ | :----------- |\n| Cantrip     | Common   | 13      | +5           |\n| 1           | Common   | 13      | +5           |\n| 2           | Uncommon | 13      | +5           |\n| 3           | Uncommon | 15      | +7           |"
+  "rawText": "| Spell Level | Rarity   | Save DC | Attack Bonus |\n| :---------- | :------- | :------ | :----------- |\n| Cantrip     | Common   | 13      | +5           |\n| 1           | Common   | 13      | +5           |\n| 2           | Uncommon | 13      | +5           |\n| 3           | Uncommon | 15      | +7           |\n| 4           | Rare      | 15      | +7           |\n| 5           | Rare      | 17      | +9           |\n| 6           | Very Rare | 17      | +9           |\n| 7           | Very Rare | 18      | +10          |\n| 8           | Very Rare | 18      | +10          |\n| 9           | Legendary | 19      | +11          |"
 }

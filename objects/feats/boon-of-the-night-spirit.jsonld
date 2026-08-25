@@ -11,8 +11,11 @@
     "chapter": "Feats",
     "section": "5.23",
     "heading": "Boon of the Night Spirit",
-    "lineStart": 5845,
-    "lineEnd": 5855
+    "lineStart": 5821,
+    "lineEnd": 5831
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/feats/boon-of-the-night-spirit/"
   },
   "category": "Epic Boon",
   "prerequisite": "Level 19+",

@@ -1,0 +1,37 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/attitudes/indifferent",
+  "@type": "Attitude",
+  "name": "Indifferent",
+  "slug": "indifferent",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.91",
+    "heading": "Indifferent [Attitude]",
+    "lineStart": 13239,
+    "lineEnd": 13241
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/attitudes/indifferent/"
+  },
+  "rulesText": "An Indifferent creature has no desire to help or hinder you. Indifferent is the default attitude of a monster. See also “Influence.”",
+  "effects": [
+    {
+      "name": "An Indifferent creature has no desire to help or hinder you",
+      "rulesText": "Indifferent is the default attitude of a monster. See also “Influence.”"
+    }
+  ],
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/actions/influence"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/actions/influence"
+    }
+  ]
+}

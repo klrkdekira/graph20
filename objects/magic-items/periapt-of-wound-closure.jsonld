@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.176",
     "heading": "Periapt of Wound Closure",
-    "lineStart": 16410,
-    "lineEnd": 16418
+    "lineStart": 16366,
+    "lineEnd": 16374
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/periapt-of-wound-closure/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile wearing this pendant, you gain the following benefits.\n\nLife Preservation. Whenever you make a Death Saving Throw, you can change a roll of 9 or lower to a 10, turning a failed save into a successful one.\n\nNatural Healing Boost. Whenever you roll a Hit Point Die to regain Hit Points, double the number of Hit Points it restores."
+  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile wearing this pendant, you gain the following benefits.\n\nLife Preservation. Whenever you make a Death Saving Throw, you can change a roll of 9 or lower to a 10, turning a failed save into a successful one.\n\nNatural Healing Boost. Whenever you roll a Hit Point Die to regain Hit Points, double the number of Hit Points it restores.",
+  "isCursed": false,
+  "isSentient": false
 }

@@ -15,8 +15,8 @@
     "source": {
       "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
     },
-    "sourceDigest": "sha256-e5a493bd086894a69972dc9b61422f1f51c05b3bd7e1691ab3b0917f8a24ab90",
-    "corpusDigest": "sha256-2d8fa2151ca0731e8b00ff6523cd82c95cc95074049cce363f77f689a94979ad"
+    "sourceDigest": "sha256-8f037a5af23df22ea362d359e9b98563281a0359196e64c9ff4b85a1792205e6",
+    "corpusDigest": "sha256-bf71d08fb13ca35e2b107dad18bdbeed8bb4a657acf3a15b13c484ef4068c598"
   },
   "collections": [
     {
@@ -758,79 +758,76 @@
           "@id": "https://cheeleong.dev/graph20/objects/rules/2-23-fill-in-numbers"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-24-passive-perception-10-wisdom-perception-check-modifier"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/2-24-level-advancement"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-25-level-advancement"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/2-25-gaining-a-level"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-26-gaining-a-level"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/2-26-tiers-of-play"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-27-tiers-of-play"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/2-27-tier-1-levels-1-4"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-28-tier-1-levels-1-4"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/2-28-tier-2-levels-5-10"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-29-tier-2-levels-5-10"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/2-29-tier-3-levels-11-16"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/2-3-create-your-character"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-30-tier-3-levels-11-16"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/2-30-tier-4-levels-17-20"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-31-tier-4-levels-17-20"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/2-31-starting-at-higher-levels"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-32-starting-at-higher-levels"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/2-32-creating-your-character"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-33-creating-your-character"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/2-33-bonus-feats-at-level-20"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-34-bonus-feats-at-level-20"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/2-34-starting-equipment"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-35-starting-equipment"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/2-35-multiclassing"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-36-multiclassing"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/2-36-prerequisites"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-37-prerequisites"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/2-37-experience-points"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-38-experience-points"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/2-38-hit-points-and-hit-point-dice"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-39-hit-points-and-hit-point-dice"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/2-39-proficiency-bonus"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/2-4-step-1-choose-class"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-40-proficiency-bonus"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/2-40-proficiencies"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-41-proficiencies"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/2-41-class-features"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-42-class-features"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/2-42-armor-class"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-43-armor-class"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/2-43-extra-attack"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-44-extra-attack"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/2-44-spellcasting"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-45-spellcasting"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/2-46-trinkets"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/2-45-trinkets"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/2-5-write-your-level"
@@ -1583,13 +1580,7 @@
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-100-long-rest"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-101-magic-action"
-        },
-        {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-102-magical-effect"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-103-malnutrition-hazard"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-104-monster"
@@ -1634,9 +1625,6 @@
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-12-armor-class"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-120-ready-action"
-        },
-        {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-121-resistance"
         },
         {
@@ -1650,9 +1638,6 @@
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-126-saving-throw"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-127-search-action"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-128-shape-shifting"
@@ -1685,22 +1670,10 @@
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-136-spellcasting-focus"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-137-sphere-area-of-effect"
-        },
-        {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-138-stable"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-139-stat-block"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-14-attack-action"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-140-study-action"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-142-suffocation-hazard"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-143-surprise"
@@ -1739,9 +1712,6 @@
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-154-unoccupied-space"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-155-utilize-action"
-        },
-        {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-156-vulnerability"
         },
         {
@@ -1773,9 +1743,6 @@
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-23-bright-light"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-24-burning-hazard"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-25-burrow-speed"
@@ -1811,9 +1778,6 @@
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-35-condition"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-36-cone-area-of-effect"
-        },
-        {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-37-cover"
         },
         {
@@ -1832,13 +1796,7 @@
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-41-critical-hit"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-42-cube-area-of-effect"
-        },
-        {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-43-curses"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-44-cylinder-area-of-effect"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-45-d20-test"
@@ -1865,16 +1823,10 @@
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-51-darkvision"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-52-dash-action"
-        },
-        {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-53-dead"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-55-death-saving-throw"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-56-dehydration-hazard"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-57-difficult-terrain"
@@ -1892,15 +1844,6 @@
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-60-disadvantage"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-61-disengage-action"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-62-dodge-action"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-63-emanation-area-of-effect"
-        },
-        {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-64-encounter"
         },
         {
@@ -1913,9 +1856,6 @@
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-68-expertise"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-69-falling-hazard"
-        },
-        {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-7-advantage"
         },
         {
@@ -1923,9 +1863,6 @@
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-71-fly-speed"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-72-friendly-attitude"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-75-grappling"
@@ -1940,16 +1877,10 @@
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-78-heavily-obscured"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-79-help-action"
-        },
-        {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-8-adventure"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-80-heroic-inspiration"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-81-hide-action"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-82-high-jump"
@@ -1959,9 +1890,6 @@
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-84-hit-points"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-85-hostile-attitude"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-86-hover"
@@ -1979,12 +1907,6 @@
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-9-alignment"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-91-indifferent-attitude"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-92-influence-action"
-        },
-        {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-93-initiative"
         },
         {
@@ -1995,9 +1917,6 @@
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-97-lightly-obscured"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/8-98-line-area-of-effect"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/8-99-long-jump"
@@ -2018,229 +1937,226 @@
           "@id": "https://cheeleong.dev/graph20/objects/rules/9-13-5-choose-equipment"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-14-curses-and"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-14-curses-and-magical-contagions"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-15-magical-contagions"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-15-curses"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-16-curses"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-16-bestow-curse"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-17-bestow-curse"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-17-cursed-creatures"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-18-cursed-creatures"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-18-cursed-magic-items"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-19-cursed-magic-items"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-19-narrative-curses"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/9-2-travel-pace"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-20-narrative-curses"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-20-environmental-curses"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-21-environmental-curses"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-21-magical-contagions"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-22-magical-contagions"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-22-rest-and-recuperation"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-23-rest-and-recuperation"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-23-example-contagions"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-24-example-contagions"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-24-cackle-fever"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-25-cackle-fever"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-25-sewer-plague"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-26-sewer-plague"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-26-sight-rot"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-27-sight-rot"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-27-environmental-effects-deep-water"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-28-environmental-effects-deep-water"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-28-extreme-cold"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-29-extreme-cold"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-29-extreme-heat"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/9-3-good-roads"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-30-extreme-heat"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-30-frigid-water"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-31-frigid-water"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-31-heavy-precipitation"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-32-heavy-precipitation"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-32-high-altitude"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-33-high-altitude"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-33-slippery-ice"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-34-slippery-ice"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-34-strong-wind"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-35-strong-wind"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-35-thin-ice"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-36-thin-ice"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-36-fear-and-mental-stress"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-37-fear-and-mental-stress"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-37-fear-effects"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-38-fear-effects"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-38-mental-stress-effects"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-39-mental-stress-effects"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-39-prolonged-effects"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/9-4-slower-travelers"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-40-prolonged-effects"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-40-poison"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-41-poison"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-41-purchasing-poison"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-42-purchasing-poison"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-42-harvesting-poison"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-43-harvesting-poison"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-43-sample-poisons"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-44-sample-poisons"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-44-assassins-blood-150-gp"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-45-assassins-blood-150-gp"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-45-burnt-othur-fumes-500-gp"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-46-burnt-othur-fumes-500-gp"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-46-crawler-mucus-200-gp"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-47-crawler-mucus-200-gp"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-47-essence-of-ether-300-gp"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-48-essence-of-ether-300-gp"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-48-malice-250-gp"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-49-malice-250-gp"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-49-midnight-tears-1-500-gp"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/9-5-extended-travel"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-50-midnight-tears-1-500-gp"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-50-oil-of-taggit-400-gp"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-51-oil-of-taggit-400-gp"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-51-pale-tincture-250-gp"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-52-pale-tincture-250-gp"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-52-purple-worm-poison-2-000-gp"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-53-purple-worm-poison-2-000-gp"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-53-serpent-venom-200-gp"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-54-serpent-venom-200-gp"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-54-spiders-sting-200-gp"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-55-spiders-sting-200-gp"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-55-torpor-600-gp"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-56-torpor-600-gp"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-56-truth-serum-150-gp"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-57-truth-serum-150-gp"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-57-wyvern-poison-1-200-gp"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-58-wyvern-poison-1-200-gp"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-58-traps"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-59-traps"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-59-parts-of-a-trap"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/9-6-special-movement"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-60-parts-of-a-trap"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-60-example-traps"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-61-example-traps"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-61-collapsing-roof"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-62-collapsing-roof"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-62-falling-net"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-63-falling-net"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-63-fire-casting-statue"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-64-fire-casting-statue"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-64-hidden-pit"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-65-hidden-pit"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-65-poisoned-darts"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-66-poisoned-darts"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-66-poisoned-needle"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-67-poisoned-needle"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-67-rolling-stone"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-68-rolling-stone"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-68-spiked-pit"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-69-spiked-pit"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-69-combat-encounters"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/9-7-vehicles"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-70-combat-encounters"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-70-combat-encounter-difficulty"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-71-combat-encounter-difficulty"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-71-step-1-choose-a-difficulty"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-72-step-1-choose-a-difficulty"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-72-step-2-determine-your-xp-budget"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-73-step-2-determine-your-xp-budget"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-73-step-3-spend-your-budget"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-74-step-3-spend-your-budget"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-74-troubleshooting"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-75-troubleshooting"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-75-many-creatures"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-76-many-creatures"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-76-adjustments"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-77-adjustments"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-77-cr-0-creatures"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-78-cr-0-creatures"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-78-number-of-stat-blocks"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-79-number-of-stat-blocks"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-79-powerful-creatures"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/9-8-creating-a-background"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-80-powerful-creatures"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/rules/9-81-unusual-features"
+          "@id": "https://cheeleong.dev/graph20/objects/rules/9-80-unusual-features"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/rules/9-9-1-choose-abilities"
@@ -2248,6 +2164,124 @@
       ],
       "schemaReference": {
         "@id": "https://cheeleong.dev/graph20/systems/rule.schema.json"
+      }
+    },
+    {
+      "name": "actions",
+      "slug": "actions",
+      "entityType": "Action",
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/actions/attack"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/actions/dash"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/actions/disengage"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/actions/dodge"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/actions/help"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/actions/hide"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/actions/influence"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/actions/magic"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/actions/ready"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/actions/search"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/actions/study"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/actions/utilize"
+        }
+      ],
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/graph20/systems/action.schema.json"
+      }
+    },
+    {
+      "name": "areas-of-effect",
+      "slug": "areas-of-effect",
+      "entityType": "AreaOfEffect",
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cone"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cylinder"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/line"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+        }
+      ],
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/graph20/systems/area-of-effect.schema.json"
+      }
+    },
+    {
+      "name": "attitudes",
+      "slug": "attitudes",
+      "entityType": "Attitude",
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/attitudes/friendly"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/attitudes/hostile"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/attitudes/indifferent"
+        }
+      ],
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/graph20/systems/attitude.schema.json"
+      }
+    },
+    {
+      "name": "hazards",
+      "slug": "hazards",
+      "entityType": "Hazard",
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/hazards/burning"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/hazards/dehydration"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/hazards/falling"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/hazards/malnutrition"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/hazards/suffocation"
+        }
+      ],
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/graph20/systems/hazard.schema.json"
       }
     },
     {
@@ -2319,9 +2353,6 @@
           "@id": "https://cheeleong.dev/graph20/objects/tables/10-157-manual-of-golems-table-1"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/10-163-mysterious-deck-2"
-        },
-        {
           "@id": "https://cheeleong.dev/graph20/objects/tables/10-163-mysterious-deck"
         },
         {
@@ -2349,10 +2380,13 @@
           "@id": "https://cheeleong.dev/graph20/objects/tables/10-214-ring-of-shooting-stars-table-1"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/tables/10-228-robe-of-useful-items-patches"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/tables/10-247-spell-scroll-table-1"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/10-247-spell-scroll-table-2"
+          "@id": "https://cheeleong.dev/graph20/objects/tables/10-248-sphere-interactions"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/tables/10-25-magic-item-tools"
@@ -2454,9 +2488,6 @@
           "@id": "https://cheeleong.dev/graph20/objects/tables/11-10-hit-dice-by-size"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/11-24-experience-points-by-challenge-rating-2"
-        },
-        {
           "@id": "https://cheeleong.dev/graph20/objects/tables/11-24-experience-points-by-challenge-rating"
         },
         {
@@ -2478,28 +2509,25 @@
           "@id": "https://cheeleong.dev/graph20/objects/tables/2-17-ability-scores-and-modifiers"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/2-24-level-1-hit-points-by-class"
+          "@id": "https://cheeleong.dev/graph20/objects/tables/2-23-level-1-hit-points-by-class"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/2-25-character-advancement"
+          "@id": "https://cheeleong.dev/graph20/objects/tables/2-24-character-advancement"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/2-26-fixed-hit-points-by-class"
+          "@id": "https://cheeleong.dev/graph20/objects/tables/2-25-fixed-hit-points-by-class"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/2-33-starting-equipment-at-higher-levels"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/2-4-class-overview-2"
+          "@id": "https://cheeleong.dev/graph20/objects/tables/2-32-starting-equipment-at-higher-levels"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/tables/2-4-class-overview"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/2-45-spell-slots-per-spell-level"
+          "@id": "https://cheeleong.dev/graph20/objects/tables/2-44-spell-slots-per-spell-level"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/2-46-trinkets"
+          "@id": "https://cheeleong.dev/graph20/objects/tables/2-45-trinkets"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/tables/2-8-ability-scores-and-backgrounds"
@@ -2622,9 +2650,6 @@
           "@id": "https://cheeleong.dev/graph20/objects/tables/3-26-level-1-sorcerer-spells"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/3-26-level-2-sorcerer-spells-2"
-        },
-        {
           "@id": "https://cheeleong.dev/graph20/objects/tables/3-26-level-2-sorcerer-spells"
         },
         {
@@ -2664,9 +2689,6 @@
           "@id": "https://cheeleong.dev/graph20/objects/tables/3-29-level-2-warlock-spells"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/3-29-level-3-warlock-spells-2"
-        },
-        {
           "@id": "https://cheeleong.dev/graph20/objects/tables/3-29-level-3-warlock-spells"
         },
         {
@@ -2691,9 +2713,6 @@
           "@id": "https://cheeleong.dev/graph20/objects/tables/3-31-wizard-features"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/3-32-cantrips-level-0-wizard-spells-2"
-        },
-        {
           "@id": "https://cheeleong.dev/graph20/objects/tables/3-32-cantrips-level-0-wizard-spells"
         },
         {
@@ -2701,9 +2720,6 @@
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/tables/3-32-level-2-wizard-spells"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/3-32-level-3-wizard-spells-2"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/tables/3-32-level-3-wizard-spells"
@@ -2728,9 +2744,6 @@
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/tables/3-4-bard-features"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/3-5-cantrips-level-0-bard-spells-2"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/tables/3-5-cantrips-level-0-bard-spells"
@@ -2799,6 +2812,15 @@
           "@id": "https://cheeleong.dev/graph20/objects/tables/3-8-level-9-cleric-spells"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/tables/4-21-draconic-ancestors"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/tables/4-23-elven-lineages"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/tables/4-29-fiendish-legacies"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/tables/6-146-mounts-and-other-animals"
         },
         {
@@ -2827,9 +2849,6 @@
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/tables/6-31-armor"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/6-64-adventuring-gear-2"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/tables/6-64-adventuring-gear"
@@ -2883,19 +2902,10 @@
           "@id": "https://cheeleong.dev/graph20/objects/tables/7-85-confusion-table-1"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/7-97-precipitation-2"
+          "@id": "https://cheeleong.dev/graph20/objects/tables/7-97-control-weather-table-2"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/tables/7-97-precipitation"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/8-103-food-needs-per-day"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/8-127-search"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/8-140-areas-of-knowledge"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/tables/8-2-glossary-conventions-table-1"
@@ -2919,46 +2929,37 @@
           "@id": "https://cheeleong.dev/graph20/objects/tables/8-40-creature-type-table-1"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/8-49-damage-types-2"
-        },
-        {
           "@id": "https://cheeleong.dev/graph20/objects/tables/8-49-damage-types"
-        },
-        {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/8-56-water-needs-per-day"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/tables/8-6-action-table-1"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/8-92-influence-checks"
-        },
-        {
           "@id": "https://cheeleong.dev/graph20/objects/tables/9-2-travel-terrain"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/9-38-sample-fear-dcs"
+          "@id": "https://cheeleong.dev/graph20/objects/tables/9-37-sample-fear-dcs"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/9-39-sample-mental-stress-effects"
+          "@id": "https://cheeleong.dev/graph20/objects/tables/9-38-sample-mental-stress-effects"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/9-62-collapsing-roof-table-1"
+          "@id": "https://cheeleong.dev/graph20/objects/tables/9-61-collapsing-roof-table-1"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/9-64-fire-casting-statue-table-1"
+          "@id": "https://cheeleong.dev/graph20/objects/tables/9-63-fire-casting-statue-table-1"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/9-65-hidden-pit-table-1"
+          "@id": "https://cheeleong.dev/graph20/objects/tables/9-64-hidden-pit-table-1"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/9-67-poisoned-needle-table-1"
+          "@id": "https://cheeleong.dev/graph20/objects/tables/9-66-poisoned-needle-table-1"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/9-69-spiked-pit-table-1"
+          "@id": "https://cheeleong.dev/graph20/objects/tables/9-68-spiked-pit-table-1"
         },
         {
-          "@id": "https://cheeleong.dev/graph20/objects/tables/9-73-xp-budget-per-character"
+          "@id": "https://cheeleong.dev/graph20/objects/tables/9-72-xp-budget-per-character"
         }
       ],
       "schemaReference": {
@@ -3055,6 +3056,140 @@
       ],
       "schemaReference": {
         "@id": "https://cheeleong.dev/graph20/systems/subclass.schema.json"
+      }
+    },
+    {
+      "name": "invocations",
+      "slug": "invocations",
+      "entityType": "EldritchInvocation",
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/agonizing-blast"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/armor-of-shadows"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/ascendant-step"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/devils-sight"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/devouring-blade"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/eldritch-mind"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/eldritch-smite"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/eldritch-spear"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/fiendish-vigor"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/gaze-of-two-minds"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/gift-of-the-depths"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/gift-of-the-protectors"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/investment-of-the-chain-master"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/lessons-of-the-first-ones"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/lifedrinker"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/mask-of-many-faces"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/master-of-myriad-forms"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/misty-visions"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/one-with-shadows"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/otherworldly-leap"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/pact-of-the-blade"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/pact-of-the-chain"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/pact-of-the-tome"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/repelling-blast"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/thirsting-blade"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/visions-of-distant-realms"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/whispers-of-the-grave"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/invocations/witch-sight"
+        }
+      ],
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/graph20/systems/invocation.schema.json"
+      }
+    },
+    {
+      "name": "metamagic-options",
+      "slug": "metamagic-options",
+      "entityType": "MetamagicOption",
+      "members": [
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/metamagic-options/careful-spell"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/metamagic-options/distant-spell"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/metamagic-options/empowered-spell"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/metamagic-options/extended-spell"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/metamagic-options/heightened-spell"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/metamagic-options/quickened-spell"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/metamagic-options/seeking-spell"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/metamagic-options/subtle-spell"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/metamagic-options/transmuted-spell"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/metamagic-options/twinned-spell"
+        }
+      ],
+      "schemaReference": {
+        "@id": "https://cheeleong.dev/graph20/systems/metamagic-option.schema.json"
       }
     },
     {
@@ -3186,16 +3321,37 @@
           "@id": "https://cheeleong.dev/graph20/objects/equipment/acid"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/airship"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/alchemists-fire"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/alchemists-supplies"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/ale-mug"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/ammunition"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/amulet-worn-or-held"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/antitoxin"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/arcane-focus"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/aristocratic-2"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/aristocratic"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/arrows"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/backpack"
@@ -3228,25 +3384,58 @@
           "@id": "https://cheeleong.dev/graph20/objects/equipment/blowgun"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/bolts"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/book"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/bottle-glass"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/bread-loaf"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/breastplate"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/brewers-supplies"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/bucket"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/bullets-firearm"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/bullets-sling"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/burglars-pack"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/calligraphers-supplies"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/caltrops"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/camel"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/candle"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/carpenters-tools"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/carriage"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/cart"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/cartographers-tools"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/case-crossbow-bolt"
@@ -3264,6 +3453,12 @@
           "@id": "https://cheeleong.dev/graph20/objects/equipment/chain"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/chariot"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/cheese-wedge"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/chest"
         },
         {
@@ -3279,13 +3474,31 @@
           "@id": "https://cheeleong.dev/graph20/objects/equipment/club"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/cobblers-tools"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/comfortable-2"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/comfortable"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/common"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/component-pouch"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/cooks-utensils"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/costume"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/crowbar"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/crystal"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/dagger"
@@ -3297,16 +3510,34 @@
           "@id": "https://cheeleong.dev/graph20/objects/equipment/diplomats-pack"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/disguise-kit"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/druidic-focus"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/dungeoneers-pack"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/elephant"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/emblem-borne-on-fabric-or-a-shield"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/entertainers-pack"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/exotic"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/explorers-pack"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/feed-per-day"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/fine"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/flail"
@@ -3315,7 +3546,19 @@
           "@id": "https://cheeleong.dev/graph20/objects/equipment/flask"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/forgery-kit"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/galley"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/gaming-set"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/glaive"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/glassblowers-tools"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/grappling-hook"
@@ -3348,6 +3591,9 @@
           "@id": "https://cheeleong.dev/graph20/objects/equipment/heavy-crossbow"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/herbalism-kit"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/hide-armor"
         },
         {
@@ -3355,6 +3601,12 @@
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/holy-water"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/horse-draft"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/horse-riding"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/hunting-trap"
@@ -3369,7 +3621,13 @@
           "@id": "https://cheeleong.dev/graph20/objects/equipment/javelin"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/jewelers-tools"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/jug"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/keelboat"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/ladder"
@@ -3390,6 +3648,9 @@
           "@id": "https://cheeleong.dev/graph20/objects/equipment/leather-armor"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/leatherworkers-tools"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/light-crossbow"
         },
         {
@@ -3400,6 +3661,9 @@
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/longbow"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/longship"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/longsword"
@@ -3417,16 +3681,46 @@
           "@id": "https://cheeleong.dev/graph20/objects/equipment/map"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/masons-tools"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/mastiff"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/maul"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/messenger"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/military"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/mirror"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/modest-2"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/modest"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/morningstar"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/mule"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/musical-instrument"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/musket"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/navigators-tools"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/needles"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/net"
@@ -3435,7 +3729,13 @@
           "@id": "https://cheeleong.dev/graph20/objects/equipment/oil"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/orb"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/padded-armor"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/painters-supplies"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/paper"
@@ -3459,13 +3759,28 @@
           "@id": "https://cheeleong.dev/graph20/objects/equipment/poison-basic"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/poisoners-kit"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/pole"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/pony"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/poor-2"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/poor"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/pot-iron"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/potion-of-healing"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/potters-tools"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/pouch"
@@ -3489,16 +3804,34 @@
           "@id": "https://cheeleong.dev/graph20/objects/equipment/rations"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/reliquary-held"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/riding"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/ring-mail"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/robe"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/rod"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/rope"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/rowboat"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/sack"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/saddle"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/sailing-ship"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/scale-mail"
@@ -3528,7 +3861,16 @@
           "@id": "https://cheeleong.dev/graph20/objects/equipment/signal-whistle"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/skilled-hireling"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/sled"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/sling"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/smiths-tools"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/spear"
@@ -3540,13 +3882,49 @@
           "@id": "https://cheeleong.dev/graph20/objects/equipment/spell-scroll-level-1"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/spellcasting-service-1"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/spellcasting-service-2"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/spellcasting-service-3"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/spellcasting-service-4-5"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/spellcasting-service-6-8"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/spellcasting-service-9"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/spellcasting-service-cantrip"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/spikes-iron"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/splint-armor"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/sprig-of-mistletoe"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/spyglass"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/squalid-2"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/squalid"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/stabling-per-day"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/staff-also-a-quarterstaff"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/string"
@@ -3558,7 +3936,13 @@
           "@id": "https://cheeleong.dev/graph20/objects/equipment/tent"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/thieves-tools"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/tinderbox"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/tinkers-tools"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/torch"
@@ -3567,7 +3951,16 @@
           "@id": "https://cheeleong.dev/graph20/objects/equipment/trident"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/untrained-hireling"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/vial"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/wagon"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/wand"
         },
         {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/war-pick"
@@ -3576,10 +3969,34 @@
           "@id": "https://cheeleong.dev/graph20/objects/equipment/warhammer"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/warhorse"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/warship"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/waterskin"
         },
         {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/wealthy-2"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/wealthy"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/weavers-tools"
+        },
+        {
           "@id": "https://cheeleong.dev/graph20/objects/equipment/whip"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/woodcarvers-tools"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/wooden-staff-also-a-quarterstaff"
+        },
+        {
+          "@id": "https://cheeleong.dev/graph20/objects/equipment/yew-wand"
         }
       ],
       "schemaReference": {

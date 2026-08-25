@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.294",
     "heading": "Wind Fan",
-    "lineStart": 17689,
-    "lineEnd": 17693
+    "lineStart": 17630,
+    "lineEnd": 17634
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/wind-fan/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
@@ -22,5 +25,7 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/gust-of-wind"
     }
-  ]
+  ],
+  "isCursed": false,
+  "isSentient": false
 }

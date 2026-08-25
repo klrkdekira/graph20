@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.170",
     "heading": "Mummies",
-    "lineStart": 23235,
-    "lineEnd": 23235
+    "lineStart": 23155,
+    "lineEnd": 23155
   },
-  "section": "12.170"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-170-mummies/"
+  },
+  "section": "12.170",
+  "rulesText": "Mummies",
+  "headingOnly": true
 }

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.264",
     "heading": "Plant Growth",
-    "lineStart": 10931,
-    "lineEnd": 10944
+    "lineStart": 10902,
+    "lineEnd": 10915
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/plant-growth/"
   },
   "level": 3,
   "school": "Transmutation",
@@ -39,5 +42,36 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "150 feet",
+    "kind": "Distance",
+    "distanceFeet": 150
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "All normal plants in a 100-foot-radius Sphere centered on that point become thick and overgrown.",
+      "radiusFeet": 100
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+    }
+  ]
 }

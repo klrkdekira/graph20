@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.61",
     "heading": "Bless",
-    "lineStart": 7769,
-    "lineEnd": 7780
+    "lineStart": 7740,
+    "lineEnd": 7751
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/bless/"
   },
   "level": 1,
   "school": "Enchantment",
@@ -35,5 +38,31 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a Holy Symbol worth 5+ GP)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a Holy Symbol worth 5+ GP",
+    "consumed": false,
+    "materialCost": {
+      "text": "5 GP",
+      "currency": "GP",
+      "amount": 5
+    }
+  }
 }

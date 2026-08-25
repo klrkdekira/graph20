@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.18",
     "heading": "Paladin Spell List",
-    "lineStart": 3381,
-    "lineEnd": 3393
+    "lineStart": 3371,
+    "lineEnd": 3383,
+    "caption": "Level 2 Paladin Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-18-level-2-paladin-spells/"
   },
   "columns": [
     "Spell",

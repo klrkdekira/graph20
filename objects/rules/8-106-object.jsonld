@@ -11,8 +11,11 @@
     "chapter": "Rules Glossary",
     "section": "8.106",
     "heading": "Object",
-    "lineStart": 13404,
-    "lineEnd": 13406
+    "lineStart": 13368,
+    "lineEnd": 13370
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-106-object/"
   },
   "section": "8.106",
   "rulesText": "An object is a nonliving, distinct thing. Composite things, like buildings, comprise more than one object. See also “Breaking Objects.”"

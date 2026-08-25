@@ -11,8 +11,12 @@
     "chapter": "Equipment",
     "section": "6.64",
     "heading": "Ammunition (Varies)",
-    "lineStart": 6438,
-    "lineEnd": 6444
+    "lineStart": 6411,
+    "lineEnd": 6417,
+    "caption": "Ammunition"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/6-64-ammunition/"
   },
   "columns": [
     "Type",

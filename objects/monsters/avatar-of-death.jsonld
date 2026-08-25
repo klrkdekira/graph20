@@ -11,17 +11,23 @@
     "chapter": "Magic Items",
     "section": "10.164",
     "heading": "Avatar of Death",
-    "lineStart": 16281,
-    "lineEnd": 16311
+    "lineStart": 16240,
+    "lineEnd": 16267
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/avatar-of-death/"
   },
   "sizeTypeAlignment": "Medium Undead, Neutral evil",
   "sizeAndType": "Medium Undead",
+  "size": "Medium",
+  "creatureType": "Undead",
+  "monsterCategory": "Monster",
   "alignment": "Neutral evil",
   "armorClass": "20",
   "initiative": "+3 (13)",
   "hitPoints": "Half the HP maximum of its summoner",
   "speed": "60 ft., Fly 60 ft. (hover)",
-  "immunities": "Necrotic, Poison; Charmed, Exhaustion,",
+  "immunities": "Necrotic, Poison; Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned, Unconscious",
   "senses": "Truesight 60 ft., Passive Perception 13",
   "languages": "All languages known to its summoner",
   "challenge": "None (XP 0; PB equals its summoner's)",
@@ -66,8 +72,8 @@
         "chapter": "Magic Items",
         "section": "10.164",
         "heading": "Traits",
-        "lineStart": 16303,
-        "lineEnd": 16305
+        "lineStart": 16259,
+        "lineEnd": 16261
       }
     },
     {
@@ -77,19 +83,59 @@
         "chapter": "Magic Items",
         "section": "10.164",
         "heading": "Actions",
-        "lineStart": 16307,
-        "lineEnd": 16311
+        "lineStart": 16263,
+        "lineEnd": 16267
       }
     }
   ],
-  "rulesText": "Medium Undead, Neutral evil\n\nAC 20\nInitiative +3 (13)\nHP Half the HP maximum of its summoner\nSpeed 60 ft., Fly 60 ft. (hover)\n\nImmunities Necrotic, Poison; Charmed, Exhaustion,\n\nFrightened, Paralyzed, Petrified, Poisoned, Unconscious\n\nSenses Truesight 60 ft., Passive Perception 13\nLanguages All languages known to its summoner\nCR None (XP 0; PB equals its summoner's)\n\nTraits\n\nIncorporeal Movement. The avatar can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.\n\nActions\n\nMultiattack. The avatar makes a number of Reaping Scythe attacks equal to half the summoner's Proficiency Bonus (rounded up).\n\nReaping Scythe. Melee Attack Roll: Automatic hit, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage plus 4 (1d8) Necrotic damage.",
+  "rulesText": "Medium Undead, Neutral evil\n\nAC 20\nInitiative +3 (13)\nHP Half the HP maximum of its summoner\nSpeed 60 ft., Fly 60 ft. (hover)\n\nImmunities Necrotic, Poison; Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned, Unconscious\nSenses Truesight 60 ft., Passive Perception 13\nLanguages All languages known to its summoner\nCR None (XP 0; PB equals its summoner's)\n\nTraits\n\nIncorporeal Movement. The avatar can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.\n\nActions\n\nMultiattack. The avatar makes a number of Reaping Scythe attacks equal to half the summoner's Proficiency Bonus (rounded up).\n\nReaping Scythe. Melee Attack Roll: Automatic hit, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage plus 4 (1d8) Necrotic damage.",
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/exhaustion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/paralyzed"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/petrified"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 60
+    },
+    {
+      "mode": "Fly",
+      "feet": 60,
+      "hover": true
+    }
+  ],
+  "passivePerception": 13,
+  "senseModes": [
+    {
+      "name": "Truesight",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "All languages known to its summoner"
+  ],
+  "damageImmunities": [
+    "Necrotic",
+    "Poison"
   ],
   "attacks": [
     {

@@ -11,13 +11,18 @@
     "chapter": "Magic Items",
     "section": "10.192",
     "heading": "Potion of Invisibility",
-    "lineStart": 16561,
-    "lineEnd": 16565
+    "lineStart": 16517,
+    "lineEnd": 16521
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/potion-of-invisibility/"
   },
   "itemCategory": "Potion",
   "rarity": "Rare",
   "requiresAttunement": false,
   "rulesText": "Potion, Rare\n\nThis potion's container looks empty but feels as though it holds liquid. When you drink the potion, you have the Invisible condition for 1 hour. The effect ends early if you make an attack roll, deal damage, or cast a spell.",
+  "isCursed": false,
+  "isSentient": false,
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/invisible"

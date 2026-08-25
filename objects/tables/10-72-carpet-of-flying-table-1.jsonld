@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.72",
     "heading": "Carpet of Flying",
-    "lineStart": 15200,
-    "lineEnd": 15205
+    "lineStart": 15162,
+    "lineEnd": 15167,
+    "caption": "Carpet of Flying Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-72-carpet-of-flying-table-1/"
   },
   "columns": [
     "1d100",

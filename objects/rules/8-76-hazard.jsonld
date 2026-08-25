@@ -11,9 +11,46 @@
     "chapter": "Rules Glossary",
     "section": "8.76",
     "heading": "Hazard",
-    "lineStart": 13183,
-    "lineEnd": 13185
+    "lineStart": 13147,
+    "lineEnd": 13149
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-76-hazard/"
   },
   "section": "8.76",
-  "rulesText": "A hazard is an environmental danger. See also \"Burning,\" \"Dehydration,\" \"Falling,\" \"Malnutrition,\" and \"Suffocation.\""
+  "rulesText": "A hazard is an environmental danger. See also \"Burning,\" \"Dehydration,\" \"Falling,\" \"Malnutrition,\" and \"Suffocation.\"",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/hazards/burning"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/hazards/dehydration"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/hazards/falling"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/hazards/malnutrition"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/hazards/suffocation"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/hazards/burning"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/hazards/dehydration"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/hazards/falling"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/hazards/malnutrition"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/hazards/suffocation"
+    }
+  ]
 }

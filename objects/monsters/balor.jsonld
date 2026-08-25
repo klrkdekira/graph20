@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.16",
     "heading": "Balor",
-    "lineStart": 18343,
-    "lineEnd": 18387
+    "lineStart": 18275,
+    "lineEnd": 18319
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/balor/"
   },
   "sizeTypeAlignment": "Huge Fiend (Demon), Chaotic Evil",
   "sizeAndType": "Huge Fiend (Demon)",
+  "size": "Huge",
+  "creatureType": "Fiend",
+  "descriptiveTags": [
+    "Demon"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "19",
   "initiative": "+14 (24)",
@@ -78,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.16",
         "heading": "Traits",
-        "lineStart": 18366,
-        "lineEnd": 18374
+        "lineStart": 18298,
+        "lineEnd": 18306
       }
     },
     {
@@ -89,8 +98,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.16",
         "heading": "Actions",
-        "lineStart": 18376,
-        "lineEnd": 18383
+        "lineStart": 18308,
+        "lineEnd": 18315
       }
     },
     {
@@ -100,8 +109,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.16",
         "heading": "Bonus Actions",
-        "lineStart": 18385,
-        "lineEnd": 18387
+        "lineStart": 18317,
+        "lineEnd": 18319
       }
     }
   ],
@@ -116,6 +125,41 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Fly",
+      "feet": 80
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 9
+    }
+  ],
+  "passivePerception": 19,
+  "senseModes": [
+    {
+      "name": "Truesight",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Abyssal",
+    "telepathy 120 ft."
+  ],
+  "damageImmunities": [
+    "Fire",
+    "Poison"
+  ],
+  "damageResistances": [
+    "Cold",
+    "Lightning"
   ],
   "attacks": [
     {

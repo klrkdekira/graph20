@@ -11,8 +11,12 @@
     "chapter": "Gameplay Toolbox",
     "section": "9.2",
     "heading": "Travel Pace",
-    "lineStart": 13799,
-    "lineEnd": 13811
+    "lineStart": 13763,
+    "lineEnd": 13775,
+    "caption": "Travel Terrain"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/9-2-travel-terrain/"
   },
   "columns": [
     "Terrain",

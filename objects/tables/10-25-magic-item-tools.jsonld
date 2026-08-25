@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.25",
     "heading": "Tools",
-    "lineStart": 14656,
-    "lineEnd": 14666
+    "lineStart": 14618,
+    "lineEnd": 14628,
+    "caption": "Magic Item Tools"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-25-magic-item-tools/"
   },
   "columns": [
     "Item Category",

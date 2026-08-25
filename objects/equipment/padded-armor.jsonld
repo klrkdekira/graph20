@@ -10,9 +10,13 @@
   "sourceLocator": {
     "chapter": "Equipment",
     "section": "6.31",
-    "heading": "Armor",
-    "lineStart": 6070,
-    "lineEnd": 6088
+    "heading": "One at a Time",
+    "lineStart": 6046,
+    "lineEnd": 6064,
+    "caption": "Armor"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/padded-armor/"
   },
   "equipmentType": "armor",
   "fromTable": {
@@ -23,6 +27,7 @@
   "armorClass": "11 + Dex modifier",
   "stealthEffect": "Disadvantage",
   "weight": "8 lb.",
+  "weightPounds": 8,
   "cost": {
     "text": "5 GP",
     "currency": "GP",

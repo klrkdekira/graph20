@@ -11,11 +11,20 @@
     "chapter": "Animals",
     "section": "13.83",
     "heading": "Swarm of Bats",
-    "lineStart": 28819,
-    "lineEnd": 28845
+    "lineStart": 28730,
+    "lineEnd": 28756
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/swarm-of-bats/"
   },
   "sizeTypeAlignment": "Large Swarm of Tiny Beasts, Unaligned",
   "sizeAndType": "Large Swarm of Tiny Beasts",
+  "size": "Large",
+  "creatureType": "Beast",
+  "descriptiveTags": [
+    "Swarm of Tiny Beasts"
+  ],
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "12",
   "initiative": "+2 (12)",
@@ -76,8 +85,8 @@
         "chapter": "Animals",
         "section": "13.83",
         "heading": "Traits",
-        "lineStart": 28839,
-        "lineEnd": 28841
+        "lineStart": 28750,
+        "lineEnd": 28752
       }
     },
     {
@@ -87,8 +96,8 @@
         "chapter": "Animals",
         "section": "13.83",
         "heading": "Actions",
-        "lineStart": 28843,
-        "lineEnd": 28845
+        "lineStart": 28754,
+        "lineEnd": 28756
       }
     }
   ],
@@ -118,6 +127,28 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/stunned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 5
+    },
+    {
+      "mode": "Fly",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 11,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 60
+    }
+  ],
+  "damageResistances": [
+    "Bludgeoning",
+    "Piercing",
+    "Slashing"
   ],
   "attacks": [
     {

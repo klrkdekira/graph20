@@ -78,6 +78,26 @@ STAT_LABEL_HEADING_RE = re.compile(
 )
 DICE_RE = re.compile(r"^(\d+)d(\d+)(?:\s*([+-])\s*(\d+))?$")
 ABILITIES = ("STR", "DEX", "CON", "INT", "WIS", "CHA")
+GLOSSARY_FAMILIES = {
+    "Action": ("actions", "Action"),
+    "Area of Effect": ("areas-of-effect", "AreaOfEffect"),
+    "Attitude": ("attitudes", "Attitude"),
+    "Hazard": ("hazards", "Hazard"),
+}
+DAMAGE_TYPES = (
+    "Acid", "Bludgeoning", "Cold", "Fire", "Force", "Lightning",
+    "Necrotic", "Piercing", "Poison", "Psychic", "Radiant", "Slashing",
+    "Thunder",
+)
+NPC_MONSTERS = {
+    "Guard", "Guard Captain", "Mage", "Archmage", "Priest Acolyte",
+    "Priest", "Warrior Infantry", "Warrior Veteran",
+}
+ENVIRONMENT_RULES = {
+    "Extreme Cold", "Extreme Heat", "Frigid Water", "Heavy Precipitation",
+    "High Altitude", "Strong Wind", "Desecrated Ground", "Brown Mold",
+    "Green Slime", "Webs",
+}
 
 
 def parse_magic_item_header(header: str):
@@ -135,6 +155,16 @@ def parse_dice(expression: str):
     if sign:
         parsed["modifier"] = int(mod) if sign == "+" else -int(mod)
     return parsed
+
+
+def parse_named_effects(text: str):
+    """Index source-labelled effect paragraphs without replacing prose."""
+    effects = []
+    for paragraph in re.split(r"\n\s*\n", text):
+        match = re.match(r"^([A-Z][^.\n]{1,80})\.\s+(.+)$", paragraph.strip(), re.S)
+        if match:
+            effects.append({"name": match.group(1), "rulesText": match.group(2).strip()})
+    return effects
 
 
 def parse_blocks(lines):
@@ -222,6 +252,7 @@ class Emitter:
             "slug": slug,
             "source": {"@id": SOURCE_ID},
             "sourceLocator": locator,
+            "htmlPage": {"@id": f"{BASE}records/{collection}/{slug}/"},
         }
         self.records[collection].append(record)
         return record
@@ -251,6 +282,13 @@ class Emitter:
                     idx += 1
                 table_index += 1
                 caption = pending_caption
+                if caption:
+                    tail = len(prose_lines) - 1
+                    while tail >= 0 and not prose_lines[tail].strip():
+                        tail -= 1
+                    if tail >= 0 and prose_lines[tail].strip() == caption:
+                        prose_lines = prose_lines[:tail]
+                pending_caption = None
                 name = caption or (
                     block.title
                     if table_index == 1 and not any(item.strip() for item in prose_lines)
@@ -263,6 +301,7 @@ class Emitter:
                     f"{locator['section'].replace('.', '-')}-{slugify(name)}",
                     dict(
                         locator,
+                        caption=name,
                         lineStart=block.line_start + start_offset + 1,
                         lineEnd=block.line_start + idx,
                     ),
@@ -275,6 +314,13 @@ class Emitter:
             elif line.startswith("<table>"):
                 table_index += 1
                 caption = pending_caption
+                if caption:
+                    tail = len(prose_lines) - 1
+                    while tail >= 0 and not prose_lines[tail].strip():
+                        tail -= 1
+                    if tail >= 0 and prose_lines[tail].strip() == caption:
+                        prose_lines = prose_lines[:tail]
+                pending_caption = None
                 name = caption or (
                     block.title
                     if table_index == 1 and not any(item.strip() for item in prose_lines)
@@ -287,6 +333,7 @@ class Emitter:
                     f"{locator['section'].replace('.', '-')}-{slugify(name)}",
                     dict(
                         locator,
+                        caption=name,
                         lineStart=block.line_start + idx + 1,
                         lineEnd=block.line_start + idx + 1,
                     ),
@@ -307,6 +354,11 @@ class Emitter:
                     )
                 prose_lines.append(raw)
                 idx += 1
+        # Horizontal rules delimit chapters/catalogs in the normalized
+        # Markdown; they are document structure, not SRD prose owned by the
+        # preceding entity.
+        while prose_lines and (not prose_lines[-1].strip() or prose_lines[-1].strip() == "---"):
+            prose_lines.pop()
         prose = "\n".join(prose_lines).strip("\n")
         prose = re.sub(r"\n{3,}", "\n\n", prose)
         return prose.strip(), table_ids
@@ -321,8 +373,26 @@ class Emitter:
         record["section"] = locator["section"]
         if prose:
             record["rulesText"] = prose
+        elif not table_ids:
+            record["rulesText"] = block.title
+            record["headingOnly"] = True
         if table_ids:
             record["relatedTables"] = [{"@id": tid} for tid in table_ids]
+        if block.chapter == "Gameplay Toolbox":
+            marker = block.first_body_line()
+            lowered = f"{block.title}\n{block.body}".lower()
+            if marker == "Trap" or " trap" in lowered and "traps" not in lowered:
+                record["ruleCategory"] = "Trap"
+            elif marker == "Poison" or "poison" in block.title.lower():
+                record["ruleCategory"] = "Poison"
+            elif marker == "Magical Contagion":
+                record["ruleCategory"] = "Disease"
+            elif "curse" in lowered:
+                record["ruleCategory"] = "Curse"
+            elif block.title in ("Fear", "Mental Stress") or "fear" in block.title.lower():
+                record["ruleCategory"] = "MentalEffect"
+            elif block.title in ENVIRONMENT_RULES:
+                record["ruleCategory"] = "EnvironmentalEffect"
         return record
 
     # -- spells -------------------------------------------------------------
@@ -449,6 +519,36 @@ class Emitter:
         record["sizeTypeAlignment"] = header
         parts = header.split(",", 1)
         record["sizeAndType"] = parts[0].strip()
+        type_match = re.match(
+            r"^(?P<size>(?:Tiny|Small|Medium|Large|Huge|Gargantuan)(?:(?: or (?:Tiny|Small|Medium|Large|Huge|Gargantuan))|(?: or Smaller))?)\s+"
+            r"(?P<type>[A-Za-z]+)(?:\s*\((?P<tags>[^)]+)\))?$",
+            record["sizeAndType"],
+        )
+        if type_match:
+            record["size"] = type_match.group("size")
+            record["creatureType"] = type_match.group("type")
+            if type_match.group("tags"):
+                record["descriptiveTags"] = [
+                    value.strip() for value in type_match.group("tags").split(",")
+                ]
+        else:
+            swarm = re.match(
+                r"^(?P<size>Tiny|Small|Medium|Large|Huge|Gargantuan) "
+                r"(?P<tag>Swarm of (?:Tiny|Small|Medium|Large|Huge|Gargantuan) (?P<type>[A-Za-z]+))$",
+                record["sizeAndType"],
+            )
+            if swarm:
+                creature_type = swarm.group("type")
+                if creature_type.endswith("s"):
+                    creature_type = creature_type[:-1]
+                record["size"] = swarm.group("size")
+                record["creatureType"] = creature_type
+                record["descriptiveTags"] = [swarm.group("tag")]
+        record["monsterCategory"] = (
+            "Animal" if block.chapter == "Animals"
+            else "NPC" if block.title in NPC_MONSTERS
+            else "Monster"
+        )
         if len(parts) > 1:
             record["alignment"] = parts[1].strip()
 
@@ -548,16 +648,17 @@ class Emitter:
         record = self.new_record(
             "species", "Species", block.title, slugify(block.title), locator
         )
+        prose, table_ids = self.extract_tables(block, locator)
         for label, field in (
             ("Creature Type", "creatureType"),
             ("Size", "size"),
             ("Speed", "speed"),
         ):
-            found = re.search(rf"^{label}: (.+)$", block.body, re.M)
+            found = re.search(rf"^{label}: (.+)$", prose, re.M)
             if found:
                 record[field] = found.group(1).strip()
         traits = []
-        for paragraph in block.body.split("\n\n"):
+        for paragraph in prose.split("\n\n"):
             m = re.match(r"^([A-Z][A-Za-z'’ -]{2,40})\. (.+)$", paragraph, re.S)
             if m and not m.group(1).startswith(("Creature Type", "Size", "Speed")):
                 traits.append(
@@ -567,7 +668,9 @@ class Emitter:
                 traits[-1]["rulesText"] += "\n\n" + paragraph.strip()
         if traits:
             record["traits"] = traits
-        record["rulesText"] = block.body
+        if table_ids:
+            record["relatedTables"] = [{"@id": table_id} for table_id in table_ids]
+        record["rulesText"] = prose
         return record
 
     def emit_background(self, block: Block):
@@ -599,6 +702,18 @@ class Emitter:
             "conditions", "Condition", name, slugify(name), locator
         )
         record["rulesText"] = block.body
+        record["effects"] = parse_named_effects(block.body)
+        return record
+
+    def emit_glossary_family(self, block: Block, family: str):
+        collection, type_name = GLOSSARY_FAMILIES[family]
+        locator = self.locator(block)
+        name = re.sub(rf"\s*\[{re.escape(family)}\]\s*$", "", block.title)
+        record = self.new_record(collection, type_name, name, slugify(name), locator)
+        record["rulesText"] = block.body
+        effects = parse_named_effects(block.body)
+        if effects:
+            record["effects"] = effects
         return record
 
     # -- classes and subclasses ---------------------------------------------
@@ -634,6 +749,7 @@ class Emitter:
         table_ids = []
         features = []
         current_subclass = None
+        option_family = None
         subclass_records = []
         index += 1
         while index < len(blocks):
@@ -681,6 +797,51 @@ class Emitter:
                 # Keep the spell list as its own Rule record and link it.
                 rule = self.emit_rule(nxt)
                 record["spellList"] = {"@id": rule["@id"]}
+                option_family = None
+            elif nxt.title in ("Metamagic Options", "Eldritch Invocation Options"):
+                option_family = (
+                    "metamagic-options"
+                    if nxt.title == "Metamagic Options"
+                    else "invocations"
+                )
+                prose_parts.append(f"{nxt.title}\n\n{nxt.body}".strip())
+            elif option_family is not None:
+                option_locator = dict(
+                    locator,
+                    heading=nxt.title,
+                    lineStart=nxt.line_start,
+                    lineEnd=nxt.line_end,
+                )
+                if option_family == "metamagic-options":
+                    option = self.new_record(
+                        option_family,
+                        "MetamagicOption",
+                        nxt.title,
+                        slugify(nxt.title),
+                        option_locator,
+                    )
+                    cost = re.search(r"^Cost: (.+)$", nxt.body, re.M)
+                    if cost:
+                        option["cost"] = cost.group(1)
+                        points = re.match(r"(\d+) Sorcery Point", cost.group(1))
+                        if points:
+                            option["sorceryPointCost"] = int(points.group(1))
+                    record.setdefault("metamagicOptions", []).append({"@id": option["@id"]})
+                else:
+                    option = self.new_record(
+                        option_family,
+                        "EldritchInvocation",
+                        nxt.title,
+                        slugify(nxt.title),
+                        option_locator,
+                    )
+                    prerequisite = re.search(r"^Prerequisite: (.+)$", nxt.body, re.M)
+                    if prerequisite:
+                        option["prerequisite"] = prerequisite.group(1)
+                    option["repeatable"] = "Repeatable." in nxt.body
+                    record.setdefault("eldritchInvocations", []).append({"@id": option["@id"]})
+                option["parentClass"] = {"@id": record["@id"]}
+                option["rulesText"] = nxt.body
             elif current_subclass is not None:
                 # Prose between subclass features folds into the subclass.
                 current_subclass["rulesText"] += (
@@ -896,6 +1057,7 @@ def run_extraction(root: Path):
         "canonicalUrl": {"@id": "https://www.dndbeyond.com/srd"},
         "sourceFile": SOURCE_FILE,
         "contentDigest": sha256_of(source_path),
+        "htmlPage": {"@id": f"{BASE}records/sources/srd-5-2-1/"},
     }
     emitter.records["sources"].append(source_record)
 
@@ -948,6 +1110,12 @@ def run_extraction(root: Path):
 
         if chapter == "Rules Glossary" and block.title.endswith("[Condition]"):
             emitter.emit_condition(block)
+            index += 1
+            continue
+
+        tagged = re.search(r"\[([^]]+)\]\s*$", block.title)
+        if chapter == "Rules Glossary" and tagged and tagged.group(1) in GLOSSARY_FAMILIES:
+            emitter.emit_glossary_family(block, tagged.group(1))
             index += 1
             continue
 
@@ -1061,6 +1229,17 @@ def parse_cost(text: str):
     return cost
 
 
+def parse_weight_pounds(text: str):
+    match = re.fullmatch(r"(?:(\d+) )?(\d+)/(\d+) lb\.|(\d+(?:\.\d+)?) lb\.", text.strip())
+    if not match:
+        return None
+    if match.group(4):
+        value = float(match.group(4))
+    else:
+        value = int(match.group(1) or 0) + int(match.group(2)) / int(match.group(3))
+    return int(value) if value == int(value) else value
+
+
 def split_outside_parens(text: str):
     parts, depth, current = [], 0, ""
     for char in text:
@@ -1091,15 +1270,36 @@ def build_equipment(emitter: Emitter):
 
     def new_item(name, table, equipment_type):
         locator = dict(table["sourceLocator"])
-        # The physical table sits under an unrelated column-flow heading
-        # (e.g. "Vex"); the table's own caption is the meaningful heading.
-        locator["heading"] = table["name"]
+        # Preserve the physical heading/section pair and carry the semantic
+        # table caption separately.
+        locator["caption"] = table["name"]
         record = emitter.new_record(
             "equipment", "Equipment", name, slugify(name), locator
         )
         record["equipmentType"] = equipment_type
         record["fromTable"] = {"@id": table["@id"]}
         return record
+
+    def add_weight(record, text):
+        if text not in ("", "-", "—", "Varies"):
+            record["weight"] = text
+            pounds = parse_weight_pounds(text)
+            if pounds is not None:
+                record["weightPounds"] = pounds
+
+    def add_cost(record, text):
+        parsed = parse_cost(text)
+        if parsed:
+            record["cost"] = parsed
+
+    def add_attributes(record, columns, values, skip=(0,)):
+        attributes = []
+        for index, (column, value) in enumerate(zip(columns, values)):
+            if index in skip or not value or value in ("-", "—"):
+                continue
+            attributes.append({"name": column, "value": value})
+        if attributes:
+            record["attributes"] = attributes
 
     for table in find_tables("Weapons"):
         group = None
@@ -1126,11 +1326,8 @@ def build_equipment(emitter: Emitter):
             if properties and properties not in ("—", "-"):
                 record["properties"] = split_outside_parens(properties)
             record["mastery"] = mastery
-            if weight not in ("—", "-"):
-                record["weight"] = weight
-            parsed_cost = parse_cost(cost)
-            if parsed_cost:
-                record["cost"] = parsed_cost
+            add_weight(record, weight)
+            add_cost(record, cost)
 
     for table in find_tables("Armor"):
         group = None
@@ -1154,11 +1351,8 @@ def build_equipment(emitter: Emitter):
                 record["strengthRequirement"] = strength
             if stealth not in ("—", "-"):
                 record["stealthEffect"] = stealth
-            if weight not in ("—", "-"):
-                record["weight"] = weight
-            parsed_cost = parse_cost(cost)
-            if parsed_cost:
-                record["cost"] = parsed_cost
+            add_weight(record, weight)
+            add_cost(record, cost)
 
     for table in find_tables("Adventuring Gear"):
         for row in table["rows"]:
@@ -1167,11 +1361,103 @@ def build_equipment(emitter: Emitter):
                 continue
             name, weight, cost = cells
             record = new_item(name, table, "gear")
-            if weight not in ("—", "-"):
-                record["weight"] = weight
-            parsed_cost = parse_cost(cost)
-            if parsed_cost:
-                record["cost"] = parsed_cost
+            add_weight(record, weight)
+            add_cost(record, cost)
+
+    # Tool headings are prose entries rather than source-table rows. Their
+    # printed price, ability, weight, Utilize, Craft, and Variants labels are
+    # indexed while the complete source text remains in the linked Rule.
+    rules_by_name = {rule["name"]: rule for rule in emitter.records["rules"]}
+    tool_start = rules_by_name.get("Artisan's Tools", {}).get("sourceLocator", {}).get("lineStart", 0)
+    tool_end = rules_by_name.get("Adventuring Gear", {}).get("sourceLocator", {}).get("lineStart", 0)
+    for rule in list(emitter.records["rules"]):
+        line_start = rule["sourceLocator"]["lineStart"]
+        match = re.fullmatch(r"(.+) \(((?:[\d,/]+ (?:CP|SP|EP|GP|PP))|Varies)\)", rule["name"])
+        if not (match and tool_start < line_start < tool_end):
+            continue
+        locator = dict(rule["sourceLocator"])
+        record = emitter.new_record(
+            "equipment", "Equipment", match.group(1), slugify(match.group(1)), locator
+        )
+        record["equipmentType"] = "tool"
+        record["fromRule"] = {"@id": rule["@id"]}
+        record["relatedRules"] = [{"@id": rule["@id"]}]
+        add_cost(record, match.group(2))
+        body = rule.get("rulesText", "")
+        ability = re.search(r"\bAbility: ([A-Za-z]+)", body)
+        weight = re.search(r"\bWeight: ([^\n]+?)(?=\s+(?:Utilize|Craft|Variants):|$)", body)
+        utilize = re.search(r"^Utilize: (.+)$", body, re.M)
+        craft = re.search(r"^Craft: (.+)$", body, re.M)
+        variants = re.search(r"^Variants: (.+)$", body, re.M)
+        if ability:
+            record["ability"] = ability.group(1)
+        if weight:
+            add_weight(record, weight.group(1).strip())
+        if utilize:
+            record["utilize"] = utilize.group(1)
+        if craft:
+            record["craft"] = craft.group(1)
+        if variants:
+            record["variants"] = [value.strip() for value in split_outside_parens(variants.group(1))]
+
+    # Additional Equipment-chapter tables describe purchasable physical
+    # items and services. Emit one typed record per logical row/item.
+    simple_tables = {
+        "Mounts and Other Animals": "mount",
+        "Tack, Harness, and Drawn Vehicles": "gear",
+        "Airborne and Waterborne Vehicles": "vehicle",
+        "Hirelings": "service",
+        "Arcane Focuses": "focus",
+        "Druidic Focuses": "focus",
+        "Holy Symbols": "focus",
+    }
+    for table_name, equipment_type in simple_tables.items():
+        for table in find_tables(table_name):
+            for row in table["rows"]:
+                values = [cell["value"] for cell in row["cells"]]
+                if not values or not values[0] or values[0] in table["columns"]:
+                    continue
+                record = new_item(values[0], table, equipment_type)
+                add_attributes(record, table["columns"], values)
+                for column, value in zip(table["columns"], values):
+                    if column == "Weight":
+                        add_weight(record, value)
+                    elif column == "Cost":
+                        add_cost(record, value)
+
+    for table in find_tables("Food, Drink, and Lodging"):
+        for row in table["rows"]:
+            values = [cell["value"] for cell in row["cells"]]
+            for offset in (0, 2):
+                if offset + 1 >= len(values) or not values[offset] or not values[offset + 1]:
+                    continue
+                record = new_item(values[offset], table, "service")
+                add_cost(record, values[offset + 1])
+                record["attributes"] = [{"name": "Cost", "value": values[offset + 1]}]
+
+    for table in find_tables("Spellcasting Services"):
+        for row in table["rows"]:
+            values = [cell["value"] for cell in row["cells"]]
+            if len(values) != 3 or not values[0]:
+                continue
+            record = new_item(f"Spellcasting Service: {values[0]}", table, "service")
+            record["serviceLevel"] = values[0]
+            add_attributes(record, table["columns"], values, skip=())
+            add_cost(record, values[2])
+
+    for table in find_tables("Ammunition"):
+        if table["columns"][:3] != ["Type", "Amount", "Storage"]:
+            continue
+        for row in table["rows"]:
+            values = [cell["value"] for cell in row["cells"]]
+            if len(values) != 5:
+                continue
+            record = new_item(values[0], table, "ammunition")
+            record["quantity"] = values[1]
+            record["storage"] = values[2]
+            add_weight(record, values[3])
+            add_cost(record, values[4])
+            add_attributes(record, table["columns"], values)
 
 
 ATTACK_HEADER_RE = re.compile(
@@ -1265,6 +1551,199 @@ def record_strings(value):
         yield value
 
 
+def parse_range_details(text: str):
+    details = {"text": text}
+    normalized = text.strip()
+    if normalized == "Self" or normalized.startswith("Self ("):
+        details["kind"] = "Self"
+    elif normalized == "Touch":
+        details["kind"] = "Touch"
+    elif normalized == "Sight":
+        details["kind"] = "Sight"
+    elif normalized in ("Unlimited", "Special"):
+        details["kind"] = normalized
+    else:
+        match = re.match(r"([\d,]+) (feet|mile|miles)$", normalized)
+        details["kind"] = "Distance" if match else "Special"
+        if match:
+            value = int(match.group(1).replace(",", ""))
+            details["distanceFeet" if match.group(2) == "feet" else "distanceMiles"] = value
+    return details
+
+
+def parse_duration_details(text: str):
+    details = {"text": text, "concentration": text.startswith("Concentration")}
+    normalized = re.sub(r"^Concentration,\s*", "", text)
+    if normalized == "Instantaneous":
+        details["kind"] = "Instantaneous"
+    elif normalized in ("Until dispelled", "Until Dispelled"):
+        details["kind"] = "UntilDispelled"
+    elif normalized == "Special":
+        details["kind"] = "Special"
+    else:
+        match = re.fullmatch(r"(up to )?(\d+) (round|rounds|minute|minutes|hour|hours|day|days)", normalized)
+        details["kind"] = "Timed" if match else "Special"
+        if match:
+            details["upTo"] = bool(match.group(1))
+            details["value"] = int(match.group(2))
+            details["unit"] = match.group(3).rstrip("s")
+    return details
+
+
+def parse_component_details(text: str):
+    details = {
+        "text": text,
+        "verbal": bool(re.search(r"(?:^|, )V(?:,|$)", text)),
+        "somatic": bool(re.search(r"(?:^|, )S(?:,|$)", text)),
+        "material": bool(re.search(r"(?:^|, )M(?:\s|,|$)", text)),
+    }
+    material = re.search(r"\bM \((.+)\)$", text)
+    if material:
+        details["materialText"] = material.group(1)
+        details["consumed"] = "consumes" in material.group(1)
+        cost = re.search(r"worth ([\d,]+)\+? (CP|SP|EP|GP|PP)", material.group(1))
+        if cost:
+            details["materialCost"] = parse_cost(f"{cost.group(1)} {cost.group(2)}")
+    return details
+
+
+def parse_area_effects(text: str, area_ids: dict[str, str]):
+    effects = []
+    seen = set()
+    for paragraph in re.split(r"\n\s*\n", text):
+        for shape, node_id in area_ids.items():
+            if not re.search(rf"\b{re.escape(shape)}\b", paragraph):
+                continue
+            sentence_match = re.search(
+                rf"[^.!?\n]*\b{re.escape(shape)}\b[^.!?\n]*[.!?]?",
+                paragraph,
+            )
+            source_text = (sentence_match.group(0) if sentence_match else paragraph).strip()
+            key = (shape, source_text)
+            if key in seen:
+                continue
+            seen.add(key)
+            entry = {
+                "shape": shape,
+                "areaShape": {"@id": node_id},
+                "sourceText": source_text,
+            }
+            radius = re.search(r"(\d+)-foot-radius", source_text)
+            length = re.search(r"(\d+)-foot-(?:long|long,)\s*", source_text)
+            width = re.search(r"(\d+)-foot-wide", source_text)
+            height = re.search(r"(\d+)-foot-(?:high|tall)", source_text)
+            generic = re.search(rf"(\d+)-foot\s+{re.escape(shape)}\b", source_text)
+            if radius:
+                entry["radiusFeet"] = int(radius.group(1))
+            if length:
+                entry["lengthFeet"] = int(length.group(1))
+            if width:
+                entry["widthFeet"] = int(width.group(1))
+            if height:
+                entry["heightFeet"] = int(height.group(1))
+            if generic and shape in ("Cube", "Cone", "Emanation"):
+                entry["sizeFeet"] = int(generic.group(1))
+            effects.append(entry)
+    return effects
+
+
+def parse_saving_throws(text: str):
+    entries = []
+    seen = set()
+    for paragraph in re.split(r"\n\s*\n", text):
+        for match in SAVE_RE.finditer(paragraph):
+            key = (match.group(1), paragraph)
+            if key in seen:
+                continue
+            seen.add(key)
+            entry = {"ability": match.group(1), "sourceText": paragraph.strip()}
+            dc = re.search(r"\bDC (\d+)\b", paragraph)
+            if dc:
+                entry["fixedDC"] = int(dc.group(1))
+            outcomes = []
+            lowered = paragraph.lower()
+            if "successful save" in lowered or "on a success" in lowered or "success:" in lowered:
+                if "half" in lowered:
+                    outcomes.append("HalfDamage")
+                elif "no damage" in lowered or "no effect" in lowered:
+                    outcomes.append("Negates")
+                else:
+                    outcomes.append("Partial")
+            if "failed save" in lowered or "on a failed" in lowered or "failure:" in lowered:
+                outcomes.append("FailureEffect")
+            if outcomes:
+                entry["outcomes"] = sorted(set(outcomes))
+            entries.append(entry)
+    return entries
+
+
+def parse_monster_spellcasting(monster: dict, spell_ids: dict[str, str]):
+    profiles = []
+    references = []
+    seen_refs = set()
+    for section_index, section in enumerate(monster.get("statSections", [])):
+        paragraphs = [p.strip() for p in re.split(r"\n\s*\n", section["rulesText"]) if p.strip()]
+        index = 0
+        while index < len(paragraphs):
+            paragraph = paragraphs[index]
+            spellcasting_header = re.match(r"^(?P<label>[^.\n]*Spellcasting[^.\n]*)\.\s*", paragraph)
+            if not spellcasting_header:
+                index += 1
+                continue
+            parts = [paragraph]
+            cursor = index + 1
+            while cursor < len(paragraphs) and re.match(
+                r"^(?:At Will|\d+/(?:Day|Week)(?: Each)?):", paragraphs[cursor]
+            ):
+                parts.append(paragraphs[cursor])
+                cursor += 1
+            source_text = "\n\n".join(parts)
+            profile = {
+                "section": section["name"],
+                "sourceText": source_text,
+                "path": f"statSections[{section_index}].rulesText",
+                "entries": [],
+            }
+            ability = re.search(r"using ([A-Z][a-z]+) as the spellcasting ability", paragraph)
+            save_dc = re.search(r"spell save DC (\d+)", paragraph)
+            attack = re.search(r"([+\-]\d+) to hit with spell attacks", paragraph)
+            if ability:
+                profile["ability"] = ability.group(1)
+            if save_dc:
+                profile["saveDC"] = int(save_dc.group(1))
+            if attack:
+                profile["attackBonus"] = int(attack.group(1))
+            for part in parts[1:]:
+                frequency, spell_text = part.split(":", 1)
+                refs = named_node_references(spell_text, spell_ids, flags=re.I)
+                entry = {
+                    "frequency": frequency,
+                    "spellsText": spell_text.strip(),
+                }
+                if refs:
+                    entry["spells"] = refs
+                profile["entries"].append(entry)
+                for ref in refs:
+                    if ref["@id"] not in seen_refs:
+                        references.append(ref)
+                        seen_refs.add(ref["@id"])
+            if not profile["entries"]:
+                refs = named_node_references(paragraph, spell_ids, flags=re.I)
+                if refs:
+                    profile["entries"].append({
+                        "frequency": spellcasting_header.group("label"),
+                        "spellsText": paragraph,
+                        "spells": refs,
+                    })
+                    for ref in refs:
+                        if ref["@id"] not in seen_refs:
+                            references.append(ref)
+                            seen_refs.add(ref["@id"])
+            profiles.append(profile)
+            index = cursor
+    return profiles, references
+
+
 ACTIVE_ITEM_CAST_RE = re.compile(
     r"\byou\b[^.!?\n]{0,120}?\bcast(?:s|ing)?\b|"
     r"\b(?:the )?orb\b[^.!?\n]{0,80}?\bcasts?\b|"
@@ -1323,6 +1802,100 @@ def link_background_feats(emitter: Emitter, feat_ids):
                 break
 
 
+def link_background_proficiencies(emitter: Emitter, equipment_ids):
+    """Index printed background skills, tools, and starting equipment."""
+    for background in emitter.records["backgrounds"]:
+        background["skillProficiencyOptions"] = [
+            value.strip()
+            for value in background.get("skillProficiencies", "").split(",")
+            if value.strip()
+        ]
+        tool_refs = named_node_references(
+            background.get("toolProficiency", ""), equipment_ids
+        )
+        if tool_refs:
+            background["grantsTool"] = tool_refs
+        equipment_refs = named_node_references(
+            background.get("startingEquipment", ""), equipment_ids
+        )
+        if equipment_refs:
+            background["grantsEquipment"] = equipment_refs
+
+
+def link_summoned_monsters(emitter: Emitter):
+    """Restore forward edges from spells to their promoted source stat blocks."""
+    spells = sorted(
+        emitter.records["spells"], key=lambda record: record["sourceLocator"]["lineStart"]
+    )
+    summoned = [
+        monster for monster in emitter.records["monsters"]
+        if monster["sourceLocator"]["chapter"] == "Spells"
+    ]
+    for monster in summoned:
+        line = monster["sourceLocator"]["lineStart"]
+        owners = [spell for spell in spells if spell["sourceLocator"]["lineStart"] < line]
+        if not owners:
+            continue
+        owner = owners[-1]
+        next_spells = [spell for spell in spells if spell["sourceLocator"]["lineStart"] > owner["sourceLocator"]["lineStart"]]
+        if next_spells and line > next_spells[0]["sourceLocator"]["lineStart"]:
+            continue
+        owner.setdefault("summons", []).append({"@id": monster["@id"]})
+
+
+def link_explicit_see_also(emitter: Emitter):
+    """Resolve explicit 'See also' clauses, never incidental name mentions."""
+    name_candidates = {}
+    rule_ids = set()
+    for collection, records in emitter.records.items():
+        if collection == "sources":
+            continue
+        for record in records:
+            name_candidates.setdefault(record["name"], []).append(record["@id"])
+            if collection in ("rules", "actions", "areas-of-effect", "attitudes", "hazards"):
+                rule_ids.add(record["@id"])
+    unique_names = {
+        name: ids[0] for name, ids in name_candidates.items() if len(ids) == 1
+    }
+    for collection, records in emitter.records.items():
+        if collection == "sources":
+            continue
+        for record in records:
+            explicit = []
+            for value in record_strings(record):
+                explicit.extend(
+                    match.group(0)
+                    for match in re.finditer(r"See also\b[^\n]*", value, re.I)
+                )
+            if not explicit:
+                continue
+            refs = named_node_references("\n".join(explicit), unique_names, flags=re.I)
+            refs = [ref for ref in refs if ref["@id"] != record["@id"]]
+            if refs:
+                record["seeAlso"] = refs
+                related = [ref for ref in refs if ref["@id"] in rule_ids]
+                if related:
+                    record["relatedRules"] = related
+
+
+def link_catalog_members(emitter: Emitter):
+    """Link printed catalog headings to the entity records they introduce."""
+    catalogs = {
+        "Background Descriptions": "backgrounds",
+        "Species Descriptions": "species",
+        "Magic Items A-Z": "magic-items",
+    }
+    for heading, collection in catalogs.items():
+        parent = next(
+            (rule for rule in emitter.records["rules"] if rule["name"] == heading),
+            None,
+        )
+        if parent:
+            parent["hasPart"] = [
+                {"@id": record["@id"]} for record in emitter.records[collection]
+            ]
+
+
 def link_monster_gear(emitter: Emitter, equipment_ids):
     """Resolve comma-delimited monster gear, including printed quantities."""
     for monster in emitter.records["monsters"]:
@@ -1367,12 +1940,15 @@ def enrich(emitter: Emitter):
     spell_ids = {r["name"]: r["@id"] for r in emitter.records["spells"]}
     feat_ids = {r["name"]: r["@id"] for r in emitter.records["feats"]}
     equipment_ids = {r["name"]: r["@id"] for r in emitter.records["equipment"]}
+    area_ids = {r["name"]: r["@id"] for r in emitter.records["areas-of-effect"]}
 
     link_gear_rules(emitter)
     link_magic_item_spells(emitter, spell_ids)
     link_class_spell_tables(emitter, spell_ids)
     link_background_feats(emitter, feat_ids)
+    link_background_proficiencies(emitter, equipment_ids)
     link_monster_gear(emitter, equipment_ids)
+    link_summoned_monsters(emitter)
 
     for spell in emitter.records["spells"]:
         refs = [
@@ -1385,6 +1961,9 @@ def enrich(emitter: Emitter):
         save = SAVE_RE.search(spell["rulesText"])
         if save:
             spell["savingThrowAbility"] = save.group(1)
+        saving_throws = parse_saving_throws(spell["rulesText"])
+        if saving_throws:
+            spell["savingThrows"] = saving_throws
         damages = []
         for dice, dtype in SPELL_DAMAGE_RE.findall(spell["rulesText"]):
             entry = {"damageType": dtype}
@@ -1402,6 +1981,13 @@ def enrich(emitter: Emitter):
         )
         spell["concentration"] = spell.get("duration", "").startswith("Concentration")
         spell["ritual"] = "Ritual" in spell.get("castingTime", "")
+        spell["rangeDetails"] = parse_range_details(spell["range"])
+        spell["durationDetails"] = parse_duration_details(spell["duration"])
+        spell["componentDetails"] = parse_component_details(spell["components"])
+        areas = parse_area_effects(spell["rulesText"], area_ids)
+        if areas:
+            spell["areasOfEffect"] = areas
+            spell["areaShapes"] = list({entry["areaShape"]["@id"]: entry["areaShape"] for entry in areas}.values())
 
     for monster in emitter.records["monsters"]:
         linked = []
@@ -1411,6 +1997,70 @@ def enrich(emitter: Emitter):
                 linked.append({"@id": cid})
         if linked:
             monster["conditionImmunities"] = linked
+        movement = []
+        for match in re.finditer(
+            r"(?:(Burrow|Climb|Fly|Swim) )?(\d+) ft\.(?: \((hover)\))?",
+            monster.get("speed", ""),
+        ):
+            entry = {
+                "mode": match.group(1) or "Walk",
+                "feet": int(match.group(2)),
+            }
+            if match.group(3):
+                entry["hover"] = True
+            movement.append(entry)
+        if movement:
+            monster["movement"] = movement
+        skills = []
+        for name, bonus in re.findall(r"([A-Za-z ]+?) ([+\-−]\d+)(?:,|$)", monster.get("skills", "")):
+            skills.append({"name": name.strip(), "bonus": int(bonus.replace("−", "-"))})
+        if skills:
+            monster["skillBonuses"] = skills
+        passive = re.search(r"Passive Perception (\d+)", monster.get("senses", ""))
+        if passive:
+            monster["passivePerception"] = int(passive.group(1))
+        senses = []
+        for name, distance in re.findall(
+            r"(Blindsight|Darkvision|Truesight|Tremorsense) (\d+) ft\.",
+            monster.get("senses", ""),
+        ):
+            senses.append({"name": name, "rangeFeet": int(distance)})
+        if senses:
+            monster["senseModes"] = senses
+        languages = [
+            value.strip()
+            for value in re.split(r"[,;]", monster.get("languages", ""))
+            if value.strip() and value.strip() != "None"
+        ]
+        if languages:
+            monster["languageList"] = languages
+        for field, target in (
+            ("immunities", "damageImmunities"),
+            ("resistances", "damageResistances"),
+            ("vulnerabilities", "damageVulnerabilities"),
+        ):
+            values = [
+                damage_type for damage_type in DAMAGE_TYPES
+                if re.search(rf"\b{damage_type}\b", monster.get(field, ""))
+            ]
+            if values:
+                monster[target] = values
+        gear_items = []
+        for token in monster.get("gear", "").split(", "):
+            if not token:
+                continue
+            quantity = re.search(r"\((\d+)\)$", token)
+            gear_items.append({
+                "name": re.sub(r"\s+\(\d+\)$", "", token),
+                **({"quantity": int(quantity.group(1))} if quantity else {}),
+            })
+        if gear_items:
+            monster["gearItems"] = gear_items
+        spellcasting, spell_refs = parse_monster_spellcasting(monster, spell_ids)
+        if spellcasting:
+            monster["spellcasting"] = spellcasting
+        if spell_refs:
+            monster["castsSpell"] = spell_refs
         attacks = []
         unparsed_attacks = []
         for section_index, section in enumerate(monster.get("statSections", [])):
@@ -1493,7 +2143,85 @@ def enrich(emitter: Emitter):
         if unparsed_attacks:
             monster["unparsedAttacks"] = unparsed_attacks
 
+    for item in emitter.records["magic-items"]:
+        text = item["rulesText"]
+        capacity = re.search(
+            r"\b(?:has|have|holds?|maximum of) (\d+d\d+(?:\s*[+\-]\s*\d+)?|\d+) charges?\b",
+            text,
+            re.I,
+        )
+        recharge = re.search(
+            r"[^.!?\n]*\bregains?\b[^.!?\n]*\bcharges?\b[^.!?\n]*[.!?]",
+            text,
+            re.I,
+        )
+        if capacity:
+            charges = {"capacityText": capacity.group(1)}
+            roll = parse_dice(capacity.group(1).replace(" ", ""))
+            if roll:
+                charges["capacityRoll"] = roll
+            elif capacity.group(1).isdigit():
+                charges["capacity"] = int(capacity.group(1))
+            if recharge:
+                charges["rechargeText"] = recharge.group(0).strip()
+            item["charges"] = charges
+        item["isCursed"] = bool(
+            re.search(r"\b(?:is cursed|cursed item|curse\.)", text, re.I)
+        )
+        item["isSentient"] = bool(re.search(r"\bsentient\b", text, re.I))
+        if item.get("attunementNote") and item["attunementNote"] != "Requires Attunement":
+            class_refs = named_node_references(item["attunementNote"], class_ids)
+            if class_refs:
+                item["attunementClasses"] = class_refs
+            item["attunementRestriction"] = item["attunementNote"]
+
+    for option in emitter.records["invocations"]:
+        refs = []
+        seen = set()
+        for sentence in re.split(r"\n\n|(?<=[.!?])\s+", option["rulesText"]):
+            if not re.search(r"\bcast\b", sentence, re.I):
+                continue
+            for ref in named_node_references(sentence, spell_ids, flags=re.I):
+                if ref["@id"] not in seen:
+                    refs.append(ref)
+                    seen.add(ref["@id"])
+        if refs:
+            option["castsSpell"] = refs
+
+    for rule in emitter.records["rules"]:
+        if not rule.get("ruleCategory"):
+            continue
+        text = rule.get("rulesText", "")
+        fixed_dcs = []
+        for match in re.finditer(r"\bDC (\d+)\b", text):
+            start = max(0, match.start() - 80)
+            end = min(len(text), match.end() + 100)
+            source_text = re.sub(r"\s+", " ", text[start:end]).strip()
+            entry = {"dc": int(match.group(1)), "sourceText": source_text}
+            ability = re.search(
+                r"(Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma)",
+                source_text,
+            )
+            if ability:
+                entry["ability"] = ability.group(1)
+            if entry not in fixed_dcs:
+                fixed_dcs.append(entry)
+        if fixed_dcs:
+            rule["fixedDCs"] = fixed_dcs
+        damages = []
+        for dice, damage_type in SPELL_DAMAGE_RE.findall(text):
+            entry = {"damageType": damage_type}
+            roll = parse_dice(dice.replace(" ", ""))
+            if roll:
+                entry["damageRoll"] = roll
+            if entry not in damages:
+                damages.append(entry)
+        if damages:
+            rule["damage"] = damages
+
     link_condition_mentions(emitter, condition_ids)
+    link_explicit_see_also(emitter)
+    link_catalog_members(emitter)
 
 
 def main():

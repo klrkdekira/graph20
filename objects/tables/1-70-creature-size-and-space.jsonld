@@ -12,7 +12,11 @@
     "section": "1.70",
     "heading": "Creature Size",
     "lineStart": 612,
-    "lineEnd": 619
+    "lineEnd": 619,
+    "caption": "Creature Size and Space"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/1-70-creature-size-and-space/"
   },
   "columns": [
     "Size",

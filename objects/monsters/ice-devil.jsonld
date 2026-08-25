@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.141",
     "heading": "Ice Devil",
-    "lineStart": 22303,
-    "lineEnd": 22339
+    "lineStart": 22223,
+    "lineEnd": 22259
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/ice-devil/"
   },
   "sizeTypeAlignment": "Large Fiend (Devil), Lawful Evil",
   "sizeAndType": "Large Fiend (Devil)",
+  "size": "Large",
+  "creatureType": "Fiend",
+  "descriptiveTags": [
+    "Devil"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "18",
   "initiative": "+7 (17)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.141",
         "heading": "Traits",
-        "lineStart": 22325,
-        "lineEnd": 22329
+        "lineStart": 22245,
+        "lineEnd": 22249
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.141",
         "heading": "Actions",
-        "lineStart": 22331,
-        "lineEnd": 22339
+        "lineStart": 22251,
+        "lineEnd": 22259
       }
     }
   ],
@@ -98,6 +107,42 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Insight",
+      "bonus": 7
+    },
+    {
+      "name": "Perception",
+      "bonus": 7
+    },
+    {
+      "name": "Persuasion",
+      "bonus": 9
+    }
+  ],
+  "passivePerception": 17,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Infernal",
+    "telepathy 120 ft."
+  ],
+  "damageImmunities": [
+    "Cold",
+    "Fire",
+    "Poison"
   ],
   "attacks": [
     {

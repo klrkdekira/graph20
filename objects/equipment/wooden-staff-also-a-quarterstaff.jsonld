@@ -1,0 +1,42 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/wooden-staff-also-a-quarterstaff",
+  "@type": "Equipment",
+  "name": "Wooden staff (also a Quarterstaff)",
+  "slug": "wooden-staff-also-a-quarterstaff",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.92",
+    "heading": "Druidic Focus (Varies)",
+    "lineStart": 6543,
+    "lineEnd": 6547,
+    "caption": "Druidic Focuses"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/wooden-staff-also-a-quarterstaff/"
+  },
+  "equipmentType": "focus",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-92-druidic-focuses"
+  },
+  "attributes": [
+    {
+      "name": "Weight",
+      "value": "4 lb."
+    },
+    {
+      "name": "Cost",
+      "value": "5 GP"
+    }
+  ],
+  "weight": "4 lb.",
+  "weightPounds": 4,
+  "cost": {
+    "text": "5 GP",
+    "currency": "GP",
+    "amount": 5
+  }
+}

@@ -11,8 +11,12 @@
     "chapter": "Spells",
     "section": "7.50",
     "heading": "Augury",
-    "lineStart": 7618,
-    "lineEnd": 7623
+    "lineStart": 7591,
+    "lineEnd": 7596,
+    "caption": "Omens"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/7-50-omens/"
   },
   "columns": [
     "Omen",

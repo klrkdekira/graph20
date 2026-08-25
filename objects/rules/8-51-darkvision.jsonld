@@ -11,9 +11,28 @@
     "chapter": "Rules Glossary",
     "section": "8.51",
     "heading": "Darkvision",
-    "lineStart": 13024,
-    "lineEnd": 13026
+    "lineStart": 12988,
+    "lineEnd": 12990
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-51-darkvision/"
   },
   "section": "8.51",
-  "rulesText": "If you have Darkvision, you can see in Dim Light within a specified range as if it were Bright Light and in Darkness within that range as if it were Dim Light. You discern colors in that Darkness only as shades of gray. See also “Playing the Game” (“Exploration”)."
+  "rulesText": "If you have Darkvision, you can see in Dim Light within a specified range as if it were Bright Light and in Darkness within that range as if it were Dim Light. You discern colors in that Darkness only as shades of gray. See also “Playing the Game” (“Exploration”).",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-41-exploration"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-41-exploration"
+    }
+  ]
 }

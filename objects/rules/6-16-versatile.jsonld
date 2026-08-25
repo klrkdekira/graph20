@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.16",
     "heading": "Versatile",
-    "lineStart": 5949,
-    "lineEnd": 5951
+    "lineStart": 5925,
+    "lineEnd": 5927
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-16-versatile/"
   },
   "section": "6.16",
   "rulesText": "A Versatile weapon can be used with one or two hands. A damage value in parentheses appears with the property. The weapon deals that damage when used with two hands to make a melee attack."

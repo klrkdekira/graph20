@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.151",
     "heading": "Find the Path",
-    "lineStart": 9210,
-    "lineEnd": 9223
+    "lineStart": 9181,
+    "lineEnd": 9194
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/find-the-path/"
   },
   "level": 6,
   "school": "Divination",
@@ -39,5 +42,30 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 day",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "day"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a set of divination tools - such as cards or runes - worth 100+ GP)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a set of divination tools - such as cards or runes - worth 100+ GP",
+    "consumed": false,
+    "materialCost": {
+      "text": "100 GP",
+      "currency": "GP",
+      "amount": 100
+    }
+  }
 }

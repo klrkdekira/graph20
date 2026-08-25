@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.298",
     "heading": "Scrying",
-    "lineStart": 11439,
-    "lineEnd": 11466
+    "lineStart": 11410,
+    "lineEnd": 11437
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/scrying/"
   },
   "level": 5,
   "school": "Divination",
@@ -54,7 +57,38 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "You can see and hear a creature you choose that is on the same plane of existence as you. The target makes a Wisdom saving throw, which is modified (see the tables below) by how well you know the target and the sort of physical connection you have to it. The target doesn't know what it is making the save against, only that it feels uneasy."
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a focus worth 1,000+ GP, such as a crystal ball, mirror, or water-filled font)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a focus worth 1,000+ GP, such as a crystal ball, mirror, or water-filled font",
+    "consumed": false,
+    "materialCost": {
+      "text": "1,000 GP",
+      "currency": "GP",
+      "amount": 1000
+    }
+  }
 }

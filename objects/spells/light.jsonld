@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.221",
     "heading": "Light",
-    "lineStart": 10291,
-    "lineEnd": 10302
+    "lineStart": 10262,
+    "lineEnd": 10273
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/light/"
   },
   "level": 0,
   "school": "Evocation",
@@ -43,5 +46,25 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "1 hour",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, M (a firefly or phosphorescent moss)",
+    "verbal": true,
+    "somatic": false,
+    "material": true,
+    "materialText": "a firefly or phosphorescent moss",
+    "consumed": false
+  }
 }

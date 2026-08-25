@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.124",
     "heading": "Grimlock",
-    "lineStart": 21820,
-    "lineEnd": 21843
+    "lineStart": 21740,
+    "lineEnd": 21763
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/grimlock/"
   },
   "sizeTypeAlignment": "Medium Aberration, Neutral Evil",
   "sizeAndType": "Medium Aberration",
+  "size": "Medium",
+  "creatureType": "Aberration",
+  "monsterCategory": "Monster",
   "alignment": "Neutral Evil",
   "armorClass": "11",
   "initiative": "+1 (11)",
@@ -76,12 +82,43 @@
         "chapter": "Monsters A-Z",
         "section": "12.124",
         "heading": "Actions",
-        "lineStart": 21841,
-        "lineEnd": 21843
+        "lineStart": 21761,
+        "lineEnd": 21763
       }
     }
   ],
   "rulesText": "Medium Aberration, Neutral Evil\n\nAC 11\nInitiative +1 (11)\nHP 11 (2d8 + 2)\nSpeed 30 ft., Climb 30 ft.\n\nSkills Athletics +5, Perception +3, Stealth +5\nSenses Blindsight 30 ft.; Passive Perception 13\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nBone Cudgel. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Bludgeoning damage plus 2 (1d4) Psychic damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Climb",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Athletics",
+      "bonus": 5
+    },
+    {
+      "name": "Perception",
+      "bonus": 3
+    },
+    {
+      "name": "Stealth",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 13,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 30
+    }
+  ],
   "attacks": [
     {
       "name": "Bone Cudgel",

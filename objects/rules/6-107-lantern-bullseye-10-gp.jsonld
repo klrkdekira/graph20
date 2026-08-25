@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.107",
     "heading": "Lantern, Bullseye (10 GP)",
-    "lineStart": 6646,
-    "lineEnd": 6648
+    "lineStart": 6619,
+    "lineEnd": 6621
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-107-lantern-bullseye-10-gp/"
   },
   "section": "6.107",
   "rulesText": "A Bullseye Lantern burns Oil as fuel to cast Bright Light in a 60-foot Cone and Dim Light for an additional 60 feet."

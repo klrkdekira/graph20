@@ -11,8 +11,11 @@
     "chapter": "Rules Glossary",
     "section": "8.107",
     "heading": "Occupied Space",
-    "lineStart": 13408,
-    "lineEnd": 13410
+    "lineStart": 13372,
+    "lineEnd": 13374
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-107-occupied-space/"
   },
   "section": "8.107",
   "rulesText": "A space is occupied if a creature is in it or if it is completely filled by objects."

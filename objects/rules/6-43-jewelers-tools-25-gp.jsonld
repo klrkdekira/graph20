@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.43",
     "heading": "Jeweler's Tools (25 GP)",
-    "lineStart": 6176,
-    "lineEnd": 6182
+    "lineStart": 6152,
+    "lineEnd": 6158
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-43-jewelers-tools-25-gp/"
   },
   "section": "6.43",
   "rulesText": "Ability: Intelligence Weight: 2 lb.\n\nUtilize: Discern a gem's value (DC 15)\n\nCraft: Arcane Focus, Holy Symbol"

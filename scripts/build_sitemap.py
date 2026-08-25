@@ -7,6 +7,8 @@ from pathlib import Path
 
 from srdlib import BASE, iter_object_files, load_json
 
+LASTMOD = "2025-05-01"
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -27,9 +29,11 @@ def main():
     ]
     for _, path in iter_object_files(root):
         record = load_json(path)
-        urls.append(record["@id"] + ".jsonld")
+        urls.append(record["htmlPage"]["@id"])
 
-    body = "\n".join(f"  <url><loc>{u}</loc></url>" for u in urls)
+    body = "\n".join(
+        f"  <url><loc>{u}</loc><lastmod>{LASTMOD}</lastmod></url>" for u in urls
+    )
     (root / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'

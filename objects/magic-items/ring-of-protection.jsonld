@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.211",
     "heading": "Ring of Protection",
-    "lineStart": 16752,
-    "lineEnd": 16756
+    "lineStart": 16708,
+    "lineEnd": 16712
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/ring-of-protection/"
   },
   "itemCategory": "Ring",
   "rarity": "Rare",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Ring, Rare (Requires Attunement)\n\nYou gain a +1 bonus to Armor Class and saving throws while wearing this ring."
+  "rulesText": "Ring, Rare (Requires Attunement)\n\nYou gain a +1 bonus to Armor Class and saving throws while wearing this ring.",
+  "isCursed": false,
+  "isSentient": false
 }

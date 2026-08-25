@@ -1,0 +1,39 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/potters-tools",
+  "@type": "Equipment",
+  "name": "Potter's Tools",
+  "slug": "potters-tools",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.47",
+    "heading": "Potter's Tools (10 GP)",
+    "lineStart": 6184,
+    "lineEnd": 6190
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/potters-tools/"
+  },
+  "equipmentType": "tool",
+  "fromRule": {
+    "@id": "https://cheeleong.dev/graph20/objects/rules/6-47-potters-tools-10-gp"
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-47-potters-tools-10-gp"
+    }
+  ],
+  "cost": {
+    "text": "10 GP",
+    "currency": "GP",
+    "amount": 10
+  },
+  "ability": "Intelligence",
+  "weight": "3 lb.",
+  "weightPounds": 3,
+  "utilize": "Discern what a ceramic object held in the past 24 hours (DC 15)",
+  "craft": "Jug, Lamp"
+}

@@ -11,8 +11,11 @@
     "chapter": "Playing the Game",
     "section": "1.87",
     "heading": "Fire Resistance",
-    "lineStart": 723,
-    "lineEnd": 725
+    "lineStart": 721,
+    "lineEnd": 723
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-87-fire-resistance/"
   },
   "section": "1.87",
   "rulesText": "Anything underwater has Resistance to Fire damage (explained in “Damage and Healing”)."

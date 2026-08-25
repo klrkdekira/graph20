@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.64",
     "heading": "Blink",
-    "lineStart": 7810,
-    "lineEnd": 7823
+    "lineStart": 7781,
+    "lineEnd": 7794
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/blink/"
   },
   "level": 3,
   "school": "Transmutation",
@@ -35,5 +38,23 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "1 minute",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

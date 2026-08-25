@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.13",
     "heading": "Fighter Class Features",
-    "lineStart": 2840,
-    "lineEnd": 2861
+    "lineStart": 2830,
+    "lineEnd": 2851,
+    "caption": "Fighter Features"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-13-fighter-features/"
   },
   "columns": [
     "Level",

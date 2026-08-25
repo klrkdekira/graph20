@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.5",
     "heading": "Bard Spell List",
-    "lineStart": 1845,
-    "lineEnd": 1869
+    "lineStart": 1835,
+    "lineEnd": 1859,
+    "caption": "Level 1 Bard Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-5-level-1-bard-spells/"
   },
   "columns": [
     "Spell",

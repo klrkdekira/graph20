@@ -1,0 +1,37 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/attitudes/hostile",
+  "@type": "Attitude",
+  "name": "Hostile",
+  "slug": "hostile",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.85",
+    "heading": "Hostile [Attitude]",
+    "lineStart": 13197,
+    "lineEnd": 13199
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/attitudes/hostile/"
+  },
+  "rulesText": "A Hostile creature views you unfavorably. You have Disadvantage on an ability check to influence a Hostile creature. See also “Influence.”",
+  "effects": [
+    {
+      "name": "A Hostile creature views you unfavorably",
+      "rulesText": "You have Disadvantage on an ability check to influence a Hostile creature. See also “Influence.”"
+    }
+  ],
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/actions/influence"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/actions/influence"
+    }
+  ]
+}

@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.72",
     "heading": "Carpet of Flying",
-    "lineStart": 15192,
-    "lineEnd": 15205
+    "lineStart": 15154,
+    "lineEnd": 15167
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/carpet-of-flying/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Very Rare",
@@ -22,5 +25,7 @@
       "@id": "https://cheeleong.dev/graph20/objects/tables/10-72-carpet-of-flying-table-1"
     }
   ],
-  "rulesText": "Wondrous Item, Very Rare\n\nYou can make this carpet hover and fly by taking a Magic action and using the carpet's command word. It moves according to your directions if you are within 30 feet of it.\n\nFour sizes of Carpet of Flying exist. The GM chooses the size of a given carpet or determines it randomly by rolling on the following table. A carpet can carry up to twice the weight shown on the table, but its Fly Speed is halved if it carries more than its normal capacity."
+  "rulesText": "Wondrous Item, Very Rare\n\nYou can make this carpet hover and fly by taking a Magic action and using the carpet's command word. It moves according to your directions if you are within 30 feet of it.\n\nFour sizes of Carpet of Flying exist. The GM chooses the size of a given carpet or determines it randomly by rolling on the following table. A carpet can carry up to twice the weight shown on the table, but its Fly Speed is halved if it carries more than its normal capacity.",
+  "isCursed": false,
+  "isSentient": false
 }

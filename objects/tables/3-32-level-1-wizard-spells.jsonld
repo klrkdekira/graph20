@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.32",
     "heading": "Wizard Spell List",
-    "lineStart": 5067,
-    "lineEnd": 5098
+    "lineStart": 5046,
+    "lineEnd": 5077,
+    "caption": "Level 1 Wizard Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-32-level-1-wizard-spells/"
   },
   "columns": [
     "Spell",

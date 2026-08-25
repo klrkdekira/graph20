@@ -11,8 +11,11 @@
     "chapter": "Rules Glossary",
     "section": "8.115",
     "heading": "Possession",
-    "lineStart": 13468,
-    "lineEnd": 13470
+    "lineStart": 13432,
+    "lineEnd": 13434
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-115-possession/"
   },
   "section": "8.115",
   "rulesText": "Some effects cause a creature to be possessed by another creature or entity. A possessing effect defines how the possession operates. Possession can be prevented by the Protection from Evil and Good spell and ended by the Dispel Evil and Good spell."

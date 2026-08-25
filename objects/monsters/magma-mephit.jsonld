@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.163",
     "heading": "Magma Mephit",
-    "lineStart": 23046,
-    "lineEnd": 23075
+    "lineStart": 22966,
+    "lineEnd": 22995
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/magma-mephit/"
   },
   "sizeTypeAlignment": "Small Elemental, Neutral Evil",
   "sizeAndType": "Small Elemental",
+  "size": "Small",
+  "creatureType": "Elemental",
+  "monsterCategory": "Monster",
   "alignment": "Neutral Evil",
   "armorClass": "11",
   "initiative": "+1 (11)",
@@ -78,8 +84,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.163",
         "heading": "Traits",
-        "lineStart": 23067,
-        "lineEnd": 23069
+        "lineStart": 22987,
+        "lineEnd": 22989
       }
     },
     {
@@ -89,8 +95,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.163",
         "heading": "Actions",
-        "lineStart": 23071,
-        "lineEnd": 23075
+        "lineStart": 22991,
+        "lineEnd": 22995
       }
     }
   ],
@@ -102,6 +108,40 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Fly",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Stealth",
+      "bonus": 3
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Primordial (Ignan",
+    "Terran)"
+  ],
+  "damageImmunities": [
+    "Fire",
+    "Poison"
+  ],
+  "damageVulnerabilities": [
+    "Cold"
   ],
   "attacks": [
     {

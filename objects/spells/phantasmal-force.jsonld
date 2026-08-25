@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.258",
     "heading": "Phantasmal Force",
-    "lineStart": 10837,
-    "lineEnd": 10854
+    "lineStart": 10808,
+    "lineEnd": 10825
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/phantasmal-force/"
   },
   "level": 2,
   "school": "Illusion",
@@ -38,6 +41,15 @@
     }
   ],
   "savingThrowAbility": "Intelligence",
+  "savingThrows": [
+    {
+      "ability": "Intelligence",
+      "sourceText": "You attempt to craft an illusion in the mind of a creature you can see within range. The target makes an Intelligence saving throw. On a failed save, you create a phantasmal object, creature, or other phenomenon that is no larger than a 10-foot Cube and that is perceivable only to the target for the duration. The phantasm includes sound, temperature, and other stimuli.",
+      "outcomes": [
+        "FailureEffect"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Psychic",
@@ -50,5 +62,41 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a bit of fleece)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a bit of fleece",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cube",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+      },
+      "sourceText": "On a failed save, you create a phantasmal object, creature, or other phenomenon that is no larger than a 10-foot Cube and that is perceivable only to the target for the duration.",
+      "sizeFeet": 10
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+    }
+  ]
 }

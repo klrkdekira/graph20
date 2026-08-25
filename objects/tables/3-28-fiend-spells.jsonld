@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.28",
     "heading": "Level 3: Fiend Spells",
-    "lineStart": 4878,
-    "lineEnd": 4883
+    "lineStart": 4862,
+    "lineEnd": 4867,
+    "caption": "Fiend Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-28-fiend-spells/"
   },
   "columns": [
     "Warlock Level",

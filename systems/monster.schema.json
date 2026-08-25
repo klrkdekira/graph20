@@ -7,6 +7,10 @@
     "@type": { "const": "Monster" },
     "sizeTypeAlignment": { "type": "string", "minLength": 1 },
     "sizeAndType": { "type": "string", "minLength": 1 },
+    "size": { "type": "string", "minLength": 1 },
+    "creatureType": { "type": "string", "minLength": 1 },
+    "descriptiveTags": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+    "monsterCategory": { "enum": ["Monster", "NPC", "Animal"] },
     "alignment": { "type": "string", "minLength": 1 },
     "armorClass": { "type": "string", "minLength": 1 },
     "armorClassValue": { "type": "integer", "minimum": 1 },
@@ -15,13 +19,71 @@
     "hitPointsValue": { "type": "integer", "minimum": 1 },
     "hitPointsRoll": { "$ref": "common.schema.json#/$defs/DiceExpression" },
     "speed": { "type": "string", "minLength": 1 },
+    "movement": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "mode": { "enum": ["Walk", "Burrow", "Climb", "Fly", "Swim"] },
+          "feet": { "type": "integer", "minimum": 0 },
+          "hover": { "type": "boolean" }
+        },
+        "required": ["mode", "feet"],
+        "unevaluatedProperties": false
+      }
+    },
     "skills": { "type": "string", "minLength": 1 },
+    "skillBonuses": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "bonus": { "type": "integer" }
+        },
+        "required": ["name", "bonus"],
+        "unevaluatedProperties": false
+      }
+    },
     "resistances": { "type": "string", "minLength": 1 },
     "vulnerabilities": { "type": "string", "minLength": 1 },
     "immunities": { "type": "string", "minLength": 1 },
     "senses": { "type": "string", "minLength": 1 },
     "languages": { "type": "string", "minLength": 1 },
+    "languageList": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+    "passivePerception": { "type": "integer", "minimum": 0 },
+    "senseModes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "enum": ["Blindsight", "Darkvision", "Truesight", "Tremorsense"] },
+          "rangeFeet": { "type": "integer", "minimum": 0 }
+        },
+        "required": ["name", "rangeFeet"],
+        "unevaluatedProperties": false
+      }
+    },
+    "damageImmunities": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+    "damageResistances": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+    "damageVulnerabilities": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
     "gear": { "type": "string", "minLength": 1 },
+    "gearItems": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "quantity": { "type": "integer", "minimum": 1 }
+        },
+        "required": ["name"],
+        "unevaluatedProperties": false
+      }
+    },
     "challenge": { "type": "string", "minLength": 1 },
     "challengeRating": { "type": "string", "pattern": "^[\\d/]+$" },
     "experiencePoints": { "type": "integer", "minimum": 0 },
@@ -58,6 +120,36 @@
       "minItems": 1,
       "items": { "$ref": "common.schema.json#/$defs/UnparsedAttack" }
     },
+    "spellcasting": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "section": { "type": "string", "minLength": 1 },
+          "sourceText": { "type": "string", "minLength": 1 },
+          "path": { "type": "string", "minLength": 1 },
+          "ability": { "enum": ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"] },
+          "saveDC": { "type": "integer", "minimum": 1 },
+          "attackBonus": { "type": "integer" },
+          "entries": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "frequency": { "type": "string", "minLength": 1 },
+                "spellsText": { "type": "string", "minLength": 1 },
+                "spells": { "type": "array", "minItems": 1, "items": { "$ref": "common.schema.json#/$defs/NodeReference" } }
+              },
+              "required": ["frequency", "spellsText"],
+              "unevaluatedProperties": false
+            }
+          }
+        },
+        "required": ["section", "sourceText", "path", "entries"],
+        "unevaluatedProperties": false
+      }
+    },
     "statSections": {
       "type": "array",
       "minItems": 1,
@@ -74,6 +166,6 @@
     },
     "rulesText": { "type": "string", "minLength": 1 }
   },
-  "required": ["sizeTypeAlignment", "rulesText"],
+  "required": ["sizeTypeAlignment", "size", "creatureType", "monsterCategory", "rulesText"],
   "unevaluatedProperties": false
 }

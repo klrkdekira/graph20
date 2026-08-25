@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.37",
     "heading": "Adamantine Armor",
-    "lineStart": 14796,
-    "lineEnd": 14800
+    "lineStart": 14758,
+    "lineEnd": 14762
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/adamantine-armor/"
   },
   "itemCategory": "Armor",
   "categoryDetail": "Any Medium or Heavy, Except Hide Armor",
   "rarity": "Uncommon",
   "requiresAttunement": false,
-  "rulesText": "Armor (Any Medium or Heavy, Except Hide Armor), Uncommon\n\nThis suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any Critical Hit against you becomes a normal hit."
+  "rulesText": "Armor (Any Medium or Heavy, Except Hide Armor), Uncommon\n\nThis suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any Critical Hit against you becomes a normal hit.",
+  "isCursed": false,
+  "isSentient": false
 }

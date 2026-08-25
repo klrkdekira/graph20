@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.190",
     "heading": "Harm",
-    "lineStart": 9848,
-    "lineEnd": 9859
+    "lineStart": 9819,
+    "lineEnd": 9830
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/harm/"
   },
   "level": 6,
   "school": "Necromancy",
@@ -30,7 +33,32 @@
     }
   ],
   "savingThrowAbility": "Constitution",
+  "savingThrows": [
+    {
+      "ability": "Constitution",
+      "sourceText": "You unleash virulent magic on a creature you can see within range. The target makes a Constitution saving throw. On a failed save, it takes 14d6",
+      "outcomes": [
+        "FailureEffect"
+      ]
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.353",
     "heading": "Tsunami",
-    "lineStart": 12323,
-    "lineEnd": 12340
+    "lineStart": 12294,
+    "lineEnd": 12311
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/tsunami/"
   },
   "level": 8,
   "school": "Conjuration",
@@ -30,6 +33,20 @@
     }
   ],
   "savingThrowAbility": "Strength",
+  "savingThrows": [
+    {
+      "ability": "Strength",
+      "sourceText": "When the wall appears, each creature in its area makes a Strength saving throw, taking 6d10 Bludgeoning damage on a failed save or half as much damage on a successful one.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    },
+    {
+      "ability": "Strength",
+      "sourceText": "At the start of each of your turns after the wall appears, the wall, along with any creatures in it, moves 50 feet away from you. Any Huge or smaller creature inside the wall or whose space the wall enters when it moves must succeed on a Strength saving throw or take 5d10 Bludgeoning damage. A creature can take this damage only once per round. At the end of the turn, the wall's height is reduced by 50 feet, and the damage the wall deals on later"
+    }
+  ],
   "damage": [
     {
       "damageType": "Bludgeoning",
@@ -50,5 +67,24 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "1 mile",
+    "kind": "Distance",
+    "distanceMiles": 1
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 6 rounds",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 6,
+    "unit": "round"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

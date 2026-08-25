@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.96",
     "heading": "Gelatinous Cube",
-    "lineStart": 20923,
-    "lineEnd": 20958
+    "lineStart": 20843,
+    "lineEnd": 20878
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/gelatinous-cube/"
   },
   "sizeTypeAlignment": "Large Ooze, Unaligned",
   "sizeAndType": "Large Ooze",
+  "size": "Large",
+  "creatureType": "Ooze",
+  "monsterCategory": "Monster",
   "alignment": "Unaligned",
   "armorClass": "6",
   "initiative": "-4 (6)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.96",
         "heading": "Traits",
-        "lineStart": 20944,
-        "lineEnd": 20952
+        "lineStart": 20864,
+        "lineEnd": 20872
       }
     },
     {
@@ -87,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.96",
         "heading": "Actions",
-        "lineStart": 20954,
-        "lineEnd": 20958
+        "lineStart": 20874,
+        "lineEnd": 20878
       }
     }
   ],
@@ -112,6 +118,22 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 15
+    }
+  ],
+  "passivePerception": 8,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 60
+    }
+  ],
+  "damageImmunities": [
+    "Acid"
   ],
   "attacks": [
     {

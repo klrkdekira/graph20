@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.160",
     "heading": "Medallion of Thoughts",
-    "lineStart": 16163,
-    "lineEnd": 16167
+    "lineStart": 16125,
+    "lineEnd": 16129
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/medallion-of-thoughts/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
@@ -23,5 +26,12 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/detect-thoughts"
     }
-  ]
+  ],
+  "charges": {
+    "capacityText": "5",
+    "capacity": 5,
+    "rechargeText": "The medallion regains 1d4 expended charges daily at dawn."
+  },
+  "isCursed": false,
+  "isSentient": false
 }

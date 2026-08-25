@@ -1,0 +1,39 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/painters-supplies",
+  "@type": "Equipment",
+  "name": "Painter's Supplies",
+  "slug": "painters-supplies",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.46",
+    "heading": "Painter's Supplies (10 GP)",
+    "lineStart": 6176,
+    "lineEnd": 6182
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/painters-supplies/"
+  },
+  "equipmentType": "tool",
+  "fromRule": {
+    "@id": "https://cheeleong.dev/graph20/objects/rules/6-46-painters-supplies-10-gp"
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-46-painters-supplies-10-gp"
+    }
+  ],
+  "cost": {
+    "text": "10 GP",
+    "currency": "GP",
+    "amount": 10
+  },
+  "ability": "Wisdom",
+  "weight": "5 lb.",
+  "weightPounds": 5,
+  "utilize": "Paint a recognizable image of something you've seen (DC 10)",
+  "craft": "Druidic Focus, Holy Symbol"
+}

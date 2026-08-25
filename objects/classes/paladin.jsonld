@@ -11,8 +11,11 @@
     "chapter": "Classes",
     "section": "3.17",
     "heading": "Paladin",
-    "lineStart": 3189,
-    "lineEnd": 3476
+    "lineStart": 3179,
+    "lineEnd": 3466
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/classes/paladin/"
   },
   "coreTraits": [
     {
@@ -61,8 +64,8 @@
         "chapter": "Classes",
         "section": "3.17",
         "heading": "Level 1: Lay On Hands",
-        "lineStart": 3245,
-        "lineEnd": 3251
+        "lineStart": 3235,
+        "lineEnd": 3241
       }
     },
     {
@@ -73,8 +76,8 @@
         "chapter": "Classes",
         "section": "3.17",
         "heading": "Level 1: Spellcasting",
-        "lineStart": 3253,
-        "lineEnd": 3269
+        "lineStart": 3243,
+        "lineEnd": 3259
       }
     },
     {
@@ -85,8 +88,8 @@
         "chapter": "Classes",
         "section": "3.17",
         "heading": "Level 1: Weapon Mastery",
-        "lineStart": 3271,
-        "lineEnd": 3275
+        "lineStart": 3261,
+        "lineEnd": 3265
       }
     },
     {
@@ -97,8 +100,8 @@
         "chapter": "Classes",
         "section": "3.17",
         "heading": "Level 2: Fighting Style",
-        "lineStart": 3277,
-        "lineEnd": 3281
+        "lineStart": 3267,
+        "lineEnd": 3271
       }
     },
     {
@@ -109,8 +112,8 @@
         "chapter": "Classes",
         "section": "3.17",
         "heading": "Level 2: Paladin's Smite",
-        "lineStart": 3283,
-        "lineEnd": 3285
+        "lineStart": 3273,
+        "lineEnd": 3275
       }
     },
     {
@@ -121,8 +124,8 @@
         "chapter": "Classes",
         "section": "3.17",
         "heading": "Level 3: Channel Divinity",
-        "lineStart": 3287,
-        "lineEnd": 3291
+        "lineStart": 3277,
+        "lineEnd": 3281
       }
     },
     {
@@ -133,8 +136,8 @@
         "chapter": "Classes",
         "section": "3.17",
         "heading": "Level 3: Paladin Subclass",
-        "lineStart": 3305,
-        "lineEnd": 3307
+        "lineStart": 3295,
+        "lineEnd": 3297
       }
     },
     {
@@ -145,8 +148,8 @@
         "chapter": "Classes",
         "section": "3.17",
         "heading": "Level 4: Ability Score Improvement",
-        "lineStart": 3309,
-        "lineEnd": 3311
+        "lineStart": 3299,
+        "lineEnd": 3301
       }
     },
     {
@@ -157,8 +160,8 @@
         "chapter": "Classes",
         "section": "3.17",
         "heading": "Level 5: Extra Attack",
-        "lineStart": 3313,
-        "lineEnd": 3315
+        "lineStart": 3303,
+        "lineEnd": 3305
       }
     },
     {
@@ -169,8 +172,8 @@
         "chapter": "Classes",
         "section": "3.17",
         "heading": "Level 5: Faithful Steed",
-        "lineStart": 3317,
-        "lineEnd": 3321
+        "lineStart": 3307,
+        "lineEnd": 3311
       }
     },
     {
@@ -181,8 +184,8 @@
         "chapter": "Classes",
         "section": "3.17",
         "heading": "Level 6: Aura of Protection",
-        "lineStart": 3323,
-        "lineEnd": 3329
+        "lineStart": 3313,
+        "lineEnd": 3319
       }
     },
     {
@@ -193,8 +196,8 @@
         "chapter": "Classes",
         "section": "3.17",
         "heading": "Level 9: Abjure Foes",
-        "lineStart": 3331,
-        "lineEnd": 3335
+        "lineStart": 3321,
+        "lineEnd": 3325
       }
     },
     {
@@ -205,8 +208,8 @@
         "chapter": "Classes",
         "section": "3.17",
         "heading": "Level 10: Aura of Courage",
-        "lineStart": 3337,
-        "lineEnd": 3339
+        "lineStart": 3327,
+        "lineEnd": 3329
       }
     },
     {
@@ -217,8 +220,8 @@
         "chapter": "Classes",
         "section": "3.17",
         "heading": "Level 11: Radiant Strikes",
-        "lineStart": 3341,
-        "lineEnd": 3343
+        "lineStart": 3331,
+        "lineEnd": 3333
       }
     },
     {
@@ -229,8 +232,8 @@
         "chapter": "Classes",
         "section": "3.17",
         "heading": "Level 14: Restoring Touch",
-        "lineStart": 3345,
-        "lineEnd": 3347
+        "lineStart": 3335,
+        "lineEnd": 3337
       }
     },
     {
@@ -241,8 +244,8 @@
         "chapter": "Classes",
         "section": "3.17",
         "heading": "Level 18: Aura Expansion",
-        "lineStart": 3349,
-        "lineEnd": 3351
+        "lineStart": 3339,
+        "lineEnd": 3341
       }
     },
     {
@@ -253,8 +256,8 @@
         "chapter": "Classes",
         "section": "3.17",
         "heading": "Level 19: Epic Boon",
-        "lineStart": 3353,
-        "lineEnd": 3355
+        "lineStart": 3343,
+        "lineEnd": 3345
       }
     }
   ],
@@ -263,7 +266,7 @@
       "@id": "https://cheeleong.dev/graph20/objects/tables/3-17-paladin-features"
     }
   ],
-  "rulesText": "Core Paladin Traits\n\nBecoming a Paladin ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Paladin Traits table.\n\n- Gain the Paladin's level 1 features, which are listed in the Paladin Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Paladin Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.\n- Gain the Paladin's level 1 features, which are listed in the Paladin Features table. See the multiclassing rules in “Character Creation” to determine your available spell slots.\n\nPaladin Class Features\n\nAs a Paladin, you gain the following class features when you reach the specified Paladin levels. These features are listed in the Paladin Features table.\n\nPaladin Features\n\nBREAKING YOUR OATH\n\nA Paladin tries to hold to the highest standards of conduct, but even the most dedicated are fallible. Sometimes a Paladin transgresses their oath.\n\nA Paladin who has broken a vow typically seeks absolution, spending an all-night vigil as a sign of penitence or undertaking a fast. After a rite of forgiveness, the Paladin starts fresh.\n\nIf your Paladin unrepentantly violates their oath, talk to your GM. Your Paladin should probably take a more appropriate subclass or even abandon the class and adopt another one.\n\nIf a Channel Divinity effect requires a saving throw, the DC equals the spell save DC from this class's Spellcasting feature.\n\nDivine Sense. As a Bonus Action, you can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the Incapacitated condition, you know the location of any creature of those types within 60 feet of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the Hallow spell.",
+  "rulesText": "Core Paladin Traits\n\nBecoming a Paladin ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Paladin Traits table.\n\n- Gain the Paladin's level 1 features, which are listed in the Paladin Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Paladin Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.\n- Gain the Paladin's level 1 features, which are listed in the Paladin Features table. See the multiclassing rules in “Character Creation” to determine your available spell slots.\n\nPaladin Class Features\n\nAs a Paladin, you gain the following class features when you reach the specified Paladin levels. These features are listed in the Paladin Features table.\n\nBREAKING YOUR OATH\n\nA Paladin tries to hold to the highest standards of conduct, but even the most dedicated are fallible. Sometimes a Paladin transgresses their oath.\n\nA Paladin who has broken a vow typically seeks absolution, spending an all-night vigil as a sign of penitence or undertaking a fast. After a rite of forgiveness, the Paladin starts fresh.\n\nIf your Paladin unrepentantly violates their oath, talk to your GM. Your Paladin should probably take a more appropriate subclass or even abandon the class and adopt another one.\n\nIf a Channel Divinity effect requires a saving throw, the DC equals the spell save DC from this class's Spellcasting feature.\n\nDivine Sense. As a Bonus Action, you can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the Incapacitated condition, you know the location of any creature of those types within 60 feet of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the Hallow spell.",
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"

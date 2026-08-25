@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.46",
     "heading": "Arcane Lock",
-    "lineStart": 7543,
-    "lineEnd": 7554
+    "lineStart": 7516,
+    "lineEnd": 7527
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/arcane-lock/"
   },
   "level": 2,
   "school": "Abjuration",
@@ -31,5 +34,27 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Until dispelled",
+    "concentration": false,
+    "kind": "UntilDispelled"
+  },
+  "componentDetails": {
+    "text": "V, S, M (gold dust worth 25+ GP, which the spell consumes)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "gold dust worth 25+ GP, which the spell consumes",
+    "consumed": true,
+    "materialCost": {
+      "text": "25 GP",
+      "currency": "GP",
+      "amount": 25
+    }
+  }
 }

@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.129",
     "heading": "Half-Dragon",
-    "lineStart": 21939,
-    "lineEnd": 21975
+    "lineStart": 21859,
+    "lineEnd": 21895
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/half-dragon/"
   },
   "sizeTypeAlignment": "Medium Dragon, Neutral",
   "sizeAndType": "Medium Dragon",
+  "size": "Medium",
+  "creatureType": "Dragon",
+  "monsterCategory": "Monster",
   "alignment": "Neutral",
   "armorClass": "18",
   "initiative": "+5 (15)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.129",
         "heading": "Traits",
-        "lineStart": 21961,
-        "lineEnd": 21963
+        "lineStart": 21881,
+        "lineEnd": 21883
       }
     },
     {
@@ -88,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.129",
         "heading": "Actions",
-        "lineStart": 21965,
-        "lineEnd": 21971
+        "lineStart": 21885,
+        "lineEnd": 21891
       }
     },
     {
@@ -99,12 +105,47 @@
         "chapter": "Monsters A-Z",
         "section": "12.129",
         "heading": "Bonus Actions",
-        "lineStart": 21973,
-        "lineEnd": 21975
+        "lineStart": 21893,
+        "lineEnd": 21895
       }
     }
   ],
   "rulesText": "Medium Dragon, Neutral\n\nAC 18\nInitiative +5 (15)\nHP 105 (14d8 + 42)\nSpeed 40 ft.\n\nSkills Athletics +7, Perception +5, Stealth +5\nResistances Damage type chosen for the Draconic Origin trait below\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 15\nLanguages Common, Draconic\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nDraconic Origin. The half-dragon is related to a type of dragon associated with one of the following damage types (GM's choice): Acid, Cold, Fire, Lightning, or Poison. This choice affects other aspects of the stat block.\n\nActions\n\nMultiattack. The half-dragon makes two Claw attacks.\n\nClaw. Melee Attack Roll: +7, reach 10 ft. Hit: 6 (1d4 + 4) Slashing damage plus 7 (2d6) damage of the type chosen for the Draconic Origin trait.\n\nDragon's Breath (Recharge 5–6). Dexterity Saving Throw: DC 14, each creature in a 30-foot Cone. Failure: 28 (8d6) damage of the type chosen for the Draconic Origin trait. Success: Half damage.\n\nBonus Actions\n\nLeap. The half-dragon jumps up to 30 feet by spending 10 feet of movement.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Athletics",
+      "bonus": 7
+    },
+    {
+      "name": "Perception",
+      "bonus": 5
+    },
+    {
+      "name": "Stealth",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 15,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 10
+    },
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Common",
+    "Draconic"
+  ],
   "attacks": [
     {
       "name": "Claw",

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.145",
     "heading": "False Life",
-    "lineStart": 9093,
-    "lineEnd": 9104
+    "lineStart": 9064,
+    "lineEnd": 9075
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/false-life/"
   },
   "level": 1,
   "school": "Necromancy",
@@ -35,5 +38,22 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a drop of alcohol)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a drop of alcohol",
+    "consumed": false
+  }
 }

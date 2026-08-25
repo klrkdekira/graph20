@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.111",
     "heading": "Eyes of Charming",
-    "lineStart": 15609,
-    "lineEnd": 15613
+    "lineStart": 15571,
+    "lineEnd": 15575
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/eyes-of-charming/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
@@ -23,5 +26,12 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/charm-person"
     }
-  ]
+  ],
+  "charges": {
+    "capacityText": "3",
+    "capacity": 3,
+    "rechargeText": "The lenses regain all expended charges daily at dawn."
+  },
+  "isCursed": false,
+  "isSentient": false
 }

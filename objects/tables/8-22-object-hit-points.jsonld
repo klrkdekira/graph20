@@ -11,8 +11,12 @@
     "chapter": "Rules Glossary",
     "section": "8.22",
     "heading": "Breaking Objects",
-    "lineStart": 12830,
-    "lineEnd": 12835
+    "lineStart": 12797,
+    "lineEnd": 12802,
+    "caption": "Object Hit Points"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/8-22-object-hit-points/"
   },
   "columns": [
     "Size",

@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.17",
     "heading": "Paladin Class Features",
-    "lineStart": 3221,
-    "lineEnd": 3243
+    "lineStart": 3211,
+    "lineEnd": 3233,
+    "caption": "Paladin Features"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-17-paladin-features/"
   },
   "columns": [
     "Level",

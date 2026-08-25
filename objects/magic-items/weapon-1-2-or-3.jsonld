@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.291",
     "heading": "Weapon, +1, +2, or +3",
-    "lineStart": 17663,
-    "lineEnd": 17667
+    "lineStart": 17604,
+    "lineEnd": 17608
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/weapon-1-2-or-3/"
   },
   "itemCategory": "Weapon",
   "categoryDetail": "Any Simple or Martial",
@@ -31,5 +34,7 @@
     }
   ],
   "requiresAttunement": false,
-  "rulesText": "Weapon (Any Simple or Martial), Uncommon (+1), Rare (+2), or Very Rare (+3)\n\nYou have a bonus to attack rolls and damage rolls made with this magic weapon. The bonus is determined by the weapon's rarity."
+  "rulesText": "Weapon (Any Simple or Martial), Uncommon (+1), Rare (+2), or Very Rare (+3)\n\nYou have a bonus to attack rolls and damage rolls made with this magic weapon. The bonus is determined by the weapon's rarity.",
+  "isCursed": false,
+  "isSentient": false
 }

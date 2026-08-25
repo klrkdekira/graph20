@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.191",
     "heading": "Potion of Heroism",
-    "lineStart": 16553,
-    "lineEnd": 16559
+    "lineStart": 16509,
+    "lineEnd": 16515
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/potion-of-heroism/"
   },
   "itemCategory": "Potion",
   "rarity": "Rare",
   "requiresAttunement": false,
-  "rulesText": "Potion, Rare\n\nWhen you drink this potion, you gain 10 Temporary Hit Points that last for 1 hour. For the same duration, you are under the effect of the Bless spell (no Concentration required).\n\nThis potion's blue liquid bubbles and steams as if boiling."
+  "rulesText": "Potion, Rare\n\nWhen you drink this potion, you gain 10 Temporary Hit Points that last for 1 hour. For the same duration, you are under the effect of the Bless spell (no Concentration required).\n\nThis potion's blue liquid bubbles and steams as if boiling.",
+  "isCursed": false,
+  "isSentient": false
 }

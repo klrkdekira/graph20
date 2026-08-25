@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.63",
     "heading": "Mammoth",
-    "lineStart": 28289,
-    "lineEnd": 28315
+    "lineStart": 28200,
+    "lineEnd": 28226
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/mammoth/"
   },
   "sizeTypeAlignment": "Huge Beast, Unaligned",
   "sizeAndType": "Huge Beast",
+  "size": "Huge",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "13",
   "initiative": "+2 (12)",
@@ -75,8 +81,8 @@
         "chapter": "Animals",
         "section": "13.63",
         "heading": "Actions",
-        "lineStart": 28307,
-        "lineEnd": 28311
+        "lineStart": 28218,
+        "lineEnd": 28222
       }
     },
     {
@@ -86,12 +92,19 @@
         "chapter": "Animals",
         "section": "13.63",
         "heading": "Bonus Actions",
-        "lineStart": 28313,
-        "lineEnd": 28315
+        "lineStart": 28224,
+        "lineEnd": 28226
       }
     }
   ],
   "rulesText": "Huge Beast, Unaligned\n\nAC 13\nInitiative +2 (12)\nHP 126 (11d12 + 55)\nSpeed 50 ft.\n\nSenses Passive Perception 10\nLanguages None\nCR 6 (XP 2,300; PB +3)\n\nActions\n\nMultiattack. The mammoth makes two Gore attacks.\n\nGore. Melee Attack Roll: +10, reach 10 ft. Hit: 18 (2d10 + 7) Piercing damage. If the target is a Huge or smaller creature and the mammoth moved 20+ feet straight toward it immediately before the hit, the target has the Prone condition.\n\nBonus Actions\n\nTrample. Dexterity Saving Throw: DC 18, one creature within 5 feet that has the Prone condition. Failure: 29 (4d10 + 7) Bludgeoning damage. Success: Half damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 50
+    }
+  ],
+  "passivePerception": 10,
   "attacks": [
     {
       "name": "Gore",

@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.34",
     "heading": "Special Purpose",
-    "lineStart": 14750,
-    "lineEnd": 14755
+    "lineStart": 14712,
+    "lineEnd": 14717,
+    "caption": "Sentient Item's Senses"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-34-sentient-items-senses/"
   },
   "columns": [
     "1d4",

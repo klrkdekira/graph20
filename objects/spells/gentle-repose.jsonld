@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.173",
     "heading": "Gentle Repose",
-    "lineStart": 9544,
-    "lineEnd": 9555
+    "lineStart": 9515,
+    "lineEnd": 9526
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/gentle-repose/"
   },
   "level": 2,
   "school": "Necromancy",
@@ -39,5 +42,25 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": true
+  "ritual": true,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "10 days",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 10,
+    "unit": "day"
+  },
+  "componentDetails": {
+    "text": "V, S, M (2 Copper Pieces, which the spell consumes)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "2 Copper Pieces, which the spell consumes",
+    "consumed": true
+  }
 }

@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.10",
     "heading": "Level 2: Wild Shape",
-    "lineStart": 2486,
-    "lineEnd": 2490
+    "lineStart": 2476,
+    "lineEnd": 2480,
+    "caption": "Beast Shapes"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-10-beast-shapes/"
   },
   "columns": [
     "Druid Level",

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.217",
     "heading": "Knock",
-    "lineStart": 10231,
-    "lineEnd": 10246
+    "lineStart": 10202,
+    "lineEnd": 10217
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/knock/"
   },
   "level": 2,
   "school": "Transmutation",
@@ -39,5 +42,21 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V",
+    "verbal": true,
+    "somatic": false,
+    "material": false
+  }
 }

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.208",
     "heading": "Illusory Script",
-    "lineStart": 10090,
-    "lineEnd": 10103
+    "lineStart": 10061,
+    "lineEnd": 10074
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/illusory-script/"
   },
   "level": 1,
   "school": "Illusion",
@@ -39,5 +42,30 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": true
+  "ritual": true,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "10 days",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 10,
+    "unit": "day"
+  },
+  "componentDetails": {
+    "text": "S, M (ink worth 10+ GP, which the spell consumes)",
+    "verbal": false,
+    "somatic": true,
+    "material": true,
+    "materialText": "ink worth 10+ GP, which the spell consumes",
+    "consumed": true,
+    "materialCost": {
+      "text": "10 GP",
+      "currency": "GP",
+      "amount": 10
+    }
+  }
 }

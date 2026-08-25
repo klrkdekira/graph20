@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.156",
     "heading": "Fire Shield",
-    "lineStart": 9279,
-    "lineEnd": 9292
+    "lineStart": 9250,
+    "lineEnd": 9263
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/fire-shield/"
   },
   "level": 4,
   "school": "Evocation",
@@ -57,5 +60,25 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "10 minutes",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a bit of phosphorus or a firefly)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a bit of phosphorus or a firefly",
+    "consumed": false
+  }
 }

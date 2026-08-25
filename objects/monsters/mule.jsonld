@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.65",
     "heading": "Mule",
-    "lineStart": 28340,
-    "lineEnd": 28364
+    "lineStart": 28251,
+    "lineEnd": 28275
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/mule/"
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
+  "size": "Medium",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "10",
   "initiative": "+0 (10)",
@@ -75,8 +81,8 @@
         "chapter": "Animals",
         "section": "13.65",
         "heading": "Traits",
-        "lineStart": 28358,
-        "lineEnd": 28360
+        "lineStart": 28269,
+        "lineEnd": 28271
       }
     },
     {
@@ -86,12 +92,19 @@
         "chapter": "Animals",
         "section": "13.65",
         "heading": "Actions",
-        "lineStart": 28362,
-        "lineEnd": 28364
+        "lineStart": 28273,
+        "lineEnd": 28275
       }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 10\nInitiative +0 (10)\nHP 11 (2d8 + 2)\nSpeed 40 ft.\n\nSenses Passive Perception 10\nLanguages None\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nBeast of Burden. The mule counts as one size larger for the purpose of determining its carrying capacity.\n\nActions\n\nHooves. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "passivePerception": 10,
   "attacks": [
     {
       "name": "Hooves",

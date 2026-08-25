@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.171",
     "heading": "Mummy",
-    "lineStart": 23237,
-    "lineEnd": 23264
+    "lineStart": 23157,
+    "lineEnd": 23184
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/mummy/"
   },
   "sizeTypeAlignment": "Medium or Small Undead, Lawful Evil",
   "sizeAndType": "Medium or Small Undead",
+  "size": "Medium or Small",
+  "creatureType": "Undead",
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "11",
   "initiative": "-1 (9)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.171",
         "heading": "Actions",
-        "lineStart": 23258,
-        "lineEnd": 23264
+        "lineStart": 23178,
+        "lineEnd": 23184
       }
     }
   ],
@@ -99,6 +105,29 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 20
+    }
+  ],
+  "passivePerception": 11,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Common plus two other languages"
+  ],
+  "damageImmunities": [
+    "Necrotic",
+    "Poison"
+  ],
+  "damageVulnerabilities": [
+    "Fire"
   ],
   "attacks": [
     {

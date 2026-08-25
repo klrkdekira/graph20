@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.26",
     "heading": "Giant Ape",
-    "lineStart": 27286,
-    "lineEnd": 27315
+    "lineStart": 27200,
+    "lineEnd": 27229
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/giant-ape/"
   },
   "sizeTypeAlignment": "Huge Beast, Unaligned",
   "sizeAndType": "Huge Beast",
+  "size": "Huge",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "12",
   "initiative": "+5 (15)",
@@ -76,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.26",
         "heading": "Actions",
-        "lineStart": 27305,
-        "lineEnd": 27311
+        "lineStart": 27219,
+        "lineEnd": 27225
       }
     },
     {
@@ -87,12 +93,37 @@
         "chapter": "Animals",
         "section": "13.26",
         "heading": "Bonus Actions",
-        "lineStart": 27313,
-        "lineEnd": 27315
+        "lineStart": 27227,
+        "lineEnd": 27229
       }
     }
   ],
   "rulesText": "Huge Beast, Unaligned\n\nAC 12\nInitiative +5 (15)\nHP 168 (16d12 + 64)\nSpeed 40 ft., Climb 40 ft.\n\nSkills Athletics +9, Perception +4, Survival +4\nSenses Passive Perception 14\nLanguages None\nCR 7 (XP 2,900; PB +3)\n\nActions\n\nMultiattack. The ape makes two Fist attacks.\n\nFist. Melee Attack Roll: +9, reach 10 ft. Hit: 22 (3d10 + 6) Bludgeoning damage.\n\nBoulder Toss (Recharge 6). The ape hurls a boulder at a point it can see within 90 feet. Dexterity Saving Throw: DC 17, each creature in a 5-foot-radius Sphere centered on that point. Failure: 24 (7d6) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition. Success: Half damage only.\n\nBonus Actions\n\nLeap. The ape jumps up to 30 feet by spending 10 feet of movement.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Climb",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Athletics",
+      "bonus": 9
+    },
+    {
+      "name": "Perception",
+      "bonus": 4
+    },
+    {
+      "name": "Survival",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 14,
   "attacks": [
     {
       "name": "Fist",

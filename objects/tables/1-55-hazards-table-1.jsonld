@@ -12,7 +12,11 @@
     "section": "1.55",
     "heading": "Hazards",
     "lineStart": 481,
-    "lineEnd": 483
+    "lineEnd": 483,
+    "caption": "Hazards Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/1-55-hazards-table-1/"
   },
   "columns": [
     "Burning",

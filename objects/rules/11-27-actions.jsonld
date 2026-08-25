@@ -11,8 +11,11 @@
     "chapter": "Monsters",
     "section": "11.27",
     "heading": "Actions",
-    "lineStart": 17926,
-    "lineEnd": 17928
+    "lineStart": 17864,
+    "lineEnd": 17866
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/11-27-actions/"
   },
   "section": "11.27",
   "rulesText": "A monster can take the actions in this section or take one of the actions available to all creatures, as described in “Playing the Game.”"

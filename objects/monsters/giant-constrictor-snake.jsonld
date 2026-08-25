@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.31",
     "heading": "Giant Constrictor Snake",
-    "lineStart": 27411,
-    "lineEnd": 27436
+    "lineStart": 27325,
+    "lineEnd": 27350
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/giant-constrictor-snake/"
   },
   "sizeTypeAlignment": "Huge Beast, Unaligned",
   "sizeAndType": "Huge Beast",
+  "size": "Huge",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "12",
   "initiative": "+2 (12)",
@@ -76,12 +82,35 @@
         "chapter": "Animals",
         "section": "13.31",
         "heading": "Actions",
-        "lineStart": 27430,
-        "lineEnd": 27436
+        "lineStart": 27344,
+        "lineEnd": 27350
       }
     }
   ],
   "rulesText": "Huge Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 60 (8d12 + 8)\nSpeed 30 ft., Swim 30 ft.\n\nSkills Perception +2\nSenses Blindsight 10 ft.; Passive Perception 12\nLanguages None\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The snake makes one Bite attack and uses Constrict.\n\nBite. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage.\n\nConstrict. Strength Saving Throw: DC 14, one Large or smaller creature the snake can see within 10 feet. Failure: 13 (2d8 + 4) Bludgeoning damage, and the target has the Grappled condition (escape DC 14).",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Swim",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 2
+    }
+  ],
+  "passivePerception": 12,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 10
+    }
+  ],
   "attacks": [
     {
       "name": "Bite",

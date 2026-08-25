@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.54",
     "heading": "Forgery Kit (15 GP)",
-    "lineStart": 6266,
-    "lineEnd": 6272
+    "lineStart": 6242,
+    "lineEnd": 6248
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-54-forgery-kit-15-gp/"
   },
   "section": "6.54",
   "rulesText": "Ability: Dexterity\n\nWeight: 5 lb.\n\nUtilize: Mimic 10 or fewer words of someone else's handwriting (DC 15), or duplicate a wax seal (DC 20)"

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.206",
     "heading": "Ice Storm",
-    "lineStart": 10062,
-    "lineEnd": 10075
+    "lineStart": 10033,
+    "lineEnd": 10046
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/ice-storm/"
   },
   "level": 4,
   "school": "Evocation",
@@ -38,6 +41,16 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "Hail falls in a 20-foot-radius, 40-foot-high Cylinder centered on a point within range. Each creature in the Cylinder makes a Dexterity saving throw. A creature takes 2d10 Bludgeoning damage and 4d6 Cold damage on a failed save or half as much damage on a successful one.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Bludgeoning",
@@ -58,5 +71,46 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "300 feet",
+    "kind": "Distance",
+    "distanceFeet": 300
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a mitten)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a mitten",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cylinder",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cylinder"
+      },
+      "sourceText": "Hail falls in a 20-foot-radius, 40-foot-high Cylinder centered on a point within range.",
+      "radiusFeet": 20,
+      "heightFeet": 40
+    },
+    {
+      "shape": "Cylinder",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cylinder"
+      },
+      "sourceText": "Hailstones turn ground in the Cylinder into Difficult Terrain until the end of your next turn."
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cylinder"
+    }
+  ]
 }

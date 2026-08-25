@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.115",
     "heading": "Figurine of Wondrous Power",
-    "lineStart": 15658,
-    "lineEnd": 15698
+    "lineStart": 15620,
+    "lineEnd": 15660
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/figurine-of-wondrous-power/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Rarity Varies",
@@ -23,6 +26,13 @@
       "@id": "https://cheeleong.dev/graph20/objects/spells/animal-messenger"
     }
   ],
+  "charges": {
+    "capacityText": "24",
+    "capacity": 24,
+    "rechargeText": "When it runs out of charges, it reverts to a figurine and can't be used again until 7 days have passed, when it regains all expended charges."
+  },
+  "isCursed": false,
+  "isSentient": false,
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"

@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/arrows",
+  "@type": "Equipment",
+  "name": "Arrows",
+  "slug": "arrows",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.64",
+    "heading": "Ammunition (Varies)",
+    "lineStart": 6411,
+    "lineEnd": 6417,
+    "caption": "Ammunition"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/arrows/"
+  },
+  "equipmentType": "ammunition",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-64-ammunition"
+  },
+  "quantity": "20",
+  "storage": "Quiver",
+  "weight": "1 lb.",
+  "weightPounds": 1,
+  "cost": {
+    "text": "1 GP",
+    "currency": "GP",
+    "amount": 1
+  },
+  "attributes": [
+    {
+      "name": "Amount",
+      "value": "20"
+    },
+    {
+      "name": "Storage",
+      "value": "Quiver"
+    },
+    {
+      "name": "Weight",
+      "value": "1 lb."
+    },
+    {
+      "name": "Cost",
+      "value": "1 GP"
+    }
+  ]
+}

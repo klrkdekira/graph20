@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.158",
     "heading": "Flame Blade",
-    "lineStart": 9307,
-    "lineEnd": 9322
+    "lineStart": 9278,
+    "lineEnd": 9293
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/flame-blade/"
   },
   "level": 2,
   "school": "Evocation",
@@ -35,5 +38,25 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a sumac leaf)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a sumac leaf",
+    "consumed": false
+  }
 }

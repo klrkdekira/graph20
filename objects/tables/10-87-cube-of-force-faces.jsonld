@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.87",
     "heading": "Cube of Force",
-    "lineStart": 15315,
-    "lineEnd": 15322
+    "lineStart": 15277,
+    "lineEnd": 15284,
+    "caption": "Cube of Force Faces"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-87-cube-of-force-faces/"
   },
   "columns": [
     "Spell",

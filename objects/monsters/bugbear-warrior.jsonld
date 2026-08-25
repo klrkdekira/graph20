@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.50",
     "heading": "Bugbear Warrior",
-    "lineStart": 19431,
-    "lineEnd": 19459
+    "lineStart": 19354,
+    "lineEnd": 19382
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/bugbear-warrior/"
   },
   "sizeTypeAlignment": "Medium Fey (Goblinoid), Chaotic Evil",
   "sizeAndType": "Medium Fey (Goblinoid)",
+  "size": "Medium",
+  "creatureType": "Fey",
+  "descriptiveTags": [
+    "Goblinoid"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "14",
   "initiative": "+2 (12)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.50",
         "heading": "Traits",
-        "lineStart": 19451,
-        "lineEnd": 19453
+        "lineStart": 19374,
+        "lineEnd": 19376
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.50",
         "heading": "Actions",
-        "lineStart": 19455,
-        "lineEnd": 19459
+        "lineStart": 19378,
+        "lineEnd": 19382
       }
     }
   ],
@@ -100,6 +109,42 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/light-hammer"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Stealth",
+      "bonus": 6
+    },
+    {
+      "name": "Survival",
+      "bonus": 2
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Common",
+    "Goblin"
+  ],
+  "gearItems": [
+    {
+      "name": "Hide Armor"
+    },
+    {
+      "name": "Light Hammers",
+      "quantity": 3
     }
   ],
   "attacks": [

@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.140",
     "heading": "Horn of Valhalla",
-    "lineStart": 15951,
-    "lineEnd": 15956
+    "lineStart": 15913,
+    "lineEnd": 15918,
+    "caption": "Horn of Valhalla Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-140-horn-of-valhalla-table-1/"
   },
   "columns": [
     "1d100",

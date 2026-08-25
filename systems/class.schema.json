@@ -29,6 +29,16 @@
       "items": { "$ref": "common.schema.json#/$defs/NodeReference" }
     },
     "spellList": { "$ref": "common.schema.json#/$defs/NodeReference" },
+    "eldritchInvocations": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "common.schema.json#/$defs/NodeReference" }
+    },
+    "metamagicOptions": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "common.schema.json#/$defs/NodeReference" }
+    },
     "relatedTables": {
       "type": "array",
       "minItems": 1,

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.185",
     "heading": "Guidance",
-    "lineStart": 9757,
-    "lineEnd": 9766
+    "lineStart": 9728,
+    "lineEnd": 9737
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/guidance/"
   },
   "level": 0,
   "school": "Divination",
@@ -35,5 +38,23 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

@@ -10,9 +10,13 @@
   "sourceLocator": {
     "chapter": "Equipment",
     "section": "6.31",
-    "heading": "Armor",
-    "lineStart": 6070,
-    "lineEnd": 6088
+    "heading": "One at a Time",
+    "lineStart": 6046,
+    "lineEnd": 6064,
+    "caption": "Armor"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/scale-mail/"
   },
   "equipmentType": "armor",
   "fromTable": {
@@ -23,6 +27,7 @@
   "armorClass": "14 + Dex modifier (max 2)",
   "stealthEffect": "Disadvantage",
   "weight": "45 lb.",
+  "weightPounds": 45,
   "cost": {
     "text": "50 GP",
     "currency": "GP",

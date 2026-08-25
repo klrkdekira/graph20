@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.157",
     "heading": "Fire Storm",
-    "lineStart": 9294,
-    "lineEnd": 9305
+    "lineStart": 9265,
+    "lineEnd": 9276
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/fire-storm/"
   },
   "level": 7,
   "school": "Evocation",
@@ -38,6 +41,16 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "A storm of fire appears within range. The area of the storm consists of up to ten 10-foot Cubes, which you arrange as you like. Each Cube must be contiguous with at least one other Cube. Each creature in the area makes a Dexterity saving throw, taking 7d10 Fire damage on a failed save or half as much damage on a successful one.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Fire",
@@ -50,5 +63,35 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "150 feet",
+    "kind": "Distance",
+    "distanceFeet": 150
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cube",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+      },
+      "sourceText": "Each Cube must be contiguous with at least one other Cube."
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+    }
+  ]
 }

@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.25",
     "heading": "Sorcerer Class Features",
-    "lineStart": 3970,
-    "lineEnd": 3992
+    "lineStart": 3960,
+    "lineEnd": 3982,
+    "caption": "Sorcerer Features"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-25-sorcerer-features/"
   },
   "columns": [
     "Level",

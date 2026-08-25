@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.10",
     "heading": "Weapons",
-    "lineStart": 14556,
-    "lineEnd": 14560
+    "lineStart": 14518,
+    "lineEnd": 14522
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/10-10-weapons/"
   },
   "section": "10.10",
   "rulesText": "A magic weapon is typically a magical version of a weapon from “Equipment.” Some magic weapons specify the type of weapon they are in their descriptions, such as a Longsword or Longbow. If no weapon type is specified, you may choose the type or determine it randomly.\n\nAmmunition. If a magic weapon has the Ammunition property, ammunition fired from it is considered magical for the purpose of any rule that cares whether a weapon is magical or not."

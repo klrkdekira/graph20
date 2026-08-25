@@ -11,8 +11,11 @@
     "chapter": "Playing the Game",
     "section": "1.100",
     "heading": "Immunity",
-    "lineStart": 785,
-    "lineEnd": 787
+    "lineStart": 783,
+    "lineEnd": 785
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-100-immunity/"
   },
   "section": "1.100",
   "rulesText": "Some creatures and objects have Immunity to certain damage types and conditions. Immunity to a damage type means you don't take damage of that type, and Immunity to a condition means you aren't affected by it."

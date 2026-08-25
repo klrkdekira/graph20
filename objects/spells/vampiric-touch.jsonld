@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.355",
     "heading": "Vampiric Touch",
-    "lineStart": 12357,
-    "lineEnd": 12372
+    "lineStart": 12328,
+    "lineEnd": 12343
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/vampiric-touch/"
   },
   "level": 3,
   "school": "Necromancy",
@@ -49,5 +52,23 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.193",
     "heading": "Healing Word",
-    "lineStart": 9887,
-    "lineEnd": 9898
+    "lineStart": 9858,
+    "lineEnd": 9869
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/healing-word/"
   },
   "level": 1,
   "school": "Abjuration",
@@ -39,5 +42,21 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V",
+    "verbal": true,
+    "somatic": false,
+    "material": false
+  }
 }

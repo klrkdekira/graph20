@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.160",
     "heading": "Mephits",
-    "lineStart": 22978,
-    "lineEnd": 22978
+    "lineStart": 22898,
+    "lineEnd": 22898
   },
-  "section": "12.160"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-160-mephits/"
+  },
+  "section": "12.160",
+  "rulesText": "Mephits",
+  "headingOnly": true
 }

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.129",
     "heading": "Dream",
-    "lineStart": 8835,
-    "lineEnd": 8850
+    "lineStart": 8806,
+    "lineEnd": 8821
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/dream/"
   },
   "level": 5,
   "school": "Illusion",
@@ -38,6 +41,15 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "You can make the messenger terrifying to the target. If you do so, the messenger can deliver a message of no more than ten words, and then the target makes a Wisdom saving throw. On a failed save, the target gains no benefit from its rest, and it takes 3d6 Psychic damage when it wakes up.",
+      "outcomes": [
+        "FailureEffect"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Psychic",
@@ -50,5 +62,25 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Special",
+    "kind": "Special"
+  },
+  "durationDetails": {
+    "text": "8 hours",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 8,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a handful of sand)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a handful of sand",
+    "consumed": false
+  }
 }

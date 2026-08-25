@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.39",
     "heading": "Ammunition of Slaying",
-    "lineStart": 14810,
-    "lineEnd": 14826
+    "lineStart": 14772,
+    "lineEnd": 14788
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/ammunition-of-slaying/"
   },
   "itemCategory": "Weapon",
   "categoryDetail": "Any Ammunition",
@@ -23,5 +26,7 @@
       "@id": "https://cheeleong.dev/graph20/objects/tables/10-39-ammunition-of-slaying-table-1"
     }
   ],
-  "rulesText": "Weapon (Any Ammunition), Very Rare\n\nThis magic ammunition is meant to slay creatures of a particular type, which the GM chooses or determines randomly by rolling on the table below. If a creature of that type takes damage from the ammunition, the creature makes a DC 17 Constitution saving throw, taking an extra 6d10 Force damage on a failed save or half as much extra damage on a successful one.\n\nAfter dealing its extra damage to a creature, the ammunition becomes nonmagical."
+  "rulesText": "Weapon (Any Ammunition), Very Rare\n\nThis magic ammunition is meant to slay creatures of a particular type, which the GM chooses or determines randomly by rolling on the table below. If a creature of that type takes damage from the ammunition, the creature makes a DC 17 Constitution saving throw, taking an extra 6d10 Force damage on a failed save or half as much extra damage on a successful one.\n\nAfter dealing its extra damage to a creature, the ammunition becomes nonmagical.",
+  "isCursed": false,
+  "isSentient": false
 }

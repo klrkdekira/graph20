@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.243",
     "heading": "Message",
-    "lineStart": 10620,
-    "lineEnd": 10631
+    "lineStart": 10591,
+    "lineEnd": 10602
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/message/"
   },
   "level": 0,
   "school": "Transmutation",
@@ -43,5 +46,26 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "1 round",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "round"
+  },
+  "componentDetails": {
+    "text": "S, M (a copper wire)",
+    "verbal": false,
+    "somatic": true,
+    "material": true,
+    "materialText": "a copper wire",
+    "consumed": false
+  }
 }

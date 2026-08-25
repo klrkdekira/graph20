@@ -11,8 +11,11 @@
     "chapter": "Rules Glossary",
     "section": "8.123",
     "heading": "Ritual",
-    "lineStart": 13516,
-    "lineEnd": 13518
+    "lineStart": 13480,
+    "lineEnd": 13482
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-123-ritual/"
   },
   "section": "8.123",
   "rulesText": "If you have a spell prepared that has the Ritual tag, you can cast that spell as a Ritual. The Ritual version of a spell takes 10 minutes longer to cast than normal. It also doesn't expend a spell slot, which means the ritual version of a spell can't be cast at a higher level. See also \"Spells.\""

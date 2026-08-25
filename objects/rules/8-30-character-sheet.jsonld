@@ -11,9 +11,22 @@
     "chapter": "Rules Glossary",
     "section": "8.30",
     "heading": "Character Sheet",
-    "lineStart": 12883,
-    "lineEnd": 12885
+    "lineStart": 12850,
+    "lineEnd": 12852
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-30-character-sheet/"
   },
   "section": "8.30",
-  "rulesText": "A character sheet is a paper or digital record that you use to track your character's information. See also \"Character Creation.\""
+  "rulesText": "A character sheet is a paper or digital record that you use to track your character's information. See also \"Character Creation.\"",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/2-1-character-creation"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/2-1-character-creation"
+    }
+  ]
 }

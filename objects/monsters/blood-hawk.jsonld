@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.10",
     "heading": "Blood Hawk",
-    "lineStart": 26872,
-    "lineEnd": 26897
+    "lineStart": 26786,
+    "lineEnd": 26811
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/blood-hawk/"
   },
   "sizeTypeAlignment": "Small Beast, Unaligned",
   "sizeAndType": "Small Beast",
+  "size": "Small",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "12",
   "initiative": "+2 (12)",
@@ -75,8 +81,8 @@
         "chapter": "Animals",
         "section": "13.10",
         "heading": "Traits",
-        "lineStart": 26891,
-        "lineEnd": 26893
+        "lineStart": 26805,
+        "lineEnd": 26807
       }
     },
     {
@@ -86,12 +92,29 @@
         "chapter": "Animals",
         "section": "13.10",
         "heading": "Actions",
-        "lineStart": 26895,
-        "lineEnd": 26897
+        "lineStart": 26809,
+        "lineEnd": 26811
       }
     }
   ],
   "rulesText": "Small Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 7 (2d6)\nSpeed 10 ft., Fly 60 ft.\n\nSkills Perception +6\nSenses Passive Perception 16\nLanguages None\nCR 1/8 (XP 25; PB +2)\n\nTraits\n\nPack Tactics. The hawk has Advantage on an attack roll against a creature if at least one of the hawk's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBeak. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage, or 6 (1d8 + 2) Piercing damage if the target is Bloodied.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 10
+    },
+    {
+      "mode": "Fly",
+      "feet": 60
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 6
+    }
+  ],
+  "passivePerception": 16,
   "attacks": [
     {
       "name": "Beak",

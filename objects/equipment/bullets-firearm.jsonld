@@ -1,0 +1,52 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/bullets-firearm",
+  "@type": "Equipment",
+  "name": "Bullets, Firearm",
+  "slug": "bullets-firearm",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.64",
+    "heading": "Ammunition (Varies)",
+    "lineStart": 6411,
+    "lineEnd": 6417,
+    "caption": "Ammunition"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/bullets-firearm/"
+  },
+  "equipmentType": "ammunition",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-64-ammunition"
+  },
+  "quantity": "10",
+  "storage": "Pouch",
+  "weight": "2 lb.",
+  "weightPounds": 2,
+  "cost": {
+    "text": "3 GP",
+    "currency": "GP",
+    "amount": 3
+  },
+  "attributes": [
+    {
+      "name": "Amount",
+      "value": "10"
+    },
+    {
+      "name": "Storage",
+      "value": "Pouch"
+    },
+    {
+      "name": "Weight",
+      "value": "2 lb."
+    },
+    {
+      "name": "Cost",
+      "value": "3 GP"
+    }
+  ]
+}

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.341",
     "heading": "Teleportation Circle",
-    "lineStart": 12135,
-    "lineEnd": 12150
+    "lineStart": 12106,
+    "lineEnd": 12121
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/teleportation-circle/"
   },
   "level": 5,
   "school": "Conjuration",
@@ -43,5 +46,31 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "10 feet",
+    "kind": "Distance",
+    "distanceFeet": 10
+  },
+  "durationDetails": {
+    "text": "1 round",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "round"
+  },
+  "componentDetails": {
+    "text": "V, M (rare inks worth 50+ GP, which the spell consumes)",
+    "verbal": true,
+    "somatic": false,
+    "material": true,
+    "materialText": "rare inks worth 50+ GP, which the spell consumes",
+    "consumed": true,
+    "materialCost": {
+      "text": "50 GP",
+      "currency": "GP",
+      "amount": 50
+    }
+  }
 }

@@ -20,6 +20,8 @@ def main():
     registry = load_json(root / "objects/sources/extraction-overrides.json")
     errors = []
     total = 0
+    if registry.get("validatedSourceDigest") != current_digest:
+        errors.append(f"registry validatedSourceDigest does not match {SOURCE_FILE}")
     for review in registry.get("anomalyReviews", []):
         for required in (
             "observedTokens",
@@ -39,8 +41,6 @@ def main():
             errors.append(f"{review['id']}: unreviewed status {review['status']!r}")
         if not isinstance(review.get("affectedCount"), int) or review["affectedCount"] < 1:
             errors.append(f"{review['id']}: affectedCount must be a positive integer")
-        if review.get("postRepairDigest") != current_digest:
-            errors.append(f"{review['id']}: postRepairDigest does not match {SOURCE_FILE}")
         if len(hits) != expected:
             lines = [text.count("\n", 0, hit.start()) + 1 for hit in hits[:8]]
             errors.append(

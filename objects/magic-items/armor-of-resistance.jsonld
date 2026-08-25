@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.47",
     "heading": "Armor of Resistance",
-    "lineStart": 14903,
-    "lineEnd": 14915
+    "lineStart": 14865,
+    "lineEnd": 14877
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/armor-of-resistance/"
   },
   "itemCategory": "Armor",
   "categoryDetail": "Any Light, Medium, or Heavy",
@@ -24,5 +27,7 @@
       "@id": "https://cheeleong.dev/graph20/objects/tables/10-47-armor-of-resistance-table-1"
     }
   ],
-  "rulesText": "Armor (Any Light, Medium, or Heavy), Rare (Requires Attunement)\n\nYou have Resistance to one type of damage while you wear this armor. The GM chooses the type or determines it randomly by rolling on the following table."
+  "rulesText": "Armor (Any Light, Medium, or Heavy), Rare (Requires Attunement)\n\nYou have Resistance to one type of damage while you wear this armor. The GM chooses the type or determines it randomly by rolling on the following table.",
+  "isCursed": false,
+  "isSentient": false
 }

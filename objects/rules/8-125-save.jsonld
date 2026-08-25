@@ -11,9 +11,22 @@
     "chapter": "Rules Glossary",
     "section": "8.125",
     "heading": "Save",
-    "lineStart": 13524,
-    "lineEnd": 13526
+    "lineStart": 13488,
+    "lineEnd": 13490
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-125-save/"
   },
   "section": "8.125",
-  "rulesText": "Save is another name for a saving throw. See also \"Saving Throw.\""
+  "rulesText": "Save is another name for a saving throw. See also \"Saving Throw.\"",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-126-saving-throw"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-126-saving-throw"
+    }
+  ]
 }

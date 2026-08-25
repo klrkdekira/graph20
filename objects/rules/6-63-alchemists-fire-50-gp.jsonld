@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.63",
     "heading": "Alchemist's Fire (50 GP)",
-    "lineStart": 6338,
-    "lineEnd": 6340
+    "lineStart": 6314,
+    "lineEnd": 6316
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-63-alchemists-fire-50-gp/"
   },
   "section": "6.63",
   "rulesText": "When you take the Attack action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 1d4 Fire damage and start burning (see “Rules Glossary”)."

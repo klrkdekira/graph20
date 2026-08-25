@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.2",
     "heading": "Barbarian Class Features",
-    "lineStart": 1515,
-    "lineEnd": 1536
+    "lineStart": 1508,
+    "lineEnd": 1529,
+    "caption": "Barbarian Features"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-2-barbarian-features/"
   },
   "columns": [
     "Level",

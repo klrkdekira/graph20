@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.92",
     "heading": "Fungi",
-    "lineStart": 20841,
-    "lineEnd": 20841
+    "lineStart": 20761,
+    "lineEnd": 20761
   },
-  "section": "12.92"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-92-fungi/"
+  },
+  "section": "12.92",
+  "rulesText": "Fungi",
+  "headingOnly": true
 }

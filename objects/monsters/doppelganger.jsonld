@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.77",
     "heading": "Doppelganger",
-    "lineStart": 20277,
-    "lineEnd": 20311
+    "lineStart": 20197,
+    "lineEnd": 20231
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/doppelganger/"
   },
   "sizeTypeAlignment": "Medium Monstrosity, Neutral",
   "sizeAndType": "Medium Monstrosity",
+  "size": "Medium",
+  "creatureType": "Monstrosity",
+  "monsterCategory": "Monster",
   "alignment": "Neutral",
   "armorClass": "14",
   "initiative": "+4 (14)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.77",
         "heading": "Actions",
-        "lineStart": 20299,
-        "lineEnd": 20307
+        "lineStart": 20219,
+        "lineEnd": 20227
       }
     },
     {
@@ -88,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.77",
         "heading": "Bonus Actions",
-        "lineStart": 20309,
-        "lineEnd": 20311
+        "lineStart": 20229,
+        "lineEnd": 20231
       }
     }
   ],
@@ -98,6 +104,32 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Deception",
+      "bonus": 6
+    },
+    {
+      "name": "Insight",
+      "bonus": 3
+    }
+  ],
+  "passivePerception": 11,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Common plus three other languages"
   ],
   "attacks": [
     {

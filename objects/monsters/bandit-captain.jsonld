@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.19",
     "heading": "Bandit Captain",
-    "lineStart": 18416,
-    "lineEnd": 18446
+    "lineStart": 18348,
+    "lineEnd": 18378
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/bandit-captain/"
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
+  "size": "Medium or Small",
+  "creatureType": "Humanoid",
+  "monsterCategory": "Monster",
   "alignment": "Neutral",
   "armorClass": "15",
   "initiative": "+3 (13)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.19",
         "heading": "Actions",
-        "lineStart": 18436,
-        "lineEnd": 18442
+        "lineStart": 18368,
+        "lineEnd": 18374
       }
     },
     {
@@ -88,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.19",
         "heading": "Reactions",
-        "lineStart": 18444,
-        "lineEnd": 18446
+        "lineStart": 18376,
+        "lineEnd": 18378
       }
     }
   ],
@@ -103,6 +109,38 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/studded-leather-armor"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Athletics",
+      "bonus": 4
+    },
+    {
+      "name": "Deception",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 10,
+  "languageList": [
+    "Common",
+    "Thieves' Cant"
+  ],
+  "gearItems": [
+    {
+      "name": "Pistol"
+    },
+    {
+      "name": "Scimitar"
+    },
+    {
+      "name": "Studded Leather Armor"
     }
   ],
   "attacks": [

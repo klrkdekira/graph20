@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.96",
     "heading": "Flask (2 CP)",
-    "lineStart": 6590,
-    "lineEnd": 6592
+    "lineStart": 6563,
+    "lineEnd": 6565
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-96-flask-2-cp/"
   },
   "section": "6.96",
   "rulesText": "A Flask holds up to 1 pint."

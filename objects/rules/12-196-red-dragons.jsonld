@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.196",
     "heading": "Red Dragons",
-    "lineStart": 24105,
-    "lineEnd": 24105
+    "lineStart": 24025,
+    "lineEnd": 24025
   },
-  "section": "12.196"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-196-red-dragons/"
+  },
+  "section": "12.196",
+  "rulesText": "Red Dragons",
+  "headingOnly": true
 }

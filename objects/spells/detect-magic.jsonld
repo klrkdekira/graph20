@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.112",
     "heading": "Detect Magic",
-    "lineStart": 8577,
-    "lineEnd": 8588
+    "lineStart": 8548,
+    "lineEnd": 8559
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/detect-magic/"
   },
   "level": 1,
   "school": "Divination",
@@ -59,5 +62,23 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": true
+  "ritual": true,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.228",
     "heading": "Mage Hand",
-    "lineStart": 10382,
-    "lineEnd": 10397
+    "lineStart": 10353,
+    "lineEnd": 10368
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/mage-hand/"
   },
   "level": 0,
   "school": "Conjuration",
@@ -43,5 +46,24 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "1 minute",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

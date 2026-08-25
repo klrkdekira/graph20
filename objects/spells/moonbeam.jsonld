@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.253",
     "heading": "Moonbeam",
-    "lineStart": 10770,
-    "lineEnd": 10783
+    "lineStart": 10741,
+    "lineEnd": 10754
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/moonbeam/"
   },
   "level": 2,
   "school": "Evocation",
@@ -30,6 +33,16 @@
     }
   ],
   "savingThrowAbility": "Constitution",
+  "savingThrows": [
+    {
+      "ability": "Constitution",
+      "sourceText": "When the Cylinder appears, each creature in it makes a Constitution saving throw. On a failed save, a creature takes 2d10 Radiant damage, and if the creature is shape-shifted (as a result of the Polymorph spell, for example), it reverts to its true form and can't shape-shift until it leaves the Cylinder. On a successful save, a creature takes half as much damage only. A creature also makes this save when the spell's area moves into its space and when it enters the spell's area or ends its turn there. A creature makes this save only once per turn.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Radiant",
@@ -42,5 +55,49 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a moonseed leaf)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a moonseed leaf",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cylinder",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cylinder"
+      },
+      "sourceText": "A silvery beam of pale light shines down in a 5-foot-radius, 40-foot-high Cylinder centered on a point within range.",
+      "radiusFeet": 5,
+      "heightFeet": 40
+    },
+    {
+      "shape": "Cylinder",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cylinder"
+      },
+      "sourceText": "When the Cylinder appears, each creature in it makes a Constitution saving throw."
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cylinder"
+    }
+  ]
 }

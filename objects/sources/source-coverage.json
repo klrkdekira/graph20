@@ -6,21 +6,27 @@
     "lineEnd": 28,
     "reason": "Legal Information and Contents navigation preamble; license and attribution preserved in the source record."
   },
-  "contentLines": 18047,
+  "contentLines": 18016,
   "uncoveredLines": [],
   "recordCounts": {
-    "rules": 736,
-    "tables": 235,
+    "rules": 708,
+    "actions": 12,
+    "areas-of-effect": 6,
+    "attitudes": 3,
+    "hazards": 5,
+    "tables": 224,
     "classes": 12,
     "subclasses": 12,
+    "invocations": 28,
+    "metamagic-options": 10,
     "species": 9,
     "backgrounds": 4,
     "feats": 17,
-    "equipment": 133,
+    "equipment": 227,
     "spells": 339,
     "conditions": 15,
     "magic-items": 258,
     "monsters": 336
   },
-  "recordsWithLocators": 2106
+  "recordsWithLocators": 2225
 }

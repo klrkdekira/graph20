@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.209",
     "heading": "Imprisonment",
-    "lineStart": 10105,
-    "lineEnd": 10132
+    "lineStart": 10076,
+    "lineEnd": 10103
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/imprisonment/"
   },
   "level": 9,
   "school": "Abjuration",
@@ -34,9 +37,41 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "You create a magical restraint to hold a creature that you can see within range. The target must make a Wisdom saving throw. On a successful save, the target is unaffected, and it is immune to this",
+      "outcomes": [
+        "Partial"
+      ]
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": false,
   "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "Until dispelled",
+    "concentration": false,
+    "kind": "UntilDispelled"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a statuette of the target worth 5,000+ GP)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a statuette of the target worth 5,000+ GP",
+    "consumed": false,
+    "materialCost": {
+      "text": "5,000 GP",
+      "currency": "GP",
+      "amount": 5000
+    }
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"

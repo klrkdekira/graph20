@@ -10,15 +10,18 @@
   "sourceLocator": {
     "chapter": "Equipment",
     "section": "6.64",
-    "heading": "Adventuring Gear",
-    "lineStart": 6348,
-    "lineEnd": 6390
+    "heading": "Ammunition (Varies)",
+    "lineStart": 6324,
+    "lineEnd": 6407,
+    "caption": "Adventuring Gear"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/arcane-focus/"
   },
   "equipmentType": "gear",
   "fromTable": {
     "@id": "https://cheeleong.dev/graph20/objects/tables/6-64-adventuring-gear"
   },
-  "weight": "Varies",
   "relatedRules": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/rules/6-66-arcane-focus-varies"

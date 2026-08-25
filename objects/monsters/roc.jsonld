@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.202",
     "heading": "Roc",
-    "lineStart": 24296,
-    "lineEnd": 24327
+    "lineStart": 24216,
+    "lineEnd": 24247
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/roc/"
   },
   "sizeTypeAlignment": "Gargantuan Monstrosity, Unaligned",
   "sizeAndType": "Gargantuan Monstrosity",
+  "size": "Gargantuan",
+  "creatureType": "Monstrosity",
+  "monsterCategory": "Monster",
   "alignment": "Unaligned",
   "armorClass": "15",
   "initiative": "+8 (18)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.202",
         "heading": "Actions",
-        "lineStart": 24317,
-        "lineEnd": 24323
+        "lineStart": 24237,
+        "lineEnd": 24243
       }
     },
     {
@@ -87,12 +93,29 @@
         "chapter": "Monsters A-Z",
         "section": "12.202",
         "heading": "Bonus Actions",
-        "lineStart": 24325,
-        "lineEnd": 24327
+        "lineStart": 24245,
+        "lineEnd": 24247
       }
     }
   ],
   "rulesText": "Gargantuan Monstrosity, Unaligned\n\nAC 15\nInitiative +8 (18)\nHP 248 (16d20 + 80)\nSpeed 20 ft., Fly 120 ft.\n\nSkills Perception +8\nSenses Passive Perception 18\nLanguages None\nCR 11 (XP 7,200; PB +4)\n\nActions\n\nMultiattack. The roc makes two Beak attacks. It can replace one attack with a Talons attack.\n\nBeak. Melee Attack Roll: +13, reach 10 ft. Hit: 28 (3d12 + 9) Piercing damage.\n\nTalons. Melee Attack Roll: +13, reach 5 ft. Hit: 23 (4d6 + 9) Slashing damage. If the target is a Huge or smaller creature, it has the Grappled condition (escape DC 19) from both talons, and it has the Restrained condition until the grapple ends.\n\nBonus Actions\n\nSwoop (Recharge 5–6). If the roc has a creature Grappled, the roc flies up to half its Fly Speed without provoking Opportunity Attacks and drops that creature.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 20
+    },
+    {
+      "mode": "Fly",
+      "feet": 120
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 8
+    }
+  ],
+  "passivePerception": 18,
   "attacks": [
     {
       "name": "Beak",

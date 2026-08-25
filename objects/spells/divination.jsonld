@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.121",
     "heading": "Divination",
-    "lineStart": 8712,
-    "lineEnd": 8723
+    "lineStart": 8683,
+    "lineEnd": 8694
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/divination/"
   },
   "level": 4,
   "school": "Divination",
@@ -39,5 +42,27 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": true
+  "ritual": true,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (incense worth 25+ GP, which the spell consumes)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "incense worth 25+ GP, which the spell consumes",
+    "consumed": true,
+    "materialCost": {
+      "text": "25 GP",
+      "currency": "GP",
+      "amount": 25
+    }
+  }
 }

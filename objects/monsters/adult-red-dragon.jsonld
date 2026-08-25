@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.199",
     "heading": "Adult Red Dragon",
-    "lineStart": 24163,
-    "lineEnd": 24209
+    "lineStart": 24083,
+    "lineEnd": 24129
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/adult-red-dragon/"
   },
   "sizeTypeAlignment": "Huge Dragon (Chromatic), Chaotic Evil",
   "sizeAndType": "Huge Dragon (Chromatic)",
+  "size": "Huge",
+  "creatureType": "Dragon",
+  "descriptiveTags": [
+    "Chromatic"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "19",
   "initiative": "+12 (22)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.199",
         "heading": "Traits",
-        "lineStart": 24183,
-        "lineEnd": 24185
+        "lineStart": 24103,
+        "lineEnd": 24105
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.199",
         "heading": "Actions",
-        "lineStart": 24187,
-        "lineEnd": 24199
+        "lineStart": 24107,
+        "lineEnd": 24119
       }
     },
     {
@@ -99,12 +108,104 @@
         "chapter": "Monsters A-Z",
         "section": "12.199",
         "heading": "Legendary Actions",
-        "lineStart": 24201,
-        "lineEnd": 24209
+        "lineStart": 24121,
+        "lineEnd": 24129
       }
     }
   ],
   "rulesText": "Huge Dragon (Chromatic), Chaotic Evil\n\nAC 19\nInitiative +12 (22)\nHP 256 (19d12 + 133)\nSpeed 40 ft., Climb 40 ft., Fly 80 ft.\n\nSkills Perception +13, Stealth +6\nImmunities Fire\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 23\nLanguages Common, Draconic\nCR 17 (XP 18,000, or 20,000 in lair; PB +6)\n\nTraits\n\nLegendary Resistance (3/Day, or 4/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Spellcasting to cast Scorching Ray.\n\nRend. Melee Attack Roll: +14, reach 10 ft. Hit: 13 (1d10 + 8) Slashing damage plus 5 (2d4) Fire damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 21, each creature in a 60-foot Cone. Failure: 59 (17d6) Fire damage. Success: Half damage.\n\nSpellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 20, +12 to hit with spell attacks):\n\nAt Will: Command (level 2 version), Detect Magic, Scorching Ray\n\n1/Day: Fireball\n\nLegendary Actions\n\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nCommanding Presence. The dragon uses Spellcasting to cast Command (level 2 version). The dragon can't take this action again until the start of its next turn.\n\nFiery Rays. The dragon uses Spellcasting to cast Scorching Ray. The dragon can't take this action again until the start of its next turn.\n\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Climb",
+      "feet": 40
+    },
+    {
+      "mode": "Fly",
+      "feet": 80
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 13
+    },
+    {
+      "name": "Stealth",
+      "bonus": 6
+    }
+  ],
+  "passivePerception": 23,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 60
+    },
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Common",
+    "Draconic"
+  ],
+  "damageImmunities": [
+    "Fire"
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 20, +12 to hit with spell attacks):\n\nAt Will: Command (level 2 version), Detect Magic, Scorching Ray\n\n1/Day: Fireball",
+      "path": "statSections[1].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Command (level 2 version), Detect Magic, Scorching Ray",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/command"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/scorching-ray"
+            }
+          ]
+        },
+        {
+          "frequency": "1/Day",
+          "spellsText": "Fireball",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/fireball"
+            }
+          ]
+        }
+      ],
+      "ability": "Charisma",
+      "saveDC": 20,
+      "attackBonus": 12
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/command"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/scorching-ray"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/fireball"
+    }
+  ],
   "attacks": [
     {
       "name": "Rend",

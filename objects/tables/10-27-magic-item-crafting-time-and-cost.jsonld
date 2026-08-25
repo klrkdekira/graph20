@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.27",
     "heading": "Time and Cost",
-    "lineStart": 14688,
-    "lineEnd": 14694
+    "lineStart": 14650,
+    "lineEnd": 14656,
+    "caption": "Magic Item Crafting Time and Cost"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-27-magic-item-crafting-time-and-cost/"
   },
   "columns": [
     "Item Rarity",

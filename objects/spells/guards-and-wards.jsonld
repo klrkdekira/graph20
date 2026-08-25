@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.184",
     "heading": "Guards and Wards",
-    "lineStart": 9728,
-    "lineEnd": 9755
+    "lineStart": 9699,
+    "lineEnd": 9726
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/guards-and-wards/"
   },
   "level": 6,
   "school": "Abjuration",
@@ -35,5 +38,30 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "24 hours",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 24,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a silver rod worth 10+ GP)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a silver rod worth 10+ GP",
+    "consumed": false,
+    "materialCost": {
+      "text": "10 GP",
+      "currency": "GP",
+      "amount": 10
+    }
+  }
 }

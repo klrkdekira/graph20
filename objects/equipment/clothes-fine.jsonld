@@ -10,15 +10,20 @@
   "sourceLocator": {
     "chapter": "Equipment",
     "section": "6.64",
-    "heading": "Adventuring Gear",
-    "lineStart": 6348,
-    "lineEnd": 6390
+    "heading": "Ammunition (Varies)",
+    "lineStart": 6324,
+    "lineEnd": 6407,
+    "caption": "Adventuring Gear"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/clothes-fine/"
   },
   "equipmentType": "gear",
   "fromTable": {
     "@id": "https://cheeleong.dev/graph20/objects/tables/6-64-adventuring-gear"
   },
   "weight": "6 lb.",
+  "weightPounds": 6,
   "cost": {
     "text": "15 GP",
     "currency": "GP",

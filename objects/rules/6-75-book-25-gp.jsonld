@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.75",
     "heading": "Book (25 GP)",
-    "lineStart": 6496,
-    "lineEnd": 6498
+    "lineStart": 6469,
+    "lineEnd": 6471
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-75-book-25-gp/"
   },
   "section": "6.75",
   "rulesText": "A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic."

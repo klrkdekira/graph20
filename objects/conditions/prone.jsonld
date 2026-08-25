@@ -11,10 +11,23 @@
     "chapter": "Rules Glossary",
     "section": "8.117",
     "heading": "Prone [Condition]",
-    "lineStart": 13476,
-    "lineEnd": 13482
+    "lineStart": 13440,
+    "lineEnd": 13446
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/conditions/prone/"
   },
   "rulesText": "While you have the Prone condition, you experience the following effects.\n\nRestricted Movement. Your only movement options are to crawl or to spend an amount of movement equal to half your Speed (round down) to right yourself and thereby end the condition. If your Speed is 0, you can't right yourself.\n\nAttacks Affected. You have Disadvantage on attack rolls. An attack roll against you has Advantage if the attacker is within 5 feet of you. Otherwise, that attack roll has Disadvantage.",
+  "effects": [
+    {
+      "name": "Restricted Movement",
+      "rulesText": "Your only movement options are to crawl or to spend an amount of movement equal to half your Speed (round down) to right yourself and thereby end the condition. If your Speed is 0, you can't right yourself."
+    },
+    {
+      "name": "Attacks Affected",
+      "rulesText": "You have Disadvantage on attack rolls. An attack roll against you has Advantage if the attacker is within 5 feet of you. Otherwise, that attack roll has Disadvantage."
+    }
+  ],
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"

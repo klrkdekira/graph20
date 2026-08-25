@@ -11,8 +11,11 @@
     "chapter": "Monsters",
     "section": "11.14",
     "heading": "Resistances and Vulnerabilities",
-    "lineStart": 17826,
-    "lineEnd": 17828
+    "lineStart": 17767,
+    "lineEnd": 17769
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/11-14-resistances-and-vulnerabilities/"
   },
   "section": "11.14",
   "rulesText": "These entries list a monster's Resistances and Vulnerabilities, if any. See “Playing the Game” for more information."

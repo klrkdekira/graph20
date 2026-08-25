@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.178",
     "heading": "Glyph of Warding",
-    "lineStart": 9632,
-    "lineEnd": 9659
+    "lineStart": 9603,
+    "lineEnd": 9630
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/glyph-of-warding/"
   },
   "level": 3,
   "school": "Abjuration",
@@ -38,7 +41,50 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "Explosive Rune. When triggered, the glyph erupts with magical energy in a 20-foot-radius Sphere centered on the glyph. Each creature in the area makes a Dexterity saving throw. A creature takes 5d8 Acid, Cold, Fire, Lightning, or Thunder damage (your"
+    }
+  ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Until dispelled or triggered",
+    "concentration": false,
+    "kind": "Special"
+  },
+  "componentDetails": {
+    "text": "V, S, M (powdered diamond worth 200+ GP, which the spell consumes)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "powdered diamond worth 200+ GP, which the spell consumes",
+    "consumed": true,
+    "materialCost": {
+      "text": "200 GP",
+      "currency": "GP",
+      "amount": 200
+    }
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "When triggered, the glyph erupts with magical energy in a 20-foot-radius Sphere centered on the glyph.",
+      "radiusFeet": 20
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+    }
+  ]
 }

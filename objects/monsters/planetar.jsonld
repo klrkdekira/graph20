@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.188",
     "heading": "Planetar",
-    "lineStart": 23828,
-    "lineEnd": 23876
+    "lineStart": 23748,
+    "lineEnd": 23796
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/planetar/"
   },
   "sizeTypeAlignment": "Large Celestial (Angel), Lawful Good",
   "sizeAndType": "Large Celestial (Angel)",
+  "size": "Large",
+  "creatureType": "Celestial",
+  "descriptiveTags": [
+    "Angel"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Good",
   "armorClass": "19",
   "initiative": "+10 (20)",
@@ -78,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.188",
         "heading": "Traits",
-        "lineStart": 23851,
-        "lineEnd": 23857
+        "lineStart": 23771,
+        "lineEnd": 23777
       }
     },
     {
@@ -89,8 +98,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.188",
         "heading": "Actions",
-        "lineStart": 23859,
-        "lineEnd": 23872
+        "lineStart": 23779,
+        "lineEnd": 23792
       }
     },
     {
@@ -100,8 +109,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.188",
         "heading": "Bonus Actions",
-        "lineStart": 23874,
-        "lineEnd": 23876
+        "lineStart": 23794,
+        "lineEnd": 23796
       }
     }
   ],
@@ -115,6 +124,91 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Fly",
+      "feet": 120,
+      "hover": true
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 11
+    }
+  ],
+  "passivePerception": 21,
+  "senseModes": [
+    {
+      "name": "Truesight",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "All",
+    "telepathy 120 ft."
+  ],
+  "damageResistances": [
+    "Radiant"
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The planetar casts one of the following spells, requiring no Material components and using Charisma as spellcasting ability (spell save DC 20):\n\nAt Will: Detect Evil and Good\n\n1/Day Each: Commune, Control Weather, Dispel Evil and Good, Raise Dead",
+      "path": "statSections[1].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Detect Evil and Good",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/detect-evil-and-good"
+            }
+          ]
+        },
+        {
+          "frequency": "1/Day Each",
+          "spellsText": "Commune, Control Weather, Dispel Evil and Good, Raise Dead",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/commune"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/control-weather"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-evil-and-good"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/raise-dead"
+            }
+          ]
+        }
+      ],
+      "saveDC": 20
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-evil-and-good"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/commune"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/control-weather"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-evil-and-good"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/raise-dead"
     }
   ],
   "attacks": [

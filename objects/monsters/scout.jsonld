@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.209",
     "heading": "Scout",
-    "lineStart": 24510,
-    "lineEnd": 24539
+    "lineStart": 24430,
+    "lineEnd": 24459
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/scout/"
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
+  "size": "Medium or Small",
+  "creatureType": "Humanoid",
+  "monsterCategory": "Monster",
   "alignment": "Neutral",
   "armorClass": "13",
   "initiative": "+2 (12)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.209",
         "heading": "Actions",
-        "lineStart": 24532,
-        "lineEnd": 24539
+        "lineStart": 24452,
+        "lineEnd": 24459
       }
     }
   ],
@@ -92,6 +98,45 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/shortsword"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Nature",
+      "bonus": 4
+    },
+    {
+      "name": "Perception",
+      "bonus": 5
+    },
+    {
+      "name": "Stealth",
+      "bonus": 6
+    },
+    {
+      "name": "Survival",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 15,
+  "languageList": [
+    "Common plus one other language"
+  ],
+  "gearItems": [
+    {
+      "name": "Leather Armor"
+    },
+    {
+      "name": "Longbow"
+    },
+    {
+      "name": "Shortsword"
     }
   ],
   "attacks": [

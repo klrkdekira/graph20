@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.161",
     "heading": "Dust Mephit",
-    "lineStart": 22980,
-    "lineEnd": 23011
+    "lineStart": 22900,
+    "lineEnd": 22931
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/dust-mephit/"
   },
   "sizeTypeAlignment": "Small Elemental, Neutral Evil",
   "sizeAndType": "Small Elemental",
+  "size": "Small",
+  "creatureType": "Elemental",
+  "monsterCategory": "Monster",
   "alignment": "Neutral Evil",
   "armorClass": "12",
   "initiative": "+2 (12)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.161",
         "heading": "Traits",
-        "lineStart": 23001,
-        "lineEnd": 23003
+        "lineStart": 22921,
+        "lineEnd": 22923
       }
     },
     {
@@ -88,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.161",
         "heading": "Actions",
-        "lineStart": 23005,
-        "lineEnd": 23011
+        "lineStart": 22925,
+        "lineEnd": 22931
       }
     }
   ],
@@ -101,6 +107,43 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Fly",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 2
+    },
+    {
+      "name": "Stealth",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 12,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Primordial (Auran",
+    "Terran)"
+  ],
+  "damageImmunities": [
+    "Poison"
+  ],
+  "damageVulnerabilities": [
+    "Fire"
   ],
   "attacks": [
     {

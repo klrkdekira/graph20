@@ -11,8 +11,11 @@
     "chapter": "Feats",
     "section": "5.13",
     "heading": "Archery",
-    "lineStart": 5765,
-    "lineEnd": 5769
+    "lineStart": 5741,
+    "lineEnd": 5745
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/feats/archery/"
   },
   "category": "Fighting Style",
   "prerequisite": "Fighting Style Feature",

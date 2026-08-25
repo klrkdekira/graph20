@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.32",
     "heading": "Wizard Spell List",
-    "lineStart": 5300,
-    "lineEnd": 5313
+    "lineStart": 5276,
+    "lineEnd": 5289,
+    "caption": "Level 9 Wizard Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-32-level-9-wizard-spells/"
   },
   "columns": [
     "Spell",

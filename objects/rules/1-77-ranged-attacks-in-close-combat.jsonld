@@ -11,8 +11,11 @@
     "chapter": "Playing the Game",
     "section": "1.77",
     "heading": "Ranged Attacks in Close Combat",
-    "lineStart": 671,
-    "lineEnd": 673
+    "lineStart": 669,
+    "lineEnd": 671
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-77-ranged-attacks-in-close-combat/"
   },
   "section": "1.77",
   "rulesText": "Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack roll with a weapon, a spell, or some other means, you have Disadvantage on the roll if you are within 5 feet of an enemy who can see you and doesn't have the Incapacitated condition (see “Rules Glossary”).",

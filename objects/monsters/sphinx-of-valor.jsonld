@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.228",
     "heading": "Sphinx of Valor",
-    "lineStart": 25108,
-    "lineEnd": 25161
+    "lineStart": 25028,
+    "lineEnd": 25081
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/sphinx-of-valor/"
   },
   "sizeTypeAlignment": "Large Celestial, Lawful Neutral",
   "sizeAndType": "Large Celestial",
+  "size": "Large",
+  "creatureType": "Celestial",
+  "monsterCategory": "Monster",
   "alignment": "Lawful Neutral",
   "armorClass": "17",
   "initiative": "+12 (22)",
@@ -78,8 +84,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.228",
         "heading": "Traits",
-        "lineStart": 25129,
-        "lineEnd": 25133
+        "lineStart": 25049,
+        "lineEnd": 25053
       }
     },
     {
@@ -89,8 +95,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.228",
         "heading": "Actions",
-        "lineStart": 25135,
-        "lineEnd": 25153
+        "lineStart": 25055,
+        "lineEnd": 25073
       }
     },
     {
@@ -100,8 +106,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.228",
         "heading": "Legendary Actions",
-        "lineStart": 25155,
-        "lineEnd": 25161
+        "lineStart": 25075,
+        "lineEnd": 25081
       }
     }
   ],
@@ -112,6 +118,115 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Fly",
+      "feet": 60
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Arcana",
+      "bonus": 9
+    },
+    {
+      "name": "Perception",
+      "bonus": 12
+    },
+    {
+      "name": "Religion",
+      "bonus": 15
+    }
+  ],
+  "passivePerception": 22,
+  "senseModes": [
+    {
+      "name": "Truesight",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Celestial",
+    "Common"
+  ],
+  "damageImmunities": [
+    "Psychic"
+  ],
+  "damageResistances": [
+    "Necrotic",
+    "Radiant"
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The sphinx casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 20):\n\nAt Will: Detect Evil and Good, Thaumaturgy\n\n1/Day Each: Detect Magic, Dispel Magic, Greater Restoration, Heroes' Feast, Zone of Truth",
+      "path": "statSections[1].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Detect Evil and Good, Thaumaturgy",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/detect-evil-and-good"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/thaumaturgy"
+            }
+          ]
+        },
+        {
+          "frequency": "1/Day Each",
+          "spellsText": "Detect Magic, Dispel Magic, Greater Restoration, Heroes' Feast, Zone of Truth",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-magic"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/greater-restoration"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/heroes-feast"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/zone-of-truth"
+            }
+          ]
+        }
+      ],
+      "ability": "Wisdom",
+      "saveDC": 20
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-evil-and-good"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/thaumaturgy"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/greater-restoration"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/heroes-feast"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/zone-of-truth"
     }
   ],
   "attacks": [

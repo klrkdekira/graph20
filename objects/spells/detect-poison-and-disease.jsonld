@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.113",
     "heading": "Detect Poison and Disease",
-    "lineStart": 8590,
-    "lineEnd": 8603
+    "lineStart": 8561,
+    "lineEnd": 8574
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/detect-poison-and-disease/"
   },
   "level": 1,
   "school": "Divination",
@@ -43,5 +46,25 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": true
+  "ritual": true,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a yew leaf)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a yew leaf",
+    "consumed": false
+  }
 }

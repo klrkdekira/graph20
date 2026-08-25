@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.220",
     "heading": "Ring of Three Wishes",
-    "lineStart": 16844,
-    "lineEnd": 16848
+    "lineStart": 16800,
+    "lineEnd": 16804
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/ring-of-three-wishes/"
   },
   "itemCategory": "Ring",
   "rarity": "Legendary",
@@ -22,5 +25,7 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/wish"
     }
-  ]
+  ],
+  "isCursed": false,
+  "isSentient": false
 }

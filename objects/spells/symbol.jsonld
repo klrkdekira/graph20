@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.337",
     "heading": "Symbol",
-    "lineStart": 12027,
-    "lineEnd": 12060
+    "lineStart": 11998,
+    "lineEnd": 12031
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/symbol/"
   },
   "level": 7,
   "school": "Abjuration",
@@ -42,6 +45,39 @@
     }
   ],
   "savingThrowAbility": "Constitution",
+  "savingThrows": [
+    {
+      "ability": "Constitution",
+      "sourceText": "Death. Each target makes a Constitution saving throw, taking 10d10 Necrotic damage on a failed save or half as much damage on a successful save.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    },
+    {
+      "ability": "Wisdom",
+      "sourceText": "Discord. Each target makes a Wisdom saving throw. On a failed save, a target argues with other creatures for 1 minute. During this time, it is incapable of meaningful communication and has Disadvantage on attack rolls and ability checks.",
+      "outcomes": [
+        "FailureEffect"
+      ]
+    },
+    {
+      "ability": "Wisdom",
+      "sourceText": "Fear. Each target must succeed on a Wisdom saving throw or have the Frightened condition for 1 minute. While Frightened, the target must move at least 30 feet away from the glyph on each of its turns, if able."
+    },
+    {
+      "ability": "Constitution",
+      "sourceText": "Pain. Each target must succeed on a Constitution saving throw or have the Incapacitated condition for 1 minute."
+    },
+    {
+      "ability": "Wisdom",
+      "sourceText": "Sleep. Each target must succeed on a Wisdom saving throw or have the Unconscious condition for 10 minutes. A creature awakens if it takes damage or if someone takes an action to shake it awake."
+    },
+    {
+      "ability": "Wisdom",
+      "sourceText": "Stunning. Each target must succeed on a Wisdom saving throw or have the Stunned condition for 1 minute."
+    }
+  ],
   "damage": [
     {
       "damageType": "Necrotic",
@@ -55,6 +91,50 @@
   "scalesWithSlotLevel": false,
   "concentration": false,
   "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Until dispelled or triggered",
+    "concentration": false,
+    "kind": "Special"
+  },
+  "componentDetails": {
+    "text": "V, S, M (powdered diamond worth 1,000+ GP, which the spell consumes)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "powdered diamond worth 1,000+ GP, which the spell consumes",
+    "consumed": true,
+    "materialCost": {
+      "text": "1,000 GP",
+      "currency": "GP",
+      "amount": 1000
+    }
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "Once triggered, the glyph glows, filling a 60-foot-radius Sphere with Dim Light for 10",
+      "radiusFeet": 60
+    },
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "Each creature in the Sphere when the glyph activates is targeted by its effect, as is a creature that enters the Sphere for the first time on a turn or ends its turn there."
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+    }
+  ],
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"

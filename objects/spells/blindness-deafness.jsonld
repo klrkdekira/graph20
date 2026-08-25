@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.63",
     "heading": "Blindness/Deafness",
-    "lineStart": 7797,
-    "lineEnd": 7808
+    "lineStart": 7768,
+    "lineEnd": 7779
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/blindness-deafness/"
   },
   "level": 2,
   "school": "Transmutation",
@@ -42,9 +45,37 @@
     }
   ],
   "savingThrowAbility": "Constitution",
+  "savingThrows": [
+    {
+      "ability": "Constitution",
+      "sourceText": "One creature that you can see within range must succeed on a Constitution saving throw, or it has the Blinded or Deafened condition (your choice) for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.",
+      "outcomes": [
+        "Partial"
+      ]
+    }
+  ],
   "scalesWithSlotLevel": true,
   "concentration": false,
   "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "1 minute",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V",
+    "verbal": true,
+    "somatic": false,
+    "material": false
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/deafened"

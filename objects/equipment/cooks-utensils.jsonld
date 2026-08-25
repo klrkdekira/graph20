@@ -1,0 +1,39 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/cooks-utensils",
+  "@type": "Equipment",
+  "name": "Cook's Utensils",
+  "slug": "cooks-utensils",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.41",
+    "heading": "Cook's Utensils (1 GP)",
+    "lineStart": 6136,
+    "lineEnd": 6142
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/cooks-utensils/"
+  },
+  "equipmentType": "tool",
+  "fromRule": {
+    "@id": "https://cheeleong.dev/graph20/objects/rules/6-41-cooks-utensils-1-gp"
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-41-cooks-utensils-1-gp"
+    }
+  ],
+  "cost": {
+    "text": "1 GP",
+    "currency": "GP",
+    "amount": 1
+  },
+  "ability": "Wisdom",
+  "weight": "8 lb.",
+  "weightPounds": 8,
+  "utilize": "Improve food's flavor (DC 10), or detect spoiled or poisoned food (DC 15)",
+  "craft": "Rations"
+}

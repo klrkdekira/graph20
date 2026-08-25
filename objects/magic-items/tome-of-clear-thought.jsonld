@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.271",
     "heading": "Tome of Clear Thought",
-    "lineStart": 17477,
-    "lineEnd": 17481
+    "lineStart": 17418,
+    "lineEnd": 17422
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/tome-of-clear-thought/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Very Rare",
   "requiresAttunement": false,
-  "rulesText": "Wondrous Item, Very Rare\n\nThis book contains memory and logic exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Intelligence increases by 2, to a maximum of 30. The manual then loses its magic but regains it in a century."
+  "rulesText": "Wondrous Item, Very Rare\n\nThis book contains memory and logic exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Intelligence increases by 2, to a maximum of 30. The manual then loses its magic but regains it in a century.",
+  "isCursed": false,
+  "isSentient": false
 }

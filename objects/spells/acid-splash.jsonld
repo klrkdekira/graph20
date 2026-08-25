@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.31",
     "heading": "Acid Splash",
-    "lineStart": 7288,
-    "lineEnd": 7299
+    "lineStart": 7261,
+    "lineEnd": 7272
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/acid-splash/"
   },
   "level": 0,
   "school": "Evocation",
@@ -34,6 +37,12 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "You create an acidic bubble at a point within range, where it explodes in a 5-foot-radius Sphere. Each creature in that Sphere must succeed on a Dexterity saving throw or take 1d6 Acid damage."
+    }
+  ],
   "damage": [
     {
       "damageType": "Acid",
@@ -46,5 +55,36 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "You create an acidic bubble at a point within range, where it explodes in a 5-foot-radius Sphere.",
+      "radiusFeet": 5
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+    }
+  ]
 }

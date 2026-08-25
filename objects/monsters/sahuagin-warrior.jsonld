@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.206",
     "heading": "Sahuagin Warrior",
-    "lineStart": 24406,
-    "lineEnd": 24442
+    "lineStart": 24326,
+    "lineEnd": 24362
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/sahuagin-warrior/"
   },
   "sizeTypeAlignment": "Medium Fiend, Lawful Evil",
   "sizeAndType": "Medium Fiend",
+  "size": "Medium",
+  "creatureType": "Fiend",
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "12",
   "initiative": "+0 (10)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.206",
         "heading": "Traits",
-        "lineStart": 24426,
-        "lineEnd": 24432
+        "lineStart": 24346,
+        "lineEnd": 24352
       }
     },
     {
@@ -88,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.206",
         "heading": "Actions",
-        "lineStart": 24434,
-        "lineEnd": 24438
+        "lineStart": 24354,
+        "lineEnd": 24358
       }
     },
     {
@@ -99,12 +105,42 @@
         "chapter": "Monsters A-Z",
         "section": "12.206",
         "heading": "Bonus Actions",
-        "lineStart": 24440,
-        "lineEnd": 24442
+        "lineStart": 24360,
+        "lineEnd": 24362
       }
     }
   ],
   "rulesText": "Medium Fiend, Lawful Evil\n\nAC 12\nInitiative +0 (10)\nHP 22 (4d8 + 4)\nSpeed 30 ft., Swim 40 ft.\n\nSkills Perception +5\nResistances Acid, Cold\nSenses Darkvision 120 ft.; Passive Perception 15\nLanguages Sahuagin\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nBlood Frenzy. The sahuagin has Advantage on attack rolls against any creature that doesn't have all its Hit Points.\n\nLimited Amphibiousness. The sahuagin can breathe air and water, but it must be submerged at least once every 4 hours to avoid suffocating outside water.\n\nShark Telepathy. The sahuagin can magically control sharks within 120 feet of itself, using a special telepathy.\n\nActions\n\nMultiattack. The sahuagin makes two Claw attacks.\n\nClaw. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Slashing damage.\n\nBonus Actions\n\nAquatic Charge. The sahuagin swims up to its Swim Speed straight toward an enemy it can see.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Swim",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 15,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Sahuagin"
+  ],
+  "damageResistances": [
+    "Acid",
+    "Cold"
+  ],
   "attacks": [
     {
       "name": "Claw",

@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.29",
     "heading": "Warlock Spell List",
-    "lineStart": 4783,
-    "lineEnd": 4788
+    "lineStart": 4770,
+    "lineEnd": 4782,
+    "caption": "Level 3 Warlock Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-29-level-3-warlock-spells/"
   },
   "columns": [
     "Spell",
@@ -75,9 +79,107 @@
           "value": "C"
         }
       ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "Gaseous Form"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "Hypnotic Pattern"
+        },
+        {
+          "value": "Illusion"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Magic Circle"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Major Image"
+        },
+        {
+          "value": "Illusion"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Remove Curse"
+        },
+        {
+          "value": "Abjuration"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Tongues"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "Vampiric Touch"
+        },
+        {
+          "value": "Necromancy"
+        },
+        {
+          "value": "C"
+        }
+      ]
     }
   ],
-  "rawText": "| Spell        | School        | Special |\n| :----------- | :------------ | :------ |\n| Counterspell | Abjuration    |    -    |\n| Dispel Magic | Abjuration    |    -    |\n| Fear         | Illusion      | C       |\n| Fly          | Transmutation | C       |",
+  "rawText": "| Spell        | School        | Special |\n| :----------- | :------------ | :------ |\n| Counterspell | Abjuration    |    -    |\n| Dispel Magic | Abjuration    |    -    |\n| Fear         | Illusion      | C       |\n| Fly          | Transmutation | C       |\n| Gaseous Form     | Transmutation | C       |\n| Hypnotic Pattern | Illusion      | C       |\n| Magic Circle     | Abjuration    | M       |\n| Major Image      | Illusion      | C       |\n| Remove Curse     | Abjuration    |    -    |\n| Tongues          | Divination    |    -    |\n| Vampiric Touch   | Necromancy    | C       |",
   "listsSpell": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/counterspell"
@@ -90,6 +192,27 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/fly"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/gaseous-form"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/hypnotic-pattern"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/magic-circle"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/major-image"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/remove-curse"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/tongues"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/vampiric-touch"
     }
   ]
 }

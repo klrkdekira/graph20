@@ -1,0 +1,39 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/herbalism-kit",
+  "@type": "Equipment",
+  "name": "Herbalism Kit",
+  "slug": "herbalism-kit",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.56",
+    "heading": "Herbalism Kit (5 GP)",
+    "lineStart": 6260,
+    "lineEnd": 6268
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/herbalism-kit/"
+  },
+  "equipmentType": "tool",
+  "fromRule": {
+    "@id": "https://cheeleong.dev/graph20/objects/rules/6-56-herbalism-kit-5-gp"
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-56-herbalism-kit-5-gp"
+    }
+  ],
+  "cost": {
+    "text": "5 GP",
+    "currency": "GP",
+    "amount": 5
+  },
+  "ability": "Intelligence",
+  "weight": "3 lb.",
+  "weightPounds": 3,
+  "utilize": "Identify a plant (DC 10)",
+  "craft": "Antitoxin, Candle, Healer's Kit, Potion of Healing"
+}

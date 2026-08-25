@@ -11,14 +11,19 @@
     "chapter": "Magic Items",
     "section": "10.165",
     "heading": "Necklace of Adaptation",
-    "lineStart": 16313,
-    "lineEnd": 16317
+    "lineStart": 16269,
+    "lineEnd": 16273
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/necklace-of-adaptation/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
   "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile wearing this necklace, you can breathe normally in any environment, and you have Advantage on saving throws made to avoid or end the Poisoned condition.",
+  "isCursed": false,
+  "isSentient": false,
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"

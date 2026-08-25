@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.126",
     "heading": "Guards",
-    "lineStart": 21885,
-    "lineEnd": 21885
+    "lineStart": 21805,
+    "lineEnd": 21805
   },
-  "section": "12.126"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-126-guards/"
+  },
+  "section": "12.126",
+  "rulesText": "Guards",
+  "headingOnly": true
 }

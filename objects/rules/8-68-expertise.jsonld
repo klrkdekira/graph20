@@ -11,9 +11,22 @@
     "chapter": "Rules Glossary",
     "section": "8.68",
     "heading": "Expertise",
-    "lineStart": 13129,
-    "lineEnd": 13135
+    "lineStart": 13093,
+    "lineEnd": 13099
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-68-expertise/"
   },
   "section": "8.68",
-  "rulesText": "Expertise is a feature that enhances your use of a skill proficiency. When you make an ability check with a skill proficiency in which you have Expertise, your Proficiency Bonus is doubled for that check unless the bonus is doubled by another feature.\n\nIf you gain Expertise, you gain it in one skill in which you have proficiency. You can't have Expertise in the same skill proficiency more than once.\n\nSee also “Playing the Game” (“Proficiency”)."
+  "rulesText": "Expertise is a feature that enhances your use of a skill proficiency. When you make an ability check with a skill proficiency in which you have Expertise, your Proficiency Bonus is doubled for that check unless the bonus is doubled by another feature.\n\nIf you gain Expertise, you gain it in one skill in which you have proficiency. You can't have Expertise in the same skill proficiency more than once.\n\nSee also “Playing the Game” (“Proficiency”).",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    }
+  ]
 }

@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.150",
     "heading": "Luck Blade",
-    "lineStart": 16074,
-    "lineEnd": 16082
+    "lineStart": 16036,
+    "lineEnd": 16044
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/luck-blade/"
   },
   "itemCategory": "Weapon",
   "categoryDetail": "Glaive, Greatsword, Longsword, Rapier, Scimitar, Sickle, or Shortsword",
@@ -25,6 +28,16 @@
       "@id": "https://cheeleong.dev/graph20/objects/spells/wish"
     }
   ],
+  "charges": {
+    "capacityText": "1d3",
+    "capacityRoll": {
+      "expression": "1d3",
+      "count": 1,
+      "sides": 3
+    }
+  },
+  "isCursed": false,
+  "isSentient": false,
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"

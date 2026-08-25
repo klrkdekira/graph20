@@ -11,8 +11,11 @@
     "chapter": "Rules Glossary",
     "section": "8.38",
     "heading": "Crawling",
-    "lineStart": 12938,
-    "lineEnd": 12940
+    "lineStart": 12905,
+    "lineEnd": 12907
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-38-crawling/"
   },
   "section": "8.38",
   "rulesText": "While you're crawling, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain). See also \"Speed.\""

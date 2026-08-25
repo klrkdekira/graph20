@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.131",
     "heading": "Scholar's Pack (40 GP)",
-    "lineStart": 6756,
-    "lineEnd": 6758
+    "lineStart": 6729,
+    "lineEnd": 6731
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-131-scholars-pack-40-gp/"
   },
   "section": "6.131",
   "rulesText": "A Scholar's Pack contains the following items: Backpack, Book, Ink, Ink Pen, Lamp, 10 flasks of Oil, 10 sheets of Parchment, and Tinderbox."

@@ -22,7 +22,11 @@ def walk(value):
 
 def resolve_term(term, context):
     definition = context.get(term)
-    iri = definition.get("@id") if isinstance(definition, dict) else definition
+    iri = (
+        definition.get("@id") or definition.get("@reverse")
+        if isinstance(definition, dict)
+        else definition
+    )
     if not iri:
         return context["@vocab"] + term
     if ":" in iri and not iri.startswith(("http://", "https://")):
@@ -144,7 +148,10 @@ def main():
                     else f"Carries the {humanize(terms[0]).lower()} value."
                 ),
                 "valueKinds": sorted(data["valueKinds"] or {"not currently emitted"}),
-                "ranges": sorted(data["ranges"] or {"Literal or structured value"}),
+                "ranges": sorted(
+                    data["ranges"]
+                    or ({"IRI target (not currently emitted)"} if relationship else {"Literal or structured value"})
+                ),
             }
         )
     class_defs = [

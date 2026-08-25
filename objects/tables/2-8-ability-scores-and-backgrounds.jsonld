@@ -11,8 +11,12 @@
     "chapter": "Character Creation",
     "section": "2.8",
     "heading": "Choose a Background",
-    "lineStart": 929,
-    "lineEnd": 936
+    "lineStart": 924,
+    "lineEnd": 931,
+    "caption": "Ability Scores and Backgrounds"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/2-8-ability-scores-and-backgrounds/"
   },
   "columns": [
     "Ability",

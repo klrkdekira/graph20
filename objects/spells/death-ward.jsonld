@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.108",
     "heading": "Death Ward",
-    "lineStart": 8517,
-    "lineEnd": 8528
+    "lineStart": 8488,
+    "lineEnd": 8499
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/death-ward/"
   },
   "level": 4,
   "school": "Abjuration",
@@ -35,5 +38,23 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "8 hours",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 8,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

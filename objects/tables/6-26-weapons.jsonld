@@ -11,8 +11,12 @@
     "chapter": "Equipment",
     "section": "6.26",
     "heading": "Vex",
-    "lineStart": 5995,
-    "lineEnd": 6038
+    "lineStart": 5971,
+    "lineEnd": 6014,
+    "caption": "Weapons"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/6-26-weapons/"
   },
   "columns": [
     "Name",

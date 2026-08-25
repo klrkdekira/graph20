@@ -11,11 +11,14 @@
     "chapter": "Classes",
     "section": "3.18",
     "heading": "Paladin Spell List",
-    "lineStart": 3357,
-    "lineEnd": 3422
+    "lineStart": 3347,
+    "lineEnd": 3412
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/3-18-paladin-spell-list/"
   },
   "section": "3.18",
-  "rulesText": "This section presents the Paladin spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, C means the spell requires Concentration, R means it's a Ritual, and M means it requires a specific Material component.\n\nLevel 1 Paladin Spells\n\nLevel 2 Paladin Spells\n\nLevel 3 Paladin Spells\n\nLevel 4 Paladin Spells\n\nLevel 5 Paladin Spells",
+  "rulesText": "This section presents the Paladin spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, C means the spell requires Concentration, R means it's a Ritual, and M means it requires a specific Material component.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/3-18-level-1-paladin-spells"

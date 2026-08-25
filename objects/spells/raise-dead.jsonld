@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.282",
     "heading": "Raise Dead",
-    "lineStart": 11221,
-    "lineEnd": 11236
+    "lineStart": 11192,
+    "lineEnd": 11207
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/raise-dead/"
   },
   "level": 5,
   "school": "Necromancy",
@@ -39,5 +42,27 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a diamond worth 500+ GP, which the spell consumes)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a diamond worth 500+ GP, which the spell consumes",
+    "consumed": true,
+    "materialCost": {
+      "text": "500 GP",
+      "currency": "GP",
+      "amount": 500
+    }
+  }
 }

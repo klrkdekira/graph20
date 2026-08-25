@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.33",
     "heading": "Tool Proficiency",
-    "lineStart": 6102,
-    "lineEnd": 6106
+    "lineStart": 6078,
+    "lineEnd": 6082
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-33-tool-proficiency/"
   },
   "section": "6.33",
   "rulesText": "If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have Advantage on the check too.\n\nYour features might give you proficiency with a tool. A monster has proficiency with any tool in its stat block."

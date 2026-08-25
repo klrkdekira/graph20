@@ -11,9 +11,28 @@
     "chapter": "Rules Glossary",
     "section": "8.47",
     "heading": "Damage Roll",
-    "lineStart": 12987,
-    "lineEnd": 12989
+    "lineStart": 12954,
+    "lineEnd": 12956
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-47-damage-roll/"
   },
   "section": "8.47",
-  "rulesText": "A damage roll is a die roll, adjusted by any applicable modifiers, that deals damage to a target. See also \"Playing the Game\" (\"Damage and Healing\")."
+  "rulesText": "A damage roll is a die roll, adjusted by any applicable modifiers, that deals damage to a target. See also \"Playing the Game\" (\"Damage and Healing\").",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-88-damage-and-healing"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-88-damage-and-healing"
+    }
+  ]
 }

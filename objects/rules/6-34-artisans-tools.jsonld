@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.34",
     "heading": "Artisan's Tools",
-    "lineStart": 6108,
-    "lineEnd": 6110
+    "lineStart": 6084,
+    "lineEnd": 6086
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-34-artisans-tools/"
   },
   "section": "6.34",
   "rulesText": "Artisan's Tools are each focused on crafting items and pursuing a trade. Each of these tools requires a separate proficiency."

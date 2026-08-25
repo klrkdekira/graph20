@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.57",
     "heading": "Hunter Shark",
-    "lineStart": 28124,
-    "lineEnd": 28149
+    "lineStart": 28035,
+    "lineEnd": 28060
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/hunter-shark/"
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
+  "size": "Large",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "12",
   "initiative": "+2 (12)",
@@ -76,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.57",
         "heading": "Traits",
-        "lineStart": 28143,
-        "lineEnd": 28145
+        "lineStart": 28054,
+        "lineEnd": 28056
       }
     },
     {
@@ -87,12 +93,35 @@
         "chapter": "Animals",
         "section": "13.57",
         "heading": "Actions",
-        "lineStart": 28147,
-        "lineEnd": 28149
+        "lineStart": 28058,
+        "lineEnd": 28060
       }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 45 (6d10 + 12)\nSpeed 5 ft., Swim 40 ft.\n\nSkills Perception +2\nSenses Blindsight 60 ft.; Passive Perception 12\nLanguages None\nCR 2 (XP 450; PB +2)\n\nTraits\n\nWater Breathing. The shark can breathe only underwater.\n\nActions\n\nBite. Melee Attack Roll: +6 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. Hit: 14 (3d6 + 4) Piercing damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 5
+    },
+    {
+      "mode": "Swim",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 2
+    }
+  ],
+  "passivePerception": 12,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Bite",

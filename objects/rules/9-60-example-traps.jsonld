@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-60-example-traps",
+  "@type": "Rule",
+  "name": "Example Traps",
+  "slug": "9-60-example-traps",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.60",
+    "heading": "Example Traps",
+    "lineStart": 14156,
+    "lineEnd": 14158
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/9-60-example-traps/"
+  },
+  "section": "9.60",
+  "rulesText": "Traps are presented in alphabetical order."
+}

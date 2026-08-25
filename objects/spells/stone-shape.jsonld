@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.329",
     "heading": "Stone Shape",
-    "lineStart": 11894,
-    "lineEnd": 11903
+    "lineStart": 11865,
+    "lineEnd": 11874
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/stone-shape/"
   },
   "level": 4,
   "school": "Transmutation",
@@ -39,5 +42,22 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (soft clay)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "soft clay",
+    "consumed": false
+  }
 }

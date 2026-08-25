@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.290",
     "heading": "Wand of Wonder",
-    "lineStart": 17637,
-    "lineEnd": 17661
+    "lineStart": 17578,
+    "lineEnd": 17602,
+    "caption": "Wand of Wonder Effects"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-290-wand-of-wonder-effects/"
   },
   "columns": [
     "d100",

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.263",
     "heading": "Plane Shift",
-    "lineStart": 10918,
-    "lineEnd": 10929
+    "lineStart": 10889,
+    "lineEnd": 10900
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/plane-shift/"
   },
   "level": 7,
   "school": "Conjuration",
@@ -47,5 +50,27 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a forked, metal rod worth 250+ GP and attuned to a plane of existence)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a forked, metal rod worth 250+ GP and attuned to a plane of existence",
+    "consumed": false,
+    "materialCost": {
+      "text": "250 GP",
+      "currency": "GP",
+      "amount": 250
+    }
+  }
 }

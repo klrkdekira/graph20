@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.363",
     "heading": "Warding Bond",
-    "lineStart": 12493,
-    "lineEnd": 12504
+    "lineStart": 12460,
+    "lineEnd": 12471
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/warding-bond/"
   },
   "level": 2,
   "school": "Abjuration",
@@ -35,5 +38,30 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "1 hour",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a pair of platinum rings worth 50+ GP each, which you and the target must wear for the duration)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a pair of platinum rings worth 50+ GP each, which you and the target must wear for the duration",
+    "consumed": false,
+    "materialCost": {
+      "text": "50 GP",
+      "currency": "GP",
+      "amount": 50
+    }
+  }
 }

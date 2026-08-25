@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.251",
     "heading": "Staff of Frost",
-    "lineStart": 17229,
-    "lineEnd": 17232
+    "lineStart": 17170,
+    "lineEnd": 17173,
+    "caption": "Staff of Frost Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-251-staff-of-frost-table-1/"
   },
   "columns": [
     "Spell",

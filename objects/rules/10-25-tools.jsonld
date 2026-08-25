@@ -11,11 +11,14 @@
     "chapter": "Magic Items",
     "section": "10.25",
     "heading": "Tools",
-    "lineStart": 14650,
-    "lineEnd": 14668
+    "lineStart": 14612,
+    "lineEnd": 14630
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/10-25-tools/"
   },
   "section": "10.25",
-  "rulesText": "The Magic Item Tools table lists which tool is required to make a magic item of each category. You must use the required tool to make an item and have proficiency with that tool. Any assistants must also have proficiency with it. For more information on the tools, see “Equipment.”\n\nMagic Item Tools\n\n---",
+  "rulesText": "The Magic Item Tools table lists which tool is required to make a magic item of each category. You must use the required tool to make an item and have proficiency with that tool. Any assistants must also have proficiency with it. For more information on the tools, see “Equipment.”",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/10-25-magic-item-tools"

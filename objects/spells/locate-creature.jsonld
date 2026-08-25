@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.224",
     "heading": "Locate Creature",
-    "lineStart": 10328,
-    "lineEnd": 10341
+    "lineStart": 10299,
+    "lineEnd": 10312
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/locate-creature/"
   },
   "level": 4,
   "school": "Divination",
@@ -51,5 +54,25 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 hour",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (fur from a bloodhound)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "fur from a bloodhound",
+    "consumed": false
+  }
 }

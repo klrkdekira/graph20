@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.301",
     "heading": "See Invisibility",
-    "lineStart": 11496,
-    "lineEnd": 11505
+    "lineStart": 11467,
+    "lineEnd": 11476
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/see-invisibility/"
   },
   "level": 2,
   "school": "Divination",
@@ -40,6 +43,26 @@
   "scalesWithSlotLevel": false,
   "concentration": false,
   "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "1 hour",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a pinch of talc)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a pinch of talc",
+    "consumed": false
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/invisible"

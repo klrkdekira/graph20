@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.197",
     "heading": "Potion of Resistance",
-    "lineStart": 16599,
-    "lineEnd": 16611
+    "lineStart": 16555,
+    "lineEnd": 16567
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/potion-of-resistance/"
   },
   "itemCategory": "Potion",
   "rarity": "Uncommon",
@@ -22,5 +25,7 @@
       "@id": "https://cheeleong.dev/graph20/objects/tables/10-197-potion-of-resistance-table-1"
     }
   ],
-  "rulesText": "Potion, Uncommon\n\nWhen you drink this potion, you have Resistance to one type of damage for 1 hour. The GM chooses the type or determines it randomly by rolling on the following table."
+  "rulesText": "Potion, Uncommon\n\nWhen you drink this potion, you have Resistance to one type of damage for 1 hour. The GM chooses the type or determines it randomly by rolling on the following table.",
+  "isCursed": false,
+  "isSentient": false
 }

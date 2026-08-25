@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.332",
     "heading": "Suggestion",
-    "lineStart": 11937,
-    "lineEnd": 11948
+    "lineStart": 11908,
+    "lineEnd": 11919
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/suggestion/"
   },
   "level": 2,
   "school": "Enchantment",
@@ -42,9 +45,36 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration or until you or your allies deal damage to the target. The Charmed target pursues the suggestion to the best of its ability. The suggested activity can continue for the entire duration, but if the suggested activity can be completed in a shorter time, the spell ends for the target upon completing it."
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": true,
   "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 8 hours",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 8,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, M (a drop of honey)",
+    "verbal": true,
+    "somatic": false,
+    "material": true,
+    "materialText": "a drop of honey",
+    "consumed": false
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"

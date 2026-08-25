@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.139",
     "heading": "Etherealness",
-    "lineStart": 8999,
-    "lineEnd": 9016
+    "lineStart": 8970,
+    "lineEnd": 8987
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/etherealness/"
   },
   "level": 7,
   "school": "Conjuration",
@@ -47,5 +50,20 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Up to 8 hours",
+    "concentration": false,
+    "kind": "Special"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

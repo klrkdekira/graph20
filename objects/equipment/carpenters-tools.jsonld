@@ -1,0 +1,39 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/carpenters-tools",
+  "@type": "Equipment",
+  "name": "Carpenter's Tools",
+  "slug": "carpenters-tools",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.38",
+    "heading": "Carpenter's Tools (8 GP)",
+    "lineStart": 6112,
+    "lineEnd": 6118
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/carpenters-tools/"
+  },
+  "equipmentType": "tool",
+  "fromRule": {
+    "@id": "https://cheeleong.dev/graph20/objects/rules/6-38-carpenters-tools-8-gp"
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-38-carpenters-tools-8-gp"
+    }
+  ],
+  "cost": {
+    "text": "8 GP",
+    "currency": "GP",
+    "amount": 8
+  },
+  "ability": "Strength",
+  "weight": "6 lb.",
+  "weightPounds": 6,
+  "utilize": "Seal or pry open a door or container (DC 20)",
+  "craft": "Club, Greatclub, Quarterstaff, Barrel, Chest, Ladder, Pole, Portable Ram, Torch"
+}

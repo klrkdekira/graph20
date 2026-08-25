@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.62",
     "heading": "Lizard",
-    "lineStart": 28263,
-    "lineEnd": 28287
+    "lineStart": 28174,
+    "lineEnd": 28198
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/lizard/"
   },
   "sizeTypeAlignment": "Tiny Beast, Unaligned",
   "sizeAndType": "Tiny Beast",
+  "size": "Tiny",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "10",
   "initiative": "+0 (10)",
@@ -74,8 +80,8 @@
         "chapter": "Animals",
         "section": "13.62",
         "heading": "Traits",
-        "lineStart": 28281,
-        "lineEnd": 28283
+        "lineStart": 28192,
+        "lineEnd": 28194
       }
     },
     {
@@ -85,12 +91,29 @@
         "chapter": "Animals",
         "section": "13.62",
         "heading": "Actions",
-        "lineStart": 28285,
-        "lineEnd": 28287
+        "lineStart": 28196,
+        "lineEnd": 28198
       }
     }
   ],
   "rulesText": "Tiny Beast, Unaligned\n\nAC 10\nInitiative +0 (10)\nHP 2 (1d4)\nSpeed 20 ft., Climb 20 ft.\n\nSenses Darkvision 30 ft.; Passive Perception 9\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nSpider Climb. The lizard can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nActions\n\nBite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 20
+    },
+    {
+      "mode": "Climb",
+      "feet": 20
+    }
+  ],
+  "passivePerception": 9,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 30
+    }
+  ],
   "attacks": [
     {
       "name": "Bite",

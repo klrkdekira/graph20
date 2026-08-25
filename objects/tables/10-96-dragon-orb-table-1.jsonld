@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.96",
     "heading": "Dragon Orb",
-    "lineStart": 15458,
-    "lineEnd": 15464
+    "lineStart": 15420,
+    "lineEnd": 15426,
+    "caption": "Dragon Orb Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-96-dragon-orb-table-1/"
   },
   "columns": [
     "Spell",

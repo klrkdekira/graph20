@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.53",
     "heading": "Bane",
-    "lineStart": 7657,
-    "lineEnd": 7668
+    "lineStart": 7628,
+    "lineEnd": 7639
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/bane/"
   },
   "level": 1,
   "school": "Enchantment",
@@ -38,7 +41,34 @@
     }
   ],
   "savingThrowAbility": "Charisma",
+  "savingThrows": [
+    {
+      "ability": "Charisma",
+      "sourceText": "Up to three creatures of your choice that you can see within range must each make a Charisma saving throw. Whenever a target that fails this save makes an attack roll or a saving throw before the spell ends, the target must subtract 1d4 from the attack roll or save."
+    }
+  ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a drop of blood)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a drop of blood",
+    "consumed": false
+  }
 }

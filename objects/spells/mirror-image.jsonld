@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.249",
     "heading": "Mirror Image",
-    "lineStart": 10708,
-    "lineEnd": 10721
+    "lineStart": 10679,
+    "lineEnd": 10692
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/mirror-image/"
   },
   "level": 2,
   "school": "Illusion",
@@ -44,6 +47,24 @@
   "scalesWithSlotLevel": false,
   "concentration": false,
   "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "1 minute",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/blinded"

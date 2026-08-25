@@ -11,8 +11,11 @@
     "chapter": "Classes",
     "section": "3.6",
     "heading": "Bard Subclass: College of Lore",
-    "lineStart": 2007,
-    "lineEnd": 2029
+    "lineStart": 1997,
+    "lineEnd": 2019
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/subclasses/college-of-lore/"
   },
   "parentClass": {
     "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
@@ -28,8 +31,8 @@
         "chapter": "Classes",
         "section": "3.4",
         "heading": "Level 3: Bonus Proficiencies",
-        "lineStart": 2013,
-        "lineEnd": 2015
+        "lineStart": 2003,
+        "lineEnd": 2005
       }
     },
     {
@@ -40,8 +43,8 @@
         "chapter": "Classes",
         "section": "3.4",
         "heading": "Level 3: Cutting Words",
-        "lineStart": 2017,
-        "lineEnd": 2019
+        "lineStart": 2007,
+        "lineEnd": 2009
       }
     },
     {
@@ -52,8 +55,8 @@
         "chapter": "Classes",
         "section": "3.4",
         "heading": "Level 6: Magical Discoveries",
-        "lineStart": 2021,
-        "lineEnd": 2025
+        "lineStart": 2011,
+        "lineEnd": 2015
       }
     },
     {
@@ -64,8 +67,8 @@
         "chapter": "Classes",
         "section": "3.4",
         "heading": "Level 14: Peerless Skill",
-        "lineStart": 2027,
-        "lineEnd": 2029
+        "lineStart": 2017,
+        "lineEnd": 2019
       }
     }
   ]

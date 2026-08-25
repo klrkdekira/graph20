@@ -11,8 +11,12 @@
     "chapter": "Equipment",
     "section": "6.99",
     "heading": "Holy Symbol (Varies)",
-    "lineStart": 6610,
-    "lineEnd": 6614
+    "lineStart": 6583,
+    "lineEnd": 6587,
+    "caption": "Holy Symbols"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/6-99-holy-symbols/"
   },
   "columns": [
     "Symbol",

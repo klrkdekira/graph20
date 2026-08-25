@@ -11,8 +11,12 @@
     "chapter": "Spells",
     "section": "7.102",
     "heading": "Creation",
-    "lineStart": 8438,
-    "lineEnd": 8444
+    "lineStart": 8409,
+    "lineEnd": 8415,
+    "caption": "Materials"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/7-102-materials/"
   },
   "columns": [
     "Material",

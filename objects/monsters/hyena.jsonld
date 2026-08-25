@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.58",
     "heading": "Hyena",
-    "lineStart": 28151,
-    "lineEnd": 28176
+    "lineStart": 28062,
+    "lineEnd": 28087
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/hyena/"
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
+  "size": "Medium",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "11",
   "initiative": "+1 (11)",
@@ -76,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.58",
         "heading": "Traits",
-        "lineStart": 28170,
-        "lineEnd": 28172
+        "lineStart": 28081,
+        "lineEnd": 28083
       }
     },
     {
@@ -87,12 +93,31 @@
         "chapter": "Animals",
         "section": "13.58",
         "heading": "Actions",
-        "lineStart": 28174,
-        "lineEnd": 28176
+        "lineStart": 28085,
+        "lineEnd": 28087
       }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 11\nInitiative +1 (11)\nHP 5 (1d8 + 1)\nSpeed 50 ft.\n\nSkills Perception +3\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nPack Tactics. The hyena has Advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nBite. Melee Attack Roll: +2, reach 5 ft. Hit: 3 (1d6) Piercing damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 50
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 3
+    }
+  ],
+  "passivePerception": 13,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Bite",

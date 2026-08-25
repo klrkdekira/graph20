@@ -11,11 +11,20 @@
     "chapter": "Animals",
     "section": "13.90",
     "heading": "Triceratops",
-    "lineStart": 29021,
-    "lineEnd": 29043
+    "lineStart": 28932,
+    "lineEnd": 28954
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/triceratops/"
   },
   "sizeTypeAlignment": "Huge Beast (Dinosaur), Unaligned",
   "sizeAndType": "Huge Beast (Dinosaur)",
+  "size": "Huge",
+  "creatureType": "Beast",
+  "descriptiveTags": [
+    "Dinosaur"
+  ],
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "14",
   "initiative": "-1 (9)",
@@ -75,12 +84,19 @@
         "chapter": "Animals",
         "section": "13.90",
         "heading": "Actions",
-        "lineStart": 29039,
-        "lineEnd": 29043
+        "lineStart": 28950,
+        "lineEnd": 28954
       }
     }
   ],
   "rulesText": "Huge Beast (Dinosaur), Unaligned\n\nAC 14\nInitiative -1 (9)\nHP 114 (12d12 + 36)\nSpeed 50 ft.\n\nSenses Passive Perception 10\nLanguages None\nCR 5 (XP 1,800; PB +3)\n\nActions\n\nMultiattack. The triceratops makes two Gore attacks.\n\nGore. Melee Attack Roll: +9, reach 5 ft. Hit: 19 (2d12 + 6) Piercing damage. If the target is Huge or smaller and the triceratops moved 20+ feet straight toward it immediately before the hit, the target takes an extra 9 (2d8) Piercing damage and has the Prone condition.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 50
+    }
+  ],
+  "passivePerception": 10,
   "attacks": [
     {
       "name": "Gore",

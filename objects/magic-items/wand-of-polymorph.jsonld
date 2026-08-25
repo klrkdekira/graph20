@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.286",
     "heading": "Wand of Polymorph",
-    "lineStart": 17599,
-    "lineEnd": 17605
+    "lineStart": 17540,
+    "lineEnd": 17546
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/wand-of-polymorph/"
   },
   "itemCategory": "Wand",
   "rarity": "Very Rare",
@@ -23,5 +26,13 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/polymorph"
     }
-  ]
+  ],
+  "charges": {
+    "capacityText": "7",
+    "capacity": 7,
+    "rechargeText": "The wand regains 1d6 + 1 expended charges daily at dawn."
+  },
+  "isCursed": false,
+  "isSentient": false,
+  "attunementRestriction": "Requires Attunement by a Spellcaster"
 }

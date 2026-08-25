@@ -11,12 +11,22 @@
     "chapter": "Magic Items",
     "section": "10.295",
     "heading": "Winged Boots",
-    "lineStart": 17695,
-    "lineEnd": 17699
+    "lineStart": 17636,
+    "lineEnd": 17640
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/winged-boots/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nThese boots have 4 charges and regain 1d4 expended charges daily at dawn. While wearing the boots, you can take a Magic action to expend 1 charge, gaining a Fly Speed of 30 feet for 1 hour. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land."
+  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nThese boots have 4 charges and regain 1d4 expended charges daily at dawn. While wearing the boots, you can take a Magic action to expend 1 charge, gaining a Fly Speed of 30 feet for 1 hour. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land.",
+  "charges": {
+    "capacityText": "4",
+    "capacity": 4,
+    "rechargeText": "These boots have 4 charges and regain 1d4 expended charges daily at dawn."
+  },
+  "isCursed": false,
+  "isSentient": false
 }

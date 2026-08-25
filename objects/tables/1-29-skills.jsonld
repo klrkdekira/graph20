@@ -12,7 +12,11 @@
     "section": "1.29",
     "heading": "Skill Proficiencies",
     "lineStart": 279,
-    "lineEnd": 298
+    "lineEnd": 298,
+    "caption": "Skills"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/1-29-skills/"
   },
   "columns": [
     "Skill",

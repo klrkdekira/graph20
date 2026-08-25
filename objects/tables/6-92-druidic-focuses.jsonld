@@ -11,8 +11,12 @@
     "chapter": "Equipment",
     "section": "6.92",
     "heading": "Druidic Focus (Varies)",
-    "lineStart": 6570,
-    "lineEnd": 6574
+    "lineStart": 6543,
+    "lineEnd": 6547,
+    "caption": "Druidic Focuses"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/6-92-druidic-focuses/"
   },
   "columns": [
     "Focus",

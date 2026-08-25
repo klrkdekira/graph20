@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.237",
     "heading": "Tarrasque",
-    "lineStart": 25448,
-    "lineEnd": 25507
+    "lineStart": 25368,
+    "lineEnd": 25427
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/tarrasque/"
   },
   "sizeTypeAlignment": "Gargantuan Monstrosity (Titan), Unaligned",
   "sizeAndType": "Gargantuan Monstrosity (Titan)",
+  "size": "Gargantuan",
+  "creatureType": "Monstrosity",
+  "descriptiveTags": [
+    "Titan"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Unaligned",
   "armorClass": "25",
   "initiative": "+18 (28)",
@@ -78,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.237",
         "heading": "Traits",
-        "lineStart": 25471,
-        "lineEnd": 25479
+        "lineStart": 25391,
+        "lineEnd": 25399
       }
     },
     {
@@ -89,8 +98,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.237",
         "heading": "Actions",
-        "lineStart": 25481,
-        "lineEnd": 25493
+        "lineStart": 25401,
+        "lineEnd": 25413
       }
     },
     {
@@ -100,8 +109,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.237",
         "heading": "Bonus Actions",
-        "lineStart": 25495,
-        "lineEnd": 25499
+        "lineStart": 25415,
+        "lineEnd": 25419
       }
     },
     {
@@ -111,8 +120,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.237",
         "heading": "Legendary Actions",
-        "lineStart": 25501,
-        "lineEnd": 25507
+        "lineStart": 25421,
+        "lineEnd": 25427
       }
     }
   ],
@@ -133,6 +142,42 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 60
+    },
+    {
+      "mode": "Burrow",
+      "feet": 40
+    },
+    {
+      "mode": "Climb",
+      "feet": 60
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 9
+    }
+  ],
+  "passivePerception": 19,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 120
+    }
+  ],
+  "damageImmunities": [
+    "Fire",
+    "Poison"
+  ],
+  "damageResistances": [
+    "Bludgeoning",
+    "Piercing",
+    "Slashing"
   ],
   "attacks": [
     {

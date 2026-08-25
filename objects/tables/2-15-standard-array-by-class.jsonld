@@ -11,8 +11,12 @@
     "chapter": "Character Creation",
     "section": "2.15",
     "heading": "Assign Ability Scores",
-    "lineStart": 1035,
-    "lineEnd": 1048
+    "lineStart": 1030,
+    "lineEnd": 1043,
+    "caption": "Standard Array by Class"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/2-15-standard-array-by-class/"
   },
   "columns": [
     "Class",

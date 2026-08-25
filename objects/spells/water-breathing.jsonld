@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.364",
     "heading": "Water Breathing",
-    "lineStart": 12506,
-    "lineEnd": 12515
+    "lineStart": 12473,
+    "lineEnd": 12482
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/water-breathing/"
   },
   "level": 3,
   "school": "Transmutation",
@@ -43,5 +46,26 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": true
+  "ritual": true,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "24 hours",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 24,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a short reed)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a short reed",
+    "consumed": false
+  }
 }

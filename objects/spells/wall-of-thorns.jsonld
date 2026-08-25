@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.362",
     "heading": "Wall of Thorns",
-    "lineStart": 12474,
-    "lineEnd": 12491
+    "lineStart": 12441,
+    "lineEnd": 12458
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/wall-of-thorns/"
   },
   "level": 6,
   "school": "Conjuration",
@@ -30,6 +33,24 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "When the wall appears, each creature in its area makes a Dexterity saving throw, taking 7d8 Piercing damage on a failed save or half as much damage on a successful one.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    },
+    {
+      "ability": "Dexterity",
+      "sourceText": "A creature can move through the wall, albeit slowly and painfully. For every 1 foot a creature moves through the wall, it must spend 4 feet of movement. Furthermore, the first time a creature enters a space in the wall on a turn or ends its turn there, the creature makes a Dexterity saving throw, taking 7d8 Slashing damage on a failed save or half as much damage on a successful one. A creature makes this save only once per turn.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Piercing",
@@ -50,5 +71,26 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a handful of thorns)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a handful of thorns",
+    "consumed": false
+  }
 }

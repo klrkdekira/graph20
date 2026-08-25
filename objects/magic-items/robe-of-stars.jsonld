@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.226",
     "heading": "Robe of Stars",
-    "lineStart": 16892,
-    "lineEnd": 16900
+    "lineStart": 16848,
+    "lineEnd": 16856
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/robe-of-stars/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Very Rare",
@@ -23,5 +26,7 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/magic-missile"
     }
-  ]
+  ],
+  "isCursed": false,
+  "isSentient": false
 }

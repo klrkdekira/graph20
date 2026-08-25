@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.64",
     "heading": "Mastiff",
-    "lineStart": 28317,
-    "lineEnd": 28338
+    "lineStart": 28228,
+    "lineEnd": 28249
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/mastiff/"
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
+  "size": "Medium",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "12",
   "initiative": "+2 (12)",
@@ -76,12 +82,31 @@
         "chapter": "Animals",
         "section": "13.64",
         "heading": "Actions",
-        "lineStart": 28336,
-        "lineEnd": 28338
+        "lineStart": 28247,
+        "lineEnd": 28249
       }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 5 (1d8 + 1)\nSpeed 40 ft.\n\nSkills Perception +5\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages None\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nBite. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 15,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Bite",

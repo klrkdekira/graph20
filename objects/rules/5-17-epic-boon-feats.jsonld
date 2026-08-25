@@ -11,8 +11,13 @@
     "chapter": "Feats",
     "section": "5.17",
     "heading": "Epic Boon Feats",
-    "lineStart": 5789,
-    "lineEnd": 5789
+    "lineStart": 5765,
+    "lineEnd": 5765
   },
-  "section": "5.17"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/5-17-epic-boon-feats/"
+  },
+  "section": "5.17",
+  "rulesText": "Epic Boon Feats",
+  "headingOnly": true
 }

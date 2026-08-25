@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.180",
     "heading": "Grease",
-    "lineStart": 9674,
-    "lineEnd": 9685
+    "lineStart": 9645,
+    "lineEnd": 9656
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/grease/"
   },
   "level": 1,
   "school": "Conjuration",
@@ -34,9 +37,36 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or have the Prone condition. A creature that enters the area or ends its turn there must also succeed on that save or fall Prone."
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": false,
   "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "1 minute",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a bit of pork rind or butter)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a bit of pork rind or butter",
+    "consumed": false
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"

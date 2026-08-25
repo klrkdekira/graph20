@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.114",
     "heading": "Gorgon",
-    "lineStart": 21490,
-    "lineEnd": 21520
+    "lineStart": 21410,
+    "lineEnd": 21440
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/gorgon/"
   },
   "sizeTypeAlignment": "Large Construct, Unaligned",
   "sizeAndType": "Large Construct",
+  "size": "Large",
+  "creatureType": "Construct",
+  "monsterCategory": "Monster",
   "alignment": "Unaligned",
   "armorClass": "19",
   "initiative": "+0 (10)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.114",
         "heading": "Actions",
-        "lineStart": 21512,
-        "lineEnd": 21516
+        "lineStart": 21432,
+        "lineEnd": 21436
       }
     },
     {
@@ -88,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.114",
         "heading": "Bonus Actions",
-        "lineStart": 21518,
-        "lineEnd": 21520
+        "lineStart": 21438,
+        "lineEnd": 21440
       }
     }
   ],
@@ -100,6 +106,25 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/petrified"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 7
+    }
+  ],
+  "passivePerception": 17,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
     }
   ],
   "attacks": [

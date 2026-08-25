@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.14",
     "heading": "Azer",
-    "lineStart": 18310,
-    "lineEnd": 18310
+    "lineStart": 18242,
+    "lineEnd": 18242
   },
-  "section": "12.14"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-14-azer/"
+  },
+  "section": "12.14",
+  "rulesText": "Azer",
+  "headingOnly": true
 }

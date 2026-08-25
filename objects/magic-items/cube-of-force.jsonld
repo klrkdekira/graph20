@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.87",
     "heading": "Cube of Force",
-    "lineStart": 15305,
-    "lineEnd": 15322
+    "lineStart": 15267,
+    "lineEnd": 15284
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/cube-of-force/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Rare",
@@ -23,5 +26,7 @@
       "@id": "https://cheeleong.dev/graph20/objects/tables/10-87-cube-of-force-faces"
     }
   ],
-  "rulesText": "Wondrous Item, Rare (Requires Attunement)\n\nThis cube is about an inch across. Each face has a distinct marking on it. You can press one of those faces, expend the number of charges required for it, and thereby cast the spell associated with it (save DC 17), as shown in the Cube of Force Faces table.\n\nThe cube starts with 10 charges, and it regains 1d6 expended charges daily at dawn.\n\nCube of Force Faces"
+  "rulesText": "Wondrous Item, Rare (Requires Attunement)\n\nThis cube is about an inch across. Each face has a distinct marking on it. You can press one of those faces, expend the number of charges required for it, and thereby cast the spell associated with it (save DC 17), as shown in the Cube of Force Faces table.\n\nThe cube starts with 10 charges, and it regains 1d6 expended charges daily at dawn.",
+  "isCursed": false,
+  "isSentient": false
 }

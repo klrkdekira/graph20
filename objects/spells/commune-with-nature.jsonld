@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.81",
     "heading": "Commune with Nature",
-    "lineStart": 8062,
-    "lineEnd": 8083
+    "lineStart": 8033,
+    "lineEnd": 8054
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/commune-with-nature/"
   },
   "level": 5,
   "school": "Divination",
@@ -35,5 +38,20 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": true
+  "ritual": true,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

@@ -11,9 +11,28 @@
     "chapter": "Rules Glossary",
     "section": "8.9",
     "heading": "Alignment",
-    "lineStart": 12733,
-    "lineEnd": 12735
+    "lineStart": 12700,
+    "lineEnd": 12702
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-9-alignment/"
   },
   "section": "8.9",
-  "rulesText": "A creature's alignment broadly describes its ethical attitudes and ideals. Alignment is a combination of two factors: one identifies morality (good, evil, or neutral), and the other describes attitudes toward order (lawful, chaotic, or neutral). These factors allow for nine possible combinations, such as Lawful Good and Neutral Evil. See also “Character Creation” (“Create Your Character”)."
+  "rulesText": "A creature's alignment broadly describes its ethical attitudes and ideals. Alignment is a combination of two factors: one identifies morality (good, evil, or neutral), and the other describes attitudes toward order (lawful, chaotic, or neutral). These factors allow for nine possible combinations, such as Lawful Good and Neutral Evil. See also “Character Creation” (“Create Your Character”).",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/2-1-character-creation"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/2-3-create-your-character"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/2-1-character-creation"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/2-3-create-your-character"
+    }
+  ]
 }

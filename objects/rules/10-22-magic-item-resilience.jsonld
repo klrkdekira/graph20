@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.22",
     "heading": "Magic Item Resilience",
-    "lineStart": 14636,
-    "lineEnd": 14640
+    "lineStart": 14598,
+    "lineEnd": 14602
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/10-22-magic-item-resilience/"
   },
   "section": "10.22",
   "rulesText": "A magic item is at least as durable as a nonmagical item of its kind. Most magic items, other than Potions and Scrolls, have Resistance to all damage.\n\nAn Artifact can be destroyed only in some special way. Otherwise, it is impervious to damage. Learning how to destroy an Artifact usually requires research or the completion of a quest."

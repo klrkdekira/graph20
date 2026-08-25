@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.81",
     "heading": "Case, Crossbow Bolt (1 GP)",
-    "lineStart": 6520,
-    "lineEnd": 6522
+    "lineStart": 6493,
+    "lineEnd": 6495
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-81-case-crossbow-bolt-1-gp/"
   },
   "section": "6.81",
   "rulesText": "A Crossbow Bolt Case holds up to 20 Bolts."

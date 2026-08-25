@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.324",
     "heading": "Spike Growth",
-    "lineStart": 11823,
-    "lineEnd": 11834
+    "lineStart": 11794,
+    "lineEnd": 11805
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/spike-growth/"
   },
   "level": 2,
   "school": "Transmutation",
@@ -45,5 +48,41 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "150 feet",
+    "kind": "Distance",
+    "distanceFeet": 150
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (seven thorns)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "seven thorns",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "The ground in a 20-foot-radius Sphere centered on a point within range sprouts hard spikes and thorns.",
+      "radiusFeet": 20
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+    }
+  ]
 }

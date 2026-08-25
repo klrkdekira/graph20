@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.239",
     "heading": "Tough",
-    "lineStart": 25511,
-    "lineEnd": 25538
+    "lineStart": 25431,
+    "lineEnd": 25458
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/tough/"
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
+  "size": "Medium or Small",
+  "creatureType": "Humanoid",
+  "monsterCategory": "Monster",
   "alignment": "Neutral",
   "armorClass": "12",
   "initiative": "+1 (11)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.239",
         "heading": "Traits",
-        "lineStart": 25530,
-        "lineEnd": 25532
+        "lineStart": 25450,
+        "lineEnd": 25452
       }
     },
     {
@@ -87,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.239",
         "heading": "Actions",
-        "lineStart": 25534,
-        "lineEnd": 25538
+        "lineStart": 25454,
+        "lineEnd": 25458
       }
     }
   ],
@@ -102,6 +108,27 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/mace"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 10,
+  "languageList": [
+    "Common"
+  ],
+  "gearItems": [
+    {
+      "name": "Heavy Crossbow"
+    },
+    {
+      "name": "Leather Armor"
+    },
+    {
+      "name": "Mace"
     }
   ],
   "attacks": [

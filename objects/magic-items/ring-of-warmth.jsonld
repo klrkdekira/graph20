@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.221",
     "heading": "Ring of Warmth",
-    "lineStart": 16850,
-    "lineEnd": 16856
+    "lineStart": 16806,
+    "lineEnd": 16812
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/ring-of-warmth/"
   },
   "itemCategory": "Ring",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Ring, Uncommon (Requires Attunement)\n\nIf you take Cold damage while wearing this ring, the ring reduces the damage you take by 2d8.\n\nIn addition, while wearing this ring, you and everything you wear and carry are unharmed by temperatures of 0 degrees Fahrenheit or lower."
+  "rulesText": "Ring, Uncommon (Requires Attunement)\n\nIf you take Cold damage while wearing this ring, the ring reduces the damage you take by 2d8.\n\nIn addition, while wearing this ring, you and everything you wear and carry are unharmed by temperatures of 0 degrees Fahrenheit or lower.",
+  "isCursed": false,
+  "isSentient": false
 }

@@ -11,8 +11,13 @@
     "chapter": "Feats",
     "section": "5.12",
     "heading": "Fighting Style Feats",
-    "lineStart": 5763,
-    "lineEnd": 5763
+    "lineStart": 5739,
+    "lineEnd": 5739
   },
-  "section": "5.12"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/5-12-fighting-style-feats/"
+  },
+  "section": "5.12",
+  "rulesText": "Fighting Style Feats",
+  "headingOnly": true
 }

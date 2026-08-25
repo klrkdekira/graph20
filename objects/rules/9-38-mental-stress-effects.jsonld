@@ -1,0 +1,28 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-38-mental-stress-effects",
+  "@type": "Rule",
+  "name": "Mental Stress Effects",
+  "slug": "9-38-mental-stress-effects",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.38",
+    "heading": "Mental Stress Effects",
+    "lineStart": 14002,
+    "lineEnd": 14014
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/9-38-mental-stress-effects/"
+  },
+  "section": "9.38",
+  "rulesText": "When a character is subjected to an effect that causes intense mental stress, Psychic damage is the best way to emulate that effect.\n\nThe Sample Mental Stress Effects table provides a few examples of such effects, with suggested saving throw DCs and damage. Mental stress can usually be resisted with a successful Wisdom save, but sometimes an Intelligence or Charisma save is more appropriate. On a successful save, a character might take half as much damage instead of no damage, at your discretion.",
+  "relatedTables": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/tables/9-38-sample-mental-stress-effects"
+    }
+  ],
+  "ruleCategory": "Trap"
+}

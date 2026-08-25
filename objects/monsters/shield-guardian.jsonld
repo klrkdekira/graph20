@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.213",
     "heading": "Shield Guardian",
-    "lineStart": 24652,
-    "lineEnd": 24689
+    "lineStart": 24572,
+    "lineEnd": 24609
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/shield-guardian/"
   },
   "sizeTypeAlignment": "Large Construct, Unaligned",
   "sizeAndType": "Large Construct",
+  "size": "Large",
+  "creatureType": "Construct",
+  "monsterCategory": "Monster",
   "alignment": "Unaligned",
   "armorClass": "17",
   "initiative": "-1 (9)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.213",
         "heading": "Traits",
-        "lineStart": 24673,
-        "lineEnd": 24679
+        "lineStart": 24593,
+        "lineEnd": 24599
       }
     },
     {
@@ -87,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.213",
         "heading": "Actions",
-        "lineStart": 24681,
-        "lineEnd": 24685
+        "lineStart": 24601,
+        "lineEnd": 24605
       }
     },
     {
@@ -98,8 +104,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.213",
         "heading": "Reactions",
-        "lineStart": 24687,
-        "lineEnd": 24689
+        "lineStart": 24607,
+        "lineEnd": 24609
       }
     }
   ],
@@ -123,6 +129,29 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 10
+    },
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Understands commands given in any language but can't speak"
+  ],
+  "damageImmunities": [
+    "Poison"
   ],
   "attacks": [
     {

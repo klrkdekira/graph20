@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.81",
     "heading": "Druid",
-    "lineStart": 20417,
-    "lineEnd": 20453
+    "lineStart": 20337,
+    "lineEnd": 20373
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/druid/"
   },
   "sizeTypeAlignment": "Medium or Small Humanoid (Druid), Neutral",
   "sizeAndType": "Medium or Small Humanoid (Druid)",
+  "size": "Medium or Small",
+  "creatureType": "Humanoid",
+  "descriptiveTags": [
+    "Druid"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Neutral",
   "armorClass": "13",
   "initiative": "+1 (11)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.81",
         "heading": "Actions",
-        "lineStart": 20439,
-        "lineEnd": 20453
+        "lineStart": 20359,
+        "lineEnd": 20373
       }
     }
   ],
@@ -86,6 +95,104 @@
   "hasGear": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/studded-leather-armor"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Medicine",
+      "bonus": 5
+    },
+    {
+      "name": "Nature",
+      "bonus": 3
+    },
+    {
+      "name": "Perception",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 15,
+  "languageList": [
+    "Common",
+    "Druidic",
+    "Sylvan"
+  ],
+  "gearItems": [
+    {
+      "name": "Studded Leather Armor"
+    }
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The druid casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 13):\n\nAt Will: Druidcraft, Speak with Animals\n\n2/Day Each: Entangle, Thunderwave\n\n1/Day Each: Animal Messenger, Long-strider, Moonbeam",
+      "path": "statSections[0].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Druidcraft, Speak with Animals",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/druidcraft"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/speak-with-animals"
+            }
+          ]
+        },
+        {
+          "frequency": "2/Day Each",
+          "spellsText": "Entangle, Thunderwave",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/entangle"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/thunderwave"
+            }
+          ]
+        },
+        {
+          "frequency": "1/Day Each",
+          "spellsText": "Animal Messenger, Long-strider, Moonbeam",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/animal-messenger"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/moonbeam"
+            }
+          ]
+        }
+      ],
+      "ability": "Wisdom",
+      "saveDC": 13
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/druidcraft"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/speak-with-animals"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/entangle"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/thunderwave"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/animal-messenger"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/moonbeam"
     }
   ],
   "attacks": [

@@ -11,8 +11,11 @@
     "chapter": "Monsters",
     "section": "11.15",
     "heading": "RUNNING A MONSTER",
-    "lineStart": 17830,
-    "lineEnd": 17838
+    "lineStart": 17771,
+    "lineEnd": 17779
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/11-15-running-a-monster/"
   },
   "section": "11.15",
   "rulesText": "To ensure a monster acts in accordance with its Challenge Rating, follow these rules during combat:\n\nSpecial Abilities. If the monster has a special ability that deals a lot of damage but has a limited number of uses, such as a recharging breath weapon or a spell it can cast only once per day, have it use that special ability as quickly and as often as possible.\n\nMultiattack. If the monster has Multiattack, have it use Multiattack on any of its turns in which it's not using one of its more powerful abilities.\n\nBonus Actions, Reactions, Legendary Actions. If the monster has Bonus Actions, Reactions, or Legendary Actions in its stat block, make sure it uses them as often as it can."

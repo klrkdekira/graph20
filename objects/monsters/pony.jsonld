@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.72",
     "heading": "Pony",
-    "lineStart": 28532,
-    "lineEnd": 28552
+    "lineStart": 28443,
+    "lineEnd": 28463
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/pony/"
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
+  "size": "Medium",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "10",
   "initiative": "+0 (10)",
@@ -75,12 +81,19 @@
         "chapter": "Animals",
         "section": "13.72",
         "heading": "Actions",
-        "lineStart": 28550,
-        "lineEnd": 28552
+        "lineStart": 28461,
+        "lineEnd": 28463
       }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 10\nInitiative +0 (10)\nHP 11 (2d8 + 2)\nSpeed 40 ft.\n\nSenses Passive Perception 10\nLanguages None\nCR 1/8 (XP 25; PB +2)\n\nActions\n\nHooves. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Bludgeoning damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "passivePerception": 10,
   "attacks": [
     {
       "name": "Hooves",

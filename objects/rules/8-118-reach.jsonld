@@ -11,8 +11,11 @@
     "chapter": "Rules Glossary",
     "section": "8.118",
     "heading": "Reach",
-    "lineStart": 13484,
-    "lineEnd": 13486
+    "lineStart": 13448,
+    "lineEnd": 13450
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-118-reach/"
   },
   "section": "8.118",
   "rulesText": "A creature has a reach of 5 feet unless a rule says otherwise."

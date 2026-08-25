@@ -1,0 +1,31 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/skilled-hireling",
+  "@type": "Equipment",
+  "name": "Skilled hireling",
+  "slug": "skilled-hireling",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.162",
+    "heading": "Hirelings",
+    "lineStart": 6923,
+    "lineEnd": 6927,
+    "caption": "Hirelings"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/skilled-hireling/"
+  },
+  "equipmentType": "service",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-162-hirelings"
+  },
+  "attributes": [
+    {
+      "name": "Cost",
+      "value": "2 GP per day"
+    }
+  ]
+}

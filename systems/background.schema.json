@@ -16,6 +16,11 @@
     "skillProficiencies": { "type": "string", "minLength": 1 },
     "toolProficiency": { "type": "string", "minLength": 1 },
     "startingEquipment": { "type": "string", "minLength": 1 },
+    "skillProficiencyOptions": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
     "rulesText": { "type": "string", "minLength": 1 }
   },
   "required": [
@@ -23,6 +28,7 @@
     "abilityScoreOptions",
     "feat",
     "skillProficiencies",
+    "skillProficiencyOptions",
     "toolProficiency",
     "startingEquipment",
     "rulesText"

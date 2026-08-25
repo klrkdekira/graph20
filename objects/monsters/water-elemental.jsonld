@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.253",
     "heading": "Water Elemental",
-    "lineStart": 25979,
-    "lineEnd": 26013
+    "lineStart": 25899,
+    "lineEnd": 25933
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/water-elemental/"
   },
   "sizeTypeAlignment": "Large Elemental, Neutral",
   "sizeAndType": "Large Elemental",
+  "size": "Large",
+  "creatureType": "Elemental",
+  "monsterCategory": "Monster",
   "alignment": "Neutral",
   "armorClass": "14",
   "initiative": "+2 (12)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.253",
         "heading": "Traits",
-        "lineStart": 26001,
-        "lineEnd": 26005
+        "lineStart": 25921,
+        "lineEnd": 25925
       }
     },
     {
@@ -88,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.253",
         "heading": "Actions",
-        "lineStart": 26007,
-        "lineEnd": 26013
+        "lineStart": 25927,
+        "lineEnd": 25933
       }
     }
   ],
@@ -119,6 +125,33 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Swim",
+      "feet": 90
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Primordial (Aquan)"
+  ],
+  "damageImmunities": [
+    "Poison"
+  ],
+  "damageResistances": [
+    "Acid",
+    "Fire"
   ],
   "attacks": [
     {

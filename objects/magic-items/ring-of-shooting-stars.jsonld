@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.214",
     "heading": "Ring of Shooting Stars",
-    "lineStart": 16783,
-    "lineEnd": 16806
+    "lineStart": 16739,
+    "lineEnd": 16762
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/ring-of-shooting-stars/"
   },
   "itemCategory": "Ring",
   "rarity": "Very Rare",
@@ -34,5 +37,12 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/faerie-fire"
     }
-  ]
+  ],
+  "charges": {
+    "capacityText": "6",
+    "capacity": 6,
+    "rechargeText": "The ring has 6 charges and regains 1d6 expended charges daily at dawn."
+  },
+  "isCursed": false,
+  "isSentient": false
 }

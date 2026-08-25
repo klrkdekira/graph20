@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.137",
     "heading": "Hobgoblin Captain",
-    "lineStart": 22169,
-    "lineEnd": 22198
+    "lineStart": 22089,
+    "lineEnd": 22118
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/hobgoblin-captain/"
   },
   "sizeTypeAlignment": "Medium Fey (Goblinoid), Lawful Evil",
   "sizeAndType": "Medium Fey (Goblinoid)",
+  "size": "Medium",
+  "creatureType": "Fey",
+  "descriptiveTags": [
+    "Goblinoid"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "17",
   "initiative": "+4 (14)",
@@ -76,8 +85,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.137",
         "heading": "Traits",
-        "lineStart": 22188,
-        "lineEnd": 22190
+        "lineStart": 22108,
+        "lineEnd": 22110
       }
     },
     {
@@ -87,8 +96,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.137",
         "heading": "Actions",
-        "lineStart": 22192,
-        "lineEnd": 22198
+        "lineStart": 22112,
+        "lineEnd": 22118
       }
     }
   ],
@@ -102,6 +111,34 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/longbow"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Common",
+    "Goblin"
+  ],
+  "gearItems": [
+    {
+      "name": "Greatsword"
+    },
+    {
+      "name": "Half Plate Armor"
+    },
+    {
+      "name": "Longbow"
     }
   ],
   "attacks": [

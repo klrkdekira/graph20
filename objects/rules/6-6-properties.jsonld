@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.6",
     "heading": "Properties",
-    "lineStart": 5909,
-    "lineEnd": 5911
+    "lineStart": 5885,
+    "lineEnd": 5887
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-6-properties/"
   },
   "section": "6.6",
   "rulesText": "Here are definitions of the properties in the Properties column of the Weapons table."

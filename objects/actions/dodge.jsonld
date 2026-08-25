@@ -1,0 +1,26 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/actions/dodge",
+  "@type": "Action",
+  "name": "Dodge",
+  "slug": "dodge",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.62",
+    "heading": "Dodge [Action]",
+    "lineStart": 13055,
+    "lineEnd": 13059
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/actions/dodge/"
+  },
+  "rulesText": "If you take the Dodge action, you gain the following benefits: until the start of your next turn, any attack roll made against you has Disadvantage if you can see the attacker, and you make Dexterity saving throws with Advantage.\n\nYou lose these benefits if you have the Incapacitated condition or if your Speed is 0.",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"
+    }
+  ]
+}

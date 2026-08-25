@@ -1,0 +1,71 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/9-38-sample-mental-stress-effects",
+  "@type": "Table",
+  "name": "Sample Mental Stress Effects",
+  "slug": "9-38-sample-mental-stress-effects",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.38",
+    "heading": "Mental Stress Effects",
+    "lineStart": 14010,
+    "lineEnd": 14014,
+    "caption": "Sample Mental Stress Effects"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/9-38-sample-mental-stress-effects/"
+  },
+  "columns": [
+    "Example",
+    "Save DC",
+    "Psychic Damage"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "A character ingests a hallucinogenic substance that distorts the character’s perception of reality."
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "1d6"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "A character touches a fiendish idol that tears at the character’s mind, threatening to shatter it."
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "3d6"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "A magical trap flings a character into the Far Realm until the end of that character’s next turn."
+        },
+        {
+          "value": "20"
+        },
+        {
+          "value": "9d6"
+        }
+      ]
+    }
+  ],
+  "rawText": "| Example                                                                                             | Save DC | Psychic Damage |\n| :-------------------------------------------------------------------------------------------------- | :------ | :------------- |\n| A character ingests a hallucinogenic substance that distorts the character’s perception of reality. | 10      | 1d6            |\n| A character touches a fiendish idol that tears at the character’s mind, threatening to shatter it.  | 15      | 3d6            |\n| A magical trap flings a character into the Far Realm until the end of that character’s next turn.   | 20      | 9d6            |"
+}

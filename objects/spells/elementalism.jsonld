@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.133",
     "heading": "Elementalism",
-    "lineStart": 8905,
-    "lineEnd": 8924
+    "lineStart": 8876,
+    "lineEnd": 8895
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/elementalism/"
   },
   "level": 0,
   "school": "Transmutation",
@@ -39,5 +42,60 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cube",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+      },
+      "sourceText": "You create a breeze strong enough to ripple cloth, stir dust, rustle leaves, and close open doors and shutters, all in a 5-foot Cube.",
+      "sizeFeet": 5
+    },
+    {
+      "shape": "Cube",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+      },
+      "sourceText": "You create a thin cloud of harmless embers and colored, scented smoke in a 5-foot Cube.",
+      "sizeFeet": 5
+    },
+    {
+      "shape": "Cube",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+      },
+      "sourceText": "You create a spray of cool mist that lightly dampens creatures and objects in a 5-foot Cube.",
+      "sizeFeet": 5
+    },
+    {
+      "shape": "Cube",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+      },
+      "sourceText": "You cause dirt, sand, fire, smoke, mist, or water that can fit in a 1-foot Cube to assume a crude shape (such as that of a creature) for 1 hour.",
+      "sizeFeet": 1
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+    }
+  ]
 }

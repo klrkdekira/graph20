@@ -1,0 +1,21 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/actions/utilize",
+  "@type": "Action",
+  "name": "Utilize",
+  "slug": "utilize",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.155",
+    "heading": "Utilize [Action]",
+    "lineStart": 13737,
+    "lineEnd": 13739
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/actions/utilize/"
+  },
+  "rulesText": "You normally interact with an object while doing something else, such as when you draw a sword as part of the Attack action. When an object requires an action for its use, you take the Utilize action."
+}

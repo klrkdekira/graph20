@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.29",
     "heading": "Giant Boar",
-    "lineStart": 27363,
-    "lineEnd": 27387
+    "lineStart": 27277,
+    "lineEnd": 27301
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/giant-boar/"
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
+  "size": "Large",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "13",
   "initiative": "+0 (10)",
@@ -75,8 +81,8 @@
         "chapter": "Animals",
         "section": "13.29",
         "heading": "Traits",
-        "lineStart": 27381,
-        "lineEnd": 27383
+        "lineStart": 27295,
+        "lineEnd": 27297
       }
     },
     {
@@ -86,12 +92,19 @@
         "chapter": "Animals",
         "section": "13.29",
         "heading": "Actions",
-        "lineStart": 27385,
-        "lineEnd": 27387
+        "lineStart": 27299,
+        "lineEnd": 27301
       }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 13\nInitiative +0 (10)\nHP 42 (5d10 + 15)\nSpeed 40 ft.\n\nSenses Passive Perception 8\nLanguages None\nCR 2 (XP 450; PB +2)\n\nTraits\n\nBloodied Fury. The boar has Advantage on melee attack rolls while it is Bloodied.\n\nActions\n\nGore. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Large or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "passivePerception": 8,
   "attacks": [
     {
       "name": "Gore",

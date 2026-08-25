@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.58",
     "heading": "Navigator's Tools (25 GP)",
-    "lineStart": 6304,
-    "lineEnd": 6310
+    "lineStart": 6280,
+    "lineEnd": 6286
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-58-navigators-tools-25-gp/"
   },
   "section": "6.58",
   "rulesText": "Ability: Wisdom\n\nWeight: 2 lb.\n\nUtilize: Plot a course (DC 10), or determine position by stargazing (DC 15)"

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.239",
     "heading": "Mass Suggestion",
-    "lineStart": 10562,
-    "lineEnd": 10575
+    "lineStart": 10533,
+    "lineEnd": 10546
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/mass-suggestion/"
   },
   "level": 6,
   "school": "Enchantment",
@@ -38,9 +41,36 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "Each target must succeed on a Wisdom saving throw or have the Charmed condition for the duration or until you or your allies deal damage to the target. Each Charmed target pursues the suggestion to the best of its ability. The suggested activity can continue for the entire duration, but if the suggested activity can be completed in a shorter time, the spell ends for a target upon completing it."
+    }
+  ],
   "scalesWithSlotLevel": true,
   "concentration": false,
   "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "24 hours",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 24,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, M (a snake's tongue)",
+    "verbal": true,
+    "somatic": false,
+    "material": true,
+    "materialText": "a snake's tongue",
+    "consumed": false
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"

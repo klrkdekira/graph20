@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.76",
     "heading": "Bottle, Glass (2 GP)",
-    "lineStart": 6500,
-    "lineEnd": 6502
+    "lineStart": 6473,
+    "lineEnd": 6475
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-76-bottle-glass-2-gp/"
   },
   "section": "6.76",
   "rulesText": "A Glass Bottle holds up to 1½ pints."

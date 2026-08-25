@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.259",
     "heading": "Phantasmal Killer",
-    "lineStart": 10856,
-    "lineEnd": 10869
+    "lineStart": 10827,
+    "lineEnd": 10840
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/phantasmal-killer/"
   },
   "level": 4,
   "school": "Illusion",
@@ -34,6 +37,24 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "You tap into the nightmares of a creature you can see within range and create an illusion of its deepest fears, visible only to that creature. The target makes a Wisdom saving throw. On a failed save, the target takes 4d10 Psychic damage and has Disadvantage on ability checks and attack rolls for the duration. On a successful save, the target takes half as much damage, and the spell ends.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    },
+    {
+      "ability": "Wisdom",
+      "sourceText": "For the duration, the target makes a Wisdom saving throw at the end of each of its turns. On a failed save, it takes the Psychic damage again. On a successful save, the spell ends.",
+      "outcomes": [
+        "FailureEffect",
+        "Partial"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Psychic",
@@ -46,5 +67,24 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

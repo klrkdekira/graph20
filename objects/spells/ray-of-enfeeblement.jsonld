@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.283",
     "heading": "Ray of Enfeeblement",
-    "lineStart": 11238,
-    "lineEnd": 11249
+    "lineStart": 11209,
+    "lineEnd": 11220
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/ray-of-enfeeblement/"
   },
   "level": 2,
   "school": "Necromancy",
@@ -34,7 +37,35 @@
     }
   ],
   "savingThrowAbility": "Constitution",
+  "savingThrows": [
+    {
+      "ability": "Constitution",
+      "sourceText": "A beam of enervating energy shoots from you toward a creature within range. The target must make a Constitution saving throw. On a successful save, the target has Disadvantage on the next attack roll it makes until the start of your next turn.",
+      "outcomes": [
+        "Partial"
+      ]
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

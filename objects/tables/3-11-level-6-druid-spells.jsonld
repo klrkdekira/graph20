@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.11",
     "heading": "Druid Spell List",
-    "lineStart": 2688,
-    "lineEnd": 2699
+    "lineStart": 2678,
+    "lineEnd": 2689,
+    "caption": "Level 6 Druid Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-11-level-6-druid-spells/"
   },
   "columns": [
     "Spell",

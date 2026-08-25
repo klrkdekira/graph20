@@ -11,11 +11,14 @@
     "chapter": "Rules Glossary",
     "section": "8.28",
     "heading": "Carrying Capacity",
-    "lineStart": 12863,
-    "lineEnd": 12877
+    "lineStart": 12830,
+    "lineEnd": 12844
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-28-carrying-capacity/"
   },
   "section": "8.28",
-  "rulesText": "Your size and Strength score determine the maximum weight in pounds that you can carry, as shown in the Carrying Capacity table. The table also shows the maximum weight you can drag, lift, or push.\n\nWhile dragging, lifting, or pushing weight in excess of the maximum weight you can carry, your Speed can be no more than 5 feet.\n\nCarrying Capacity",
+  "rulesText": "Your size and Strength score determine the maximum weight in pounds that you can carry, as shown in the Carrying Capacity table. The table also shows the maximum weight you can drag, lift, or push.\n\nWhile dragging, lifting, or pushing weight in excess of the maximum weight you can carry, your Speed can be no more than 5 feet.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/8-28-carrying-capacity"

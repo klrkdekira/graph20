@@ -11,8 +11,11 @@
     "chapter": "Monsters",
     "section": "11.18",
     "heading": "Ammunition and Ranged Attacks",
-    "lineStart": 17852,
-    "lineEnd": 17854
+    "lineStart": 17793,
+    "lineEnd": 17795
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/11-18-ammunition-and-ranged-attacks/"
   },
   "section": "11.18",
   "rulesText": "A monster that requires ammunition to make ranged attacks carries the necessary ammunition."

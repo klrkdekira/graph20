@@ -11,8 +11,11 @@
     "chapter": "Playing the Game",
     "section": "1.85",
     "heading": "Underwater Combat",
-    "lineStart": 713,
-    "lineEnd": 715
+    "lineStart": 711,
+    "lineEnd": 713
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-85-underwater-combat/"
   },
   "section": "1.85",
   "rulesText": "A fight underwater follows these rules."

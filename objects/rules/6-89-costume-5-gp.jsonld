@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.89",
     "heading": "Costume (5 GP)",
-    "lineStart": 6552,
-    "lineEnd": 6554
+    "lineStart": 6525,
+    "lineEnd": 6527
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-89-costume-5-gp/"
   },
   "section": "6.89",
   "rulesText": "While wearing a Costume, you have Advantage on any ability check you make to impersonate the person or type of person it represents."

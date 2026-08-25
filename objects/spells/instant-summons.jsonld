@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.213",
     "heading": "Instant Summons",
-    "lineStart": 10177,
-    "lineEnd": 10190
+    "lineStart": 10148,
+    "lineEnd": 10161
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/instant-summons/"
   },
   "level": 6,
   "school": "Conjuration",
@@ -31,5 +34,27 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": true
+  "ritual": true,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Until dispelled",
+    "concentration": false,
+    "kind": "UntilDispelled"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a sapphire worth 1,000+ GP)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a sapphire worth 1,000+ GP",
+    "consumed": false,
+    "materialCost": {
+      "text": "1,000 GP",
+      "currency": "GP",
+      "amount": 1000
+    }
+  }
 }

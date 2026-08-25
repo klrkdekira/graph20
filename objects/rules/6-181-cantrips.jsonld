@@ -11,11 +11,14 @@
     "chapter": "Equipment",
     "section": "6.181",
     "heading": "Cantrips",
-    "lineStart": 7062,
-    "lineEnd": 7081
+    "lineStart": 7035,
+    "lineEnd": 7054
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-181-cantrips/"
   },
   "section": "6.181",
-  "rulesText": "If the scribed spell is a cantrip, the version on the scroll works as if the caster were your level.\n\nSpell Scroll Costs\n\n---",
+  "rulesText": "If the scribed spell is a cantrip, the version on the scroll works as if the caster were your level.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/6-181-spell-scroll-costs"

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.331",
     "heading": "Storm of Vengeance",
-    "lineStart": 11916,
-    "lineEnd": 11935
+    "lineStart": 11887,
+    "lineEnd": 11906
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/storm-of-vengeance/"
   },
   "level": 9,
   "school": "Conjuration",
@@ -30,6 +33,20 @@
     }
   ],
   "savingThrowAbility": "Constitution",
+  "savingThrows": [
+    {
+      "ability": "Constitution",
+      "sourceText": "A churning storm cloud forms for the duration, centered on a point within range and spreading to a radius of 300 feet. Each creature under the cloud when it appears must succeed on a Constitution saving throw or take 2d6 Thunder damage and have the Deafened condition for the duration."
+    },
+    {
+      "ability": "Dexterity",
+      "sourceText": "Turn 3. You call six bolts of lightning from the cloud to strike six different creatures or objects beneath it. Each target makes a Dexterity saving throw, taking 10d6 Lightning damage on a failed save or half as much damage on a successful one.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Thunder",
@@ -75,6 +92,25 @@
   "scalesWithSlotLevel": false,
   "concentration": true,
   "ritual": false,
+  "rangeDetails": {
+    "text": "1 mile",
+    "kind": "Distance",
+    "distanceMiles": 1
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/deafened"

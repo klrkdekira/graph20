@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.82",
     "heading": "Cloak of the Manta Ray",
-    "lineStart": 15275,
-    "lineEnd": 15279
+    "lineStart": 15237,
+    "lineEnd": 15241
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/cloak-of-the-manta-ray/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile wearing this cloak, you can breathe underwater, and you have a Swim Speed of 60 feet."
+  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile wearing this cloak, you can breathe underwater, and you have a Swim Speed of 60 feet.",
+  "isCursed": false,
+  "isSentient": false
 }

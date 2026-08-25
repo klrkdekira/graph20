@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.20",
     "heading": "Draft Horse",
-    "lineStart": 27135,
-    "lineEnd": 27155
+    "lineStart": 27049,
+    "lineEnd": 27069
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/draft-horse/"
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
+  "size": "Large",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "10",
   "initiative": "+0 (10)",
@@ -75,12 +81,19 @@
         "chapter": "Animals",
         "section": "13.20",
         "heading": "Actions",
-        "lineStart": 27153,
-        "lineEnd": 27155
+        "lineStart": 27067,
+        "lineEnd": 27069
       }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 10\nInitiative +0 (10)\nHP 15 (2d10 + 4)\nSpeed 40 ft.\n\nSenses Passive Perception 10\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nHooves. Melee Attack Roll: +6, reach 5 ft. Hit: 6 (1d4 + 4) Bludgeoning damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "passivePerception": 10,
   "attacks": [
     {
       "name": "Hooves",

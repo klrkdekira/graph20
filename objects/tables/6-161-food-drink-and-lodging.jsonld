@@ -11,8 +11,12 @@
     "chapter": "Equipment",
     "section": "6.161",
     "heading": "Food, Drink, and Lodging",
-    "lineStart": 6931,
-    "lineEnd": 6942
+    "lineStart": 6904,
+    "lineEnd": 6915,
+    "caption": "Food, Drink, and Lodging"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/6-161-food-drink-and-lodging/"
   },
   "columns": [
     "Item",

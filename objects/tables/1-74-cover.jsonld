@@ -11,8 +11,12 @@
     "chapter": "Playing the Game",
     "section": "1.74",
     "heading": "Cover",
-    "lineStart": 655,
-    "lineEnd": 659
+    "lineStart": 653,
+    "lineEnd": 657,
+    "caption": "Cover"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/1-74-cover/"
   },
   "columns": [
     "Degree",

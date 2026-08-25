@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.260",
     "heading": "White Dragon Wyrmling",
-    "lineStart": 26207,
-    "lineEnd": 26241
+    "lineStart": 26127,
+    "lineEnd": 26158
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/white-dragon-wyrmling/"
   },
   "sizeTypeAlignment": "Medium Dragon (Chromatic), Chaotic Evil",
   "sizeAndType": "Medium Dragon (Chromatic)",
+  "size": "Medium",
+  "creatureType": "Dragon",
+  "descriptiveTags": [
+    "Chromatic"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "16",
   "initiative": "+2 (12)",
@@ -23,7 +32,7 @@
   "speed": "30 ft., Burrow 15 ft., Fly 60 ft., Swim 30 ft.",
   "skills": "Perception +4, Stealth +2",
   "immunities": "Cold",
-  "senses": "Blindsight 10 ft., Darkvision 60 ft.;",
+  "senses": "Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14",
   "languages": "Draconic",
   "challenge": "2 (XP 450; PB +2)",
   "armorClassValue": 16,
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.260",
         "heading": "Traits",
-        "lineStart": 26230,
-        "lineEnd": 26232
+        "lineStart": 26147,
+        "lineEnd": 26149
       }
     },
     {
@@ -88,12 +97,57 @@
         "chapter": "Monsters A-Z",
         "section": "12.260",
         "heading": "Actions",
-        "lineStart": 26234,
-        "lineEnd": 26241
+        "lineStart": 26151,
+        "lineEnd": 26158
       }
     }
   ],
-  "rulesText": "Medium Dragon (Chromatic), Chaotic Evil\n\nAC 16\nInitiative +2 (12)\nHP 32 (5d8 + 10)\nSpeed 30 ft., Burrow 15 ft., Fly 60 ft., Swim 30 ft.\n\nSkills Perception +4, Stealth +2\nImmunities Cold\nSenses Blindsight 10 ft., Darkvision 60 ft.;\n\nPassive Perception 14\n\nLanguages Draconic\nCR 2 (XP 450; PB +2)\n\nTraits\n\nIce Walk. The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn't cost it extra movement.\n\nActions\n\nMultiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage plus 2 (1d4) Cold damage.\n\nCold Breath (Recharge 5–6). Constitution Saving\nThrow: DC 12, each creature in a 15-foot Cone. Failure: 22 (5d8) Cold damage. Success: Half damage.",
+  "rulesText": "Medium Dragon (Chromatic), Chaotic Evil\n\nAC 16\nInitiative +2 (12)\nHP 32 (5d8 + 10)\nSpeed 30 ft., Burrow 15 ft., Fly 60 ft., Swim 30 ft.\n\nSkills Perception +4, Stealth +2\nImmunities Cold\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14\nLanguages Draconic\nCR 2 (XP 450; PB +2)\n\nTraits\n\nIce Walk. The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn't cost it extra movement.\n\nActions\n\nMultiattack. The dragon makes two Rend attacks.\n\nRend. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Slashing damage plus 2 (1d4) Cold damage.\n\nCold Breath (Recharge 5–6). Constitution Saving\nThrow: DC 12, each creature in a 15-foot Cone. Failure: 22 (5d8) Cold damage. Success: Half damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Burrow",
+      "feet": 15
+    },
+    {
+      "mode": "Fly",
+      "feet": 60
+    },
+    {
+      "mode": "Swim",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 4
+    },
+    {
+      "name": "Stealth",
+      "bonus": 2
+    }
+  ],
+  "passivePerception": 14,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 10
+    },
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Draconic"
+  ],
+  "damageImmunities": [
+    "Cold"
+  ],
   "attacks": [
     {
       "name": "Rend",

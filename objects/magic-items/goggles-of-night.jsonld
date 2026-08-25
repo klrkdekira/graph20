@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.128",
     "heading": "Goggles of Night",
-    "lineStart": 15810,
-    "lineEnd": 15814
+    "lineStart": 15772,
+    "lineEnd": 15776
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/goggles-of-night/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": false,
-  "rulesText": "Wondrous Item, Uncommon\n\nWhile wearing these dark lenses, you have Darkvision out to 60 feet. If you already have Darkvision, wearing the goggles increases its range by 60 feet."
+  "rulesText": "Wondrous Item, Uncommon\n\nWhile wearing these dark lenses, you have Darkvision out to 60 feet. If you already have Darkvision, wearing the goggles increases its range by 60 feet.",
+  "isCursed": false,
+  "isSentient": false
 }

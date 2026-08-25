@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.177",
     "heading": "Ochre Jelly",
-    "lineStart": 23489,
-    "lineEnd": 23523
+    "lineStart": 23409,
+    "lineEnd": 23443
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/ochre-jelly/"
   },
   "sizeTypeAlignment": "Large Ooze, Unaligned",
   "sizeAndType": "Large Ooze",
+  "size": "Large",
+  "creatureType": "Ooze",
+  "monsterCategory": "Monster",
   "alignment": "Unaligned",
   "armorClass": "8",
   "initiative": "-2 (8)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.177",
         "heading": "Traits",
-        "lineStart": 23511,
-        "lineEnd": 23515
+        "lineStart": 23431,
+        "lineEnd": 23435
       }
     },
     {
@@ -88,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.177",
         "heading": "Actions",
-        "lineStart": 23517,
-        "lineEnd": 23519
+        "lineStart": 23437,
+        "lineEnd": 23439
       }
     },
     {
@@ -99,8 +105,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.177",
         "heading": "Reactions",
-        "lineStart": 23521,
-        "lineEnd": 23523
+        "lineStart": 23441,
+        "lineEnd": 23443
       }
     }
   ],
@@ -127,6 +133,30 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 20
+    },
+    {
+      "mode": "Climb",
+      "feet": 20
+    }
+  ],
+  "passivePerception": 8,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 60
+    }
+  ],
+  "damageImmunities": [
+    "Lightning",
+    "Slashing"
+  ],
+  "damageResistances": [
+    "Acid"
   ],
   "attacks": [
     {

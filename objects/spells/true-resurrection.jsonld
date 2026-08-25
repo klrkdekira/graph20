@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.350",
     "heading": "True Resurrection",
-    "lineStart": 12284,
-    "lineEnd": 12297
+    "lineStart": 12255,
+    "lineEnd": 12268
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/true-resurrection/"
   },
   "level": 9,
   "school": "Necromancy",
@@ -35,5 +38,27 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (diamonds worth 25,000+ GP, which the spell consumes)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "diamonds worth 25,000+ GP, which the spell consumes",
+    "consumed": true,
+    "materialCost": {
+      "text": "25,000 GP",
+      "currency": "GP",
+      "amount": 25000
+    }
+  }
 }

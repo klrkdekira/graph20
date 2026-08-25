@@ -11,8 +11,11 @@
     "chapter": "Playing the Game",
     "section": "1.75",
     "heading": "Ranged Attacks",
-    "lineStart": 661,
-    "lineEnd": 663
+    "lineStart": 659,
+    "lineEnd": 661
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-75-ranged-attacks/"
   },
   "section": "1.75",
   "rulesText": "When you make a ranged attack, you fire a bow, hurl an axe, or otherwise send projectiles to strike a foe at a distance. Many spells also involve making a ranged attack."

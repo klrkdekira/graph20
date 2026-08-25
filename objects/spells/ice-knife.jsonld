@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.205",
     "heading": "Ice Knife",
-    "lineStart": 10049,
-    "lineEnd": 10060
+    "lineStart": 10020,
+    "lineEnd": 10031
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/ice-knife/"
   },
   "level": 1,
   "school": "Conjuration",
@@ -38,6 +41,12 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 Cold damage."
+    }
+  ],
   "damage": [
     {
       "damageType": "Piercing",
@@ -58,5 +67,23 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "S, M (a drop of water or a piece of ice)",
+    "verbal": false,
+    "somatic": true,
+    "material": true,
+    "materialText": "a drop of water or a piece of ice",
+    "consumed": false
+  }
 }

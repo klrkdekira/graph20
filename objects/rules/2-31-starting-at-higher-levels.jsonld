@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/2-31-starting-at-higher-levels",
+  "@type": "Rule",
+  "name": "Starting at Higher Levels",
+  "slug": "2-31-starting-at-higher-levels",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.31",
+    "heading": "Starting at Higher Levels",
+    "lineStart": 1237,
+    "lineEnd": 1239
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/2-31-starting-at-higher-levels/"
+  },
+  "section": "2.31",
+  "rulesText": "Your GM might start your group's characters at a level higher than 1. It is particularly recommended to start at level 3 if your group is composed of seasoned D&D players."
+}

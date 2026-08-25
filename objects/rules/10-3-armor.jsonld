@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.3",
     "heading": "Armor",
-    "lineStart": 14497,
-    "lineEnd": 14501
+    "lineStart": 14459,
+    "lineEnd": 14463
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/10-3-armor/"
   },
   "section": "10.3",
   "rulesText": "An item in the Armor category is typically a magical version of armor from “Equipment.” Unless an armor’s description notes otherwise, the armor must be worn for its magic to function.\n\nSome suits of magic armor specify the type of armor they are, such as Chain Mail or Plate Armor. If no type is specified, choose the type or determine it randomly."

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.114",
     "heading": "Detect Thoughts",
-    "lineStart": 8605,
-    "lineEnd": 8622
+    "lineStart": 8576,
+    "lineEnd": 8593
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/detect-thoughts/"
   },
   "level": 2,
   "school": "Divination",
@@ -38,7 +41,37 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "As a Magic action on your next turn, you can try to probe deeper into the target's mind. If you probe deeper, the target makes a Wisdom saving throw. On a failed save, you discern the target's reasoning, emotions, and something that looms large in its mind (such as a worry, love, or hate). On a successful save, the spell ends. Either way, the target knows that you are probing into its mind, and until you shift your attention away from the target's mind, the target can take an action on its turn to make an Intelligence (Arcana) check against your spell save DC, ending the spell on a success.",
+      "outcomes": [
+        "FailureEffect",
+        "Partial"
+      ]
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (I Copper Piece)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "I Copper Piece",
+    "consumed": false
+  }
 }

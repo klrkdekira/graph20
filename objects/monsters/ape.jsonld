@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.4",
     "heading": "Ape",
-    "lineStart": 26719,
-    "lineEnd": 26744
+    "lineStart": 26633,
+    "lineEnd": 26658
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/ape/"
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
+  "size": "Medium",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "12",
   "initiative": "+2 (12)",
@@ -76,12 +82,33 @@
         "chapter": "Animals",
         "section": "13.4",
         "heading": "Actions",
-        "lineStart": 26738,
-        "lineEnd": 26744
+        "lineStart": 26652,
+        "lineEnd": 26658
       }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 19 (3d8 + 6)\nSpeed 30 ft., Climb 30 ft.\n\nSkills Athletics +5, Perception +3\nSenses Passive Perception 13\nLanguages None\nCR 1/2 (XP 100; PB +2)\n\nActions\n\nMultiattack. The ape makes two Fist attacks.\n\nFist. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Bludgeoning damage.\n\nRock (Recharge 6). Ranged Attack Roll: +5, range 25/50 ft. Hit: 10 (2d6 + 3) Bludgeoning damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Climb",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Athletics",
+      "bonus": 5
+    },
+    {
+      "name": "Perception",
+      "bonus": 3
+    }
+  ],
+  "passivePerception": 13,
   "attacks": [
     {
       "name": "Fist",

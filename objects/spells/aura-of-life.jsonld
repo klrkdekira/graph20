@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.51",
     "heading": "Aura of Life",
-    "lineStart": 7629,
-    "lineEnd": 7638
+    "lineStart": 7602,
+    "lineEnd": 7611
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/aura-of-life/"
   },
   "level": 4,
   "school": "Abjuration",
@@ -35,5 +38,38 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V",
+    "verbal": true,
+    "somatic": false,
+    "material": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Emanation",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+      },
+      "sourceText": "An aura radiates from you in a 30-foot Emanation for the duration.",
+      "sizeFeet": 30
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+    }
+  ]
 }

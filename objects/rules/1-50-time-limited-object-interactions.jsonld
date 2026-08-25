@@ -14,6 +14,9 @@
     "lineStart": 455,
     "lineEnd": 457
   },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-50-time-limited-object-interactions/"
+  },
   "section": "1.50",
   "rulesText": "When time is short, such as in combat, interactions with objects are limited: one free interaction per turn. That interaction must occur during a creature's movement or action. Any additional interactions require the Utilize action, as explained in \"Combat\" later in \"Playing the Game.\""
 }

@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.42",
     "heading": "Glassblower's Tools (30 GP)",
-    "lineStart": 6168,
-    "lineEnd": 6174
+    "lineStart": 6144,
+    "lineEnd": 6150
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-42-glassblowers-tools-30-gp/"
   },
   "section": "6.42",
   "rulesText": "Ability: Intelligence Weight: 5 lb.\n\nUtilize: Discern what a glass object held in the past 24 hours (DC 15)\n\nCraft: Glass Bottle, Magnifying Glass, Spyglass, Vial"

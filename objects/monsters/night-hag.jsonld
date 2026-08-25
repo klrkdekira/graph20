@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.174",
     "heading": "Night Hag",
-    "lineStart": 23371,
-    "lineEnd": 23424
+    "lineStart": 23291,
+    "lineEnd": 23344
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/night-hag/"
   },
   "sizeTypeAlignment": "Medium Fiend, Neutral Evil",
   "sizeAndType": "Medium Fiend",
+  "size": "Medium",
+  "creatureType": "Fiend",
+  "monsterCategory": "Monster",
   "alignment": "Neutral Evil",
   "armorClass": "17",
   "initiative": "+5 (15)",
@@ -78,8 +84,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.174",
         "heading": "Traits",
-        "lineStart": 23394,
-        "lineEnd": 23402
+        "lineStart": 23314,
+        "lineEnd": 23322
       }
     },
     {
@@ -89,8 +95,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.174",
         "heading": "Actions",
-        "lineStart": 23404,
-        "lineEnd": 23420
+        "lineStart": 23324,
+        "lineEnd": 23340
       }
     },
     {
@@ -100,8 +106,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.174",
         "heading": "Bonus Actions",
-        "lineStart": 23422,
-        "lineEnd": 23424
+        "lineStart": 23342,
+        "lineEnd": 23344
       }
     }
   ],
@@ -109,6 +115,133 @@
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Deception",
+      "bonus": 6
+    },
+    {
+      "name": "Insight",
+      "bonus": 5
+    },
+    {
+      "name": "Perception",
+      "bonus": 5
+    },
+    {
+      "name": "Stealth",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 15,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Abyssal",
+    "Common",
+    "Infernal",
+    "Primordial"
+  ],
+  "damageResistances": [
+    "Cold",
+    "Fire"
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "While on the Ethereal Plane, the hag casts Dream, using the same spellcasting ability as Spellcasting. Only the hag can serve as the spell's messenger, and the target must be a creature the hag can see on the Material Plane. The spell fails and is wasted if the target is under the effect of the Protection from Evil and Good spell or within a Magic Circle spell.",
+      "path": "statSections[1].rulesText",
+      "entries": [
+        {
+          "frequency": "While on the Ethereal Plane, the hag casts Dream, using the same spellcasting ability as Spellcasting",
+          "spellsText": "While on the Ethereal Plane, the hag casts Dream, using the same spellcasting ability as Spellcasting. Only the hag can serve as the spell's messenger, and the target must be a creature the hag can see on the Material Plane. The spell fails and is wasted if the target is under the effect of the Protection from Evil and Good spell or within a Magic Circle spell.",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/dream"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/protection-from-evil-and-good"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/magic-circle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The hag casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save DC 14):\n\nAt Will: Detect Magic, Etherealness, Magic Missile (level 4 version)\n\n2/Day Each: Phantasmal Killer, Plane Shift (self only)",
+      "path": "statSections[1].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Detect Magic, Etherealness, Magic Missile (level 4 version)",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/etherealness"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/magic-missile"
+            }
+          ]
+        },
+        {
+          "frequency": "2/Day Each",
+          "spellsText": "Phantasmal Killer, Plane Shift (self only)",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/phantasmal-killer"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/plane-shift"
+            }
+          ]
+        }
+      ],
+      "ability": "Intelligence",
+      "saveDC": 14
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dream"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/protection-from-evil-and-good"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/magic-circle"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/etherealness"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/magic-missile"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/phantasmal-killer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/plane-shift"
     }
   ],
   "attacks": [

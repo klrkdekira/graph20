@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.29",
     "heading": "Warlock Spell List",
-    "lineStart": 4751,
-    "lineEnd": 4764
+    "lineStart": 4738,
+    "lineEnd": 4751,
+    "caption": "Level 1 Warlock Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-29-level-1-warlock-spells/"
   },
   "columns": [
     "Spell",

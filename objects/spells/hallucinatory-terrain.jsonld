@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.189",
     "heading": "Hallucinatory Terrain",
-    "lineStart": 9835,
-    "lineEnd": 9846
+    "lineStart": 9806,
+    "lineEnd": 9817
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/hallucinatory-terrain/"
   },
   "level": 4,
   "school": "Illusion",
@@ -43,5 +46,41 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "300 feet",
+    "kind": "Distance",
+    "distanceFeet": 300
+  },
+  "durationDetails": {
+    "text": "24 hours",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 24,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a mushroom)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a mushroom",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cube",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+      },
+      "sourceText": "You make natural terrain in a 150-foot Cube in range look, sound, and smell like another sort of natural terrain.",
+      "sizeFeet": 150
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+    }
+  ]
 }

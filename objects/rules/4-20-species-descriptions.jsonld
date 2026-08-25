@@ -11,8 +11,42 @@
     "chapter": "Character Origins",
     "section": "4.20",
     "heading": "Species Descriptions",
-    "lineStart": 5463,
-    "lineEnd": 5463
+    "lineStart": 5439,
+    "lineEnd": 5439
   },
-  "section": "4.20"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/4-20-species-descriptions/"
+  },
+  "section": "4.20",
+  "rulesText": "Species Descriptions",
+  "headingOnly": true,
+  "hasPart": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/species/dragonborn"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/species/dwarf"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/species/elf"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/species/gnome"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/species/goliath"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/species/halfling"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/species/human"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/species/orc"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/species/tiefling"
+    }
+  ]
 }

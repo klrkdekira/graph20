@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.136",
     "heading": "Spyglass (1,000 GP)",
-    "lineStart": 6778,
-    "lineEnd": 6780
+    "lineStart": 6751,
+    "lineEnd": 6753
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-136-spyglass-1-000-gp/"
   },
   "section": "6.136",
   "rulesText": "Objects viewed through a Spyglass are magnified to twice their size."

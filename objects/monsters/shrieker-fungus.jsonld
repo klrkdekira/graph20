@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.93",
     "heading": "Shrieker Fungus",
-    "lineStart": 20843,
-    "lineEnd": 20864
+    "lineStart": 20763,
+    "lineEnd": 20784
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/shrieker-fungus/"
   },
   "sizeTypeAlignment": "Medium Plant, Unaligned",
   "sizeAndType": "Medium Plant",
+  "size": "Medium",
+  "creatureType": "Plant",
+  "monsterCategory": "Monster",
   "alignment": "Unaligned",
   "armorClass": "5",
   "initiative": "-5 (5)",
@@ -75,8 +81,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.93",
         "heading": "Reactions",
-        "lineStart": 20862,
-        "lineEnd": 20864
+        "lineStart": 20782,
+        "lineEnd": 20784
       }
     }
   ],
@@ -93,6 +99,19 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 5
+    }
+  ],
+  "passivePerception": 6,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 30
     }
   ]
 }

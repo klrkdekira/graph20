@@ -1,0 +1,39 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/alchemists-supplies",
+  "@type": "Equipment",
+  "name": "Alchemist's Supplies",
+  "slug": "alchemists-supplies",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.35",
+    "heading": "Alchemist's Supplies (50 GP)",
+    "lineStart": 6088,
+    "lineEnd": 6094
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/alchemists-supplies/"
+  },
+  "equipmentType": "tool",
+  "fromRule": {
+    "@id": "https://cheeleong.dev/graph20/objects/rules/6-35-alchemists-supplies-50-gp"
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-35-alchemists-supplies-50-gp"
+    }
+  ],
+  "cost": {
+    "text": "50 GP",
+    "currency": "GP",
+    "amount": 50
+  },
+  "ability": "Intelligence",
+  "weight": "8 lb.",
+  "weightPounds": 8,
+  "utilize": "Identify a substance (DC 15), or start a fire (DC 15)",
+  "craft": "Acid, Alchemist's Fire, Component Pouch, Oil, Paper, Perfume"
+}

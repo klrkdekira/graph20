@@ -11,8 +11,11 @@
     "chapter": "Feats",
     "section": "5.24",
     "heading": "Boon of Truesight",
-    "lineStart": 5857,
-    "lineEnd": 5867
+    "lineStart": 5833,
+    "lineEnd": 5843
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/feats/boon-of-truesight/"
   },
   "category": "Epic Boon",
   "prerequisite": "Level 19+",

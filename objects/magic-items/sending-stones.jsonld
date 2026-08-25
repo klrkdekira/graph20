@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.239",
     "heading": "Sending Stones",
-    "lineStart": 17082,
-    "lineEnd": 17088
+    "lineStart": 17026,
+    "lineEnd": 17032
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/sending-stones/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
@@ -22,5 +25,7 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/sending"
     }
-  ]
+  ],
+  "isCursed": false,
+  "isSentient": false
 }

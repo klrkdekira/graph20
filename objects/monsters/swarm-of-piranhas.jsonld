@@ -11,11 +11,20 @@
     "chapter": "Animals",
     "section": "13.85",
     "heading": "Swarm of Piranhas",
-    "lineStart": 28877,
-    "lineEnd": 28905
+    "lineStart": 28788,
+    "lineEnd": 28816
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/swarm-of-piranhas/"
   },
   "sizeTypeAlignment": "Medium Swarm of Tiny Beasts, Unaligned",
   "sizeAndType": "Medium Swarm of Tiny Beasts",
+  "size": "Medium",
+  "creatureType": "Beast",
+  "descriptiveTags": [
+    "Swarm of Tiny Beasts"
+  ],
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "13",
   "initiative": "+3 (13)",
@@ -77,8 +86,8 @@
         "chapter": "Animals",
         "section": "13.85",
         "heading": "Traits",
-        "lineStart": 28897,
-        "lineEnd": 28901
+        "lineStart": 28808,
+        "lineEnd": 28812
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Animals",
         "section": "13.85",
         "heading": "Actions",
-        "lineStart": 28903,
-        "lineEnd": 28905
+        "lineStart": 28814,
+        "lineEnd": 28816
       }
     }
   ],
@@ -119,6 +128,28 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/stunned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 5
+    },
+    {
+      "mode": "Swim",
+      "feet": 40
+    }
+  ],
+  "passivePerception": 8,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "damageResistances": [
+    "Bludgeoning",
+    "Piercing",
+    "Slashing"
   ],
   "attacks": [
     {

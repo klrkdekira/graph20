@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.83",
     "heading": "Compulsion",
-    "lineStart": 8096,
-    "lineEnd": 8107
+    "lineStart": 8067,
+    "lineEnd": 8078
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/compulsion/"
   },
   "level": 4,
   "school": "Enchantment",
@@ -30,9 +33,34 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "Each creature of your choice that you can see within range must succeed on a Wisdom saving throw or have the Charmed condition until the spell ends."
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": true,
   "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.123",
     "heading": "Divine Smite",
-    "lineStart": 8736,
-    "lineEnd": 8747
+    "lineStart": 8707,
+    "lineEnd": 8718
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/divine-smite/"
   },
   "level": 1,
   "school": "Evocation",
@@ -41,5 +44,20 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V",
+    "verbal": true,
+    "somatic": false,
+    "material": false
+  }
 }

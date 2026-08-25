@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-77-cr-0-creatures",
+  "@type": "Rule",
+  "name": "CR 0 Creatures",
+  "slug": "9-77-cr-0-creatures",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.77",
+    "heading": "CR 0 Creatures",
+    "lineStart": 14419,
+    "lineEnd": 14421
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/9-77-cr-0-creatures/"
+  },
+  "section": "9.77",
+  "rulesText": "Creatures that have a CR of 0, particularly ones that are worth 0 XP, should be used sparingly. If you want to include many CR 0 critters in an encounter, use swarms instead."
+}

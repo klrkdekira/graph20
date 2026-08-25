@@ -11,8 +11,12 @@
     "chapter": "Spells",
     "section": "7.124",
     "heading": "Divine Word",
-    "lineStart": 8764,
-    "lineEnd": 8769
+    "lineStart": 8735,
+    "lineEnd": 8740,
+    "caption": "Divine Word Effects"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/7-124-divine-word-effects/"
   },
   "columns": [
     "Hit Points",

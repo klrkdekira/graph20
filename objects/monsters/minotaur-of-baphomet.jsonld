@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.169",
     "heading": "Minotaur of Baphomet",
-    "lineStart": 23207,
-    "lineEnd": 23233
+    "lineStart": 23127,
+    "lineEnd": 23153
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/minotaur-of-baphomet/"
   },
   "sizeTypeAlignment": "Large Monstrosity, Chaotic Evil",
   "sizeAndType": "Large Monstrosity",
+  "size": "Large",
+  "creatureType": "Monstrosity",
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "14",
   "initiative": "+0 (10)",
@@ -76,12 +82,38 @@
         "chapter": "Monsters A-Z",
         "section": "12.169",
         "heading": "Actions",
-        "lineStart": 23228,
-        "lineEnd": 23233
+        "lineStart": 23148,
+        "lineEnd": 23153
       }
     }
   ],
   "rulesText": "Large Monstrosity, Chaotic Evil\n\nAC 14\nInitiative +0 (10)\nHP 85 (10d10 + 30)\nSpeed 40 ft.\n\nSkills Perception +7, Survival +7\nSenses Darkvision 60 ft.; Passive Perception 17\nLanguages Abyssal\nCR 3 (XP 700; PB +2)\n\nActions\n\nAbyssal Glaive. Melee Attack Roll: +6, reach 10 ft.\nHit: 10 (1d12 + 4) Slashing damage plus 10 (3d6) Necrotic damage.\n\nGore (Recharge 5–6). Melee Attack Roll: +6, reach 5 ft. Hit: 18 (4d6 + 4) Piercing damage. If the target is a Large or smaller creature and the minotaur moved 10+ feet straight toward it immediately before the hit, the target takes an extra 10 (3d6) Piercing damage and has the Prone condition.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 7
+    },
+    {
+      "name": "Survival",
+      "bonus": 7
+    }
+  ],
+  "passivePerception": 17,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Abyssal"
+  ],
   "attacks": [
     {
       "name": "Abyssal Glaive",

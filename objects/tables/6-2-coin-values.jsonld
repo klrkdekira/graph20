@@ -11,8 +11,12 @@
     "chapter": "Equipment",
     "section": "6.2",
     "heading": "Coins",
-    "lineStart": 5879,
-    "lineEnd": 5885
+    "lineStart": 5855,
+    "lineEnd": 5861,
+    "caption": "Coin Values"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/6-2-coin-values/"
   },
   "columns": [
     "Coin",

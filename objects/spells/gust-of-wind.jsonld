@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.187",
     "heading": "Gust of Wind",
-    "lineStart": 9783,
-    "lineEnd": 9798
+    "lineStart": 9754,
+    "lineEnd": 9769
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/gust-of-wind/"
   },
   "level": 2,
   "school": "Evocation",
@@ -42,7 +45,61 @@
     }
   ],
   "savingThrowAbility": "Strength",
+  "savingThrows": [
+    {
+      "ability": "Strength",
+      "sourceText": "A Line of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the duration. Each creature in the Line must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the Line. A creature that ends its turn in the Line must make the same save."
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a legume seed)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a legume seed",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Line",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/line"
+      },
+      "sourceText": "A Line of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the duration."
+    },
+    {
+      "shape": "Line",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/line"
+      },
+      "sourceText": "Any creature in the Line must spend 2 feet of movement for every 1 foot it moves when moving closer to you."
+    },
+    {
+      "shape": "Line",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/line"
+      },
+      "sourceText": "As a Bonus Action on your later turns, you can change the direction in which the Line blasts from you."
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/line"
+    }
+  ]
 }

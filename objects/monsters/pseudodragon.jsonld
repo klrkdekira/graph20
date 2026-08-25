@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.192",
     "heading": "Pseudodragon",
-    "lineStart": 23954,
-    "lineEnd": 23985
+    "lineStart": 23874,
+    "lineEnd": 23905
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/pseudodragon/"
   },
   "sizeTypeAlignment": "Tiny Dragon, Neutral Good",
   "sizeAndType": "Tiny Dragon",
+  "size": "Tiny",
+  "creatureType": "Dragon",
+  "monsterCategory": "Monster",
   "alignment": "Neutral Good",
   "armorClass": "14",
   "initiative": "+2 (12)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.192",
         "heading": "Traits",
-        "lineStart": 23975,
-        "lineEnd": 23977
+        "lineStart": 23895,
+        "lineEnd": 23897
       }
     },
     {
@@ -87,12 +93,46 @@
         "chapter": "Monsters A-Z",
         "section": "12.192",
         "heading": "Actions",
-        "lineStart": 23979,
-        "lineEnd": 23985
+        "lineStart": 23899,
+        "lineEnd": 23905
       }
     }
   ],
   "rulesText": "Tiny Dragon, Neutral Good\n\nAC 14\nInitiative +2 (12)\nHP 10 (3d4 + 3)\nSpeed 15 ft., Fly 60 ft.\n\nSkills Perception +5, Stealth +4\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 15\nLanguages Understands Common and Draconic but can't speak\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nMagic Resistance. The pseudodragon has Advantage on saving throws against spells and other magical effects.\n\nActions\n\nMultiattack. The pseudodragon makes two Bite attacks.\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) Piercing damage.\n\nSting. Constitution Saving Throw: DC 12, one creature the pseudodragon can see within 5 feet. Failure: 5 (2d4) Poison damage, and the target has the Poisoned condition for 1 hour. Failure by 5 or More: While Poisoned, the target also has the Unconscious condition, which ends early if the target takes damage or a creature within 5 feet of it takes an action to wake it.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 15
+    },
+    {
+      "mode": "Fly",
+      "feet": 60
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 5
+    },
+    {
+      "name": "Stealth",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 15,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 10
+    },
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Understands Common and Draconic but can't speak"
+  ],
   "attacks": [
     {
       "name": "Bite",

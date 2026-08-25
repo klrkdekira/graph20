@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.43",
     "heading": "Bronze Dragons",
-    "lineStart": 19214,
-    "lineEnd": 19214
+    "lineStart": 19140,
+    "lineEnd": 19140
   },
-  "section": "12.43"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-43-bronze-dragons/"
+  },
+  "section": "12.43",
+  "rulesText": "Bronze Dragons",
+  "headingOnly": true
 }

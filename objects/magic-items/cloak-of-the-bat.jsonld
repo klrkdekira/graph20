@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.81",
     "heading": "Cloak of the Bat",
-    "lineStart": 15267,
-    "lineEnd": 15273
+    "lineStart": 15229,
+    "lineEnd": 15235
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/cloak-of-the-bat/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Rare",
@@ -23,5 +26,7 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/polymorph"
     }
-  ]
+  ],
+  "isCursed": false,
+  "isSentient": false
 }

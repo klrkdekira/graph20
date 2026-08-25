@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.313",
     "heading": "Silent Image",
-    "lineStart": 11664,
-    "lineEnd": 11677
+    "lineStart": 11635,
+    "lineEnd": 11648
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/silent-image/"
   },
   "level": 1,
   "school": "Illusion",
@@ -39,5 +42,41 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a bit of fleece)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a bit of fleece",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cube",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+      },
+      "sourceText": "You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 15-foot Cube.",
+      "sizeFeet": 15
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+    }
+  ]
 }

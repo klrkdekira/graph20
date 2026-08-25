@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.30",
     "heading": "Abilities",
-    "lineStart": 14710,
-    "lineEnd": 14712
+    "lineStart": 14672,
+    "lineEnd": 14674
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/10-30-abilities/"
   },
   "section": "10.30",
   "rulesText": "A sentient magic item has Intelligence, Wisdom, and Charisma scores. Choose the item's abilities, or determine them randomly as follows: roll 4d6 for each one, dropping the lowest roll and totaling the rest."

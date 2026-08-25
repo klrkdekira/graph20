@@ -11,8 +11,27 @@
     "chapter": "Character Origins",
     "section": "4.9",
     "heading": "Background Descriptions",
-    "lineStart": 5381,
-    "lineEnd": 5381
+    "lineStart": 5357,
+    "lineEnd": 5357
   },
-  "section": "4.9"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/4-9-background-descriptions/"
+  },
+  "section": "4.9",
+  "rulesText": "Background Descriptions",
+  "headingOnly": true,
+  "hasPart": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/backgrounds/acolyte"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/backgrounds/criminal"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/backgrounds/sage"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/backgrounds/soldier"
+    }
+  ]
 }

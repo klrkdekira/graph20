@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.69",
     "heading": "Chain Lightning",
-    "lineStart": 7884,
-    "lineEnd": 7897
+    "lineStart": 7855,
+    "lineEnd": 7868
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/chain-lightning/"
   },
   "level": 6,
   "school": "Evocation",
@@ -34,6 +37,16 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "Each target makes a Dexterity saving throw, taking 10d8 Lightning damage on a failed save or half as much damage on a successful one.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Lightning",
@@ -46,5 +59,23 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "150 feet",
+    "kind": "Distance",
+    "distanceFeet": 150
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (three silver pins)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "three silver pins",
+    "consumed": false
+  }
 }

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.166",
     "heading": "Forcecage",
-    "lineStart": 9427,
-    "lineEnd": 9444
+    "lineStart": 9398,
+    "lineEnd": 9415
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/forcecage/"
   },
   "level": 7,
   "school": "Evocation",
@@ -38,7 +41,57 @@
     }
   ],
   "savingThrowAbility": "Charisma",
+  "savingThrows": [
+    {
+      "ability": "Charisma",
+      "sourceText": "A creature inside the cage can't leave it by non-magical means. If the creature tries to use teleportation or interplanar travel to leave, it must first make a Charisma saving throw. On a successful save, the creature can use that magic to exit the cage. On a failed save, the creature doesn't exit the cage and wastes the spell or effect. The cage also extends into the Ethereal Plane, blocking ethereal travel.",
+      "outcomes": [
+        "FailureEffect",
+        "Partial"
+      ]
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "100 feet",
+    "kind": "Distance",
+    "distanceFeet": 100
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 hour",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (ruby dust worth 1,500+ GP, which the spell consumes)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "ruby dust worth 1,500+ GP, which the spell consumes",
+    "consumed": true,
+    "materialCost": {
+      "text": "1,500 GP",
+      "currency": "GP",
+      "amount": 1500
+    }
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cube",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+      },
+      "sourceText": "An immobile, Invisible, Cube-shaped prison composed of magical force springs into existence around an area you choose within range."
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+    }
+  ]
 }

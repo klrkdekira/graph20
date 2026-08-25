@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.5",
     "heading": "Weapon Proficiency",
-    "lineStart": 5905,
-    "lineEnd": 5907
+    "lineStart": 5881,
+    "lineEnd": 5883
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-5-weapon-proficiency/"
   },
   "section": "6.5",
   "rulesText": "Anyone can wield a weapon, but you must have proficiency with it to add your Proficiency Bonus to an attack roll you make with it. A player character's features can provide weapon proficiencies. A monster is proficient with any weapon in its stat block."

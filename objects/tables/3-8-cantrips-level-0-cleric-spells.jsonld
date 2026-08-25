@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.8",
     "heading": "Cleric Spell List",
-    "lineStart": 2178,
-    "lineEnd": 2186
+    "lineStart": 2168,
+    "lineEnd": 2176,
+    "caption": "Cantrips (Level 0 Cleric Spells)"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-8-cantrips-level-0-cleric-spells/"
   },
   "columns": [
     "Spell",

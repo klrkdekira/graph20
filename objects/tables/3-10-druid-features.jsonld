@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.10",
     "heading": "Druid Class Features",
-    "lineStart": 2404,
-    "lineEnd": 2426
+    "lineStart": 2394,
+    "lineEnd": 2416,
+    "caption": "Druid Features"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-10-druid-features/"
   },
   "columns": [
     "Proficiency Level",

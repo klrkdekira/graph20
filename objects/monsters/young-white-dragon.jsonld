@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.261",
     "heading": "Young White Dragon",
-    "lineStart": 26243,
-    "lineEnd": 26274
+    "lineStart": 26160,
+    "lineEnd": 26191
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/young-white-dragon/"
   },
   "sizeTypeAlignment": "Large Dragon (Chromatic), Chaotic Evil",
   "sizeAndType": "Large Dragon (Chromatic)",
+  "size": "Large",
+  "creatureType": "Dragon",
+  "descriptiveTags": [
+    "Chromatic"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "17",
   "initiative": "+3 (13)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.261",
         "heading": "Traits",
-        "lineStart": 26263,
-        "lineEnd": 26265
+        "lineStart": 26180,
+        "lineEnd": 26182
       }
     },
     {
@@ -88,12 +97,58 @@
         "chapter": "Monsters A-Z",
         "section": "12.261",
         "heading": "Actions",
-        "lineStart": 26267,
-        "lineEnd": 26274
+        "lineStart": 26184,
+        "lineEnd": 26191
       }
     }
   ],
   "rulesText": "Large Dragon (Chromatic), Chaotic Evil\n\nAC 17\nInitiative +3 (13)\nHP 123 (13d10 + 52)\nSpeed 40 ft., Burrow 20 ft., Fly 80 ft., Swim 40 ft.\n\nSkills Perception +6, Stealth +3\nImmunities Cold\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 16\nLanguages Common, Draconic\nCR 6 (XP 2,300; PB +3)\n\nTraits\n\nIce Walk. The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, Difficult Terrain composed of ice or snow doesn't cost it extra movement.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 9 (2d4 + 4) Slashing damage plus 2 (1d4) Cold damage.\n\nCold Breath (Recharge 5–6). Constitution Saving\nThrow: DC 15, each creature in a 30-foot Cone. Failure: 40 (9d8) Cold damage. Success: Half damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Burrow",
+      "feet": 20
+    },
+    {
+      "mode": "Fly",
+      "feet": 80
+    },
+    {
+      "mode": "Swim",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 6
+    },
+    {
+      "name": "Stealth",
+      "bonus": 3
+    }
+  ],
+  "passivePerception": 16,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 30
+    },
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Common",
+    "Draconic"
+  ],
+  "damageImmunities": [
+    "Cold"
+  ],
   "attacks": [
     {
       "name": "Rend",

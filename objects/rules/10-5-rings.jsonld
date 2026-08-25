@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.5",
     "heading": "Rings",
-    "lineStart": 14526,
-    "lineEnd": 14528
+    "lineStart": 14488,
+    "lineEnd": 14490
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/10-5-rings/"
   },
   "section": "10.5",
   "rulesText": "For its magic to function, an item in the Ring category must be worn on a finger or a similar digit unless its description notes otherwise."

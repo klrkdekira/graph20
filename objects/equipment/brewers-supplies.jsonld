@@ -1,0 +1,39 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/brewers-supplies",
+  "@type": "Equipment",
+  "name": "Brewer's Supplies",
+  "slug": "brewers-supplies",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.36",
+    "heading": "Brewer's Supplies (20 GP)",
+    "lineStart": 6096,
+    "lineEnd": 6102
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/brewers-supplies/"
+  },
+  "equipmentType": "tool",
+  "fromRule": {
+    "@id": "https://cheeleong.dev/graph20/objects/rules/6-36-brewers-supplies-20-gp"
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-36-brewers-supplies-20-gp"
+    }
+  ],
+  "cost": {
+    "text": "20 GP",
+    "currency": "GP",
+    "amount": 20
+  },
+  "ability": "Intelligence",
+  "weight": "9 lb.",
+  "weightPounds": 9,
+  "utilize": "Detect poisoned drink (DC 15), or identify alcohol (DC 10)",
+  "craft": "Antitoxin"
+}

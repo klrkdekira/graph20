@@ -11,9 +11,22 @@
     "chapter": "Rules Glossary",
     "section": "8.116",
     "heading": "Proficiency",
-    "lineStart": 13472,
-    "lineEnd": 13474
+    "lineStart": 13436,
+    "lineEnd": 13438
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-116-proficiency/"
   },
   "section": "8.116",
-  "rulesText": "If you have proficiency with something, you can add your Proficiency Bonus to any D20 Test you make using that thing. A creature might have proficiency in a skill or saving throw or with a weapon or tool. See also “Playing the Game” (“Proficiency”)."
+  "rulesText": "If you have proficiency with something, you can add your Proficiency Bonus to any D20 Test you make using that thing. A creature might have proficiency in a skill or saving throw or with a weapon or tool. See also “Playing the Game” (“Proficiency”).",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    }
+  ]
 }

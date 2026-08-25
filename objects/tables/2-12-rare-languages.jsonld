@@ -11,8 +11,12 @@
     "chapter": "Character Creation",
     "section": "2.12",
     "heading": "Choose Languages",
-    "lineStart": 994,
-    "lineEnd": 1000
+    "lineStart": 989,
+    "lineEnd": 995,
+    "caption": "Rare Languages"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/2-12-rare-languages/"
   },
   "columns": [
     "Language",

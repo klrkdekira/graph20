@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.57",
     "heading": "Befuddlement",
-    "lineStart": 7707,
-    "lineEnd": 7720
+    "lineStart": 7678,
+    "lineEnd": 7691
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/befuddlement/"
   },
   "level": 8,
   "school": "Enchantment",
@@ -42,6 +45,12 @@
     }
   ],
   "savingThrowAbility": "Intelligence",
+  "savingThrows": [
+    {
+      "ability": "Intelligence",
+      "sourceText": "You blast the mind of a creature that you can see within range. The target makes an Intelligence saving throw."
+    }
+  ],
   "damage": [
     {
       "damageType": "Psychic",
@@ -54,5 +63,23 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "150 feet",
+    "kind": "Distance",
+    "distanceFeet": 150
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a key ring with no keys)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a key ring with no keys",
+    "consumed": false
+  }
 }

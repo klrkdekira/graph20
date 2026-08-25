@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.214",
     "heading": "Silver Dragons",
-    "lineStart": 24691,
-    "lineEnd": 24691
+    "lineStart": 24611,
+    "lineEnd": 24611
   },
-  "section": "12.214"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-214-silver-dragons/"
+  },
+  "section": "12.214",
+  "rulesText": "Silver Dragons",
+  "headingOnly": true
 }

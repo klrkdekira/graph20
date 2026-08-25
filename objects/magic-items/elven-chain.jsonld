@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.108",
     "heading": "Elven Chain",
-    "lineStart": 15577,
-    "lineEnd": 15581
+    "lineStart": 15539,
+    "lineEnd": 15543
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/elven-chain/"
   },
   "itemCategory": "Armor",
   "categoryDetail": "Chain Mail or Chain Shirt",
   "rarity": "Rare",
   "requiresAttunement": false,
-  "rulesText": "Armor (Chain Mail or Chain Shirt), Rare\n\nYou gain a +1 bonus to Armor Class while you wear this armor. You are considered trained with this armor even if you lack training with Medium or Heavy armor."
+  "rulesText": "Armor (Chain Mail or Chain Shirt), Rare\n\nYou gain a +1 bonus to Armor Class while you wear this armor. You are considered trained with this armor even if you lack training with Medium or Heavy armor.",
+  "isCursed": false,
+  "isSentient": false
 }

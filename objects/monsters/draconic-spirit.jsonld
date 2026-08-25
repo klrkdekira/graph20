@@ -11,11 +11,17 @@
     "chapter": "Spells",
     "section": "7.334",
     "heading": "Draconic Spirit",
-    "lineStart": 11965,
-    "lineEnd": 11995
+    "lineStart": 11936,
+    "lineEnd": 11966
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/draconic-spirit/"
   },
   "sizeTypeAlignment": "Large Dragon, Neutral",
   "sizeAndType": "Large Dragon",
+  "size": "Large",
+  "creatureType": "Dragon",
+  "monsterCategory": "Monster",
   "alignment": "Neutral",
   "armorClass": "14 + the spell's level",
   "hitPoints": "50 + 10 for each spell level above 5",
@@ -65,8 +71,8 @@
         "chapter": "Spells",
         "section": "7.334",
         "heading": "Traits",
-        "lineStart": 11985,
-        "lineEnd": 11987
+        "lineStart": 11956,
+        "lineEnd": 11958
       }
     },
     {
@@ -76,8 +82,8 @@
         "chapter": "Spells",
         "section": "7.334",
         "heading": "Actions",
-        "lineStart": 11989,
-        "lineEnd": 11995
+        "lineStart": 11960,
+        "lineEnd": 11966
       }
     }
   ],
@@ -92,6 +98,42 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Fly",
+      "feet": 60
+    },
+    {
+      "mode": "Swim",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 12,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 30
+    },
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Draconic",
+    "understands the languages you know"
+  ],
+  "damageResistances": [
+    "Acid",
+    "Cold",
+    "Fire",
+    "Lightning",
+    "Poison"
   ],
   "unparsedAttacks": [
     {

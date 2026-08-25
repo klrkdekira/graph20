@@ -1,0 +1,23 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-14-curses-and-magical-contagions",
+  "@type": "Rule",
+  "name": "Curses and Magical Contagions",
+  "slug": "9-14-curses-and-magical-contagions",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.14",
+    "heading": "Curses and Magical Contagions",
+    "lineStart": 13844,
+    "lineEnd": 13848
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/9-14-curses-and-magical-contagions/"
+  },
+  "section": "9.14",
+  "rulesText": "A curse is a magical burden that lasts for a specified time or until it is ended by some means. A magical contagion is an adverse effect of magical origin that is contagious by definition.\n\nThe following sections discuss curses and magical contagions in detail.",
+  "ruleCategory": "Curse"
+}

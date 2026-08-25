@@ -1,0 +1,30 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-57-wyvern-poison-1-200-gp",
+  "@type": "Rule",
+  "name": "Wyvern Poison (1,200 GP)",
+  "slug": "9-57-wyvern-poison-1-200-gp",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.57",
+    "heading": "Wyvern Poison (1,200 GP)",
+    "lineStart": 14132,
+    "lineEnd": 14136
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/9-57-wyvern-poison-1-200-gp/"
+  },
+  "section": "9.57",
+  "rulesText": "Injury Poison\n\nA creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poisson damage on a failed save or half as much damage on a successful one.",
+  "ruleCategory": "Poison",
+  "fixedDCs": [
+    {
+      "dc": 14,
+      "sourceText": "Injury Poison A creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poisson damage on a failed save or half as much damage o",
+      "ability": "Constitution"
+    }
+  ]
+}

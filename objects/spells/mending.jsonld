@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.242",
     "heading": "Mending",
-    "lineStart": 10607,
-    "lineEnd": 10618
+    "lineStart": 10578,
+    "lineEnd": 10589
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/mending/"
   },
   "level": 0,
   "school": "Transmutation",
@@ -47,5 +50,22 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (two lodestones)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "two lodestones",
+    "consumed": false
+  }
 }

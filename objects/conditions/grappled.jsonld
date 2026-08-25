@@ -11,10 +11,27 @@
     "chapter": "Rules Glossary",
     "section": "8.74",
     "heading": "Grappled [Condition]",
-    "lineStart": 13163,
-    "lineEnd": 13171
+    "lineStart": 13127,
+    "lineEnd": 13135
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/conditions/grappled/"
   },
   "rulesText": "While you have the Grappled condition, you experience the following effects.\n\nSpeed 0. Your Speed is 0 and can't increase.\n\nAttacks Affected. You have Disadvantage on attack rolls against any target other than the grappler.\n\nMovable. The grappler can drag or carry you when it moves, but every foot of movement costs it 1 extra foot unless you are Tiny or two or more sizes smaller than it.",
+  "effects": [
+    {
+      "name": "Speed 0",
+      "rulesText": "Your Speed is 0 and can't increase."
+    },
+    {
+      "name": "Attacks Affected",
+      "rulesText": "You have Disadvantage on attack rolls against any target other than the grappler."
+    },
+    {
+      "name": "Movable",
+      "rulesText": "The grappler can drag or carry you when it moves, but every foot of movement costs it 1 extra foot unless you are Tiny or two or more sizes smaller than it."
+    }
+  ],
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/grappled"

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.18",
     "heading": "Components",
-    "lineStart": 7203,
-    "lineEnd": 7205
+    "lineStart": 7176,
+    "lineEnd": 7178
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/7-18-components/"
   },
   "section": "7.18",
   "rulesText": "A spell's components are physical requirements the spellcaster must meet to cast the spell. Each spell's description indicates whether it requires Verbal (V), Somatic (S), or Material (M) components. If the spellcaster can't provide one or more of a spell's components, the spellcaster can't cast the spell."

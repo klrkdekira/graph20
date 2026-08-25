@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.6",
     "heading": "Animated Flying Sword",
-    "lineStart": 18111,
-    "lineEnd": 18132
+    "lineStart": 18049,
+    "lineEnd": 18070
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/animated-flying-sword/"
   },
   "sizeTypeAlignment": "Small Construct, Unaligned",
   "sizeAndType": "Small Construct",
+  "size": "Small",
+  "creatureType": "Construct",
+  "monsterCategory": "Monster",
   "alignment": "Unaligned",
   "armorClass": "17",
   "initiative": "+4 (14)",
@@ -75,8 +81,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.6",
         "heading": "Actions",
-        "lineStart": 18130,
-        "lineEnd": 18132
+        "lineStart": 18068,
+        "lineEnd": 18070
       }
     }
   ],
@@ -103,6 +109,28 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 5
+    },
+    {
+      "mode": "Fly",
+      "feet": 50,
+      "hover": true
+    }
+  ],
+  "passivePerception": 7,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 60
+    }
+  ],
+  "damageImmunities": [
+    "Poison",
+    "Psychic"
   ],
   "attacks": [
     {

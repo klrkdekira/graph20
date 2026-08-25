@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.78",
     "heading": "Cloak of Elvenkind",
-    "lineStart": 15247,
-    "lineEnd": 15251
+    "lineStart": 15209,
+    "lineEnd": 15213
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/cloak-of-elvenkind/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile you wear this cloak, Wisdom (Perception) checks made to perceive you have Disadvantage, and you have Advantage on Dexterity (Stealth) checks."
+  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile you wear this cloak, Wisdom (Perception) checks made to perceive you have Disadvantage, and you have Advantage on Dexterity (Stealth) checks.",
+  "isCursed": false,
+  "isSentient": false
 }

@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.82",
     "heading": "Case, Map or Scroll (1 GP)",
-    "lineStart": 6524,
-    "lineEnd": 6526
+    "lineStart": 6497,
+    "lineEnd": 6499
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-82-case-map-or-scroll-1-gp/"
   },
   "section": "6.82",
   "rulesText": "A Map or Scroll Case holds up to 10 sheets of paper or 5 sheets of parchment."

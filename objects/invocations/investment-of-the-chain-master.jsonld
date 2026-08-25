@@ -1,0 +1,31 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/invocations/investment-of-the-chain-master",
+  "@type": "EldritchInvocation",
+  "name": "Investment of the Chain Master",
+  "slug": "investment-of-the-chain-master",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.28",
+    "heading": "Investment of the Chain Master",
+    "lineStart": 4602,
+    "lineEnd": 4616
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/invocations/investment-of-the-chain-master/"
+  },
+  "prerequisite": "Level 5+ Warlock, Pact of the Chain Invocation",
+  "repeatable": false,
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+  },
+  "rulesText": "Prerequisite: Level 5+ Warlock, Pact of the Chain Invocation\n\nWhen you cast Find Familiar, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits.\n\nAerial or Aquatic. The familiar gains either a Fly Speed or a Swim Speed (your choice) of 40 feet.\n\nQuick Attack. As a Bonus Action, you can command the familiar to take the Attack action.\n\nNecrotic or Radiant Damage. Whenever the familiar deals Bludgeoning, Piercing, or Slashing damage, you can make it deal Necrotic or Radiant damage instead.\n\nYour Save DC. If the familiar forces a creature to make a saving throw, it uses your spell save DC.\n\nResistance. When the familiar takes damage, you can take a Reaction to grant it Resistance against that damage.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/find-familiar"
+    }
+  ]
+}

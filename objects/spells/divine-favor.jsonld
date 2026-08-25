@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.122",
     "heading": "Divine Favor",
-    "lineStart": 8725,
-    "lineEnd": 8734
+    "lineStart": 8696,
+    "lineEnd": 8705
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/divine-favor/"
   },
   "level": 1,
   "school": "Transmutation",
@@ -41,5 +44,23 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "1 minute",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

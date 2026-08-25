@@ -10,9 +10,13 @@
   "sourceLocator": {
     "chapter": "Equipment",
     "section": "6.26",
-    "heading": "Weapons",
-    "lineStart": 5995,
-    "lineEnd": 6038
+    "heading": "Vex",
+    "lineStart": 5971,
+    "lineEnd": 6014,
+    "caption": "Weapons"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/dagger/"
   },
   "equipmentType": "weapon",
   "fromTable": {
@@ -34,6 +38,7 @@
   ],
   "mastery": "Nick",
   "weight": "1 lb.",
+  "weightPounds": 1,
   "cost": {
     "text": "2 GP",
     "currency": "GP",

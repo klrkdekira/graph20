@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.44",
     "heading": "Arcane Eye",
-    "lineStart": 7505,
-    "lineEnd": 7516
+    "lineStart": 7478,
+    "lineEnd": 7489
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/arcane-eye/"
   },
   "level": 4,
   "school": "Divination",
@@ -31,5 +34,26 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 hour",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a bit of bat fur)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a bit of bat fur",
+    "consumed": false
+  }
 }

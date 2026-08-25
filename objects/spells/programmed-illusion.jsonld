@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.276",
     "heading": "Programmed Illusion",
-    "lineStart": 11143,
-    "lineEnd": 11158
+    "lineStart": 11114,
+    "lineEnd": 11129
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/programmed-illusion/"
   },
   "level": 6,
   "school": "Illusion",
@@ -35,5 +38,43 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "Until dispelled",
+    "concentration": false,
+    "kind": "UntilDispelled"
+  },
+  "componentDetails": {
+    "text": "V, S, M (jade dust worth 25+ GP)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "jade dust worth 25+ GP",
+    "consumed": false,
+    "materialCost": {
+      "text": "25 GP",
+      "currency": "GP",
+      "amount": 25
+    }
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cube",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+      },
+      "sourceText": "It must be no larger than a 30-foot Cube, and you decide when you cast the spell how the illusion behaves and what sounds it makes.",
+      "sizeFeet": 30
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+    }
+  ]
 }

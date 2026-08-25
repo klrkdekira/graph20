@@ -11,8 +11,11 @@
     "chapter": "Feats",
     "section": "5.20",
     "heading": "Boon of Fate",
-    "lineStart": 5811,
-    "lineEnd": 5821
+    "lineStart": 5787,
+    "lineEnd": 5797
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/feats/boon-of-fate/"
   },
   "category": "Epic Boon",
   "prerequisite": "Level 19+",

@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.31",
     "heading": "Alignment",
-    "lineStart": 14714,
-    "lineEnd": 14716
+    "lineStart": 14676,
+    "lineEnd": 14678
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/10-31-alignment/"
   },
   "section": "10.31",
   "rulesText": "A sentient magic item has an alignment. Its creator or nature might suggest an alignment. Otherwise, pick an alignment or roll on the Sentient Item's Alignment table."

@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.247",
     "heading": "Spell Scroll",
-    "lineStart": 17142,
-    "lineEnd": 17168
+    "lineStart": 17086,
+    "lineEnd": 17109
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/spell-scroll/"
   },
   "itemCategory": "Scroll",
   "rarity": "Rarity Varies",
@@ -20,10 +23,9 @@
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/10-247-spell-scroll-table-1"
-    },
-    {
-      "@id": "https://cheeleong.dev/graph20/objects/tables/10-247-spell-scroll-table-2"
     }
   ],
-  "rulesText": "Scroll, Rarity Varies\n\nA Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn't lost.\n\nIf the spell is on your spell list but of a higher level than you can normally cast, you make an ability check using your spellcasting ability to determine whether you cast the spell. The DC equals 10 plus the spell's level. On a failed check, the spell disappears from the scroll with no other effect.\n\nThe level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity, as shown in the following table.\n\nCopying a Scroll into a Spellbook. A Wizard spell on a Spell Scroll can be copied into a spellbook. When a spell is copied in this way, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 plus the spell's level. On a successful check, the spell is copied. Whether the check succeeds or fails, the Spell Scroll is destroyed."
+  "rulesText": "Scroll, Rarity Varies\n\nA Spell Scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn't lost.\n\nIf the spell is on your spell list but of a higher level than you can normally cast, you make an ability check using your spellcasting ability to determine whether you cast the spell. The DC equals 10 plus the spell's level. On a failed check, the spell disappears from the scroll with no other effect.\n\nThe level of the spell on the scroll determines the spell's saving throw DC and attack bonus, as well as the scroll's rarity, as shown in the following table.\n\nCopying a Scroll into a Spellbook. A Wizard spell on a Spell Scroll can be copied into a spellbook. When a spell is copied in this way, the copier must succeed on an Intelligence (Arcana) check with a DC equal to 10 plus the spell's level. On a successful check, the spell is copied. Whether the check succeeds or fails, the Spell Scroll is destroyed.",
+  "isCursed": false,
+  "isSentient": false
 }

@@ -11,13 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.123",
     "heading": "Griffon",
-    "lineStart": 21793,
-    "lineEnd": 21818
+    "lineStart": 21713,
+    "lineEnd": 21738
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/griffon/"
   },
   "sizeTypeAlignment": "Large Monstrosity, Unaligned",
   "sizeAndType": "Large Monstrosity",
+  "size": "Large",
+  "creatureType": "Monstrosity",
+  "monsterCategory": "Monster",
   "alignment": "Unaligned",
-  "armorClass": "12 Initiative +2 (12)",
+  "armorClass": "12",
+  "initiative": "+2 (12)",
   "hitPoints": "59 (7d10 + 21)",
   "speed": "30 ft., Fly 80 ft.",
   "skills": "Perception +5",
@@ -75,12 +82,35 @@
         "chapter": "Monsters A-Z",
         "section": "12.123",
         "heading": "Actions",
-        "lineStart": 21814,
-        "lineEnd": 21818
+        "lineStart": 21734,
+        "lineEnd": 21738
       }
     }
   ],
-  "rulesText": "Large Monstrosity, Unaligned\n\nAC 12 Initiative +2 (12)\n\nHP 59 (7d10 + 21)\nSpeed 30 ft., Fly 80 ft.\n\nSkills Perception +5\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages None\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The griffon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 14) from both of the griffon's front claws.",
+  "rulesText": "Large Monstrosity, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 59 (7d10 + 21)\nSpeed 30 ft., Fly 80 ft.\n\nSkills Perception +5\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages None\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The griffon makes two Rend attacks.\n\nRend. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d8 + 4) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 14) from both of the griffon's front claws.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Fly",
+      "feet": 80
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 15,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Rend",

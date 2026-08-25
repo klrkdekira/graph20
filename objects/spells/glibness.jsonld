@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.176",
     "heading": "Glibness",
-    "lineStart": 9606,
-    "lineEnd": 9615
+    "lineStart": 9577,
+    "lineEnd": 9586
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/glibness/"
   },
   "level": 8,
   "school": "Enchantment",
@@ -35,5 +38,23 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "1 hour",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V",
+    "verbal": true,
+    "somatic": false,
+    "material": false
+  }
 }

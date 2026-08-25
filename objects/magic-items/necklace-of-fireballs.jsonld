@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.166",
     "heading": "Necklace of Fireballs",
-    "lineStart": 16319,
-    "lineEnd": 16325
+    "lineStart": 16275,
+    "lineEnd": 16281
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/necklace-of-fireballs/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Rare",
   "requiresAttunement": false,
-  "rulesText": "Wondrous Item, Rare\n\nThis necklace has 1d6 + 3 beads hanging from it. You can take a Magic action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a level 3 Fireball (save DC 15).\n\nYou can hurl multiple beads, or even the whole necklace, at one time. When you do so, increase the damage of the Fireball by 1d6 for each bead after the first (maximum 12d6)."
+  "rulesText": "Wondrous Item, Rare\n\nThis necklace has 1d6 + 3 beads hanging from it. You can take a Magic action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a level 3 Fireball (save DC 15).\n\nYou can hurl multiple beads, or even the whole necklace, at one time. When you do so, increase the damage of the Fireball by 1d6 for each bead after the first (maximum 12d6).",
+  "isCursed": false,
+  "isSentient": false
 }

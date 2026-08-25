@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.89",
     "heading": "Fire Giant",
-    "lineStart": 20734,
-    "lineEnd": 20764
+    "lineStart": 20654,
+    "lineEnd": 20684
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/fire-giant/"
   },
   "sizeTypeAlignment": "Huge Giant, Lawful Evil",
   "sizeAndType": "Huge Giant",
+  "size": "Huge",
+  "creatureType": "Giant",
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "18",
   "initiative": "+3 (13)",
@@ -77,12 +83,35 @@
         "chapter": "Monsters A-Z",
         "section": "12.89",
         "heading": "Actions",
-        "lineStart": 20756,
-        "lineEnd": 20764
+        "lineStart": 20676,
+        "lineEnd": 20684
       }
     }
   ],
   "rulesText": "Huge Giant, Lawful Evil\n\nAC 18\nInitiative +3 (13)\nHP 162 (13d12 + 78)\nSpeed 30 ft.\n\nSkills Athletics +11, Perception +6\nImmunities Fire\nSenses Passive Perception 16\nLanguages Giant\nCR 9 (XP 5,000; PB +4)\n\nActions\n\nMultiattack. The giant makes two attacks, using Flame Sword or Hammer Throw in any combination.\n\nFlame Sword. Melee Attack Roll: +11, reach 10 ft.\nHit: 21 (4d6 + 7) Slashing damage plus 10 (3d6)\nFire damage.\n\nHammer Throw. Ranged Attack Roll: +11, range 60/240 ft. Hit: 23 (3d10 + 7) Bludgeoning damage plus 4 (1d8) Fire damage, and the target is pushed up to 15 feet straight away from the giant and has Disadvantage on the next attack roll it makes before the end of its next turn.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Athletics",
+      "bonus": 11
+    },
+    {
+      "name": "Perception",
+      "bonus": 6
+    }
+  ],
+  "passivePerception": 16,
+  "languageList": [
+    "Giant"
+  ],
+  "damageImmunities": [
+    "Fire"
+  ],
   "attacks": [
     {
       "name": "Flame Sword",

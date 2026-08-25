@@ -11,8 +11,11 @@
     "chapter": "Character Origins",
     "section": "4.6",
     "heading": "Skill Proficiencies",
-    "lineStart": 5367,
-    "lineEnd": 5369
+    "lineStart": 5343,
+    "lineEnd": 5345
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/4-6-skill-proficiencies/"
   },
   "section": "4.6",
   "rulesText": "A background gives your character proficiency in two specified skills."

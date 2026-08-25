@@ -12,7 +12,11 @@
     "section": "1.18",
     "heading": "Ability Modifier",
     "lineStart": 188,
-    "lineEnd": 192
+    "lineEnd": 192,
+    "caption": "Attack Roll Abilities"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/1-18-attack-roll-abilities/"
   },
   "columns": [
     "Ability",

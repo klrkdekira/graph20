@@ -11,11 +11,20 @@
     "chapter": "Animals",
     "section": "13.70",
     "heading": "Plesiosaurus",
-    "lineStart": 28479,
-    "lineEnd": 28504
+    "lineStart": 28390,
+    "lineEnd": 28415
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/plesiosaurus/"
   },
   "sizeTypeAlignment": "Large Beast (Dinosaur), Unaligned",
   "sizeAndType": "Large Beast (Dinosaur)",
+  "size": "Large",
+  "creatureType": "Beast",
+  "descriptiveTags": [
+    "Dinosaur"
+  ],
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "13",
   "initiative": "+2 (12)",
@@ -76,8 +85,8 @@
         "chapter": "Animals",
         "section": "13.70",
         "heading": "Traits",
-        "lineStart": 28498,
-        "lineEnd": 28500
+        "lineStart": 28409,
+        "lineEnd": 28411
       }
     },
     {
@@ -87,12 +96,33 @@
         "chapter": "Animals",
         "section": "13.70",
         "heading": "Actions",
-        "lineStart": 28502,
-        "lineEnd": 28504
+        "lineStart": 28413,
+        "lineEnd": 28415
       }
     }
   ],
   "rulesText": "Large Beast (Dinosaur), Unaligned\n\nAC 13\nInitiative +2 (12)\nHP 68 (8d10 + 24)\nSpeed 20 ft., Swim 40 ft.\n\nSkills Perception +3, Stealth +4\nSenses Passive Perception 13\nLanguages None\nCR 2 (XP 450; PB +2)\n\nTraits\n\nHold Breath. The plesiosaurus can hold its breath for 1 hour.\n\nActions\n\nBite. Melee Attack Roll: +6, reach 10 ft. Hit: 11 (2d6 + 4) Piercing damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 20
+    },
+    {
+      "mode": "Swim",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 3
+    },
+    {
+      "name": "Stealth",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 13,
   "attacks": [
     {
       "name": "Bite",

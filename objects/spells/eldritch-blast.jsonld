@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.132",
     "heading": "Eldritch Blast",
-    "lineStart": 8892,
-    "lineEnd": 8903
+    "lineStart": 8863,
+    "lineEnd": 8874
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/eldritch-blast/"
   },
   "level": 0,
   "school": "Evocation",
@@ -41,5 +44,21 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.55",
     "heading": "Bead of Nourishment",
-    "lineStart": 15031,
-    "lineEnd": 15035
+    "lineStart": 14993,
+    "lineEnd": 14997
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/bead-of-nourishment/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Common",
   "requiresAttunement": false,
-  "rulesText": "Wondrous Item, Common\n\nThis flavorless, gelatinous bead dissolves on your tongue and provides as much nourishment as 1 day of Rations."
+  "rulesText": "Wondrous Item, Common\n\nThis flavorless, gelatinous bead dissolves on your tongue and provides as much nourishment as 1 day of Rations.",
+  "isCursed": false,
+  "isSentient": false
 }

@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.31",
     "heading": "Wizard Class Features",
-    "lineStart": 4932,
-    "lineEnd": 4954
+    "lineStart": 4916,
+    "lineEnd": 4938,
+    "caption": "Wizard Features"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-31-wizard-features/"
   },
   "columns": [
     "Level",

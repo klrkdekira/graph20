@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.151",
     "heading": "Lemure",
-    "lineStart": 22653,
-    "lineEnd": 22681
+    "lineStart": 22573,
+    "lineEnd": 22601
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/lemure/"
   },
   "sizeTypeAlignment": "Medium Fiend (Devil), Lawful Evil",
   "sizeAndType": "Medium Fiend (Devil)",
+  "size": "Medium",
+  "creatureType": "Fiend",
+  "descriptiveTags": [
+    "Devil"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "9",
   "initiative": "-3 (7)",
@@ -76,8 +85,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.151",
         "heading": "Traits",
-        "lineStart": 22675,
-        "lineEnd": 22677
+        "lineStart": 22595,
+        "lineEnd": 22597
       }
     },
     {
@@ -87,8 +96,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.151",
         "heading": "Actions",
-        "lineStart": 22679,
-        "lineEnd": 22681
+        "lineStart": 22599,
+        "lineEnd": 22601
       }
     }
   ],
@@ -103,6 +112,29 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 20
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Understands Infernal but can't speak"
+  ],
+  "damageImmunities": [
+    "Fire",
+    "Poison"
+  ],
+  "damageResistances": [
+    "Cold"
   ],
   "attacks": [
     {

@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.190",
     "heading": "Priest Acolyte",
-    "lineStart": 23880,
-    "lineEnd": 23913
+    "lineStart": 23800,
+    "lineEnd": 23833
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/priest-acolyte/"
   },
   "sizeTypeAlignment": "Medium or Small Humanoid (Cleric), Neutral",
   "sizeAndType": "Medium or Small Humanoid (Cleric)",
+  "size": "Medium or Small",
+  "creatureType": "Humanoid",
+  "descriptiveTags": [
+    "Cleric"
+  ],
+  "monsterCategory": "NPC",
   "alignment": "Neutral",
   "armorClass": "13",
   "initiative": "+0 (10)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.190",
         "heading": "Actions",
-        "lineStart": 23900,
-        "lineEnd": 23909
+        "lineStart": 23820,
+        "lineEnd": 23829
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.190",
         "heading": "Bonus Actions",
-        "lineStart": 23911,
-        "lineEnd": 23913
+        "lineStart": 23831,
+        "lineEnd": 23833
       }
     }
   ],
@@ -103,6 +112,67 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/mace"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Medicine",
+      "bonus": 4
+    },
+    {
+      "name": "Religion",
+      "bonus": 2
+    }
+  ],
+  "passivePerception": 12,
+  "languageList": [
+    "Common"
+  ],
+  "gearItems": [
+    {
+      "name": "Chain Shirt"
+    },
+    {
+      "name": "Holy Symbol"
+    },
+    {
+      "name": "Mace"
+    }
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The priest casts one of the following spells, using Wisdom as the spellcasting ability:\n\nAt Will: Light, Thaumaturgy",
+      "path": "statSections[0].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Light, Thaumaturgy",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/light"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/thaumaturgy"
+            }
+          ]
+        }
+      ],
+      "ability": "Wisdom"
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/light"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/thaumaturgy"
     }
   ],
   "attacks": [

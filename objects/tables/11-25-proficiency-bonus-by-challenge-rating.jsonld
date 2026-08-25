@@ -11,8 +11,12 @@
     "chapter": "Monsters",
     "section": "11.25",
     "heading": "Proficiency Bonus",
-    "lineStart": 17915,
-    "lineEnd": 17920
+    "lineStart": 17853,
+    "lineEnd": 17858,
+    "caption": "Proficiency Bonus by Challenge Rating"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/11-25-proficiency-bonus-by-challenge-rating/"
   },
   "columns": [
     "CR",

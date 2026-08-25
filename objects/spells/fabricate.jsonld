@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.142",
     "heading": "Fabricate",
-    "lineStart": 9048,
-    "lineEnd": 9061
+    "lineStart": 9019,
+    "lineEnd": 9032
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/fabricate/"
   },
   "level": 4,
   "school": "Transmutation",
@@ -31,5 +34,36 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cube",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+      },
+      "sourceText": "You can fabricate a Large or smaller object (contained within a 10-foot Cube or eight connected 5-foot Cubes) given a sufficient quantity of material.",
+      "sizeFeet": 10
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+    }
+  ]
 }

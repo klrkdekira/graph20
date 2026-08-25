@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.212",
     "heading": "Insect Plague",
-    "lineStart": 10162,
-    "lineEnd": 10175
+    "lineStart": 10133,
+    "lineEnd": 10146
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/insect-plague/"
   },
   "level": 5,
   "school": "Conjuration",
@@ -38,6 +41,16 @@
     }
   ],
   "savingThrowAbility": "Constitution",
+  "savingThrows": [
+    {
+      "ability": "Constitution",
+      "sourceText": "When the swarm appears, each creature in it makes a Constitution saving throw, taking 4d10 Piercing damage on a failed save or half as much damage on a successful one. A creature also makes this save when it enters the spell's area for the first time on a turn or ends its turn there. A creature makes this save only once per turn.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Piercing",
@@ -50,5 +63,41 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "300 feet",
+    "kind": "Distance",
+    "distanceFeet": 300
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a locust)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a locust",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "Swarming locusts fill a 20-foot-radius Sphere centered on a point you choose within range.",
+      "radiusFeet": 20
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+    }
+  ]
 }

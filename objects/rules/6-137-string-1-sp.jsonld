@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.137",
     "heading": "String (1 SP)",
-    "lineStart": 6782,
-    "lineEnd": 6784
+    "lineStart": 6755,
+    "lineEnd": 6757
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-137-string-1-sp/"
   },
   "section": "6.137",
   "rulesText": "String is 10 feet long. You can tie a knot in it as a Utilize action."

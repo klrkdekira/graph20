@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.372",
     "heading": "Zone of Truth",
-    "lineStart": 12636,
-    "lineEnd": 12649
+    "lineStart": 12603,
+    "lineEnd": 12616
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/zone-of-truth/"
   },
   "level": 2,
   "school": "Enchantment",
@@ -25,7 +28,7 @@
   "range": "60 feet",
   "components": "V, S",
   "duration": "10 minutes",
-  "rulesText": "Level 2 Enchantment (Bard, Cleric, Paladin)\n\nCasting Time: Action\nRange: 60 feet\nComponents: V, S\nDuration: 10 minutes\n\nYou create a magical zone that guards against deception in a 15-foot-radius Sphere centered on a point within range. Until the spell ends, a creature that enters the spell's area for the first time on a turn or starts its turn there makes a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie while in the radius. You know whether a creature succeeds or fails on this save.\n\nAn affected creature is aware of the spell and can avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive yet must be truthful.\n\n---",
+  "rulesText": "Level 2 Enchantment (Bard, Cleric, Paladin)\n\nCasting Time: Action\nRange: 60 feet\nComponents: V, S\nDuration: 10 minutes\n\nYou create a magical zone that guards against deception in a 15-foot-radius Sphere centered on a point within range. Until the spell ends, a creature that enters the spell's area for the first time on a turn or starts its turn there makes a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie while in the radius. You know whether a creature succeeds or fails on this save.\n\nAn affected creature is aware of the spell and can avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive yet must be truthful.",
   "classes": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
@@ -38,7 +41,50 @@
     }
   ],
   "savingThrowAbility": "Charisma",
+  "savingThrows": [
+    {
+      "ability": "Charisma",
+      "sourceText": "You create a magical zone that guards against deception in a 15-foot-radius Sphere centered on a point within range. Until the spell ends, a creature that enters the spell's area for the first time on a turn or starts its turn there makes a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie while in the radius. You know whether a creature succeeds or fails on this save.",
+      "outcomes": [
+        "FailureEffect"
+      ]
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "10 minutes",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "You create a magical zone that guards against deception in a 15-foot-radius Sphere centered on a point within range.",
+      "radiusFeet": 15
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+    }
+  ]
 }

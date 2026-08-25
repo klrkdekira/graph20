@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.93",
     "heading": "Contagion",
-    "lineStart": 8264,
-    "lineEnd": 8277
+    "lineStart": 8235,
+    "lineEnd": 8248
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/contagion/"
   },
   "level": 5,
   "school": "Necromancy",
@@ -34,6 +37,16 @@
     }
   ],
   "savingThrowAbility": "Constitution",
+  "savingThrows": [
+    {
+      "ability": "Constitution",
+      "sourceText": "Your touch inflicts a magical contagion. The target must succeed on a Constitution saving throw or take 11d8 Necrotic damage and have the Poisoned condition. Also, choose one ability when you cast the spell. While Poisoned, the target has Disadvantage on saving throws made with the chosen ability."
+    },
+    {
+      "ability": "Constitution",
+      "sourceText": "Whenever the Poisoned target receives an effect that would end the Poisoned condition, the target must succeed on a Constitution saving throw, or the Poisoned condition doesn't end on it."
+    }
+  ],
   "damage": [
     {
       "damageType": "Necrotic",
@@ -47,6 +60,24 @@
   "scalesWithSlotLevel": false,
   "concentration": false,
   "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "7 days",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 7,
+    "unit": "day"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"

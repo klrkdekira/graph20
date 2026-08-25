@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.167",
     "heading": "Necklace of Prayer Beads",
-    "lineStart": 16335,
-    "lineEnd": 16342
+    "lineStart": 16291,
+    "lineEnd": 16298,
+    "caption": "Necklace of Prayer Beads Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-167-necklace-of-prayer-beads-table-1/"
   },
   "columns": [
     "1d20",

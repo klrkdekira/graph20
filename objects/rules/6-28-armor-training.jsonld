@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.28",
     "heading": "Armor Training",
-    "lineStart": 6052,
-    "lineEnd": 6054
+    "lineStart": 6028,
+    "lineEnd": 6030
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-28-armor-training/"
   },
   "section": "6.28",
   "rulesText": "Anyone can don armor or hold a Shield, but only those with training can use them effectively, as explained below. A character's class and other features determine the character's armor training. A monster has training with any armor in its stat block."

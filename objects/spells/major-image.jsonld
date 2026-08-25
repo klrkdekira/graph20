@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.235",
     "heading": "Major Image",
-    "lineStart": 10506,
-    "lineEnd": 10523
+    "lineStart": 10477,
+    "lineEnd": 10494
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/major-image/"
   },
   "level": 3,
   "school": "Illusion",
@@ -43,5 +46,41 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a bit of fleece)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a bit of fleece",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cube",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+      },
+      "sourceText": "than a 20-foot Cube.",
+      "sizeFeet": 20
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+    }
+  ]
 }

@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.105",
     "heading": "Efreeti Bottle",
-    "lineStart": 15550,
-    "lineEnd": 15554
+    "lineStart": 15512,
+    "lineEnd": 15516,
+    "caption": "Efreeti Bottle Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-105-efreeti-bottle-table-1/"
   },
   "columns": [
     "1d10",

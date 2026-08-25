@@ -1,0 +1,171 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-228-robe-of-useful-items-patches",
+  "@type": "Table",
+  "name": "Robe of Useful Items Patches",
+  "slug": "10-228-robe-of-useful-items-patches",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.228",
+    "heading": "Robe of Useful Items",
+    "lineStart": 16892,
+    "lineEnd": 16906,
+    "caption": "Robe of Useful Items Patches"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-228-robe-of-useful-items-patches/"
+  },
+  "columns": [
+    "1d100",
+    "Patch"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "01-08"
+        },
+        {
+          "value": "Bag of 100 GP"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "09–15"
+        },
+        {
+          "value": "Silver coffer (1 foot long, 6 inches wide and deep) worth 500 GP"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "16–22"
+        },
+        {
+          "value": "Iron door (up to 10 feet wide and 10 feet high, barred on one side of your choice), which you can place in an opening you can reach; it conforms to fit the opening, attaching and hinging itself"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "23–30"
+        },
+        {
+          "value": "10 gems worth 100 GP each"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "31–44"
+        },
+        {
+          "value": "Wooden ladder (24 feet long)"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "45–51"
+        },
+        {
+          "value": "Riding Horse with a Riding Saddle"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "52–59"
+        },
+        {
+          "value": "Open pit (a 10-foot Cube), which you can place on the ground within 10 feet of yourself"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "60–68"
+        },
+        {
+          "value": "4 Potions of Healing"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "69–75"
+        },
+        {
+          "value": "Rowboat (12 feet long)"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "76–83"
+        },
+        {
+          "value": "Spell Scroll containing one spell of level 1, 2, or 3 (your choice)"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "84–90"
+        },
+        {
+          "value": "2 Mastiffs"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "91–96"
+        },
+        {
+          "value": "Window (2 feet by 4 feet, up to 2 feet deep), which you can place on a vertical surface you can reach"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "97–00"
+        },
+        {
+          "value": "Portable Ram"
+        }
+      ]
+    }
+  ],
+  "rawText": "| 1d100 | Patch |\n| :---- | :---- |\n| 01-08 | Bag of 100 GP |\n| 09–15 | Silver coffer (1 foot long, 6 inches wide and deep) worth 500 GP |\n| 16–22 | Iron door (up to 10 feet wide and 10 feet high, barred on one side of your choice), which you can place in an opening you can reach; it conforms to fit the opening, attaching and hinging itself |\n| 23–30 | 10 gems worth 100 GP each |\n| 31–44 | Wooden ladder (24 feet long) |\n| 45–51 | Riding Horse with a Riding Saddle |\n| 52–59 | Open pit (a 10-foot Cube), which you can place on the ground within 10 feet of yourself |\n| 60–68 | 4 Potions of Healing |\n| 69–75 | Rowboat (12 feet long) |\n| 76–83 | Spell Scroll containing one spell of level 1, 2, or 3 (your choice) |\n| 84–90 | 2 Mastiffs |\n| 91–96 | Window (2 feet by 4 feet, up to 2 feet deep), which you can place on a vertical surface you can reach |\n| 97–00 | Portable Ram |"
+}

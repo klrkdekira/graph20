@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.257",
     "heading": "Pass without Trace",
-    "lineStart": 10826,
-    "lineEnd": 10835
+    "lineStart": 10797,
+    "lineEnd": 10806
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/pass-without-trace/"
   },
   "level": 2,
   "school": "Abjuration",
@@ -35,5 +38,40 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 hour",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (ashes from burned mistletoe)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "ashes from burned mistletoe",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Emanation",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+      },
+      "sourceText": "You radiate a concealing aura in a 30-foot Emanation for the duration.",
+      "sizeFeet": 30
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+    }
+  ]
 }

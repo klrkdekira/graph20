@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.86",
     "heading": "Crystal Ball of True Seeing",
-    "lineStart": 15299,
-    "lineEnd": 15303
+    "lineStart": 15261,
+    "lineEnd": 15265
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/crystal-ball-of-true-seeing/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Legendary",
@@ -23,5 +26,7 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/scrying"
     }
-  ]
+  ],
+  "isCursed": false,
+  "isSentient": false
 }

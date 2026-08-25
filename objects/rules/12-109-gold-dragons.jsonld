@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.109",
     "heading": "Gold Dragons",
-    "lineStart": 21314,
-    "lineEnd": 21314
+    "lineStart": 21234,
+    "lineEnd": 21234
   },
-  "section": "12.109"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-109-gold-dragons/"
+  },
+  "section": "12.109",
+  "rulesText": "Gold Dragons",
+  "headingOnly": true
 }

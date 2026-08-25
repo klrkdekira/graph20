@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.128",
     "heading": "Dragon's Breath",
-    "lineStart": 8822,
-    "lineEnd": 8833
+    "lineStart": 8793,
+    "lineEnd": 8804
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/dragons-breath/"
   },
   "level": 2,
   "school": "Transmutation",
@@ -34,7 +37,52 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "You touch one willing creature, and choose Acid, Cold, Fire, Lightning, or Poison. Until the spell ends, the target can take a Magic action to exhale a 15-foot Cone. Each creature in that area makes a Dexterity saving throw, taking 3d6 damage of the chosen type on a failed save or half as much damage on a successful one.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a hot pepper)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a hot pepper",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cone",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cone"
+      },
+      "sourceText": "Until the spell ends, the target can take a Magic action to exhale a 15-foot Cone.",
+      "sizeFeet": 15
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cone"
+    }
+  ]
 }

@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.28",
     "heading": "Warlock Class Features",
-    "lineStart": 4426,
-    "lineEnd": 4447
+    "lineStart": 4413,
+    "lineEnd": 4434,
+    "caption": "Warlock Features"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-28-warlock-features/"
   },
   "columns": [
     "Level",

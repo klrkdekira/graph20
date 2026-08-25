@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.107",
     "heading": "Elixir of Health",
-    "lineStart": 15569,
-    "lineEnd": 15575
+    "lineStart": 15531,
+    "lineEnd": 15537
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/elixir-of-health/"
   },
   "itemCategory": "Potion",
   "rarity": "Rare",
   "requiresAttunement": false,
-  "rulesText": "Potion, Rare\n\nWhen you drink this potion, you are cured of all magical contagions. In addition, the following conditions end on you: Blinded, Deafened, Paralyzed, and Poisoned.\n\nThe clear, red liquid has tiny bubbles of light in it."
+  "rulesText": "Potion, Rare\n\nWhen you drink this potion, you are cured of all magical contagions. In addition, the following conditions end on you: Blinded, Deafened, Paralyzed, and Poisoned.\n\nThe clear, red liquid has tiny bubbles of light in it.",
+  "isCursed": false,
+  "isSentient": false
 }

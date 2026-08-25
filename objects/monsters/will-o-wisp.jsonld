@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.265",
     "heading": "Will-o'-Wisp",
-    "lineStart": 26409,
-    "lineEnd": 26447
+    "lineStart": 26323,
+    "lineEnd": 26361
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/will-o-wisp/"
   },
   "sizeTypeAlignment": "Tiny Undead, Chaotic Evil",
   "sizeAndType": "Tiny Undead",
+  "size": "Tiny",
+  "creatureType": "Undead",
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "19",
   "initiative": "+9 (19)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.265",
         "heading": "Traits",
-        "lineStart": 26431,
-        "lineEnd": 26437
+        "lineStart": 26345,
+        "lineEnd": 26351
       }
     },
     {
@@ -87,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.265",
         "heading": "Actions",
-        "lineStart": 26439,
-        "lineEnd": 26441
+        "lineStart": 26353,
+        "lineEnd": 26355
       }
     },
     {
@@ -98,8 +104,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.265",
         "heading": "Bonus Actions",
-        "lineStart": 26443,
-        "lineEnd": 26447
+        "lineStart": 26357,
+        "lineEnd": 26361
       }
     }
   ],
@@ -129,6 +135,40 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 5
+    },
+    {
+      "mode": "Fly",
+      "feet": 50,
+      "hover": true
+    }
+  ],
+  "passivePerception": 12,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Common plus one other language"
+  ],
+  "damageImmunities": [
+    "Lightning",
+    "Poison"
+  ],
+  "damageResistances": [
+    "Acid",
+    "Bludgeoning",
+    "Cold",
+    "Fire",
+    "Necrotic",
+    "Piercing",
+    "Slashing"
   ],
   "attacks": [
     {

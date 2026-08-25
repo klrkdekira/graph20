@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.245",
     "heading": "Mind Blank",
-    "lineStart": 10646,
-    "lineEnd": 10655
+    "lineStart": 10617,
+    "lineEnd": 10626
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/mind-blank/"
   },
   "level": 8,
   "school": "Abjuration",
@@ -36,6 +39,24 @@
   "scalesWithSlotLevel": false,
   "concentration": false,
   "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "24 hours",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 24,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"

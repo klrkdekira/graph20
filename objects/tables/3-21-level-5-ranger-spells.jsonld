@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.21",
     "heading": "Ranger Spell List",
-    "lineStart": 3704,
-    "lineEnd": 3708
+    "lineStart": 3694,
+    "lineEnd": 3698,
+    "caption": "Level 5 Ranger Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-21-level-5-ranger-spells/"
   },
   "columns": [
     "Spell",

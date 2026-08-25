@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.15",
     "heading": "Azer Sentinel",
-    "lineStart": 18312,
-    "lineEnd": 18341
+    "lineStart": 18244,
+    "lineEnd": 18273
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/azer-sentinel/"
   },
   "sizeTypeAlignment": "Medium Elemental, Lawful Neutral",
   "sizeAndType": "Medium Elemental",
+  "size": "Medium",
+  "creatureType": "Elemental",
+  "monsterCategory": "Monster",
   "alignment": "Lawful Neutral",
   "armorClass": "17",
   "initiative": "+1 (11)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.15",
         "heading": "Traits",
-        "lineStart": 18331,
-        "lineEnd": 18335
+        "lineStart": 18263,
+        "lineEnd": 18267
       }
     },
     {
@@ -87,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.15",
         "heading": "Actions",
-        "lineStart": 18337,
-        "lineEnd": 18341
+        "lineStart": 18269,
+        "lineEnd": 18273
       }
     }
   ],
@@ -97,6 +103,20 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 11,
+  "languageList": [
+    "Primordial (Ignan)"
+  ],
+  "damageImmunities": [
+    "Fire",
+    "Poison"
   ],
   "attacks": [
     {

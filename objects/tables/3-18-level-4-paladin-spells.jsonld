@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.18",
     "heading": "Paladin Spell List",
-    "lineStart": 3408,
-    "lineEnd": 3413
+    "lineStart": 3398,
+    "lineEnd": 3403,
+    "caption": "Level 4 Paladin Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-18-level-4-paladin-spells/"
   },
   "columns": [
     "Spell",

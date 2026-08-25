@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.56",
     "heading": "Chuul",
-    "lineStart": 19605,
-    "lineEnd": 19639
+    "lineStart": 19528,
+    "lineEnd": 19562
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/chuul/"
   },
   "sizeTypeAlignment": "Large Aberration, Chaotic Evil",
   "sizeAndType": "Large Aberration",
+  "size": "Large",
+  "creatureType": "Aberration",
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "16",
   "initiative": "+0 (10)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.56",
         "heading": "Traits",
-        "lineStart": 19627,
-        "lineEnd": 19631
+        "lineStart": 19550,
+        "lineEnd": 19554
       }
     },
     {
@@ -88,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.56",
         "heading": "Actions",
-        "lineStart": 19633,
-        "lineEnd": 19639
+        "lineStart": 19556,
+        "lineEnd": 19562
       }
     }
   ],
@@ -98,6 +104,35 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Swim",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 14,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Understands Deep Speech but can't speak"
+  ],
+  "damageImmunities": [
+    "Poison"
   ],
   "attacks": [
     {

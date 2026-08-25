@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.45",
     "heading": "Mason's Tools (10 GP)",
-    "lineStart": 6192,
-    "lineEnd": 6198
+    "lineStart": 6168,
+    "lineEnd": 6174
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-45-masons-tools-10-gp/"
   },
   "section": "6.45",
   "rulesText": "Ability: Strength Weight: 8 lb.\n\nUtilize: Chisel a symbol or hole in stone (DC 10)\n\nCraft: Block and Tackle"

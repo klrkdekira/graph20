@@ -11,8 +11,13 @@
     "chapter": "Character Origins",
     "section": "4.1",
     "heading": "Character Origins",
-    "lineStart": 5349,
-    "lineEnd": 5349
+    "lineStart": 5325,
+    "lineEnd": 5325
   },
-  "section": "4.1"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/4-1-character-origins/"
+  },
+  "section": "4.1",
+  "rulesText": "Character Origins",
+  "headingOnly": true
 }

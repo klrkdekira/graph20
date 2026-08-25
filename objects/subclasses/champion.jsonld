@@ -11,8 +11,11 @@
     "chapter": "Classes",
     "section": "3.14",
     "heading": "Fighter Subclass: Champion",
-    "lineStart": 2935,
-    "lineEnd": 2969
+    "lineStart": 2925,
+    "lineEnd": 2959
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/subclasses/champion/"
   },
   "parentClass": {
     "@id": "https://cheeleong.dev/graph20/objects/classes/fighter"
@@ -28,8 +31,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 3: Improved Critical",
-        "lineStart": 2941,
-        "lineEnd": 2943
+        "lineStart": 2931,
+        "lineEnd": 2933
       }
     },
     {
@@ -40,8 +43,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 3: Remarkable Athlete",
-        "lineStart": 2945,
-        "lineEnd": 2949
+        "lineStart": 2935,
+        "lineEnd": 2939
       }
     },
     {
@@ -52,8 +55,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 7: Additional Fighting Style",
-        "lineStart": 2951,
-        "lineEnd": 2953
+        "lineStart": 2941,
+        "lineEnd": 2943
       }
     },
     {
@@ -64,8 +67,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 10: Heroic Warrior",
-        "lineStart": 2955,
-        "lineEnd": 2957
+        "lineStart": 2945,
+        "lineEnd": 2947
       }
     },
     {
@@ -76,8 +79,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 15: Superior Critical",
-        "lineStart": 2959,
-        "lineEnd": 2961
+        "lineStart": 2949,
+        "lineEnd": 2951
       }
     },
     {
@@ -88,8 +91,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 18: Survivor",
-        "lineStart": 2963,
-        "lineEnd": 2969
+        "lineStart": 2953,
+        "lineEnd": 2959
       }
     }
   ]

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.278",
     "heading": "Protection from Energy",
-    "lineStart": 11177,
-    "lineEnd": 11186
+    "lineStart": 11148,
+    "lineEnd": 11157
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/protection-from-energy/"
   },
   "level": 3,
   "school": "Abjuration",
@@ -47,5 +50,23 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 hour",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

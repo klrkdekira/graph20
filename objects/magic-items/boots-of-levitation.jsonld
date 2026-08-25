@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.60",
     "heading": "Boots of Levitation",
-    "lineStart": 15089,
-    "lineEnd": 15093
+    "lineStart": 15051,
+    "lineEnd": 15055
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/boots-of-levitation/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Rare",
@@ -23,5 +26,7 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/levitate"
     }
-  ]
+  ],
+  "isCursed": false,
+  "isSentient": false
 }

@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.65",
     "heading": "Bracers of Archery",
-    "lineStart": 15129,
-    "lineEnd": 15133
+    "lineStart": 15091,
+    "lineEnd": 15095
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/bracers-of-archery/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile wearing these bracers, you have proficiency with the Longbow and Shortbow, and you gain a +2 bonus to damage rolls made with such weapons."
+  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile wearing these bracers, you have proficiency with the Longbow and Shortbow, and you gain a +2 bonus to damage rolls made with such weapons.",
+  "isCursed": false,
+  "isSentient": false
 }

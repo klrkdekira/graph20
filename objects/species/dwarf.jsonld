@@ -11,8 +11,11 @@
     "chapter": "Character Origins",
     "section": "4.22",
     "heading": "Dwarf",
-    "lineStart": 5497,
-    "lineEnd": 5515
+    "lineStart": 5473,
+    "lineEnd": 5491
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/species/dwarf/"
   },
   "creatureType": "Humanoid",
   "size": "Medium (about 4–5 feet tall)",

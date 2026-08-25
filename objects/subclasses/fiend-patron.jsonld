@@ -11,8 +11,11 @@
     "chapter": "Classes",
     "section": "3.30",
     "heading": "Warlock Subclass: Fiend Patron",
-    "lineStart": 4862,
-    "lineEnd": 4899
+    "lineStart": 4846,
+    "lineEnd": 4883
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/subclasses/fiend-patron/"
   },
   "parentClass": {
     "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
@@ -28,20 +31,20 @@
         "chapter": "Classes",
         "section": "3.28",
         "heading": "Level 3: Dark One's Blessing",
-        "lineStart": 4868,
-        "lineEnd": 4870
+        "lineStart": 4852,
+        "lineEnd": 4854
       }
     },
     {
       "level": 3,
       "name": "Fiend Spells",
-      "rulesText": "The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Fiend Spells table, you thereafter always have the listed spells prepared.\n\nFiend Spells",
+      "rulesText": "The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Fiend Spells table, you thereafter always have the listed spells prepared.",
       "sourceLocator": {
         "chapter": "Classes",
         "section": "3.28",
         "heading": "Level 3: Fiend Spells",
-        "lineStart": 4872,
-        "lineEnd": 4883
+        "lineStart": 4856,
+        "lineEnd": 4867
       },
       "relatedTables": [
         {
@@ -57,8 +60,8 @@
         "chapter": "Classes",
         "section": "3.28",
         "heading": "Level 6: Dark One's Own Luck",
-        "lineStart": 4885,
-        "lineEnd": 4889
+        "lineStart": 4869,
+        "lineEnd": 4873
       }
     },
     {
@@ -69,8 +72,8 @@
         "chapter": "Classes",
         "section": "3.28",
         "heading": "Level 10: Fiendish Resilience",
-        "lineStart": 4891,
-        "lineEnd": 4893
+        "lineStart": 4875,
+        "lineEnd": 4877
       }
     },
     {
@@ -81,8 +84,8 @@
         "chapter": "Classes",
         "section": "3.28",
         "heading": "Level 14: Hurl Through Hell",
-        "lineStart": 4895,
-        "lineEnd": 4899
+        "lineStart": 4879,
+        "lineEnd": 4883
       }
     }
   ],

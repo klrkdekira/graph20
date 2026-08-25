@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.1",
     "heading": "Monsters A-Z",
-    "lineStart": 17990,
-    "lineEnd": 17990
+    "lineStart": 17928,
+    "lineEnd": 17928
   },
-  "section": "12.1"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-1-monsters-a-z/"
+  },
+  "section": "12.1",
+  "rulesText": "Monsters A-Z",
+  "headingOnly": true
 }

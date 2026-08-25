@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.100",
     "heading": "Gibbering Mouther",
-    "lineStart": 21066,
-    "lineEnd": 21105
+    "lineStart": 20986,
+    "lineEnd": 21025
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/gibbering-mouther/"
   },
   "sizeTypeAlignment": "Medium Aberration, Chaotic Neutral",
   "sizeAndType": "Medium Aberration",
+  "size": "Medium",
+  "creatureType": "Aberration",
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Neutral",
   "armorClass": "9",
   "initiative": "-1 (9)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.100",
         "heading": "Traits",
-        "lineStart": 21087,
-        "lineEnd": 21099
+        "lineStart": 21007,
+        "lineEnd": 21019
       }
     },
     {
@@ -87,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.100",
         "heading": "Actions",
-        "lineStart": 21101,
-        "lineEnd": 21105
+        "lineStart": 21021,
+        "lineEnd": 21025
       }
     }
   ],
@@ -96,6 +102,23 @@
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 20
+    },
+    {
+      "mode": "Swim",
+      "feet": 20
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
     }
   ],
   "attacks": [

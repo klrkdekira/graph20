@@ -11,8 +11,12 @@
     "chapter": "Equipment",
     "section": "6.181",
     "heading": "Cantrips",
-    "lineStart": 7068,
-    "lineEnd": 7079
+    "lineStart": 7041,
+    "lineEnd": 7052,
+    "caption": "Spell Scroll Costs"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/6-181-spell-scroll-costs/"
   },
   "columns": [
     "Spell Level",

@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.128",
     "heading": "Robe (1 GP)",
-    "lineStart": 6742,
-    "lineEnd": 6744
+    "lineStart": 6715,
+    "lineEnd": 6717
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-128-robe-1-gp/"
   },
   "section": "6.128",
   "rulesText": "A Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols."

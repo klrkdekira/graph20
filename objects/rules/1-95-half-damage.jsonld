@@ -11,8 +11,11 @@
     "chapter": "Playing the Game",
     "section": "1.95",
     "heading": "Half Damage",
-    "lineStart": 761,
-    "lineEnd": 763
+    "lineStart": 759,
+    "lineEnd": 761
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-95-half-damage/"
   },
   "section": "1.95",
   "rulesText": "Many saving throw effects deal half damage (round down) to a target when the target succeeds on the saving throw. The halved damage is equal to half the damage that would be dealt on a failed save."

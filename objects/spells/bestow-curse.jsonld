@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.58",
     "heading": "Bestow Curse",
-    "lineStart": 7722,
-    "lineEnd": 7739
+    "lineStart": 7693,
+    "lineEnd": 7710
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/bestow-curse/"
   },
   "level": 3,
   "school": "Necromancy",
@@ -38,6 +41,16 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "You touch a creature, which must succeed on a Wisdom saving throw or become cursed for the duration. Until the curse ends, the target suffers one of the following effects of your choice:"
+    },
+    {
+      "ability": "Wisdom",
+      "sourceText": "- Choose one ability. The target has Disadvantage on ability checks and saving throws made with that ability.\n- The target has Disadvantage on attack rolls against you.\n- In combat, the target must succeed on a Wisdom saving throw at the start of each of its turns or be forced to take the Dodge action on that turn."
+    }
+  ],
   "damage": [
     {
       "damageType": "Necrotic",
@@ -50,5 +63,23 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

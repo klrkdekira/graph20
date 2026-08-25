@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.34",
     "heading": "Young Blue Dragon",
-    "lineStart": 18891,
-    "lineEnd": 18917
+    "lineStart": 18817,
+    "lineEnd": 18843
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/young-blue-dragon/"
   },
   "sizeTypeAlignment": "Large Dragon (Chromatic), Lawful Evil",
   "sizeAndType": "Large Dragon (Chromatic)",
+  "size": "Large",
+  "creatureType": "Dragon",
+  "descriptiveTags": [
+    "Chromatic"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "18",
   "initiative": "+4 (14)",
@@ -77,12 +86,54 @@
         "chapter": "Monsters A-Z",
         "section": "12.34",
         "heading": "Actions",
-        "lineStart": 18911,
-        "lineEnd": 18917
+        "lineStart": 18837,
+        "lineEnd": 18843
       }
     }
   ],
   "rulesText": "Large Dragon (Chromatic), Lawful Evil\n\nAC 18\nInitiative +4 (14)\nHP 152 (16d10 + 64)\nSpeed 40 ft., Burrow 20 ft., Fly 80 ft.\n\nSkills Perception +9, Stealth +4\nImmunities Lightning\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 19\nLanguages Common, Draconic\nCR 9 (XP 5,000; PB +4)\n\nActions\n\nMultiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +9, reach 10 ft. Hit: 12 (2d6 + 5) Slashing damage plus 5 (1d10) Lightning damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 16, each creature in a 60-foot-long, 5-foot-wide Line. Failure: 55 (10d10) Lightning damage. Success: Half damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Burrow",
+      "feet": 20
+    },
+    {
+      "mode": "Fly",
+      "feet": 80
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 9
+    },
+    {
+      "name": "Stealth",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 19,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 30
+    },
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Common",
+    "Draconic"
+  ],
+  "damageImmunities": [
+    "Lightning"
+  ],
   "attacks": [
     {
       "name": "Rend",

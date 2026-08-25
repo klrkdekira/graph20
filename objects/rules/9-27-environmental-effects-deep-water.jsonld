@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-27-environmental-effects-deep-water",
+  "@type": "Rule",
+  "name": "Environmental Effects Deep Water",
+  "slug": "9-27-environmental-effects-deep-water",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.27",
+    "heading": "Environmental Effects Deep Water",
+    "lineStart": 13936,
+    "lineEnd": 13938
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/9-27-environmental-effects-deep-water/"
+  },
+  "section": "9.27",
+  "rulesText": "Swimming through deep water (more than 100 feet deep) presents additional challenges because of the water's pressure and cold temperature. After each hour of swimming in deep water, a creature that lacks a Swim Speed must succeed on a DC 10 Constitution saving throw or gain 1 Exhaustion level."
+}

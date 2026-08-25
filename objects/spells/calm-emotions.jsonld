@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.68",
     "heading": "Calm Emotions",
-    "lineStart": 7870,
-    "lineEnd": 7882
+    "lineStart": 7841,
+    "lineEnd": 7853
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/calm-emotions/"
   },
   "level": 2,
   "school": "Enchantment",
@@ -34,7 +37,47 @@
     }
   ],
   "savingThrowAbility": "Charisma",
+  "savingThrows": [
+    {
+      "ability": "Charisma",
+      "sourceText": "Each Humanoid in a 20-foot-radius Sphere centered on a point you choose within range must succeed on a Charisma saving throw or be affected by one of the following effects (choose for each creature):"
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "Each Humanoid in a 20-foot-radius Sphere centered on a point you choose within range must succeed on a Charisma saving throw or be affected by one of the following effects (choose for each creature):",
+      "radiusFeet": 20
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+    }
+  ]
 }

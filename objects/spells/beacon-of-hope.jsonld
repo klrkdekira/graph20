@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.56",
     "heading": "Beacon of Hope",
-    "lineStart": 7696,
-    "lineEnd": 7705
+    "lineStart": 7667,
+    "lineEnd": 7676
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/beacon-of-hope/"
   },
   "level": 3,
   "school": "Abjuration",
@@ -30,7 +33,32 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "Choose any number of creatures within range. For the duration, each target has Advantage on Wisdom saving throws and Death Saving Throws and regains the maximum number of Hit Points possible from any healing."
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

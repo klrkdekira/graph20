@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.38",
     "heading": "Brass Dragons",
-    "lineStart": 19054,
-    "lineEnd": 19054
+    "lineStart": 18980,
+    "lineEnd": 18980
   },
-  "section": "12.38"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-38-brass-dragons/"
+  },
+  "section": "12.38",
+  "rulesText": "Brass Dragons",
+  "headingOnly": true
 }

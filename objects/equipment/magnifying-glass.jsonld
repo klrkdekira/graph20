@@ -10,13 +10,17 @@
   "sourceLocator": {
     "chapter": "Equipment",
     "section": "6.64",
-    "heading": "Adventuring Gear",
-    "lineStart": 6392,
-    "lineEnd": 6434
+    "heading": "Ammunition (Varies)",
+    "lineStart": 6324,
+    "lineEnd": 6407,
+    "caption": "Adventuring Gear"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/magnifying-glass/"
   },
   "equipmentType": "gear",
   "fromTable": {
-    "@id": "https://cheeleong.dev/graph20/objects/tables/6-64-adventuring-gear-2"
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-64-adventuring-gear"
   },
   "cost": {
     "text": "100 GP",

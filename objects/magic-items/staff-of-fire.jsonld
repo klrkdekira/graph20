@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.250",
     "heading": "Staff of Fire",
-    "lineStart": 17206,
-    "lineEnd": 17219
+    "lineStart": 17147,
+    "lineEnd": 17160
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/staff-of-fire/"
   },
   "itemCategory": "Staff",
   "rarity": "Very Rare",
@@ -23,5 +26,27 @@
       "@id": "https://cheeleong.dev/graph20/objects/tables/10-250-staff-of-fire-table-1"
     }
   ],
-  "rulesText": "Staff, Very Rare (Requires Attunement by a Druid, Sorcerer, Warlock, or Wizard)\n\nYou have Resistance to Fire damage while you hold this staff.\n\nSpells. The staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.\n\nRegaining Charges. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff crumbles into cinders and is destroyed."
+  "rulesText": "Staff, Very Rare (Requires Attunement by a Druid, Sorcerer, Warlock, or Wizard)\n\nYou have Resistance to Fire damage while you hold this staff.\n\nSpells. The staff has 10 charges. While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.\n\nRegaining Charges. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, the staff crumbles into cinders and is destroyed.",
+  "charges": {
+    "capacityText": "10",
+    "capacity": 10,
+    "rechargeText": "The staff regains 1d6 + 4 expended charges daily at dawn."
+  },
+  "isCursed": false,
+  "isSentient": false,
+  "attunementClasses": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "attunementRestriction": "Requires Attunement by a Druid, Sorcerer, Warlock, or Wizard"
 }

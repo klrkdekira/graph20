@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.5",
     "heading": "Bard Spell List",
-    "lineStart": 1972,
-    "lineEnd": 1984
+    "lineStart": 1962,
+    "lineEnd": 1974,
+    "caption": "Level 7 Bard Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-5-level-7-bard-spells/"
   },
   "columns": [
     "Spell",

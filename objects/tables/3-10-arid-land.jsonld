@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.10",
     "heading": "Level 3: Circle of the Land Spells",
-    "lineStart": 2746,
-    "lineEnd": 2751
+    "lineStart": 2736,
+    "lineEnd": 2741,
+    "caption": "Arid Land"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-10-arid-land/"
   },
   "columns": [
     "Druid Level",

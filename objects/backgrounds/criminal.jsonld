@@ -11,8 +11,11 @@
     "chapter": "Character Origins",
     "section": "4.11",
     "heading": "Criminal",
-    "lineStart": 5395,
-    "lineEnd": 5405
+    "lineStart": 5371,
+    "lineEnd": 5381
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/backgrounds/criminal/"
   },
   "abilityScores": "Dexterity, Constitution, Intelligence",
   "feat": "Alert (see “Feats”)",
@@ -27,5 +30,21 @@
   "rulesText": "Ability Scores: Dexterity, Constitution, Intelligence\n\nFeat: Alert (see “Feats”)\n\nSkill Proficiencies: Sleight of Hand and Stealth\n\nTool Proficiency: Thieves' Tools\n\nEquipment: Choose A or B: (A) 2 Daggers, Thieves' Tools, Crowbar, 2 Pouches, Traveler's Clothes, 16 GP; or (B) 50 GP",
   "grantsFeat": {
     "@id": "https://cheeleong.dev/graph20/objects/feats/alert"
-  }
+  },
+  "skillProficiencyOptions": [
+    "Sleight of Hand and Stealth"
+  ],
+  "grantsTool": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/thieves-tools"
+    }
+  ],
+  "grantsEquipment": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/thieves-tools"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/crowbar"
+    }
+  ]
 }

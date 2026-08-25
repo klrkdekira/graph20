@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.98",
     "heading": "Counterspell",
-    "lineStart": 8365,
-    "lineEnd": 8374
+    "lineStart": 8336,
+    "lineEnd": 8345
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/counterspell/"
   },
   "level": 3,
   "school": "Abjuration",
@@ -38,7 +41,32 @@
     }
   ],
   "savingThrowAbility": "Constitution",
+  "savingThrows": [
+    {
+      "ability": "Constitution",
+      "sourceText": "You attempt to interrupt a creature in the process of casting a spell. The creature makes a Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended.",
+      "outcomes": [
+        "FailureEffect"
+      ]
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "S",
+    "verbal": false,
+    "somatic": true,
+    "material": false
+  }
 }

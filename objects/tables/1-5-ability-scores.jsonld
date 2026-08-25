@@ -12,7 +12,11 @@
     "section": "1.5",
     "heading": "Ability Scores",
     "lineStart": 70,
-    "lineEnd": 78
+    "lineEnd": 78,
+    "caption": "Ability Scores"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/1-5-ability-scores/"
   },
   "columns": [
     "Score",

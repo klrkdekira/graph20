@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.102",
     "heading": "Ink (10 GP)",
-    "lineStart": 6626,
-    "lineEnd": 6628
+    "lineStart": 6599,
+    "lineEnd": 6601
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-102-ink-10-gp/"
   },
   "section": "6.102",
   "rulesText": "Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages."

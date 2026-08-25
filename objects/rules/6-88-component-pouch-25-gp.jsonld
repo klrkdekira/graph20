@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.88",
     "heading": "Component Pouch (25 GP)",
-    "lineStart": 6548,
-    "lineEnd": 6550
+    "lineStart": 6521,
+    "lineEnd": 6523
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-88-component-pouch-25-gp/"
   },
   "section": "6.88",
   "rulesText": "A Component Pouch is watertight and filled with compartments that hold all the free Material components of your spells."

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.155",
     "heading": "Fire Bolt",
-    "lineStart": 9266,
-    "lineEnd": 9277
+    "lineStart": 9237,
+    "lineEnd": 9248
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/fire-bolt/"
   },
   "level": 0,
   "school": "Evocation",
@@ -45,5 +48,21 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

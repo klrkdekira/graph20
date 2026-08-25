@@ -1,0 +1,45 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/spellcasting-service-3",
+  "@type": "Equipment",
+  "name": "Spellcasting Service: 3",
+  "slug": "spellcasting-service-3",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.163",
+    "heading": "Spellcasting",
+    "lineStart": 6935,
+    "lineEnd": 6943,
+    "caption": "Spellcasting Services"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/spellcasting-service-3/"
+  },
+  "equipmentType": "service",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-163-spellcasting-services"
+  },
+  "serviceLevel": "3",
+  "attributes": [
+    {
+      "name": "Spell Level",
+      "value": "3"
+    },
+    {
+      "name": "Availability",
+      "value": "Town or city only"
+    },
+    {
+      "name": "Cost",
+      "value": "300 GP"
+    }
+  ],
+  "cost": {
+    "text": "300 GP",
+    "currency": "GP",
+    "amount": 300
+  }
+}

@@ -11,8 +11,11 @@
     "chapter": "Rules Glossary",
     "section": "8.154",
     "heading": "Unoccupied Space",
-    "lineStart": 13769,
-    "lineEnd": 13771
+    "lineStart": 13733,
+    "lineEnd": 13735
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-154-unoccupied-space/"
   },
   "section": "8.154",
   "rulesText": "A space is unoccupied if no creatures are in it and it isn't completely filled by objects."

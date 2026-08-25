@@ -11,8 +11,12 @@
     "chapter": "Spells",
     "section": "7.3",
     "heading": "Preparing Spells",
-    "lineStart": 7095,
-    "lineEnd": 7104
+    "lineStart": 7068,
+    "lineEnd": 7077,
+    "caption": "Spell Preparation by Class"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/7-3-spell-preparation-by-class/"
   },
   "columns": [
     "Class",

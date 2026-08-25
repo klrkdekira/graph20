@@ -14,5 +14,10 @@
     "lineStart": 29,
     "lineEnd": 29
   },
-  "section": "1.1"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-1-playing-the-game/"
+  },
+  "section": "1.1",
+  "rulesText": "Playing the Game",
+  "headingOnly": true
 }

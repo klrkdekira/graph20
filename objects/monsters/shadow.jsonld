@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.211",
     "heading": "Shadow",
-    "lineStart": 24577,
-    "lineEnd": 24613
+    "lineStart": 24497,
+    "lineEnd": 24533
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/shadow/"
   },
   "sizeTypeAlignment": "Medium Undead, Chaotic Evil",
   "sizeAndType": "Medium Undead",
+  "size": "Medium",
+  "creatureType": "Undead",
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "12",
   "initiative": "+2 (12)",
@@ -79,8 +85,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.211",
         "heading": "Traits",
-        "lineStart": 24601,
-        "lineEnd": 24605
+        "lineStart": 24521,
+        "lineEnd": 24525
       }
     },
     {
@@ -90,8 +96,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.211",
         "heading": "Actions",
-        "lineStart": 24607,
-        "lineEnd": 24609
+        "lineStart": 24527,
+        "lineEnd": 24529
       }
     },
     {
@@ -101,8 +107,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.211",
         "heading": "Bonus Actions",
-        "lineStart": 24611,
-        "lineEnd": 24613
+        "lineStart": 24531,
+        "lineEnd": 24533
       }
     }
   ],
@@ -135,6 +141,39 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Stealth",
+      "bonus": 6
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "damageImmunities": [
+    "Necrotic",
+    "Poison"
+  ],
+  "damageResistances": [
+    "Acid",
+    "Cold",
+    "Fire",
+    "Lightning",
+    "Thunder"
+  ],
+  "damageVulnerabilities": [
+    "Radiant"
   ],
   "attacks": [
     {

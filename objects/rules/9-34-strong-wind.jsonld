@@ -1,0 +1,23 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-34-strong-wind",
+  "@type": "Rule",
+  "name": "Strong Wind",
+  "slug": "9-34-strong-wind",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.34",
+    "heading": "Strong Wind",
+    "lineStart": 13966,
+    "lineEnd": 13970
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/9-34-strong-wind/"
+  },
+  "section": "9.34",
+  "rulesText": "Strong wind imposes Disadvantage on ranged attack rolls with weapons. It also extinguishes open flames and disperses fog. A flying creature in a strong wind must land at the end of its turn or fall.\n\nA strong wind in a desert can create a sandstorm that imposes Disadvantage on Wisdom (Perception) checks.",
+  "ruleCategory": "EnvironmentalEffect"
+}

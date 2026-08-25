@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.20",
     "heading": "Somatic (S)",
-    "lineStart": 7211,
-    "lineEnd": 7213
+    "lineStart": 7184,
+    "lineEnd": 7186
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/7-20-somatic-s/"
   },
   "section": "7.20",
   "rulesText": "A Somatic component is a forceful gesticulation or an intricate set of gestures. A spellcaster must use at least one of their hands to perform these movements."

@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.127",
     "heading": "Rations (5 SP)",
-    "lineStart": 6738,
-    "lineEnd": 6740
+    "lineStart": 6711,
+    "lineEnd": 6713
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-127-rations-5-sp/"
   },
   "section": "6.127",
   "rulesText": "Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See “Malnutrition” in “Rules Glossary” for the risks of not eating."

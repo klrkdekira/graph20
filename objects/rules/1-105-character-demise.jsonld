@@ -11,8 +11,11 @@
     "chapter": "Playing the Game",
     "section": "1.105",
     "heading": "Character Demise",
-    "lineStart": 813,
-    "lineEnd": 815
+    "lineStart": 811,
+    "lineEnd": 813
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-105-character-demise/"
   },
   "section": "1.105",
   "rulesText": "If your character dies, others might find a magical way to revive your character, such as with the Raise Dead spell. Or talk with the GM about making a new character to join the group. “Rules Glossary” has more information on being dead."

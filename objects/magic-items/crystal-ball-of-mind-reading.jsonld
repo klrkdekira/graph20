@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.84",
     "heading": "Crystal Ball of Mind Reading",
-    "lineStart": 15287,
-    "lineEnd": 15291
+    "lineStart": 15249,
+    "lineEnd": 15253
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/crystal-ball-of-mind-reading/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Legendary",
@@ -26,5 +29,7 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/detect-thoughts"
     }
-  ]
+  ],
+  "isCursed": false,
+  "isSentient": false
 }

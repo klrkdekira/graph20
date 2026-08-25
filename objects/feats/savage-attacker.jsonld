@@ -11,8 +11,11 @@
     "chapter": "Feats",
     "section": "5.7",
     "heading": "Savage Attacker",
-    "lineStart": 5725,
-    "lineEnd": 5729
+    "lineStart": 5701,
+    "lineEnd": 5705
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/feats/savage-attacker/"
   },
   "category": "Origin",
   "repeatable": false,

@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.12",
     "heading": "Brown Bear",
-    "lineStart": 26925,
-    "lineEnd": 26950
+    "lineStart": 26839,
+    "lineEnd": 26864
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/brown-bear/"
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
+  "size": "Large",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "11",
   "initiative": "+1 (11)",
@@ -76,12 +82,35 @@
         "chapter": "Animals",
         "section": "13.12",
         "heading": "Actions",
-        "lineStart": 26944,
-        "lineEnd": 26950
+        "lineStart": 26858,
+        "lineEnd": 26864
       }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 11\nInitiative +1 (11)\nHP 22 (3d10 + 6)\nSpeed 40 ft., Climb 30 ft.\n\nSkills Perception +3\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages None\nCR 1 (XP 200; PB +2)\n\nActions\n\nMultiattack. The bear makes one Bite attack and one Claw attack.\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage.\n\nClaw. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Slashing damage. If the target is a Large or smaller creature, it has the Prone condition.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Climb",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 3
+    }
+  ],
+  "passivePerception": 13,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Bite",

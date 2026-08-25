@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.256",
     "heading": "Wererat",
-    "lineStart": 26089,
-    "lineEnd": 26125
+    "lineStart": 26009,
+    "lineEnd": 26045
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/wererat/"
   },
   "sizeTypeAlignment": "Medium or Small Monstrosity (Lycanthrope), Lawful Evil",
   "sizeAndType": "Medium or Small Monstrosity (Lycanthrope)",
+  "size": "Medium or Small",
+  "creatureType": "Monstrosity",
+  "descriptiveTags": [
+    "Lycanthrope"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "13",
   "initiative": "+3 (13)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.256",
         "heading": "Actions",
-        "lineStart": 26111,
-        "lineEnd": 26121
+        "lineStart": 26031,
+        "lineEnd": 26041
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.256",
         "heading": "Bonus Actions",
-        "lineStart": 26123,
-        "lineEnd": 26125
+        "lineStart": 26043,
+        "lineEnd": 26045
       }
     }
   ],
@@ -97,6 +106,41 @@
   "hasGear": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/hand-crossbow"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Climb",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 4
+    },
+    {
+      "name": "Stealth",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 14,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Common (can't speak in rat form)"
+  ],
+  "gearItems": [
+    {
+      "name": "Hand Crossbow"
     }
   ],
   "attacks": [

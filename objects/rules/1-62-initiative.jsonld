@@ -14,6 +14,9 @@
     "lineStart": 532,
     "lineEnd": 542
   },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-62-initiative/"
+  },
   "section": "1.62",
   "rulesText": "Initiative determines the order of turns during combat. When combat starts, every participant rolls Initiative; they make a Dexterity check that determines their place in the Initiative order. The GM rolls for monsters. For a group of identical creatures, the GM makes a single roll, so each member of the group has the same Initiative.\n\nSurprise. If a combatant is surprised by combat starting, that combatant has Disadvantage on their Initiative roll. For example, if an ambusher starts combat while hidden from a foe who is unaware that combat is starting, that foe is surprised.\n\nInitiative Order. A combatant's check total is called their Initiative count, or Initiative for short. The GM ranks the combatants, from highest to lowest Initiative. This is the order in which they act during each round. The Initiative order remains the same from round to round.\n\nTies. If a tie occurs, the GM decides the order among tied monsters, and the players decide the order among tied characters. The GM decides the\n\norder if the tie is between a monster and a player character."
 }

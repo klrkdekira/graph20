@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.152",
     "heading": "Find Traps",
-    "lineStart": 9225,
-    "lineEnd": 9236
+    "lineStart": 9196,
+    "lineEnd": 9207
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/find-traps/"
   },
   "level": 2,
   "school": "Divination",
@@ -39,5 +42,21 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

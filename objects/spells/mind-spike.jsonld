@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.246",
     "heading": "Mind Spike",
-    "lineStart": 10657,
-    "lineEnd": 10670
+    "lineStart": 10628,
+    "lineEnd": 10641
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/mind-spike/"
   },
   "level": 2,
   "school": "Divination",
@@ -38,6 +41,16 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "You drive a spike of psionic energy into the mind of one creature you can see within range. The target makes a Wisdom saving throw, taking 3d8 Psychic damage on a failed save or half as much damage on a successful one. On a failed save, you also always know the target's location until the spell ends, but only while the two of you are on the same plane",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Psychic",
@@ -51,6 +64,25 @@
   "scalesWithSlotLevel": true,
   "concentration": true,
   "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 hour",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "S",
+    "verbal": false,
+    "somatic": true,
+    "material": false
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/invisible"

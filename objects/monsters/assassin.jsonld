@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.9",
     "heading": "Assassin",
-    "lineStart": 18195,
-    "lineEnd": 18232
+    "lineStart": 18127,
+    "lineEnd": 18164
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/assassin/"
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
+  "size": "Medium or Small",
+  "creatureType": "Humanoid",
+  "monsterCategory": "Monster",
   "alignment": "Neutral",
   "armorClass": "16",
   "initiative": "+10 (20)",
@@ -78,8 +84,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.9",
         "heading": "Traits",
-        "lineStart": 18218,
-        "lineEnd": 18220
+        "lineStart": 18150,
+        "lineEnd": 18152
       }
     },
     {
@@ -89,8 +95,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.9",
         "heading": "Actions",
-        "lineStart": 18222,
-        "lineEnd": 18228
+        "lineStart": 18154,
+        "lineEnd": 18160
       }
     },
     {
@@ -100,8 +106,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.9",
         "heading": "Bonus Actions",
-        "lineStart": 18230,
-        "lineEnd": 18232
+        "lineStart": 18162,
+        "lineEnd": 18164
       }
     }
   ],
@@ -115,6 +121,45 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/studded-leather-armor"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Acrobatics",
+      "bonus": 7
+    },
+    {
+      "name": "Perception",
+      "bonus": 6
+    },
+    {
+      "name": "Stealth",
+      "bonus": 10
+    }
+  ],
+  "passivePerception": 16,
+  "languageList": [
+    "Common",
+    "Thieves' Cant"
+  ],
+  "damageResistances": [
+    "Poison"
+  ],
+  "gearItems": [
+    {
+      "name": "Light Crossbow"
+    },
+    {
+      "name": "Shortsword"
+    },
+    {
+      "name": "Studded Leather Armor"
     }
   ],
   "attacks": [

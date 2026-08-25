@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.32",
     "heading": "Wizard Spell List",
-    "lineStart": 5044,
-    "lineEnd": 5051
+    "lineStart": 5026,
+    "lineEnd": 5042,
+    "caption": "Cantrips (Level 0 Wizard Spells)"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-32-cantrips-level-0-wizard-spells/"
   },
   "columns": [
     "Spell",
@@ -103,9 +107,135 @@
           "value": "-"
         }
       ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "Mage Hand"
+        },
+        {
+          "value": "Conjuration"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "Mending"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Message"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Minor Illusion"
+        },
+        {
+          "value": "Illusion"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "Poison Spray"
+        },
+        {
+          "value": "Necromancy"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "Prestidigitation"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "Ray of Frost"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "cells": [
+        {
+          "value": "Shocking Grasp"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "cells": [
+        {
+          "value": "True Strike"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "-"
+        }
+      ]
     }
   ],
-  "rawText": "| Spell          | School        | Special |\n| :------------- | :------------ | :------ |\n| Acid Splash    | Evocation     |    -    |\n| Chill Touch    | Necromancy    |    -    |\n| Dancing Lights | Illusion      | C       |\n| Elementalism   | Transmutation |    -    |\n| Fire Bolt      | Evocation     |    -    |\n| Light          | Evocation     |    -    |",
+  "rawText": "| Spell          | School        | Special |\n| :------------- | :------------ | :------ |\n| Acid Splash    | Evocation     |    -    |\n| Chill Touch    | Necromancy    |    -    |\n| Dancing Lights | Illusion      | C       |\n| Elementalism   | Transmutation |    -    |\n| Fire Bolt      | Evocation     |    -    |\n| Light          | Evocation     |    -    |\n| Mage Hand        | Conjuration   |    -    |\n| Mending          | Transmutation |    -    |\n| Message          | Transmutation |    -    |\n| Minor Illusion   | Illusion      |    -    |\n| Poison Spray     | Necromancy    |    -    |\n| Prestidigitation | Transmutation |    -    |\n| Ray of Frost     | Evocation     |    -    |\n| Shocking Grasp   | Evocation     |    -    |\n| True Strike      | Divination    |    -    |",
   "listsSpell": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/acid-splash"
@@ -124,6 +254,33 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/light"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mage-hand"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mending"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/message"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/minor-illusion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/poison-spray"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/prestidigitation"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/ray-of-frost"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/shocking-grasp"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/true-strike"
     }
   ]
 }

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.292",
     "heading": "Reverse Gravity",
-    "lineStart": 11365,
-    "lineEnd": 11376
+    "lineStart": 11336,
+    "lineEnd": 11347
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/reverse-gravity/"
   },
   "level": 7,
   "school": "Transmutation",
@@ -38,7 +41,56 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "This spell reverses gravity in a 50-foot-radius, 100-foot high Cylinder centered on a point within range. All creatures and objects in that area that aren't anchored to the ground fall upward and reach the top of the Cylinder. A creature can make a Dexterity saving throw to grab a fixed object it can reach, thus avoiding the fall upward."
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "100 feet",
+    "kind": "Distance",
+    "distanceFeet": 100
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a lodestone and iron filings)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a lodestone and iron filings",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cylinder",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cylinder"
+      },
+      "sourceText": "This spell reverses gravity in a 50-foot-radius, 100-foot high Cylinder centered on a point within range.",
+      "radiusFeet": 50
+    },
+    {
+      "shape": "Cylinder",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cylinder"
+      },
+      "sourceText": "If an affected creature or object reaches the Cylinder's top without striking anything, it hovers there for the duration."
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cylinder"
+    }
+  ]
 }

@@ -1,0 +1,26 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/invocations/agonizing-blast",
+  "@type": "EldritchInvocation",
+  "name": "Agonizing Blast",
+  "slug": "agonizing-blast",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.28",
+    "heading": "Agonizing Blast",
+    "lineStart": 4516,
+    "lineEnd": 4522
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/invocations/agonizing-blast/"
+  },
+  "prerequisite": "Level 2+ Warlock, a Warlock Cantrip That Deals Damage",
+  "repeatable": true,
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+  },
+  "rulesText": "Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage\n\nChoose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell's damage rolls.\n\nRepeatable. You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip."
+}

@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.87",
     "heading": "Clothes, Traveler's (2 GP)",
-    "lineStart": 6544,
-    "lineEnd": 6546
+    "lineStart": 6517,
+    "lineEnd": 6519
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-87-clothes-travelers-2-gp/"
   },
   "section": "6.87",
   "rulesText": "Traveler's Clothes are resilient garments designed for travel in various environments."

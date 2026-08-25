@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.62",
     "heading": "Boots of Striding and Springing",
-    "lineStart": 15103,
-    "lineEnd": 15109
+    "lineStart": 15065,
+    "lineEnd": 15071
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/boots-of-striding-and-springing/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile you wear these boots, your Speed becomes 30 feet unless your Speed is higher, and your Speed isn't reduced by you carrying weight in excess of your carrying capacity or wearing Heavy Armor.\n\nOnce on each of your turns, you can jump up to 30 feet by spending only 10 feet of movement."
+  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile you wear these boots, your Speed becomes 30 feet unless your Speed is higher, and your Speed isn't reduced by you carrying weight in excess of your carrying capacity or wearing Heavy Armor.\n\nOnce on each of your turns, you can jump up to 30 feet by spending only 10 feet of movement.",
+  "isCursed": false,
+  "isSentient": false
 }

@@ -1,0 +1,39 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/cartographers-tools",
+  "@type": "Equipment",
+  "name": "Cartographer's Tools",
+  "slug": "cartographers-tools",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.39",
+    "heading": "Cartographer's Tools (15 GP)",
+    "lineStart": 6120,
+    "lineEnd": 6126
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/cartographers-tools/"
+  },
+  "equipmentType": "tool",
+  "fromRule": {
+    "@id": "https://cheeleong.dev/graph20/objects/rules/6-39-cartographers-tools-15-gp"
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-39-cartographers-tools-15-gp"
+    }
+  ],
+  "cost": {
+    "text": "15 GP",
+    "currency": "GP",
+    "amount": 15
+  },
+  "ability": "Wisdom",
+  "weight": "6 lb.",
+  "weightPounds": 6,
+  "utilize": "Draft a map of a small area (DC 15)",
+  "craft": "Map"
+}

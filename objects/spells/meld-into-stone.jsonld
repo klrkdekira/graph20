@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.241",
     "heading": "Meld into Stone",
-    "lineStart": 10592,
-    "lineEnd": 10605
+    "lineStart": 10563,
+    "lineEnd": 10576
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/meld-into-stone/"
   },
   "level": 3,
   "school": "Transmutation",
@@ -50,6 +53,24 @@
   "scalesWithSlotLevel": false,
   "concentration": false,
   "ritual": true,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "8 hours",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 8,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"

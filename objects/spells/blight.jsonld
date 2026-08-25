@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.62",
     "heading": "Blight",
-    "lineStart": 7782,
-    "lineEnd": 7795
+    "lineStart": 7753,
+    "lineEnd": 7766
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/blight/"
   },
   "level": 4,
   "school": "Necromancy",
@@ -42,6 +45,16 @@
     }
   ],
   "savingThrowAbility": "Constitution",
+  "savingThrows": [
+    {
+      "ability": "Constitution",
+      "sourceText": "A creature that you can see within range makes a Constitution saving throw, taking 8d8 Necrotic damage on a failed save or half as much damage on a successful one. A Plant creature automatically fails the save.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Necrotic",
@@ -54,5 +67,21 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.336",
     "heading": "Sunburst",
-    "lineStart": 12012,
-    "lineEnd": 12025
+    "lineStart": 11983,
+    "lineEnd": 11996
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/sunburst/"
   },
   "level": 8,
   "school": "Evocation",
@@ -42,6 +45,23 @@
     }
   ],
   "savingThrowAbility": "Constitution",
+  "savingThrows": [
+    {
+      "ability": "Constitution",
+      "sourceText": "Brilliant sunlight flashes in a 60-foot-radius Sphere centered on a point you choose within range. Each creature in the Sphere makes a Constitution saving throw. On a failed save, a creature takes 12d6 Radiant damage and has the Blinded condition for 1 minute. On a successful save, it takes half as much damage only.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    },
+    {
+      "ability": "Constitution",
+      "sourceText": "A creature Blinded by this spell makes another Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "outcomes": [
+        "Partial"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Radiant",
@@ -55,6 +75,39 @@
   "scalesWithSlotLevel": false,
   "concentration": false,
   "ritual": false,
+  "rangeDetails": {
+    "text": "150 feet",
+    "kind": "Distance",
+    "distanceFeet": 150
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a piece of sunstone)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a piece of sunstone",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "Brilliant sunlight flashes in a 60-foot-radius Sphere centered on a point you choose within range.",
+      "radiusFeet": 60
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+    }
+  ],
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/blinded"

@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.80",
     "heading": "Cloak of Protection",
-    "lineStart": 15261,
-    "lineEnd": 15265
+    "lineStart": 15223,
+    "lineEnd": 15227
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/cloak-of-protection/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nYou gain a +1 bonus to Armor Class and saving throws while you wear this cloak."
+  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nYou gain a +1 bonus to Armor Class and saving throws while you wear this cloak.",
+  "isCursed": false,
+  "isSentient": false
 }

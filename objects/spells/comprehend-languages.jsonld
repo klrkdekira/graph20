@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.82",
     "heading": "Comprehend Languages",
-    "lineStart": 8085,
-    "lineEnd": 8094
+    "lineStart": 8056,
+    "lineEnd": 8065
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/comprehend-languages/"
   },
   "level": 1,
   "school": "Divination",
@@ -43,5 +46,25 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": true
+  "ritual": true,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "1 hour",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a pinch of soot and salt)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a pinch of soot and salt",
+    "consumed": false
+  }
 }

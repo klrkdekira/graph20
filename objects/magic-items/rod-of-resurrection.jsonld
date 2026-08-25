@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.232",
     "heading": "Rod of Resurrection",
-    "lineStart": 17018,
-    "lineEnd": 17024
+    "lineStart": 16962,
+    "lineEnd": 16968
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/rod-of-resurrection/"
   },
   "itemCategory": "Rod",
   "rarity": "Legendary",
@@ -26,5 +29,12 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/resurrection"
     }
-  ]
+  ],
+  "charges": {
+    "capacityText": "5",
+    "capacity": 5,
+    "rechargeText": "The rod regains 1 expended charge daily at dawn."
+  },
+  "isCursed": false,
+  "isSentient": false
 }

@@ -11,9 +11,28 @@
     "chapter": "Rules Glossary",
     "section": "8.23",
     "heading": "Bright Light",
-    "lineStart": 12843,
-    "lineEnd": 12845
+    "lineStart": 12810,
+    "lineEnd": 12812
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-23-bright-light/"
   },
   "section": "8.23",
-  "rulesText": "Bright Light is normal illumination. See also “Playing the Game” (“Exploration”)."
+  "rulesText": "Bright Light is normal illumination. See also “Playing the Game” (“Exploration”).",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-41-exploration"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-41-exploration"
+    }
+  ]
 }

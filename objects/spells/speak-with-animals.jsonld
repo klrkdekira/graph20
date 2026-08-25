@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.320",
     "heading": "Speak with Animals",
-    "lineStart": 11765,
-    "lineEnd": 11776
+    "lineStart": 11736,
+    "lineEnd": 11747
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/speak-with-animals/"
   },
   "level": 1,
   "school": "Divination",
@@ -43,5 +46,23 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": true
+  "ritual": true,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "10 minutes",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

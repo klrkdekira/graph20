@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.61",
     "heading": "Lion",
-    "lineStart": 28230,
-    "lineEnd": 28261
+    "lineStart": 28141,
+    "lineEnd": 28172
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/lion/"
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
+  "size": "Large",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "12",
   "initiative": "+2 (12)",
@@ -75,8 +81,8 @@
         "chapter": "Animals",
         "section": "13.61",
         "heading": "Traits",
-        "lineStart": 28249,
-        "lineEnd": 28253
+        "lineStart": 28160,
+        "lineEnd": 28164
       }
     },
     {
@@ -86,12 +92,35 @@
         "chapter": "Animals",
         "section": "13.61",
         "heading": "Actions",
-        "lineStart": 28255,
-        "lineEnd": 28261
+        "lineStart": 28166,
+        "lineEnd": 28172
       }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 12\nInitiative +2 (12)\nHP 22 (4d10)\nSpeed 50 ft.\n\nSkills Perception +3, Stealth +4\nSenses Darkvision 60 ft.; Passive Perception 13\nLanguages None\nCR 1 (XP 200; PB +2)\n\nTraits\n\nPack Tactics. The lion has Advantage on an attack roll against a creature if at least one of the lion's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nRunning Leap. With a 10-foot running start, the lion can Long Jump up to 25 feet.\n\nActions\n\nMultiattack. The lion makes two Rend attacks. It can replace one attack with a use of Roar.\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Slashing damage.\n\nRoar. Wisdom Saving Throw: DC 11, one creature within 15 feet. Failure: The target has the Frightened condition until the start of the lion's next turn.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 50
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 3
+    },
+    {
+      "name": "Stealth",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 13,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Rend",

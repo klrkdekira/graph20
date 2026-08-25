@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.120",
     "heading": "Dissonant Whispers",
-    "lineStart": 8699,
-    "lineEnd": 8710
+    "lineStart": 8670,
+    "lineEnd": 8681
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/dissonant-whispers/"
   },
   "level": 1,
   "school": "Enchantment",
@@ -30,6 +33,16 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "One creature of your choice that you can see within range hears a discordant melody in its mind. The target makes a Wisdom saving throw. On a failed save, it takes 3d6 Psychic damage and must immediately use its Reaction, if available, to move as far away from you as it can, using the safest route. On a successful save, the target takes half as much damage only.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Psychic",
@@ -42,5 +55,21 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V",
+    "verbal": true,
+    "somatic": false,
+    "material": false
+  }
 }

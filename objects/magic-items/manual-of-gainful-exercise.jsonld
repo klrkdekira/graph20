@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.156",
     "heading": "Manual of Gainful Exercise",
-    "lineStart": 16120,
-    "lineEnd": 16124
+    "lineStart": 16082,
+    "lineEnd": 16086
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/manual-of-gainful-exercise/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Very Rare",
   "requiresAttunement": false,
-  "rulesText": "Wondrous Item, Very Rare\n\nThis book describes fitness exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Strength increases by 2, to a maximum of 30. The manual then loses its magic but regains it in a century."
+  "rulesText": "Wondrous Item, Very Rare\n\nThis book describes fitness exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Strength increases by 2, to a maximum of 30. The manual then loses its magic but regains it in a century.",
+  "isCursed": false,
+  "isSentient": false
 }

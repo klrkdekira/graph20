@@ -1,0 +1,26 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/metamagic-options/twinned-spell",
+  "@type": "MetamagicOption",
+  "name": "Twinned Spell",
+  "slug": "twinned-spell",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.25",
+    "heading": "Twinned Spell",
+    "lineStart": 4141,
+    "lineEnd": 4145
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/metamagic-options/twinned-spell/"
+  },
+  "cost": "1 Sorcery Point",
+  "sorceryPointCost": 1,
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+  },
+  "rulesText": "Cost: 1 Sorcery Point\n\nWhen you cast a spell, such as Charm Person, that can be cast with a higher-level spell slot to target an additional creature, you can spend 1 Sorcery Point to increase the spell's effective level by 1."
+}

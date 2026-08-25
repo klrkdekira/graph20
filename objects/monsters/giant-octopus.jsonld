@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.41",
     "heading": "Giant Octopus",
-    "lineStart": 27682,
-    "lineEnd": 27711
+    "lineStart": 27596,
+    "lineEnd": 27625
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/giant-octopus/"
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
+  "size": "Large",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "11",
   "initiative": "+1 (11)",
@@ -76,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.41",
         "heading": "Traits",
-        "lineStart": 27701,
-        "lineEnd": 27703
+        "lineStart": 27615,
+        "lineEnd": 27617
       }
     },
     {
@@ -87,8 +93,8 @@
         "chapter": "Animals",
         "section": "13.41",
         "heading": "Actions",
-        "lineStart": 27705,
-        "lineEnd": 27707
+        "lineStart": 27619,
+        "lineEnd": 27621
       }
     },
     {
@@ -98,12 +104,39 @@
         "chapter": "Animals",
         "section": "13.41",
         "heading": "Reactions",
-        "lineStart": 27709,
-        "lineEnd": 27711
+        "lineStart": 27623,
+        "lineEnd": 27625
       }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 11\nInitiative +1 (11)\nHP 45 (7d10 + 7)\nSpeed 10 ft., Swim 60 ft.\n\nSkills Perception +4, Stealth +5\nSenses Darkvision 60 ft.; Passive Perception 14\nLanguages None\nCR 1 (XP 200; PB +2)\n\nTraits\n\nWater Breathing. The octopus can breathe only underwater. It can hold its breath for 1 hour outside water.\n\nActions\n\nTentacles. Melee Attack Roll: +5, reach 10 ft. Hit: 10 (2d6 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 13) from all eight tentacles. While Grappled, the target has the Restrained condition.\n\nReactions\n\nInk Cloud (1/Day). Trigger: The octopus takes damage while underwater. Response: The octopus releases ink that fills a 10-foot Cube centered on itself, and the octopus moves up to its Swim Speed. The Cube is Heavily Obscured for 1 minute or until a strong current or similar effect disperses the ink.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 10
+    },
+    {
+      "mode": "Swim",
+      "feet": 60
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 4
+    },
+    {
+      "name": "Stealth",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 14,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Tentacles",

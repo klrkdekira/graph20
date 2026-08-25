@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.249",
     "heading": "Staff of Charming",
-    "lineStart": 17192,
-    "lineEnd": 17204
+    "lineStart": 17133,
+    "lineEnd": 17145
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/staff-of-charming/"
   },
   "itemCategory": "Staff",
   "rarity": "Rare",
@@ -29,5 +32,33 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/comprehend-languages"
     }
-  ]
+  ],
+  "charges": {
+    "capacityText": "10",
+    "capacity": 10,
+    "rechargeText": "The staff regains 1d8 + 2 expended charges daily at dawn."
+  },
+  "isCursed": false,
+  "isSentient": false,
+  "attunementClasses": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/bard"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/cleric"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/druid"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/classes/wizard"
+    }
+  ],
+  "attunementRestriction": "Requires Attunement by a Bard, Cleric, Druid, Sorcerer, Warlock, or Wizard"
 }

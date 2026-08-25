@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.303",
     "heading": "Sending",
-    "lineStart": 11526,
-    "lineEnd": 11539
+    "lineStart": 11497,
+    "lineEnd": 11510
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/sending/"
   },
   "level": 3,
   "school": "Divination",
@@ -39,5 +42,22 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Unlimited",
+    "kind": "Unlimited"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a copper wire)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a copper wire",
+    "consumed": false
+  }
 }

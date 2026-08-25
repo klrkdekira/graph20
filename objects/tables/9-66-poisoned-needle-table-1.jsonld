@@ -1,0 +1,71 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/9-66-poisoned-needle-table-1",
+  "@type": "Table",
+  "name": "Poisoned Needle Table 1",
+  "slug": "9-66-poisoned-needle-table-1",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.66",
+    "heading": "Poisoned Needle",
+    "lineStart": 14284,
+    "lineEnd": 14288,
+    "caption": "Poisoned Needle Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/9-66-poisoned-needle-table-1/"
+  },
+  "columns": [
+    "Levels",
+    "Poison Damage",
+    "Save DC"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "5–10"
+        },
+        {
+          "value": "11 (2d10)"
+        },
+        {
+          "value": "13"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "11–16"
+        },
+        {
+          "value": "22 (4d10)"
+        },
+        {
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "17–20"
+        },
+        {
+          "value": "55 (10d10)"
+        },
+        {
+          "value": "17"
+        }
+      ]
+    }
+  ],
+  "rawText": "| Levels | Poison Damage | Save DC |\n| :----- | :------------ | :------ |\n| 5–10   | 11 (2d10)     | 13      |\n| 11–16  | 22 (4d10)     | 15      |\n| 17–20  | 55 (10d10)    | 17      |"
+}

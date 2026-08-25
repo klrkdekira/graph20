@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.20",
     "heading": "Barbed Devil",
-    "lineStart": 18448,
-    "lineEnd": 18490
+    "lineStart": 18380,
+    "lineEnd": 18422
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/barbed-devil/"
   },
   "sizeTypeAlignment": "Medium Fiend (Devil), Lawful Evil",
   "sizeAndType": "Medium Fiend (Devil)",
+  "size": "Medium",
+  "creatureType": "Fiend",
+  "descriptiveTags": [
+    "Devil"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "15",
   "initiative": "+3 (13)",
@@ -78,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.20",
         "heading": "Traits",
-        "lineStart": 18474,
-        "lineEnd": 18480
+        "lineStart": 18406,
+        "lineEnd": 18412
       }
     },
     {
@@ -89,8 +98,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.20",
         "heading": "Actions",
-        "lineStart": 18482,
-        "lineEnd": 18490
+        "lineStart": 18414,
+        "lineEnd": 18422
       }
     }
   ],
@@ -99,6 +108,47 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Climb",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Deception",
+      "bonus": 5
+    },
+    {
+      "name": "Insight",
+      "bonus": 5
+    },
+    {
+      "name": "Perception",
+      "bonus": 8
+    }
+  ],
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Infernal",
+    "telepathy 120 ft."
+  ],
+  "damageImmunities": [
+    "Fire",
+    "Poison"
+  ],
+  "damageResistances": [
+    "Cold"
   ],
   "attacks": [
     {

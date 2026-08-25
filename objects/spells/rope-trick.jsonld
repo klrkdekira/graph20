@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.294",
     "heading": "Rope Trick",
-    "lineStart": 11389,
-    "lineEnd": 11400
+    "lineStart": 11360,
+    "lineEnd": 11371
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/rope-trick/"
   },
   "level": 2,
   "school": "Transmutation",
@@ -31,5 +34,25 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "1 hour",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a segment of rope)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a segment of rope",
+    "consumed": false
+  }
 }

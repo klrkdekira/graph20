@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.120",
     "heading": "Ancient Green Dragon",
-    "lineStart": 21674,
-    "lineEnd": 21721
+    "lineStart": 21594,
+    "lineEnd": 21641
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/ancient-green-dragon/"
   },
   "sizeTypeAlignment": "Gargantuan Dragon (Chromatic), Lawful Evil",
   "sizeAndType": "Gargantuan Dragon (Chromatic)",
+  "size": "Gargantuan",
+  "creatureType": "Dragon",
+  "descriptiveTags": [
+    "Chromatic"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "21",
   "initiative": "+15 (25)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.120",
         "heading": "Traits",
-        "lineStart": 21694,
-        "lineEnd": 21698
+        "lineStart": 21614,
+        "lineEnd": 21618
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.120",
         "heading": "Actions",
-        "lineStart": 21700,
-        "lineEnd": 21711
+        "lineStart": 21620,
+        "lineEnd": 21631
       }
     },
     {
@@ -99,8 +108,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.120",
         "heading": "Legendary Actions",
-        "lineStart": 21713,
-        "lineEnd": 21721
+        "lineStart": 21633,
+        "lineEnd": 21641
       }
     }
   ],
@@ -108,6 +117,99 @@
   "conditionImmunities": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Fly",
+      "feet": 80
+    },
+    {
+      "mode": "Swim",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Deception",
+      "bonus": 13
+    },
+    {
+      "name": "Perception",
+      "bonus": 17
+    },
+    {
+      "name": "Persuasion",
+      "bonus": 13
+    },
+    {
+      "name": "Stealth",
+      "bonus": 8
+    }
+  ],
+  "passivePerception": 27,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 60
+    },
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Common",
+    "Draconic"
+  ],
+  "damageImmunities": [
+    "Poison"
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 21):\n\nAt Will: Detect Magic, Mind Spike (level 5 version)\n1/Day Each: Geas, Modify Memory",
+      "path": "statSections[1].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Detect Magic, Mind Spike (level 5 version)\n1/Day Each: Geas, Modify Memory",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/mind-spike"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/geas"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/modify-memory"
+            }
+          ]
+        }
+      ],
+      "ability": "Charisma",
+      "saveDC": 21
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mind-spike"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/geas"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/modify-memory"
     }
   ],
   "attacks": [

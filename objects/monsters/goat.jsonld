@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.54",
     "heading": "Goat",
-    "lineStart": 28049,
-    "lineEnd": 28070
+    "lineStart": 27960,
+    "lineEnd": 27981
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/goat/"
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
+  "size": "Medium",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "10",
   "initiative": "+0 (10)",
@@ -75,12 +81,35 @@
         "chapter": "Animals",
         "section": "13.54",
         "heading": "Actions",
-        "lineStart": 28068,
-        "lineEnd": 28070
+        "lineStart": 27979,
+        "lineEnd": 27981
       }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 10\nInitiative +0 (10)\nHP 4 (1d8)\nSpeed 40 ft., Climb 30 ft.\n\nSkills Perception +2\nSenses Darkvision 60 ft.; Passive Perception 12\nLanguages None\nCR 0 (XP 10; PB +2)\n\nActions\n\nRam. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Bludgeoning damage, or 2 (1d4) Bludgeoning damage if the goat moved 20+ feet straight toward the target immediately before the hit.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Climb",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 2
+    }
+  ],
+  "passivePerception": 12,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Ram",

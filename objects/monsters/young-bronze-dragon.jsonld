@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.45",
     "heading": "Young Bronze Dragon",
-    "lineStart": 19250,
-    "lineEnd": 19282
+    "lineStart": 19176,
+    "lineEnd": 19208
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/young-bronze-dragon/"
   },
   "sizeTypeAlignment": "Large Dragon (Metallic), Lawful Good",
   "sizeAndType": "Large Dragon (Metallic)",
+  "size": "Large",
+  "creatureType": "Dragon",
+  "descriptiveTags": [
+    "Metallic"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Good",
   "armorClass": "17",
   "initiative": "+3 (13)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.45",
         "heading": "Traits",
-        "lineStart": 19270,
-        "lineEnd": 19272
+        "lineStart": 19196,
+        "lineEnd": 19198
       }
     },
     {
@@ -88,12 +97,58 @@
         "chapter": "Monsters A-Z",
         "section": "12.45",
         "heading": "Actions",
-        "lineStart": 19274,
-        "lineEnd": 19282
+        "lineStart": 19200,
+        "lineEnd": 19208
       }
     }
   ],
   "rulesText": "Large Dragon (Metallic), Lawful Good\n\nAC 17\nInitiative +3 (13)\nHP 142 (15d10 + 60)\nSpeed 40 ft., Fly 80 ft., Swim 40 ft.\n\nSkills Insight +4, Perception +7, Stealth +3\nImmunities Lightning\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 17\nLanguages Common, Draconic\nCR 8 (XP 3,900; PB +3)\n\nTraits\n\nAmphibious. The dragon can breathe air and water.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks. It can replace one attack with a use of Repulsion Breath.\n\nRend. Melee Attack Roll: +8, reach 10 ft. Hit: 16 (2d10 + 5) Slashing damage.\n\nLightning Breath (Recharge 5–6). Dexterity Saving Throw: DC 15, each creature in a 60-foot-long, 5-foot-wide Line. Failure: 49 (9d10) Lightning damage. Success: Half damage.\n\nRepulsion Breath. Strength Saving Throw: DC 15, each creature in a 30-foot Cone. Failure: The target is pushed up to 40 feet straight away from the dragon and has the Prone condition.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Fly",
+      "feet": 80
+    },
+    {
+      "mode": "Swim",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Insight",
+      "bonus": 4
+    },
+    {
+      "name": "Perception",
+      "bonus": 7
+    },
+    {
+      "name": "Stealth",
+      "bonus": 3
+    }
+  ],
+  "passivePerception": 17,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 30
+    },
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Common",
+    "Draconic"
+  ],
+  "damageImmunities": [
+    "Lightning"
+  ],
   "attacks": [
     {
       "name": "Rend",

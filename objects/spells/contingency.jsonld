@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.94",
     "heading": "Contingency",
-    "lineStart": 8279,
-    "lineEnd": 8292
+    "lineStart": 8250,
+    "lineEnd": 8263
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/contingency/"
   },
   "level": 6,
   "school": "Abjuration",
@@ -31,5 +34,30 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "10 days",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 10,
+    "unit": "day"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a gem-encrusted statuette of yourself worth 1,500+ GP)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a gem-encrusted statuette of yourself worth 1,500+ GP",
+    "consumed": false,
+    "materialCost": {
+      "text": "1,500 GP",
+      "currency": "GP",
+      "amount": 1500
+    }
+  }
 }

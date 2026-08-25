@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.220",
     "heading": "Skeleton",
-    "lineStart": 24858,
-    "lineEnd": 24883
+    "lineStart": 24778,
+    "lineEnd": 24803
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/skeleton/"
   },
   "sizeTypeAlignment": "Medium Undead, Lawful Evil",
   "sizeAndType": "Medium Undead",
+  "size": "Medium",
+  "creatureType": "Undead",
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "14",
   "initiative": "+3 (13)",
@@ -78,8 +84,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.220",
         "heading": "Actions",
-        "lineStart": 24879,
-        "lineEnd": 24883
+        "lineStart": 24799,
+        "lineEnd": 24803
       }
     }
   ],
@@ -98,6 +104,36 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 9,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Understands Common plus one other language but can't speak"
+  ],
+  "damageImmunities": [
+    "Poison"
+  ],
+  "damageVulnerabilities": [
+    "Bludgeoning"
+  ],
+  "gearItems": [
+    {
+      "name": "Shortbow"
+    },
+    {
+      "name": "Shortsword"
     }
   ],
   "attacks": [

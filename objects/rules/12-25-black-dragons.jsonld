@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.25",
     "heading": "Black Dragons",
-    "lineStart": 18621,
-    "lineEnd": 18621
+    "lineStart": 18553,
+    "lineEnd": 18553
   },
-  "section": "12.25"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-25-black-dragons/"
+  },
+  "section": "12.25",
+  "rulesText": "Black Dragons",
+  "headingOnly": true
 }

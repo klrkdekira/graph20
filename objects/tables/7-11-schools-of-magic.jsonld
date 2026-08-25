@@ -11,8 +11,12 @@
     "chapter": "Spells",
     "section": "7.11",
     "heading": "School of Magic",
-    "lineStart": 7156,
-    "lineEnd": 7165
+    "lineStart": 7129,
+    "lineEnd": 7138,
+    "caption": "Schools of Magic"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/7-11-schools-of-magic/"
   },
   "columns": [
     "School",

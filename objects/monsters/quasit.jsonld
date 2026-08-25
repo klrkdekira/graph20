@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.194",
     "heading": "Quasit",
-    "lineStart": 24025,
-    "lineEnd": 24060
+    "lineStart": 23945,
+    "lineEnd": 23980
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/quasit/"
   },
   "sizeTypeAlignment": "Tiny Fiend (Demon), Chaotic Evil",
   "sizeAndType": "Tiny Fiend (Demon)",
+  "size": "Tiny",
+  "creatureType": "Fiend",
+  "descriptiveTags": [
+    "Demon"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "13",
   "initiative": "+3 (13)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.194",
         "heading": "Traits",
-        "lineStart": 24048,
-        "lineEnd": 24050
+        "lineStart": 23968,
+        "lineEnd": 23970
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.194",
         "heading": "Actions",
-        "lineStart": 24052,
-        "lineEnd": 24060
+        "lineStart": 23972,
+        "lineEnd": 23980
       }
     }
   ],
@@ -98,6 +107,37 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Stealth",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Abyssal",
+    "Common"
+  ],
+  "damageImmunities": [
+    "Poison"
+  ],
+  "damageResistances": [
+    "Cold",
+    "Fire",
+    "Lightning"
   ],
   "attacks": [
     {

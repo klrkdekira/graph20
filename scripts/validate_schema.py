@@ -10,7 +10,9 @@ from jsonschema import Draft202012Validator
 from referencing import Registry, Resource
 
 from srdlib import (
+    BUILD_METRICS_NAME,
     BUNDLE_NAME,
+    CONTEXT_IRI,
     MANIFEST_NAME,
     SCHEMA_FOR_COLLECTION,
     iter_object_files,
@@ -23,6 +25,7 @@ AUXILIARY_SCHEMAS = {
     "collection-index.json": "collection-index.schema.json",
     "sources/source-coverage.json": "coverage.schema.json",
     "sources/source-review-ledger.json": "review-ledger.schema.json",
+    BUILD_METRICS_NAME: "build-metrics.schema.json",
 }
 
 
@@ -60,6 +63,22 @@ def main():
     manifest = load_json(root / "objects" / MANIFEST_NAME)
     for error in system_validator.iter_errors(manifest):
         errors.append(f"{MANIFEST_NAME}: {error.message}")
+
+    # The bundle envelope has its own schema, while every graph member must
+    # also satisfy the exact schema of its source collection. Bundle nodes
+    # inherit @context from the envelope, so restore it for record validation.
+    bundle = load_json(root / "objects" / BUNDLE_NAME)
+    for index, node in enumerate(bundle["@graph"]):
+        marker = "/objects/"
+        try:
+            collection = node["@id"].split(marker, 1)[1].split("/", 1)[0]
+            validator = validators[collection]
+        except (KeyError, IndexError):
+            errors.append(f"{BUNDLE_NAME} @graph[{index}]: cannot resolve collection schema")
+            continue
+        record = {"@context": CONTEXT_IRI, **node}
+        for error in validator.iter_errors(record):
+            errors.append(f"{BUNDLE_NAME} @graph[{index}] ({node.get('@id')}): {error.message}")
 
     auxiliary_count = 0
     for relative, schema_name in AUXILIARY_SCHEMAS.items():

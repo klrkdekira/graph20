@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.10",
     "heading": "Level 3: Circle of the Land Spells",
-    "lineStart": 2764,
-    "lineEnd": 2769
+    "lineStart": 2754,
+    "lineEnd": 2759,
+    "caption": "Temperate Land"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-10-temperate-land/"
   },
   "columns": [
     "Druid Level",

@@ -1,0 +1,23 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-36-fear-and-mental-stress",
+  "@type": "Rule",
+  "name": "Fear and Mental Stress",
+  "slug": "9-36-fear-and-mental-stress",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.36",
+    "heading": "Fear and Mental Stress",
+    "lineStart": 13976,
+    "lineEnd": 13980
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/9-36-fear-and-mental-stress/"
+  },
+  "section": "9.36",
+  "rulesText": "Due to the nature of their vocation, adventurers tend to be less susceptible to fear and mental stress than common folk. Whereas a farmer might flee in terror from a bear or an apparition, adventurers are made of sterner stuff. That said, certain creatures and game effects can terrify or fray the mind of even the most stalwart adventurer.\n\nIf you plan to use any of these rules, discuss them with your players at the start of the campaign.",
+  "ruleCategory": "MentalEffect"
+}

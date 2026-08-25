@@ -11,8 +11,12 @@
     "chapter": "Equipment",
     "section": "6.66",
     "heading": "Arcane Focus (Varies)",
-    "lineStart": 6456,
-    "lineEnd": 6462
+    "lineStart": 6429,
+    "lineEnd": 6435,
+    "caption": "Arcane Focuses"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/6-66-arcane-focuses/"
   },
   "columns": [
     "Focus",

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.309",
     "heading": "Shillelagh",
-    "lineStart": 11612,
-    "lineEnd": 11625
+    "lineStart": 11583,
+    "lineEnd": 11596
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/shillelagh/"
   },
   "level": 0,
   "school": "Transmutation",
@@ -31,5 +34,25 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "1 minute",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (mistletoe)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "mistletoe",
+    "consumed": false
+  }
 }

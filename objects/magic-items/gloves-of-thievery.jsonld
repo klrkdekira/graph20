@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.127",
     "heading": "Gloves of Thievery",
-    "lineStart": 15804,
-    "lineEnd": 15808
+    "lineStart": 15766,
+    "lineEnd": 15770
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/gloves-of-thievery/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": false,
-  "rulesText": "Wondrous Item, Uncommon\n\nThese gloves are imperceptible while worn. While wearing them, you gain a +5 bonus to Dexterity (Sleight of Hand) checks."
+  "rulesText": "Wondrous Item, Uncommon\n\nThese gloves are imperceptible while worn. While wearing them, you gain a +5 bonus to Dexterity (Sleight of Hand) checks.",
+  "isCursed": false,
+  "isSentient": false
 }

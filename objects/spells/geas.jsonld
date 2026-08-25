@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.172",
     "heading": "Geas",
-    "lineStart": 9525,
-    "lineEnd": 9542
+    "lineStart": 9496,
+    "lineEnd": 9513
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/geas/"
   },
   "level": 5,
   "school": "Enchantment",
@@ -46,6 +49,12 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "You give a verbal command to a creature that you can see within range, ordering it to carry out some service or refrain from an action or a course of activity as you decide. The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration. The target automatically succeeds if it can't understand your command."
+    }
+  ],
   "damage": [
     {
       "damageType": "Psychic",
@@ -59,6 +68,25 @@
   "scalesWithSlotLevel": true,
   "concentration": false,
   "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "30 days",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 30,
+    "unit": "day"
+  },
+  "componentDetails": {
+    "text": "V",
+    "verbal": true,
+    "somatic": false,
+    "material": false
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"

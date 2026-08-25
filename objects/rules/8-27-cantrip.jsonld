@@ -11,8 +11,11 @@
     "chapter": "Rules Glossary",
     "section": "8.27",
     "heading": "Cantrip",
-    "lineStart": 12859,
-    "lineEnd": 12861
+    "lineStart": 12826,
+    "lineEnd": 12828
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-27-cantrip/"
   },
   "section": "8.27",
   "rulesText": "A cantrip is a level 0 spell, which is cast without a spell slot. See also “Spells.”"

@@ -11,8 +11,13 @@
     "chapter": "Equipment",
     "section": "6.1",
     "heading": "Equipment",
-    "lineStart": 5869,
-    "lineEnd": 5869
+    "lineStart": 5845,
+    "lineEnd": 5845
   },
-  "section": "6.1"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-1-equipment/"
+  },
+  "section": "6.1",
+  "rulesText": "Equipment",
+  "headingOnly": true
 }

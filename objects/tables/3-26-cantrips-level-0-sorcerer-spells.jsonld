@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.26",
     "heading": "Sorcerer Spell List",
-    "lineStart": 4163,
-    "lineEnd": 4180
+    "lineStart": 4153,
+    "lineEnd": 4170,
+    "caption": "Cantrips (Level 0 Sorcerer Spells)"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-26-cantrips-level-0-sorcerer-spells/"
   },
   "columns": [
     "Spell",

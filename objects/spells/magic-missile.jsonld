@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.231",
     "heading": "Magic Missile",
-    "lineStart": 10446,
-    "lineEnd": 10457
+    "lineStart": 10417,
+    "lineEnd": 10428
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/magic-missile/"
   },
   "level": 1,
   "school": "Evocation",
@@ -46,5 +49,21 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

@@ -73,7 +73,8 @@ def build(root: Path) -> None:
             for c, path in iter_object_files(root)
             if c == collection
         ]
-        out.append(f"## Collection: {collection} ({len(records)} records)")
+        noun = "record" if len(records) == 1 else "records"
+        out.append(f"## Collection: {collection} ({len(records)} {noun})")
         out.append("")
         for record in records:
             out.append(format_record(record))

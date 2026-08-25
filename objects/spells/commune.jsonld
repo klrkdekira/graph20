@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.80",
     "heading": "Commune",
-    "lineStart": 8047,
-    "lineEnd": 8060
+    "lineStart": 8018,
+    "lineEnd": 8031
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/commune/"
   },
   "level": 5,
   "school": "Divination",
@@ -31,5 +34,25 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": true
+  "ritual": true,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "1 minute",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (incense)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "incense",
+    "consumed": false
+  }
 }

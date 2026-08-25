@@ -12,7 +12,11 @@
     "section": "1.12",
     "heading": "Difficulty Class",
     "lineStart": 142,
-    "lineEnd": 147
+    "lineEnd": 147,
+    "caption": "Typical Difficulty Classes"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/1-12-typical-difficulty-classes/"
   },
   "columns": [
     "Task Difficulty",

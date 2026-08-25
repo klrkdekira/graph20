@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.70",
     "heading": "Basket (4 SP)",
-    "lineStart": 6476,
-    "lineEnd": 6478
+    "lineStart": 6449,
+    "lineEnd": 6451
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-70-basket-4-sp/"
   },
   "section": "6.70",
   "rulesText": "A Basket holds up to 40 pounds within 2 cubic feet."

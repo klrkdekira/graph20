@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.217",
     "heading": "Ring of Swimming",
-    "lineStart": 16824,
-    "lineEnd": 16828
+    "lineStart": 16780,
+    "lineEnd": 16784
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/ring-of-swimming/"
   },
   "itemCategory": "Ring",
   "rarity": "Uncommon",
   "requiresAttunement": false,
-  "rulesText": "Ring, Uncommon\n\nYou have a Swim Speed of 40 feet while wearing this ring."
+  "rulesText": "Ring, Uncommon\n\nYou have a Swim Speed of 40 feet while wearing this ring.",
+  "isCursed": false,
+  "isSentient": false
 }

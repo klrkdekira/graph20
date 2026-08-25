@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.68",
     "heading": "Brooch of Shielding",
-    "lineStart": 15147,
-    "lineEnd": 15151
+    "lineStart": 15109,
+    "lineEnd": 15113
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/brooch-of-shielding/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile wearing this brooch, you have Resistance to Force damage, and you have Immunity to damage from the Magic Missile spell."
+  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile wearing this brooch, you have Resistance to Force damage, and you have Immunity to damage from the Magic Missile spell.",
+  "isCursed": false,
+  "isSentient": false
 }

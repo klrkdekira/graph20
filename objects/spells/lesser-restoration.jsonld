@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.219",
     "heading": "Lesser Restoration",
-    "lineStart": 10263,
-    "lineEnd": 10272
+    "lineStart": 10234,
+    "lineEnd": 10243
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/lesser-restoration/"
   },
   "level": 2,
   "school": "Abjuration",
@@ -47,5 +50,20 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.339",
     "heading": "Telepathic Bond",
-    "lineStart": 12081,
-    "lineEnd": 12092
+    "lineStart": 12052,
+    "lineEnd": 12063
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/telepathic-bond/"
   },
   "level": 5,
   "school": "Divination",
@@ -35,5 +38,26 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": true
+  "ritual": true,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "1 hour",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (two eggs)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "two eggs",
+    "consumed": false
+  }
 }

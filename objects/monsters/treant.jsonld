@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.241",
     "heading": "Treant",
-    "lineStart": 25571,
-    "lineEnd": 25606
+    "lineStart": 25491,
+    "lineEnd": 25526
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/treant/"
   },
   "sizeTypeAlignment": "Huge Plant, Chaotic Good",
   "sizeAndType": "Huge Plant",
+  "size": "Huge",
+  "creatureType": "Plant",
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Good",
   "armorClass": "16",
   "initiative": "+3 (13)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.241",
         "heading": "Traits",
-        "lineStart": 25593,
-        "lineEnd": 25595
+        "lineStart": 25513,
+        "lineEnd": 25515
       }
     },
     {
@@ -88,12 +94,32 @@
         "chapter": "Monsters A-Z",
         "section": "12.241",
         "heading": "Actions",
-        "lineStart": 25597,
-        "lineEnd": 25606
+        "lineStart": 25517,
+        "lineEnd": 25526
       }
     }
   ],
   "rulesText": "Huge Plant, Chaotic Good\n\nAC 16\nInitiative +3 (13)\nHP 138 (12d12 + 60)\nSpeed 30 ft.\n\nVulnerabilities Fire\nResistances Bludgeoning, Piercing\nSenses Passive Perception 13\nLanguages Common, Druidic, Elvish, Sylvan\nCR 9 (XP 5,000; PB +4)\n\nTraits\n\nSiege Monster. The treant deals double damage to objects and structures.\n\nActions\n\nMultiattack. The treant makes two Slam attacks.\n\nSlam. Melee Attack Roll: +10, reach 5 ft. Hit: 16 (3d6 + 6) Bludgeoning damage.\n\nHail of Bark. Ranged Attack Roll: +10, range 180 ft.\nHit: 28 (4d10 + 6) Piercing damage.\n\nAnimate Trees (1/Day). The treant magically animates up to two trees it can see within 60 feet of itself. Each tree uses the Treant stat block, except it has Intelligence and Charisma scores of 1, it can't speak, and it lacks this action. The tree takes its turn immediately after the treant on the same Initiative count, and it obeys the treant. A tree remains animate for 1 day or until it dies, the treant dies, or it is more than 120 feet from the treant. The tree then takes root if possible.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 13,
+  "languageList": [
+    "Common",
+    "Druidic",
+    "Elvish",
+    "Sylvan"
+  ],
+  "damageResistances": [
+    "Bludgeoning",
+    "Piercing"
+  ],
+  "damageVulnerabilities": [
+    "Fire"
+  ],
   "attacks": [
     {
       "name": "Slam",

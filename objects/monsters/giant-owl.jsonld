@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.42",
     "heading": "Giant Owl",
-    "lineStart": 27713,
-    "lineEnd": 27744
+    "lineStart": 27627,
+    "lineEnd": 27658
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/giant-owl/"
   },
   "sizeTypeAlignment": "Large Celestial, Neutral",
   "sizeAndType": "Large Celestial",
+  "size": "Large",
+  "creatureType": "Celestial",
+  "monsterCategory": "Animal",
   "alignment": "Neutral",
   "armorClass": "12",
   "initiative": "+2 (12)",
@@ -77,8 +83,8 @@
         "chapter": "Animals",
         "section": "13.42",
         "heading": "Traits",
-        "lineStart": 27733,
-        "lineEnd": 27735
+        "lineStart": 27647,
+        "lineEnd": 27649
       }
     },
     {
@@ -88,12 +94,85 @@
         "chapter": "Animals",
         "section": "13.42",
         "heading": "Actions",
-        "lineStart": 27737,
-        "lineEnd": 27744
+        "lineStart": 27651,
+        "lineEnd": 27658
       }
     }
   ],
   "rulesText": "Large Celestial, Neutral\n\nAC 12\nInitiative +2 (12)\nHP 19 (3d10 + 3)\nSpeed 5 ft., Fly 60 ft.\n\nSkills Perception +6, Stealth +6\nResistances Necrotic, Radiant\nSenses Darkvision 120 ft.; Passive Perception 16\nLanguages Celestial; understands Common, Elvish, and Sylvan but can't speak them\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nFlyby. The owl doesn't provoke an Opportunity Attack when it flies out of an enemy's reach.\n\nActions\n\nTalons. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (1d10 + 2) Slashing damage.\n\nSpellcasting. The owl casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability:\n\nAt Will: Detect Evil and Good, Detect Magic\n1/Day: Clairvoyance",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 5
+    },
+    {
+      "mode": "Fly",
+      "feet": 60
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 6
+    },
+    {
+      "name": "Stealth",
+      "bonus": 6
+    }
+  ],
+  "passivePerception": 16,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Celestial",
+    "understands Common",
+    "Elvish",
+    "and Sylvan but can't speak them"
+  ],
+  "damageResistances": [
+    "Necrotic",
+    "Radiant"
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The owl casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability:\n\nAt Will: Detect Evil and Good, Detect Magic\n1/Day: Clairvoyance",
+      "path": "statSections[1].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Detect Evil and Good, Detect Magic\n1/Day: Clairvoyance",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/detect-evil-and-good"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/clairvoyance"
+            }
+          ]
+        }
+      ],
+      "ability": "Wisdom"
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-evil-and-good"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/clairvoyance"
+    }
+  ],
   "attacks": [
     {
       "name": "Talons",

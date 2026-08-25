@@ -1,0 +1,42 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/feed-per-day",
+  "@type": "Equipment",
+  "name": "Feed per day",
+  "slug": "feed-per-day",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.146",
+    "heading": "Saddles",
+    "lineStart": 6812,
+    "lineEnd": 6824,
+    "caption": "Tack, Harness, and Drawn Vehicles"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/feed-per-day/"
+  },
+  "equipmentType": "gear",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-146-tack-harness-and-drawn-vehicles"
+  },
+  "attributes": [
+    {
+      "name": "Weight",
+      "value": "10 lb."
+    },
+    {
+      "name": "Cost",
+      "value": "5 CP"
+    }
+  ],
+  "weight": "10 lb.",
+  "weightPounds": 10,
+  "cost": {
+    "text": "5 CP",
+    "currency": "CP",
+    "amount": 5
+  }
+}

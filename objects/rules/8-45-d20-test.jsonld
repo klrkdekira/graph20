@@ -11,9 +11,28 @@
     "chapter": "Rules Glossary",
     "section": "8.45",
     "heading": "D20 Test",
-    "lineStart": 12979,
-    "lineEnd": 12981
+    "lineStart": 12946,
+    "lineEnd": 12948
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-45-d20-test/"
   },
   "section": "8.45",
-  "rulesText": "D20 Tests encompass the three main d20 rolls of the game: ability checks, attack rolls, and saving throws. If something in the game affects D20 Tests, it affects all three of these rolls. The GM determines whether a D20 Test is warranted in a given circumstance. See also “Playing the Game” (“D20 Tests”)."
+  "rulesText": "D20 Tests encompass the three main d20 rolls of the game: ability checks, attack rolls, and saving throws. If something in the game affects D20 Tests, it affects all three of these rolls. The GM determines whether a D20 Test is warranted in a given circumstance. See also “Playing the Game” (“D20 Tests”).",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-8-d20-tests"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-8-d20-tests"
+    }
+  ]
 }

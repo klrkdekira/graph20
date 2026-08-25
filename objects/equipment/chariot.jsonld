@@ -1,0 +1,42 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/chariot",
+  "@type": "Equipment",
+  "name": "Chariot",
+  "slug": "chariot",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.146",
+    "heading": "Saddles",
+    "lineStart": 6812,
+    "lineEnd": 6824,
+    "caption": "Tack, Harness, and Drawn Vehicles"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/chariot/"
+  },
+  "equipmentType": "gear",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-146-tack-harness-and-drawn-vehicles"
+  },
+  "attributes": [
+    {
+      "name": "Weight",
+      "value": "100 lb."
+    },
+    {
+      "name": "Cost",
+      "value": "250 GP"
+    }
+  ],
+  "weight": "100 lb.",
+  "weightPounds": 100,
+  "cost": {
+    "text": "250 GP",
+    "currency": "GP",
+    "amount": 250
+  }
+}

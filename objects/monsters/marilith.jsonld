@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.158",
     "heading": "Marilith",
-    "lineStart": 22896,
-    "lineEnd": 22941
+    "lineStart": 22816,
+    "lineEnd": 22861
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/marilith/"
   },
   "sizeTypeAlignment": "Large Fiend (Demon), Chaotic Evil",
   "sizeAndType": "Large Fiend (Demon)",
+  "size": "Large",
+  "creatureType": "Fiend",
+  "descriptiveTags": [
+    "Demon"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "16",
   "initiative": "+10 (20)",
@@ -78,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.158",
         "heading": "Traits",
-        "lineStart": 22919,
-        "lineEnd": 22925
+        "lineStart": 22839,
+        "lineEnd": 22845
       }
     },
     {
@@ -89,8 +98,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.158",
         "heading": "Actions",
-        "lineStart": 22927,
-        "lineEnd": 22933
+        "lineStart": 22847,
+        "lineEnd": 22853
       }
     },
     {
@@ -100,8 +109,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.158",
         "heading": "Bonus Actions",
-        "lineStart": 22935,
-        "lineEnd": 22937
+        "lineStart": 22855,
+        "lineEnd": 22857
       }
     },
     {
@@ -111,8 +120,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.158",
         "heading": "Reactions",
-        "lineStart": 22939,
-        "lineEnd": 22941
+        "lineStart": 22859,
+        "lineEnd": 22861
       }
     }
   ],
@@ -121,6 +130,41 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Climb",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 8
+    }
+  ],
+  "passivePerception": 18,
+  "senseModes": [
+    {
+      "name": "Truesight",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Abyssal",
+    "telepathy 120 ft."
+  ],
+  "damageImmunities": [
+    "Poison"
+  ],
+  "damageResistances": [
+    "Cold",
+    "Fire",
+    "Lightning"
   ],
   "attacks": [
     {

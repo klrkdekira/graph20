@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.117",
     "heading": "Green Dragon Wyrmling",
-    "lineStart": 21559,
-    "lineEnd": 21589
+    "lineStart": 21479,
+    "lineEnd": 21509
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/green-dragon-wyrmling/"
   },
   "sizeTypeAlignment": "Medium Dragon (Chromatic), Lawful Evil",
   "sizeAndType": "Medium Dragon (Chromatic)",
+  "size": "Medium",
+  "creatureType": "Dragon",
+  "descriptiveTags": [
+    "Chromatic"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "17",
   "initiative": "+3 (13)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.117",
         "heading": "Traits",
-        "lineStart": 21579,
-        "lineEnd": 21581
+        "lineStart": 21499,
+        "lineEnd": 21501
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.117",
         "heading": "Actions",
-        "lineStart": 21583,
-        "lineEnd": 21589
+        "lineStart": 21503,
+        "lineEnd": 21509
       }
     }
   ],
@@ -98,6 +107,47 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Fly",
+      "feet": 60
+    },
+    {
+      "mode": "Swim",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 4
+    },
+    {
+      "name": "Stealth",
+      "bonus": 3
+    }
+  ],
+  "passivePerception": 14,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 10
+    },
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Draconic"
+  ],
+  "damageImmunities": [
+    "Poison"
   ],
   "attacks": [
     {

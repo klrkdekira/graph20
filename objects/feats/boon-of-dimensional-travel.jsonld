@@ -11,8 +11,11 @@
     "chapter": "Feats",
     "section": "5.19",
     "heading": "Boon of Dimensional Travel",
-    "lineStart": 5801,
-    "lineEnd": 5809
+    "lineStart": 5777,
+    "lineEnd": 5785
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/feats/boon-of-dimensional-travel/"
   },
   "category": "Epic Boon",
   "prerequisite": "Level 19+",

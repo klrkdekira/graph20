@@ -11,8 +11,13 @@
     "chapter": "Monsters",
     "section": "11.1",
     "heading": "Monsters",
-    "lineStart": 17709,
-    "lineEnd": 17709
+    "lineStart": 17650,
+    "lineEnd": 17650
   },
-  "section": "11.1"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/11-1-monsters/"
+  },
+  "section": "11.1",
+  "rulesText": "Monsters",
+  "headingOnly": true
 }

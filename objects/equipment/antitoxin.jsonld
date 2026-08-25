@@ -10,9 +10,13 @@
   "sourceLocator": {
     "chapter": "Equipment",
     "section": "6.64",
-    "heading": "Adventuring Gear",
-    "lineStart": 6348,
-    "lineEnd": 6390
+    "heading": "Ammunition (Varies)",
+    "lineStart": 6324,
+    "lineEnd": 6407,
+    "caption": "Adventuring Gear"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/antitoxin/"
   },
   "equipmentType": "gear",
   "fromTable": {

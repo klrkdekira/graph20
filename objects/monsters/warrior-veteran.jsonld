@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.252",
     "heading": "Warrior Veteran",
-    "lineStart": 25947,
-    "lineEnd": 25977
+    "lineStart": 25867,
+    "lineEnd": 25897
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/warrior-veteran/"
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
+  "size": "Medium or Small",
+  "creatureType": "Humanoid",
+  "monsterCategory": "NPC",
   "alignment": "Neutral",
   "armorClass": "17",
   "initiative": "+3 (13)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.252",
         "heading": "Actions",
-        "lineStart": 25967,
-        "lineEnd": 25973
+        "lineStart": 25887,
+        "lineEnd": 25893
       }
     },
     {
@@ -88,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.252",
         "heading": "Reactions",
-        "lineStart": 25975,
-        "lineEnd": 25977
+        "lineStart": 25895,
+        "lineEnd": 25897
       }
     }
   ],
@@ -103,6 +109,37 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/splint-armor"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Athletics",
+      "bonus": 5
+    },
+    {
+      "name": "Perception",
+      "bonus": 2
+    }
+  ],
+  "passivePerception": 12,
+  "languageList": [
+    "Common plus one other language"
+  ],
+  "gearItems": [
+    {
+      "name": "Greatsword"
+    },
+    {
+      "name": "Heavy Crossbow"
+    },
+    {
+      "name": "Splint Armor"
     }
   ],
   "attacks": [

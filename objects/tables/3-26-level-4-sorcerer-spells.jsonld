@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.26",
     "heading": "Sorcerer Spell List",
-    "lineStart": 4269,
-    "lineEnd": 4283
+    "lineStart": 4256,
+    "lineEnd": 4270,
+    "caption": "Level 4 Sorcerer Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-26-level-4-sorcerer-spells/"
   },
   "columns": [
     "Spell",

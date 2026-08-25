@@ -11,17 +11,17 @@
     "chapter": "Rules Glossary",
     "section": "8.49",
     "heading": "Damage Types",
-    "lineStart": 12995,
-    "lineEnd": 13018
+    "lineStart": 12962,
+    "lineEnd": 12982
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-49-damage-types/"
   },
   "section": "8.49",
-  "rulesText": "Attacks and other harmful effects deal different types of damage. Damage types have no rules of their own, but other rules, such as Resistance, rely on the types. The Damage Types table offers examples to help a GM assign a type to a new effect.\n\nDamage Types",
+  "rulesText": "Attacks and other harmful effects deal different types of damage. Damage types have no rules of their own, but other rules, such as Resistance, rely on the types. The Damage Types table offers examples to help a GM assign a type to a new effect.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/8-49-damage-types"
-    },
-    {
-      "@id": "https://cheeleong.dev/graph20/objects/tables/8-49-damage-types-2"
     }
   ]
 }

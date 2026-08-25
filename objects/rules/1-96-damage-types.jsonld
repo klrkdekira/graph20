@@ -11,8 +11,11 @@
     "chapter": "Playing the Game",
     "section": "1.96",
     "heading": "Damage Types",
-    "lineStart": 765,
-    "lineEnd": 769
+    "lineStart": 763,
+    "lineEnd": 767
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-96-damage-types/"
   },
   "section": "1.96",
   "rulesText": "Each instance of damage has a type, like Fire or Slashing. Damage types are listed in “Rules\n\nGlossary\" and have no rules of their own, but other rules, such as Resistance, rely on damage types."

@@ -18,6 +18,7 @@ from srdlib import (
     dump_json,
     iter_object_files,
     load_json,
+    project_version,
 )
 
 
@@ -40,7 +41,7 @@ def build(root: Path) -> None:
         "@context": CONTEXT_IRI,
         "@id": f"{BASE}objects/{MANIFEST_NAME.removesuffix('.jsonld')}",
         "@type": "SRDSystemData",
-        "version": "0.4.0",
+        "version": project_version(root),
         "metadata": {
             "title": "SRD 5.2.1 System JSON",
             "author": source_record["author"],

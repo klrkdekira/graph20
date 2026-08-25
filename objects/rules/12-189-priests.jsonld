@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.189",
     "heading": "Priests",
-    "lineStart": 23878,
-    "lineEnd": 23878
+    "lineStart": 23798,
+    "lineEnd": 23798
   },
-  "section": "12.189"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-189-priests/"
+  },
+  "section": "12.189",
+  "rulesText": "Priests",
+  "headingOnly": true
 }

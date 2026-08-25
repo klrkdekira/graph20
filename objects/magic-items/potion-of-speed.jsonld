@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.198",
     "heading": "Potion of Speed",
-    "lineStart": 16613,
-    "lineEnd": 16619
+    "lineStart": 16569,
+    "lineEnd": 16575
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/potion-of-speed/"
   },
   "itemCategory": "Potion",
   "rarity": "Very Rare",
   "requiresAttunement": false,
-  "rulesText": "Potion, Very Rare\n\nWhen you drink this potion, you gain the effect of the Haste spell for 1 minute (no Concentration required) without suffering the wave of lethargy that typically occurs when the effect ends.\n\nThis potion's yellow fluid is streaked with black and swirls on its own."
+  "rulesText": "Potion, Very Rare\n\nWhen you drink this potion, you gain the effect of the Haste spell for 1 minute (no Concentration required) without suffering the wave of lethargy that typically occurs when the effect ends.\n\nThis potion's yellow fluid is streaked with black and swirls on its own.",
+  "isCursed": false,
+  "isSentient": false
 }

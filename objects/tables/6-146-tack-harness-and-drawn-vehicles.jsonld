@@ -11,8 +11,12 @@
     "chapter": "Equipment",
     "section": "6.146",
     "heading": "Saddles",
-    "lineStart": 6839,
-    "lineEnd": 6851
+    "lineStart": 6812,
+    "lineEnd": 6824,
+    "caption": "Tack, Harness, and Drawn Vehicles"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/6-146-tack-harness-and-drawn-vehicles/"
   },
   "columns": [
     "Item",

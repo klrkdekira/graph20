@@ -11,18 +11,24 @@
     "chapter": "Animals",
     "section": "13.53",
     "heading": "Giant Wolf Spider",
-    "lineStart": 28019,
-    "lineEnd": 28047
+    "lineStart": 27933,
+    "lineEnd": 27958
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/giant-wolf-spider/"
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
+  "size": "Medium",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "13",
   "initiative": "+3 (13)",
   "hitPoints": "11 (2d8 + 2)",
   "speed": "40 ft., Climb 40 ft.",
   "skills": "Perception +3, Stealth +7",
-  "senses": "Blindsight 10 ft., Darkvision 60 ft.;",
+  "senses": "Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 13",
   "languages": "None",
   "challenge": "1/4 (XP 50; PB +2)",
   "armorClassValue": 13,
@@ -76,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.53",
         "heading": "Traits",
-        "lineStart": 28041,
-        "lineEnd": 28043
+        "lineStart": 27952,
+        "lineEnd": 27954
       }
     },
     {
@@ -87,12 +93,43 @@
         "chapter": "Animals",
         "section": "13.53",
         "heading": "Actions",
-        "lineStart": 28045,
-        "lineEnd": 28047
+        "lineStart": 27956,
+        "lineEnd": 27958
       }
     }
   ],
-  "rulesText": "Medium Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 11 (2d8 + 2)\nSpeed 40 ft., Climb 40 ft.\n\nSkills Perception +3, Stealth +7\nSenses Blindsight 10 ft., Darkvision 60 ft.;\n\nPassive Perception 13\n\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nSpider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage plus 5 (2d4) Poison damage.",
+  "rulesText": "Medium Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 11 (2d8 + 2)\nSpeed 40 ft., Climb 40 ft.\n\nSkills Perception +3, Stealth +7\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 13\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nSpider Climb. The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nActions\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) Piercing damage plus 5 (2d4) Poison damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Climb",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 3
+    },
+    {
+      "name": "Stealth",
+      "bonus": 7
+    }
+  ],
+  "passivePerception": 13,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 10
+    },
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Bite",

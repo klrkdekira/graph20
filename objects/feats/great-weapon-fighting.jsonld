@@ -11,8 +11,11 @@
     "chapter": "Feats",
     "section": "5.15",
     "heading": "Great Weapon Fighting",
-    "lineStart": 5777,
-    "lineEnd": 5781
+    "lineStart": 5753,
+    "lineEnd": 5757
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/feats/great-weapon-fighting/"
   },
   "category": "Fighting Style",
   "prerequisite": "Fighting Style Feature",

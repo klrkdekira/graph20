@@ -11,8 +11,13 @@
     "chapter": "Animals",
     "section": "13.1",
     "heading": "Animals",
-    "lineStart": 26668,
-    "lineEnd": 26668
+    "lineStart": 26582,
+    "lineEnd": 26582
   },
-  "section": "13.1"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/13-1-animals/"
+  },
+  "section": "13.1",
+  "rulesText": "Animals",
+  "headingOnly": true
 }

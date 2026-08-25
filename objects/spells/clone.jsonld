@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.76",
     "heading": "Clone",
-    "lineStart": 7983,
-    "lineEnd": 7994
+    "lineStart": 7954,
+    "lineEnd": 7965
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/clone/"
   },
   "level": 8,
   "school": "Necromancy",
@@ -31,5 +34,27 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a diamond worth 1,000+ GP, which the spell consumes, and a sealable vessel worth 2,000+ GP that is large enough to hold the creature being cloned)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a diamond worth 1,000+ GP, which the spell consumes, and a sealable vessel worth 2,000+ GP that is large enough to hold the creature being cloned",
+    "consumed": true,
+    "materialCost": {
+      "text": "1,000 GP",
+      "currency": "GP",
+      "amount": 1000
+    }
+  }
 }

@@ -613,6 +613,12 @@ Adventurers can't spend every hour adventuring. They need rest. Any creature can
         "Level 3 Abjuration (Bard, Cleric, Druid, Paladin, "
         "Ranger, Sorcerer, Warlock, Wizard)",
     )
+    if (
+        "# Dispel Magic\n\nLevel 3 Abjuration (Bard, Cleric, Druid, Paladin, "
+        "Ranger, Sorcerer, Warlock, Wizard)"
+        not in res
+    ):
+        raise RuntimeError("Dispel Magic descriptor repair anchor drifted")
 
     # Fiendish Legacies: the two-column page layout drops the Tiefling's
     # legacy table into the Human species entry. Restore it to the Tiefling's
@@ -622,9 +628,14 @@ Adventurers can't spend every hour adventuring. They need rest. Any creature can
         "the spells you cast with this trait (choose the ability when you "
         "select the legacy).\n\nOtherworldly Presence."
     )
+    origins_start = res.find("\n# Character Origins\n")
+    origins_end = res.find("\n---\n\n# Feats\n", origins_start)
+    origins = res[origins_start:origins_end] if origins_start >= 0 and origins_end > origins_start else ""
     legacy_match = re.search(
-        r"\nFiendish Legacies\n\n\| Legacy.*?\n(?=\n# Orc\n)", res, re.S
+        r"\nFiendish Legacies\n\n\| Legacy.*?\n(?=\n# Orc\n)", origins, re.S
     )
+    if legacy_match:
+        legacy_match = re.search(re.escape(legacy_match.group(0)), res)
     if legacy_match and legacy_anchor in res:
         legacy_table = legacy_match.group(0).strip("\n")
         res = res[: legacy_match.start()] + res[legacy_match.end() :]
@@ -635,6 +646,11 @@ Adventurers can't spend every hour adventuring. They need rest. Any creature can
                 f"\n\n{legacy_table}\n\nOtherworldly Presence.",
             ),
         )
+    tiefling_start = res.find("\n# Tiefling\n")
+    species_end = res.find("\n---\n\n# Feats\n", tiefling_start)
+    legacy_pos = res.find("\nFiendish Legacies\n", tiefling_start)
+    if not (0 <= tiefling_start < legacy_pos < species_end):
+        raise RuntimeError("Fiendish Legacies relocation anchor drifted")
 
     # Travel Terrain: the same layout artifact drops the Gameplay Toolbox
     # travel table into the "1: Choose Abilities" background-creation step.
@@ -643,9 +659,14 @@ Adventurers can't spend every hour adventuring. They need rest. Any creature can
         "as shown in the Maximum Pace column of the Travel Terrain table. "
         "Certain factors can affect a group’s travel pace.\n\n# Good Roads"
     )
+    origins_start = res.find("\n# Character Origins\n")
+    origins_end = res.find("\n---\n\n# Feats\n", origins_start)
+    origins = res[origins_start:origins_end] if origins_start >= 0 and origins_end > origins_start else ""
     travel_match = re.search(
-        r"\nTravel Terrain\n\n\| Terrain.*?\n† Characters[^\n]*\n", res, re.S
+        r"\nTravel Terrain\n\n\| Terrain.*?\n† Characters[^\n]*\n", origins, re.S
     )
+    if travel_match:
+        travel_match = re.search(re.escape(travel_match.group(0)), res)
     if travel_match and travel_anchor in res:
         travel_table = travel_match.group(0).strip("\n")
         res = res[: travel_match.start()] + res[travel_match.end() :]
@@ -656,6 +677,11 @@ Adventurers can't spend every hour adventuring. They need rest. Any creature can
                 f"\n\n{travel_table}\n\n# Good Roads",
             ),
         )
+    travel_pace_start = res.find("\n# Travel Pace\n")
+    good_roads_start = res.find("\n# Good Roads\n", travel_pace_start)
+    travel_table_pos = res.find("\nTravel Terrain\n", travel_pace_start)
+    if not (0 <= travel_pace_start < travel_table_pos < good_roads_start):
+        raise RuntimeError("Travel Terrain relocation anchor drifted")
 
     # 21c. Residual cross-record and split-table repairs (2026-08-25).
     # Registered as `residual-structure-repairs-2026-08-25` in
@@ -726,6 +752,246 @@ Adventurers can't spend every hour adventuring. They need rest. Any creature can
         res = res[:rays_start] + "\n" + rendered_rows + res[rays_end:]
     res = re.sub(r"(?m)^(\| 4 .* \|)\n\n(?=\| 5 \| Blue\.)", r"\1\n", res)
 
+    # 21d. Complete the remaining registered source-structure repairs
+    # (2026-08-25).  Every transformation below is an ownership/layout repair
+    # over text already present in the official PDF; no rules content is
+    # synthesized here.
+
+    # Sidebar boxes in the two-column source interrupt their owning sentence.
+    # Put each complete prose tail back before the sidebar heading.
+    making_attack = re.compile(
+        r"(# Making an Attack\n\n.*?fire a Ranged weapon,)\n\n"
+        r"# UNSEEN ATTACKERS AND TARGETS\n\n(.*?)\n\n"
+        r"(or make an attack roll as part of a spell,.*?instead of damage\.)"
+        r"\n\n(?=# Cover\n)",
+        re.S,
+    )
+    res, count = making_attack.subn(
+        lambda m: f"{m.group(1)} {m.group(3)}\n\n"
+        f"# Unseen Attackers and Targets\n\n{m.group(2)}\n\n",
+        res,
+    )
+    if count > 1 or "fire a Ranged weapon,\n\n# UNSEEN" in res:
+        raise RuntimeError("Making an Attack sidebar repair drifted")
+
+    alignments = re.compile(
+        r"(# The Nine Alignments\n\n.*?don't take sides,)\n\n"
+        r"# UNALIGNED CREATURES\n\n(.*?)\n\n"
+        r"(doing what seems best at the time\..*?schemes of vengeance and havoc\.)"
+        r"\n\n(?=# Step 5: Character Creation Details\n)",
+        re.S,
+    )
+    res, count = alignments.subn(
+        lambda m: f"{m.group(1)} {m.group(3)}\n\n"
+        f"# Unaligned Creatures\n\n{m.group(2)}\n\n",
+        res,
+    )
+    if count == 0:
+        section_start = res.find("# The Nine Alignments\n")
+        sidebar_start = res.find("\n\n# UNALIGNED CREATURES\n\n", section_start)
+        tail_start = res.find("\n\ndoing what seems best at the time.", sidebar_start)
+        section_end = res.find("\n\n# Step 5: Character Creation Details\n", tail_start)
+        if 0 <= section_start < sidebar_start < tail_start < section_end:
+            sidebar = res[
+                sidebar_start + len("\n\n# UNALIGNED CREATURES\n\n") : tail_start
+            ].strip()
+            tail = res[tail_start:section_end].strip()
+            res = (
+                res[:sidebar_start]
+                + " "
+                + tail
+                + "\n\n# Unaligned Creatures\n\n"
+                + sidebar
+                + res[section_end:]
+            )
+            count = 1
+    if count > 1 or "don't take sides,\n\n# UNALIGNED" in res:
+        raise RuntimeError("Nine Alignments sidebar repair drifted")
+
+    wizard_sidebar = re.compile(
+        r"(# Level 3: Wizard Subclass\n\n.*?For the rest)\n\n"
+        r"# EXPANDING AND REPLACING A SPELLBOOK\n\n(.*?)\n\n"
+        r"(of your career, you gain each of your subclass's features that are of your Wizard level or lower\.)"
+        r"\n\n(?=# Level 4: Ability Score Improvement\n)",
+        re.S,
+    )
+    res, count = wizard_sidebar.subn(
+        lambda m: f"{m.group(1)} {m.group(3)}\n\n"
+        f"# Expanding and Replacing a Spellbook\n\n{m.group(2)}\n\n",
+        res,
+    )
+    if count == 0:
+        feature_start = res.find("# Level 3: Wizard Subclass\n")
+        sidebar_start = res.find(
+            "\n\n# EXPANDING AND REPLACING A SPELLBOOK\n\n", feature_start
+        )
+        tail_start = res.find("\n\nof your career,", sidebar_start)
+        feature_end = res.find("\n\n# Level 4: Ability Score Improvement\n", tail_start)
+        if 0 <= feature_start < sidebar_start < tail_start < feature_end:
+            sidebar = res[
+                sidebar_start
+                + len("\n\n# EXPANDING AND REPLACING A SPELLBOOK\n\n") : tail_start
+            ].strip()
+            tail = res[tail_start:feature_end].strip()
+            res = (
+                res[:sidebar_start]
+                + " "
+                + tail
+                + "\n\n# Expanding and Replacing a Spellbook\n\n"
+                + sidebar
+                + res[feature_end:]
+            )
+            count = 1
+    if count > 1 or "For the rest\n\n# EXPANDING" in res:
+        raise RuntimeError("Wizard subclass sidebar repair drifted")
+
+    # Conversion-only headings promoted from display or wrapped lines.
+    res = res.replace(
+        '\n\n# Shrub or Awakened Tree in "Monsters."\n\n',
+        ' Shrub or Awakened Tree in "Monsters."\n\n',
+    )
+    res = res.replace(
+        "# Curses and\n\n# Magical Contagions",
+        "# Curses and Magical Contagions",
+    )
+    res = re.sub(
+        r"(?m)^# (Passive Perception = 10 \+ Wisdom \(Perception\) check modifier)$",
+        r"\1",
+        res,
+    )
+    res = re.sub(r"(?m)^# (Casting Time: Action)$", r"\1", res)
+
+    # Join repeated column fragments that are direct continuations of the
+    # same GFM table. Differently shaped adjacent tables (for example the two
+    # Control Weather tables) remain separate.
+    def table_key(line: str) -> tuple[str, ...]:
+        return tuple(cell.strip() for cell in line.strip().strip("|").split("|"))
+
+    def is_pipe(line: str) -> bool:
+        stripped = line.strip()
+        return stripped.startswith("|") and stripped.endswith("|")
+
+    def is_delimiter(line: str) -> bool:
+        return is_pipe(line) and all(
+            re.fullmatch(r":?-{3,}:?", cell)
+            for cell in table_key(line)
+        )
+
+    source_lines = res.splitlines()
+    merged_lines = []
+    active_header = None
+    index = 0
+    while index < len(source_lines):
+        line = source_lines[index]
+        if is_pipe(line):
+            if index + 1 < len(source_lines) and is_delimiter(source_lines[index + 1]):
+                active_header = table_key(line)
+                merged_lines.extend((line, source_lines[index + 1]))
+                index += 2
+                continue
+            merged_lines.append(line)
+            index += 1
+            continue
+        if (
+            not line.strip()
+            and active_header is not None
+            and index + 2 < len(source_lines)
+            and is_pipe(source_lines[index + 1])
+            and is_delimiter(source_lines[index + 2])
+            and table_key(source_lines[index + 1]) == active_header
+        ):
+            index += 3
+            continue
+        merged_lines.append(line)
+        if line.strip():
+            active_header = None
+        else:
+            active_header = None
+        index += 1
+    res = "\n".join(merged_lines) + "\n"
+
+    # Two printed roll tables arrived as plain text. Convert only the existing
+    # roll/result lines and assert their complete observed sequences.
+    robe_match = re.search(
+        r"\n1d100 Patch\n\n(?P<body>01-08 Bag of 100 GP.*?97–00 Portable Ram)\n",
+        res,
+        re.S,
+    )
+    if robe_match:
+        rows = re.findall(r"(?m)^(\d{2}(?:[-–]\d{2})) (.+)$", robe_match.group("body"))
+        expected = [
+            "01-08", "09–15", "16–22", "23–30", "31–44", "45–51",
+            "52–59", "60–68", "69–75", "76–83", "84–90", "91–96", "97–00",
+        ]
+        if [roll for roll, _ in rows] != expected:
+            raise RuntimeError("Robe of Useful Items table rows drifted")
+        table = (
+            "\nRobe of Useful Items Patches\n\n"
+            "| 1d100 | Patch |\n| :---- | :---- |\n"
+            + "\n".join(f"| {roll} | {value} |" for roll, value in rows)
+            + "\n"
+        )
+        res = res[: robe_match.start()] + table + res[robe_match.end() :]
+
+    sphere_match = re.search(
+        r"\n1d100 Result\n\n(?P<body>01–50 The sphere is destroyed\..*?86–00 A spatial rift[^\n]+)\n",
+        res,
+        re.S,
+    )
+    if sphere_match:
+        rows = re.findall(r"(?m)^(\d{2}–\d{2}) (.+)$", sphere_match.group("body"))
+        if [roll for roll, _ in rows] != ["01–50", "51–85", "86–00"]:
+            raise RuntimeError("Sphere of Annihilation table rows drifted")
+        table = (
+            "\nSphere Interactions\n\n| 1d100 | Result |\n| :---- | :----- |\n"
+            + "\n".join(f"| {roll} | {value} |" for roll, value in rows)
+            + "\n"
+        )
+        res = res[: sphere_match.start()] + table + res[sphere_match.end() :]
+
+    # Wrapped monster stat values are single printed fields; blank lines were
+    # introduced by column flow. Three AC/Initiative pairs need splitting.
+    res = re.sub(
+        r"(?m)^(Immunities [^\n]+,)\n\n([^#\n]+)$",
+        r"\1 \2",
+        res,
+    )
+    res = re.sub(
+        r"(?m)^(Senses [^\n]+;)\n\n(Passive Perception \d+)$",
+        r"\1 \2",
+        res,
+    )
+    res = re.sub(
+        r"(?m)^AC (\d+(?: [^\n]*?)?) Initiative ([+\-−]\d+ \(\d+\))$",
+        r"AC \1\nInitiative \2",
+        res,
+    )
+
+    res = res.replace("damage.You also know", "damage. You also know")
+
+    # The repairs above create newly adjacent stat/header lines after the
+    # earlier compaction passes, so compact once more in this same run to keep
+    # repair_source.py idempotent.
+    res = re.sub(r"(?m)^(Casting Time: [^\n]+)\n\n(Range: [^\n]+)", r"\1\n\2", res)
+    res = re.sub(r"(?m)^(Range: [^\n]+)\n\n(Components: [^\n]+)", r"\1\n\2", res)
+    res = re.sub(r"(?m)^(Components: [^\n]+)\n\n(Duration: [^\n]+)", r"\1\n\2", res)
+    res = re.sub(r"(?m)^(AC [^\n]+)\n\n(Initiative [^\n]+)", r"\1\n\2", res)
+    res = re.sub(r"(?m)^(Initiative [^\n]+)\n\n(HP [^\n]+)", r"\1\n\2", res)
+    res = re.sub(r"(?m)^(HP [^\n]+)\n\n(Speed [^\n]+)", r"\1\n\2", res)
+    for first_label in (
+        "Skills", "Resistances", "Vulnerabilities", "Immunities", "Gear",
+        "Senses", "Languages",
+    ):
+        for second_label in (
+            "Skills", "Resistances", "Vulnerabilities", "Immunities", "Gear",
+            "Senses", "Languages", "CR",
+        ):
+            res = re.sub(
+                rf"(?m)^({first_label} [^\n]+)\n\n({second_label} [^\n]+)",
+                r"\1\n\2",
+                res,
+            )
+
     # 22. Replace all em-dashes context-sensitively
     res_lines_em = []
     for line in res.splitlines():
@@ -786,6 +1052,7 @@ def main() -> None:
     else:
         if args.dry_run:
             print("Changes detected (dry-run).")
+            sys.exit(1)
         else:
             md_path.write_text(repaired, encoding="utf-8")
             print(f"Repaired and reformatted {md_path} successfully.")

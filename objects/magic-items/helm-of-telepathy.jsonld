@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.136",
     "heading": "Helm of Telepathy",
-    "lineStart": 15913,
-    "lineEnd": 15917
+    "lineStart": 15875,
+    "lineEnd": 15879
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/helm-of-telepathy/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
@@ -26,5 +29,7 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/suggestion"
     }
-  ]
+  ],
+  "isCursed": false,
+  "isSentient": false
 }

@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.56",
     "heading": "Herbalism Kit (5 GP)",
-    "lineStart": 6284,
-    "lineEnd": 6292
+    "lineStart": 6260,
+    "lineEnd": 6268
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-56-herbalism-kit-5-gp/"
   },
   "section": "6.56",
   "rulesText": "Ability: Intelligence\n\nWeight: 3 lb.\n\nUtilize: Identify a plant (DC 10)\n\nCraft: Antitoxin, Candle, Healer's Kit, Potion of Healing"

@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.97",
     "heading": "Grappling Hook (2 GP)",
-    "lineStart": 6594,
-    "lineEnd": 6596
+    "lineStart": 6567,
+    "lineEnd": 6569
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-97-grappling-hook-2-gp/"
   },
   "section": "6.97",
   "rulesText": "As a Utilize action, you can throw the Grappling Hook at a railing, a ledge, or another catch within 50 feet of yourself, and the hook catches on if you succeed on a DC 13 Dexterity (Acrobatics) check. If you tied a Rope to the hook, you can then climb it."

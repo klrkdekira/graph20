@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.178",
     "heading": "Ogre",
-    "lineStart": 23525,
-    "lineEnd": 23550
+    "lineStart": 23445,
+    "lineEnd": 23470
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/ogre/"
   },
   "sizeTypeAlignment": "Large Giant, Chaotic Evil",
   "sizeAndType": "Large Giant",
+  "size": "Large",
+  "creatureType": "Giant",
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "11",
   "initiative": "-1 (9)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.178",
         "heading": "Actions",
-        "lineStart": 23546,
-        "lineEnd": 23550
+        "lineStart": 23466,
+        "lineEnd": 23470
       }
     }
   ],
@@ -88,6 +94,32 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/javelin"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "passivePerception": 8,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Common",
+    "Giant"
+  ],
+  "gearItems": [
+    {
+      "name": "Greatclub"
+    },
+    {
+      "name": "Javelins",
+      "quantity": 3
     }
   ],
   "attacks": [

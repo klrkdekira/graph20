@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.36",
     "heading": "Giant Fire Beetle",
-    "lineStart": 27546,
-    "lineEnd": 27571
+    "lineStart": 27460,
+    "lineEnd": 27485
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/giant-fire-beetle/"
   },
   "sizeTypeAlignment": "Small Beast, Unaligned",
   "sizeAndType": "Small Beast",
+  "size": "Small",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "13",
   "initiative": "+0 (10)",
@@ -76,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.36",
         "heading": "Traits",
-        "lineStart": 27565,
-        "lineEnd": 27567
+        "lineStart": 27479,
+        "lineEnd": 27481
       }
     },
     {
@@ -87,12 +93,32 @@
         "chapter": "Animals",
         "section": "13.36",
         "heading": "Actions",
-        "lineStart": 27569,
-        "lineEnd": 27571
+        "lineStart": 27483,
+        "lineEnd": 27485
       }
     }
   ],
   "rulesText": "Small Beast, Unaligned\n\nAC 13\nInitiative +0 (10)\nHP 4 (1d6 + 1)\nSpeed 30 ft., Climb 30 ft.\n\nResistances Fire\nSenses Blindsight 30 ft.; Passive Perception 8\nLanguages None\nCR 0 (XP 10; PB +2)\n\nTraits\n\nIllumination. The beetle sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.\n\nActions\n\nBite. Melee Attack Roll: +1, reach 5 ft. Hit: 1 Fire damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Climb",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 8,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 30
+    }
+  ],
+  "damageResistances": [
+    "Fire"
+  ],
   "attacks": [
     {
       "name": "Bite",

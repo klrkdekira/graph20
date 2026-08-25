@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.59",
     "heading": "Cloud Giant",
-    "lineStart": 19725,
-    "lineEnd": 19762
+    "lineStart": 19648,
+    "lineEnd": 19685
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/cloud-giant/"
   },
   "sizeTypeAlignment": "Huge Giant, Neutral",
   "sizeAndType": "Huge Giant",
+  "size": "Huge",
+  "creatureType": "Giant",
+  "monsterCategory": "Monster",
   "alignment": "Neutral",
   "armorClass": "14",
   "initiative": "+4 (14)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.59",
         "heading": "Actions",
-        "lineStart": 19746,
-        "lineEnd": 19758
+        "lineStart": 19669,
+        "lineEnd": 19681
       }
     },
     {
@@ -87,12 +93,99 @@
         "chapter": "Monsters A-Z",
         "section": "12.59",
         "heading": "Bonus Actions",
-        "lineStart": 19760,
-        "lineEnd": 19762
+        "lineStart": 19683,
+        "lineEnd": 19685
       }
     }
   ],
   "rulesText": "Huge Giant, Neutral\n\nAC 14\nInitiative +4 (14)\nHP 200 (16d12 + 96)\nSpeed 40 ft., Fly 20 ft. (hover)\n\nSkills Insight +7, Perception +11\nSenses Passive Perception 21\nLanguages Common, Giant\nCR 9 (XP 5,000; PB +4)\n\nActions\n\nMultiattack. The giant makes two attacks, using Thunderous Mace or Thundercloud in any combination. It can replace one attack with a use of Spellcasting to cast Fog Cloud.\n\nThunderous Mace. Melee Attack Roll: +12, reach 10 ft. Hit: 21 (3d8 + 8) Bludgeoning damage plus 7 (2d6) Thunder damage.\n\nThundercloud. Ranged Attack Roll: +12, range 240 ft. Hit: 18 (3d6 + 8) Thunder damage, and the target has the Incapacitated condition until the end of its next turn.\n\nSpellcasting. The giant casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 15):\n\nAt Will: Detect Magic, Fog Cloud, Light\n\n1/Day Each: Control Weather, Gaseous Form, Telekinesis\n\nBonus Actions\n\nMisty Step. The giant casts the Misty Step spell, using the same spellcasting ability as Spellcasting.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Fly",
+      "feet": 20,
+      "hover": true
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Insight",
+      "bonus": 7
+    },
+    {
+      "name": "Perception",
+      "bonus": 11
+    }
+  ],
+  "passivePerception": 21,
+  "languageList": [
+    "Common",
+    "Giant"
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The giant casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 15):\n\nAt Will: Detect Magic, Fog Cloud, Light\n\n1/Day Each: Control Weather, Gaseous Form, Telekinesis",
+      "path": "statSections[0].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Detect Magic, Fog Cloud, Light",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/fog-cloud"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/light"
+            }
+          ]
+        },
+        {
+          "frequency": "1/Day Each",
+          "spellsText": "Control Weather, Gaseous Form, Telekinesis",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/control-weather"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/gaseous-form"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/telekinesis"
+            }
+          ]
+        }
+      ],
+      "ability": "Charisma",
+      "saveDC": 15
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/fog-cloud"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/light"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/control-weather"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/gaseous-form"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/telekinesis"
+    }
+  ],
   "attacks": [
     {
       "name": "Thunderous Mace",

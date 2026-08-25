@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.70",
     "heading": "Charm Monster",
-    "lineStart": 7899,
-    "lineEnd": 7910
+    "lineStart": 7870,
+    "lineEnd": 7881
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/charm-monster/"
   },
   "level": 4,
   "school": "Enchantment",
@@ -46,9 +49,37 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "One creature you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the Charmed condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.",
+      "outcomes": [
+        "FailureEffect"
+      ]
+    }
+  ],
   "scalesWithSlotLevel": true,
   "concentration": false,
   "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "1 hour",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.47",
     "heading": "Arcane Sword",
-    "lineStart": 7556,
-    "lineEnd": 7569
+    "lineStart": 7529,
+    "lineEnd": 7542
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/arcane-sword/"
   },
   "level": 7,
   "school": "Evocation",
@@ -35,5 +38,31 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "90 feet",
+    "kind": "Distance",
+    "distanceFeet": 90
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a miniature sword worth 250+ GP)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a miniature sword worth 250+ GP",
+    "consumed": false,
+    "materialCost": {
+      "text": "250 GP",
+      "currency": "GP",
+      "amount": 250
+    }
+  }
 }

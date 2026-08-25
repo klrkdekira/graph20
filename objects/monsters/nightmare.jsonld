@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.175",
     "heading": "Nightmare",
-    "lineStart": 23426,
-    "lineEnd": 23457
+    "lineStart": 23346,
+    "lineEnd": 23377
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/nightmare/"
   },
   "sizeTypeAlignment": "Large Fiend, Neutral Evil",
   "sizeAndType": "Large Fiend",
+  "size": "Large",
+  "creatureType": "Fiend",
+  "monsterCategory": "Monster",
   "alignment": "Neutral Evil",
   "armorClass": "13",
   "initiative": "+2 (12)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.175",
         "heading": "Traits",
-        "lineStart": 23447,
-        "lineEnd": 23451
+        "lineStart": 23367,
+        "lineEnd": 23371
       }
     },
     {
@@ -87,12 +93,32 @@
         "chapter": "Monsters A-Z",
         "section": "12.175",
         "heading": "Actions",
-        "lineStart": 23453,
-        "lineEnd": 23457
+        "lineStart": 23373,
+        "lineEnd": 23377
       }
     }
   ],
   "rulesText": "Large Fiend, Neutral Evil\n\nAC 13\nInitiative +2 (12)\nHP 68 (8d10 + 24)\nSpeed 60 ft., Fly 90 ft. (hover)\n\nImmunities Fire\nSenses Passive Perception 11\nLanguages Understands Abyssal, Common, and Infernal but can't speak\nCR 3 (XP 700; PB +2)\n\nTraits\n\nConfer Fire Resistance. The nightmare can grant Resistance to Fire damage to a rider while it is on the nightmare.\n\nIllumination. The nightmare sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.\n\nActions\n\nHooves. Melee Attack Roll: +6, reach 5 ft. Hit: 13 (2d8 + 4) Bludgeoning damage plus 10 (3d6) Fire damage.\n\nEthereal Stride. The nightmare and up to three willing creatures within 5 feet of it teleport to the Ethereal Plane from the Material Plane or vice versa.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 60
+    },
+    {
+      "mode": "Fly",
+      "feet": 90,
+      "hover": true
+    }
+  ],
+  "passivePerception": 11,
+  "languageList": [
+    "Understands Abyssal",
+    "Common",
+    "and Infernal but can't speak"
+  ],
+  "damageImmunities": [
+    "Fire"
+  ],
   "attacks": [
     {
       "name": "Hooves",

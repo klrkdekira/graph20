@@ -48,6 +48,25 @@
     },
     "requiresAttunement": { "type": "boolean" },
     "attunementNote": { "type": "string", "minLength": 1 },
+    "attunementRestriction": { "type": "string", "minLength": 1 },
+    "attunementClasses": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "common.schema.json#/$defs/NodeReference" }
+    },
+    "charges": {
+      "type": "object",
+      "properties": {
+        "capacityText": { "type": "string", "minLength": 1 },
+        "capacity": { "type": "integer", "minimum": 1 },
+        "capacityRoll": { "$ref": "common.schema.json#/$defs/DiceExpression" },
+        "rechargeText": { "type": "string", "minLength": 1 }
+      },
+      "required": ["capacityText"],
+      "unevaluatedProperties": false
+    },
+    "isCursed": { "type": "boolean" },
+    "isSentient": { "type": "boolean" },
     "relatedTables": {
       "type": "array",
       "minItems": 1,
@@ -60,7 +79,7 @@
     },
     "rulesText": { "type": "string", "minLength": 1 }
   },
-  "required": ["itemCategory", "requiresAttunement", "rulesText"],
+  "required": ["itemCategory", "requiresAttunement", "isCursed", "isSentient", "rulesText"],
   "oneOf": [
     { "required": ["rarity"], "not": { "required": ["rarities"] } },
     { "required": ["rarities"], "not": { "required": ["rarity"] } }

@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.40",
     "heading": "Giant Lizard",
-    "lineStart": 27656,
-    "lineEnd": 27680
+    "lineStart": 27570,
+    "lineEnd": 27594
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/giant-lizard/"
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
+  "size": "Large",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "12",
   "initiative": "+1 (11)",
@@ -75,8 +81,8 @@
         "chapter": "Animals",
         "section": "13.40",
         "heading": "Traits",
-        "lineStart": 27674,
-        "lineEnd": 27676
+        "lineStart": 27588,
+        "lineEnd": 27590
       }
     },
     {
@@ -86,12 +92,29 @@
         "chapter": "Animals",
         "section": "13.40",
         "heading": "Actions",
-        "lineStart": 27678,
-        "lineEnd": 27680
+        "lineStart": 27592,
+        "lineEnd": 27594
       }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 12\nInitiative +1 (11)\nHP 19 (3d10 + 3)\nSpeed 40 ft., Climb 40 ft.\n\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nTraits\n\nSpider Climb. The lizard can climb difficult surfaces, including along ceilings, without needing to make an ability check.\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Climb",
+      "feet": 40
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Bite",

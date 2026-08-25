@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.121",
     "heading": "Pot, Iron (2 GP)",
-    "lineStart": 6714,
-    "lineEnd": 6716
+    "lineStart": 6687,
+    "lineEnd": 6689
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-121-pot-iron-2-gp/"
   },
   "section": "6.121",
   "rulesText": "An Iron Pot holds up to 1 gallon."

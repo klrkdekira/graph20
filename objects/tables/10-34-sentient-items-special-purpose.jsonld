@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.34",
     "heading": "Special Purpose",
-    "lineStart": 14759,
-    "lineEnd": 14770
+    "lineStart": 14721,
+    "lineEnd": 14732,
+    "caption": "Sentient Item's Special Purpose"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-34-sentient-items-special-purpose/"
   },
   "columns": [
     "1d10",

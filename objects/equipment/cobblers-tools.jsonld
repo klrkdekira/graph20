@@ -1,0 +1,39 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/cobblers-tools",
+  "@type": "Equipment",
+  "name": "Cobbler's Tools",
+  "slug": "cobblers-tools",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.40",
+    "heading": "Cobbler's Tools (5 GP)",
+    "lineStart": 6128,
+    "lineEnd": 6134
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/cobblers-tools/"
+  },
+  "equipmentType": "tool",
+  "fromRule": {
+    "@id": "https://cheeleong.dev/graph20/objects/rules/6-40-cobblers-tools-5-gp"
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-40-cobblers-tools-5-gp"
+    }
+  ],
+  "cost": {
+    "text": "5 GP",
+    "currency": "GP",
+    "amount": 5
+  },
+  "ability": "Dexterity",
+  "weight": "5 lb.",
+  "weightPounds": 5,
+  "utilize": "Modify footwear to give Advantage on the wearer's next Dexterity (Acrobatics) check (DC 10)",
+  "craft": "Climber's Kit"
+}

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.220",
     "heading": "Levitate",
-    "lineStart": 10274,
-    "lineEnd": 10289
+    "lineStart": 10245,
+    "lineEnd": 10260
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/levitate/"
   },
   "level": 2,
   "school": "Transmutation",
@@ -34,7 +37,34 @@
     }
   ],
   "savingThrowAbility": "Constitution",
+  "savingThrows": [
+    {
+      "ability": "Constitution",
+      "sourceText": "spell can levitate an object that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected."
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a metal spring)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a metal spring",
+    "consumed": false
+  }
 }

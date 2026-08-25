@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.115",
     "heading": "Dimension Door",
-    "lineStart": 8624,
-    "lineEnd": 8637
+    "lineStart": 8595,
+    "lineEnd": 8608
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/dimension-door/"
   },
   "level": 4,
   "school": "Conjuration",
@@ -53,5 +56,21 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "500 feet",
+    "kind": "Distance",
+    "distanceFeet": 500
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V",
+    "verbal": true,
+    "somatic": false,
+    "material": false
+  }
 }

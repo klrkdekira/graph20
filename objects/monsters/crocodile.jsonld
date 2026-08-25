@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.17",
     "heading": "Crocodile",
-    "lineStart": 27054,
-    "lineEnd": 27079
+    "lineStart": 26968,
+    "lineEnd": 26993
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/crocodile/"
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
+  "size": "Large",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "12",
   "initiative": "+0 (10)",
@@ -76,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.17",
         "heading": "Traits",
-        "lineStart": 27073,
-        "lineEnd": 27075
+        "lineStart": 26987,
+        "lineEnd": 26989
       }
     },
     {
@@ -87,12 +93,29 @@
         "chapter": "Animals",
         "section": "13.17",
         "heading": "Actions",
-        "lineStart": 27077,
-        "lineEnd": 27079
+        "lineStart": 26991,
+        "lineEnd": 26993
       }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 12\nInitiative +0 (10)\nHP 13 (2d10 + 2)\nSpeed 20 ft., Swim 30 ft.\n\nSkills Stealth +2\nSenses Passive Perception 10\nLanguages None\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nHold Breath. The crocodile can hold its breath for 1 hour.\n\nActions\n\nBite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12). While Grappled, the target has the Restrained condition.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 20
+    },
+    {
+      "mode": "Swim",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Stealth",
+      "bonus": 2
+    }
+  ],
+  "passivePerception": 10,
   "attacks": [
     {
       "name": "Bite",

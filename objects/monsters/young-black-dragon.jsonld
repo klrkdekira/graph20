@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.27",
     "heading": "Young Black Dragon",
-    "lineStart": 18658,
-    "lineEnd": 18691
+    "lineStart": 18587,
+    "lineEnd": 18617
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/young-black-dragon/"
   },
   "sizeTypeAlignment": "Large Dragon (Chromatic), Chaotic Evil",
   "sizeAndType": "Large Dragon (Chromatic)",
+  "size": "Large",
+  "creatureType": "Dragon",
+  "descriptiveTags": [
+    "Chromatic"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "18",
   "initiative": "+5 (15)",
@@ -23,7 +32,7 @@
   "speed": "40 ft., Fly 80 ft., Swim 40 ft.",
   "skills": "Perception +6, Stealth +5",
   "immunities": "Acid",
-  "senses": "Blindsight 30 ft., Darkvision 120 ft.;",
+  "senses": "Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 16",
   "languages": "Common, Draconic",
   "challenge": "7 (XP 2,900; PB +3)",
   "armorClassValue": 18,
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.27",
         "heading": "Traits",
-        "lineStart": 18681,
-        "lineEnd": 18683
+        "lineStart": 18607,
+        "lineEnd": 18609
       }
     },
     {
@@ -88,12 +97,54 @@
         "chapter": "Monsters A-Z",
         "section": "12.27",
         "heading": "Actions",
-        "lineStart": 18685,
-        "lineEnd": 18691
+        "lineStart": 18611,
+        "lineEnd": 18617
       }
     }
   ],
-  "rulesText": "Large Dragon (Chromatic), Chaotic Evil\n\nAC 18\nInitiative +5 (15)\nHP 127 (15d10 + 45)\nSpeed 40 ft., Fly 80 ft., Swim 40 ft.\n\nSkills Perception +6, Stealth +5\nImmunities Acid\nSenses Blindsight 30 ft., Darkvision 120 ft.;\n\nPassive Perception 16\n\nLanguages Common, Draconic\nCR 7 (XP 2,900; PB +3)\n\nTraits\n\nAmphibious. The dragon can breathe air and water.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 9 (2d4 + 4) Slashing damage plus 3 (1d6) Acid damage.\n\nAcid Breath (Recharge 5–6). Dexterity Saving Throw: DC 14, each creature in a 30-foot-long, 5-foot-wide Line. Failure: 49 (14d6) Acid damage. Success: Half damage.",
+  "rulesText": "Large Dragon (Chromatic), Chaotic Evil\n\nAC 18\nInitiative +5 (15)\nHP 127 (15d10 + 45)\nSpeed 40 ft., Fly 80 ft., Swim 40 ft.\n\nSkills Perception +6, Stealth +5\nImmunities Acid\nSenses Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 16\nLanguages Common, Draconic\nCR 7 (XP 2,900; PB +3)\n\nTraits\n\nAmphibious. The dragon can breathe air and water.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 9 (2d4 + 4) Slashing damage plus 3 (1d6) Acid damage.\n\nAcid Breath (Recharge 5–6). Dexterity Saving Throw: DC 14, each creature in a 30-foot-long, 5-foot-wide Line. Failure: 49 (14d6) Acid damage. Success: Half damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Fly",
+      "feet": 80
+    },
+    {
+      "mode": "Swim",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 6
+    },
+    {
+      "name": "Stealth",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 16,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 30
+    },
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Common",
+    "Draconic"
+  ],
+  "damageImmunities": [
+    "Acid"
+  ],
   "attacks": [
     {
       "name": "Rend",

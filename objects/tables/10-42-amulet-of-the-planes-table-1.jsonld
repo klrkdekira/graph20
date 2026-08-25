@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.42",
     "heading": "Amulet of the Planes",
-    "lineStart": 14846,
-    "lineEnd": 14852
+    "lineStart": 14808,
+    "lineEnd": 14814,
+    "caption": "Amulet of the Planes Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-42-amulet-of-the-planes-table-1/"
   },
   "columns": [
     "1d100",

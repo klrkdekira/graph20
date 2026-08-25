@@ -1,0 +1,38 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/thieves-tools",
+  "@type": "Equipment",
+  "name": "Thieves' Tools",
+  "slug": "thieves-tools",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.60",
+    "heading": "Thieves' Tools (25 GP)",
+    "lineStart": 6298,
+    "lineEnd": 6304
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/thieves-tools/"
+  },
+  "equipmentType": "tool",
+  "fromRule": {
+    "@id": "https://cheeleong.dev/graph20/objects/rules/6-60-thieves-tools-25-gp"
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-60-thieves-tools-25-gp"
+    }
+  ],
+  "cost": {
+    "text": "25 GP",
+    "currency": "GP",
+    "amount": 25
+  },
+  "ability": "Dexterity",
+  "weight": "1 lb.",
+  "weightPounds": 1,
+  "utilize": "Pick a lock (DC 15), or disarm a trap (DC 15)"
+}

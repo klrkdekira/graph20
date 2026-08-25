@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.370",
     "heading": "Wish",
-    "lineStart": 12590,
-    "lineEnd": 12621
+    "lineStart": 12557,
+    "lineEnd": 12588
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/wish/"
   },
   "level": 9,
   "school": "Conjuration",
@@ -45,5 +48,20 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V",
+    "verbal": true,
+    "somatic": false,
+    "material": false
+  }
 }

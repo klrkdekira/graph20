@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.150",
     "heading": "Passengers",
-    "lineStart": 6877,
-    "lineEnd": 6879
+    "lineStart": 6850,
+    "lineEnd": 6852
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-150-passengers/"
   },
   "section": "6.150",
   "rulesText": "The table lists the number of Small and Medium passengers the ship can accommodate using hammocks. A ship outfitted with private accommodations can carry one-fifth as many passengers. A passenger usually pays 5 SP per day for a hammock, but prices can vary from ship to ship. A small private cabin usually costs 2 GP per day."

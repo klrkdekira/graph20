@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.223",
     "heading": "Solar",
-    "lineStart": 24935,
-    "lineEnd": 24991
+    "lineStart": 24855,
+    "lineEnd": 24911
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/solar/"
   },
   "sizeTypeAlignment": "Large Celestial (Angel), Lawful Good",
   "sizeAndType": "Large Celestial (Angel)",
+  "size": "Large",
+  "creatureType": "Celestial",
+  "descriptiveTags": [
+    "Angel"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Good",
   "armorClass": "21",
   "initiative": "+20 (30)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.223",
         "heading": "Traits",
-        "lineStart": 24957,
-        "lineEnd": 24965
+        "lineStart": 24877,
+        "lineEnd": 24885
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.223",
         "heading": "Actions",
-        "lineStart": 24967,
-        "lineEnd": 24979
+        "lineStart": 24887,
+        "lineEnd": 24899
       }
     },
     {
@@ -99,8 +108,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.223",
         "heading": "Bonus Actions",
-        "lineStart": 24981,
-        "lineEnd": 24983
+        "lineStart": 24901,
+        "lineEnd": 24903
       }
     },
     {
@@ -110,8 +119,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.223",
         "heading": "Legendary Actions",
-        "lineStart": 24985,
-        "lineEnd": 24991
+        "lineStart": 24905,
+        "lineEnd": 24911
       }
     }
   ],
@@ -128,6 +137,93 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 50
+    },
+    {
+      "mode": "Fly",
+      "feet": 150,
+      "hover": true
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 14
+    }
+  ],
+  "passivePerception": 24,
+  "senseModes": [
+    {
+      "name": "Truesight",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "All",
+    "telepathy 120 ft."
+  ],
+  "damageImmunities": [
+    "Poison",
+    "Radiant"
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The solar casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 25):\n\nAt Will: Detect Evil and Good\n\n1/Day Each: Commune, Control Weather, Dispel Evil and Good, Resurrection",
+      "path": "statSections[1].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Detect Evil and Good",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/detect-evil-and-good"
+            }
+          ]
+        },
+        {
+          "frequency": "1/Day Each",
+          "spellsText": "Commune, Control Weather, Dispel Evil and Good, Resurrection",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/commune"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/control-weather"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-evil-and-good"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/resurrection"
+            }
+          ]
+        }
+      ],
+      "ability": "Charisma",
+      "saveDC": 25
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-evil-and-good"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/commune"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/control-weather"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-evil-and-good"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/resurrection"
     }
   ],
   "attacks": [

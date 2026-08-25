@@ -1,0 +1,25 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/invocations/eldritch-mind",
+  "@type": "EldritchInvocation",
+  "name": "Eldritch Mind",
+  "slug": "eldritch-mind",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.28",
+    "heading": "Eldritch Mind",
+    "lineStart": 4546,
+    "lineEnd": 4548
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/invocations/eldritch-mind/"
+  },
+  "repeatable": false,
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+  },
+  "rulesText": "You have Advantage on Constitution saving throws that you make to maintain Concentration."
+}

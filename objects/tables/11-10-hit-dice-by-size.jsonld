@@ -11,8 +11,12 @@
     "chapter": "Monsters",
     "section": "11.10",
     "heading": "Hit Points",
-    "lineStart": 17801,
-    "lineEnd": 17808
+    "lineStart": 17742,
+    "lineEnd": 17749,
+    "caption": "Hit Dice by Size"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/11-10-hit-dice-by-size/"
   },
   "columns": [
     "Monster Size",

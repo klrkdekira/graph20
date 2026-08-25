@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.73",
     "heading": "Chromatic Orb",
-    "lineStart": 7938,
-    "lineEnd": 7953
+    "lineStart": 7909,
+    "lineEnd": 7924
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/chromatic-orb/"
   },
   "level": 1,
   "school": "Evocation",
@@ -35,5 +38,28 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "90 feet",
+    "kind": "Distance",
+    "distanceFeet": 90
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a diamond worth 50+ GP)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a diamond worth 50+ GP",
+    "consumed": false,
+    "materialCost": {
+      "text": "50 GP",
+      "currency": "GP",
+      "amount": 50
+    }
+  }
 }

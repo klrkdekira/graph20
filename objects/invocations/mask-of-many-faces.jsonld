@@ -1,0 +1,31 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/invocations/mask-of-many-faces",
+  "@type": "EldritchInvocation",
+  "name": "Mask of Many Faces",
+  "slug": "mask-of-many-faces",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.28",
+    "heading": "Mask of Many Faces",
+    "lineStart": 4632,
+    "lineEnd": 4636
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/invocations/mask-of-many-faces/"
+  },
+  "prerequisite": "Level 2+ Warlock",
+  "repeatable": false,
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+  },
+  "rulesText": "Prerequisite: Level 2+ Warlock\n\nYou can cast Disguise Self without expending a spell slot.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/disguise-self"
+    }
+  ]
+}

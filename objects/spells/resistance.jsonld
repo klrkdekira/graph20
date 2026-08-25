@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.290",
     "heading": "Resistance",
-    "lineStart": 11337,
-    "lineEnd": 11346
+    "lineStart": 11308,
+    "lineEnd": 11317
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/resistance/"
   },
   "level": 0,
   "school": "Abjuration",
@@ -35,5 +38,23 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

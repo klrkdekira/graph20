@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.25",
     "heading": "Level 3: Draconic Spells",
-    "lineStart": 4370,
-    "lineEnd": 4375
+    "lineStart": 4357,
+    "lineEnd": 4362,
+    "caption": "Draconic Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-25-draconic-spells/"
   },
   "columns": [
     "Sorcerer Level",

@@ -1,0 +1,61 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/10-248-sphere-interactions",
+  "@type": "Table",
+  "name": "Sphere Interactions",
+  "slug": "10-248-sphere-interactions",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Magic Items",
+    "section": "10.248",
+    "heading": "Sphere of Annihilation",
+    "lineStart": 17127,
+    "lineEnd": 17131,
+    "caption": "Sphere Interactions"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-248-sphere-interactions/"
+  },
+  "columns": [
+    "1d100",
+    "Result"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "01–50"
+        },
+        {
+          "value": "The sphere is destroyed."
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "51–85"
+        },
+        {
+          "value": "The sphere moves through the portal or into the extradimensional space."
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "86–00"
+        },
+        {
+          "value": "A spatial rift sends the sphere and each creature and object within 180 feet of the sphere to a random plane of existence."
+        }
+      ]
+    }
+  ],
+  "rawText": "| 1d100 | Result |\n| :---- | :----- |\n| 01–50 | The sphere is destroyed. |\n| 51–85 | The sphere moves through the portal or into the extradimensional space. |\n| 86–00 | A spatial rift sends the sphere and each creature and object within 180 feet of the sphere to a random plane of existence. |"
+}

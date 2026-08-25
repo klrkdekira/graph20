@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.171",
     "heading": "Gate",
-    "lineStart": 9508,
-    "lineEnd": 9523
+    "lineStart": 9479,
+    "lineEnd": 9494
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/gate/"
   },
   "level": 9,
   "school": "Conjuration",
@@ -43,5 +46,31 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a diamond worth 5,000+ GP)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a diamond worth 5,000+ GP",
+    "consumed": false,
+    "materialCost": {
+      "text": "5,000 GP",
+      "currency": "GP",
+      "amount": 5000
+    }
+  }
 }

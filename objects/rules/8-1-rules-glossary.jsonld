@@ -11,8 +11,13 @@
     "chapter": "Rules Glossary",
     "section": "8.1",
     "heading": "Rules Glossary",
-    "lineStart": 12651,
-    "lineEnd": 12651
+    "lineStart": 12618,
+    "lineEnd": 12618
   },
-  "section": "8.1"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-1-rules-glossary/"
+  },
+  "section": "8.1",
+  "rulesText": "Rules Glossary",
+  "headingOnly": true
 }

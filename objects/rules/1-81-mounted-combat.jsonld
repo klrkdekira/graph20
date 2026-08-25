@@ -11,8 +11,11 @@
     "chapter": "Playing the Game",
     "section": "1.81",
     "heading": "Mounted Combat",
-    "lineStart": 691,
-    "lineEnd": 693
+    "lineStart": 689,
+    "lineEnd": 691
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-81-mounted-combat/"
   },
   "section": "1.81",
   "rulesText": "A willing creature that is at least one size larger than a rider and that has an appropriate anatomy can serve as a mount, using the following rules."

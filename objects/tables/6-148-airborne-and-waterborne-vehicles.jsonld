@@ -11,8 +11,12 @@
     "chapter": "Equipment",
     "section": "6.148",
     "heading": "Speed",
-    "lineStart": 6863,
-    "lineEnd": 6871
+    "lineStart": 6836,
+    "lineEnd": 6844,
+    "caption": "Airborne and Waterborne Vehicles"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/6-148-airborne-and-waterborne-vehicles/"
   },
   "columns": [
     "Ship",

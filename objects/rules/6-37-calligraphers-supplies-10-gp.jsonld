@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.37",
     "heading": "Calligrapher's Supplies (10 GP)",
-    "lineStart": 6128,
-    "lineEnd": 6134
+    "lineStart": 6104,
+    "lineEnd": 6110
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-37-calligraphers-supplies-10-gp/"
   },
   "section": "6.37",
   "rulesText": "Ability: Dexterity Weight: 5 lb.\n\nUtilize: Write text with impressive flourishes that guard against forgery (DC 15)\n\nCraft: Ink, Spell Scroll"

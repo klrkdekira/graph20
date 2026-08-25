@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.107",
     "heading": "Goblin Warrior",
-    "lineStart": 21246,
-    "lineEnd": 21275
+    "lineStart": 21166,
+    "lineEnd": 21195
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/goblin-warrior/"
   },
   "sizeTypeAlignment": "Small Fey (Goblinoid), Chaotic Neutral",
   "sizeAndType": "Small Fey (Goblinoid)",
+  "size": "Small",
+  "creatureType": "Fey",
+  "descriptiveTags": [
+    "Goblinoid"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Neutral",
   "armorClass": "15",
   "initiative": "+2 (12)",
@@ -76,8 +85,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.107",
         "heading": "Actions",
-        "lineStart": 21266,
-        "lineEnd": 21271
+        "lineStart": 21186,
+        "lineEnd": 21191
       }
     },
     {
@@ -87,8 +96,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.107",
         "heading": "Bonus Actions",
-        "lineStart": 21273,
-        "lineEnd": 21275
+        "lineStart": 21193,
+        "lineEnd": 21195
       }
     }
   ],
@@ -105,6 +114,43 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/shortbow"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Stealth",
+      "bonus": 6
+    }
+  ],
+  "passivePerception": 9,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Common",
+    "Goblin"
+  ],
+  "gearItems": [
+    {
+      "name": "Leather Armor"
+    },
+    {
+      "name": "Scimitar"
+    },
+    {
+      "name": "Shield"
+    },
+    {
+      "name": "Shortbow"
     }
   ],
   "attacks": [

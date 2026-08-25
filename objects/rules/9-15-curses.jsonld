@@ -1,0 +1,23 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-15-curses",
+  "@type": "Rule",
+  "name": "Curses",
+  "slug": "9-15-curses",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.15",
+    "heading": "Curses",
+    "lineStart": 13850,
+    "lineEnd": 13852
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/9-15-curses/"
+  },
+  "section": "9.15",
+  "rulesText": "A curse typically takes one of the forms detailed below.",
+  "ruleCategory": "Curse"
+}

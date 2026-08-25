@@ -11,8 +11,12 @@
     "chapter": "Spells",
     "section": "7.298",
     "heading": "Scrying",
-    "lineStart": 11450,
-    "lineEnd": 11454
+    "lineStart": 11421,
+    "lineEnd": 11425,
+    "caption": "Scrying Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/7-298-scrying-table-1/"
   },
   "columns": [
     "Your Knowledge of the Target Is ...",

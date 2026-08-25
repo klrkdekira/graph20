@@ -12,7 +12,11 @@
     "section": "1.27",
     "heading": "Proficiency",
     "lineStart": 258,
-    "lineEnd": 263
+    "lineEnd": 263,
+    "caption": "Proficiency Bonus"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/1-27-proficiency-bonus/"
   },
   "columns": [
     "Level or CR",

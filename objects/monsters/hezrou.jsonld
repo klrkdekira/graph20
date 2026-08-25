@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.132",
     "heading": "Hezrou",
-    "lineStart": 22037,
-    "lineEnd": 22075
+    "lineStart": 21957,
+    "lineEnd": 21995
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/hezrou/"
   },
   "sizeTypeAlignment": "Large Fiend (Demon), Chaotic Evil",
   "sizeAndType": "Large Fiend (Demon)",
+  "size": "Large",
+  "creatureType": "Fiend",
+  "descriptiveTags": [
+    "Demon"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "18",
   "initiative": "+6 (16)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.132",
         "heading": "Traits",
-        "lineStart": 22059,
-        "lineEnd": 22065
+        "lineStart": 21979,
+        "lineEnd": 21985
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.132",
         "heading": "Actions",
-        "lineStart": 22067,
-        "lineEnd": 22071
+        "lineStart": 21987,
+        "lineEnd": 21991
       }
     },
     {
@@ -99,8 +108,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.132",
         "heading": "Bonus Actions",
-        "lineStart": 22073,
-        "lineEnd": 22075
+        "lineStart": 21993,
+        "lineEnd": 21995
       }
     }
   ],
@@ -109,6 +118,31 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 11,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Abyssal",
+    "telepathy 120 ft."
+  ],
+  "damageImmunities": [
+    "Poison"
+  ],
+  "damageResistances": [
+    "Cold",
+    "Fire",
+    "Lightning"
   ],
   "attacks": [
     {

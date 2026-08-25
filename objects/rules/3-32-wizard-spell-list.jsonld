@@ -11,17 +11,17 @@
     "chapter": "Classes",
     "section": "3.32",
     "heading": "Wizard Spell List",
-    "lineStart": 5038,
-    "lineEnd": 5313
+    "lineStart": 5020,
+    "lineEnd": 5289
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/3-32-wizard-spell-list/"
   },
   "section": "3.32",
-  "rulesText": "This section presents the Wizard spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, C means the spell requires Concentration, R means it's a Ritual, and M means it requires a specific Material component.\n\nCantrips (Level 0 Wizard Spells)\n\nLevel 1 Wizard Spells\n\nLevel 2 Wizard Spells\n\nLevel 3 Wizard Spells\n\nLevel 4 Wizard Spells\n\nLevel 5 Wizard Spells\n\nLevel 6 Wizard Spells\n\nLevel 7 Wizard Spells\n\nLevel 8 Wizard Spells\n\nLevel 9 Wizard Spells",
+  "rulesText": "This section presents the Wizard spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, C means the spell requires Concentration, R means it's a Ritual, and M means it requires a specific Material component.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/3-32-cantrips-level-0-wizard-spells"
-    },
-    {
-      "@id": "https://cheeleong.dev/graph20/objects/tables/3-32-cantrips-level-0-wizard-spells-2"
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/3-32-level-1-wizard-spells"
@@ -31,9 +31,6 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/3-32-level-3-wizard-spells"
-    },
-    {
-      "@id": "https://cheeleong.dev/graph20/objects/tables/3-32-level-3-wizard-spells-2"
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/3-32-level-4-wizard-spells"

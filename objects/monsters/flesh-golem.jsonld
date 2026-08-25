@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.90",
     "heading": "Flesh Golem",
-    "lineStart": 20766,
-    "lineEnd": 20805
+    "lineStart": 20686,
+    "lineEnd": 20725
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/flesh-golem/"
   },
   "sizeTypeAlignment": "Medium Construct, Neutral",
   "sizeAndType": "Medium Construct",
+  "size": "Medium",
+  "creatureType": "Construct",
+  "monsterCategory": "Monster",
   "alignment": "Neutral",
   "armorClass": "9",
   "initiative": "-1 (9)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.90",
         "heading": "Traits",
-        "lineStart": 20787,
-        "lineEnd": 20799
+        "lineStart": 20707,
+        "lineEnd": 20719
       }
     },
     {
@@ -87,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.90",
         "heading": "Actions",
-        "lineStart": 20801,
-        "lineEnd": 20805
+        "lineStart": 20721,
+        "lineEnd": 20725
       }
     }
   ],
@@ -112,6 +118,26 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Understands Common plus one other language but can't speak"
+  ],
+  "damageImmunities": [
+    "Lightning",
+    "Poison"
   ],
   "attacks": [
     {

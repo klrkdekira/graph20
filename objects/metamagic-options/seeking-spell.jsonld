@@ -1,0 +1,26 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/metamagic-options/seeking-spell",
+  "@type": "MetamagicOption",
+  "name": "Seeking Spell",
+  "slug": "seeking-spell",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.25",
+    "heading": "Seeking Spell",
+    "lineStart": 4121,
+    "lineEnd": 4127
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/metamagic-options/seeking-spell/"
+  },
+  "cost": "1 Sorcery Point",
+  "sorceryPointCost": 1,
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
+  },
+  "rulesText": "Cost: 1 Sorcery Point\n\nIf you make an attack roll for a spell and miss, you can spend 1 Sorcery Point to reroll the d20, and you must use the new roll.\n\nYou can use Seeking Spell even if you've already used a different Metamagic option during the casting of the spell."
+}

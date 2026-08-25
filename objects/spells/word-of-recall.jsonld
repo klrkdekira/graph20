@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.371",
     "heading": "Word of Recall",
-    "lineStart": 12623,
-    "lineEnd": 12634
+    "lineStart": 12590,
+    "lineEnd": 12601
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/word-of-recall/"
   },
   "level": 6,
   "school": "Conjuration",
@@ -31,5 +34,21 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "5 feet",
+    "kind": "Distance",
+    "distanceFeet": 5
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V",
+    "verbal": true,
+    "somatic": false,
+    "material": false
+  }
 }

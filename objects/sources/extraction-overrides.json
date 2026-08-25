@@ -41,8 +41,40 @@
       "status": "applied-to-source",
       "preRepairDigest": "sha256-77f30db20a3cc720f1f116d1ab02bea20d9beb2afd33efb9cef0b46d7006fe8e",
       "postRepairDigest": "sha256-e5a493bd086894a69972dc9b61422f1f51c05b3bd7e1691ab3b0917f8a24ab90"
+    },
+    {
+      "id": "complete-audit-source-repairs-2026-08-25",
+      "scope": "SRD_CC_v5.2.1.md (remaining sidebar ownership, malformed headings, table continuations, prose tables, and wrapped monster statistics)",
+      "observed": "Residual conversion defects found in the final audit pass: three all-caps sidebars interrupted their owning sentences; four spell stat labels and two display fragments were promoted to headings; ten logical tables were split at repeated column headers; the Robe of Useful Items and Sphere of Annihilation roll tables remained plain text; ten monster stat values wrapped across blank lines and three AC/Initiative pairs collapsed onto one line; one Fiendish Legacies sentence boundary was glued.",
+      "observedTokens": [
+        "fire a Ranged weapon, / # UNSEEN ATTACKERS AND TARGETS / or make an attack roll",
+        "don't take sides, / # UNALIGNED CREATURES / doing what seems best",
+        "For the rest / # EXPANDING AND REPLACING A SPELLBOOK / of your career",
+        "# Curses and / # Magical Contagions",
+        "# Casting Time: Action",
+        "1d100 Patch / 01-08 Bag of 100 GP",
+        "AC 17 Initiative +1 (11)",
+        "Senses Darkvision 60 ft.; / Passive Perception 14"
+      ],
+      "proposed": "Applied deterministically by scripts/repair_source.py (step 21d): restore prose ownership around sidebars; fold conversion-only headings into their printed lines; merge direct repeated-header table continuations; represent the two existing roll tables as GFM; rejoin wrapped stat fields; and split collapsed AC/Initiative fields. Step 21b now asserts every relocation postcondition and limits source removal to the original Character Origins span.",
+      "rationale": "These transformations alter structure and whitespace only. Every retained word and value already appears in the official CC-BY-4.0 PDF, and each repair has a fail-loud postcondition or complete observed-row assertion.",
+      "status": "applied-to-source",
+      "preRepairDigest": "sha256-e5a493bd086894a69972dc9b61422f1f51c05b3bd7e1691ab3b0917f8a24ab90",
+      "postRepairDigest": "sha256-8f037a5af23df22ea362d359e9b98563281a0359196e64c9ff4b85a1792205e6"
+    },
+    {
+      "id": "telekinesis-upstream-truncation-verified-2026-08-25",
+      "scope": "SRD_CC_v5.2.1.md and official SRD_CC_v5.2.1.pdf, Telekinesis spell",
+      "observed": "The local Markdown ends the Telekinesis object paragraph with 'such as manipulating a simple tool,'. The official English SRD 5.2.1 PDF published by D&D Beyond ends at the identical comma in both the visible page and extracted text layer; Telepathic Bond begins immediately afterward.",
+      "proposed": "No source repair. Preserve the official SRD truncation verbatim and treat the incomplete sentence as an upstream source anomaly.",
+      "rationale": "The continuation proposed by the audit is not present in the authoritative SRD 5.2.1 PDF. Adding it would import wording from outside the repository's sole contributing source and violate the no-invention/source-boundary policy.",
+      "status": "verified-upstream-anomaly",
+      "sourceUrl": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+      "sourcePage": 167,
+      "contentDigest": "sha256-8f037a5af23df22ea362d359e9b98563281a0359196e64c9ff4b85a1792205e6"
     }
   ],
+  "validatedSourceDigest": "sha256-8f037a5af23df22ea362d359e9b98563281a0359196e64c9ff4b85a1792205e6",
   "anomalyReviews": [
     {
       "id": "roman-numeral-currency",

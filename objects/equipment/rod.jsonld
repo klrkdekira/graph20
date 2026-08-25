@@ -1,0 +1,42 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/rod",
+  "@type": "Equipment",
+  "name": "Rod",
+  "slug": "rod",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.66",
+    "heading": "Arcane Focus (Varies)",
+    "lineStart": 6429,
+    "lineEnd": 6435,
+    "caption": "Arcane Focuses"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/rod/"
+  },
+  "equipmentType": "focus",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-66-arcane-focuses"
+  },
+  "attributes": [
+    {
+      "name": "Weight",
+      "value": "2 lb."
+    },
+    {
+      "name": "Cost",
+      "value": "10 GP"
+    }
+  ],
+  "weight": "2 lb.",
+  "weightPounds": 2,
+  "cost": {
+    "text": "10 GP",
+    "currency": "GP",
+    "amount": 10
+  }
+}

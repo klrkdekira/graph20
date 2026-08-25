@@ -1,0 +1,36 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/wealthy",
+  "@type": "Equipment",
+  "name": "Wealthy",
+  "slug": "wealthy",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.161",
+    "heading": "Food, Drink, and Lodging",
+    "lineStart": 6904,
+    "lineEnd": 6915,
+    "caption": "Food, Drink, and Lodging"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/wealthy/"
+  },
+  "equipmentType": "service",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-161-food-drink-and-lodging"
+  },
+  "cost": {
+    "text": "2 GP",
+    "currency": "GP",
+    "amount": 2
+  },
+  "attributes": [
+    {
+      "name": "Cost",
+      "value": "2 GP"
+    }
+  ]
+}

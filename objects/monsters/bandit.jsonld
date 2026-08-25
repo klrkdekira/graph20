@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.18",
     "heading": "Bandit",
-    "lineStart": 18391,
-    "lineEnd": 18414
+    "lineStart": 18323,
+    "lineEnd": 18346
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/bandit/"
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
+  "size": "Medium or Small",
+  "creatureType": "Humanoid",
+  "monsterCategory": "Monster",
   "alignment": "Neutral",
   "armorClass": "12",
   "initiative": "+1 (11)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.18",
         "heading": "Actions",
-        "lineStart": 18410,
-        "lineEnd": 18414
+        "lineStart": 18342,
+        "lineEnd": 18346
       }
     }
   ],
@@ -91,6 +97,28 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/scimitar"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 10,
+  "languageList": [
+    "Common",
+    "Thieves' Cant"
+  ],
+  "gearItems": [
+    {
+      "name": "Leather Armor"
+    },
+    {
+      "name": "Light Crossbow"
+    },
+    {
+      "name": "Scimitar"
     }
   ],
   "attacks": [

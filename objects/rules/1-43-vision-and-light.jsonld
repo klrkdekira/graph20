@@ -14,6 +14,9 @@
     "lineStart": 409,
     "lineEnd": 411
   },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-43-vision-and-light/"
+  },
   "section": "1.43",
   "rulesText": "Some adventuring tasks - such as noticing danger, hitting an enemy, and targeting certain spells - are affected by sight, so effects that obscure vision can hinder you, as explained below."
 }

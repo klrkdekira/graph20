@@ -6,7 +6,7 @@
 [![Content License: CC BY 4.0](https://img.shields.io/badge/Content_License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Code License: MIT](https://img.shields.io/badge/Code_License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A source-faithful, machine-readable edition of the **System Reference Document 5.2.1**. The repository turns the CC-BY-4.0 source Markdown into 2,107 modular records across 13 collections, with:
+A source-faithful, machine-readable edition of the **System Reference Document 5.2.1**. The repository turns the CC-BY-4.0 source Markdown into 2,226 modular records across 19 collections, with:
 
 - JSON-LD 1.1 identity and graph relationships;
 - JSON Schema Draft 2020-12 contracts;
@@ -25,6 +25,7 @@ The repository is published as static files, so consumers do not need an API key
 | --- | --- |
 | Browse and search the SRD | [Web explorer](https://cheeleong.dev/graph20/) |
 | Fetch one record | [`objects/<collection>/<slug>.jsonld`](objects/spells/fireball.jsonld) |
+| Link to an indexable record page | [`records/<collection>/<slug>/`](records/spells/fireball/) |
 | Load the complete graph | [`objects/srd52-system-data.bundle.jsonld`](https://cheeleong.dev/graph20/objects/srd52-system-data.bundle.jsonld) |
 | Discover collections and record IDs | [`objects/srd52-system-data.jsonld`](https://cheeleong.dev/graph20/objects/srd52-system-data.jsonld) |
 | Build a search or browse UI | [`objects/search-index.json`](https://cheeleong.dev/graph20/objects/search-index.json) and [`objects/collection-index.json`](https://cheeleong.dev/graph20/objects/collection-index.json) |
@@ -73,15 +74,19 @@ The example is abbreviated. The full record also retains `rulesText`, printed sp
 | Artifact | Purpose |
 | --- | --- |
 | [`objects/srd52-system-data.jsonld`](https://cheeleong.dev/graph20/objects/srd52-system-data.jsonld) | Manifest containing corpus metadata, source and corpus digests, collection descriptors, member links, and schema links. |
-| [`objects/srd52-system-data.bundle.jsonld`](https://cheeleong.dev/graph20/objects/srd52-system-data.bundle.jsonld) | All 2,107 records in one JSON-LD `@graph`. |
+| [`objects/srd52-system-data.bundle.jsonld`](https://cheeleong.dev/graph20/objects/srd52-system-data.bundle.jsonld) | All 2,226 records in one JSON-LD `@graph`; every member is validated against its collection schema. |
 | [`objects/search-index.json`](https://cheeleong.dev/graph20/objects/search-index.json) | Static inverted index over all records and nested text fragments. |
 | [`objects/collection-index.json`](https://cheeleong.dev/graph20/objects/collection-index.json) | Compact display and filter metadata such as spell level, monster CR, and item rarity. |
 | [`systems/context.jsonld`](https://cheeleong.dev/graph20/systems/context.jsonld) | Shared JSON-LD context, including IRI coercion rules. |
 | [`systems/*.schema.json`](systems/) | Draft 2020-12 schemas for records, aggregates, and verification reports. |
-| [`vocab/terms.json`](https://cheeleong.dev/graph20/vocab/terms.json) | Definitions for the 14 classes and 144 properties in the project vocabulary. |
+| [`objects/build-metrics.json`](objects/build-metrics.json) | Recomputed record, collection, vocabulary, search, review, sitemap, page, and graph-relation metrics. |
+| [`records/`](records/) | Crawlable HTML counterpart for every JSON-LD record, with canonical and alternate discovery links. |
+| [`vocab/terms.json`](https://cheeleong.dev/graph20/vocab/terms.json) | Definitions for the 20 classes and 222 properties in the project vocabulary. |
 | [`llms.txt`](https://cheeleong.dev/graph20/llms.txt) / [`llms-full.txt`](https://cheeleong.dev/graph20/llms-full.txt) | LLM-oriented entry point and full recursive text projection. |
 | [`objects/sources/source-coverage.json`](objects/sources/source-coverage.json) / [`source-review-ledger.json`](objects/sources/source-review-ledger.json) | Machine-readable coverage and semantic-review reports. |
 | [`datapackage.json`](datapackage.json) | Frictionless Data Package metadata and resource listing. |
+
+Every raw record links to its HTML representation and every HTML record declares the raw JSON-LD as an alternate. GitHub Pages currently serves `.jsonld` responses as `application/ld+json`; CI checks a production record weekly so a hosting change fails visibly.
 
 ## Corpus inventory
 
@@ -90,19 +95,25 @@ The v0.4.0 build contains:
 | Collection | Records | What is represented |
 | --- | ---: | --- |
 | `sources` | 1 | Source identity, version, rights, attribution, and SHA-256 digest |
-| `rules` | 736 | General rules, chapters, and glossary prose |
-| `tables` | 235 | Logical tables with ordered rows, raw Markdown, and physical spans |
+| `rules` | 708 | General rules, chapters, and untagged glossary prose |
+| `actions` | 12 | Tagged Rules Glossary actions and named effects |
+| `areas-of-effect` | 6 | Tagged area-shape definitions |
+| `attitudes` | 3 | Tagged social attitudes |
+| `hazards` | 5 | Tagged environmental hazards |
+| `tables` | 224 | Logical tables with ordered rows, raw Markdown, semantic captions, and physical spans |
 | `classes` | 12 | Core traits, level progression, and nested features |
 | `subclasses` | 12 | Subclass features and parent-class links |
+| `invocations` | 28 | Eldritch Invocation options, prerequisites, and spell links |
+| `metamagic-options` | 10 | Sorcerer Metamagic options and Sorcery Point costs |
 | `species` | 9 | Creature type, size, speed, traits, and prose |
 | `backgrounds` | 4 | Ability scores, feats, proficiencies, and prose |
 | `feats` | 17 | Category, prerequisites, repeatability, benefits, and prose |
-| `equipment` | 133 | Weapons, armor, and gear indexed from source tables |
+| `equipment` | 227 | Weapons, armor, gear, tools, mounts, vehicles, services, and other typed equipment tables |
 | `spells` | 339 | Printed headers, class links, typed mechanics, and prose |
 | `conditions` | 15 | Rules Glossary conditions and their effects |
 | `magic-items` | 258 | Rarity variants, attunement clauses, tables, and prose |
 | `monsters` | 336 | Stat blocks, traits, actions, attacks, and ability scores |
-| **Total** | **2,107** | **18,047 in-scope, non-blank source lines covered** |
+| **Total** | **2,226** | **18,016 in-scope, non-blank source lines covered** |
 
 ## Data model and guarantees
 
@@ -110,16 +121,17 @@ The project is designed for source-backed reference and retrieval workloads:
 
 - **Stable identity.** Every entity has a lowercase-kebab-case canonical `@id` under `https://cheeleong.dev/graph20/` and an `@type` defined by the shared context.
 - **Graph-safe links.** Semantic relationships use `{ "@id": "…" }` node references. `$ref` is reserved for JSON Schema composition.
-- **Source-backed relations.** Class spell-list tables use `listsSpell`; magic items use `castsSpell`; exact condition phrases use `mentionsCondition`; backgrounds use `grantsFeat`; and monster gear uses `hasGear`. Display strings remain alongside every link.
+- **Source-backed relations.** Twenty-two emitted semantic predicates cover spell lists and casting, conditions, gear, summons, areas, origin grants, catalog membership, and explicit related-rule/table links. Display strings remain alongside every link, and core incoming directions have JSON-LD reverse aliases.
+- **Typed mechanics.** Spells expose parsed range, component, duration, save, and area indexes; monsters expose decomposed identity, movement, senses, languages, categories, and spellcasting; magic items expose charge, curse, sentience, and attunement indexes; toolbox and origin records retain typed choices and links.
 - **Source-faithful prose.** `rulesText` and `description` preserve source wording. Typed sibling fields are indexes, not replacements for the prose.
 - **Physical provenance.** `sourceLocator` identifies the source chapter, section, heading, and inclusive line range. Nested class features and monster sections are locatable too.
 - **No invented values.** Extraction does not fill gaps in the source. A truncated table cell remains omitted rather than inferred.
 - **Reviewed normalization.** Source-conversion fixes are recorded in [`objects/sources/extraction-overrides.json`](objects/sources/extraction-overrides.json), including observed text, disposition, rationale, and affected records.
 - **Deterministic output.** Clean builds contain no timestamps or random ordering and must reproduce the checked-in artifacts byte for byte.
 
-The build currently reports 100% interval coverage of the 18,047 in-scope, non-blank source lines. Coverage means every line falls within at least one record locator; the separate fidelity, graph, schema, anomaly, and review gates test stronger claims.
+The generated metrics currently report 100% interval coverage of the 18,016 in-scope, non-blank source lines and 57.6% outbound semantic-link coverage across non-source entities. Coverage means every line falls within at least one record locator; the separate fidelity, graph, schema, anomaly, publication, and review gates test stronger claims.
 
-See [SPECIFICATION.md](SPECIFICATION.md) for the source boundary, extraction grammar, architecture, and acceptance criteria. [CHECKLIST.md](CHECKLIST.md) tracks the replication blueprint, and [AUDIT.md](AUDIT.md) records resolved and open audit findings.
+See [SPECIFICATION.md](SPECIFICATION.md) for the source boundary, extraction grammar, architecture, and acceptance criteria. [CHECKLIST.md](CHECKLIST.md) tracks the completed replication blueprint.
 
 ## Development
 
@@ -142,7 +154,8 @@ Generated files under `objects/` must not be edited by hand, except for `objects
 For the common extraction path:
 
 ```bash
-make extract manifest bundle llms-full search-index
+make extract manifest bundle llms llms-full search-index collection-index
+make coverage review vocab record-pages sitemap metrics
 make test validate schema
 make determinism
 ```
@@ -154,11 +167,12 @@ make determinism
 | `install` | Synchronize the locked development dependencies with uv. |
 | `extract` | Re-extract modular records from `SRD_CC_v5.2.1.md`. |
 | `manifest` / `bundle` | Rebuild the aggregate manifest and single-file graph. |
-| `llms-full` | Regenerate the recursive LLM text projection. |
+| `llms` / `llms-full` | Regenerate the manifest-derived LLM guide and recursive full projection. |
 | `search-index` / `collection-index` | Rebuild full-text search postings and compact browse metadata. |
 | `coverage` | Check interval coverage of in-scope source lines. |
 | `review` / `review-stats` | Rebuild or summarize the occurrence-level semantic review ledger. |
-| `vocab` / `sitemap` | Rebuild vocabulary documentation and the published sitemap. |
+| `vocab` / `record-pages` / `sitemap` | Rebuild vocabulary documentation, crawlable record pages, and their exact sitemap. |
+| `metrics` | Recompute asserted build, search, review, publication, and graph metrics. |
 | `anomalies` | Reject unreviewed source-conversion anomaly candidates. |
 | `fidelity` | Check locator ownership, table shape, and typed/source fidelity. |
 | `graph` | Expand JSON-LD and reject data loss or invalid IRI values. |
@@ -179,6 +193,7 @@ graph20/
 │   └── sources/           # Source metadata and extraction/review reports
 ├── systems/               # JSON-LD context and JSON Schema contracts
 ├── vocab/                 # Vocabulary browser and machine-readable terms
+├── records/               # Generated crawlable HTML record counterparts
 ├── reviews/               # Curated semantic-review policy input
 ├── scripts/               # Deterministic extraction, build, and validation tools
 ├── tests/                 # Structural regression tests

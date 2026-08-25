@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.26",
     "heading": "Sorcerer Spell List",
-    "lineStart": 4210,
-    "lineEnd": 4223
+    "lineStart": 4200,
+    "lineEnd": 4226,
+    "caption": "Level 2 Sorcerer Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-26-level-2-sorcerer-spells/"
   },
   "columns": [
     "Spell",
@@ -187,9 +191,191 @@
           "value": "C"
         }
       ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "Hold Person"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "cells": [
+        {
+          "value": "Invisibility"
+        },
+        {
+          "value": "Illusion"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "cells": [
+        {
+          "value": "Knock"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "cells": [
+        {
+          "value": "Levitate"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "cells": [
+        {
+          "value": "Magic Weapon"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "cells": [
+        {
+          "value": "Mirror Image"
+        },
+        {
+          "value": "Illusion"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "cells": [
+        {
+          "value": "Misty Step"
+        },
+        {
+          "value": "Conjuration"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "cells": [
+        {
+          "value": "Scorching Ray"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 21,
+      "cells": [
+        {
+          "value": "See Invisibility"
+        },
+        {
+          "value": "Divination"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 22,
+      "cells": [
+        {
+          "value": "Shatter"
+        },
+        {
+          "value": "Evocation"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 23,
+      "cells": [
+        {
+          "value": "Spider Climb"
+        },
+        {
+          "value": "Transmutation"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 24,
+      "cells": [
+        {
+          "value": "Suggestion"
+        },
+        {
+          "value": "Enchantment"
+        },
+        {
+          "value": "C"
+        }
+      ]
+    },
+    {
+      "position": 25,
+      "cells": [
+        {
+          "value": "Web"
+        },
+        {
+          "value": "Conjuration"
+        },
+        {
+          "value": "C"
+        }
+      ]
     }
   ],
-  "rawText": "| Spell              | School        | Special |\n| :----------------- | :------------ | :------ |\n| Alter Self         | Transmutation | C       |\n| Blindness/Deafness | Transmutation |    -    |\n| Blur               | Illusion      | C       |\n| Darkness           | Evocation     | C       |\n| Darkvision         | Transmutation |    -    |\n| Detect Thoughts    | Divination    | C       |\n| Dragon’s Breath    | Transmutation | C       |\n| Enhance Ability    | Transmutation | C       |\n| Enlarge/Reduce     | Transmutation | C       |\n| Flame Blade        | Evocation     | C       |\n| Flaming Sphere     | Evocation     | C       |\n| Gust of Wind       | Evocation     | C       |",
+  "rawText": "| Spell              | School        | Special |\n| :----------------- | :------------ | :------ |\n| Alter Self         | Transmutation | C       |\n| Blindness/Deafness | Transmutation |    -    |\n| Blur               | Illusion      | C       |\n| Darkness           | Evocation     | C       |\n| Darkvision         | Transmutation |    -    |\n| Detect Thoughts    | Divination    | C       |\n| Dragon’s Breath    | Transmutation | C       |\n| Enhance Ability    | Transmutation | C       |\n| Enlarge/Reduce     | Transmutation | C       |\n| Flame Blade        | Evocation     | C       |\n| Flaming Sphere     | Evocation     | C       |\n| Gust of Wind       | Evocation     | C       |\n| Hold Person      | Enchantment   | C       |\n| Invisibility     | Illusion      | C       |\n| Knock            | Transmutation |    -    |\n| Levitate         | Transmutation | C       |\n| Magic Weapon     | Transmutation |    -    |\n| Mirror Image     | Illusion      |    -    |\n| Misty Step       | Conjuration   |    -    |\n| Scorching Ray    | Evocation     |    -    |\n| See Invisibility | Divination    |    -    |\n| Shatter          | Evocation     |    -    |\n| Spider Climb     | Transmutation | C       |\n| Suggestion       | Enchantment   | C       |\n| Web              | Conjuration   | C       |",
   "listsSpell": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/alter-self"
@@ -226,6 +412,45 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/gust-of-wind"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/hold-person"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/invisibility"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/knock"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/levitate"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/magic-weapon"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mirror-image"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/misty-step"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/scorching-ray"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/see-invisibility"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/shatter"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/spider-climb"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/suggestion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/web"
     }
   ]
 }

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.297",
     "heading": "Scorching Ray",
-    "lineStart": 11426,
-    "lineEnd": 11437
+    "lineStart": 11397,
+    "lineEnd": 11408
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/scorching-ray/"
   },
   "level": 2,
   "school": "Evocation",
@@ -45,5 +48,21 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

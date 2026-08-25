@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.204",
     "heading": "Hypnotic Pattern",
-    "lineStart": 10036,
-    "lineEnd": 10047
+    "lineStart": 10007,
+    "lineEnd": 10018
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/hypnotic-pattern/"
   },
   "level": 3,
   "school": "Illusion",
@@ -42,9 +45,51 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "You create a twisting pattern of colors in a 30-foot Cube within range. The pattern appears for a moment and vanishes. Each creature in the area who can see the pattern must succeed on a Wisdom saving throw or have the Charmed condition for the duration. While Charmed, the creature has the Incapacitated condition and a Speed of 0."
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": true,
   "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "S, M (a pinch of confetti)",
+    "verbal": false,
+    "somatic": true,
+    "material": true,
+    "materialText": "a pinch of confetti",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cube",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+      },
+      "sourceText": "You create a twisting pattern of colors in a 30-foot Cube within range.",
+      "sizeFeet": 30
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+    }
+  ],
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"

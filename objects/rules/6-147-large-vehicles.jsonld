@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.147",
     "heading": "Large Vehicles",
-    "lineStart": 6853,
-    "lineEnd": 6855
+    "lineStart": 6826,
+    "lineEnd": 6828
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-147-large-vehicles/"
   },
   "section": "6.147",
   "rulesText": "The Airborne and Waterborne Vehicles table provides statistics for various types of large vehicles. The following notes apply."

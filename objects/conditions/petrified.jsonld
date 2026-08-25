@@ -11,10 +11,43 @@
     "chapter": "Rules Glossary",
     "section": "8.112",
     "heading": "Petrified [Condition]",
-    "lineStart": 13440,
-    "lineEnd": 13456
+    "lineStart": 13404,
+    "lineEnd": 13420
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/conditions/petrified/"
   },
   "rulesText": "While you have the Petrified condition, you experience the following effects.\n\nTurned to Inanimate Substance. You are transformed, along with any nonmagical objects you are wearing and carrying, into a solid inanimate substance (usually stone). Your weight increases by a factor of ten, and you cease aging.\n\nIncapacitated. You have the Incapacitated condition.\n\nSpeed 0. Your Speed is 0 and can't increase.\n\nAttacks Affected. Attack rolls against you have Advantage.\n\nSaving Throws Affected. You automatically fail Strength and Dexterity saving throws.\n\nResist Damage. You have Resistance to all damage.\n\nPoison Immunity. You have Immunity to the Poisoned condition.",
+  "effects": [
+    {
+      "name": "Turned to Inanimate Substance",
+      "rulesText": "You are transformed, along with any nonmagical objects you are wearing and carrying, into a solid inanimate substance (usually stone). Your weight increases by a factor of ten, and you cease aging."
+    },
+    {
+      "name": "Incapacitated",
+      "rulesText": "You have the Incapacitated condition."
+    },
+    {
+      "name": "Speed 0",
+      "rulesText": "Your Speed is 0 and can't increase."
+    },
+    {
+      "name": "Attacks Affected",
+      "rulesText": "Attack rolls against you have Advantage."
+    },
+    {
+      "name": "Saving Throws Affected",
+      "rulesText": "You automatically fail Strength and Dexterity saving throws."
+    },
+    {
+      "name": "Resist Damage",
+      "rulesText": "You have Resistance to all damage."
+    },
+    {
+      "name": "Poison Immunity",
+      "rulesText": "You have Immunity to the Poisoned condition."
+    }
+  ],
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"

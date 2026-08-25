@@ -11,8 +11,11 @@
     "chapter": "Rules Glossary",
     "section": "8.25",
     "heading": "Burrow Speed",
-    "lineStart": 12851,
-    "lineEnd": 12853
+    "lineStart": 12818,
+    "lineEnd": 12820
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-25-burrow-speed/"
   },
   "section": "8.25",
   "rulesText": "A creature that has a Burrow Speed can use that speed to move through sand, earth, mud, or ice. The creature can't burrow through solid rock unless the creature has a trait that allows it to do so. See also \"Speed.\""

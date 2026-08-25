@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.193",
     "heading": "Purple Worm",
-    "lineStart": 23987,
-    "lineEnd": 24023
+    "lineStart": 23907,
+    "lineEnd": 23943
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/purple-worm/"
   },
   "sizeTypeAlignment": "Gargantuan Monstrosity, Unaligned",
   "sizeAndType": "Gargantuan Monstrosity",
+  "size": "Gargantuan",
+  "creatureType": "Monstrosity",
+  "monsterCategory": "Monster",
   "alignment": "Unaligned",
   "armorClass": "18",
   "initiative": "+3 (13)",
@@ -75,8 +81,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.193",
         "heading": "Traits",
-        "lineStart": 24007,
-        "lineEnd": 24009
+        "lineStart": 23927,
+        "lineEnd": 23929
       }
     },
     {
@@ -86,8 +92,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.193",
         "heading": "Actions",
-        "lineStart": 24011,
-        "lineEnd": 24017
+        "lineStart": 23931,
+        "lineEnd": 23937
       }
     },
     {
@@ -97,12 +103,33 @@
         "chapter": "Monsters A-Z",
         "section": "12.193",
         "heading": "Bonus Actions",
-        "lineStart": 24019,
-        "lineEnd": 24023
+        "lineStart": 23939,
+        "lineEnd": 23943
       }
     }
   ],
   "rulesText": "Gargantuan Monstrosity, Unaligned\n\nAC 18\nInitiative +3 (13)\nHP 247 (15d20 + 90)\nSpeed 50 ft., Burrow 50 ft.\n\nSenses Blindsight 30 ft., Tremorsense 60 ft.; Passive Perception 9\nLanguages None\nCR 15 (XP 13,000; PB +5)\n\nTraits\n\nTunneler. The worm can burrow through solid rock at half its Burrow Speed and leaves a 10-foot-diameter tunnel in its wake.\n\nActions\n\nMultiattack. The worm makes one Bite attack and one Tail Stinger attack.\n\nBite. Melee Attack Roll: +14, reach 10 ft. Hit: 22 (3d8 + 9) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 19), and it has the Restrained condition until the grapple ends.\n\nTail Stinger. Melee Attack Roll: +14, reach 10 ft. Hit: 16 (2d6 + 9) Piercing damage plus 35 (10d6) Poison damage.\n\nBonus Actions\n\nSwallow. Strength Saving Throw: DC 19, one Large or smaller creature Grappled by the worm (it can have up to three creatures swallowed at a time). Failure: The target is swallowed by the worm, and the Grappled condition ends. A swallowed creature has the Blinded and Restrained conditions, has Total Cover against attacks and other effects outside the worm, and takes 17 (5d6) Acid damage at the start of each of the worm's turns.\n\nIf the worm takes 30 damage or more on a single turn from a creature inside it, the worm must succeed on a DC 21 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls in a space within 5 feet of the worm and has the Prone condition. If the worm dies, any swallowed creature no longer has the Restrained condition and can escape from the corpse using 20 feet of movement, exiting Prone.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 50
+    },
+    {
+      "mode": "Burrow",
+      "feet": 50
+    }
+  ],
+  "passivePerception": 9,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 30
+    },
+    {
+      "name": "Tremorsense",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Bite",

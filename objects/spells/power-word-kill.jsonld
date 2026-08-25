@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.268",
     "heading": "Power Word Kill",
-    "lineStart": 10987,
-    "lineEnd": 10996
+    "lineStart": 10958,
+    "lineEnd": 10967
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/power-word-kill/"
   },
   "level": 9,
   "school": "Enchantment",
@@ -53,5 +56,21 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V",
+    "verbal": true,
+    "somatic": false,
+    "material": false
+  }
 }

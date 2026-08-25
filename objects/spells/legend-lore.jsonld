@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.218",
     "heading": "Legend Lore",
-    "lineStart": 10248,
-    "lineEnd": 10261
+    "lineStart": 10219,
+    "lineEnd": 10232
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/legend-lore/"
   },
   "level": 5,
   "school": "Divination",
@@ -39,5 +42,27 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (incense worth 250+ GP, which the spell consumes, and four ivory strips worth 50+ GP each)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "incense worth 250+ GP, which the spell consumes, and four ivory strips worth 50+ GP each",
+    "consumed": true,
+    "materialCost": {
+      "text": "250 GP",
+      "currency": "GP",
+      "amount": 250
+    }
+  }
 }

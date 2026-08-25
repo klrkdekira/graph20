@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.97",
     "heading": "Dragon Scale Mail",
-    "lineStart": 15482,
-    "lineEnd": 15488
+    "lineStart": 15444,
+    "lineEnd": 15450,
+    "caption": "Dragon Scale Mail Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-97-dragon-scale-mail-table-1/"
   },
   "columns": [
     "Dragon",

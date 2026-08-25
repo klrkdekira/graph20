@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.100",
     "heading": "Create or Destroy Water",
-    "lineStart": 8387,
-    "lineEnd": 8402
+    "lineStart": 8358,
+    "lineEnd": 8373
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/create-or-destroy-water/"
   },
   "level": 1,
   "school": "Transmutation",
@@ -35,5 +38,53 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a mix of water and sand)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a mix of water and sand",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cube",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+      },
+      "sourceText": "Alternatively, the water falls as rain in a 30-foot Cube within range, extinguishing exposed flames there.",
+      "sizeFeet": 30
+    },
+    {
+      "shape": "Cube",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+      },
+      "sourceText": "Alternatively, you destroy fog in a 30-foot Cube within range.",
+      "sizeFeet": 30
+    },
+    {
+      "shape": "Cube",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+      },
+      "sourceText": "You create or destroy 10 additional gallons of water, or the size of the Cube increases by 5 feet, for each spell slot level above 1."
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+    }
+  ]
 }

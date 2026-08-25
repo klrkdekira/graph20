@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.264",
     "heading": "Wight",
-    "lineStart": 26368,
-    "lineEnd": 26407
+    "lineStart": 26282,
+    "lineEnd": 26321
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/wight/"
   },
   "sizeTypeAlignment": "Medium Undead, Neutral Evil",
   "sizeAndType": "Medium Undead",
+  "size": "Medium",
+  "creatureType": "Undead",
+  "monsterCategory": "Monster",
   "alignment": "Neutral Evil",
   "armorClass": "14",
   "initiative": "+4 (14)",
@@ -79,8 +85,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.264",
         "heading": "Traits",
-        "lineStart": 26392,
-        "lineEnd": 26394
+        "lineStart": 26306,
+        "lineEnd": 26308
       }
     },
     {
@@ -90,8 +96,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.264",
         "heading": "Actions",
-        "lineStart": 26396,
-        "lineEnd": 26407
+        "lineStart": 26310,
+        "lineEnd": 26321
       }
     }
   ],
@@ -107,6 +113,43 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 3
+    },
+    {
+      "name": "Stealth",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 13,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Common plus one other language"
+  ],
+  "damageImmunities": [
+    "Poison"
+  ],
+  "damageResistances": [
+    "Necrotic"
+  ],
+  "gearItems": [
+    {
+      "name": "Studded Leather Armor"
     }
   ],
   "attacks": [

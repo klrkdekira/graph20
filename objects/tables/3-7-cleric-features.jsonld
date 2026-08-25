@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.7",
     "heading": "Cleric Class Features",
-    "lineStart": 2062,
-    "lineEnd": 2084
+    "lineStart": 2052,
+    "lineEnd": 2074,
+    "caption": "Cleric Features"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-7-cleric-features/"
   },
   "columns": [
     "Proficiency",

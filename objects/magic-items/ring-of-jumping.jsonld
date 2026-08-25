@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.209",
     "heading": "Ring of Jumping",
-    "lineStart": 16734,
-    "lineEnd": 16738
+    "lineStart": 16690,
+    "lineEnd": 16694
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/ring-of-jumping/"
   },
   "itemCategory": "Ring",
   "rarity": "Uncommon",
@@ -23,5 +26,7 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/jump"
     }
-  ]
+  ],
+  "isCursed": false,
+  "isSentient": false
 }

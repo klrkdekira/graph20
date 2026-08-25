@@ -11,8 +11,11 @@
     "chapter": "Playing the Game",
     "section": "1.111",
     "heading": "Duration",
-    "lineStart": 847,
-    "lineEnd": 849
+    "lineStart": 845,
+    "lineEnd": 847
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-111-duration/"
   },
   "section": "1.111",
   "rulesText": "Temporary Hit Points last until they're depleted or you finish a Long Rest (see \"Rules Glossary\")."

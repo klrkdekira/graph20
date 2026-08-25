@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.283",
     "heading": "Wand of Magic Detection",
-    "lineStart": 17577,
-    "lineEnd": 17581
+    "lineStart": 17518,
+    "lineEnd": 17522
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/wand-of-magic-detection/"
   },
   "itemCategory": "Wand",
   "rarity": "Uncommon",
@@ -22,5 +25,12 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
     }
-  ]
+  ],
+  "charges": {
+    "capacityText": "3",
+    "capacity": 3,
+    "rechargeText": "The wand regains 1d3 expended charges daily at dawn."
+  },
+  "isCursed": false,
+  "isSentient": false
 }

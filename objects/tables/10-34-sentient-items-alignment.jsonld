@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.34",
     "heading": "Special Purpose",
-    "lineStart": 14732,
-    "lineEnd": 14738
+    "lineStart": 14694,
+    "lineEnd": 14700,
+    "caption": "Sentient Item's Alignment"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-34-sentient-items-alignment/"
   },
   "columns": [
     "1d100",

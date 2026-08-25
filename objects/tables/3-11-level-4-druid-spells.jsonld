@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.11",
     "heading": "Druid Spell List",
-    "lineStart": 2645,
-    "lineEnd": 2664
+    "lineStart": 2635,
+    "lineEnd": 2654,
+    "caption": "Level 4 Druid Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-11-level-4-druid-spells/"
   },
   "columns": [
     "Spell",

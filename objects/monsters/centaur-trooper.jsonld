@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.53",
     "heading": "Centaur Trooper",
-    "lineStart": 19496,
-    "lineEnd": 19527
+    "lineStart": 19419,
+    "lineEnd": 19450
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/centaur-trooper/"
   },
   "sizeTypeAlignment": "Large Fey, Neutral Good",
   "sizeAndType": "Large Fey",
+  "size": "Large",
+  "creatureType": "Fey",
+  "monsterCategory": "Monster",
   "alignment": "Neutral Good",
   "armorClass": "16",
   "initiative": "+2 (12)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.53",
         "heading": "Actions",
-        "lineStart": 19516,
-        "lineEnd": 19523
+        "lineStart": 19439,
+        "lineEnd": 19446
       }
     },
     {
@@ -88,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.53",
         "heading": "Bonus Actions",
-        "lineStart": 19525,
-        "lineEnd": 19527
+        "lineStart": 19448,
+        "lineEnd": 19450
       }
     }
   ],
@@ -103,6 +109,38 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/pike"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 50
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Athletics",
+      "bonus": 6
+    },
+    {
+      "name": "Perception",
+      "bonus": 3
+    }
+  ],
+  "passivePerception": 13,
+  "languageList": [
+    "Elvish",
+    "Sylvan"
+  ],
+  "gearItems": [
+    {
+      "name": "Breastplate"
+    },
+    {
+      "name": "Longbow"
+    },
+    {
+      "name": "Pike"
     }
   ],
   "attacks": [

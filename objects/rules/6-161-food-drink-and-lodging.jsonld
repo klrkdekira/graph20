@@ -11,11 +11,14 @@
     "chapter": "Equipment",
     "section": "6.161",
     "heading": "Food, Drink, and Lodging",
-    "lineStart": 6925,
-    "lineEnd": 6942
+    "lineStart": 6898,
+    "lineEnd": 6915
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-161-food-drink-and-lodging/"
   },
   "section": "6.161",
-  "rulesText": "The Food, Drink, and Lodging table gives prices for food and a single night's lodging. Prices for daily lodging and meals are included in your lifestyle's expenses.\n\nFood, Drink, and Lodging",
+  "rulesText": "The Food, Drink, and Lodging table gives prices for food and a single night's lodging. Prices for daily lodging and meals are included in your lifestyle's expenses.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/6-161-food-drink-and-lodging"

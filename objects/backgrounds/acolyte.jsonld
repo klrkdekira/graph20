@@ -11,8 +11,11 @@
     "chapter": "Character Origins",
     "section": "4.10",
     "heading": "Acolyte",
-    "lineStart": 5383,
-    "lineEnd": 5393
+    "lineStart": 5359,
+    "lineEnd": 5369
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/backgrounds/acolyte/"
   },
   "abilityScores": "Intelligence, Wisdom, Charisma",
   "feat": "Magic Initiate (Cleric) (see “Feats”)",
@@ -27,5 +30,30 @@
   "rulesText": "Ability Scores: Intelligence, Wisdom, Charisma\n\nFeat: Magic Initiate (Cleric) (see “Feats”)\n\nSkill Proficiencies: Insight and Religion\n\nTool Proficiency: Calligrapher's Supplies\n\nEquipment: Choose A or B: (A) Calligrapher's Supplies, Book (prayers), Holy Symbol, Parchment (10 sheets), Robe, 8 GP; or (B) 50 GP",
   "grantsFeat": {
     "@id": "https://cheeleong.dev/graph20/objects/feats/magic-initiate"
-  }
+  },
+  "skillProficiencyOptions": [
+    "Insight and Religion"
+  ],
+  "grantsTool": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/calligraphers-supplies"
+    }
+  ],
+  "grantsEquipment": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/calligraphers-supplies"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/book"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/holy-symbol"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/parchment"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/robe"
+    }
+  ]
 }

@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.24",
     "heading": "Arcana Proficiency",
-    "lineStart": 14646,
-    "lineEnd": 14648
+    "lineStart": 14608,
+    "lineEnd": 14610
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/10-24-arcana-proficiency/"
   },
   "section": "10.24",
   "rulesText": "To craft a magic item, you and any assistants must have proficiency in the Arcana skill."

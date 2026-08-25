@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.225",
     "heading": "Sphinxes",
-    "lineStart": 25025,
-    "lineEnd": 25025
+    "lineStart": 24945,
+    "lineEnd": 24945
   },
-  "section": "12.225"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-225-sphinxes/"
+  },
+  "section": "12.225",
+  "rulesText": "Sphinxes",
+  "headingOnly": true
 }

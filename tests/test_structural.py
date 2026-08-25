@@ -8,6 +8,9 @@ from __future__ import annotations
 
 import json
 import hashlib
+import re
+import shutil
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -95,13 +98,19 @@ class TestCatalogs(unittest.TestCase):
         self.assertEqual(counts["monsters"], 336)
         self.assertEqual(counts["classes"], 12)
         self.assertEqual(counts["subclasses"], 12)
+        self.assertEqual(counts["invocations"], 28)
+        self.assertEqual(counts["metamagic-options"], 10)
         self.assertEqual(counts["species"], 9)
         self.assertEqual(counts["backgrounds"], 4)
         self.assertEqual(counts["conditions"], 15)
-        self.assertEqual(counts["equipment"], 133)
-        self.assertEqual(counts["rules"], 736)
-        self.assertEqual(counts["tables"], 235)
-        self.assertEqual(sum(counts.values()), 2107)
+        self.assertEqual(counts["equipment"], 227)
+        self.assertEqual(counts["rules"], 708)
+        self.assertEqual(counts["actions"], 12)
+        self.assertEqual(counts["areas-of-effect"], 6)
+        self.assertEqual(counts["attitudes"], 3)
+        self.assertEqual(counts["hazards"], 5)
+        self.assertEqual(counts["tables"], 224)
+        self.assertEqual(sum(counts.values()), 2226)
 
     def test_class_fixture_barbarian(self):
         cls = load_json(ROOT / "objects/classes/barbarian.jsonld")
@@ -209,6 +218,7 @@ class TestCatalogs(unittest.TestCase):
     def test_truncated_ability_remains_omitted_through_clean_rebuild(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
+            shutil.copy2(ROOT / "pyproject.toml", root / "pyproject.toml")
             source = (ROOT / SOURCE_FILE).read_text(encoding="utf-8")
             observed = "| 18 (+4) | 10 (+0) | 18 (+4) | 6 (-2) | 11 (+0) | 12 (+1) |"
             truncated = "| 18 (+4) |  | 18 (+4) | 6 (-2) | 11 (+0) | 12 (+1) |"
@@ -332,6 +342,21 @@ class TestCatalogs(unittest.TestCase):
         self.assertIn("Silver Raven (Uncommon).", figurine["rulesText"])
         self.assertNotIn("Golden Lions (Rare).", giant_fly["rulesText"])
 
+        names = {table["name"] for table in records_of("tables")}
+        self.assertIn("Robe of Useful Items Patches", names)
+        self.assertIn("Sphere Interactions", names)
+        self.assertIn("Elven Lineages", names)
+        self.assertIn("Fiendish Legacies", names)
+        self.assertIn("Draconic Ancestors", names)
+        self.assertEqual(len(names), len(records_of("tables")))
+
+        overrides = load_json(ROOT / "objects/sources/extraction-overrides.json")
+        upstream = next(
+            entry for entry in overrides["overrides"]
+            if entry["id"] == "telekinesis-upstream-truncation-verified-2026-08-25"
+        )
+        self.assertEqual(upstream["status"], "verified-upstream-anomaly")
+
     def test_latent_graph_relations(self):
         relation_counts = {}
         for field in (
@@ -355,10 +380,10 @@ class TestCatalogs(unittest.TestCase):
             relation_counts,
             {
                 "listsSpell": 875,
-                "castsSpell": 54,
+                "castsSpell": 359,
                 "mentionsCondition": 506,
                 "grantsFeat": 4,
-                "hasGear": 97,
+                "hasGear": 100,
             },
         )
 
@@ -374,6 +399,40 @@ class TestCatalogs(unittest.TestCase):
         )
         assassin = load_json(ROOT / "objects/monsters/assassin.jsonld")
         self.assertEqual(len(assassin["hasGear"]), 3)
+
+        invocation = load_json(ROOT / "objects/invocations/fiendish-vigor.jsonld")
+        self.assertEqual(
+            invocation["castsSpell"],
+            [{"@id": f"{BASE}objects/spells/false-life"}],
+        )
+
+    def test_typed_glossary_and_mechanics_catalogs(self):
+        attack = load_json(ROOT / "objects/actions/attack.jsonld")
+        self.assertEqual(attack["@type"], "Action")
+        sphere = load_json(ROOT / "objects/areas-of-effect/sphere.jsonld")
+        self.assertEqual(sphere["@type"], "AreaOfEffect")
+        falling = load_json(ROOT / "objects/hazards/falling.jsonld")
+        self.assertIn("1d6", falling["rulesText"])
+
+        fireball = load_json(ROOT / "objects/spells/fireball.jsonld")
+        self.assertEqual(fireball["rangeDetails"]["distanceFeet"], 150)
+        self.assertEqual(fireball["componentDetails"]["material"], True)
+        self.assertEqual(fireball["savingThrows"][0]["ability"], "Dexterity")
+        self.assertEqual(
+            fireball["areaShapes"],
+            [{"@id": f"{BASE}objects/areas-of-effect/sphere"}],
+        )
+
+        imp = load_json(ROOT / "objects/monsters/imp.jsonld")
+        self.assertEqual(imp["size"], "Tiny")
+        self.assertEqual(imp["creatureType"], "Fiend")
+        self.assertEqual(imp["movement"][1], {"mode": "Fly", "feet": 40})
+        self.assertEqual(imp["languageList"], ["Common", "Infernal"])
+
+        supplies = load_json(ROOT / "objects/equipment/alchemists-supplies.jsonld")
+        self.assertEqual(supplies["equipmentType"], "tool")
+        self.assertEqual(supplies["weightPounds"], 8)
+        self.assertEqual(supplies["ability"], "Intelligence")
 
     def test_locator_regressions(self):
         lines = (ROOT / SOURCE_FILE).read_text(encoding="utf-8").splitlines()
@@ -486,6 +545,41 @@ class TestLlmsArtifacts(unittest.TestCase):
         page = (ROOT / "vocab/index.html").read_text(encoding="utf-8")
         for entry in vocab["classes"] + vocab["properties"]:
             self.assertIn(f'id="{entry["anchor"]}"', page)
+
+
+class TestPublication(unittest.TestCase):
+    def test_explorer_smoke_and_javascript_syntax(self):
+        markup = (ROOT / "index.html").read_text(encoding="utf-8")
+        self.assertNotIn("\x00", markup)
+        for label in (
+            "Eldritch Invocations", "Metamagic Options", "Areas of Effect",
+            "Recorded unparsed attacks", "Raw source table", "Typed indexes",
+            "Standalone HTML", "about 18 MB", "no terms were ignored",
+        ):
+            self.assertIn(label, markup)
+        scripts = re.findall(r"<script>(.*?)</script>", markup, re.S)
+        self.assertTrue(scripts)
+        if shutil.which("node"):
+            result = subprocess.run(
+                ["node", "--check", "-"],
+                input=scripts[-1],
+                text=True,
+                capture_output=True,
+            )
+            self.assertEqual(result.returncode, 0, result.stderr)
+
+    def test_crawlable_record_page_pairing(self):
+        page = ROOT / "records/spells/fireball/index.html"
+        markup = page.read_text(encoding="utf-8")
+        self.assertIn(
+            '<link rel="canonical" href="https://cheeleong.dev/graph20/records/spells/fireball/"',
+            markup,
+        )
+        self.assertIn(
+            '<link rel="alternate" type="application/ld+json" href="../../../objects/spells/fireball.jsonld"',
+            markup,
+        )
+        self.assertIn('<script type="application/ld+json">', markup)
 
 
 if __name__ == "__main__":

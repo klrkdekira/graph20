@@ -11,9 +11,28 @@
     "chapter": "Rules Glossary",
     "section": "8.41",
     "heading": "Critical Hit",
-    "lineStart": 12959,
-    "lineEnd": 12961
+    "lineStart": 12926,
+    "lineEnd": 12928
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-41-critical-hit/"
   },
   "section": "8.41",
-  "rulesText": "If you roll a 20 on the d20 for an attack roll, you score a Critical Hit, and the attack hits regardless of any modifiers or the target's AC. A Critical Hit lets you roll extra dice for the attack's damage against the target. Roll all of the attack's damage dice twice and add them together. Then add any relevant modifiers. See also \"Playing the Game\" (\"Damage and Healing\")."
+  "rulesText": "If you roll a 20 on the d20 for an attack roll, you score a Critical Hit, and the attack hits regardless of any modifiers or the target's AC. A Critical Hit lets you roll extra dice for the attack's damage against the target. Roll all of the attack's damage dice twice and add them together. Then add any relevant modifiers. See also \"Playing the Game\" (\"Damage and Healing\").",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-88-damage-and-healing"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-88-damage-and-healing"
+    }
+  ]
 }

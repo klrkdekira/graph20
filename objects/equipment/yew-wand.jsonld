@@ -1,0 +1,42 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/yew-wand",
+  "@type": "Equipment",
+  "name": "Yew wand",
+  "slug": "yew-wand",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.92",
+    "heading": "Druidic Focus (Varies)",
+    "lineStart": 6543,
+    "lineEnd": 6547,
+    "caption": "Druidic Focuses"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/yew-wand/"
+  },
+  "equipmentType": "focus",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-92-druidic-focuses"
+  },
+  "attributes": [
+    {
+      "name": "Weight",
+      "value": "1 lb."
+    },
+    {
+      "name": "Cost",
+      "value": "10 GP"
+    }
+  ],
+  "weight": "1 lb.",
+  "weightPounds": 1,
+  "cost": {
+    "text": "10 GP",
+    "currency": "GP",
+    "amount": 10
+  }
+}

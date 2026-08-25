@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.229",
     "heading": "Spirit Naga",
-    "lineStart": 25163,
-    "lineEnd": 25200
+    "lineStart": 25083,
+    "lineEnd": 25120
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/spirit-naga/"
   },
   "sizeTypeAlignment": "Large Fiend, Chaotic Evil",
   "sizeAndType": "Large Fiend",
+  "size": "Large",
+  "creatureType": "Fiend",
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "17",
   "initiative": "+3 (13)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.229",
         "heading": "Traits",
-        "lineStart": 25184,
-        "lineEnd": 25186
+        "lineStart": 25104,
+        "lineEnd": 25106
       }
     },
     {
@@ -87,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.229",
         "heading": "Actions",
-        "lineStart": 25188,
-        "lineEnd": 25200
+        "lineStart": 25108,
+        "lineEnd": 25120
       }
     }
   ],
@@ -99,6 +105,99 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "passivePerception": 12,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Abyssal",
+    "Common"
+  ],
+  "damageImmunities": [
+    "Poison"
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The naga casts one of the following spells, requiring no Somatic or Material components and using Intelligence as the spellcasting ability (spell save DC 14):\n\nAt Will: Detect Magic, Mage Hand, Minor Illusion, Water Breathing\n\n2/Day Each: Detect Thoughts, Dimension Door, Hold Person (level 3 version), Lightning Bolt (level 4 version)",
+      "path": "statSections[1].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Detect Magic, Mage Hand, Minor Illusion, Water Breathing",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/mage-hand"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/minor-illusion"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/water-breathing"
+            }
+          ]
+        },
+        {
+          "frequency": "2/Day Each",
+          "spellsText": "Detect Thoughts, Dimension Door, Hold Person (level 3 version), Lightning Bolt (level 4 version)",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/detect-thoughts"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/dimension-door"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/hold-person"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/lightning-bolt"
+            }
+          ]
+        }
+      ],
+      "ability": "Intelligence",
+      "saveDC": 14
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mage-hand"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/minor-illusion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/water-breathing"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-thoughts"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dimension-door"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/hold-person"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/lightning-bolt"
     }
   ],
   "attacks": [

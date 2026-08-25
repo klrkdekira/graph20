@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.293",
     "heading": "Revivify",
-    "lineStart": 11378,
-    "lineEnd": 11387
+    "lineStart": 11349,
+    "lineEnd": 11358
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/revivify/"
   },
   "level": 3,
   "school": "Necromancy",
@@ -43,5 +46,27 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a diamond worth 300+ GP, which the spell consumes)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a diamond worth 300+ GP, which the spell consumes",
+    "consumed": true,
+    "materialCost": {
+      "text": "300 GP",
+      "currency": "GP",
+      "amount": 300
+    }
+  }
 }

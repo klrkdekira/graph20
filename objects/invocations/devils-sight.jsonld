@@ -1,0 +1,26 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/invocations/devils-sight",
+  "@type": "EldritchInvocation",
+  "name": "Devil's Sight",
+  "slug": "devils-sight",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.28",
+    "heading": "Devil's Sight",
+    "lineStart": 4534,
+    "lineEnd": 4538
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/invocations/devils-sight/"
+  },
+  "prerequisite": "Level 2+ Warlock",
+  "repeatable": false,
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+  },
+  "rulesText": "Prerequisite: Level 2+ Warlock\n\nYou can see normally in Dim Light and Darkness - both magical and nonmagical - within 120 feet of yourself."
+}

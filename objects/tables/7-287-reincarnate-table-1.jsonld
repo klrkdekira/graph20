@@ -11,8 +11,12 @@
     "chapter": "Spells",
     "section": "7.287",
     "heading": "Reincarnate",
-    "lineStart": 11299,
-    "lineEnd": 11305
+    "lineStart": 11270,
+    "lineEnd": 11276,
+    "caption": "Reincarnate Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/7-287-reincarnate-table-1/"
   },
   "columns": [
     "1d10",

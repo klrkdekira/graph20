@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.33",
     "heading": "Giant Crocodile",
-    "lineStart": 27465,
-    "lineEnd": 27494
+    "lineStart": 27379,
+    "lineEnd": 27408
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/giant-crocodile/"
   },
   "sizeTypeAlignment": "Huge Beast, Unaligned",
   "sizeAndType": "Huge Beast",
+  "size": "Huge",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "14",
   "initiative": "-1 (9)",
@@ -76,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.33",
         "heading": "Traits",
-        "lineStart": 27484,
-        "lineEnd": 27486
+        "lineStart": 27398,
+        "lineEnd": 27400
       }
     },
     {
@@ -87,12 +93,29 @@
         "chapter": "Animals",
         "section": "13.33",
         "heading": "Actions",
-        "lineStart": 27488,
-        "lineEnd": 27494
+        "lineStart": 27402,
+        "lineEnd": 27408
       }
     }
   ],
   "rulesText": "Huge Beast, Unaligned\n\nAC 14\nInitiative -1 (9)\nHP 85 (9d12 + 27)\nSpeed 30 ft., Swim 50 ft.\n\nSkills Stealth +5\nSenses Passive Perception 10\nLanguages None\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nHold Breath. The crocodile can hold its breath for 1 hour.\n\nActions\n\nMultiattack. The crocodile makes one Bite attack and one Tail attack.\n\nBite. Melee Attack Roll: +8, reach 5 ft. Hit: 21 (3d10 + 5) Piercing damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 15). While Grappled, the target has the Restrained condition and can't be targeted by the crocodile's Tail.\n\nTail. Melee Attack Roll: +8, reach 10 ft. Hit: 18 (3d8 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Swim",
+      "feet": 50
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Stealth",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 10,
   "attacks": [
     {
       "name": "Bite",

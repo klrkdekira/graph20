@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.11",
     "heading": "Druid Spell List",
-    "lineStart": 2562,
-    "lineEnd": 2574
+    "lineStart": 2552,
+    "lineEnd": 2564,
+    "caption": "Cantrips (Level 0 Druid Spells)"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-11-cantrips-level-0-druid-spells/"
   },
   "columns": [
     "Spell",

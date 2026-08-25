@@ -11,17 +11,17 @@
     "chapter": "Classes",
     "section": "3.5",
     "heading": "Bard Spell List",
-    "lineStart": 1821,
-    "lineEnd": 2005
+    "lineStart": 1814,
+    "lineEnd": 1995
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/3-5-bard-spell-list/"
   },
   "section": "3.5",
-  "rulesText": "This section presents the Bard spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, C means the spell requires Concentration, R means it's a Ritual, and M means it requires a specific Material component.\n\nCantrips (Level 0 Bard Spells)\n\nLevel 1 Bard Spells\n\nLevel 2 Bard Spells\n\nLevel 3 Bard Spells\n\nLevel 4 Bard Spells\n\nLevel 5 Bard Spells\n\nLevel 6 Bard Spells\n\nLevel 7 Bard Spells\n\nLevel 8 Bard Spells\n\nLevel 9 Bard Spells",
+  "rulesText": "This section presents the Bard spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, C means the spell requires Concentration, R means it's a Ritual, and M means it requires a specific Material component.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/3-5-cantrips-level-0-bard-spells"
-    },
-    {
-      "@id": "https://cheeleong.dev/graph20/objects/tables/3-5-cantrips-level-0-bard-spells-2"
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/3-5-level-1-bard-spells"

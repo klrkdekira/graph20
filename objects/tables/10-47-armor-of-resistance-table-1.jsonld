@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.47",
     "heading": "Armor of Resistance",
-    "lineStart": 14909,
-    "lineEnd": 14915
+    "lineStart": 14871,
+    "lineEnd": 14877,
+    "caption": "Armor of Resistance Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-47-armor-of-resistance-table-1/"
   },
   "columns": [
     "1d10",

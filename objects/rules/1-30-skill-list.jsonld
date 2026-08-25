@@ -14,6 +14,9 @@
     "lineStart": 302,
     "lineEnd": 304
   },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-30-skill-list/"
+  },
   "section": "1.30",
   "rulesText": "The skills are shown on the Skills table, which notes example uses for each skill proficiency as well as the ability check the skill most often applies to."
 }

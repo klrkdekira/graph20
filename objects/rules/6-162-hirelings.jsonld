@@ -11,11 +11,14 @@
     "chapter": "Equipment",
     "section": "6.162",
     "heading": "Hirelings",
-    "lineStart": 6944,
-    "lineEnd": 6954
+    "lineStart": 6917,
+    "lineEnd": 6927
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-162-hirelings/"
   },
   "section": "6.162",
-  "rulesText": "Skilled hirelings include anyone hired to perform a service that involves a proficiency (including weapon, tool, or skill): a mercenary, an artisan, a scribe, or the like. The pay shown on the Hirelings table is a minimum; some expert hirelings require more pay. Untrained hirelings are hired for work that requires no particular proficiencies; they include laborers and porters.\n\nHirelings",
+  "rulesText": "Skilled hirelings include anyone hired to perform a service that involves a proficiency (including weapon, tool, or skill): a mercenary, an artisan, a scribe, or the like. The pay shown on the Hirelings table is a minimum; some expert hirelings require more pay. Untrained hirelings are hired for work that requires no particular proficiencies; they include laborers and porters.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/6-162-hirelings"

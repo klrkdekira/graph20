@@ -1,0 +1,31 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/invocations/eldritch-smite",
+  "@type": "EldritchInvocation",
+  "name": "Eldritch Smite",
+  "slug": "eldritch-smite",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.28",
+    "heading": "Eldritch Smite",
+    "lineStart": 4550,
+    "lineEnd": 4556
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/invocations/eldritch-smite/"
+  },
+  "prerequisite": "Level 5+ Warlock, Pact of the Blade Invocation",
+  "repeatable": false,
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+  },
+  "rulesText": "Prerequisite: Level 5+ Warlock, Pact of the Blade Invocation\n\nOnce per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra 1d8 Force damage to the target,\n\nplus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
+    }
+  ]
+}

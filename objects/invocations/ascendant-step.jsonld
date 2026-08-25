@@ -1,0 +1,31 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/invocations/ascendant-step",
+  "@type": "EldritchInvocation",
+  "name": "Ascendant Step",
+  "slug": "ascendant-step",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.28",
+    "heading": "Ascendant Step",
+    "lineStart": 4528,
+    "lineEnd": 4532
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/invocations/ascendant-step/"
+  },
+  "prerequisite": "Level 5+ Warlock",
+  "repeatable": false,
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+  },
+  "rulesText": "Prerequisite: Level 5+ Warlock\n\nYou can cast Levitate on yourself without expending a spell slot.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/levitate"
+    }
+  ]
+}

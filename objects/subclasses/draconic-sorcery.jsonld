@@ -11,8 +11,11 @@
     "chapter": "Classes",
     "section": "3.27",
     "heading": "Sorcerer Subclass: Draconic Sorcery",
-    "lineStart": 4352,
-    "lineEnd": 4393
+    "lineStart": 4339,
+    "lineEnd": 4380
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/subclasses/draconic-sorcery/"
   },
   "parentClass": {
     "@id": "https://cheeleong.dev/graph20/objects/classes/sorcerer"
@@ -28,20 +31,20 @@
         "chapter": "Classes",
         "section": "3.25",
         "heading": "Level 3: Draconic Resilience",
-        "lineStart": 4358,
-        "lineEnd": 4362
+        "lineStart": 4345,
+        "lineEnd": 4349
       }
     },
     {
       "level": 3,
       "name": "Draconic Spells",
-      "rulesText": "When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed spells prepared.\n\nDraconic Spells",
+      "rulesText": "When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed spells prepared.",
       "sourceLocator": {
         "chapter": "Classes",
         "section": "3.25",
         "heading": "Level 3: Draconic Spells",
-        "lineStart": 4364,
-        "lineEnd": 4375
+        "lineStart": 4351,
+        "lineEnd": 4362
       },
       "relatedTables": [
         {
@@ -57,8 +60,8 @@
         "chapter": "Classes",
         "section": "3.25",
         "heading": "Level 6: Elemental Affinity",
-        "lineStart": 4377,
-        "lineEnd": 4381
+        "lineStart": 4364,
+        "lineEnd": 4368
       }
     },
     {
@@ -69,8 +72,8 @@
         "chapter": "Classes",
         "section": "3.25",
         "heading": "Level 14: Dragon Wings",
-        "lineStart": 4383,
-        "lineEnd": 4387
+        "lineStart": 4370,
+        "lineEnd": 4374
       }
     },
     {
@@ -81,8 +84,8 @@
         "chapter": "Classes",
         "section": "3.25",
         "heading": "Level 18: Dragon Companion",
-        "lineStart": 4389,
-        "lineEnd": 4393
+        "lineStart": 4376,
+        "lineEnd": 4380
       }
     }
   ]

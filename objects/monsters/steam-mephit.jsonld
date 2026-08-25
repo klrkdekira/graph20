@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.164",
     "heading": "Steam Mephit",
-    "lineStart": 23077,
-    "lineEnd": 23107
+    "lineStart": 22997,
+    "lineEnd": 23027
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/steam-mephit/"
   },
   "sizeTypeAlignment": "Small Elemental, Neutral Evil",
   "sizeAndType": "Small Elemental",
+  "size": "Small",
+  "creatureType": "Elemental",
+  "monsterCategory": "Monster",
   "alignment": "Neutral Evil",
   "armorClass": "10",
   "initiative": "+0 (10)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.164",
         "heading": "Traits",
-        "lineStart": 23097,
-        "lineEnd": 23101
+        "lineStart": 23017,
+        "lineEnd": 23021
       }
     },
     {
@@ -87,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.164",
         "heading": "Actions",
-        "lineStart": 23103,
-        "lineEnd": 23107
+        "lineStart": 23023,
+        "lineEnd": 23027
       }
     }
   ],
@@ -100,6 +106,37 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Fly",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Stealth",
+      "bonus": 2
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Primordial (Aquan",
+    "Ignan)"
+  ],
+  "damageImmunities": [
+    "Fire",
+    "Poison"
   ],
   "attacks": [
     {

@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.32",
     "heading": "Communication",
-    "lineStart": 14718,
-    "lineEnd": 14720
+    "lineStart": 14680,
+    "lineEnd": 14682
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/10-32-communication/"
   },
   "section": "10.32",
   "rulesText": "A sentient item communicates by sharing its emotions, broadcasting its thoughts telepathically, or speaking aloud. You can choose how it communicates or roll on the Sentient Item's Communication table."

@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.205",
     "heading": "Sahuagin",
-    "lineStart": 24404,
-    "lineEnd": 24404
+    "lineStart": 24324,
+    "lineEnd": 24324
   },
-  "section": "12.205"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-205-sahuagin/"
+  },
+  "section": "12.205",
+  "rulesText": "Sahuagin",
+  "headingOnly": true
 }

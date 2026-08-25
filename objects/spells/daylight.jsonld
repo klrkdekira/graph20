@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.107",
     "heading": "Daylight",
-    "lineStart": 8500,
-    "lineEnd": 8515
+    "lineStart": 8471,
+    "lineEnd": 8486
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/daylight/"
   },
   "level": 3,
   "school": "Evocation",
@@ -47,5 +50,50 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "1 hour",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "For the duration, sunlight spreads from a point within range and fills a 60-foot-radius Sphere.",
+      "radiusFeet": 60
+    },
+    {
+      "shape": "Emanation",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+      },
+      "sourceText": "Alternatively, you cast the spell on an object that isn't being worn or carried, causing the sunlight to fill a 60-foot Emanation originating from that",
+      "sizeFeet": 60
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/emanation"
+    }
+  ]
 }

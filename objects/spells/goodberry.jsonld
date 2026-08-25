@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.179",
     "heading": "Goodberry",
-    "lineStart": 9661,
-    "lineEnd": 9672
+    "lineStart": 9632,
+    "lineEnd": 9643
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/goodberry/"
   },
   "level": 1,
   "school": "Conjuration",
@@ -35,5 +38,25 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "24 hours",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 24,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a sprig of mistletoe)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a sprig of mistletoe",
+    "consumed": false
+  }
 }

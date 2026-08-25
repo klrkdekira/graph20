@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.9",
     "heading": "Heavy",
-    "lineStart": 5921,
-    "lineEnd": 5923
+    "lineStart": 5897,
+    "lineEnd": 5899
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-9-heavy/"
   },
   "section": "6.9",
   "rulesText": "You have Disadvantage on attack rolls with a Heavy weapon if it's a Melee weapon and your Strength score isn't at least 13 or if it's a Ranged weapon and your Dexterity score isn't at least 13."

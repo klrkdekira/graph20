@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.314",
     "heading": "Simulacrum",
-    "lineStart": 11679,
-    "lineEnd": 11694
+    "lineStart": 11650,
+    "lineEnd": 11665
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/simulacrum/"
   },
   "level": 7,
   "school": "Illusion",
@@ -31,5 +34,27 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Until dispelled",
+    "concentration": false,
+    "kind": "UntilDispelled"
+  },
+  "componentDetails": {
+    "text": "V, S, M (powdered ruby worth 1,500+ GP, which the spell consumes)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "powdered ruby worth 1,500+ GP, which the spell consumes",
+    "consumed": true,
+    "materialCost": {
+      "text": "1,500 GP",
+      "currency": "GP",
+      "amount": 1500
+    }
+  }
 }

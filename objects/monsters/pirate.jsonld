@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.185",
     "heading": "Pirate",
-    "lineStart": 23720,
-    "lineEnd": 23745
+    "lineStart": 23640,
+    "lineEnd": 23665
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/pirate/"
   },
   "sizeTypeAlignment": "Medium or Small Humanoid, Neutral",
   "sizeAndType": "Medium or Small Humanoid",
+  "size": "Medium or Small",
+  "creatureType": "Humanoid",
+  "monsterCategory": "Monster",
   "alignment": "Neutral",
   "armorClass": "14",
   "initiative": "+5 (15)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.185",
         "heading": "Actions",
-        "lineStart": 23739,
-        "lineEnd": 23745
+        "lineStart": 23659,
+        "lineEnd": 23665
       }
     }
   ],
@@ -88,6 +94,25 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/leather-armor"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 11,
+  "languageList": [
+    "Common plus one other language"
+  ],
+  "gearItems": [
+    {
+      "name": "Daggers",
+      "quantity": 6
+    },
+    {
+      "name": "Leather Armor"
     }
   ],
   "attacks": [

@@ -11,10 +11,23 @@
     "chapter": "Rules Glossary",
     "section": "8.31",
     "heading": "Charmed [Condition]",
-    "lineStart": 12887,
-    "lineEnd": 12893
+    "lineStart": 12854,
+    "lineEnd": 12860
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/conditions/charmed/"
   },
   "rulesText": "While you have the Charmed condition, you experience the following effects.\n\nCan't Harm the Charmer. You can't attack the charmer or target the charmer with damaging abilities or magical effects.\n\nSocial Advantage. The charmer has Advantage on any ability check to interact with you socially.",
+  "effects": [
+    {
+      "name": "Can't Harm the Charmer",
+      "rulesText": "You can't attack the charmer or target the charmer with damaging abilities or magical effects."
+    },
+    {
+      "name": "Social Advantage",
+      "rulesText": "The charmer has Advantage on any ability check to interact with you socially."
+    }
+  ],
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/charmed"

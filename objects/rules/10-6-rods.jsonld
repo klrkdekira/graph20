@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.6",
     "heading": "Rods",
-    "lineStart": 14530,
-    "lineEnd": 14534
+    "lineStart": 14492,
+    "lineEnd": 14496
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/10-6-rods/"
   },
   "section": "10.6",
   "rulesText": "An item in the Rod category is a scepter usually made of metal, wood, or bone. A typical rod weighs 2 to 5 pounds.\n\nUnless its description notes otherwise, a rod can be used as an Arcane Focus."

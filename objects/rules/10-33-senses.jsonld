@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.33",
     "heading": "Senses",
-    "lineStart": 14722,
-    "lineEnd": 14724
+    "lineStart": 14684,
+    "lineEnd": 14686
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/10-33-senses/"
   },
   "section": "10.33",
   "rulesText": "A sentient item can perceive its surroundings out to a limited range. You can choose its senses or roll on the Sentient Item's Senses table."

@@ -12,7 +12,11 @@
     "section": "1.4",
     "heading": "The Six Abilities",
     "lineStart": 55,
-    "lineEnd": 62
+    "lineEnd": 62,
+    "caption": "Ability Descriptions"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/1-4-ability-descriptions/"
   },
   "columns": [
     "Ability",

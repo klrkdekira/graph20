@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.39",
     "heading": "Cartographer's Tools (15 GP)",
-    "lineStart": 6144,
-    "lineEnd": 6150
+    "lineStart": 6120,
+    "lineEnd": 6126
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-39-cartographers-tools-15-gp/"
   },
   "section": "6.39",
   "rulesText": "Ability: Wisdom Weight: 6 lb.\n\nUtilize: Draft a map of a small area (DC 15)\n\nCraft: Map"

@@ -16,19 +16,23 @@ PIPELINE = [
     "extract_srd.py",
     "build_manifest.py",
     "build_bundle.py",
+    "build_llms.py",
     "build_llms_full.py",
     "build_search_index.py",
     "build_collection_indexes.py",
     "build_coverage.py",
     "build_review_ledger.py",
     "build_vocab.py",
+    "build_record_pages.py",
     "build_sitemap.py",
+    "build_metrics.py",
 ]
-TOP_LEVEL_ARTIFACTS = ["llms-full.txt", "sitemap.xml"]
+TOP_LEVEL_ARTIFACTS = ["llms.txt", "llms-full.txt", "sitemap.xml"]
 
 
 def build_in(workdir: Path) -> Path:
     shutil.copy2(ROOT / SOURCE_FILE, workdir / SOURCE_FILE)
+    shutil.copy2(ROOT / "pyproject.toml", workdir / "pyproject.toml")
     shutil.copytree(ROOT / "scripts", workdir / "scripts")
     shutil.copytree(ROOT / "systems", workdir / "systems")
     shutil.copytree(ROOT / "reviews", workdir / "reviews")
@@ -72,6 +76,11 @@ def main():
         mismatches.extend(f"vocab/{item}" for item in vocab_mismatches)
         mismatches.extend(f"checked-in vocab/{item}" for item in checked_vocab)
         total += vocab_total + checked_vocab_total
+        record_mismatches, record_total = compare(out_a / "records", out_b / "records")
+        checked_records, checked_record_total = compare(out_a / "records", ROOT / "records")
+        mismatches.extend(f"records/{item}" for item in record_mismatches)
+        mismatches.extend(f"checked-in records/{item}" for item in checked_records)
+        total += record_total + checked_record_total
         for artifact in TOP_LEVEL_ARTIFACTS:
             if not filecmp.cmp(out_a / artifact, out_b / artifact, shallow=False):
                 mismatches.append(artifact)

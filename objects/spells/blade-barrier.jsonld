@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.60",
     "heading": "Blade Barrier",
-    "lineStart": 7756,
-    "lineEnd": 7767
+    "lineStart": 7727,
+    "lineEnd": 7738
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/blade-barrier/"
   },
   "level": 6,
   "school": "Evocation",
@@ -30,6 +33,16 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "Any creature in the wall's space makes a Dexterity saving throw, taking 6d10 Force damage on a failed save or half as much damage on a successful one. A creature also makes that save if it enters the wall's space or ends it turn there. A creature makes that save only once per turn.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Force",
@@ -42,5 +55,24 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "90 feet",
+    "kind": "Distance",
+    "distanceFeet": 90
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

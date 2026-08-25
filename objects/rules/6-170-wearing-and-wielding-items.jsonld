@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.170",
     "heading": "Wearing and Wielding Items",
-    "lineStart": 7008,
-    "lineEnd": 7012
+    "lineStart": 6981,
+    "lineEnd": 6985
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-170-wearing-and-wielding-items/"
   },
   "section": "6.170",
   "rulesText": "Using a magic item's properties might mean wearing or wielding it. A magic item meant to be worn must be donned in the intended fashion: boots go on feet, gloves on hands, hats and helmets on a head, and rings on a finger. Magic armor must be donned, a Shield strapped to the arm, a cloak fastened about the shoulders. A weapon must be held.\n\nIn most cases, a magic item that's meant to be worn can fit a creature regardless of size or build. Magic garments are made to be easily adjustable, or they magically adjust themselves to the wearer."

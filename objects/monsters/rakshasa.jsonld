@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.195",
     "heading": "Rakshasa",
-    "lineStart": 24062,
-    "lineEnd": 24103
+    "lineStart": 23982,
+    "lineEnd": 24023
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/rakshasa/"
   },
   "sizeTypeAlignment": "Medium Fiend, Lawful Evil",
   "sizeAndType": "Medium Fiend",
+  "size": "Medium",
+  "creatureType": "Fiend",
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "17",
   "initiative": "+8 (18)",
@@ -78,8 +84,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.195",
         "heading": "Traits",
-        "lineStart": 24085,
-        "lineEnd": 24089
+        "lineStart": 24005,
+        "lineEnd": 24009
       }
     },
     {
@@ -89,8 +95,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.195",
         "heading": "Actions",
-        "lineStart": 24091,
-        "lineEnd": 24103
+        "lineStart": 24011,
+        "lineEnd": 24023
       }
     }
   ],
@@ -101,6 +107,119 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Deception",
+      "bonus": 10
+    },
+    {
+      "name": "Insight",
+      "bonus": 8
+    },
+    {
+      "name": "Perception",
+      "bonus": 8
+    }
+  ],
+  "passivePerception": 18,
+  "senseModes": [
+    {
+      "name": "Truesight",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Common",
+    "Infernal"
+  ],
+  "damageVulnerabilities": [
+    "Piercing"
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The rakshasa casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 18):\n\nAt Will: Detect Magic, Detect Thoughts, Disguise Self, Mage Hand, Minor Illusion\n\n1/Day Each: Fly, Invisibility, Major Image, Plane Shift",
+      "path": "statSections[1].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Detect Magic, Detect Thoughts, Disguise Self, Mage Hand, Minor Illusion",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/detect-thoughts"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/disguise-self"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/mage-hand"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/minor-illusion"
+            }
+          ]
+        },
+        {
+          "frequency": "1/Day Each",
+          "spellsText": "Fly, Invisibility, Major Image, Plane Shift",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/fly"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/invisibility"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/major-image"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/plane-shift"
+            }
+          ]
+        }
+      ],
+      "ability": "Charisma",
+      "saveDC": 18
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-thoughts"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/disguise-self"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/mage-hand"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/minor-illusion"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/fly"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/invisibility"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/major-image"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/plane-shift"
     }
   ],
   "attacks": [

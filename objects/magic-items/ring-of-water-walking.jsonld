@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.222",
     "heading": "Ring of Water Walking",
-    "lineStart": 16858,
-    "lineEnd": 16862
+    "lineStart": 16814,
+    "lineEnd": 16818
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/ring-of-water-walking/"
   },
   "itemCategory": "Ring",
   "rarity": "Uncommon",
@@ -22,5 +25,7 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/water-walk"
     }
-  ]
+  ],
+  "isCursed": false,
+  "isSentient": false
 }

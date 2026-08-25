@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.115",
     "heading": "Gray Ooze",
-    "lineStart": 21522,
-    "lineEnd": 21555
+    "lineStart": 21442,
+    "lineEnd": 21475
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/gray-ooze/"
   },
   "sizeTypeAlignment": "Medium Ooze, Unaligned",
   "sizeAndType": "Medium Ooze",
+  "size": "Medium",
+  "creatureType": "Ooze",
+  "monsterCategory": "Monster",
   "alignment": "Unaligned",
   "armorClass": "9",
   "initiative": "-2 (13)",
@@ -78,8 +84,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.115",
         "heading": "Traits",
-        "lineStart": 21545,
-        "lineEnd": 21551
+        "lineStart": 21465,
+        "lineEnd": 21471
       }
     },
     {
@@ -89,8 +95,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.115",
         "heading": "Actions",
-        "lineStart": 21553,
-        "lineEnd": 21555
+        "lineStart": 21473,
+        "lineEnd": 21475
       }
     }
   ],
@@ -120,6 +126,34 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 10
+    },
+    {
+      "mode": "Climb",
+      "feet": 10
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Stealth",
+      "bonus": 2
+    }
+  ],
+  "passivePerception": 8,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 60
+    }
+  ],
+  "damageResistances": [
+    "Acid",
+    "Cold",
+    "Fire"
   ],
   "attacks": [
     {

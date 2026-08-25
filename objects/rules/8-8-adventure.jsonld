@@ -11,9 +11,22 @@
     "chapter": "Rules Glossary",
     "section": "8.8",
     "heading": "Adventure",
-    "lineStart": 12729,
-    "lineEnd": 12731
+    "lineStart": 12696,
+    "lineEnd": 12698
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-8-adventure/"
   },
   "section": "8.8",
-  "rulesText": "An adventure is a series of encounters. A story emerges through playing them. See also \"Encounter.\""
+  "rulesText": "An adventure is a series of encounters. A story emerges through playing them. See also \"Encounter.\"",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-64-encounter"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-64-encounter"
+    }
+  ]
 }

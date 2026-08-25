@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.68",
     "heading": "Panther",
-    "lineStart": 28426,
-    "lineEnd": 28451
+    "lineStart": 28337,
+    "lineEnd": 28362
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/panther/"
   },
   "sizeTypeAlignment": "Medium Beast, Unaligned",
   "sizeAndType": "Medium Beast",
+  "size": "Medium",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "13",
   "initiative": "+3 (13)",
@@ -75,8 +81,8 @@
         "chapter": "Animals",
         "section": "13.68",
         "heading": "Actions",
-        "lineStart": 28445,
-        "lineEnd": 28447
+        "lineStart": 28356,
+        "lineEnd": 28358
       }
     },
     {
@@ -86,12 +92,39 @@
         "chapter": "Animals",
         "section": "13.68",
         "heading": "Bonus Actions",
-        "lineStart": 28449,
-        "lineEnd": 28451
+        "lineStart": 28360,
+        "lineEnd": 28362
       }
     }
   ],
   "rulesText": "Medium Beast, Unaligned\n\nAC 13\nInitiative +3 (13)\nHP 13 (3d8)\nSpeed 50 ft., Climb 40 ft.\n\nSkills Perception +4, Stealth +7\nSenses Darkvision 60 ft.; Passive Perception 14\nLanguages None\nCR 1/4 (XP 50; PB +2)\n\nActions\n\nRend. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Slashing damage.\n\nBonus Actions\n\nNimble Escape. The panther takes the Disengage or Hide action.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 50
+    },
+    {
+      "mode": "Climb",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 4
+    },
+    {
+      "name": "Stealth",
+      "bonus": 7
+    }
+  ],
+  "passivePerception": 14,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
   "attacks": [
     {
       "name": "Rend",

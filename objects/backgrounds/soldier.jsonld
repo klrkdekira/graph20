@@ -11,8 +11,11 @@
     "chapter": "Character Origins",
     "section": "4.13",
     "heading": "Soldier",
-    "lineStart": 5419,
-    "lineEnd": 5429
+    "lineStart": 5395,
+    "lineEnd": 5405
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/backgrounds/soldier/"
   },
   "abilityScores": "Strength, Dexterity, Constitution",
   "feat": "Savage Attacker (see “Feats”)",
@@ -27,5 +30,33 @@
   "rulesText": "Ability Scores: Strength, Dexterity, Constitution\n\nFeat: Savage Attacker (see “Feats”)\n\nSkill Proficiencies: Athletics and Intimidation\n\nTool Proficiency: Choose one kind of Gaming Set (see \"Equipment\")\n\nEquipment: Choose A or B: (A) Spear, Shortbow, 20 Arrows, Gaming Set (same as above), Healer's Kit, Quiver, Traveler's Clothes, 14 GP; or (B) 50 GP",
   "grantsFeat": {
     "@id": "https://cheeleong.dev/graph20/objects/feats/savage-attacker"
-  }
+  },
+  "skillProficiencyOptions": [
+    "Athletics and Intimidation"
+  ],
+  "grantsTool": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/gaming-set"
+    }
+  ],
+  "grantsEquipment": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/spear"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/shortbow"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/arrows"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/gaming-set"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/healers-kit"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/equipment/quiver"
+    }
+  ]
 }

@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.276",
     "heading": "Vicious Weapon",
-    "lineStart": 17509,
-    "lineEnd": 17513
+    "lineStart": 17450,
+    "lineEnd": 17454
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/vicious-weapon/"
   },
   "itemCategory": "Weapon",
   "categoryDetail": "Any Simple or Martial",
   "rarity": "Rare",
   "requiresAttunement": false,
-  "rulesText": "Weapon (Any Simple or Martial), Rare\n\nThis magic weapon deals an extra 2d6 damage to any creature it hits. This extra damage is of the same type as the weapon's normal damage."
+  "rulesText": "Weapon (Any Simple or Martial), Rare\n\nThis magic weapon deals an extra 2d6 damage to any creature it hits. This extra damage is of the same type as the weapon's normal damage.",
+  "isCursed": false,
+  "isSentient": false
 }

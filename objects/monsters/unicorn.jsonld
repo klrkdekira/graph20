@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.244",
     "heading": "Unicorn",
-    "lineStart": 25673,
-    "lineEnd": 25726
+    "lineStart": 25593,
+    "lineEnd": 25646
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/unicorn/"
   },
   "sizeTypeAlignment": "Large Celestial, Lawful Good",
   "sizeAndType": "Large Celestial",
+  "size": "Large",
+  "creatureType": "Celestial",
+  "monsterCategory": "Monster",
   "alignment": "Lawful Good",
   "armorClass": "12",
   "initiative": "+8 (18)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.244",
         "heading": "Traits",
-        "lineStart": 25694,
-        "lineEnd": 25698
+        "lineStart": 25614,
+        "lineEnd": 25618
       }
     },
     {
@@ -87,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.244",
         "heading": "Actions",
-        "lineStart": 25700,
-        "lineEnd": 25712
+        "lineStart": 25620,
+        "lineEnd": 25632
       }
     },
     {
@@ -98,8 +104,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.244",
         "heading": "Bonus Actions",
-        "lineStart": 25714,
-        "lineEnd": 25716
+        "lineStart": 25634,
+        "lineEnd": 25636
       }
     },
     {
@@ -109,8 +115,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.244",
         "heading": "Legendary Actions",
-        "lineStart": 25718,
-        "lineEnd": 25726
+        "lineStart": 25638,
+        "lineEnd": 25646
       }
     }
   ],
@@ -124,6 +130,95 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 50
+    }
+  ],
+  "passivePerception": 13,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Celestial",
+    "Elvish",
+    "Sylvan",
+    "telepathy 120 ft."
+  ],
+  "damageImmunities": [
+    "Poison"
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The unicorn casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 14):\n\nAt Will: Detect Evil and Good, Druidcraft\n\n1/Day Each: Calm Emotions, Dispel Evil and Good, Entangle, Pass without Trace, Word of Recall",
+      "path": "statSections[1].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Detect Evil and Good, Druidcraft",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/detect-evil-and-good"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/druidcraft"
+            }
+          ]
+        },
+        {
+          "frequency": "1/Day Each",
+          "spellsText": "Calm Emotions, Dispel Evil and Good, Entangle, Pass without Trace, Word of Recall",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/calm-emotions"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-evil-and-good"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/entangle"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/pass-without-trace"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/word-of-recall"
+            }
+          ]
+        }
+      ],
+      "ability": "Charisma",
+      "saveDC": 14
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-evil-and-good"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/druidcraft"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/calm-emotions"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/dispel-evil-and-good"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/entangle"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/pass-without-trace"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/word-of-recall"
     }
   ],
   "attacks": [

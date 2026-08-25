@@ -1,0 +1,43 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/musical-instrument",
+  "@type": "Equipment",
+  "name": "Musical Instrument",
+  "slug": "musical-instrument",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.57",
+    "heading": "Musical Instrument (Varies)",
+    "lineStart": 6270,
+    "lineEnd": 6278
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/musical-instrument/"
+  },
+  "equipmentType": "tool",
+  "fromRule": {
+    "@id": "https://cheeleong.dev/graph20/objects/rules/6-57-musical-instrument-varies"
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-57-musical-instrument-varies"
+    }
+  ],
+  "ability": "Charisma",
+  "utilize": "Play a known tune (DC 10), or improvise a song (DC 15)",
+  "variants": [
+    "Bagpipes (30 GP, 6 lb.)",
+    "drum (6 GP, 3 lb.)",
+    "dulcimer (25 GP, 10 lb.)",
+    "flute (2 GP, 1 lb.)",
+    "horn (3 GP, 2 lb.)",
+    "lute (35 GP, 2 lb.)",
+    "lyre (30 GP, 2 lb.)",
+    "pan flute (12 GP, 2 lb.)",
+    "shawm (2 GP, 1 lb.)",
+    "viol (30 GP, 1 lb.)"
+  ]
+}

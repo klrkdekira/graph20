@@ -11,9 +11,22 @@
     "chapter": "Rules Glossary",
     "section": "8.158",
     "heading": "Weapon Attack",
-    "lineStart": 13785,
-    "lineEnd": 13789
+    "lineStart": 13749,
+    "lineEnd": 13753
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-158-weapon-attack/"
   },
   "section": "8.158",
-  "rulesText": "A weapon attack is an attack roll made with a weapon. See also \"Weapon.\"\n\n---"
+  "rulesText": "A weapon attack is an attack roll made with a weapon. See also \"Weapon.\"",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-157-weapon"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-157-weapon"
+    }
+  ]
 }

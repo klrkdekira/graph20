@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.242",
     "heading": "Troll",
-    "lineStart": 25608,
-    "lineEnd": 25643
+    "lineStart": 25528,
+    "lineEnd": 25563
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/troll/"
   },
   "sizeTypeAlignment": "Large Giant, Chaotic Evil",
   "sizeAndType": "Large Giant",
+  "size": "Large",
+  "creatureType": "Giant",
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "15",
   "initiative": "+1 (11)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.242",
         "heading": "Traits",
-        "lineStart": 25629,
-        "lineEnd": 25633
+        "lineStart": 25549,
+        "lineEnd": 25553
       }
     },
     {
@@ -87,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.242",
         "heading": "Actions",
-        "lineStart": 25635,
-        "lineEnd": 25639
+        "lineStart": 25555,
+        "lineEnd": 25559
       }
     },
     {
@@ -98,12 +104,34 @@
         "chapter": "Monsters A-Z",
         "section": "12.242",
         "heading": "Bonus Actions",
-        "lineStart": 25641,
-        "lineEnd": 25643
+        "lineStart": 25561,
+        "lineEnd": 25563
       }
     }
   ],
   "rulesText": "Large Giant, Chaotic Evil\n\nAC 15\nInitiative +1 (11)\nHP 94 (9d10 + 45)\nSpeed 30 ft.\n\nSkills Perception +5\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages Giant\nCR 5 (XP 1,800; PB +3)\n\nTraits\n\nLoathsome Limbs (4/Day). If the troll ends any turn Bloodied and took 15+ Slashing damage during that turn, one of the troll's limbs is severed, falls into the troll's space, and becomes a Troll Limb. The limb acts immediately after the troll's turn. The troll has 1 Exhaustion level for each missing limb, and it grows replacement limbs the next time it regains Hit Points.\n\nRegeneration. The troll regains 15 Hit Points at the start of each of its turns. If the troll takes Acid or Fire damage, this trait doesn't function on the troll's next turn. The troll dies only if it starts its turn with 0 Hit Points and doesn't regenerate.\n\nActions\n\nMultiattack. The troll makes three Rend attacks.\n\nRend. Melee Attack Roll: +7, reach 10 ft. Hit: 11 (2d6 + 4) Slashing damage.\n\nBonus Actions\n\nCharge. The troll moves up to half its Speed straight toward an enemy it can see.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 15,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Giant"
+  ],
   "attacks": [
     {
       "name": "Rend",

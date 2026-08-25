@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.273",
     "heading": "Ogre Zombie",
-    "lineStart": 26639,
-    "lineEnd": 26666
+    "lineStart": 26553,
+    "lineEnd": 26580
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/ogre-zombie/"
   },
   "sizeTypeAlignment": "Large Undead, Neutral Evil",
   "sizeAndType": "Large Undead",
+  "size": "Large",
+  "creatureType": "Undead",
+  "monsterCategory": "Monster",
   "alignment": "Neutral Evil",
   "armorClass": "8",
   "initiative": "-2 (8)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.273",
         "heading": "Traits",
-        "lineStart": 26658,
-        "lineEnd": 26660
+        "lineStart": 26572,
+        "lineEnd": 26574
       }
     },
     {
@@ -87,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.273",
         "heading": "Actions",
-        "lineStart": 26662,
-        "lineEnd": 26666
+        "lineStart": 26576,
+        "lineEnd": 26580
       }
     }
   ],
@@ -100,6 +106,25 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 8,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Understands Common and Giant but can't speak"
+  ],
+  "damageImmunities": [
+    "Poison"
   ],
   "attacks": [
     {

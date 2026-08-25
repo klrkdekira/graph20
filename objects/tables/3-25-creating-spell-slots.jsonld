@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.25",
     "heading": "Level 2: Font of Magic",
-    "lineStart": 4043,
-    "lineEnd": 4049
+    "lineStart": 4033,
+    "lineEnd": 4039,
+    "caption": "Creating Spell Slots"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-25-creating-spell-slots/"
   },
   "columns": [
     "Spell Slot Level",

@@ -11,8 +11,11 @@
     "chapter": "Classes",
     "section": "3.19",
     "heading": "Paladin Subclass: Oath of Devotion",
-    "lineStart": 3424,
-    "lineEnd": 3476
+    "lineStart": 3414,
+    "lineEnd": 3466
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/subclasses/oath-of-devotion/"
   },
   "parentClass": {
     "@id": "https://cheeleong.dev/graph20/objects/classes/paladin"
@@ -23,13 +26,13 @@
     {
       "level": 3,
       "name": "Oath of Devotion Spells",
-      "rulesText": "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Devotion Spells table, you thereafter always have the listed spells prepared.\n\nOath of Devotion Spells",
+      "rulesText": "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Devotion Spells table, you thereafter always have the listed spells prepared.",
       "sourceLocator": {
         "chapter": "Classes",
         "section": "3.17",
         "heading": "Level 3: Oath of Devotion Spells",
-        "lineStart": 3438,
-        "lineEnd": 3450
+        "lineStart": 3428,
+        "lineEnd": 3440
       },
       "relatedTables": [
         {
@@ -45,8 +48,8 @@
         "chapter": "Classes",
         "section": "3.17",
         "heading": "Level 3: Sacred Weapon",
-        "lineStart": 3452,
-        "lineEnd": 3458
+        "lineStart": 3442,
+        "lineEnd": 3448
       }
     },
     {
@@ -57,8 +60,8 @@
         "chapter": "Classes",
         "section": "3.17",
         "heading": "Level 7: Aura of Devotion",
-        "lineStart": 3460,
-        "lineEnd": 3462
+        "lineStart": 3450,
+        "lineEnd": 3452
       }
     },
     {
@@ -69,8 +72,8 @@
         "chapter": "Classes",
         "section": "3.17",
         "heading": "Level 15: Smite of Protection",
-        "lineStart": 3464,
-        "lineEnd": 3466
+        "lineStart": 3454,
+        "lineEnd": 3456
       }
     },
     {
@@ -81,8 +84,8 @@
         "chapter": "Classes",
         "section": "3.17",
         "heading": "Level 20: Holy Nimbus",
-        "lineStart": 3468,
-        "lineEnd": 3476
+        "lineStart": 3458,
+        "lineEnd": 3466
       }
     }
   ],

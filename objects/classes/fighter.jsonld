@@ -11,8 +11,11 @@
     "chapter": "Classes",
     "section": "3.13",
     "heading": "Fighter",
-    "lineStart": 2809,
-    "lineEnd": 2969
+    "lineStart": 2799,
+    "lineEnd": 2959
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/classes/fighter/"
   },
   "coreTraits": [
     {
@@ -58,8 +61,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 1: Fighting Style",
-        "lineStart": 2863,
-        "lineEnd": 2867
+        "lineStart": 2853,
+        "lineEnd": 2857
       }
     },
     {
@@ -70,8 +73,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 1: Second Wind",
-        "lineStart": 2869,
-        "lineEnd": 2875
+        "lineStart": 2859,
+        "lineEnd": 2865
       }
     },
     {
@@ -82,8 +85,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 1: Weapon Mastery",
-        "lineStart": 2877,
-        "lineEnd": 2881
+        "lineStart": 2867,
+        "lineEnd": 2871
       }
     },
     {
@@ -94,8 +97,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 2: Action Surge",
-        "lineStart": 2883,
-        "lineEnd": 2887
+        "lineStart": 2873,
+        "lineEnd": 2877
       }
     },
     {
@@ -106,8 +109,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 2: Tactical Mind",
-        "lineStart": 2889,
-        "lineEnd": 2891
+        "lineStart": 2879,
+        "lineEnd": 2881
       }
     },
     {
@@ -118,8 +121,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 3: Fighter Subclass",
-        "lineStart": 2893,
-        "lineEnd": 2895
+        "lineStart": 2883,
+        "lineEnd": 2885
       }
     },
     {
@@ -130,8 +133,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 4: Ability Score Improvement",
-        "lineStart": 2897,
-        "lineEnd": 2899
+        "lineStart": 2887,
+        "lineEnd": 2889
       }
     },
     {
@@ -142,8 +145,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 5: Extra Attack",
-        "lineStart": 2901,
-        "lineEnd": 2903
+        "lineStart": 2891,
+        "lineEnd": 2893
       }
     },
     {
@@ -154,8 +157,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 5: Tactical Shift",
-        "lineStart": 2905,
-        "lineEnd": 2907
+        "lineStart": 2895,
+        "lineEnd": 2897
       }
     },
     {
@@ -166,8 +169,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 9: Indomitable",
-        "lineStart": 2909,
-        "lineEnd": 2913
+        "lineStart": 2899,
+        "lineEnd": 2903
       }
     },
     {
@@ -178,8 +181,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 9: Tactical Master",
-        "lineStart": 2915,
-        "lineEnd": 2917
+        "lineStart": 2905,
+        "lineEnd": 2907
       }
     },
     {
@@ -190,8 +193,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 11: Two Extra Attacks",
-        "lineStart": 2919,
-        "lineEnd": 2921
+        "lineStart": 2909,
+        "lineEnd": 2911
       }
     },
     {
@@ -202,8 +205,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 13: Studied Attacks",
-        "lineStart": 2923,
-        "lineEnd": 2925
+        "lineStart": 2913,
+        "lineEnd": 2915
       }
     },
     {
@@ -214,8 +217,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 19: Epic Boon",
-        "lineStart": 2927,
-        "lineEnd": 2929
+        "lineStart": 2917,
+        "lineEnd": 2919
       }
     },
     {
@@ -226,8 +229,8 @@
         "chapter": "Classes",
         "section": "3.13",
         "heading": "Level 20: Three Extra Attacks",
-        "lineStart": 2931,
-        "lineEnd": 2933
+        "lineStart": 2921,
+        "lineEnd": 2923
       }
     }
   ],
@@ -236,5 +239,5 @@
       "@id": "https://cheeleong.dev/graph20/objects/tables/3-13-fighter-features"
     }
   ],
-  "rulesText": "Core Fighter Traits\n\nBecoming a Fighter ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Fighter Traits table.\n- Gain the Fighter's level 1 features, which are listed in the Fighter Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Fighter Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.\n- Gain the Fighter's level 1 features, which are listed in the Fighter Features table.\n\nFighter Class Features\n\nAs a Fighter, you gain the following class features when you reach the specified Fighter levels. These features are listed on the Fighter Features table.\n\nFighter Features"
+  "rulesText": "Core Fighter Traits\n\nBecoming a Fighter ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Fighter Traits table.\n- Gain the Fighter's level 1 features, which are listed in the Fighter Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Fighter Traits table: Hit Point Die, proficiency with Martial weapons, and training with Light and Medium armor and Shields.\n- Gain the Fighter's level 1 features, which are listed in the Fighter Features table.\n\nFighter Class Features\n\nAs a Fighter, you gain the following class features when you reach the specified Fighter levels. These features are listed on the Fighter Features table."
 }

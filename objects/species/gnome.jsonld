@@ -11,8 +11,11 @@
     "chapter": "Character Origins",
     "section": "4.24",
     "heading": "Gnome",
-    "lineStart": 5549,
-    "lineEnd": 5569
+    "lineStart": 5525,
+    "lineEnd": 5545
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/species/gnome/"
   },
   "creatureType": "Humanoid",
   "size": "Small (about 3–4 feet tall)",

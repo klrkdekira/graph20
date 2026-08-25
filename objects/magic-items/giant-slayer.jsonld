@@ -11,14 +11,19 @@
     "chapter": "Magic Items",
     "section": "10.123",
     "heading": "Giant Slayer",
-    "lineStart": 15778,
-    "lineEnd": 15784
+    "lineStart": 15740,
+    "lineEnd": 15746
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/giant-slayer/"
   },
   "itemCategory": "Weapon",
   "categoryDetail": "Any Simple or Martial",
   "rarity": "Rare",
   "requiresAttunement": false,
   "rulesText": "Weapon (Any Simple or Martial), Rare\n\nYou gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.\n\nWhen you hit a Giant with this weapon, the Giant takes an extra 2d6 damage of the weapon's type and must succeed on a DC 15 Strength saving throw or have the Prone condition.",
+  "isCursed": false,
+  "isSentient": false,
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"

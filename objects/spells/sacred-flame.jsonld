@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.295",
     "heading": "Sacred Flame",
-    "lineStart": 11402,
-    "lineEnd": 11413
+    "lineStart": 11373,
+    "lineEnd": 11384
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/sacred-flame/"
   },
   "level": 0,
   "school": "Evocation",
@@ -30,6 +33,12 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 Radiant damage. The target gains no benefit from Half Cover or Three-Quarters Cover for this save."
+    }
+  ],
   "damage": [
     {
       "damageType": "Radiant",
@@ -42,5 +51,21 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

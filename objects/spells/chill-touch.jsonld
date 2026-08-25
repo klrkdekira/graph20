@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.72",
     "heading": "Chill Touch",
-    "lineStart": 7925,
-    "lineEnd": 7936
+    "lineStart": 7896,
+    "lineEnd": 7907
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/chill-touch/"
   },
   "level": 0,
   "school": "Necromancy",
@@ -49,5 +52,20 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

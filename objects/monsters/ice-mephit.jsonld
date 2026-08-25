@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.162",
     "heading": "Ice Mephit",
-    "lineStart": 23013,
-    "lineEnd": 23044
+    "lineStart": 22933,
+    "lineEnd": 22964
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/ice-mephit/"
   },
   "sizeTypeAlignment": "Small Elemental, Neutral Evil",
   "sizeAndType": "Small Elemental",
+  "size": "Small",
+  "creatureType": "Elemental",
+  "monsterCategory": "Monster",
   "alignment": "Neutral Evil",
   "armorClass": "11",
   "initiative": "+1 (11)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.162",
         "heading": "Traits",
-        "lineStart": 23034,
-        "lineEnd": 23036
+        "lineStart": 22954,
+        "lineEnd": 22956
       }
     },
     {
@@ -88,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.162",
         "heading": "Actions",
-        "lineStart": 23038,
-        "lineEnd": 23044
+        "lineStart": 22958,
+        "lineEnd": 22964
       }
     }
   ],
@@ -101,6 +107,44 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Fly",
+      "feet": 30
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 2
+    },
+    {
+      "name": "Stealth",
+      "bonus": 3
+    }
+  ],
+  "passivePerception": 12,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Primordial (Aquan",
+    "Auran)"
+  ],
+  "damageImmunities": [
+    "Cold",
+    "Poison"
+  ],
+  "damageVulnerabilities": [
+    "Fire"
   ],
   "attacks": [
     {

@@ -1,0 +1,22 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/2-42-armor-class",
+  "@type": "Rule",
+  "name": "Armor Class",
+  "slug": "2-42-armor-class",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.42",
+    "heading": "Armor Class",
+    "lineStart": 1300,
+    "lineEnd": 1304
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/2-42-armor-class/"
+  },
+  "section": "2.42",
+  "rulesText": "If you have multiple ways to calculate your Armor Class, you can benefit from only one at a time. For example, a Monk/Sorcerer with a Monk's\n\nUnarmored Defense feature and a Sorcerer's Draconic Resilience feature must choose only one of those features as a way to calculate Armor Class."
+}

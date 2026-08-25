@@ -11,8 +11,11 @@
     "chapter": "Character Creation",
     "section": "2.9",
     "heading": "Choose Starting Equipment",
-    "lineStart": 946,
-    "lineEnd": 950
+    "lineStart": 941,
+    "lineEnd": 945
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/2-9-choose-starting-equipment/"
   },
   "section": "2.9",
   "rulesText": "Your background and class both provide starting equipment. Any coins that you gain at this step can be immediately spent on equipment from \"Equipment.\"\n\nRecord your chosen equipment on your character sheet. Equipment is described in “Equipment,” but for now you can just write it all down and look up the specifics in “Equipment” later. Note any coins you have left after purchasing your equipment."

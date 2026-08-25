@@ -11,13 +11,18 @@
     "chapter": "Magic Items",
     "section": "10.238",
     "heading": "Scimitar of Speed",
-    "lineStart": 17076,
-    "lineEnd": 17080
+    "lineStart": 17020,
+    "lineEnd": 17024
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/scimitar-of-speed/"
   },
   "itemCategory": "Weapon",
   "categoryDetail": "Scimitar",
   "rarity": "Very Rare",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Weapon (Scimitar), Very Rare (Requires Attunement)\n\nYou gain a +2 bonus to attack rolls and damage rolls made with this magic weapon. In addition, you can make one attack with it as a Bonus Action on each of your turns."
+  "rulesText": "Weapon (Scimitar), Very Rare (Requires Attunement)\n\nYou gain a +2 bonus to attack rolls and damage rolls made with this magic weapon. In addition, you can make one attack with it as a Bonus Action on each of your turns.",
+  "isCursed": false,
+  "isSentient": false
 }

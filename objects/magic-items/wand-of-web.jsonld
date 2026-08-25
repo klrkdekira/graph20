@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.289",
     "heading": "Wand of Web",
-    "lineStart": 17619,
-    "lineEnd": 17625
+    "lineStart": 17560,
+    "lineEnd": 17566
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/wand-of-web/"
   },
   "itemCategory": "Wand",
   "rarity": "Uncommon",
@@ -23,5 +26,13 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/web"
     }
-  ]
+  ],
+  "charges": {
+    "capacityText": "7",
+    "capacity": 7,
+    "rechargeText": "The wand regains 1d6 + 1 expended charges daily at dawn."
+  },
+  "isCursed": false,
+  "isSentient": false,
+  "attunementRestriction": "Requires Attunement by a Spellcaster"
 }

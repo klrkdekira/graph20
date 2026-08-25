@@ -10,9 +10,13 @@
   "sourceLocator": {
     "chapter": "Equipment",
     "section": "6.26",
-    "heading": "Weapons",
-    "lineStart": 5995,
-    "lineEnd": 6038
+    "heading": "Vex",
+    "lineStart": 5971,
+    "lineEnd": 6014,
+    "caption": "Weapons"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/whip/"
   },
   "equipmentType": "weapon",
   "fromTable": {
@@ -33,6 +37,7 @@
   ],
   "mastery": "Slow",
   "weight": "3 lb.",
+  "weightPounds": 3,
   "cost": {
     "text": "2 GP",
     "currency": "GP",

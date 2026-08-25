@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.30",
     "heading": "Black Pudding",
-    "lineStart": 18791,
-    "lineEnd": 18830
+    "lineStart": 18717,
+    "lineEnd": 18756
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/black-pudding/"
   },
   "sizeTypeAlignment": "Large Ooze, Unaligned",
   "sizeAndType": "Large Ooze",
+  "size": "Large",
+  "creatureType": "Ooze",
+  "monsterCategory": "Monster",
   "alignment": "Unaligned",
   "armorClass": "7",
   "initiative": "-3 (7)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.30",
         "heading": "Traits",
-        "lineStart": 18812,
-        "lineEnd": 18820
+        "lineStart": 18738,
+        "lineEnd": 18746
       }
     },
     {
@@ -87,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.30",
         "heading": "Actions",
-        "lineStart": 18822,
-        "lineEnd": 18824
+        "lineStart": 18748,
+        "lineEnd": 18750
       }
     },
     {
@@ -98,8 +104,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.30",
         "heading": "Reactions",
-        "lineStart": 18826,
-        "lineEnd": 18830
+        "lineStart": 18752,
+        "lineEnd": 18756
       }
     }
   ],
@@ -126,6 +132,29 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/restrained"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 20
+    },
+    {
+      "mode": "Climb",
+      "feet": 20
+    }
+  ],
+  "passivePerception": 8,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 60
+    }
+  ],
+  "damageImmunities": [
+    "Acid",
+    "Cold",
+    "Lightning",
+    "Slashing"
   ],
   "attacks": [
     {

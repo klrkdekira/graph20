@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.241",
     "heading": "Shield, +1, +2, or +3",
-    "lineStart": 17096,
-    "lineEnd": 17100
+    "lineStart": 17040,
+    "lineEnd": 17044
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/shield-1-2-or-3/"
   },
   "itemCategory": "Armor",
   "categoryDetail": "Shield",
@@ -31,5 +34,7 @@
     }
   ],
   "requiresAttunement": false,
-  "rulesText": "Armor (Shield), Uncommon (+1), Rare (+2), or Very Rare (+3)\n\nWhile holding this Shield, you have a bonus to Armor Class determined by the Shield's rarity, in addition to the Shield's normal bonus to AC."
+  "rulesText": "Armor (Shield), Uncommon (+1), Rare (+2), or Very Rare (+3)\n\nWhile holding this Shield, you have a bonus to Armor Class determined by the Shield's rarity, in addition to the Shield's normal bonus to AC.",
+  "isCursed": false,
+  "isSentient": false
 }

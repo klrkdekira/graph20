@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.211",
     "heading": "Inflict Wounds",
-    "lineStart": 10149,
-    "lineEnd": 10160
+    "lineStart": 10120,
+    "lineEnd": 10131
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/inflict-wounds/"
   },
   "level": 1,
   "school": "Necromancy",
@@ -30,6 +33,16 @@
     }
   ],
   "savingThrowAbility": "Constitution",
+  "savingThrows": [
+    {
+      "ability": "Constitution",
+      "sourceText": "A creature you touch makes a Constitution saving throw, taking 2d10 Necrotic damage on a failed save or half as much damage on a successful one.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Necrotic",
@@ -42,5 +55,20 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

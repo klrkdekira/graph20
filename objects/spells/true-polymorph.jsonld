@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.349",
     "heading": "True Polymorph",
-    "lineStart": 12257,
-    "lineEnd": 12282
+    "lineStart": 12228,
+    "lineEnd": 12253
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/true-polymorph/"
   },
   "level": 9,
   "school": "Transmutation",
@@ -38,7 +41,34 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "An unwilling creature can make a Wisdom saving throw, and if it succeeds, it isn't affected by this spell."
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 hour",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a drop of mercury, a dollop of gum arabic, and a wisp of smoke)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a drop of mercury, a dollop of gum arabic, and a wisp of smoke",
+    "consumed": false
+  }
 }

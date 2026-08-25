@@ -1,0 +1,42 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/riding",
+  "@type": "Equipment",
+  "name": "Riding",
+  "slug": "riding",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.146",
+    "heading": "Saddles",
+    "lineStart": 6812,
+    "lineEnd": 6824,
+    "caption": "Tack, Harness, and Drawn Vehicles"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/riding/"
+  },
+  "equipmentType": "gear",
+  "fromTable": {
+    "@id": "https://cheeleong.dev/graph20/objects/tables/6-146-tack-harness-and-drawn-vehicles"
+  },
+  "attributes": [
+    {
+      "name": "Weight",
+      "value": "25 lb."
+    },
+    {
+      "name": "Cost",
+      "value": "10 GP"
+    }
+  ],
+  "weight": "25 lb.",
+  "weightPounds": 25,
+  "cost": {
+    "text": "10 GP",
+    "currency": "GP",
+    "amount": 10
+  }
+}

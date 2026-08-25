@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.304",
     "heading": "Sequester",
-    "lineStart": 11541,
-    "lineEnd": 11554
+    "lineStart": 11512,
+    "lineEnd": 11525
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/sequester/"
   },
   "level": 7,
   "school": "Transmutation",
@@ -32,6 +35,28 @@
   "scalesWithSlotLevel": false,
   "concentration": false,
   "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Until dispelled",
+    "concentration": false,
+    "kind": "UntilDispelled"
+  },
+  "componentDetails": {
+    "text": "V, S, M (gem dust worth 5,000+ GP, which the spell consumes)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "gem dust worth 5,000+ GP, which the spell consumes",
+    "consumed": true,
+    "materialCost": {
+      "text": "5,000 GP",
+      "currency": "GP",
+      "amount": 5000
+    }
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/invisible"

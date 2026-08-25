@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.134",
     "heading": "Helm of Brilliance",
-    "lineStart": 15887,
-    "lineEnd": 15905
+    "lineStart": 15849,
+    "lineEnd": 15867
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/helm-of-brilliance/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Very Rare",
@@ -32,5 +35,7 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/wall-of-fire"
     }
-  ]
+  ],
+  "isCursed": false,
+  "isSentient": false
 }

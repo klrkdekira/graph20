@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.214",
     "heading": "Ring of Shooting Stars",
-    "lineStart": 16801,
-    "lineEnd": 16804
+    "lineStart": 16757,
+    "lineEnd": 16760,
+    "caption": "Ring of Shooting Stars Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-214-ring-of-shooting-stars-table-1/"
   },
   "columns": [
     "Number of Spheres",

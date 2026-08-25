@@ -1,0 +1,39 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/masons-tools",
+  "@type": "Equipment",
+  "name": "Mason's Tools",
+  "slug": "masons-tools",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.45",
+    "heading": "Mason's Tools (10 GP)",
+    "lineStart": 6168,
+    "lineEnd": 6174
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/masons-tools/"
+  },
+  "equipmentType": "tool",
+  "fromRule": {
+    "@id": "https://cheeleong.dev/graph20/objects/rules/6-45-masons-tools-10-gp"
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-45-masons-tools-10-gp"
+    }
+  ],
+  "cost": {
+    "text": "10 GP",
+    "currency": "GP",
+    "amount": 10
+  },
+  "ability": "Strength",
+  "weight": "8 lb.",
+  "weightPounds": 8,
+  "utilize": "Chisel a symbol or hole in stone (DC 10)",
+  "craft": "Block and Tackle"
+}

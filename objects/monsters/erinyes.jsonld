@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.85",
     "heading": "Erinyes",
-    "lineStart": 20580,
-    "lineEnd": 20622
+    "lineStart": 20500,
+    "lineEnd": 20542
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/erinyes/"
   },
   "sizeTypeAlignment": "Medium Fiend (Devil), Lawful Evil",
   "sizeAndType": "Medium Fiend (Devil)",
+  "size": "Medium",
+  "creatureType": "Fiend",
+  "descriptiveTags": [
+    "Devil"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "18",
   "initiative": "+7 (17)",
@@ -78,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.85",
         "heading": "Traits",
-        "lineStart": 20603,
-        "lineEnd": 20609
+        "lineStart": 20523,
+        "lineEnd": 20529
       }
     },
     {
@@ -89,8 +98,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.85",
         "heading": "Actions",
-        "lineStart": 20611,
-        "lineEnd": 20618
+        "lineStart": 20531,
+        "lineEnd": 20538
       }
     },
     {
@@ -100,8 +109,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.85",
         "heading": "Reactions",
-        "lineStart": 20620,
-        "lineEnd": 20622
+        "lineStart": 20540,
+        "lineEnd": 20542
       }
     }
   ],
@@ -110,6 +119,44 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Fly",
+      "feet": 60
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 6
+    },
+    {
+      "name": "Persuasion",
+      "bonus": 8
+    }
+  ],
+  "passivePerception": 16,
+  "senseModes": [
+    {
+      "name": "Truesight",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Infernal",
+    "telepathy 120 ft."
+  ],
+  "damageImmunities": [
+    "Fire",
+    "Poison"
+  ],
+  "damageResistances": [
+    "Cold"
   ],
   "attacks": [
     {

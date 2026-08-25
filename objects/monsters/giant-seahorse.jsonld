@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.45",
     "heading": "Giant Seahorse",
-    "lineStart": 27799,
-    "lineEnd": 27827
+    "lineStart": 27713,
+    "lineEnd": 27741
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/giant-seahorse/"
   },
   "sizeTypeAlignment": "Large Beast, Unaligned",
   "sizeAndType": "Large Beast",
+  "size": "Large",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "14",
   "initiative": "+1 (11)",
@@ -74,8 +80,8 @@
         "chapter": "Animals",
         "section": "13.45",
         "heading": "Traits",
-        "lineStart": 27817,
-        "lineEnd": 27819
+        "lineStart": 27731,
+        "lineEnd": 27733
       }
     },
     {
@@ -85,8 +91,8 @@
         "chapter": "Animals",
         "section": "13.45",
         "heading": "Actions",
-        "lineStart": 27821,
-        "lineEnd": 27823
+        "lineStart": 27735,
+        "lineEnd": 27737
       }
     },
     {
@@ -96,12 +102,23 @@
         "chapter": "Animals",
         "section": "13.45",
         "heading": "Bonus Actions",
-        "lineStart": 27825,
-        "lineEnd": 27827
+        "lineStart": 27739,
+        "lineEnd": 27741
       }
     }
   ],
   "rulesText": "Large Beast, Unaligned\n\nAC 14\nInitiative +1 (11)\nHP 16 (3d10)\nSpeed 5 ft., Swim 40 ft.\n\nSenses Passive Perception 11\nLanguages None\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nWater Breathing. The seahorse can breathe only underwater.\n\nActions\n\nRam. Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 + 2) Bludgeoning damage, or 11 (2d8 + 2) Bludgeoning damage if the seahorse moved 20+ feet straight toward the target immediately before the hit.\n\nBonus Actions\n\nBubble Dash. While underwater, the seahorse moves up to half its Swim Speed without provoking Opportunity Attacks.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 5
+    },
+    {
+      "mode": "Swim",
+      "feet": 40
+    }
+  ],
+  "passivePerception": 11,
   "attacks": [
     {
       "name": "Ram",

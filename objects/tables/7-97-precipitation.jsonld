@@ -11,8 +11,12 @@
     "chapter": "Spells",
     "section": "7.97",
     "heading": "Control Weather",
-    "lineStart": 8347,
-    "lineEnd": 8353
+    "lineStart": 8318,
+    "lineEnd": 8324,
+    "caption": "Precipitation"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/7-97-precipitation/"
   },
   "columns": [
     "Stage",

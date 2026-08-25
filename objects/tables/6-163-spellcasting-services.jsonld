@@ -11,8 +11,12 @@
     "chapter": "Equipment",
     "section": "6.163",
     "heading": "Spellcasting",
-    "lineStart": 6962,
-    "lineEnd": 6970
+    "lineStart": 6935,
+    "lineEnd": 6943,
+    "caption": "Spellcasting Services"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/6-163-spellcasting-services/"
   },
   "columns": [
     "Spell Level",

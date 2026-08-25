@@ -11,8 +11,12 @@
     "chapter": "Spells",
     "section": "7.272",
     "heading": "Prismatic Rays",
-    "lineStart": 11060,
-    "lineEnd": 11069
+    "lineStart": 11031,
+    "lineEnd": 11040,
+    "caption": "Prismatic Rays"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/7-272-prismatic-rays/"
   },
   "columns": [
     "1d8",

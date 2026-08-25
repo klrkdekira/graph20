@@ -11,8 +11,13 @@
     "chapter": "Spells",
     "section": "7.1",
     "heading": "Spells",
-    "lineStart": 7083,
-    "lineEnd": 7083
+    "lineStart": 7056,
+    "lineEnd": 7056
   },
-  "section": "7.1"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/7-1-spells/"
+  },
+  "section": "7.1",
+  "rulesText": "Spells",
+  "headingOnly": true
 }

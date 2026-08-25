@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.74",
     "heading": "Death Dog",
-    "lineStart": 20151,
-    "lineEnd": 20177
+    "lineStart": 20071,
+    "lineEnd": 20097
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/death-dog/"
   },
   "sizeTypeAlignment": "Medium Monstrosity, Neutral Evil",
   "sizeAndType": "Medium Monstrosity",
+  "size": "Medium",
+  "creatureType": "Monstrosity",
+  "monsterCategory": "Monster",
   "alignment": "Neutral Evil",
   "armorClass": "12",
   "initiative": "+2 (12)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.74",
         "heading": "Actions",
-        "lineStart": 20173,
-        "lineEnd": 20177
+        "lineStart": 20093,
+        "lineEnd": 20097
       }
     }
   ],
@@ -101,6 +107,29 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"
+    }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 5
+    },
+    {
+      "name": "Stealth",
+      "bonus": 4
+    }
+  ],
+  "passivePerception": 15,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
     }
   ],
   "attacks": [

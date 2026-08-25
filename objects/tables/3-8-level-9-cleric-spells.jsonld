@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.8",
     "heading": "Cleric Spell List",
-    "lineStart": 2327,
-    "lineEnd": 2333
+    "lineStart": 2317,
+    "lineEnd": 2323,
+    "caption": "Level 9 Cleric Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-8-level-9-cleric-spells/"
   },
   "columns": [
     "Spell",

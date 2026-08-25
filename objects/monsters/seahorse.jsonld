@@ -11,11 +11,17 @@
     "chapter": "Animals",
     "section": "13.81",
     "heading": "Seahorse",
-    "lineStart": 28763,
-    "lineEnd": 28788
+    "lineStart": 28674,
+    "lineEnd": 28699
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/seahorse/"
   },
   "sizeTypeAlignment": "Tiny Beast, Unaligned",
   "sizeAndType": "Tiny Beast",
+  "size": "Tiny",
+  "creatureType": "Beast",
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "12",
   "initiative": "+1 (11)",
@@ -76,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.81",
         "heading": "Traits",
-        "lineStart": 28782,
-        "lineEnd": 28784
+        "lineStart": 28693,
+        "lineEnd": 28695
       }
     },
     {
@@ -87,10 +93,31 @@
         "chapter": "Animals",
         "section": "13.81",
         "heading": "Actions",
-        "lineStart": 28786,
-        "lineEnd": 28788
+        "lineStart": 28697,
+        "lineEnd": 28699
       }
     }
   ],
-  "rulesText": "Tiny Beast, Unaligned\n\nAC 12\nInitiative +1 (11)\nHP 1 (1d4 - 1)\nSpeed 5 ft., Swim 20 ft.\n\nSkills Perception +2, Stealth +5\nSenses Passive Perception 12\nLanguages None\nCR 0 (XP 0; PB +2)\n\nTraits\n\nWater Breathing. The seahorse can breathe only underwater.\n\nActions\n\nBubble Dash. While underwater, the seahorse moves up to its Swim Speed without provoking Opportunity Attacks."
+  "rulesText": "Tiny Beast, Unaligned\n\nAC 12\nInitiative +1 (11)\nHP 1 (1d4 - 1)\nSpeed 5 ft., Swim 20 ft.\n\nSkills Perception +2, Stealth +5\nSenses Passive Perception 12\nLanguages None\nCR 0 (XP 0; PB +2)\n\nTraits\n\nWater Breathing. The seahorse can breathe only underwater.\n\nActions\n\nBubble Dash. While underwater, the seahorse moves up to its Swim Speed without provoking Opportunity Attacks.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 5
+    },
+    {
+      "mode": "Swim",
+      "feet": 20
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 2
+    },
+    {
+      "name": "Stealth",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 12
 }

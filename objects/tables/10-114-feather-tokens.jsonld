@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.114",
     "heading": "Feather Token",
-    "lineStart": 15649,
-    "lineEnd": 15656
+    "lineStart": 15611,
+    "lineEnd": 15618,
+    "caption": "Feather Tokens"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-114-feather-tokens/"
   },
   "columns": [
     "1d100",

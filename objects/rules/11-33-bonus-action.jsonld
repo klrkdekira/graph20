@@ -11,8 +11,11 @@
     "chapter": "Monsters",
     "section": "11.33",
     "heading": "Bonus Action",
-    "lineStart": 17964,
-    "lineEnd": 17966
+    "lineStart": 17902,
+    "lineEnd": 17904
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/11-33-bonus-action/"
   },
   "section": "11.33",
   "rulesText": "If a monster has Bonus Action options, they are listed in this section. See “Playing the Game” for details on Bonus Actions."

@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.156",
     "heading": "Magmin",
-    "lineStart": 22834,
-    "lineEnd": 22865
+    "lineStart": 22754,
+    "lineEnd": 22785
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/magmin/"
   },
   "sizeTypeAlignment": "Small Elemental, Chaotic Neutral",
   "sizeAndType": "Small Elemental",
+  "size": "Small",
+  "creatureType": "Elemental",
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Neutral",
   "armorClass": "14",
   "initiative": "+2 (12)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.156",
         "heading": "Traits",
-        "lineStart": 22855,
-        "lineEnd": 22857
+        "lineStart": 22775,
+        "lineEnd": 22777
       }
     },
     {
@@ -87,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.156",
         "heading": "Actions",
-        "lineStart": 22859,
-        "lineEnd": 22861
+        "lineStart": 22779,
+        "lineEnd": 22781
       }
     },
     {
@@ -98,12 +104,31 @@
         "chapter": "Monsters A-Z",
         "section": "12.156",
         "heading": "Bonus Actions",
-        "lineStart": 22863,
-        "lineEnd": 22865
+        "lineStart": 22783,
+        "lineEnd": 22785
       }
     }
   ],
   "rulesText": "Small Elemental, Chaotic Neutral\n\nAC 14\nInitiative +2 (12)\nHP 13 (3d6 + 3)\nSpeed 30 ft.\n\nImmunities Fire\nSenses Darkvision 60 ft.; Passive Perception 10\nLanguages Primordial (Ignan)\nCR 1/2 (XP 100; PB +2)\n\nTraits\n\nDeath Burst. The magmin explodes when it dies. Dexterity Saving Throw: DC 11, each creature in a 10-foot Emanation originating from the magmin. Failure: 7 (2d6) Fire damage. Success: Half damage.\n\nActions\n\nTouch. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) Fire damage. If the target is a creature or a flammable object that isn't being worn or carried, it starts burning.\n\nBonus Actions\n\nIgnited Illumination. The magmin sets itself ablaze or extinguishes its flames. While ablaze, the magmin sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Primordial (Ignan)"
+  ],
+  "damageImmunities": [
+    "Fire"
+  ],
   "attacks": [
     {
       "name": "Touch",

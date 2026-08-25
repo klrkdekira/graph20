@@ -11,8 +11,11 @@
     "chapter": "Rules Glossary",
     "section": "8.148",
     "heading": "Teleportation",
-    "lineStart": 13707,
-    "lineEnd": 13715
+    "lineStart": 13671,
+    "lineEnd": 13679
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-148-teleportation/"
   },
   "section": "8.148",
   "rulesText": "Teleportation is a special kind of magical transportation. If you teleport, you disappear and reappear elsewhere instantly, without moving through the intervening space. This transportation doesn't expend movement unless a rule tells you otherwise, and teleportation never provokes Opportunity Attacks.\n\nWhen you teleport, all the equipment you're wearing and carrying teleports with you. If you're touching another creature when you teleport, that creature doesn't teleport with you unless the teleportation effect says otherwise.\n\nIf the destination space of your teleportation is occupied by another creature or blocked by a solid obstacle, you instead appear in the nearest unoccupied space of your choice.\n\nThe description of a teleportation effect tells you if you must see the teleportation's destination."

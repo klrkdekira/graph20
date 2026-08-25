@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.23",
     "heading": "Rogue Class Features",
-    "lineStart": 3776,
-    "lineEnd": 3797
+    "lineStart": 3766,
+    "lineEnd": 3787,
+    "caption": "Rogue Features"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-23-rogue-features/"
   },
   "columns": [
     "Level",

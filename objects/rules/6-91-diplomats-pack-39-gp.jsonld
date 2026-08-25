@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.91",
     "heading": "Diplomat's Pack (39 GP)",
-    "lineStart": 6560,
-    "lineEnd": 6562
+    "lineStart": 6533,
+    "lineEnd": 6535
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-91-diplomats-pack-39-gp/"
   },
   "section": "6.91",
   "rulesText": "A Diplomat's Pack contains the following items: Chest, Fine Clothes, Ink, 5 Ink Pens, Lamp, 2 Map or Scroll Cases, 4 flasks of Oil, 5 sheets of Paper, 5 sheets of Parchment, Perfume, and Tinderbox."

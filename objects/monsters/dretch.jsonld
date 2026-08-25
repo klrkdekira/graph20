@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.79",
     "heading": "Dretch",
-    "lineStart": 20348,
-    "lineEnd": 20374
+    "lineStart": 20268,
+    "lineEnd": 20294
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/dretch/"
   },
   "sizeTypeAlignment": "Small Fiend (Demon), Chaotic Evil",
   "sizeAndType": "Small Fiend (Demon)",
+  "size": "Small",
+  "creatureType": "Fiend",
+  "descriptiveTags": [
+    "Demon"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "11",
   "initiative": "+0 (10)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.79",
         "heading": "Actions",
-        "lineStart": 20370,
-        "lineEnd": 20374
+        "lineStart": 20290,
+        "lineEnd": 20294
       }
     }
   ],
@@ -87,6 +96,31 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 20
+    }
+  ],
+  "passivePerception": 9,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Abyssal",
+    "telepathy 60 ft. (works only with creatures that understand Abyssal)"
+  ],
+  "damageImmunities": [
+    "Poison"
+  ],
+  "damageResistances": [
+    "Cold",
+    "Fire",
+    "Lightning"
   ],
   "attacks": [
     {

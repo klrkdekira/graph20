@@ -27,6 +27,44 @@
     "range": { "type": "string", "minLength": 1 },
     "components": { "type": "string", "minLength": 1 },
     "duration": { "type": "string", "minLength": 1 },
+    "rangeDetails": {
+      "type": "object",
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "kind": { "enum": ["Self", "Touch", "Sight", "Distance", "Unlimited", "Special"] },
+        "distanceFeet": { "type": "integer", "minimum": 0 },
+        "distanceMiles": { "type": "integer", "minimum": 0 }
+      },
+      "required": ["text", "kind"],
+      "unevaluatedProperties": false
+    },
+    "durationDetails": {
+      "type": "object",
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "kind": { "enum": ["Instantaneous", "UntilDispelled", "Timed", "Special"] },
+        "concentration": { "type": "boolean" },
+        "upTo": { "type": "boolean" },
+        "value": { "type": "integer", "minimum": 1 },
+        "unit": { "enum": ["round", "minute", "hour", "day"] }
+      },
+      "required": ["text", "kind", "concentration"],
+      "unevaluatedProperties": false
+    },
+    "componentDetails": {
+      "type": "object",
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "verbal": { "type": "boolean" },
+        "somatic": { "type": "boolean" },
+        "material": { "type": "boolean" },
+        "materialText": { "type": "string", "minLength": 1 },
+        "materialCost": { "$ref": "common.schema.json#/$defs/Cost" },
+        "consumed": { "type": "boolean" }
+      },
+      "required": ["text", "verbal", "somatic", "material"],
+      "unevaluatedProperties": false
+    },
     "classes": {
       "type": "array",
       "minItems": 1,
@@ -40,6 +78,45 @@
     "savingThrowAbility": {
       "enum": ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"]
     },
+    "savingThrows": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "ability": { "enum": ["Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"] },
+          "fixedDC": { "type": "integer", "minimum": 1 },
+          "outcomes": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "enum": ["HalfDamage", "Negates", "Partial", "FailureEffect"] },
+            "uniqueItems": true
+          },
+          "sourceText": { "type": "string", "minLength": 1 }
+        },
+        "required": ["ability", "sourceText"],
+        "unevaluatedProperties": false
+      }
+    },
+    "areasOfEffect": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "shape": { "enum": ["Cone", "Cube", "Cylinder", "Emanation", "Line", "Sphere"] },
+          "areaShape": { "$ref": "common.schema.json#/$defs/NodeReference" },
+          "sourceText": { "type": "string", "minLength": 1 },
+          "radiusFeet": { "type": "integer", "minimum": 0 },
+          "lengthFeet": { "type": "integer", "minimum": 0 },
+          "widthFeet": { "type": "integer", "minimum": 0 },
+          "heightFeet": { "type": "integer", "minimum": 0 },
+          "sizeFeet": { "type": "integer", "minimum": 0 }
+        },
+        "required": ["shape", "areaShape", "sourceText"],
+        "unevaluatedProperties": false
+      }
+    },
     "damage": {
       "type": "array",
       "minItems": 1,
@@ -50,6 +127,6 @@
     "ritual": { "type": "boolean" },
     "rulesText": { "type": "string", "minLength": 1 }
   },
-  "required": ["level", "school", "classAvailability", "castingTime", "range", "components", "duration", "rulesText", "scalesWithSlotLevel", "concentration", "ritual"],
+  "required": ["level", "school", "classAvailability", "castingTime", "range", "rangeDetails", "components", "componentDetails", "duration", "durationDetails", "rulesText", "scalesWithSlotLevel", "concentration", "ritual"],
   "unevaluatedProperties": false
 }

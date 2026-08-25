@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.17",
     "heading": "Level 3: Oath of Devotion Spells",
-    "lineStart": 3444,
-    "lineEnd": 3450
+    "lineStart": 3434,
+    "lineEnd": 3440,
+    "caption": "Oath of Devotion Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-17-oath-of-devotion-spells/"
   },
   "columns": [
     "Paladin Level",

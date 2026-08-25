@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.49",
     "heading": "Astral Projection",
-    "lineStart": 7586,
-    "lineEnd": 7603
+    "lineStart": 7559,
+    "lineEnd": 7576
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/astral-projection/"
   },
   "level": 9,
   "school": "Necromancy",
@@ -40,6 +43,29 @@
   "scalesWithSlotLevel": false,
   "concentration": false,
   "ritual": false,
+  "rangeDetails": {
+    "text": "10 feet",
+    "kind": "Distance",
+    "distanceFeet": 10
+  },
+  "durationDetails": {
+    "text": "Until dispelled",
+    "concentration": false,
+    "kind": "UntilDispelled"
+  },
+  "componentDetails": {
+    "text": "V, S, M (for each of the spell's targets, one jacinth worth 1,000+ GP and one silver bar worth 100+ GP, all of which the spell consumes)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "for each of the spell's targets, one jacinth worth 1,000+ GP and one silver bar worth 100+ GP, all of which the spell consumes",
+    "consumed": true,
+    "materialCost": {
+      "text": "1,000 GP",
+      "currency": "GP",
+      "amount": 1000
+    }
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/unconscious"

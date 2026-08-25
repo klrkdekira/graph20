@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.33",
     "heading": "Alarm",
-    "lineStart": 7314,
-    "lineEnd": 7329
+    "lineStart": 7287,
+    "lineEnd": 7302
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/alarm/"
   },
   "level": 1,
   "school": "Abjuration",
@@ -35,5 +38,41 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": true
+  "ritual": true,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "8 hours",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 8,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a bell and silver wire)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a bell and silver wire",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cube",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+      },
+      "sourceText": "Choose a door, a window, or an area within range that is no larger than a 20-foot Cube.",
+      "sizeFeet": 20
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+    }
+  ]
 }

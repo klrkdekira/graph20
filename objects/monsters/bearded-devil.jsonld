@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.22",
     "heading": "Bearded Devil",
-    "lineStart": 18520,
-    "lineEnd": 18552
+    "lineStart": 18452,
+    "lineEnd": 18484
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/bearded-devil/"
   },
   "sizeTypeAlignment": "Medium Fiend (Devil), Lawful Evil",
   "sizeAndType": "Medium Fiend (Devil)",
+  "size": "Medium",
+  "creatureType": "Fiend",
+  "descriptiveTags": [
+    "Devil"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "13",
   "initiative": "+2 (12)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.22",
         "heading": "Traits",
-        "lineStart": 18542,
-        "lineEnd": 18544
+        "lineStart": 18474,
+        "lineEnd": 18476
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.22",
         "heading": "Actions",
-        "lineStart": 18546,
-        "lineEnd": 18552
+        "lineStart": 18478,
+        "lineEnd": 18484
       }
     }
   ],
@@ -101,6 +110,30 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Infernal",
+    "telepathy 120 ft."
+  ],
+  "damageImmunities": [
+    "Fire",
+    "Poison"
+  ],
+  "damageResistances": [
+    "Cold"
   ],
   "attacks": [
     {

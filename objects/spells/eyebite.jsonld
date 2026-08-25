@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.141",
     "heading": "Eyebite",
-    "lineStart": 9029,
-    "lineEnd": 9046
+    "lineStart": 9000,
+    "lineEnd": 9017
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/eyebite/"
   },
   "level": 6,
   "school": "Necromancy",
@@ -42,9 +45,33 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "For the duration, your eyes become an inky void. One creature of your choice within 60 feet of you that you can see must succeed on a Wisdom saving throw or be affected by one of the following effects of your choice for the duration."
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": true,
   "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"

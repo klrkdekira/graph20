@@ -1,0 +1,27 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/rules/9-39-prolonged-effects",
+  "@type": "Rule",
+  "name": "Prolonged Effects",
+  "slug": "9-39-prolonged-effects",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Gameplay Toolbox",
+    "section": "9.39",
+    "heading": "Prolonged Effects",
+    "lineStart": 14016,
+    "lineEnd": 14024
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/9-39-prolonged-effects/"
+  },
+  "section": "9.39",
+  "rulesText": "Exposure to mental stress can cause prolonged effects. Consider the following possibilities.\n\nShort-Term Effects. The character has the Frightened, Incapacitated, or Stunned condition for 1d10 minutes. This condition might be accompanied by alarming behavior or hallucinations. These effects can be suppressed with the Calm Emotions spell or removed by the Lesser Restoration spell.\n\nLong-Term Effects. The character has Disadvantage on some or all ability checks for 1d10 × 10 hours, stemming from an unwillingness or inability to exert a particular set of abilities. The character might feel enervated and unable to exert much Strength, for example, or become so suspicious of others that Charisma checks are more difficult. These effects can be suppressed with the Calm Emotions spell or removed by the Lesser Restoration spell.\n\nIndefinite Effects. An indefinite effect is a long-term effect (see above) that lasts until removed by a Greater Restoration spell. It can be suppressed by a Calm Emotions spell.",
+  "mentionsCondition": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/conditions/stunned"
+    }
+  ]
+}

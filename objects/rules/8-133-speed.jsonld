@@ -11,9 +11,58 @@
     "chapter": "Rules Glossary",
     "section": "8.133",
     "heading": "Speed",
-    "lineStart": 13579,
-    "lineEnd": 13585
+    "lineStart": 13543,
+    "lineEnd": 13549
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-133-speed/"
   },
   "section": "8.133",
-  "rulesText": "A creature has a Speed, which is the distance in feet the creature can cover when it moves on its turn. See also “Climbing,” “Crawling,” “Flying,” “Jumping,” “Swimming” and “Playing the Game” (“Combat”).\n\nSpecial Speeds. Some creatures have special speeds, such as a Burrow Speed, Climb Speed, Fly Speed, or Swim Speed, each of which is defined in this glossary. If you have more than one speed, choose which one to use when you move; you can switch between the speeds during your move. Whenever you switch, subtract the distance already moved from the new speed. The result determines how much farther you can move. If the result is 0 or less, you can't use the new speed during the current move. For example, if you have a Speed of 30 and a Fly Speed of 40, you could fly 10 feet, walk 10 feet, and leap into the air to fly 20 feet more.\n\nChanges to Your Speeds. If an effect increases or decreases your Speed for a time, any special speed you have increases or decreases by an equal amount for the same duration. For example, if your Speed is reduced to 0 and you have a Climb Speed, your Climb Speed is also reduced to 0. Similarly, if your Speed is halved and you have a Fly Speed, your Fly Speed is also halved."
+  "rulesText": "A creature has a Speed, which is the distance in feet the creature can cover when it moves on its turn. See also “Climbing,” “Crawling,” “Flying,” “Jumping,” “Swimming” and “Playing the Game” (“Combat”).\n\nSpecial Speeds. Some creatures have special speeds, such as a Burrow Speed, Climb Speed, Fly Speed, or Swim Speed, each of which is defined in this glossary. If you have more than one speed, choose which one to use when you move; you can switch between the speeds during your move. Whenever you switch, subtract the distance already moved from the new speed. The result determines how much farther you can move. If the result is 0 or less, you can't use the new speed during the current move. For example, if you have a Speed of 30 and a Fly Speed of 40, you could fly 10 feet, walk 10 feet, and leap into the air to fly 20 feet more.\n\nChanges to Your Speeds. If an effect increases or decreases your Speed for a time, any special speed you have increases or decreases by an equal amount for the same duration. For example, if your Speed is reduced to 0 and you have a Climb Speed, your Climb Speed is also reduced to 0. Similarly, if your Speed is halved and you have a Fly Speed, your Fly Speed is also halved.",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-32-climbing"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-38-crawling"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-70-flying"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-95-jumping"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-144-swimming"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-59-combat"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-32-climbing"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-38-crawling"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-70-flying"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-95-jumping"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-144-swimming"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-59-combat"
+    }
+  ]
 }

@@ -11,9 +11,22 @@
     "chapter": "Rules Glossary",
     "section": "8.135",
     "heading": "Spell Attack",
-    "lineStart": 13591,
-    "lineEnd": 13593
+    "lineStart": 13555,
+    "lineEnd": 13557
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-135-spell-attack/"
   },
   "section": "8.135",
-  "rulesText": "A spell attack is an attack roll made as part of a spell or another magical effect. See also “Spells” (“Casting Spells”)."
+  "rulesText": "A spell attack is an attack roll made as part of a spell or another magical effect. See also “Spells” (“Casting Spells”).",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/7-5-casting-spells"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/7-5-casting-spells"
+    }
+  ]
 }

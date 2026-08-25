@@ -14,6 +14,9 @@
     "lineStart": 80,
     "lineEnd": 82
   },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-6-ability-modifiers/"
+  },
   "section": "1.6",
   "rulesText": "Each ability has a modifier that you apply whenever you make a D20 Test with that ability (explained in \"D20 Tests\"). An ability modifier is derived from its score, as shown in the Ability Modifiers table."
 }

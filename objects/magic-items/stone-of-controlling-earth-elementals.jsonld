@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.261",
     "heading": "Stone of Controlling Earth Elementals",
-    "lineStart": 17398,
-    "lineEnd": 17402
+    "lineStart": 17339,
+    "lineEnd": 17343
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/stone-of-controlling-earth-elementals/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Rare",
   "requiresAttunement": false,
-  "rulesText": "Wondrous Item, Rare\n\nWhile touching this 5-pound stone to the ground, you can take a Magic action to summon an Earth Elemental. The elemental appears in an unoccupied space you choose within 30 feet of yourself, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action. The stone can't be used this way again until the next dawn."
+  "rulesText": "Wondrous Item, Rare\n\nWhile touching this 5-pound stone to the ground, you can take a Magic action to summon an Earth Elemental. The elemental appears in an unoccupied space you choose within 30 feet of yourself, obeys your commands, and takes its turn immediately after you on your Initiative count. The elemental disappears after 1 hour, when it dies, or when you dismiss it as a Bonus Action. The stone can't be used this way again until the next dawn.",
+  "isCursed": false,
+  "isSentient": false
 }

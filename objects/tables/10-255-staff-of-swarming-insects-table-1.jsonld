@@ -11,8 +11,12 @@
     "chapter": "Magic Items",
     "section": "10.255",
     "heading": "Staff of Swarming Insects",
-    "lineStart": 17296,
-    "lineEnd": 17299
+    "lineStart": 17237,
+    "lineEnd": 17240,
+    "caption": "Staff of Swarming Insects Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/10-255-staff-of-swarming-insects-table-1/"
   },
   "columns": [
     "Spell",

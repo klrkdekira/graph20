@@ -11,11 +11,16 @@
     "chapter": "Magic Items",
     "section": "10.275",
     "heading": "Universal Solvent",
-    "lineStart": 17501,
-    "lineEnd": 17507
+    "lineStart": 17442,
+    "lineEnd": 17448
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/universal-solvent/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Legendary",
   "requiresAttunement": false,
-  "rulesText": "Wondrous Item, Legendary\n\nThis tube holds milky liquid with a strong alcohol smell. When found, a tube contains 1d6 + 1 ounces.\n\nYou can take a Utilize action to pour 1 or more ounces of solvent from the tube onto a surface within reach. Each ounce instantly dissolves up to 1 square foot of adhesive it touches, including Sovereign Glue."
+  "rulesText": "Wondrous Item, Legendary\n\nThis tube holds milky liquid with a strong alcohol smell. When found, a tube contains 1d6 + 1 ounces.\n\nYou can take a Utilize action to pour 1 or more ounces of solvent from the tube onto a surface within reach. Each ounce instantly dissolves up to 1 square foot of adhesive it touches, including Sovereign Glue.",
+  "isCursed": false,
+  "isSentient": false
 }

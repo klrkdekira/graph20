@@ -11,8 +11,11 @@
     "chapter": "Classes",
     "section": "3.10",
     "heading": "Druid",
-    "lineStart": 2372,
-    "lineEnd": 2807
+    "lineStart": 2362,
+    "lineEnd": 2797
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/classes/druid/"
   },
   "coreTraits": [
     {
@@ -65,8 +68,8 @@
         "chapter": "Classes",
         "section": "3.10",
         "heading": "Level 1: Spellcasting",
-        "lineStart": 2428,
-        "lineEnd": 2452
+        "lineStart": 2418,
+        "lineEnd": 2442
       }
     },
     {
@@ -77,8 +80,8 @@
         "chapter": "Classes",
         "section": "3.10",
         "heading": "Level 1: Druidic",
-        "lineStart": 2454,
-        "lineEnd": 2460
+        "lineStart": 2444,
+        "lineEnd": 2450
       }
     },
     {
@@ -89,20 +92,20 @@
         "chapter": "Classes",
         "section": "3.10",
         "heading": "Level 1: Primal Order",
-        "lineStart": 2462,
-        "lineEnd": 2468
+        "lineStart": 2452,
+        "lineEnd": 2458
       }
     },
     {
       "level": 2,
       "name": "Wild Shape",
-      "rulesText": "The power of nature allows you to assume the form of an animal. As a Bonus Action, you shape-shift into a Beast form that you have learned for this feature (see “Known Forms” below). You stay in that form for a number of hours equal to half your Druid level or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action.\n\nNumber of Uses. You can use Wild Shape twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.\n\nYou gain additional uses when you reach certain Druid levels, as shown in the Wild Shape column of the Druid Features table.\n\nKnown Forms. You know four Beast forms for this feature, chosen from among Beast stat blocks that have a maximum Challenge Rating of 1/4 and that lack a Fly Speed (see “Animals” in “Monsters” for stat block options). The Rat, Riding Horse, Spider, and Wolf are recommended. Whenever you finish a Long Rest, you can replace one of your known forms with another eligible form.\n\nWhen you reach certain Druid levels, your number of known forms and the maximum Challenge Rating for those forms increases, as shown in the Beast Shapes table. In addition, starting at level 8, you can adopt a form that has a Fly Speed.\n\nWhen choosing known forms, you may look in other sources for eligible Beasts if the Game Master permits you to do so.\n\nBeast Shapes\n\nRules While Shape-Shifted. While in a form, you retain your personality, memories, and ability to speak, and the following rules apply:\n\nTemporary Hit Points. When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level.\n\nGame Statistics. Your game statistics are replaced by the Beast's stat block, but you retain your creature type; Hit Points; Hit Point Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining the proficiencies of the creature. If a skill or saving throw modifier in the Beast's stat block is higher than yours, use the one in the stat block.\n\nNo Spellcasting. You can't cast spells, but shape-shifting doesn't break your Concentration or otherwise interfere with a spell you've already cast.\n\nObjects. Your ability to handle objects is determined by the form's limbs rather than your own. In addition, you choose whether your equipment falls in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the GM decides whether it's practical for the new form to wear a piece of equipment based on the creature's size and shape. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with the form. Equipment that merges with the form has no effect while you're in that form.",
+      "rulesText": "The power of nature allows you to assume the form of an animal. As a Bonus Action, you shape-shift into a Beast form that you have learned for this feature (see “Known Forms” below). You stay in that form for a number of hours equal to half your Druid level or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action.\n\nNumber of Uses. You can use Wild Shape twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.\n\nYou gain additional uses when you reach certain Druid levels, as shown in the Wild Shape column of the Druid Features table.\n\nKnown Forms. You know four Beast forms for this feature, chosen from among Beast stat blocks that have a maximum Challenge Rating of 1/4 and that lack a Fly Speed (see “Animals” in “Monsters” for stat block options). The Rat, Riding Horse, Spider, and Wolf are recommended. Whenever you finish a Long Rest, you can replace one of your known forms with another eligible form.\n\nWhen you reach certain Druid levels, your number of known forms and the maximum Challenge Rating for those forms increases, as shown in the Beast Shapes table. In addition, starting at level 8, you can adopt a form that has a Fly Speed.\n\nWhen choosing known forms, you may look in other sources for eligible Beasts if the Game Master permits you to do so.\n\nRules While Shape-Shifted. While in a form, you retain your personality, memories, and ability to speak, and the following rules apply:\n\nTemporary Hit Points. When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level.\n\nGame Statistics. Your game statistics are replaced by the Beast's stat block, but you retain your creature type; Hit Points; Hit Point Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining the proficiencies of the creature. If a skill or saving throw modifier in the Beast's stat block is higher than yours, use the one in the stat block.\n\nNo Spellcasting. You can't cast spells, but shape-shifting doesn't break your Concentration or otherwise interfere with a spell you've already cast.\n\nObjects. Your ability to handle objects is determined by the form's limbs rather than your own. In addition, you choose whether your equipment falls in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the GM decides whether it's practical for the new form to wear a piece of equipment based on the creature's size and shape. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with the form. Equipment that merges with the form has no effect while you're in that form.",
       "sourceLocator": {
         "chapter": "Classes",
         "section": "3.10",
         "heading": "Level 2: Wild Shape",
-        "lineStart": 2470,
-        "lineEnd": 2500
+        "lineStart": 2460,
+        "lineEnd": 2490
       },
       "relatedTables": [
         {
@@ -118,8 +121,8 @@
         "chapter": "Classes",
         "section": "3.10",
         "heading": "Level 2: Wild Companion",
-        "lineStart": 2502,
-        "lineEnd": 2506
+        "lineStart": 2492,
+        "lineEnd": 2496
       }
     },
     {
@@ -130,8 +133,8 @@
         "chapter": "Classes",
         "section": "3.10",
         "heading": "Level 3: Druid Subclass",
-        "lineStart": 2508,
-        "lineEnd": 2510
+        "lineStart": 2498,
+        "lineEnd": 2500
       }
     },
     {
@@ -142,8 +145,8 @@
         "chapter": "Classes",
         "section": "3.10",
         "heading": "Level 4: Ability Score Improvement",
-        "lineStart": 2512,
-        "lineEnd": 2514
+        "lineStart": 2502,
+        "lineEnd": 2504
       }
     },
     {
@@ -154,8 +157,8 @@
         "chapter": "Classes",
         "section": "3.10",
         "heading": "Level 5: Wild Resurgence",
-        "lineStart": 2516,
-        "lineEnd": 2520
+        "lineStart": 2506,
+        "lineEnd": 2510
       }
     },
     {
@@ -166,8 +169,8 @@
         "chapter": "Classes",
         "section": "3.10",
         "heading": "Level 7: Elemental Fury",
-        "lineStart": 2522,
-        "lineEnd": 2528
+        "lineStart": 2512,
+        "lineEnd": 2518
       }
     },
     {
@@ -178,8 +181,8 @@
         "chapter": "Classes",
         "section": "3.10",
         "heading": "Level 15: Improved Elemental Fury",
-        "lineStart": 2530,
-        "lineEnd": 2536
+        "lineStart": 2520,
+        "lineEnd": 2526
       }
     },
     {
@@ -190,8 +193,8 @@
         "chapter": "Classes",
         "section": "3.10",
         "heading": "Level 18: Beast Spells",
-        "lineStart": 2538,
-        "lineEnd": 2540
+        "lineStart": 2528,
+        "lineEnd": 2530
       }
     },
     {
@@ -202,8 +205,8 @@
         "chapter": "Classes",
         "section": "3.10",
         "heading": "Level 19: Epic Boon",
-        "lineStart": 2542,
-        "lineEnd": 2544
+        "lineStart": 2532,
+        "lineEnd": 2534
       }
     },
     {
@@ -214,8 +217,8 @@
         "chapter": "Classes",
         "section": "3.10",
         "heading": "Level 20: Archdruid",
-        "lineStart": 2546,
-        "lineEnd": 2554
+        "lineStart": 2536,
+        "lineEnd": 2544
       }
     }
   ],
@@ -224,7 +227,7 @@
       "@id": "https://cheeleong.dev/graph20/objects/tables/3-10-druid-features"
     }
   ],
-  "rulesText": "Core Druid Traits\n\nBecoming a Druid ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Druid Traits table.\n- Gain the Druid's level 1 features, which are listed in the Druid Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Druid Traits table: Hit Point Die and training with Light armor and Shields.\n- Gain the Druid's level 1 features, which are listed in the Druid Features table. See the multiclassing rules in “Character Creation” to determine your available spell slots.\n\nDruid Class Features\n\nAs a Druid, you gain the following class features when you reach the specified Druid levels. These features are listed in the Druid Features table.\n\nDruid Features",
+  "rulesText": "Core Druid Traits\n\nBecoming a Druid ...\n\nAs a Level 1 Character\n\n- Gain all the traits in the Core Druid Traits table.\n- Gain the Druid's level 1 features, which are listed in the Druid Features table.\n\nAs a Multiclass Character\n\n- Gain the following traits from the Core Druid Traits table: Hit Point Die and training with Light armor and Shields.\n- Gain the Druid's level 1 features, which are listed in the Druid Features table. See the multiclassing rules in “Character Creation” to determine your available spell slots.\n\nDruid Class Features\n\nAs a Druid, you gain the following class features when you reach the specified Druid levels. These features are listed in the Druid Features table.",
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/incapacitated"

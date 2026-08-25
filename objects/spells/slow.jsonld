@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.317",
     "heading": "Slow",
-    "lineStart": 11722,
-    "lineEnd": 11735
+    "lineStart": 11693,
+    "lineEnd": 11706
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/slow/"
   },
   "level": 3,
   "school": "Transmutation",
@@ -38,7 +41,53 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "You alter time around up to six creatures of your choice in a 40-foot Cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration."
+    },
+    {
+      "ability": "Dexterity",
+      "sourceText": "An affected target's Speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, and it can't take Reactions. On its turns, it can take either an action or a Bonus Action, not both, and it can make only one attack if it takes the Attack action. If it casts a spell with a Somatic component, there is a 25 percent chance the spell fails as a result of the target making the spell's gestures too slowly."
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a drop of molasses)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a drop of molasses",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Cube",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+      },
+      "sourceText": "You alter time around up to six creatures of your choice in a 40-foot Cube within range.",
+      "sizeFeet": 40
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/cube"
+    }
+  ]
 }

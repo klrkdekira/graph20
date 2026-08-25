@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.97",
     "heading": "Ghast",
-    "lineStart": 20960,
-    "lineEnd": 20990
+    "lineStart": 20880,
+    "lineEnd": 20910
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/ghast/"
   },
   "sizeTypeAlignment": "Medium Undead, Chaotic Evil",
   "sizeAndType": "Medium Undead",
+  "size": "Medium",
+  "creatureType": "Undead",
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Evil",
   "armorClass": "13",
   "initiative": "+3 (13)",
@@ -76,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.97",
         "heading": "Traits",
-        "lineStart": 20982,
-        "lineEnd": 20984
+        "lineStart": 20902,
+        "lineEnd": 20904
       }
     },
     {
@@ -87,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.97",
         "heading": "Actions",
-        "lineStart": 20986,
-        "lineEnd": 20990
+        "lineStart": 20906,
+        "lineEnd": 20910
       }
     }
   ],
@@ -103,6 +109,28 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Common"
+  ],
+  "damageImmunities": [
+    "Poison"
+  ],
+  "damageResistances": [
+    "Necrotic"
   ],
   "attacks": [
     {

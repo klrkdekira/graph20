@@ -11,14 +11,19 @@
     "chapter": "Magic Items",
     "section": "10.174",
     "heading": "Periapt of Health",
-    "lineStart": 16396,
-    "lineEnd": 16402
+    "lineStart": 16352,
+    "lineEnd": 16358
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/periapt-of-health/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
   "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nWhile wearing this pendant, you can take a Magic action to regain 2d4 + 2 Hit Points. Once used, this property can't be used again until the next dawn.\n\nIn addition, you have Advantage on saving throws to avoid or end the Poisoned condition while you wear this pendant.",
+  "isCursed": false,
+  "isSentient": false,
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"

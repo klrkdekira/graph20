@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.248",
     "heading": "Mirage Arcane",
-    "lineStart": 10689,
-    "lineEnd": 10706
+    "lineStart": 10660,
+    "lineEnd": 10677
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/mirage-arcane/"
   },
   "level": 7,
   "school": "Illusion",
@@ -39,5 +42,23 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Sight",
+    "kind": "Sight"
+  },
+  "durationDetails": {
+    "text": "10 days",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 10,
+    "unit": "day"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

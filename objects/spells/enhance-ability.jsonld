@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.134",
     "heading": "Enhance Ability",
-    "lineStart": 8926,
-    "lineEnd": 8937
+    "lineStart": 8897,
+    "lineEnd": 8908
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/enhance-ability/"
   },
   "level": 2,
   "school": "Transmutation",
@@ -51,5 +54,25 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 hour",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (fur or a feather)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "fur or a feather",
+    "consumed": false
+  }
 }

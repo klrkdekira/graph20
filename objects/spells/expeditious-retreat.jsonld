@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.140",
     "heading": "Expeditious Retreat",
-    "lineStart": 9018,
-    "lineEnd": 9027
+    "lineStart": 8989,
+    "lineEnd": 8998
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/expeditious-retreat/"
   },
   "level": 1,
   "school": "Transmutation",
@@ -39,5 +42,23 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.119",
     "heading": "Dispel Magic",
-    "lineStart": 8686,
-    "lineEnd": 8697
+    "lineStart": 8657,
+    "lineEnd": 8668
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/dispel-magic/"
   },
   "level": 3,
   "school": "Abjuration",
@@ -59,5 +62,21 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.280",
     "heading": "Protection from Poison",
-    "lineStart": 11199,
-    "lineEnd": 11208
+    "lineStart": 11170,
+    "lineEnd": 11179
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/protection-from-poison/"
   },
   "level": 2,
   "school": "Abjuration",
@@ -44,6 +47,24 @@
   "scalesWithSlotLevel": false,
   "concentration": false,
   "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "1 hour",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"

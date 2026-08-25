@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.163",
     "heading": "Fly",
-    "lineStart": 9384,
-    "lineEnd": 9395
+    "lineStart": 9355,
+    "lineEnd": 9366
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/fly/"
   },
   "level": 3,
   "school": "Transmutation",
@@ -39,5 +42,25 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a feather)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a feather",
+    "consumed": false
+  }
 }

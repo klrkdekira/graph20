@@ -11,9 +11,34 @@
     "chapter": "Rules Glossary",
     "section": "8.50",
     "heading": "Darkness",
-    "lineStart": 13020,
-    "lineEnd": 13022
+    "lineStart": 12984,
+    "lineEnd": 12986
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-50-darkness/"
   },
   "section": "8.50",
-  "rulesText": "An area of Darkness is Heavily Obscured. See also “Heavily Obscured” and “Playing the Game” (“Exploration”)."
+  "rulesText": "An area of Darkness is Heavily Obscured. See also “Heavily Obscured” and “Playing the Game” (“Exploration”).",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-78-heavily-obscured"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-41-exploration"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-78-heavily-obscured"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-41-exploration"
+    }
+  ]
 }

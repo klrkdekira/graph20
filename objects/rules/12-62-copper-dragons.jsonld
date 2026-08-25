@@ -11,8 +11,13 @@
     "chapter": "Monsters A-Z",
     "section": "12.62",
     "heading": "Copper Dragons",
-    "lineStart": 19818,
-    "lineEnd": 19818
+    "lineStart": 19741,
+    "lineEnd": 19741
   },
-  "section": "12.62"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/12-62-copper-dragons/"
+  },
+  "section": "12.62",
+  "rulesText": "Copper Dragons",
+  "headingOnly": true
 }

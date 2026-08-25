@@ -1,0 +1,39 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/actions/influence",
+  "@type": "Action",
+  "name": "Influence",
+  "slug": "influence",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Rules Glossary",
+    "section": "8.92",
+    "heading": "Influence [Action]",
+    "lineStart": 13243,
+    "lineEnd": 13261
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/actions/influence/"
+  },
+  "rulesText": "With the Influence action, you urge a monster to do something. Describe or roleplay how you're communicating with the monster. Are you trying to deceive, intimidate, amuse, or gently persuade? The GM then determines whether the monster feels willing, unwilling, or hesitant due to your interaction; this determination establishes whether an ability check is necessary, as explained below.\n\nWilling. If your urging aligns with the monster's desires, no ability check is necessary; the monster fulfills your request in a way it prefers.\n\nUnwilling. If your urging is repugnant to the monster or counter to its alignment, no ability check is necessary; it doesn't comply.\n\nHesitant. If you urge the monster to do something that it is hesitant to do, you must make an ability check, which is affected by the monster's attitude: Indifferent, Friendly, or Hostile, each of which is defined in this glossary. The Influence Checks table suggests which ability check to make based on how you're interacting with the monster. The GM chooses the check, which has a default DC equal to 15 or the monster's Intelligence score, whichever is higher. On a successful check, the monster does as urged. On a failed check, you must wait 24 hours (or a duration set by the GM) before urging it in the same way again.\n\nInfluence Checks\n\n| Ability Check            | Interaction                               |\n| :----------------------- | :---------------------------------------- |\n| Charisma (Deception)     | Deceiving a monster that understands you  |\n| Charisma (Intimidation)  | Intimidating a monster                    |\n| Charisma (Performance)   | Amusing a monster                         |\n| Charisma (Persuasion)    | Persuading a monster that understands you |\n| Wisdom (Animal Handling) | Gently coaxing a Beast or Monstrosity     |",
+  "effects": [
+    {
+      "name": "With the Influence action, you urge a monster to do something",
+      "rulesText": "Describe or roleplay how you're communicating with the monster. Are you trying to deceive, intimidate, amuse, or gently persuade? The GM then determines whether the monster feels willing, unwilling, or hesitant due to your interaction; this determination establishes whether an ability check is necessary, as explained below."
+    },
+    {
+      "name": "Willing",
+      "rulesText": "If your urging aligns with the monster's desires, no ability check is necessary; the monster fulfills your request in a way it prefers."
+    },
+    {
+      "name": "Unwilling",
+      "rulesText": "If your urging is repugnant to the monster or counter to its alignment, no ability check is necessary; it doesn't comply."
+    },
+    {
+      "name": "Hesitant",
+      "rulesText": "If you urge the monster to do something that it is hesitant to do, you must make an ability check, which is affected by the monster's attitude: Indifferent, Friendly, or Hostile, each of which is defined in this glossary. The Influence Checks table suggests which ability check to make based on how you're interacting with the monster. The GM chooses the check, which has a default DC equal to 15 or the monster's Intelligence score, whichever is higher. On a successful check, the monster does as urged. On a failed check, you must wait 24 hours (or a duration set by the GM) before urging it in the same way again."
+    }
+  ]
+}

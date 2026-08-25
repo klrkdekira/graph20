@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.182",
     "heading": "Pegasus",
-    "lineStart": 23654,
-    "lineEnd": 23677
+    "lineStart": 23574,
+    "lineEnd": 23597
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/pegasus/"
   },
   "sizeTypeAlignment": "Large Celestial, Chaotic Good",
   "sizeAndType": "Large Celestial",
+  "size": "Large",
+  "creatureType": "Celestial",
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Good",
   "armorClass": "12",
   "initiative": "+2 (12)",
@@ -76,12 +82,35 @@
         "chapter": "Monsters A-Z",
         "section": "12.182",
         "heading": "Actions",
-        "lineStart": 23675,
-        "lineEnd": 23677
+        "lineStart": 23595,
+        "lineEnd": 23597
       }
     }
   ],
   "rulesText": "Large Celestial, Chaotic Good\n\nAC 12\nInitiative +2 (12)\nHP 59 (7d10 + 21)\nSpeed 60 ft., Fly 90 ft.\n\nSkills Perception +6\nSenses Passive Perception 16\nLanguages Understands Celestial, Common, Elvish, and Sylvan but can't speak\nCR 2 (XP 450; PB +2)\n\nActions\n\nHooves. Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 + 4) Bludgeoning damage plus 5 (2d4) Radiant damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 60
+    },
+    {
+      "mode": "Fly",
+      "feet": 90
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 6
+    }
+  ],
+  "passivePerception": 16,
+  "languageList": [
+    "Understands Celestial",
+    "Common",
+    "Elvish",
+    "and Sylvan but can't speak"
+  ],
   "attacks": [
     {
       "name": "Hooves",

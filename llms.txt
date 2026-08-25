@@ -1,34 +1,48 @@
 # SRD 5.2.1 System JSON
 
-> Machine-readable JSON-LD 1.1 reference corpus for the System Reference Document 5.2.1 (D&D fifth edition rules, CC-BY-4.0), with JSON Schema Draft 2020-12 validation. 2,107 records: rules, logical tables, classes, subclasses, species, backgrounds, feats, equipment, spells, conditions, magic items, and monster stat blocks — each with source-faithful prose, typed sibling fields, graph links, and physical line provenance.
+> Machine-readable JSON-LD 1.1 reference corpus for the System Reference Document 5.2.1, with JSON Schema Draft 2020-12 validation. 2,226 records preserve source wording, typed indexes, graph links, and physical line provenance.
 
-Attribution: This work includes material from the System Reference Document 5.2.1 ("SRD 5.2.1") by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd, licensed CC-BY-4.0.
+Attribution: This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.
 
 ## Entry points
 
-- [Full corpus context](https://cheeleong.dev/graph20/llms-full.txt): complete text of every record; answer rules questions from this single file
-- [Aggregate manifest](https://cheeleong.dev/graph20/objects/srd52-system-data.jsonld): collection indexes and digests
-- [Single-file bundle](https://cheeleong.dev/graph20/objects/srd52-system-data.bundle.jsonld): every record in one @graph
+- [Human-readable explorer](https://cheeleong.dev/graph20/)
+- [Full corpus context](https://cheeleong.dev/graph20/llms-full.txt): complete recursive text projection
+- [Aggregate manifest](https://cheeleong.dev/graph20/objects/srd52-system-data.jsonld): collection membership, schemas, and digests
+- [Single-file bundle](https://cheeleong.dev/graph20/objects/srd52-system-data.bundle.jsonld): all records in one @graph
 - [Search index](https://cheeleong.dev/graph20/objects/search-index.json): static inverted token index
+- [Collection index](https://cheeleong.dev/graph20/objects/collection-index.json): compact browse metadata
 - [JSON-LD context](https://cheeleong.dev/graph20/systems/context.jsonld)
-- [Vocabulary terms](https://cheeleong.dev/graph20/vocab/terms.json): every class and property with definitions
+- [Vocabulary terms](https://cheeleong.dev/graph20/vocab/terms.json)
 
 ## Collections
 
-Record URLs follow `objects/<collection>/<slug>.jsonld`; the full per-collection @id lists are in the manifest, and display metadata (name, level/CR/rarity, grouping) is in [collection-index.json](https://cheeleong.dev/graph20/objects/collection-index.json).
+Raw records use `objects/<collection>/<slug>.jsonld`; indexable HTML counterparts use `records/<collection>/<slug>/`. Every HTML page declares its JSON-LD alternate, and every JSON-LD record carries `htmlPage`.
 
-- Spells: 339, e.g. [fireball](https://cheeleong.dev/graph20/objects/spells/fireball.jsonld)
-- Monsters: 336 stat blocks, e.g. [fire-giant](https://cheeleong.dev/graph20/objects/monsters/fire-giant.jsonld)
-- Magic items: 258, e.g. [animated-shield](https://cheeleong.dev/graph20/objects/magic-items/animated-shield.jsonld)
-- Classes: 12 · Subclasses: 12 · Species: 9 · Backgrounds: 4 · Feats: 17 · Conditions: 15
-- Equipment: 133 typed weapons/armor/gear, e.g. [longsword](https://cheeleong.dev/graph20/objects/equipment/longsword.jsonld)
-- Rules: 736 · Tables: 235 · Sources: 1 (license and provenance record)
+- sources: 1 Source record
+- rules: 708 Rule records
+- actions: 12 Action records
+- areas-of-effect: 6 AreaOfEffect records
+- attitudes: 3 Attitude records
+- hazards: 5 Hazard records
+- tables: 224 Table records
+- classes: 12 CharacterClass records
+- subclasses: 12 Subclass records
+- invocations: 28 EldritchInvocation records
+- metamagic-options: 10 MetamagicOption records
+- species: 9 Species records
+- backgrounds: 4 Background records
+- feats: 17 Feat records
+- equipment: 227 Equipment records
+- spells: 339 Spell records
+- conditions: 15 Condition records
+- magic-items: 258 MagicItem records
+- monsters: 336 Monster records
 
-Typed graph relations use node references: `listsSpell` connects class spell-list tables to spells; `castsSpell` connects active magic-item casting clauses to spells; `mentionsCondition` resolves exact condition phrases; `grantsFeat` resolves background feats; and `hasGear` resolves monster gear while retaining the source display strings.
+Typed relations include `listsSpell`, `castsSpell`, `mentionsCondition`, `grantsFeat`, `hasGear`, `summons`, `areaShapes`, `grantsTool`, `grantsEquipment`, `relatedRules`, `relatedTables`, `seeAlso`, and catalog `hasPart` links. Core incoming directions have JSON-LD `@reverse` aliases.
 
 ## Documentation
 
 - [README](https://cheeleong.dev/graph20/README.md)
 - [Technical specification](https://cheeleong.dev/graph20/SPECIFICATION.md)
 - [Replication checklist](https://cheeleong.dev/graph20/CHECKLIST.md)
-- [Gap register](https://cheeleong.dev/graph20/AUDIT.md)

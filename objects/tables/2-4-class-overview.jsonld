@@ -11,8 +11,12 @@
     "chapter": "Character Creation",
     "section": "2.4",
     "heading": "Step 1: Choose Class",
-    "lineStart": 885,
-    "lineEnd": 894
+    "lineStart": 883,
+    "lineEnd": 896,
+    "caption": "Class Overview"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/2-4-class-overview/"
   },
   "columns": [
     "Class",
@@ -156,7 +160,75 @@
           "value": "Average"
         }
       ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "Rogue"
+        },
+        {
+          "value": "Stealth"
+        },
+        {
+          "value": "Dexterity"
+        },
+        {
+          "value": "Low"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "Sorcerer"
+        },
+        {
+          "value": "Power"
+        },
+        {
+          "value": "Charisma"
+        },
+        {
+          "value": "High"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "Warlock"
+        },
+        {
+          "value": "Occult lore"
+        },
+        {
+          "value": "Charisma"
+        },
+        {
+          "value": "High"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "Wizard"
+        },
+        {
+          "value": "Spellbooks"
+        },
+        {
+          "value": "Intelligence"
+        },
+        {
+          "value": "Average"
+        }
+      ]
     }
   ],
-  "rawText": "| Class     | Likes ...      | Primary Ability       | Complexity |\n| :-------- | :------------- | :-------------------- | :--------- |\n| Barbarian | Battle         | Strength              | Average    |\n| Bard      | Performing     | Charisma              | High       |\n| Cleric    | Gods           | Wisdom                | Average    |\n| Druid     | Nature         | Wisdom                | High       |\n| Fighter   | Weapons        | Strength or Dexterity | Low        |\n| Monk      | Unarmed combat | Dexterity and Wisdom  | High       |\n| Paladin   | Defense        | Strength and Charisma | Average    |\n| Ranger    | Survival       | Dexterity and Wisdom  | Average    |"
+  "rawText": "| Class     | Likes ...      | Primary Ability       | Complexity |\n| :-------- | :------------- | :-------------------- | :--------- |\n| Barbarian | Battle         | Strength              | Average    |\n| Bard      | Performing     | Charisma              | High       |\n| Cleric    | Gods           | Wisdom                | Average    |\n| Druid     | Nature         | Wisdom                | High       |\n| Fighter   | Weapons        | Strength or Dexterity | Low        |\n| Monk      | Unarmed combat | Dexterity and Wisdom  | High       |\n| Paladin   | Defense        | Strength and Charisma | Average    |\n| Ranger    | Survival       | Dexterity and Wisdom  | Average    |\n| Rogue    | Stealth     | Dexterity       | Low        |\n| Sorcerer | Power       | Charisma        | High       |\n| Warlock  | Occult lore | Charisma        | High       |\n| Wizard   | Spellbooks  | Intelligence    | Average    |"
 }

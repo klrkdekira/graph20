@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.285",
     "heading": "Regenerate",
-    "lineStart": 11264,
-    "lineEnd": 11273
+    "lineStart": 11235,
+    "lineEnd": 11244
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/regenerate/"
   },
   "level": 7,
   "school": "Transmutation",
@@ -39,5 +42,25 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Touch",
+    "kind": "Touch"
+  },
+  "durationDetails": {
+    "text": "1 hour",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a prayer wheel)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a prayer wheel",
+    "consumed": false
+  }
 }

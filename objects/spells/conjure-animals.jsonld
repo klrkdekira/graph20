@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.86",
     "heading": "Conjure Animals",
-    "lineStart": 8147,
-    "lineEnd": 8164
+    "lineStart": 8118,
+    "lineEnd": 8135
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/conjure-animals/"
   },
   "level": 3,
   "school": "Conjuration",
@@ -34,6 +37,19 @@
     }
   ],
   "savingThrowAbility": "Strength",
+  "savingThrows": [
+    {
+      "ability": "Strength",
+      "sourceText": "You have Advantage on Strength saving throws while you're within 5 feet of the pack, and when you move on your turn, you can also move the pack up to 30 feet to an unoccupied space you can see."
+    },
+    {
+      "ability": "Dexterity",
+      "sourceText": "its turn there, you can force that creature to make a Dexterity saving throw. On a failed save, the creature takes 3d10 Slashing damage. A creature makes this save only once per turn.",
+      "outcomes": [
+        "FailureEffect"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Slashing",
@@ -46,5 +62,24 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "60 feet",
+    "kind": "Distance",
+    "distanceFeet": 60
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

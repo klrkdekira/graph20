@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.139",
     "heading": "Horned Devil",
-    "lineStart": 22229,
-    "lineEnd": 22265
+    "lineStart": 22149,
+    "lineEnd": 22185
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/horned-devil/"
   },
   "sizeTypeAlignment": "Large Fiend (Devil), Lawful Evil",
   "sizeAndType": "Large Fiend (Devil)",
+  "size": "Large",
+  "creatureType": "Fiend",
+  "descriptiveTags": [
+    "Devil"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "18",
   "initiative": "+7 (17)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.139",
         "heading": "Traits",
-        "lineStart": 22251,
-        "lineEnd": 22255
+        "lineStart": 22171,
+        "lineEnd": 22175
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.139",
         "heading": "Actions",
-        "lineStart": 22257,
-        "lineEnd": 22265
+        "lineStart": 22177,
+        "lineEnd": 22185
       }
     }
   ],
@@ -98,6 +107,34 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Fly",
+      "feet": 60
+    }
+  ],
+  "passivePerception": 13,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 150
+    }
+  ],
+  "languageList": [
+    "Infernal",
+    "telepathy 120 ft."
+  ],
+  "damageImmunities": [
+    "Fire",
+    "Poison"
+  ],
+  "damageResistances": [
+    "Cold"
   ],
   "attacks": [
     {

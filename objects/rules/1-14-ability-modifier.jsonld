@@ -14,8 +14,11 @@
     "lineStart": 155,
     "lineEnd": 168
   },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/1-14-ability-modifier/"
+  },
   "section": "1.14",
-  "rulesText": "Saving throws are named for the ability modifiers they use: a Constitution saving throw, a Wisdom saving throw, and so on. Different saving throws are used to resist different kinds of effects, as shown on the Saving Throw Examples table.\n\nSaving Throw Examples",
+  "rulesText": "Saving throws are named for the ability modifiers they use: a Constitution saving throw, a Wisdom saving throw, and so on. Different saving throws are used to resist different kinds of effects, as shown on the Saving Throw Examples table.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/1-14-saving-throw-examples"

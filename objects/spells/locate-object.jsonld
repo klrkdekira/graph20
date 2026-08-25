@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.225",
     "heading": "Locate Object",
-    "lineStart": 10343,
-    "lineEnd": 10356
+    "lineStart": 10314,
+    "lineEnd": 10327
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/locate-object/"
   },
   "level": 2,
   "school": "Divination",
@@ -51,5 +54,25 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 10,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a forked twig)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a forked twig",
+    "consumed": false
+  }
 }

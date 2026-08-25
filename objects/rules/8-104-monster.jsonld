@@ -11,9 +11,22 @@
     "chapter": "Rules Glossary",
     "section": "8.104",
     "heading": "Monster",
-    "lineStart": 13396,
-    "lineEnd": 13398
+    "lineStart": 13360,
+    "lineEnd": 13362
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-104-monster/"
   },
   "section": "8.104",
-  "rulesText": "A monster is a creature controlled by the GM, even if the creature is benevolent. See also “Creature” and “NPC.”"
+  "rulesText": "A monster is a creature controlled by the GM, even if the creature is benevolent. See also “Creature” and “NPC.”",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-39-creature"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/8-39-creature"
+    }
+  ]
 }

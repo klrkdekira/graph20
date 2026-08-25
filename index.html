@@ -500,15 +500,19 @@
 (function () {
   "use strict";
   var LABELS = {
+    actions: "Actions", "areas-of-effect": "Areas of Effect",
+    attitudes: "Attitudes", hazards: "Hazards",
     classes: "Classes", subclasses: "Subclasses", species: "Species",
+    invocations: "Eldritch Invocations", "metamagic-options": "Metamagic Options",
     backgrounds: "Backgrounds", feats: "Feats", equipment: "Equipment",
     spells: "Spells", conditions: "Conditions",
     "magic-items": "Magic Items", monsters: "Monsters",
     rules: "Rules", tables: "Tables", sources: "Sources"
   };
-  var NAV_ORDER = ["classes", "subclasses", "species", "backgrounds", "feats",
+  var NAV_ORDER = ["classes", "subclasses", "invocations", "metamagic-options",
+    "species", "backgrounds", "feats",
     "equipment", "spells", "conditions", "magic-items", "monsters",
-    "rules", "tables", "sources"];
+    "actions", "areas-of-effect", "attitudes", "hazards", "rules", "tables", "sources"];
   var colIndex = null, searchIndex = null, searchIndexPromise = null;
   var route = { collection: null, slug: null, search: null };
 
@@ -692,13 +696,13 @@
     document.getElementById("list").classList.remove("is-idle");
     document.getElementById("list").classList.add("is-searching");
     items.textContent = "";
-    items.appendChild(el("p", "placeholder", "Searching…"));
+    items.appendChild(el("p", "placeholder", "Downloading the full search index (about 18 MB), then searching…"));
     detail.textContent = "";
     detail.appendChild(el("p", "placeholder", "Full-text results for “" + query + "” are in the list."));
-    var terms = query.toLowerCase().split(/\s+/).filter(function (t) { return t.length >= 3; });
-    if (!terms.length) {
+    var terms = query.toLowerCase().split(/\s+/).filter(Boolean);
+    if (terms.some(function (term) { return term.length < 3; })) {
       items.textContent = "";
-      items.appendChild(el("p", "placeholder", "Search terms need at least 3 characters."));
+      items.appendChild(el("p", "placeholder", "Every search term needs at least 3 characters; no terms were ignored."));
       return;
     }
     ensureSearchIndex().then(function (idx) {
@@ -878,8 +882,9 @@
     var details = el("details", "schema-details");
     details.appendChild(el("summary", null, "All collection schemas"));
     var links = el("div", "schema-links");
-    ["background", "class", "condition", "equipment", "feat", "magic-item", "monster",
-      "rule", "source", "species", "spell", "subclass", "table"].forEach(function (name) {
+    ["action", "area-of-effect", "attitude", "background", "class", "condition",
+      "equipment", "feat", "hazard", "invocation", "magic-item", "metamagic-option",
+      "monster", "rule", "source", "species", "spell", "subclass", "table"].forEach(function (name) {
       var a = link("systems/" + name + ".schema.json");
       a.textContent = name;
       links.appendChild(a);
@@ -934,12 +939,18 @@
       var prov = el("p", "provenance");
       if (locator) prov.appendChild(document.createTextNode(
         "SRD 5.2.1 · " + locator.chapter + " §" + locator.section +
+        " · " + (locator.caption || locator.heading) +
+        (locator.caption && locator.heading !== locator.caption ? " (physical heading: " + locator.heading + ")" : "") +
         " · lines " + locator.lineStart + "–" + locator.lineEnd));
       if (locator) box.appendChild(prov);
 
       var recordLinks = el("div", "source-links");
       var rawLink = link(path); rawLink.textContent = "Raw JSON-LD";
       recordLinks.appendChild(rawLink);
+      if (record.htmlPage && record.htmlPage["@id"]) {
+        var pageLink = link(record.htmlPage["@id"]); pageLink.textContent = "Standalone HTML";
+        recordLinks.appendChild(pageLink);
+      }
       if (locator && locator.lineStart) {
         var sourceUrl = "https://github.com/klrkdekira/graph20/blob/main/SRD_CC_v5.2.1.md?plain=1#L" +
           locator.lineStart + (locator.lineEnd ? "-L" + locator.lineEnd : "");
@@ -974,12 +985,11 @@
       if (record.columns) renderDataTable(box, record.columns, record.rows);
       if (Array.isArray(record.damage)) renderDamageDetails(box, record.damage);
       if (record.attacks) renderAttackDetails(box, record.attacks);
+      if (record.unparsedAttacks) renderUnparsedAttacks(box, record.unparsedAttacks);
+      renderIndexedStructures(box, record);
       renderRelations(box, record);
 
-      if (record["@type"] === "Species" && record.traits) {
-        // Creature type/size/speed are in the subtitle; traits render as
-        // headed sections below. Verbatim text stays in the raw JSON.
-      } else if (record["@type"] === "Monster" && record.statSections) {
+      if (record["@type"] === "Monster" && record.statSections) {
         // The stat lines are already shown in the facts/ability grids and the
         // verbatim text stays in the raw JSON below; render the named
         // sections (Traits, Actions, ...) as headed blocks.
@@ -1005,10 +1015,18 @@
         if (feature.rulesText) renderProse(box, feature.rulesText, tableDropKeys(feature.relatedTables));
         if (feature.relatedTables) renderRelatedTables(box, feature.relatedTables);
       });
-      (record.traits || []).forEach(function (trait) {
-        box.appendChild(el("h3", "sect", trait.name));
-        renderProse(box, trait.rulesText);
-      });
+      if (record["@type"] !== "Species") {
+        (record.traits || []).forEach(function (trait) {
+          box.appendChild(el("h3", "sect", trait.name));
+          renderProse(box, trait.rulesText);
+        });
+      }
+      if (record.rawText) {
+        var sourceTable = el("details", "raw");
+        sourceTable.appendChild(el("summary", null, "Raw source table"));
+        sourceTable.appendChild(el("pre", null, record.rawText));
+        box.appendChild(sourceTable);
+      }
       var raw = el("details", "raw");
       raw.appendChild(el("summary", null, "Raw record JSON"));
       raw.appendChild(el("pre", null, JSON.stringify(record, null, 2)));
@@ -1069,11 +1087,16 @@
     ["level", "Level"], ["school", "School"], ["classAvailability", "Available To"],
     ["castingTime", "Casting Time"], ["range", "Range"], ["components", "Components"],
     ["duration", "Duration"], ["armorClass", "AC"], ["initiative", "Initiative"],
-    ["hitPoints", "HP"], ["speed", "Speed"], ["skills", "Skills"],
+    ["armorClassValue", "AC Value"], ["hitPoints", "HP"], ["hitPointsValue", "HP Value"],
+    ["speed", "Speed"], ["skills", "Skills"],
     ["resistances", "Resistances"], ["vulnerabilities", "Vulnerabilities"],
     ["immunities", "Immunities"], ["senses", "Senses"], ["languages", "Languages"],
-    ["gear", "Gear"], ["challenge", "CR"],
-    ["mastery", "Mastery"], ["weight", "Weight"],
+    ["gear", "Gear"], ["challenge", "CR"], ["challengeRating", "Challenge Rating"],
+    ["experiencePoints", "XP"], ["proficiencyBonus", "Proficiency Bonus"],
+    ["passivePerception", "Passive Perception"], ["monsterCategory", "Monster Category"],
+    ["mastery", "Mastery"], ["weight", "Weight"], ["weightPounds", "Weight (lb.)"],
+    ["ability", "Ability"], ["utilize", "Utilize"], ["craft", "Craft"],
+    ["sorceryPointCost", "Sorcery Point Cost"], ["minimumWarlockLevel", "Minimum Warlock Level"],
     ["strengthRequirement", "Strength"], ["stealthEffect", "Stealth"],
     ["donDoffTime", "Don/Doff"], ["savingThrowAbility", "Save"],
     ["concentration", "Concentration"], ["ritual", "Ritual"], ["scalesWithSlotLevel", "Slot Scaling"],
@@ -1085,6 +1108,9 @@
     ["armorCategory", "Armor Category"], ["attackType", "Attack Type"],
     ["damageType", "Damage Type"], ["itemCategory", "Item Category"], ["rarity", "Rarity"],
     ["requiresAttunement", "Attunement Required"], ["attunementNote", "Attunement"],
+    ["attunementRestriction", "Attunement Restriction"], ["isCursed", "Cursed"],
+    ["isSentient", "Sentient"], ["headingOnly", "Heading-only Rule"],
+    ["ruleCategory", "Rule Category"],
     ["author", "Author"], ["srdVersion", "SRD Version"], ["license", "License"],
     ["sourceFile", "Source File"], ["contentDigest", "Content Digest"], ["attributionStatement", "Attribution"],
     ["section", "Section"]
@@ -1157,14 +1183,49 @@
     box.appendChild(section);
   }
 
+  function renderUnparsedAttacks(box, attacks) {
+    var section = el("section", "structured-section");
+    section.appendChild(el("h3", "structured-title", "Recorded unparsed attacks"));
+    attacks.forEach(function (attack) {
+      var card = el("div", "attack-card");
+      card.appendChild(el("strong", null, attack.name || "Attack disposition"));
+      card.appendChild(el("span", null, attack.reason || "Kept as source text"));
+      card.appendChild(el("span", null, attack.sourceText || ""));
+      section.appendChild(card);
+    });
+    box.appendChild(section);
+  }
+
+  function renderIndexedStructures(box, record) {
+    var fields = ["abilityScoreOptions", "skillProficiencyOptions", "descriptiveTags",
+      "movement", "senseDetails", "languageList", "spellcasting", "rangeDetails",
+      "componentDetails", "durationDetails", "savingThrows", "charges", "fixedDCs",
+      "effects", "variants"];
+    var present = fields.filter(function (field) { return record[field] !== undefined; });
+    if (!present.length) return;
+    var details = el("details", "raw");
+    details.appendChild(el("summary", null, "Typed indexes"));
+    present.forEach(function (field) {
+      var label = field.replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase();
+      details.appendChild(el("h4", null, titleFromSlug(label)));
+      details.appendChild(el("pre", null, JSON.stringify(record[field], null, 2)));
+    });
+    box.appendChild(details);
+  }
+
   function renderRelations(box, record) {
     // relatedTables render inline with linked captions, not as relation chips.
     var relationFields = [
+      ["source", "Source record"], ["seeAlso", "See also"],
       ["classes", "Class"], ["subclasses", "Subclass"], ["parentClass", "Parent class"],
-      ["fromTable", "Source table"], ["relatedRules", "Rule"],
+      ["fromTable", "Source table"], ["fromRule", "Source rule"], ["relatedRules", "Rule"],
       ["conditionImmunities", "Condition immunity"], ["mentionsCondition", "Condition"],
       ["spellList", "Spell list"], ["listsSpell", "Listed spell"],
-      ["castsSpell", "Cast spell"], ["grantsFeat", "Granted feat"], ["hasGear", "Gear"]
+      ["castsSpell", "Cast spell"], ["grantsFeat", "Granted feat"], ["hasGear", "Gear"],
+      ["summons", "Summons"], ["areaShapes", "Area shape"],
+      ["grantsTool", "Granted tool"], ["grantsEquipment", "Granted equipment"],
+      ["eldritchInvocations", "Invocation"], ["metamagicOptions", "Metamagic option"],
+      ["hasPart", "Catalog member"]
     ];
     var section = el("section", "structured-section");
     section.appendChild(el("h3", "structured-title", "Connected records"));
@@ -1181,10 +1242,11 @@
         if (routeParts.length < 2) return;
         var slug = routeParts.slice(1).join("/");
         var a = link("#/" + routeParts[0] + "/" + slug, "relation-link");
-        var labelSlug = (routeParts[0] === "rules" || routeParts[0] === "tables")
-          ? slug.replace(/^(\d+-)+/, "")
-          : slug;
-        a.textContent = pair[1] + " · " + titleFromSlug(labelSlug);
+        var match = (colIndex[routeParts[0]] || []).find(function (entry) {
+          return entry.slug === slug;
+        });
+        var fallback = titleFromSlug(slug.replace(/^(\d+-)+/, ""));
+        a.textContent = pair[1] + " · " + (match ? match.name : fallback);
         links.appendChild(a);
         linkCount += 1;
       });
@@ -1304,7 +1366,7 @@
     var rows = [];
     dataLines.forEach(function (line) {
       var cells = split(line);
-      if (hasHeader && cells.join(" ") === first.join(" ")) return; // repeated header row
+      if (hasHeader && cells.join("\u001f") === first.join("\u001f")) return; // repeated header row
       rows.push({ cells: cells.map(function (value) { return { value: value }; }) });
     });
     return { columns: columns, rows: rows };
@@ -1340,7 +1402,7 @@
     var flush = function () {
       var chunk = buffer.join("\n").replace(/\n{3,}/g, "\n\n").trim();
       // An absorbed chapter-separator rule at the end of a record's prose
-      // (see AUDIT.md S11) is display noise, not content.
+      // A duplicated caption immediately before a promoted table is display noise, not content.
       chunk = chunk.replace(/\n-{3,}$/, "").trim();
       if (chunk && chunk !== "---") box.appendChild(el("div", "prose", chunk));
       buffer = [];

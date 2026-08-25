@@ -11,12 +11,17 @@
     "chapter": "Magic Items",
     "section": "10.120",
     "heading": "Gauntlets of Ogre Power",
-    "lineStart": 15750,
-    "lineEnd": 15754
+    "lineStart": 15712,
+    "lineEnd": 15716
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/gauntlets-of-ogre-power/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Uncommon",
   "requiresAttunement": true,
   "attunementNote": "Requires Attunement",
-  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nYour Strength is 19 while you wear these gauntlets. They have no effect on you if your Strength is 19 or higher without them."
+  "rulesText": "Wondrous Item, Uncommon (Requires Attunement)\n\nYour Strength is 19 while you wear these gauntlets. They have no effect on you if your Strength is 19 or higher without them.",
+  "isCursed": false,
+  "isSentient": false
 }

@@ -11,8 +11,11 @@
     "chapter": "Rules Glossary",
     "section": "8.134",
     "heading": "Spell",
-    "lineStart": 13587,
-    "lineEnd": 13589
+    "lineStart": 13551,
+    "lineEnd": 13553
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-134-spell/"
   },
   "section": "8.134",
   "rulesText": "A spell is a magical effect that has the characteristics described in “Spells.”"

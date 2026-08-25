@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.112",
     "heading": "Map (1 GP)",
-    "lineStart": 6670,
-    "lineEnd": 6672
+    "lineStart": 6643,
+    "lineEnd": 6645
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-112-map-1-gp/"
   },
   "section": "6.112",
   "rulesText": "If you consult an accurate Map, you gain a +5 bonus to Wisdom (Survival) checks you make to find your way in the place represented on it."

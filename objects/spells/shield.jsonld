@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.307",
     "heading": "Shield",
-    "lineStart": 11588,
-    "lineEnd": 11599
+    "lineStart": 11559,
+    "lineEnd": 11570
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/shield/"
   },
   "level": 1,
   "school": "Abjuration",
@@ -35,5 +38,23 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "1 round",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "round"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

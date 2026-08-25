@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.34",
     "heading": "Alter Self",
-    "lineStart": 7331,
-    "lineEnd": 7346
+    "lineStart": 7304,
+    "lineEnd": 7319
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/alter-self/"
   },
   "level": 2,
   "school": "Transmutation",
@@ -35,5 +38,23 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": true,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 hour",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  }
 }

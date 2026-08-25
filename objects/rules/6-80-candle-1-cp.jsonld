@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.80",
     "heading": "Candle (1 CP)",
-    "lineStart": 6516,
-    "lineEnd": 6518
+    "lineStart": 6489,
+    "lineEnd": 6491
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-80-candle-1-cp/"
   },
   "section": "6.80",
   "rulesText": "For 1 hour, a lit Candle sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet."

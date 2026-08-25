@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.131",
     "heading": "Hell Hound",
-    "lineStart": 22003,
-    "lineEnd": 22035
+    "lineStart": 21923,
+    "lineEnd": 21955
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/hell-hound/"
   },
   "sizeTypeAlignment": "Medium Fiend, Lawful Evil",
   "sizeAndType": "Medium Fiend",
+  "size": "Medium",
+  "creatureType": "Fiend",
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "15",
   "initiative": "+1 (11)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.131",
         "heading": "Traits",
-        "lineStart": 22025,
-        "lineEnd": 22027
+        "lineStart": 21945,
+        "lineEnd": 21947
       }
     },
     {
@@ -88,12 +94,37 @@
         "chapter": "Monsters A-Z",
         "section": "12.131",
         "heading": "Actions",
-        "lineStart": 22029,
-        "lineEnd": 22035
+        "lineStart": 21949,
+        "lineEnd": 21955
       }
     }
   ],
   "rulesText": "Medium Fiend, Lawful Evil\n\nAC 15\nInitiative +1 (11)\nHP 58 (9d8 + 18)\nSpeed 50 ft.\n\nSkills Perception +5\nImmunities Fire\nSenses Darkvision 60 ft.; Passive Perception 15\nLanguages Understands Infernal but can't speak\nCR 3 (XP 700; PB +2)\n\nTraits\n\nPack Tactics. The hound has Advantage on an attack roll against a creature if at least one of the hound's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.\n\nActions\n\nMultiattack. The hound makes two Bite attacks.\n\nBite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Piercing damage plus 3 (1d6) Fire damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 12, each creature in a 15-foot Cone. Failure: 17 (5d6) Fire damage. Success: Half damage.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 50
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 15,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Understands Infernal but can't speak"
+  ],
+  "damageImmunities": [
+    "Fire"
+  ],
   "attacks": [
     {
       "name": "Bite",

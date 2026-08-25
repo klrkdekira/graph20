@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.39",
     "heading": "Brass Dragon Wyrmling",
-    "lineStart": 19056,
-    "lineEnd": 19082
+    "lineStart": 18982,
+    "lineEnd": 19008
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/brass-dragon-wyrmling/"
   },
   "sizeTypeAlignment": "Medium Dragon (Metallic), Chaotic Good",
   "sizeAndType": "Medium Dragon (Metallic)",
+  "size": "Medium",
+  "creatureType": "Dragon",
+  "descriptiveTags": [
+    "Metallic"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Chaotic Good",
   "armorClass": "15",
   "initiative": "+2 (12)",
@@ -77,12 +86,53 @@
         "chapter": "Monsters A-Z",
         "section": "12.39",
         "heading": "Actions",
-        "lineStart": 19076,
-        "lineEnd": 19082
+        "lineStart": 19002,
+        "lineEnd": 19008
       }
     }
   ],
   "rulesText": "Medium Dragon (Metallic), Chaotic Good\n\nAC 15\nInitiative +2 (12)\nHP 22 (4d8 + 4)\nSpeed 30 ft., Burrow 15 ft., Fly 60 ft.\n\nSkills Perception +4, Stealth +2\nImmunities Fire\nSenses Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14\nLanguages Draconic\nCR 1 (XP 200; PB +2)\n\nActions\n\nRend. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (1d10 + 2) Slashing damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 11, each creature in a 20-foot-long, 5-foot-wide Line. Failure: 14 (4d6) Fire damage. Success: Half damage.\n\nSleep Breath. Constitution Saving Throw: DC 11, each creature in a 15-foot Cone. Failure: The target has the Incapacitated condition until the end of its next turn, at which point it repeats the save. Second Failure: The target has the Unconscious condition for 1 minute. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Burrow",
+      "feet": 15
+    },
+    {
+      "mode": "Fly",
+      "feet": 60
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 4
+    },
+    {
+      "name": "Stealth",
+      "bonus": 2
+    }
+  ],
+  "passivePerception": 14,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 10
+    },
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Draconic"
+  ],
+  "damageImmunities": [
+    "Fire"
+  ],
   "attacks": [
     {
       "name": "Rend",

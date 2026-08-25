@@ -11,11 +11,20 @@
     "chapter": "Animals",
     "section": "13.86",
     "heading": "Swarm of Rats",
-    "lineStart": 28907,
-    "lineEnd": 28933
+    "lineStart": 28818,
+    "lineEnd": 28844
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/swarm-of-rats/"
   },
   "sizeTypeAlignment": "Medium Swarm of Tiny Beasts, Unaligned",
   "sizeAndType": "Medium Swarm of Tiny Beasts",
+  "size": "Medium",
+  "creatureType": "Beast",
+  "descriptiveTags": [
+    "Swarm of Tiny Beasts"
+  ],
+  "monsterCategory": "Animal",
   "alignment": "Unaligned",
   "armorClass": "10",
   "initiative": "+0 (10)",
@@ -77,8 +86,8 @@
         "chapter": "Animals",
         "section": "13.86",
         "heading": "Traits",
-        "lineStart": 28927,
-        "lineEnd": 28929
+        "lineStart": 28838,
+        "lineEnd": 28840
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Animals",
         "section": "13.86",
         "heading": "Actions",
-        "lineStart": 28931,
-        "lineEnd": 28933
+        "lineStart": 28842,
+        "lineEnd": 28844
       }
     }
   ],
@@ -119,6 +128,28 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/stunned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 30
+    },
+    {
+      "mode": "Climb",
+      "feet": 30
+    }
+  ],
+  "passivePerception": 10,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 30
+    }
+  ],
+  "damageResistances": [
+    "Bludgeoning",
+    "Piercing",
+    "Slashing"
   ],
   "attacks": [
     {

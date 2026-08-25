@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.71",
     "heading": "Cape of the Mountebank",
-    "lineStart": 15184,
-    "lineEnd": 15190
+    "lineStart": 15146,
+    "lineEnd": 15152
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/magic-items/cape-of-the-mountebank/"
   },
   "itemCategory": "Wondrous Item",
   "rarity": "Rare",
@@ -22,5 +25,7 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/dimension-door"
     }
-  ]
+  ],
+  "isCursed": false,
+  "isSentient": false
 }

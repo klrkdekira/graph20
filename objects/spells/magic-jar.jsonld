@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.230",
     "heading": "Magic Jar",
-    "lineStart": 10421,
-    "lineEnd": 10444
+    "lineStart": 10392,
+    "lineEnd": 10415
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/magic-jar/"
   },
   "level": 6,
   "school": "Necromancy",
@@ -30,7 +33,46 @@
     }
   ],
   "savingThrowAbility": "Charisma",
+  "savingThrows": [
+    {
+      "ability": "Charisma",
+      "sourceText": "You can attempt to possess any Humanoid within 100 feet of you that you can see (creatures warded by a Protection from Evil and Good or Magic Circle spell can't be possessed). The target makes a Charisma saving throw. On a failed save, your soul enters the target's body, and the target's soul becomes trapped in the container. On a successful save, the target resists your efforts to possess it, and you can't attempt to possess it again for 24 hours.",
+      "outcomes": [
+        "FailureEffect",
+        "Partial"
+      ]
+    },
+    {
+      "ability": "Charisma",
+      "sourceText": "While possessing a body, you can take a Magic action to return from the host body to the container if it is within 100 feet of you, returning the host creature's soul to its body. If the host body dies while you're in it, the creature dies, and you make a Charisma saving throw against your own spellcasting DC. On a success, you return to the container if it is within 100 feet of you. Otherwise, you die.",
+      "outcomes": [
+        "Partial"
+      ]
+    }
+  ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Until dispelled",
+    "concentration": false,
+    "kind": "UntilDispelled"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a gem, crystal, or reliquary worth 500+ GP)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a gem, crystal, or reliquary worth 500+ GP",
+    "consumed": false,
+    "materialCost": {
+      "text": "500 GP",
+      "currency": "GP",
+      "amount": 500
+    }
+  }
 }

@@ -11,8 +11,11 @@
     "chapter": "Equipment",
     "section": "6.86",
     "heading": "Clothes, Fine (15 GP)",
-    "lineStart": 6540,
-    "lineEnd": 6542
+    "lineStart": 6513,
+    "lineEnd": 6515
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/6-86-clothes-fine-15-gp/"
   },
   "section": "6.86",
   "rulesText": "Fine Clothes are made of expensive fabrics and adorned with expertly crafted details. Some events and locations admit only people wearing these clothes."

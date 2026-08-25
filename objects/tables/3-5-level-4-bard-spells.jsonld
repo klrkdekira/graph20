@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.5",
     "heading": "Bard Spell List",
-    "lineStart": 1922,
-    "lineEnd": 1933
+    "lineStart": 1912,
+    "lineEnd": 1923,
+    "caption": "Level 4 Bard Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-5-level-4-bard-spells/"
   },
   "columns": [
     "Spell",

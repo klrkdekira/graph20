@@ -8,6 +8,11 @@
     "creatureType": { "type": "string", "minLength": 1 },
     "size": { "type": "string", "minLength": 1 },
     "speed": { "type": "string", "minLength": 1 },
+    "relatedTables": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "common.schema.json#/$defs/NodeReference" }
+    },
     "traits": {
       "type": "array",
       "minItems": 1,

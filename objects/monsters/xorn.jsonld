@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.270",
     "heading": "Xorn",
-    "lineStart": 26570,
-    "lineEnd": 26608
+    "lineStart": 26484,
+    "lineEnd": 26522
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/xorn/"
   },
   "sizeTypeAlignment": "Medium Elemental, Neutral",
   "sizeAndType": "Medium Elemental",
+  "size": "Medium",
+  "creatureType": "Elemental",
+  "monsterCategory": "Monster",
   "alignment": "Neutral",
   "armorClass": "19",
   "initiative": "+0 (10)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.270",
         "heading": "Traits",
-        "lineStart": 26592,
-        "lineEnd": 26596
+        "lineStart": 26506,
+        "lineEnd": 26510
       }
     },
     {
@@ -88,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.270",
         "heading": "Actions",
-        "lineStart": 26598,
-        "lineEnd": 26604
+        "lineStart": 26512,
+        "lineEnd": 26518
       }
     },
     {
@@ -99,8 +105,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.270",
         "heading": "Bonus Actions",
-        "lineStart": 26606,
-        "lineEnd": 26608
+        "lineStart": 26520,
+        "lineEnd": 26522
       }
     }
   ],
@@ -115,6 +121,43 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 20
+    },
+    {
+      "mode": "Burrow",
+      "feet": 20
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Perception",
+      "bonus": 6
+    },
+    {
+      "name": "Stealth",
+      "bonus": 6
+    }
+  ],
+  "passivePerception": 16,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    },
+    {
+      "name": "Tremorsense",
+      "rangeFeet": 60
+    }
+  ],
+  "languageList": [
+    "Primordial (Terran)"
+  ],
+  "damageImmunities": [
+    "Poison"
   ],
   "attacks": [
     {

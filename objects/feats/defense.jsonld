@@ -11,8 +11,11 @@
     "chapter": "Feats",
     "section": "5.14",
     "heading": "Defense",
-    "lineStart": 5771,
-    "lineEnd": 5775
+    "lineStart": 5747,
+    "lineEnd": 5751
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/feats/defense/"
   },
   "category": "Fighting Style",
   "prerequisite": "Fighting Style Feature",

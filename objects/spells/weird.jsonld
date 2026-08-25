@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.367",
     "heading": "Weird",
-    "lineStart": 12549,
-    "lineEnd": 12560
+    "lineStart": 12516,
+    "lineEnd": 12527
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/weird/"
   },
   "level": 9,
   "school": "Illusion",
@@ -34,6 +37,24 @@
     }
   ],
   "savingThrowAbility": "Wisdom",
+  "savingThrows": [
+    {
+      "ability": "Wisdom",
+      "sourceText": "You try to create illusory terrors in others' minds. Each creature of your choice in a 30-foot-radius Sphere centered on a point within range makes a Wisdom saving throw. On a failed save, a target takes 10d10 Psychic damage and has the Frightened condition for the duration. On a successful save, a target takes half as much damage only.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    },
+    {
+      "ability": "Wisdom",
+      "sourceText": "A Frightened target makes a Wisdom saving throw at the end of each of its turns. On a failed save, it takes 5d10 Psychic damage. On a successful save, the spell ends on that target.",
+      "outcomes": [
+        "FailureEffect",
+        "Partial"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Psychic",
@@ -55,6 +76,40 @@
   "scalesWithSlotLevel": false,
   "concentration": true,
   "ritual": false,
+  "rangeDetails": {
+    "text": "120 feet",
+    "kind": "Distance",
+    "distanceFeet": 120
+  },
+  "durationDetails": {
+    "text": "Concentration, up to 1 minute",
+    "concentration": true,
+    "kind": "Timed",
+    "upTo": true,
+    "value": 1,
+    "unit": "minute"
+  },
+  "componentDetails": {
+    "text": "V, S",
+    "verbal": true,
+    "somatic": true,
+    "material": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Sphere",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+      },
+      "sourceText": "Each creature of your choice in a 30-foot-radius Sphere centered on a point within range makes a Wisdom saving throw.",
+      "radiusFeet": 30
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/sphere"
+    }
+  ],
   "mentionsCondition": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/frightened"

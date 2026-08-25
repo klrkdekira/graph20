@@ -11,11 +11,14 @@
     "chapter": "Classes",
     "section": "3.29",
     "heading": "Warlock Spell List",
-    "lineStart": 4733,
-    "lineEnd": 4860
+    "lineStart": 4720,
+    "lineEnd": 4844
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/3-29-warlock-spell-list/"
   },
   "section": "3.29",
-  "rulesText": "This section presents the Warlock spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, C means the spell requires Concentration, R means it's a Ritual, and M means it requires a specific Material component.\n\nCantrips (Level 0 Warlock Spells)\n\nLevel 1 Warlock Spells\n\nLevel 2 Warlock Spells\n\nLevel 3 Warlock Spells\n\nLevel 4 Warlock Spells\n\nLevel 5 Warlock Spells\n\nLevel 6 Warlock Spells\n\nLevel 7 Warlock Spells\n\nLevel 8 Warlock Spells\n\nLevel 9 Warlock Spells",
+  "rulesText": "This section presents the Warlock spell list. The spells are organized by spell level and then alphabetized, and each spell's school of magic is listed. In the Special column, C means the spell requires Concentration, R means it's a Ritual, and M means it requires a specific Material component.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/3-29-cantrips-level-0-warlock-spells"
@@ -28,9 +31,6 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/3-29-level-3-warlock-spells"
-    },
-    {
-      "@id": "https://cheeleong.dev/graph20/objects/tables/3-29-level-3-warlock-spells-2"
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/3-29-level-4-warlock-spells"

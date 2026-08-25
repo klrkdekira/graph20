@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.222",
     "heading": "Lightning Bolt",
-    "lineStart": 10304,
-    "lineEnd": 10315
+    "lineStart": 10275,
+    "lineEnd": 10286
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/lightning-bolt/"
   },
   "level": 3,
   "school": "Evocation",
@@ -34,6 +37,16 @@
     }
   ],
   "savingThrowAbility": "Dexterity",
+  "savingThrows": [
+    {
+      "ability": "Dexterity",
+      "sourceText": "A stroke of lightning forming a 100-foot-long, 5-foot-wide Line blasts out from you in a direction you choose. Each creature in the Line makes a Dexterity saving throw, taking 8d6 Lightning damage on a failed save or half as much damage on a successful one.",
+      "outcomes": [
+        "FailureEffect",
+        "HalfDamage"
+      ]
+    }
+  ],
   "damage": [
     {
       "damageType": "Lightning",
@@ -46,5 +59,38 @@
   ],
   "scalesWithSlotLevel": true,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "Self",
+    "kind": "Self"
+  },
+  "durationDetails": {
+    "text": "Instantaneous",
+    "concentration": false,
+    "kind": "Instantaneous"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a bit of fur and a crystal rod)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a bit of fur and a crystal rod",
+    "consumed": false
+  },
+  "areasOfEffect": [
+    {
+      "shape": "Line",
+      "areaShape": {
+        "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/line"
+      },
+      "sourceText": "A stroke of lightning forming a 100-foot-long, 5-foot-wide Line blasts out from you in a direction you choose.",
+      "lengthFeet": 100,
+      "widthFeet": 5
+    }
+  ],
+  "areaShapes": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/areas-of-effect/line"
+    }
+  ]
 }

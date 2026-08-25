@@ -11,8 +11,11 @@
     "chapter": "Monsters",
     "section": "11.29",
     "heading": "Saving Throw Effect Notation",
-    "lineStart": 17940,
-    "lineEnd": 17944
+    "lineStart": 17878,
+    "lineEnd": 17882
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/11-29-saving-throw-effect-notation/"
   },
   "section": "11.29",
   "rulesText": "If an effect forces a saving throw, the effect identifies the kind of save required and then provides the save's DC, a description of which creatures make the save, and an explanation of what happens on a failed or successful save.\n\n“Half damage only” on a successful save means the target takes half as much damage (round down) as targets that fail the save, while also ignoring all other parts of the effect."

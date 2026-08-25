@@ -11,11 +11,17 @@
     "chapter": "Monsters A-Z",
     "section": "12.168",
     "heading": "Mimic",
-    "lineStart": 23171,
-    "lineEnd": 23205
+    "lineStart": 23091,
+    "lineEnd": 23125
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/mimic/"
   },
   "sizeTypeAlignment": "Medium Monstrosity, Neutral",
   "sizeAndType": "Medium Monstrosity",
+  "size": "Medium",
+  "creatureType": "Monstrosity",
+  "monsterCategory": "Monster",
   "alignment": "Neutral",
   "armorClass": "12",
   "initiative": "+3 (13)",
@@ -77,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.168",
         "heading": "Traits",
-        "lineStart": 23193,
-        "lineEnd": 23195
+        "lineStart": 23113,
+        "lineEnd": 23115
       }
     },
     {
@@ -88,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.168",
         "heading": "Actions",
-        "lineStart": 23197,
-        "lineEnd": 23201
+        "lineStart": 23117,
+        "lineEnd": 23121
       }
     },
     {
@@ -99,8 +105,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.168",
         "heading": "Bonus Actions",
-        "lineStart": 23203,
-        "lineEnd": 23205
+        "lineStart": 23123,
+        "lineEnd": 23125
       }
     }
   ],
@@ -109,6 +115,28 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/prone"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 20
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Stealth",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 11,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 60
+    }
+  ],
+  "damageImmunities": [
+    "Acid"
   ],
   "attacks": [
     {

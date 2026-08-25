@@ -11,8 +11,12 @@
     "chapter": "Classes",
     "section": "3.7",
     "heading": "Level 3: Life Domain Spells",
-    "lineStart": 2353,
-    "lineEnd": 2358
+    "lineStart": 2343,
+    "lineEnd": 2348,
+    "caption": "Life Domain Spells"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/3-7-life-domain-spells/"
   },
   "columns": [
     "Cleric Level",

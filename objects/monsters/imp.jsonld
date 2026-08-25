@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.142",
     "heading": "Imp",
-    "lineStart": 22341,
-    "lineEnd": 22374
+    "lineStart": 22261,
+    "lineEnd": 22294
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/imp/"
   },
   "sizeTypeAlignment": "Tiny Fiend (Devil), Lawful Evil",
   "sizeAndType": "Tiny Fiend (Devil)",
+  "size": "Tiny",
+  "creatureType": "Fiend",
+  "descriptiveTags": [
+    "Devil"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Evil",
   "armorClass": "13",
   "initiative": "+3 (13)",
@@ -78,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.142",
         "heading": "Traits",
-        "lineStart": 22364,
-        "lineEnd": 22366
+        "lineStart": 22284,
+        "lineEnd": 22286
       }
     },
     {
@@ -89,8 +98,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.142",
         "heading": "Actions",
-        "lineStart": 22368,
-        "lineEnd": 22374
+        "lineStart": 22288,
+        "lineEnd": 22294
       }
     }
   ],
@@ -99,6 +108,48 @@
     {
       "@id": "https://cheeleong.dev/graph20/objects/conditions/poisoned"
     }
+  ],
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 20
+    },
+    {
+      "mode": "Fly",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Deception",
+      "bonus": 4
+    },
+    {
+      "name": "Insight",
+      "bonus": 3
+    },
+    {
+      "name": "Stealth",
+      "bonus": 5
+    }
+  ],
+  "passivePerception": 11,
+  "senseModes": [
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Common",
+    "Infernal"
+  ],
+  "damageImmunities": [
+    "Fire",
+    "Poison"
+  ],
+  "damageResistances": [
+    "Cold"
   ],
   "attacks": [
     {

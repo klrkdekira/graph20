@@ -11,8 +11,12 @@
     "chapter": "Rules Glossary",
     "section": "8.40",
     "heading": "Creature Type",
-    "lineStart": 12950,
-    "lineEnd": 12955
+    "lineStart": 12917,
+    "lineEnd": 12922,
+    "caption": "Creature Type Table 1"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/8-40-creature-type-table-1/"
   },
   "columns": [
     "Aberration",

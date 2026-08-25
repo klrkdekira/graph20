@@ -11,8 +11,11 @@
     "chapter": "Character Creation",
     "section": "2.5",
     "heading": "Write Your Level",
-    "lineStart": 903,
-    "lineEnd": 909
+    "lineStart": 898,
+    "lineEnd": 904
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/2-5-write-your-level/"
   },
   "section": "2.5",
   "rulesText": "Write your character's level on your character sheet. Typically, a character starts at level 1 and advances in level by adventuring and gaining Experience Points (XP).\n\nWrite Your XP. Also record your Experience Points. A level 1 character has 0 XP.\n\nStarting at a Higher Level. Your GM might start you at a higher level. If you start at level 3 or higher, write your chosen subclass on your character sheet. See the “Starting at Higher Levels” section later in “Character Creation” for more information."

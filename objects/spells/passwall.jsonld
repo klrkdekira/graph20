@@ -11,8 +11,11 @@
     "chapter": "Spells",
     "section": "7.256",
     "heading": "Passwall",
-    "lineStart": 10813,
-    "lineEnd": 10824
+    "lineStart": 10784,
+    "lineEnd": 10795
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/spells/passwall/"
   },
   "level": 5,
   "school": "Transmutation",
@@ -31,5 +34,26 @@
   ],
   "scalesWithSlotLevel": false,
   "concentration": false,
-  "ritual": false
+  "ritual": false,
+  "rangeDetails": {
+    "text": "30 feet",
+    "kind": "Distance",
+    "distanceFeet": 30
+  },
+  "durationDetails": {
+    "text": "1 hour",
+    "concentration": false,
+    "kind": "Timed",
+    "upTo": false,
+    "value": 1,
+    "unit": "hour"
+  },
+  "componentDetails": {
+    "text": "V, S, M (a pinch of sesame seeds)",
+    "verbal": true,
+    "somatic": true,
+    "material": true,
+    "materialText": "a pinch of sesame seeds",
+    "consumed": false
+  }
 }

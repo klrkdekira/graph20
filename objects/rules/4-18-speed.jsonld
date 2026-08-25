@@ -11,8 +11,11 @@
     "chapter": "Character Origins",
     "section": "4.18",
     "heading": "Speed",
-    "lineStart": 5455,
-    "lineEnd": 5457
+    "lineStart": 5431,
+    "lineEnd": 5433
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/4-18-speed/"
   },
   "section": "4.18",
   "rulesText": "Your character's species determines the character's Speed."

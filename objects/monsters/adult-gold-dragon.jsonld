@@ -11,11 +11,20 @@
     "chapter": "Monsters A-Z",
     "section": "12.112",
     "heading": "Adult Gold Dragon",
-    "lineStart": 21384,
-    "lineEnd": 21434
+    "lineStart": 21304,
+    "lineEnd": 21354
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/monsters/adult-gold-dragon/"
   },
   "sizeTypeAlignment": "Huge Dragon (Metallic), Lawful Good",
   "sizeAndType": "Huge Dragon (Metallic)",
+  "size": "Huge",
+  "creatureType": "Dragon",
+  "descriptiveTags": [
+    "Metallic"
+  ],
+  "monsterCategory": "Monster",
   "alignment": "Lawful Good",
   "armorClass": "19",
   "initiative": "+14 (24)",
@@ -77,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.112",
         "heading": "Traits",
-        "lineStart": 21404,
-        "lineEnd": 21408
+        "lineStart": 21324,
+        "lineEnd": 21328
       }
     },
     {
@@ -88,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.112",
         "heading": "Actions",
-        "lineStart": 21410,
-        "lineEnd": 21424
+        "lineStart": 21330,
+        "lineEnd": 21344
       }
     },
     {
@@ -99,12 +108,118 @@
         "chapter": "Monsters A-Z",
         "section": "12.112",
         "heading": "Legendary Actions",
-        "lineStart": 21426,
-        "lineEnd": 21434
+        "lineStart": 21346,
+        "lineEnd": 21354
       }
     }
   ],
   "rulesText": "Huge Dragon (Metallic), Lawful Good\n\nAC 19\nInitiative +14 (24)\nHP 243 (18d12 + 126)\nSpeed 40 ft., Fly 80 ft., Swim 40 ft.\n\nSkills Insight +8, Perception +14, Persuasion +13, Stealth +8\nImmunities Fire\nSenses Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 24\nLanguages Common, Draconic\nCR 17 (XP 18,000, or 20,000 in lair; PB +6)\n\nTraits\n\nAmphibious. The dragon can breathe air and water.\n\nLegendary Resistance (3/Day, or 4/Day in Lair). If the dragon fails a saving throw, it can choose to succeed instead.\n\nActions\n\nMultiattack. The dragon makes three Rend attacks. It can replace one attack with a use of (A) Spellcasting to cast Guiding Bolt (level 2 version) or (B) Weakening Breath.\n\nRend. Melee Attack Roll: +14, reach 10 ft. Hit: 17 (2d8 + 8) Slashing damage plus 4 (1d8) Fire damage.\n\nFire Breath (Recharge 5–6). Dexterity Saving Throw: DC 21, each creature in a 60-foot Cone. Failure: 66 (12d10) Fire damage. Success: Half damage.\n\nSpellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 21, +13 to hit with spell attacks):\n\nAt Will: Detect Magic, Guiding Bolt (level 2 version), Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell)\n\n1/Day Each: Flame Strike, Zone of Truth\n\nWeakening Breath. Strength Saving Throw: DC 21, each creature that isn't currently affected by this breath in a 60-foot Cone. Failure: The target has Disadvantage on Strength-based D20 Tests and subtracts 3 (1d6) from its damage rolls. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically.\n\nLegendary Actions\n\nLegendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns.\n\nBanish. Charisma Saving Throw: DC 21, one creature the dragon can see within 120 feet. Failure: 10 (3d6) Force damage, and the target has the Incapacitated condition and is transported to a harmless demiplane until the start of the dragon's next turn, at which point it reappears in an unoccupied space of the dragon's choice within 120 feet of the dragon. Failure or Success: The dragon can't take this action again until the start of its next turn.\n\nGuiding Light. The dragon uses Spellcasting to cast Guiding Bolt (level 2 version).\n\nPounce. The dragon moves up to half its Speed, and it makes one Rend attack.",
+  "movement": [
+    {
+      "mode": "Walk",
+      "feet": 40
+    },
+    {
+      "mode": "Fly",
+      "feet": 80
+    },
+    {
+      "mode": "Swim",
+      "feet": 40
+    }
+  ],
+  "skillBonuses": [
+    {
+      "name": "Insight",
+      "bonus": 8
+    },
+    {
+      "name": "Perception",
+      "bonus": 14
+    },
+    {
+      "name": "Persuasion",
+      "bonus": 13
+    },
+    {
+      "name": "Stealth",
+      "bonus": 8
+    }
+  ],
+  "passivePerception": 24,
+  "senseModes": [
+    {
+      "name": "Blindsight",
+      "rangeFeet": 60
+    },
+    {
+      "name": "Darkvision",
+      "rangeFeet": 120
+    }
+  ],
+  "languageList": [
+    "Common",
+    "Draconic"
+  ],
+  "damageImmunities": [
+    "Fire"
+  ],
+  "spellcasting": [
+    {
+      "section": "Actions",
+      "sourceText": "Spellcasting. The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 21, +13 to hit with spell attacks):\n\nAt Will: Detect Magic, Guiding Bolt (level 2 version), Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell)\n\n1/Day Each: Flame Strike, Zone of Truth",
+      "path": "statSections[1].rulesText",
+      "entries": [
+        {
+          "frequency": "At Will",
+          "spellsText": "Detect Magic, Guiding Bolt (level 2 version), Shapechange (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell)",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/guiding-bolt"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/shapechange"
+            }
+          ]
+        },
+        {
+          "frequency": "1/Day Each",
+          "spellsText": "Flame Strike, Zone of Truth",
+          "spells": [
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/flame-strike"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/zone-of-truth"
+            }
+          ]
+        }
+      ],
+      "ability": "Charisma",
+      "saveDC": 21,
+      "attackBonus": 13
+    }
+  ],
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/detect-magic"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/guiding-bolt"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/shapechange"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/flame-strike"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/zone-of-truth"
+    }
+  ],
   "attacks": [
     {
       "name": "Rend",

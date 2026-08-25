@@ -1,0 +1,39 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/equipment/weavers-tools",
+  "@type": "Equipment",
+  "name": "Weaver's Tools",
+  "slug": "weavers-tools",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Equipment",
+    "section": "6.50",
+    "heading": "Weaver's Tools (1 GP)",
+    "lineStart": 6210,
+    "lineEnd": 6218
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/equipment/weavers-tools/"
+  },
+  "equipmentType": "tool",
+  "fromRule": {
+    "@id": "https://cheeleong.dev/graph20/objects/rules/6-50-weavers-tools-1-gp"
+  },
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/6-50-weavers-tools-1-gp"
+    }
+  ],
+  "cost": {
+    "text": "1 GP",
+    "currency": "GP",
+    "amount": 1
+  },
+  "ability": "Dexterity",
+  "weight": "5 lb.",
+  "weightPounds": 5,
+  "utilize": "Mend a tear in clothing (DC 10), or sew a Tiny design (DC 10)",
+  "craft": "Padded Armor, Basket, Bedroll, Blanket, Fine Clothes, Net, Robe, Rope, Sack, String, Tent, Traveler's Clothes"
+}

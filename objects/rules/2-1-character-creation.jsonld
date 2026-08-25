@@ -11,8 +11,13 @@
     "chapter": "Character Creation",
     "section": "2.1",
     "heading": "Character Creation",
-    "lineStart": 863,
-    "lineEnd": 863
+    "lineStart": 861,
+    "lineEnd": 861
   },
-  "section": "2.1"
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/2-1-character-creation/"
+  },
+  "section": "2.1",
+  "rulesText": "Character Creation",
+  "headingOnly": true
 }

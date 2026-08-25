@@ -1,0 +1,736 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/tables/2-44-spell-slots-per-spell-level",
+  "@type": "Table",
+  "name": "Spell Slots per Spell Level",
+  "slug": "2-44-spell-slots-per-spell-level",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Character Creation",
+    "section": "2.44",
+    "heading": "Spellcasting",
+    "lineStart": 1340,
+    "lineEnd": 1361,
+    "caption": "Spell Slots per Spell Level"
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/tables/2-44-spell-slots-per-spell-level/"
+  },
+  "columns": [
+    "Level",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "rows": [
+    {
+      "position": 1,
+      "cells": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cells": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cells": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cells": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cells": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "cells": [
+        {
+          "value": "6"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "cells": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "cells": [
+        {
+          "value": "8"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "cells": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "cells": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "cells": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "cells": [
+        {
+          "value": "12"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "cells": [
+        {
+          "value": "13"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "cells": [
+        {
+          "value": "14"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "-"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "cells": [
+        {
+          "value": "15"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "cells": [
+        {
+          "value": "16"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "position": 17,
+      "cells": [
+        {
+          "value": "17"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "cells": [
+        {
+          "value": "18"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "position": 19,
+      "cells": [
+        {
+          "value": "19"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "cells": [
+        {
+          "value": "20"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "rawText": "| Level | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   |\n| :---- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| 1     | 2   |  -  |  -  |  -  |  -  |  -  |  -  |  -  |  -  |\n| 2     | 3   |  -  |  -  |  -  |  -  |  -  |  -  |  -  |  -  |\n| 3     | 4   | 2   |  -  |  -  |  -  |  -  |  -  |  -  |  -  |\n| 4     | 4   | 3   |  -  |  -  |  -  |  -  |  -  |  -  |  -  |\n| 5     | 4   | 3   | 2   |  -  |  -  |  -  |  -  |  -  |  -  |\n| 6     | 4   | 3   | 3   |  -  |  -  |  -  |  -  |  -  |  -  |\n| 7     | 4   | 3   | 3   | 1   |  -  |  -  |  -  |  -  |  -  |\n| 8     | 4   | 3   | 3   | 2   |  -  |  -  |  -  |  -  |  -  |\n| 9     | 4   | 3   | 3   | 3   | 1   |  -  |  -  |  -  |  -  |\n| 10    | 4   | 3   | 3   | 3   | 2   |  -  |  -  |  -  |  -  |\n| 11    | 4   | 3   | 3   | 3   | 2   | 1   |  -  |  -  |  -  |\n| 12    | 4   | 3   | 3   | 3   | 2   | 1   |  -  |  -  |  -  |\n| 13    | 4   | 3   | 3   | 3   | 2   | 1   | 1   |  -  |  -  |\n| 14    | 4   | 3   | 3   | 3   | 2   | 1   | 1   |  -  |  -  |\n| 15    | 4   | 3   | 3   | 3   | 2   | 1   | 1   | 1   |  -  |\n| 16    | 4   | 3   | 3   | 3   | 2   | 1   | 1   | 1   |  -  |\n| 17    | 4   | 3   | 3   | 3   | 2   | 1   | 1   | 1   | 1   |\n| 18    | 4   | 3   | 3   | 3   | 3   | 1   | 1   | 1   | 1   |\n| 19    | 4   | 3   | 3   | 3   | 3   | 2   | 1   | 1   | 1   |\n| 20    | 4   | 3   | 3   | 3   | 3   | 2   | 2   | 1   | 1   |"
+}

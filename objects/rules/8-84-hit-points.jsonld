@@ -11,9 +11,28 @@
     "chapter": "Rules Glossary",
     "section": "8.84",
     "heading": "Hit Points",
-    "lineStart": 13229,
-    "lineEnd": 13231
+    "lineStart": 13193,
+    "lineEnd": 13195
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-84-hit-points/"
   },
   "section": "8.84",
-  "rulesText": "Hit Points (HP) are a measure of how difficult it is to kill or destroy a creature or an object. Damage reduces Hit Points, and healing restores them. You can't have more Hit Points than your Hit Point maximum, and you can't have less than 0. See also \"Breaking Objects\" and \"Playing the Game\" (\"Damage and Healing\")."
+  "rulesText": "Hit Points (HP) are a measure of how difficult it is to kill or destroy a creature or an object. Damage reduces Hit Points, and healing restores them. You can't have more Hit Points than your Hit Point maximum, and you can't have less than 0. See also \"Breaking Objects\" and \"Playing the Game\" (\"Damage and Healing\").",
+  "seeAlso": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-88-damage-and-healing"
+    }
+  ],
+  "relatedRules": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-1-playing-the-game"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/rules/1-88-damage-and-healing"
+    }
+  ]
 }

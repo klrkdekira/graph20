@@ -11,8 +11,11 @@
     "chapter": "Rules Glossary",
     "section": "8.88",
     "heading": "Immunity",
-    "lineStart": 13247,
-    "lineEnd": 13249
+    "lineStart": 13211,
+    "lineEnd": 13213
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/8-88-immunity/"
   },
   "section": "8.88",
   "rulesText": "If you have Immunity to a damage type or a condition, it doesn't affect you in any way."

@@ -1,0 +1,31 @@
+{
+  "@context": "https://cheeleong.dev/graph20/systems/context.jsonld",
+  "@id": "https://cheeleong.dev/graph20/objects/invocations/whispers-of-the-grave",
+  "@type": "EldritchInvocation",
+  "name": "Whispers of the Grave",
+  "slug": "whispers-of-the-grave",
+  "source": {
+    "@id": "https://cheeleong.dev/graph20/objects/sources/srd-5-2-1"
+  },
+  "sourceLocator": {
+    "chapter": "Classes",
+    "section": "3.28",
+    "heading": "Whispers of the Grave",
+    "lineStart": 4708,
+    "lineEnd": 4712
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/invocations/whispers-of-the-grave/"
+  },
+  "prerequisite": "Level 7+ Warlock",
+  "repeatable": false,
+  "parentClass": {
+    "@id": "https://cheeleong.dev/graph20/objects/classes/warlock"
+  },
+  "rulesText": "Prerequisite: Level 7+ Warlock\n\nYou can cast Speak with Dead without expending a spell slot.",
+  "castsSpell": [
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/speak-with-dead"
+    }
+  ]
+}

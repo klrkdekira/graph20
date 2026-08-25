@@ -11,8 +11,11 @@
     "chapter": "Magic Items",
     "section": "10.15",
     "heading": "Activating a Magic Item",
-    "lineStart": 14602,
-    "lineEnd": 14604
+    "lineStart": 14564,
+    "lineEnd": 14566
+  },
+  "htmlPage": {
+    "@id": "https://cheeleong.dev/graph20/records/rules/10-15-activating-a-magic-item/"
   },
   "section": "10.15",
   "rulesText": "It usually takes a Magic action to activate a magic item. The item's user might also need to do something special. The description of each item category or individual item details how an item is activated. Certain items use the following rules for their activation."

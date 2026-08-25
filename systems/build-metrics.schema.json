@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cheeleong.dev/graph20/systems/build-metrics.schema.json",
+  "title": "Asserted deterministic build metrics",
+  "type": "object",
+  "properties": {
+    "version": { "type": "string", "minLength": 1 },
+    "recordCount": { "type": "integer", "minimum": 1 },
+    "entityRecordCount": { "type": "integer", "minimum": 1 },
+    "collectionCount": { "type": "integer", "minimum": 1 },
+    "collectionCounts": {
+      "type": "object",
+      "additionalProperties": { "type": "integer", "minimum": 0 }
+    },
+    "sourceContentLines": { "type": "integer", "minimum": 1 },
+    "vocabulary": {
+      "type": "object",
+      "properties": {
+        "classCount": { "type": "integer", "minimum": 1 },
+        "propertyCount": { "type": "integer", "minimum": 1 }
+      },
+      "required": ["classCount", "propertyCount"],
+      "unevaluatedProperties": false
+    },
+    "search": {
+      "type": "object",
+      "properties": {
+        "documentCount": { "type": "integer", "minimum": 1 },
+        "tokenCount": { "type": "integer", "minimum": 1 },
+        "byteSize": { "type": "integer", "minimum": 1 }
+      },
+      "required": ["documentCount", "tokenCount", "byteSize"],
+      "unevaluatedProperties": false
+    },
+    "review": {
+      "type": "object",
+      "properties": {
+        "signalCount": { "type": "integer", "minimum": 0 },
+        "pendingCount": { "const": 0 }
+      },
+      "required": ["signalCount", "pendingCount"],
+      "unevaluatedProperties": false
+    },
+    "llmsFullPhysicalLines": { "type": "integer", "minimum": 1 },
+    "sitemapUrlCount": { "type": "integer", "minimum": 1 },
+    "recordPageCount": { "type": "integer", "minimum": 1 },
+    "semanticGraph": {
+      "type": "object",
+      "properties": {
+        "linkedEntityCount": { "type": "integer", "minimum": 1 },
+        "coveragePercent": { "type": "number", "minimum": 55, "maximum": 100 },
+        "predicateCount": { "type": "integer", "minimum": 20 },
+        "relationCounts": {
+          "type": "object",
+          "additionalProperties": { "type": "integer", "minimum": 1 }
+        }
+      },
+      "required": ["linkedEntityCount", "coveragePercent", "predicateCount", "relationCounts"],
+      "unevaluatedProperties": false
+    }
+  },
+  "required": [
+    "version", "recordCount", "entityRecordCount", "collectionCount",
+    "collectionCounts", "sourceContentLines", "vocabulary", "search", "review",
+    "llmsFullPhysicalLines", "sitemapUrlCount", "recordPageCount", "semanticGraph"
+  ],
+  "unevaluatedProperties": false
+}
