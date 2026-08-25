@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.227",
     "heading": "Sphinx of Lore",
-    "lineStart": 24979,
-    "lineEnd": 25026
+    "lineStart": 24975,
+    "lineEnd": 25022
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/sphinx-of-lore/"
@@ -84,8 +84,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.227",
         "heading": "Traits",
-        "lineStart": 25000,
-        "lineEnd": 25004
+        "lineStart": 24996,
+        "lineEnd": 25000
       }
     },
     {
@@ -95,8 +95,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.227",
         "heading": "Actions",
-        "lineStart": 25006,
-        "lineEnd": 25018
+        "lineStart": 25002,
+        "lineEnd": 25014
       }
     },
     {
@@ -106,8 +106,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.227",
         "heading": "Legendary Actions",
-        "lineStart": 25020,
-        "lineEnd": 25026
+        "lineStart": 25016,
+        "lineEnd": 25022
       }
     }
   ],

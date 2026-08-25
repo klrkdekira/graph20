@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.85",
     "heading": "Erinyes",
-    "lineStart": 20500,
-    "lineEnd": 20542
+    "lineStart": 20496,
+    "lineEnd": 20538
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/erinyes/"
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.85",
         "heading": "Traits",
-        "lineStart": 20523,
-        "lineEnd": 20529
+        "lineStart": 20519,
+        "lineEnd": 20525
       }
     },
     {
@@ -98,8 +98,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.85",
         "heading": "Actions",
-        "lineStart": 20531,
-        "lineEnd": 20538
+        "lineStart": 20527,
+        "lineEnd": 20534
       }
     },
     {
@@ -109,8 +109,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.85",
         "heading": "Reactions",
-        "lineStart": 20540,
-        "lineEnd": 20542
+        "lineStart": 20536,
+        "lineEnd": 20538
       }
     }
   ],

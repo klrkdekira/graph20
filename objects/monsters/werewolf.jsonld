@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.258",
     "heading": "Werewolf",
-    "lineStart": 26085,
-    "lineEnd": 26123
+    "lineStart": 26081,
+    "lineEnd": 26119
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/werewolf/"
@@ -48,13 +48,13 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 14,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "dex": {
-      "score": 10,
-      "modifier": 0,
+      "score": 14,
+      "modifier": 2,
       "savingThrow": 2
     },
     "con": {
@@ -63,17 +63,17 @@
       "savingThrow": 2
     },
     "int": {
-      "score": 5,
-      "modifier": -3,
-      "savingThrow": -3
-    },
-    "wis": {
       "score": 10,
       "modifier": 0,
-      "savingThrow": 2
+      "savingThrow": 0
+    },
+    "wis": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
     },
     "cha": {
-      "score": 11,
+      "score": 10,
       "modifier": 0,
       "savingThrow": 0
     }
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.258",
         "heading": "Traits",
-        "lineStart": 26107,
-        "lineEnd": 26109
+        "lineStart": 26103,
+        "lineEnd": 26105
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.258",
         "heading": "Actions",
-        "lineStart": 26111,
-        "lineEnd": 26119
+        "lineStart": 26107,
+        "lineEnd": 26115
       }
     },
     {
@@ -108,8 +108,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.258",
         "heading": "Bonus Actions",
-        "lineStart": 26121,
-        "lineEnd": 26123
+        "lineStart": 26117,
+        "lineEnd": 26119
       }
     }
   ],

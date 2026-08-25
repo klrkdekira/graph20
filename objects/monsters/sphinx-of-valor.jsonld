@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.228",
     "heading": "Sphinx of Valor",
-    "lineStart": 25028,
-    "lineEnd": 25081
+    "lineStart": 25024,
+    "lineEnd": 25077
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/sphinx-of-valor/"
@@ -84,8 +84,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.228",
         "heading": "Traits",
-        "lineStart": 25049,
-        "lineEnd": 25053
+        "lineStart": 25045,
+        "lineEnd": 25049
       }
     },
     {
@@ -95,8 +95,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.228",
         "heading": "Actions",
-        "lineStart": 25055,
-        "lineEnd": 25073
+        "lineStart": 25051,
+        "lineEnd": 25069
       }
     },
     {
@@ -106,8 +106,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.228",
         "heading": "Legendary Actions",
-        "lineStart": 25075,
-        "lineEnd": 25081
+        "lineStart": 25071,
+        "lineEnd": 25077
       }
     }
   ],

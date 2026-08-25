@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.40",
     "heading": "Giant Lizard",
-    "lineStart": 27570,
-    "lineEnd": 27594
+    "lineStart": 27566,
+    "lineEnd": 27590
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/giant-lizard/"
@@ -81,8 +81,8 @@
         "chapter": "Animals",
         "section": "13.40",
         "heading": "Traits",
-        "lineStart": 27588,
-        "lineEnd": 27590
+        "lineStart": 27584,
+        "lineEnd": 27586
       }
     },
     {
@@ -92,8 +92,8 @@
         "chapter": "Animals",
         "section": "13.40",
         "heading": "Actions",
-        "lineStart": 27592,
-        "lineEnd": 27594
+        "lineStart": 27588,
+        "lineEnd": 27590
       }
     }
   ],

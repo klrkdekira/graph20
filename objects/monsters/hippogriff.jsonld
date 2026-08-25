@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.134",
     "heading": "Hippogriff",
-    "lineStart": 22026,
-    "lineEnd": 22055
+    "lineStart": 22022,
+    "lineEnd": 22051
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/hippogriff/"
@@ -82,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.134",
         "heading": "Traits",
-        "lineStart": 22047,
-        "lineEnd": 22049
+        "lineStart": 22043,
+        "lineEnd": 22045
       }
     },
     {
@@ -93,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.134",
         "heading": "Actions",
-        "lineStart": 22051,
-        "lineEnd": 22055
+        "lineStart": 22047,
+        "lineEnd": 22051
       }
     }
   ],

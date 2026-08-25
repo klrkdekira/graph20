@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.82",
     "heading": "Dryad",
-    "lineStart": 20375,
-    "lineEnd": 20418
+    "lineStart": 20371,
+    "lineEnd": 20414
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/dryad/"
@@ -81,8 +81,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.82",
         "heading": "Traits",
-        "lineStart": 20396,
-        "lineEnd": 20400
+        "lineStart": 20392,
+        "lineEnd": 20396
       }
     },
     {
@@ -92,8 +92,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.82",
         "heading": "Actions",
-        "lineStart": 20402,
-        "lineEnd": 20414
+        "lineStart": 20398,
+        "lineEnd": 20410
       }
     },
     {
@@ -103,8 +103,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.82",
         "heading": "Bonus Actions",
-        "lineStart": 20416,
-        "lineEnd": 20418
+        "lineStart": 20412,
+        "lineEnd": 20414
       }
     }
   ],

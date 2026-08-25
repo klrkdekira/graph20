@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.150",
     "heading": "Lamia",
-    "lineStart": 22534,
-    "lineEnd": 22571
+    "lineStart": 22530,
+    "lineEnd": 22567
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/lamia/"
@@ -82,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.150",
         "heading": "Actions",
-        "lineStart": 22555,
-        "lineEnd": 22567
+        "lineStart": 22551,
+        "lineEnd": 22563
       }
     },
     {
@@ -93,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.150",
         "heading": "Bonus Actions",
-        "lineStart": 22569,
-        "lineEnd": 22571
+        "lineStart": 22565,
+        "lineEnd": 22567
       }
     }
   ],

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.235",
     "heading": "Storm Giant",
-    "lineStart": 25283,
-    "lineEnd": 25326
+    "lineStart": 25279,
+    "lineEnd": 25322
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/storm-giant/"
@@ -84,8 +84,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.235",
         "heading": "Traits",
-        "lineStart": 25306,
-        "lineEnd": 25308
+        "lineStart": 25302,
+        "lineEnd": 25304
       }
     },
     {
@@ -95,8 +95,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.235",
         "heading": "Actions",
-        "lineStart": 25310,
-        "lineEnd": 25326
+        "lineStart": 25306,
+        "lineEnd": 25322
       }
     }
   ],

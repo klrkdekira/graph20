@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.23",
     "heading": "Elk",
-    "lineStart": 27122,
-    "lineEnd": 27143
+    "lineStart": 27118,
+    "lineEnd": 27139
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/elk/"
@@ -43,9 +43,9 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 18,
-      "modifier": 4,
-      "savingThrow": 4
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "dex": {
       "score": 10,
@@ -53,9 +53,9 @@
       "savingThrow": 0
     },
     "con": {
-      "score": 15,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
     },
     "int": {
       "score": 2,
@@ -63,12 +63,12 @@
       "savingThrow": -4
     },
     "wis": {
-      "score": 11,
+      "score": 10,
       "modifier": 0,
       "savingThrow": 0
     },
     "cha": {
-      "score": 7,
+      "score": 6,
       "modifier": -2,
       "savingThrow": -2
     }
@@ -81,8 +81,8 @@
         "chapter": "Animals",
         "section": "13.23",
         "heading": "Actions",
-        "lineStart": 27141,
-        "lineEnd": 27143
+        "lineStart": 27137,
+        "lineEnd": 27139
       }
     }
   ],

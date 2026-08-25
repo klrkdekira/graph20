@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.75",
     "heading": "Deva",
-    "lineStart": 20099,
-    "lineEnd": 20142
+    "lineStart": 20095,
+    "lineEnd": 20138
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/deva/"
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.75",
         "heading": "Traits",
-        "lineStart": 20122,
-        "lineEnd": 20126
+        "lineStart": 20118,
+        "lineEnd": 20122
       }
     },
     {
@@ -98,8 +98,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.75",
         "heading": "Actions",
-        "lineStart": 20128,
-        "lineEnd": 20138
+        "lineStart": 20124,
+        "lineEnd": 20134
       }
     },
     {
@@ -109,8 +109,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.75",
         "heading": "Bonus Actions",
-        "lineStart": 20140,
-        "lineEnd": 20142
+        "lineStart": 20136,
+        "lineEnd": 20138
       }
     }
   ],

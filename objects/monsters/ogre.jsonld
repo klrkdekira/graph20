@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.178",
     "heading": "Ogre",
-    "lineStart": 23445,
-    "lineEnd": 23470
+    "lineStart": 23441,
+    "lineEnd": 23466
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/ogre/"
@@ -59,19 +59,19 @@
       "savingThrow": 3
     },
     "int": {
-      "score": 12,
-      "modifier": 1,
-      "savingThrow": 1
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
     },
     "wis": {
-      "score": 14,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
     },
     "cha": {
-      "score": 16,
-      "modifier": 3,
-      "savingThrow": 3
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
     }
   },
   "statSections": [
@@ -82,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.178",
         "heading": "Actions",
-        "lineStart": 23466,
-        "lineEnd": 23470
+        "lineStart": 23462,
+        "lineEnd": 23466
       }
     }
   ],

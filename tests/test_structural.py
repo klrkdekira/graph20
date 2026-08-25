@@ -33,6 +33,12 @@ from build_bundle import build as build_bundle  # noqa: E402
 from build_llms_full import build as build_llms_full  # noqa: E402
 from build_manifest import build as build_manifest  # noqa: E402
 from build_review_ledger import source_positions  # noqa: E402
+from pdf_parity import (  # noqa: E402
+    OFFICIAL_PDF_PAGES,
+    OFFICIAL_PDF_SHA256,
+    load_registry as load_pdf_parity_registry,
+    parse_markdown_stat_blocks,
+)
 
 
 def records_of(collection):
@@ -70,6 +76,30 @@ class TestProvenance(unittest.TestCase):
         self.assertEqual(source["license"], "CC-BY-4.0")
         self.assertEqual(set(source["licenseUrl"]), {"@id"})
         self.assertEqual(set(source["canonicalUrl"]), {"@id"})
+
+    def test_official_pdf_parity_registry(self):
+        registry = load_pdf_parity_registry()
+        self.assertEqual(registry["officialPdf"]["pages"], OFFICIAL_PDF_PAGES)
+        self.assertEqual(
+            registry["officialPdf"]["sha256"],
+            f"sha256-{OFFICIAL_PDF_SHA256}",
+        )
+        source_text = (ROOT / "SRD_CC_v5.2.1.md").read_text(encoding="utf-8")
+        stat_blocks = parse_markdown_stat_blocks(source_text)
+        self.assertEqual(len(stat_blocks), 336)
+        self.assertEqual(stat_blocks, registry["statBlocks"])
+        self.assertEqual(
+            stat_blocks["Animated Object"]["str"], [16, "+3", "+3"]
+        )
+        self.assertEqual(
+            stat_blocks["Young White Dragon"]["int"], [6, "-2", "2"]
+        )
+        for artifact in (
+            "Meta-magic", "can-trip", "tab-ard", "Ac-robatics",
+            "Poisson damage", "El-dritch", "Short-word",
+            "Robe of Useful Items Patches\n\n|", "Sphere Interactions\n\n|",
+        ):
+            self.assertNotIn(artifact, source_text)
 
     def test_no_secondary_dataset_contributes_values(self):
         self.assertFalse((ROOT / "scripts/data/srd-2024-creatures.json").exists())
@@ -380,7 +410,7 @@ class TestCatalogs(unittest.TestCase):
             relation_counts,
             {
                 "listsSpell": 875,
-                "castsSpell": 359,
+                "castsSpell": 360,
                 "mentionsCondition": 506,
                 "grantsFeat": 4,
                 "hasGear": 100,

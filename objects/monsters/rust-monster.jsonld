@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.204",
     "heading": "Rust Monster",
-    "lineStart": 24286,
-    "lineEnd": 24322
+    "lineStart": 24282,
+    "lineEnd": 24318
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/rust-monster/"
@@ -81,8 +81,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.204",
         "heading": "Traits",
-        "lineStart": 24306,
-        "lineEnd": 24308
+        "lineStart": 24302,
+        "lineEnd": 24304
       }
     },
     {
@@ -92,8 +92,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.204",
         "heading": "Actions",
-        "lineStart": 24310,
-        "lineEnd": 24318
+        "lineStart": 24306,
+        "lineEnd": 24314
       }
     },
     {
@@ -103,8 +103,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.204",
         "heading": "Reactions",
-        "lineStart": 24320,
-        "lineEnd": 24322
+        "lineStart": 24316,
+        "lineEnd": 24318
       }
     }
   ],

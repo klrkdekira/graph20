@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.70",
     "heading": "Plesiosaurus",
-    "lineStart": 28390,
-    "lineEnd": 28415
+    "lineStart": 28386,
+    "lineEnd": 28411
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/plesiosaurus/"
@@ -85,8 +85,8 @@
         "chapter": "Animals",
         "section": "13.70",
         "heading": "Traits",
-        "lineStart": 28409,
-        "lineEnd": 28411
+        "lineStart": 28405,
+        "lineEnd": 28407
       }
     },
     {
@@ -96,8 +96,8 @@
         "chapter": "Animals",
         "section": "13.70",
         "heading": "Actions",
-        "lineStart": 28413,
-        "lineEnd": 28415
+        "lineStart": 28409,
+        "lineEnd": 28411
       }
     }
   ],

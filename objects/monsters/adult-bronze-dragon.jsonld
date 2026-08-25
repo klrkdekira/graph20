@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.46",
     "heading": "Adult Bronze Dragon",
-    "lineStart": 19210,
-    "lineEnd": 19262
+    "lineStart": 19206,
+    "lineEnd": 19258
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/adult-bronze-dragon/"
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.46",
         "heading": "Traits",
-        "lineStart": 19230,
-        "lineEnd": 19234
+        "lineStart": 19226,
+        "lineEnd": 19230
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.46",
         "heading": "Actions",
-        "lineStart": 19236,
-        "lineEnd": 19250
+        "lineStart": 19232,
+        "lineEnd": 19246
       }
     },
     {
@@ -108,8 +108,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.46",
         "heading": "Legendary Actions",
-        "lineStart": 19252,
-        "lineEnd": 19262
+        "lineStart": 19248,
+        "lineEnd": 19258
       }
     }
   ],

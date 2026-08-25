@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.158",
     "heading": "Marilith",
-    "lineStart": 22816,
-    "lineEnd": 22861
+    "lineStart": 22812,
+    "lineEnd": 22857
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/marilith/"
@@ -49,34 +49,34 @@
   "proficiencyBonus": 5,
   "abilities": {
     "str": {
-      "score": 10,
-      "modifier": 0,
-      "savingThrow": 0
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 9
     },
     "dex": {
-      "score": 17,
-      "modifier": 3,
-      "savingThrow": 3
+      "score": 20,
+      "modifier": 5,
+      "savingThrow": 5
     },
     "con": {
-      "score": 16,
-      "modifier": 3,
-      "savingThrow": 3
+      "score": 20,
+      "modifier": 5,
+      "savingThrow": 10
     },
     "int": {
-      "score": 12,
-      "modifier": 1,
-      "savingThrow": 1
-    },
-    "wis": {
-      "score": 13,
-      "modifier": 1,
+      "score": 18,
+      "modifier": 4,
       "savingThrow": 4
     },
+    "wis": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 8
+    },
     "cha": {
-      "score": 15,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 20,
+      "modifier": 5,
+      "savingThrow": 10
     }
   },
   "statSections": [
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.158",
         "heading": "Traits",
-        "lineStart": 22839,
-        "lineEnd": 22845
+        "lineStart": 22835,
+        "lineEnd": 22841
       }
     },
     {
@@ -98,8 +98,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.158",
         "heading": "Actions",
-        "lineStart": 22847,
-        "lineEnd": 22853
+        "lineStart": 22843,
+        "lineEnd": 22849
       }
     },
     {
@@ -109,8 +109,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.158",
         "heading": "Bonus Actions",
-        "lineStart": 22855,
-        "lineEnd": 22857
+        "lineStart": 22851,
+        "lineEnd": 22853
       }
     },
     {
@@ -120,8 +120,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.158",
         "heading": "Reactions",
-        "lineStart": 22859,
-        "lineEnd": 22861
+        "lineStart": 22855,
+        "lineEnd": 22857
       }
     }
   ],

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.240",
     "heading": "Tough Boss",
-    "lineStart": 25460,
-    "lineEnd": 25489
+    "lineStart": 25456,
+    "lineEnd": 25485
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/tough-boss/"
@@ -82,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.240",
         "heading": "Traits",
-        "lineStart": 25479,
-        "lineEnd": 25481
+        "lineStart": 25475,
+        "lineEnd": 25477
       }
     },
     {
@@ -93,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.240",
         "heading": "Actions",
-        "lineStart": 25483,
-        "lineEnd": 25489
+        "lineStart": 25479,
+        "lineEnd": 25485
       }
     }
   ],

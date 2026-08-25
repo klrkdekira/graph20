@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.41",
     "heading": "Adult Brass Dragon",
-    "lineStart": 19040,
-    "lineEnd": 19088
+    "lineStart": 19036,
+    "lineEnd": 19084
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/adult-brass-dragon/"
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.41",
         "heading": "Traits",
-        "lineStart": 19060,
-        "lineEnd": 19062
+        "lineStart": 19056,
+        "lineEnd": 19058
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.41",
         "heading": "Actions",
-        "lineStart": 19064,
-        "lineEnd": 19078
+        "lineStart": 19060,
+        "lineEnd": 19074
       }
     },
     {
@@ -108,8 +108,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.41",
         "heading": "Legendary Actions",
-        "lineStart": 19080,
-        "lineEnd": 19088
+        "lineStart": 19076,
+        "lineEnd": 19084
       }
     }
   ],

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.120",
     "heading": "Ancient Green Dragon",
-    "lineStart": 21594,
-    "lineEnd": 21641
+    "lineStart": 21590,
+    "lineEnd": 21637
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/ancient-green-dragon/"
@@ -48,34 +48,34 @@
   "proficiencyBonus": 7,
   "abilities": {
     "str": {
-      "score": 23,
-      "modifier": 6,
-      "savingThrow": 6
+      "score": 27,
+      "modifier": 8,
+      "savingThrow": 8
     },
     "dex": {
       "score": 12,
       "modifier": 1,
-      "savingThrow": 6
+      "savingThrow": 8
     },
     "con": {
-      "score": 21,
+      "score": 25,
+      "modifier": 7,
+      "savingThrow": 7
+    },
+    "int": {
+      "score": 20,
       "modifier": 5,
       "savingThrow": 5
     },
-    "int": {
-      "score": 18,
-      "modifier": 4,
-      "savingThrow": 4
-    },
     "wis": {
-      "score": 15,
-      "modifier": 2,
-      "savingThrow": 7
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 10
     },
     "cha": {
-      "score": 18,
-      "modifier": 4,
-      "savingThrow": 4
+      "score": 22,
+      "modifier": 6,
+      "savingThrow": 6
     }
   },
   "statSections": [
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.120",
         "heading": "Traits",
-        "lineStart": 21614,
-        "lineEnd": 21618
+        "lineStart": 21610,
+        "lineEnd": 21614
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.120",
         "heading": "Actions",
-        "lineStart": 21620,
-        "lineEnd": 21631
+        "lineStart": 21616,
+        "lineEnd": 21627
       }
     },
     {
@@ -108,8 +108,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.120",
         "heading": "Legendary Actions",
-        "lineStart": 21633,
-        "lineEnd": 21641
+        "lineStart": 21629,
+        "lineEnd": 21637
       }
     }
   ],

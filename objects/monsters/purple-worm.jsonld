@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.193",
     "heading": "Purple Worm",
-    "lineStart": 23907,
-    "lineEnd": 23943
+    "lineStart": 23903,
+    "lineEnd": 23939
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/purple-worm/"
@@ -81,8 +81,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.193",
         "heading": "Traits",
-        "lineStart": 23927,
-        "lineEnd": 23929
+        "lineStart": 23923,
+        "lineEnd": 23925
       }
     },
     {
@@ -92,8 +92,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.193",
         "heading": "Actions",
-        "lineStart": 23931,
-        "lineEnd": 23937
+        "lineStart": 23927,
+        "lineEnd": 23933
       }
     },
     {
@@ -103,8 +103,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.193",
         "heading": "Bonus Actions",
-        "lineStart": 23939,
-        "lineEnd": 23943
+        "lineStart": 23935,
+        "lineEnd": 23939
       }
     }
   ],

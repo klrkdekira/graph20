@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.154",
     "heading": "Mage",
-    "lineStart": 22665,
-    "lineEnd": 22705
+    "lineStart": 22661,
+    "lineEnd": 22701
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/mage/"
@@ -85,8 +85,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.154",
         "heading": "Actions",
-        "lineStart": 22685,
-        "lineEnd": 22697
+        "lineStart": 22681,
+        "lineEnd": 22693
       }
     },
     {
@@ -96,8 +96,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.154",
         "heading": "Bonus Actions",
-        "lineStart": 22699,
-        "lineEnd": 22701
+        "lineStart": 22695,
+        "lineEnd": 22697
       }
     },
     {
@@ -107,8 +107,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.154",
         "heading": "Reactions",
-        "lineStart": 22703,
-        "lineEnd": 22705
+        "lineStart": 22699,
+        "lineEnd": 22701
       }
     }
   ],

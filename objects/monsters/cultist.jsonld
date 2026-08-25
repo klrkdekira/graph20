@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.71",
     "heading": "Cultist",
-    "lineStart": 19978,
-    "lineEnd": 20000
+    "lineStart": 19974,
+    "lineEnd": 19996
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/cultist/"
@@ -44,34 +44,34 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 14,
-      "modifier": 2,
-      "savingThrow": 2
-    },
-    "dex": {
-      "score": 14,
-      "modifier": 2,
-      "savingThrow": 2
-    },
-    "con": {
       "score": 11,
       "modifier": 0,
       "savingThrow": 0
     },
-    "int": {
-      "score": 5,
-      "modifier": -3,
-      "savingThrow": -3
+    "dex": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
     },
-    "wis": {
+    "con": {
       "score": 10,
       "modifier": 0,
       "savingThrow": 0
     },
+    "int": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "wis": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 2
+    },
     "cha": {
-      "score": 4,
-      "modifier": -3,
-      "savingThrow": -3
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
     }
   },
   "statSections": [
@@ -82,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.71",
         "heading": "Actions",
-        "lineStart": 19998,
-        "lineEnd": 20000
+        "lineStart": 19994,
+        "lineEnd": 19996
       }
     }
   ],

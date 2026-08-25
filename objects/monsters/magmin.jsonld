@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.156",
     "heading": "Magmin",
-    "lineStart": 22754,
-    "lineEnd": 22785
+    "lineStart": 22750,
+    "lineEnd": 22781
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/magmin/"
@@ -82,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.156",
         "heading": "Traits",
-        "lineStart": 22775,
-        "lineEnd": 22777
+        "lineStart": 22771,
+        "lineEnd": 22773
       }
     },
     {
@@ -93,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.156",
         "heading": "Actions",
-        "lineStart": 22779,
-        "lineEnd": 22781
+        "lineStart": 22775,
+        "lineEnd": 22777
       }
     },
     {
@@ -104,8 +104,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.156",
         "heading": "Bonus Actions",
-        "lineStart": 22783,
-        "lineEnd": 22785
+        "lineStart": 22779,
+        "lineEnd": 22781
       }
     }
   ],

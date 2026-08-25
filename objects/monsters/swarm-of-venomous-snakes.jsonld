@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.88",
     "heading": "Swarm of Venomous Snakes",
-    "lineStart": 28877,
-    "lineEnd": 28903
+    "lineStart": 28873,
+    "lineEnd": 28899
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/swarm-of-venomous-snakes/"
@@ -62,9 +62,9 @@
       "savingThrow": 0
     },
     "int": {
-      "score": 2,
-      "modifier": -4,
-      "savingThrow": -4
+      "score": 1,
+      "modifier": -5,
+      "savingThrow": -5
     },
     "wis": {
       "score": 10,
@@ -85,8 +85,8 @@
         "chapter": "Animals",
         "section": "13.88",
         "heading": "Traits",
-        "lineStart": 28897,
-        "lineEnd": 28899
+        "lineStart": 28893,
+        "lineEnd": 28895
       }
     },
     {
@@ -96,8 +96,8 @@
         "chapter": "Animals",
         "section": "13.88",
         "heading": "Actions",
-        "lineStart": 28901,
-        "lineEnd": 28903
+        "lineStart": 28897,
+        "lineEnd": 28899
       }
     }
   ],

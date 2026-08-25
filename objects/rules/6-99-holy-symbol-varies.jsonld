@@ -18,7 +18,7 @@
     "@id": "https://cheeleong.dev/graph20/records/rules/6-99-holy-symbol-varies/"
   },
   "section": "6.99",
-  "rulesText": "A Holy Symbol takes one of the forms in the Holy Symbol table and is be jeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.\n\nThe table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tab-ard or banner) or a Shield.",
+  "rulesText": "A Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.\n\nThe table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/6-99-holy-symbols"

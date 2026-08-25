@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.206",
     "heading": "Sahuagin Warrior",
-    "lineStart": 24326,
-    "lineEnd": 24362
+    "lineStart": 24322,
+    "lineEnd": 24358
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/sahuagin-warrior/"
@@ -83,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.206",
         "heading": "Traits",
-        "lineStart": 24346,
-        "lineEnd": 24352
+        "lineStart": 24342,
+        "lineEnd": 24348
       }
     },
     {
@@ -94,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.206",
         "heading": "Actions",
-        "lineStart": 24354,
-        "lineEnd": 24358
+        "lineStart": 24350,
+        "lineEnd": 24354
       }
     },
     {
@@ -105,8 +105,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.206",
         "heading": "Bonus Actions",
-        "lineStart": 24360,
-        "lineEnd": 24362
+        "lineStart": 24356,
+        "lineEnd": 24358
       }
     }
   ],

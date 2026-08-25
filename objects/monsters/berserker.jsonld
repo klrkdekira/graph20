@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.24",
     "heading": "Berserker",
-    "lineStart": 18524,
-    "lineEnd": 18551
+    "lineStart": 18520,
+    "lineEnd": 18547
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/berserker/"
@@ -82,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.24",
         "heading": "Traits",
-        "lineStart": 18545,
-        "lineEnd": 18547
+        "lineStart": 18541,
+        "lineEnd": 18543
       }
     },
     {
@@ -93,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.24",
         "heading": "Actions",
-        "lineStart": 18549,
-        "lineEnd": 18551
+        "lineStart": 18545,
+        "lineEnd": 18547
       }
     }
   ],

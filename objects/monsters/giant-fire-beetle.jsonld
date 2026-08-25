@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.36",
     "heading": "Giant Fire Beetle",
-    "lineStart": 27460,
-    "lineEnd": 27485
+    "lineStart": 27456,
+    "lineEnd": 27481
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/giant-fire-beetle/"
@@ -82,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.36",
         "heading": "Traits",
-        "lineStart": 27479,
-        "lineEnd": 27481
+        "lineStart": 27475,
+        "lineEnd": 27477
       }
     },
     {
@@ -93,8 +93,8 @@
         "chapter": "Animals",
         "section": "13.36",
         "heading": "Actions",
-        "lineStart": 27483,
-        "lineEnd": 27485
+        "lineStart": 27479,
+        "lineEnd": 27481
       }
     }
   ],

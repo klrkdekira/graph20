@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.35",
     "heading": "Adult Blue Dragon",
-    "lineStart": 18845,
-    "lineEnd": 18891
+    "lineStart": 18841,
+    "lineEnd": 18887
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/adult-blue-dragon/"
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.35",
         "heading": "Traits",
-        "lineStart": 18865,
-        "lineEnd": 18867
+        "lineStart": 18861,
+        "lineEnd": 18863
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.35",
         "heading": "Actions",
-        "lineStart": 18869,
-        "lineEnd": 18881
+        "lineStart": 18865,
+        "lineEnd": 18877
       }
     },
     {
@@ -108,8 +108,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.35",
         "heading": "Legendary Actions",
-        "lineStart": 18883,
-        "lineEnd": 18891
+        "lineStart": 18879,
+        "lineEnd": 18887
       }
     }
   ],

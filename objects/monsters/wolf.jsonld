@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.96",
     "heading": "Wolf",
-    "lineStart": 29077,
-    "lineEnd": 29102
+    "lineStart": 29073,
+    "lineEnd": 29098
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/wolf/"
@@ -44,24 +44,24 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 18,
-      "modifier": 4,
-      "savingThrow": 4
-    },
-    "dex": {
-      "score": 13,
-      "modifier": 1,
-      "savingThrow": 1
-    },
-    "con": {
       "score": 14,
       "modifier": 2,
       "savingThrow": 2
     },
+    "dex": {
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
+    },
+    "con": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
     "int": {
-      "score": 7,
-      "modifier": -2,
-      "savingThrow": -2
+      "score": 3,
+      "modifier": -4,
+      "savingThrow": -4
     },
     "wis": {
       "score": 12,
@@ -69,9 +69,9 @@
       "savingThrow": 1
     },
     "cha": {
-      "score": 8,
-      "modifier": -1,
-      "savingThrow": -1
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
     }
   },
   "statSections": [
@@ -82,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.96",
         "heading": "Traits",
-        "lineStart": 29096,
-        "lineEnd": 29098
+        "lineStart": 29092,
+        "lineEnd": 29094
       }
     },
     {
@@ -93,8 +93,8 @@
         "chapter": "Animals",
         "section": "13.96",
         "heading": "Actions",
-        "lineStart": 29100,
-        "lineEnd": 29102
+        "lineStart": 29096,
+        "lineEnd": 29098
       }
     }
   ],

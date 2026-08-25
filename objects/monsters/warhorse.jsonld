@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.94",
     "heading": "Warhorse",
-    "lineStart": 29032,
-    "lineEnd": 29052
+    "lineStart": 29028,
+    "lineEnd": 29048
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/warhorse/"
@@ -43,34 +43,34 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 26,
-      "modifier": 8,
-      "savingThrow": 8
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
     },
     "dex": {
-      "score": 22,
-      "modifier": 6,
-      "savingThrow": 6
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
     },
     "con": {
-      "score": 26,
-      "modifier": 8,
-      "savingThrow": 8
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
     },
     "int": {
-      "score": 25,
-      "modifier": 7,
-      "savingThrow": 7
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
     },
     "wis": {
-      "score": 25,
-      "modifier": 7,
-      "savingThrow": 7
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 3
     },
     "cha": {
-      "score": 30,
-      "modifier": 10,
-      "savingThrow": 10
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
     }
   },
   "statSections": [
@@ -81,8 +81,8 @@
         "chapter": "Animals",
         "section": "13.94",
         "heading": "Actions",
-        "lineStart": 29050,
-        "lineEnd": 29052
+        "lineStart": 29046,
+        "lineEnd": 29048
       }
     }
   ],

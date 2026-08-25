@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.84",
     "heading": "Efreeti",
-    "lineStart": 20456,
-    "lineEnd": 20498
+    "lineStart": 20452,
+    "lineEnd": 20494
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/efreeti/"
@@ -47,32 +47,32 @@
   "proficiencyBonus": 4,
   "abilities": {
     "str": {
-      "score": 18,
-      "modifier": 4,
-      "savingThrow": 4
+      "score": 22,
+      "modifier": 6,
+      "savingThrow": 6
     },
     "dex": {
-      "score": 16,
-      "modifier": 3,
-      "savingThrow": 7
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
     },
     "con": {
-      "score": 18,
-      "modifier": 4,
-      "savingThrow": 8
+      "score": 24,
+      "modifier": 7,
+      "savingThrow": 7
     },
     "int": {
-      "score": 14,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "wis": {
-      "score": 14,
+      "score": 15,
       "modifier": 2,
-      "savingThrow": 2
+      "savingThrow": 6
     },
     "cha": {
-      "score": 18,
+      "score": 19,
       "modifier": 4,
       "savingThrow": 8
     }
@@ -85,8 +85,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.84",
         "heading": "Traits",
-        "lineStart": 20477,
-        "lineEnd": 20483
+        "lineStart": 20473,
+        "lineEnd": 20479
       }
     },
     {
@@ -96,8 +96,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.84",
         "heading": "Actions",
-        "lineStart": 20485,
-        "lineEnd": 20498
+        "lineStart": 20481,
+        "lineEnd": 20494
       }
     }
   ],

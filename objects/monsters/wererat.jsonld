@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.256",
     "heading": "Wererat",
-    "lineStart": 26009,
-    "lineEnd": 26045
+    "lineStart": 26005,
+    "lineEnd": 26041
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/wererat/"
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.256",
         "heading": "Actions",
-        "lineStart": 26031,
-        "lineEnd": 26041
+        "lineStart": 26027,
+        "lineEnd": 26037
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.256",
         "heading": "Bonus Actions",
-        "lineStart": 26043,
-        "lineEnd": 26045
+        "lineStart": 26039,
+        "lineEnd": 26041
       }
     }
   ],

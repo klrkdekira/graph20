@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.268",
     "heading": "Wraith",
-    "lineStart": 26421,
-    "lineEnd": 26453
+    "lineStart": 26417,
+    "lineEnd": 26449
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/wraith/"
@@ -45,34 +45,34 @@
   "proficiencyBonus": 3,
   "abilities": {
     "str": {
-      "score": 18,
-      "modifier": 4,
-      "savingThrow": 4
-    },
-    "dex": {
-      "score": 13,
-      "modifier": 1,
-      "savingThrow": 1
-    },
-    "con": {
-      "score": 14,
-      "modifier": 2,
-      "savingThrow": 2
-    },
-    "int": {
-      "score": 7,
+      "score": 6,
       "modifier": -2,
       "savingThrow": -2
     },
-    "wis": {
+    "dex": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "con": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "int": {
       "score": 12,
       "modifier": 1,
       "savingThrow": 1
     },
+    "wis": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
+    },
     "cha": {
-      "score": 8,
-      "modifier": -1,
-      "savingThrow": -1
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
     }
   },
   "statSections": [
@@ -83,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.268",
         "heading": "Traits",
-        "lineStart": 26443,
-        "lineEnd": 26447
+        "lineStart": 26439,
+        "lineEnd": 26443
       }
     },
     {
@@ -94,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.268",
         "heading": "Actions",
-        "lineStart": 26449,
-        "lineEnd": 26453
+        "lineStart": 26445,
+        "lineEnd": 26449
       }
     }
   ],

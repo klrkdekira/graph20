@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.93",
     "heading": "Vulture",
-    "lineStart": 29005,
-    "lineEnd": 29030
+    "lineStart": 29001,
+    "lineEnd": 29026
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/vulture/"
@@ -44,9 +44,9 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 15,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
     },
     "dex": {
       "score": 10,
@@ -54,14 +54,14 @@
       "savingThrow": 0
     },
     "con": {
-      "score": 16,
-      "modifier": 3,
-      "savingThrow": 3
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
     },
     "int": {
-      "score": 6,
-      "modifier": -2,
-      "savingThrow": -2
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
     },
     "wis": {
       "score": 12,
@@ -69,9 +69,9 @@
       "savingThrow": 1
     },
     "cha": {
-      "score": 7,
-      "modifier": -2,
-      "savingThrow": -2
+      "score": 4,
+      "modifier": -3,
+      "savingThrow": -3
     }
   },
   "statSections": [
@@ -82,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.93",
         "heading": "Traits",
-        "lineStart": 29024,
-        "lineEnd": 29026
+        "lineStart": 29020,
+        "lineEnd": 29022
       }
     },
     {
@@ -93,8 +93,8 @@
         "chapter": "Animals",
         "section": "13.93",
         "heading": "Actions",
-        "lineStart": 29028,
-        "lineEnd": 29030
+        "lineStart": 29024,
+        "lineEnd": 29026
       }
     }
   ],

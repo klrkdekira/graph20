@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.55",
     "heading": "Hawk",
-    "lineStart": 27983,
-    "lineEnd": 28004
+    "lineStart": 27979,
+    "lineEnd": 28000
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/hawk/"
@@ -44,19 +44,19 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 10,
-      "modifier": 0,
-      "savingThrow": 0
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
     },
     "dex": {
-      "score": 11,
-      "modifier": 0,
-      "savingThrow": 0
-    },
-    "con": {
       "score": 16,
       "modifier": 3,
       "savingThrow": 3
+    },
+    "con": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
     },
     "int": {
       "score": 2,
@@ -64,14 +64,14 @@
       "savingThrow": -4
     },
     "wis": {
-      "score": 12,
-      "modifier": 1,
-      "savingThrow": 1
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
     },
     "cha": {
-      "score": 5,
-      "modifier": -3,
-      "savingThrow": -3
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
     }
   },
   "statSections": [
@@ -82,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.55",
         "heading": "Actions",
-        "lineStart": 28002,
-        "lineEnd": 28004
+        "lineStart": 27998,
+        "lineEnd": 28000
       }
     }
   ],

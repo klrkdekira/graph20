@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.112",
     "heading": "Adult Gold Dragon",
-    "lineStart": 21304,
-    "lineEnd": 21354
+    "lineStart": 21300,
+    "lineEnd": 21350
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/adult-gold-dragon/"
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.112",
         "heading": "Traits",
-        "lineStart": 21324,
-        "lineEnd": 21328
+        "lineStart": 21320,
+        "lineEnd": 21324
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.112",
         "heading": "Actions",
-        "lineStart": 21330,
-        "lineEnd": 21344
+        "lineStart": 21326,
+        "lineEnd": 21340
       }
     },
     {
@@ -108,8 +108,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.112",
         "heading": "Legendary Actions",
-        "lineStart": 21346,
-        "lineEnd": 21354
+        "lineStart": 21342,
+        "lineEnd": 21350
       }
     }
   ],

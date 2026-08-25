@@ -155,7 +155,7 @@
     {
       "level": 14,
       "name": "Improved Blessed Strikes",
-      "rulesText": "The option you chose for Blessed Strikes grows more powerful.\n\nDivine Strike. The extra damage of your Divine Strike increases to 2d8.\n\nPotent Spellcasting. When you cast a Cleric can-trip and deal damage to a creature with it, you can give vitality to yourself or another creature within 60 feet of yourself, granting a number of Temporary Hit Points equal to twice your Wisdom modifier.",
+      "rulesText": "The option you chose for Blessed Strikes grows more powerful.\n\nDivine Strike. The extra damage of your Divine Strike increases to 2d8.\n\nPotent Spellcasting. When you cast a Cleric cantrip and deal damage to a creature with it, you can give vitality to yourself or another creature within 60 feet of yourself, granting a number of Temporary Hit Points equal to twice your Wisdom modifier.",
       "sourceLocator": {
         "chapter": "Classes",
         "section": "3.7",

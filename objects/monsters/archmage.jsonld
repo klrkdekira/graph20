@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.155",
     "heading": "Archmage",
-    "lineStart": 22707,
-    "lineEnd": 22752
+    "lineStart": 22703,
+    "lineEnd": 22748
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/archmage/"
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.155",
         "heading": "Traits",
-        "lineStart": 22728,
-        "lineEnd": 22730
+        "lineStart": 22724,
+        "lineEnd": 22726
       }
     },
     {
@@ -98,8 +98,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.155",
         "heading": "Actions",
-        "lineStart": 22732,
-        "lineEnd": 22744
+        "lineStart": 22728,
+        "lineEnd": 22740
       }
     },
     {
@@ -109,8 +109,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.155",
         "heading": "Bonus Actions",
-        "lineStart": 22746,
-        "lineEnd": 22748
+        "lineStart": 22742,
+        "lineEnd": 22744
       }
     },
     {
@@ -120,8 +120,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.155",
         "heading": "Reactions",
-        "lineStart": 22750,
-        "lineEnd": 22752
+        "lineStart": 22746,
+        "lineEnd": 22748
       }
     }
   ],

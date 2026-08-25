@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.260",
     "heading": "White Dragon Wyrmling",
-    "lineStart": 26127,
-    "lineEnd": 26158
+    "lineStart": 26123,
+    "lineEnd": 26154
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/white-dragon-wyrmling/"
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.260",
         "heading": "Traits",
-        "lineStart": 26147,
-        "lineEnd": 26149
+        "lineStart": 26143,
+        "lineEnd": 26145
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.260",
         "heading": "Actions",
-        "lineStart": 26151,
-        "lineEnd": 26158
+        "lineStart": 26147,
+        "lineEnd": 26154
       }
     }
   ],

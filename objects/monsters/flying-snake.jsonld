@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.24",
     "heading": "Flying Snake",
-    "lineStart": 27145,
-    "lineEnd": 27169
+    "lineStart": 27141,
+    "lineEnd": 27165
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/flying-snake/"
@@ -80,8 +80,8 @@
         "chapter": "Animals",
         "section": "13.24",
         "heading": "Traits",
-        "lineStart": 27163,
-        "lineEnd": 27165
+        "lineStart": 27159,
+        "lineEnd": 27161
       }
     },
     {
@@ -91,8 +91,8 @@
         "chapter": "Animals",
         "section": "13.24",
         "heading": "Actions",
-        "lineStart": 27167,
-        "lineEnd": 27169
+        "lineStart": 27163,
+        "lineEnd": 27165
       }
     }
   ],

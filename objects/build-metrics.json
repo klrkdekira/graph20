@@ -24,21 +24,21 @@
     "magic-items": 258,
     "monsters": 336
   },
-  "sourceContentLines": 18016,
+  "sourceContentLines": 18014,
   "vocabulary": {
     "classCount": 20,
     "propertyCount": 222
   },
   "search": {
     "documentCount": 2226,
-    "tokenCount": 7591,
-    "byteSize": 18779534
+    "tokenCount": 7584,
+    "byteSize": 18775131
   },
   "review": {
     "signalCount": 1988,
     "pendingCount": 0
   },
-  "llmsFullPhysicalLines": 59171,
+  "llmsFullPhysicalLines": 59072,
   "sitemapUrlCount": 2235,
   "recordPageCount": 2226,
   "semanticGraph": {
@@ -47,7 +47,7 @@
     "predicateCount": 22,
     "relationCounts": {
       "areaShapes": 81,
-      "castsSpell": 359,
+      "castsSpell": 360,
       "classes": 879,
       "conditionImmunities": 386,
       "eldritchInvocations": 28,

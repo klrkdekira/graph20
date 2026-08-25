@@ -1,5 +1,5 @@
 {
-  "reviewedSignalSetDigest": "sha256-1e0d8d4be2e641d0dfe767640c7110d53e67a12091fbb5dfc78f70fc3e2d3e25",
+  "reviewedSignalSetDigest": "sha256-5846bf2b6af9922e77a58ba76da7461b6a130efdf0c08e2bc2c4aabdfdddcdd5",
   "statusDefinitions": {
     "pending": "No reviewer has established how this occurrence should be represented.",
     "accepted": "The reviewer confirmed that the source-faithful occurrence is intentional and that no unsupported executable meaning is claimed.",

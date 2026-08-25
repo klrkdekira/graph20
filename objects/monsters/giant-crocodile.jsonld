@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.33",
     "heading": "Giant Crocodile",
-    "lineStart": 27379,
-    "lineEnd": 27408
+    "lineStart": 27375,
+    "lineEnd": 27404
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/giant-crocodile/"
@@ -82,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.33",
         "heading": "Traits",
-        "lineStart": 27398,
-        "lineEnd": 27400
+        "lineStart": 27394,
+        "lineEnd": 27396
       }
     },
     {
@@ -93,8 +93,8 @@
         "chapter": "Animals",
         "section": "13.33",
         "heading": "Actions",
-        "lineStart": 27402,
-        "lineEnd": 27408
+        "lineStart": 27398,
+        "lineEnd": 27404
       }
     }
   ],

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.110",
     "heading": "Gold Dragon Wyrmling",
-    "lineStart": 21236,
-    "lineEnd": 21268
+    "lineStart": 21232,
+    "lineEnd": 21264
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/gold-dragon-wyrmling/"
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.110",
         "heading": "Traits",
-        "lineStart": 21256,
-        "lineEnd": 21258
+        "lineStart": 21252,
+        "lineEnd": 21254
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.110",
         "heading": "Actions",
-        "lineStart": 21260,
-        "lineEnd": 21268
+        "lineStart": 21256,
+        "lineEnd": 21264
       }
     }
   ],

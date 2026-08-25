@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.3",
     "heading": "Air Elemental",
-    "lineStart": 17987,
-    "lineEnd": 18020
+    "lineStart": 17983,
+    "lineEnd": 18016
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/air-elemental/"
@@ -83,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.3",
         "heading": "Traits",
-        "lineStart": 18009,
-        "lineEnd": 18011
+        "lineStart": 18005,
+        "lineEnd": 18007
       }
     },
     {
@@ -94,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.3",
         "heading": "Actions",
-        "lineStart": 18013,
-        "lineEnd": 18020
+        "lineStart": 18009,
+        "lineEnd": 18016
       }
     }
   ],

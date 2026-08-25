@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.119",
     "heading": "Adult Green Dragon",
-    "lineStart": 21545,
-    "lineEnd": 21592
+    "lineStart": 21541,
+    "lineEnd": 21588
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/adult-green-dragon/"
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.119",
         "heading": "Traits",
-        "lineStart": 21565,
-        "lineEnd": 21569
+        "lineStart": 21561,
+        "lineEnd": 21565
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.119",
         "heading": "Actions",
-        "lineStart": 21571,
-        "lineEnd": 21582
+        "lineStart": 21567,
+        "lineEnd": 21578
       }
     },
     {
@@ -108,8 +108,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.119",
         "heading": "Legendary Actions",
-        "lineStart": 21584,
-        "lineEnd": 21592
+        "lineStart": 21580,
+        "lineEnd": 21588
       }
     }
   ],

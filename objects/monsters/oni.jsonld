@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.179",
     "heading": "Oni",
-    "lineStart": 23472,
-    "lineEnd": 23515
+    "lineStart": 23468,
+    "lineEnd": 23511
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/oni/"
@@ -45,34 +45,34 @@
   "proficiencyBonus": 3,
   "abilities": {
     "str": {
-      "score": 15,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 19,
+      "modifier": 4,
+      "savingThrow": 4
     },
     "dex": {
-      "score": 6,
-      "modifier": -2,
-      "savingThrow": -2
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 3
     },
     "con": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 6
+    },
+    "int": {
       "score": 14,
       "modifier": 2,
       "savingThrow": 2
     },
-    "int": {
-      "score": 2,
-      "modifier": -4,
-      "savingThrow": -4
-    },
     "wis": {
-      "score": 6,
-      "modifier": -2,
-      "savingThrow": -2
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 4
     },
     "cha": {
-      "score": 1,
-      "modifier": -5,
-      "savingThrow": -5
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 5
     }
   },
   "statSections": [
@@ -83,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.179",
         "heading": "Traits",
-        "lineStart": 23494,
-        "lineEnd": 23496
+        "lineStart": 23490,
+        "lineEnd": 23492
       }
     },
     {
@@ -94,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.179",
         "heading": "Actions",
-        "lineStart": 23498,
-        "lineEnd": 23511
+        "lineStart": 23494,
+        "lineEnd": 23507
       }
     },
     {
@@ -105,8 +105,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.179",
         "heading": "Bonus Actions",
-        "lineStart": 23513,
-        "lineEnd": 23515
+        "lineStart": 23509,
+        "lineEnd": 23511
       }
     }
   ],

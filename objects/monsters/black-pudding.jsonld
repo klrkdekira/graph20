@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.30",
     "heading": "Black Pudding",
-    "lineStart": 18717,
-    "lineEnd": 18756
+    "lineStart": 18713,
+    "lineEnd": 18752
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/black-pudding/"
@@ -44,34 +44,34 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 27,
-      "modifier": 8,
-      "savingThrow": 8
-    },
-    "dex": {
-      "score": 14,
-      "modifier": 2,
-      "savingThrow": 9
-    },
-    "con": {
-      "score": 25,
-      "modifier": 7,
-      "savingThrow": 7
-    },
-    "int": {
       "score": 16,
       "modifier": 3,
       "savingThrow": 3
     },
+    "dex": {
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
+    },
+    "con": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "int": {
+      "score": 1,
+      "modifier": -5,
+      "savingThrow": -5
+    },
     "wis": {
-      "score": 15,
-      "modifier": 2,
-      "savingThrow": 9
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
     },
     "cha": {
-      "score": 22,
-      "modifier": 6,
-      "savingThrow": 6
+      "score": 1,
+      "modifier": -5,
+      "savingThrow": -5
     }
   },
   "statSections": [
@@ -82,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.30",
         "heading": "Traits",
-        "lineStart": 18738,
-        "lineEnd": 18746
+        "lineStart": 18734,
+        "lineEnd": 18742
       }
     },
     {
@@ -93,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.30",
         "heading": "Actions",
-        "lineStart": 18748,
-        "lineEnd": 18750
+        "lineStart": 18744,
+        "lineEnd": 18746
       }
     },
     {
@@ -104,8 +104,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.30",
         "heading": "Reactions",
-        "lineStart": 18752,
-        "lineEnd": 18756
+        "lineStart": 18748,
+        "lineEnd": 18752
       }
     }
   ],

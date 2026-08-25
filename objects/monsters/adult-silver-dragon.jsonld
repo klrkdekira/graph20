@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.217",
     "heading": "Adult Silver Dragon",
-    "lineStart": 24676,
-    "lineEnd": 24724
+    "lineStart": 24672,
+    "lineEnd": 24720
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/adult-silver-dragon/"
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.217",
         "heading": "Traits",
-        "lineStart": 24696,
-        "lineEnd": 24698
+        "lineStart": 24692,
+        "lineEnd": 24694
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.217",
         "heading": "Actions",
-        "lineStart": 24700,
-        "lineEnd": 24714
+        "lineStart": 24696,
+        "lineEnd": 24710
       }
     },
     {
@@ -108,8 +108,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.217",
         "heading": "Legendary Actions",
-        "lineStart": 24716,
-        "lineEnd": 24724
+        "lineStart": 24712,
+        "lineEnd": 24720
       }
     }
   ],

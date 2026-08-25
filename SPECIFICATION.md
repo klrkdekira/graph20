@@ -82,7 +82,7 @@ The occurrence-level ledger records stable keys, structural paths, source line/c
 
 `make check` rebuilds every artifact and runs distinct gates. `pyproject.toml` is the single project-version source; structural validation cross-checks it against the manifest, bundle, metrics, data package, citation metadata, README, specification, and explorer.
 
-- `coverage`: interval coverage only; currently all 18,016 non-blank content lines from line 29 onward are inside at least one locator. It does not claim ownership or fidelity.
+- `coverage`: interval coverage only; currently all 18,014 non-blank content lines from line 29 onward are inside at least one locator. It does not claim ownership or fidelity.
 - `anomalies`: every detector hit must have a reviewed registry disposition.
 - `fidelity`: headings/table starts, nested containment, raw tables, observed spell/equipment/feat/species/background/monster/magic-item values, attack dispositions, and contributing-source rights metadata.
 - `graph`: expands every record, manifest, and bundle; rejects lost compact properties/literals, bare IRI-coerced strings, missing entity types, undocumented terms, inadequate link density, absent incoming collection edges, and missing reverse aliases.

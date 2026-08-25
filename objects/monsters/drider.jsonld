@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.80",
     "heading": "Drider",
-    "lineStart": 20296,
-    "lineEnd": 20335
+    "lineStart": 20292,
+    "lineEnd": 20331
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/drider/"
@@ -82,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.80",
         "heading": "Traits",
-        "lineStart": 20317,
-        "lineEnd": 20323
+        "lineStart": 20313,
+        "lineEnd": 20319
       }
     },
     {
@@ -93,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.80",
         "heading": "Actions",
-        "lineStart": 20325,
-        "lineEnd": 20331
+        "lineStart": 20321,
+        "lineEnd": 20327
       }
     },
     {
@@ -104,8 +104,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.80",
         "heading": "Bonus Actions",
-        "lineStart": 20333,
-        "lineEnd": 20335
+        "lineStart": 20329,
+        "lineEnd": 20331
       }
     }
   ],

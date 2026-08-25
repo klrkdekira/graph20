@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.257",
     "heading": "Weretiger",
-    "lineStart": 26047,
-    "lineEnd": 26083
+    "lineStart": 26043,
+    "lineEnd": 26079
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/weretiger/"
@@ -48,19 +48,19 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 16,
+      "score": 17,
       "modifier": 3,
       "savingThrow": 3
     },
     "dex": {
-      "score": 14,
+      "score": 15,
       "modifier": 2,
       "savingThrow": 2
     },
     "con": {
-      "score": 14,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "int": {
       "score": 10,
@@ -68,12 +68,12 @@
       "savingThrow": 0
     },
     "wis": {
-      "score": 11,
-      "modifier": 0,
-      "savingThrow": 0
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
     },
     "cha": {
-      "score": 10,
+      "score": 11,
       "modifier": 0,
       "savingThrow": 0
     }
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.257",
         "heading": "Actions",
-        "lineStart": 26069,
-        "lineEnd": 26077
+        "lineStart": 26065,
+        "lineEnd": 26073
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.257",
         "heading": "Bonus Actions",
-        "lineStart": 26079,
-        "lineEnd": 26083
+        "lineStart": 26075,
+        "lineEnd": 26079
       }
     }
   ],

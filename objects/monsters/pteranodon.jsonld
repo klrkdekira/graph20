@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.73",
     "heading": "Pteranodon",
-    "lineStart": 28465,
-    "lineEnd": 28490
+    "lineStart": 28461,
+    "lineEnd": 28486
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/pteranodon/"
@@ -84,8 +84,8 @@
         "chapter": "Animals",
         "section": "13.73",
         "heading": "Traits",
-        "lineStart": 28484,
-        "lineEnd": 28486
+        "lineStart": 28480,
+        "lineEnd": 28482
       }
     },
     {
@@ -95,8 +95,8 @@
         "chapter": "Animals",
         "section": "13.73",
         "heading": "Actions",
-        "lineStart": 28488,
-        "lineEnd": 28490
+        "lineStart": 28484,
+        "lineEnd": 28486
       }
     }
   ],

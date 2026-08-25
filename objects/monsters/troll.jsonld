@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.242",
     "heading": "Troll",
-    "lineStart": 25528,
-    "lineEnd": 25563
+    "lineStart": 25524,
+    "lineEnd": 25559
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/troll/"
@@ -44,34 +44,34 @@
   "proficiencyBonus": 3,
   "abilities": {
     "str": {
-      "score": 23,
-      "modifier": 6,
-      "savingThrow": 6
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
     },
     "dex": {
-      "score": 8,
-      "modifier": -1,
-      "savingThrow": -1
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
     },
     "con": {
-      "score": 21,
+      "score": 20,
       "modifier": 5,
       "savingThrow": 5
     },
     "int": {
-      "score": 12,
-      "modifier": 1,
-      "savingThrow": 1
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
     },
     "wis": {
-      "score": 16,
-      "modifier": 3,
-      "savingThrow": 3
+      "score": 9,
+      "modifier": -1,
+      "savingThrow": -1
     },
     "cha": {
-      "score": 12,
-      "modifier": 1,
-      "savingThrow": 1
+      "score": 7,
+      "modifier": -2,
+      "savingThrow": -2
     }
   },
   "statSections": [
@@ -82,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.242",
         "heading": "Traits",
-        "lineStart": 25549,
-        "lineEnd": 25553
+        "lineStart": 25545,
+        "lineEnd": 25549
       }
     },
     {
@@ -93,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.242",
         "heading": "Actions",
-        "lineStart": 25555,
-        "lineEnd": 25559
+        "lineStart": 25551,
+        "lineEnd": 25555
       }
     },
     {
@@ -104,8 +104,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.242",
         "heading": "Bonus Actions",
-        "lineStart": 25561,
-        "lineEnd": 25563
+        "lineStart": 25557,
+        "lineEnd": 25559
       }
     }
   ],

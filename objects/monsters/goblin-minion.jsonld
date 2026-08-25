@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.106",
     "heading": "Goblin Minion",
-    "lineStart": 21138,
-    "lineEnd": 21164
+    "lineStart": 21134,
+    "lineEnd": 21160
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/goblin-minion/"
@@ -47,9 +47,9 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 10,
-      "modifier": 0,
-      "savingThrow": 0
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
     },
     "dex": {
       "score": 15,
@@ -72,9 +72,9 @@
       "savingThrow": -1
     },
     "cha": {
-      "score": 10,
-      "modifier": 0,
-      "savingThrow": 0
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
     }
   },
   "statSections": [
@@ -85,8 +85,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.106",
         "heading": "Actions",
-        "lineStart": 21158,
-        "lineEnd": 21160
+        "lineStart": 21154,
+        "lineEnd": 21156
       }
     },
     {
@@ -96,8 +96,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.106",
         "heading": "Bonus Actions",
-        "lineStart": 21162,
-        "lineEnd": 21164
+        "lineStart": 21158,
+        "lineEnd": 21160
       }
     }
   ],

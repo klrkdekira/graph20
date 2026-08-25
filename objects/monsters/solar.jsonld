@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.223",
     "heading": "Solar",
-    "lineStart": 24855,
-    "lineEnd": 24911
+    "lineStart": 24851,
+    "lineEnd": 24907
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/solar/"
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.223",
         "heading": "Traits",
-        "lineStart": 24877,
-        "lineEnd": 24885
+        "lineStart": 24873,
+        "lineEnd": 24881
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.223",
         "heading": "Actions",
-        "lineStart": 24887,
-        "lineEnd": 24899
+        "lineStart": 24883,
+        "lineEnd": 24895
       }
     },
     {
@@ -108,8 +108,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.223",
         "heading": "Bonus Actions",
-        "lineStart": 24901,
-        "lineEnd": 24903
+        "lineStart": 24897,
+        "lineEnd": 24899
       }
     },
     {
@@ -119,8 +119,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.223",
         "heading": "Legendary Actions",
-        "lineStart": 24905,
-        "lineEnd": 24911
+        "lineStart": 24901,
+        "lineEnd": 24907
       }
     }
   ],

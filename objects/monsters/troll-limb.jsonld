@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.243",
     "heading": "Troll Limb",
-    "lineStart": 25565,
-    "lineEnd": 25591
+    "lineStart": 25561,
+    "lineEnd": 25587
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/troll-limb/"
@@ -42,34 +42,34 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 23,
-      "modifier": 6,
-      "savingThrow": 6
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
     },
     "dex": {
-      "score": 8,
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "con": {
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
+    },
+    "int": {
+      "score": 1,
+      "modifier": -5,
+      "savingThrow": -5
+    },
+    "wis": {
+      "score": 9,
       "modifier": -1,
       "savingThrow": -1
     },
-    "con": {
-      "score": 21,
-      "modifier": 5,
-      "savingThrow": 5
-    },
-    "int": {
-      "score": 12,
-      "modifier": 1,
-      "savingThrow": 1
-    },
-    "wis": {
-      "score": 16,
-      "modifier": 3,
-      "savingThrow": 3
-    },
     "cha": {
-      "score": 12,
-      "modifier": 1,
-      "savingThrow": 1
+      "score": 1,
+      "modifier": -5,
+      "savingThrow": -5
     }
   },
   "statSections": [
@@ -80,8 +80,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.243",
         "heading": "Traits",
-        "lineStart": 25583,
-        "lineEnd": 25587
+        "lineStart": 25579,
+        "lineEnd": 25583
       }
     },
     {
@@ -91,8 +91,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.243",
         "heading": "Actions",
-        "lineStart": 25589,
-        "lineEnd": 25591
+        "lineStart": 25585,
+        "lineEnd": 25587
       }
     }
   ],

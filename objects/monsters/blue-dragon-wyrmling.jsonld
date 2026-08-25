@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.33",
     "heading": "Blue Dragon Wyrmling",
-    "lineStart": 18789,
-    "lineEnd": 18815
+    "lineStart": 18785,
+    "lineEnd": 18811
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/blue-dragon-wyrmling/"
@@ -48,34 +48,34 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 25,
-      "modifier": 7,
-      "savingThrow": 7
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "dex": {
       "score": 10,
       "modifier": 0,
-      "savingThrow": 5
+      "savingThrow": 2
     },
     "con": {
-      "score": 23,
-      "modifier": 6,
-      "savingThrow": 6
-    },
-    "int": {
-      "score": 16,
-      "modifier": 3,
-      "savingThrow": 3
-    },
-    "wis": {
       "score": 15,
       "modifier": 2,
-      "savingThrow": 7
+      "savingThrow": 2
+    },
+    "int": {
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
+    },
+    "wis": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 2
     },
     "cha": {
-      "score": 20,
-      "modifier": 5,
-      "savingThrow": 5
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
     }
   },
   "statSections": [
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.33",
         "heading": "Actions",
-        "lineStart": 18809,
-        "lineEnd": 18815
+        "lineStart": 18805,
+        "lineEnd": 18811
       }
     }
   ],

@@ -545,7 +545,7 @@
       "id": "objects/rules/1-78-melee-attacks",
       "type": "Rule",
       "name": "Melee Attacks",
-      "excerpt": "A melee attack allows you to attack a target within your reach. A melee attack typically uses a hand-held weapon or an Unarmed Strike. Many monsters make melee "
+      "excerpt": "A melee attack allows you to attack a target within your reach. A melee attack typically uses a handheld weapon or an Unarmed Strike. Many monsters make melee a"
     },
     {
       "id": "objects/rules/1-79-reach",
@@ -2681,7 +2681,7 @@
       "id": "objects/rules/6-66-arcane-focus-varies",
       "type": "Rule",
       "name": "Arcane Focus (Varies)",
-      "excerpt": "An Arcane Focus takes one of the forms in the Arcane Focuses table and is be jeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use s"
+      "excerpt": "An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use su"
     },
     {
       "id": "objects/rules/6-67-backpack-2-gp",
@@ -2897,7 +2897,7 @@
       "id": "objects/rules/6-99-holy-symbol-varies",
       "type": "Rule",
       "name": "Holy Symbol (Varies)",
-      "excerpt": "A Holy Symbol takes one of the forms in the Holy Symbol table and is be jeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as"
+      "excerpt": "A Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as "
     },
     {
       "id": "objects/rules/7-1-spells",
@@ -4091,7 +4091,7 @@
       "id": "objects/rules/9-57-wyvern-poison-1-200-gp",
       "type": "Rule",
       "name": "Wyvern Poison (1,200 GP)",
-      "excerpt": "Injury Poison\n\nA creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poisson damage on a failed save or half as much da"
+      "excerpt": "Injury Poison\n\nA creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poison damage on a failed save or half as much dam"
     },
     {
       "id": "objects/rules/9-58-traps",
@@ -8171,7 +8171,7 @@
       "id": "objects/spells/detect-thoughts",
       "type": "Spell",
       "name": "Detect Thoughts",
-      "excerpt": "Level 2 Divination (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\nRange: Self\nComponents: V, S, M (I Copper Piece)\nDuration: Concentration, up to 1 minute\n\nYou "
+      "excerpt": "Level 2 Divination (Bard, Sorcerer, Wizard)\n\nCasting Time: Action\nRange: Self\nComponents: V, S, M (1 Copper Piece)\nDuration: Concentration, up to 1 minute\n\nYou "
     },
     {
       "id": "objects/spells/dimension-door",
@@ -12887,7 +12887,7 @@
       "id": "objects/monsters/scout",
       "type": "Monster",
       "name": "Scout",
-      "excerpt": "Multiattack. The scout makes two attacks, using Short-word and Longbow in any combination.\n\nShortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Pier"
+      "excerpt": "Multiattack. The scout makes two attacks, using Shortsword and Longbow in any combination.\n\nShortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Pier"
     },
     {
       "id": "objects/monsters/sea-hag",
@@ -18314,7 +18314,7 @@
       },
       {
         "document": 1797,
-        "excerpt": "er. Spellcasting. The ring has 5 charges and re-gains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spe"
+        "excerpt": "ter. Spellcasting. The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spe"
       },
       {
         "document": 1888,
@@ -21652,7 +21652,7 @@
       },
       {
         "document": 2202,
-        "excerpt": "orm Only). Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Medium or smaller creature and the were-boar moved 20+ feet str"
+        "excerpt": "orm Only). Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Medium or smaller creature and the wereboar moved 20+ feet stra"
       },
       {
         "document": 2204,
@@ -22184,7 +22184,7 @@
       },
       {
         "document": 1391,
-        "excerpt": "for the duration or until the two of you are more than 300 feet apart from each other. No one but you can see the hound, and it is in-tangible and invulnerable. W"
+        "excerpt": "for the duration or until the two of you are more than 300 feet apart from each other. No one but you can see the hound, and it is intangible and invulnerable. Wh"
       },
       {
         "document": 1415,
@@ -22240,7 +22240,7 @@
       },
       {
         "document": 1723,
-        "excerpt": "ts, the weapon unleashes a thunder-clap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC 17 Constitu"
+        "excerpt": "its, the weapon unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC 17 Constitu"
       },
       {
         "document": 1852,
@@ -25012,7 +25012,7 @@
     "7d6": [
       {
         "document": 681,
-        "excerpt": "on makes a DC 14 Constitution saving throw, taking 24 (7d6) Poisson damage on a failed save or half as much damage on a successful one."
+        "excerpt": "on makes a DC 14 Constitution saving throw, taking 24 (7d6) Poison damage on a failed save or half as much damage on a successful one."
       },
       {
         "document": 690,
@@ -29181,6 +29181,10 @@
       {
         "document": 13,
         "excerpt": "ficiency. For example, if a rule refers to a Strength (Acrobatics or Athletics) check, you can add your Proficiency Bonus to the check if you have proficiency in the Acro"
+      },
+      {
+        "document": 335,
+        "excerpt": "res the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action."
       },
       {
         "document": 418,
@@ -36180,7 +36184,7 @@
       },
       {
         "document": 975,
-        "excerpt": "Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a can-trip at a creature and you miss w"
+        "excerpt": "Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a cantrip at a creature and you miss wi"
       },
       {
         "document": 1289,
@@ -37324,7 +37328,7 @@
       },
       {
         "document": 2102,
-        "excerpt": "is holding are released. The bag can create a new bag after 7 days."
+        "excerpt": "is holding are released. The hag can create a new bag after 7 days."
       },
       {
         "document": 2110,
@@ -37826,7 +37830,7 @@
       },
       {
         "document": 1757,
-        "excerpt": "t the deck, re-roll on the table if that card comes up again.) Each card's effect is described below. Balance. You can increase one of your ability scores by 2, to"
+        "excerpt": "ft the deck, reroll on the table if that card comes up again.) Each card's effect is described below. Balance. You can increase one of your ability scores by 2, to"
       },
       {
         "document": 1760,
@@ -38440,7 +38444,7 @@
       },
       {
         "document": 1454,
-        "excerpt": ". The target is trapped in a demi-plane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a cage, a tower, or the li"
+        "excerpt": "n. The target is trapped in a demiplane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a cage, a tower, or the li"
       },
       {
         "document": 1460,
@@ -41152,7 +41156,7 @@
       },
       {
         "document": 90,
-        "excerpt": "A melee attack allows you to attack a target within your reach. A melee attack typically uses a hand-held weapon or an Unarmed"
+        "excerpt": "A melee attack allows you to attack a target within your reach. A melee attack typically uses a handheld weapon or an Unarmed"
       },
       {
         "document": 132,
@@ -41676,7 +41680,7 @@
       },
       {
         "document": 968,
-        "excerpt": "your Meta-magic feature. The options are presented in alphabetical order."
+        "excerpt": "o your Metamagic feature. The options are presented in alphabetical order."
       },
       {
         "document": 969,
@@ -44232,7 +44236,7 @@
       },
       {
         "document": 1983,
-        "excerpt": "nimals 2/Day Each: Entangle, Thunderwave 1/Day Each: Animal Messenger, Long-strider, Moonbeam"
+        "excerpt": "nimals 2/Day Each: Entangle, Thunderwave 1/Day Each: Animal Messenger, Longstrider, Moonbeam"
       },
       {
         "document": 1984,
@@ -44668,7 +44672,7 @@
       },
       {
         "document": 1983,
-        "excerpt": "y (spell save DC 13): At Will: Druidcraft, Speak with Animals 2/Day Each: Entangle, Thunderwave 1/Day Each: Animal Messenger, Long-strider, Moonbeam"
+        "excerpt": "y (spell save DC 13): At Will: Druidcraft, Speak with Animals 2/Day Each: Entangle, Thunderwave 1/Day Each: Animal Messenger, Longstrider, Moonbeam"
       }
     ],
     "animals'": [
@@ -44816,7 +44820,7 @@
       },
       {
         "document": 1757,
-        "excerpt": "disappear and become entombed in a state of suspended animation in an extradi-dimensional sphere. Everything you're wearing and carrying disappears with you except for"
+        "excerpt": "disappear and become entombed in a state of suspended animation in an extradimensional sphere. Everything you're wearing and carrying disappears with you except for Art"
       }
     ],
     "ankheg": [
@@ -45576,7 +45580,7 @@
       },
       {
         "document": 1339,
-        "excerpt": "must ask your questions before the spell ends. The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “ir-relevant,” or “unclear” (if the"
+        "excerpt": "must ask your questions before the spell ends. The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “irrelevant,” or “unclear” (if the e"
       },
       {
         "document": 1566,
@@ -46080,7 +46084,7 @@
       },
       {
         "document": 646,
-        "excerpt": "that dwell in such areas, including otyu-ghs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into contact with contam"
+        "excerpt": "that dwell in such areas, including otyughs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into contact with contam"
       },
       {
         "document": 647,
@@ -46512,7 +46516,7 @@
       },
       {
         "document": 1454,
-        "excerpt": "get has the Restrained condition and can't be moved by any means. Hedged Prison. The target is trapped in a demi-plane that is warded against teleportation and pl"
+        "excerpt": "get has the Restrained condition and can't be moved by any means. Hedged Prison. The target is trapped in a demiplane that is warded against teleportation and pla"
       },
       {
         "document": 1468,
@@ -47172,7 +47176,7 @@
       },
       {
         "document": 2082,
-        "excerpt": "attacks, using El-dritch Burst or Paralyzing Touch in any combination. Eldritch Burst. Melee or Ranged Attack Roll: +12, reach 5 ft. or range 120 ft. Hit: 31 (4d"
+        "excerpt": "e attacks, using Eldritch Burst or Paralyzing Touch in any combination. Eldritch Burst. Melee or Ranged Attack Roll: +12, reach 5 ft. or range 120 ft. Hit: 31 (4d"
       },
       {
         "document": 2089,
@@ -47188,7 +47192,7 @@
       },
       {
         "document": 2102,
-        "excerpt": "t if reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding are released. The bag can create a new bag after 7 days."
+        "excerpt": "t if reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding are released. The hag can create a new bag after 7 days."
       },
       {
         "document": 2109,
@@ -47228,7 +47232,7 @@
       },
       {
         "document": 2147,
-        "excerpt": "out makes two attacks, using Short-word and Longbow in any combination. Shortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage. Longbow."
+        "excerpt": "out makes two attacks, using Shortsword and Longbow in any combination. Shortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage. Longbow."
       },
       {
         "document": 2148,
@@ -47558,7 +47562,7 @@
       },
       {
         "document": 1391,
-        "excerpt": "uration or until the two of you are more than 300 feet apart from each other. No one but you can see the hound, and it is in-tangible and invulnerable. When a Small"
+        "excerpt": "uration or until the two of you are more than 300 feet apart from each other. No one but you can see the hound, and it is intangible and invulnerable. When a Small"
       },
       {
         "document": 1412,
@@ -49161,12 +49165,6 @@
         "excerpt": "Arctic"
       }
     ],
-    "ard": [
-      {
-        "document": 482,
-        "excerpt": "ds to be held, worn, or borne on fabric (such as a tab-ard or banner) or a Shield."
-      }
-    ],
     "area": [
       {
         "document": 53,
@@ -49206,7 +49204,7 @@
       },
       {
         "document": 499,
-        "excerpt": "of Effect. Some spells, such as Thunder-wave, cover an area called an area of effect, which is defined in “Rules Glossary.” The area determines what the spell targe"
+        "excerpt": "of Effect. Some spells, such as Thunderwave, cover an area called an area of effect, which is defined in “Rules Glossary.” The area determines what the spell targe"
       },
       {
         "document": 521,
@@ -49606,7 +49604,7 @@
       },
       {
         "document": 499,
-        "excerpt": "be Hostile or specifically a creature other than you. Areas of Effect. Some spells, such as Thunder-wave, cover an area called an area of effect, which is defined i"
+        "excerpt": "be Hostile or specifically a creature other than you. Areas of Effect. Some spells, such as Thunderwave, cover an area called an area of effect, which is defined in"
       },
       {
         "document": 642,
@@ -49614,7 +49612,7 @@
       },
       {
         "document": 646,
-        "excerpt": "sometimes transmitted by creatures that dwell in such areas, including otyu-ghs and rats. Any Humanoid that is wounded by a creature that carries the contagion or t"
+        "excerpt": "sometimes transmitted by creatures that dwell in such areas, including otyughs and rats. Any Humanoid that is wounded by a creature that carries the contagion or th"
       },
       {
         "document": 719,
@@ -50700,7 +50698,7 @@
       },
       {
         "document": 1699,
-        "excerpt": "n 2 pounds. The shortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The mid-size compartment holds up to 18 Javelins or similar objects. The lon"
+        "excerpt": "n 2 pounds. The shortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The midsize compartment holds up to 18 Javelins or similar objects. The long"
       },
       {
         "document": 1704,
@@ -51680,7 +51678,7 @@
       },
       {
         "document": 90,
-        "excerpt": "A melee attack allows you to attack a target within your reach. A melee attack typically uses a hand-held weapon or an"
+        "excerpt": "A melee attack allows you to attack a target within your reach. A melee attack typically uses a handheld weapon or an U"
       },
       {
         "document": 91,
@@ -52048,7 +52046,7 @@
       },
       {
         "document": 975,
-        "excerpt": "ou cast a can-trip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half the cantrip's d"
+        "excerpt": "you cast a cantrip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half the cantrip's d"
       },
       {
         "document": 976,
@@ -54840,7 +54838,7 @@
       },
       {
         "document": 2082,
-        "excerpt": "Multiattack. The lich makes three attacks, using El-dritch Burst or Paralyzing Touch in any combination. Eldritch Burst. Melee or Ranged Attack R"
+        "excerpt": "Multiattack. The lich makes three attacks, using Eldritch Burst or Paralyzing Touch in any combination. Eldritch Burst. Melee or Ranged Attack Ro"
       },
       {
         "document": 2083,
@@ -54968,7 +54966,7 @@
       },
       {
         "document": 2147,
-        "excerpt": "Multiattack. The scout makes two attacks, using Short-word and Longbow in any combination. Shortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5"
+        "excerpt": "Multiattack. The scout makes two attacks, using Shortsword and Longbow in any combination. Shortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5"
       },
       {
         "document": 2149,
@@ -56168,7 +56166,7 @@
       },
       {
         "document": 1723,
-        "excerpt": "f the attack hits, the weapon unleashes a thunder-clap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC"
+        "excerpt": "If the attack hits, the weapon unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC"
       },
       {
         "document": 1733,
@@ -56872,7 +56870,7 @@
       },
       {
         "document": 975,
-        "excerpt": "Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a can-trip at a creature and you miss with the attack roll or the"
+        "excerpt": "Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a cantrip at a creature and you miss with the attack roll or the"
       },
       {
         "document": 1022,
@@ -57487,12 +57485,6 @@
       {
         "document": 1999,
         "excerpt": "Multiattack. The giant makes two attacks, using Frost Axe or Great Bow in any combination. Frost Axe. Melee Attack Roll: +9, reach 10 ft. Hit: 19 (2d12 + 6) Slas"
-      }
-    ],
-    "axes": [
-      {
-        "document": 959,
-        "excerpt": "or Martial Melee weapons of your choice, such as Great-axes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those we"
       }
     ],
     "azer": [
@@ -58166,7 +58158,7 @@
     "banner": [
       {
         "document": 482,
-        "excerpt": "e held, worn, or borne on fabric (such as a tab-ard or banner) or a Shield."
+        "excerpt": "be held, worn, or borne on fabric (such as a tabard or banner) or a Shield."
       },
       {
         "document": 814,
@@ -60594,7 +60586,7 @@
       },
       {
         "document": 1757,
-        "excerpt": "e, this card has no effect. Donjon. You disappear and become entombed in a state of suspended animation in an extradi-dimensional sphere. Everything you're wearing a"
+        "excerpt": "e, this card has no effect. Donjon. You disappear and become entombed in a state of suspended animation in an extradimensional sphere. Everything you're wearing and"
       },
       {
         "document": 1801,
@@ -61252,7 +61244,7 @@
       },
       {
         "document": 1339,
-        "excerpt": "tity up to five questions. You must ask your questions before the spell ends. The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “ir-r"
+        "excerpt": "tity up to five questions. You must ask your questions before the spell ends. The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “irre"
       },
       {
         "document": 1348,
@@ -61468,7 +61460,7 @@
       },
       {
         "document": 2202,
-        "excerpt": "ere-boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition."
+        "excerpt": "wereboar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition."
       },
       {
         "document": 2211,
@@ -61977,6 +61969,16 @@
       {
         "document": 1757,
         "excerpt": "ct in a place of the GM's choice. One or more powerful beings guard the place. While your soul is trapped in this way, your body is inert, ceases aging, and requires"
+      }
+    ],
+    "bejeweled": [
+      {
+        "document": 446,
+        "excerpt": "es one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting"
+      },
+      {
+        "document": 482,
+        "excerpt": "takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus."
       }
     ],
     "beliefs": [
@@ -65064,7 +65066,7 @@
       },
       {
         "document": 814,
-        "excerpt": "A l-ounce block made from an unknown material"
+        "excerpt": "A 1-ounce block made from an unknown material"
       },
       {
         "document": 922,
@@ -66802,7 +66804,7 @@
       },
       {
         "document": 1699,
-        "excerpt": "ds. The shortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The mid-size compartment holds up to 18 Javelins or similar objects. The longest co"
+        "excerpt": "ds. The shortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The midsize compartment holds up to 18 Javelins or similar objects. The longest com"
       },
       {
         "document": 1875,
@@ -68682,7 +68684,7 @@
     "borne": [
       {
         "document": 482,
-        "excerpt": "cates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tab-ard or banner) or a Shield."
+        "excerpt": "cates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield."
       },
       {
         "document": 926,
@@ -69832,7 +69834,7 @@
       },
       {
         "document": 1797,
-        "excerpt": "w Aquan, you gain a Swim Speed of 60 feet, and you can breathe underwater. Spellcasting. The ring has 5 charges and re-gains 1d4 + 1 expended charges daily at dawn. W"
+        "excerpt": "w Aquan, you gain a Swim Speed of 60 feet, and you can breathe underwater. Spellcasting. The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. Wh"
       },
       {
         "document": 1890,
@@ -70660,7 +70662,7 @@
     "brunt": [
       {
         "document": 975,
-        "excerpt": "damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a can-trip at a creature and you miss with the attack roll or the target su"
+        "excerpt": "damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a cantrip at a creature and you miss with the attack roll or the target suc"
       }
     ],
     "brush": [
@@ -71364,7 +71366,7 @@
       },
       {
         "document": 2082,
-        "excerpt": "iattack. The lich makes three attacks, using El-dritch Burst or Paralyzing Touch in any combination. Eldritch Burst. Melee or Ranged Attack Roll: +12, reach 5 ft. o"
+        "excerpt": "tiattack. The lich makes three attacks, using Eldritch Burst or Paralyzing Touch in any combination. Eldritch Burst. Melee or Ranged Attack Roll: +12, reach 5 ft. o"
       },
       {
         "document": 2085,
@@ -71840,7 +71842,7 @@
       },
       {
         "document": 1391,
-        "excerpt": "are more than 300 feet apart from each other. No one but you can see the hound, and it is in-tangible and invulnerable. When a Small or larger creature comes wit"
+        "excerpt": "are more than 300 feet apart from each other. No one but you can see the hound, and it is intangible and invulnerable. When a Small or larger creature comes with"
       },
       {
         "document": 1395,
@@ -72564,7 +72566,7 @@
       },
       {
         "document": 499,
-        "excerpt": "fect. Some spells, such as Thunder-wave, cover an area called an area of effect, which is defined in “Rules Glossary.” The area determines what the spell targets. The"
+        "excerpt": "ffect. Some spells, such as Thunderwave, cover an area called an area of effect, which is defined in “Rules Glossary.” The area determines what the spell targets. The"
       },
       {
         "document": 534,
@@ -74584,7 +74586,7 @@
       },
       {
         "document": 975,
-        "excerpt": "Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a can-trip at a creature and you"
+        "excerpt": "Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a cantrip at a creature and you"
       },
       {
         "document": 983,
@@ -74848,7 +74850,7 @@
     "card's": [
       {
         "document": 1757,
-        "excerpt": "-roll on the table if that card comes up again.) Each card's effect is described below. Balance. You can increase one of your ability scores by 2, to a maximum of 2"
+        "excerpt": "eroll on the table if that card comes up again.) Each card's effect is described below. Balance. You can increase one of your ability scores by 2, to a maximum of 2"
       }
     ],
     "cards": [
@@ -75442,7 +75444,7 @@
       },
       {
         "document": 1757,
-        "excerpt": "radi-dimensional sphere. Everything you're wearing and carrying disappears with you except for Artifacts, which stay behind in the space you occupied when you disappear"
+        "excerpt": "extradimensional sphere. Everything you're wearing and carrying disappears with you except for Artifacts, which stay behind in the space you occupied when you disappear"
       },
       {
         "document": 1763,
@@ -75566,7 +75568,7 @@
     "carved": [
       {
         "document": 446,
-        "excerpt": "forms in the Arcane Focuses table and is be jeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus."
+        "excerpt": "forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus."
       },
       {
         "document": 475,
@@ -75896,7 +75898,7 @@
       },
       {
         "document": 975,
-        "excerpt": "creatures that avoid the brunt of the effect. When you cast a can-trip at a creature and you miss with the attack roll or the target succeeds on a saving throw agai"
+        "excerpt": "creatures that avoid the brunt of the effect. When you cast a cantrip at a creature and you miss with the attack roll or the target succeeds on a saving throw again"
       },
       {
         "document": 978,
@@ -77294,7 +77296,7 @@
       },
       {
         "document": 1361,
-        "excerpt": "Level 2 Divination (Bard, Sorcerer, Wizard) Casting Time: Action Range: Self Components: V, S, M (I Copper Piece) Duration: Concentration, up to 1 minute Y"
+        "excerpt": "Level 2 Divination (Bard, Sorcerer, Wizard) Casting Time: Action Range: Self Components: V, S, M (1 Copper Piece) Duration: Concentration, up to 1 minute Y"
       },
       {
         "document": 1362,
@@ -78234,7 +78236,7 @@
       },
       {
         "document": 1596,
-        "excerpt": "Divination Cantrip (Bard, Sorcerer, Warlock, Wizard) Casting Time: Action Range: Self Components: S, M (a weapon with which you have proficiency and that is worth I+"
+        "excerpt": "Divination Cantrip (Bard, Sorcerer, Warlock, Wizard) Casting Time: Action Range: Self Components: S, M (a weapon with which you have proficiency and that is worth 1+"
       },
       {
         "document": 1597,
@@ -79460,7 +79462,7 @@
       },
       {
         "document": 1539,
-        "excerpt": "angs perpendicular to the ground or the rope reaches a ceiling. At the rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extra-dimensional space that"
+        "excerpt": "angs perpendicular to the ground or the rope reaches a ceiling. At the rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extradimensional space that l"
       },
       {
         "document": 1610,
@@ -81092,7 +81094,7 @@
     "channel": [
       {
         "document": 446,
-        "excerpt": "he Arcane Focuses table and is be jeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus."
+        "excerpt": "the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus."
       },
       {
         "document": 475,
@@ -81100,7 +81102,7 @@
       },
       {
         "document": 482,
-        "excerpt": "the Holy Symbol table and is be jeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus. The table indicates wh"
+        "excerpt": "n the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus. The table indicates wh"
       },
       {
         "document": 836,
@@ -82702,7 +82704,7 @@
       },
       {
         "document": 1797,
-        "excerpt": "can breathe underwater. Spellcasting. The ring has 5 charges and re-gains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from i"
+        "excerpt": "can breathe underwater. Spellcasting. The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it"
       },
       {
         "document": 1798,
@@ -85034,7 +85036,7 @@
       },
       {
         "document": 959,
-        "excerpt": "f two kinds of Simple or Martial Melee weapons of your choice, such as Great-axes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and ch"
+        "excerpt": "f two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and cha"
       },
       {
         "document": 960,
@@ -85414,7 +85416,7 @@
       },
       {
         "document": 1738,
-        "excerpt": "to two floors, with a ladder, staircase, or ramp (your choice) connecting them. This ladder, staircase, or ramp ends at a trap-door leading to the roof. When created,"
+        "excerpt": "to two floors, with a ladder, staircase, or ramp (your choice) connecting them. This ladder, staircase, or ramp ends at a trapdoor leading to the roof. When created,"
       },
       {
         "document": 1747,
@@ -87349,10 +87351,6 @@
     ],
     "clap": [
       {
-        "document": 1723,
-        "excerpt": "et. If the attack hits, the weapon unleashes a thunder-clap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed"
-      },
-      {
         "document": 1863,
         "excerpt": "The weapon has the following additional properties. Clap of Thunder. As a Magic action, you can strike the weapon against a hard surface to create a loud clap of"
       }
@@ -88338,7 +88336,7 @@
       },
       {
         "document": 482,
-        "excerpt": "nd is be jeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus. The table indicates whether a Holy Symbol nee"
+        "excerpt": "and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus. The table indicates whether a Holy Symbol nee"
       },
       {
         "document": 806,
@@ -90880,7 +90878,7 @@
     "color": [
       {
         "document": 814,
-        "excerpt": "A l-inch cube, each side a different color"
+        "excerpt": "A 1-inch cube, each side a different color"
       },
       {
         "document": 854,
@@ -91564,7 +91562,7 @@
       },
       {
         "document": 2082,
-        "excerpt": "acks, using El-dritch Burst or Paralyzing Touch in any combination. Eldritch Burst. Melee or Ranged Attack Roll: +12, reach 5 ft. or range 120 ft. Hit: 31 (4d12 + 5) Forc"
+        "excerpt": "tacks, using Eldritch Burst or Paralyzing Touch in any combination. Eldritch Burst. Melee or Ranged Attack Roll: +12, reach 5 ft. or range 120 ft. Hit: 31 (4d12 + 5) Forc"
       },
       {
         "document": 2089,
@@ -91584,7 +91582,7 @@
       },
       {
         "document": 2147,
-        "excerpt": "makes two attacks, using Short-word and Longbow in any combination. Shortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage. Longbow. Ranged Atta"
+        "excerpt": "makes two attacks, using Shortsword and Longbow in any combination. Shortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage. Longbow. Ranged Atta"
       },
       {
         "document": 2162,
@@ -91824,7 +91822,7 @@
       },
       {
         "document": 1757,
-        "excerpt": "r has left the deck, re-roll on the table if that card comes up again.) Each card's effect is described below. Balance. You can increase one of your ability scores"
+        "excerpt": "er has left the deck, reroll on the table if that card comes up again.) Each card's effect is described below. Balance. You can increase one of your ability scores"
       },
       {
         "document": 1772,
@@ -93172,7 +93170,7 @@
       },
       {
         "document": 1699,
-        "excerpt": "while never weighing more than 2 pounds. The shortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The mid-size compartment holds up to 18 Javelins or"
+        "excerpt": "while never weighing more than 2 pounds. The shortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The midsize compartment holds up to 18 Javelins or"
       }
     ],
     "compartments": [
@@ -93894,7 +93892,7 @@
       },
       {
         "document": 1361,
-        "excerpt": "d, Sorcerer, Wizard) Casting Time: Action Range: Self Components: V, S, M (I Copper Piece) Duration: Concentration, up to 1 minute You activate one of the effects below"
+        "excerpt": "d, Sorcerer, Wizard) Casting Time: Action Range: Self Components: V, S, M (1 Copper Piece) Duration: Concentration, up to 1 minute You activate one of the effects below"
       },
       {
         "document": 1362,
@@ -94834,7 +94832,7 @@
       },
       {
         "document": 1596,
-        "excerpt": "er, Warlock, Wizard) Casting Time: Action Range: Self Components: S, M (a weapon with which you have proficiency and that is worth I+ CP) Duration: Instantaneous Guided"
+        "excerpt": "er, Warlock, Wizard) Casting Time: Action Range: Self Components: S, M (a weapon with which you have proficiency and that is worth 1+ CP) Duration: Instantaneous Guided"
       },
       {
         "document": 1597,
@@ -96734,7 +96732,7 @@
       },
       {
         "document": 1454,
-        "excerpt": "old the target in place. The target has the Restrained condition and can't be moved by any means. Hedged Prison. The target is trapped in a demi-plane that is warded ag"
+        "excerpt": "old the target in place. The target has the Restrained condition and can't be moved by any means. Hedged Prison. The target is trapped in a demiplane that is warded aga"
       },
       {
         "document": 1459,
@@ -98930,7 +98928,7 @@
     "connecting": [
       {
         "document": 1738,
-        "excerpt": "loors, with a ladder, staircase, or ramp (your choice) connecting them. This ladder, staircase, or ramp ends at a trap-door leading to the roof. When created, the tower h"
+        "excerpt": "loors, with a ladder, staircase, or ramp (your choice) connecting them. This ladder, staircase, or ramp ends at a trapdoor leading to the roof. When created, the tower ha"
       }
     ],
     "connection": [
@@ -99298,7 +99296,7 @@
       },
       {
         "document": 681,
-        "excerpt": "n A creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poisson damage on a failed save or half as much damage on a successful one"
+        "excerpt": "n A creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poison damage on a failed save or half as much damage on a successful one."
       },
       {
         "document": 691,
@@ -101658,7 +101656,7 @@
       },
       {
         "document": 1361,
-        "excerpt": "V, S, M (I Copper Piece)"
+        "excerpt": "V, S, M (1 Copper Piece)"
       },
       {
         "document": 1419,
@@ -101696,7 +101694,7 @@
       },
       {
         "document": 970,
-        "excerpt": "Wizard spell on a Spell Scroll, for example, and then copy it into your spellbook. Copying a Spell into the Book. When you find a level I+ Wizard spell, you can c"
+        "excerpt": "Wizard spell on a Spell Scroll, for example, and then copy it into your spellbook. Copying a Spell into the Book. When you find a level 1+ Wizard spell, you can c"
       },
       {
         "document": 1522,
@@ -101706,7 +101704,7 @@
     "copying": [
       {
         "document": 970,
-        "excerpt": "l, for example, and then copy it into your spellbook. Copying a Spell into the Book. When you find a level I+ Wizard spell, you can copy it into your spellbook if it'"
+        "excerpt": "l, for example, and then copy it into your spellbook. Copying a Spell into the Book. When you find a level 1+ Wizard spell, you can copy it into your spellbook if it'"
       },
       {
         "document": 1839,
@@ -104072,7 +104070,7 @@
       },
       {
         "document": 2102,
-        "excerpt": "any souls the bag is holding are released. The bag can create a new bag after 7 days."
+        "excerpt": "any souls the bag is holding are released. The hag can create a new bag after 7 days."
       },
       {
         "document": 2212,
@@ -104270,7 +104268,7 @@
       },
       {
         "document": 1738,
-        "excerpt": "or ramp ends at a trap-door leading to the roof. When created, the tower has a single door at ground level on the side facing you. The door opens only at your command"
+        "excerpt": ", or ramp ends at a trapdoor leading to the roof. When created, the tower has a single door at ground level on the side facing you. The door opens only at your command"
       },
       {
         "document": 1753,
@@ -105104,7 +105102,7 @@
       },
       {
         "document": 646,
-        "excerpt": "g otyu-ghs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into contact with contaminated filth or offal must succeed on a"
+        "excerpt": "ng otyughs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into contact with contaminated filth or offal must succeed on a"
       },
       {
         "document": 647,
@@ -105204,7 +105202,7 @@
       },
       {
         "document": 681,
-        "excerpt": "Injury Poison A creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poisson damage on a"
+        "excerpt": "Injury Poison A creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poison damage on a f"
       },
       {
         "document": 683,
@@ -105448,7 +105446,7 @@
       },
       {
         "document": 975,
-        "excerpt": "the brunt of the effect. When you cast a can-trip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the targ"
+        "excerpt": "the brunt of the effect. When you cast a cantrip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the targ"
       },
       {
         "document": 976,
@@ -105872,7 +105870,7 @@
       },
       {
         "document": 1391,
-        "excerpt": "s in-tangible and invulnerable. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when you cast this spell"
+        "excerpt": "is intangible and invulnerable. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when you cast this spell"
       },
       {
         "document": 1393,
@@ -106668,7 +106666,7 @@
       },
       {
         "document": 1723,
-        "excerpt": "der-clap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC 17 Constitution saving throw or have the Stunne"
+        "excerpt": "nderclap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC 17 Constitution saving throw or have the Stunne"
       },
       {
         "document": 1724,
@@ -107648,7 +107646,7 @@
       },
       {
         "document": 2202,
-        "excerpt": "Piercing damage. If the target is a Medium or smaller creature and the were-boar moved 20+ feet straight toward it immediately before the hit, the target takes an extr"
+        "excerpt": "Piercing damage. If the target is a Medium or smaller creature and the wereboar moved 20+ feet straight toward it immediately before the hit, the target takes an extra"
       },
       {
         "document": 2205,
@@ -108272,7 +108270,7 @@
       },
       {
         "document": 646,
-        "excerpt": "ewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including otyu-ghs and rats. Any Humanoid that is wounded by a creature that c"
+        "excerpt": "ewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including otyughs and rats. Any Humanoid that is wounded by a creature that ca"
       },
       {
         "document": 649,
@@ -108360,7 +108358,7 @@
       },
       {
         "document": 975,
-        "excerpt": "Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a can-trip at a creature and you miss with the attack"
+        "excerpt": "Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a cantrip at a creature and you miss with the attack r"
       },
       {
         "document": 978,
@@ -109486,7 +109484,7 @@
       },
       {
         "document": 814,
-        "excerpt": "A l-inch cube, each side a different color"
+        "excerpt": "A 1-inch cube, each side a different color"
       },
       {
         "document": 972,
@@ -111120,7 +111118,7 @@
       },
       {
         "document": 1797,
-        "excerpt": "ng has 5 charges and re-gains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of availab"
+        "excerpt": "ing has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of availab"
       },
       {
         "document": 1798,
@@ -111586,7 +111584,7 @@
       },
       {
         "document": 681,
-        "excerpt": "14 Constitution saving throw, taking 24 (7d6) Poisson damage on a failed save or half as much damage on a successful one."
+        "excerpt": "C 14 Constitution saving throw, taking 24 (7d6) Poison damage on a failed save or half as much damage on a successful one."
       },
       {
         "document": 683,
@@ -114266,7 +114264,7 @@
       },
       {
         "document": 975,
-        "excerpt": "Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a can-trip at a creatur"
+        "excerpt": "Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a cantrip at a creature"
       },
       {
         "document": 1048,
@@ -115838,7 +115836,7 @@
       },
       {
         "document": 1797,
-        "excerpt": "charges and re-gains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spell"
+        "excerpt": "charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spell"
       },
       {
         "document": 1798,
@@ -116352,7 +116350,7 @@
       },
       {
         "document": 1983,
-        "excerpt": "ve DC 13): At Will: Druidcraft, Speak with Animals 2/Day Each: Entangle, Thunderwave 1/Day Each: Animal Messenger, Long-strider, Moonbeam"
+        "excerpt": "ve DC 13): At Will: Druidcraft, Speak with Animals 2/Day Each: Entangle, Thunderwave 1/Day Each: Animal Messenger, Longstrider, Moonbeam"
       },
       {
         "document": 1984,
@@ -116826,7 +116824,7 @@
       },
       {
         "document": 2102,
-        "excerpt": "ing are released. The bag can create a new bag after 7 days."
+        "excerpt": "ing are released. The hag can create a new bag after 7 days."
       },
       {
         "document": 2162,
@@ -119335,12 +119333,6 @@
         "excerpt": "ciplined rule of life - and isn’t swayed either by the demands of those in need or by the temptations of evil - is probably Lawful Neutral. Neutral (N). Neutral is th"
       }
     ],
-    "demi": [
-      {
-        "document": 1454,
-        "excerpt": "any means. Hedged Prison. The target is trapped in a demi-plane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrint"
-      }
-    ],
     "demigod": [
       {
         "document": 1339,
@@ -119370,7 +119362,7 @@
       },
       {
         "document": 1454,
-        "excerpt": "is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a cage, a tower, or the like. Minimus Containment. The target becomes 1"
+        "excerpt": "any means. Hedged Prison. The target is trapped in a demiplane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a c"
       },
       {
         "document": 1485,
@@ -120842,7 +120834,7 @@
       },
       {
         "document": 2102,
-        "excerpt": "urns to dust if reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding are released. The bag can create a new bag after 7 days."
+        "excerpt": "urns to dust if reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding are released. The hag can create a new bag after 7 days."
       },
       {
         "document": 2140,
@@ -125609,20 +125601,12 @@
         "excerpt": "Boon of Dimensional Travel"
       },
       {
-        "document": 1539,
-        "excerpt": "an Invisible 3-foot-by-5-foot portal opens to an extra-dimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pull"
-      },
-      {
         "document": 1690,
         "excerpt": "Dimensional Shackles"
       },
       {
         "document": 1753,
         "excerpt": "ng 1 pot of pigment, you can paint any number of three-dimensional objects and terrain features (such as walls, doors, trees, flowers, weapons, webs, and pits), provided t"
-      },
-      {
-        "document": 1757,
-        "excerpt": "tombed in a state of suspended animation in an extradi-dimensional sphere. Everything you're wearing and carrying disappears with you except for Artifacts, which stay behi"
       }
     ],
     "dimensions": [
@@ -126502,7 +126486,7 @@
       },
       {
         "document": 1757,
-        "excerpt": "'t choose a foe, this card has no effect. Donjon. You disappear and become entombed in a state of suspended animation in an extradi-dimensional sphere. Everything you'r"
+        "excerpt": "'t choose a foe, this card has no effect. Donjon. You disappear and become entombed in a state of suspended animation in an extradimensional sphere. Everything you're w"
       },
       {
         "document": 1856,
@@ -129324,7 +129308,7 @@
     "divine": [
       {
         "document": 482,
-        "excerpt": "y Symbol table and is be jeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus. The table indicates whether a"
+        "excerpt": "ly Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus. The table indicates whether a"
       },
       {
         "document": 837,
@@ -129648,7 +129632,7 @@
       },
       {
         "document": 1339,
-        "excerpt": ",” “never,” “ir-relevant,” or “unclear” (if the entity doesn’t know the answer to the question). If a one-word answer would be misleading, the GM might instead offer"
+        "excerpt": "e,” “never,” “irrelevant,” or “unclear” (if the entity doesn’t know the answer to the question). If a one-word answer would be misleading, the GM might instead offer"
       },
       {
         "document": 1341,
@@ -130984,7 +130968,7 @@
       },
       {
         "document": 1757,
-        "excerpt": "s or you don't choose a foe, this card has no effect. Donjon. You disappear and become entombed in a state of suspended animation in an extradi-dimensional sphere. E"
+        "excerpt": "s or you don't choose a foe, this card has no effect. Donjon. You disappear and become entombed in a state of suspended animation in an extradimensional sphere. Ever"
       }
     ],
     "donned": [
@@ -131126,7 +131110,7 @@
       },
       {
         "document": 1738,
-        "excerpt": "g them. This ladder, staircase, or ramp ends at a trap-door leading to the roof. When created, the tower has a single door at ground level on the side facing you. T"
+        "excerpt": "ding to the roof. When created, the tower has a single door at ground level on the side facing you. The door opens only at your command, which you can issue as a Bo"
       },
       {
         "document": 1753,
@@ -132757,12 +132741,6 @@
         "excerpt": "ing clothes, lighting fires, serving food, and pouring drinks. Once you give the command, the servant performs the task to the best of its ability until it completes"
       }
     ],
-    "dritch": [
-      {
-        "document": 2082,
-        "excerpt": "Multiattack. The lich makes three attacks, using El-dritch Burst or Paralyzing Touch in any combination. Eldritch Burst. Melee or Ranged Attack Roll: +12, reach 5"
-      }
-    ],
     "drive": [
       {
         "document": 1491,
@@ -133780,7 +133758,7 @@
       },
       {
         "document": 1983,
-        "excerpt": "the spellcasting ability (spell save DC 13): At Will: Druidcraft, Speak with Animals 2/Day Each: Entangle, Thunderwave 1/Day Each: Animal Messenger, Long-strider, Moon"
+        "excerpt": "the spellcasting ability (spell save DC 13): At Will: Druidcraft, Speak with Animals 2/Day Each: Entangle, Thunderwave 1/Day Each: Animal Messenger, Longstrider, Moonb"
       },
       {
         "document": 1984,
@@ -134528,7 +134506,7 @@
       },
       {
         "document": 1361,
-        "excerpt": "ction Range: Self Components: V, S, M (I Copper Piece) Duration: Concentration, up to 1 minute You activate one of the effects below. Until the spell ends, you can act"
+        "excerpt": "ction Range: Self Components: V, S, M (1 Copper Piece) Duration: Concentration, up to 1 minute You activate one of the effects below. Until the spell ends, you can act"
       },
       {
         "document": 1362,
@@ -135468,7 +135446,7 @@
       },
       {
         "document": 1596,
-        "excerpt": "th which you have proficiency and that is worth I+ CP) Duration: Instantaneous Guided by a flash of magical insight, you make one attack with the weapon used in the sp"
+        "excerpt": "th which you have proficiency and that is worth 1+ CP) Duration: Instantaneous Guided by a flash of magical insight, you make one attack with the weapon used in the sp"
       },
       {
         "document": 1597,
@@ -135992,7 +135970,7 @@
       },
       {
         "document": 2102,
-        "excerpt": "HP 20, and Resistance to all damage. The bag turns to dust if reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding are released. The bag"
+        "excerpt": "HP 20, and Resistance to all damage. The bag turns to dust if reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding are released. The hag"
       }
     ],
     "dusty": [
@@ -136078,7 +136056,7 @@
     "dwell": [
       {
         "document": 646,
-        "excerpt": "e heaps and is sometimes transmitted by creatures that dwell in such areas, including otyu-ghs and rats. Any Humanoid that is wounded by a creature that carries the"
+        "excerpt": "e heaps and is sometimes transmitted by creatures that dwell in such areas, including otyughs and rats. Any Humanoid that is wounded by a creature that carries the c"
       }
     ],
     "dwelling": [
@@ -136666,7 +136644,7 @@
       },
       {
         "document": 499,
-        "excerpt": "e or specifically a creature other than you. Areas of Effect. Some spells, such as Thunder-wave, cover an area called an area of effect, which is defined in “Rules G"
+        "excerpt": "e or specifically a creature other than you. Areas of Effect. Some spells, such as Thunderwave, cover an area called an area of effect, which is defined in “Rules Gl"
       },
       {
         "document": 502,
@@ -136890,7 +136868,7 @@
       },
       {
         "document": 975,
-        "excerpt": "rips affect even creatures that avoid the brunt of the effect. When you cast a can-trip at a creature and you miss with the attack roll or the target succeeds on a sa"
+        "excerpt": "rips affect even creatures that avoid the brunt of the effect. When you cast a cantrip at a creature and you miss with the attack roll or the target succeeds on a sav"
       },
       {
         "document": 979,
@@ -138260,7 +138238,7 @@
       },
       {
         "document": 814,
-        "excerpt": "A l-pound egg with a bright-red shell"
+        "excerpt": "A 1-pound egg with a bright-red shell"
       },
       {
         "document": 1573,
@@ -138660,7 +138638,7 @@
       },
       {
         "document": 2082,
-        "excerpt": "-dritch Burst or Paralyzing Touch in any combination. Eldritch Burst. Melee or Ranged Attack Roll: +12, reach 5 ft. or range 120 ft. Hit: 31 (4d12 + 5) Force damage."
+        "excerpt": "Multiattack. The lich makes three attacks, using Eldritch Burst or Paralyzing Touch in any combination. Eldritch Burst. Melee or Ranged Attack Roll: +12, reach 5"
       }
     ],
     "electricity": [
@@ -141934,7 +141912,7 @@
       },
       {
         "document": 1339,
-        "excerpt": "uestions. You must ask your questions before the spell ends. The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “ir-relevant,” or “u"
+        "excerpt": "uestions. You must ask your questions before the spell ends. The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “irrelevant,” or “un"
       },
       {
         "document": 1340,
@@ -142266,7 +142244,7 @@
       },
       {
         "document": 1539,
-        "excerpt": "an extra-dimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pulled into or dropped out of it. The spa"
+        "excerpt": "o an extradimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pulled into or dropped out of it. The spa"
       },
       {
         "document": 1541,
@@ -142462,7 +142440,7 @@
       },
       {
         "document": 1738,
-        "excerpt": "oice) connecting them. This ladder, staircase, or ramp ends at a trap-door leading to the roof. When created, the tower has a single door at ground level on the sid"
+        "excerpt": "oice) connecting them. This ladder, staircase, or ramp ends at a trapdoor leading to the roof. When created, the tower has a single door at ground level on the side"
       },
       {
         "document": 1739,
@@ -143554,7 +143532,7 @@
       },
       {
         "document": 1983,
-        "excerpt": "At Will: Druidcraft, Speak with Animals 2/Day Each: Entangle, Thunderwave 1/Day Each: Animal Messenger, Long-strider, Moonbeam"
+        "excerpt": "At Will: Druidcraft, Speak with Animals 2/Day Each: Entangle, Thunderwave 1/Day Each: Animal Messenger, Longstrider, Moonbeam"
       },
       {
         "document": 1984,
@@ -144002,7 +143980,7 @@
       },
       {
         "document": 1757,
-        "excerpt": "card has no effect. Donjon. You disappear and become entombed in a state of suspended animation in an extradi-dimensional sphere. Everything you're wearing and carryi"
+        "excerpt": "card has no effect. Donjon. You disappear and become entombed in a state of suspended animation in an extradimensional sphere. Everything you're wearing and carrying"
       }
     ],
     "entrance": [
@@ -145606,7 +145584,7 @@
       },
       {
         "document": 335,
-        "excerpt": "nd, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Ac-robatics) check as an"
+        "excerpt": "nd, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an a"
       },
       {
         "document": 465,
@@ -145640,7 +145618,7 @@
       },
       {
         "document": 335,
-        "excerpt": "reature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Ac-robatics) check as an action."
+        "excerpt": "reature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action."
       },
       {
         "document": 465,
@@ -146070,7 +146048,7 @@
       },
       {
         "document": 975,
-        "excerpt": "Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a can-trip at a creature and you miss with t"
+        "excerpt": "Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a cantrip at a creature and you miss with th"
       },
       {
         "document": 977,
@@ -146438,7 +146416,7 @@
       },
       {
         "document": 1723,
-        "excerpt": "a thunder-clap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC 17 Constitution saving throw or have t"
+        "excerpt": "a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC 17 Constitution saving throw or have t"
       },
       {
         "document": 1757,
@@ -146542,7 +146520,7 @@
       },
       {
         "document": 1757,
-        "excerpt": "suspended animation in an extradi-dimensional sphere. Everything you're wearing and carrying disappears with you except for Artifacts, which stay behind in the space you"
+        "excerpt": "of suspended animation in an extradimensional sphere. Everything you're wearing and carrying disappears with you except for Artifacts, which stay behind in the space you"
       },
       {
         "document": 1814,
@@ -150098,7 +150076,7 @@
       },
       {
         "document": 1797,
-        "excerpt": "llcasting. The ring has 5 charges and re-gains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the l"
+        "excerpt": "ellcasting. The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the l"
       },
       {
         "document": 1798,
@@ -151609,10 +151587,6 @@
         "excerpt": "ange as your quarry. Until the spell ends, you deal an extra 1d6 Force damage to the target whenever you hit it with an attack roll. You also have Advantage on any W"
       },
       {
-        "document": 1539,
-        "excerpt": "end, an Invisible 3-foot-by-5-foot portal opens to an extra-dimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which"
-      },
-      {
         "document": 1544,
         "excerpt": "Duration: 1 minute As you hit the target, it takes an extra 1d6 Fire damage from the attack. At the start of each of its turns until the spell ends, the target take"
       },
@@ -151839,12 +151813,6 @@
         "excerpt": "reature. On a failed check, the character is unable to extract any poison. If the character fails the check by 5 or more, the character is subjected to the creature's"
       }
     ],
-    "extradi": [
-      {
-        "document": 1757,
-        "excerpt": "ecome entombed in a state of suspended animation in an extradi-dimensional sphere. Everything you're wearing and carrying disappears with you except for Artifacts, whi"
-      }
-    ],
     "extradimensional": [
       {
         "document": 767,
@@ -151857,6 +151825,10 @@
       {
         "document": 1479,
         "excerpt": "ange that lasts for the duration. The door leads to an extradimensional dwelling and is 5 feet wide and 10 feet tall. You and any creature you designate when you cast the spell"
+      },
+      {
+        "document": 1539,
+        "excerpt": "end, an Invisible 3-foot-by-5-foot portal opens to an extradimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pull"
       },
       {
         "document": 1646,
@@ -151881,6 +151853,10 @@
       {
         "document": 1755,
         "excerpt": "is wearing or carrying, in one of the mirror's twelve extradimensional cells. A creature that knows the mirror's nature makes the save with Advantage, and Constructs succeed o"
+      },
+      {
+        "document": 1757,
+        "excerpt": "ecome entombed in a state of suspended animation in an extradimensional sphere. Everything you're wearing and carrying disappears with you except for Artifacts, which stay behi"
       },
       {
         "document": 1774,
@@ -152066,7 +152042,7 @@
     "fabric": [
       {
         "document": 482,
-        "excerpt": "ther a Holy Symbol needs to be held, worn, or borne on fabric (such as a tab-ard or banner) or a Shield."
+        "excerpt": "ther a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield."
       },
       {
         "document": 926,
@@ -152510,7 +152486,7 @@
       },
       {
         "document": 681,
-        "excerpt": "tion saving throw, taking 24 (7d6) Poisson damage on a failed save or half as much damage on a successful one."
+        "excerpt": "ution saving throw, taking 24 (7d6) Poison damage on a failed save or half as much damage on a successful one."
       },
       {
         "document": 686,
@@ -159130,7 +159106,7 @@
       },
       {
         "document": 962,
-        "excerpt": "ing. When you cast a Druid can-trip with a range of 10 feet or greater, the spell's range increases by 300 feet. Primal Strike. The extra damage of your Primal Str"
+        "excerpt": "ting. When you cast a Druid cantrip with a range of 10 feet or greater, the spell's range increases by 300 feet. Primal Strike. The extra damage of your Primal Str"
       },
       {
         "document": 964,
@@ -160394,7 +160370,7 @@
       },
       {
         "document": 1723,
-        "excerpt": "f it had the Thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the weapon unleashes a thunder-clap audible out to 300"
+        "excerpt": "f it had the Thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the weapon unleashes a thunderclap audible out to 300 f"
       },
       {
         "document": 1724,
@@ -161206,7 +161182,7 @@
       },
       {
         "document": 2202,
-        "excerpt": "Medium or smaller creature and the were-boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has"
+        "excerpt": "Medium or smaller creature and the wereboar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has"
       },
       {
         "document": 2205,
@@ -165148,7 +165124,7 @@
       },
       {
         "document": 1596,
-        "excerpt": "t is worth I+ CP) Duration: Instantaneous Guided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The attack uses you"
+        "excerpt": "t is worth 1+ CP) Duration: Instantaneous Guided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The attack uses you"
       },
       {
         "document": 1700,
@@ -166626,7 +166602,7 @@
       },
       {
         "document": 482,
-        "excerpt": "ric or Paladin can use a Holy Symbol as a Spellcasting Focus. The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tab-ar"
+        "excerpt": "ric or Paladin can use a Holy Symbol as a Spellcasting Focus. The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard"
       },
       {
         "document": 496,
@@ -166810,7 +166786,7 @@
     "focuses": [
       {
         "document": 446,
-        "excerpt": "An Arcane Focus takes one of the forms in the Arcane Focuses table and is be jeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such a"
+        "excerpt": "An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an"
       },
       {
         "document": 475,
@@ -168920,7 +168896,7 @@
       },
       {
         "document": 1539,
-        "excerpt": "hes a ceiling. At the rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extra-dimensional space that lasts until the spell ends. That space can be"
+        "excerpt": "hes a ceiling. At the rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extradimensional space that lasts until the spell ends. That space can be r"
       },
       {
         "document": 1547,
@@ -170804,7 +170780,7 @@
       },
       {
         "document": 446,
-        "excerpt": "An Arcane Focus takes one of the forms in the Arcane Focuses table and is be jeweled or carved to channel arcane magic. A Sorcerer, Warlock, or"
+        "excerpt": "An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or"
       },
       {
         "document": 475,
@@ -170812,7 +170788,7 @@
       },
       {
         "document": 482,
-        "excerpt": "A Holy Symbol takes one of the forms in the Holy Symbol table and is be jeweled or painted to channel divine magic. A Cleric or Paladin can u"
+        "excerpt": "A Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can us"
       },
       {
         "document": 491,
@@ -172974,7 +172950,7 @@
       },
       {
         "document": 1391,
-        "excerpt": "n or until the two of you are more than 300 feet apart from each other. No one but you can see the hound, and it is in-tangible and invulnerable. When a Small or l"
+        "excerpt": "n or until the two of you are more than 300 feet apart from each other. No one but you can see the hound, and it is intangible and invulnerable. When a Small or la"
       },
       {
         "document": 1393,
@@ -175178,7 +175154,7 @@
       },
       {
         "document": 1797,
-        "excerpt": "e Immunity to Fire damage. Water. You know Aquan, you gain a Swim Speed of 60 feet, and you can breathe underwater. Spellcasting. The ring has 5 charges and re-ga"
+        "excerpt": "e Immunity to Fire damage. Water. You know Aquan, you gain a Swim Speed of 60 feet, and you can breathe underwater. Spellcasting. The ring has 5 charges and regai"
       },
       {
         "document": 1804,
@@ -175547,10 +175523,6 @@
       {
         "document": 1765,
         "excerpt": "g the oil takes 10 minutes. The affected creature then gains the effect of the Freedom of Movement spell for 8 hours. Alternatively, the oil can be poured on the gr"
-      },
-      {
-        "document": 1797,
-        "excerpt": "derwater. Spellcasting. The ring has 5 charges and re-gains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the"
       },
       {
         "document": 1858,
@@ -177865,12 +177837,6 @@
         "excerpt": "ll slot, you can animate or reassert control over four Ghouls. If you use a level 8 spell slot, you can animate or reassert control over five Ghouls or two Ghasts or"
       }
     ],
-    "ghs": [
-      {
-        "document": 646,
-        "excerpt": "by creatures that dwell in such areas, including otyu-ghs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into conta"
-      }
-    ],
     "giant": [
       {
         "document": 181,
@@ -178376,7 +178342,7 @@
       },
       {
         "document": 961,
-        "excerpt": "an-trip and deal damage to a creature with it, you can give vitality to yourself or another creature within 60 feet of yourself, granting a number of Temporary Hit"
+        "excerpt": "cantrip and deal damage to a creature with it, you can give vitality to yourself or another creature within 60 feet of yourself, granting a number of Temporary Hit"
       },
       {
         "document": 962,
@@ -181285,10 +181251,6 @@
         "excerpt": "oice. The top leads where the GM chooses, such as to a great view, a cloud giant’s castle, or another plane of existence."
       },
       {
-        "document": 959,
-        "excerpt": "imple or Martial Melee weapons of your choice, such as Great-axes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of tho"
-      },
-      {
         "document": 1046,
         "excerpt": "Great Weapon Fighting"
       },
@@ -181321,6 +181283,12 @@
       {
         "document": 1938,
         "excerpt": "Greataxe, Hide Armor"
+      }
+    ],
+    "greataxes": [
+      {
+        "document": 959,
+        "excerpt": "imple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those we"
       }
     ],
     "greatclub": [
@@ -181468,7 +181436,7 @@
       },
       {
         "document": 962,
-        "excerpt": "n you cast a Druid can-trip with a range of 10 feet or greater, the spell's range increases by 300 feet. Primal Strike. The extra damage of your Primal Strike increas"
+        "excerpt": "en you cast a Druid cantrip with a range of 10 feet or greater, the spell's range increases by 300 feet. Primal Strike. The extra damage of your Primal Strike increas"
       },
       {
         "document": 1304,
@@ -182134,7 +182102,7 @@
       },
       {
         "document": 962,
-        "excerpt": "The option you chose for Elemental Fury grows more powerful, as detailed below. Potent Spellcasting. When you cast a Druid can-trip with a range of 1"
+        "excerpt": "The option you chose for Elemental Fury grows more powerful, as detailed below. Potent Spellcasting. When you cast a Druid cantrip with a range of 10"
       },
       {
         "document": 1691,
@@ -182398,7 +182366,7 @@
     "guided": [
       {
         "document": 1596,
-        "excerpt": "ency and that is worth I+ CP) Duration: Instantaneous Guided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The atta"
+        "excerpt": "ency and that is worth 1+ CP) Duration: Instantaneous Guided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The atta"
       }
     ],
     "guideline": [
@@ -182884,7 +182852,7 @@
       },
       {
         "document": 681,
-        "excerpt": "ow, taking 24 (7d6) Poisson damage on a failed save or half as much damage on a successful one."
+        "excerpt": "row, taking 24 (7d6) Poison damage on a failed save or half as much damage on a successful one."
       },
       {
         "document": 686,
@@ -184123,10 +184091,6 @@
         "excerpt": "nce, or learn a key piece of information. On the other hand, if you insult a proud warrior or speak ill of a noble's allies, your efforts to convince or deceive wil"
       },
       {
-        "document": 90,
-        "excerpt": "get within your reach. A melee attack typically uses a hand-held weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body part"
-      },
-      {
         "document": 303,
         "excerpt": ". For example, you can attack with a Shortsword in one hand and a Dagger in the other using the Attack action and a Bonus Action, but you don't add your Strength or"
       },
@@ -184506,6 +184470,10 @@
       }
     ],
     "handheld": [
+      {
+        "document": 90,
+        "excerpt": "get within your reach. A melee attack typically uses a handheld weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A"
+      },
       {
         "document": 318,
         "excerpt": "A handheld steel Mirror is useful for personal cosmetics but also for peeking around corners and reflecting light a"
@@ -185924,7 +185892,7 @@
     "heaps": [
       {
         "document": 646,
-        "excerpt": "to Sewer Plague, which incubates in sewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including otyu-ghs and rats. Any Hum"
+        "excerpt": "to Sewer Plague, which incubates in sewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including otyughs and rats. Any Huma"
       }
     ],
     "hear": [
@@ -186452,7 +186420,7 @@
     "hedged": [
       {
         "document": 1454,
-        "excerpt": "Restrained condition and can't be moved by any means. Hedged Prison. The target is trapped in a demi-plane that is warded against teleportation and planar travel. Th"
+        "excerpt": "Restrained condition and can't be moved by any means. Hedged Prison. The target is trapped in a demiplane that is warded against teleportation and planar travel. The"
       }
     ],
     "heedlessly": [
@@ -186541,10 +186509,6 @@
     ],
     "held": [
       {
-        "document": 90,
-        "excerpt": "ithin your reach. A melee attack typically uses a hand-held weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A"
-      },
-      {
         "document": 381,
         "excerpt": "a cloak fastened about the shoulders. A weapon must be held. In most cases, a magic item that's meant to be worn can fit a creature regardless of size or build. Ma"
       },
@@ -186558,7 +186522,7 @@
       },
       {
         "document": 482,
-        "excerpt": "The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tab-ard or banner) or a Shield."
+        "excerpt": "The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield."
       },
       {
         "document": 689,
@@ -190226,7 +190190,7 @@
       },
       {
         "document": 2102,
-        "excerpt": "e to all damage. The bag turns to dust if reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding are released. The bag can create a new bag"
+        "excerpt": "e to all damage. The bag turns to dust if reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding are released. The hag can create a new bag"
       },
       {
         "document": 2103,
@@ -190804,7 +190768,7 @@
       },
       {
         "document": 1723,
-        "excerpt": "of 20 feet and a long range of 60 feet. If the attack hits, the weapon unleashes a thunder-clap audible out to 300 feet. The target and every creature within 30 fe"
+        "excerpt": "of 20 feet and a long range of 60 feet. If the attack hits, the weapon unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 fee"
       },
       {
         "document": 1762,
@@ -191592,7 +191556,7 @@
       },
       {
         "document": 1699,
-        "excerpt": "s, Bolts, or similar objects. The mid-size compartment holds up to 18 Javelins or similar objects. The longest compartment holds up to 6 long objects, such as bows,"
+        "excerpt": "ws, Bolts, or similar objects. The midsize compartment holds up to 18 Javelins or similar objects. The longest compartment holds up to 6 long objects, such as bows,"
       },
       {
         "document": 1724,
@@ -192280,7 +192244,7 @@
       },
       {
         "document": 499,
-        "excerpt": "e, you can choose yourself unless the creature must be Hostile or specifically a creature other than you. Areas of Effect. Some spells, such as Thunder-wave, cover an"
+        "excerpt": "e, you can choose yourself unless the creature must be Hostile or specifically a creature other than you. Areas of Effect. Some spells, such as Thunderwave, cover an"
       },
       {
         "document": 562,
@@ -194620,7 +194584,7 @@
       },
       {
         "document": 646,
-        "excerpt": "dwell in such areas, including otyu-ghs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into contact with contaminated fi"
+        "excerpt": "t dwell in such areas, including otyughs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into contact with contaminated fi"
       },
       {
         "document": 647,
@@ -197004,7 +196968,7 @@
       },
       {
         "document": 2202,
-        "excerpt": "re and the were-boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition."
+        "excerpt": "ure and the wereboar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition."
       },
       {
         "document": 2208,
@@ -198912,7 +198876,7 @@
     "inch": [
       {
         "document": 814,
-        "excerpt": "A l-inch cube, each side a different color"
+        "excerpt": "A 1-inch cube, each side a different color"
       },
       {
         "document": 1291,
@@ -199394,7 +199358,7 @@
       },
       {
         "document": 646,
-        "excerpt": "mes transmitted by creatures that dwell in such areas, including otyu-ghs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes i"
+        "excerpt": "mes transmitted by creatures that dwell in such areas, including otyughs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes in"
       },
       {
         "document": 687,
@@ -200396,7 +200360,7 @@
       },
       {
         "document": 482,
-        "excerpt": "use a Holy Symbol as a Spellcasting Focus. The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tab-ard or banner) or a Shie"
+        "excerpt": "use a Holy Symbol as a Spellcasting Focus. The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shiel"
       },
       {
         "document": 491,
@@ -204745,6 +204709,10 @@
         "excerpt": "Concentration, up to 10 minutes You conjure a Large, intangible spirit from the Elemental Planes that appears in an unoccupied space within range. Choose the spirit's e"
       },
       {
+        "document": 1391,
+        "excerpt": "ch other. No one but you can see the hound, and it is intangible and invulnerable. When a Small or larger creature comes within 30 feet of it without first speaking the"
+      },
+      {
         "document": 1495,
         "excerpt": "e, speak, and behave in whatever way you choose. It is intangible and invulnerable. You can see through its eyes and hear through its ears as if you were located where i"
       },
@@ -205848,7 +205816,7 @@
       },
       {
         "document": 970,
-        "excerpt": "spell on a Spell Scroll, for example, and then copy it into your spellbook. Copying a Spell into the Book. When you find a level I+ Wizard spell, you can copy it i"
+        "excerpt": "spell on a Spell Scroll, for example, and then copy it into your spellbook. Copying a Spell into the Book. When you find a level 1+ Wizard spell, you can copy it i"
       },
       {
         "document": 973,
@@ -206838,7 +206806,7 @@
       },
       {
         "document": 1539,
-        "excerpt": "he rope reaches a ceiling. At the rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extra-dimensional space that lasts until the spell ends. That space"
+        "excerpt": "he rope reaches a ceiling. At the rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extradimensional space that lasts until the spell ends. That space c"
       },
       {
         "document": 1543,
@@ -207134,7 +207102,7 @@
       },
       {
         "document": 1391,
-        "excerpt": "e but you can see the hound, and it is in-tangible and invulnerable. When a Small or larger creature comes within 30 feet of it without first speaking the password that you"
+        "excerpt": "ne but you can see the hound, and it is intangible and invulnerable. When a Small or larger creature comes within 30 feet of it without first speaking the password that you"
       },
       {
         "document": 1428,
@@ -207293,6 +207261,12 @@
       {
         "document": 2141,
         "excerpt": "Iron Scent. The rust monster can pinpoint the location of ferrous metal within 30 feet of itself."
+      }
+    ],
+    "irrelevant": [
+      {
+        "document": 1339,
+        "excerpt": "with one word, such as “yes,” “no,” “maybe,” “never,” “irrelevant,” or “unclear” (if the entity doesn’t know the answer to the question). If a one-word answer would be mi"
       }
     ],
     "irresistible": [
@@ -209808,7 +209782,7 @@
       },
       {
         "document": 1699,
-        "excerpt": "milar objects. The mid-size compartment holds up to 18 Javelins or similar objects. The longest compartment holds up to 6 long objects, such as bows, Quarterstaffs, or"
+        "excerpt": "imilar objects. The midsize compartment holds up to 18 Javelins or similar objects. The longest compartment holds up to 6 long objects, such as bows, Quarterstaffs, or"
       },
       {
         "document": 1950,
@@ -209884,14 +209858,6 @@
       }
     ],
     "jeweled": [
-      {
-        "document": 446,
-        "excerpt": "one of the forms in the Arcane Focuses table and is be jeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting"
-      },
-      {
-        "document": 482,
-        "excerpt": "es one of the forms in the Holy Symbol table and is be jeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus."
-      },
       {
         "document": 1322,
         "excerpt": "V, S, M (a focus worth 100+ GP, either a jeweled horn for hearing or a glass eye for seeing)"
@@ -210660,7 +210626,7 @@
       },
       {
         "document": 959,
-        "excerpt": "eapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Great-axes and Handaxes. Whenever you finish"
+        "excerpt": "eapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a"
       },
       {
         "document": 963,
@@ -211046,7 +211012,7 @@
       },
       {
         "document": 1339,
-        "excerpt": "r,” “ir-relevant,” or “unclear” (if the entity doesn’t know the answer to the question). If a one-word answer would be misleading, the GM might instead offer a shor"
+        "excerpt": "er,” “irrelevant,” or “unclear” (if the entity doesn’t know the answer to the question). If a one-word answer would be misleading, the GM might instead offer a shor"
       },
       {
         "document": 1357,
@@ -211624,7 +211590,7 @@
       },
       {
         "document": 1738,
-        "excerpt": "op it. Its interior is divided into two floors, with a ladder, staircase, or ramp (your choice) connecting them. This ladder, staircase, or ramp ends at a trap-door l"
+        "excerpt": "op it. Its interior is divided into two floors, with a ladder, staircase, or ramp (your choice) connecting them. This ladder, staircase, or ramp ends at a trapdoor le"
       },
       {
         "document": 1824,
@@ -214510,7 +214476,7 @@
       },
       {
         "document": 1391,
-        "excerpt": "nd it is in-tangible and invulnerable. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when you cast t"
+        "excerpt": "and it is intangible and invulnerable. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when you cast t"
       },
       {
         "document": 1423,
@@ -215002,7 +214968,7 @@
       },
       {
         "document": 1539,
-        "excerpt": "5-foot portal opens to an extra-dimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pulled into or droppe"
+        "excerpt": "-5-foot portal opens to an extradimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pulled into or droppe"
       },
       {
         "document": 1547,
@@ -215818,7 +215784,7 @@
       },
       {
         "document": 1738,
-        "excerpt": "m. This ladder, staircase, or ramp ends at a trap-door leading to the roof. When created, the tower has a single door at ground level on the side facing you. The door"
+        "excerpt": "em. This ladder, staircase, or ramp ends at a trapdoor leading to the roof. When created, the tower has a single door at ground level on the side facing you. The door"
       }
     ],
     "leads": [
@@ -216818,7 +216784,7 @@
       },
       {
         "document": 1757,
-        "excerpt": "draw the same card twice. (Once the Fool or Jester has left the deck, re-roll on the table if that card comes up again.) Each card's effect is described below. Ba"
+        "excerpt": "draw the same card twice. (Once the Fool or Jester has left the deck, reroll on the table if that card comes up again.) Each card's effect is described below. Bal"
       },
       {
         "document": 2082,
@@ -218942,7 +218908,7 @@
       },
       {
         "document": 1361,
-        "excerpt": "Level 2 Divination (Bard, Sorcerer, Wizard) Casting Time: Action Range: Self Components: V, S, M (I Copper Pi"
+        "excerpt": "Level 2 Divination (Bard, Sorcerer, Wizard) Casting Time: Action Range: Self Components: V, S, M (1 Copper Pi"
       },
       {
         "document": 1362,
@@ -224502,7 +224468,7 @@
       },
       {
         "document": 1723,
-        "excerpt": "e Thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the weapon unleashes a thunder-clap audible out to 300 feet. The t"
+        "excerpt": "e Thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the weapon unleashes a thunderclap audible out to 300 feet. The ta"
       },
       {
         "document": 1726,
@@ -224651,10 +224617,6 @@
       {
         "document": 1972,
         "excerpt": "oint maximum doesn't return to normal when finishing a Long Rest, and it repeats the save every 24 hours that elapse, ending the effect on itself on a success. Subs"
-      },
-      {
-        "document": 1983,
-        "excerpt": ": Entangle, Thunderwave 1/Day Each: Animal Messenger, Long-strider, Moonbeam"
       },
       {
         "document": 1991,
@@ -225081,6 +225043,10 @@
       {
         "document": 1471,
         "excerpt": "Longstrider"
+      },
+      {
+        "document": 1983,
+        "excerpt": ": Entangle, Thunderwave 1/Day Each: Animal Messenger, Longstrider, Moonbeam"
       }
     ],
     "longsword": [
@@ -226846,7 +226812,7 @@
       },
       {
         "document": 446,
-        "excerpt": "es table and is be jeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus."
+        "excerpt": "ses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus."
       },
       {
         "document": 475,
@@ -226854,7 +226820,7 @@
       },
       {
         "document": 482,
-        "excerpt": "l table and is be jeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus. The table indicates whether a Holy"
+        "excerpt": "ol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus. The table indicates whether a Holy"
       },
       {
         "document": 484,
@@ -228628,7 +228594,7 @@
       },
       {
         "document": 1596,
-        "excerpt": "h I+ CP) Duration: Instantaneous Guided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The attack uses your spellcast"
+        "excerpt": "h 1+ CP) Duration: Instantaneous Guided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The attack uses your spellcast"
       },
       {
         "document": 1614,
@@ -229448,7 +229414,7 @@
       },
       {
         "document": 90,
-        "excerpt": "a hand-held weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee attacks."
+        "excerpt": "a handheld weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee attacks."
       },
       {
         "document": 93,
@@ -229560,7 +229526,7 @@
       },
       {
         "document": 335,
-        "excerpt": "it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Ac-robatics) check as an action."
+        "excerpt": "it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action."
       },
       {
         "document": 347,
@@ -230602,7 +230568,7 @@
       },
       {
         "document": 681,
-        "excerpt": "Injury Poison A creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poisson damage on a failed save or half as much damag"
+        "excerpt": "Injury Poison A creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poison damage on a failed save or half as much damage"
       },
       {
         "document": 691,
@@ -231486,7 +231452,7 @@
       },
       {
         "document": 2082,
-        "excerpt": "Multiattack. The lich makes three attacks, using El-dritch Burst or Paralyzing Touch in any combination. Eldritch Burst. Melee or R"
+        "excerpt": "Multiattack. The lich makes three attacks, using Eldritch Burst or Paralyzing Touch in any combination. Eldritch Burst. Melee or Ra"
       },
       {
         "document": 2083,
@@ -231618,7 +231584,7 @@
       },
       {
         "document": 2147,
-        "excerpt": "Multiattack. The scout makes two attacks, using Short-word and Longbow in any combination. Shortsword. Melee Attack Roll: +4, reach"
+        "excerpt": "Multiattack. The scout makes two attacks, using Shortsword and Longbow in any combination. Shortsword. Melee Attack Roll: +4, reach"
       },
       {
         "document": 2151,
@@ -231952,7 +231918,7 @@
       },
       {
         "document": 1757,
-        "excerpt": "is the Fool or Jester, the card reappears in the deck, making it possible to draw the same card twice. (Once the Fool or Jester has left the deck, re-roll on the tabl"
+        "excerpt": "is the Fool or Jester, the card reappears in the deck, making it possible to draw the same card twice. (Once the Fool or Jester has left the deck, reroll on the table"
       },
       {
         "document": 1848,
@@ -232266,7 +232232,7 @@
       },
       {
         "document": 90,
-        "excerpt": "ypically uses a hand-held weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee atta"
+        "excerpt": "typically uses a handheld weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee atta"
       },
       {
         "document": 109,
@@ -233316,7 +233282,7 @@
       },
       {
         "document": 814,
-        "excerpt": "A l-ounce block made from an unknown material"
+        "excerpt": "A 1-ounce block made from an unknown material"
       },
       {
         "document": 927,
@@ -234144,7 +234110,7 @@
       },
       {
         "document": 1339,
-        "excerpt": "ers each question with one word, such as “yes,” “no,” “maybe,” “never,” “ir-relevant,” or “unclear” (if the entity doesn’t know the answer to the question). If a one"
+        "excerpt": "ers each question with one word, such as “yes,” “no,” “maybe,” “never,” “irrelevant,” or “unclear” (if the entity doesn’t know the answer to the question). If a one-"
       }
     ],
     "mayonnaise": [
@@ -234356,7 +234322,7 @@
       },
       {
         "document": 1454,
-        "excerpt": "has the Restrained condition and can't be moved by any means. Hedged Prison. The target is trapped in a demi-plane that is warded against teleportation and planar t"
+        "excerpt": "has the Restrained condition and can't be moved by any means. Hedged Prison. The target is trapped in a demiplane that is warded against teleportation and planar tr"
       },
       {
         "document": 1462,
@@ -235666,7 +235632,7 @@
       },
       {
         "document": 959,
-        "excerpt": "e mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Great-axes and Handaxes. Whenever you finish a Long Rest, you can practi"
+        "excerpt": "e mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practic"
       },
       {
         "document": 964,
@@ -236918,7 +236884,7 @@
       },
       {
         "document": 2147,
-        "excerpt": "hort-word and Longbow in any combination. Shortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage. Longbow. Ranged Attack Roll: +4, range 1"
+        "excerpt": "hortsword and Longbow in any combination. Shortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage. Longbow. Ranged Attack Roll: +4, range 1"
       },
       {
         "document": 2148,
@@ -237808,7 +237774,7 @@
       },
       {
         "document": 1983,
-        "excerpt": "2/Day Each: Entangle, Thunderwave 1/Day Each: Animal Messenger, Long-strider, Moonbeam"
+        "excerpt": "2/Day Each: Entangle, Thunderwave 1/Day Each: Animal Messenger, Longstrider, Moonbeam"
       },
       {
         "document": 2102,
@@ -237827,12 +237793,6 @@
       {
         "document": 1548,
         "excerpt": "rt message of 25 words or fewer to a creature you have met or a creature described to you by someone who has met it. The target hears the message in its mind, reco"
-      }
-    ],
-    "meta": [
-      {
-        "document": 968,
-        "excerpt": "c Options The following options are available to your Meta-magic feature. The options are presented in alphabetical order."
       }
     ],
     "metabolism": [
@@ -238125,16 +238085,16 @@
         "excerpt": "V, S, M (a chip of mica)"
       }
     ],
-    "mid": [
-      {
-        "document": 1699,
-        "excerpt": "n hold up to 60 Arrows, Bolts, or similar objects. The mid-size compartment holds up to 18 Javelins or similar objects. The longest compartment holds up to 6 long"
-      }
-    ],
     "midnight": [
       {
         "document": 672,
         "excerpt": "Midnight Tears (1,500 GP)"
+      }
+    ],
+    "midsize": [
+      {
+        "document": 1699,
+        "excerpt": "n hold up to 60 Arrows, Bolts, or similar objects. The midsize compartment holds up to 18 Javelins or similar objects. The longest compartment holds up to 6 long objec"
       }
     ],
     "midst": [
@@ -240970,7 +240930,7 @@
       },
       {
         "document": 975,
-        "excerpt": "effect. When you cast a can-trip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half"
+        "excerpt": "effect. When you cast a cantrip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half"
       },
       {
         "document": 1017,
@@ -243572,7 +243532,7 @@
       },
       {
         "document": 90,
-        "excerpt": "lly uses a hand-held weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee attacks."
+        "excerpt": "ally uses a handheld weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee attacks."
       },
       {
         "document": 114,
@@ -243922,7 +243882,7 @@
       },
       {
         "document": 1983,
-        "excerpt": "underwave 1/Day Each: Animal Messenger, Long-strider, Moonbeam"
+        "excerpt": "hunderwave 1/Day Each: Animal Messenger, Longstrider, Moonbeam"
       }
     ],
     "moonlight": [
@@ -244330,7 +244290,7 @@
       },
       {
         "document": 962,
-        "excerpt": "The option you chose for Elemental Fury grows more powerful, as detailed below. Potent Spellcasting. When you cast a Druid can-trip with a range of 10 fee"
+        "excerpt": "The option you chose for Elemental Fury grows more powerful, as detailed below. Potent Spellcasting. When you cast a Druid cantrip with a range of 10 feet"
       },
       {
         "document": 963,
@@ -244438,7 +244398,7 @@
       },
       {
         "document": 1391,
-        "excerpt": "d remains for the duration or until the two of you are more than 300 feet apart from each other. No one but you can see the hound, and it is in-tangible and invuln"
+        "excerpt": "d remains for the duration or until the two of you are more than 300 feet apart from each other. No one but you can see the hound, and it is intangible and invulne"
       },
       {
         "document": 1395,
@@ -244562,7 +244522,7 @@
       },
       {
         "document": 1699,
-        "excerpt": "the quiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The mid-siz"
+        "excerpt": "the quiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The midsize"
       },
       {
         "document": 1706,
@@ -245812,7 +245772,7 @@
       },
       {
         "document": 1454,
-        "excerpt": ". The target has the Restrained condition and can't be moved by any means. Hedged Prison. The target is trapped in a demi-plane that is warded against teleportation"
+        "excerpt": ". The target has the Restrained condition and can't be moved by any means. Hedged Prison. The target is trapped in a demiplane that is warded against teleportation"
       },
       {
         "document": 1499,
@@ -245908,7 +245868,7 @@
       },
       {
         "document": 2202,
-        "excerpt": "rget is a Medium or smaller creature and the were-boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damag"
+        "excerpt": "arget is a Medium or smaller creature and the wereboar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damag"
       }
     ],
     "movement": [
@@ -246952,7 +246912,7 @@
       },
       {
         "document": 681,
-        "excerpt": "ng 24 (7d6) Poisson damage on a failed save or half as much damage on a successful one."
+        "excerpt": "ing 24 (7d6) Poison damage on a failed save or half as much damage on a successful one."
       },
       {
         "document": 686,
@@ -247746,7 +247706,7 @@
       },
       {
         "document": 2082,
-        "excerpt": "Multiattack. The lich makes three attacks, using El-dritch Burst or Paralyzing Touch in any combination. Eldritch B"
+        "excerpt": "Multiattack. The lich makes three attacks, using Eldritch Burst or Paralyzing Touch in any combination. Eldritch Bu"
       },
       {
         "document": 2083,
@@ -247874,7 +247834,7 @@
       },
       {
         "document": 2147,
-        "excerpt": "Multiattack. The scout makes two attacks, using Short-word and Longbow in any combination. Shortsword. Melee Attack"
+        "excerpt": "Multiattack. The scout makes two attacks, using Shortsword and Longbow in any combination. Shortsword. Melee Attack"
       },
       {
         "document": 2151,
@@ -251610,7 +251570,7 @@
       },
       {
         "document": 482,
-        "excerpt": "ting Focus. The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tab-ard or banner) or a Shield."
+        "excerpt": "ting Focus. The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield."
       },
       {
         "document": 689,
@@ -252248,7 +252208,7 @@
       },
       {
         "document": 1339,
-        "excerpt": "question with one word, such as “yes,” “no,” “maybe,” “never,” “ir-relevant,” or “unclear” (if the entity doesn’t know the answer to the question). If a one-word ans"
+        "excerpt": "question with one word, such as “yes,” “no,” “maybe,” “never,” “irrelevant,” or “unclear” (if the entity doesn’t know the answer to the question). If a one-word answ"
       },
       {
         "document": 1463,
@@ -252582,7 +252542,7 @@
       },
       {
         "document": 2102,
-        "excerpt": "the bag is holding are released. The bag can create a new bag after 7 days."
+        "excerpt": "the bag is holding are released. The hag can create a new bag after 7 days."
       },
       {
         "document": 2105,
@@ -255096,7 +255056,7 @@
       },
       {
         "document": 1723,
-        "excerpt": "on, hurling it as if it had the Thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the weapon unleashes a thunder-clap au"
+        "excerpt": "on, hurling it as if it had the Thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the weapon unleashes a thunderclap aud"
       },
       {
         "document": 1726,
@@ -257782,7 +257742,7 @@
       },
       {
         "document": 1699,
-        "excerpt": "ompartment can hold up to 60 Arrows, Bolts, or similar objects. The mid-size compartment holds up to 18 Javelins or similar objects. The longest compartment holds up t"
+        "excerpt": "ompartment can hold up to 60 Arrows, Bolts, or similar objects. The midsize compartment holds up to 18 Javelins or similar objects. The longest compartment holds up to"
       },
       {
         "document": 1708,
@@ -261096,7 +261056,7 @@
       },
       {
         "document": 1539,
-        "excerpt": "rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extra-dimensional space that lasts until the spell ends. That space can be reached by climbing the"
+        "excerpt": "rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extradimensional space that lasts until the spell ends. That space can be reached by climbing the"
       },
       {
         "document": 1585,
@@ -262706,7 +262666,7 @@
       },
       {
         "document": 499,
-        "excerpt": "he creature must be Hostile or specifically a creature other than you. Areas of Effect. Some spells, such as Thunder-wave, cover an area called an area of effect, w"
+        "excerpt": "he creature must be Hostile or specifically a creature other than you. Areas of Effect. Some spells, such as Thunderwave, cover an area called an area of effect, wh"
       },
       {
         "document": 511,
@@ -262970,7 +262930,7 @@
       },
       {
         "document": 1391,
-        "excerpt": "the two of you are more than 300 feet apart from each other. No one but you can see the hound, and it is in-tangible and invulnerable. When a Small or larger creat"
+        "excerpt": "the two of you are more than 300 feet apart from each other. No one but you can see the hound, and it is intangible and invulnerable. When a Small or larger creatu"
       },
       {
         "document": 1395,
@@ -264135,12 +264095,6 @@
         "excerpt": "Burnt Othur Fumes (500 GP)"
       }
     ],
-    "otyu": [
-      {
-        "document": 646,
-        "excerpt": "itted by creatures that dwell in such areas, including otyu-ghs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into c"
-      }
-    ],
     "otyugh": [
       {
         "document": 2111,
@@ -264151,6 +264105,12 @@
       {
         "document": 2111,
         "excerpt": "arget has the Stunned condition until the start of the otyugh's next turn. Success: Half damage only."
+      }
+    ],
+    "otyughs": [
+      {
+        "document": 646,
+        "excerpt": "itted by creatures that dwell in such areas, including otyughs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into conta"
       }
     ],
     "ounce": [
@@ -264172,7 +264132,7 @@
       },
       {
         "document": 814,
-        "excerpt": "A l-ounce block made from an unknown material"
+        "excerpt": "A 1-ounce block made from an unknown material"
       },
       {
         "document": 1649,
@@ -264438,7 +264398,7 @@
       },
       {
         "document": 1723,
-        "excerpt": "tack hits, the weapon unleashes a thunder-clap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC 17 C"
+        "excerpt": "ttack hits, the weapon unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC 17 C"
       },
       {
         "document": 1724,
@@ -265772,7 +265732,7 @@
       },
       {
         "document": 482,
-        "excerpt": "he forms in the Holy Symbol table and is be jeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus. The table i"
+        "excerpt": "the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus. The table i"
       },
       {
         "document": 814,
@@ -267916,7 +267876,7 @@
       },
       {
         "document": 2082,
-        "excerpt": "The lich makes three attacks, using El-dritch Burst or Paralyzing Touch in any combination. Eldritch Burst. Melee or Ranged Attack Roll: +12, reach 5 ft. or range 120 ft"
+        "excerpt": "The lich makes three attacks, using Eldritch Burst or Paralyzing Touch in any combination. Eldritch Burst. Melee or Ranged Attack Roll: +12, reach 5 ft. or range 120 ft"
       },
       {
         "document": 2154,
@@ -275866,7 +275826,7 @@
       },
       {
         "document": 1361,
-        "excerpt": "V, S, M (I Copper Piece)"
+        "excerpt": "V, S, M (1 Copper Piece)"
       },
       {
         "document": 1382,
@@ -277648,7 +277608,7 @@
       },
       {
         "document": 1454,
-        "excerpt": "a demi-plane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a cage, a tower, or the like. Minimus Containment."
+        "excerpt": "n a demiplane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a cage, a tower, or the like. Minimus Containment."
       },
       {
         "document": 1458,
@@ -277839,10 +277799,6 @@
       {
         "document": 1417,
         "excerpt": "see within range to a precise location on a different plane of existence. The portal is a circular opening, which you can make 5 to 20 feet in diameter. You can ori"
-      },
-      {
-        "document": 1454,
-        "excerpt": "means. Hedged Prison. The target is trapped in a demi-plane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a c"
       },
       {
         "document": 1491,
@@ -281364,7 +281320,7 @@
       },
       {
         "document": 2102,
-        "excerpt": "all damage. The bag turns to dust if reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding are released. The bag can create a new bag after"
+        "excerpt": "all damage. The bag turns to dust if reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding are released. The hag can create a new bag after"
       },
       {
         "document": 2105,
@@ -282869,12 +282825,6 @@
         "excerpt": "th all its Hit Points. This spell also neutralizes any poisons that affected the creature at the time of death. This spell closes all mortal wounds and restores any mi"
       }
     ],
-    "poisson": [
-      {
-        "document": 681,
-        "excerpt": "kes a DC 14 Constitution saving throw, taking 24 (7d6) Poisson damage on a failed save or half as much damage on a successful one."
-      }
-    ],
     "poke": [
       {
         "document": 973,
@@ -283168,7 +283118,7 @@
       },
       {
         "document": 1539,
-        "excerpt": "At the rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extra-dimensional space that lasts until the spell ends. That space can be reached by climbi"
+        "excerpt": "At the rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extradimensional space that lasts until the spell ends. That space can be reached by climbin"
       },
       {
         "document": 1585,
@@ -283576,7 +283526,7 @@
       },
       {
         "document": 1757,
-        "excerpt": "l or Jester, the card reappears in the deck, making it possible to draw the same card twice. (Once the Fool or Jester has left the deck, re-roll on the table if that ca"
+        "excerpt": "l or Jester, the card reappears in the deck, making it possible to draw the same card twice. (Once the Fool or Jester has left the deck, reroll on the table if that car"
       },
       {
         "document": 1883,
@@ -284234,7 +284184,7 @@
       },
       {
         "document": 814,
-        "excerpt": "A l-pound egg with a bright-red shell"
+        "excerpt": "A 1-pound egg with a bright-red shell"
       },
       {
         "document": 1645,
@@ -284344,7 +284294,7 @@
       },
       {
         "document": 1699,
-        "excerpt": "o hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The mid-size compartment"
+        "excerpt": "o hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The midsize compartment h"
       },
       {
         "document": 1709,
@@ -284690,7 +284640,7 @@
       },
       {
         "document": 962,
-        "excerpt": "The option you chose for Elemental Fury grows more powerful, as detailed below. Potent Spellcasting. When you cast a Druid can-trip with a range of 10 feet or grea"
+        "excerpt": "The option you chose for Elemental Fury grows more powerful, as detailed below. Potent Spellcasting. When you cast a Druid cantrip with a range of 10 feet or great"
       },
       {
         "document": 975,
@@ -285524,7 +285474,7 @@
       },
       {
         "document": 968,
-        "excerpt": "available to your Meta-magic feature. The options are presented in alphabetical order."
+        "excerpt": "e available to your Metamagic feature. The options are presented in alphabetical order."
       }
     ],
     "presents": [
@@ -286300,7 +286250,7 @@
       },
       {
         "document": 1454,
-        "excerpt": "ned condition and can't be moved by any means. Hedged Prison. The target is trapped in a demi-plane that is warded against teleportation and planar travel. The demip"
+        "excerpt": "ned condition and can't be moved by any means. Hedged Prison. The target is trapped in a demiplane that is warded against teleportation and planar travel. The demipl"
       },
       {
         "document": 1757,
@@ -286994,7 +286944,7 @@
       },
       {
         "document": 1596,
-        "excerpt": "S, M (a weapon with which you have proficiency and that is worth I+ CP)"
+        "excerpt": "S, M (a weapon with which you have proficiency and that is worth 1+ CP)"
       },
       {
         "document": 1660,
@@ -287718,7 +287668,7 @@
       },
       {
         "document": 959,
-        "excerpt": "ur training with weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Great-axes and Handaxes. Wheneve"
+        "excerpt": "ur training with weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever"
       },
       {
         "document": 963,
@@ -290038,7 +289988,7 @@
       },
       {
         "document": 1339,
-        "excerpt": "r questions before the spell ends. The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “ir-relevant,” or “unclear” (if the entity doesn’t"
+        "excerpt": "r questions before the spell ends. The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “irrelevant,” or “unclear” (if the entity doesn’t"
       },
       {
         "document": 1368,
@@ -291184,7 +291134,7 @@
       },
       {
         "document": 1738,
-        "excerpt": "divided into two floors, with a ladder, staircase, or ramp (your choice) connecting them. This ladder, staircase, or ramp ends at a trap-door leading to the roof."
+        "excerpt": "divided into two floors, with a ladder, staircase, or ramp (your choice) connecting them. This ladder, staircase, or ramp ends at a trapdoor leading to the roof. W"
       }
     ],
     "rampage": [
@@ -291490,7 +291440,7 @@
       },
       {
         "document": 962,
-        "excerpt": "nt Spellcasting. When you cast a Druid can-trip with a range of 10 feet or greater, the spell's range increases by 300 feet. Primal Strike. The extra damage of your"
+        "excerpt": "ent Spellcasting. When you cast a Druid cantrip with a range of 10 feet or greater, the spell's range increases by 300 feet. Primal Strike. The extra damage of your"
       },
       {
         "document": 966,
@@ -291938,7 +291888,7 @@
       },
       {
         "document": 1361,
-        "excerpt": "ination (Bard, Sorcerer, Wizard) Casting Time: Action Range: Self Components: V, S, M (I Copper Piece) Duration: Concentration, up to 1 minute You activate one of"
+        "excerpt": "ination (Bard, Sorcerer, Wizard) Casting Time: Action Range: Self Components: V, S, M (1 Copper Piece) Duration: Concentration, up to 1 minute You activate one of"
       },
       {
         "document": 1362,
@@ -292878,7 +292828,7 @@
       },
       {
         "document": 1596,
-        "excerpt": "Bard, Sorcerer, Warlock, Wizard) Casting Time: Action Range: Self Components: S, M (a weapon with which you have proficiency and that is worth I+ CP) Duration: Inst"
+        "excerpt": "Bard, Sorcerer, Warlock, Wizard) Casting Time: Action Range: Self Components: S, M (a weapon with which you have proficiency and that is worth 1+ CP) Duration: Inst"
       },
       {
         "document": 1597,
@@ -292990,7 +292940,7 @@
       },
       {
         "document": 1723,
-        "excerpt": "ling it as if it had the Thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the weapon unleashes a thunder-clap audible"
+        "excerpt": "ling it as if it had the Thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the weapon unleashes a thunderclap audible o"
       },
       {
         "document": 1730,
@@ -295220,7 +295170,7 @@
     "rats": [
       {
         "document": 646,
-        "excerpt": "tures that dwell in such areas, including otyu-ghs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into contact with c"
+        "excerpt": "atures that dwell in such areas, including otyughs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into contact with c"
       },
       {
         "document": 699,
@@ -295456,7 +295406,7 @@
       },
       {
         "document": 90,
-        "excerpt": "melee attack allows you to attack a target within your reach. A melee attack typically uses a hand-held weapon or an Unarmed Strike. Many monsters make melee attacks"
+        "excerpt": "melee attack allows you to attack a target within your reach. A melee attack typically uses a handheld weapon or an Unarmed Strike. Many monsters make melee attacks"
       },
       {
         "document": 91,
@@ -297136,7 +297086,7 @@
       },
       {
         "document": 1539,
-        "excerpt": "the rope hangs perpendicular to the ground or the rope reaches a ceiling. At the rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extra-dimensional s"
+        "excerpt": "the rope hangs perpendicular to the ground or the rope reaches a ceiling. At the rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extradimensional sp"
       },
       {
         "document": 1597,
@@ -298858,7 +298808,7 @@
       },
       {
         "document": 814,
-        "excerpt": "A l-pound egg with a bright-red shell"
+        "excerpt": "A 1-pound egg with a bright-red shell"
       },
       {
         "document": 909,
@@ -299216,7 +299166,7 @@
       },
       {
         "document": 2102,
-        "excerpt": "and Resistance to all damage. The bag turns to dust if reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding are released. The bag can create"
+        "excerpt": "and Resistance to all damage. The bag turns to dust if reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding are released. The hag can create"
       },
       {
         "document": 2167,
@@ -299554,7 +299504,7 @@
       },
       {
         "document": 646,
-        "excerpt": "ve rise to Sewer Plague, which incubates in sewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including otyu-ghs and rats. A"
+        "excerpt": "ve rise to Sewer Plague, which incubates in sewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including otyughs and rats. An"
       },
       {
         "document": 814,
@@ -300081,6 +300031,10 @@
       {
         "document": 1795,
         "excerpt": "Ring, Rare This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, you can expend 1 charge to cast one of the f"
+      },
+      {
+        "document": 1797,
+        "excerpt": "underwater. Spellcasting. The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the"
       },
       {
         "document": 1798,
@@ -300750,7 +300704,7 @@
       },
       {
         "document": 2102,
-        "excerpt": "the bag is destroyed, any souls the bag is holding are released. The bag can create a new bag after 7 days."
+        "excerpt": "the bag is destroyed, any souls the bag is holding are released. The hag can create a new bag after 7 days."
       }
     ],
     "releases": [
@@ -300843,10 +300797,6 @@
       {
         "document": 586,
         "excerpt": "damage dice twice and add them together. Then add any relevant modifiers. See also \"Playing the Game\" (\"Damage and Healing\")."
-      },
-      {
-        "document": 1339,
-        "excerpt": "h one word, such as “yes,” “no,” “maybe,” “never,” “ir-relevant,” or “unclear” (if the entity doesn’t know the answer to the question). If a one-word answer would be mi"
       },
       {
         "document": 1524,
@@ -303472,7 +303422,7 @@
       },
       {
         "document": 335,
-        "excerpt": "strained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Ac-robatics) check as an action."
+        "excerpt": "strained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action."
       },
       {
         "document": 341,
@@ -304537,6 +304487,10 @@
       {
         "document": 1744,
         "excerpt": "rson, you can call on its luck (no action required) to reroll one failed D20 Test if you don't have the Incapacitated condition. You must use the second roll. Once us"
+      },
+      {
+        "document": 1757,
+        "excerpt": "ard twice. (Once the Fool or Jester has left the deck, reroll on the table if that card comes up again.) Each card's effect is described below. Balance. You can inc"
       }
     ],
     "rerolled": [
@@ -306750,7 +306704,7 @@
       },
       {
         "document": 1454,
-        "excerpt": "he ground hold the target in place. The target has the Restrained condition and can't be moved by any means. Hedged Prison. The target is trapped in a demi-plane that is"
+        "excerpt": "he ground hold the target in place. The target has the Restrained condition and can't be moved by any means. Hedged Prison. The target is trapped in a demiplane that is"
       },
       {
         "document": 1582,
@@ -308841,12 +308795,6 @@
         "excerpt": "(3/Day). The sphinx emits a magical roar. Whenever it roars, the roar has a different effect, as detailed below (the sequence resets when it takes a Long Rest): Fi"
       }
     ],
-    "robatics": [
-      {
-        "document": 335,
-        "excerpt": "the creature to make a successful DC 15 Dexterity (Ac-robatics) check as an action."
-      }
-    ],
     "robe": [
       {
         "document": 330,
@@ -309566,7 +309514,7 @@
       },
       {
         "document": 975,
-        "excerpt": "a can-trip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half the cantrip's damage"
+        "excerpt": "t a cantrip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half the cantrip's damage"
       },
       {
         "document": 976,
@@ -309826,7 +309774,7 @@
       },
       {
         "document": 1757,
-        "excerpt": "twice. (Once the Fool or Jester has left the deck, re-roll on the table if that card comes up again.) Each card's effect is described below. Balance. You can inc"
+        "excerpt": "tures, you can select one of them as your foe when you roll Initiative. If you reduce your foe to 0 Hit Points during that combat, you have Advantage on Death Savin"
       },
       {
         "document": 1761,
@@ -312080,7 +312028,7 @@
       },
       {
         "document": 1738,
-        "excerpt": "staircase, or ramp ends at a trap-door leading to the roof. When created, the tower has a single door at ground level on the side facing you. The door opens only a"
+        "excerpt": ", staircase, or ramp ends at a trapdoor leading to the roof. When created, the tower has a single door at ground level on the side facing you. The door opens only a"
       }
     ],
     "room": [
@@ -312228,7 +312176,7 @@
     "rope's": [
       {
         "document": 1539,
-        "excerpt": "ar to the ground or the rope reaches a ceiling. At the rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extra-dimensional space that lasts until the"
+        "excerpt": "ar to the ground or the rope reaches a ceiling. At the rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extradimensional space that lasts until the"
       },
       {
         "document": 1828,
@@ -315486,7 +315434,7 @@
       },
       {
         "document": 1757,
-        "excerpt": "reappears in the deck, making it possible to draw the same card twice. (Once the Fool or Jester has left the deck, re-roll on the table if that card comes up again"
+        "excerpt": "reappears in the deck, making it possible to draw the same card twice. (Once the Fool or Jester has left the deck, reroll on the table if that card comes up again."
       },
       {
         "document": 1760,
@@ -316052,7 +316000,7 @@
       },
       {
         "document": 681,
-        "excerpt": "ving throw, taking 24 (7d6) Poisson damage on a failed save or half as much damage on a successful one."
+        "excerpt": "aving throw, taking 24 (7d6) Poison damage on a failed save or half as much damage on a successful one."
       },
       {
         "document": 686,
@@ -317574,7 +317522,7 @@
       },
       {
         "document": 681,
-        "excerpt": "subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poisson damage on a failed save or half as much damage on a successful one."
+        "excerpt": "subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poison damage on a failed save or half as much damage on a successful one."
       },
       {
         "document": 686,
@@ -326436,7 +326384,7 @@
     "sewers": [
       {
         "document": 646,
-        "excerpt": "aste can give rise to Sewer Plague, which incubates in sewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including otyu-ghs"
+        "excerpt": "aste can give rise to Sewer Plague, which incubates in sewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including otyughs a"
       },
       {
         "document": 1772,
@@ -327460,7 +327408,7 @@
     "shell": [
       {
         "document": 814,
-        "excerpt": "A l-pound egg with a bright-red shell"
+        "excerpt": "A 1-pound egg with a bright-red shell"
       },
       {
         "document": 828,
@@ -327512,7 +327460,7 @@
       },
       {
         "document": 482,
-        "excerpt": "or borne on fabric (such as a tab-ard or banner) or a Shield."
+        "excerpt": ", or borne on fabric (such as a tabard or banner) or a Shield."
       },
       {
         "document": 537,
@@ -328489,10 +328437,6 @@
       {
         "document": 2131,
         "excerpt": "e cursed, the target gains no benefit from finishing a Short or Long Rest. Baleful Command (Recharge 5–6). Wisdom Saving Throw: DC 18, each enemy in a 30-foot Emana"
-      },
-      {
-        "document": 2147,
-        "excerpt": "Multiattack. The scout makes two attacks, using Short-word and Longbow in any combination. Shortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Pi"
       }
     ],
     "shortbow": [
@@ -328596,7 +328540,7 @@
       },
       {
         "document": 1699,
-        "excerpt": "ous items while never weighing more than 2 pounds. The shortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The mid-size compartment holds up to 18"
+        "excerpt": "ous items while never weighing more than 2 pounds. The shortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The midsize compartment holds up to 18"
       },
       {
         "document": 1772,
@@ -329978,7 +329922,7 @@
       },
       {
         "document": 1699,
-        "excerpt": "ortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The mid-size compartment holds up to 18 Javelins or similar objects. The longest compartment ho"
+        "excerpt": "ortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The midsize compartment holds up to 18 Javelins or similar objects. The longest compartment hol"
       },
       {
         "document": 1724,
@@ -330989,10 +330933,6 @@
       {
         "document": 1690,
         "excerpt": "he shackles adjust to fit a creature of Small to Large size. The shackles prevent a creature bound by them from using any method of extradimensional movement, inclu"
-      },
-      {
-        "document": 1699,
-        "excerpt": "ld up to 60 Arrows, Bolts, or similar objects. The mid-size compartment holds up to 18 Javelins or similar objects. The longest compartment holds up to 6 long objec"
       },
       {
         "document": 1705,
@@ -334748,7 +334688,7 @@
       },
       {
         "document": 1391,
-        "excerpt": "hound, and it is in-tangible and invulnerable. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when"
+        "excerpt": "e hound, and it is intangible and invulnerable. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when"
       },
       {
         "document": 1394,
@@ -335554,7 +335494,7 @@
       },
       {
         "document": 2202,
-        "excerpt": "2d6 + 3) Piercing damage. If the target is a Medium or smaller creature and the were-boar moved 20+ feet straight toward it immediately before the hit, the target take"
+        "excerpt": "2d6 + 3) Piercing damage. If the target is a Medium or smaller creature and the wereboar moved 20+ feet straight toward it immediately before the hit, the target takes"
       },
       {
         "document": 2209,
@@ -336570,7 +336510,7 @@
       },
       {
         "document": 499,
-        "excerpt": "cifically a creature other than you. Areas of Effect. Some spells, such as Thunder-wave, cover an area called an area of effect, which is defined in “Rules Glossar"
+        "excerpt": "cifically a creature other than you. Areas of Effect. Some spells, such as Thunderwave, cover an area called an area of effect, which is defined in “Rules Glossary"
       },
       {
         "document": 500,
@@ -337164,7 +337104,7 @@
       },
       {
         "document": 646,
-        "excerpt": "gue, which incubates in sewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including otyu-ghs and rats. Any Humanoid that is wou"
+        "excerpt": "gue, which incubates in sewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including otyughs and rats. Any Humanoid that is woun"
       },
       {
         "document": 660,
@@ -337338,7 +337278,7 @@
       },
       {
         "document": 446,
-        "excerpt": "and is be jeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus."
+        "excerpt": "and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus."
       },
       {
         "document": 806,
@@ -338160,7 +338100,7 @@
     "souls": [
       {
         "document": 2102,
-        "excerpt": "reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding are released. The bag can create a new bag after 7 days."
+        "excerpt": "reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding are released. The hag can create a new bag after 7 days."
       }
     ],
     "sound": [
@@ -338654,7 +338594,7 @@
       },
       {
         "document": 1539,
-        "excerpt": "3-foot-by-5-foot portal opens to an extra-dimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pulled int"
+        "excerpt": "e 3-foot-by-5-foot portal opens to an extradimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pulled int"
       },
       {
         "document": 1545,
@@ -339308,7 +339248,7 @@
       },
       {
         "document": 1983,
-        "excerpt": "ting ability (spell save DC 13): At Will: Druidcraft, Speak with Animals 2/Day Each: Entangle, Thunderwave 1/Day Each: Animal Messenger, Long-strider, Moonbeam"
+        "excerpt": "ting ability (spell save DC 13): At Will: Druidcraft, Speak with Animals 2/Day Each: Entangle, Thunderwave 1/Day Each: Animal Messenger, Longstrider, Moonbeam"
       },
       {
         "document": 1984,
@@ -340392,7 +340332,7 @@
     "specifically": [
       {
         "document": 499,
-        "excerpt": "choose yourself unless the creature must be Hostile or specifically a creature other than you. Areas of Effect. Some spells, such as Thunder-wave, cover an area called an"
+        "excerpt": "choose yourself unless the creature must be Hostile or specifically a creature other than you. Areas of Effect. Some spells, such as Thunderwave, cover an area called an a"
       },
       {
         "document": 2003,
@@ -344670,7 +344610,7 @@
       },
       {
         "document": 1539,
-        "excerpt": "ens to an extra-dimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pulled into or dropped out of it. Th"
+        "excerpt": "pens to an extradimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pulled into or dropped out of it. Th"
       },
       {
         "document": 1541,
@@ -345640,7 +345580,7 @@
       },
       {
         "document": 962,
-        "excerpt": "Druid can-trip with a range of 10 feet or greater, the spell's range increases by 300 feet. Primal Strike. The extra damage of your Primal Strike increases to 2d8."
+        "excerpt": "Druid cantrip with a range of 10 feet or greater, the spell's range increases by 300 feet. Primal Strike. The extra damage of your Primal Strike increases to 2d8."
       },
       {
         "document": 969,
@@ -346374,7 +346314,7 @@
       },
       {
         "document": 1797,
-        "excerpt": "wim Speed of 60 feet, and you can breathe underwater. Spellcasting. The ring has 5 charges and re-gains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you"
+        "excerpt": "wim Speed of 60 feet, and you can breathe underwater. Spellcasting. The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you"
       },
       {
         "document": 1808,
@@ -346818,7 +346758,7 @@
       },
       {
         "document": 499,
-        "excerpt": "ally a creature other than you. Areas of Effect. Some spells, such as Thunder-wave, cover an area called an area of effect, which is defined in “Rules Glossary.” The"
+        "excerpt": "ally a creature other than you. Areas of Effect. Some spells, such as Thunderwave, cover an area called an area of effect, which is defined in “Rules Glossary.” The"
       },
       {
         "document": 500,
@@ -348452,7 +348392,7 @@
       },
       {
         "document": 1757,
-        "excerpt": "state of suspended animation in an extradi-dimensional sphere. Everything you're wearing and carrying disappears with you except for Artifacts, which stay behind in t"
+        "excerpt": "a state of suspended animation in an extradimensional sphere. Everything you're wearing and carrying disappears with you except for Artifacts, which stay behind in t"
       },
       {
         "document": 1807,
@@ -350006,7 +349946,7 @@
     "staircase": [
       {
         "document": 1738,
-        "excerpt": "ts interior is divided into two floors, with a ladder, staircase, or ramp (your choice) connecting them. This ladder, staircase, or ramp ends at a trap-door leading to t"
+        "excerpt": "ts interior is divided into two floors, with a ladder, staircase, or ramp (your choice) connecting them. This ladder, staircase, or ramp ends at a trapdoor leading to th"
       }
     ],
     "stairs": [
@@ -351504,7 +351444,7 @@
       },
       {
         "document": 1757,
-        "excerpt": "ffect. Donjon. You disappear and become entombed in a state of suspended animation in an extradi-dimensional sphere. Everything you're wearing and carrying disappea"
+        "excerpt": "ffect. Donjon. You disappear and become entombed in a state of suspended animation in an extradimensional sphere. Everything you're wearing and carrying disappears"
       }
     ],
     "stated": [
@@ -355328,7 +355268,7 @@
       },
       {
         "document": 2202,
-        "excerpt": "m or smaller creature and the were-boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Pron"
+        "excerpt": "um or smaller creature and the wereboar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Pron"
       },
       {
         "document": 2214,
@@ -356131,10 +356071,6 @@
       {
         "document": 1658,
         "excerpt": "it or lower without any additional protection. Winter Strider. You ignore Difficult Terrain created by ice or snow."
-      },
-      {
-        "document": 1983,
-        "excerpt": "angle, Thunderwave 1/Day Each: Animal Messenger, Long-strider, Moonbeam"
       }
     ],
     "striding": [
@@ -356158,7 +356094,7 @@
       },
       {
         "document": 90,
-        "excerpt": "attack typically uses a hand-held weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve mele"
+        "excerpt": "attack typically uses a handheld weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve mele"
       },
       {
         "document": 93,
@@ -357406,7 +357342,7 @@
       },
       {
         "document": 681,
-        "excerpt": "Injury Poison A creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poisson damage on a failed sav"
+        "excerpt": "Injury Poison A creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poison damage on a failed save"
       },
       {
         "document": 964,
@@ -360154,7 +360090,7 @@
       },
       {
         "document": 482,
-        "excerpt": "oly Symbol needs to be held, worn, or borne on fabric (such as a tab-ard or banner) or a Shield."
+        "excerpt": "oly Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield."
       },
       {
         "document": 484,
@@ -360166,7 +360102,7 @@
       },
       {
         "document": 499,
-        "excerpt": "reature other than you. Areas of Effect. Some spells, such as Thunder-wave, cover an area called an area of effect, which is defined in “Rules Glossary.” The area"
+        "excerpt": "reature other than you. Areas of Effect. Some spells, such as Thunderwave, cover an area called an area of effect, which is defined in “Rules Glossary.” The area d"
       },
       {
         "document": 502,
@@ -360258,7 +360194,7 @@
       },
       {
         "document": 646,
-        "excerpt": "nd is sometimes transmitted by creatures that dwell in such areas, including otyu-ghs and rats. Any Humanoid that is wounded by a creature that carries the contagio"
+        "excerpt": "nd is sometimes transmitted by creatures that dwell in such areas, including otyughs and rats. Any Humanoid that is wounded by a creature that carries the contagion"
       },
       {
         "document": 647,
@@ -360338,7 +360274,7 @@
       },
       {
         "document": 959,
-        "excerpt": "nds of Simple or Martial Melee weapons of your choice, such as Great-axes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change o"
+        "excerpt": "nds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change on"
       },
       {
         "document": 961,
@@ -360442,7 +360378,7 @@
       },
       {
         "document": 1339,
-        "excerpt": "pell ends. The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “ir-relevant,” or “unclear” (if the entity doesn’t know the answer to"
+        "excerpt": "pell ends. The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “irrelevant,” or “unclear” (if the entity doesn’t know the answer to t"
       },
       {
         "document": 1348,
@@ -362346,7 +362282,7 @@
       },
       {
         "document": 1757,
-        "excerpt": "onjon. You disappear and become entombed in a state of suspended animation in an extradi-dimensional sphere. Everything you're wearing and carrying disappears with you e"
+        "excerpt": "onjon. You disappear and become entombed in a state of suspended animation in an extradimensional sphere. Everything you're wearing and carrying disappears with you exce"
       },
       {
         "document": 1786,
@@ -362702,7 +362638,7 @@
       },
       {
         "document": 1797,
-        "excerpt": "ity to Fire damage. Water. You know Aquan, you gain a Swim Speed of 60 feet, and you can breathe underwater. Spellcasting. The ring has 5 charges and re-gains 1d4"
+        "excerpt": "ity to Fire damage. Water. You know Aquan, you gain a Swim Speed of 60 feet, and you can breathe underwater. Spellcasting. The ring has 5 charges and regains 1d4"
       },
       {
         "document": 1810,
@@ -363459,10 +363395,10 @@
         "excerpt": "System Reference Document 5.2.1"
       }
     ],
-    "tab": [
+    "tabard": [
       {
         "document": 482,
-        "excerpt": "needs to be held, worn, or borne on fabric (such as a tab-ard or banner) or a Shield."
+        "excerpt": "needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield."
       }
     ],
     "table": [
@@ -363708,7 +363644,7 @@
       },
       {
         "document": 446,
-        "excerpt": "ane Focus takes one of the forms in the Arcane Focuses table and is be jeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item"
+        "excerpt": "ane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item"
       },
       {
         "document": 475,
@@ -363716,7 +363652,7 @@
       },
       {
         "document": 482,
-        "excerpt": "Holy Symbol takes one of the forms in the Holy Symbol table and is be jeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spe"
+        "excerpt": "Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spel"
       },
       {
         "document": 485,
@@ -366090,7 +366026,7 @@
       },
       {
         "document": 446,
-        "excerpt": "An Arcane Focus takes one of the forms in the Arcane Focuses table and is be jeweled or carved to channel arcane magic. A Sorc"
+        "excerpt": "An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorce"
       },
       {
         "document": 448,
@@ -366106,7 +366042,7 @@
       },
       {
         "document": 482,
-        "excerpt": "A Holy Symbol takes one of the forms in the Holy Symbol table and is be jeweled or painted to channel divine magic. A Cleric"
+        "excerpt": "A Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric"
       },
       {
         "document": 484,
@@ -367256,7 +367192,7 @@
       },
       {
         "document": 681,
-        "excerpt": "Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poisson damage on a failed save or half as much damage on a successful one."
+        "excerpt": "Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poison damage on a failed save or half as much damage on a successful one."
       },
       {
         "document": 686,
@@ -367741,12 +367677,6 @@
         "excerpt": "rous Item, Uncommon This bag made from gray, rust, or tan cloth appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object. Y"
       }
     ],
-    "tangible": [
-      {
-        "document": 1391,
-        "excerpt": "other. No one but you can see the hound, and it is in-tangible and invulnerable. When a Small or larger creature comes within 30 feet of it without first speaking the"
-      }
-    ],
     "tangle": [
       {
         "document": 1740,
@@ -367800,7 +367730,7 @@
       },
       {
         "document": 90,
-        "excerpt": "A melee attack allows you to attack a target within your reach. A melee attack typically uses a hand-held weapon or an Unarmed Strike. Many monsters"
+        "excerpt": "A melee attack allows you to attack a target within your reach. A melee attack typically uses a handheld weapon or an Unarmed Strike. Many monsters m"
       },
       {
         "document": 92,
@@ -368668,7 +368598,7 @@
       },
       {
         "document": 1723,
-        "excerpt": "unleashes a thunder-clap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC 17 Constitution saving throw"
+        "excerpt": "n unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC 17 Constitution saving throw"
       },
       {
         "document": 1728,
@@ -370660,7 +370590,7 @@
       },
       {
         "document": 1454,
-        "excerpt": "rget is trapped in a demi-plane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a cage, a tower, or the like. Minimus C"
+        "excerpt": "arget is trapped in a demiplane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a cage, a tower, or the like. Minimus C"
       },
       {
         "document": 1474,
@@ -372048,7 +371978,7 @@
       },
       {
         "document": 499,
-        "excerpt": "ature must be Hostile or specifically a creature other than you. Areas of Effect. Some spells, such as Thunder-wave, cover an area called an area of effect, which"
+        "excerpt": "ature must be Hostile or specifically a creature other than you. Areas of Effect. Some spells, such as Thunderwave, cover an area called an area of effect, which i"
       },
       {
         "document": 511,
@@ -372368,7 +372298,7 @@
       },
       {
         "document": 1391,
-        "excerpt": "ains for the duration or until the two of you are more than 300 feet apart from each other. No one but you can see the hound, and it is in-tangible and invulnerabl"
+        "excerpt": "ains for the duration or until the two of you are more than 300 feet apart from each other. No one but you can see the hound, and it is intangible and invulnerable"
       },
       {
         "document": 1395,
@@ -372556,7 +372486,7 @@
       },
       {
         "document": 1699,
-        "excerpt": "uiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The mid-size com"
+        "excerpt": "uiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The midsize comp"
       },
       {
         "document": 1723,
@@ -373618,7 +373548,7 @@
       },
       {
         "document": 1738,
-        "excerpt": "a ladder, staircase, or ramp (your choice) connecting them. This ladder, staircase, or ramp ends at a trap-door leading to the roof. When created, the tower has a"
+        "excerpt": "a ladder, staircase, or ramp (your choice) connecting them. This ladder, staircase, or ramp ends at a trapdoor leading to the roof. When created, the tower has a s"
       },
       {
         "document": 1739,
@@ -373882,7 +373812,7 @@
       },
       {
         "document": 970,
-        "excerpt": "ver a Wizard spell on a Spell Scroll, for example, and then copy it into your spellbook. Copying a Spell into the Book. When you find a level I+ Wizard spell, you"
+        "excerpt": "ver a Wizard spell on a Spell Scroll, for example, and then copy it into your spellbook. Copying a Spell into the Book. When you find a level 1+ Wizard spell, you"
       },
       {
         "document": 1290,
@@ -377112,7 +377042,7 @@
       },
       {
         "document": 2082,
-        "excerpt": "Multiattack. The lich makes three attacks, using El-dritch Burst or Paralyzing Touch in any combination. Eldritch Burst. Melee or Ranged"
+        "excerpt": "Multiattack. The lich makes three attacks, using Eldritch Burst or Paralyzing Touch in any combination. Eldritch Burst. Melee or Ranged A"
       },
       {
         "document": 2085,
@@ -378072,7 +378002,7 @@
       },
       {
         "document": 681,
-        "excerpt": "ted to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poisson damage on a failed save or half as much damage on a successful one."
+        "excerpt": "ted to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poison damage on a failed save or half as much damage on a successful one."
       },
       {
         "document": 686,
@@ -380145,10 +380075,6 @@
     ],
     "thunder": [
       {
-        "document": 499,
-        "excerpt": "other than you. Areas of Effect. Some spells, such as Thunder-wave, cover an area called an area of effect, which is defined in “Rules Glossary.” The area determines"
-      },
-      {
         "document": 760,
         "excerpt": "Thunder"
       },
@@ -380223,10 +380149,6 @@
       {
         "document": 1587,
         "excerpt": "n saving throw. On a failed save, a creature takes 2d8 Thunder damage and is pushed 10 feet away from you. On a successful save, a creature takes half as much damage o"
-      },
-      {
-        "document": 1723,
-        "excerpt": "of 60 feet. If the attack hits, the weapon unleashes a thunder-clap audible out to 300 feet. The target and every creature within 30 feet of it other than you must suc"
       },
       {
         "document": 1733,
@@ -380311,6 +380233,10 @@
     ],
     "thunderclap": [
       {
+        "document": 1723,
+        "excerpt": "of 60 feet. If the attack hits, the weapon unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed"
+      },
+      {
         "document": 1852,
         "excerpt": "iled save or half as much damage on a successful one. Thunderclap. You can take a Magic action to cause the staff to produce a thunderclap audible out to 600 feet. Every"
       },
@@ -380357,6 +380283,10 @@
     ],
     "thunderwave": [
       {
+        "document": 499,
+        "excerpt": "other than you. Areas of Effect. Some spells, such as Thunderwave, cover an area called an area of effect, which is defined in “Rules Glossary.” The area determines what"
+      },
+      {
         "document": 824,
         "excerpt": "Thunderwave"
       },
@@ -380386,7 +380316,7 @@
       },
       {
         "document": 1983,
-        "excerpt": "Druidcraft, Speak with Animals 2/Day Each: Entangle, Thunderwave 1/Day Each: Animal Messenger, Long-strider, Moonbeam"
+        "excerpt": "Druidcraft, Speak with Animals 2/Day Each: Entangle, Thunderwave 1/Day Each: Animal Messenger, Longstrider, Moonbeam"
       }
     ],
     "thus": [
@@ -381212,7 +381142,7 @@
       },
       {
         "document": 1361,
-        "excerpt": "Level 2 Divination (Bard, Sorcerer, Wizard) Casting Time: Action Range: Self Components: V, S, M (I Copper Piece) Duration: Concentration, up to 1 minute You ac"
+        "excerpt": "Level 2 Divination (Bard, Sorcerer, Wizard) Casting Time: Action Range: Self Components: V, S, M (1 Copper Piece) Duration: Concentration, up to 1 minute You ac"
       },
       {
         "document": 1362,
@@ -382152,7 +382082,7 @@
       },
       {
         "document": 1596,
-        "excerpt": "ion Cantrip (Bard, Sorcerer, Warlock, Wizard) Casting Time: Action Range: Self Components: S, M (a weapon with which you have proficiency and that is worth I+ CP)"
+        "excerpt": "ion Cantrip (Bard, Sorcerer, Warlock, Wizard) Casting Time: Action Range: Self Components: S, M (a weapon with which you have proficiency and that is worth 1+ CP)"
       },
       {
         "document": 1597,
@@ -385614,7 +385544,7 @@
       },
       {
         "document": 2082,
-        "excerpt": "kes three attacks, using El-dritch Burst or Paralyzing Touch in any combination. Eldritch Burst. Melee or Ranged Attack Roll: +12, reach 5 ft. or range 120 ft. Hit:"
+        "excerpt": "akes three attacks, using Eldritch Burst or Paralyzing Touch in any combination. Eldritch Burst. Melee or Ranged Attack Roll: +12, reach 5 ft. or range 120 ft. Hit:"
       },
       {
         "document": 2087,
@@ -386060,7 +385990,7 @@
       },
       {
         "document": 2202,
-        "excerpt": "ler creature and the were-boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condi"
+        "excerpt": "ller creature and the wereboar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condi"
       },
       {
         "document": 2214,
@@ -387776,7 +387706,7 @@
     "transmitted": [
       {
         "document": 646,
-        "excerpt": "incubates in sewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including otyu-ghs and rats. Any Humanoid that is wounded by a cr"
+        "excerpt": "incubates in sewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including otyughs and rats. Any Humanoid that is wounded by a cre"
       }
     ],
     "transmitting": [
@@ -388491,10 +388421,6 @@
         "excerpt": "r of the inverted version of the Magic Circle spell to trap it while this spell is cast.) At the completion of the casting, the target must succeed on a Charisma sa"
       },
       {
-        "document": 1738,
-        "excerpt": "ecting them. This ladder, staircase, or ramp ends at a trap-door leading to the roof. When created, the tower has a single door at ground level on the side facing y"
-      },
-      {
         "document": 1880,
         "excerpt": "gic action to expend 1 charge, and if a secret door or trap is within 60 feet of you, the wand pulses and points at the one nearest to you."
       }
@@ -388533,6 +388459,10 @@
       {
         "document": 717,
         "excerpt": "e to it. Examples include “If the cultist steps on the trapdoor, I'll pull the lever that opens it,\" and \"If the zombie steps next to me, I move away.\" When the trigge"
+      },
+      {
+        "document": 1738,
+        "excerpt": "ecting them. This ladder, staircase, or ramp ends at a trapdoor leading to the roof. When created, the tower has a single door at ground level on the side facing you. T"
       }
     ],
     "trapped": [
@@ -388562,7 +388492,7 @@
       },
       {
         "document": 1454,
-        "excerpt": "t be moved by any means. Hedged Prison. The target is trapped in a demi-plane that is warded against teleportation and planar travel. The demiplane is your choice of"
+        "excerpt": "t be moved by any means. Hedged Prison. The target is trapped in a demiplane that is warded against teleportation and planar travel. The demiplane is your choice of a"
       },
       {
         "document": 1475,
@@ -388772,7 +388702,7 @@
       },
       {
         "document": 1454,
-        "excerpt": "-plane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a cage, a tower, or the like. Minimus Containment. The ta"
+        "excerpt": "iplane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a cage, a tower, or the like. Minimus Containment. The ta"
       },
       {
         "document": 1474,
@@ -389611,20 +389541,8 @@
         "excerpt": "sance Trap (Levels 1–4) Trigger: A creature crosses a trip wire Duration: Instantaneous A falling net trap uses a trip wire to release a weighted, 10-foot-square"
       },
       {
-        "document": 961,
-        "excerpt": "2d8. Potent Spellcasting. When you cast a Cleric can-trip and deal damage to a creature with it, you can give vitality to yourself or another creature within 60 f"
-      },
-      {
-        "document": 962,
-        "excerpt": "below. Potent Spellcasting. When you cast a Druid can-trip with a range of 10 feet or greater, the spell's range increases by 300 feet. Primal Strike. The extra d"
-      },
-      {
         "document": 967,
         "excerpt": "ffect, you must have a Poisoner's Kit on your person. Trip (Cost: 1d6). If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the"
-      },
-      {
-        "document": 975,
-        "excerpt": "hat avoid the brunt of the effect. When you cast a can-trip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the can"
       },
       {
         "document": 982,
@@ -394700,7 +394618,7 @@
       },
       {
         "document": 1757,
-        "excerpt": "in the deck, making it possible to draw the same card twice. (Once the Fool or Jester has left the deck, re-roll on the table if that card comes up again.) Each ca"
+        "excerpt": "in the deck, making it possible to draw the same card twice. (Once the Fool or Jester has left the deck, reroll on the table if that card comes up again.) Each car"
       },
       {
         "document": 2120,
@@ -394942,7 +394860,7 @@
       },
       {
         "document": 959,
-        "excerpt": "th weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Great-axes and Handaxes. Whenever you f"
+        "excerpt": "th weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you fi"
       },
       {
         "document": 960,
@@ -395118,7 +395036,7 @@
       },
       {
         "document": 1391,
-        "excerpt": "range. The hound remains for the duration or until the two of you are more than 300 feet apart from each other. No one but you can see the hound, and it is in-tan"
+        "excerpt": "range. The hound remains for the duration or until the two of you are more than 300 feet apart from each other. No one but you can see the hound, and it is intang"
       },
       {
         "document": 1429,
@@ -395542,7 +395460,7 @@
       },
       {
         "document": 2147,
-        "excerpt": "Multiattack. The scout makes two attacks, using Short-word and Longbow in any combination. Shortsword. Melee Attack Roll: +4, reach 5 ft"
+        "excerpt": "Multiattack. The scout makes two attacks, using Shortsword and Longbow in any combination. Shortsword. Melee Attack Roll: +4, reach 5 ft"
       },
       {
         "document": 2148,
@@ -396298,7 +396216,7 @@
       },
       {
         "document": 90,
-        "excerpt": "u to attack a target within your reach. A melee attack typically uses a hand-held weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or oth"
+        "excerpt": "u to attack a target within your reach. A melee attack typically uses a handheld weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or othe"
       },
       {
         "document": 115,
@@ -397070,7 +396988,7 @@
     "unarmed": [
       {
         "document": 90,
-        "excerpt": "A melee attack typically uses a hand-held weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also invol"
+        "excerpt": "A melee attack typically uses a handheld weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also invol"
       },
       {
         "document": 93,
@@ -397288,7 +397206,7 @@
       },
       {
         "document": 1339,
-        "excerpt": "h as “yes,” “no,” “maybe,” “never,” “ir-relevant,” or “unclear” (if the entity doesn’t know the answer to the question). If a one-word answer would be misleading, the"
+        "excerpt": "ch as “yes,” “no,” “maybe,” “never,” “irrelevant,” or “unclear” (if the entity doesn’t know the answer to the question). If a one-word answer would be misleading, the"
       }
     ],
     "uncommon": [
@@ -398564,7 +398482,7 @@
       },
       {
         "document": 1797,
-        "excerpt": "you gain a Swim Speed of 60 feet, and you can breathe underwater. Spellcasting. The ring has 5 charges and re-gains 1d4 + 1 expended charges daily at dawn. While wearin"
+        "excerpt": "you gain a Swim Speed of 60 feet, and you can breathe underwater. Spellcasting. The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing"
       },
       {
         "document": 1890,
@@ -398962,7 +398880,7 @@
       },
       {
         "document": 1723,
-        "excerpt": "long range of 60 feet. If the attack hits, the weapon unleashes a thunder-clap audible out to 300 feet. The target and every creature within 30 feet of it other than yo"
+        "excerpt": "long range of 60 feet. If the attack hits, the weapon unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it other than you"
       }
     ],
     "unleashing": [
@@ -399976,7 +399894,7 @@
       },
       {
         "document": 335,
-        "excerpt": "s are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Ac-robatics) c"
+        "excerpt": "s are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) ch"
       },
       {
         "document": 400,
@@ -401700,7 +401618,7 @@
       },
       {
         "document": 1539,
-        "excerpt": "he ground or the rope reaches a ceiling. At the rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extra-dimensional space that lasts until the spell"
+        "excerpt": "he ground or the rope reaches a ceiling. At the rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extradimensional space that lasts until the spell"
       },
       {
         "document": 1819,
@@ -403474,7 +403392,7 @@
       },
       {
         "document": 90,
-        "excerpt": "k a target within your reach. A melee attack typically uses a hand-held weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other bo"
+        "excerpt": "k a target within your reach. A melee attack typically uses a handheld weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other bod"
       },
       {
         "document": 92,
@@ -405056,7 +404974,7 @@
       },
       {
         "document": 2082,
-        "excerpt": "Multiattack. The lich makes three attacks, using El-dritch Burst or Paralyzing Touch in any combination. Eldritch Burst. Melee or Ranged Attack Roll: +1"
+        "excerpt": "Multiattack. The lich makes three attacks, using Eldritch Burst or Paralyzing Touch in any combination. Eldritch Burst. Melee or Ranged Attack Roll: +12"
       },
       {
         "document": 2085,
@@ -405124,7 +405042,7 @@
       },
       {
         "document": 2147,
-        "excerpt": "Multiattack. The scout makes two attacks, using Short-word and Longbow in any combination. Shortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 +"
+        "excerpt": "Multiattack. The scout makes two attacks, using Shortsword and Longbow in any combination. Shortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 +"
       },
       {
         "document": 2148,
@@ -410242,7 +410160,7 @@
       },
       {
         "document": 1454,
-        "excerpt": "Prison. The target is trapped in a demi-plane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a cage, a tower, o"
+        "excerpt": "d Prison. The target is trapped in a demiplane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a cage, a tower, o"
       },
       {
         "document": 1475,
@@ -411833,10 +411751,6 @@
     ],
     "wave": [
       {
-        "document": 499,
-        "excerpt": "an you. Areas of Effect. Some spells, such as Thunder-wave, cover an area called an area of effect, which is defined in “Rules Glossary.” The area determines what"
-      },
-      {
         "document": 939,
         "excerpt": "Heat wave"
       },
@@ -412464,7 +412378,7 @@
       },
       {
         "document": 90,
-        "excerpt": "your reach. A melee attack typically uses a hand-held weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spe"
+        "excerpt": "n your reach. A melee attack typically uses a handheld weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spe"
       },
       {
         "document": 93,
@@ -413000,7 +412914,7 @@
       },
       {
         "document": 1596,
-        "excerpt": "S, M (a weapon with which you have proficiency and that is worth I+ CP)"
+        "excerpt": "S, M (a weapon with which you have proficiency and that is worth 1+ CP)"
       },
       {
         "document": 1633,
@@ -413968,7 +413882,7 @@
       },
       {
         "document": 1757,
-        "excerpt": "on in an extradi-dimensional sphere. Everything you're wearing and carrying disappears with you except for Artifacts, which stay behind in the space you occupied when"
+        "excerpt": "ation in an extradimensional sphere. Everything you're wearing and carrying disappears with you except for Artifacts, which stay behind in the space you occupied when"
       },
       {
         "document": 1758,
@@ -415157,10 +415071,6 @@
         "excerpt": "an move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object. Sunlight Sensit"
       },
       {
-        "document": 2202,
-        "excerpt": "If the target is a Medium or smaller creature and the were-boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Pie"
-      },
-      {
         "document": 2208,
         "excerpt": "an move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object."
       },
@@ -415694,7 +415604,7 @@
       },
       {
         "document": 959,
-        "excerpt": "apons of your choice, such as Great-axes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices. When you"
+        "excerpt": "eapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices. When you"
       },
       {
         "document": 960,
@@ -416356,7 +416266,7 @@
       },
       {
         "document": 482,
-        "excerpt": "y Symbol as a Spellcasting Focus. The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tab-ard or banner) or a Shield."
+        "excerpt": "y Symbol as a Spellcasting Focus. The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield."
       },
       {
         "document": 492,
@@ -416730,7 +416640,7 @@
       },
       {
         "document": 499,
-        "excerpt": "Thunder-wave, cover an area called an area of effect, which is defined in “Rules Glossary.” The area determines what the spell targets. The description of a spell s"
+        "excerpt": "s Thunderwave, cover an area called an area of effect, which is defined in “Rules Glossary.” The area determines what the spell targets. The description of a spell s"
       },
       {
         "document": 507,
@@ -417306,7 +417216,7 @@
       },
       {
         "document": 1596,
-        "excerpt": "S, M (a weapon with which you have proficiency and that is worth I+ CP)"
+        "excerpt": "S, M (a weapon with which you have proficiency and that is worth 1+ CP)"
       },
       {
         "document": 1603,
@@ -420170,7 +420080,7 @@
       },
       {
         "document": 1983,
-        "excerpt": "om as the spellcasting ability (spell save DC 13): At Will: Druidcraft, Speak with Animals 2/Day Each: Entangle, Thunderwave 1/Day Each: Animal Messenger, Long-s"
+        "excerpt": "om as the spellcasting ability (spell save DC 13): At Will: Druidcraft, Speak with Animals 2/Day Each: Entangle, Thunderwave 1/Day Each: Animal Messenger, Longst"
       },
       {
         "document": 1984,
@@ -421722,7 +421632,7 @@
       },
       {
         "document": 90,
-        "excerpt": "A melee attack allows you to attack a target within your reach. A melee attack typically uses a hand-held weapon or an Unarmed Strike. Many monsters make me"
+        "excerpt": "A melee attack allows you to attack a target within your reach. A melee attack typically uses a handheld weapon or an Unarmed Strike. Many monsters make mel"
       },
       {
         "document": 91,
@@ -426206,7 +426116,7 @@
       },
       {
         "document": 1339,
-        "excerpt": "the spell ends. The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “ir-relevant,” or “unclear” (if the entity doesn’t know the answ"
+        "excerpt": "the spell ends. The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “irrelevant,” or “unclear” (if the entity doesn’t know the answe"
       },
       {
         "document": 1371,
@@ -426291,10 +426201,6 @@
       {
         "document": 2126,
         "excerpt": "(3/Day). The priest casts Bless, Dispel Magic, Healing Word, or Lesser Restoration, using the same spellcasting ability as Spellcasting."
-      },
-      {
-        "document": 2147,
-        "excerpt": "Multiattack. The scout makes two attacks, using Short-word and Longbow in any combination. Shortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercin"
       },
       {
         "document": 2187,
@@ -426728,7 +426634,7 @@
       },
       {
         "document": 482,
-        "excerpt": "able indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tab-ard or banner) or a Shield."
+        "excerpt": "able indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield."
       },
       {
         "document": 779,
@@ -427182,7 +427088,7 @@
       },
       {
         "document": 1596,
-        "excerpt": "(a weapon with which you have proficiency and that is worth I+ CP)"
+        "excerpt": "(a weapon with which you have proficiency and that is worth 1+ CP)"
       },
       {
         "document": 1607,
@@ -427384,7 +427290,7 @@
       },
       {
         "document": 646,
-        "excerpt": "eas, including otyu-ghs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into contact with contaminated filth or offal mus"
+        "excerpt": "reas, including otyughs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into contact with contaminated filth or offal mus"
       },
       {
         "document": 1936,
@@ -427902,7 +427808,7 @@
       },
       {
         "document": 1339,
-        "excerpt": ". The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “ir-relevant,” or “unclear” (if the entity doesn’t know the answer to the ques"
+        "excerpt": ". The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “irrelevant,” or “unclear” (if the entity doesn’t know the answer to the quest"
       }
     ],
     "yet": [
@@ -428176,7 +428082,7 @@
       },
       {
         "document": 1757,
-        "excerpt": "animation in an extradi-dimensional sphere. Everything you're wearing and carrying disappears with you except for Artifacts, which stay behind in the space you occupi"
+        "excerpt": "ed animation in an extradimensional sphere. Everything you're wearing and carrying disappears with you except for Artifacts, which stay behind in the space you occupi"
       },
       {
         "document": 1773,

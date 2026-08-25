@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.104",
     "heading": "Gnoll Warrior",
-    "lineStart": 21106,
-    "lineEnd": 21134
+    "lineStart": 21102,
+    "lineEnd": 21130
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/gnoll-warrior/"
@@ -80,8 +80,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.104",
         "heading": "Actions",
-        "lineStart": 21124,
-        "lineEnd": 21130
+        "lineStart": 21120,
+        "lineEnd": 21126
       }
     },
     {
@@ -91,8 +91,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.104",
         "heading": "Bonus Actions",
-        "lineStart": 21132,
-        "lineEnd": 21134
+        "lineStart": 21128,
+        "lineEnd": 21130
       }
     }
   ],

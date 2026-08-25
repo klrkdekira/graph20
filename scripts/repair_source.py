@@ -1,7 +1,7 @@
 """Authoritative ground-truth source repair, table, and layout normalization for SRD_CC_v5.2.1.md.
 
 Cross-checks and normalizes MinerU OCR/conversion defects in SRD_CC_v5.2.1.md
-using the direct PyMuPDF text-layer ground truth in SRD_CC_v5.2.1.txt,
+using the owner-keyed official-PDF registry in scripts/data/,
 reformats all tables into clean, well-organized GitHub-Flavored Markdown (GFM)
 pipe tables, repairs OCR sidebar splices, class progression table positioning,
 and cleans up document layout (hyphenation, bullets, TOC, headings, and stat blocks).
@@ -17,97 +17,7 @@ import re
 import sys
 from pathlib import Path
 
-# Explicit tables where 2-column page layout in PDF places the table block
-# in the adjacent column
-EXPLICIT_TABLES = {
-    "Adult Bronze Dragon": (
-        "| STR | DEX | CON | INT | WIS | CHA |\n"
-        "| :---: | :---: | :---: | :---: | :---: | :---: |\n"
-        "| 25 (+7) | 10 (+0) | 23 (+6) | 16 (+3) | 15 (+2) | 20 (+5) |\n"
-        "| Save: +7 | Save: +5 | Save: +6 | Save: +3 | Save: +7 | Save: +5 |"
-    ),
-    "Chimera": (
-        "| STR | DEX | CON | INT | WIS | CHA |\n"
-        "| :---: | :---: | :---: | :---: | :---: | :---: |\n"
-        "| 19 (+4) | 11 (+0) | 19 (+4) | 3 (-4) | 14 (+2) | 10 (+0) |\n"
-        "| Save: +4 | Save: +0 | Save: +4 | Save: -4 | Save: +2 | Save: +0 |"
-    ),
-    "Adult Copper Dragon": (
-        "| STR | DEX | CON | INT | WIS | CHA |\n"
-        "| :---: | :---: | :---: | :---: | :---: | :---: |\n"
-        "| 23 (+6) | 12 (+1) | 21 (+5) | 18 (+4) | 15 (+2) | 18 (+4) |\n"
-        "| Save: +6 | Save: +6 | Save: +5 | Save: +4 | Save: +7 | Save: +4 |"
-    ),
-    "Ghast": (
-        "| STR | DEX | CON | INT | WIS | CHA |\n"
-        "| :---: | :---: | :---: | :---: | :---: | :---: |\n"
-        "| 16 (+3) | 17 (+3) | 10 (+0) | 11 (+0) | 10 (+0) | 8 (-1) |\n"
-        "| Save: +3 | Save: +3 | Save: +0 | Save: +0 | Save: +2 | Save: -1 |"
-    ),
-    "Homunculus": (
-        "| STR | DEX | CON | INT | WIS | CHA |\n"
-        "| :---: | :---: | :---: | :---: | :---: | :---: |\n"
-        "| 4 (-3) | 15 (+2) | 14 (+2) | 10 (+0) | 10 (+0) | 7 (-2) |\n"
-        "| Save: -3 | Save: +2 | Save: +2 | Save: +0 | Save: +2 | Save: +0 |"
-    ),
-    "Ice Mephit": (
-        "| STR | DEX | CON | INT | WIS | CHA |\n"
-        "| :---: | :---: | :---: | :---: | :---: | :---: |\n"
-        "| 7 (-2) | 13 (+1) | 10 (+0) | 9 (-1) | 11 (+0) | 12 (+1) |\n"
-        "| Save: -2 | Save: +1 | Save: +0 | Save: -1 | Save: +0 | Save: +1 |"
-    ),
-    "Quasit": (
-        "| STR | DEX | CON | INT | WIS | CHA |\n"
-        "| :---: | :---: | :---: | :---: | :---: | :---: |\n"
-        "| 5 (-3) | 17 (+3) | 10 (+0) | 7 (-2) | 10 (+0) | 10 (+0) |\n"
-        "| Save: -3 | Save: +3 | Save: +0 | Save: -2 | Save: +0 | Save: +0 |"
-    ),
-    "Roper": (
-        "| STR | DEX | CON | INT | WIS | CHA |\n"
-        "| :---: | :---: | :---: | :---: | :---: | :---: |\n"
-        "| 18 (+4) | 8 (-1) | 17 (+3) | 7 (-2) | 16 (+3) | 6 (-2) |\n"
-        "| Save: +4 | Save: -1 | Save: +3 | Save: -2 | Save: +3 | Save: -2 |"
-    ),
-}
-
-
-def get_ground_truth_monster_table(m_name: str, txt_clean: str) -> str | None:
-    if m_name in EXPLICIT_TABLES:
-        return EXPLICIT_TABLES[m_name]
-    queries = [m_name.replace("'", "’"), m_name.replace("’", "'"), m_name]
-    if m_name.endswith("s") and not m_name.endswith("ss"):
-        queries.append(m_name[:-1])
-
-    for query in queries:
-        for start_pos in [2120000, 800000]:
-            pos = start_pos
-            while True:
-                pos = txt_clean.find(query, pos)
-                if pos == -1:
-                    break
-                snippet = txt_clean[pos : pos + 3000]
-                str_match = re.search(
-                    r"Str\s+(\d+)\s+([+-]?\d+)\s+([+-]?\d+)\s+Dex\s+(\d+)\s+([+-]?\d+)\s+([+-]?\d+)\s+Con\s+(\d+)\s+([+-]?\d+)\s+([+-]?\d+)",
-                    snippet,
-                    re.I,
-                )
-                int_match = re.search(
-                    r"Int\s+(\d+)\s+([+-]?\d+)\s+([+-]?\d+)\s+Wis\s+(\d+)\s+([+-]?\d+)\s+([+-]?\d+)\s+Cha\s+(\d+)\s+([+-]?\d+)\s+([+-]?\d+)",
-                    snippet,
-                    re.I,
-                )
-                if str_match and int_match:
-                    sg = str_match.groups()
-                    ig = int_match.groups()
-                    header = "| STR | DEX | CON | INT | WIS | CHA |"
-                    sep = "| :---: | :---: | :---: | :---: | :---: | :---: |"
-                    row1 = f"| {sg[0]} ({sg[1]}) | {sg[3]} ({sg[4]}) | {sg[6]} ({sg[7]}) | {ig[0]} ({ig[1]}) | {ig[3]} ({ig[4]}) | {ig[6]} ({ig[7]}) |"
-                    row2 = f"| Save: {sg[2]} | Save: {sg[5]} | Save: {sg[8]} | Save: {ig[2]} | Save: {ig[5]} | Save: {ig[8]} |"
-                    return f"{header}\n{sep}\n{row1}\n{row2}"
-                pos += len(query)
-                if pos >= len(txt_clean):
-                    break
-    return None
+from pdf_parity import apply_registered_stat_blocks, format_stat_table, load_registry
 
 
 def html_to_gfm_table(table_html: str) -> str:
@@ -183,7 +93,7 @@ def html_to_gfm_table(table_html: str) -> str:
     return "\n".join(lines)
 
 
-def repair_source_text(md_content: str, txt_content: str = "") -> str:
+def repair_source_text(md_content: str) -> str:
     res = md_content
 
     # 1. Glued words
@@ -248,10 +158,32 @@ def repair_source_text(md_content: str, txt_content: str = "") -> str:
     # 6. OCR hyphenation anomalies
     ocr_hyphens = [
         (r"\bUn-armed\b", "Unarmed"),
+        (r"\bhand-held\b", "handheld"),
+        (r"\bGreat-axes\b", "Greataxes"),
         (r"\bspell-casting\b", "spellcasting"),
         (r"\bspell-caster\b", "spellcaster"),
         (r"\bspell-casters\b", "spellcasters"),
         (r"\bspell-cast\b", "spellcast"),
+        (r"\bcan-trip\b", "cantrip"),
+        (r"\bMeta-magic\b", "Metamagic"),
+        (r"\btab-ard\b", "tabard"),
+        (r"\bAc-robatics\b", "Acrobatics"),
+        (r"\bir-relevant\b", "irrelevant"),
+        (r"\bin-tangible\b", "intangible"),
+        (r"\bdemi-plane\b", "demiplane"),
+        (r"\bextra-dimensional\b", "extradimensional"),
+        (r"\bextradi-dimensional\b", "extradimensional"),
+        (r"\botyu-ghs\b", "otyughs"),
+        (r"\bmid-size\b", "midsize"),
+        (r"\bThunder-wave\b", "Thunderwave"),
+        (r"\bthunder-clap\b", "thunderclap"),
+        (r"\btrap-door\b", "trapdoor"),
+        (r"\bLong-strider\b", "Longstrider"),
+        (r"\bEl-dritch\b", "Eldritch"),
+        (r"\bwere-boar\b", "wereboar"),
+        (r"\bre-roll\b", "reroll"),
+        (r"\bre-gains\b", "regains"),
+        (r"\bShort-word\b", "Shortsword"),
         (r"\baddi-tional\b", "additional"),
         (r"\badvan-tage\b", "advantage"),
         (r"\bdisadvan-tage\b", "disadvantage"),
@@ -263,6 +195,16 @@ def repair_source_text(md_content: str, txt_content: str = "") -> str:
     ]
     for pat, rep in ocr_hyphens:
         res = re.sub(pat, rep, res)
+    res = res.replace("be jeweled", "bejeweled")
+    res = res.replace("Poisson damage", "Poison damage")
+    res = res.replace("level I+ Wizard spell", "level 1+ Wizard spell")
+    res = res.replace("(I Copper Piece)", "(1 Copper Piece)")
+    res = res.replace("worth I+ CP", "worth 1+ CP")
+    res = re.sub(r"\bl-(ounce|pound|inch)\b", r"1-\1", res)
+    res = res.replace(
+        "any souls the bag is holding are released. The bag can create a new bag",
+        "any souls the bag is holding are released. The hag can create a new bag",
+    )
 
     # 7. Fraction slash normalization
     res = res.replace("11⁄2 mph", "1 1/2 mph").replace("21⁄2 mph", "2 1/2 mph")
@@ -541,7 +483,7 @@ Adventurers can't spend every hour adventuring. They need rest. Any creature can
 
     # 19. HTML tables to GFM pipe tables conversion
     if "<table>" in res:
-        txt_clean = txt_content.replace("−", "-").replace("\t", " ")
+        registered_stat_blocks = load_registry()["statBlocks"]
         all_tbl_matches = list(re.finditer(r"<table>.*?</table>", res, re.S))
         replacements = []
         for t_match in all_tbl_matches:
@@ -570,9 +512,14 @@ Adventurers can't spend every hour adventuring. They need rest. Any creature can
                         ]:
                             owner = h
                             break
-                truth_tbl = get_ground_truth_monster_table(owner, txt_clean)
-                if truth_tbl:
-                    replacements.append((start_pos, end_pos, truth_tbl))
+                if owner in registered_stat_blocks:
+                    replacements.append(
+                        (
+                            start_pos,
+                            end_pos,
+                            format_stat_table(registered_stat_blocks[owner]),
+                        )
+                    )
                 else:
                     gfm = html_to_gfm_table(t_text)
                     if gfm:
@@ -926,8 +873,7 @@ Adventurers can't spend every hour adventuring. They need rest. Any creature can
         if [roll for roll, _ in rows] != expected:
             raise RuntimeError("Robe of Useful Items table rows drifted")
         table = (
-            "\nRobe of Useful Items Patches\n\n"
-            "| 1d100 | Patch |\n| :---- | :---- |\n"
+            "\n| 1d100 | Patch |\n| :---- | :---- |\n"
             + "\n".join(f"| {roll} | {value} |" for roll, value in rows)
             + "\n"
         )
@@ -943,11 +889,23 @@ Adventurers can't spend every hour adventuring. They need rest. Any creature can
         if [roll for roll, _ in rows] != ["01–50", "51–85", "86–00"]:
             raise RuntimeError("Sphere of Annihilation table rows drifted")
         table = (
-            "\nSphere Interactions\n\n| 1d100 | Result |\n| :---- | :----- |\n"
+            "\n| 1d100 | Result |\n| :---- | :----- |\n"
             + "\n".join(f"| {roll} | {value} |" for roll, value in rows)
             + "\n"
         )
         res = res[: sphere_match.start()] + table + res[sphere_match.end() :]
+
+    # Earlier normalized sources may already contain conversion-only captions
+    # for these two prose-introduced tables. Their stable record names belong
+    # in the structured extraction index, not in the authoritative wording.
+    res = res.replace(
+        "\nRobe of Useful Items Patches\n\n| 1d100 | Patch |",
+        "\n| 1d100 | Patch |",
+    )
+    res = res.replace(
+        "\nSphere Interactions\n\n| 1d100 | Result |",
+        "\n| 1d100 | Result |",
+    )
 
     # Wrapped monster stat values are single printed fields; blank lines were
     # introduced by column flow. Three AC/Initiative pairs need splitting.
@@ -968,6 +926,11 @@ Adventurers can't spend every hour adventuring. They need rest. Any creature can
     )
 
     res = res.replace("damage.You also know", "damage. You also know")
+
+    # 21e. Enforce the complete official-PDF stat-table registry after every
+    # layout relocation. This is independent of the optional text-layer file,
+    # catches wrong-owner associations, and fails if the 336-table set drifts.
+    res = apply_registered_stat_blocks(res)
 
     # The repairs above create newly adjacent stat/header lines after the
     # earlier compaction passes, so compact once more in this same run to keep
@@ -1032,20 +995,15 @@ def main() -> None:
         description="Repair, format tables, and normalize layout in SRD_CC_v5.2.1.md"
     )
     parser.add_argument("--source-md", default="SRD_CC_v5.2.1.md")
-    parser.add_argument("--source-txt", default="SRD_CC_v5.2.1.txt")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
     md_path = Path(args.source_md)
-    txt_path = Path(args.source_txt)
-
     if not md_path.exists():
         sys.exit(f"Source markdown {md_path} not found.")
 
     md_content = md_path.read_text(encoding="utf-8")
-    txt_content = txt_path.read_text(encoding="utf-8") if txt_path.exists() else ""
-
-    repaired = repair_source_text(md_content, txt_content)
+    repaired = repair_source_text(md_content)
 
     if repaired == md_content:
         print("Source file is already clean, normalized, and formatted. No changes made.")

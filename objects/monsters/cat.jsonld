@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.14",
     "heading": "Cat",
-    "lineStart": 26888,
-    "lineEnd": 26913
+    "lineStart": 26884,
+    "lineEnd": 26909
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/cat/"
@@ -81,8 +81,8 @@
         "chapter": "Animals",
         "section": "13.14",
         "heading": "Traits",
-        "lineStart": 26907,
-        "lineEnd": 26909
+        "lineStart": 26903,
+        "lineEnd": 26905
       }
     },
     {
@@ -92,8 +92,8 @@
         "chapter": "Animals",
         "section": "13.14",
         "heading": "Actions",
-        "lineStart": 26911,
-        "lineEnd": 26913
+        "lineStart": 26907,
+        "lineEnd": 26909
       }
     }
   ],

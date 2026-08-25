@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.129",
     "heading": "Half-Dragon",
-    "lineStart": 21859,
-    "lineEnd": 21895
+    "lineStart": 21855,
+    "lineEnd": 21891
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/half-dragon/"
@@ -83,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.129",
         "heading": "Traits",
-        "lineStart": 21881,
-        "lineEnd": 21883
+        "lineStart": 21877,
+        "lineEnd": 21879
       }
     },
     {
@@ -94,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.129",
         "heading": "Actions",
-        "lineStart": 21885,
-        "lineEnd": 21891
+        "lineStart": 21881,
+        "lineEnd": 21887
       }
     },
     {
@@ -105,8 +105,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.129",
         "heading": "Bonus Actions",
-        "lineStart": 21893,
-        "lineEnd": 21895
+        "lineStart": 21889,
+        "lineEnd": 21891
       }
     }
   ],

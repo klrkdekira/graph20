@@ -1,11 +1,13 @@
-.PHONY: help install source-check extract manifest bundle llms llms-full search-index collection-index coverage review review-stats vocab record-pages sitemap metrics anomalies fidelity graph test validate schema determinism check
+.PHONY: help install source-check pdf-parity extract manifest bundle llms llms-full search-index collection-index coverage review review-stats vocab record-pages sitemap metrics anomalies fidelity graph test validate schema determinism check
 
 UV ?= uv
+PDF ?=
 
 help:
 	@echo "Available targets:"
 	@echo "  install      Sync uv development dependencies"
 	@echo "  source-check Assert registered source repairs are complete and idempotent"
+	@echo "  pdf-parity   Validate Markdown against the official-PDF registry (set PDF=/path for direct verification)"
 	@echo "  extract      Re-extract objects/ from SRD_CC_v5.2.1.md"
 	@echo "  manifest     Rebuild the aggregate JSON-LD manifest"
 	@echo "  bundle       Build the single-file JSON-LD corpus"
@@ -34,6 +36,9 @@ install:
 
 source-check:
 	$(UV) run python scripts/repair_source.py --dry-run
+
+pdf-parity:
+	$(UV) run python scripts/validate_pdf_parity.py $(if $(PDF),--pdf "$(PDF)")
 
 extract:
 	$(UV) run python scripts/extract_srd.py --root .
@@ -102,4 +107,4 @@ determinism:
 # clean build BEFORE the in-place regeneration targets overwrite them; a
 # stale or hand-edited committed artifact fails the gate instead of being
 # silently rewritten.
-check: source-check determinism extract manifest bundle llms llms-full search-index collection-index coverage review vocab record-pages sitemap metrics anomalies test validate fidelity graph schema
+check: source-check pdf-parity determinism extract manifest bundle llms llms-full search-index collection-index coverage review vocab record-pages sitemap metrics anomalies test validate fidelity graph schema

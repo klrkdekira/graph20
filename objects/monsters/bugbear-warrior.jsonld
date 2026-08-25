@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.50",
     "heading": "Bugbear Warrior",
-    "lineStart": 19354,
-    "lineEnd": 19382
+    "lineStart": 19350,
+    "lineEnd": 19378
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/bugbear-warrior/"
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.50",
         "heading": "Traits",
-        "lineStart": 19374,
-        "lineEnd": 19376
+        "lineStart": 19370,
+        "lineEnd": 19372
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.50",
         "heading": "Actions",
-        "lineStart": 19378,
-        "lineEnd": 19382
+        "lineStart": 19374,
+        "lineEnd": 19378
       }
     }
   ],

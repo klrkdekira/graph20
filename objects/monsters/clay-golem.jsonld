@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.57",
     "heading": "Clay Golem",
-    "lineStart": 19564,
-    "lineEnd": 19604
+    "lineStart": 19560,
+    "lineEnd": 19600
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/clay-golem/"
@@ -45,34 +45,34 @@
   "proficiencyBonus": 4,
   "abilities": {
     "str": {
-      "score": 17,
-      "modifier": 3,
-      "savingThrow": 3
+      "score": 20,
+      "modifier": 5,
+      "savingThrow": 5
     },
     "dex": {
-      "score": 15,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 9,
+      "modifier": -1,
+      "savingThrow": -1
     },
     "con": {
-      "score": 12,
-      "modifier": 1,
-      "savingThrow": 1
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
     },
     "int": {
-      "score": 13,
-      "modifier": 1,
-      "savingThrow": 1
+      "score": 3,
+      "modifier": -4,
+      "savingThrow": -4
     },
     "wis": {
-      "score": 14,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
     },
     "cha": {
-      "score": 7,
-      "modifier": -2,
-      "savingThrow": -2
+      "score": 1,
+      "modifier": -5,
+      "savingThrow": -5
     }
   },
   "statSections": [
@@ -83,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.57",
         "heading": "Traits",
-        "lineStart": 19586,
-        "lineEnd": 19594
+        "lineStart": 19582,
+        "lineEnd": 19590
       }
     },
     {
@@ -94,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.57",
         "heading": "Actions",
-        "lineStart": 19596,
-        "lineEnd": 19600
+        "lineStart": 19592,
+        "lineEnd": 19596
       }
     },
     {
@@ -105,8 +105,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.57",
         "heading": "Bonus Actions",
-        "lineStart": 19602,
-        "lineEnd": 19604
+        "lineStart": 19598,
+        "lineEnd": 19600
       }
     }
   ],

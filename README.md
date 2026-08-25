@@ -113,7 +113,7 @@ The v0.4.0 build contains:
 | `conditions` | 15 | Rules Glossary conditions and their effects |
 | `magic-items` | 258 | Rarity variants, attunement clauses, tables, and prose |
 | `monsters` | 336 | Stat blocks, traits, actions, attacks, and ability scores |
-| **Total** | **2,226** | **18,016 in-scope, non-blank source lines covered** |
+| **Total** | **2,226** | **18,014 in-scope, non-blank source lines covered** |
 
 ## Data model and guarantees
 
@@ -127,9 +127,10 @@ The project is designed for source-backed reference and retrieval workloads:
 - **Physical provenance.** `sourceLocator` identifies the source chapter, section, heading, and inclusive line range. Nested class features and monster sections are locatable too.
 - **No invented values.** Extraction does not fill gaps in the source. A truncated table cell remains omitted rather than inferred.
 - **Reviewed normalization.** Source-conversion fixes are recorded in [`objects/sources/extraction-overrides.json`](objects/sources/extraction-overrides.json), including observed text, disposition, rationale, and affected records.
+- **Official-PDF parity.** The source is checked against the 364-page [official SRD 5.2.1 PDF](https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf) (`sha256-8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87`). Offline builds enforce all 336 owner-keyed stat tables through [`scripts/data/srd-5.2.1-pdf-parity.json`](scripts/data/srd-5.2.1-pdf-parity.json); direct verification also checks the PDF digest, page count, and pinned semantic metrics.
 - **Deterministic output.** Clean builds contain no timestamps or random ordering and must reproduce the checked-in artifacts byte for byte.
 
-The generated metrics currently report 100% interval coverage of the 18,016 in-scope, non-blank source lines and 57.6% outbound semantic-link coverage across non-source entities. Coverage means every line falls within at least one record locator; the separate fidelity, graph, schema, anomaly, publication, and review gates test stronger claims.
+The generated metrics currently report 100% interval coverage of the 18,014 in-scope, non-blank source lines and 57.6% outbound semantic-link coverage across non-source entities. Coverage means every line falls within at least one record locator; the separate fidelity, graph, schema, anomaly, publication, and review gates test stronger claims.
 
 See [SPECIFICATION.md](SPECIFICATION.md) for the source boundary, extraction grammar, architecture, and acceptance criteria. [CHECKLIST.md](CHECKLIST.md) tracks the completed replication blueprint.
 
@@ -139,12 +140,19 @@ See [SPECIFICATION.md](SPECIFICATION.md) for the source boundary, extraction gra
 
 - Python 3.12 or newer
 - [uv](https://docs.astral.sh/uv/)
+- Poppler's `pdfinfo` and `pdftotext` commands when directly revalidating the official PDF
 
 Install the locked development environment and run the full verification pipeline:
 
 ```bash
 make install
 make check
+```
+
+To repeat the direct PDF comparison after downloading the official file:
+
+```bash
+make pdf-parity PDF=/path/to/SRD_CC_v5.2.1.pdf
 ```
 
 `make check` first verifies that checked-in generated artifacts are reproducible, then rebuilds the corpus and runs every validation gate. CI also requires the working tree to remain clean after the pipeline.
@@ -165,6 +173,7 @@ make determinism
 | Target | Result |
 | --- | --- |
 | `install` | Synchronize the locked development dependencies with uv. |
+| `source-check` / `pdf-parity` | Assert source-repair idempotence and official-PDF parity; set `PDF=/path` for direct PDF verification. |
 | `extract` | Re-extract modular records from `SRD_CC_v5.2.1.md`. |
 | `manifest` / `bundle` | Rebuild the aggregate manifest and single-file graph. |
 | `llms` / `llms-full` | Regenerate the manifest-derived LLM guide and recursive full projection. |

@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.67",
     "heading": "Owl",
-    "lineStart": 28310,
-    "lineEnd": 28335
+    "lineStart": 28306,
+    "lineEnd": 28331
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/owl/"
@@ -44,22 +44,22 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 20,
-      "modifier": 5,
-      "savingThrow": 5
+      "score": 3,
+      "modifier": -4,
+      "savingThrow": -4
     },
     "dex": {
-      "score": 12,
+      "score": 13,
       "modifier": 1,
       "savingThrow": 1
     },
     "con": {
-      "score": 17,
-      "modifier": 3,
-      "savingThrow": 3
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
     },
     "int": {
-      "score": 3,
+      "score": 2,
       "modifier": -4,
       "savingThrow": -4
     },
@@ -82,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.67",
         "heading": "Traits",
-        "lineStart": 28329,
-        "lineEnd": 28331
+        "lineStart": 28325,
+        "lineEnd": 28327
       }
     },
     {
@@ -93,8 +93,8 @@
         "chapter": "Animals",
         "section": "13.67",
         "heading": "Actions",
-        "lineStart": 28333,
-        "lineEnd": 28335
+        "lineStart": 28329,
+        "lineEnd": 28331
       }
     }
   ],

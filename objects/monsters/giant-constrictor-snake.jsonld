@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.31",
     "heading": "Giant Constrictor Snake",
-    "lineStart": 27325,
-    "lineEnd": 27350
+    "lineStart": 27321,
+    "lineEnd": 27346
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/giant-constrictor-snake/"
@@ -44,24 +44,24 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 21,
-      "modifier": 5,
-      "savingThrow": 5
+      "score": 19,
+      "modifier": 4,
+      "savingThrow": 4
     },
     "dex": {
-      "score": 9,
-      "modifier": -1,
-      "savingThrow": -1
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
     },
     "con": {
-      "score": 17,
-      "modifier": 3,
-      "savingThrow": 3
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
     },
     "int": {
-      "score": 2,
-      "modifier": -4,
-      "savingThrow": -4
+      "score": 1,
+      "modifier": -5,
+      "savingThrow": -5
     },
     "wis": {
       "score": 10,
@@ -69,9 +69,9 @@
       "savingThrow": 0
     },
     "cha": {
-      "score": 7,
-      "modifier": -2,
-      "savingThrow": -2
+      "score": 3,
+      "modifier": -4,
+      "savingThrow": -4
     }
   },
   "statSections": [
@@ -82,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.31",
         "heading": "Actions",
-        "lineStart": 27344,
-        "lineEnd": 27350
+        "lineStart": 27340,
+        "lineEnd": 27346
       }
     }
   ],

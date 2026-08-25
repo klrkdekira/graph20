@@ -3,8 +3,8 @@
 Machine-readable JSON-LD 1.1 reference corpus for the System Reference Document 5.2.1 (D&D fifth edition rules, CC-BY-4.0).
 Base IRI: https://cheeleong.dev/graph20/
 Manifest: https://cheeleong.dev/graph20/objects/srd52-system-data.jsonld
-Source digest: sha256-8f037a5af23df22ea362d359e9b98563281a0359196e64c9ff4b85a1792205e6
-Corpus digest: sha256-bf71d08fb13ca35e2b107dad18bdbeed8bb4a657acf3a15b13c484ef4068c598
+Source digest: sha256-5a316f6926f0e1624426758a4c9fd5929c9887f474b5ff9aa1c8e86ad18fea37
+Corpus digest: sha256-2d92cd113aa71b2d15fe0606b9baa7a1d10004a36879a7bbe958fde04dc1e247
 
 Attribution: This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.
 
@@ -1119,7 +1119,7 @@ source: Playing the Game §1.78 (lines 673-675)
 1.78
 
 [rulesText]
-A melee attack allows you to attack a target within your reach. A melee attack typically uses a hand-held weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee attacks.
+A melee attack allows you to attack a target within your reach. A melee attack typically uses a handheld weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee attacks.
 
 ### Reach
 id: https://cheeleong.dev/graph20/objects/rules/1-79-reach
@@ -1817,7 +1817,7 @@ Unless its description notes otherwise, a wand can be used as an Arcane Focus.
 
 ### Monsters
 id: https://cheeleong.dev/graph20/objects/rules/11-1-monsters
-source: Monsters §11.1 (lines 17650-17650)
+source: Monsters §11.1 (lines 17646-17646)
 
 [section]
 11.1
@@ -1827,7 +1827,7 @@ True
 
 ### Hit Points
 id: https://cheeleong.dev/graph20/objects/rules/11-10-hit-points
-source: Monsters §11.10 (lines 17734-17753)
+source: Monsters §11.10 (lines 17730-17749)
 
 [section]
 11.10
@@ -1843,7 +1843,7 @@ For more on Hit Points, see “Playing the Game.”
 
 ### Speed
 id: https://cheeleong.dev/graph20/objects/rules/11-11-speed
-source: Monsters §11.11 (lines 17755-17757)
+source: Monsters §11.11 (lines 17751-17753)
 
 [section]
 11.11
@@ -1853,7 +1853,7 @@ The Speed entry specifies a monster's Speed. Some monsters have one or more of t
 
 ### Ability Scores
 id: https://cheeleong.dev/graph20/objects/rules/11-12-ability-scores
-source: Monsters §11.12 (lines 17759-17761)
+source: Monsters §11.12 (lines 17755-17757)
 
 [section]
 11.12
@@ -1863,7 +1863,7 @@ Every monster has six ability scores along with corresponding ability score modi
 
 ### Skills
 id: https://cheeleong.dev/graph20/objects/rules/11-13-skills
-source: Monsters §11.13 (lines 17763-17765)
+source: Monsters §11.13 (lines 17759-17761)
 
 [section]
 11.13
@@ -1873,7 +1873,7 @@ The Skills entry specifies a monster's skill proficiencies, if any. For example,
 
 ### Resistances and Vulnerabilities
 id: https://cheeleong.dev/graph20/objects/rules/11-14-resistances-and-vulnerabilities
-source: Monsters §11.14 (lines 17767-17769)
+source: Monsters §11.14 (lines 17763-17765)
 
 [section]
 11.14
@@ -1883,7 +1883,7 @@ These entries list a monster's Resistances and Vulnerabilities, if any. See “P
 
 ### RUNNING A MONSTER
 id: https://cheeleong.dev/graph20/objects/rules/11-15-running-a-monster
-source: Monsters §11.15 (lines 17771-17779)
+source: Monsters §11.15 (lines 17767-17775)
 
 [section]
 11.15
@@ -1899,7 +1899,7 @@ Bonus Actions, Reactions, Legendary Actions. If the monster has Bonus Actions, R
 
 ### Immunities
 id: https://cheeleong.dev/graph20/objects/rules/11-16-immunities
-source: Monsters §11.16 (lines 17781-17783)
+source: Monsters §11.16 (lines 17777-17779)
 
 [section]
 11.16
@@ -1909,7 +1909,7 @@ This entry lists the monster's Immunities, if any. If the monster has damage and
 
 ### Gear
 id: https://cheeleong.dev/graph20/objects/rules/11-17-gear
-source: Monsters §11.17 (lines 17785-17791)
+source: Monsters §11.17 (lines 17781-17787)
 
 [section]
 11.17
@@ -1923,7 +1923,7 @@ Equipment mentioned outside the Gear entry is considered to be supernatural or h
 
 ### Ammunition and Ranged Attacks
 id: https://cheeleong.dev/graph20/objects/rules/11-18-ammunition-and-ranged-attacks
-source: Monsters §11.18 (lines 17793-17795)
+source: Monsters §11.18 (lines 17789-17791)
 
 [section]
 11.18
@@ -1933,7 +1933,7 @@ A monster that requires ammunition to make ranged attacks carries the necessary 
 
 ### Equipping a Monster with Other Items
 id: https://cheeleong.dev/graph20/objects/rules/11-19-equipping-a-monster-with-other-items
-source: Monsters §11.19 (lines 17797-17801)
+source: Monsters §11.19 (lines 17793-17797)
 
 [section]
 11.19
@@ -1945,7 +1945,7 @@ Beware of giving a monster combat-oriented magic items, since those might alter 
 
 ### Stat Block Overview
 id: https://cheeleong.dev/graph20/objects/rules/11-2-stat-block-overview
-source: Monsters §11.2 (lines 17652-17670)
+source: Monsters §11.2 (lines 17648-17666)
 
 [section]
 11.2
@@ -1971,7 +1971,7 @@ Reactions and Legendary Actions. These sections provide Reactions and Legendary 
 
 ### Senses
 id: https://cheeleong.dev/graph20/objects/rules/11-20-senses
-source: Monsters §11.20 (lines 17803-17805)
+source: Monsters §11.20 (lines 17799-17801)
 
 [section]
 11.20
@@ -1981,7 +1981,7 @@ The Senses entry specifies a monster's Passive Perception score, as well as any 
 
 ### Languages
 id: https://cheeleong.dev/graph20/objects/rules/11-21-languages
-source: Monsters §11.21 (lines 17807-17809)
+source: Monsters §11.21 (lines 17803-17805)
 
 [section]
 11.21
@@ -1991,7 +1991,7 @@ This entry lists languages that the monster can use to communicate. Sometimes a 
 
 ### Telepathy
 id: https://cheeleong.dev/graph20/objects/rules/11-22-telepathy
-source: Monsters §11.22 (lines 17811-17813)
+source: Monsters §11.22 (lines 17807-17809)
 
 [section]
 11.22
@@ -2001,7 +2001,7 @@ Telepathy is a magical ability that allows a creature to communicate mentally wi
 
 ### Challenge Rating
 id: https://cheeleong.dev/graph20/objects/rules/11-23-challenge-rating
-source: Monsters §11.23 (lines 17815-17817)
+source: Monsters §11.23 (lines 17811-17813)
 
 [section]
 11.23
@@ -2011,7 +2011,7 @@ Challenge Rating is defined in “Rules Glossary,” while guidance on using CR 
 
 ### Experience Points
 id: https://cheeleong.dev/graph20/objects/rules/11-24-experience-points
-source: Monsters §11.24 (lines 17819-17845)
+source: Monsters §11.24 (lines 17815-17841)
 
 [section]
 11.24
@@ -2023,7 +2023,7 @@ Unless a rule says otherwise, a monster summoned by a spell or another magical a
 
 ### Proficiency Bonus
 id: https://cheeleong.dev/graph20/objects/rules/11-25-proficiency-bonus
-source: Monsters §11.25 (lines 17847-17858)
+source: Monsters §11.25 (lines 17843-17854)
 
 [section]
 11.25
@@ -2033,7 +2033,7 @@ A monster's Proficiency Bonus (PB) is determined by its CR, as shown in the Prof
 
 ### Traits
 id: https://cheeleong.dev/graph20/objects/rules/11-26-traits
-source: Monsters §11.26 (lines 17860-17862)
+source: Monsters §11.26 (lines 17856-17858)
 
 [section]
 11.26
@@ -2043,7 +2043,7 @@ A monster's traits, if any, are features that are active at all times or in cert
 
 ### Actions
 id: https://cheeleong.dev/graph20/objects/rules/11-27-actions
-source: Monsters §11.27 (lines 17864-17866)
+source: Monsters §11.27 (lines 17860-17862)
 
 [section]
 11.27
@@ -2053,7 +2053,7 @@ A monster can take the actions in this section or take one of the actions availa
 
 ### Attack Notation
 id: https://cheeleong.dev/graph20/objects/rules/11-28-attack-notation
-source: Monsters §11.28 (lines 17868-17876)
+source: Monsters §11.28 (lines 17864-17872)
 
 [section]
 11.28
@@ -2069,7 +2069,7 @@ Hit or Miss. If an attack has an effect that occurs regardless of whether it hit
 
 ### Saving Throw Effect Notation
 id: https://cheeleong.dev/graph20/objects/rules/11-29-saving-throw-effect-notation
-source: Monsters §11.29 (lines 17878-17882)
+source: Monsters §11.29 (lines 17874-17878)
 
 [section]
 11.29
@@ -2081,7 +2081,7 @@ If an effect forces a saving throw, the effect identifies the kind of save requi
 
 ### Parts of a Stat Block
 id: https://cheeleong.dev/graph20/objects/rules/11-3-parts-of-a-stat-block
-source: Monsters §11.3 (lines 17672-17674)
+source: Monsters §11.3 (lines 17668-17670)
 
 [section]
 11.3
@@ -2091,7 +2091,7 @@ The rules for a stat block are detailed in “Rules Glossary” and in this sect
 
 ### Damage Notation
 id: https://cheeleong.dev/graph20/objects/rules/11-30-damage-notation
-source: Monsters §11.30 (lines 17884-17886)
+source: Monsters §11.30 (lines 17880-17882)
 
 [section]
 11.30
@@ -2101,7 +2101,7 @@ A stat block usually provides both a number and a die expression for each instan
 
 ### Multiattack
 id: https://cheeleong.dev/graph20/objects/rules/11-31-multiattack
-source: Monsters §11.31 (lines 17888-17890)
+source: Monsters §11.31 (lines 17884-17886)
 
 [section]
 11.31
@@ -2111,7 +2111,7 @@ Some creatures can make more than one attack when they take the Attack action. S
 
 ### Spellcasting
 id: https://cheeleong.dev/graph20/objects/rules/11-32-spellcasting
-source: Monsters §11.32 (lines 17892-17900)
+source: Monsters §11.32 (lines 17888-17896)
 
 [section]
 11.32
@@ -2127,7 +2127,7 @@ Casting Times of 1+ Minutes. If a spell has a casting time of 1 minute or more y
 
 ### Bonus Action
 id: https://cheeleong.dev/graph20/objects/rules/11-33-bonus-action
-source: Monsters §11.33 (lines 17902-17904)
+source: Monsters §11.33 (lines 17898-17900)
 
 [section]
 11.33
@@ -2137,7 +2137,7 @@ If a monster has Bonus Action options, they are listed in this section. See “P
 
 ### Reactions
 id: https://cheeleong.dev/graph20/objects/rules/11-34-reactions
-source: Monsters §11.34 (lines 17906-17908)
+source: Monsters §11.34 (lines 17902-17904)
 
 [section]
 11.34
@@ -2147,7 +2147,7 @@ If the monster has Reaction options, those are listed in this section along with
 
 ### Legendary Actions
 id: https://cheeleong.dev/graph20/objects/rules/11-35-legendary-actions
-source: Monsters §11.35 (lines 17910-17914)
+source: Monsters §11.35 (lines 17906-17910)
 
 [section]
 11.35
@@ -2159,7 +2159,7 @@ The monster has a limited number of Legendary Action uses, and that number is sp
 
 ### Limited Usage
 id: https://cheeleong.dev/graph20/objects/rules/11-36-limited-usage
-source: Monsters §11.36 (lines 17916-17926)
+source: Monsters §11.36 (lines 17912-17922)
 
 [section]
 11.36
@@ -2175,7 +2175,7 @@ Recharge after a Short or Long Rest. This notation means the monster can use the
 
 ### Size
 id: https://cheeleong.dev/graph20/objects/rules/11-4-size
-source: Monsters §11.4 (lines 17676-17678)
+source: Monsters §11.4 (lines 17672-17674)
 
 [section]
 11.4
@@ -2185,7 +2185,7 @@ A monster is Tiny, Small, Medium, Large, Huge, or Gargantuan. If size options ar
 
 ### Creature Type
 id: https://cheeleong.dev/graph20/objects/rules/11-5-creature-type
-source: Monsters §11.5 (lines 17680-17712)
+source: Monsters §11.5 (lines 17676-17708)
 
 [section]
 11.5
@@ -2225,7 +2225,7 @@ Undead are spirits and the reanimated dead, such as ghosts, vampires, and zombie
 
 ### Descriptive Tags
 id: https://cheeleong.dev/graph20/objects/rules/11-6-descriptive-tags
-source: Monsters §11.6 (lines 17714-17716)
+source: Monsters §11.6 (lines 17710-17712)
 
 [section]
 11.6
@@ -2235,7 +2235,7 @@ A monster might have one or more tags in parentheses following its type. Such ta
 
 ### Alignment
 id: https://cheeleong.dev/graph20/objects/rules/11-7-alignment
-source: Monsters §11.7 (lines 17718-17722)
+source: Monsters §11.7 (lines 17714-17718)
 
 [section]
 11.7
@@ -2247,7 +2247,7 @@ The alignment specified in a monster's stat block is a default suggestion of how
 
 ### Armor Class
 id: https://cheeleong.dev/graph20/objects/rules/11-8-armor-class
-source: Monsters §11.8 (lines 17724-17726)
+source: Monsters §11.8 (lines 17720-17722)
 
 [section]
 11.8
@@ -2257,7 +2257,7 @@ A monster's Armor Class (AC) includes its natural armor, Dexterity, gear, and ot
 
 ### Initiative
 id: https://cheeleong.dev/graph20/objects/rules/11-9-initiative
-source: Monsters §11.9 (lines 17728-17732)
+source: Monsters §11.9 (lines 17724-17728)
 
 [section]
 11.9
@@ -2269,7 +2269,7 @@ If you don't want to roll a monster's Initiative, use the Initiative score as th
 
 ### Monsters A-Z
 id: https://cheeleong.dev/graph20/objects/rules/12-1-monsters-a-z
-source: Monsters A-Z §12.1 (lines 17928-17928)
+source: Monsters A-Z §12.1 (lines 17924-17924)
 
 [section]
 12.1
@@ -2279,7 +2279,7 @@ True
 
 ### Awakened Plants
 id: https://cheeleong.dev/graph20/objects/rules/12-10-awakened-plants
-source: Monsters A-Z §12.10 (lines 18166-18166)
+source: Monsters A-Z §12.10 (lines 18162-18162)
 
 [section]
 12.10
@@ -2289,7 +2289,7 @@ True
 
 ### Gnoll
 id: https://cheeleong.dev/graph20/objects/rules/12-103-gnoll
-source: Monsters A-Z §12.103 (lines 21104-21104)
+source: Monsters A-Z §12.103 (lines 21100-21100)
 
 [section]
 12.103
@@ -2299,7 +2299,7 @@ True
 
 ### Goblins
 id: https://cheeleong.dev/graph20/objects/rules/12-105-goblins
-source: Monsters A-Z §12.105 (lines 21136-21136)
+source: Monsters A-Z §12.105 (lines 21132-21132)
 
 [section]
 12.105
@@ -2309,7 +2309,7 @@ True
 
 ### Gold Dragons
 id: https://cheeleong.dev/graph20/objects/rules/12-109-gold-dragons
-source: Monsters A-Z §12.109 (lines 21234-21234)
+source: Monsters A-Z §12.109 (lines 21230-21230)
 
 [section]
 12.109
@@ -2319,7 +2319,7 @@ True
 
 ### Green Dragons
 id: https://cheeleong.dev/graph20/objects/rules/12-116-green-dragons
-source: Monsters A-Z §12.116 (lines 21477-21477)
+source: Monsters A-Z §12.116 (lines 21473-21473)
 
 [section]
 12.116
@@ -2329,7 +2329,7 @@ True
 
 ### Guards
 id: https://cheeleong.dev/graph20/objects/rules/12-126-guards
-source: Monsters A-Z §12.126 (lines 21805-21805)
+source: Monsters A-Z §12.126 (lines 21801-21801)
 
 [section]
 12.126
@@ -2339,7 +2339,7 @@ True
 
 ### Hobgoblins
 id: https://cheeleong.dev/graph20/objects/rules/12-135-hobgoblins
-source: Monsters A-Z §12.135 (lines 22057-22057)
+source: Monsters A-Z §12.135 (lines 22053-22053)
 
 [section]
 12.135
@@ -2349,7 +2349,7 @@ True
 
 ### Azer
 id: https://cheeleong.dev/graph20/objects/rules/12-14-azer
-source: Monsters A-Z §12.14 (lines 18242-18242)
+source: Monsters A-Z §12.14 (lines 18238-18238)
 
 [section]
 12.14
@@ -2359,7 +2359,7 @@ True
 
 ### Kobold
 id: https://cheeleong.dev/graph20/objects/rules/12-147-kobold
-source: Monsters A-Z §12.147 (lines 22451-22451)
+source: Monsters A-Z §12.147 (lines 22447-22447)
 
 [section]
 12.147
@@ -2369,7 +2369,7 @@ True
 
 ### Mages
 id: https://cheeleong.dev/graph20/objects/rules/12-153-mages
-source: Monsters A-Z §12.153 (lines 22663-22663)
+source: Monsters A-Z §12.153 (lines 22659-22659)
 
 [section]
 12.153
@@ -2379,7 +2379,7 @@ True
 
 ### Mephits
 id: https://cheeleong.dev/graph20/objects/rules/12-160-mephits
-source: Monsters A-Z §12.160 (lines 22898-22898)
+source: Monsters A-Z §12.160 (lines 22894-22894)
 
 [section]
 12.160
@@ -2389,7 +2389,7 @@ True
 
 ### Merfolk
 id: https://cheeleong.dev/graph20/objects/rules/12-165-merfolk
-source: Monsters A-Z §12.165 (lines 23029-23029)
+source: Monsters A-Z §12.165 (lines 23025-23025)
 
 [section]
 12.165
@@ -2399,7 +2399,7 @@ True
 
 ### Bandits
 id: https://cheeleong.dev/graph20/objects/rules/12-17-bandits
-source: Monsters A-Z §12.17 (lines 18321-18321)
+source: Monsters A-Z §12.17 (lines 18317-18317)
 
 [section]
 12.17
@@ -2409,7 +2409,7 @@ True
 
 ### Mummies
 id: https://cheeleong.dev/graph20/objects/rules/12-170-mummies
-source: Monsters A-Z §12.170 (lines 23155-23155)
+source: Monsters A-Z §12.170 (lines 23151-23151)
 
 [section]
 12.170
@@ -2419,7 +2419,7 @@ True
 
 ### Pirates
 id: https://cheeleong.dev/graph20/objects/rules/12-184-pirates
-source: Monsters A-Z §12.184 (lines 23638-23638)
+source: Monsters A-Z §12.184 (lines 23634-23634)
 
 [section]
 12.184
@@ -2429,7 +2429,7 @@ True
 
 ### Priests
 id: https://cheeleong.dev/graph20/objects/rules/12-189-priests
-source: Monsters A-Z §12.189 (lines 23798-23798)
+source: Monsters A-Z §12.189 (lines 23794-23794)
 
 [section]
 12.189
@@ -2439,7 +2439,7 @@ True
 
 ### Red Dragons
 id: https://cheeleong.dev/graph20/objects/rules/12-196-red-dragons
-source: Monsters A-Z §12.196 (lines 24025-24025)
+source: Monsters A-Z §12.196 (lines 24021-24021)
 
 [section]
 12.196
@@ -2449,7 +2449,7 @@ True
 
 ### Sahuagin
 id: https://cheeleong.dev/graph20/objects/rules/12-205-sahuagin
-source: Monsters A-Z §12.205 (lines 24324-24324)
+source: Monsters A-Z §12.205 (lines 24320-24320)
 
 [section]
 12.205
@@ -2459,7 +2459,7 @@ True
 
 ### Silver Dragons
 id: https://cheeleong.dev/graph20/objects/rules/12-214-silver-dragons
-source: Monsters A-Z §12.214 (lines 24611-24611)
+source: Monsters A-Z §12.214 (lines 24607-24607)
 
 [section]
 12.214
@@ -2469,7 +2469,7 @@ True
 
 ### Skeletons
 id: https://cheeleong.dev/graph20/objects/rules/12-219-skeletons
-source: Monsters A-Z §12.219 (lines 24776-24776)
+source: Monsters A-Z §12.219 (lines 24772-24772)
 
 [section]
 12.219
@@ -2479,7 +2479,7 @@ True
 
 ### Sphinxes
 id: https://cheeleong.dev/graph20/objects/rules/12-225-sphinxes
-source: Monsters A-Z §12.225 (lines 24945-24945)
+source: Monsters A-Z §12.225 (lines 24941-24941)
 
 [section]
 12.225
@@ -2489,7 +2489,7 @@ True
 
 ### Toughs
 id: https://cheeleong.dev/graph20/objects/rules/12-238-toughs
-source: Monsters A-Z §12.238 (lines 25429-25429)
+source: Monsters A-Z §12.238 (lines 25425-25425)
 
 [section]
 12.238
@@ -2499,7 +2499,7 @@ True
 
 ### Vampires
 id: https://cheeleong.dev/graph20/objects/rules/12-245-vampires
-source: Monsters A-Z §12.245 (lines 25648-25648)
+source: Monsters A-Z §12.245 (lines 25644-25644)
 
 [section]
 12.245
@@ -2509,7 +2509,7 @@ True
 
 ### Black Dragons
 id: https://cheeleong.dev/graph20/objects/rules/12-25-black-dragons
-source: Monsters A-Z §12.25 (lines 18553-18553)
+source: Monsters A-Z §12.25 (lines 18549-18549)
 
 [section]
 12.25
@@ -2519,7 +2519,7 @@ True
 
 ### Warriors
 id: https://cheeleong.dev/graph20/objects/rules/12-250-warriors
-source: Monsters A-Z §12.250 (lines 25838-25838)
+source: Monsters A-Z §12.250 (lines 25834-25834)
 
 [section]
 12.250
@@ -2529,7 +2529,7 @@ True
 
 ### White Dragons
 id: https://cheeleong.dev/graph20/objects/rules/12-259-white-dragons
-source: Monsters A-Z §12.259 (lines 26125-26125)
+source: Monsters A-Z §12.259 (lines 26121-26121)
 
 [section]
 12.259
@@ -2539,7 +2539,7 @@ True
 
 ### Zombies
 id: https://cheeleong.dev/graph20/objects/rules/12-271-zombies
-source: Monsters A-Z §12.271 (lines 26524-26524)
+source: Monsters A-Z §12.271 (lines 26520-26520)
 
 [section]
 12.271
@@ -2549,7 +2549,7 @@ True
 
 ### Blue Dragons
 id: https://cheeleong.dev/graph20/objects/rules/12-32-blue-dragons
-source: Monsters A-Z §12.32 (lines 18787-18787)
+source: Monsters A-Z §12.32 (lines 18783-18783)
 
 [section]
 12.32
@@ -2559,7 +2559,7 @@ True
 
 ### Brass Dragons
 id: https://cheeleong.dev/graph20/objects/rules/12-38-brass-dragons
-source: Monsters A-Z §12.38 (lines 18980-18980)
+source: Monsters A-Z §12.38 (lines 18976-18976)
 
 [section]
 12.38
@@ -2569,7 +2569,7 @@ True
 
 ### Animated Objects
 id: https://cheeleong.dev/graph20/objects/rules/12-4-animated-objects
-source: Monsters A-Z §12.4 (lines 18022-18022)
+source: Monsters A-Z §12.4 (lines 18018-18018)
 
 [section]
 12.4
@@ -2579,7 +2579,7 @@ True
 
 ### Bronze Dragons
 id: https://cheeleong.dev/graph20/objects/rules/12-43-bronze-dragons
-source: Monsters A-Z §12.43 (lines 19140-19140)
+source: Monsters A-Z §12.43 (lines 19136-19136)
 
 [section]
 12.43
@@ -2589,7 +2589,7 @@ True
 
 ### Bugbears
 id: https://cheeleong.dev/graph20/objects/rules/12-48-bugbears
-source: Monsters A-Z §12.48 (lines 19316-19316)
+source: Monsters A-Z §12.48 (lines 19312-19312)
 
 [section]
 12.48
@@ -2599,7 +2599,7 @@ True
 
 ### Centaur
 id: https://cheeleong.dev/graph20/objects/rules/12-52-centaur
-source: Monsters A-Z §12.52 (lines 19417-19417)
+source: Monsters A-Z §12.52 (lines 19413-19413)
 
 [section]
 12.52
@@ -2609,7 +2609,7 @@ True
 
 ### Copper Dragons
 id: https://cheeleong.dev/graph20/objects/rules/12-62-copper-dragons
-source: Monsters A-Z §12.62 (lines 19741-19741)
+source: Monsters A-Z §12.62 (lines 19737-19737)
 
 [section]
 12.62
@@ -2619,7 +2619,7 @@ True
 
 ### Crawling Claw
 id: https://cheeleong.dev/graph20/objects/rules/12-68-crawling-claw
-source: Monsters A-Z §12.68 (lines 19946-19946)
+source: Monsters A-Z §12.68 (lines 19942-19942)
 
 [section]
 12.68
@@ -2629,7 +2629,7 @@ True
 
 ### Cultists
 id: https://cheeleong.dev/graph20/objects/rules/12-70-cultists
-source: Monsters A-Z §12.70 (lines 19976-19976)
+source: Monsters A-Z §12.70 (lines 19972-19972)
 
 [section]
 12.70
@@ -2639,7 +2639,7 @@ True
 
 ### Fungi
 id: https://cheeleong.dev/graph20/objects/rules/12-92-fungi
-source: Monsters A-Z §12.92 (lines 20761-20761)
+source: Monsters A-Z §12.92 (lines 20757-20757)
 
 [section]
 12.92
@@ -2649,7 +2649,7 @@ True
 
 ### Animals
 id: https://cheeleong.dev/graph20/objects/rules/13-1-animals
-source: Animals §13.1 (lines 26582-26582)
+source: Animals §13.1 (lines 26578-26578)
 
 [section]
 13.1
@@ -3960,7 +3960,7 @@ source: Equipment §6.129 (lines 6719-6723)
 [rulesText]
 As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.
 
-You can bind an unwilling creature with the Rope only if the creature has the Grappled, Incapacitated, or Restrained condition. If the creature's legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Ac-robatics) check as an action.
+You can bind an unwilling creature with the Rope only if the creature has the Grappled, Incapacitated, or Restrained condition. If the creature's legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.
 
 ### Reach
 id: https://cheeleong.dev/graph20/objects/rules/6-13-reach
@@ -5244,7 +5244,7 @@ source: Equipment §6.66 (lines 6423-6435)
 6.66
 
 [rulesText]
-An Arcane Focus takes one of the forms in the Arcane Focuses table and is be jeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.
+An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.
 
 ### Backpack (2 GP)
 id: https://cheeleong.dev/graph20/objects/rules/6-67-backpack-2-gp
@@ -5606,9 +5606,9 @@ source: Equipment §6.99 (lines 6575-6587)
 6.99
 
 [rulesText]
-A Holy Symbol takes one of the forms in the Holy Symbol table and is be jeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.
+A Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.
 
-The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tab-ard or banner) or a Shield.
+The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield.
 
 ### Spells
 id: https://cheeleong.dev/graph20/objects/rules/7-1-spells
@@ -5808,7 +5808,7 @@ A Clear Path to the Target. To target something with a spell, a caster must have
 
 Targeting Yourself. If a spell targets a creature of your choice, you can choose yourself unless the creature must be Hostile or specifically a creature other than you.
 
-Areas of Effect. Some spells, such as Thunder-wave, cover an area called an area of effect, which is defined in “Rules Glossary.” The area determines what the spell targets. The description of a spell specifies whether it has an area of effect, which is typically one of these shapes: Cone, Cube, Cylinder, Emanation, Line, or Sphere.
+Areas of Effect. Some spells, such as Thunderwave, cover an area called an area of effect, which is defined in “Rules Glossary.” The area determines what the spell targets. The description of a spell specifies whether it has an area of effect, which is typically one of these shapes: Cone, Cube, Cylinder, Emanation, Line, or Sphere.
 
 Awareness of Being Targeted. Unless a spell has a perceptible effect, a creature doesn't know it was targeted by the spell. An effect like lightning is obvious, but a more subtle effect, such as an attempt to read thoughts, goes unnoticed unless a spell's description says otherwise.
 
@@ -7562,7 +7562,7 @@ source: Gameplay Toolbox §9.25 (lines 13912-13924)
 [rulesText]
 Magical Contagion
 
-Fouled potions and alchemical waste can give rise to Sewer Plague, which incubates in sewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including otyu-ghs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into contact with contaminated filth or offal must succeed on a DC 11 Constitution saving throw or become infected with Sewer Plague. A creature suffers the following effects 1d4 days after infection:
+Fouled potions and alchemical waste can give rise to Sewer Plague, which incubates in sewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including otyughs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into contact with contaminated filth or offal must succeed on a DC 11 Constitution saving throw or become infected with Sewer Plague. A creature suffers the following effects 1d4 days after infection:
 
 Fatigue. The creature gains 1 Exhaustion level.
 
@@ -8036,10 +8036,10 @@ source: Gameplay Toolbox §9.57 (lines 14132-14136)
 [rulesText]
 Injury Poison
 
-A creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poisson damage on a failed save or half as much damage on a successful one.
+A creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poison damage on a failed save or half as much damage on a successful one.
 
 [fixedDCs[0].sourceText]
-Injury Poison A creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poisson damage on a failed save or half as much damage o
+Injury Poison A creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poison damage on a failed save or half as much damage on
 
 ### Traps
 id: https://cheeleong.dev/graph20/objects/rules/9-58-traps
@@ -9436,7 +9436,7 @@ source: Magic Items §10.214 (lines 16757-16760)
 
 ### Robe of Useful Items Patches
 id: https://cheeleong.dev/graph20/objects/tables/10-228-robe-of-useful-items-patches
-source: Magic Items §10.228 (lines 16892-16906)
+source: Magic Items §10.228 (lines 16890-16904)
 
 [rows[10].position]
 11
@@ -9463,7 +9463,7 @@ source: Magic Items §10.228 (lines 16892-16906)
 
 ### Spell Scroll Table 1
 id: https://cheeleong.dev/graph20/objects/tables/10-247-spell-scroll-table-1
-source: Magic Items §10.247 (lines 17096-17107)
+source: Magic Items §10.247 (lines 17094-17105)
 
 [rawText]
 | Spell Level | Rarity   | Save DC | Attack Bonus |
@@ -9481,7 +9481,7 @@ source: Magic Items §10.247 (lines 17096-17107)
 
 ### Sphere Interactions
 id: https://cheeleong.dev/graph20/objects/tables/10-248-sphere-interactions
-source: Magic Items §10.248 (lines 17127-17131)
+source: Magic Items §10.248 (lines 17123-17127)
 
 [rows[1].position]
 2
@@ -9542,7 +9542,7 @@ source: Magic Items §10.25 (lines 14618-14628)
 
 ### Staff of Fire Table 1
 id: https://cheeleong.dev/graph20/objects/tables/10-250-staff-of-fire-table-1
-source: Magic Items §10.250 (lines 17155-17158)
+source: Magic Items §10.250 (lines 17151-17154)
 
 [rows[1].position]
 2
@@ -9555,7 +9555,7 @@ source: Magic Items §10.250 (lines 17155-17158)
 
 ### Staff of Frost Table 1
 id: https://cheeleong.dev/graph20/objects/tables/10-251-staff-of-frost-table-1
-source: Magic Items §10.251 (lines 17170-17173)
+source: Magic Items §10.251 (lines 17166-17169)
 
 [rows[1].position]
 2
@@ -9568,7 +9568,7 @@ source: Magic Items §10.251 (lines 17170-17173)
 
 ### Staff of Healing Table 1
 id: https://cheeleong.dev/graph20/objects/tables/10-252-staff-of-healing-table-1
-source: Magic Items §10.252 (lines 17183-17187)
+source: Magic Items §10.252 (lines 17179-17183)
 
 [rows[2].position]
 3
@@ -9582,7 +9582,7 @@ source: Magic Items §10.252 (lines 17183-17187)
 
 ### Staff of Power Table 1
 id: https://cheeleong.dev/graph20/objects/tables/10-253-staff-of-power-table-1
-source: Magic Items §10.253 (lines 17199-17209)
+source: Magic Items §10.253 (lines 17195-17205)
 
 [rows[2].position]
 3
@@ -9614,7 +9614,7 @@ source: Magic Items §10.253 (lines 17199-17209)
 
 ### Staff of Swarming Insects Table 1
 id: https://cheeleong.dev/graph20/objects/tables/10-255-staff-of-swarming-insects-table-1
-source: Magic Items §10.255 (lines 17237-17240)
+source: Magic Items §10.255 (lines 17233-17236)
 
 [rows[0].position]
 1
@@ -9630,7 +9630,7 @@ source: Magic Items §10.255 (lines 17237-17240)
 
 ### Staff of the Magi Table 1
 id: https://cheeleong.dev/graph20/objects/tables/10-256-staff-of-the-magi-table-1
-source: Magic Items §10.256 (lines 17254-17274)
+source: Magic Items §10.256 (lines 17250-17270)
 
 [rows[9].position]
 10
@@ -9687,7 +9687,7 @@ source: Magic Items §10.256 (lines 17254-17274)
 
 ### Staff of the Woodlands Table 1
 id: https://cheeleong.dev/graph20/objects/tables/10-258-staff-of-the-woodlands-table-1
-source: Magic Items §10.258 (lines 17300-17309)
+source: Magic Items §10.258 (lines 17296-17305)
 
 [rows[3].position]
 4
@@ -9731,7 +9731,7 @@ source: Magic Items §10.27 (lines 14650-14656)
 
 ### Wand of Binding Table 1
 id: https://cheeleong.dev/graph20/objects/tables/10-278-wand-of-binding-table-1
-source: Magic Items §10.278 (lines 17472-17475)
+source: Magic Items §10.278 (lines 17468-17471)
 
 [rows[0].position]
 1
@@ -9744,7 +9744,7 @@ source: Magic Items §10.278 (lines 17472-17475)
 
 ### Wand of Fear Table 1
 id: https://cheeleong.dev/graph20/objects/tables/10-280-wand-of-fear-table-1
-source: Magic Items §10.280 (lines 17495-17498)
+source: Magic Items §10.280 (lines 17491-17494)
 
 [rows[1].position]
 2
@@ -9757,7 +9757,7 @@ source: Magic Items §10.280 (lines 17495-17498)
 
 ### Wand of Wonder Effects
 id: https://cheeleong.dev/graph20/objects/tables/10-290-wand-of-wonder-effects
-source: Magic Items §10.290 (lines 17578-17602)
+source: Magic Items §10.290 (lines 17574-17598)
 
 [rows[10].position]
 11
@@ -10179,7 +10179,7 @@ source: Magic Items §10.97 (lines 15444-15450)
 
 ### Hit Dice by Size
 id: https://cheeleong.dev/graph20/objects/tables/11-10-hit-dice-by-size
-source: Monsters §11.10 (lines 17742-17749)
+source: Monsters §11.10 (lines 17738-17745)
 
 [rawText]
 | Monster Size | Hit Die | Average HP per Die |
@@ -10193,7 +10193,7 @@ source: Monsters §11.10 (lines 17742-17749)
 
 ### Experience Points by Challenge Rating
 id: https://cheeleong.dev/graph20/objects/tables/11-24-experience-points-by-challenge-rating
-source: Monsters §11.24 (lines 17827-17845)
+source: Monsters §11.24 (lines 17823-17841)
 
 [rawText]
 | CR  | XP      | CR  | XP      |
@@ -10218,7 +10218,7 @@ source: Monsters §11.24 (lines 17827-17845)
 
 ### Proficiency Bonus by Challenge Rating
 id: https://cheeleong.dev/graph20/objects/tables/11-25-proficiency-bonus-by-challenge-rating
-source: Monsters §11.25 (lines 17853-17858)
+source: Monsters §11.25 (lines 17849-17854)
 
 [rawText]
 | CR    | PB  | CR    | PB  |
@@ -10505,14 +10505,14 @@ source: Character Creation §2.45 (lines 1369-1470)
 | 08    | A small idol depicting a nightmarish creature that gives you unsettling dreams when you sleep near it |
 | 09    | A lock of someone’s hair                                                                              |
 | 10    | The deed for a parcel of land in a realm unknown to you                                               |
-| 11    | A l-ounce block made from an unknown material                                                         |
+| 11    | A 1-ounce block made from an unknown material                                                         |
 | 12    | A small cloth doll skewered with needles                                                              |
 | 13    | A tooth from an unknown beast                                                                         |
 | 14    | An enormous scale, perhaps from a dragon                                                              |
 | 15    | A bright-green feather                                                                                |
 | 16    | An old divination card bearing your likeness                                                          |
 | 17    | A glass orb filled with moving smoke                                                                  |
-| 18    | A l-pound egg with a bright-red shell                                                                 |
+| 18    | A 1-pound egg with a bright-red shell                                                                 |
 | 19    | A pipe that blows bubbles                                                                             |
 | 20    | A glass jar containing a bit of flesh floating in pickling fluid                                      |
 | 21    | A gnome-crafted music box that plays a song you dimly remember from your childhood                    |
@@ -10562,7 +10562,7 @@ source: Character Creation §2.45 (lines 1369-1470)
 | 65 | A nightcap that gives you pleasant dreams when you wear it |
 | 66 | A single caltrop made from bone |
 | 67 | A gold monocle frame without the lens |
-| 68 | A l-inch cube, each side a different color |
+| 68 | A 1-inch cube, each side a different color |
 | 69 | A crystal doorknob |
 | 70 | A packet filled with pink dust |
 | 71 | A fragment of a beautiful song, written as musical notes on two pieces of parchment |
@@ -16011,7 +16011,7 @@ Unarmored Defense
 While you aren't wearing any armor, your base Armor Class equals 10 plus your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit.
 
 [features[2].rulesText]
-Your training with weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Great-axes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.
+Your training with weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.
 
 When you reach certain Barbarian levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian Features table.
 
@@ -16434,7 +16434,7 @@ The option you chose for Blessed Strikes grows more powerful.
 
 Divine Strike. The extra damage of your Divine Strike increases to 2d8.
 
-Potent Spellcasting. When you cast a Cleric can-trip and deal damage to a creature with it, you can give vitality to yourself or another creature within 60 feet of yourself, granting a number of Temporary Hit Points equal to twice your Wisdom modifier.
+Potent Spellcasting. When you cast a Cleric cantrip and deal damage to a creature with it, you can give vitality to yourself or another creature within 60 feet of yourself, granting a number of Temporary Hit Points equal to twice your Wisdom modifier.
 
 [features[9].level]
 19
@@ -16616,7 +16616,7 @@ Improved Elemental Fury
 [features[9].rulesText]
 The option you chose for Elemental Fury grows more powerful, as detailed below.
 
-Potent Spellcasting. When you cast a Druid can-trip with a range of 10 feet or greater, the spell's range increases by 300 feet.
+Potent Spellcasting. When you cast a Druid cantrip with a range of 10 feet or greater, the spell's range increases by 300 feet.
 
 Primal Strike. The extra damage of your Primal Strike increases to 2d8.
 
@@ -17797,7 +17797,7 @@ As a Sorcerer, you gain the following class features when you reach the specifie
 
 Metamagic Options
 
-The following options are available to your Meta-magic feature. The options are presented in alphabetical order.
+The following options are available to your Metamagic feature. The options are presented in alphabetical order.
 
 ### Warlock
 id: https://cheeleong.dev/graph20/objects/classes/warlock
@@ -18094,7 +18094,7 @@ Expanding and Replacing a Spellbook
 
 The spells you add to your spellbook as you gain levels reflect your ongoing magical research, but you might find other spells during your adventures that you can add to the book. You could discover a Wizard spell on a Spell Scroll, for example, and then copy it into your spellbook.
 
-Copying a Spell into the Book. When you find a level I+ Wizard spell, you can copy it into your spellbook if it's of a level you can prepare and if you have time to copy it. For each level of the spell, the transcription takes 2 hours and costs 50 GP. Afterward you can prepare the spell like the other spells in your spellbook.
+Copying a Spell into the Book. When you find a level 1+ Wizard spell, you can copy it into your spellbook if it's of a level you can prepare and if you have time to copy it. For each level of the spell, the transcription takes 2 hours and costs 50 GP. Afterward you can prepare the spell like the other spells in your spellbook.
 
 Copying the Book. You can copy a spell from your spellbook into another book. This is like copying a new spell into your spellbook but faster, since you already know how to cast the spell. You need spend only 1 hour and 10 GP for each level of the copied spell.
 
@@ -18325,7 +18325,7 @@ In addition, whenever you gain access to a new level of spell slots in this clas
 Potent Cantrip
 
 [features[1].rulesText]
-Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a can-trip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip.
+Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a cantrip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip.
 
 [features[2].level]
 6
@@ -26129,7 +26129,7 @@ Range: Self
 Components: V
 Duration: 1 minute
 
-You mentally contact a demigod, the spirit of a long-dead sage, or some other knowledgeable entity from another plane. Contacting this otherworldly intelligence can break your mind. When you cast this spell, make a DC 15 Intelligence saving throw. On a successful save, you can ask the entity up to five questions. You must ask your questions before the spell ends. The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “ir-relevant,” or “unclear” (if the entity doesn’t know the answer to the question). If a one-word answer would be misleading, the GM might instead offer a short phrase as an answer.
+You mentally contact a demigod, the spirit of a long-dead sage, or some other knowledgeable entity from another plane. Contacting this otherworldly intelligence can break your mind. When you cast this spell, make a DC 15 Intelligence saving throw. On a successful save, you can ask the entity up to five questions. You must ask your questions before the spell ends. The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “irrelevant,” or “unclear” (if the entity doesn’t know the answer to the question). If a one-word answer would be misleading, the GM might instead offer a short phrase as an answer.
 
 On a failed save, you take 6d6 Psychic damage and have the Incapacitated condition until you finish a Long Rest. A Greater Restoration spell cast on you ends this effect.
 
@@ -26759,7 +26759,7 @@ Level 2 Divination (Bard, Sorcerer, Wizard)
 
 Casting Time: Action
 Range: Self
-Components: V, S, M (I Copper Piece)
+Components: V, S, M (1 Copper Piece)
 Duration: Concentration, up to 1 minute
 
 You activate one of the effects below. Until the spell ends, you can activate either effect as a Magic action on your later turns.
@@ -27661,7 +27661,7 @@ Duration: 8 hours
 
 You conjure a phantom watchdog in an unoccupied space that you can see within range. The hound remains for the duration or until the two of you are more than 300 feet apart from each other.
 
-No one but you can see the hound, and it is in-tangible and invulnerable. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when you cast this spell, the hound starts barking loudly. The hound has Truesight with a range of 30 feet.
+No one but you can see the hound, and it is intangible and invulnerable. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when you cast this spell, the hound starts barking loudly. The hound has Truesight with a range of 30 feet.
 
 At the start of each of your turns, the hound attempts to bite one enemy within 5 feet of it. That enemy must succeed on a Dexterity saving throw or take 4d8 Force damage.
 
@@ -29577,7 +29577,7 @@ Burial. The target is entombed beneath the earth in a hollow globe of magical fo
 
 Chaining. Chains firmly rooted in the ground hold the target in place. The target has the Restrained condition and can't be moved by any means.
 
-Hedged Prison. The target is trapped in a demi-plane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a cage, a tower, or the like.
+Hedged Prison. The target is trapped in a demiplane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a cage, a tower, or the like.
 
 Minimus Containment. The target becomes 1 inch tall and is trapped inside an indestructible gemstone or a similar object. Light can pass through the gemstone (allowing the target to see out and other creatures to see in), but nothing else can pass through by any means.
 
@@ -32043,7 +32043,7 @@ Range: Touch
 Components: V, S, M (a segment of rope)
 Duration: 1 hour
 
-You touch a rope. One end of it hovers upward until the rope hangs perpendicular to the ground or the rope reaches a ceiling. At the rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extra-dimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pulled into or dropped out of it.
+You touch a rope. One end of it hovers upward until the rope hangs perpendicular to the ground or the rope reaches a ceiling. At the rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extradimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pulled into or dropped out of it.
 
 The space can hold up to eight Medium or smaller creatures. Attacks, spells, and other effects can't pass into or out of the space, but creatures inside it can see through the portal. Anything inside the space drops out when the spell ends.
 
@@ -33740,7 +33740,7 @@ Divination Cantrip (Bard, Sorcerer, Warlock, Wizard)
 
 Casting Time: Action
 Range: Self
-Components: S, M (a weapon with which you have proficiency and that is worth I+ CP)
+Components: S, M (a weapon with which you have proficiency and that is worth 1+ CP)
 Duration: Instantaneous
 
 Guided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The attack uses your spellcasting ability for the attack and damage rolls instead of using Strength or Dexterity. If the attack deals damage, it can be Radiant damage or the weapon's normal damage type (your choice).
@@ -33752,6 +33752,9 @@ False
 
 [componentDetails.somatic]
 True
+
+[componentDetails.materialCost.text]
+1 CP
 
 ### Tsunami
 id: https://cheeleong.dev/graph20/objects/spells/tsunami
@@ -35700,7 +35703,7 @@ False
 [rulesText]
 Wondrous Item, Uncommon
 
-Each of the quiver's three compartments connects to an extradimensional space that allows the quiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The mid-size compartment holds up to 18 Javelins or similar objects. The longest compartment holds up to 6 long objects, such as bows, Quarterstaffs, or Spears.
+Each of the quiver's three compartments connects to an extradimensional space that allows the quiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The midsize compartment holds up to 18 Javelins or similar objects. The longest compartment holds up to 6 long objects, such as bows, Quarterstaffs, or Spears.
 
 You can draw any item the quiver contains as if doing so from a regular quiver or scabbard.
 
@@ -36107,7 +36110,7 @@ Weapon (Maul or Warhammer), Legendary (Requires Attunement)
 
 You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
 
-The weapon has 5 charges. You can expend 1 charge and make a ranged attack with the weapon, hurling it as if it had the Thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the weapon unleashes a thunder-clap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC 17 Constitution saving throw or have the Stunned condition until the end of your next turn. Immediately after hitting or missing, the weapon flies back to your hand. The weapon regains 1d4 + 1 expended charges daily at dawn.
+The weapon has 5 charges. You can expend 1 charge and make a ranged attack with the weapon, hurling it as if it had the Thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the weapon unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC 17 Constitution saving throw or have the Stunned condition until the end of your next turn. Immediately after hitting or missing, the weapon flies back to your hand. The weapon regains 1d4 + 1 expended charges daily at dawn.
 
 Giant's Bane. While you are attuned to the weapon and wearing either a Belt of Giant Strength or Gauntlets of Ogre Power to which you are also attuned, you gain the following benefits:
 
@@ -36359,7 +36362,7 @@ Wondrous Item, Rare (Requires Attunement)
 
 As a Magic action, you can place this 1-inch adamantine statuette on the ground and, using a command word, cause it to grow rapidly into a square adamantine tower. Repeating the command word causes the tower to revert to statuette form, which works only if the tower is empty. Each creature in the area where the tower appears is pushed to an unoccupied space outside but next to the tower. Objects in the area that aren't being worn or carried are also pushed clear of the tower.
 
-The tower is 20 feet on a side and 30 feet high, with arrow slits on all sides and a battlement atop it. Its interior is divided into two floors, with a ladder, staircase, or ramp (your choice) connecting them. This ladder, staircase, or ramp ends at a trap-door leading to the roof. When created, the tower has a single door at ground level on the side facing you. The door opens only at your command, which you can issue as a Bonus Action. It is immune to the Knock spell and similar magic.
+The tower is 20 feet on a side and 30 feet high, with arrow slits on all sides and a battlement atop it. Its interior is divided into two floors, with a ladder, staircase, or ramp (your choice) connecting them. This ladder, staircase, or ramp ends at a trapdoor leading to the roof. When created, the tower has a single door at ground level on the side facing you. The door opens only at your command, which you can issue as a Bonus Action. It is immune to the Knock spell and similar magic.
 
 Magic prevents the tower from being tipped over. The roof, the door, and the walls each have AC 20; HP 100; Immunity to Bludgeoning, Piercing, and Slashing damage except that which is dealt by siege equipment; and Resistance to all other damage. Shrinking the tower back down to statuette form doesn't repair damage to the tower. Only a Wish spell can repair the tower (this use of the spell counts as replicating a spell of level 8 or lower). Each casting of Wish causes the tower to regain all its Hit Points.
 
@@ -36704,7 +36707,7 @@ Usually found in a box or pouch, this deck contains a number of cards made of iv
 
 Before you draw a card, you must declare how many cards you intend to draw and then draw them randomly. Any cards drawn in excess of this number have no effect. Otherwise, as soon as you draw a card from the deck, its magic takes effect. You must draw each card no more than 1 hour after the previous draw. If you fail to draw the chosen number, the remaining number of cards fly from the deck on their own and take effect all at once.
 
-Once a card is drawn, it disappears. Unless the card is the Fool or Jester, the card reappears in the deck, making it possible to draw the same card twice. (Once the Fool or Jester has left the deck, re-roll on the table if that card comes up again.)
+Once a card is drawn, it disappears. Unless the card is the Fool or Jester, the card reappears in the deck, making it possible to draw the same card twice. (Once the Fool or Jester has left the deck, reroll on the table if that card comes up again.)
 
 Each card's effect is described below.
 
@@ -36712,7 +36715,7 @@ Balance. You can increase one of your ability scores by 2, to a maximum of 22, p
 
 Comet. The next time you enter combat against one or more Hostile creatures, you can select one of them as your foe when you roll Initiative. If you reduce your foe to 0 Hit Points during that combat, you have Advantage on Death Saving Throws for 1 year. If someone else reduces your chosen foe to 0 Hit Points or you don't choose a foe, this card has no effect.
 
-Donjon. You disappear and become entombed in a state of suspended animation in an extradi-dimensional sphere. Everything you're wearing and carrying disappears with you except for Artifacts, which stay behind in the space you occupied when you disappeared. You remain imprisoned until you are found and removed from the sphere. You can't be located by any Divination magic, but a Wish spell can reveal the location of your prison. You draw no more cards.
+Donjon. You disappear and become entombed in a state of suspended animation in an extradimensional sphere. Everything you're wearing and carrying disappears with you except for Artifacts, which stay behind in the space you occupied when you disappeared. You remain imprisoned until you are found and removed from the sphere. You can't be located by any Divination magic, but a Wish spell can reveal the location of your prison. You draw no more cards.
 
 Euryale. The card's medusa-like visage curses you. You take a -2 penalty to saving throws while cursed in this way. Only a god or the magic of the Fates card can end this curse.
 
@@ -37390,7 +37393,7 @@ Fire. You know Ignan, and you have Immunity to Fire damage.
 
 Water. You know Aquan, you gain a Swim Speed of 60 feet, and you can breathe underwater.
 
-Spellcasting. The ring has 5 charges and re-gains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.
+Spellcasting. The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.
 
 [isCursed]
 False
@@ -37777,7 +37780,7 @@ False
 
 ### Robe of Useful Items
 id: https://cheeleong.dev/graph20/objects/magic-items/robe-of-useful-items
-source: Magic Items §10.228 (lines 16872-16906)
+source: Magic Items §10.228 (lines 16872-16904)
 
 [requiresAttunement]
 False
@@ -37801,7 +37804,7 @@ In addition, the robe has 4d4 other patches. The GM chooses the patches or deter
 
 ### Rod of Absorption
 id: https://cheeleong.dev/graph20/objects/magic-items/rod-of-absorption
-source: Magic Items §10.229 (lines 16908-16918)
+source: Magic Items §10.229 (lines 16906-16916)
 
 [requiresAttunement]
 True
@@ -37822,7 +37825,7 @@ False
 
 ### Rod of Alertness
 id: https://cheeleong.dev/graph20/objects/magic-items/rod-of-alertness
-source: Magic Items §10.230 (lines 16920-16939)
+source: Magic Items §10.230 (lines 16918-16937)
 
 [requiresAttunement]
 True
@@ -37852,7 +37855,7 @@ False
 
 ### Rod of Lordly Might
 id: https://cheeleong.dev/graph20/objects/magic-items/rod-of-lordly-might
-source: Magic Items §10.231 (lines 16941-16960)
+source: Magic Items §10.231 (lines 16939-16958)
 
 [requiresAttunement]
 True
@@ -37882,7 +37885,7 @@ False
 
 ### Rod of Resurrection
 id: https://cheeleong.dev/graph20/objects/magic-items/rod-of-resurrection
-source: Magic Items §10.232 (lines 16962-16968)
+source: Magic Items §10.232 (lines 16960-16966)
 
 [requiresAttunement]
 True
@@ -37899,7 +37902,7 @@ False
 
 ### Rod of Rulership
 id: https://cheeleong.dev/graph20/objects/magic-items/rod-of-rulership
-source: Magic Items §10.233 (lines 16970-16974)
+source: Magic Items §10.233 (lines 16968-16972)
 
 [requiresAttunement]
 True
@@ -37914,7 +37917,7 @@ False
 
 ### Rod of Security
 id: https://cheeleong.dev/graph20/objects/magic-items/rod-of-security
-source: Magic Items §10.234 (lines 16976-16986)
+source: Magic Items §10.234 (lines 16974-16984)
 
 [requiresAttunement]
 False
@@ -37932,7 +37935,7 @@ When the time runs out or you take a Magic action to end the effect, all visitor
 
 ### Rope of Climbing
 id: https://cheeleong.dev/graph20/objects/magic-items/rope-of-climbing
-source: Magic Items §10.235 (lines 16988-16996)
+source: Magic Items §10.235 (lines 16986-16994)
 
 [requiresAttunement]
 False
@@ -37948,7 +37951,7 @@ The rope has AC 20, HP 20, and Immunity to Poison and Psychic damage. It regains
 
 ### Rope of Entanglement
 id: https://cheeleong.dev/graph20/objects/magic-items/rope-of-entanglement
-source: Magic Items §10.236 (lines 16998-17006)
+source: Magic Items §10.236 (lines 16996-17004)
 
 [requiresAttunement]
 False
@@ -37964,7 +37967,7 @@ The rope has AC 20, HP 20, and Immunity to Poison and Psychic damage. It regains
 
 ### Scarab of Protection
 id: https://cheeleong.dev/graph20/objects/magic-items/scarab-of-protection
-source: Magic Items §10.237 (lines 17008-17018)
+source: Magic Items §10.237 (lines 17006-17016)
 
 [requiresAttunement]
 True
@@ -37985,7 +37988,7 @@ False
 
 ### Scimitar of Speed
 id: https://cheeleong.dev/graph20/objects/magic-items/scimitar-of-speed
-source: Magic Items §10.238 (lines 17020-17024)
+source: Magic Items §10.238 (lines 17018-17022)
 
 [requiresAttunement]
 True
@@ -38000,7 +38003,7 @@ False
 
 ### Sending Stones
 id: https://cheeleong.dev/graph20/objects/magic-items/sending-stones
-source: Magic Items §10.239 (lines 17026-17032)
+source: Magic Items §10.239 (lines 17024-17030)
 
 [requiresAttunement]
 False
@@ -38014,7 +38017,7 @@ Once Sending is cast using either stone, the stones can't be used again until th
 
 ### Sentinel Shield
 id: https://cheeleong.dev/graph20/objects/magic-items/sentinel-shield
-source: Magic Items §10.240 (lines 17034-17038)
+source: Magic Items §10.240 (lines 17032-17036)
 
 [requiresAttunement]
 False
@@ -38026,7 +38029,7 @@ While holding this Shield, you have Advantage on Initiative rolls and Wisdom (Pe
 
 ### Shield, +1, +2, or +3
 id: https://cheeleong.dev/graph20/objects/magic-items/shield-1-2-or-3
-source: Magic Items §10.241 (lines 17040-17044)
+source: Magic Items §10.241 (lines 17038-17042)
 
 [requiresAttunement]
 False
@@ -38038,7 +38041,7 @@ While holding this Shield, you have a bonus to Armor Class determined by the Shi
 
 ### Shield of Missile Attraction
 id: https://cheeleong.dev/graph20/objects/magic-items/shield-of-missile-attraction
-source: Magic Items §10.242 (lines 17046-17052)
+source: Magic Items §10.242 (lines 17044-17050)
 
 [requiresAttunement]
 True
@@ -38055,7 +38058,7 @@ False
 
 ### Shield of the Cavalier
 id: https://cheeleong.dev/graph20/objects/magic-items/shield-of-the-cavalier
-source: Magic Items §10.243 (lines 17054-17064)
+source: Magic Items §10.243 (lines 17052-17062)
 
 [requiresAttunement]
 True
@@ -38076,7 +38079,7 @@ False
 
 ### Slippers of Spider Climbing
 id: https://cheeleong.dev/graph20/objects/magic-items/slippers-of-spider-climbing
-source: Magic Items §10.244 (lines 17066-17070)
+source: Magic Items §10.244 (lines 17064-17068)
 
 [requiresAttunement]
 True
@@ -38091,7 +38094,7 @@ False
 
 ### Sovereign Glue
 id: https://cheeleong.dev/graph20/objects/magic-items/sovereign-glue
-source: Magic Items §10.245 (lines 17072-17078)
+source: Magic Items §10.245 (lines 17070-17076)
 
 [requiresAttunement]
 False
@@ -38105,7 +38108,7 @@ One ounce of the glue can cover a 1-foot square surface. Applying an ounce of So
 
 ### Spell Scroll
 id: https://cheeleong.dev/graph20/objects/magic-items/spell-scroll
-source: Magic Items §10.247 (lines 17086-17109)
+source: Magic Items §10.247 (lines 17084-17107)
 
 [requiresAttunement]
 False
@@ -38123,7 +38126,7 @@ Copying a Scroll into a Spellbook. A Wizard spell on a Spell Scroll can be copie
 
 ### Spellguard Shield
 id: https://cheeleong.dev/graph20/objects/magic-items/spellguard-shield
-source: Magic Items §10.246 (lines 17080-17084)
+source: Magic Items §10.246 (lines 17078-17082)
 
 [requiresAttunement]
 True
@@ -38138,7 +38141,7 @@ False
 
 ### Sphere of Annihilation
 id: https://cheeleong.dev/graph20/objects/magic-items/sphere-of-annihilation
-source: Magic Items §10.248 (lines 17111-17131)
+source: Magic Items §10.248 (lines 17109-17127)
 
 [requiresAttunement]
 False
@@ -38158,7 +38161,7 @@ Sphere Interactions. If the sphere comes into contact with a planar portal (such
 
 ### Staff of Charming
 id: https://cheeleong.dev/graph20/objects/magic-items/staff-of-charming
-source: Magic Items §10.249 (lines 17133-17145)
+source: Magic Items §10.249 (lines 17129-17141)
 
 [requiresAttunement]
 True
@@ -38181,7 +38184,7 @@ False
 
 ### Staff of Fire
 id: https://cheeleong.dev/graph20/objects/magic-items/staff-of-fire
-source: Magic Items §10.250 (lines 17147-17160)
+source: Magic Items §10.250 (lines 17143-17156)
 
 [requiresAttunement]
 True
@@ -38200,7 +38203,7 @@ False
 
 ### Staff of Frost
 id: https://cheeleong.dev/graph20/objects/magic-items/staff-of-frost
-source: Magic Items §10.251 (lines 17162-17175)
+source: Magic Items §10.251 (lines 17158-17171)
 
 [requiresAttunement]
 True
@@ -38219,7 +38222,7 @@ False
 
 ### Staff of Healing
 id: https://cheeleong.dev/graph20/objects/magic-items/staff-of-healing
-source: Magic Items §10.252 (lines 17177-17189)
+source: Magic Items §10.252 (lines 17173-17185)
 
 [requiresAttunement]
 True
@@ -38236,7 +38239,7 @@ False
 
 ### Staff of Power
 id: https://cheeleong.dev/graph20/objects/magic-items/staff-of-power
-source: Magic Items §10.253 (lines 17191-17213)
+source: Magic Items §10.253 (lines 17187-17209)
 
 [requiresAttunement]
 True
@@ -38257,7 +38260,7 @@ False
 
 ### Staff of Striking
 id: https://cheeleong.dev/graph20/objects/magic-items/staff-of-striking
-source: Magic Items §10.254 (lines 17215-17223)
+source: Magic Items §10.254 (lines 17211-17219)
 
 [requiresAttunement]
 True
@@ -38276,7 +38279,7 @@ False
 
 ### Staff of Swarming Insects
 id: https://cheeleong.dev/graph20/objects/magic-items/staff-of-swarming-insects
-source: Magic Items §10.255 (lines 17225-17242)
+source: Magic Items §10.255 (lines 17221-17238)
 
 [requiresAttunement]
 True
@@ -38299,7 +38302,7 @@ False
 
 ### Staff of the Magi
 id: https://cheeleong.dev/graph20/objects/magic-items/staff-of-the-magi
-source: Magic Items §10.256 (lines 17244-17278)
+source: Magic Items §10.256 (lines 17240-17274)
 
 [requiresAttunement]
 True
@@ -38322,7 +38325,7 @@ False
 
 ### Staff of the Python
 id: https://cheeleong.dev/graph20/objects/magic-items/staff-of-the-python
-source: Magic Items §10.257 (lines 17280-17290)
+source: Magic Items §10.257 (lines 17276-17286)
 
 [requiresAttunement]
 True
@@ -38343,7 +38346,7 @@ False
 
 ### Staff of the Woodlands
 id: https://cheeleong.dev/graph20/objects/magic-items/staff-of-the-woodlands
-source: Magic Items §10.258 (lines 17292-17313)
+source: Magic Items §10.258 (lines 17288-17309)
 
 [requiresAttunement]
 True
@@ -38364,7 +38367,7 @@ False
 
 ### Staff of Thunder and Lightning
 id: https://cheeleong.dev/graph20/objects/magic-items/staff-of-thunder-and-lightning
-source: Magic Items §10.259 (lines 17315-17329)
+source: Magic Items §10.259 (lines 17311-17325)
 
 [requiresAttunement]
 True
@@ -38389,7 +38392,7 @@ False
 
 ### Staff of Withering
 id: https://cheeleong.dev/graph20/objects/magic-items/staff-of-withering
-source: Magic Items §10.260 (lines 17331-17337)
+source: Magic Items §10.260 (lines 17327-17333)
 
 [requiresAttunement]
 True
@@ -38406,7 +38409,7 @@ False
 
 ### Stone of Controlling Earth Elementals
 id: https://cheeleong.dev/graph20/objects/magic-items/stone-of-controlling-earth-elementals
-source: Magic Items §10.261 (lines 17339-17343)
+source: Magic Items §10.261 (lines 17335-17339)
 
 [requiresAttunement]
 False
@@ -38418,7 +38421,7 @@ While touching this 5-pound stone to the ground, you can take a Magic action to 
 
 ### Stone of Good Luck (Luckstone)
 id: https://cheeleong.dev/graph20/objects/magic-items/stone-of-good-luck-luckstone
-source: Magic Items §10.262 (lines 17345-17349)
+source: Magic Items §10.262 (lines 17341-17345)
 
 [requiresAttunement]
 True
@@ -38433,7 +38436,7 @@ False
 
 ### Sun Blade
 id: https://cheeleong.dev/graph20/objects/magic-items/sun-blade
-source: Magic Items §10.263 (lines 17351-17361)
+source: Magic Items §10.263 (lines 17347-17357)
 
 [requiresAttunement]
 True
@@ -38454,7 +38457,7 @@ False
 
 ### Sword of Life Stealing
 id: https://cheeleong.dev/graph20/objects/magic-items/sword-of-life-stealing
-source: Magic Items §10.264 (lines 17363-17365)
+source: Magic Items §10.264 (lines 17359-17361)
 
 [requiresAttunement]
 True
@@ -38467,7 +38470,7 @@ False
 
 ### Sword of Sharpness
 id: https://cheeleong.dev/graph20/objects/magic-items/sword-of-sharpness
-source: Magic Items §10.265 (lines 17367-17373)
+source: Magic Items §10.265 (lines 17363-17369)
 
 [requiresAttunement]
 True
@@ -38484,7 +38487,7 @@ False
 
 ### Sword of Wounding
 id: https://cheeleong.dev/graph20/objects/magic-items/sword-of-wounding
-source: Magic Items §10.266 (lines 17375-17378)
+source: Magic Items §10.266 (lines 17371-17374)
 
 [requiresAttunement]
 True
@@ -38498,7 +38501,7 @@ False
 
 ### Talisman of Pure Good
 id: https://cheeleong.dev/graph20/objects/magic-items/talisman-of-pure-good
-source: Magic Items §10.267 (lines 17380-17388)
+source: Magic Items §10.267 (lines 17376-17384)
 
 [requiresAttunement]
 True
@@ -38517,7 +38520,7 @@ False
 
 ### Talisman of the Sphere
 id: https://cheeleong.dev/graph20/objects/magic-items/talisman-of-the-sphere
-source: Magic Items §10.268 (lines 17390-17394)
+source: Magic Items §10.268 (lines 17386-17390)
 
 [requiresAttunement]
 True
@@ -38532,7 +38535,7 @@ False
 
 ### Talisman of Ultimate Evil
 id: https://cheeleong.dev/graph20/objects/magic-items/talisman-of-ultimate-evil
-source: Magic Items §10.269 (lines 17396-17404)
+source: Magic Items §10.269 (lines 17392-17400)
 
 [requiresAttunement]
 True
@@ -38551,7 +38554,7 @@ False
 
 ### Thunderous Greatclub
 id: https://cheeleong.dev/graph20/objects/magic-items/thunderous-greatclub
-source: Magic Items §10.270 (lines 17406-17416)
+source: Magic Items §10.270 (lines 17402-17412)
 
 [requiresAttunement]
 True
@@ -38572,7 +38575,7 @@ False
 
 ### Tome of Clear Thought
 id: https://cheeleong.dev/graph20/objects/magic-items/tome-of-clear-thought
-source: Magic Items §10.271 (lines 17418-17422)
+source: Magic Items §10.271 (lines 17414-17418)
 
 [requiresAttunement]
 False
@@ -38584,7 +38587,7 @@ This book contains memory and logic exercises, and its words are charged with ma
 
 ### Tome of Leadership and Influence
 id: https://cheeleong.dev/graph20/objects/magic-items/tome-of-leadership-and-influence
-source: Magic Items §10.272 (lines 17424-17428)
+source: Magic Items §10.272 (lines 17420-17424)
 
 [requiresAttunement]
 False
@@ -38596,7 +38599,7 @@ This book contains guidelines for influencing and charming others, and its words
 
 ### Tome of Understanding
 id: https://cheeleong.dev/graph20/objects/magic-items/tome-of-understanding
-source: Magic Items §10.273 (lines 17430-17434)
+source: Magic Items §10.273 (lines 17426-17430)
 
 [requiresAttunement]
 False
@@ -38608,7 +38611,7 @@ This book contains intuition and insight exercises, and its words are charged wi
 
 ### Trident of Fish Command
 id: https://cheeleong.dev/graph20/objects/magic-items/trident-of-fish-command
-source: Magic Items §10.274 (lines 17436-17440)
+source: Magic Items §10.274 (lines 17432-17436)
 
 [requiresAttunement]
 True
@@ -38623,7 +38626,7 @@ False
 
 ### Universal Solvent
 id: https://cheeleong.dev/graph20/objects/magic-items/universal-solvent
-source: Magic Items §10.275 (lines 17442-17448)
+source: Magic Items §10.275 (lines 17438-17444)
 
 [requiresAttunement]
 False
@@ -38637,7 +38640,7 @@ You can take a Utilize action to pour 1 or more ounces of solvent from the tube 
 
 ### Vicious Weapon
 id: https://cheeleong.dev/graph20/objects/magic-items/vicious-weapon
-source: Magic Items §10.276 (lines 17450-17454)
+source: Magic Items §10.276 (lines 17446-17450)
 
 [requiresAttunement]
 False
@@ -38649,7 +38652,7 @@ This magic weapon deals an extra 2d6 damage to any creature it hits. This extra 
 
 ### Vorpal Sword
 id: https://cheeleong.dev/graph20/objects/magic-items/vorpal-sword
-source: Magic Items §10.277 (lines 17456-17462)
+source: Magic Items §10.277 (lines 17452-17458)
 
 [requiresAttunement]
 True
@@ -38666,7 +38669,7 @@ False
 
 ### Wand of Binding
 id: https://cheeleong.dev/graph20/objects/magic-items/wand-of-binding
-source: Magic Items §10.278 (lines 17464-17477)
+source: Magic Items §10.278 (lines 17460-17473)
 
 [requiresAttunement]
 True
@@ -38685,7 +38688,7 @@ False
 
 ### Wand of Enemy Detection
 id: https://cheeleong.dev/graph20/objects/magic-items/wand-of-enemy-detection
-source: Magic Items §10.279 (lines 17479-17485)
+source: Magic Items §10.279 (lines 17475-17481)
 
 [requiresAttunement]
 True
@@ -38702,7 +38705,7 @@ False
 
 ### Wand of Fear
 id: https://cheeleong.dev/graph20/objects/magic-items/wand-of-fear
-source: Magic Items §10.280 (lines 17487-17500)
+source: Magic Items §10.280 (lines 17483-17496)
 
 [requiresAttunement]
 True
@@ -38721,7 +38724,7 @@ False
 
 ### Wand of Fireballs
 id: https://cheeleong.dev/graph20/objects/magic-items/wand-of-fireballs
-source: Magic Items §10.281 (lines 17502-17508)
+source: Magic Items §10.281 (lines 17498-17504)
 
 [requiresAttunement]
 True
@@ -38738,7 +38741,7 @@ False
 
 ### Wand of Lightning Bolts
 id: https://cheeleong.dev/graph20/objects/magic-items/wand-of-lightning-bolts
-source: Magic Items §10.282 (lines 17510-17516)
+source: Magic Items §10.282 (lines 17506-17512)
 
 [requiresAttunement]
 True
@@ -38755,7 +38758,7 @@ False
 
 ### Wand of Magic Detection
 id: https://cheeleong.dev/graph20/objects/magic-items/wand-of-magic-detection
-source: Magic Items §10.283 (lines 17518-17522)
+source: Magic Items §10.283 (lines 17514-17518)
 
 [requiresAttunement]
 False
@@ -38767,7 +38770,7 @@ This wand has 3 charges. While holding it, you can expend 1 charge to cast Detec
 
 ### Wand of Magic Missiles
 id: https://cheeleong.dev/graph20/objects/magic-items/wand-of-magic-missiles
-source: Magic Items §10.284 (lines 17524-17530)
+source: Magic Items §10.284 (lines 17520-17526)
 
 [requiresAttunement]
 False
@@ -38781,7 +38784,7 @@ Regaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If y
 
 ### Wand of Paralysis
 id: https://cheeleong.dev/graph20/objects/magic-items/wand-of-paralysis
-source: Magic Items §10.285 (lines 17532-17538)
+source: Magic Items §10.285 (lines 17528-17534)
 
 [requiresAttunement]
 True
@@ -38798,7 +38801,7 @@ False
 
 ### Wand of Polymorph
 id: https://cheeleong.dev/graph20/objects/magic-items/wand-of-polymorph
-source: Magic Items §10.286 (lines 17540-17546)
+source: Magic Items §10.286 (lines 17536-17542)
 
 [requiresAttunement]
 True
@@ -38815,7 +38818,7 @@ False
 
 ### Wand of Secrets
 id: https://cheeleong.dev/graph20/objects/magic-items/wand-of-secrets
-source: Magic Items §10.287 (lines 17548-17552)
+source: Magic Items §10.287 (lines 17544-17548)
 
 [requiresAttunement]
 False
@@ -38827,7 +38830,7 @@ This wand has 3 charges and regains 1d3 expended charges daily at dawn. While ho
 
 ### Wand of the War Mage, +1, +2, or +3
 id: https://cheeleong.dev/graph20/objects/magic-items/wand-of-the-war-mage-1-2-or-3
-source: Magic Items §10.288 (lines 17554-17558)
+source: Magic Items §10.288 (lines 17550-17554)
 
 [requiresAttunement]
 True
@@ -38842,7 +38845,7 @@ False
 
 ### Wand of Web
 id: https://cheeleong.dev/graph20/objects/magic-items/wand-of-web
-source: Magic Items §10.289 (lines 17560-17566)
+source: Magic Items §10.289 (lines 17556-17562)
 
 [requiresAttunement]
 True
@@ -38859,7 +38862,7 @@ False
 
 ### Wand of Wonder
 id: https://cheeleong.dev/graph20/objects/magic-items/wand-of-wonder
-source: Magic Items §10.290 (lines 17568-17602)
+source: Magic Items §10.290 (lines 17564-17598)
 
 [requiresAttunement]
 True
@@ -38876,7 +38879,7 @@ False
 
 ### Weapon, +1, +2, or +3
 id: https://cheeleong.dev/graph20/objects/magic-items/weapon-1-2-or-3
-source: Magic Items §10.291 (lines 17604-17608)
+source: Magic Items §10.291 (lines 17600-17604)
 
 [requiresAttunement]
 False
@@ -38888,7 +38891,7 @@ You have a bonus to attack rolls and damage rolls made with this magic weapon. T
 
 ### Weapon of Warning
 id: https://cheeleong.dev/graph20/objects/magic-items/weapon-of-warning
-source: Magic Items §10.292 (lines 17610-17618)
+source: Magic Items §10.292 (lines 17606-17614)
 
 [requiresAttunement]
 True
@@ -38907,7 +38910,7 @@ False
 
 ### Well of Many Worlds
 id: https://cheeleong.dev/graph20/objects/magic-items/well-of-many-worlds
-source: Magic Items §10.293 (lines 17620-17628)
+source: Magic Items §10.293 (lines 17616-17624)
 
 [requiresAttunement]
 False
@@ -38923,7 +38926,7 @@ Once the Well of Many Worlds has opened a portal, it can't do so again for 1d8 h
 
 ### Wind Fan
 id: https://cheeleong.dev/graph20/objects/magic-items/wind-fan
-source: Magic Items §10.294 (lines 17630-17634)
+source: Magic Items §10.294 (lines 17626-17630)
 
 [requiresAttunement]
 False
@@ -38935,7 +38938,7 @@ While holding this fan, you can cast Gust of Wind (save DC 13) from it. Each sub
 
 ### Winged Boots
 id: https://cheeleong.dev/graph20/objects/magic-items/winged-boots
-source: Magic Items §10.295 (lines 17636-17640)
+source: Magic Items §10.295 (lines 17632-17636)
 
 [requiresAttunement]
 True
@@ -38950,7 +38953,7 @@ False
 
 ### Wings of Flying
 id: https://cheeleong.dev/graph20/objects/magic-items/wings-of-flying
-source: Magic Items §10.296 (lines 17642-17648)
+source: Magic Items §10.296 (lines 17638-17644)
 
 [requiresAttunement]
 True
@@ -38967,7 +38970,7 @@ False
 
 ### Aboleth
 id: https://cheeleong.dev/graph20/objects/monsters/aboleth
-source: Monsters A-Z §12.2 (lines 17930-17985)
+source: Monsters A-Z §12.2 (lines 17926-17981)
 
 [monsterCategory]
 Monster
@@ -39050,7 +39053,7 @@ parsed
 
 ### Adult Black Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/adult-black-dragon
-source: Monsters A-Z §12.28 (lines 18619-18665)
+source: Monsters A-Z §12.28 (lines 18615-18661)
 
 [monsterCategory]
 Monster
@@ -39060,6 +39063,9 @@ Monster
 
 [experiencePoints]
 11500
+
+[abilities.str.score]
+23
 
 [rulesText]
 Huge Dragon (Chromatic), Chaotic Evil
@@ -39117,7 +39123,7 @@ parsed
 
 ### Adult Blue Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/adult-blue-dragon
-source: Monsters A-Z §12.35 (lines 18845-18891)
+source: Monsters A-Z §12.35 (lines 18841-18887)
 
 [monsterCategory]
 Monster
@@ -39190,7 +39196,7 @@ parsed
 
 ### Adult Brass Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/adult-brass-dragon
-source: Monsters A-Z §12.41 (lines 19040-19088)
+source: Monsters A-Z §12.41 (lines 19036-19084)
 
 [monsterCategory]
 Monster
@@ -39265,7 +39271,7 @@ parsed
 
 ### Adult Bronze Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/adult-bronze-dragon
-source: Monsters A-Z §12.46 (lines 19210-19262)
+source: Monsters A-Z §12.46 (lines 19206-19258)
 
 [monsterCategory]
 Monster
@@ -39344,7 +39350,7 @@ parsed
 
 ### Adult Copper Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/adult-copper-dragon
-source: Monsters A-Z §12.65 (lines 19801-19849)
+source: Monsters A-Z §12.65 (lines 19797-19845)
 
 [monsterCategory]
 Monster
@@ -39416,7 +39422,7 @@ parsed
 
 ### Adult Gold Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/adult-gold-dragon
-source: Monsters A-Z §12.112 (lines 21304-21354)
+source: Monsters A-Z §12.112 (lines 21300-21350)
 
 [monsterCategory]
 Monster
@@ -39499,7 +39505,7 @@ parsed
 
 ### Adult Green Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/adult-green-dragon
-source: Monsters A-Z §12.119 (lines 21545-21592)
+source: Monsters A-Z §12.119 (lines 21541-21588)
 
 [monsterCategory]
 Monster
@@ -39570,7 +39576,7 @@ parsed
 
 ### Adult Red Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/adult-red-dragon
-source: Monsters A-Z §12.199 (lines 24083-24129)
+source: Monsters A-Z §12.199 (lines 24079-24125)
 
 [monsterCategory]
 Monster
@@ -39643,7 +39649,7 @@ parsed
 
 ### Adult Silver Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/adult-silver-dragon
-source: Monsters A-Z §12.217 (lines 24676-24724)
+source: Monsters A-Z §12.217 (lines 24672-24720)
 
 [hitPointsRoll.expression]
 16d12+112
@@ -39718,7 +39724,7 @@ parsed
 
 ### Adult White Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/adult-white-dragon
-source: Monsters A-Z §12.262 (lines 26193-26236)
+source: Monsters A-Z §12.262 (lines 26189-26232)
 
 [monsterCategory]
 Monster
@@ -39729,8 +39735,11 @@ Monster
 [experiencePoints]
 10000
 
+[abilities.str.score]
+22
+
 [abilities.int.modifier]
--3
+-1
 
 [rulesText]
 Huge Dragon (Chromatic), Chaotic Evil
@@ -39782,7 +39791,7 @@ parsed
 
 ### Air Elemental
 id: https://cheeleong.dev/graph20/objects/monsters/air-elemental
-source: Monsters A-Z §12.3 (lines 17987-18020)
+source: Monsters A-Z §12.3 (lines 17983-18016)
 
 [monsterCategory]
 Monster
@@ -39840,7 +39849,7 @@ parsed
 
 ### Allosaurus
 id: https://cheeleong.dev/graph20/objects/monsters/allosaurus
-source: Animals §13.2 (lines 26584-26607)
+source: Animals §13.2 (lines 26580-26603)
 
 [monsterCategory]
 Animal
@@ -39902,7 +39911,7 @@ statSections[0].rulesText.paragraphs[1]
 
 ### Ancient Black Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/ancient-black-dragon
-source: Monsters A-Z §12.29 (lines 18667-18715)
+source: Monsters A-Z §12.29 (lines 18663-18711)
 
 [monsterCategory]
 Monster
@@ -39977,7 +39986,7 @@ parsed
 
 ### Ancient Blue Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/ancient-blue-dragon
-source: Monsters A-Z §12.36 (lines 18893-18939)
+source: Monsters A-Z §12.36 (lines 18889-18935)
 
 [monsterCategory]
 Monster
@@ -40050,7 +40059,7 @@ parsed
 
 ### Ancient Brass Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/ancient-brass-dragon
-source: Monsters A-Z §12.42 (lines 19090-19138)
+source: Monsters A-Z §12.42 (lines 19086-19134)
 
 [monsterCategory]
 Monster
@@ -40125,7 +40134,7 @@ parsed
 
 ### Ancient Bronze Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/ancient-bronze-dragon
-source: Monsters A-Z §12.47 (lines 19264-19314)
+source: Monsters A-Z §12.47 (lines 19260-19310)
 
 [monsterCategory]
 Monster
@@ -40202,7 +40211,7 @@ parsed
 
 ### Ancient Copper Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/ancient-copper-dragon
-source: Monsters A-Z §12.66 (lines 19851-19899)
+source: Monsters A-Z §12.66 (lines 19847-19895)
 
 [monsterCategory]
 Monster
@@ -40271,7 +40280,7 @@ parsed
 
 ### Ancient Gold Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/ancient-gold-dragon
-source: Monsters A-Z §12.113 (lines 21356-21408)
+source: Monsters A-Z §12.113 (lines 21352-21404)
 
 [monsterCategory]
 Monster
@@ -40356,7 +40365,7 @@ parsed
 
 ### Ancient Green Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/ancient-green-dragon
-source: Monsters A-Z §12.120 (lines 21594-21641)
+source: Monsters A-Z §12.120 (lines 21590-21637)
 
 [monsterCategory]
 Monster
@@ -40366,9 +40375,6 @@ Monster
 
 [experiencePoints]
 41000
-
-[abilities.int.score]
-18
 
 [rulesText]
 Gargantuan Dragon (Chromatic), Lawful Evil
@@ -40427,7 +40433,7 @@ parsed
 
 ### Ancient Red Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/ancient-red-dragon
-source: Monsters A-Z §12.200 (lines 24131-24177)
+source: Monsters A-Z §12.200 (lines 24127-24173)
 
 [monsterCategory]
 Monster
@@ -40438,14 +40444,17 @@ Monster
 [experiencePoints]
 62000
 
-[abilities.dex.score]
-13
+[abilities.str.score]
+30
 
 [abilities.con.score]
-21
+29
 
-[abilities.int.modifier]
--3
+[abilities.int.score]
+18
+
+[abilities.cha.score]
+27
 
 [rulesText]
 Gargantuan Dragon (Chromatic), Chaotic Evil
@@ -40503,7 +40512,7 @@ parsed
 
 ### Ancient Silver Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/ancient-silver-dragon
-source: Monsters A-Z §12.218 (lines 24726-24774)
+source: Monsters A-Z §12.218 (lines 24722-24770)
 
 [hitPointsRoll.expression]
 24d20+216
@@ -40575,7 +40584,7 @@ parsed
 
 ### Ancient White Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/ancient-white-dragon
-source: Monsters A-Z §12.263 (lines 26238-26280)
+source: Monsters A-Z §12.263 (lines 26234-26276)
 
 [monsterCategory]
 Monster
@@ -40641,7 +40650,7 @@ parsed
 
 ### Animated Armor
 id: https://cheeleong.dev/graph20/objects/monsters/animated-armor
-source: Monsters A-Z §12.5 (lines 18024-18047)
+source: Monsters A-Z §12.5 (lines 18020-18043)
 
 [monsterCategory]
 Monster
@@ -40697,22 +40706,25 @@ parsed
 
 ### Animated Flying Sword
 id: https://cheeleong.dev/graph20/objects/monsters/animated-flying-sword
-source: Monsters A-Z §12.6 (lines 18049-18070)
+source: Monsters A-Z §12.6 (lines 18045-18066)
 
 [monsterCategory]
 Monster
 
+[abilities.str.score]
+12
+
 [abilities.dex.score]
+15
+
+[abilities.con.score]
 11
 
 [abilities.int.modifier]
 -5
 
-[abilities.wis.score]
-13
-
-[abilities.cha.modifier]
--2
+[abilities.wis.modifier]
+-3
 
 [rulesText]
 Small Construct, Unaligned
@@ -40754,19 +40766,13 @@ source: Spells §7.40 (lines 7404-7425)
 Monster
 
 [abilities.str.score]
-14
-
-[abilities.dex.score]
-11
-
-[abilities.con.score]
-13
+16
 
 [abilities.int.modifier]
--5
-
-[abilities.wis.modifier]
 -4
+
+[abilities.cha.modifier]
+-5
 
 [rulesText]
 Huge or Smaller Construct, Unaligned
@@ -40799,25 +40805,19 @@ attack paragraph did not match the supported header grammar
 
 ### Animated Rug of Smothering
 id: https://cheeleong.dev/graph20/objects/monsters/animated-rug-of-smothering
-source: Monsters A-Z §12.7 (lines 18072-18095)
+source: Monsters A-Z §12.7 (lines 18068-18091)
 
 [monsterCategory]
 Monster
 
-[abilities.str.modifier]
+[abilities.str.score]
+17
+
+[abilities.int.modifier]
+-5
+
+[abilities.wis.modifier]
 -4
-
-[abilities.dex.score]
-8
-
-[abilities.dex.modifier]
--1
-
-[abilities.con.score]
-11
-
-[abilities.cha.modifier]
--2
 
 [rulesText]
 Large Construct, Unaligned
@@ -40852,7 +40852,7 @@ parsed
 
 ### Ankheg
 id: https://cheeleong.dev/graph20/objects/monsters/ankheg
-source: Monsters A-Z §12.8 (lines 18097-18125)
+source: Monsters A-Z §12.8 (lines 18093-18121)
 
 [monsterCategory]
 Monster
@@ -40905,7 +40905,7 @@ parsed
 
 ### Ankylosaurus
 id: https://cheeleong.dev/graph20/objects/monsters/ankylosaurus
-source: Animals §13.3 (lines 26609-26631)
+source: Animals §13.3 (lines 26605-26627)
 
 [monsterCategory]
 Animal
@@ -40954,7 +40954,7 @@ parsed
 
 ### Ape
 id: https://cheeleong.dev/graph20/objects/monsters/ape
-source: Animals §13.4 (lines 26633-26658)
+source: Animals §13.4 (lines 26629-26654)
 
 [monsterCategory]
 Animal
@@ -41015,7 +41015,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Archelon
 id: https://cheeleong.dev/graph20/objects/monsters/archelon
-source: Animals §13.5 (lines 26660-26687)
+source: Animals §13.5 (lines 26656-26683)
 
 [monsterCategory]
 Animal
@@ -41075,7 +41075,7 @@ parsed
 
 ### Archmage
 id: https://cheeleong.dev/graph20/objects/monsters/archmage
-source: Monsters A-Z §12.155 (lines 22707-22752)
+source: Monsters A-Z §12.155 (lines 22703-22748)
 
 [monsterCategory]
 NPC
@@ -41147,7 +41147,7 @@ parsed
 
 ### Assassin
 id: https://cheeleong.dev/graph20/objects/monsters/assassin
-source: Monsters A-Z §12.9 (lines 18127-18164)
+source: Monsters A-Z §12.9 (lines 18123-18160)
 
 [monsterCategory]
 Monster
@@ -41158,17 +41158,14 @@ Monster
 [experiencePoints]
 3900
 
-[abilities.str.modifier]
--4
-
-[abilities.dex.modifier]
--1
-
-[abilities.con.score]
+[abilities.str.score]
 11
 
-[abilities.cha.modifier]
--2
+[abilities.dex.score]
+18
+
+[abilities.con.score]
+14
 
 [rulesText]
 Medium or Small Humanoid, Neutral
@@ -41266,25 +41263,22 @@ parsed
 
 ### Awakened Shrub
 id: https://cheeleong.dev/graph20/objects/monsters/awakened-shrub
-source: Monsters A-Z §12.11 (lines 18168-18191)
+source: Monsters A-Z §12.11 (lines 18164-18187)
 
 [monsterCategory]
 Monster
 
-[abilities.str.score]
-17
+[abilities.str.modifier]
+-4
 
 [abilities.dex.score]
-12
+8
 
 [abilities.con.score]
-15
+11
 
-[abilities.con.savingThrow]
-4
-
-[abilities.wis.score]
-13
+[abilities.cha.modifier]
+-2
 
 [rulesText]
 Small Plant, Neutral
@@ -41315,7 +41309,7 @@ parsed
 
 ### Awakened Tree
 id: https://cheeleong.dev/graph20/objects/monsters/awakened-tree
-source: Monsters A-Z §12.12 (lines 18193-18216)
+source: Monsters A-Z §12.12 (lines 18189-18212)
 
 [monsterCategory]
 Monster
@@ -41361,7 +41355,7 @@ parsed
 
 ### Axe Beak
 id: https://cheeleong.dev/graph20/objects/monsters/axe-beak
-source: Monsters A-Z §12.13 (lines 18218-18240)
+source: Monsters A-Z §12.13 (lines 18214-18236)
 
 [monsterCategory]
 Monster
@@ -41411,7 +41405,7 @@ parsed
 
 ### Azer Sentinel
 id: https://cheeleong.dev/graph20/objects/monsters/azer-sentinel
-source: Monsters A-Z §12.15 (lines 18244-18273)
+source: Monsters A-Z §12.15 (lines 18240-18269)
 
 [monsterCategory]
 Monster
@@ -41464,7 +41458,7 @@ parsed
 
 ### Baboon
 id: https://cheeleong.dev/graph20/objects/monsters/baboon
-source: Animals §13.6 (lines 26689-26713)
+source: Animals §13.6 (lines 26685-26709)
 
 [monsterCategory]
 Animal
@@ -41515,7 +41509,7 @@ parsed
 
 ### Badger
 id: https://cheeleong.dev/graph20/objects/monsters/badger
-source: Animals §13.7 (lines 26715-26737)
+source: Animals §13.7 (lines 26711-26733)
 
 [monsterCategory]
 Animal
@@ -41564,7 +41558,7 @@ parsed
 
 ### Balor
 id: https://cheeleong.dev/graph20/objects/monsters/balor
-source: Monsters A-Z §12.16 (lines 18275-18319)
+source: Monsters A-Z §12.16 (lines 18271-18315)
 
 [monsterCategory]
 Monster
@@ -41576,7 +41570,13 @@ Monster
 22000
 
 [abilities.str.score]
-11
+26
+
+[abilities.dex.score]
+15
+
+[abilities.wis.score]
+16
 
 [rulesText]
 Huge Fiend (Demon), Chaotic Evil
@@ -41636,7 +41636,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Bandit Captain
 id: https://cheeleong.dev/graph20/objects/monsters/bandit-captain
-source: Monsters A-Z §12.19 (lines 18348-18378)
+source: Monsters A-Z §12.19 (lines 18344-18374)
 
 [monsterCategory]
 Monster
@@ -41696,7 +41696,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Bandit
 id: https://cheeleong.dev/graph20/objects/monsters/bandit
-source: Monsters A-Z §12.18 (lines 18323-18346)
+source: Monsters A-Z §12.18 (lines 18319-18342)
 
 [monsterCategory]
 Monster
@@ -41743,7 +41743,7 @@ statSections[0].rulesText.paragraphs[1]
 
 ### Barbed Devil
 id: https://cheeleong.dev/graph20/objects/monsters/barbed-devil
-source: Monsters A-Z §12.20 (lines 18380-18422)
+source: Monsters A-Z §12.20 (lines 18376-18418)
 
 [monsterCategory]
 Monster
@@ -41816,7 +41816,7 @@ statSections[1].rulesText.paragraphs[3]
 
 ### Basilisk
 id: https://cheeleong.dev/graph20/objects/monsters/basilisk
-source: Monsters A-Z §12.21 (lines 18424-18450)
+source: Monsters A-Z §12.21 (lines 18420-18446)
 
 [monsterCategory]
 Monster
@@ -41864,7 +41864,7 @@ parsed
 
 ### Bat
 id: https://cheeleong.dev/graph20/objects/monsters/bat
-source: Animals §13.8 (lines 26739-26759)
+source: Animals §13.8 (lines 26735-26755)
 
 [monsterCategory]
 Animal
@@ -41872,23 +41872,17 @@ Animal
 [hitPointsRoll.expression]
 1d4-1
 
-[abilities.str.score]
-14
+[abilities.str.modifier]
+-4
 
 [abilities.dex.score]
 15
 
 [abilities.con.score]
-13
-
-[abilities.int.score]
-7
-
-[abilities.int.modifier]
--2
-
-[abilities.cha.score]
 8
+
+[abilities.cha.modifier]
+-3
 
 [rulesText]
 Tiny Beast, Unaligned
@@ -41917,7 +41911,7 @@ parsed
 
 ### Bearded Devil
 id: https://cheeleong.dev/graph20/objects/monsters/bearded-devil
-source: Monsters A-Z §12.22 (lines 18452-18484)
+source: Monsters A-Z §12.22 (lines 18448-18480)
 
 [monsterCategory]
 Monster
@@ -41986,7 +41980,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Behir
 id: https://cheeleong.dev/graph20/objects/monsters/behir
-source: Monsters A-Z §12.23 (lines 18486-18522)
+source: Monsters A-Z §12.23 (lines 18482-18518)
 
 [monsterCategory]
 Monster
@@ -41997,8 +41991,11 @@ Monster
 [experiencePoints]
 7200
 
+[abilities.str.score]
+23
+
 [abilities.int.modifier]
--1
+-2
 
 [rulesText]
 Huge Monstrosity, Neutral Evil
@@ -42044,7 +42041,7 @@ parsed
 
 ### Berserker
 id: https://cheeleong.dev/graph20/objects/monsters/berserker
-source: Monsters A-Z §12.24 (lines 18524-18551)
+source: Monsters A-Z §12.24 (lines 18520-18547)
 
 [monsterCategory]
 Monster
@@ -42096,7 +42093,7 @@ parsed
 
 ### Black Bear
 id: https://cheeleong.dev/graph20/objects/monsters/black-bear
-source: Animals §13.9 (lines 26761-26784)
+source: Animals §13.9 (lines 26757-26780)
 
 [monsterCategory]
 Animal
@@ -42104,17 +42101,17 @@ Animal
 [hitPointsRoll.expression]
 3d8+6
 
-[abilities.str.modifier]
--1
-
 [abilities.dex.score]
+12
+
+[abilities.con.score]
 14
 
 [abilities.int.modifier]
--3
+-4
 
-[abilities.wis.score]
-12
+[abilities.cha.score]
+7
 
 [abilities.cha.modifier]
 -2
@@ -42152,7 +42149,7 @@ parsed
 
 ### Black Dragon Wyrmling
 id: https://cheeleong.dev/graph20/objects/monsters/black-dragon-wyrmling
-source: Monsters A-Z §12.26 (lines 18555-18585)
+source: Monsters A-Z §12.26 (lines 18551-18581)
 
 [monsterCategory]
 Monster
@@ -42203,7 +42200,7 @@ parsed
 
 ### Black Pudding
 id: https://cheeleong.dev/graph20/objects/monsters/black-pudding
-source: Monsters A-Z §12.30 (lines 18717-18756)
+source: Monsters A-Z §12.30 (lines 18713-18752)
 
 [monsterCategory]
 Monster
@@ -42215,25 +42212,10 @@ Monster
 1100
 
 [abilities.str.score]
-27
-
-[abilities.dex.score]
-14
-
-[abilities.dex.savingThrow]
-9
-
-[abilities.con.score]
-25
-
-[abilities.int.score]
 16
 
-[abilities.wis.score]
-15
-
-[abilities.cha.score]
-22
+[abilities.wis.modifier]
+-2
 
 [rulesText]
 Large Ooze, Unaligned
@@ -42282,7 +42264,7 @@ parsed
 
 ### Blink Dog
 id: https://cheeleong.dev/graph20/objects/monsters/blink-dog
-source: Monsters A-Z §12.31 (lines 18758-18785)
+source: Monsters A-Z §12.31 (lines 18754-18781)
 
 [monsterCategory]
 Monster
@@ -42291,19 +42273,16 @@ Monster
 4d8+4
 
 [abilities.str.score]
-21
+12
 
 [abilities.dex.score]
-10
-
-[abilities.con.score]
-19
+17
 
 [abilities.int.score]
-14
+10
 
 [abilities.cha.score]
-17
+11
 
 [rulesText]
 Medium Fey, Lawful Good
@@ -42340,13 +42319,16 @@ parsed
 
 ### Blood Hawk
 id: https://cheeleong.dev/graph20/objects/monsters/blood-hawk
-source: Animals §13.10 (lines 26786-26811)
+source: Animals §13.10 (lines 26782-26807)
 
 [monsterCategory]
 Animal
 
+[abilities.str.modifier]
+-2
+
 [abilities.dex.score]
-11
+14
 
 [abilities.int.modifier]
 -4
@@ -42392,7 +42374,7 @@ parsed
 
 ### Blue Dragon Wyrmling
 id: https://cheeleong.dev/graph20/objects/monsters/blue-dragon-wyrmling
-source: Monsters A-Z §12.33 (lines 18789-18815)
+source: Monsters A-Z §12.33 (lines 18785-18811)
 
 [monsterCategory]
 Monster
@@ -42400,14 +42382,8 @@ Monster
 [hitPointsRoll.expression]
 10d8+20
 
-[abilities.str.score]
-25
-
-[abilities.con.score]
-23
-
-[abilities.int.score]
-16
+[abilities.wis.score]
+11
 
 [rulesText]
 Medium Dragon (Chromatic), Lawful Evil
@@ -42445,7 +42421,7 @@ parsed
 
 ### Boar
 id: https://cheeleong.dev/graph20/objects/monsters/boar
-source: Animals §13.11 (lines 26813-26837)
+source: Animals §13.11 (lines 26809-26833)
 
 [monsterCategory]
 Animal
@@ -42453,11 +42429,17 @@ Animal
 [hitPointsRoll.expression]
 2d8+4
 
-[abilities.str.score]
-16
-
-[abilities.dex.score]
+[abilities.con.score]
 14
+
+[abilities.int.modifier]
+-4
+
+[abilities.wis.modifier]
+-1
+
+[abilities.cha.modifier]
+-3
 
 [rulesText]
 Medium Beast, Unaligned
@@ -42493,7 +42475,7 @@ parsed
 
 ### Bone Devil
 id: https://cheeleong.dev/graph20/objects/monsters/bone-devil
-source: Monsters A-Z §12.37 (lines 18941-18978)
+source: Monsters A-Z §12.37 (lines 18937-18974)
 
 [monsterCategory]
 Monster
@@ -42504,14 +42486,8 @@ Monster
 [experiencePoints]
 5000
 
-[abilities.str.score]
-29
-
-[abilities.con.score]
-27
-
-[abilities.cha.score]
-25
+[abilities.wis.score]
+14
 
 [rulesText]
 Large Fiend (Devil), Lawful Evil
@@ -42564,7 +42540,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Brass Dragon Wyrmling
 id: https://cheeleong.dev/graph20/objects/monsters/brass-dragon-wyrmling
-source: Monsters A-Z §12.39 (lines 18982-19008)
+source: Monsters A-Z §12.39 (lines 18978-19004)
 
 [monsterCategory]
 Monster
@@ -42611,7 +42587,7 @@ parsed
 
 ### Bronze Dragon Wyrmling
 id: https://cheeleong.dev/graph20/objects/monsters/bronze-dragon-wyrmling
-source: Monsters A-Z §12.44 (lines 19142-19174)
+source: Monsters A-Z §12.44 (lines 19138-19170)
 
 [monsterCategory]
 Monster
@@ -42667,7 +42643,7 @@ parsed
 
 ### Brown Bear
 id: https://cheeleong.dev/graph20/objects/monsters/brown-bear
-source: Animals §13.12 (lines 26839-26864)
+source: Animals §13.12 (lines 26835-26860)
 
 [monsterCategory]
 Animal
@@ -42731,7 +42707,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Bugbear Stalker
 id: https://cheeleong.dev/graph20/objects/monsters/bugbear-stalker
-source: Monsters A-Z §12.49 (lines 19318-19352)
+source: Monsters A-Z §12.49 (lines 19314-19348)
 
 [monsterCategory]
 Monster
@@ -42795,7 +42771,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Bugbear Warrior
 id: https://cheeleong.dev/graph20/objects/monsters/bugbear-warrior
-source: Monsters A-Z §12.50 (lines 19354-19382)
+source: Monsters A-Z §12.50 (lines 19350-19378)
 
 [monsterCategory]
 Monster
@@ -42859,7 +42835,7 @@ statSections[1].rulesText.paragraphs[1]
 
 ### Bulette
 id: https://cheeleong.dev/graph20/objects/monsters/bulette
-source: Monsters A-Z §12.51 (lines 19384-19415)
+source: Monsters A-Z §12.51 (lines 19380-19411)
 
 [monsterCategory]
 Monster
@@ -42921,7 +42897,7 @@ parsed
 
 ### Camel
 id: https://cheeleong.dev/graph20/objects/monsters/camel
-source: Animals §13.13 (lines 26866-26886)
+source: Animals §13.13 (lines 26862-26882)
 
 [monsterCategory]
 Animal
@@ -42971,7 +42947,7 @@ parsed
 
 ### Cat
 id: https://cheeleong.dev/graph20/objects/monsters/cat
-source: Animals §13.14 (lines 26888-26913)
+source: Animals §13.14 (lines 26884-26909)
 
 [monsterCategory]
 Animal
@@ -43020,7 +42996,7 @@ parsed
 
 ### Centaur Trooper
 id: https://cheeleong.dev/graph20/objects/monsters/centaur-trooper
-source: Monsters A-Z §12.53 (lines 19419-19450)
+source: Monsters A-Z §12.53 (lines 19415-19446)
 
 [monsterCategory]
 Monster
@@ -43084,7 +43060,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Chain Devil
 id: https://cheeleong.dev/graph20/objects/monsters/chain-devil
-source: Monsters A-Z §12.54 (lines 19452-19493)
+source: Monsters A-Z §12.54 (lines 19448-19489)
 
 [monsterCategory]
 Monster
@@ -43147,7 +43123,7 @@ parsed
 
 ### Chimera
 id: https://cheeleong.dev/graph20/objects/monsters/chimera
-source: Monsters A-Z §12.55 (lines 19495-19526)
+source: Monsters A-Z §12.55 (lines 19491-19522)
 
 [monsterCategory]
 Monster
@@ -43218,7 +43194,7 @@ statSections[0].rulesText.paragraphs[3]
 
 ### Chuul
 id: https://cheeleong.dev/graph20/objects/monsters/chuul
-source: Monsters A-Z §12.56 (lines 19528-19562)
+source: Monsters A-Z §12.56 (lines 19524-19558)
 
 [monsterCategory]
 Monster
@@ -43280,7 +43256,7 @@ parsed
 
 ### Clay Golem
 id: https://cheeleong.dev/graph20/objects/monsters/clay-golem
-source: Monsters A-Z §12.57 (lines 19564-19604)
+source: Monsters A-Z §12.57 (lines 19560-19600)
 
 [monsterCategory]
 Monster
@@ -43292,13 +43268,19 @@ Monster
 5000
 
 [abilities.str.score]
-17
+20
 
-[abilities.dex.score]
-15
+[abilities.dex.modifier]
+-1
+
+[abilities.con.score]
+18
+
+[abilities.int.modifier]
+-4
 
 [abilities.cha.modifier]
--2
+-5
 
 [rulesText]
 Large Construct, Unaligned
@@ -43348,7 +43330,7 @@ parsed
 
 ### Cloaker
 id: https://cheeleong.dev/graph20/objects/monsters/cloaker
-source: Monsters A-Z §12.58 (lines 19606-19646)
+source: Monsters A-Z §12.58 (lines 19602-19642)
 
 [monsterCategory]
 Monster
@@ -43419,7 +43401,7 @@ statSections[1].rulesText.paragraphs[3]
 
 ### Cloud Giant
 id: https://cheeleong.dev/graph20/objects/monsters/cloud-giant
-source: Monsters A-Z §12.59 (lines 19648-19685)
+source: Monsters A-Z §12.59 (lines 19644-19681)
 
 [monsterCategory]
 Monster
@@ -43490,7 +43472,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Cockatrice
 id: https://cheeleong.dev/graph20/objects/monsters/cockatrice
-source: Monsters A-Z §12.60 (lines 19687-19710)
+source: Monsters A-Z §12.60 (lines 19683-19706)
 
 [monsterCategory]
 Monster
@@ -43498,17 +43480,20 @@ Monster
 [hitPointsRoll.expression]
 5d6+5
 
-[abilities.str.score]
-15
+[abilities.str.modifier]
+-2
 
 [abilities.dex.score]
 12
 
-[abilities.con.score]
+[abilities.int.modifier]
+-4
+
+[abilities.wis.score]
 13
 
-[abilities.int.score]
-14
+[abilities.cha.modifier]
+-3
 
 [rulesText]
 Small Monstrosity, Unaligned
@@ -43541,7 +43526,7 @@ parsed
 
 ### Commoner
 id: https://cheeleong.dev/graph20/objects/monsters/commoner
-source: Monsters A-Z §12.61 (lines 19712-19739)
+source: Monsters A-Z §12.61 (lines 19708-19735)
 
 [monsterCategory]
 Monster
@@ -43578,7 +43563,7 @@ parsed
 
 ### Constrictor Snake
 id: https://cheeleong.dev/graph20/objects/monsters/constrictor-snake
-source: Animals §13.15 (lines 26915-26939)
+source: Animals §13.15 (lines 26911-26935)
 
 [monsterCategory]
 Animal
@@ -43632,7 +43617,7 @@ parsed
 
 ### Copper Dragon Wyrmling
 id: https://cheeleong.dev/graph20/objects/monsters/copper-dragon-wyrmling
-source: Monsters A-Z §12.63 (lines 19743-19769)
+source: Monsters A-Z §12.63 (lines 19739-19765)
 
 [monsterCategory]
 Monster
@@ -43679,7 +43664,7 @@ parsed
 
 ### Couatl
 id: https://cheeleong.dev/graph20/objects/monsters/couatl
-source: Monsters A-Z §12.67 (lines 19901-19944)
+source: Monsters A-Z §12.67 (lines 19897-19940)
 
 [monsterCategory]
 Monster
@@ -43750,7 +43735,7 @@ parsed
 
 ### Crab
 id: https://cheeleong.dev/graph20/objects/monsters/crab
-source: Animals §13.16 (lines 26941-26966)
+source: Animals §13.16 (lines 26937-26962)
 
 [monsterCategory]
 Animal
@@ -43811,7 +43796,7 @@ parsed
 
 ### Crocodile
 id: https://cheeleong.dev/graph20/objects/monsters/crocodile
-source: Animals §13.17 (lines 26968-26993)
+source: Animals §13.17 (lines 26964-26989)
 
 [monsterCategory]
 Animal
@@ -43825,11 +43810,8 @@ Animal
 [abilities.int.modifier]
 -4
 
-[abilities.cha.score]
-7
-
 [abilities.cha.modifier]
--2
+-3
 
 [rulesText]
 Large Beast, Unaligned
@@ -43866,7 +43848,7 @@ parsed
 
 ### Cultist Fanatic
 id: https://cheeleong.dev/graph20/objects/monsters/cultist-fanatic
-source: Monsters A-Z §12.72 (lines 20002-20038)
+source: Monsters A-Z §12.72 (lines 19998-20034)
 
 [monsterCategory]
 Monster
@@ -43875,15 +43857,12 @@ Monster
 8d8+8
 
 [abilities.str.score]
-14
-
-[abilities.con.score]
 11
 
-[abilities.int.modifier]
--3
+[abilities.dex.score]
+14
 
-[abilities.wis.score]
+[abilities.int.score]
 10
 
 [rulesText]
@@ -43935,16 +43914,10 @@ parsed
 
 ### Cultist
 id: https://cheeleong.dev/graph20/objects/monsters/cultist
-source: Monsters A-Z §12.71 (lines 19978-20000)
+source: Monsters A-Z §12.71 (lines 19974-19996)
 
 [monsterCategory]
 Monster
-
-[abilities.str.score]
-14
-
-[abilities.int.modifier]
--3
 
 [rulesText]
 Medium or Small Humanoid, Neutral
@@ -43978,7 +43951,7 @@ parsed
 
 ### Darkmantle
 id: https://cheeleong.dev/graph20/objects/monsters/darkmantle
-source: Monsters A-Z §12.73 (lines 20040-20069)
+source: Monsters A-Z §12.73 (lines 20036-20065)
 
 [monsterCategory]
 Monster
@@ -44035,7 +44008,7 @@ parsed
 
 ### Death Dog
 id: https://cheeleong.dev/graph20/objects/monsters/death-dog
-source: Monsters A-Z §12.74 (lines 20071-20097)
+source: Monsters A-Z §12.74 (lines 20067-20093)
 
 [monsterCategory]
 Monster
@@ -44089,7 +44062,7 @@ parsed
 
 ### Deer
 id: https://cheeleong.dev/graph20/objects/monsters/deer
-source: Animals §13.18 (lines 26995-27020)
+source: Animals §13.18 (lines 26991-27016)
 
 [monsterCategory]
 Animal
@@ -44138,7 +44111,7 @@ parsed
 
 ### Deva
 id: https://cheeleong.dev/graph20/objects/monsters/deva
-source: Monsters A-Z §12.75 (lines 20099-20142)
+source: Monsters A-Z §12.75 (lines 20095-20138)
 
 [monsterCategory]
 Monster
@@ -44203,7 +44176,7 @@ parsed
 
 ### Dire Wolf
 id: https://cheeleong.dev/graph20/objects/monsters/dire-wolf
-source: Animals §13.19 (lines 27022-27047)
+source: Animals §13.19 (lines 27018-27043)
 
 [monsterCategory]
 Animal
@@ -44255,7 +44228,7 @@ parsed
 
 ### Djinni
 id: https://cheeleong.dev/graph20/objects/monsters/djinni
-source: Monsters A-Z §12.76 (lines 20144-20195)
+source: Monsters A-Z §12.76 (lines 20140-20191)
 
 [monsterCategory]
 Monster
@@ -44337,7 +44310,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Doppelganger
 id: https://cheeleong.dev/graph20/objects/monsters/doppelganger
-source: Monsters A-Z §12.77 (lines 20197-20231)
+source: Monsters A-Z §12.77 (lines 20193-20227)
 
 [monsterCategory]
 Monster
@@ -44441,7 +44414,7 @@ attack paragraph did not match the supported header grammar
 
 ### Draft Horse
 id: https://cheeleong.dev/graph20/objects/monsters/draft-horse
-source: Animals §13.20 (lines 27049-27069)
+source: Animals §13.20 (lines 27045-27065)
 
 [monsterCategory]
 Animal
@@ -44494,7 +44467,7 @@ parsed
 
 ### Dragon Turtle
 id: https://cheeleong.dev/graph20/objects/monsters/dragon-turtle
-source: Monsters A-Z §12.78 (lines 20233-20266)
+source: Monsters A-Z §12.78 (lines 20229-20262)
 
 [monsterCategory]
 Monster
@@ -44555,7 +44528,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Dretch
 id: https://cheeleong.dev/graph20/objects/monsters/dretch
-source: Monsters A-Z §12.79 (lines 20268-20294)
+source: Monsters A-Z §12.79 (lines 20264-20290)
 
 [monsterCategory]
 Monster
@@ -44609,7 +44582,7 @@ parsed
 
 ### Drider
 id: https://cheeleong.dev/graph20/objects/monsters/drider
-source: Monsters A-Z §12.80 (lines 20296-20335)
+source: Monsters A-Z §12.80 (lines 20292-20331)
 
 [monsterCategory]
 Monster
@@ -44673,7 +44646,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Druid
 id: https://cheeleong.dev/graph20/objects/monsters/druid
-source: Monsters A-Z §12.81 (lines 20337-20373)
+source: Monsters A-Z §12.81 (lines 20333-20369)
 
 [monsterCategory]
 Monster
@@ -44715,7 +44688,7 @@ At Will: Druidcraft, Speak with Animals
 
 2/Day Each: Entangle, Thunderwave
 
-1/Day Each: Animal Messenger, Long-strider, Moonbeam
+1/Day Each: Animal Messenger, Longstrider, Moonbeam
 
 [movement[0].mode]
 Walk
@@ -44734,7 +44707,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Dryad
 id: https://cheeleong.dev/graph20/objects/monsters/dryad
-source: Monsters A-Z §12.82 (lines 20375-20418)
+source: Monsters A-Z §12.82 (lines 20371-20414)
 
 [abilities.dex.score]
 12
@@ -44802,7 +44775,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Dust Mephit
 id: https://cheeleong.dev/graph20/objects/monsters/dust-mephit
-source: Monsters A-Z §12.161 (lines 22900-22931)
+source: Monsters A-Z §12.161 (lines 22896-22927)
 
 [monsterCategory]
 Monster
@@ -44863,7 +44836,7 @@ parsed
 
 ### Eagle
 id: https://cheeleong.dev/graph20/objects/monsters/eagle
-source: Animals §13.21 (lines 27071-27092)
+source: Animals §13.21 (lines 27067-27088)
 
 [monsterCategory]
 Animal
@@ -44917,7 +44890,7 @@ parsed
 
 ### Earth Elemental
 id: https://cheeleong.dev/graph20/objects/monsters/earth-elemental
-source: Monsters A-Z §12.83 (lines 20420-20454)
+source: Monsters A-Z §12.83 (lines 20416-20450)
 
 [hitPointsRoll.expression]
 14d10+70
@@ -44979,7 +44952,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Efreeti
 id: https://cheeleong.dev/graph20/objects/monsters/efreeti
-source: Monsters A-Z §12.84 (lines 20456-20498)
+source: Monsters A-Z §12.84 (lines 20452-20494)
 
 [monsterCategory]
 Monster
@@ -44991,10 +44964,10 @@ Monster
 7200
 
 [abilities.str.score]
-18
+22
 
-[abilities.int.score]
-14
+[abilities.wis.score]
+15
 
 [rulesText]
 Large Elemental (Genie), Neutral
@@ -45052,7 +45025,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Elephant
 id: https://cheeleong.dev/graph20/objects/monsters/elephant
-source: Animals §13.22 (lines 27094-27120)
+source: Animals §13.22 (lines 27090-27116)
 
 [monsterCategory]
 Animal
@@ -45066,11 +45039,14 @@ Animal
 [abilities.str.score]
 22
 
+[abilities.con.modifier]
+3
+
 [abilities.int.modifier]
 -4
 
 [abilities.cha.modifier]
--3
+-2
 
 [rulesText]
 Huge Beast, Unaligned
@@ -45108,22 +45084,16 @@ parsed
 
 ### Elk
 id: https://cheeleong.dev/graph20/objects/monsters/elk
-source: Animals §13.23 (lines 27122-27143)
+source: Animals §13.23 (lines 27118-27139)
 
 [monsterCategory]
 Animal
 
 [abilities.str.score]
-18
-
-[abilities.con.score]
-15
+16
 
 [abilities.int.modifier]
 -4
-
-[abilities.cha.score]
-7
 
 [abilities.cha.modifier]
 -2
@@ -45159,7 +45129,7 @@ parsed
 
 ### Erinyes
 id: https://cheeleong.dev/graph20/objects/monsters/erinyes
-source: Monsters A-Z §12.85 (lines 20500-20542)
+source: Monsters A-Z §12.85 (lines 20496-20538)
 
 [monsterCategory]
 Monster
@@ -45220,7 +45190,7 @@ parsed
 
 ### Ettercap
 id: https://cheeleong.dev/graph20/objects/monsters/ettercap
-source: Monsters A-Z §12.86 (lines 20544-20583)
+source: Monsters A-Z §12.86 (lines 20540-20579)
 
 [monsterCategory]
 Monster
@@ -45229,16 +45199,16 @@ Monster
 8d8+8
 
 [abilities.str.score]
-21
+14
 
-[abilities.dex.modifier]
--1
-
-[abilities.con.score]
-17
+[abilities.dex.score]
+15
 
 [abilities.int.modifier]
 -2
+
+[abilities.cha.modifier]
+-1
 
 [rulesText]
 Medium Monstrosity, Neutral Evil
@@ -45290,7 +45260,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Ettin
 id: https://cheeleong.dev/graph20/objects/monsters/ettin
-source: Monsters A-Z §12.87 (lines 20585-20614)
+source: Monsters A-Z §12.87 (lines 20581-20610)
 
 [monsterCategory]
 Monster
@@ -45302,16 +45272,13 @@ Monster
 1100
 
 [abilities.str.score]
-19
+21
 
 [abilities.con.score]
-18
+17
 
 [abilities.int.modifier]
 -2
-
-[abilities.cha.modifier]
--3
 
 [rulesText]
 Large Giant, Chaotic Evil
@@ -45353,7 +45320,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Fire Elemental
 id: https://cheeleong.dev/graph20/objects/monsters/fire-elemental
-source: Monsters A-Z §12.88 (lines 20616-20652)
+source: Monsters A-Z §12.88 (lines 20612-20648)
 
 [monsterCategory]
 Monster
@@ -45417,7 +45384,7 @@ parsed
 
 ### Fire Giant
 id: https://cheeleong.dev/graph20/objects/monsters/fire-giant
-source: Monsters A-Z §12.89 (lines 20654-20684)
+source: Monsters A-Z §12.89 (lines 20650-20680)
 
 [monsterCategory]
 Monster
@@ -45481,7 +45448,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Flesh Golem
 id: https://cheeleong.dev/graph20/objects/monsters/flesh-golem
-source: Monsters A-Z §12.90 (lines 20686-20725)
+source: Monsters A-Z §12.90 (lines 20682-20721)
 
 [monsterCategory]
 Monster
@@ -45493,10 +45460,13 @@ Monster
 1800
 
 [abilities.str.score]
-23
+19
 
-[abilities.con.score]
-21
+[abilities.int.modifier]
+-2
+
+[abilities.cha.modifier]
+-3
 
 [rulesText]
 Medium Construct, Neutral
@@ -45545,7 +45515,7 @@ parsed
 
 ### Flying Snake
 id: https://cheeleong.dev/graph20/objects/monsters/flying-snake
-source: Animals §13.24 (lines 27145-27169)
+source: Animals §13.24 (lines 27141-27165)
 
 [monsterCategory]
 Animal
@@ -45590,7 +45560,7 @@ parsed
 
 ### Frog
 id: https://cheeleong.dev/graph20/objects/monsters/frog
-source: Animals §13.25 (lines 27171-27198)
+source: Animals §13.25 (lines 27167-27194)
 
 [monsterCategory]
 Animal
@@ -45644,7 +45614,7 @@ parsed
 
 ### Frost Giant
 id: https://cheeleong.dev/graph20/objects/monsters/frost-giant
-source: Monsters A-Z §12.91 (lines 20727-20759)
+source: Monsters A-Z §12.91 (lines 20723-20755)
 
 [monsterCategory]
 Monster
@@ -45710,7 +45680,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Gargoyle
 id: https://cheeleong.dev/graph20/objects/monsters/gargoyle
-source: Monsters A-Z §12.95 (lines 20811-20841)
+source: Monsters A-Z §12.95 (lines 20807-20837)
 
 [monsterCategory]
 Monster
@@ -45765,7 +45735,7 @@ parsed
 
 ### Gelatinous Cube
 id: https://cheeleong.dev/graph20/objects/monsters/gelatinous-cube
-source: Monsters A-Z §12.96 (lines 20843-20878)
+source: Monsters A-Z §12.96 (lines 20839-20874)
 
 [monsterCategory]
 Monster
@@ -45828,7 +45798,7 @@ parsed
 
 ### Ghast
 id: https://cheeleong.dev/graph20/objects/monsters/ghast
-source: Monsters A-Z §12.97 (lines 20880-20910)
+source: Monsters A-Z §12.97 (lines 20876-20906)
 
 [monsterCategory]
 Monster
@@ -45889,7 +45859,7 @@ statSections[1].rulesText.paragraphs[1]
 
 ### Ghost
 id: https://cheeleong.dev/graph20/objects/monsters/ghost
-source: Monsters A-Z §12.98 (lines 20912-20955)
+source: Monsters A-Z §12.98 (lines 20908-20951)
 
 [monsterCategory]
 Monster
@@ -45960,7 +45930,7 @@ parsed
 
 ### Ghoul
 id: https://cheeleong.dev/graph20/objects/monsters/ghoul
-source: Monsters A-Z §12.99 (lines 20957-20984)
+source: Monsters A-Z §12.99 (lines 20953-20980)
 
 [monsterCategory]
 Monster
@@ -46018,7 +45988,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Giant Ape
 id: https://cheeleong.dev/graph20/objects/monsters/giant-ape
-source: Animals §13.26 (lines 27200-27229)
+source: Animals §13.26 (lines 27196-27225)
 
 [monsterCategory]
 Animal
@@ -46029,11 +45999,14 @@ Animal
 [experiencePoints]
 2900
 
+[abilities.str.score]
+23
+
 [abilities.con.score]
-11
+18
 
 [abilities.int.modifier]
--4
+-3
 
 [abilities.cha.modifier]
 -2
@@ -46077,7 +46050,7 @@ parsed
 
 ### Giant Badger
 id: https://cheeleong.dev/graph20/objects/monsters/giant-badger
-source: Animals §13.27 (lines 27231-27253)
+source: Animals §13.27 (lines 27227-27249)
 
 [monsterCategory]
 Animal
@@ -46129,7 +46102,7 @@ parsed
 
 ### Giant Bat
 id: https://cheeleong.dev/graph20/objects/monsters/giant-bat
-source: Animals §13.28 (lines 27255-27275)
+source: Animals §13.28 (lines 27251-27271)
 
 [monsterCategory]
 Animal
@@ -46176,7 +46149,7 @@ parsed
 
 ### Giant Boar
 id: https://cheeleong.dev/graph20/objects/monsters/giant-boar
-source: Animals §13.29 (lines 27277-27301)
+source: Animals §13.29 (lines 27273-27297)
 
 [monsterCategory]
 Animal
@@ -46233,7 +46206,7 @@ parsed
 
 ### Giant Centipede
 id: https://cheeleong.dev/graph20/objects/monsters/giant-centipede
-source: Animals §13.30 (lines 27303-27323)
+source: Animals §13.30 (lines 27299-27319)
 
 [monsterCategory]
 Animal
@@ -46241,20 +46214,20 @@ Animal
 [hitPointsRoll.expression]
 2d6+2
 
-[abilities.str.score]
-13
-
-[abilities.dex.score]
-10
-
-[abilities.con.score]
-17
+[abilities.str.modifier]
+-3
 
 [abilities.int.modifier]
--4
+-5
+
+[abilities.wis.score]
+7
+
+[abilities.wis.modifier]
+-2
 
 [abilities.cha.modifier]
--3
+-4
 
 [rulesText]
 Small Beast, Unaligned
@@ -46286,7 +46259,7 @@ parsed
 
 ### Giant Constrictor Snake
 id: https://cheeleong.dev/graph20/objects/monsters/giant-constrictor-snake
-source: Animals §13.31 (lines 27325-27350)
+source: Animals §13.31 (lines 27321-27346)
 
 [monsterCategory]
 Animal
@@ -46295,22 +46268,13 @@ Animal
 8d12+8
 
 [abilities.str.score]
-21
-
-[abilities.dex.score]
-9
-
-[abilities.dex.modifier]
--1
-
-[abilities.con.score]
-17
+19
 
 [abilities.int.modifier]
--4
+-5
 
 [abilities.cha.modifier]
--2
+-4
 
 [rulesText]
 Huge Beast, Unaligned
@@ -46347,25 +46311,19 @@ parsed
 
 ### Giant Crab
 id: https://cheeleong.dev/graph20/objects/monsters/giant-crab
-source: Animals §13.32 (lines 27352-27377)
+source: Animals §13.32 (lines 27348-27373)
 
 [monsterCategory]
 Animal
 
-[abilities.str.score]
-16
-
-[abilities.dex.score]
-17
-
 [abilities.int.modifier]
+-5
+
+[abilities.wis.modifier]
 -1
 
-[abilities.wis.score]
-14
-
-[abilities.cha.score]
-10
+[abilities.cha.modifier]
+-4
 
 [rulesText]
 Medium Beast, Unaligned
@@ -46402,7 +46360,7 @@ parsed
 
 ### Giant Crocodile
 id: https://cheeleong.dev/graph20/objects/monsters/giant-crocodile
-source: Animals §13.33 (lines 27379-27408)
+source: Animals §13.33 (lines 27375-27404)
 
 [monsterCategory]
 Animal
@@ -46467,7 +46425,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Giant Eagle
 id: https://cheeleong.dev/graph20/objects/monsters/giant-eagle
-source: Animals §13.34 (lines 27410-27434)
+source: Animals §13.34 (lines 27406-27430)
 
 [monsterCategory]
 Animal
@@ -46518,7 +46476,7 @@ parsed
 
 ### Giant Elk
 id: https://cheeleong.dev/graph20/objects/monsters/giant-elk
-source: Animals §13.35 (lines 27436-27458)
+source: Animals §13.35 (lines 27432-27454)
 
 [monsterCategory]
 Animal
@@ -46570,7 +46528,7 @@ parsed
 
 ### Giant Fire Beetle
 id: https://cheeleong.dev/graph20/objects/monsters/giant-fire-beetle
-source: Animals §13.36 (lines 27460-27485)
+source: Animals §13.36 (lines 27456-27481)
 
 [monsterCategory]
 Animal
@@ -46662,19 +46620,16 @@ Walk
 
 ### Giant Frog
 id: https://cheeleong.dev/graph20/objects/monsters/giant-frog
-source: Animals §13.37 (lines 27487-27518)
+source: Animals §13.37 (lines 27483-27514)
 
 [monsterCategory]
 Animal
-
-[abilities.str.score]
-17
 
 [abilities.dex.score]
 13
 
 [abilities.int.modifier]
--3
+-4
 
 [rulesText]
 Medium Beast, Unaligned
@@ -46717,7 +46672,7 @@ parsed
 
 ### Giant Goat
 id: https://cheeleong.dev/graph20/objects/monsters/giant-goat
-source: Animals §13.38 (lines 27520-27541)
+source: Animals §13.38 (lines 27516-27537)
 
 [monsterCategory]
 Animal
@@ -46726,25 +46681,16 @@ Animal
 3d10+3
 
 [abilities.str.score]
-8
-
-[abilities.str.modifier]
--1
+17
 
 [abilities.con.score]
 12
 
 [abilities.int.modifier]
--5
-
-[abilities.wis.score]
-7
-
-[abilities.wis.modifier]
--2
+-4
 
 [abilities.cha.modifier]
--4
+-2
 
 [rulesText]
 Large Beast, Unaligned
@@ -46777,7 +46723,7 @@ parsed
 
 ### Giant Hyena
 id: https://cheeleong.dev/graph20/objects/monsters/giant-hyena
-source: Animals §13.39 (lines 27543-27568)
+source: Animals §13.39 (lines 27539-27564)
 
 [monsterCategory]
 Animal
@@ -46786,10 +46732,19 @@ Animal
 6d10+12
 
 [abilities.str.score]
-17
+16
+
+[abilities.dex.score]
+14
 
 [abilities.int.modifier]
--3
+-4
+
+[abilities.cha.score]
+7
+
+[abilities.cha.modifier]
+-2
 
 [rulesText]
 Large Beast, Unaligned
@@ -46894,7 +46849,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Giant Lizard
 id: https://cheeleong.dev/graph20/objects/monsters/giant-lizard
-source: Animals §13.40 (lines 27570-27594)
+source: Animals §13.40 (lines 27566-27590)
 
 [monsterCategory]
 Animal
@@ -46948,7 +46903,7 @@ parsed
 
 ### Giant Octopus
 id: https://cheeleong.dev/graph20/objects/monsters/giant-octopus
-source: Animals §13.41 (lines 27596-27625)
+source: Animals §13.41 (lines 27592-27621)
 
 [monsterCategory]
 Animal
@@ -46957,15 +46912,9 @@ Animal
 7d10+7
 
 [abilities.str.score]
-15
-
-[abilities.dex.score]
-12
+17
 
 [abilities.int.modifier]
--4
-
-[abilities.cha.modifier]
 -3
 
 [rulesText]
@@ -47007,7 +46956,7 @@ parsed
 
 ### Giant Owl
 id: https://cheeleong.dev/graph20/objects/monsters/giant-owl
-source: Animals §13.42 (lines 27627-27658)
+source: Animals §13.42 (lines 27623-27654)
 
 [monsterCategory]
 Animal
@@ -47016,16 +46965,13 @@ Animal
 3d10+3
 
 [abilities.str.score]
-15
-
-[abilities.con.score]
 13
 
-[abilities.int.modifier]
--4
+[abilities.dex.score]
+15
 
-[abilities.cha.modifier]
--3
+[abilities.wis.score]
+14
 
 [rulesText]
 Large Celestial, Neutral
@@ -47068,19 +47014,25 @@ parsed
 
 ### Giant Rat
 id: https://cheeleong.dev/graph20/objects/monsters/giant-rat
-source: Animals §13.43 (lines 27660-27685)
+source: Animals §13.43 (lines 27656-27681)
 
 [monsterCategory]
 Animal
 
-[abilities.str.score]
-15
+[abilities.str.modifier]
+-2
+
+[abilities.dex.score]
+16
 
 [abilities.con.score]
 11
 
 [abilities.int.modifier]
 -4
+
+[abilities.wis.score]
+10
 
 [abilities.cha.modifier]
 -3
@@ -47120,7 +47072,7 @@ parsed
 
 ### Giant Scorpion
 id: https://cheeleong.dev/graph20/objects/monsters/giant-scorpion
-source: Animals §13.44 (lines 27687-27711)
+source: Animals §13.44 (lines 27683-27707)
 
 [monsterCategory]
 Animal
@@ -47129,16 +47081,16 @@ Animal
 7d10+14
 
 [abilities.str.score]
-23
-
-[abilities.con.score]
-21
+16
 
 [abilities.int.modifier]
 -5
 
+[abilities.wis.modifier]
+-1
+
 [abilities.cha.modifier]
--3
+-4
 
 [rulesText]
 Large Beast, Unaligned
@@ -47180,12 +47132,15 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Giant Seahorse
 id: https://cheeleong.dev/graph20/objects/monsters/giant-seahorse
-source: Animals §13.45 (lines 27713-27741)
+source: Animals §13.45 (lines 27709-27737)
 
 [monsterCategory]
 Animal
 
-[abilities.con.score]
+[abilities.str.score]
+15
+
+[abilities.dex.score]
 12
 
 [abilities.int.modifier]
@@ -47235,7 +47190,7 @@ parsed
 
 ### Giant Shark
 id: https://cheeleong.dev/graph20/objects/monsters/giant-shark
-source: Animals §13.46 (lines 27743-27770)
+source: Animals §13.46 (lines 27739-27766)
 
 [monsterCategory]
 Animal
@@ -47298,7 +47253,7 @@ parsed
 
 ### Giant Spider
 id: https://cheeleong.dev/graph20/objects/monsters/giant-spider
-source: Animals §13.47 (lines 27772-27801)
+source: Animals §13.47 (lines 27768-27797)
 
 [monsterCategory]
 Animal
@@ -47357,7 +47312,7 @@ parsed
 
 ### Giant Toad
 id: https://cheeleong.dev/graph20/objects/monsters/giant-toad
-source: Animals §13.48 (lines 27803-27831)
+source: Animals §13.48 (lines 27799-27827)
 
 [monsterCategory]
 Animal
@@ -47368,14 +47323,11 @@ Animal
 [abilities.str.score]
 15
 
-[abilities.con.score]
-16
+[abilities.dex.score]
+13
 
 [abilities.int.modifier]
--2
-
-[abilities.cha.score]
-7
+-4
 
 [rulesText]
 Large Beast, Unaligned
@@ -47415,7 +47367,7 @@ parsed
 
 ### Giant Venomous Snake
 id: https://cheeleong.dev/graph20/objects/monsters/giant-venomous-snake
-source: Animals §13.49 (lines 27833-27854)
+source: Animals §13.49 (lines 27829-27850)
 
 [monsterCategory]
 Animal
@@ -47463,7 +47415,7 @@ parsed
 
 ### Giant Vulture
 id: https://cheeleong.dev/graph20/objects/monsters/giant-vulture
-source: Animals §13.50 (lines 27856-27882)
+source: Animals §13.50 (lines 27852-27878)
 
 [monsterCategory]
 Animal
@@ -47522,7 +47474,7 @@ parsed
 
 ### Giant Wasp
 id: https://cheeleong.dev/graph20/objects/monsters/giant-wasp
-source: Animals §13.51 (lines 27884-27908)
+source: Animals §13.51 (lines 27880-27904)
 
 [monsterCategory]
 Animal
@@ -47570,7 +47522,7 @@ parsed
 
 ### Giant Weasel
 id: https://cheeleong.dev/graph20/objects/monsters/giant-weasel
-source: Animals §13.52 (lines 27910-27931)
+source: Animals §13.52 (lines 27906-27927)
 
 [monsterCategory]
 Animal
@@ -47621,7 +47573,7 @@ parsed
 
 ### Giant Wolf Spider
 id: https://cheeleong.dev/graph20/objects/monsters/giant-wolf-spider
-source: Animals §13.53 (lines 27933-27958)
+source: Animals §13.53 (lines 27929-27954)
 
 [monsterCategory]
 Animal
@@ -47676,7 +47628,7 @@ parsed
 
 ### Gibbering Mouther
 id: https://cheeleong.dev/graph20/objects/monsters/gibbering-mouther
-source: Monsters A-Z §12.100 (lines 20986-21025)
+source: Monsters A-Z §12.100 (lines 20982-21021)
 
 [monsterCategory]
 Monster
@@ -47734,7 +47686,7 @@ parsed
 
 ### Glabrezu
 id: https://cheeleong.dev/graph20/objects/monsters/glabrezu
-source: Monsters A-Z §12.101 (lines 21027-21068)
+source: Monsters A-Z §12.101 (lines 21023-21064)
 
 [monsterCategory]
 Monster
@@ -47744,6 +47696,12 @@ Monster
 
 [experiencePoints]
 5000
+
+[abilities.con.score]
+21
+
+[abilities.int.score]
+19
 
 [rulesText]
 Large Fiend (Demon), Chaotic Evil
@@ -47794,7 +47752,7 @@ parsed
 
 ### Gladiator
 id: https://cheeleong.dev/graph20/objects/monsters/gladiator
-source: Monsters A-Z §12.102 (lines 21070-21102)
+source: Monsters A-Z §12.102 (lines 21066-21098)
 
 [monsterCategory]
 Monster
@@ -47804,9 +47762,6 @@ Monster
 
 [experiencePoints]
 1800
-
-[abilities.wis.modifier]
--1
 
 [rulesText]
 Medium or Small Humanoid, Neutral
@@ -47848,7 +47803,7 @@ parsed
 
 ### Gnoll Warrior
 id: https://cheeleong.dev/graph20/objects/monsters/gnoll-warrior
-source: Monsters A-Z §12.104 (lines 21106-21134)
+source: Monsters A-Z §12.104 (lines 21102-21130)
 
 [monsterCategory]
 Monster
@@ -47909,25 +47864,19 @@ statSections[0].rulesText.paragraphs[1]
 
 ### Goat
 id: https://cheeleong.dev/graph20/objects/monsters/goat
-source: Animals §13.54 (lines 27960-27981)
+source: Animals §13.54 (lines 27956-27977)
 
 [monsterCategory]
 Animal
 
-[abilities.str.modifier]
--1
+[abilities.str.score]
+11
 
 [abilities.int.modifier]
--5
-
-[abilities.wis.score]
-7
-
-[abilities.wis.modifier]
--2
+-4
 
 [abilities.cha.modifier]
--4
+-3
 
 [rulesText]
 Medium Beast, Unaligned
@@ -47957,7 +47906,7 @@ parsed
 
 ### Goblin Boss
 id: https://cheeleong.dev/graph20/objects/monsters/goblin-boss
-source: Monsters A-Z §12.108 (lines 21197-21232)
+source: Monsters A-Z §12.108 (lines 21193-21228)
 
 [monsterCategory]
 Monster
@@ -48019,19 +47968,19 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Goblin Minion
 id: https://cheeleong.dev/graph20/objects/monsters/goblin-minion
-source: Monsters A-Z §12.106 (lines 21138-21164)
+source: Monsters A-Z §12.106 (lines 21134-21160)
 
 [monsterCategory]
 Monster
 
-[abilities.str.score]
-10
+[abilities.str.modifier]
+-1
 
 [abilities.dex.score]
 15
 
-[abilities.wis.modifier]
--1
+[abilities.con.score]
+10
 
 [rulesText]
 Small Fey (Goblinoid), Chaotic Neutral
@@ -48069,7 +48018,7 @@ parsed
 
 ### Goblin Warrior
 id: https://cheeleong.dev/graph20/objects/monsters/goblin-warrior
-source: Monsters A-Z §12.107 (lines 21166-21195)
+source: Monsters A-Z §12.107 (lines 21162-21191)
 
 [monsterCategory]
 Monster
@@ -48119,7 +48068,7 @@ statSections[0].rulesText.paragraphs[1]
 
 ### Gold Dragon Wyrmling
 id: https://cheeleong.dev/graph20/objects/monsters/gold-dragon-wyrmling
-source: Monsters A-Z §12.110 (lines 21236-21268)
+source: Monsters A-Z §12.110 (lines 21232-21264)
 
 [monsterCategory]
 Monster
@@ -48178,7 +48127,7 @@ parsed
 
 ### Gorgon
 id: https://cheeleong.dev/graph20/objects/monsters/gorgon
-source: Monsters A-Z §12.114 (lines 21410-21440)
+source: Monsters A-Z §12.114 (lines 21406-21436)
 
 [monsterCategory]
 Monster
@@ -48233,7 +48182,7 @@ parsed
 
 ### Gray Ooze
 id: https://cheeleong.dev/graph20/objects/monsters/gray-ooze
-source: Monsters A-Z §12.115 (lines 21442-21475)
+source: Monsters A-Z §12.115 (lines 21438-21471)
 
 [monsterCategory]
 Monster
@@ -48291,7 +48240,7 @@ parsed
 
 ### Green Dragon Wyrmling
 id: https://cheeleong.dev/graph20/objects/monsters/green-dragon-wyrmling
-source: Monsters A-Z §12.117 (lines 21479-21509)
+source: Monsters A-Z §12.117 (lines 21475-21505)
 
 [monsterCategory]
 Monster
@@ -48342,7 +48291,7 @@ parsed
 
 ### Green Hag
 id: https://cheeleong.dev/graph20/objects/monsters/green-hag
-source: Monsters A-Z §12.121 (lines 21643-21682)
+source: Monsters A-Z §12.121 (lines 21639-21678)
 
 [monsterCategory]
 Monster
@@ -48406,7 +48355,7 @@ parsed
 
 ### Grick
 id: https://cheeleong.dev/graph20/objects/monsters/grick
-source: Monsters A-Z §12.122 (lines 21684-21711)
+source: Monsters A-Z §12.122 (lines 21680-21707)
 
 [monsterCategory]
 Monster
@@ -48461,7 +48410,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Griffon
 id: https://cheeleong.dev/graph20/objects/monsters/griffon
-source: Monsters A-Z §12.123 (lines 21713-21738)
+source: Monsters A-Z §12.123 (lines 21709-21734)
 
 [monsterCategory]
 Monster
@@ -48517,7 +48466,7 @@ parsed
 
 ### Grimlock
 id: https://cheeleong.dev/graph20/objects/monsters/grimlock
-source: Monsters A-Z §12.124 (lines 21740-21763)
+source: Monsters A-Z §12.124 (lines 21736-21759)
 
 [monsterCategory]
 Monster
@@ -48571,7 +48520,7 @@ parsed
 
 ### Guard Captain
 id: https://cheeleong.dev/graph20/objects/monsters/guard-captain
-source: Monsters A-Z §12.128 (lines 21831-21857)
+source: Monsters A-Z §12.128 (lines 21827-21853)
 
 [monsterCategory]
 NPC
@@ -48582,11 +48531,11 @@ NPC
 [experiencePoints]
 1100
 
-[abilities.str.score]
-19
-
 [abilities.con.score]
 16
+
+[abilities.cha.score]
+13
 
 [rulesText]
 Medium or Small Humanoid, Neutral
@@ -48630,7 +48579,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Guard
 id: https://cheeleong.dev/graph20/objects/monsters/guard
-source: Monsters A-Z §12.127 (lines 21807-21829)
+source: Monsters A-Z §12.127 (lines 21803-21825)
 
 [monsterCategory]
 NPC
@@ -48638,14 +48587,11 @@ NPC
 [hitPointsRoll.expression]
 2d8+2
 
+[abilities.str.score]
+13
+
 [abilities.int.score]
-9
-
-[abilities.int.modifier]
--1
-
-[abilities.cha.modifier]
--2
+10
 
 [rulesText]
 Medium or Small Humanoid, Neutral
@@ -48679,7 +48625,7 @@ parsed
 
 ### Guardian Naga
 id: https://cheeleong.dev/graph20/objects/monsters/guardian-naga
-source: Monsters A-Z §12.125 (lines 21765-21803)
+source: Monsters A-Z §12.125 (lines 21761-21799)
 
 [monsterCategory]
 Monster
@@ -48739,7 +48685,7 @@ parsed
 
 ### Half-Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/half-dragon
-source: Monsters A-Z §12.129 (lines 21859-21895)
+source: Monsters A-Z §12.129 (lines 21855-21891)
 
 [monsterCategory]
 Monster
@@ -48800,7 +48746,7 @@ parsed
 
 ### Harpy
 id: https://cheeleong.dev/graph20/objects/monsters/harpy
-source: Monsters A-Z §12.130 (lines 21897-21921)
+source: Monsters A-Z §12.130 (lines 21893-21917)
 
 [monsterCategory]
 Monster
@@ -48849,7 +48795,7 @@ parsed
 
 ### Hawk
 id: https://cheeleong.dev/graph20/objects/monsters/hawk
-source: Animals §13.55 (lines 27983-28004)
+source: Animals §13.55 (lines 27979-28000)
 
 [monsterCategory]
 Animal
@@ -48857,17 +48803,20 @@ Animal
 [hitPointsRoll.expression]
 1d4-1
 
-[abilities.dex.score]
-11
+[abilities.str.modifier]
+-3
+
+[abilities.con.score]
+8
 
 [abilities.int.modifier]
 -4
 
 [abilities.wis.score]
-12
+14
 
 [abilities.cha.modifier]
--3
+-2
 
 [rulesText]
 Tiny Beast, Unaligned
@@ -48897,7 +48846,7 @@ parsed
 
 ### Hell Hound
 id: https://cheeleong.dev/graph20/objects/monsters/hell-hound
-source: Monsters A-Z §12.131 (lines 21923-21955)
+source: Monsters A-Z §12.131 (lines 21919-21951)
 
 [monsterCategory]
 Monster
@@ -48954,7 +48903,7 @@ parsed
 
 ### Hezrou
 id: https://cheeleong.dev/graph20/objects/monsters/hezrou
-source: Monsters A-Z §12.132 (lines 21957-21995)
+source: Monsters A-Z §12.132 (lines 21953-21991)
 
 [monsterCategory]
 Monster
@@ -49023,7 +48972,7 @@ parsed
 
 ### Hill Giant
 id: https://cheeleong.dev/graph20/objects/monsters/hill-giant
-source: Monsters A-Z §12.133 (lines 21997-22024)
+source: Monsters A-Z §12.133 (lines 21993-22020)
 
 [monsterCategory]
 Monster
@@ -49034,11 +48983,20 @@ Monster
 [experiencePoints]
 1800
 
-[abilities.cha.score]
-9
+[abilities.str.score]
+21
+
+[abilities.dex.modifier]
+-1
+
+[abilities.con.score]
+19
+
+[abilities.int.modifier]
+-3
 
 [abilities.cha.modifier]
--1
+-2
 
 [rulesText]
 Huge Giant, Chaotic Evil
@@ -49081,7 +49039,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Hippogriff
 id: https://cheeleong.dev/graph20/objects/monsters/hippogriff
-source: Monsters A-Z §12.134 (lines 22026-22055)
+source: Monsters A-Z §12.134 (lines 22022-22051)
 
 [monsterCategory]
 Monster
@@ -49141,7 +49099,7 @@ parsed
 
 ### Hippopotamus
 id: https://cheeleong.dev/graph20/objects/monsters/hippopotamus
-source: Animals §13.56 (lines 28006-28033)
+source: Animals §13.56 (lines 28002-28029)
 
 [monsterCategory]
 Animal
@@ -49153,10 +49111,16 @@ Animal
 1100
 
 [abilities.str.score]
-12
+21
+
+[abilities.con.score]
+15
 
 [abilities.int.modifier]
 -4
+
+[abilities.wis.score]
+12
 
 [abilities.cha.modifier]
 -3
@@ -49198,7 +49162,7 @@ parsed
 
 ### Hobgoblin Captain
 id: https://cheeleong.dev/graph20/objects/monsters/hobgoblin-captain
-source: Monsters A-Z §12.137 (lines 22089-22118)
+source: Monsters A-Z §12.137 (lines 22085-22114)
 
 [monsterCategory]
 Monster
@@ -49257,7 +49221,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Hobgoblin Warrior
 id: https://cheeleong.dev/graph20/objects/monsters/hobgoblin-warrior
-source: Monsters A-Z §12.136 (lines 22059-22087)
+source: Monsters A-Z §12.136 (lines 22055-22083)
 
 [monsterCategory]
 Monster
@@ -49315,7 +49279,7 @@ statSections[1].rulesText.paragraphs[1]
 
 ### Homunculus
 id: https://cheeleong.dev/graph20/objects/monsters/homunculus
-source: Monsters A-Z §12.138 (lines 22120-22147)
+source: Monsters A-Z §12.138 (lines 22116-22143)
 
 [monsterCategory]
 Monster
@@ -49370,7 +49334,7 @@ parsed
 
 ### Horned Devil
 id: https://cheeleong.dev/graph20/objects/monsters/horned-devil
-source: Monsters A-Z §12.139 (lines 22149-22185)
+source: Monsters A-Z §12.139 (lines 22145-22181)
 
 [monsterCategory]
 Monster
@@ -49440,7 +49404,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Hunter Shark
 id: https://cheeleong.dev/graph20/objects/monsters/hunter-shark
-source: Animals §13.57 (lines 28035-28060)
+source: Animals §13.57 (lines 28031-28056)
 
 [monsterCategory]
 Animal
@@ -49449,22 +49413,16 @@ Animal
 6d10+12
 
 [abilities.str.score]
-8
-
-[abilities.str.modifier]
--1
-
-[abilities.dex.score]
-15
+18
 
 [abilities.con.score]
-11
+15
 
 [abilities.int.modifier]
--4
+-5
 
 [abilities.cha.modifier]
--2
+-3
 
 [rulesText]
 Large Beast, Unaligned
@@ -49501,7 +49459,7 @@ parsed
 
 ### Hydra
 id: https://cheeleong.dev/graph20/objects/monsters/hydra
-source: Monsters A-Z §12.140 (lines 22187-22221)
+source: Monsters A-Z §12.140 (lines 22183-22217)
 
 [monsterCategory]
 Monster
@@ -49563,7 +49521,7 @@ parsed
 
 ### Hyena
 id: https://cheeleong.dev/graph20/objects/monsters/hyena
-source: Animals §13.58 (lines 28062-28087)
+source: Animals §13.58 (lines 28058-28083)
 
 [monsterCategory]
 Animal
@@ -49571,14 +49529,14 @@ Animal
 [hitPointsRoll.expression]
 1d8+1
 
-[abilities.str.score]
-17
+[abilities.con.score]
+12
 
 [abilities.int.modifier]
--3
+-4
 
-[abilities.cha.score]
-4
+[abilities.cha.modifier]
+-3
 
 [rulesText]
 Medium Beast, Unaligned
@@ -49612,7 +49570,7 @@ parsed
 
 ### Ice Devil
 id: https://cheeleong.dev/graph20/objects/monsters/ice-devil
-source: Monsters A-Z §12.141 (lines 22223-22259)
+source: Monsters A-Z §12.141 (lines 22219-22255)
 
 [monsterCategory]
 Monster
@@ -49676,7 +49634,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Ice Mephit
 id: https://cheeleong.dev/graph20/objects/monsters/ice-mephit
-source: Monsters A-Z §12.162 (lines 22933-22964)
+source: Monsters A-Z §12.162 (lines 22929-22960)
 
 [monsterCategory]
 Monster
@@ -49734,7 +49692,7 @@ parsed
 
 ### Imp
 id: https://cheeleong.dev/graph20/objects/monsters/imp
-source: Monsters A-Z §12.142 (lines 22261-22294)
+source: Monsters A-Z §12.142 (lines 22257-22290)
 
 [monsterCategory]
 Monster
@@ -49792,7 +49750,7 @@ parsed
 
 ### Incubus
 id: https://cheeleong.dev/graph20/objects/monsters/incubus
-source: Monsters A-Z §12.143 (lines 22296-22337)
+source: Monsters A-Z §12.143 (lines 22292-22333)
 
 [monsterCategory]
 Monster
@@ -49858,7 +49816,7 @@ parsed
 
 ### Invisible Stalker
 id: https://cheeleong.dev/graph20/objects/monsters/invisible-stalker
-source: Monsters A-Z §12.144 (lines 22339-22374)
+source: Monsters A-Z §12.144 (lines 22335-22370)
 
 [monsterCategory]
 Monster
@@ -49924,7 +49882,7 @@ parsed
 
 ### Iron Golem
 id: https://cheeleong.dev/graph20/objects/monsters/iron-golem
-source: Monsters A-Z §12.145 (lines 22376-22415)
+source: Monsters A-Z §12.145 (lines 22372-22411)
 
 [monsterCategory]
 Monster
@@ -49997,7 +49955,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Jackal
 id: https://cheeleong.dev/graph20/objects/monsters/jackal
-source: Animals §13.59 (lines 28089-28112)
+source: Animals §13.59 (lines 28085-28108)
 
 [monsterCategory]
 Animal
@@ -50050,7 +50008,7 @@ parsed
 
 ### Killer Whale
 id: https://cheeleong.dev/graph20/objects/monsters/killer-whale
-source: Animals §13.60 (lines 28114-28139)
+source: Animals §13.60 (lines 28110-28135)
 
 [monsterCategory]
 Animal
@@ -50105,7 +50063,7 @@ parsed
 
 ### Knight
 id: https://cheeleong.dev/graph20/objects/monsters/knight
-source: Monsters A-Z §12.146 (lines 22417-22449)
+source: Monsters A-Z §12.146 (lines 22413-22445)
 
 [monsterCategory]
 Monster
@@ -50113,20 +50071,11 @@ Monster
 [hitPointsRoll.expression]
 8d8+16
 
-[abilities.str.savingThrow]
-17
-
 [abilities.con.score]
-26
-
-[abilities.con.savingThrow]
-15
-
-[abilities.int.score]
-22
+14
 
 [abilities.cha.score]
-20
+15
 
 [rulesText]
 Medium or Small Humanoid, Neutral
@@ -50171,7 +50120,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Kobold Warrior
 id: https://cheeleong.dev/graph20/objects/monsters/kobold-warrior
-source: Monsters A-Z §12.148 (lines 22453-22480)
+source: Monsters A-Z §12.148 (lines 22449-22476)
 
 [monsterCategory]
 Monster
@@ -50228,7 +50177,7 @@ parsed
 
 ### Kraken
 id: https://cheeleong.dev/graph20/objects/monsters/kraken
-source: Monsters A-Z §12.149 (lines 22482-22532)
+source: Monsters A-Z §12.149 (lines 22478-22528)
 
 [hitPointsRoll.expression]
 26d20+208
@@ -50297,7 +50246,7 @@ parsed
 
 ### Lamia
 id: https://cheeleong.dev/graph20/objects/monsters/lamia
-source: Monsters A-Z §12.150 (lines 22534-22571)
+source: Monsters A-Z §12.150 (lines 22530-22567)
 
 [monsterCategory]
 Monster
@@ -50362,7 +50311,7 @@ parsed
 
 ### Lemure
 id: https://cheeleong.dev/graph20/objects/monsters/lemure
-source: Monsters A-Z §12.151 (lines 22573-22601)
+source: Monsters A-Z §12.151 (lines 22569-22597)
 
 [monsterCategory]
 Monster
@@ -50409,7 +50358,7 @@ parsed
 
 ### Lich
 id: https://cheeleong.dev/graph20/objects/monsters/lich
-source: Monsters A-Z §12.152 (lines 22603-22661)
+source: Monsters A-Z §12.152 (lines 22599-22657)
 
 [monsterCategory]
 Monster
@@ -50450,7 +50399,7 @@ Spirit Jar. If destroyed, the lich reforms in 1d10 days if it has a spirit jar, 
 
 Actions
 
-Multiattack. The lich makes three attacks, using El-dritch Burst or Paralyzing Touch in any combination.
+Multiattack. The lich makes three attacks, using Eldritch Burst or Paralyzing Touch in any combination.
 
 Eldritch Burst. Melee or Ranged Attack Roll: +12, reach 5 ft. or range 120 ft. Hit: 31 (4d12 + 5) Force damage.
 
@@ -50498,7 +50447,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Lion
 id: https://cheeleong.dev/graph20/objects/monsters/lion
-source: Animals §13.61 (lines 28141-28172)
+source: Animals §13.61 (lines 28137-28168)
 
 [monsterCategory]
 Animal
@@ -50553,25 +50502,25 @@ parsed
 
 ### Lizard
 id: https://cheeleong.dev/graph20/objects/monsters/lizard
-source: Animals §13.62 (lines 28174-28198)
+source: Animals §13.62 (lines 28170-28194)
 
 [monsterCategory]
 Animal
 
-[abilities.str.score]
-15
-
-[abilities.dex.score]
-12
-
-[abilities.con.score]
-13
-
-[abilities.int.modifier]
+[abilities.str.modifier]
 -4
 
-[abilities.cha.modifier]
--3
+[abilities.dex.score]
+11
+
+[abilities.int.modifier]
+-5
+
+[abilities.wis.score]
+8
+
+[abilities.wis.modifier]
+-1
 
 [rulesText]
 Tiny Beast, Unaligned
@@ -50604,7 +50553,7 @@ parsed
 
 ### Mage
 id: https://cheeleong.dev/graph20/objects/monsters/mage
-source: Monsters A-Z §12.154 (lines 22665-22705)
+source: Monsters A-Z §12.154 (lines 22661-22701)
 
 [monsterCategory]
 NPC
@@ -50674,7 +50623,7 @@ parsed
 
 ### Magma Mephit
 id: https://cheeleong.dev/graph20/objects/monsters/magma-mephit
-source: Monsters A-Z §12.163 (lines 22966-22995)
+source: Monsters A-Z §12.163 (lines 22962-22991)
 
 [monsterCategory]
 Monster
@@ -50730,7 +50679,7 @@ parsed
 
 ### Magmin
 id: https://cheeleong.dev/graph20/objects/monsters/magmin
-source: Monsters A-Z §12.156 (lines 22754-22785)
+source: Monsters A-Z §12.156 (lines 22750-22781)
 
 [monsterCategory]
 Monster
@@ -50789,7 +50738,7 @@ parsed
 
 ### Mammoth
 id: https://cheeleong.dev/graph20/objects/monsters/mammoth
-source: Animals §13.63 (lines 28200-28226)
+source: Animals §13.63 (lines 28196-28222)
 
 [monsterCategory]
 Animal
@@ -50851,7 +50800,7 @@ parsed
 
 ### Manticore
 id: https://cheeleong.dev/graph20/objects/monsters/manticore
-source: Monsters A-Z §12.157 (lines 22787-22814)
+source: Monsters A-Z §12.157 (lines 22783-22810)
 
 [monsterCategory]
 Monster
@@ -50912,7 +50861,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Marilith
 id: https://cheeleong.dev/graph20/objects/monsters/marilith
-source: Monsters A-Z §12.158 (lines 22816-22861)
+source: Monsters A-Z §12.158 (lines 22812-22857)
 
 [monsterCategory]
 Monster
@@ -50923,8 +50872,11 @@ Monster
 [experiencePoints]
 15000
 
-[abilities.wis.score]
-13
+[abilities.str.savingThrow]
+9
+
+[abilities.wis.modifier]
+3
 
 [rulesText]
 Large Fiend (Demon), Chaotic Evil
@@ -50979,7 +50931,7 @@ parsed
 
 ### Mastiff
 id: https://cheeleong.dev/graph20/objects/monsters/mastiff
-source: Animals §13.64 (lines 28228-28249)
+source: Animals §13.64 (lines 28224-28245)
 
 [monsterCategory]
 Animal
@@ -51033,7 +50985,7 @@ parsed
 
 ### Medusa
 id: https://cheeleong.dev/graph20/objects/monsters/medusa
-source: Monsters A-Z §12.159 (lines 22863-22896)
+source: Monsters A-Z §12.159 (lines 22859-22892)
 
 [monsterCategory]
 Monster
@@ -51097,7 +51049,7 @@ statSections[0].rulesText.paragraphs[3]
 
 ### Merfolk Skirmisher
 id: https://cheeleong.dev/graph20/objects/monsters/merfolk-skirmisher
-source: Monsters A-Z §12.166 (lines 23031-23055)
+source: Monsters A-Z §12.166 (lines 23027-23051)
 
 [monsterCategory]
 Monster
@@ -51142,7 +51094,7 @@ parsed
 
 ### Merrow
 id: https://cheeleong.dev/graph20/objects/monsters/merrow
-source: Monsters A-Z §12.167 (lines 23057-23089)
+source: Monsters A-Z §12.167 (lines 23053-23085)
 
 [monsterCategory]
 Monster
@@ -51208,7 +51160,7 @@ statSections[1].rulesText.paragraphs[3]
 
 ### Mimic
 id: https://cheeleong.dev/graph20/objects/monsters/mimic
-source: Monsters A-Z §12.168 (lines 23091-23125)
+source: Monsters A-Z §12.168 (lines 23087-23121)
 
 [monsterCategory]
 Monster
@@ -51217,10 +51169,16 @@ Monster
 9d8+18
 
 [abilities.str.score]
-10
+17
 
-[abilities.wis.score]
-14
+[abilities.con.score]
+15
+
+[abilities.int.modifier]
+-3
+
+[abilities.cha.modifier]
+-1
 
 [rulesText]
 Medium Monstrosity, Neutral
@@ -51270,7 +51228,7 @@ statSections[1].rulesText.paragraphs[1]
 
 ### Minotaur of Baphomet
 id: https://cheeleong.dev/graph20/objects/monsters/minotaur-of-baphomet
-source: Monsters A-Z §12.169 (lines 23127-23153)
+source: Monsters A-Z §12.169 (lines 23123-23149)
 
 [monsterCategory]
 Monster
@@ -51333,7 +51291,7 @@ statSections[0].rulesText.paragraphs[1]
 
 ### Minotaur Skeleton
 id: https://cheeleong.dev/graph20/objects/monsters/minotaur-skeleton
-source: Monsters A-Z §12.222 (lines 24829-24853)
+source: Monsters A-Z §12.222 (lines 24825-24849)
 
 [monsterCategory]
 Monster
@@ -51393,7 +51351,7 @@ statSections[0].rulesText.paragraphs[1]
 
 ### Mule
 id: https://cheeleong.dev/graph20/objects/monsters/mule
-source: Animals §13.65 (lines 28251-28275)
+source: Animals §13.65 (lines 28247-28271)
 
 [monsterCategory]
 Animal
@@ -51447,7 +51405,7 @@ parsed
 
 ### Mummy Lord
 id: https://cheeleong.dev/graph20/objects/monsters/mummy-lord
-source: Monsters A-Z §12.172 (lines 23186-23243)
+source: Monsters A-Z §12.172 (lines 23182-23239)
 
 [monsterCategory]
 Monster
@@ -51537,7 +51495,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Mummy
 id: https://cheeleong.dev/graph20/objects/monsters/mummy
-source: Monsters A-Z §12.171 (lines 23157-23184)
+source: Monsters A-Z §12.171 (lines 23153-23180)
 
 [monsterCategory]
 Monster
@@ -51593,7 +51551,7 @@ parsed
 
 ### Nalfeshnee
 id: https://cheeleong.dev/graph20/objects/monsters/nalfeshnee
-source: Monsters A-Z §12.173 (lines 23245-23289)
+source: Monsters A-Z §12.173 (lines 23241-23285)
 
 [monsterCategory]
 Monster
@@ -51668,7 +51626,7 @@ parsed
 
 ### Night Hag
 id: https://cheeleong.dev/graph20/objects/monsters/night-hag
-source: Monsters A-Z §12.174 (lines 23291-23344)
+source: Monsters A-Z §12.174 (lines 23287-23340)
 
 [monsterCategory]
 Monster
@@ -51705,7 +51663,7 @@ Magic Resistance. The hag has Advantage on saving throws against spells and othe
 
 Soul Bag. The hag has a soul bag. While holding or carrying the bag, the hag can use its Nightmare Haunting action.
 
-The bag has AC 15, HP 20, and Resistance to all damage. The bag turns to dust if reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding are released. The bag can create a new bag after 7 days.
+The bag has AC 15, HP 20, and Resistance to all damage. The bag turns to dust if reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding are released. The hag can create a new bag after 7 days.
 
 Actions
 
@@ -51743,7 +51701,7 @@ parsed
 
 ### Nightmare
 id: https://cheeleong.dev/graph20/objects/monsters/nightmare
-source: Monsters A-Z §12.175 (lines 23346-23377)
+source: Monsters A-Z §12.175 (lines 23342-23373)
 
 [monsterCategory]
 Monster
@@ -51752,16 +51710,13 @@ Monster
 8d10+24
 
 [abilities.str.score]
-16
+18
 
 [abilities.dex.score]
-19
+15
 
 [abilities.con.score]
-14
-
-[abilities.wis.score]
-15
+16
 
 [rulesText]
 Large Fiend, Neutral Evil
@@ -51805,7 +51760,7 @@ parsed
 
 ### Noble
 id: https://cheeleong.dev/graph20/objects/monsters/noble
-source: Monsters A-Z §12.176 (lines 23379-23407)
+source: Monsters A-Z §12.176 (lines 23375-23403)
 
 [monsterCategory]
 Monster
@@ -51852,7 +51807,7 @@ parsed
 
 ### Ochre Jelly
 id: https://cheeleong.dev/graph20/objects/monsters/ochre-jelly
-source: Monsters A-Z §12.177 (lines 23409-23443)
+source: Monsters A-Z §12.177 (lines 23405-23439)
 
 [monsterCategory]
 Monster
@@ -51911,12 +51866,15 @@ parsed
 
 ### Octopus
 id: https://cheeleong.dev/graph20/objects/monsters/octopus
-source: Animals §13.66 (lines 28277-28308)
+source: Animals §13.66 (lines 28273-28304)
 
 [monsterCategory]
 Animal
 
-[abilities.str.score]
+[abilities.str.modifier]
+-3
+
+[abilities.dex.score]
 15
 
 [abilities.con.score]
@@ -51924,9 +51882,6 @@ Animal
 
 [abilities.int.modifier]
 -4
-
-[abilities.cha.modifier]
--3
 
 [rulesText]
 Small Beast, Unaligned
@@ -51966,7 +51921,7 @@ parsed
 
 ### Ogre Zombie
 id: https://cheeleong.dev/graph20/objects/monsters/ogre-zombie
-source: Monsters A-Z §12.273 (lines 26553-26580)
+source: Monsters A-Z §12.273 (lines 26549-26576)
 
 [monsterCategory]
 Monster
@@ -51977,17 +51932,11 @@ Monster
 [abilities.str.score]
 19
 
-[abilities.dex.score]
-11
-
 [abilities.con.score]
-15
+18
 
 [abilities.int.modifier]
 -4
-
-[abilities.wis.score]
-12
 
 [abilities.cha.modifier]
 -3
@@ -52029,7 +51978,7 @@ parsed
 
 ### Ogre
 id: https://cheeleong.dev/graph20/objects/monsters/ogre
-source: Monsters A-Z §12.178 (lines 23445-23470)
+source: Monsters A-Z §12.178 (lines 23441-23466)
 
 [monsterCategory]
 Monster
@@ -52043,8 +51992,14 @@ Monster
 [abilities.con.score]
 16
 
+[abilities.int.modifier]
+-3
+
 [abilities.wis.score]
-14
+7
+
+[abilities.wis.modifier]
+-2
 
 [rulesText]
 Large Giant, Chaotic Evil
@@ -52085,7 +52040,7 @@ statSections[0].rulesText.paragraphs[1]
 
 ### Oni
 id: https://cheeleong.dev/graph20/objects/monsters/oni
-source: Monsters A-Z §12.179 (lines 23472-23515)
+source: Monsters A-Z §12.179 (lines 23468-23511)
 
 [monsterCategory]
 Monster
@@ -52096,17 +52051,11 @@ Monster
 [experiencePoints]
 2900
 
-[abilities.str.score]
+[abilities.con.score]
+16
+
+[abilities.cha.score]
 15
-
-[abilities.dex.modifier]
--2
-
-[abilities.int.modifier]
--4
-
-[abilities.cha.modifier]
--5
 
 [rulesText]
 Large Fiend, Lawful Evil
@@ -52234,7 +52183,7 @@ attack paragraph did not match the supported header grammar
 
 ### Otyugh
 id: https://cheeleong.dev/graph20/objects/monsters/otyugh
-source: Monsters A-Z §12.180 (lines 23517-23545)
+source: Monsters A-Z §12.180 (lines 23513-23541)
 
 [monsterCategory]
 Monster
@@ -52293,7 +52242,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Owl
 id: https://cheeleong.dev/graph20/objects/monsters/owl
-source: Animals §13.67 (lines 28310-28335)
+source: Animals §13.67 (lines 28306-28331)
 
 [monsterCategory]
 Animal
@@ -52301,11 +52250,17 @@ Animal
 [hitPointsRoll.expression]
 1d4-1
 
-[abilities.con.score]
-17
-
-[abilities.int.modifier]
+[abilities.str.modifier]
 -4
+
+[abilities.dex.score]
+13
+
+[abilities.con.score]
+8
+
+[abilities.cha.score]
+7
 
 [abilities.cha.modifier]
 -2
@@ -52342,7 +52297,7 @@ parsed
 
 ### Owlbear
 id: https://cheeleong.dev/graph20/objects/monsters/owlbear
-source: Monsters A-Z §12.181 (lines 23547-23572)
+source: Monsters A-Z §12.181 (lines 23543-23568)
 
 [monsterCategory]
 Monster
@@ -52398,16 +52353,16 @@ parsed
 
 ### Panther
 id: https://cheeleong.dev/graph20/objects/monsters/panther
-source: Animals §13.68 (lines 28337-28362)
+source: Animals §13.68 (lines 28333-28358)
 
 [monsterCategory]
 Animal
 
-[abilities.str.score]
-20
+[abilities.dex.score]
+16
 
 [abilities.con.score]
-16
+10
 
 [abilities.int.modifier]
 -4
@@ -52450,7 +52405,7 @@ parsed
 
 ### Pegasus
 id: https://cheeleong.dev/graph20/objects/monsters/pegasus
-source: Monsters A-Z §12.182 (lines 23574-23597)
+source: Monsters A-Z §12.182 (lines 23570-23593)
 
 [monsterCategory]
 Monster
@@ -52458,16 +52413,13 @@ Monster
 [hitPointsRoll.expression]
 7d10+21
 
+[abilities.str.score]
+18
+
 [abilities.dex.score]
-11
+15
 
-[abilities.con.score]
-19
-
-[abilities.int.modifier]
--2
-
-[abilities.wis.score]
+[abilities.cha.score]
 13
 
 [rulesText]
@@ -52501,7 +52453,7 @@ parsed
 
 ### Phase Spider
 id: https://cheeleong.dev/graph20/objects/monsters/phase-spider
-source: Monsters A-Z §12.183 (lines 23599-23636)
+source: Monsters A-Z §12.183 (lines 23595-23632)
 
 [monsterCategory]
 Monster
@@ -52563,7 +52515,7 @@ parsed
 
 ### Piranha
 id: https://cheeleong.dev/graph20/objects/monsters/piranha
-source: Animals §13.69 (lines 28364-28388)
+source: Animals §13.69 (lines 28360-28384)
 
 [monsterCategory]
 Animal
@@ -52620,7 +52572,7 @@ parsed
 
 ### Pirate Captain
 id: https://cheeleong.dev/graph20/objects/monsters/pirate-captain
-source: Monsters A-Z §12.186 (lines 23667-23701)
+source: Monsters A-Z §12.186 (lines 23663-23697)
 
 [monsterCategory]
 Monster
@@ -52684,7 +52636,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Pirate
 id: https://cheeleong.dev/graph20/objects/monsters/pirate
-source: Monsters A-Z §12.185 (lines 23640-23665)
+source: Monsters A-Z §12.185 (lines 23636-23661)
 
 [monsterCategory]
 Monster
@@ -52696,10 +52648,10 @@ Monster
 10
 
 [abilities.dex.score]
-18
+16
 
-[abilities.cha.score]
-17
+[abilities.int.modifier]
+-1
 
 [rulesText]
 Medium or Small Humanoid, Neutral
@@ -52736,7 +52688,7 @@ parsed
 
 ### Pit Fiend
 id: https://cheeleong.dev/graph20/objects/monsters/pit-fiend
-source: Monsters A-Z §12.187 (lines 23703-23746)
+source: Monsters A-Z §12.187 (lines 23699-23742)
 
 [hitPointsRoll.expression]
 27d10+189
@@ -52807,7 +52759,7 @@ statSections[1].rulesText.paragraphs[3]
 
 ### Planetar
 id: https://cheeleong.dev/graph20/objects/monsters/planetar
-source: Monsters A-Z §12.188 (lines 23748-23796)
+source: Monsters A-Z §12.188 (lines 23744-23792)
 
 [monsterCategory]
 Monster
@@ -52818,8 +52770,11 @@ Monster
 [experiencePoints]
 15000
 
-[abilities.int.score]
+[abilities.wis.score]
 22
+
+[abilities.cha.score]
+25
 
 [rulesText]
 Large Celestial (Angel), Lawful Good
@@ -52877,7 +52832,7 @@ parsed
 
 ### Plesiosaurus
 id: https://cheeleong.dev/graph20/objects/monsters/plesiosaurus
-source: Animals §13.70 (lines 28390-28415)
+source: Animals §13.70 (lines 28386-28411)
 
 [monsterCategory]
 Animal
@@ -52935,7 +52890,7 @@ parsed
 
 ### Polar Bear
 id: https://cheeleong.dev/graph20/objects/monsters/polar-bear
-source: Animals §13.71 (lines 28417-28441)
+source: Animals §13.71 (lines 28413-28437)
 
 [monsterCategory]
 Animal
@@ -52995,7 +52950,7 @@ parsed
 
 ### Pony
 id: https://cheeleong.dev/graph20/objects/monsters/pony
-source: Animals §13.72 (lines 28443-28463)
+source: Animals §13.72 (lines 28439-28459)
 
 [monsterCategory]
 Animal
@@ -53048,7 +53003,7 @@ parsed
 
 ### Priest Acolyte
 id: https://cheeleong.dev/graph20/objects/monsters/priest-acolyte
-source: Monsters A-Z §12.190 (lines 23800-23833)
+source: Monsters A-Z §12.190 (lines 23796-23829)
 
 [monsterCategory]
 NPC
@@ -53105,7 +53060,7 @@ statSections[0].rulesText.paragraphs[1]
 
 ### Priest
 id: https://cheeleong.dev/graph20/objects/monsters/priest
-source: Monsters A-Z §12.191 (lines 23835-23872)
+source: Monsters A-Z §12.191 (lines 23831-23868)
 
 [monsterCategory]
 NPC
@@ -53114,7 +53069,7 @@ NPC
 7d8+7
 
 [abilities.str.score]
-14
+16
 
 [abilities.con.score]
 12
@@ -53169,7 +53124,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Pseudodragon
 id: https://cheeleong.dev/graph20/objects/monsters/pseudodragon
-source: Monsters A-Z §12.192 (lines 23874-23905)
+source: Monsters A-Z §12.192 (lines 23870-23901)
 
 [monsterCategory]
 Monster
@@ -53222,7 +53177,7 @@ parsed
 
 ### Pteranodon
 id: https://cheeleong.dev/graph20/objects/monsters/pteranodon
-source: Animals §13.73 (lines 28465-28490)
+source: Animals §13.73 (lines 28461-28486)
 
 [monsterCategory]
 Animal
@@ -53277,7 +53232,7 @@ parsed
 
 ### Purple Worm
 id: https://cheeleong.dev/graph20/objects/monsters/purple-worm
-source: Monsters A-Z §12.193 (lines 23907-23943)
+source: Monsters A-Z §12.193 (lines 23903-23939)
 
 [monsterCategory]
 Monster
@@ -53356,7 +53311,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Quasit
 id: https://cheeleong.dev/graph20/objects/monsters/quasit
-source: Monsters A-Z §12.194 (lines 23945-23980)
+source: Monsters A-Z §12.194 (lines 23941-23976)
 
 [monsterCategory]
 Monster
@@ -53413,7 +53368,7 @@ parsed
 
 ### Rakshasa
 id: https://cheeleong.dev/graph20/objects/monsters/rakshasa
-source: Monsters A-Z §12.195 (lines 23982-24023)
+source: Monsters A-Z §12.195 (lines 23978-24019)
 
 [monsterCategory]
 Monster
@@ -53482,7 +53437,7 @@ parsed
 
 ### Rat
 id: https://cheeleong.dev/graph20/objects/monsters/rat
-source: Animals §13.74 (lines 28492-28517)
+source: Animals §13.74 (lines 28488-28513)
 
 [monsterCategory]
 Animal
@@ -53490,14 +53445,14 @@ Animal
 [hitPointsRoll.expression]
 1d4-1
 
-[abilities.str.score]
-15
+[abilities.str.modifier]
+-4
 
-[abilities.con.score]
+[abilities.dex.score]
 11
 
-[abilities.int.modifier]
--4
+[abilities.con.score]
+9
 
 [abilities.cha.modifier]
 -3
@@ -53534,22 +53489,22 @@ parsed
 
 ### Raven
 id: https://cheeleong.dev/graph20/objects/monsters/raven
-source: Animals §13.75 (lines 28519-28544)
+source: Animals §13.75 (lines 28515-28540)
 
 [monsterCategory]
 Animal
 
-[abilities.str.score]
-15
-
-[abilities.int.modifier]
+[abilities.str.modifier]
 -4
 
-[abilities.wis.score]
-11
+[abilities.dex.score]
+14
+
+[abilities.int.modifier]
+-3
 
 [abilities.cha.score]
-7
+6
 
 [abilities.cha.modifier]
 -2
@@ -53586,7 +53541,7 @@ parsed
 
 ### Red Dragon Wyrmling
 id: https://cheeleong.dev/graph20/objects/monsters/red-dragon-wyrmling
-source: Monsters A-Z §12.197 (lines 24027-24053)
+source: Monsters A-Z §12.197 (lines 24023-24049)
 
 [monsterCategory]
 Monster
@@ -53599,12 +53554,6 @@ Monster
 
 [abilities.str.score]
 19
-
-[abilities.int.score]
-16
-
-[abilities.cha.score]
-23
 
 [rulesText]
 Medium Dragon (Chromatic), Chaotic Evil
@@ -53642,7 +53591,7 @@ parsed
 
 ### Reef Shark
 id: https://cheeleong.dev/graph20/objects/monsters/reef-shark
-source: Animals §13.76 (lines 28546-28573)
+source: Animals §13.76 (lines 28542-28569)
 
 [monsterCategory]
 Animal
@@ -53651,19 +53600,19 @@ Animal
 4d8+4
 
 [abilities.str.score]
-16
+14
 
 [abilities.dex.score]
+15
+
+[abilities.con.score]
 13
 
 [abilities.int.modifier]
--4
-
-[abilities.wis.score]
-11
+-5
 
 [abilities.cha.modifier]
--2
+-3
 
 [rulesText]
 Medium Beast, Unaligned
@@ -53702,7 +53651,7 @@ parsed
 
 ### Remorhaz
 id: https://cheeleong.dev/graph20/objects/monsters/remorhaz
-source: Monsters A-Z §12.201 (lines 24179-24214)
+source: Monsters A-Z §12.201 (lines 24175-24210)
 
 [monsterCategory]
 Monster
@@ -53768,7 +53717,7 @@ parsed
 
 ### Rhinoceros
 id: https://cheeleong.dev/graph20/objects/monsters/rhinoceros
-source: Animals §13.77 (lines 28575-28595)
+source: Animals §13.77 (lines 28571-28591)
 
 [monsterCategory]
 Animal
@@ -53818,7 +53767,7 @@ parsed
 
 ### Riding Horse
 id: https://cheeleong.dev/graph20/objects/monsters/riding-horse
-source: Animals §13.78 (lines 28597-28617)
+source: Animals §13.78 (lines 28593-28613)
 
 [monsterCategory]
 Animal
@@ -53826,20 +53775,17 @@ Animal
 [hitPointsRoll.expression]
 2d10+2
 
-[abilities.str.modifier]
--3
+[abilities.str.score]
+16
 
-[abilities.dex.score]
-15
+[abilities.con.score]
+12
 
 [abilities.int.modifier]
--5
-
-[abilities.wis.modifier]
--1
+-4
 
 [abilities.cha.modifier]
--4
+-2
 
 [rulesText]
 Large Beast, Unaligned
@@ -53871,7 +53817,7 @@ parsed
 
 ### Roc
 id: https://cheeleong.dev/graph20/objects/monsters/roc
-source: Monsters A-Z §12.202 (lines 24216-24247)
+source: Monsters A-Z §12.202 (lines 24212-24243)
 
 [monsterCategory]
 Monster
@@ -53882,8 +53828,11 @@ Monster
 [experiencePoints]
 7200
 
-[abilities.int.score]
-14
+[abilities.int.modifier]
+-4
+
+[abilities.cha.modifier]
+-1
 
 [rulesText]
 Gargantuan Monstrosity, Unaligned
@@ -53930,7 +53879,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Roper
 id: https://cheeleong.dev/graph20/objects/monsters/roper
-source: Monsters A-Z §12.203 (lines 24249-24284)
+source: Monsters A-Z §12.203 (lines 24245-24280)
 
 [monsterCategory]
 Monster
@@ -53996,7 +53945,7 @@ attack hit clause contained no recognized damage component
 
 ### Rust Monster
 id: https://cheeleong.dev/graph20/objects/monsters/rust-monster
-source: Monsters A-Z §12.204 (lines 24286-24322)
+source: Monsters A-Z §12.204 (lines 24282-24318)
 
 [monsterCategory]
 Monster
@@ -54060,7 +54009,7 @@ parsed
 
 ### Saber-Toothed Tiger
 id: https://cheeleong.dev/graph20/objects/monsters/saber-toothed-tiger
-source: Animals §13.79 (lines 28619-28650)
+source: Animals §13.79 (lines 28615-28646)
 
 [monsterCategory]
 Animal
@@ -54124,7 +54073,7 @@ parsed
 
 ### Sahuagin Warrior
 id: https://cheeleong.dev/graph20/objects/monsters/sahuagin-warrior
-source: Monsters A-Z §12.206 (lines 24326-24362)
+source: Monsters A-Z §12.206 (lines 24322-24358)
 
 [monsterCategory]
 Monster
@@ -54190,7 +54139,7 @@ parsed
 
 ### Salamander
 id: https://cheeleong.dev/graph20/objects/monsters/salamander
-source: Monsters A-Z §12.207 (lines 24364-24397)
+source: Monsters A-Z §12.207 (lines 24360-24393)
 
 [monsterCategory]
 Monster
@@ -54241,7 +54190,7 @@ parsed
 
 ### Satyr
 id: https://cheeleong.dev/graph20/objects/monsters/satyr
-source: Monsters A-Z §12.208 (lines 24399-24428)
+source: Monsters A-Z §12.208 (lines 24395-24424)
 
 [monsterCategory]
 Monster
@@ -54292,7 +54241,7 @@ parsed
 
 ### Scorpion
 id: https://cheeleong.dev/graph20/objects/monsters/scorpion
-source: Animals §13.80 (lines 28652-28672)
+source: Animals §13.80 (lines 28648-28668)
 
 [monsterCategory]
 Animal
@@ -54300,17 +54249,14 @@ Animal
 [hitPointsRoll.expression]
 1d4-1
 
-[abilities.str.score]
-23
+[abilities.str.modifier]
+-4
 
 [abilities.con.score]
-21
+8
 
 [abilities.int.modifier]
 -5
-
-[abilities.cha.modifier]
--3
 
 [rulesText]
 Tiny Beast, Unaligned
@@ -54339,7 +54285,7 @@ parsed
 
 ### Scout
 id: https://cheeleong.dev/graph20/objects/monsters/scout
-source: Monsters A-Z §12.209 (lines 24430-24459)
+source: Monsters A-Z §12.209 (lines 24426-24455)
 
 [monsterCategory]
 Monster
@@ -54369,7 +54315,7 @@ CR 1/2 (XP 100; PB +2)
 
 Actions
 
-Multiattack. The scout makes two attacks, using Short-word and Longbow in any combination.
+Multiattack. The scout makes two attacks, using Shortsword and Longbow in any combination.
 
 Shortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage.
 
@@ -54396,7 +54342,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Sea Hag
 id: https://cheeleong.dev/graph20/objects/monsters/sea-hag
-source: Monsters A-Z §12.210 (lines 24461-24495)
+source: Monsters A-Z §12.210 (lines 24457-24491)
 
 [monsterCategory]
 Monster
@@ -54452,7 +54398,7 @@ parsed
 
 ### Seahorse
 id: https://cheeleong.dev/graph20/objects/monsters/seahorse
-source: Animals §13.81 (lines 28674-28699)
+source: Animals §13.81 (lines 28670-28695)
 
 [monsterCategory]
 Animal
@@ -54460,17 +54406,17 @@ Animal
 [hitPointsRoll.expression]
 1d4-1
 
-[abilities.str.score]
-14
+[abilities.str.modifier]
+-5
 
-[abilities.dex.score]
-16
+[abilities.con.score]
+8
 
-[abilities.int.modifier]
--4
+[abilities.wis.score]
+10
 
 [abilities.cha.modifier]
--3
+-4
 
 [rulesText]
 Tiny Beast, Unaligned
@@ -54498,7 +54444,7 @@ Walk
 
 ### Shadow
 id: https://cheeleong.dev/graph20/objects/monsters/shadow
-source: Monsters A-Z §12.211 (lines 24497-24533)
+source: Monsters A-Z §12.211 (lines 24493-24529)
 
 [monsterCategory]
 Monster
@@ -54562,7 +54508,7 @@ parsed
 
 ### Shambling Mound
 id: https://cheeleong.dev/graph20/objects/monsters/shambling-mound
-source: Monsters A-Z §12.212 (lines 24535-24570)
+source: Monsters A-Z §12.212 (lines 24531-24566)
 
 [monsterCategory]
 Monster
@@ -54622,7 +54568,7 @@ parsed
 
 ### Shield Guardian
 id: https://cheeleong.dev/graph20/objects/monsters/shield-guardian
-source: Monsters A-Z §12.213 (lines 24572-24609)
+source: Monsters A-Z §12.213 (lines 24568-24605)
 
 [monsterCategory]
 Monster
@@ -54687,7 +54633,7 @@ parsed
 
 ### Shrieker Fungus
 id: https://cheeleong.dev/graph20/objects/monsters/shrieker-fungus
-source: Monsters A-Z §12.93 (lines 20763-20784)
+source: Monsters A-Z §12.93 (lines 20759-20780)
 
 [monsterCategory]
 Monster
@@ -54720,7 +54666,7 @@ Walk
 
 ### Silver Dragon Wyrmling
 id: https://cheeleong.dev/graph20/objects/monsters/silver-dragon-wyrmling
-source: Monsters A-Z §12.215 (lines 24613-24642)
+source: Monsters A-Z §12.215 (lines 24609-24638)
 
 [monsterCategory]
 Monster
@@ -54773,7 +54719,7 @@ parsed
 
 ### Skeleton
 id: https://cheeleong.dev/graph20/objects/monsters/skeleton
-source: Monsters A-Z §12.220 (lines 24778-24803)
+source: Monsters A-Z §12.220 (lines 24774-24799)
 
 [monsterCategory]
 Monster
@@ -54837,7 +54783,7 @@ statSections[0].rulesText.paragraphs[1]
 
 ### Solar
 id: https://cheeleong.dev/graph20/objects/monsters/solar
-source: Monsters A-Z §12.223 (lines 24855-24911)
+source: Monsters A-Z §12.223 (lines 24851-24907)
 
 [monsterCategory]
 Monster
@@ -54915,7 +54861,7 @@ parsed
 
 ### Specter
 id: https://cheeleong.dev/graph20/objects/monsters/specter
-source: Monsters A-Z §12.224 (lines 24913-24943)
+source: Monsters A-Z §12.224 (lines 24909-24939)
 
 [monsterCategory]
 Monster
@@ -54967,7 +54913,7 @@ parsed
 
 ### Sphinx of Lore
 id: https://cheeleong.dev/graph20/objects/monsters/sphinx-of-lore
-source: Monsters A-Z §12.227 (lines 24979-25026)
+source: Monsters A-Z §12.227 (lines 24975-25022)
 
 [monsterCategory]
 Monster
@@ -55038,7 +54984,7 @@ parsed
 
 ### Sphinx of Valor
 id: https://cheeleong.dev/graph20/objects/monsters/sphinx-of-valor
-source: Monsters A-Z §12.228 (lines 25028-25081)
+source: Monsters A-Z §12.228 (lines 25024-25077)
 
 [monsterCategory]
 Monster
@@ -55118,7 +55064,7 @@ parsed
 
 ### Sphinx of Wonder
 id: https://cheeleong.dev/graph20/objects/monsters/sphinx-of-wonder
-source: Monsters A-Z §12.226 (lines 24947-24977)
+source: Monsters A-Z §12.226 (lines 24943-24973)
 
 [monsterCategory]
 Monster
@@ -55178,7 +55124,7 @@ parsed
 
 ### Spider
 id: https://cheeleong.dev/graph20/objects/monsters/spider
-source: Animals §13.82 (lines 28701-28728)
+source: Animals §13.82 (lines 28697-28724)
 
 [monsterCategory]
 Animal
@@ -55186,14 +55132,17 @@ Animal
 [hitPointsRoll.expression]
 1d4-1
 
+[abilities.str.modifier]
+-4
+
+[abilities.dex.score]
+14
+
 [abilities.con.score]
-13
+8
 
-[abilities.wis.score]
-16
-
-[abilities.cha.score]
-11
+[abilities.int.modifier]
+-5
 
 [rulesText]
 Tiny Beast, Unaligned
@@ -55226,7 +55175,7 @@ parsed
 
 ### Spirit Naga
 id: https://cheeleong.dev/graph20/objects/monsters/spirit-naga
-source: Monsters A-Z §12.229 (lines 25083-25120)
+source: Monsters A-Z §12.229 (lines 25079-25116)
 
 [monsterCategory]
 Monster
@@ -55291,7 +55240,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Sprite
 id: https://cheeleong.dev/graph20/objects/monsters/sprite
-source: Monsters A-Z §12.230 (lines 25122-25151)
+source: Monsters A-Z §12.230 (lines 25118-25147)
 
 [monsterCategory]
 Monster
@@ -55345,7 +55294,7 @@ statSections[0].rulesText.paragraphs[1]
 
 ### Spy
 id: https://cheeleong.dev/graph20/objects/monsters/spy
-source: Monsters A-Z §12.231 (lines 25153-25183)
+source: Monsters A-Z §12.231 (lines 25149-25179)
 
 [monsterCategory]
 Monster
@@ -55397,7 +55346,7 @@ statSections[0].rulesText.paragraphs[1]
 
 ### Steam Mephit
 id: https://cheeleong.dev/graph20/objects/monsters/steam-mephit
-source: Monsters A-Z §12.164 (lines 22997-23027)
+source: Monsters A-Z §12.164 (lines 22993-23023)
 
 [monsterCategory]
 Monster
@@ -55448,22 +55397,28 @@ parsed
 
 ### Stirge
 id: https://cheeleong.dev/graph20/objects/monsters/stirge
-source: Monsters A-Z §12.232 (lines 25185-25209)
+source: Monsters A-Z §12.232 (lines 25181-25205)
 
 [monsterCategory]
 Monster
 
 [abilities.str.modifier]
--4
+-3
 
 [abilities.dex.score]
-18
+16
 
-[abilities.int.score]
-14
-
-[abilities.cha.score]
+[abilities.con.score]
 11
+
+[abilities.int.modifier]
+-4
+
+[abilities.wis.modifier]
+-1
+
+[abilities.cha.modifier]
+-2
 
 [rulesText]
 Tiny Monstrosity, Unaligned
@@ -55497,7 +55452,7 @@ parsed
 
 ### Stone Giant
 id: https://cheeleong.dev/graph20/objects/monsters/stone-giant
-source: Monsters A-Z §12.233 (lines 25211-25242)
+source: Monsters A-Z §12.233 (lines 25207-25238)
 
 [monsterCategory]
 Monster
@@ -55562,7 +55517,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Stone Golem
 id: https://cheeleong.dev/graph20/objects/monsters/stone-golem
-source: Monsters A-Z §12.234 (lines 25244-25281)
+source: Monsters A-Z §12.234 (lines 25240-25277)
 
 [monsterCategory]
 Monster
@@ -55573,23 +55528,17 @@ Monster
 [experiencePoints]
 5900
 
-[abilities.str.modifier]
--3
-
-[abilities.dex.score]
-16
-
-[abilities.con.score]
-11
+[abilities.dex.modifier]
+-1
 
 [abilities.int.modifier]
 -4
 
-[abilities.wis.modifier]
--1
+[abilities.wis.score]
+11
 
 [abilities.cha.modifier]
--2
+-5
 
 [rulesText]
 Large Construct, Unaligned
@@ -55639,7 +55588,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Storm Giant
 id: https://cheeleong.dev/graph20/objects/monsters/storm-giant
-source: Monsters A-Z §12.235 (lines 25283-25326)
+source: Monsters A-Z §12.235 (lines 25279-25322)
 
 [monsterCategory]
 Monster
@@ -55710,7 +55659,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Succubus
 id: https://cheeleong.dev/graph20/objects/monsters/succubus
-source: Monsters A-Z §12.236 (lines 25328-25366)
+source: Monsters A-Z §12.236 (lines 25324-25362)
 
 [monsterCategory]
 Monster
@@ -55721,8 +55670,17 @@ Monster
 [experiencePoints]
 1100
 
-[abilities.con.score]
-14
+[abilities.str.modifier]
+-1
+
+[abilities.dex.score]
+17
+
+[abilities.wis.score]
+12
+
+[abilities.cha.score]
+20
 
 [rulesText]
 Medium Fiend, Neutral Evil
@@ -55770,33 +55728,18 @@ parsed
 
 ### Swarm of Bats
 id: https://cheeleong.dev/graph20/objects/monsters/swarm-of-bats
-source: Animals §13.83 (lines 28730-28756)
+source: Animals §13.83 (lines 28726-28752)
 
 [monsterCategory]
 Animal
 
-[abilities.str.score]
-13
+[abilities.str.modifier]
+-3
 
 [abilities.dex.score]
-16
-
-[abilities.con.score]
-9
-
-[abilities.con.modifier]
--1
+15
 
 [abilities.int.modifier]
--5
-
-[abilities.wis.score]
-7
-
-[abilities.wis.modifier]
--2
-
-[abilities.cha.modifier]
 -4
 
 [rulesText]
@@ -55832,7 +55775,7 @@ parsed
 
 ### Swarm of Crawling Claws
 id: https://cheeleong.dev/graph20/objects/monsters/swarm-of-crawling-claws
-source: Monsters A-Z §12.69 (lines 19948-19974)
+source: Monsters A-Z §12.69 (lines 19944-19970)
 
 [monsterCategory]
 Monster
@@ -55882,7 +55825,7 @@ parsed
 
 ### Swarm of Insects
 id: https://cheeleong.dev/graph20/objects/monsters/swarm-of-insects
-source: Animals §13.84 (lines 28758-28786)
+source: Animals §13.84 (lines 28754-28782)
 
 [monsterCategory]
 Animal
@@ -55949,7 +55892,7 @@ parsed
 
 ### Swarm of Piranhas
 id: https://cheeleong.dev/graph20/objects/monsters/swarm-of-piranhas
-source: Animals §13.85 (lines 28788-28816)
+source: Animals §13.85 (lines 28784-28812)
 
 [monsterCategory]
 Animal
@@ -56019,7 +55962,7 @@ parsed
 
 ### Swarm of Rats
 id: https://cheeleong.dev/graph20/objects/monsters/swarm-of-rats
-source: Animals §13.86 (lines 28818-28844)
+source: Animals §13.86 (lines 28814-28840)
 
 [monsterCategory]
 Animal
@@ -56069,7 +56012,7 @@ parsed
 
 ### Swarm of Ravens
 id: https://cheeleong.dev/graph20/objects/monsters/swarm-of-ravens
-source: Animals §13.87 (lines 28846-28875)
+source: Animals §13.87 (lines 28842-28871)
 
 [monsterCategory]
 Animal
@@ -56077,29 +56020,14 @@ Animal
 [hitPointsRoll.expression]
 2d8+2
 
-[abilities.str.score]
-13
-
-[abilities.dex.score]
-16
-
-[abilities.con.score]
-9
-
-[abilities.con.modifier]
--1
-
-[abilities.int.modifier]
--5
-
-[abilities.wis.score]
-7
-
-[abilities.wis.modifier]
+[abilities.str.modifier]
 -2
 
-[abilities.cha.modifier]
--4
+[abilities.dex.score]
+14
+
+[abilities.int.modifier]
+-3
 
 [rulesText]
 Medium Swarm of Tiny Beasts, Unaligned
@@ -56140,7 +56068,7 @@ parsed
 
 ### Swarm of Venomous Snakes
 id: https://cheeleong.dev/graph20/objects/monsters/swarm-of-venomous-snakes
-source: Animals §13.88 (lines 28877-28903)
+source: Animals §13.88 (lines 28873-28899)
 
 [monsterCategory]
 Animal
@@ -56155,6 +56083,9 @@ Animal
 11
 
 [abilities.int.modifier]
+-5
+
+[abilities.cha.modifier]
 -4
 
 [rulesText]
@@ -56196,7 +56127,7 @@ parsed
 
 ### Tarrasque
 id: https://cheeleong.dev/graph20/objects/monsters/tarrasque
-source: Monsters A-Z §12.237 (lines 25368-25427)
+source: Monsters A-Z §12.237 (lines 25364-25423)
 
 [hitPointsRoll.expression]
 34d20+340
@@ -56289,7 +56220,7 @@ statSections[1].rulesText.paragraphs[4]
 
 ### Tiger
 id: https://cheeleong.dev/graph20/objects/monsters/tiger
-source: Animals §13.89 (lines 28905-28930)
+source: Animals §13.89 (lines 28901-28926)
 
 [monsterCategory]
 Animal
@@ -56298,13 +56229,22 @@ Animal
 4d10+8
 
 [abilities.str.score]
+17
+
+[abilities.dex.score]
+16
+
+[abilities.con.score]
 14
 
 [abilities.int.modifier]
--3
+-4
 
-[abilities.cha.score]
-11
+[abilities.wis.score]
+12
+
+[abilities.cha.modifier]
+-1
 
 [rulesText]
 Large Beast, Unaligned
@@ -56341,7 +56281,7 @@ parsed
 
 ### Tough Boss
 id: https://cheeleong.dev/graph20/objects/monsters/tough-boss
-source: Monsters A-Z §12.240 (lines 25460-25489)
+source: Monsters A-Z §12.240 (lines 25456-25485)
 
 [monsterCategory]
 Monster
@@ -56403,7 +56343,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Tough
 id: https://cheeleong.dev/graph20/objects/monsters/tough
-source: Monsters A-Z §12.239 (lines 25431-25458)
+source: Monsters A-Z §12.239 (lines 25427-25454)
 
 [monsterCategory]
 Monster
@@ -56412,13 +56352,10 @@ Monster
 5d8+10
 
 [abilities.str.score]
-17
-
-[abilities.dex.score]
-14
+15
 
 [abilities.con.score]
-16
+14
 
 [rulesText]
 Medium or Small Humanoid, Neutral
@@ -56463,7 +56400,7 @@ statSections[1].rulesText.paragraphs[1]
 
 ### Treant
 id: https://cheeleong.dev/graph20/objects/monsters/treant
-source: Monsters A-Z §12.241 (lines 25491-25526)
+source: Monsters A-Z §12.241 (lines 25487-25522)
 
 [hitPointsRoll.expression]
 12d12+60
@@ -56529,7 +56466,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Triceratops
 id: https://cheeleong.dev/graph20/objects/monsters/triceratops
-source: Animals §13.90 (lines 28932-28954)
+source: Animals §13.90 (lines 28928-28950)
 
 [monsterCategory]
 Animal
@@ -56547,10 +56484,10 @@ Animal
 17
 
 [abilities.int.modifier]
--5
+-4
 
 [abilities.cha.modifier]
--4
+-3
 
 [rulesText]
 Huge Beast (Dinosaur), Unaligned
@@ -56584,25 +56521,19 @@ parsed
 
 ### Troll Limb
 id: https://cheeleong.dev/graph20/objects/monsters/troll-limb
-source: Monsters A-Z §12.243 (lines 25565-25591)
+source: Monsters A-Z §12.243 (lines 25561-25587)
 
 [monsterCategory]
 Monster
 
 [abilities.str.score]
-23
+18
 
-[abilities.dex.score]
-8
+[abilities.int.modifier]
+-5
 
-[abilities.dex.modifier]
+[abilities.wis.modifier]
 -1
-
-[abilities.con.score]
-21
-
-[abilities.wis.score]
-16
 
 [rulesText]
 Small Giant, Chaotic Evil
@@ -56640,7 +56571,7 @@ parsed
 
 ### Troll
 id: https://cheeleong.dev/graph20/objects/monsters/troll
-source: Monsters A-Z §12.242 (lines 25528-25563)
+source: Monsters A-Z §12.242 (lines 25524-25559)
 
 [monsterCategory]
 Monster
@@ -56651,20 +56582,17 @@ Monster
 [experiencePoints]
 1800
 
-[abilities.str.score]
-23
-
-[abilities.dex.modifier]
--1
+[abilities.dex.score]
+13
 
 [abilities.con.score]
-21
+20
 
-[abilities.int.score]
-12
+[abilities.int.modifier]
+-2
 
-[abilities.wis.score]
-16
+[abilities.wis.modifier]
+-1
 
 [rulesText]
 Large Giant, Chaotic Evil
@@ -56709,7 +56637,7 @@ parsed
 
 ### Tyrannosaurus Rex
 id: https://cheeleong.dev/graph20/objects/monsters/tyrannosaurus-rex
-source: Animals §13.91 (lines 28956-28981)
+source: Animals §13.91 (lines 28952-28977)
 
 [monsterCategory]
 Animal
@@ -56770,7 +56698,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Unicorn
 id: https://cheeleong.dev/graph20/objects/monsters/unicorn
-source: Monsters A-Z §12.244 (lines 25593-25646)
+source: Monsters A-Z §12.244 (lines 25589-25642)
 
 [monsterCategory]
 Monster
@@ -56857,7 +56785,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Vampire Familiar
 id: https://cheeleong.dev/graph20/objects/monsters/vampire-familiar
-source: Monsters A-Z §12.246 (lines 25650-25684)
+source: Monsters A-Z §12.246 (lines 25646-25680)
 
 [monsterCategory]
 Monster
@@ -56866,15 +56794,9 @@ Monster
 10d8+20
 
 [abilities.str.score]
-18
-
-[abilities.int.score]
-11
-
-[abilities.wis.score]
 17
 
-[abilities.cha.score]
+[abilities.dex.score]
 16
 
 [rulesText]
@@ -56921,7 +56843,7 @@ parsed
 
 ### Vampire Spawn
 id: https://cheeleong.dev/graph20/objects/monsters/vampire-spawn
-source: Monsters A-Z §12.247 (lines 25686-25730)
+source: Monsters A-Z §12.247 (lines 25682-25726)
 
 [monsterCategory]
 Monster
@@ -56989,7 +56911,7 @@ parsed
 
 ### Vampire
 id: https://cheeleong.dev/graph20/objects/monsters/vampire
-source: Monsters A-Z §12.248 (lines 25732-25798)
+source: Monsters A-Z §12.248 (lines 25728-25794)
 
 [monsterCategory]
 Monster
@@ -57003,7 +56925,7 @@ Monster
 [abilities.str.score]
 18
 
-[abilities.con.score]
+[abilities.wis.score]
 15
 
 [rulesText]
@@ -57082,19 +57004,22 @@ parsed
 
 ### Venomous Snake
 id: https://cheeleong.dev/graph20/objects/monsters/venomous-snake
-source: Animals §13.92 (lines 28983-29003)
+source: Animals §13.92 (lines 28979-28999)
 
 [monsterCategory]
 Animal
 
+[abilities.str.modifier]
+-4
+
 [abilities.dex.score]
-18
+15
 
 [abilities.con.score]
-13
+11
 
 [abilities.int.modifier]
--4
+-5
 
 [rulesText]
 Tiny Beast, Unaligned
@@ -57126,22 +57051,13 @@ parsed
 
 ### Violet Fungus
 id: https://cheeleong.dev/graph20/objects/monsters/violet-fungus
-source: Monsters A-Z §12.94 (lines 20786-20809)
+source: Monsters A-Z §12.94 (lines 20782-20805)
 
 [monsterCategory]
 Monster
 
-[abilities.str.score]
-14
-
-[abilities.dex.modifier]
+[abilities.str.modifier]
 -4
-
-[abilities.con.score]
-20
-
-[abilities.wis.modifier]
--2
 
 [rulesText]
 Medium Plant, Unaligned
@@ -57173,7 +57089,7 @@ parsed
 
 ### Vrock
 id: https://cheeleong.dev/graph20/objects/monsters/vrock
-source: Monsters A-Z §12.249 (lines 25800-25836)
+source: Monsters A-Z §12.249 (lines 25796-25832)
 
 [monsterCategory]
 Monster
@@ -57185,13 +57101,16 @@ Monster
 2300
 
 [abilities.str.score]
-13
+17
 
-[abilities.int.score]
-8
+[abilities.con.score]
+18
 
 [abilities.int.modifier]
 -1
+
+[abilities.wis.score]
+13
 
 [rulesText]
 Large Fiend (Demon), Chaotic Evil
@@ -57237,7 +57156,7 @@ parsed
 
 ### Vulture
 id: https://cheeleong.dev/graph20/objects/monsters/vulture
-source: Animals §13.93 (lines 29005-29030)
+source: Animals §13.93 (lines 29001-29026)
 
 [monsterCategory]
 Animal
@@ -57246,19 +57165,19 @@ Animal
 1d8+1
 
 [abilities.str.score]
-15
+7
 
-[abilities.con.score]
-16
+[abilities.str.modifier]
+-2
 
 [abilities.int.modifier]
--2
+-4
 
 [abilities.wis.score]
 12
 
-[abilities.cha.score]
-7
+[abilities.cha.modifier]
+-3
 
 [rulesText]
 Medium Beast, Unaligned
@@ -57292,7 +57211,7 @@ parsed
 
 ### Warhorse Skeleton
 id: https://cheeleong.dev/graph20/objects/monsters/warhorse-skeleton
-source: Monsters A-Z §12.221 (lines 24805-24827)
+source: Monsters A-Z §12.221 (lines 24801-24823)
 
 [monsterCategory]
 Monster
@@ -57301,16 +57220,22 @@ Monster
 3d10+6
 
 [abilities.str.score]
-26
+18
 
-[abilities.str.modifier]
-8
+[abilities.dex.score]
+12
 
-[abilities.int.score]
-25
+[abilities.con.score]
+15
 
-[abilities.cha.score]
-30
+[abilities.int.modifier]
+-4
+
+[abilities.wis.modifier]
+-1
+
+[abilities.cha.modifier]
+-3
 
 [rulesText]
 Large Undead, Lawful Evil
@@ -57344,7 +57269,7 @@ parsed
 
 ### Warhorse
 id: https://cheeleong.dev/graph20/objects/monsters/warhorse
-source: Animals §13.94 (lines 29032-29052)
+source: Animals §13.94 (lines 29028-29048)
 
 [monsterCategory]
 Animal
@@ -57353,22 +57278,22 @@ Animal
 3d10+3
 
 [abilities.str.score]
-26
-
-[abilities.str.modifier]
-8
+18
 
 [abilities.dex.score]
-22
+12
 
-[abilities.int.score]
-25
+[abilities.con.score]
+13
 
 [abilities.int.modifier]
-7
+-4
 
 [abilities.cha.score]
-30
+7
+
+[abilities.cha.modifier]
+-2
 
 [rulesText]
 Large Beast, Unaligned
@@ -57400,7 +57325,7 @@ parsed
 
 ### Warrior Infantry
 id: https://cheeleong.dev/graph20/objects/monsters/warrior-infantry
-source: Monsters A-Z §12.251 (lines 25840-25865)
+source: Monsters A-Z §12.251 (lines 25836-25861)
 
 [monsterCategory]
 NPC
@@ -57446,7 +57371,7 @@ parsed
 
 ### Warrior Veteran
 id: https://cheeleong.dev/graph20/objects/monsters/warrior-veteran
-source: Monsters A-Z §12.252 (lines 25867-25897)
+source: Monsters A-Z §12.252 (lines 25863-25893)
 
 [monsterCategory]
 NPC
@@ -57509,7 +57434,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Water Elemental
 id: https://cheeleong.dev/graph20/objects/monsters/water-elemental
-source: Monsters A-Z §12.253 (lines 25899-25933)
+source: Monsters A-Z §12.253 (lines 25895-25929)
 
 [monsterCategory]
 Monster
@@ -57568,7 +57493,7 @@ parsed
 
 ### Weasel
 id: https://cheeleong.dev/graph20/objects/monsters/weasel
-source: Animals §13.95 (lines 29054-29075)
+source: Animals §13.95 (lines 29050-29071)
 
 [monsterCategory]
 Animal
@@ -57576,14 +57501,14 @@ Animal
 [hitPointsRoll.expression]
 1d4-1
 
-[abilities.str.score]
-11
+[abilities.str.modifier]
+-4
 
 [abilities.dex.score]
-17
+16
 
-[abilities.int.modifier]
--3
+[abilities.con.score]
+8
 
 [abilities.wis.score]
 12
@@ -57616,7 +57541,7 @@ parsed
 
 ### Werebear
 id: https://cheeleong.dev/graph20/objects/monsters/werebear
-source: Monsters A-Z §12.254 (lines 25935-25971)
+source: Monsters A-Z §12.254 (lines 25931-25967)
 
 [monsterCategory]
 Monster
@@ -57689,7 +57614,7 @@ statSections[0].rulesText.paragraphs[4]
 
 ### Wereboar
 id: https://cheeleong.dev/graph20/objects/monsters/wereboar
-source: Monsters A-Z §12.255 (lines 25973-26007)
+source: Monsters A-Z §12.255 (lines 25969-26003)
 
 [monsterCategory]
 Monster
@@ -57700,8 +57625,8 @@ Monster
 [experiencePoints]
 1100
 
-[abilities.dex.score]
-16
+[abilities.str.score]
+17
 
 [abilities.cha.modifier]
 -1
@@ -57728,7 +57653,7 @@ Gore (Boar or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8
 
 Javelin (Humanoid or Hybrid Form Only). Melee or Ranged Attack Roll: +5, reach 5 ft. or range 30/120 ft. Hit: 13 (3d6 + 3) Piercing damage.
 
-Tusk (Boar or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Medium or smaller creature and the were-boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition.
+Tusk (Boar or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Medium or smaller creature and the wereboar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition.
 
 Bonus Actions
 
@@ -57760,7 +57685,7 @@ statSections[0].rulesText.paragraphs[3]
 
 ### Wererat
 id: https://cheeleong.dev/graph20/objects/monsters/wererat
-source: Monsters A-Z §12.256 (lines 26009-26045)
+source: Monsters A-Z §12.256 (lines 26005-26041)
 
 [monsterCategory]
 Monster
@@ -57830,7 +57755,7 @@ statSections[0].rulesText.paragraphs[3]
 
 ### Weretiger
 id: https://cheeleong.dev/graph20/objects/monsters/weretiger
-source: Monsters A-Z §12.257 (lines 26047-26083)
+source: Monsters A-Z §12.257 (lines 26043-26079)
 
 [monsterCategory]
 Monster
@@ -57841,8 +57766,8 @@ Monster
 [experiencePoints]
 1100
 
-[abilities.dex.score]
-14
+[abilities.str.score]
+17
 
 [rulesText]
 Medium or Small Monstrosity (Lycanthrope), Neutral
@@ -57900,7 +57825,7 @@ statSections[0].rulesText.paragraphs[3]
 
 ### Werewolf
 id: https://cheeleong.dev/graph20/objects/monsters/werewolf
-source: Monsters A-Z §12.258 (lines 26085-26123)
+source: Monsters A-Z §12.258 (lines 26081-26119)
 
 [monsterCategory]
 Monster
@@ -57908,8 +57833,8 @@ Monster
 [hitPointsRoll.expression]
 11d8+22
 
-[abilities.int.modifier]
--3
+[abilities.str.score]
+16
 
 [rulesText]
 Medium or Small Monstrosity (Lycanthrope), Chaotic Evil
@@ -57969,7 +57894,7 @@ statSections[1].rulesText.paragraphs[3]
 
 ### White Dragon Wyrmling
 id: https://cheeleong.dev/graph20/objects/monsters/white-dragon-wyrmling
-source: Monsters A-Z §12.260 (lines 26127-26158)
+source: Monsters A-Z §12.260 (lines 26123-26154)
 
 [monsterCategory]
 Monster
@@ -58021,7 +57946,7 @@ parsed
 
 ### Wight
 id: https://cheeleong.dev/graph20/objects/monsters/wight
-source: Monsters A-Z §12.264 (lines 26282-26321)
+source: Monsters A-Z §12.264 (lines 26278-26317)
 
 [monsterCategory]
 Monster
@@ -58029,14 +57954,11 @@ Monster
 [hitPointsRoll.expression]
 11d8+33
 
-[abilities.str.score]
-26
+[abilities.con.score]
+16
 
-[abilities.dex.score]
+[abilities.int.score]
 10
-
-[abilities.cha.score]
-18
 
 [rulesText]
 Medium Undead, Neutral Evil
@@ -58088,7 +58010,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Will-o'-Wisp
 id: https://cheeleong.dev/graph20/objects/monsters/will-o-wisp
-source: Monsters A-Z §12.265 (lines 26323-26361)
+source: Monsters A-Z §12.265 (lines 26319-26357)
 
 [monsterCategory]
 Monster
@@ -58154,7 +58076,7 @@ parsed
 
 ### Winter Wolf
 id: https://cheeleong.dev/graph20/objects/monsters/winter-wolf
-source: Monsters A-Z §12.266 (lines 26363-26394)
+source: Monsters A-Z §12.266 (lines 26359-26390)
 
 [monsterCategory]
 Monster
@@ -58210,7 +58132,7 @@ parsed
 
 ### Wolf
 id: https://cheeleong.dev/graph20/objects/monsters/wolf
-source: Animals §13.96 (lines 29077-29102)
+source: Animals §13.96 (lines 29073-29098)
 
 [monsterCategory]
 Animal
@@ -58219,22 +58141,16 @@ Animal
 2d8+2
 
 [abilities.str.score]
-18
-
-[abilities.dex.score]
-13
-
-[abilities.con.score]
 14
 
 [abilities.int.score]
-7
+3
 
 [abilities.int.modifier]
--2
+-4
 
 [abilities.cha.modifier]
--1
+-2
 
 [rulesText]
 Medium Beast, Unaligned
@@ -58271,7 +58187,7 @@ parsed
 
 ### Worg
 id: https://cheeleong.dev/graph20/objects/monsters/worg
-source: Monsters A-Z §12.267 (lines 26396-26419)
+source: Monsters A-Z §12.267 (lines 26392-26415)
 
 [monsterCategory]
 Monster
@@ -58319,7 +58235,7 @@ parsed
 
 ### Wraith
 id: https://cheeleong.dev/graph20/objects/monsters/wraith
-source: Monsters A-Z §12.268 (lines 26421-26453)
+source: Monsters A-Z §12.268 (lines 26417-26449)
 
 [monsterCategory]
 Monster
@@ -58330,14 +58246,17 @@ Monster
 [experiencePoints]
 1800
 
-[abilities.con.score]
-14
-
-[abilities.int.modifier]
+[abilities.str.modifier]
 -2
 
-[abilities.cha.modifier]
--1
+[abilities.dex.score]
+16
+
+[abilities.wis.score]
+14
+
+[abilities.cha.score]
+15
 
 [rulesText]
 Medium or Small Undead, Neutral Evil
@@ -58382,7 +58301,7 @@ parsed
 
 ### Wyvern
 id: https://cheeleong.dev/graph20/objects/monsters/wyvern
-source: Monsters A-Z §12.269 (lines 26455-26482)
+source: Monsters A-Z §12.269 (lines 26451-26478)
 
 [monsterCategory]
 Monster
@@ -58446,7 +58365,7 @@ statSections[0].rulesText.paragraphs[2]
 
 ### Xorn
 id: https://cheeleong.dev/graph20/objects/monsters/xorn
-source: Monsters A-Z §12.270 (lines 26484-26522)
+source: Monsters A-Z §12.270 (lines 26480-26518)
 
 [monsterCategory]
 Monster
@@ -58457,20 +58376,11 @@ Monster
 [experiencePoints]
 1800
 
-[abilities.dex.score]
-11
-
 [abilities.con.score]
-15
+22
 
-[abilities.int.modifier]
--4
-
-[abilities.wis.score]
-12
-
-[abilities.cha.modifier]
--3
+[abilities.int.score]
+11
 
 [rulesText]
 Medium Elemental, Neutral
@@ -58524,7 +58434,7 @@ statSections[1].rulesText.paragraphs[2]
 
 ### Young Black Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/young-black-dragon
-source: Monsters A-Z §12.27 (lines 18587-18617)
+source: Monsters A-Z §12.27 (lines 18583-18613)
 
 [monsterCategory]
 Monster
@@ -58584,7 +58494,7 @@ parsed
 
 ### Young Blue Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/young-blue-dragon
-source: Monsters A-Z §12.34 (lines 18817-18843)
+source: Monsters A-Z §12.34 (lines 18813-18839)
 
 [monsterCategory]
 Monster
@@ -58640,7 +58550,7 @@ parsed
 
 ### Young Brass Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/young-brass-dragon
-source: Monsters A-Z §12.40 (lines 19010-19038)
+source: Monsters A-Z §12.40 (lines 19006-19034)
 
 [monsterCategory]
 Monster
@@ -58692,7 +58602,7 @@ parsed
 
 ### Young Bronze Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/young-bronze-dragon
-source: Monsters A-Z §12.45 (lines 19176-19208)
+source: Monsters A-Z §12.45 (lines 19172-19204)
 
 [monsterCategory]
 Monster
@@ -58751,7 +58661,7 @@ parsed
 
 ### Young Copper Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/young-copper-dragon
-source: Monsters A-Z §12.64 (lines 19771-19799)
+source: Monsters A-Z §12.64 (lines 19767-19795)
 
 [monsterCategory]
 Monster
@@ -58806,7 +58716,7 @@ parsed
 
 ### Young Gold Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/young-gold-dragon
-source: Monsters A-Z §12.111 (lines 21270-21302)
+source: Monsters A-Z §12.111 (lines 21266-21298)
 
 [monsterCategory]
 Monster
@@ -58871,7 +58781,7 @@ parsed
 
 ### Young Green Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/young-green-dragon
-source: Monsters A-Z §12.118 (lines 21511-21543)
+source: Monsters A-Z §12.118 (lines 21507-21539)
 
 [monsterCategory]
 Monster
@@ -58930,7 +58840,7 @@ parsed
 
 ### Young Red Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/young-red-dragon
-source: Monsters A-Z §12.198 (lines 24055-24081)
+source: Monsters A-Z §12.198 (lines 24051-24077)
 
 [monsterCategory]
 Monster
@@ -58989,7 +58899,7 @@ parsed
 
 ### Young Silver Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/young-silver-dragon
-source: Monsters A-Z §12.216 (lines 24644-24674)
+source: Monsters A-Z §12.216 (lines 24640-24670)
 
 [monsterCategory]
 Monster
@@ -59049,7 +58959,7 @@ parsed
 
 ### Young White Dragon
 id: https://cheeleong.dev/graph20/objects/monsters/young-white-dragon
-source: Monsters A-Z §12.261 (lines 26160-26191)
+source: Monsters A-Z §12.261 (lines 26156-26187)
 
 [monsterCategory]
 Monster
@@ -59107,7 +59017,7 @@ parsed
 
 ### Zombie
 id: https://cheeleong.dev/graph20/objects/monsters/zombie
-source: Monsters A-Z §12.272 (lines 26526-26551)
+source: Monsters A-Z §12.272 (lines 26522-26547)
 
 [monsterCategory]
 Monster
@@ -59115,26 +59025,17 @@ Monster
 [hitPointsRoll.expression]
 2d8+6
 
-[abilities.str.modifier]
--5
-
-[abilities.dex.score]
-28
-
-[abilities.dex.modifier]
-9
-
-[abilities.con.score]
-10
-
-[abilities.int.score]
+[abilities.str.score]
 13
 
-[abilities.wis.score]
-14
+[abilities.con.score]
+16
 
-[abilities.cha.score]
-11
+[abilities.int.modifier]
+-4
+
+[abilities.cha.modifier]
+-3
 
 [rulesText]
 Medium Undead, Neutral Evil

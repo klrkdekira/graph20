@@ -176,7 +176,7 @@
     {
       "level": 15,
       "name": "Improved Elemental Fury",
-      "rulesText": "The option you chose for Elemental Fury grows more powerful, as detailed below.\n\nPotent Spellcasting. When you cast a Druid can-trip with a range of 10 feet or greater, the spell's range increases by 300 feet.\n\nPrimal Strike. The extra damage of your Primal Strike increases to 2d8.",
+      "rulesText": "The option you chose for Elemental Fury grows more powerful, as detailed below.\n\nPotent Spellcasting. When you cast a Druid cantrip with a range of 10 feet or greater, the spell's range increases by 300 feet.\n\nPrimal Strike. The extra damage of your Primal Strike increases to 2d8.",
       "sourceLocator": {
         "chapter": "Classes",
         "section": "3.10",

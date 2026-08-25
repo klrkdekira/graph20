@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.270",
     "heading": "Xorn",
-    "lineStart": 26484,
-    "lineEnd": 26522
+    "lineStart": 26480,
+    "lineEnd": 26518
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/xorn/"
@@ -45,34 +45,34 @@
   "proficiencyBonus": 3,
   "abilities": {
     "str": {
-      "score": 19,
-      "modifier": 4,
-      "savingThrow": 6
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "dex": {
-      "score": 11,
+      "score": 10,
       "modifier": 0,
       "savingThrow": 0
     },
     "con": {
-      "score": 15,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 22,
+      "modifier": 6,
+      "savingThrow": 6
     },
     "int": {
-      "score": 2,
-      "modifier": -4,
-      "savingThrow": -4
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
     },
     "wis": {
-      "score": 12,
-      "modifier": 1,
-      "savingThrow": 1
+      "score": 10,
+      "modifier": 0,
+      "savingThrow": 0
     },
     "cha": {
-      "score": 5,
-      "modifier": -3,
-      "savingThrow": -3
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
     }
   },
   "statSections": [
@@ -83,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.270",
         "heading": "Traits",
-        "lineStart": 26506,
-        "lineEnd": 26510
+        "lineStart": 26502,
+        "lineEnd": 26506
       }
     },
     {
@@ -94,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.270",
         "heading": "Actions",
-        "lineStart": 26512,
-        "lineEnd": 26518
+        "lineStart": 26508,
+        "lineEnd": 26514
       }
     },
     {
@@ -105,8 +105,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.270",
         "heading": "Bonus Actions",
-        "lineStart": 26520,
-        "lineEnd": 26522
+        "lineStart": 26516,
+        "lineEnd": 26518
       }
     }
   ],

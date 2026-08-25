@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.244",
     "heading": "Unicorn",
-    "lineStart": 25593,
-    "lineEnd": 25646
+    "lineStart": 25589,
+    "lineEnd": 25642
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/unicorn/"
@@ -82,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.244",
         "heading": "Traits",
-        "lineStart": 25614,
-        "lineEnd": 25618
+        "lineStart": 25610,
+        "lineEnd": 25614
       }
     },
     {
@@ -93,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.244",
         "heading": "Actions",
-        "lineStart": 25620,
-        "lineEnd": 25632
+        "lineStart": 25616,
+        "lineEnd": 25628
       }
     },
     {
@@ -104,8 +104,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.244",
         "heading": "Bonus Actions",
-        "lineStart": 25634,
-        "lineEnd": 25636
+        "lineStart": 25630,
+        "lineEnd": 25632
       }
     },
     {
@@ -115,8 +115,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.244",
         "heading": "Legendary Actions",
-        "lineStart": 25638,
-        "lineEnd": 25646
+        "lineStart": 25634,
+        "lineEnd": 25642
       }
     }
   ],

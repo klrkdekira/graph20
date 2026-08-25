@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.50",
     "heading": "Giant Vulture",
-    "lineStart": 27856,
-    "lineEnd": 27882
+    "lineStart": 27852,
+    "lineEnd": 27878
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/giant-vulture/"
@@ -83,8 +83,8 @@
         "chapter": "Animals",
         "section": "13.50",
         "heading": "Traits",
-        "lineStart": 27876,
-        "lineEnd": 27878
+        "lineStart": 27872,
+        "lineEnd": 27874
       }
     },
     {
@@ -94,8 +94,8 @@
         "chapter": "Animals",
         "section": "13.50",
         "heading": "Actions",
-        "lineStart": 27880,
-        "lineEnd": 27882
+        "lineStart": 27876,
+        "lineEnd": 27878
       }
     }
   ],

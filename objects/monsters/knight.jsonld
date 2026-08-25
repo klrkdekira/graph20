@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.146",
     "heading": "Knight",
-    "lineStart": 22417,
-    "lineEnd": 22449
+    "lineStart": 22413,
+    "lineEnd": 22445
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/knight/"
@@ -45,34 +45,34 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 30,
-      "modifier": 10,
-      "savingThrow": 17
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "dex": {
       "score": 11,
       "modifier": 0,
-      "savingThrow": 7
+      "savingThrow": 0
     },
     "con": {
-      "score": 26,
-      "modifier": 8,
-      "savingThrow": 15
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 4
     },
     "int": {
-      "score": 22,
-      "modifier": 6,
-      "savingThrow": 6
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
     },
     "wis": {
-      "score": 18,
-      "modifier": 4,
-      "savingThrow": 11
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 2
     },
     "cha": {
-      "score": 20,
-      "modifier": 5,
-      "savingThrow": 5
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
     }
   },
   "statSections": [
@@ -83,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.146",
         "heading": "Actions",
-        "lineStart": 22439,
-        "lineEnd": 22445
+        "lineStart": 22435,
+        "lineEnd": 22441
       }
     },
     {
@@ -94,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.146",
         "heading": "Reactions",
-        "lineStart": 22447,
-        "lineEnd": 22449
+        "lineStart": 22443,
+        "lineEnd": 22445
       }
     }
   ],

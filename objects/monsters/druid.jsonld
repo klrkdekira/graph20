@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.81",
     "heading": "Druid",
-    "lineStart": 20337,
-    "lineEnd": 20373
+    "lineStart": 20333,
+    "lineEnd": 20369
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/druid/"
@@ -81,17 +81,17 @@
   "statSections": [
     {
       "name": "Actions",
-      "rulesText": "Multiattack. The druid makes two attacks, using Vine Staff or Verdant Wisp in any combination.\n\nVine Staff. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning damage plus 2 (1d4) Poison damage.\n\nVerdant Wisp. Ranged Attack Roll: +5, range 90 ft. Hit: 10 (3d6) Radiant damage.\n\nSpellcasting. The druid casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 13):\n\nAt Will: Druidcraft, Speak with Animals\n\n2/Day Each: Entangle, Thunderwave\n\n1/Day Each: Animal Messenger, Long-strider, Moonbeam",
+      "rulesText": "Multiattack. The druid makes two attacks, using Vine Staff or Verdant Wisp in any combination.\n\nVine Staff. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning damage plus 2 (1d4) Poison damage.\n\nVerdant Wisp. Ranged Attack Roll: +5, range 90 ft. Hit: 10 (3d6) Radiant damage.\n\nSpellcasting. The druid casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 13):\n\nAt Will: Druidcraft, Speak with Animals\n\n2/Day Each: Entangle, Thunderwave\n\n1/Day Each: Animal Messenger, Longstrider, Moonbeam",
       "sourceLocator": {
         "chapter": "Monsters A-Z",
         "section": "12.81",
         "heading": "Actions",
-        "lineStart": 20359,
-        "lineEnd": 20373
+        "lineStart": 20355,
+        "lineEnd": 20369
       }
     }
   ],
-  "rulesText": "Medium or Small Humanoid (Druid), Neutral\n\nAC 13\nInitiative +1 (11)\nHP 44 (8d8 + 8)\nSpeed 30 ft.\n\nSkills Medicine +5, Nature +3, Perception +5\nGear Studded Leather Armor\nSenses Passive Perception 15\nLanguages Common, Druidic, Sylvan\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The druid makes two attacks, using Vine Staff or Verdant Wisp in any combination.\n\nVine Staff. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning damage plus 2 (1d4) Poison damage.\n\nVerdant Wisp. Ranged Attack Roll: +5, range 90 ft. Hit: 10 (3d6) Radiant damage.\n\nSpellcasting. The druid casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 13):\n\nAt Will: Druidcraft, Speak with Animals\n\n2/Day Each: Entangle, Thunderwave\n\n1/Day Each: Animal Messenger, Long-strider, Moonbeam",
+  "rulesText": "Medium or Small Humanoid (Druid), Neutral\n\nAC 13\nInitiative +1 (11)\nHP 44 (8d8 + 8)\nSpeed 30 ft.\n\nSkills Medicine +5, Nature +3, Perception +5\nGear Studded Leather Armor\nSenses Passive Perception 15\nLanguages Common, Druidic, Sylvan\nCR 2 (XP 450; PB +2)\n\nActions\n\nMultiattack. The druid makes two attacks, using Vine Staff or Verdant Wisp in any combination.\n\nVine Staff. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) Bludgeoning damage plus 2 (1d4) Poison damage.\n\nVerdant Wisp. Ranged Attack Roll: +5, range 90 ft. Hit: 10 (3d6) Radiant damage.\n\nSpellcasting. The druid casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 13):\n\nAt Will: Druidcraft, Speak with Animals\n\n2/Day Each: Entangle, Thunderwave\n\n1/Day Each: Animal Messenger, Longstrider, Moonbeam",
   "hasGear": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/equipment/studded-leather-armor"
@@ -131,7 +131,7 @@
   "spellcasting": [
     {
       "section": "Actions",
-      "sourceText": "Spellcasting. The druid casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 13):\n\nAt Will: Druidcraft, Speak with Animals\n\n2/Day Each: Entangle, Thunderwave\n\n1/Day Each: Animal Messenger, Long-strider, Moonbeam",
+      "sourceText": "Spellcasting. The druid casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 13):\n\nAt Will: Druidcraft, Speak with Animals\n\n2/Day Each: Entangle, Thunderwave\n\n1/Day Each: Animal Messenger, Longstrider, Moonbeam",
       "path": "statSections[0].rulesText",
       "entries": [
         {
@@ -160,10 +160,13 @@
         },
         {
           "frequency": "1/Day Each",
-          "spellsText": "Animal Messenger, Long-strider, Moonbeam",
+          "spellsText": "Animal Messenger, Longstrider, Moonbeam",
           "spells": [
             {
               "@id": "https://cheeleong.dev/graph20/objects/spells/animal-messenger"
+            },
+            {
+              "@id": "https://cheeleong.dev/graph20/objects/spells/longstrider"
             },
             {
               "@id": "https://cheeleong.dev/graph20/objects/spells/moonbeam"
@@ -190,6 +193,9 @@
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/animal-messenger"
+    },
+    {
+      "@id": "https://cheeleong.dev/graph20/objects/spells/longstrider"
     },
     {
       "@id": "https://cheeleong.dev/graph20/objects/spells/moonbeam"

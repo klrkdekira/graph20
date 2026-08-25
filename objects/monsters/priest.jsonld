@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.191",
     "heading": "Priest",
-    "lineStart": 23835,
-    "lineEnd": 23872
+    "lineStart": 23831,
+    "lineEnd": 23868
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/priest/"
@@ -48,9 +48,9 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 14,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "dex": {
       "score": 10,
@@ -63,19 +63,19 @@
       "savingThrow": 1
     },
     "int": {
-      "score": 10,
-      "modifier": 0,
-      "savingThrow": 0
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
     },
     "wis": {
-      "score": 14,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "cha": {
-      "score": 11,
-      "modifier": 0,
-      "savingThrow": 0
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
     }
   },
   "statSections": [
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.191",
         "heading": "Actions",
-        "lineStart": 23855,
-        "lineEnd": 23868
+        "lineStart": 23851,
+        "lineEnd": 23864
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.191",
         "heading": "Bonus Actions",
-        "lineStart": 23870,
-        "lineEnd": 23872
+        "lineStart": 23866,
+        "lineEnd": 23868
       }
     }
   ],

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.168",
     "heading": "Mimic",
-    "lineStart": 23091,
-    "lineEnd": 23125
+    "lineStart": 23087,
+    "lineEnd": 23121
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/mimic/"
@@ -45,34 +45,34 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 10,
-      "modifier": 0,
-      "savingThrow": 0
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "dex": {
-      "score": 13,
+      "score": 12,
       "modifier": 1,
       "savingThrow": 1
     },
     "con": {
-      "score": 12,
-      "modifier": 1,
-      "savingThrow": 1
-    },
-    "int": {
-      "score": 11,
-      "modifier": 0,
-      "savingThrow": 0
-    },
-    "wis": {
-      "score": 14,
+      "score": 15,
       "modifier": 2,
       "savingThrow": 2
     },
-    "cha": {
-      "score": 12,
+    "int": {
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
+    },
+    "wis": {
+      "score": 13,
       "modifier": 1,
       "savingThrow": 1
+    },
+    "cha": {
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
     }
   },
   "statSections": [
@@ -83,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.168",
         "heading": "Traits",
-        "lineStart": 23113,
-        "lineEnd": 23115
+        "lineStart": 23109,
+        "lineEnd": 23111
       }
     },
     {
@@ -94,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.168",
         "heading": "Actions",
-        "lineStart": 23117,
-        "lineEnd": 23121
+        "lineStart": 23113,
+        "lineEnd": 23117
       }
     },
     {
@@ -105,8 +105,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.168",
         "heading": "Bonus Actions",
-        "lineStart": 23123,
-        "lineEnd": 23125
+        "lineStart": 23119,
+        "lineEnd": 23121
       }
     }
   ],

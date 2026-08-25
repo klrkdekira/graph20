@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.183",
     "heading": "Phase Spider",
-    "lineStart": 23599,
-    "lineEnd": 23636
+    "lineStart": 23595,
+    "lineEnd": 23632
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/phase-spider/"
@@ -82,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.183",
         "heading": "Traits",
-        "lineStart": 23620,
-        "lineEnd": 23626
+        "lineStart": 23616,
+        "lineEnd": 23622
       }
     },
     {
@@ -93,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.183",
         "heading": "Actions",
-        "lineStart": 23628,
-        "lineEnd": 23632
+        "lineStart": 23624,
+        "lineEnd": 23628
       }
     },
     {
@@ -104,8 +104,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.183",
         "heading": "Bonus Actions",
-        "lineStart": 23634,
-        "lineEnd": 23636
+        "lineStart": 23630,
+        "lineEnd": 23632
       }
     }
   ],

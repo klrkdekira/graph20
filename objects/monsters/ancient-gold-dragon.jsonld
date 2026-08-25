@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.113",
     "heading": "Ancient Gold Dragon",
-    "lineStart": 21356,
-    "lineEnd": 21408
+    "lineStart": 21352,
+    "lineEnd": 21404
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/ancient-gold-dragon/"
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.113",
         "heading": "Traits",
-        "lineStart": 21376,
-        "lineEnd": 21380
+        "lineStart": 21372,
+        "lineEnd": 21376
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.113",
         "heading": "Actions",
-        "lineStart": 21382,
-        "lineEnd": 21398
+        "lineStart": 21378,
+        "lineEnd": 21394
       }
     },
     {
@@ -108,8 +108,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.113",
         "heading": "Legendary Actions",
-        "lineStart": 21400,
-        "lineEnd": 21408
+        "lineStart": 21396,
+        "lineEnd": 21404
       }
     }
   ],

@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.264",
     "heading": "Wight",
-    "lineStart": 26282,
-    "lineEnd": 26321
+    "lineStart": 26278,
+    "lineEnd": 26317
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/wight/"
@@ -47,19 +47,19 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 26,
-      "modifier": 8,
-      "savingThrow": 8
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
     },
     "dex": {
-      "score": 10,
-      "modifier": 0,
-      "savingThrow": 6
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 2
     },
     "con": {
-      "score": 26,
-      "modifier": 8,
-      "savingThrow": 8
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "int": {
       "score": 10,
@@ -69,12 +69,12 @@
     "wis": {
       "score": 13,
       "modifier": 1,
-      "savingThrow": 7
+      "savingThrow": 1
     },
     "cha": {
-      "score": 18,
-      "modifier": 4,
-      "savingThrow": 4
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
     }
   },
   "statSections": [
@@ -85,8 +85,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.264",
         "heading": "Traits",
-        "lineStart": 26306,
-        "lineEnd": 26308
+        "lineStart": 26302,
+        "lineEnd": 26304
       }
     },
     {
@@ -96,8 +96,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.264",
         "heading": "Actions",
-        "lineStart": 26310,
-        "lineEnd": 26321
+        "lineStart": 26306,
+        "lineEnd": 26317
       }
     }
   ],

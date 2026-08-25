@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.201",
     "heading": "Remorhaz",
-    "lineStart": 24179,
-    "lineEnd": 24214
+    "lineStart": 24175,
+    "lineEnd": 24210
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/remorhaz/"
@@ -82,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.201",
         "heading": "Traits",
-        "lineStart": 24200,
-        "lineEnd": 24202
+        "lineStart": 24196,
+        "lineEnd": 24198
       }
     },
     {
@@ -93,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.201",
         "heading": "Actions",
-        "lineStart": 24204,
-        "lineEnd": 24206
+        "lineStart": 24200,
+        "lineEnd": 24202
       }
     },
     {
@@ -104,8 +104,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.201",
         "heading": "Bonus Actions",
-        "lineStart": 24208,
-        "lineEnd": 24214
+        "lineStart": 24204,
+        "lineEnd": 24210
       }
     }
   ],

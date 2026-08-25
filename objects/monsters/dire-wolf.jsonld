@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.19",
     "heading": "Dire Wolf",
-    "lineStart": 27022,
-    "lineEnd": 27047
+    "lineStart": 27018,
+    "lineEnd": 27043
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/dire-wolf/"
@@ -82,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.19",
         "heading": "Traits",
-        "lineStart": 27041,
-        "lineEnd": 27043
+        "lineStart": 27037,
+        "lineEnd": 27039
       }
     },
     {
@@ -93,8 +93,8 @@
         "chapter": "Animals",
         "section": "13.19",
         "heading": "Actions",
-        "lineStart": 27045,
-        "lineEnd": 27047
+        "lineStart": 27041,
+        "lineEnd": 27043
       }
     }
   ],

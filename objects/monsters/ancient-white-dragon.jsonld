@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.263",
     "heading": "Ancient White Dragon",
-    "lineStart": 26238,
-    "lineEnd": 26280
+    "lineStart": 26234,
+    "lineEnd": 26276
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/ancient-white-dragon/"
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.263",
         "heading": "Traits",
-        "lineStart": 26258,
-        "lineEnd": 26262
+        "lineStart": 26254,
+        "lineEnd": 26258
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.263",
         "heading": "Actions",
-        "lineStart": 26264,
-        "lineEnd": 26270
+        "lineStart": 26260,
+        "lineEnd": 26266
       }
     },
     {
@@ -108,8 +108,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.263",
         "heading": "Legendary Actions",
-        "lineStart": 26272,
-        "lineEnd": 26280
+        "lineStart": 26268,
+        "lineEnd": 26276
       }
     }
   ],

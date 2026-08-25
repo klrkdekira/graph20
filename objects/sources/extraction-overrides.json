@@ -72,9 +72,31 @@
       "sourceUrl": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
       "sourcePage": 167,
       "contentDigest": "sha256-8f037a5af23df22ea362d359e9b98563281a0359196e64c9ff4b85a1792205e6"
+    },
+    {
+      "id": "official-pdf-parity-repairs-2026-08-25",
+      "scope": "SRD_CC_v5.2.1.md (complete official-PDF semantic comparison and stat-table ownership validation)",
+      "observed": "A full comparison with the verified 364-page official PDF found 107 of 336 ability tables associated with the wrong stat-block owner by the earlier name-search repair, 34 residual PDF line-break/OCR tokens, and two conversion-only table captions duplicated into source prose. The Young White Dragon's visibly unsigned Intelligence save value remains '2', exactly as printed; no sign is inferred.",
+      "observedTokens": [
+        "Animated Object: 14 (+2), 11 (+0), 13 (+1), 1 (-5), 3 (-4), 1 (-5)",
+        "hand-held / Great-axes / Meta-magic / can-trip / tab-ard / Ac-robatics",
+        "ir-relevant / in-tangible / otyu-ghs / Poisson / El-dritch / Short-word",
+        "level I+ Wizard spell / (I Copper Piece) / worth I+ CP",
+        "any souls the bag is holding are released. The bag can create a new bag",
+        "Robe of Useful Items Patches / Sphere Interactions (conversion-only duplicate captions)"
+      ],
+      "proposed": "Applied deterministically by scripts/repair_source.py using scripts/data/srd-5.2.1-pdf-parity.json: enforce all 336 PDF stat tables by exact owner, repair the 34 verified lexical conversion artifacts, and keep friendly table names in structured extraction rather than adding them to source prose. scripts/validate_pdf_parity.py now verifies the official PDF digest, page count, semantic comparison metrics, and the complete stat-table registry; the offline Make gate validates the Markdown against the checked registry.",
+      "rationale": "The previous positional text search could select another occurrence of a creature name and silently transplant its ability table. Owner-keyed values parsed from the official PDF remove that ambiguity. The semantic comparison covers substantive PDF pages 5-364; the Markdown-native Contents navigation replaces, rather than duplicates, PDF page-number/index furniture. All changed wording is directly present in the official PDF text layer or visible page, and no external rules source contributes a value.",
+      "status": "applied-to-source",
+      "sourceUrl": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+      "sourcePdfDigest": "sha256-8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+      "sourcePages": 364,
+      "validatedStatBlocks": 336,
+      "preRepairDigest": "sha256-8f037a5af23df22ea362d359e9b98563281a0359196e64c9ff4b85a1792205e6",
+      "postRepairDigest": "sha256-5a316f6926f0e1624426758a4c9fd5929c9887f474b5ff9aa1c8e86ad18fea37"
     }
   ],
-  "validatedSourceDigest": "sha256-8f037a5af23df22ea362d359e9b98563281a0359196e64c9ff4b85a1792205e6",
+  "validatedSourceDigest": "sha256-5a316f6926f0e1624426758a4c9fd5929c9887f474b5ff9aa1c8e86ad18fea37",
   "anomalyReviews": [
     {
       "id": "roman-numeral-currency",

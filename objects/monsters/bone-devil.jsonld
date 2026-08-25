@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.37",
     "heading": "Bone Devil",
-    "lineStart": 18941,
-    "lineEnd": 18978
+    "lineStart": 18937,
+    "lineEnd": 18974
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/bone-devil/"
@@ -49,33 +49,33 @@
   "proficiencyBonus": 4,
   "abilities": {
     "str": {
-      "score": 29,
-      "modifier": 9,
-      "savingThrow": 9
-    },
-    "dex": {
-      "score": 10,
-      "modifier": 0,
-      "savingThrow": 7
-    },
-    "con": {
-      "score": 27,
-      "modifier": 8,
+      "score": 18,
+      "modifier": 4,
       "savingThrow": 8
     },
-    "int": {
+    "dex": {
+      "score": 16,
+      "modifier": 3,
+      "savingThrow": 3
+    },
+    "con": {
       "score": 18,
       "modifier": 4,
       "savingThrow": 4
     },
+    "int": {
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 5
+    },
     "wis": {
-      "score": 17,
-      "modifier": 3,
-      "savingThrow": 10
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 6
     },
     "cha": {
-      "score": 25,
-      "modifier": 7,
+      "score": 16,
+      "modifier": 3,
       "savingThrow": 7
     }
   },
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.37",
         "heading": "Traits",
-        "lineStart": 18964,
-        "lineEnd": 18968
+        "lineStart": 18960,
+        "lineEnd": 18964
       }
     },
     {
@@ -98,8 +98,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.37",
         "heading": "Actions",
-        "lineStart": 18970,
-        "lineEnd": 18978
+        "lineStart": 18966,
+        "lineEnd": 18974
       }
     }
   ],

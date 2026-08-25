@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.60",
     "heading": "Cockatrice",
-    "lineStart": 19687,
-    "lineEnd": 19710
+    "lineStart": 19683,
+    "lineEnd": 19706
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/cockatrice/"
@@ -44,34 +44,34 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 15,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 6,
+      "modifier": -2,
+      "savingThrow": -2
     },
     "dex": {
       "score": 12,
       "modifier": 1,
-      "savingThrow": 3
+      "savingThrow": 1
     },
     "con": {
-      "score": 13,
+      "score": 12,
       "modifier": 1,
       "savingThrow": 1
     },
     "int": {
-      "score": 14,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
     },
     "wis": {
-      "score": 11,
-      "modifier": 0,
-      "savingThrow": 2
-    },
-    "cha": {
       "score": 13,
       "modifier": 1,
       "savingThrow": 1
+    },
+    "cha": {
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
     }
   },
   "statSections": [
@@ -82,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.60",
         "heading": "Actions",
-        "lineStart": 19708,
-        "lineEnd": 19710
+        "lineStart": 19704,
+        "lineEnd": 19706
       }
     }
   ],

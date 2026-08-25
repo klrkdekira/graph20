@@ -672,7 +672,7 @@ Aiming a ranged attack is more difficult when a foe is next to you. When you mak
 
 # Melee Attacks
 
-A melee attack allows you to attack a target within your reach. A melee attack typically uses a hand-held weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee attacks.
+A melee attack allows you to attack a target within your reach. A melee attack typically uses a handheld weapon or an Unarmed Strike. Many monsters make melee attacks with claws, teeth, or other body parts. A few spells also involve melee attacks.
 
 # Reach
 
@@ -1378,14 +1378,14 @@ Trinkets
 | 08    | A small idol depicting a nightmarish creature that gives you unsettling dreams when you sleep near it |
 | 09    | A lock of someone’s hair                                                                              |
 | 10    | The deed for a parcel of land in a realm unknown to you                                               |
-| 11    | A l-ounce block made from an unknown material                                                         |
+| 11    | A 1-ounce block made from an unknown material                                                         |
 | 12    | A small cloth doll skewered with needles                                                              |
 | 13    | A tooth from an unknown beast                                                                         |
 | 14    | An enormous scale, perhaps from a dragon                                                              |
 | 15    | A bright-green feather                                                                                |
 | 16    | An old divination card bearing your likeness                                                          |
 | 17    | A glass orb filled with moving smoke                                                                  |
-| 18    | A l-pound egg with a bright-red shell                                                                 |
+| 18    | A 1-pound egg with a bright-red shell                                                                 |
 | 19    | A pipe that blows bubbles                                                                             |
 | 20    | A glass jar containing a bit of flesh floating in pickling fluid                                      |
 | 21    | A gnome-crafted music box that plays a song you dimly remember from your childhood                    |
@@ -1435,7 +1435,7 @@ Trinkets
 | 65 | A nightcap that gives you pleasant dreams when you wear it |
 | 66 | A single caltrop made from bone |
 | 67 | A gold monocle frame without the lens |
-| 68 | A l-inch cube, each side a different color |
+| 68 | A 1-inch cube, each side a different color |
 | 69 | A crystal doorknob |
 | 70 | A packet filled with pink dust |
 | 71 | A fragment of a beautiful song, written as musical notes on two pieces of parchment |
@@ -1558,7 +1558,7 @@ While you aren't wearing any armor, your base Armor Class equals 10 plus your De
 
 # Level 1: Weapon Mastery
 
-Your training with weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Great-axes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.
+Your training with weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.
 
 When you reach certain Barbarian levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian Features table.
 
@@ -2149,7 +2149,7 @@ The option you chose for Blessed Strikes grows more powerful.
 
 Divine Strike. The extra damage of your Divine Strike increases to 2d8.
 
-Potent Spellcasting. When you cast a Cleric can-trip and deal damage to a creature with it, you can give vitality to yourself or another creature within 60 feet of yourself, granting a number of Temporary Hit Points equal to twice your Wisdom modifier.
+Potent Spellcasting. When you cast a Cleric cantrip and deal damage to a creature with it, you can give vitality to yourself or another creature within 60 feet of yourself, granting a number of Temporary Hit Points equal to twice your Wisdom modifier.
 
 # Level 19: Epic Boon
 
@@ -2521,7 +2521,7 @@ Primal Strike. Once on each of your turns when you hit a creature with an attack
 
 The option you chose for Elemental Fury grows more powerful, as detailed below.
 
-Potent Spellcasting. When you cast a Druid can-trip with a range of 10 feet or greater, the spell's range increases by 300 feet.
+Potent Spellcasting. When you cast a Druid cantrip with a range of 10 feet or greater, the spell's range increases by 300 feet.
 
 Primal Strike. The extra damage of your Primal Strike increases to 2d8.
 
@@ -4074,7 +4074,7 @@ While your Innate Sorcery feature is active, you can use one Metamagic option on
 
 # Metamagic Options
 
-The following options are available to your Meta-magic feature. The options are presented in alphabetical order.
+The following options are available to your Metamagic feature. The options are presented in alphabetical order.
 
 # Careful Spell
 
@@ -4989,7 +4989,7 @@ You gain a Wizard subclass of your choice. The Evoker subclass is detailed after
 
 The spells you add to your spellbook as you gain levels reflect your ongoing magical research, but you might find other spells during your adventures that you can add to the book. You could discover a Wizard spell on a Spell Scroll, for example, and then copy it into your spellbook.
 
-Copying a Spell into the Book. When you find a level I+ Wizard spell, you can copy it into your spellbook if it's of a level you can prepare and if you have time to copy it. For each level of the spell, the transcription takes 2 hours and costs 50 GP. Afterward you can prepare the spell like the other spells in your spellbook.
+Copying a Spell into the Book. When you find a level 1+ Wizard spell, you can copy it into your spellbook if it's of a level you can prepare and if you have time to copy it. For each level of the spell, the transcription takes 2 hours and costs 50 GP. Afterward you can prepare the spell like the other spells in your spellbook.
 
 Copying the Book. You can copy a spell from your spellbook into another book. This is like copying a new spell into your spellbook but faster, since you already know how to cast the spell. You need spend only 1 hour and 10 GP for each level of the copied spell.
 
@@ -5302,7 +5302,7 @@ In addition, whenever you gain access to a new level of spell slots in this clas
 
 # Level 3: Potent Cantrip
 
-Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a can-trip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip.
+Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a cantrip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip.
 
 # Level 6: Sculpt Spells
 
@@ -6422,7 +6422,7 @@ As a Bonus Action, you can drink a vial of Antitoxin to gain Advantage on saving
 
 # Arcane Focus (Varies)
 
-An Arcane Focus takes one of the forms in the Arcane Focuses table and is be jeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.
+An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.
 
 Arcane Focuses
 
@@ -6574,9 +6574,9 @@ A Healer's Kit has ten uses. As a Utilize action, you can expend one of its uses
 
 # Holy Symbol (Varies)
 
-A Holy Symbol takes one of the forms in the Holy Symbol table and is be jeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.
+A Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus.
 
-The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tab-ard or banner) or a Shield.
+The table indicates whether a Holy Symbol needs to be held, worn, or borne on fabric (such as a tabard or banner) or a Shield.
 
 Holy Symbols
 
@@ -6720,7 +6720,7 @@ A Robe has vocational or ceremonial significance. Some events and locations admi
 
 As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check.
 
-You can bind an unwilling creature with the Rope only if the creature has the Grappled, Incapacitated, or Restrained condition. If the creature's legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Ac-robatics) check as an action.
+You can bind an unwilling creature with the Rope only if the creature has the Grappled, Incapacitated, or Restrained condition. If the creature's legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.
 
 # Sack (1 CP)
 
@@ -7215,7 +7215,7 @@ A Clear Path to the Target. To target something with a spell, a caster must have
 
 Targeting Yourself. If a spell targets a creature of your choice, you can choose yourself unless the creature must be Hostile or specifically a creature other than you.
 
-Areas of Effect. Some spells, such as Thunder-wave, cover an area called an area of effect, which is defined in “Rules Glossary.” The area determines what the spell targets. The description of a spell specifies whether it has an area of effect, which is typically one of these shapes: Cone, Cube, Cylinder, Emanation, Line, or Sphere.
+Areas of Effect. Some spells, such as Thunderwave, cover an area called an area of effect, which is defined in “Rules Glossary.” The area determines what the spell targets. The description of a spell specifies whether it has an area of effect, which is typically one of these shapes: Cone, Cube, Cylinder, Emanation, Line, or Sphere.
 
 Awareness of Being Targeted. Unless a spell has a perceptible effect, a creature doesn't know it was targeted by the spell. An effect like lightning is obvious, but a more subtle effect, such as an attempt to read thoughts, goes unnoticed unless a spell's description says otherwise.
 
@@ -7412,8 +7412,8 @@ Speed 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 14 (+2) | 11 (+0) | 13 (+1) | 1 (-5) | 3 (-4) | 1 (-5) |
-| Save: +2 | Save: +0 | Save: +1 | Save: -5 | Save: -4 | Save: -5 |
+| 16 (+3) | 10 (+0) | 10 (+0) | 3 (-4) | 3 (-4) | 1 (-5) |
+| Save: +3 | Save: +0 | Save: +0 | Save: -4 | Save: -4 | Save: -5 |
 
 Immunities Poison, Psychic; Charmed, Exhaustion, Frightened, Paralyzed, Poisoned
 Senses Blindsight 30 ft.; Passive Perception 6
@@ -8228,7 +8228,7 @@ Range: Self
 Components: V
 Duration: 1 minute
 
-You mentally contact a demigod, the spirit of a long-dead sage, or some other knowledgeable entity from another plane. Contacting this otherworldly intelligence can break your mind. When you cast this spell, make a DC 15 Intelligence saving throw. On a successful save, you can ask the entity up to five questions. You must ask your questions before the spell ends. The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “ir-relevant,” or “unclear” (if the entity doesn’t know the answer to the question). If a one-word answer would be misleading, the GM might instead offer a short phrase as an answer.
+You mentally contact a demigod, the spirit of a long-dead sage, or some other knowledgeable entity from another plane. Contacting this otherworldly intelligence can break your mind. When you cast this spell, make a DC 15 Intelligence saving throw. On a successful save, you can ask the entity up to five questions. You must ask your questions before the spell ends. The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “irrelevant,” or “unclear” (if the entity doesn’t know the answer to the question). If a one-word answer would be misleading, the GM might instead offer a short phrase as an answer.
 
 On a failed save, you take 6d6 Psychic damage and have the Incapacitated condition until you finish a Long Rest. A Greater Restoration spell cast on you ends this effect.
 
@@ -8579,7 +8579,7 @@ Level 2 Divination (Bard, Sorcerer, Wizard)
 
 Casting Time: Action
 Range: Self
-Components: V, S, M (I Copper Piece)
+Components: V, S, M (1 Copper Piece)
 Duration: Concentration, up to 1 minute
 
 You activate one of the effects below. Until the spell ends, you can activate either effect as a Magic action on your later turns.
@@ -9055,7 +9055,7 @@ Duration: 8 hours
 
 You conjure a phantom watchdog in an unoccupied space that you can see within range. The hound remains for the duration or until the two of you are more than 300 feet apart from each other.
 
-No one but you can see the hound, and it is in-tangible and invulnerable. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when you cast this spell, the hound starts barking loudly. The hound has Truesight with a range of 30 feet.
+No one but you can see the hound, and it is intangible and invulnerable. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when you cast this spell, the hound starts barking loudly. The hound has Truesight with a range of 30 feet.
 
 At the start of each of your turns, the hound attempts to bite one enemy within 5 feet of it. That enemy must succeed on a Dexterity saving throw or take 4d8 Force damage.
 
@@ -10092,7 +10092,7 @@ Burial. The target is entombed beneath the earth in a hollow globe of magical fo
 
 Chaining. Chains firmly rooted in the ground hold the target in place. The target has the Restrained condition and can't be moved by any means.
 
-Hedged Prison. The target is trapped in a demi-plane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a cage, a tower, or the like.
+Hedged Prison. The target is trapped in a demiplane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a cage, a tower, or the like.
 
 Minimus Containment. The target becomes 1 inch tall and is trapped inside an indestructible gemstone or a similar object. Light can pass through the gemstone (allowing the target to see out and other creatures to see in), but nothing else can pass through by any means.
 
@@ -11366,7 +11366,7 @@ Range: Touch
 Components: V, S, M (a segment of rope)
 Duration: 1 hour
 
-You touch a rope. One end of it hovers upward until the rope hangs perpendicular to the ground or the rope reaches a ceiling. At the rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extra-dimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pulled into or dropped out of it.
+You touch a rope. One end of it hovers upward until the rope hangs perpendicular to the ground or the rope reaches a ceiling. At the rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extradimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pulled into or dropped out of it.
 
 The space can hold up to eight Medium or smaller creatures. Attacks, spells, and other effects can't pass into or out of the space, but creatures inside it can see through the portal. Anything inside the space drops out when the spell ends.
 
@@ -12284,7 +12284,7 @@ Divination Cantrip (Bard, Sorcerer, Warlock, Wizard)
 
 Casting Time: Action
 Range: Self
-Components: S, M (a weapon with which you have proficiency and that is worth I+ CP)
+Components: S, M (a weapon with which you have proficiency and that is worth 1+ CP)
 Duration: Instantaneous
 
 Guided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The attack uses your spellcasting ability for the attack and damage rolls instead of using Strength or Dexterity. If the attack deals damage, it can be Radiant damage or the weapon's normal damage type (your choice).
@@ -13913,7 +13913,7 @@ Spreading the Contagion. Any Humanoid (other than a gnome) that starts its turn 
 
 Magical Contagion
 
-Fouled potions and alchemical waste can give rise to Sewer Plague, which incubates in sewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including otyu-ghs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into contact with contaminated filth or offal must succeed on a DC 11 Constitution saving throw or become infected with Sewer Plague. A creature suffers the following effects 1d4 days after infection:
+Fouled potions and alchemical waste can give rise to Sewer Plague, which incubates in sewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including otyughs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into contact with contaminated filth or offal must succeed on a DC 11 Constitution saving throw or become infected with Sewer Plague. A creature suffers the following effects 1d4 days after infection:
 
 Fatigue. The creature gains 1 Exhaustion level.
 
@@ -14133,7 +14133,7 @@ A creature subjected to Truth Serum must succeed on a DC 11 Constitution saving 
 
 Injury Poison
 
-A creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poisson damage on a failed save or half as much damage on a successful one.
+A creature subjected to Wyvern Poison makes a DC 14 Constitution saving throw, taking 24 (7d6) Poison damage on a failed save or half as much damage on a successful one.
 
 # Traps
 
@@ -15497,7 +15497,7 @@ You gain a +3 bonus to attack rolls and damage rolls made with this magic weapon
 
 Wondrous Item, Uncommon
 
-Each of the quiver's three compartments connects to an extradimensional space that allows the quiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The mid-size compartment holds up to 18 Javelins or similar objects. The longest compartment holds up to 6 long objects, such as bows, Quarterstaffs, or Spears.
+Each of the quiver's three compartments connects to an extradimensional space that allows the quiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to 60 Arrows, Bolts, or similar objects. The midsize compartment holds up to 18 Javelins or similar objects. The longest compartment holds up to 6 long objects, such as bows, Quarterstaffs, or Spears.
 
 You can draw any item the quiver contains as if doing so from a regular quiver or scabbard.
 
@@ -15781,7 +15781,7 @@ Weapon (Maul or Warhammer), Legendary (Requires Attunement)
 
 You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon.
 
-The weapon has 5 charges. You can expend 1 charge and make a ranged attack with the weapon, hurling it as if it had the Thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the weapon unleashes a thunder-clap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC 17 Constitution saving throw or have the Stunned condition until the end of your next turn. Immediately after hitting or missing, the weapon flies back to your hand. The weapon regains 1d4 + 1 expended charges daily at dawn.
+The weapon has 5 charges. You can expend 1 charge and make a ranged attack with the weapon, hurling it as if it had the Thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the weapon unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it other than you must succeed on a DC 17 Constitution saving throw or have the Stunned condition until the end of your next turn. Immediately after hitting or missing, the weapon flies back to your hand. The weapon regains 1d4 + 1 expended charges daily at dawn.
 
 Giant's Bane. While you are attuned to the weapon and wearing either a Belt of Giant Strength or Gauntlets of Ogre Power to which you are also attuned, you gain the following benefits:
 
@@ -15945,7 +15945,7 @@ Wondrous Item, Rare (Requires Attunement)
 
 As a Magic action, you can place this 1-inch adamantine statuette on the ground and, using a command word, cause it to grow rapidly into a square adamantine tower. Repeating the command word causes the tower to revert to statuette form, which works only if the tower is empty. Each creature in the area where the tower appears is pushed to an unoccupied space outside but next to the tower. Objects in the area that aren't being worn or carried are also pushed clear of the tower.
 
-The tower is 20 feet on a side and 30 feet high, with arrow slits on all sides and a battlement atop it. Its interior is divided into two floors, with a ladder, staircase, or ramp (your choice) connecting them. This ladder, staircase, or ramp ends at a trap-door leading to the roof. When created, the tower has a single door at ground level on the side facing you. The door opens only at your command, which you can issue as a Bonus Action. It is immune to the Knock spell and similar magic.
+The tower is 20 feet on a side and 30 feet high, with arrow slits on all sides and a battlement atop it. Its interior is divided into two floors, with a ladder, staircase, or ramp (your choice) connecting them. This ladder, staircase, or ramp ends at a trapdoor leading to the roof. When created, the tower has a single door at ground level on the side facing you. The door opens only at your command, which you can issue as a Bonus Action. It is immune to the Knock spell and similar magic.
 
 Magic prevents the tower from being tipped over. The roof, the door, and the walls each have AC 20; HP 100; Immunity to Bludgeoning, Piercing, and Slashing damage except that which is dealt by siege equipment; and Resistance to all other damage. Shrinking the tower back down to statuette form doesn't repair damage to the tower. Only a Wish spell can repair the tower (this use of the spell counts as replicating a spell of level 8 or lower). Each casting of Wish causes the tower to regain all its Hit Points.
 
@@ -16162,7 +16162,7 @@ Usually found in a box or pouch, this deck contains a number of cards made of iv
 
 Before you draw a card, you must declare how many cards you intend to draw and then draw them randomly. Any cards drawn in excess of this number have no effect. Otherwise, as soon as you draw a card from the deck, its magic takes effect. You must draw each card no more than 1 hour after the previous draw. If you fail to draw the chosen number, the remaining number of cards fly from the deck on their own and take effect all at once.
 
-Once a card is drawn, it disappears. Unless the card is the Fool or Jester, the card reappears in the deck, making it possible to draw the same card twice. (Once the Fool or Jester has left the deck, re-roll on the table if that card comes up again.)
+Once a card is drawn, it disappears. Unless the card is the Fool or Jester, the card reappears in the deck, making it possible to draw the same card twice. (Once the Fool or Jester has left the deck, reroll on the table if that card comes up again.)
 
 Mysterious Deck
 
@@ -16197,7 +16197,7 @@ Balance. You can increase one of your ability scores by 2, to a maximum of 22, p
 
 Comet. The next time you enter combat against one or more Hostile creatures, you can select one of them as your foe when you roll Initiative. If you reduce your foe to 0 Hit Points during that combat, you have Advantage on Death Saving Throws for 1 year. If someone else reduces your chosen foe to 0 Hit Points or you don't choose a foe, this card has no effect.
 
-Donjon. You disappear and become entombed in a state of suspended animation in an extradi-dimensional sphere. Everything you're wearing and carrying disappears with you except for Artifacts, which stay behind in the space you occupied when you disappeared. You remain imprisoned until you are found and removed from the sphere. You can't be located by any Divination magic, but a Wish spell can reveal the location of your prison. You draw no more cards.
+Donjon. You disappear and become entombed in a state of suspended animation in an extradimensional sphere. Everything you're wearing and carrying disappears with you except for Artifacts, which stay behind in the space you occupied when you disappeared. You remain imprisoned until you are found and removed from the sphere. You can't be located by any Divination magic, but a Wish spell can reveal the location of your prison. You draw no more cards.
 
 Euryale. The card's medusa-like visage curses you. You take a -2 penalty to saving throws while cursed in this way. Only a god or the magic of the Fates card can end this curse.
 
@@ -16654,7 +16654,7 @@ Fire. You know Ignan, and you have Immunity to Fire damage.
 
 Water. You know Aquan, you gain a Swim Speed of 60 feet, and you can breathe underwater.
 
-Spellcasting. The ring has 5 charges and re-gains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.
+Spellcasting. The ring has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While wearing the ring, you can cast a spell from it. Choose the spell from the list of available spells based on the Elemental Plane the ring is linked to, as shown in the following table. The table indicates how many charges you must expend to cast the spell, which has a save DC of 18.
 
 | Plane | Spells (Charges)                                                                                                                |
 | :---- | :------------------------------------------------------------------------------------------------------------------------------ |
@@ -16886,8 +16886,6 @@ The robe has two of each of the following patches:
 - Bullseye Lantern (filled and lit)
 
 In addition, the robe has 4d4 other patches. The GM chooses the patches or determines them randomly by rolling on the following table.
-
-Robe of Useful Items Patches
 
 | 1d100 | Patch |
 | :---- | :---- |
@@ -17121,8 +17119,6 @@ Controlling the Sphere. A Sphere of Annihilation is stationary until someone tak
 While in control of the sphere, you can take a Bonus Action to cause it to move in one direction of your choice, up to a number of feet equal to 5 times your Intelligence modifier (minimum 5 feet). Any creature whose space the sphere enters must succeed on a DC 19 Dexterity saving throw or be touched by it, taking 8d10 Force damage. A creature reduced to 0 Hit Points by this damage is obliterated, leaving its possessions behind but no other physical remains.
 
 Sphere Interactions. If the sphere comes into contact with a planar portal (such as that created by the Gate spell) or an extradimensional space (such as that within a Portable Hole), the GM determines randomly what happens using the following table.
-
-Sphere Interactions
 
 | 1d100 | Result |
 | :---- | :----- |
@@ -18057,8 +18053,8 @@ Speed 5 ft., Fly 50 ft. (hover)
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 17 (+3) | 11 (+0) | 14 (+2) | 1 (-5) | 13 (+1) | 6 (-2) |
-| Save: +3 | Save: +0 | Save: +2 | Save: -5 | Save: +1 | Save: -2 |
+| 12 (+1) | 15 (+2) | 11 (+0) | 1 (-5) | 5 (-3) | 1 (-5) |
+| Save: +1 | Save: +4 | Save: +0 | Save: -5 | Save: -3 | Save: -5 |
 
 Immunities Poison, Psychic; Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned
 Senses Blindsight 60 ft.; Passive Perception 7
@@ -18080,8 +18076,8 @@ Speed 10 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 3 (-4) | 8 (-1) | 11 (+0) | 10 (+0) | 10 (+0) | 6 (-2) |
-| Save: -4 | Save: -1 | Save: +0 | Save: +0 | Save: +0 | Save: -2 |
+| 17 (+3) | 14 (+2) | 10 (+0) | 1 (-5) | 3 (-4) | 1 (-5) |
+| Save: +3 | Save: +2 | Save: +0 | Save: -5 | Save: -4 | Save: -5 |
 
 Immunities Poison, Psychic; Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned
 Senses Blindsight 60 ft.; Passive Perception 6
@@ -18137,8 +18133,8 @@ Speed 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 3 (-4) | 8 (-1) | 11 (+0) | 10 (+0) | 10 (+0) | 6 (-2) |
-| Save: -4 | Save: -1 | Save: +0 | Save: +0 | Save: +0 | Save: -2 |
+| 11 (+0) | 18 (+4) | 14 (+2) | 16 (+3) | 11 (+0) | 10 (+0) |
+| Save: +0 | Save: +7 | Save: +2 | Save: +6 | Save: +0 | Save: +0 |
 
 Skills Acrobatics +7, Perception +6, Stealth +10
 Resistances Poison
@@ -18176,8 +18172,8 @@ Speed 20 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 17 (+3) | 12 (+1) | 15 (+2) | 12 (+1) | 13 (+1) | 10 (+0) |
-| Save: +3 | Save: +1 | Save: +4 | Save: +1 | Save: +1 | Save: +0 |
+| 3 (-4) | 8 (-1) | 11 (+0) | 10 (+0) | 10 (+0) | 6 (-2) |
+| Save: -4 | Save: -1 | Save: +0 | Save: +0 | Save: +0 | Save: -2 |
 
 # Vulnerabilities Fire
 
@@ -18285,8 +18281,8 @@ Speed 40 ft., Fly 80 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 11 (+0) | 12 (+1) | 12 (+1) | 10 (+0) | 10 (+0) | 10 (+0) |
-| Save: +0 | Save: +1 | Save: +1 | Save: +0 | Save: +0 | Save: +0 |
+| 26 (+8) | 15 (+2) | 22 (+6) | 20 (+5) | 16 (+3) | 22 (+6) |
+| Save: +8 | Save: +2 | Save: +12 | Save: +5 | Save: +9 | Save: +6 |
 
 Skills Perception +9
 Resistances Cold, Lightning
@@ -18496,8 +18492,8 @@ Speed 50 ft., Climb 50 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 16 (+3) | 12 (+1) | 17 (+3) | 9 (-1) | 11 (+0) | 9 (-1) |
-| Save: +3 | Save: +1 | Save: +3 | Save: -1 | Save: +0 | Save: -1 |
+| 23 (+6) | 16 (+3) | 18 (+4) | 7 (-2) | 14 (+2) | 12 (+1) |
+| Save: +6 | Save: +3 | Save: +4 | Save: -2 | Save: +2 | Save: +1 |
 
 Skills Perception +6, Stealth +7
 Immunities Lightning
@@ -18627,8 +18623,8 @@ Speed 40 ft., Fly 80 ft., Swim 40 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 15 (+2) | 14 (+2) | 13 (+1) | 10 (+0) | 11 (+0) | 13 (+1) |
-| Save: +2 | Save: +4 | Save: +1 | Save: +0 | Save: +2 | Save: +1 |
+| 23 (+6) | 14 (+2) | 21 (+5) | 14 (+2) | 13 (+1) | 19 (+4) |
+| Save: +6 | Save: +7 | Save: +5 | Save: +2 | Save: +6 | Save: +4 |
 
 Skills Perception +11, Stealth +7
 Immunities Acid
@@ -18727,8 +18723,8 @@ Speed 20 ft., Climb 20 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 27 (+8) | 14 (+2) | 25 (+7) | 16 (+3) | 15 (+2) | 22 (+6) |
-| Save: +8 | Save: +9 | Save: +7 | Save: +3 | Save: +9 | Save: +6 |
+| 16 (+3) | 5 (-3) | 16 (+3) | 1 (-5) | 6 (-2) | 1 (-5) |
+| Save: +3 | Save: -3 | Save: +3 | Save: -5 | Save: -2 | Save: -5 |
 
 Immunities Acid, Cold, Lightning, Slashing; Charmed, Deafened, Exhaustion, Frightened, Grappled, Prone, Restrained
 Senses Blindsight 60 ft.; Passive Perception 8
@@ -18768,8 +18764,8 @@ Speed 40 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 21 (+5) | 10 (+0) | 19 (+4) | 14 (+2) | 13 (+1) | 17 (+3) |
-| Save: +5 | Save: +4 | Save: +4 | Save: +2 | Save: +5 | Save: +3 |
+| 12 (+1) | 17 (+3) | 12 (+1) | 10 (+0) | 13 (+1) | 11 (+0) |
+| Save: +1 | Save: +3 | Save: +1 | Save: +0 | Save: +1 | Save: +0 |
 
 Skills Perception +5, Stealth +5
 Senses Darkvision 60 ft.; Passive Perception 15
@@ -18797,8 +18793,8 @@ Speed 30 ft., Burrow 15 ft., Fly 60 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 25 (+7) | 10 (+0) | 23 (+6) | 16 (+3) | 15 (+2) | 20 (+5) |
-| Save: +7 | Save: +5 | Save: +6 | Save: +3 | Save: +7 | Save: +5 |
+| 17 (+3) | 10 (+0) | 15 (+2) | 12 (+1) | 11 (+0) | 15 (+2) |
+| Save: +3 | Save: +2 | Save: +2 | Save: +1 | Save: +2 | Save: +2 |
 
 Skills Perception +4, Stealth +2
 Immunities Lightning
@@ -18951,8 +18947,8 @@ Speed 40 ft., Fly 40 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 29 (+9) | 10 (+0) | 27 (+8) | 18 (+4) | 17 (+3) | 25 (+7) |
-| Save: +9 | Save: +7 | Save: +8 | Save: +4 | Save: +10 | Save: +7 |
+| 18 (+4) | 16 (+3) | 18 (+4) | 13 (+1) | 14 (+2) | 16 (+3) |
+| Save: +8 | Save: +3 | Save: +4 | Save: +5 | Save: +6 | Save: +7 |
 
 Skills Deception +7, Insight +6
 Resistances Cold
@@ -19574,8 +19570,8 @@ Speed 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 17 (+3) | 15 (+2) | 12 (+1) | 13 (+1) | 14 (+2) | 7 (-2) |
-| Save: +3 | Save: +2 | Save: +1 | Save: +1 | Save: +2 | Save: -2 |
+| 20 (+5) | 9 (-1) | 18 (+4) | 3 (-4) | 8 (-1) | 1 (-5) |
+| Save: +5 | Save: -1 | Save: +4 | Save: -4 | Save: -1 | Save: -5 |
 
 Resistances Bludgeoning, Piercing, Slashing
 Immunities Acid, Poison, Psychic; Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned
@@ -19697,8 +19693,8 @@ Speed 20 ft., Fly 40 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 15 (+2) | 12 (+1) | 13 (+1) | 14 (+2) | 11 (+0) | 13 (+1) |
-| Save: +2 | Save: +3 | Save: +1 | Save: +2 | Save: +2 | Save: +1 |
+| 6 (-2) | 12 (+1) | 12 (+1) | 2 (-4) | 13 (+1) | 5 (-3) |
+| Save: -2 | Save: +1 | Save: +1 | Save: -4 | Save: +1 | Save: -3 |
 
 Immunities Petrified
 Senses Darkvision 60 ft.; Passive Perception 11
@@ -19986,8 +19982,8 @@ Speed 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 14 (+2) | 14 (+2) | 11 (+0) | 5 (-3) | 10 (+0) | 4 (-3) |
-| Save: +2 | Save: +2 | Save: +0 | Save: -3 | Save: +0 | Save: -3 |
+| 11 (+0) | 12 (+1) | 10 (+0) | 10 (+0) | 11 (+0) | 10 (+0) |
+| Save: +0 | Save: +1 | Save: +0 | Save: +0 | Save: +2 | Save: +0 |
 
 Skills Deception +2, Religion +2
 Gear Leather Armor, Sickle
@@ -20010,8 +20006,8 @@ Speed 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 14 (+2) | 14 (+2) | 11 (+0) | 5 (-3) | 10 (+0) | 4 (-3) |
-| Save: +2 | Save: +2 | Save: +0 | Save: -3 | Save: +0 | Save: -3 |
+| 11 (+0) | 14 (+2) | 12 (+1) | 10 (+0) | 14 (+2) | 13 (+1) |
+| Save: +0 | Save: +2 | Save: +1 | Save: +0 | Save: +4 | Save: +1 |
 
 Skills Deception +3, Persuasion +3, Religion +2
 Gear Holy Symbol, Leather Armor
@@ -20370,7 +20366,7 @@ At Will: Druidcraft, Speak with Animals
 
 2/Day Each: Entangle, Thunderwave
 
-1/Day Each: Animal Messenger, Long-strider, Moonbeam
+1/Day Each: Animal Messenger, Longstrider, Moonbeam
 
 # Dryad
 
@@ -20466,8 +20462,8 @@ Speed 40 ft., Fly 60 ft. (hover)
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 18 (+4) | 16 (+3) | 18 (+4) | 14 (+2) | 14 (+2) | 18 (+4) |
-| Save: +4 | Save: +7 | Save: +8 | Save: +2 | Save: +2 | Save: +8 |
+| 22 (+6) | 12 (+1) | 24 (+7) | 16 (+3) | 15 (+2) | 19 (+4) |
+| Save: +6 | Save: +1 | Save: +7 | Save: +3 | Save: +6 | Save: +8 |
 
 Immunities Fire
 Senses Darkvision 120 ft.; Passive Perception 12
@@ -20554,8 +20550,8 @@ Speed 30 ft., Climb 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 21 (+5) | 8 (-1) | 17 (+3) | 6 (-2) | 10 (+0) | 8 (-1) |
-| Save: +5 | Save: -1 | Save: +3 | Save: -2 | Save: +0 | Save: -1 |
+| 14 (+2) | 15 (+2) | 13 (+1) | 7 (-2) | 12 (+1) | 8 (-1) |
+| Save: +2 | Save: +2 | Save: +1 | Save: -2 | Save: +1 | Save: -1 |
 
 Skills Perception +3, Stealth +4, Survival +3
 Senses Darkvision 60 ft.; Passive Perception 13
@@ -20595,8 +20591,8 @@ Speed 40 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 19 (+4) | 9 (-1) | 18 (+4) | 6 (-2) | 10 (+0) | 5 (-3) |
-| Save: +4 | Save: -1 | Save: +4 | Save: -2 | Save: +0 | Save: -3 |
+| 21 (+5) | 8 (-1) | 17 (+3) | 6 (-2) | 10 (+0) | 8 (-1) |
+| Save: +5 | Save: -1 | Save: +3 | Save: -2 | Save: +0 | Save: -1 |
 
 Skills Perception +4
 Immunities Blinded, Charmed, Deafened, Frightened, Stunned, Unconscious
@@ -20696,8 +20692,8 @@ Speed 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 23 (+6) | 9 (-1) | 21 (+5) | 9 (-1) | 10 (+0) | 12 (+1) |
-| Save: +6 | Save: -1 | Save: +8 | Save: -1 | Save: +3 | Save: +4 |
+| 19 (+4) | 9 (-1) | 18 (+4) | 6 (-2) | 10 (+0) | 5 (-3) |
+| Save: +4 | Save: -1 | Save: +4 | Save: -2 | Save: +0 | Save: -3 |
 
 Immunities Lightning, Poison; Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned
 Senses Darkvision 60 ft.; Passive Perception 10
@@ -20794,8 +20790,8 @@ Speed 5 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 14 (+2) | 3 (-4) | 20 (+5) | 1 (-5) | 6 (-2) | 1 (-5) |
-| Save: +2 | Save: -4 | Save: +5 | Save: -5 | Save: -2 | Save: -5 |
+| 3 (-4) | 1 (-5) | 10 (+0) | 1 (-5) | 3 (-4) | 1 (-5) |
+| Save: -4 | Save: -5 | Save: +0 | Save: -5 | Save: -4 | Save: -5 |
 
 Immunities Blinded, Charmed, Deafened, Frightened
 Senses Blindsight 30 ft.; Passive Perception 6
@@ -21037,8 +21033,8 @@ Speed 40 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 18 (+4) | 15 (+2) | 16 (+3) | 10 (+0) | 12 (+1) | 15 (+2) |
-| Save: +7 | Save: +5 | Save: +6 | Save: +0 | Save: +4 | Save: +2 |
+| 20 (+5) | 15 (+2) | 21 (+5) | 19 (+4) | 17 (+3) | 16 (+3) |
+| Save: +9 | Save: +2 | Save: +9 | Save: +4 | Save: +7 | Save: +7 |
 
 Skills Deception +7, Perception +7
 Resistances Cold, Fire, Lightning
@@ -21080,8 +21076,8 @@ Speed 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 10 (+0) | 15 (+2) | 10 (+0) | 10 (+0) | 8 (-1) | 10 (+0) |
-| Save: +0 | Save: +2 | Save: +0 | Save: +0 | Save: -1 | Save: +0 |
+| 18 (+4) | 15 (+2) | 16 (+3) | 10 (+0) | 12 (+1) | 15 (+2) |
+| Save: +7 | Save: +5 | Save: +6 | Save: +0 | Save: +4 | Save: +2 |
 
 Skills Athletics +10, Performance +5
 Gear Shield, Spears (3), Studded Leather Armor
@@ -21146,8 +21142,8 @@ Speed 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 10 (+0) | 15 (+2) | 10 (+0) | 10 (+0) | 8 (-1) | 10 (+0) |
-| Save: +0 | Save: +2 | Save: +0 | Save: +0 | Save: -1 | Save: +0 |
+| 8 (-1) | 15 (+2) | 10 (+0) | 10 (+0) | 8 (-1) | 8 (-1) |
+| Save: -1 | Save: +2 | Save: +0 | Save: +0 | Save: -1 | Save: -1 |
 
 Skills Stealth +6
 Gear Daggers (3)
@@ -21602,8 +21598,8 @@ Speed 40 ft., Fly 80 ft., Swim 40 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 23 (+6) | 12 (+1) | 21 (+5) | 18 (+4) | 15 (+2) | 18 (+4) |
-| Save: +6 | Save: +6 | Save: +5 | Save: +4 | Save: +7 | Save: +4 |
+| 27 (+8) | 12 (+1) | 25 (+7) | 20 (+5) | 17 (+3) | 22 (+6) |
+| Save: +8 | Save: +8 | Save: +7 | Save: +5 | Save: +10 | Save: +6 |
 
 Skills Deception +13, Perception +17, Persuasion +13, Stealth +8
 Immunities Poison; Poisoned
@@ -21815,8 +21811,8 @@ Speed 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 16 (+3) | 12 (+1) | 12 (+1) | 9 (-1) | 8 (-1) | 6 (-2) |
-| Save: +3 | Save: +1 | Save: +1 | Save: -1 | Save: -1 | Save: -2 |
+| 13 (+1) | 12 (+1) | 12 (+1) | 10 (+0) | 11 (+0) | 10 (+0) |
+| Save: +1 | Save: +1 | Save: +1 | Save: +0 | Save: +0 | Save: +0 |
 
 Skills Perception +2
 Gear Chain Shirt, Shield, Spear
@@ -21839,8 +21835,8 @@ Speed 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 19 (+4) | 18 (+4) | 16 (+3) | 16 (+3) | 19 (+4) | 18 (+4) |
-| Save: +4 | Save: +8 | Save: +7 | Save: +7 | Save: +8 | Save: +8 |
+| 18 (+4) | 14 (+2) | 16 (+3) | 12 (+1) | 14 (+2) | 13 (+1) |
+| Save: +4 | Save: +2 | Save: +3 | Save: +1 | Save: +2 | Save: +1 |
 
 Skills Athletics +6, Perception +4
 Gear Breastplate, Javelins (6), Longsword, Shield
@@ -22007,8 +22003,8 @@ Speed 40 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 13 (+1) | 12 (+1) | 12 (+1) | 10 (+0) | 10 (+0) | 9 (-1) |
-| Save: +1 | Save: +1 | Save: +1 | Save: +0 | Save: +0 | Save: -1 |
+| 21 (+5) | 8 (-1) | 19 (+4) | 5 (-3) | 9 (-1) | 6 (-2) |
+| Save: +5 | Save: -1 | Save: +4 | Save: -3 | Save: -1 | Save: -2 |
 
 Skills Perception +2
 Senses Passive Perception 12
@@ -22306,8 +22302,8 @@ Speed 30 ft., Fly 60 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 8 (-1) | 17 (+3) | 13 (+1) | 10 (+0) | 15 (+2) | 11 (+0) |
-| Save: -1 | Save: +3 | Save: +1 | Save: +0 | Save: +2 | Save: +0 |
+| 8 (-1) | 17 (+3) | 13 (+1) | 15 (+2) | 12 (+1) | 20 (+5) |
+| Save: -1 | Save: +3 | Save: +1 | Save: +2 | Save: +1 | Save: +5 |
 
 Skills Deception +9, Insight +5, Perception +5, Persuasion +9, Stealth +7
 Resistances Cold, Fire, Poison, Psychic
@@ -22427,8 +22423,8 @@ Speed 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 30 (+10) | 11 (+0) | 26 (+8) | 22 (+6) | 18 (+4) | 20 (+5) |
-| Save: +17 | Save: +7 | Save: +15 | Save: +6 | Save: +11 | Save: +5 |
+| 16 (+3) | 11 (+0) | 14 (+2) | 11 (+0) | 11 (+0) | 15 (+2) |
+| Save: +3 | Save: +0 | Save: +4 | Save: +0 | Save: +2 | Save: +2 |
 
 Immunities Frightened
 Gear Greatsword, Heavy Crossbow, Plate Armor
@@ -22632,7 +22628,7 @@ Spirit Jar. If destroyed, the lich reforms in 1d10 days if it has a spirit jar, 
 
 # Actions
 
-Multiattack. The lich makes three attacks, using El-dritch Burst or Paralyzing Touch in any combination.
+Multiattack. The lich makes three attacks, using Eldritch Burst or Paralyzing Touch in any combination.
 
 Eldritch Burst. Melee or Ranged Attack Roll: +12, reach 5 ft. or range 120 ft. Hit: 31 (4d12 + 5) Force damage.
 
@@ -22826,8 +22822,8 @@ Speed 40 ft., Climb 40 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 10 (+0) | 17 (+3) | 16 (+3) | 12 (+1) | 13 (+1) | 15 (+2) |
-| Save: +0 | Save: +3 | Save: +3 | Save: +1 | Save: +4 | Save: +2 |
+| 18 (+4) | 20 (+5) | 20 (+5) | 18 (+4) | 16 (+3) | 20 (+5) |
+| Save: +9 | Save: +5 | Save: +10 | Save: +4 | Save: +8 | Save: +10 |
 
 Skills Perception +8
 Resistances Cold, Fire, Lightning
@@ -23101,8 +23097,8 @@ Speed 20 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 10 (+0) | 13 (+1) | 12 (+1) | 11 (+0) | 14 (+2) | 12 (+1) |
-| Save: +0 | Save: +1 | Save: +1 | Save: +0 | Save: +2 | Save: +1 |
+| 17 (+3) | 12 (+1) | 15 (+2) | 5 (-3) | 13 (+1) | 8 (-1) |
+| Save: +3 | Save: +1 | Save: +2 | Save: -3 | Save: +1 | Save: -1 |
 
 Skills Stealth +5
 Immunities Acid; Prone
@@ -23319,7 +23315,7 @@ Magic Resistance. The hag has Advantage on saving throws against spells and othe
 
 Soul Bag. The hag has a soul bag. While holding or carrying the bag, the hag can use its Nightmare Haunting action.
 
-The bag has AC 15, HP 20, and Resistance to all damage. The bag turns to dust if reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding are released. The bag can create a new bag after 7 days.
+The bag has AC 15, HP 20, and Resistance to all damage. The bag turns to dust if reduced to 0 Hit Points. If the bag is destroyed, any souls the bag is holding are released. The hag can create a new bag after 7 days.
 
 # Actions
 
@@ -23356,8 +23352,8 @@ Speed 60 ft., Fly 90 ft. (hover)
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 16 (+3) | 19 (+4) | 14 (+2) | 10 (+0) | 15 (+2) | 11 (+0) |
-| Save: +3 | Save: +4 | Save: +2 | Save: +0 | Save: +2 | Save: +0 |
+| 18 (+4) | 15 (+2) | 16 (+3) | 10 (+0) | 13 (+1) | 15 (+2) |
+| Save: +4 | Save: +2 | Save: +3 | Save: +0 | Save: +1 | Save: +2 |
 
 Immunities Fire
 Senses Passive Perception 11
@@ -23455,8 +23451,8 @@ Speed 40 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 19 (+4) | 8 (-1) | 16 (+3) | 12 (+1) | 14 (+2) | 16 (+3) |
-| Save: +4 | Save: -1 | Save: +3 | Save: +1 | Save: +2 | Save: +3 |
+| 19 (+4) | 8 (-1) | 16 (+3) | 5 (-3) | 7 (-2) | 7 (-2) |
+| Save: +4 | Save: -1 | Save: +3 | Save: -3 | Save: -2 | Save: -2 |
 
 Gear Greatclub, Javelins (3)
 Senses Darkvision 60 ft.; Passive Perception 8
@@ -23482,8 +23478,8 @@ Speed 30 ft., Fly 30 ft. (hover)
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 15 (+2) | 6 (-2) | 14 (+2) | 2 (-4) | 6 (-2) | 1 (-5) |
-| Save: +2 | Save: -2 | Save: +2 | Save: -4 | Save: -2 | Save: -5 |
+| 19 (+4) | 11 (+0) | 16 (+3) | 14 (+2) | 12 (+1) | 15 (+2) |
+| Save: +4 | Save: +3 | Save: +6 | Save: +2 | Save: +4 | Save: +5 |
 
 Skills Arcana +5, Deception +8, Perception +4
 Resistances Cold
@@ -23584,8 +23580,8 @@ Speed 60 ft., Fly 90 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 16 (+3) | 11 (+0) | 19 (+4) | 6 (-2) | 13 (+1) | 6 (-2) |
-| Save: +3 | Save: +0 | Save: +7 | Save: -2 | Save: +1 | Save: -2 |
+| 18 (+4) | 15 (+2) | 16 (+3) | 10 (+0) | 15 (+2) | 13 (+1) |
+| Save: +4 | Save: +4 | Save: +5 | Save: +0 | Save: +4 | Save: +3 |
 
 Skills Perception +6
 Senses Passive Perception 16
@@ -23648,8 +23644,8 @@ Speed 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 10 (+0) | 18 (+4) | 14 (+2) | 10 (+0) | 14 (+2) | 17 (+3) |
-| Save: +3 | Save: +7 | Save: +2 | Save: +0 | Save: +5 | Save: +6 |
+| 10 (+0) | 16 (+3) | 12 (+1) | 8 (-1) | 12 (+1) | 14 (+2) |
+| Save: +0 | Save: +5 | Save: +1 | Save: -1 | Save: +1 | Save: +4 |
 
 Gear Daggers (6), Leather Armor
 Senses Passive Perception 11
@@ -23758,8 +23754,8 @@ Speed 40 ft., Fly 120 ft. (hover)
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 26 (+8) | 14 (+2) | 24 (+7) | 22 (+6) | 18 (+4) | 24 (+7) |
-| Save: +8 | Save: +8 | Save: +7 | Save: +6 | Save: +10 | Save: +7 |
+| 24 (+7) | 20 (+5) | 24 (+7) | 19 (+4) | 22 (+6) | 25 (+7) |
+| Save: +12 | Save: +5 | Save: +12 | Save: +4 | Save: +11 | Save: +12 |
 
 Skills Perception +11
 Resistances Radiant
@@ -23843,8 +23839,8 @@ Speed 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 14 (+2) | 10 (+0) | 12 (+1) | 10 (+0) | 14 (+2) | 11 (+0) |
-| Save: +2 | Save: +0 | Save: +1 | Save: +0 | Save: +2 | Save: +0 |
+| 16 (+3) | 10 (+0) | 12 (+1) | 13 (+1) | 16 (+3) | 13 (+1) |
+| Save: +3 | Save: +0 | Save: +1 | Save: +1 | Save: +3 | Save: +1 |
 
 Skills Medicine +7, Perception +5, Religion +5
 Gear Chain Shirt, Holy Symbol, Mace
@@ -24035,8 +24031,8 @@ Speed 30 ft., Climb 30 ft., Fly 60 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 19 (+4) | 10 (+0) | 17 (+3) | 16 (+3) | 13 (+1) | 23 (+6) |
-| Save: +4 | Save: +2 | Save: +3 | Save: +3 | Save: +7 | Save: +6 |
+| 19 (+4) | 10 (+0) | 17 (+3) | 12 (+1) | 11 (+0) | 15 (+2) |
+| Save: +4 | Save: +2 | Save: +3 | Save: +1 | Save: +2 | Save: +2 |
 
 Skills Perception +4, Stealth +2
 Immunities Fire
@@ -24139,8 +24135,8 @@ Speed 40 ft., Climb 40 ft., Fly 80 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 24 (+7) | 13 (+1) | 21 (+5) | 4 (-3) | 10 (+0) | 5 (-3) |
-| Save: +7 | Save: +1 | Save: +5 | Save: -3 | Save: +0 | Save: -3 |
+| 30 (+10) | 10 (+0) | 29 (+9) | 18 (+4) | 15 (+2) | 27 (+8) |
+| Save: +10 | Save: +7 | Save: +9 | Save: +4 | Save: +9 | Save: +8 |
 
 Skills Perception +16, Stealth +7
 Immunities Fire
@@ -24226,8 +24222,8 @@ Speed 20 ft., Fly 120 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 18 (+4) | 16 (+3) | 18 (+4) | 14 (+2) | 14 (+2) | 18 (+4) |
-| Save: +4 | Save: +7 | Save: +8 | Save: +2 | Save: +2 | Save: +8 |
+| 28 (+9) | 10 (+0) | 20 (+5) | 3 (-4) | 10 (+0) | 9 (-1) |
+| Save: +9 | Save: +4 | Save: +5 | Save: -4 | Save: +4 | Save: -1 |
 
 Skills Perception +8
 Senses Passive Perception 18
@@ -24451,7 +24447,7 @@ CR 1/2 (XP 100; PB +2)
 
 # Actions
 
-Multiattack. The scout makes two attacks, using Short-word and Longbow in any combination.
+Multiattack. The scout makes two attacks, using Shortsword and Longbow in any combination.
 
 Shortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage.
 
@@ -24813,8 +24809,8 @@ Speed 60 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 26 (+8) | 22 (+6) | 26 (+8) | 25 (+7) | 25 (+7) | 30 (+10) |
-| Save: +8 | Save: +6 | Save: +8 | Save: +7 | Save: +7 | Save: +10 |
+| 18 (+4) | 12 (+1) | 15 (+2) | 2 (-4) | 8 (-1) | 5 (-3) |
+| Save: +4 | Save: +1 | Save: +2 | Save: -4 | Save: -1 | Save: -3 |
 
 Vulnerabilities Bludgeoning
 Immunities Poison; Exhaustion, Poisoned
@@ -25195,8 +25191,8 @@ Speed 10 ft., Fly 40 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 3 (-4) | 18 (+4) | 10 (+0) | 14 (+2) | 13 (+1) | 11 (+0) |
-| Save: -4 | Save: +4 | Save: +0 | Save: +2 | Save: +1 | Save: +0 |
+| 4 (-3) | 16 (+3) | 11 (+0) | 2 (-4) | 8 (-1) | 6 (-2) |
+| Save: -3 | Save: +3 | Save: +0 | Save: -4 | Save: -1 | Save: -2 |
 
 Senses Darkvision 60 ft.; Passive Perception 9
 Languages None
@@ -25254,8 +25250,8 @@ Speed 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 4 (-3) | 16 (+3) | 11 (+0) | 2 (-4) | 8 (-1) | 6 (-2) |
-| Save: -3 | Save: +3 | Save: +0 | Save: -4 | Save: -1 | Save: -2 |
+| 22 (+6) | 9 (-1) | 20 (+5) | 3 (-4) | 11 (+0) | 1 (-5) |
+| Save: +6 | Save: -1 | Save: +5 | Save: -4 | Save: +0 | Save: -5 |
 
 Immunities Poison, Psychic; Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned
 Senses Darkvision 120 ft.; Passive Perception 10
@@ -25338,8 +25334,8 @@ Speed 30 ft., Fly 60 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 16 (+3) | 11 (+0) | 14 (+2) | 11 (+0) | 11 (+0) | 15 (+2) |
-| Save: +3 | Save: +0 | Save: +4 | Save: +0 | Save: +2 | Save: +2 |
+| 8 (-1) | 17 (+3) | 13 (+1) | 15 (+2) | 12 (+1) | 20 (+5) |
+| Save: -1 | Save: +3 | Save: +1 | Save: +2 | Save: +1 | Save: +5 |
 
 Skills Deception +9, Insight +5, Perception +5, Persuasion +9, Stealth +7
 Resistances Cold, Fire, Poison, Psychic
@@ -25439,8 +25435,8 @@ Speed 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 17 (+3) | 14 (+2) | 16 (+3) | 11 (+0) | 10 (+0) | 11 (+0) |
-| Save: +5 | Save: +2 | Save: +5 | Save: +0 | Save: +0 | Save: +2 |
+| 15 (+2) | 12 (+1) | 14 (+2) | 10 (+0) | 10 (+0) | 11 (+0) |
+| Save: +2 | Save: +1 | Save: +2 | Save: +0 | Save: +0 | Save: +0 |
 
 Gear Heavy Crossbow, Leather Armor, Mace
 Senses Passive Perception 10
@@ -25538,8 +25534,8 @@ Speed 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 23 (+6) | 8 (-1) | 21 (+5) | 12 (+1) | 16 (+3) | 12 (+1) |
-| Save: +6 | Save: -1 | Save: +5 | Save: +1 | Save: +3 | Save: +1 |
+| 18 (+4) | 13 (+1) | 20 (+5) | 7 (-2) | 9 (-1) | 7 (-2) |
+| Save: +4 | Save: +1 | Save: +5 | Save: -2 | Save: -1 | Save: -2 |
 
 Skills Perception +5
 Senses Darkvision 60 ft.; Passive Perception 15
@@ -25573,8 +25569,8 @@ Speed 20 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 23 (+6) | 8 (-1) | 21 (+5) | 12 (+1) | 16 (+3) | 12 (+1) |
-| Save: +6 | Save: -1 | Save: +5 | Save: +1 | Save: +3 | Save: +1 |
+| 18 (+4) | 12 (+1) | 10 (+0) | 1 (-5) | 9 (-1) | 1 (-5) |
+| Save: +4 | Save: +1 | Save: +0 | Save: -5 | Save: -1 | Save: -5 |
 
 Senses Darkvision 60 ft.; Passive Perception 9
 Languages None
@@ -25658,8 +25654,8 @@ Speed 30 ft., Climb 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 18 (+4) | 14 (+2) | 15 (+2) | 11 (+0) | 17 (+3) | 16 (+3) |
-| Save: +4 | Save: +2 | Save: +2 | Save: +0 | Save: +3 | Save: +3 |
+| 17 (+3) | 16 (+3) | 15 (+2) | 10 (+0) | 10 (+0) | 14 (+2) |
+| Save: +3 | Save: +5 | Save: +2 | Save: +0 | Save: +2 | Save: +2 |
 
 Skills Perception +4, Persuasion +4, Stealth +7
 Resistances Necrotic
@@ -25740,8 +25736,8 @@ Speed 40 ft., Climb 40 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 18 (+4) | 14 (+2) | 15 (+2) | 11 (+0) | 17 (+3) | 16 (+3) |
-| Save: +4 | Save: +2 | Save: +2 | Save: +0 | Save: +3 | Save: +3 |
+| 18 (+4) | 18 (+4) | 18 (+4) | 17 (+3) | 15 (+2) | 18 (+4) |
+| Save: +4 | Save: +9 | Save: +9 | Save: +3 | Save: +7 | Save: +9 |
 
 Skills Perception +7, Stealth +9
 Resistances Necrotic
@@ -25810,8 +25806,8 @@ Speed 40 ft., Fly 60 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 13 (+1) | 11 (+0) | 11 (+0) | 8 (-1) | 11 (+0) | 8 (-1) |
-| Save: +1 | Save: +0 | Save: +0 | Save: -1 | Save: +0 | Save: -1 |
+| 17 (+3) | 15 (+2) | 18 (+4) | 8 (-1) | 13 (+1) | 8 (-1) |
+| Save: +3 | Save: +5 | Save: +4 | Save: -1 | Save: +4 | Save: +2 |
 
 Resistances Cold, Fire, Lightning
 Immunities Poison; Poisoned
@@ -25983,8 +25979,8 @@ Speed 30 ft., 40 ft. (boar form only)
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 10 (+0) | 16 (+3) | 12 (+1) | 11 (+0) | 10 (+0) | 8 (-1) |
-| Save: +0 | Save: +3 | Save: +1 | Save: +0 | Save: +0 | Save: -1 |
+| 17 (+3) | 10 (+0) | 15 (+2) | 10 (+0) | 11 (+0) | 8 (-1) |
+| Save: +3 | Save: +0 | Save: +2 | Save: +0 | Save: +0 | Save: -1 |
 
 Skills Perception +2
 Gear Javelins (6)
@@ -26000,7 +25996,7 @@ Gore (Boar or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 12 (2d8
 
 Javelin (Humanoid or Hybrid Form Only). Melee or Ranged Attack Roll: +5, reach 5 ft. or range 30/120 ft. Hit: 13 (3d6 + 3) Piercing damage.
 
-Tusk (Boar or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Medium or smaller creature and the were-boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition.
+Tusk (Boar or Hybrid Form Only). Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) Piercing damage. If the target is a Medium or smaller creature and the wereboar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 7 (2d6) Piercing damage and has the Prone condition.
 
 # Bonus Actions
 
@@ -26057,8 +26053,8 @@ Speed 30 ft., 40 ft. (tiger form only)
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 16 (+3) | 14 (+2) | 14 (+2) | 10 (+0) | 11 (+0) | 10 (+0) |
-| Save: +3 | Save: +2 | Save: +2 | Save: +0 | Save: +0 | Save: +0 |
+| 17 (+3) | 15 (+2) | 16 (+3) | 10 (+0) | 13 (+1) | 11 (+0) |
+| Save: +3 | Save: +2 | Save: +3 | Save: +0 | Save: +1 | Save: +0 |
 
 Skills Perception +5, Stealth +4
 Gear Longbow
@@ -26095,8 +26091,8 @@ Speed 30 ft., 40 ft. (wolf form only)
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 14 (+2) | 10 (+0) | 14 (+2) | 5 (-3) | 10 (+0) | 11 (+0) |
-| Save: +2 | Save: +2 | Save: +2 | Save: -3 | Save: +2 | Save: +0 |
+| 16 (+3) | 14 (+2) | 14 (+2) | 10 (+0) | 11 (+0) | 10 (+0) |
+| Save: +3 | Save: +2 | Save: +2 | Save: +0 | Save: +0 | Save: +0 |
 
 Skills Perception +4, Stealth +4
 Gear Longbow
@@ -26201,8 +26197,8 @@ Speed 40 ft., Burrow 30 ft., Fly 80 ft., Swim 40 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 14 (+2) | 10 (+0) | 14 (+2) | 5 (-3) | 10 (+0) | 11 (+0) |
-| Save: +2 | Save: +2 | Save: +2 | Save: -3 | Save: +2 | Save: +0 |
+| 22 (+6) | 10 (+0) | 22 (+6) | 8 (-1) | 12 (+1) | 12 (+1) |
+| Save: +6 | Save: +5 | Save: +6 | Save: -1 | Save: +6 | Save: +1 |
 
 Skills Perception +11, Stealth +5
 Immunities Cold
@@ -26292,8 +26288,8 @@ Speed 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 26 (+8) | 10 (+0) | 26 (+8) | 10 (+0) | 13 (+1) | 18 (+4) |
-| Save: +8 | Save: +6 | Save: +8 | Save: +0 | Save: +7 | Save: +4 |
+| 15 (+2) | 14 (+2) | 16 (+3) | 10 (+0) | 13 (+1) | 15 (+2) |
+| Save: +2 | Save: +2 | Save: +3 | Save: +0 | Save: +1 | Save: +2 |
 
 Skills Perception +3, Stealth +4
 Resistances Necrotic
@@ -26431,8 +26427,8 @@ Speed 5 ft., Fly 60 ft. (hover)
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 18 (+4) | 13 (+1) | 14 (+2) | 7 (-2) | 12 (+1) | 8 (-1) |
-| Save: +4 | Save: +1 | Save: +2 | Save: -2 | Save: +1 | Save: -1 |
+| 6 (-2) | 16 (+3) | 16 (+3) | 12 (+1) | 14 (+2) | 15 (+2) |
+| Save: -2 | Save: +3 | Save: +3 | Save: +1 | Save: +2 | Save: +2 |
 
 Resistances Acid, Bludgeoning, Cold, Fire, Piercing, Slashing
 Immunities Necrotic, Poison; Charmed, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious
@@ -26494,8 +26490,8 @@ Speed 20 ft., Burrow 20 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 19 (+4) | 11 (+0) | 15 (+2) | 2 (-4) | 12 (+1) | 5 (-3) |
-| Save: +6 | Save: +0 | Save: +2 | Save: -4 | Save: +1 | Save: -3 |
+| 17 (+3) | 10 (+0) | 22 (+6) | 11 (+0) | 10 (+0) | 11 (+0) |
+| Save: +3 | Save: +0 | Save: +6 | Save: +0 | Save: +0 | Save: +0 |
 
 Skills Perception +6, Stealth +6
 Immunities Poison; Paralyzed, Petrified, Poisoned
@@ -26534,8 +26530,8 @@ Speed 20 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 (-5) | 28 (+9) | 10 (+0) | 13 (+1) | 14 (+2) | 11 (+0) |
-| Save: -5 | Save: +9 | Save: +0 | Save: +1 | Save: +2 | Save: +0 |
+| 13 (+1) | 6 (-2) | 16 (+3) | 3 (-4) | 6 (-2) | 5 (-3) |
+| Save: +1 | Save: -2 | Save: +3 | Save: -4 | Save: +0 | Save: -3 |
 
 Immunities Poison; Exhaustion, Poisoned
 Senses Darkvision 60 ft.; Passive Perception 8
@@ -26561,8 +26557,8 @@ Speed 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 19 (+4) | 11 (+0) | 15 (+2) | 2 (-4) | 12 (+1) | 5 (-3) |
-| Save: +6 | Save: +0 | Save: +2 | Save: -4 | Save: +1 | Save: -3 |
+| 19 (+4) | 6 (-2) | 18 (+4) | 3 (-4) | 6 (-2) | 5 (-3) |
+| Save: +4 | Save: -2 | Save: +4 | Save: -4 | Save: +0 | Save: -3 |
 
 Immunities Poison; Exhaustion, Poisoned
 Senses Darkvision 60 ft.; Passive Perception 8
@@ -26747,8 +26743,8 @@ Speed 5 ft., Fly 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 14 (+2) | 15 (+2) | 13 (+1) | 7 (-2) | 12 (+1) | 8 (-1) |
-| Save: +2 | Save: +2 | Save: +1 | Save: -2 | Save: +1 | Save: -1 |
+| 2 (-4) | 15 (+2) | 8 (-1) | 2 (-4) | 12 (+1) | 4 (-3) |
+| Save: -4 | Save: +2 | Save: -1 | Save: -4 | Save: +1 | Save: -3 |
 
 Senses Blindsight 60 ft.; Passive Perception 11
 Languages None
@@ -26769,8 +26765,8 @@ Speed 30 ft., Climb 30 ft., Swim 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 8 (-1) | 14 (+2) | 11 (+0) | 4 (-3) | 12 (+1) | 6 (-2) |
-| Save: -1 | Save: +2 | Save: +0 | Save: -3 | Save: +1 | Save: -2 |
+| 15 (+2) | 12 (+1) | 14 (+2) | 2 (-4) | 12 (+1) | 7 (-2) |
+| Save: +2 | Save: +1 | Save: +2 | Save: -4 | Save: +1 | Save: -2 |
 
 Skills Perception +5
 Senses Darkvision 60 ft.; Passive Perception 15
@@ -26794,8 +26790,8 @@ Speed 10 ft., Fly 60 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 10 (+0) | 11 (+0) | 16 (+3) | 2 (-4) | 12 (+1) | 5 (-3) |
-| Save: +0 | Save: +0 | Save: +3 | Save: -4 | Save: +1 | Save: -3 |
+| 6 (-2) | 14 (+2) | 10 (+0) | 3 (-4) | 14 (+2) | 5 (-3) |
+| Save: -2 | Save: +2 | Save: +0 | Save: -4 | Save: +2 | Save: -3 |
 
 Skills Perception +6
 Senses Passive Perception 16
@@ -26821,8 +26817,8 @@ Speed 40 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 16 (+3) | 14 (+2) | 14 (+2) | 10 (+0) | 11 (+0) | 10 (+0) |
-| Save: +3 | Save: +2 | Save: +2 | Save: +0 | Save: +0 | Save: +0 |
+| 13 (+1) | 11 (+0) | 14 (+2) | 2 (-4) | 9 (-1) | 5 (-3) |
+| Save: +1 | Save: +0 | Save: +2 | Save: -4 | Save: -1 | Save: -3 |
 
 Senses Passive Perception 9
 Languages None
@@ -26976,8 +26972,8 @@ Speed 20 ft., Swim 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 15 (+2) | 10 (+0) | 13 (+1) | 3 (-4) | 12 (+1) | 7 (-2) |
-| Save: +2 | Save: +0 | Save: +3 | Save: -4 | Save: +1 | Save: -2 |
+| 15 (+2) | 10 (+0) | 13 (+1) | 2 (-4) | 10 (+0) | 5 (-3) |
+| Save: +2 | Save: +0 | Save: +3 | Save: -4 | Save: +0 | Save: -3 |
 
 Skills Stealth +2
 Senses Passive Perception 10
@@ -27102,8 +27098,8 @@ Speed 40 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 22 (+6) | 9 (-1) | 17 (+3) | 2 (-4) | 12 (+1) | 5 (-3) |
-| Save: +6 | Save: -1 | Save: +3 | Save: -4 | Save: +1 | Save: -3 |
+| 22 (+6) | 9 (-1) | 17 (+3) | 3 (-4) | 11 (+0) | 6 (-2) |
+| Save: +6 | Save: -1 | Save: +3 | Save: -4 | Save: +0 | Save: -2 |
 
 Senses Passive Perception 10
 Languages None
@@ -27130,8 +27126,8 @@ Speed 50 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 18 (+4) | 10 (+0) | 15 (+2) | 2 (-4) | 11 (+0) | 7 (-2) |
-| Save: +4 | Save: +0 | Save: +2 | Save: -4 | Save: +0 | Save: -2 |
+| 16 (+3) | 10 (+0) | 11 (+0) | 2 (-4) | 10 (+0) | 6 (-2) |
+| Save: +3 | Save: +0 | Save: +0 | Save: -4 | Save: +0 | Save: -2 |
 
 Skills Perception +2
 Senses Darkvision 60 ft.; Passive Perception 12
@@ -27208,8 +27204,8 @@ Speed 40 ft., Climb 40 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 15 (+2) | 16 (+3) | 11 (+0) | 2 (-4) | 12 (+1) | 6 (-2) |
-| Save: +2 | Save: +3 | Save: +0 | Save: -4 | Save: +1 | Save: -2 |
+| 23 (+6) | 14 (+2) | 18 (+4) | 5 (-3) | 12 (+1) | 7 (-2) |
+| Save: +6 | Save: +2 | Save: +4 | Save: -3 | Save: +1 | Save: -2 |
 
 Skills Athletics +9, Perception +4, Survival +4
 Senses Passive Perception 14
@@ -27311,8 +27307,8 @@ Speed 30 ft., Climb 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 13 (+1) | 10 (+0) | 17 (+3) | 2 (-4) | 12 (+1) | 5 (-3) |
-| Save: +1 | Save: +0 | Save: +3 | Save: -4 | Save: +1 | Save: -3 |
+| 5 (-3) | 14 (+2) | 12 (+1) | 1 (-5) | 7 (-2) | 3 (-4) |
+| Save: -3 | Save: +2 | Save: +1 | Save: -5 | Save: -2 | Save: -4 |
 
 Senses Blindsight 30 ft.; Passive Perception 8
 Languages None
@@ -27333,8 +27329,8 @@ Speed 30 ft., Swim 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 21 (+5) | 9 (-1) | 17 (+3) | 2 (-4) | 10 (+0) | 7 (-2) |
-| Save: +5 | Save: -1 | Save: +3 | Save: -4 | Save: +0 | Save: -2 |
+| 19 (+4) | 14 (+2) | 12 (+1) | 1 (-5) | 10 (+0) | 3 (-4) |
+| Save: +4 | Save: +2 | Save: +1 | Save: -5 | Save: +0 | Save: -4 |
 
 Skills Perception +2
 Senses Blindsight 10 ft.; Passive Perception 12
@@ -27360,8 +27356,8 @@ Speed 30 ft., Swim 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 16 (+3) | 17 (+3) | 13 (+1) | 8 (-1) | 14 (+2) | 10 (+0) |
-| Save: +3 | Save: +3 | Save: +1 | Save: -1 | Save: +2 | Save: +0 |
+| 13 (+1) | 13 (+1) | 11 (+0) | 1 (-5) | 9 (-1) | 3 (-4) |
+| Save: +1 | Save: +1 | Save: +0 | Save: -5 | Save: -1 | Save: -4 |
 
 Skills Stealth +3
 Senses Blindsight 30 ft.; Passive Perception 9
@@ -27495,8 +27491,8 @@ Speed 30 ft., Swim 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 17 (+3) | 13 (+1) | 13 (+1) | 5 (-3) | 10 (+0) | 4 (-3) |
-| Save: +3 | Save: +1 | Save: +1 | Save: -3 | Save: +0 | Save: -3 |
+| 12 (+1) | 13 (+1) | 11 (+0) | 2 (-4) | 10 (+0) | 3 (-4) |
+| Save: +1 | Save: +1 | Save: +0 | Save: -4 | Save: +0 | Save: -4 |
 
 Skills Perception +2, Stealth +4
 Senses Darkvision 30 ft.; Passive Perception 12
@@ -27528,8 +27524,8 @@ Speed 40 ft., Climb 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 8 (-1) | 10 (+0) | 12 (+1) | 1 (-5) | 7 (-2) | 3 (-4) |
-| Save: -1 | Save: +0 | Save: +1 | Save: -5 | Save: -2 | Save: -4 |
+| 17 (+3) | 13 (+1) | 12 (+1) | 3 (-4) | 12 (+1) | 6 (-2) |
+| Save: +5 | Save: +1 | Save: +1 | Save: -4 | Save: +1 | Save: -2 |
 
 Skills Perception +3
 Senses Darkvision 60 ft.; Passive Perception 13
@@ -27551,8 +27547,8 @@ Speed 50 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 17 (+3) | 13 (+1) | 13 (+1) | 5 (-3) | 10 (+0) | 4 (-3) |
-| Save: +3 | Save: +1 | Save: +1 | Save: -3 | Save: +0 | Save: -3 |
+| 16 (+3) | 14 (+2) | 14 (+2) | 2 (-4) | 12 (+1) | 7 (-2) |
+| Save: +3 | Save: +2 | Save: +2 | Save: -4 | Save: +1 | Save: -2 |
 
 Skills Perception +3
 Senses Darkvision 60 ft.; Passive Perception 13
@@ -27604,8 +27600,8 @@ Speed 10 ft., Swim 60 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 15 (+2) | 12 (+1) | 11 (+0) | 2 (-4) | 12 (+1) | 5 (-3) |
-| Save: +2 | Save: +1 | Save: +0 | Save: -4 | Save: +1 | Save: -3 |
+| 17 (+3) | 13 (+1) | 13 (+1) | 5 (-3) | 10 (+0) | 4 (-3) |
+| Save: +3 | Save: +1 | Save: +1 | Save: -3 | Save: +0 | Save: -3 |
 
 Skills Perception +4, Stealth +5
 Senses Darkvision 60 ft.; Passive Perception 14
@@ -27635,8 +27631,8 @@ Speed 5 ft., Fly 60 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 15 (+2) | 12 (+1) | 13 (+1) | 2 (-4) | 10 (+0) | 5 (-3) |
-| Save: +2 | Save: +3 | Save: +1 | Save: -4 | Save: +0 | Save: -3 |
+| 13 (+1) | 15 (+2) | 12 (+1) | 10 (+0) | 14 (+2) | 10 (+0) |
+| Save: +1 | Save: +2 | Save: +1 | Save: +0 | Save: +4 | Save: +0 |
 
 Skills Perception +6, Stealth +6
 Resistances Necrotic, Radiant
@@ -27668,8 +27664,8 @@ Speed 30 ft., Climb 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 15 (+2) | 12 (+1) | 11 (+0) | 2 (-4) | 12 (+1) | 5 (-3) |
-| Save: +2 | Save: +1 | Save: +0 | Save: -4 | Save: +1 | Save: -3 |
+| 7 (-2) | 16 (+3) | 11 (+0) | 2 (-4) | 10 (+0) | 4 (-3) |
+| Save: -2 | Save: +5 | Save: +0 | Save: -4 | Save: +0 | Save: -3 |
 
 Skills Perception +2
 Senses Darkvision 60 ft.; Passive Perception 12
@@ -27695,8 +27691,8 @@ Speed 40 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 23 (+6) | 11 (+0) | 21 (+5) | 1 (-5) | 10 (+0) | 5 (-3) |
-| Save: +6 | Save: +0 | Save: +5 | Save: -5 | Save: +0 | Save: -3 |
+| 16 (+3) | 13 (+1) | 15 (+2) | 1 (-5) | 9 (-1) | 3 (-4) |
+| Save: +3 | Save: +1 | Save: +2 | Save: -5 | Save: -1 | Save: -4 |
 
 Senses Blindsight 60 ft.; Passive Perception 9
 Languages None
@@ -27721,8 +27717,8 @@ Speed 5 ft., Swim 40 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 14 (+2) | 16 (+3) | 12 (+1) | 2 (-4) | 11 (+0) | 4 (-3) |
-| Save: +2 | Save: +3 | Save: +1 | Save: -4 | Save: +0 | Save: -3 |
+| 15 (+2) | 12 (+1) | 11 (+0) | 2 (-4) | 12 (+1) | 5 (-3) |
+| Save: +2 | Save: +1 | Save: +0 | Save: -4 | Save: +1 | Save: -3 |
 
 Senses Passive Perception 11
 Languages None
@@ -27811,8 +27807,8 @@ Speed 30 ft., Swim 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 15 (+2) | 10 (+0) | 16 (+3) | 6 (-2) | 12 (+1) | 7 (-2) |
-| Save: +2 | Save: +0 | Save: +3 | Save: -2 | Save: +1 | Save: -2 |
+| 15 (+2) | 13 (+1) | 13 (+1) | 2 (-4) | 10 (+0) | 3 (-4) |
+| Save: +2 | Save: +1 | Save: +1 | Save: -4 | Save: +0 | Save: -4 |
 
 Senses Darkvision 60 ft.; Passive Perception 10
 Languages None
@@ -27968,8 +27964,8 @@ Speed 40 ft., Climb 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 8 (-1) | 10 (+0) | 12 (+1) | 1 (-5) | 7 (-2) | 3 (-4) |
-| Save: -1 | Save: +0 | Save: +1 | Save: -5 | Save: -2 | Save: -4 |
+| 11 (+0) | 10 (+0) | 11 (+0) | 2 (-4) | 10 (+0) | 5 (-3) |
+| Save: +2 | Save: +0 | Save: +0 | Save: -4 | Save: +0 | Save: -3 |
 
 Skills Perception +2
 Senses Darkvision 60 ft.; Passive Perception 12
@@ -27991,8 +27987,8 @@ Speed 10 ft., Fly 60 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 10 (+0) | 11 (+0) | 16 (+3) | 2 (-4) | 12 (+1) | 5 (-3) |
-| Save: +0 | Save: +0 | Save: +3 | Save: -4 | Save: +1 | Save: -3 |
+| 5 (-3) | 16 (+3) | 8 (-1) | 2 (-4) | 14 (+2) | 6 (-2) |
+| Save: -3 | Save: +3 | Save: -1 | Save: -4 | Save: +2 | Save: -2 |
 
 Skills Perception +6
 Senses Passive Perception 16
@@ -28014,8 +28010,8 @@ Speed 30 ft., Swim 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 12 (+1) | 16 (+3) | 13 (+1) | 3 (-4) | 12 (+1) | 4 (-3) |
-| Save: +1 | Save: +3 | Save: +1 | Save: -4 | Save: +1 | Save: -3 |
+| 21 (+5) | 7 (-2) | 15 (+2) | 2 (-4) | 12 (+1) | 4 (-3) |
+| Save: +7 | Save: -2 | Save: +2 | Save: -4 | Save: +1 | Save: -3 |
 
 Skills Perception +3
 Senses Passive Perception 13
@@ -28043,8 +28039,8 @@ Speed 5 ft., Swim 40 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 8 (-1) | 15 (+2) | 11 (+0) | 3 (-4) | 12 (+1) | 6 (-2) |
-| Save: -1 | Save: +2 | Save: +0 | Save: -4 | Save: +1 | Save: -2 |
+| 18 (+4) | 14 (+2) | 15 (+2) | 1 (-5) | 10 (+0) | 4 (-3) |
+| Save: +4 | Save: +2 | Save: +2 | Save: -5 | Save: +0 | Save: -3 |
 
 Skills Perception +2
 Senses Blindsight 60 ft.; Passive Perception 12
@@ -28070,8 +28066,8 @@ Speed 50 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 17 (+3) | 13 (+1) | 13 (+1) | 5 (-3) | 10 (+0) | 4 (-3) |
-| Save: +3 | Save: +1 | Save: +1 | Save: -3 | Save: +0 | Save: -3 |
+| 11 (+0) | 13 (+1) | 12 (+1) | 2 (-4) | 12 (+1) | 5 (-3) |
+| Save: +0 | Save: +1 | Save: +1 | Save: -4 | Save: +1 | Save: -3 |
 
 Skills Perception +3
 Senses Darkvision 60 ft.; Passive Perception 13
@@ -28182,8 +28178,8 @@ Speed 20 ft., Climb 20 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 15 (+2) | 12 (+1) | 13 (+1) | 2 (-4) | 10 (+0) | 5 (-3) |
-| Save: +2 | Save: +3 | Save: +1 | Save: -4 | Save: +0 | Save: -3 |
+| 2 (-4) | 11 (+0) | 10 (+0) | 1 (-5) | 8 (-1) | 3 (-4) |
+| Save: -4 | Save: +0 | Save: +0 | Save: -5 | Save: -1 | Save: -4 |
 
 Senses Darkvision 30 ft.; Passive Perception 9
 Languages None
@@ -28285,8 +28281,8 @@ Speed 5 ft., Swim 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 15 (+2) | 12 (+1) | 11 (+0) | 2 (-4) | 12 (+1) | 5 (-3) |
-| Save: +2 | Save: +1 | Save: +0 | Save: -4 | Save: +1 | Save: -3 |
+| 4 (-3) | 15 (+2) | 11 (+0) | 3 (-4) | 10 (+0) | 4 (-3) |
+| Save: -3 | Save: +2 | Save: +0 | Save: -4 | Save: +0 | Save: -3 |
 
 Skills Perception +2, Stealth +6
 Senses Darkvision 30 ft.; Passive Perception 12
@@ -28318,8 +28314,8 @@ Speed 5 ft., Fly 60 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 20 (+5) | 12 (+1) | 17 (+3) | 3 (-4) | 12 (+1) | 7 (-2) |
-| Save: +5 | Save: +1 | Save: +3 | Save: -4 | Save: +1 | Save: -2 |
+| 3 (-4) | 13 (+1) | 8 (-1) | 2 (-4) | 12 (+1) | 7 (-2) |
+| Save: -4 | Save: +1 | Save: -1 | Save: -4 | Save: +1 | Save: -2 |
 
 Skills Perception +5, Stealth +5
 Senses Darkvision 120 ft.; Passive Perception 15
@@ -28345,8 +28341,8 @@ Speed 50 ft., Climb 40 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 20 (+5) | 14 (+2) | 16 (+3) | 2 (-4) | 13 (+1) | 7 (-2) |
-| Save: +5 | Save: +2 | Save: +3 | Save: -4 | Save: +1 | Save: -2 |
+| 14 (+2) | 16 (+3) | 10 (+0) | 3 (-4) | 14 (+2) | 7 (-2) |
+| Save: +2 | Save: +3 | Save: +0 | Save: -4 | Save: +2 | Save: -2 |
 
 Skills Perception +4, Stealth +7
 Senses Darkvision 60 ft.; Passive Perception 14
@@ -28500,8 +28496,8 @@ Speed 20 ft., Climb 20 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 15 (+2) | 12 (+1) | 11 (+0) | 2 (-4) | 12 (+1) | 5 (-3) |
-| Save: +2 | Save: +1 | Save: +0 | Save: -4 | Save: +1 | Save: -3 |
+| 2 (-4) | 11 (+0) | 9 (-1) | 2 (-4) | 10 (+0) | 4 (-3) |
+| Save: -4 | Save: +0 | Save: -1 | Save: -4 | Save: +0 | Save: -3 |
 
 Skills Perception +2
 Senses Darkvision 30 ft.; Passive Perception 12
@@ -28527,8 +28523,8 @@ Speed 10 ft., Fly 50 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 15 (+2) | 10 (+0) | 13 (+1) | 2 (-4) | 11 (+0) | 7 (-2) |
-| Save: +4 | Save: +0 | Save: +1 | Save: -4 | Save: +0 | Save: -2 |
+| 2 (-4) | 14 (+2) | 10 (+0) | 5 (-3) | 13 (+1) | 6 (-2) |
+| Save: -4 | Save: +2 | Save: +0 | Save: -3 | Save: +1 | Save: -2 |
 
 Skills Perception +3
 Senses Passive Perception 13
@@ -28554,8 +28550,8 @@ Speed 5 ft., Swim 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 16 (+3) | 13 (+1) | 12 (+1) | 2 (-4) | 11 (+0) | 7 (-2) |
-| Save: +3 | Save: +1 | Save: +1 | Save: -4 | Save: +0 | Save: -2 |
+| 14 (+2) | 15 (+2) | 13 (+1) | 1 (-5) | 10 (+0) | 4 (-3) |
+| Save: +2 | Save: +2 | Save: +1 | Save: -5 | Save: +0 | Save: -3 |
 
 Skills Perception +2
 Senses Blindsight 30 ft.; Passive Perception 12
@@ -28605,8 +28601,8 @@ Speed 60 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 5 (-3) | 15 (+2) | 10 (+0) | 1 (-5) | 8 (-1) | 2 (-4) |
-| Save: -3 | Save: +2 | Save: +0 | Save: -5 | Save: -1 | Save: -4 |
+| 16 (+3) | 13 (+1) | 12 (+1) | 2 (-4) | 11 (+0) | 7 (-2) |
+| Save: +3 | Save: +1 | Save: +1 | Save: -4 | Save: +0 | Save: -2 |
 
 Senses Passive Perception 10
 Languages None
@@ -28660,8 +28656,8 @@ Speed 10 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 23 (+6) | 11 (+0) | 21 (+5) | 1 (-5) | 10 (+0) | 5 (-3) |
-| Save: +6 | Save: +0 | Save: +5 | Save: -5 | Save: +0 | Save: -3 |
+| 2 (-4) | 11 (+0) | 8 (-1) | 1 (-5) | 8 (-1) | 2 (-4) |
+| Save: -4 | Save: +0 | Save: -1 | Save: -5 | Save: -1 | Save: -4 |
 
 Senses Blindsight 10 ft.; Passive Perception 9
 Languages None
@@ -28682,8 +28678,8 @@ Speed 5 ft., Swim 20 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 14 (+2) | 16 (+3) | 12 (+1) | 2 (-4) | 11 (+0) | 4 (-3) |
-| Save: +2 | Save: +3 | Save: +1 | Save: -4 | Save: +0 | Save: -3 |
+| 1 (-5) | 12 (+1) | 8 (-1) | 1 (-5) | 10 (+0) | 2 (-4) |
+| Save: -5 | Save: +1 | Save: -1 | Save: -5 | Save: +0 | Save: -4 |
 
 Skills Perception +2, Stealth +5
 Senses Passive Perception 12
@@ -28709,8 +28705,8 @@ Speed 20 ft., Climb 20 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 10 (+0) | 12 (+1) | 13 (+1) | 12 (+1) | 16 (+3) | 11 (+0) |
-| Save: +0 | Save: +1 | Save: +1 | Save: +1 | Save: +3 | Save: +0 |
+| 2 (-4) | 14 (+2) | 8 (-1) | 1 (-5) | 10 (+0) | 2 (-4) |
+| Save: -4 | Save: +2 | Save: -1 | Save: -5 | Save: +0 | Save: -4 |
 
 Skills Stealth +4
 Senses Darkvision 30 ft.; Passive Perception 10
@@ -28738,8 +28734,8 @@ Speed 5 ft., Fly 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 13 (+1) | 16 (+3) | 9 (-1) | 1 (-5) | 7 (-2) | 2 (-4) |
-| Save: +1 | Save: +3 | Save: -1 | Save: -5 | Save: -2 | Save: -4 |
+| 5 (-3) | 15 (+2) | 10 (+0) | 2 (-4) | 12 (+1) | 4 (-3) |
+| Save: -3 | Save: +2 | Save: +0 | Save: -4 | Save: +1 | Save: -3 |
 
 Resistances Bludgeoning, Piercing, Slashing
 Immunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned
@@ -28854,8 +28850,8 @@ Speed 10 ft., Fly 50 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 13 (+1) | 16 (+3) | 9 (-1) | 1 (-5) | 7 (-2) | 2 (-4) |
-| Save: +1 | Save: +3 | Save: -1 | Save: -5 | Save: -2 | Save: -4 |
+| 6 (-2) | 14 (+2) | 12 (+1) | 5 (-3) | 12 (+1) | 6 (-2) |
+| Save: -2 | Save: +2 | Save: +1 | Save: -3 | Save: +1 | Save: -2 |
 
 Skills Perception +5
 Resistances Bludgeoning, Piercing, Slashing
@@ -28885,8 +28881,8 @@ Speed 30 ft., Swim 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 8 (-1) | 18 (+4) | 11 (+0) | 2 (-4) | 10 (+0) | 3 (-4) |
-| Save: -1 | Save: +4 | Save: +0 | Save: -4 | Save: +0 | Save: -4 |
+| 8 (-1) | 18 (+4) | 11 (+0) | 1 (-5) | 10 (+0) | 3 (-4) |
+| Save: -1 | Save: +4 | Save: +0 | Save: -5 | Save: +0 | Save: -4 |
 
 Resistances Bludgeoning, Piercing, Slashing
 Immunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned
@@ -28913,8 +28909,8 @@ Speed 40 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 14 (+2) | 10 (+0) | 14 (+2) | 5 (-3) | 10 (+0) | 11 (+0) |
-| Save: +2 | Save: +2 | Save: +2 | Save: -3 | Save: +2 | Save: +0 |
+| 17 (+3) | 16 (+3) | 14 (+2) | 3 (-4) | 12 (+1) | 8 (-1) |
+| Save: +3 | Save: +3 | Save: +2 | Save: -4 | Save: +1 | Save: -1 |
 
 Skills Perception +3, Stealth +7
 Senses Darkvision 60 ft.; Passive Perception 13
@@ -28940,8 +28936,8 @@ Speed 50 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 22 (+6) | 9 (-1) | 17 (+3) | 1 (-5) | 10 (+0) | 3 (-4) |
-| Save: +6 | Save: -1 | Save: +3 | Save: -5 | Save: +0 | Save: -4 |
+| 22 (+6) | 9 (-1) | 17 (+3) | 2 (-4) | 11 (+0) | 5 (-3) |
+| Save: +6 | Save: -1 | Save: +3 | Save: -4 | Save: +0 | Save: -3 |
 
 Senses Passive Perception 10
 Languages None
@@ -28991,8 +28987,8 @@ Speed 30 ft., Swim 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 10 (+0) | 18 (+4) | 13 (+1) | 2 (-4) | 10 (+0) | 3 (-4) |
-| Save: +0 | Save: +4 | Save: +1 | Save: -4 | Save: +0 | Save: -4 |
+| 2 (-4) | 15 (+2) | 11 (+0) | 1 (-5) | 10 (+0) | 3 (-4) |
+| Save: -4 | Save: +2 | Save: +0 | Save: -5 | Save: +0 | Save: -4 |
 
 Senses Blindsight 10 ft.; Passive Perception 10
 Languages None
@@ -29013,8 +29009,8 @@ Speed 10 ft., Fly 50 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 15 (+2) | 10 (+0) | 16 (+3) | 6 (-2) | 12 (+1) | 7 (-2) |
-| Save: +2 | Save: +0 | Save: +3 | Save: -2 | Save: +1 | Save: -2 |
+| 7 (-2) | 10 (+0) | 13 (+1) | 2 (-4) | 12 (+1) | 4 (-3) |
+| Save: -2 | Save: +0 | Save: +1 | Save: -4 | Save: +1 | Save: -3 |
 
 Skills Perception +3
 Senses Passive Perception 13
@@ -29040,8 +29036,8 @@ Speed 60 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 26 (+8) | 22 (+6) | 26 (+8) | 25 (+7) | 25 (+7) | 30 (+10) |
-| Save: +8 | Save: +6 | Save: +8 | Save: +7 | Save: +7 | Save: +10 |
+| 18 (+4) | 12 (+1) | 13 (+1) | 2 (-4) | 12 (+1) | 7 (-2) |
+| Save: +4 | Save: +1 | Save: +1 | Save: -4 | Save: +3 | Save: -2 |
 
 Senses Passive Perception 11
 Languages None
@@ -29062,8 +29058,8 @@ Speed 30 ft., Climb 30 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 11 (+0) | 17 (+3) | 10 (+0) | 4 (-3) | 12 (+1) | 5 (-3) |
-| Save: +0 | Save: +3 | Save: +0 | Save: -3 | Save: +1 | Save: -3 |
+| 3 (-4) | 16 (+3) | 8 (-1) | 2 (-4) | 12 (+1) | 3 (-4) |
+| Save: -4 | Save: +3 | Save: -1 | Save: -4 | Save: +1 | Save: -4 |
 
 Skills Acrobatics +5, Perception +3, Stealth +5
 Senses Darkvision 60 ft.; Passive Perception 13
@@ -29085,8 +29081,8 @@ Speed 40 ft.
 
 | STR | DEX | CON | INT | WIS | CHA |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 18 (+4) | 13 (+1) | 14 (+2) | 7 (-2) | 12 (+1) | 8 (-1) |
-| Save: +4 | Save: +1 | Save: +2 | Save: -2 | Save: +1 | Save: -1 |
+| 14 (+2) | 15 (+2) | 12 (+1) | 3 (-4) | 12 (+1) | 6 (-2) |
+| Save: +2 | Save: +2 | Save: +1 | Save: -4 | Save: +1 | Save: -2 |
 
 Skills Perception +5, Stealth +4
 Senses Darkvision 60 ft.; Passive Perception 15

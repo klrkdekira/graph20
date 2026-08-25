@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.91",
     "heading": "Frost Giant",
-    "lineStart": 20727,
-    "lineEnd": 20759
+    "lineStart": 20723,
+    "lineEnd": 20755
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/frost-giant/"
@@ -83,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.91",
         "heading": "Actions",
-        "lineStart": 20749,
-        "lineEnd": 20755
+        "lineStart": 20745,
+        "lineEnd": 20751
       }
     },
     {
@@ -94,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.91",
         "heading": "Bonus Actions",
-        "lineStart": 20757,
-        "lineEnd": 20759
+        "lineStart": 20753,
+        "lineEnd": 20755
       }
     }
   ],

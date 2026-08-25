@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.72",
     "heading": "Cultist Fanatic",
-    "lineStart": 20002,
-    "lineEnd": 20038
+    "lineStart": 19998,
+    "lineEnd": 20034
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/cultist-fanatic/"
@@ -45,9 +45,9 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 14,
-      "modifier": 2,
-      "savingThrow": 2
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
     },
     "dex": {
       "score": 14,
@@ -55,24 +55,24 @@
       "savingThrow": 2
     },
     "con": {
-      "score": 11,
-      "modifier": 0,
-      "savingThrow": 0
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
     },
     "int": {
-      "score": 5,
-      "modifier": -3,
-      "savingThrow": -3
-    },
-    "wis": {
       "score": 10,
       "modifier": 0,
       "savingThrow": 0
     },
+    "wis": {
+      "score": 14,
+      "modifier": 2,
+      "savingThrow": 4
+    },
     "cha": {
-      "score": 4,
-      "modifier": -3,
-      "savingThrow": -3
+      "score": 13,
+      "modifier": 1,
+      "savingThrow": 1
     }
   },
   "statSections": [
@@ -83,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.72",
         "heading": "Actions",
-        "lineStart": 20022,
-        "lineEnd": 20034
+        "lineStart": 20018,
+        "lineEnd": 20030
       }
     },
     {
@@ -94,8 +94,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.72",
         "heading": "Bonus Actions",
-        "lineStart": 20036,
-        "lineEnd": 20038
+        "lineStart": 20032,
+        "lineEnd": 20034
       }
     }
   ],

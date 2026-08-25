@@ -289,7 +289,10 @@ class Emitter:
                     if tail >= 0 and prose_lines[tail].strip() == caption:
                         prose_lines = prose_lines[:tail]
                 pending_caption = None
-                name = caption or (
+                name = caption or {
+                    ("Robe of Useful Items", 1): "Robe of Useful Items Patches",
+                    ("Sphere of Annihilation", 1): "Sphere Interactions",
+                }.get((block.title, table_index)) or (
                     block.title
                     if table_index == 1 and not any(item.strip() for item in prose_lines)
                     else f"{block.title} Table {table_index}"

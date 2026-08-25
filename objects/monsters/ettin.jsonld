@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.87",
     "heading": "Ettin",
-    "lineStart": 20585,
-    "lineEnd": 20614
+    "lineStart": 20581,
+    "lineEnd": 20610
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/ettin/"
@@ -46,19 +46,19 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 19,
-      "modifier": 4,
-      "savingThrow": 4
+      "score": 21,
+      "modifier": 5,
+      "savingThrow": 5
     },
     "dex": {
-      "score": 9,
+      "score": 8,
       "modifier": -1,
       "savingThrow": -1
     },
     "con": {
-      "score": 18,
-      "modifier": 4,
-      "savingThrow": 4
+      "score": 17,
+      "modifier": 3,
+      "savingThrow": 3
     },
     "int": {
       "score": 6,
@@ -71,9 +71,9 @@
       "savingThrow": 0
     },
     "cha": {
-      "score": 5,
-      "modifier": -3,
-      "savingThrow": -3
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
     }
   },
   "statSections": [
@@ -84,8 +84,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.87",
         "heading": "Actions",
-        "lineStart": 20608,
-        "lineEnd": 20614
+        "lineStart": 20604,
+        "lineEnd": 20610
       }
     }
   ],

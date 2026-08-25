@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.190",
     "heading": "Priest Acolyte",
-    "lineStart": 23800,
-    "lineEnd": 23833
+    "lineStart": 23796,
+    "lineEnd": 23829
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/priest-acolyte/"
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.190",
         "heading": "Actions",
-        "lineStart": 23820,
-        "lineEnd": 23829
+        "lineStart": 23816,
+        "lineEnd": 23825
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.190",
         "heading": "Bonus Actions",
-        "lineStart": 23831,
-        "lineEnd": 23833
+        "lineStart": 23827,
+        "lineEnd": 23829
       }
     }
   ],

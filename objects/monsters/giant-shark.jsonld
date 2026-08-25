@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.46",
     "heading": "Giant Shark",
-    "lineStart": 27743,
-    "lineEnd": 27770
+    "lineStart": 27739,
+    "lineEnd": 27766
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/giant-shark/"
@@ -82,8 +82,8 @@
         "chapter": "Animals",
         "section": "13.46",
         "heading": "Traits",
-        "lineStart": 27762,
-        "lineEnd": 27764
+        "lineStart": 27758,
+        "lineEnd": 27760
       }
     },
     {
@@ -93,8 +93,8 @@
         "chapter": "Animals",
         "section": "13.46",
         "heading": "Actions",
-        "lineStart": 27766,
-        "lineEnd": 27770
+        "lineStart": 27762,
+        "lineEnd": 27766
       }
     }
   ],

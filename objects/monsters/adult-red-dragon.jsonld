@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.199",
     "heading": "Adult Red Dragon",
-    "lineStart": 24083,
-    "lineEnd": 24129
+    "lineStart": 24079,
+    "lineEnd": 24125
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/adult-red-dragon/"
@@ -86,8 +86,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.199",
         "heading": "Traits",
-        "lineStart": 24103,
-        "lineEnd": 24105
+        "lineStart": 24099,
+        "lineEnd": 24101
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.199",
         "heading": "Actions",
-        "lineStart": 24107,
-        "lineEnd": 24119
+        "lineStart": 24103,
+        "lineEnd": 24115
       }
     },
     {
@@ -108,8 +108,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.199",
         "heading": "Legendary Actions",
-        "lineStart": 24121,
-        "lineEnd": 24129
+        "lineStart": 24117,
+        "lineEnd": 24125
       }
     }
   ],

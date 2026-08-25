@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.221",
     "heading": "Warhorse Skeleton",
-    "lineStart": 24805,
-    "lineEnd": 24827
+    "lineStart": 24801,
+    "lineEnd": 24823
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/warhorse-skeleton/"
@@ -45,34 +45,34 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 26,
-      "modifier": 8,
-      "savingThrow": 8
+      "score": 18,
+      "modifier": 4,
+      "savingThrow": 4
     },
     "dex": {
-      "score": 22,
-      "modifier": 6,
-      "savingThrow": 6
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
     },
     "con": {
-      "score": 26,
-      "modifier": 8,
-      "savingThrow": 8
+      "score": 15,
+      "modifier": 2,
+      "savingThrow": 2
     },
     "int": {
-      "score": 25,
-      "modifier": 7,
-      "savingThrow": 7
+      "score": 2,
+      "modifier": -4,
+      "savingThrow": -4
     },
     "wis": {
-      "score": 25,
-      "modifier": 7,
-      "savingThrow": 7
+      "score": 8,
+      "modifier": -1,
+      "savingThrow": -1
     },
     "cha": {
-      "score": 30,
-      "modifier": 10,
-      "savingThrow": 10
+      "score": 5,
+      "modifier": -3,
+      "savingThrow": -3
     }
   },
   "statSections": [
@@ -83,8 +83,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.221",
         "heading": "Actions",
-        "lineStart": 24825,
-        "lineEnd": 24827
+        "lineStart": 24821,
+        "lineEnd": 24823
       }
     }
   ],

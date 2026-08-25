@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.5",
     "heading": "Archelon",
-    "lineStart": 26660,
-    "lineEnd": 26687
+    "lineStart": 26656,
+    "lineEnd": 26683
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/archelon/"
@@ -85,8 +85,8 @@
         "chapter": "Animals",
         "section": "13.5",
         "heading": "Traits",
-        "lineStart": 26679,
-        "lineEnd": 26681
+        "lineStart": 26675,
+        "lineEnd": 26677
       }
     },
     {
@@ -96,8 +96,8 @@
         "chapter": "Animals",
         "section": "13.5",
         "heading": "Actions",
-        "lineStart": 26683,
-        "lineEnd": 26687
+        "lineStart": 26679,
+        "lineEnd": 26683
       }
     }
   ],

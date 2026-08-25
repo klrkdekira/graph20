@@ -18,7 +18,7 @@
     "@id": "https://cheeleong.dev/graph20/records/rules/6-66-arcane-focus-varies/"
   },
   "section": "6.66",
-  "rulesText": "An Arcane Focus takes one of the forms in the Arcane Focuses table and is be jeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.",
+  "rulesText": "An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus.",
   "relatedTables": [
     {
       "@id": "https://cheeleong.dev/graph20/objects/tables/6-66-arcane-focuses"

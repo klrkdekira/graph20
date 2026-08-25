@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.63",
     "heading": "Mammoth",
-    "lineStart": 28200,
-    "lineEnd": 28226
+    "lineStart": 28196,
+    "lineEnd": 28222
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/mammoth/"
@@ -81,8 +81,8 @@
         "chapter": "Animals",
         "section": "13.63",
         "heading": "Actions",
-        "lineStart": 28218,
-        "lineEnd": 28222
+        "lineStart": 28214,
+        "lineEnd": 28218
       }
     },
     {
@@ -92,8 +92,8 @@
         "chapter": "Animals",
         "section": "13.63",
         "heading": "Bonus Actions",
-        "lineStart": 28224,
-        "lineEnd": 28226
+        "lineStart": 28220,
+        "lineEnd": 28222
       }
     }
   ],

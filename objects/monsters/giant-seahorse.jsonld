@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.45",
     "heading": "Giant Seahorse",
-    "lineStart": 27713,
-    "lineEnd": 27741
+    "lineStart": 27709,
+    "lineEnd": 27737
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/giant-seahorse/"
@@ -42,19 +42,19 @@
   "proficiencyBonus": 2,
   "abilities": {
     "str": {
-      "score": 14,
+      "score": 15,
       "modifier": 2,
       "savingThrow": 2
     },
     "dex": {
-      "score": 16,
-      "modifier": 3,
-      "savingThrow": 3
-    },
-    "con": {
       "score": 12,
       "modifier": 1,
       "savingThrow": 1
+    },
+    "con": {
+      "score": 11,
+      "modifier": 0,
+      "savingThrow": 0
     },
     "int": {
       "score": 2,
@@ -62,12 +62,12 @@
       "savingThrow": -4
     },
     "wis": {
-      "score": 11,
-      "modifier": 0,
-      "savingThrow": 0
+      "score": 12,
+      "modifier": 1,
+      "savingThrow": 1
     },
     "cha": {
-      "score": 4,
+      "score": 5,
       "modifier": -3,
       "savingThrow": -3
     }
@@ -80,8 +80,8 @@
         "chapter": "Animals",
         "section": "13.45",
         "heading": "Traits",
-        "lineStart": 27731,
-        "lineEnd": 27733
+        "lineStart": 27727,
+        "lineEnd": 27729
       }
     },
     {
@@ -91,8 +91,8 @@
         "chapter": "Animals",
         "section": "13.45",
         "heading": "Actions",
-        "lineStart": 27735,
-        "lineEnd": 27737
+        "lineStart": 27731,
+        "lineEnd": 27733
       }
     },
     {
@@ -102,8 +102,8 @@
         "chapter": "Animals",
         "section": "13.45",
         "heading": "Bonus Actions",
-        "lineStart": 27739,
-        "lineEnd": 27741
+        "lineStart": 27735,
+        "lineEnd": 27737
       }
     }
   ],

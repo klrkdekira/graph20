@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.18",
     "heading": "Deer",
-    "lineStart": 26995,
-    "lineEnd": 27020
+    "lineStart": 26991,
+    "lineEnd": 27016
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/deer/"
@@ -81,8 +81,8 @@
         "chapter": "Animals",
         "section": "13.18",
         "heading": "Traits",
-        "lineStart": 27014,
-        "lineEnd": 27016
+        "lineStart": 27010,
+        "lineEnd": 27012
       }
     },
     {
@@ -92,8 +92,8 @@
         "chapter": "Animals",
         "section": "13.18",
         "heading": "Actions",
-        "lineStart": 27018,
-        "lineEnd": 27020
+        "lineStart": 27014,
+        "lineEnd": 27016
       }
     }
   ],

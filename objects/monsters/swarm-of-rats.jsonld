@@ -11,8 +11,8 @@
     "chapter": "Animals",
     "section": "13.86",
     "heading": "Swarm of Rats",
-    "lineStart": 28818,
-    "lineEnd": 28844
+    "lineStart": 28814,
+    "lineEnd": 28840
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/swarm-of-rats/"
@@ -86,8 +86,8 @@
         "chapter": "Animals",
         "section": "13.86",
         "heading": "Traits",
-        "lineStart": 28838,
-        "lineEnd": 28840
+        "lineStart": 28834,
+        "lineEnd": 28836
       }
     },
     {
@@ -97,8 +97,8 @@
         "chapter": "Animals",
         "section": "13.86",
         "heading": "Actions",
-        "lineStart": 28842,
-        "lineEnd": 28844
+        "lineStart": 28838,
+        "lineEnd": 28840
       }
     }
   ],

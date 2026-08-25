@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.188",
     "heading": "Planetar",
-    "lineStart": 23748,
-    "lineEnd": 23796
+    "lineStart": 23744,
+    "lineEnd": 23792
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/planetar/"
@@ -49,34 +49,34 @@
   "proficiencyBonus": 5,
   "abilities": {
     "str": {
-      "score": 26,
-      "modifier": 8,
-      "savingThrow": 8
+      "score": 24,
+      "modifier": 7,
+      "savingThrow": 12
     },
     "dex": {
-      "score": 14,
-      "modifier": 2,
-      "savingThrow": 8
+      "score": 20,
+      "modifier": 5,
+      "savingThrow": 5
     },
     "con": {
       "score": 24,
       "modifier": 7,
-      "savingThrow": 7
+      "savingThrow": 12
     },
     "int": {
-      "score": 22,
-      "modifier": 6,
-      "savingThrow": 6
+      "score": 19,
+      "modifier": 4,
+      "savingThrow": 4
     },
     "wis": {
-      "score": 18,
-      "modifier": 4,
-      "savingThrow": 10
+      "score": 22,
+      "modifier": 6,
+      "savingThrow": 11
     },
     "cha": {
-      "score": 24,
+      "score": 25,
       "modifier": 7,
-      "savingThrow": 7
+      "savingThrow": 12
     }
   },
   "statSections": [
@@ -87,8 +87,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.188",
         "heading": "Traits",
-        "lineStart": 23771,
-        "lineEnd": 23777
+        "lineStart": 23767,
+        "lineEnd": 23773
       }
     },
     {
@@ -98,8 +98,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.188",
         "heading": "Actions",
-        "lineStart": 23779,
-        "lineEnd": 23792
+        "lineStart": 23775,
+        "lineEnd": 23788
       }
     },
     {
@@ -109,8 +109,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.188",
         "heading": "Bonus Actions",
-        "lineStart": 23794,
-        "lineEnd": 23796
+        "lineStart": 23790,
+        "lineEnd": 23792
       }
     }
   ],

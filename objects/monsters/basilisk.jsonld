@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.21",
     "heading": "Basilisk",
-    "lineStart": 18424,
-    "lineEnd": 18450
+    "lineStart": 18420,
+    "lineEnd": 18446
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/basilisk/"
@@ -81,8 +81,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.21",
         "heading": "Actions",
-        "lineStart": 18444,
-        "lineEnd": 18446
+        "lineStart": 18440,
+        "lineEnd": 18442
       }
     },
     {
@@ -92,8 +92,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.21",
         "heading": "Bonus Actions",
-        "lineStart": 18448,
-        "lineEnd": 18450
+        "lineStart": 18444,
+        "lineEnd": 18446
       }
     }
   ],

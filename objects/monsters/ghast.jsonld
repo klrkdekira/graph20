@@ -11,8 +11,8 @@
     "chapter": "Monsters A-Z",
     "section": "12.97",
     "heading": "Ghast",
-    "lineStart": 20880,
-    "lineEnd": 20910
+    "lineStart": 20876,
+    "lineEnd": 20906
   },
   "htmlPage": {
     "@id": "https://cheeleong.dev/graph20/records/monsters/ghast/"
@@ -82,8 +82,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.97",
         "heading": "Traits",
-        "lineStart": 20902,
-        "lineEnd": 20904
+        "lineStart": 20898,
+        "lineEnd": 20900
       }
     },
     {
@@ -93,8 +93,8 @@
         "chapter": "Monsters A-Z",
         "section": "12.97",
         "heading": "Actions",
-        "lineStart": 20906,
-        "lineEnd": 20910
+        "lineStart": 20902,
+        "lineEnd": 20906
       }
     }
   ],
